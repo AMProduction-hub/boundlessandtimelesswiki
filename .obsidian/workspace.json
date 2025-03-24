@@ -1,0 +1,236 @@
+{
+  "main": {
+    "id": "12ae8d3c2dc1799a",
+    "type": "split",
+    "children": [
+      {
+        "id": "11e6320ebcf4f114",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "14b03f4f5e5ba269",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02 - NPCs & Factions/Forgotten Realms Pantheon/Faeurinian Pantheon/Faeurinian Pantheon.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Faeurinian Pantheon"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f1b4b3e145457a4b",
+    "type": "split",
+    "children": [
+      {
+        "id": "61d1bd92f2586f82",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9f54d66b8838b5ac",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "c66996f9db1a4a7f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "6787a463d5c6e667",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "cf7b2befd3e5b8fb",
+    "type": "split",
+    "children": [
+      {
+        "id": "db99f528ef87e573",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c906c79932c05f38",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "7ab2d1b239e9be6b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Factions/Bureau of Time and Plane.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Bureau of Time and Plane"
+            }
+          },
+          {
+            "id": "de5d63b39991278f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "f0616d86f7318297",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "02 - NPCs & Factions/Forgotten Realms Pantheon/Faeurinian Pantheon/Faeurinian Pantheon.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Faeurinian Pantheon"
+            }
+          },
+          {
+            "id": "e9ad397d83e48c4e",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "b4a84abc819025ab",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-git:Open Git source control": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "9f54d66b8838b5ac",
+  "lastOpenFiles": [
+    "Boundless-and-Timeless_DNDCampaign_ObsidianNote",
+    "z_Assets/Pasted image 20250324160710.png",
+    "02 - NPCs & Factions/Forgotten Realms Pantheon/Forgotten Realms Pantheon.md",
+    "02 - NPCs & Factions/Forgotten Realms Pantheon/Faeurinian Pantheon/Faeurinian Pantheon.md",
+    "02 - NPCs & Factions/Forgotten Realms Pantheon/Faeurinian Pantheon/Faeurinian Pantheon.canvas",
+    "02 - NPCs & Factions/Forgotten Realms Pantheon/Orc Pantheon",
+    "02 - NPCs & Factions/Forgotten Realms Pantheon/Gnomish Pantheon",
+    "02 - NPCs & Factions/Forgotten Realms Pantheon/Drow Pantheon",
+    "02 - NPCs & Factions/Forgotten Realms Pantheon/Halfling Pantheon",
+    "02 - NPCs & Factions/Forgotten Realms Pantheon/Elven Pantheon",
+    "02 - NPCs & Factions/Forgotten Realms Pantheon/Dwarven Pantheon",
+    "02 - NPCs & Factions/Forgotten Realms Pantheon/Faeurinian Pantheon",
+    "02 - NPCs & Factions/Forgotten Realms Pantheon/Amaunator.md",
+    "01 - Into The Stories/02 - ACT 1 - Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/War-Torn Plane - Stalemate of the Titans.md",
+    "01 - Into The Stories/02 - ACT 1 - Artifacts Hunting/Tech-Dominant Plane - A Fistful of Schemes/Tech-Dominant Plane - A Fistful of Schemes.md",
+    "01 - Into The Stories/02 - ACT 1 - Artifacts Hunting/Sunless World - The Hidden Truth/Sunless World - The Hidden Truth.md",
+    "01 - Into The Stories/02 - ACT 1 - Artifacts Hunting/Fallen Paladin’s Past - A Father’s Burden/Fallen Paladin’s Past - A Father’s Burden.md",
+    "01 - Into The Stories/02 - ACT 1 - Artifacts Hunting/Plane of Greed - Smaug's Challenge/Plane of Greed - Smaug's Challenge.md",
+    "01 - Into The Stories/01 - Prologue/01 - Prologue.md",
+    "00 - Introduction/01 - Overview/01 - Overview.md",
+    "02 - NPCs & Factions/Forgotten Realms Gods/Faerun's Deity.md",
+    "01 - Into The Stories/01 - Prologue/Into The Bureau.md",
+    "00 - Introduction/02 - Players/02 - Players.canvas",
+    "00 - Introduction/01 - Overview/Overview.md",
+    "03 - Act 2 - The Planescape Conflict.md",
+    "ACT1.md",
+    "02 - Act 1 - Artifacts Hunt.md",
+    "Boundless and Timeless.md",
+    "00 - Introduction.md",
+    "01 - Prologue.md",
+    "02 - NPCs & Factions/Bureau of Time and Plane/Shaperite - The Agent.md",
+    "00 - Introduction/01 - Overview",
+    "00 - Introduction/01 - Overview.md",
+    "02 - NPCs & Factions/Forgotten Realms Pantheon",
+    "02 - NPCs & Factions/Bureau of Time and Plane/Pustakawan - Bureau Liasion.md",
+    "02 - NPCs & Factions/Bureau of Time and Plane/Damian - The Squeeky Devils.md",
+    "02 - NPCs & Factions/Bureau of Time and Plane/Awanama - Leader of Bureau.md",
+    "00 - Introduction/04 - Tables Etiquette",
+    "01 - Into The Stories/02 - ACT 1 - Artifacts Hunting/Untitled/Untitled.md",
+    "Untitled.canvas",
+    "z_Templates/zz_asset-files/ImagePlaceholder.png",
+    "z_Templates/zz_asset-files/MapPlaceholder.png"
+  ]
+}
