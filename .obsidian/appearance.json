@@ -1,4 +1,5 @@
 {
   "cssTheme": "ITS Theme",
-  "baseFontSizeAction": true
+  "baseFontSizeAction": true,
+  "accentColor": "#e9cd16"
 }

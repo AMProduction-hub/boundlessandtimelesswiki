@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "FarChessKnight",
-      "RaCrossedPistols",
-      "RaDrippingSword",
-      "LiSunMoon",
-      "LiCoins"
+      "LiGlobe",
+      "🗺",
+      "LiTimer",
+      "FasPeopleGroup",
+      "LiScrollText"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -41,5 +41,10 @@
   "01 - Into The Stories/02 - ACT 1 - Artifacts Hunting/War-Torn Plane - Stalemate of the Titans": {
     "iconName": "FarChessKnight",
     "iconColor": "#787878"
-  }
+  },
+  "00 - Introduction/03 - Houses Rules": "LiScrollText",
+  "00 - Introduction/02 - Players": "FasPeopleGroup",
+  "01 - Into The Stories/02 - ACT 1 - Artifacts Hunting/The Show! - Orwellian Reality Bending Game Show": "LiTimer",
+  "00 - Introduction/01 - Overview": "LiGlobe",
+  "00 - Introduction/04 - Tables Etiquette": "FasPeopleGroup"
 }

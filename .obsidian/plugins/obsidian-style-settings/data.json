@@ -7,6 +7,10 @@
   "ITS@@its-d": false,
   "ITS@@writing-document": false,
   "ITS@@slrvb-b": false,
-  "ITS@@select": "dnd",
-  "ITS@@mini": false
+  "ITS@@select": "wotc-beyond",
+  "ITS@@mini": false,
+  "ITS@@breadcrumbs-block": true,
+  "ITS@@notion": false,
+  "ITS@@dataview-regular-table": true,
+  "ITS@@slrvb-g": false
 }
