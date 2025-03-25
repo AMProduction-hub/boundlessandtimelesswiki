@@ -1,5 +1,6 @@
 {
   "cssTheme": "ITS Theme",
   "baseFontSizeAction": true,
-  "accentColor": "#e9cd16"
+  "accentColor": "#e9cd16",
+  "theme": "obsidian"
 }

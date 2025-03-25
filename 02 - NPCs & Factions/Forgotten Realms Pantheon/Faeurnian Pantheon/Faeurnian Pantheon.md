@@ -1,1 +1,0 @@
-![[faerunian_pantheon.png]]
