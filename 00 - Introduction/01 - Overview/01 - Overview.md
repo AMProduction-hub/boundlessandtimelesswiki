@@ -7,6 +7,7 @@ _A High-Stakes Planescape Adventure_
 - [[03 - Houses Rules]]
 - [[04 - Tables Etiquette]]
 
-# Allowed Materials
+# **Allowed Materials**
 Berikut ini adalah list dari sourcebook yang boleh digunakan:
-- Core Rules
+- Core Rules (PHB 2014) + All Official WOTC Pre-PHB 2024
+- Homebrew: Perlu menginformasikan GM sebelum menggunakan

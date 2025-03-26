@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 - Introduction/03 - Houses Rules/Spells/Counterspell.md",
+                "file": "00 - Introduction/01 - Overview/01 - Overview.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Counterspell"
+              "title": "01 - Overview"
             }
           }
         ]
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00 - Introduction/03 - Houses Rules/Spells/Counterspell.md",
+                "file": "00 - Introduction/03 - Houses Rules/Spells/Spells.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Counterspell"
+              "title": "Backlinks for Spells"
             }
           },
           {
@@ -152,13 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 - Introduction/03 - Houses Rules/Spells/Counterspell.md",
+                "file": "00 - Introduction/01 - Overview/01 - Overview.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Counterspell"
+              "title": "Outline of 01 - Overview"
             }
           },
           {
@@ -202,17 +202,27 @@
       "obsidian-leaflet-plugin:Open Leaflet Map": false
     }
   },
-  "active": "0ec0181786e1fca6",
+  "active": "9f54d66b8838b5ac",
   "lastOpenFiles": [
+    "00 - Introduction/03 - Houses Rules/Characters Specific Rules/Levels Tiers.md",
+    "00 - Introduction/03 - Houses Rules/Characters Specific Rules/Ability Scores, Feats & Skills Progression.md",
+    "00 - Introduction/03 - Houses Rules/Spells/Counterspell.md",
     "00 - Introduction/03 - Houses Rules/Spells/Minor Illusion.md",
     "00 - Introduction/03 - Houses Rules/Spells/Wish.md",
     "00 - Introduction/03 - Houses Rules/Bonus Actions.md",
-    "00 - Introduction/03 - Houses Rules/Characters Specific Rules/Ability Scores & Feats.md",
-    "00 - Introduction/03 - Houses Rules/Characters Specific Rules/Classes/Martial/Fighter.md",
-    "00 - Introduction/03 - Houses Rules/Characters Specific Rules/Classes/Martial/Martial.md",
-    "00 - Introduction/03 - Houses Rules/Characters Specific Rules/Classes/Classes.md",
+    "00 - Introduction/03 - Houses Rules/Tables Etiquette.md",
+    "00 - Introduction/01 - Overview/01 - Overview.md",
+    "01 - Into The Stories/01 - Prologue/01 - Prologue.md",
+    "00 - Introduction/03 - Houses Rules/03 - Houses Rules.md",
     "00 - Introduction/03 - Houses Rules/Dices House Rules.md",
-    "00 - Introduction/03 - Houses Rules/Characters Specific Rules/Levels Tiers.md",
+    "00 - Introduction/03 - Houses Rules/Characters Specific Rules/Classes/Caster/Sorcerer/Wild Magic.md",
+    "00 - Introduction/04 - Tables Etiquette/04 - Tables Etiquette.md",
+    "00 - Introduction/03 - Houses Rules/Characters Specific Rules/Characters Specific Rules.md",
+    "00 - Introduction/03 - Houses Rules/Characters Specific Rules/Classes/Classes.md",
+    "00 - Introduction/03 - Houses Rules/Characters Specific Rules/Classes/Martial/Martial.md",
+    "00 - Introduction/03 - Houses Rules/Characters Specific Rules/Classes/Martial/Fighter.md",
+    "00 - Introduction/03 - Houses Rules/Characters Specific Rules/Classes/Caster/Caster.md",
+    "00 - Introduction/03 - Houses Rules/Spells/Spells.md",
     "z_Templates/2_Mechanics Gallery/Equipment/Template - Mundane Armor_Shield.md",
     "z_Templates/2_Mechanics Gallery/Characters/Template - Background.md",
     "z_Templates/2_Mechanics Gallery/Characters/Template - Archetype_Domain_Etc..md",
@@ -220,16 +230,6 @@
     "z_Templates/2_Mechanics Gallery/Abilities/Template - Spell.md",
     "z_Templates/2_Mechanics Gallery/Abilities/Template - Skill.md",
     "z_Templates/2_Mechanics Gallery/Abilities/Template - General Abilities Article.md",
-    "z_Templates/2_Mechanics Gallery/Abilities/Template - Feat.md",
-    "z_Templates/1_Story World Templates/Sources/Template - Story Source.md",
-    "z_Templates/1_Story World Templates/Sources/Template - Player Synopsis.md",
-    "00 - Introduction/01 - Overview/01 - Overview.md",
-    "z_Templates/1_Story World Templates/Sources/Template - GM Synopsis.md",
-    "00 - Introduction/03 - Houses Rules/03 - Houses Rules.md",
-    "00 - Introduction/04 - Tables Etiquette/04 - Tables Etiquette.md",
-    "00 - Introduction/03 - Houses Rules/Spells/Spells.md",
-    "00 - Introduction/03 - Houses Rules/Characters Specific Rules/Characters Specific Rules.md",
-    "00 - Introduction/03 - Houses Rules/Spells/Counterspell.md",
     "00 - Introduction/03 - Houses Rules/Spells",
     "00 - Introduction/03 - Houses Rules/Characters Specific Rules/Classes/Caster/Sorcerer/Wild Magic",
     "00 - Introduction/03 - Houses Rules/Characters Specific Rules/Classes/Caster/Sorcerer",

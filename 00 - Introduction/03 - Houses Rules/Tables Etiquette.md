@@ -1,4 +1,4 @@
-# Table Etiquette
+# **Table Etiquette**
 
 1. _You can be a dick, but you can’t be an asshole._
 2. Player di harap untuk melepaskan paham “_Speed Running_” pada TTRPG.

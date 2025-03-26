@@ -1,9 +1,10 @@
 # [[Wild Magic]]
-Pemain yang menggunakan subclass akan mendapatkan bonus mengurangi biaya metamagic dengan rumus;
+Pemain yang menggunakan subclass akan mendapatkan bonus mengurangi biaya meta magic dengan rumus;
 
 $Metamagic Cost > 1 = MetamagicCost - 1$
 
 Ketika player casting spell diatas level 1 pemain harus roll $d20$ vs DC Spellcaster, jika hasil adalah sama dengan kurang maka pemain harus roll $d100$ Wild Magic table seperti ini:
+### Wild Magic Surge
 
 | D100 | Effect                                                                                                                                                              |
 | ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

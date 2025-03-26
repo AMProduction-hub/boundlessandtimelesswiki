@@ -1,9 +1,9 @@
-# [[Classes]]
+# **[[Classes]]**
 Berikut adalah modifikasi untuk class berdasarkan Martial / Caster dari class karakter yang player buat:
 - [[Martial]]
 - [[Caster]]
 
-# Multiclasses
+# **Multiclasses**
 Multiclass pada campaign ini diperbolehkan jika Ability Scores (Strength, Dexterity, Constitution, Wisdom, Charisma) memenuhi syarat untuk multiclass class yang dipilih:
 
 | Class     | Ability Score Minimum       |

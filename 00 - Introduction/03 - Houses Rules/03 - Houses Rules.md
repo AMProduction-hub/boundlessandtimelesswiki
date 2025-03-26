@@ -1,4 +1,4 @@
-# Campaign House Rules
+# **Campaign House Rules**
 Here are some house rules that applied in this current campaign
 
 *Quick Link*:
@@ -6,3 +6,4 @@ Here are some house rules that applied in this current campaign
 - [[Bonus Actions]]
 - [[Characters Specific Rules]]
 - [[Spells]]
+- [[Tables Etiquette]]
