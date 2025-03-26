@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 - Introduction/01 - Overview/01 - Overview.md",
+                "file": "Readme.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "01 - Overview"
+              "title": "Readme"
             }
           }
         ]
@@ -152,13 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 - Introduction/01 - Overview/01 - Overview.md",
+                "file": "Readme.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 01 - Overview"
+              "title": "Outline of Readme"
             }
           },
           {
@@ -202,8 +202,11 @@
       "obsidian-leaflet-plugin:Open Leaflet Map": false
     }
   },
-  "active": "9f54d66b8838b5ac",
+  "active": "0ec0181786e1fca6",
   "lastOpenFiles": [
+    "00 - Introduction/01 - Overview/01 - Overview.md",
+    "Readme.md",
+    "ntitled",
     "00 - Introduction/03 - Houses Rules/Characters Specific Rules/Levels Tiers.md",
     "00 - Introduction/03 - Houses Rules/Characters Specific Rules/Ability Scores, Feats & Skills Progression.md",
     "00 - Introduction/03 - Houses Rules/Spells/Counterspell.md",
@@ -211,7 +214,6 @@
     "00 - Introduction/03 - Houses Rules/Spells/Wish.md",
     "00 - Introduction/03 - Houses Rules/Bonus Actions.md",
     "00 - Introduction/03 - Houses Rules/Tables Etiquette.md",
-    "00 - Introduction/01 - Overview/01 - Overview.md",
     "01 - Into The Stories/01 - Prologue/01 - Prologue.md",
     "00 - Introduction/03 - Houses Rules/03 - Houses Rules.md",
     "00 - Introduction/03 - Houses Rules/Dices House Rules.md",
@@ -229,7 +231,6 @@
     "z_Templates/2_Mechanics Gallery/Characters/Template - Class.md",
     "z_Templates/2_Mechanics Gallery/Abilities/Template - Spell.md",
     "z_Templates/2_Mechanics Gallery/Abilities/Template - Skill.md",
-    "z_Templates/2_Mechanics Gallery/Abilities/Template - General Abilities Article.md",
     "00 - Introduction/03 - Houses Rules/Spells",
     "00 - Introduction/03 - Houses Rules/Characters Specific Rules/Classes/Caster/Sorcerer/Wild Magic",
     "00 - Introduction/03 - Houses Rules/Characters Specific Rules/Classes/Caster/Sorcerer",
@@ -242,7 +243,6 @@
     "00 - Introduction/03 - Houses Rules/Characters Specific Rules",
     "z_Templates/zz_asset-files/MapPlaceholder.png",
     "z_Templates/zz_asset-files/ImagePlaceholder.png",
-    "01 - Into The Stories/02 - ACT 1 - Artifacts Hunting/The Show! - Orwellian Reality Bending Game Show",
     "z_Assets/Forgotten Realms Pantheon/Faerunian Pantheon/faerunian_pantheon.png",
     "02 - NPCs & Factions/Forgotten Realms Pantheon/Faeurinian Pantheon/Faeurinian Pantheon.canvas",
     "00 - Introduction/02 - Players/02 - Players.canvas",
