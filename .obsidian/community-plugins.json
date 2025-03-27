@@ -8,5 +8,7 @@
   "obsidian-admonition",
   "obsidian-text-format",
   "folder-notes",
-  "obsidian-leaflet-plugin"
+  "obsidian-leaflet-plugin",
+  "remotely-save",
+  "dataview"
 ]
