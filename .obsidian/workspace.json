@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "01 - Into The Stories/01 - Into The Stories.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "01 - Into The Stories"
             }
           }
         ]
@@ -246,6 +246,8 @@
   },
   "active": "119c6f735163407e",
   "lastOpenFiles": [
+    "01 - Into The Stories/01 - Into The Stories.md",
+    "00 - Introduction/01 - Overview/01 - Overview.md",
     "index.md",
     "00 - Introduction/03 - Houses Rules/03 - Houses Rules.md",
     "Wiki/quartz/node_modules/escalade/sync/index.mjs",
@@ -280,8 +282,6 @@
     "Wiki/quartz/docs/plugins/ExplicitPublish.md",
     "Wiki/quartz/docs/plugins/Description.md",
     "Wiki/quartz/docs/plugins/CustomOgImages.md",
-    "Wiki/quartz/docs/plugins/CreatedModifiedDate.md",
-    "Wiki/quartz/docs/plugins/CrawlLinks.md",
     "Wiki/quartz/node_modules/cli-spinner/img/spinner.gif",
     "Wiki/quartz/node_modules/js-binary-schema-parser/example/dog.gif",
     "Wiki/quartz/node_modules/js-binary-schema-parser/example/horses.gif",
