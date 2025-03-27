@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "22cf7a9a062e7097",
+        "id": "6fa304c110a0267c",
         "type": "tabs",
         "children": [
           {
-            "id": "0ec0181786e1fca6",
+            "id": "119c6f735163407e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 - Introduction/03 - Houses Rules/03 - Houses Rules.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "03 - Houses Rules"
+              "title": "index"
             }
           }
         ]
@@ -152,13 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 - Introduction/03 - Houses Rules/03 - Houses Rules.md",
+                "file": "index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 03 - Houses Rules"
+              "title": "Outline of index"
             }
           },
           {
@@ -180,9 +180,45 @@
               "icon": "spreadsheet",
               "title": "Advanced Tables"
             }
+          },
+          {
+            "id": "b46808498e0f23b9",
+            "type": "leaf",
+            "state": {
+              "type": "DICE_ROLLER_VIEW",
+              "state": {},
+              "icon": "dices",
+              "title": "Dice Tray"
+            }
+          },
+          {
+            "id": "c7bfcadfb16b79d9",
+            "type": "leaf",
+            "state": {
+              "type": "initiative-tracker-view",
+              "state": {},
+              "icon": "initiative-tracker",
+              "title": "Initiative Tracker"
+            }
           }
         ],
         "currentTab": 4
+      },
+      {
+        "id": "818e9fc38712af13",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5241d4770797c10d",
+            "type": "leaf",
+            "state": {
+              "type": "fantasy-statblocks-creature-pane",
+              "state": {},
+              "icon": "skull",
+              "title": "Combatant"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -200,57 +236,62 @@
       "obsidian-git:Open Git source control": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-leaflet-plugin:Open Leaflet Map": false,
-      "remotely-save:Remotely Save": false
+      "remotely-save:Remotely Save": false,
+      "obsidian-5e-statblocks:Open Creature pane": false,
+      "initiative-tracker:Initiative Tracker Encounter Builder": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-textgenerator-plugin:Generate Text!": false,
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "0ec0181786e1fca6",
+  "active": "119c6f735163407e",
   "lastOpenFiles": [
-    "01 - Into The Stories/01 - Into The Stories.md",
-    "mysite/docs/z_Templates/3_Markdown/Insert Rollable Table/Insert Rollable Table.md",
-    "mysite/docs/z_Templates/3_Markdown/Insert Rollable Table/Insert Rollable Table - d8.md",
-    "mysite/docs/z_Templates/3_Markdown/Insert Rollable Table/Insert Rollable Table - d6.md",
-    "mysite/docs/z_Templates/3_Markdown/Insert Rollable Table/Insert Rollable Table - d4.md",
-    "mysite/docs/z_Templates/3_Markdown/Insert Rollable Table/Insert Rollable Table - d12.md",
-    "mysite/docs/z_Templates/3_Markdown/Insert Rollable Table/Insert Rollable Table - d20.md",
-    "mysite/docs/z_Templates/3_Markdown/Insert Rollable Table/Insert Rollable Table - d100.md",
-    "mysite/docs/z_Templates/3_Markdown/Insert Rollable Table/Insert Rollable Table - d10.md",
-    "mysite/docs/z_Templates/3_Markdown/Combat Templates/Insert Random Encounter Table (Initiative Tracker).md",
-    "mysite/docs/z_Templates/3_Markdown/Combat Templates/Insert Multiple Encounters Table (Initiative Tracker).md",
-    "mysite/docs/z_Templates/3_Markdown/Combat Templates/Insert Multiple Encounters (Initiative Tracker) 1.md",
-    "mysite/docs/z_Templates/3_Markdown/Combat Templates/Insert Monster Into Table (Initiative Tracker).md",
-    "mysite/docs/z_Templates/3_Markdown/Combat Templates/Insert Monster (TTRPG Statblock).md",
-    "mysite/docs/z_Templates/3_Markdown/Combat Templates/Insert Custom Encounter (Initiative Tracker).md",
-    "mysite/docs/z_Templates/3_Markdown/Combat Templates/Insert Encounter (Initiative Tracker).md",
-    "mysite/docs/z_Templates/3_Markdown/Combat Templates/Insert Customer Monster (TTRPG Statblock).md",
-    "mysite/docs/z_Templates/3_Markdown/Combat Templates/Insert Custom Encounter Table (Initiative Tracker).md",
-    "mysite/docs/z_Templates/3_Markdown/Call Out Boxes (Admonition)/Call Out Boxes (Admonition).md",
-    "mysite/docs/z_Templates/3_Markdown/Call Out Boxes (Admonition)/Call Out - GM Direction.md",
-    "mysite/docs/z_Templates/3_Markdown/Call Out Boxes (Admonition)/Call Out - Read Aloud.md",
-    "mysite/docs/z_Templates/3_Markdown/Call Out Boxes (Admonition)/Call Out - Message.md",
-    "mysite/docs/z_Templates/3_Markdown/Call Out Boxes (Admonition)/Call Out - Treasure.md",
-    "mysite/docs/z_Templates/3_Markdown/Call Out Boxes (Admonition)/Call Out - Trap.md",
-    "mysite/docs/z_Templates/3_Markdown/Call Out Boxes (Admonition)/Call Out - Magic Item.md",
-    "mysite/docs/z_Templates/3_Markdown/Call Out Boxes (Admonition)/Call Out - Flavor.md",
-    "mysite/docs/z_Templates/3_Markdown/Insert Rollable Table",
-    "mysite/docs/z_Templates/3_Markdown/Combat Templates",
-    "mysite/docs/z_Templates/3_Markdown/Call Out Boxes (Admonition)",
-    "mysite/docs/z_Templates/zz_asset-files/MapPlaceholder.png",
-    "mysite/docs/z_Templates/zz_asset-files/ImagePlaceholder.png",
-    "mysite/docs/z_Templates/2_Mechanics Gallery/Other",
-    "mysite/docs/z_Templates/2_Mechanics Gallery/Mechanic Sources",
-    "mysite/docs/z_Templates/2_Mechanics Gallery/Gameplay",
-    "mysite/docs/z_Templates/2_Mechanics Gallery/Game Mastering",
-    "mysite/docs/z_Templates/2_Mechanics Gallery/Equipment",
-    "mysite/docs/z_Templates/2_Mechanics Gallery/Dangers",
-    "mysite/docs/z_Templates/2_Mechanics Gallery/Characters",
-    "mysite/docs/z_Assets/Worlds/Prologue/World/GreatWheelofCosmology/GreatWheelofCosmology.jpg",
-    "mysite/docs/z_Assets/Worlds/ACT 2 - Planescape Conflict/planescape-setting.webp",
-    "mysite/docs/z_Assets/Forgotten Realms Pantheon/Faerunian Pantheon/faerunian_pantheon.png",
-    "z_Assets/Worlds/Prologue/World/GreatWheelofCosmology/GreatWheelofCosmology.jpg",
-    "z_Assets/Worlds/ACT 2 - Planescape Conflict/planescape-setting.webp",
-    "z_Assets/Forgotten Realms Pantheon/Faerunian Pantheon/faerunian_pantheon 1.png",
-    "z_Templates/zz_asset-files/MapPlaceholder.png",
-    "z_Templates/zz_asset-files/ImagePlaceholder.png",
+    "index.md",
+    "00 - Introduction/03 - Houses Rules/03 - Houses Rules.md",
+    "Wiki/quartz/node_modules/escalade/sync/index.mjs",
+    "Wiki/quartz/node_modules/escalade/sync/index.js",
+    "Wiki/quartz/node_modules/escalade/sync/index.d.ts",
+    "Wiki/quartz/node_modules/escalade/sync",
+    "Wiki/quartz/node_modules/earcut/src/earcut.js",
+    "Wiki/quartz/node_modules/earcut/src",
+    "Wiki/quartz/node_modules/dequal/lite/index.mjs",
+    "Wiki/quartz/node_modules/dequal/lite/index.min.js",
+    "Wiki/quartz/node_modules/dequal/lite/index.js",
+    "Wiki/quartz/node_modules/dequal/lite/index.d.ts",
+    "Wiki/quartz/node_modules/@shikijs/engine-oniguruma/README.md",
+    "Wiki/quartz/node_modules/@shikijs/engine-javascript/README.md",
+    "Wiki/quartz/docs/tags/component.md",
+    "Wiki/quartz/docs/tags/plugin.md",
+    "Wiki/quartz/docs/plugins/TagPage.md",
+    "Wiki/quartz/docs/plugins/TableOfContents.md",
+    "Wiki/quartz/docs/plugins/SyntaxHighlighting.md",
+    "Wiki/quartz/docs/plugins/Static.md",
+    "Wiki/quartz/docs/plugins/RoamFlavoredMarkdown.md",
+    "Wiki/quartz/docs/plugins/RemoveDrafts.md",
+    "Wiki/quartz/docs/plugins/OxHugoFlavoredMarkdown.md",
+    "Wiki/quartz/docs/plugins/ObsidianFlavoredMarkdown.md",
+    "Wiki/quartz/docs/plugins/HardLineBreaks.md",
+    "Wiki/quartz/docs/plugins/NotFoundPage.md",
+    "Wiki/quartz/docs/plugins/Latex.md",
+    "Wiki/quartz/docs/plugins/GitHubFlavoredMarkdown.md",
+    "Wiki/quartz/docs/plugins/index.md",
+    "Wiki/quartz/docs/plugins/Frontmatter.md",
+    "Wiki/quartz/docs/plugins/FolderPage.md",
+    "Wiki/quartz/docs/plugins/ExplicitPublish.md",
+    "Wiki/quartz/docs/plugins/Description.md",
+    "Wiki/quartz/docs/plugins/CustomOgImages.md",
+    "Wiki/quartz/docs/plugins/CreatedModifiedDate.md",
+    "Wiki/quartz/docs/plugins/CrawlLinks.md",
+    "Wiki/quartz/node_modules/cli-spinner/img/spinner.gif",
+    "Wiki/quartz/node_modules/js-binary-schema-parser/example/dog.gif",
+    "Wiki/quartz/node_modules/js-binary-schema-parser/example/horses.gif",
+    "Wiki/quartz/node_modules/js-binary-schema-parser/example/box.gif",
+    "Wiki/quartz/node_modules/gifuct-js/demo/jblack.gif",
+    "Wiki/quartz/node_modules/gifuct-js/demo/dog.gif",
+    "Wiki/quartz/node_modules/gifuct-js/demo/horses.gif",
+    "Wiki/quartz/quartz/static/og-image.png",
+    "Wiki/quartz/quartz/static/icon.png",
+    "Wiki/quartz/docs/images/social-image-preview-dark.png",
     "02 - NPCs & Factions/Forgotten Realms Pantheon/Faeurinian Pantheon/Faeurinian Pantheon.canvas",
     "00 - Introduction/02 - Players/02 - Players.canvas",
     "Untitled.canvas"
