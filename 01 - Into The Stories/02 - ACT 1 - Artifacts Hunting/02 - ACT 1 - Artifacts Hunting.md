@@ -4,3 +4,4 @@
 3. [[Fallen Paladin’s Past - A Father’s Burden]]
 4. [[Tech-Dominant Plane - A Fistful of Schemes]]
 5. [[War-Torn Plane - Stalemate of the Titans]]
+6. [[The Show! - Orwellian Reality Bending Game Show]]
