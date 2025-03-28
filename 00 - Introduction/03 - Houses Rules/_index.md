@@ -1,3 +1,7 @@
+---
+title: Houses Rules
+---
+
 # **Campaign House Rules**
 Here are some house rules that applied in this current campaign
 

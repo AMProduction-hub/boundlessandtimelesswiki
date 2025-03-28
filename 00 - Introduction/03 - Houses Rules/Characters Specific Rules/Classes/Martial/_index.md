@@ -1,7 +1,11 @@
+---
+title: Martial
+---
 # **[[Martial]] Class**
 Berikut adalah modifikasi dari class martial & setiap class martial mendapatkan superiority die (check penjelasan dibawah):
 - [[Fighter]]
 - [[Ranger]]
+- [[Rogue]]
 
 # **Superiority Die & Maneuvers (Martial Classes)**
 

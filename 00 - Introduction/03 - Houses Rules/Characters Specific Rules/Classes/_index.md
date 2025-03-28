@@ -1,4 +1,7 @@
-# **[[Classes]]**
+---
+title: Classes
+---
+# **[[00 - Introduction/03 - Houses Rules/Characters Specific Rules/Classes/_index|Classes]]**
 Berikut adalah modifikasi untuk class berdasarkan Martial / Caster dari class karakter yang player buat:
 - [[Martial]]
 - [[Caster]]

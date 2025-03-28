@@ -1,3 +1,6 @@
+---
+title: Into The Stories
+---
 # **Where it all began**
 
 Latar utama dari campaign ini menggunakan modul *"Forgotten Realms"* dari DnD. Melainkan berfokus pada *Sword Coast*, pada campaign ini juga akan berfokus pada perjalanan antar *plane* (*planescape*).
@@ -11,7 +14,7 @@ Berikut adalah peta dari keseluruhan *planescape* :
     padding = 0 0
     margins = 0 0
     src="https://www.worldanvil.com/w/dnd-5e-umbra-sigillum-mupen/map/61e3096e-bd8d-4acb-9588-18f83a4f1805"></iframe>
-    
+
 Dunia tidak hanya terbatas pada daratan dan laut yang terlihat. Di luar batas Material Plane, terdapat tatanan kosmik yang disebut _The Great Wheel Cosmology_. Setiap lingkaran dalam roda ini mewakili dunia yang berbeda—dimana hukum dan kenyataan tidak seperti yang dikenal di dunia fana.
 
 Para sarjana percaya bahwa setiap keyakinan dan konsep memiliki tempat di kosmos. Di pusatnya, terletak Sigil, _City of Doors_, tempat yang tidak memiliki tuhan, namun menjadi pusat dari segala realitas. Di luar itu, terdapat Outer Planes, tempat para dewa dan entitas agung tinggal, sementara Inner Planes membentuk unsur-unsur dunia. The Ethereal Plane dan The Shadowfell membayangi keberadaan dunia fana, sementara The Astral Sea menjadi lautan kehampaan yang menghubungkan banyak realitas.
