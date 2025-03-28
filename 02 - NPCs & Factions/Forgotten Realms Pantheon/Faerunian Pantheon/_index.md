@@ -1,3 +1,6 @@
+---
+title: Faerunian Pantheon
+---
 # Faerunian Pantheon 
 Faerunian Pantheon adalah dewa dan dewi yang umum menjadi kepercayaan penduduk di Toril berikut adalah list dari dewa dan dewi Faerunian berdasarkan alignment:
 
