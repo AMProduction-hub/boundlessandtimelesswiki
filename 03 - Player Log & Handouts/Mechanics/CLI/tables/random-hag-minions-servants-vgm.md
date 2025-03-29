@@ -1,0 +1,25 @@
+---
+obsidianUIMode: preview
+cssclasses: json5e-note
+tags:
+- ttrpg-cli/compendium/src/5e/vgm
+aliases: ["Random Hag Minions; Servants"]
+---
+# Random Hag Minions; Servants
+*Source: Volo's Guide to Monsters p. 61* 
+
+**Servants**
+
+`dice: [](random-hag-minions-servants-vgm.md#^servants)`
+
+| dice: d8 | Servant(s) |
+|----------|------------|
+| 1 | [Flameskulls](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/undead/flameskull.md) |
+| 2 | [Flesh Golems](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/construct/flesh-golem.md) |
+| 3 | [Helmed Horrors](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/construct/helmed-horror.md) |
+| 4 | [Rug of Smothering](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/construct/rug-of-smothering.md) |
+| 5 | [Scarecrows](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/construct/scarecrow.md) |
+| 6 | [Shadow Mastiffs](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/monstrosity/shadow-mastiff-alpha-mpmm.md) |
+| 7 | `2d4` [swarms of insects](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/beast/swarm-of-insects.md) or [swarms of rats](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/beast/swarm-of-rats.md) |
+| 8 | [Yeth Hounds](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/fey/yeth-hound-mpmm.md) |
+^servants

@@ -22,7 +22,7 @@
     }
   ],
   "whitelistFolders": [],
-  "showDeleteConfirmation": true,
+  "showDeleteConfirmation": false,
   "underlineFolder": true,
   "stopWhitespaceCollapsing": true,
   "underlineFolderInPath": true,

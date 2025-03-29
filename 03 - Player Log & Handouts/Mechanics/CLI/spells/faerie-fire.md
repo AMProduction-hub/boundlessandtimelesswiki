@@ -1,0 +1,45 @@
+---
+obsidianUIMode: preview
+cssclasses: json5e-spell
+tags:
+- ttrpg-cli/compendium/src/5e/phb
+- ttrpg-cli/spell/class/artificer
+- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/druid
+- ttrpg-cli/spell/feat/artificer-initiate
+- ttrpg-cli/spell/feat/magic-initiate
+- ttrpg-cli/spell/level/1st-level
+- ttrpg-cli/spell/race/fairy
+- ttrpg-cli/spell/school/evocation
+- ttrpg-cli/spell/subclass/light-domain
+- ttrpg-cli/spell/subclass/swarmkeeper
+- ttrpg-cli/spell/subclass/the-archfey
+- ttrpg-cli/spell/subclass/twilight-domain
+- ttrpg-cli/spell/subrace/elf-drow
+- ttrpg-cli/spell/subrace/half-elf-drow-descent
+classes:
+- Artificer
+- Bard
+- Cleric (Light Domain)
+- Cleric (Twilight Domain)
+- Druid
+- Ranger (Swarmkeeper)
+- Warlock (The Archfey)
+aliases: ["Faerie Fire"]
+---
+# Faerie Fire
+*1st-level, Evocation*  
+
+
+- **Casting time:** 1 Action
+- **Range:** 60 feet
+- **Components:** V
+- **Duration:** Concentration, up to 1 minute
+
+Each object in a 20-foot cube within range is outlined in blue, green, or violet light (your choice). Any creature in the area when the spell is cast is also outlined in light if it fails a Dexterity saving throw. For the duration, objects and affected creatures shed dim light in a 10-foot radius.
+
+Any attack roll against an affected creature or object has advantage if the attacker can see it, and the affected creature or object can't benefit from being [invisible](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Invisible).
+
+**Classes**: [Druid](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Artificer](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/lists/list-spells-classes-artificer.md); [Warlock (The Archfey)](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/lists/list-spells-classes-warlock-the-archfey.md); [Cleric (Twilight Domain)](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/lists/list-spells-classes-cleric-twilight-domain-tce.md "subclass=TCE"); [Ranger (Swarmkeeper)](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/lists/list-spells-classes-ranger-swarmkeeper-tce.md "subclass=TCE"); [Bard](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric (Light Domain)](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/lists/list-spells-classes-cleric-light-domain.md)
+
+*Source: Player's Handbook p. 239. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*

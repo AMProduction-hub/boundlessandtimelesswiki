@@ -1,0 +1,38 @@
+---
+obsidianUIMode: preview
+cssclasses: json5e-spell
+tags:
+- ttrpg-cli/compendium/src/5e/xge
+- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/sorcerer
+- ttrpg-cli/spell/class/warlock
+- ttrpg-cli/spell/class/wizard
+- ttrpg-cli/spell/level/4th-level
+- ttrpg-cli/spell/school/evocation
+- ttrpg-cli/spell/subclass/arcane-trickster
+- ttrpg-cli/spell/subclass/eldritch-knight
+classes:
+- Bard
+- Fighter (Eldritch Knight)
+- Rogue (Arcane Trickster)
+- Sorcerer
+- Warlock
+- Wizard
+aliases: ["Sickening Radiance"]
+---
+# Sickening Radiance
+*4th-level, Evocation*  
+
+
+- **Casting time:** 1 Action
+- **Range:** 120 feet
+- **Components:** V, S
+- **Duration:** Concentration, up to 10 minutes
+
+Dim, greenish light spreads within a 30-foot-radius sphere centered on a point you choose within range. The light spreads around corners, and it lasts until the spell ends.
+
+When a creature moves into the spell's area for the first time on a turn or starts its turn there, that creature must succeed on a Constitution saving throw or take `4d10` radiant damage, and it suffers one level of [exhaustion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion) and emits a dim, greenish light in a 5-foot radius. This light makes it impossible for the creature to benefit from being [invisible](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Invisible). The light and any levels of [exhaustion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion) caused by this spell go away when the spell ends.
+
+**Classes**: [Rogue (Arcane Trickster)](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/lists/list-spells-classes-rogue-arcane-trickster.md); [Bard](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Wizard](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Fighter (Eldritch Knight)](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/lists/list-spells-classes-fighter-eldritch-knight.md); [Sorcerer](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Warlock](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md)
+
+*Source: Xanathar's Guide to Everything p. 164*

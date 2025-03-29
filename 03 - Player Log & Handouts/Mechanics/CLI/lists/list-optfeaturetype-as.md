@@ -1,0 +1,18 @@
+---
+obsidianUIMode: preview
+cssclasses: json5e-note
+tags:
+- ttrpg-cli/compendium/src/5e/xge
+aliases: ["Arcane Shot"]
+---
+# Arcane Shot
+*Source: Xanathar's Guide to Everything* 
+
+- [Banishing Arrow](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/optional-features/banishing-arrow-xge.md)
+- [Beguiling Arrow](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/optional-features/beguiling-arrow-xge.md)
+- [Bursting Arrow](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/optional-features/bursting-arrow-xge.md)
+- [Enfeebling Arrow](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/optional-features/enfeebling-arrow-xge.md)
+- [Grasping Arrow](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/optional-features/grasping-arrow-xge.md)
+- [Piercing Arrow](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/optional-features/piercing-arrow-xge.md)
+- [Seeking Arrow](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/optional-features/seeking-arrow-xge.md)
+- [Shadow Arrow](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/optional-features/shadow-arrow-xge.md)

@@ -1,0 +1,12 @@
+---
+title: bestiary
+obsidianUIMode: preview
+cssclasses:
+  - json5e-note
+---
+# Index of Bestiary
+
+- [Planar Incarnate](./planar-incarnate-mpp.md)
+- [[03 - Player Log & Handouts/Mechanics/CLI/bestiary/aberration/_index|Aberration]]
+- [[03 - Player Log & Handouts/Mechanics/CLI/bestiary/beast/_index|Beast]]
+- 
