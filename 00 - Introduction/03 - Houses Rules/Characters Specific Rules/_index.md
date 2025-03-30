@@ -6,5 +6,5 @@ Berikut ini adalah beberapa topik yang membahas house rules yang berkaitan denga
 
 - Character Progression
 	- [[Ability Scores, Feats & Skills Progression]]
-- [[Levels Tiers]]
-- [[Classes]]
+- [[Spells & Levels Tiers]]
+- [[00 - Introduction/03 - Houses Rules/Characters Specific Rules/Classes/_index|Classes]]

@@ -7,8 +7,9 @@ tags:
 aliases: ["Tabaxi"]
 ---
 # Tabaxi
-*Source: Mordenkainen Presents: Monsters of the Multiverse p. 33*  
-![](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/races/img/tabaxi.webp#right)
+*Source: Mordenkainen Presents: Monsters of the Multiverse p. 33*  ![](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/races/img/tabaxi.webp)
+
+---
 
 - **Ability Scores**: Choose one of: (a) Choose any +2, choose any other +1; (b) Choose any +1, choose any other +1, choose any other +1
 - **Size**: Small or Medium

@@ -6,8 +6,8 @@ _A High-Stakes Planescape Adventure_
 
 **🔗 Quick Links:**  
 - [[00 - Introduction/_index|Overview]]
-- Players
-- [[00 - Introduction/03 - Houses Rules/_index| Houses Rules]] 
+- [[00 - Introduction/02 - Players/_index|Players]]
+- [[00 - Introduction/03 - Houses Rules/_index|Houses Rules]] 
 - [[Tables Etiquette]]
 
 # **Allowed Materials**
