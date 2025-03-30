@@ -8,7 +8,6 @@ Dunia sedang berubah. Bisikan tentang aliansi tak wajar, tentang iblis yang berj
 Dan entah karena takdir atau kebetulan semata, **Anda** menjadi bagian dari cerita yang tengah berkembang ini.
 
 ---
-
 # **Call For Action**
 
 Bukan kebetulan Anda berada di sini. Tindakan dan pencapaian Anda—baik yang heroik, terkenal, atau sekadar luar biasa—tidak luput dari perhatian.
@@ -26,7 +25,6 @@ Pesannya sederhana namun mendalam:
 Dengan rasa ingin tahu, kehati-hatian, atau mungkin takdir yang membimbing langkah Anda, Anda menuju tempat pertemuan tersebut.
 
 ---
-
 # **Pertemuan di Lonesome Tavern**
 
 Lonesome Tavern terletak di pinggiran kota, sebuah peninggalan terlupakan dari masa lalu. Tempat itu sunyi, terlalu sunyi untuk sebuah tempat yang seharusnya dipenuhi para pelancong dan petualang. Udara terasa berat, bukan dengan aroma bir dan asap seperti biasanya, tetapi dengan sesuatu yang lain—sesuatu yang tak kasat mata namun tak terelakkan.
@@ -44,7 +42,6 @@ Mereka bekerja untuk **The Bureau of Time and Plane**—sebuah organisasi rahasi
 Tawaran itu disampaikan. Pilihan ada di tangan Anda.
 
 ---
-
 # **Transisi**
 
 Jika Anda menerima, tidak ada ritual besar, tidak ada upacara rumit. Hanya instruksi sederhana:

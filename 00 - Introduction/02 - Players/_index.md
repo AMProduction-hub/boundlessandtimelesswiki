@@ -1,4 +1,4 @@
 ---
-title: 02 - Players
+title: Players
 ---
 # **Quick Character Maker Guide**

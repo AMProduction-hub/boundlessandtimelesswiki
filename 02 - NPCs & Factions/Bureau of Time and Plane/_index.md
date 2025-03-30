@@ -9,7 +9,6 @@ Bureau of Time and Plane (sering disebut sebagai "The Bureau") adalah organisasi
 Keberadaan The Bureau hampir tidak diketahui oleh kebanyakan makhluk fana. Hanya segelintir entitas, sarjana, dan individu berpengaruh di multiverse yang menyadari peran mereka. Organisasi ini tidak mencampuri urusan duniawi kecuali dalam keadaan yang benar-benar mendesak. Ketika mereka bergerak, dunia berubah selamanya.
 
 ---
-
 ## **Struktur Organisasi**
 
 Di dalam The Bureau, setiap anggota memiliki peran yang sangat spesifik. Struktur hierarkinya adalah sebagai berikut:
@@ -24,36 +23,30 @@ graph TD;
 
 
 - **[[Awanama - Leader of Bureau]]:**
-    
     - Pemimpin utama The Bureau. Siapapun yang menduduki posisi ini harus meninggalkan identitas lamanya dan hanya dikenal sebagai "Awanama" hingga mereka pensiun.
     - Bertanggung jawab langsung kepada Ao dan memutuskan intervensi besar yang akan dilakukan oleh The Bureau.
 
 - **[[02 - NPCs & Factions/Bureau of Time and Plane/Pustakawan - Second-in-Command|Second-in-Command]]:**
-    
     - Wakil pemimpin yang bertanggung jawab atas administrasi dan pengelolaan informasi di _The Grand Library_.
     - Mengawasi koordinasi antara agen lapangan dan divisi lainnya.
 
 - **Senior Field Agent:**
-    
     - Veteran lapangan yang memiliki pengalaman luas dalam operasi lintas dunia.
     - Perannya mirip dengan _Agent K_ dari _Men in Black_—seorang mentor bagi agen yang lebih muda.
 
 - **Field Agents:**
-    
     - Agen yang bertugas menjalankan misi di berbagai realitas.
     - Mereka bertindak sebagai pengamat, eksekutor, atau diplomat tergantung pada kebutuhan misi.
 
 - **Contractors:**
-    
     - Individu yang direkrut oleh The Bureau untuk menangani tugas-tugas tertentu.
     - Pemain akan berperan sebagai salah satu _contractor_ dengan kode khusus: **Contractor #777**.
 
 
 ---
-
 ## **Markas Besar: The Grand Library**
 
-The Bureau beroperasi dari sebuah pusat pengetahuan yang luar biasa besar, dikenal sebagai _The Grand Library_.
+The Bureau beroperasi dari sebuah pusat pengetahuan yang luar biasa besar, dikenal sebagai _The [[Grand Library]]_.
 
 - Struktur ini tidak hanya berisi buku dan arsip, tetapi juga berbagai fasilitas untuk eksperimen magis, pengamatan planar, dan tempat tinggal bagi para anggota The Bureau.
 
@@ -63,7 +56,6 @@ The Bureau beroperasi dari sebuah pusat pengetahuan yang luar biasa besar, diken
 
 
 ---
-
 ## **Tujuan dan Motif**
 
 The Bureau tidak memiliki ambisi untuk menguasai atau mengubah dunia. Mereka hanya bertindak ketika ancaman terhadap aliran waktu dan keberlanjutan realitas mulai terlihat. Namun, pergerakan mereka jarang diketahui, dan banyak yang menganggap mereka sebagai legenda atau sekadar teori konspirasi yang diciptakan oleh para sarjana gila.

@@ -1,7 +1,7 @@
 ---
 title: 00 - Introduction
 ---
-# 🌌 [**Boundless and Timeless**] - The Fate of the Multiverse  
+# 🌌 **Boundless and Timeless** - The Fate of the Multiverse  
 _A High-Stakes Planescape Adventure_  
 
 **🔗 Quick Links:**  

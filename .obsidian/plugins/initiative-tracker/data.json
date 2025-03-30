@@ -98,11 +98,32 @@
   "playerMarker": "default",
   "monsterMarker": "default",
   "state": {
-    "creatures": [],
+    "creatures": [
+      {
+        "name": "Adult Blue Dragon",
+        "initiative": 15,
+        "static": false,
+        "modifier": 0,
+        "hp": 225,
+        "currentMaxHP": 225,
+        "cr": "16",
+        "ac": 19,
+        "currentAC": 19,
+        "id": "ID_39ab486abbf9",
+        "currentHP": 225,
+        "tempHP": 0,
+        "status": [],
+        "enabled": true,
+        "active": false,
+        "hidden": false,
+        "friendly": false,
+        "hit_dice": "18d12 + 108"
+      }
+    ],
     "state": false,
     "name": null,
     "round": 1,
-    "logFile": "",
+    "logFile": null,
     "rollHP": false
   },
   "condense": false,

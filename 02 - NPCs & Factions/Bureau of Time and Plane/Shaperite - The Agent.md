@@ -1,5 +1,5 @@
 # **[[Shaperite - The Agent]]**
-
+![[Shaperite.png|300]]
 ## **Basic Information**
 
 - **Full Name:** Sebats

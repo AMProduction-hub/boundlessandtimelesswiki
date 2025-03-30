@@ -1,4 +1,5 @@
 # 🏠 Campaign Dashboard
+Halo Selamat Datang Silahkan menuju halaman [[00 - Introduction/_index|Overview]]
 
 ## 🎭 **Active Player Characters**
 ```dataview
