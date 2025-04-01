@@ -11,16 +11,24 @@
             "id": "550916c25130bcee",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "00.DM Screen/_index.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": []
+                "file": "01.Into The Stories/02.ACT1.Artifacts Hunting/02.ACT1.Artifacts Hunting.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
                 }
               },
-              "icon": "lucide-trello",
-              "title": "_index"
+              "icon": "lucide-file",
+              "title": "02.ACT1.Artifacts Hunting"
             }
           }
         ]
@@ -239,16 +247,16 @@
   },
   "active": "550916c25130bcee",
   "lastOpenFiles": [
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/_index.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/02.ACT1.Artifacts Hunting.md",
+    "00.DM Screen/_index.md",
     "00.DM Screen/_index_5etools.md",
     "00.DM Screen/DM Screen.md",
-    "00.DM Screen/_index.md",
     "01.Into The Stories/03.ACT2.Planescape Conflict/03.ACT2.Planescape Conflict.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/_index.md",
     "_index.md",
     "02.NPCs&Factions/Forgotten Realms Pantheon/_index.md",
     "01.Into The Stories/01.Prologue/_index.md",
     "02.NPCs&Factions/Bureau of Time and Plane/Grand Library.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/02.ACT1.Artifacts Hunting.md",
     "03.PlayerLog&Handouts/Mechanics/CLI/tables/the-halfling-pantheon-scag.md",
     "02.NPCs&Factions/Forgotten Realms Pantheon/Dwarven Pantheon/_index.md",
     "02.NPCs&Factions/Forgotten Realms Pantheon/Drow Pantheon/_index.md",
