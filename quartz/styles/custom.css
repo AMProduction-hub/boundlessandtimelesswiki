@@ -1,0 +1,70 @@
+/* == Quartz Custom Theme: Boundless & Timeless == */
+
+/* --- General Styles --- */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f4eee0; /* Parchment-like background */
+    color: #2b1f14; /* Dark ink color */
+  }
+  
+  a {
+    color: #b43b10; /* Sigil Red for links */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #e85d04; /* Brighter red on hover */
+  }
+  
+  /* --- Headers --- */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'EB Garamond', serif;
+    color: #7a5900; /* Gold accents */
+  }
+  
+  h1 {
+    border-bottom: 3px solid #7a5900;
+    padding-bottom: 5px;
+  }
+  
+  /* --- Blockquotes & Code Blocks --- */
+  blockquote {
+    background: #faf3dd;
+    border-left: 5px solid #7a5900;
+    padding: 10px 15px;
+    font-style: italic;
+  }
+  
+  pre, code {
+    font-family: 'IBM Plex Mono', monospace;
+    background: #2b2b2b;
+    color: #e9c46a; /* Arcane glow text */
+    padding: 3px 6px;
+    border-radius: 4px;
+  }
+  
+  /* --- Dark Mode --- */
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #1a1a1a; /* Deep cosmic void */
+      color: #e0e0e0;
+    }
+    
+    a {
+      color: #ffba08;
+    }
+    
+    a:hover {
+      color: #ffea00;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+      color: #e0a800;
+    }
+    
+    blockquote {
+      background: #333;
+      color: #ffdd99;
+    }
+  }
+  

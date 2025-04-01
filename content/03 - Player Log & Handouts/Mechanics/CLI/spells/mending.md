@@ -1,0 +1,59 @@
+---
+obsidianUIMode: preview
+cssclasses: json5e-spell
+tags:
+- ttrpg-cli/compendium/src/5e/phb
+- ttrpg-cli/spell/class/artificer
+- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/cleric
+- ttrpg-cli/spell/class/druid
+- ttrpg-cli/spell/class/sorcerer
+- ttrpg-cli/spell/class/wizard
+- ttrpg-cli/spell/feat/artificer-initiate
+- ttrpg-cli/spell/feat/magic-initiate
+- ttrpg-cli/spell/feat/wood-elf-magic
+- ttrpg-cli/spell/level/cantrip
+- ttrpg-cli/spell/optfeature/blessed-warrior
+- ttrpg-cli/spell/optfeature/druidic-warrior
+- ttrpg-cli/spell/optfeature/pact-of-the-tome
+- ttrpg-cli/spell/race/kobold
+- ttrpg-cli/spell/school/transmutation
+- ttrpg-cli/spell/subclass/arcana-domain
+- ttrpg-cli/spell/subclass/arcane-trickster
+- ttrpg-cli/spell/subclass/circle-of-the-land
+- ttrpg-cli/spell/subclass/divine-soul
+- ttrpg-cli/spell/subclass/eldritch-knight
+- ttrpg-cli/spell/subclass/nature-domain
+- ttrpg-cli/spell/subrace/elf-high
+- ttrpg-cli/spell/subrace/half-elf-moon-elf-or-sun-elf-descent
+classes:
+- Artificer
+- Bard
+- Cleric
+- Cleric (Arcana Domain)
+- Cleric (Nature Domain)
+- Druid
+- Druid (Circle of the Land)
+- Fighter (Eldritch Knight)
+- Rogue (Arcane Trickster)
+- Sorcerer
+- Sorcerer (Divine Soul)
+- Wizard
+aliases: ["Mending"]
+---
+# Mending
+*cantrip, Transmutation*  
+
+
+- **Casting time:** 1 minute
+- **Range:** Touch
+- **Components:** V, S, M (two lodestones)
+- **Duration:** Instantaneous
+
+This spell repairs a single break or tear in an object you touch, such as broken chain link, two halves of a broken key, a torn cloak, or a leaking wineskin. As long as the break or tear is no larger than 1 foot in any dimension, you mend it, leaving no trace of the former damage.
+
+This spell can physically repair a magic item or construct, but the spell can't restore magic to such an object.
+
+**Classes**: [Druid](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Artificer](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/lists/list-spells-classes-artificer.md); [Cleric](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Druid (Circle of the Land)](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/lists/list-spells-classes-druid-circle-of-the-land.md); [Bard](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Fighter (Eldritch Knight)](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/lists/list-spells-classes-fighter-eldritch-knight.md); [Sorcerer](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Cleric (Arcana Domain)](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/lists/list-spells-classes-cleric-arcana-domain-scag.md "subclass=SCAG"); [Rogue (Arcane Trickster)](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/lists/list-spells-classes-rogue-arcane-trickster.md); [Wizard](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Cleric (Nature Domain)](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/lists/list-spells-classes-cleric-nature-domain.md); [Sorcerer (Divine Soul)](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer-divine-soul-xge.md "subclass=XGE")
+
+*Source: Player's Handbook p. 259. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

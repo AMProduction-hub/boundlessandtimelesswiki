@@ -1,0 +1,2 @@
+# [[Ranger]]
+Pet / Companion dari ranger memiliki initiative, action, bonus action sendiri dan dianggap sebagai player yang dikendalikan oleh player yang menggunakan class Ranger. Setiap pet / companion memiliki stats sendiri, player perlu menyiapkan stats dari pet / companion kepada GM sebelum campaign dimulai. Stat bisa diambil dari Monster Manual dari Core Rule Set.

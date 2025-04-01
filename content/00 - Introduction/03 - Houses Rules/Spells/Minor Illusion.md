@@ -1,0 +1,2 @@
+# [[Minor Illusion]]
+Minor Illusion hanya dapat membuat suara atau object yang tak lebih dari besar dan tinggi 5ft. Ketika karakter lain atau npc sedang melihat ilusi yang dibuat caster perlu concentration check jika gagal maka ilusi akan hilang. Minor Illusion tidak dapat digunakan untuk menggandakan barang dan menggandakan muka.
