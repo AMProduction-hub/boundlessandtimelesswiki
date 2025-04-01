@@ -1,2 +1,0 @@
-# [[Wish]]
-Wish adalah spell untuk memanggil Genie untuk mengabulkan 1 permintaan. Player yang mendapatkan spell ini hanya dapat menggunakannya 1x pada campaign walaupun memiliki spellnya dalam spellbook.

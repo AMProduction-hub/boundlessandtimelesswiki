@@ -19,7 +19,7 @@ Embed another file (read more about Embed files). Here's an embedded section:
 ![[Skills#Acrobatics]]
 ```
 
-![[Skills#Acrobatics]]
+![[03.PlayerLog&Handouts/Mechanics/CLI/rules/skills#Acrobatics]]
 
 ## Headers
 

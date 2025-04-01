@@ -1,0 +1,52 @@
+---
+obsidianUIMode: preview
+cssclasses: json5e-spell
+tags:
+- ttrpg-cli/compendium/src/5e/phb
+- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/sorcerer
+- ttrpg-cli/spell/class/warlock
+- ttrpg-cli/spell/class/wizard
+- ttrpg-cli/spell/feat/magic-initiate
+- ttrpg-cli/spell/feat/scion-of-the-outer-planes
+- ttrpg-cli/spell/level/cantrip
+- ttrpg-cli/spell/optfeature/pact-of-the-tome
+- ttrpg-cli/spell/race/kobold
+- ttrpg-cli/spell/school/necromancy
+- ttrpg-cli/spell/subclass/arcana-domain
+- ttrpg-cli/spell/subclass/arcane-trickster
+- ttrpg-cli/spell/subclass/circle-of-spores
+- ttrpg-cli/spell/subclass/death-domain-dmg
+- ttrpg-cli/spell/subclass/eldritch-knight
+- ttrpg-cli/spell/subrace/elf-high
+- ttrpg-cli/spell/subrace/half-elf-moon-elf-or-sun-elf-descent
+classes:
+- Bard
+- Cleric (Arcana Domain)
+- Cleric (Death Domain (DMG))
+- Druid (Circle of Spores)
+- Fighter (Eldritch Knight)
+- Rogue (Arcane Trickster)
+- Sorcerer
+- Warlock
+- Wizard
+aliases: ["Chill Touch"]
+---
+# Chill Touch
+*cantrip, Necromancy*  
+
+
+- **Casting time:** 1 Action
+- **Range:** 120 feet
+- **Components:** V, S
+- **Duration:** 1 round
+
+You create a ghostly, skeletal hand in the space of a creature within range. Make a ranged spell attack against the creature to assail it with the chill of the grave. On a hit, the target takes `1d8` necrotic damage, and it can't regain hit points until the start of your next turn. Until then, the hand clings to the target.
+
+If you hit an undead target, it also has disadvantage on attack rolls against you until the end of your next turn.
+
+This spell's damage increases by `1d8` when you reach 5th level (`2d8`), 11th level (`3d8`), and 17th level (`4d8`).
+
+**Classes**: [Bard](list-spells-classes-bard.md); [Fighter (Eldritch Knight)](list-spells-classes-fighter-eldritch-knight.md); [Sorcerer](list-spells-classes-sorcerer.md); [Cleric (Arcana Domain)](list-spells-classes-cleric-arcana-domain-scag.md "subclass=SCAG"); [Cleric (Death Domain (DMG))](list-spells-classes-cleric-death-domain-dmg.md "subclass=DMG"); [Rogue (Arcane Trickster)](list-spells-classes-rogue-arcane-trickster.md); [Wizard](list-spells-classes-wizard.md); [Druid (Circle of Spores)](list-spells-classes-druid-circle-of-spores-tce.md "subclass=TCE"); [Warlock](list-spells-classes-warlock.md)
+
+*Source: Player's Handbook p. 221. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*
