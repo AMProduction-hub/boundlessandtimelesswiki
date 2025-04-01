@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Into The Stories/02 - ACT 1 - Artifacts Hunting/02 - ACT 1 - Artifacts Hunting.md",
+                "file": "01 - Into The Stories/01 - Prologue/_index.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "02 - ACT 1 - Artifacts Hunting"
+              "title": "_index"
             }
           }
         ]
@@ -247,7 +247,19 @@
   },
   "active": "550916c25130bcee",
   "lastOpenFiles": [
+    "01 - Into The Stories/_index.md",
+    "01 - Into The Stories/01 - Prologue/_index.md",
+    "01 - Into The Stories/02 - ACT 1 - Artifacts Hunting/02 - ACT 1 - Artifacts Hunting.md",
     "01 - Into The Stories/02 - ACT 1 - Artifacts Hunting/_index.md",
+    "00 - Introduction/03 - Houses Rules/_index.md",
+    "00 - Introduction/_index.md",
+    "00 - Introduction/02 - Players/_index.md",
+    "02 - NPCs & Factions/Bureau of Time and Plane/Damian - The Squeeky Devils.md",
+    "02 - NPCs & Factions/Bureau of Time and Plane/Grand Library.md",
+    "02 - NPCs & Factions/Bureau of Time and Plane/Awanama - Leader of Bureau.md",
+    "02 - NPCs & Factions/Bureau of Time and Plane/_index.md",
+    "z_Templates/2_Mechanics Gallery/_index.md",
+    "z_Templates/2_Mechanics Gallery/2_Mechanics Gallery.md",
     "02 - NPCs & Factions/Forgotten Realms Pantheon/Orc Pantheon/_index.md",
     "02 - NPCs & Factions/Forgotten Realms Pantheon/Halfling Pantheon/_index.md",
     "02 - NPCs & Factions/Forgotten Realms Pantheon/Gnomish Pantheon/_index.md",
@@ -261,16 +273,6 @@
     "03 - Player Log & Handouts/Mechanics/CLI/deities/elven-hanali-celanil-mtf.md",
     "02 - NPCs & Factions/Forgotten Realms Pantheon/Faerunian Pantheon/_index.md",
     "00 - Introduction/03 - Houses Rules/Spells/Counterspell.md",
-    "00 - Introduction/03 - Houses Rules/_index.md",
-    "00 - Introduction/03 - Houses Rules/Characters Specific Rules/_index.md",
-    "00 - Introduction/02 - Players/_index.md",
-    "00 - Introduction/03 - Houses Rules/Dices House Rules.md",
-    "00 - DM Screen/_index.md",
-    "00 - DM Screen/DM Screen.md",
-    "03 - Player Log & Handouts/Mechanics/CLI/books/players-handbook-2014/10-combat.md",
-    "00 - DM Screen/_index_5etools.md",
-    "03 - Player Log & Handouts/Mechanics/CLI/classes/wizard-school-of-abjuration.md",
-    "03 - Player Log & Handouts/Mechanics/CLI/books/players-handbook-2014/09-adventuring.md",
     "z_Assets/DMScreen/MiscCombatRulesTitleBar.png",
     "z_Assets/DMScreen/MagicTitleBar.png",
     "z_Assets/DMScreen/HealDeathDmgTitleBar.png",
@@ -283,8 +285,6 @@
     "z_Assets/DMScreen/RestTravelTitleBar.png",
     "z_Assets/DMScreen",
     "z_Assets/New folder",
-    "00 - Introduction/03 - Houses Rules/Characters Specific Rules/Ability Scores, Feats & Skills Progression.md",
-    "02 - NPCs & Factions/Bureau of Time and Plane/_index.md",
     "00 - Introduction/02 - Players/A-Team",
     "z_Assets/Bureau of Time and Plane/Location",
     "z_Assets/Misc",

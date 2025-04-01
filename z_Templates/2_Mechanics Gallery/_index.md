@@ -77,3 +77,4 @@ same:
   - Vehicle
 ---
 # Mechanics Gallery
+- [[Abilities/_in]]
