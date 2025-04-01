@@ -3,36 +3,33 @@
 kanban-plugin: board
 
 ---
----
-
-kanban-plugin: basic
-
----
 
 ## ![[RandomGensTitleBar.png]]
 
 - [ ] "Add yours here using I-Frames or Custom Frames plugin"
 
+
 ## ![[AbilitiesTitleBar.png]]
 
-- [ ] [[08-using-ability-scores#Dexterity|Dexterity]]
 - [ ] [[08-using-ability-scores#Strength|Strength]]
+- [ ] [[08-using-ability-scores#Dexterity|Dexterity]]
 - [ ] [[08-using-ability-scores#Constitution|Constitution]]
 - [ ] [[08-using-ability-scores#Intelligence|Intelligence]]
 - [ ] [[08-using-ability-scores#Wisdom|Wisdom]]
 - [ ] [[08-using-ability-scores#Charisma|Charisma]]
 
+
 ## ![[CheckTitleBar.png]]
 
 - [ ] [[ability-checks|Ability Checks]]
 - [ ] [[09-adventuring#Vision and Light|Vision and Light]]
-- [ ] [[detect-magic|Detect Magic]] 
-- [ ] [[08-using-ability-scores#Advantage and Disadvantage|Advantage and Disadvantage]] 
-- [ ] [[08-using-ability-scores#Proficiency Bonus|Proficiency Bonus]] 
-- [ ] [[08-using-ability-scores#Ability Checks|Ability Checks]] 
-- [ ] [[08-using-ability-scores#Contests|Contests]] 
-- [ ] [[08-using-ability-scores#Skills|Skills]] 
-- [ ] [[08-using-ability-scores#Lifting and Carrying|Lifting and Carrying]] 
+- [ ] [[detect-magic|Detect Magic]]
+- [ ] [[08-using-ability-scores#Advantage and Disadvantage|Advantage and Disadvantage]]
+- [ ] [[08-using-ability-scores#Proficiency Bonus|Proficiency Bonus]]
+- [ ] [[08-using-ability-scores#Ability Checks|Ability Checks]]
+- [ ] [[08-using-ability-scores#Contests|Contests]]
+- [ ] [[08-using-ability-scores#Skills|Skills]]
+- [ ] [[08-using-ability-scores#Lifting and Carrying|Lifting and Carrying]]
 
 
 ## ![[ConditionsTitleBar.png]]
@@ -56,6 +53,7 @@ kanban-plugin: basic
 - [ ] [[conditions#Stunned|Stunned]]
 - [ ] [[conditions#Unconscious|Unconscious]]
 
+
 ## ![[CombatActionsTitleBar.png]]
 
 - [ ] [[actions#Actions#Activate an Item|Activate an Item]]
@@ -75,6 +73,7 @@ kanban-plugin: basic
 - [ ] [[actions#Actions#Mark|Mark]]
 - [ ] [[actions#Actions#Escape a Grapple|Escape a Grapple]]
 
+
 ## ![[MiscCombatRulesTitleBar.png]]
 
 - [ ] [[10-combat#Surprise|Surprise]]
@@ -85,10 +84,11 @@ kanban-plugin: basic
 - [ ] [[10-combat#Grappling|Grappling]]
 - [ ] [[10-combat#Shoving a Creature|Shoving a Creature]]
 - [ ] [[10-combat#Two-Weapon Fighting|Two-Weapon Fighting]]
-- [ ] [[06-equipment#Improvised Weapons|Improvised Weapons]] 
+- [ ] [[06-equipment#Improvised Weapons|Improvised Weapons]]
 - [ ] [[10-combat#Being Prone|Being Prone]]
 - [ ] [[10-combat#Ranged Attacks in Close Combat|Ranged Attacks in Close Combat]]
 - [ ] [[10-combat#Mounted Combat|Mounted Combat]]
+
 
 ## ![[MovementTitleBar.png]]
 
@@ -103,27 +103,31 @@ kanban-plugin: basic
 - [ ] [[09-adventuring#Movement#Jumping|Jumping]]
 - [ ] [[09-adventuring#Movement#Activity While Traveling|Activity While Traveling]]
 
+
 ## ![[RestTravelTitleBar.png]]
 
-- [ ] [[09-adventuring#Food and Water|Food and Water]] 
-- [ ] [[09-adventuring#Resting|Resting]] 
-- [ ] [[09-adventuring#Short Rest|Short Rest]] 
-- [ ] [[09-adventuring#Long Rest|Long Rest]] 
-- [ ] [[09-adventuring#Recuperating|Recuperating]] 
+- [ ] [[09-adventuring#Food and Water|Food and Water]]
+- [ ] [[09-adventuring#Resting|Resting]]
+- [ ] [[09-adventuring#Short Rest|Short Rest]]
+- [ ] [[09-adventuring#Long Rest|Long Rest]]
+- [ ] [[09-adventuring#Recuperating|Recuperating]]
+
 
 ## ![[HealDeathDmgTitleBar.png]]
 
-- [ ] [[10-combat#Damage and Healing#Healing|Healing]] 
-- [ ] [[10-combat#Dropping to 0 Hit Points#Instant Death|Instant Death]] 
-- [ ] [[10-combat#Dropping to 0 Hit Points#Falling Unconscious|Falling Unconscious]] 
-- [ ] [[10-combat#Dropping to 0 Hit Points#Death Saving Throws|Death Saving Throws]] 
-- [ ] [[10-combat#Dropping to 0 Hit Points#Stabilizing a Creature|Stabilizing a Creature]] 
-- [ ] [[10-combat#Dropping to 0 Hit Points#Monsters and Death|Monsters and Death]] 
+- [ ] [[10-combat#Damage and Healing#Healing|Healing]]
+- [ ] [[10-combat#Dropping to 0 Hit Points#Instant Death|Instant Death]]
+- [ ] [[10-combat#Dropping to 0 Hit Points#Falling Unconscious|Falling Unconscious]]
+- [ ] [[10-combat#Dropping to 0 Hit Points#Death Saving Throws|Death Saving Throws]]
+- [ ] [[10-combat#Dropping to 0 Hit Points#Stabilizing a Creature|Stabilizing a Creature]]
+- [ ] [[10-combat#Dropping to 0 Hit Points#Monsters and Death|Monsters and Death]]
+
 
 ## ![[WeaponsArmorItemsTitleBar.png]]
 
 - [ ] [[weapons|Weapons]]
 - [ ] [[armor-and-shields-armor|Armor and Shields]]
+
 
 ## ![[MagicTitleBar.png]]
 
@@ -163,6 +167,6 @@ kanban-plugin: basic
 
 %% kanban:settings
 ```
-{"kanban-plugin":"basic"}
+{"kanban-plugin":"board"}
 ```
 %%
