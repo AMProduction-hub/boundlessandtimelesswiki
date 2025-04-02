@@ -1,4 +1,6 @@
 # **Team Party Killed (TPK)**
+Team Party Killed amat-sangat dapat terjadi.
+
 _**Lewat aku, gerbang takdir terbuka,**  
 **Lewat aku, tirai arwah tersingkap,**  
 **Lewat aku, jalan menuju sunyi abadi.**_

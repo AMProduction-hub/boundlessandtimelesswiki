@@ -6,11 +6,11 @@ _A High-Stakes Planescape Adventure_
 
 **🔗 Quick Links:**  
 - [[00.Introduction/_index|Overview]]
-- [[00.Introduction/02 - Players/_index|Players]]
-- [[00.Introduction/03 - Houses Rules/_index|Houses Rules]] 
+- [[00.Introduction/02.Players/_index|Players]]
+- [[00.Introduction/01.Houses Rules/_index|Houses Rules]] 
 - [[Tables Etiquette]]
 
 # **Allowed Materials**
 Berikut ini adalah list dari sourcebook yang boleh digunakan:
-- Core Rules (PHB 2014) + All Official WOTC Supplements Pre-PHB 2024.
+- Core Rules (PHB 2014) + All Official WOTC Supplements Pre-PHB 2024 + GM House Rules + Homebrew.
 - Homebrew: Perlu menginformasikan GM sebelum menggunakan.

@@ -1,15 +1,11 @@
 ---
 ImportedOn: Saturday, 18 December 2021 8:41:47 PM
-tags: []
+tags:
+  - Factions/BureauofTimeandPlane
 parent:
   - General Characters Article
 up:
   - General Characters Article
-prev:
-  - Template - Class
-next:
-  - Template - Race
-RWtopicId: Topic_50
 ---
 # **Awanama (Aveeshena Trumbleweed)**
 

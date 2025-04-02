@@ -1,10 +1,10 @@
 ---
 title: Classes
 ---
-# **[[00.Introduction/03 - Houses Rules/Characters Specific Rules/Classes/_index|Classes]]**
+# **[[00.Introduction/01.Houses Rules/Characters Specific Rules/Classes/_index|Classes]]**
 Berikut adalah modifikasi untuk class berdasarkan Martial / Caster dari class karakter yang player buat:
-- [[00.Introduction/03 - Houses Rules/Characters Specific Rules/Classes/Martial/_index|Martial]]
-- [[00.Introduction/03 - Houses Rules/Characters Specific Rules/Classes/Caster/_index|Caster]]
+- [[00.Introduction/01.Houses Rules/Characters Specific Rules/Classes/Martial/_index|Martial]]
+- [[00.Introduction/01.Houses Rules/Characters Specific Rules/Classes/Caster/_index|Caster]]
 
 # **Multiclasses**
 Multiclass pada campaign ini diperbolehkan jika Ability Scores (Strength, Dexterity, Constitution, Wisdom, Charisma) memenuhi syarat untuk multiclass class yang dipilih:

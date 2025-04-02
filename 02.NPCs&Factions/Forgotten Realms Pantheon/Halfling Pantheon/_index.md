@@ -1,5 +1,7 @@
 ---
 title: Halfling Pantheon
+tags:
+  - Factions/ForgottenRealmsPantheon/HalflingPantheon
 ---
 # Halfling Pantheon
 

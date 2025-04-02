@@ -1,5 +1,7 @@
 ---
 title: Drow Pantheon
+tags:
+  - Factions/ForgottenRealmsPantheon/DrowPantheon
 ---
 # Drow Pantheon  
 

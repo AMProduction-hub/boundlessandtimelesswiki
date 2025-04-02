@@ -1,5 +1,7 @@
 ---
 title: Gnomish Pantheon
+tags:
+  - Factions/ForgottenRealmsPantheon/GnomishPantheon
 ---
 # Gnomish Pantheon
 

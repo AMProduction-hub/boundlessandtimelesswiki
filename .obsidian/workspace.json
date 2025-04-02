@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01.Into The Stories/02.ACT1.Artifacts Hunting/02.ACT1.Artifacts Hunting.md",
+                "file": "01.Into The Stories/01.Prologue/_index.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "02.ACT1.Artifacts Hunting"
+              "title": "_index"
             }
           }
         ]
@@ -82,6 +82,30 @@
               "state": {},
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "7aaa61ae4e9c0eab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00.DM Screen/DM Screen.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "DM Screen"
             }
           }
         ]
@@ -152,13 +176,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md",
+                "file": "01.Into The Stories/01.Prologue/_index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of index"
+              "title": "Outline of _index"
             }
           },
           {
@@ -222,7 +246,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 410.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -245,37 +269,37 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "550916c25130bcee",
+  "active": "e9ad397d83e48c4e",
   "lastOpenFiles": [
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/_index.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/02.ACT1.Artifacts Hunting.md",
+    "00.Introduction/01.Houses Rules/Characters Specific Rules/Classes/_index.md",
+    "00.Introduction/01.Houses Rules/Characters Specific Rules/Classes/Martial/_index.md",
+    "00.Introduction/01.Houses Rules/Characters Specific Rules/_index.md",
+    "00.Introduction/02.Players/_index.md",
+    "00.Introduction/01.Houses Rules/_index.md",
+    "00.Introduction/01.Houses Rules/Bonus Actions.md",
+    "00.Introduction/01.Houses Rules/Dices House Rules.md",
+    "00.Introduction/01.Houses Rules/Team Party Killed (TPK).md",
+    "00.Introduction/01.Houses Rules/Tables Etiquette.md",
+    "00.Introduction/01.Houses Rules/Spells/Wish.md",
+    "00.Introduction/01.Houses Rules/Spells/Minor Illusion.md",
+    "00.Introduction/01.Houses Rules/Spells/Counterspell.md",
+    "00.Introduction/01.Houses Rules/Spells/_index.md",
     "00.DM Screen/_index.md",
-    "00.DM Screen/_index_5etools.md",
     "00.DM Screen/DM Screen.md",
-    "01.Into The Stories/03.ACT2.Planescape Conflict/03.ACT2.Planescape Conflict.md",
-    "_index.md",
-    "02.NPCs&Factions/Forgotten Realms Pantheon/_index.md",
-    "01.Into The Stories/01.Prologue/_index.md",
+    "00.Introduction/01.Houses Rules/Characters Specific Rules/Classes/Martial/Rogue.md",
+    "00.Introduction/01.Houses Rules/Characters Specific Rules/Classes/Martial/Fighter.md",
+    "00.Introduction/01.Houses Rules/Characters Specific Rules/Classes/Caster/_index.md",
+    "00.Introduction/01.Houses Rules/Characters Specific Rules/Classes/Caster/Sorcerer/Wild Magic.md",
+    "00.Introduction/01.Houses Rules/Characters Specific Rules/Classes/Martial/Ranger.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Tech-Dominant Plane - A Fistful of Schemes/Houses Items.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Tech-Dominant Plane - A Fistful of Schemes/Gameplay Mechanic.md",
+    "02.NPCs&Factions/Bureau of Time and Plane/Pustakawan - Second-in-Command.md",
+    "02.NPCs&Factions/Bureau of Time and Plane/Shaperite - The Agent.md",
     "02.NPCs&Factions/Bureau of Time and Plane/Grand Library.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/tables/the-halfling-pantheon-scag.md",
-    "02.NPCs&Factions/Forgotten Realms Pantheon/Dwarven Pantheon/_index.md",
-    "02.NPCs&Factions/Forgotten Realms Pantheon/Drow Pantheon/_index.md",
-    "02 - NPCs & Factions/Forgotten Realms Pantheon/_index/_index.md",
+    "02.NPCs&Factions/Bureau of Time and Plane/Awanama - Leader of Bureau.md",
     "02.NPCs&Factions/Forgotten Realms Pantheon/Drow Pantheon",
-    "02.NPCs&Factions/Forgotten Realms Pantheon/Faerunian Pantheon/_index.md",
-    "02.NPCs&Factions/Bureau of Time and Plane/Damian - The Squeeky Devils.md",
     "z_Assets/Bureau of Time and Plane/Character Potrait/Damian.png",
     "z_Assets/Bureau of Time and Plane/Character Potrait/Damian_humanform.png",
-    "02.NPCs&Factions/Bureau of Time and Plane/Pustakawan - Second-in-Command.md",
-    "02.NPCs&Factions/Bureau of Time and Plane/Awanama - Leader of Bureau.md",
-    "02.NPCs&Factions/Bureau of Time and Plane/Shaperite - The Agent.md",
-    "00.Introduction/03 - Houses Rules/Team Party Killed (TPK).md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Fallen Paladin’s Past - A Father’s Burden/Fallen Paladin’s Past - A Father’s Burden.md",
-    "01.Into The Stories/_index.md",
-    "00.Introduction/03 - Houses Rules/_index.md",
-    "00.Introduction/_index.md",
-    "00.Introduction/02 - Players/_index.md",
-    "02.NPCs&Factions/Bureau of Time and Plane/_index.md",
     "z_Assets/DMScreen/MiscCombatRulesTitleBar.png",
     "z_Assets/DMScreen/MagicTitleBar.png",
     "z_Assets/DMScreen/HealDeathDmgTitleBar.png",
@@ -286,7 +310,7 @@
     "z_Assets/DMScreen/WeaponsArmorItemsTitleBar.png",
     "z_Assets/DMScreen",
     "z_Assets/New folder",
-    "00.Introduction/02 - Players/A-Team",
+    "00.Introduction/02.Players/A-Team",
     "z_Assets/Bureau of Time and Plane/Location",
     "z_Assets/Misc",
     "03.PlayerLog&Handouts/Mechanics/CLI/items/img",

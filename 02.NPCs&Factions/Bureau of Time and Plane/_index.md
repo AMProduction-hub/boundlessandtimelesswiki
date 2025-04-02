@@ -1,5 +1,8 @@
 ---
 title: Bureau of Time and Plane
+tags:
+  - Factions/BureauofTimeandPlane
+parent: []
 ---
 # **Bureau of Time and Plane**
 ## **Deskripsi Organisasi**

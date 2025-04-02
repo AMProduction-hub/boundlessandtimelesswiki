@@ -1,6 +1,8 @@
 ---
 ImportedOn: Saturday, 18 December 2021 8:41:47 PM
-Tags: Category/Location
+tags:
+  - Category/Location
+  - Factions/BureauofTimeandPlane
 Type: Area
 parent:
   - Location

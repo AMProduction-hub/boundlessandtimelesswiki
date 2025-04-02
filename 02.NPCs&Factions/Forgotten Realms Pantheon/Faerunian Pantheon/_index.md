@@ -1,5 +1,7 @@
 ---
 title: Faerunian Pantheon
+tags:
+  - Factions/ForgottenRealmsPantheon/FaerunianPantheon
 ---
 # Faerunian Pantheon 
 Faerunian Pantheon adalah dewa dan dewi yang umum menjadi kepercayaan penduduk di Toril berikut adalah list dari dewa dan dewi Faerunian berdasarkan alignment:

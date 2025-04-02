@@ -1,5 +1,7 @@
 ---
 title: Dwarven Pantheon
+tags:
+  - Factions/ForgottenRealmsPantheon/DwarvenPantheon
 ---
 # Dwarven Pantheon
 

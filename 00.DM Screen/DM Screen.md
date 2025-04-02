@@ -8,6 +8,7 @@
 | Total Cover      | Can't be targeted directly          |
 | Obscured         | Disadvantage                        |
 | Lightly Obscured | Disadvantage on Wisdom (Perception) |
+|                  |                                     |
 <br>
 
 > [!info]- Abilities

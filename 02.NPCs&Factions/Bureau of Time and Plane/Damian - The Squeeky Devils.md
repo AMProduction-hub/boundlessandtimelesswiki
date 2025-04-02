@@ -1,6 +1,11 @@
+---
+tags:
+  - Factions/BureauofTimeandPlane
+---
 # **Damian - Contractor #666**
-![[Damian.png|200]]
+![[Damian.png|right lp|200]]
 ![[Damian_humanform.png|200]]
+
 ## **Overview**
 
 - **Name:** Damian   

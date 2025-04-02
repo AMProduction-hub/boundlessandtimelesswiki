@@ -3,9 +3,9 @@ title: Martial
 ---
 # **Martial Class**
 Berikut adalah modifikasi dari class martial & setiap class martial mendapatkan superiority die (check penjelasan dibawah):
-- [[00.Introduction/03 - Houses Rules/Characters Specific Rules/Classes/Martial/Fighter]]
-- [[00.Introduction/03 - Houses Rules/Characters Specific Rules/Classes/Martial/Ranger]]
-- [[00.Introduction/03 - Houses Rules/Characters Specific Rules/Classes/Martial/Rogue]]
+- [[00.Introduction/01.Houses Rules/Characters Specific Rules/Classes/Martial/Fighter|Fighter]]
+- [[00.Introduction/01.Houses Rules/Characters Specific Rules/Classes/Martial/Ranger|Ranger]]
+- [[00.Introduction/01.Houses Rules/Characters Specific Rules/Classes/Martial/Rogue|Rogue]]
 
 # **Superiority Die & Maneuvers (Martial Classes)**
 

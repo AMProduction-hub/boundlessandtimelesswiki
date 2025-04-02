@@ -1,5 +1,9 @@
 ---
 title: Forgotten Realms Pantheon
+tags:
+  - Factions/ForgottenRealmsPantheon
+parent:
+  - Deity
 ---
 # Forgotten Realms Pantheon
 Dalam setting yang digunakan pada campaign ini para penduduk di Forgotten Realms memiliki kepercayaan kepada pantheon yang ada di Toril.

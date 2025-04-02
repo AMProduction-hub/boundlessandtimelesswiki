@@ -6,8 +6,6 @@ title: 01 - Into The Stories
 Latar utama dari campaign ini menggunakan modul *"Forgotten Realms"* dari DnD. Melainkan berfokus pada *Sword Coast*, pada campaign ini juga akan berfokus pada perjalanan antar *plane* (*planescape*).
 
 ## **Great Wheel of Cosmology**
-Berikut adalah peta dari keseluruhan *planescape* :
-
 <iframe
     height = 700
     width = 100%

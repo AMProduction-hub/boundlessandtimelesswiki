@@ -1,5 +1,7 @@
 ---
 title: Elven Pantheon
+tags:
+  - Factions/ForgottenRealmsPantheon/ElvenPantheon
 ---
 # Elven Pantheon  
 

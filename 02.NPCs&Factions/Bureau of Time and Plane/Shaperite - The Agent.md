@@ -1,3 +1,7 @@
+---
+tags:
+  - Factions/BureauofTimeandPlane
+---
 # **[[Shaperite - The Agent]]**
 ![[Shaperite.png|300]]
 ## **Basic Information**

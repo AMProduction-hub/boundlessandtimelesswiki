@@ -1,3 +1,7 @@
+---
+tags:
+  - Factions/BureauofTimeandPlane
+---
 # **Pustakawan (Colette von Daisies)**
 ![[Pustakawan.png | 200]]
 ## **Basic Information**
@@ -7,10 +11,11 @@
 - **Class:** Cleric (Knowledge Domain)
 - **Level:** 17
 - **Alignment:** Lawful Neutral
-- **Affiliation(s):** Bureau of Time and Plane (Second-in-Command)
+- **Affiliation(s):** [[02.NPCs&Factions/Bureau of Time and Plane/_index|Bureau of Time and Plane]] (Second-in-Command)
 - **Home:** Grand Library, Bureau of Time and Plane Headquarters
 - **Origin:** Evermeet (Material Plane)
 - **Status:** Active
+- **Family**: [[Shaperite - The Agent|Shaperite]] (Partner), unnamed child
 - **First Appearance:** _Act 1 - Prologue_
 
 

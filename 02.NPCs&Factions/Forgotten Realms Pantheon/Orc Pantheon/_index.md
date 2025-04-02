@@ -1,5 +1,7 @@
 ---
 title: Orc Pantheon
+tags:
+  - Factions/ForgottenRealmsPantheon/OrcPantheon
 ---
 # Orc Pantheon
 
