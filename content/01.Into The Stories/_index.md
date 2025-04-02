@@ -1,57 +1,63 @@
 ---
-title: 01.Prologue
+title: 01.Into The Stories
 ---
-# **Introduction**
+# **Where it all began**
 
-Dunia sedang berubah. Bisikan tentang aliansi tak wajar, tentang iblis yang berjalan di antara manusia, tentang makhluk surgawi berdiri berdampingan dengan makhluk neraka, menyebar di seluruh Sword Coast. Bahkan di jalanan Neverwinter yang ramai, tempat perdagangan dan kekuasaan mengalir seperti sungai, ketegangan tak terucapkan terasa. Material Plane yang selama ini menjadi saksi bisu konflik tanpa akhir di multiverse, kini tampaknya terjerat dalam sesuatu yang jauh lebih besar.
+Latar utama dari campaign ini menggunakan modul *"Forgotten Realms"* dari DnD. Melainkan berfokus pada *Sword Coast*, pada campaign ini juga akan berfokus pada perjalanan antar *plane* (*planescape*).
 
-Dan entah karena takdir atau kebetulan semata, **Anda** menjadi bagian dari cerita yang tengah berkembang ini.
+## **Great Wheel of Cosmology**
+<iframe
+    height = 700
+    width = 100%
+    padding = 0 0
+    margins = 0 0
+    src="https://www.worldanvil.com/w/dnd-5e-umbra-sigillum-mupen/map/61e3096e-bd8d-4acb-9588-18f83a4f1805"></iframe>
 
----
-# **Call For Action**
+Dunia tidak hanya terbatas pada daratan dan laut yang terlihat. Di luar batas Material Plane, terdapat tatanan kosmik yang disebut _The Great Wheel Cosmology_. Setiap lingkaran dalam roda ini mewakili dunia yang berbeda—dimana hukum dan kenyataan tidak seperti yang dikenal di dunia fana.
 
-Bukan kebetulan Anda berada di sini. Tindakan dan pencapaian Anda—baik yang heroik, terkenal, atau sekadar luar biasa—tidak luput dari perhatian.
+Para sarjana percaya bahwa setiap keyakinan dan konsep memiliki tempat di kosmos. Di pusatnya, terletak Sigil, _City of Doors_, tempat yang tidak memiliki tuhan, namun menjadi pusat dari segala realitas. Di luar itu, terdapat Outer Planes, tempat para dewa dan entitas agung tinggal, sementara Inner Planes membentuk unsur-unsur dunia. The Ethereal Plane dan The Shadowfell membayangi keberadaan dunia fana, sementara The Astral Sea menjadi lautan kehampaan yang menghubungkan banyak realitas.
 
-Setiap dari Anda menerima undangan dengan cara yang berbeda.
+Namun, hukum kosmos yang abadi tampaknya mulai goyah. Sesuatu sedang bergerak, dan tidak ada yang tahu apakah ini awal dari kehancuran… atau kelahiran sesuatu yang baru.
 
-- Sebuah surat tersegel yang diselipkan di bawah pintu Anda, dengan segel lilin berinisial tak dikenal.
-- Sosok misterius berkerudung yang menyebut nama Anda sebelum menghilang di keramaian.
-- Sebuah anomali—benda yang membeku dalam waktu, visi yang hanya Anda yang dapat melihat, bayangan yang bergerak di tempat yang seharusnya tidak ada.
+## **Events That Shaped The World**
+Berikut adalah peristiwa-peristiwa besar yang mengguncang *Toril*:
+- [[The Blood War]] → *"An eternal battle rages in the Lower Planes, but for the first time in recorded history, forces that should be sworn enemies now fight side by side. Why?"*
 
-Pesannya sederhana namun mendalam:
+- [[The Time of Troubles]] → *The gods walked Toril as mortals, reshaping faith and power forever. But did Ao truly restore the balance, or did he prepare something even grander?"*
 
-> _"The Bureau tahu siapa Anda. Kami memiliki tawaran untuk Anda. Kesempatan yang hanya datang sekali seumur hidup. Temui di Lonesome Tavern, saat bulan berada di puncaknya di langit."_
+- [[The Fall of Angel Zariel and Elturel City]] → *"A city once bathed in holy light fell into the depths of Hell. Many were saved, but the scars left behind tell of a bargain that could repeat itself."*
 
-Dengan rasa ingin tahu, kehati-hatian, atau mungkin takdir yang membimbing langkah Anda, Anda menuju tempat pertemuan tersebut.
+- [[The Second Sundering]] → _"Gods died, lands shifted, and magic was rewritten. But not all knowledge of the old world was lost—some remnants still lurk, waiting to be uncovered."_
 
----
-# **Pertemuan di Lonesome Tavern**
+# **Where You Come In**
+Kamu adalah petualang. Mungkin kamu mencari kekayaan, mungkin kamu mencari jawaban, atau mungkin kamu hanya tersesat di arus takdir yang tidak dapat dihindari. Namun, dunia telah berubah. Gerombolan Abyssal muncul di sudut-sudut kota. Bisikan tentang kesepakatan gelap antara Celestial dan Infernal semakin sering terdengar.
 
-Lonesome Tavern terletak di pinggiran kota, sebuah peninggalan terlupakan dari masa lalu. Tempat itu sunyi, terlalu sunyi untuk sebuah tempat yang seharusnya dipenuhi para pelancong dan petualang. Udara terasa berat, bukan dengan aroma bir dan asap seperti biasanya, tetapi dengan sesuatu yang lain—sesuatu yang tak kasat mata namun tak terelakkan.
+Material Plane bukan lagi sekadar saksi dari konflik kosmik. Kali ini, ia adalah medan perang.
 
-Di dalam, hanya ada satu meja yang ditempati. Seorang sosok tunggal, mengenakan jubah gelap namun berpotongan rapi, menunggu. Kehadirannya memancarkan wibawa tanpa kesan mengintimidasi, ekspresinya sulit dibaca. Saat Anda mendekat, mereka tidak tampak terkejut.
+Pertanyaannya… apakah kamu hanya akan menjadi bidak kecil dalam permainan yang lebih besar, ataukah kamu akan menjadi bagian dari sesuatu yang lebih besar?
 
-"Tepat waktu," katanya. "Duduklah. Dengarkan. Waktu kita singkat."
+# **Bureau Calling**
+Tidak semua orang bisa menarik perhatian **The Bureau of Time and Plane**. Mereka tidak merekrut sembarang orang. Hanya mereka yang telah membuktikan diri—mereka yang telah mengukir jejak dalam sejarah dunia—yang mendapat kesempatan untuk bergabung.
 
-Mereka memperkenalkan diri bukan dengan nama, tetapi dengan tujuan.
+**Dan Anda adalah salah satunya.**
 
-Mereka bekerja untuk **The Bureau of Time and Plane**—sebuah organisasi rahasia yang mengawasi keseimbangan realitas itu sendiri. Mereka campur tangan saat diperlukan, beroperasi dari bayang-bayang untuk mencegah bencana yang lebih besar. Dan kini, mereka memiliki tugas yang memerlukan individu dengan keterampilan tinggi, pemikiran tajam, dan keteguhan hati.
+Baru-baru ini, di wilayah **Northern Sword Coast**, nama Anda mulai diperbincangkan. Mungkin Anda adalah pahlawan yang menyelamatkan desa dari bencana yang tak terelakkan. Mungkin Anda adalah seorang pemburu bayangan yang membongkar konspirasi yang mengancam kota-kota besar. Atau mungkin Anda hanyalah seorang petualang yang, dengan satu tindakan, mengubah jalannya takdir.
 
-> "Anda telah membuktikan diri. Namun pertanyaannya—apakah Anda siap melangkah melampaui batas dunia Anda? Melihat kebenaran kosmos? Mengambil peran yang hanya sedikit orang yang tahu keberadaannya?"
+Apa pun kisahnya, **perbuatan Anda tidak luput dari perhatian**.
 
-Tawaran itu disampaikan. Pilihan ada di tangan Anda.
+Kini, sebuah panggilan datang. Entah melalui bisikan di malam hari, sebuah surat tanpa pengirim, atau bahkan sosok misterius yang menunggu di sudut jalan—pesannya sama:
 
----
-# **Transisi**
+_"The Bureau tahu siapa Anda. Kami memiliki tawaran untuk Anda. Sebuah kesempatan yang hanya datang sekali seumur hidup."_
 
-Jika Anda menerima, tidak ada ritual besar, tidak ada upacara rumit. Hanya instruksi sederhana:
+Tetapi kesempatan ini tidak datang tanpa harga. Dengan menerima panggilan ini, Anda akan melangkah ke dalam konflik yang jauh lebih besar dari yang pernah Anda bayangkan.
 
-> _"Tutup mata Anda."_
+Sekarang, tanyakan pada diri Anda: **Apa yang telah Anda lakukan untuk menarik perhatian The Bureau?**
 
-Dan saat Anda melakukannya, dunia di sekitar Anda berubah. Lantai kayu di bawah kaki Anda menghilang. Aroma tavern memudar. Sesaat Anda merasakan tanpa bobot, disorientasi—dan kemudian, mata Anda terbuka pada pemandangan yang mustahil.
+(_Di sini, Anda dapat menuliskan Heroic Feats karakter Anda—momen penting yang membuat Anda dikenal di Northern Sword Coast. Berikut adalah peta dari Sword Coast yang bisa kalian pakai untuk backstory kalian, Northern Sword Coast berarti area yang dekat dengan Neverwinter._)
 
-Anda berdiri di dalam perpustakaan yang luas tak terhingga. Rak-rak buku membentang hingga tak terlihat ujungnya, melayang di kehampaan. Buku-buku melayang bebas, tersusun ulang oleh tangan tak terlihat. Udara bergetar dengan beratnya pengetahuan yang tak terhitung jumlahnya.
-
-**Grand Library**—jantung dari The Bureau.
-
-Babak baru dalam perjalanan Anda telah dimulai.
+<iframe
+    height = 700
+    width = 100%
+    padding = 0 0
+    margins = 0 0
+    src="https://www.aidedd.org/atlas/index.php?map=R&l=1"></iframe>
