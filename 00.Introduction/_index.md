@@ -1,5 +1,5 @@
 ---
-title: 00 - Introduction
+title: 00.Introduction
 ---
 # 🌌 **Boundless and Timeless** - The Fate of the Multiverse  
 _A High-Stakes Planescape Adventure_  

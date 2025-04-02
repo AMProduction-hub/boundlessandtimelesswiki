@@ -7,3 +7,7 @@ Pada plane ini dikarenakan sihir tidak dapat digunakan maka penghuni plane ini m
 | Shotgun   | Strength                | **range < 15ft 2d10 cone spread**, 2d6 range > 30 ft, reload 2 | Piercing        | 30/40ft   | Ignore AC.<br>Roll vs. Touch AC. |
 | Rifle     | Dexterity               | 2d10, reload 5                                                 | Piercing        | 80/150ft  | Ignore AC.<br>Roll vs. Touch AC. |
 | Sniper    | Dexterity               | 2d12, reload 1                                                 | Piercing        | 100/400ft | Ignore AC.<br>Roll vs. Touch AC. |
+## **Reloading Mechanic**
+
+**Bonus Action** : Reload 1 peluru
+**Action** : Reload Full
