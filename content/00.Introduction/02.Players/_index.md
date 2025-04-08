@@ -5,7 +5,7 @@ title: Players
 Berikut adalah quick character maker guide yang akan membantu kalian dalam menentukan karakter yang akan kalian buat
 
 - [[03.PlayerLog&Handouts/Mechanics/CLI/races/_index|Allowed Races]]
-- [[classes|Allowed Classes]] (Juga perhatikan house rules yang mengatur beberapa class di [[00.Introduction/01.Houses Rules/Characters Specific Rules/Classes/_index|House Rules Class]])
+- [[03.PlayerLog&Handouts/Mechanics/CLI/classes/_index|Allowed Class]] (Juga perhatikan house rules yang mengatur beberapa class di [[00.Introduction/01.Houses Rules/Characters Specific Rules/Classes/_index|House Rules Class]])
 - Character Progression
 	- [[ability-scores-and-modifiers|Ability Scores and Modifiers]] (Point Buy (min. 8), Roll 4d6 drop lowest (total score min. 75 max. 80), Classes Standard Array)
 	- [[Ability Scores, Feats & Skills Progression]]
