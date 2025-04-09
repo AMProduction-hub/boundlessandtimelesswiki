@@ -1,3 +1,4 @@
+![[Charlatan.webp|banner]]
 # 🌍 [Plane Name] - [Theme]  
 _"A poetic description of the plane."_  
 

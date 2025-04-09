@@ -14,8 +14,8 @@ next:
   - Template - Merchant
 RWtopicId: Topic_21
 ---
+![[GrandLibrary.webp|banner]]
 # Grand Library (Bureau of Time and Plane Headquarters)
-
 ## Overview
 
 The **Grand Library** serves as the beating heart of the **Bureau of Time and Plane**—a vast repository of knowledge, a command center for multiversal operations, and a place where only a select few ever step foot. Located within the **Astral Plane**, time flows differently here, and its inhabitants do not age in the conventional sense. The Library is not merely a place of books and scrolls; it is a fortress of thought, a nexus of information, and the operational hub of the Bureau's enigmatic work.
