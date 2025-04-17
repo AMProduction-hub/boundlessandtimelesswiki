@@ -35,7 +35,6 @@
     "useInternalPlugins": false
   },
   "01.Into The Stories/02.ACT1.Artifacts Hunting/Plane of Greed - Smaug's Challenge": "LiCoins",
-  "01.Into The Stories/02.ACT1.Artifacts Hunting/Fallen Paladin’s Past - A Father’s Burden": "RaDrippingSword",
   "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth": "LiSunMoon",
   "01.Into The Stories/02.ACT1.Artifacts Hunting/The Show! - Orwellian Reality Bending Game Show": "LiTimer",
   "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans": {
@@ -45,5 +44,6 @@
   "01.Into The Stories/02.ACT1.Artifacts Hunting/Tech-Dominant Plane - A Fistful of Schemes": "RaCrossedPistols",
   "00.Introduction/01.Houses Rules": "LiScrollText",
   "00.Introduction/02.Players": "FasPeopleGroup",
-  "00.DM Screen/DM Screen.md": "FasHatWizard"
+  "00.DM Screen/DM Screen.md": "FasHatWizard",
+  "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden": "RaDrippingSword"
 }

@@ -9,7 +9,7 @@ Halo Selamat Datang Silahkan menuju halaman [[00.Introduction/_index|Overview]]
 
 ### **A-Team**
 ```dataview
-TABLE name AS "Player", class, race, level, role
+TABLE name AS "Name", class AS "Class", race AS "Race", level AS "Level", players AS "Players"
 FROM "00.Introduction/02.Players/A-Team"
 SORT level DESC 
 ```

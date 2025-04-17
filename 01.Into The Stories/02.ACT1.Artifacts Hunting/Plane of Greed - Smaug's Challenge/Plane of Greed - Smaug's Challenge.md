@@ -5,7 +5,6 @@ The whispers of wealth call to you, their song both promise and trap.
 How much will you take? How far will you fall?"_
 
 ---
-
 ### **🌟 Introduction**
 
 - **Tone & Theme:** A **jungle-hidden tomb** filled with **untold riches**—but every act of greed strengthens the **dragon that feeds on desire**.
@@ -26,7 +25,6 @@ The dragon waits, its hunger keen—
 Your greed the meal, your fate unseen."_
 
 ---
-
 ### **🗺️ Major Locations**
 
 #### **1. The Jungle Approach**

@@ -1,7 +1,6 @@
 # **📑 Laporan Investigasi Planar**
 
 ### **Bureau of Time and Plane**
-
 ### **Divisi Eksplorasi & Pemulihan Artefak**
 
 ---
