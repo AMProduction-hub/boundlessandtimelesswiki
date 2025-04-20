@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Maps.md",
-                "mode": "preview",
+                "file": "00.Introduction/02.Players/Untitled.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Maps"
+              "title": "Untitled"
             }
           }
         ]
@@ -271,8 +271,11 @@
   },
   "active": "550916c25130bcee",
   "lastOpenFiles": [
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Paladin’s Past - A Father’s Burden.md",
+    "00.DM Screen/_index.md",
+    "00.Introduction/02.Players/Untitled.md",
+    "00.DM Screen/DM Screen.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Maps.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Paladin’s Past - A Father’s Burden.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Character/The Paladin.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Plane of Greed - Smaug's Challenge/Plane of Greed - Smaug's Challenge.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Sunless World - The Hidden Truth.md",
@@ -306,12 +309,9 @@
     "00.Introduction/01.Houses Rules/_index.md",
     "00.Introduction/01.Houses Rules/Dices House Rules.md",
     "00.Introduction/01.Houses Rules/Armor Class.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/classes/_index.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/tables/classes.md",
     "z_Assets/Worlds/ACT 1/Banner",
     "z_Assets/Worlds/ACT 1/Banner/Charlatan.webp",
     "z_Assets/Worlds/ACT 1",
-    "z_Assets/Worlds/Untitled.md",
     "z_Assets/Bureau of Time and Plane/Location/GrandLibrary.webp",
     "z_Assets/Worlds/Shops/DnD_Shop.pdf",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Plane of Greed - Smaug's Challenge/Maps",
