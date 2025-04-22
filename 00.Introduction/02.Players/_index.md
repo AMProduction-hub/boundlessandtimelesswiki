@@ -1,6 +1,26 @@
 ---
 title: Players
 ---
+# **Players List**
+
+## Grup A
+
+| Character Name      | Class                                                      | Race                                |
+| ------------------- | ---------------------------------------------------------- | ----------------------------------- |
+| [[Chromatheus]]     | [[warlock-the-fiend\|Warlock - The Fiend]]                 | [[genasi-fire-mpmm\|Genasi (Fire)]] |
+| [[Froggo]]          | [[ranger-gloom-stalker-xge\|Ranger - Gloom Stalker]]       | [[grung-mpmm\|Grung]]               |
+| [[GomuGomuNo]]      | [[monk\|Monk]]                                             | [[goliath-mpmm\|Goliath]]           |
+| [[Jeno]]            | [[wizard\|Wizard]]                                         | [[tabaxi-mpmm\|Tabaxi]]             |
+| [[Kairos]]          | [[rogue-soulknife-tce\|Rogue - Soulknife]]                 | [[astral-elf-aag\|Astral Elf]]      |
+| [[Verdian Suyanti]] | [[bard-college-of-glamour-xge\|Bard - College of Glamour]] | [[half-elf\|Half-Elf]]              |
+## Grup B
+
+| Character Name   | Class                                                             | Race                            |
+| ---------------- | ----------------------------------------------------------------- | ------------------------------- |
+| [[Alizar Valts]] | [[fighter-battle-master\|Fighter - Battle Master]]                | [[elf-high\|Elf (High)]]        |
+| [[Ashenka Roïs]] | [[monk-way-of-the-long-death-scag\|Monk - Way of the Long Death]] | [[shadar-kai-mpmm\|Shadar-Kai]] |
+| [[Gwyn]]         |                                                                   |                                 |
+
 # **Quick Character Maker Guide**
 Berikut adalah quick character maker guide yang akan membantu kalian dalam menentukan karakter yang akan kalian buat
 

@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Introduction/02.Players/Untitled.md",
-                "mode": "source",
+                "file": "00.Introduction/02.Players/B-Team/Gwyn.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Gwyn"
             }
           }
         ]
@@ -176,13 +176,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01.Into The Stories/01.Prologue/_index.md",
+                "file": "00.Introduction/02.Players/B-Team/Gwyn.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of _index"
+              "title": "Outline of Gwyn"
             }
           },
           {
@@ -227,22 +227,6 @@
           }
         ],
         "currentTab": 4
-      },
-      {
-        "id": "818e9fc38712af13",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "5241d4770797c10d",
-            "type": "leaf",
-            "state": {
-              "type": "fantasy-statblocks-creature-pane",
-              "state": {},
-              "icon": "skull",
-              "title": "Combatant"
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
@@ -260,7 +244,6 @@
       "obsidian-git:Open Git source control": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-leaflet-plugin:Open Leaflet Map": false,
-      "remotely-save:Remotely Save": false,
       "obsidian-5e-statblocks:Open Creature pane": false,
       "initiative-tracker:Initiative Tracker Encounter Builder": false,
       "obsidian-excalidraw-plugin:New drawing": false,
@@ -271,52 +254,52 @@
   },
   "active": "550916c25130bcee",
   "lastOpenFiles": [
-    "00.DM Screen/_index.md",
-    "00.Introduction/02.Players/Untitled.md",
-    "00.DM Screen/DM Screen.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Maps.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Paladin’s Past - A Father’s Burden.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Character/The Paladin.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Plane of Greed - Smaug's Challenge/Plane of Greed - Smaug's Challenge.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Sunless World - The Hidden Truth.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/02.ACT1.Artifacts Hunting.md",
-    "z_Assets/Worlds/ACT 1/Characters/SirAldric_PaladinMode.png",
-    "z_Assets/Worlds/ACT 1/Characters/SirAldric_BakerMode.png",
-    "z_Assets/Worlds/ACT 1/Characters/SerAldric.png",
-    "z_Assets/Worlds/ACT 1/Characters",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Plane of Greed - Smaug's Challenge/Maps/The Golden Hall.webp",
-    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/allosaurus.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Character",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Plane of Greed - Smaug's Challenge/Report.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Plane of Greed - Smaug's Challenge/Maps/The Heart Of The Hoard.webp",
-    "00.Introduction/02.Players/A-Team/GomuGomuNo.md",
-    "_index.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/classes/monk.md",
-    "00.Introduction/02.Players/A-Team/John Doe.md",
-    "z_Assets/Worlds/ACT 1/Maps/Aruendel_Maps.png",
-    "z_Assets/Worlds/ACT 1/Maps",
-    "00.Introduction/01.Houses Rules/Team Party Killed (TPK).md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/classes/paladin.md",
+    "00.Introduction/02.Players/B-Team/Gwyn.md",
+    "00.Introduction/02.Players/B-Team/Meows Whiskerpop (Whisky).md",
+    "00.Introduction/02.Players/B-Team/Alizar Valts.md",
+    "00.Introduction/02.Players/B-Team/Ashenka Roïs.md",
     "00.Introduction/02.Players/_index.md",
-    "02.NPCs&Factions/Forgotten Realms Pantheon/_index.md",
-    "02.NPCs&Factions/Forgotten Realms Pantheon/Faerunian Pantheon/_index.md",
-    "00.Introduction/01.Houses Rules/Characters Specific Rules/Ability Scores, Feats & Skills Progression.md",
-    "03.PlayerLog&Handouts/Mechanis/CLI/tables/ability-scores-and-modifiers.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/tables/ability-scores-and-modifiers.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/races/shadar-kai-mpmm.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/classes/wizard.md",
+    "00.Introduction/01.Houses Rules/Characters Specific Rules/Classes/_index.md",
+    "_index.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/classes/warlock.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/classes/fighter.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/classes/monk.md",
+    "00.Introduction/02.Players/A-Team/Verdian Suyanti.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/classes/bard.md",
+    "00.Introduction/02.Players/A-Team/Kairos.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/classes/rogue.md",
+    "00.Introduction/02.Players/A-Team/Jeno.md",
+    "00.Introduction/02.Players/A-Team/GomuGomuNo.md",
+    "00.Introduction/02.Players/A-Team/Froggo.md",
+    "00.Introduction/02.Players/A-Team/Chromatheus.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/classes/ranger.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Character/The Mother.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/buraq-tob1-2023.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/celestial.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Character/The Paladin.md",
+    "z_Assets/Worlds/ACT 1/Characters/themother.png",
+    "z_Assets/Worlds/ACT 1/Characters/Elira.png",
+    "z_Assets/Worlds/ACT 1/Characters/Elira.png",
+    "z_Assets/Bureau of Time and Plane/Location/GrandLibrary.webp",
+    "z_Assets/Bureau of Time and Plane/Location/Sage.webp",
+    "z_Assets/Bureau of Time and Plane/Character Potrait/Shaperite.png",
+    "z_Assets/Worlds/ACT 1/Characters/SirAldric_BakerMode.png",
+    "z_Assets/Worlds/ACT 1/Characters/SirAldric_PaladinMode.png",
+    "z_Assets/Worlds/ACT 1/Characters/SerAldric.png",
+    "z_Assets/Worlds/ACT 1/Banner/Charlatan.webp",
+    "00.Introduction/02.Players/B-Team",
+    "00.Introduction/02.Players/Untitled",
+    "z_Assets/Worlds/ACT 1/Characters",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Character",
+    "z_Assets/Worlds/ACT 1/Maps",
     "03.PlayerLog&Handouts/Mechanis/CLI/tables",
     "03.PlayerLog&Handouts/Mechanis/CLI",
     "03.PlayerLog&Handouts/Mechanis",
-    "00.Introduction/01.Houses Rules/Characters Specific Rules/_index.md",
-    "00.Introduction/01.Houses Rules/_index.md",
-    "00.Introduction/01.Houses Rules/Dices House Rules.md",
-    "00.Introduction/01.Houses Rules/Armor Class.md",
     "z_Assets/Worlds/ACT 1/Banner",
-    "z_Assets/Worlds/ACT 1/Banner/Charlatan.webp",
     "z_Assets/Worlds/ACT 1",
-    "z_Assets/Bureau of Time and Plane/Location/GrandLibrary.webp",
-    "z_Assets/Worlds/Shops/DnD_Shop.pdf",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Plane of Greed - Smaug's Challenge/Maps",
-    "z_Assets/Bureau of Time and Plane/Character Potrait/Damian.png",
-    "z_Assets/Bureau of Time and Plane/Character Potrait/Damian_humanform.png",
     "02 - NPCs & Factions/Forgotten Realms Pantheon/Faeurinian Pantheon/Faeurinian Pantheon.canvas",
     "00 - Introduction/02 - Players/02 - Players.canvas",
     "Untitled.canvas"
