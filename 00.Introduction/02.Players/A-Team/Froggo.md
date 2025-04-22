@@ -43,4 +43,3 @@ Ranger *Source: Player's Handbook p. 89. Available in the <span title='Systems R
 > </tbody></table>
 
 ^class-progression
-

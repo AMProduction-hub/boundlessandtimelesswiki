@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Introduction/02.Players/B-Team/Gwyn.md",
+                "file": "00.Introduction/02.Players/A-Team/Chromatheus.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Gwyn"
+              "title": "Chromatheus"
             }
           }
         ]
@@ -176,13 +176,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Introduction/02.Players/B-Team/Gwyn.md",
+                "file": "00.Introduction/02.Players/A-Team/Chromatheus.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Gwyn"
+              "title": "Outline of Chromatheus"
             }
           },
           {
@@ -254,11 +254,13 @@
   },
   "active": "550916c25130bcee",
   "lastOpenFiles": [
-    "03.PlayerLog&Handouts/Mechanics/CLI/classes/paladin.md",
-    "00.Introduction/02.Players/B-Team/Gwyn.md",
-    "00.Introduction/02.Players/B-Team/Meows Whiskerpop (Whisky).md",
+    "00.Introduction/02.Players/A-Team/Froggo.md",
+    "00.Introduction/02.Players/A-Team/GomuGomuNo.md",
     "00.Introduction/02.Players/B-Team/Alizar Valts.md",
     "00.Introduction/02.Players/B-Team/Ashenka Roïs.md",
+    "00.Introduction/02.Players/B-Team/Meows Whiskerpop (Whisky).md",
+    "00.Introduction/02.Players/B-Team/Gwyn.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/classes/paladin.md",
     "00.Introduction/02.Players/_index.md",
     "03.PlayerLog&Handouts/Mechanics/CLI/races/shadar-kai-mpmm.md",
     "03.PlayerLog&Handouts/Mechanics/CLI/classes/wizard.md",
@@ -272,8 +274,6 @@
     "00.Introduction/02.Players/A-Team/Kairos.md",
     "03.PlayerLog&Handouts/Mechanics/CLI/classes/rogue.md",
     "00.Introduction/02.Players/A-Team/Jeno.md",
-    "00.Introduction/02.Players/A-Team/GomuGomuNo.md",
-    "00.Introduction/02.Players/A-Team/Froggo.md",
     "00.Introduction/02.Players/A-Team/Chromatheus.md",
     "03.PlayerLog&Handouts/Mechanics/CLI/classes/ranger.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Character/The Mother.md",
