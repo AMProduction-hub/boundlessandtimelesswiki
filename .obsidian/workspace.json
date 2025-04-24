@@ -30,8 +30,21 @@
               "icon": "lucide-file",
               "title": "Chromatheus"
             }
+          },
+          {
+            "id": "d6e74981469ce838",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.10"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -252,7 +265,7 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "550916c25130bcee",
+  "active": "d6e74981469ce838",
   "lastOpenFiles": [
     "00.Introduction/02.Players/A-Team/Froggo.md",
     "00.Introduction/02.Players/A-Team/GomuGomuNo.md",
