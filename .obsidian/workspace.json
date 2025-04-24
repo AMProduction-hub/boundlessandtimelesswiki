@@ -11,40 +11,15 @@
             "id": "550916c25130bcee",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "00.Introduction/02.Players/A-Team/Chromatheus.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "z_Assets/Characters/Shaperite.png"
               },
-              "icon": "lucide-file",
-              "title": "Chromatheus"
-            }
-          },
-          {
-            "id": "d6e74981469ce838",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.10"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.10"
+              "icon": "lucide-image",
+              "title": "Shaperite"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -265,8 +240,20 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "d6e74981469ce838",
+  "active": "9f54d66b8838b5ac",
   "lastOpenFiles": [
+    "00.Introduction/02.Players/A-Team/Chromatheus.md",
+    "z_Assets/Characters/ChatGPT Image Apr 3, 2025, 10_21_16 AM.png",
+    "z_Assets/Characters/ChatGPT Image Apr 3, 2025, 10_21_07 AM.png",
+    "z_Assets/Characters/themothers.png",
+    "z_Assets/Characters/themother.png",
+    "z_Assets/Characters/SirAldric_PaladinMode.png",
+    "z_Assets/Characters/SirAldric_BakerMode.png",
+    "z_Assets/Characters/SirAldric.png",
+    "z_Assets/Characters/Shaperite.png",
+    "z_Assets/Characters/SerAldric.png",
+    "z_Assets/Characters/Elira_2.png",
+    "z_Assets/Characters",
     "00.Introduction/02.Players/A-Team/Froggo.md",
     "00.Introduction/02.Players/A-Team/GomuGomuNo.md",
     "00.Introduction/02.Players/B-Team/Alizar Valts.md",
@@ -287,22 +274,10 @@
     "00.Introduction/02.Players/A-Team/Kairos.md",
     "03.PlayerLog&Handouts/Mechanics/CLI/classes/rogue.md",
     "00.Introduction/02.Players/A-Team/Jeno.md",
-    "00.Introduction/02.Players/A-Team/Chromatheus.md",
     "03.PlayerLog&Handouts/Mechanics/CLI/classes/ranger.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Character/The Mother.md",
     "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/buraq-tob1-2023.md",
     "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/celestial.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Character/The Paladin.md",
-    "z_Assets/Worlds/ACT 1/Characters/themother.png",
-    "z_Assets/Worlds/ACT 1/Characters/Elira.png",
-    "z_Assets/Worlds/ACT 1/Characters/Elira.png",
-    "z_Assets/Bureau of Time and Plane/Location/GrandLibrary.webp",
-    "z_Assets/Bureau of Time and Plane/Location/Sage.webp",
-    "z_Assets/Bureau of Time and Plane/Character Potrait/Shaperite.png",
-    "z_Assets/Worlds/ACT 1/Characters/SirAldric_BakerMode.png",
-    "z_Assets/Worlds/ACT 1/Characters/SirAldric_PaladinMode.png",
-    "z_Assets/Worlds/ACT 1/Characters/SerAldric.png",
-    "z_Assets/Worlds/ACT 1/Banner/Charlatan.webp",
     "00.Introduction/02.Players/B-Team",
     "00.Introduction/02.Players/Untitled",
     "z_Assets/Worlds/ACT 1/Characters",
@@ -312,7 +287,6 @@
     "03.PlayerLog&Handouts/Mechanis/CLI",
     "03.PlayerLog&Handouts/Mechanis",
     "z_Assets/Worlds/ACT 1/Banner",
-    "z_Assets/Worlds/ACT 1",
     "02 - NPCs & Factions/Forgotten Realms Pantheon/Faeurinian Pantheon/Faeurinian Pantheon.canvas",
     "00 - Introduction/02 - Players/02 - Players.canvas",
     "Untitled.canvas"
