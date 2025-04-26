@@ -1,6 +1,102 @@
 {
-  "players": [],
-  "parties": [],
+  "players": [
+    {
+      "note": "Chromatheus",
+      "path": "00.Introduction/02.Players/A-Team/Chromatheus.md",
+      "name": "Chromatheus",
+      "level": 3,
+      "player": true
+    },
+    {
+      "note": "Froggo",
+      "path": "00.Introduction/02.Players/A-Team/Froggo.md",
+      "name": "Froggo",
+      "level": 3,
+      "player": true
+    },
+    {
+      "note": "GomuGomuNo",
+      "path": "00.Introduction/02.Players/A-Team/GomuGomuNo.md",
+      "name": "Gomu Gomu No",
+      "level": 3,
+      "player": true,
+      "hp": "33"
+    },
+    {
+      "note": "Jeno",
+      "path": "00.Introduction/02.Players/A-Team/Jeno.md",
+      "name": "Jeno",
+      "level": 3,
+      "player": true
+    },
+    {
+      "note": "Kairos",
+      "path": "00.Introduction/02.Players/A-Team/Kairos.md",
+      "name": "Kairos",
+      "level": 3,
+      "player": true
+    },
+    {
+      "note": "Verdian Suyanti",
+      "path": "00.Introduction/02.Players/A-Team/Verdian Suyanti.md",
+      "name": "Verdian Suyanti",
+      "level": 3,
+      "player": true
+    },
+    {
+      "note": "Alizar Valts",
+      "path": "00.Introduction/02.Players/B-Team/Alizar Valts.md",
+      "name": "Alizar Valts",
+      "level": 3,
+      "player": true,
+      "ac": "13",
+      "hp": 0,
+      "modifier": 0
+    },
+    {
+      "note": "Ashenka Roïs",
+      "path": "00.Introduction/02.Players/B-Team/Ashenka Roïs.md",
+      "name": "Ashenka Roïs",
+      "level": 3,
+      "player": true
+    },
+    {
+      "note": "Gwyn",
+      "path": "00.Introduction/02.Players/B-Team/Gwyn.md",
+      "name": "Gwyn",
+      "level": 3,
+      "player": true
+    },
+    {
+      "note": "Meows Whiskerpop (Whisky)",
+      "path": "00.Introduction/02.Players/B-Team/Meows Whiskerpop (Whisky).md",
+      "name": "Meows Whiskerpop (Whisky)",
+      "level": 3,
+      "player": true
+    }
+  ],
+  "parties": [
+    {
+      "name": "Grup A",
+      "players": [
+        "Chromatheus",
+        "Froggo",
+        "Gomu Gomu No",
+        "Jeno",
+        "Kairos",
+        "Verdian Suyanti"
+      ]
+    },
+    {
+      "name": "Grup B",
+      "players": [
+        "Alizar Valts",
+        "Ashenka Roïs",
+        "Gwyn",
+        "Meows Whiskerpop (Whisky)"
+      ]
+    }
+  ],
   "defaultParty": null,
   "statuses": [
     {
@@ -91,18 +187,101 @@
     16
   ],
   "canUseDiceRoll": false,
-  "preferStatblockLink": false,
+  "preferStatblockLink": true,
   "initiative": "1d20 + %mod%",
   "modifier": null,
-  "sync": false,
+  "sync": true,
   "playerMarker": "default",
   "monsterMarker": "default",
   "state": {
-    "creatures": [],
+    "creatures": [
+      {
+        "name": "Alizar Valts",
+        "initiative": 0,
+        "static": false,
+        "modifier": 0,
+        "hp": 0,
+        "currentMaxHP": 0,
+        "ac": "13",
+        "currentAC": "13",
+        "note": "Alizar Valts",
+        "path": "00.Introduction/02.Players/B-Team/Alizar Valts.md",
+        "id": "ID_78fb4bd9e83b",
+        "currentHP": 0,
+        "tempHP": 0,
+        "status": [],
+        "enabled": true,
+        "level": 3,
+        "player": true,
+        "active": false,
+        "hidden": false,
+        "friendly": false
+      },
+      {
+        "name": "Ashenka Roïs",
+        "initiative": 0,
+        "static": false,
+        "modifier": 0,
+        "hp": 0,
+        "currentMaxHP": 0,
+        "note": "Ashenka Roïs",
+        "path": "00.Introduction/02.Players/B-Team/Ashenka Roïs.md",
+        "id": "ID_9a6bbbf9892b",
+        "currentHP": 0,
+        "tempHP": 0,
+        "status": [],
+        "enabled": true,
+        "level": 3,
+        "player": true,
+        "active": false,
+        "hidden": false,
+        "friendly": false
+      },
+      {
+        "name": "Gwyn",
+        "initiative": 0,
+        "static": false,
+        "modifier": 0,
+        "hp": 0,
+        "currentMaxHP": 0,
+        "note": "Gwyn",
+        "path": "00.Introduction/02.Players/B-Team/Gwyn.md",
+        "id": "ID_cab9691adb6a",
+        "currentHP": 0,
+        "tempHP": 0,
+        "status": [],
+        "enabled": true,
+        "level": 3,
+        "player": true,
+        "active": false,
+        "hidden": false,
+        "friendly": false
+      },
+      {
+        "name": "Meows Whiskerpop (Whisky)",
+        "initiative": 0,
+        "static": false,
+        "modifier": 0,
+        "hp": 0,
+        "currentMaxHP": 0,
+        "note": "Meows Whiskerpop (Whisky)",
+        "path": "00.Introduction/02.Players/B-Team/Meows Whiskerpop (Whisky).md",
+        "id": "ID_890bb9dafbba",
+        "currentHP": 0,
+        "tempHP": 0,
+        "status": [],
+        "enabled": true,
+        "level": 3,
+        "player": true,
+        "active": false,
+        "hidden": false,
+        "friendly": false
+      }
+    ],
     "state": false,
     "name": null,
     "round": 1,
-    "logFile": "",
+    "logFile": "00.Introduction/02.Players/1745645561178 - Combat.md",
     "rollHP": false
   },
   "condense": false,
@@ -122,11 +301,11 @@
   },
   "hpOverflow": "ignore",
   "additiveTemp": false,
-  "rpgSystem": "dnd5e",
-  "logging": false,
-  "logFolder": "/",
+  "rpgSystem": "dnd5e-lazygm",
+  "logging": true,
+  "logFolder": "03.PlayerLog&Handouts/Session",
   "useLegacy": false,
-  "diplayPlayerHPValues": true,
+  "diplayPlayerHPValues": false,
   "rollHP": false,
   "descending": true,
   "builder": {
@@ -134,5 +313,5 @@
     "showXP": true,
     "sidebarIcon": true
   },
-  "rollPlayerInitiatives": 0
+  "rollPlayerInitiatives": 2
 }

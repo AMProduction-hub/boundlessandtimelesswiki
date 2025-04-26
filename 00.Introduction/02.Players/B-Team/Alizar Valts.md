@@ -4,6 +4,9 @@ class: Fighter - Battle Master
 race: Elf (High)
 level: 3
 players: Joz
+ac: "13"
+hp: 0
+modifier: 0
 ---
 # Alizar Valts
 ## Overview

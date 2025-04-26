@@ -1,3 +1,11 @@
+---
+obsidianUIMode: preview
+cssclasses: json5e-monster
+tags:
+statblock: inline
+aliases: ["The Paladin"]
+---
+
 ``` statblock
 "name": "Sir Aldric, The Relentless (Merchant Mode)"
 "size": "Medium"

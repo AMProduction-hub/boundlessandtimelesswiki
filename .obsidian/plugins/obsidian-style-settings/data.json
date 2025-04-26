@@ -12,5 +12,9 @@
   "ITS@@breadcrumbs-block": true,
   "ITS@@notion": false,
   "ITS@@dataview-regular-table": true,
-  "ITS@@slrvb-g": false
+  "ITS@@slrvb-g": false,
+  "ITS@@default-statblock": false,
+  "ITS@@dataview-table-auto": false,
+  "ITS@@kanban-minimal": false,
+  "ITS@@kanban-boxed": false
 }

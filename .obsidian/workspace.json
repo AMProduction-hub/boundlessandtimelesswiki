@@ -11,12 +11,24 @@
             "id": "550916c25130bcee",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "z_Assets/Characters/Shaperite.png"
+                "file": "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Character/The Paladin.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-image",
-              "title": "Shaperite"
+              "icon": "lucide-file",
+              "title": "The Paladin"
             }
           }
         ]
@@ -164,13 +176,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Introduction/02.Players/A-Team/Chromatheus.md",
+                "file": "00.Introduction/02.Players/A-Team/_index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Chromatheus"
+              "title": "Outline of _index"
             }
           },
           {
@@ -215,10 +227,26 @@
           }
         ],
         "currentTab": 4
+      },
+      {
+        "id": "b2981bd983cd7acd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6bbed814f728f060",
+            "type": "leaf",
+            "state": {
+              "type": "fantasy-statblocks-creature-pane",
+              "state": {},
+              "icon": "skull",
+              "title": "Combatant"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 410.5
+    "width": 452.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -240,44 +268,45 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "9f54d66b8838b5ac",
+  "active": "550916c25130bcee",
   "lastOpenFiles": [
-    "00.Introduction/02.Players/A-Team/Chromatheus.md",
-    "z_Assets/Characters/ChatGPT Image Apr 3, 2025, 10_21_16 AM.png",
-    "z_Assets/Characters/ChatGPT Image Apr 3, 2025, 10_21_07 AM.png",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Character/The Daughter.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Character/The Mother.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/assassin.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/_index.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/archdruid-mpmm.md",
+    "z_Assets/Worlds/ACT 1/Characters/Elira.png",
+    "z_Assets/Worlds/ACT 1/Characters/SirAldric_BakerMode.png",
     "z_Assets/Characters/themothers.png",
     "z_Assets/Characters/themother.png",
-    "z_Assets/Characters/SirAldric_PaladinMode.png",
-    "z_Assets/Characters/SirAldric_BakerMode.png",
-    "z_Assets/Characters/SirAldric.png",
-    "z_Assets/Characters/Shaperite.png",
-    "z_Assets/Characters/SerAldric.png",
+    "z_Assets/Characters/Damian.png",
+    "z_Assets/Characters/Damian_humanform.png",
     "z_Assets/Characters/Elira_2.png",
+    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/alkilith-mpmm.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/_index.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/_index.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/allosaurus.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/backgrounds/acolyte.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/backgrounds/_index.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/ancient-titan-tob1-2023.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/_index.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/abyssal-chicken-bgdia.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/_index.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/adult-blue-dragon.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Character/The Paladin.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/_index.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/_index.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/_index.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/_index.md",
+    "00.Introduction/01.Houses Rules/Spells/Minor Illusion.md",
+    "00.Introduction/01.Houses Rules/Spells/Wish.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/vehicles/_index.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/traps-hazards/_index.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/spells/_index.md",
+    "z_Assets/Characters/Shaperite.png",
+    "z_Assets/Characters/ChatGPT Image Apr 3, 2025, 10_21_16 AM.png",
+    "z_Assets/Characters/ChatGPT Image Apr 3, 2025, 10_21_07 AM.png",
     "z_Assets/Characters",
-    "00.Introduction/02.Players/A-Team/Froggo.md",
-    "00.Introduction/02.Players/A-Team/GomuGomuNo.md",
-    "00.Introduction/02.Players/B-Team/Alizar Valts.md",
-    "00.Introduction/02.Players/B-Team/Ashenka Roïs.md",
-    "00.Introduction/02.Players/B-Team/Meows Whiskerpop (Whisky).md",
-    "00.Introduction/02.Players/B-Team/Gwyn.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/classes/paladin.md",
-    "00.Introduction/02.Players/_index.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/races/shadar-kai-mpmm.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/classes/wizard.md",
-    "00.Introduction/01.Houses Rules/Characters Specific Rules/Classes/_index.md",
-    "_index.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/classes/warlock.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/classes/fighter.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/classes/monk.md",
-    "00.Introduction/02.Players/A-Team/Verdian Suyanti.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/classes/bard.md",
-    "00.Introduction/02.Players/A-Team/Kairos.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/classes/rogue.md",
-    "00.Introduction/02.Players/A-Team/Jeno.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/classes/ranger.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Character/The Mother.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/buraq-tob1-2023.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/celestial.md",
     "00.Introduction/02.Players/B-Team",
     "00.Introduction/02.Players/Untitled",
     "z_Assets/Worlds/ACT 1/Characters",

@@ -4,11 +4,23 @@ class: Monk
 race: Goliath
 level: 3
 players: Faatichi
+hp: "33"
 ---
-# Template - General Characters Article
+# Gomu Gomu No
 ## Overview
 ### Basic Background
 Who are you? (Gomu gomu no, Goliath, Monk, and a ? ) Where are you from? (Tempat terasingkan) What do you look like? (seperti ia mungkin akan mengenakan jubah sederhana berwarna gelap yang tetap mencerminkan aura kelamnya, dengan aksen kain kasar yang menggantung longgar seperti jubah pertempuran. Rambutnya tetap tidak rapi, mencerminkan perjalanan panjang dan beratnya. tangannya seperti senjata berat dan simbol disiplin spiritual. Wajahnya masih memancarkan tekad yang tak tergoyahkan, tetapi ada kilatan kedamaian baru dalam tatapannya, seperti seseorang yang berjuang untuk rekonsiliasi antara kekuatan brutal dan kebijaksanaan batin. Pakaian dan aksesorinya mencerminkan transisinya dari prajurit pendendam menjadi seseorang yang mencari keseimbangan dan harmoni dalam kekuatan.
+
+### Statblock
+```statblock
+creature: [[goliath-mpmm|Goliath]]
+name: Gomu Gomu No
+size: Medium
+ac: 17
+hp: 33
+layout: 5e
+alignment: Chaotic Neutral
+```
 
 ## Class Table
 *Source: Player's Handbook p. 76. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  

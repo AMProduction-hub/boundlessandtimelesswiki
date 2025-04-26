@@ -1,3 +1,11 @@
+---
+obsidianUIMode: preview
+cssclasses: json5e-monster
+tags:
+statblock: inline
+aliases: ["Elira, The Daughter"]
+---
+
 ```statblock
 "name": "Elira, Awakened by the Amulet"
 "size": "Medium"
@@ -44,4 +52,4 @@
     "desc": "See above."
 "source":
   - "Custom NPC"
-"image": "[[Elira.png]]"
+"image": "[[z_Assets/Worlds/ACT 1/Characters/Elira.png]]"

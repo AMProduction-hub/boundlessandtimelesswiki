@@ -13,10 +13,11 @@
     "patch": 1
   },
   "paths": [
-    "/"
+    "03.PlayerLog&Handouts/Mechanics/CLI",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting"
   ],
-  "autoParse": false,
-  "disableSRD": false,
+  "autoParse": true,
+  "disableSRD": true,
   "tryToRenderLinks": true,
   "debug": false,
   "notifiedOfFantasy": false,

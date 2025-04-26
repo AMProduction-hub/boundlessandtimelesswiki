@@ -1,3 +1,11 @@
+---
+obsidianUIMode: preview
+cssclasses: json5e-monster
+tags:
+statblock: inline
+aliases: ["Selaveth, The Mother"]
+---
+
 ```statblock
 "name": "Selaveth, The Mother"
 "size": "Medium"
@@ -44,4 +52,4 @@
 
 "source":
 - "Homebrew"
-"image": "[[themother.png]]"
+"image": "[[themothers.png]]"
