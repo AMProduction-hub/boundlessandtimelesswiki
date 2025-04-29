@@ -1,5 +1,369 @@
 {
-  "monsters": [],
+  "monsters": [
+    [
+      "Elira, Awakened by the Amulet",
+      {
+        "name": "Elira, Awakened by the Amulet",
+        "size": "Medium",
+        "type": "humanoid (human)",
+        "alignment": "Chaotic Good",
+        "ac": 12,
+        "ac_class": "mage armor (if cast), otherwise 10 + DEX",
+        "hp": 9,
+        "hit_dice": "1d6 + 3",
+        "stats": [
+          8,
+          14,
+          13,
+          12,
+          10,
+          17
+        ],
+        "speed": "30 ft.",
+        "skillsaves": [
+          {
+            "Arcana": 3
+          },
+          {
+            "Deception": 5
+          },
+          {
+            "Stealth": 4
+          }
+        ],
+        "senses": "passive Perception 10",
+        "languages": "Common, Elvish",
+        "cr": "1/8",
+        "traits": [
+          {
+            "name": "Unstable Magic",
+            "desc": "Whenever Elira casts a sorcerer spell of 1st level or higher, roll a d20. On a 1, roll on the Wild Magic Surge table."
+          },
+          {
+            "name": "Awakened Amulet",
+            "desc": "Elira's amulet emits soft magical radiation. While she wears it, she has advantage on Constitution saving throws to maintain concentration, and her hair and eyes glow faintly when she casts spells."
+          },
+          {
+            "name": "Sorcerous Origin: Wild Magic",
+            "desc": "Elira is a Wild Magic Sorcerer, although she is only just discovering what that means."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Fire Bolt (Cantrip)",
+            "desc": "Ranged Spell Attack: +5 to hit, range 120 ft., one target. Hit: 1d10 fire damage."
+          },
+          {
+            "name": "Shield (1st-level Spell)",
+            "desc": "As a reaction when hit, Elira casts *Shield*, raising her AC by +5 until the start of her next turn."
+          },
+          {
+            "name": "Chaos Bolt (1st-level Spell)",
+            "desc": "Ranged Spell Attack: +5 to hit. Hit: 2d8 + 1d6 damage. The type of damage is determined randomly."
+          }
+        ],
+        "bonus_actions": [
+          {
+            "name": "Sorcery Points (1/day)",
+            "desc": "Regains 1 sorcery point once per day, which can be used to trigger subtle or quicken spell (DM's discretion)."
+          }
+        ],
+        "reactions": [
+          {
+            "name": "Shield",
+            "desc": "See above."
+          }
+        ],
+        "source": [
+          "Custom NPC"
+        ],
+        "image": "<STATBLOCK-WIKI-LINK>Elira_2.png<STATBLOCK-WIKI-LINK>",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Ser Elian",
+      {
+        "name": "Ser Elian",
+        "size": "Medium",
+        "type": "humanoid (human)",
+        "alignment": "Lawful Good",
+        "ac": 18,
+        "ac_class": "plate armor",
+        "hp": 45,
+        "hit_dice": "6d8 + 12",
+        "stats": [
+          14,
+          12,
+          14,
+          10,
+          12,
+          16
+        ],
+        "speed": "30 ft.",
+        "skillsaves": [
+          {
+            "Persuasion": 5
+          },
+          {
+            "History": 2
+          }
+        ],
+        "senses": "passive Perception 11",
+        "languages": "Common, Elvish",
+        "cr": "1",
+        "traits": [
+          {
+            "desc": "Ser Elian has advantage on saving throws against being frightened.",
+            "name": "Brave Spirit"
+          },
+          {
+            "desc": "Ser Elian often utters half-remembered heroic lines during battle, inspiring allies. Once per short rest, he can grant an ally within 30 feet a d4 inspiration die as a bonus action.",
+            "name": "Inspiring Words"
+          }
+        ],
+        "actions": [
+          {
+            "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage.",
+            "name": "Longsword"
+          },
+          {
+            "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 9 (1d10 + 4) slashing damage if used with two hands.",
+            "name": "Longsword (Two-Handed)"
+          }
+        ],
+        "equipment": "Plate armor, longsword, shield with family crest",
+        "source": [
+          "Homebrew: Boundless and Timeless"
+        ],
+        "image": "",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Selaveth, The Mother",
+      {
+        "name": "Selaveth, The Mother",
+        "size": "Medium",
+        "type": "humanoid (half-elf)",
+        "alignment": "Neutral",
+        "ac": 15,
+        "ac_class": "mage armor",
+        "hp": 136,
+        "hit_dice": "16d8 + 48",
+        "stats": [
+          10,
+          14,
+          16,
+          18,
+          14,
+          18
+        ],
+        "speed": "30 ft.",
+        "saves": [
+          {
+            "Intelligence": 7
+          },
+          {
+            "Charisma": 7
+          }
+        ],
+        "skillsaves": [
+          {
+            "Arcana": 9
+          },
+          {
+            "Deception": 7
+          },
+          {
+            "Insight": 6
+          },
+          {
+            "Persuasion": 7
+          }
+        ],
+        "damage_resistances": "necrotic; bludgeoning, piercing, and slashing from nonmagical attacks",
+        "condition_immunities": "<STATBLOCK-MARKDOWN-LINK>03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed|charmed<STATBLOCK-MARKDOWN-LINK>",
+        "senses": "darkvision 60 ft., passive Perception 12",
+        "languages": "Common, Elvish, Infernal",
+        "cr": "7",
+        "traits": [
+          {
+            "name": "Spellcasting",
+            "desc": "Selaveth is a 10th-level spellcaster. Her spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). She has the following spells prepared:\n\n**Cantrips (at will):** <STATBLOCK-MARKDOWN-LINK>03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/eldritch-blast.md|eldritch blast<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/thaumaturgy.md|thaumaturgy<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/minor-illusion.md|minor illusion<STATBLOCK-MARKDOWN-LINK>\n\n**1st level (4 slots):** <STATBLOCK-MARKDOWN-LINK>03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/mage-armor.md|mage armor<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/shield.md|shield<STATBLOCK-MARKDOWN-LINK>\n\n**2nd level (3 slots):** <STATBLOCK-MARKDOWN-LINK>03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/mirror-image.md|mirror image<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/misty-step.md|misty step<STATBLOCK-MARKDOWN-LINK>\n\n**3rd level (3 slots):** <STATBLOCK-MARKDOWN-LINK>03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/counterspell.md|counterspell<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/vampiric-touch.md|vampiric touch<STATBLOCK-MARKDOWN-LINK>\n\n**4th level (3 slots):** <STATBLOCK-MARKDOWN-LINK>03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/greater-invisibility.md|greater invisibility<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/blight.md|blight<STATBLOCK-MARKDOWN-LINK>\n\n**5th level (2 slots):** <STATBLOCK-MARKDOWN-LINK>03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/cloudkill.md|cloudkill<STATBLOCK-MARKDOWN-LINK>"
+          },
+          {
+            "name": "Arcane Rejuvenation",
+            "desc": "Once per short rest, when she drops a creature to 0 HP with a spell, Selaveth regains one expended spell slot of 3rd level or lower."
+          },
+          {
+            "name": "Dreamcatcher Amulet",
+            "desc": "Her amulet can store one spell of up to 3rd level, which she can cast without expending a spell slot. She may change the stored spell during a long rest."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Eldritch Blast",
+            "desc": "Ranged Spell Attack: +7 to hit, range 120 ft., one creature. Hit: 10 (1d10 + 5) force damage. She fires two beams."
+          },
+          {
+            "name": "Shadowbind (Recharge 5–6)",
+            "desc": "Selaveth targets up to three creatures within 60 ft. They must succeed on a DC 15 Strength saving throw or be restrained by shadowy tendrils for 1 minute. They may repeat the save at the end of each of their turns."
+          }
+        ],
+        "source": [
+          "Homebrew"
+        ],
+        "image": "<STATBLOCK-WIKI-LINK>themothers.png<STATBLOCK-WIKI-LINK>",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Sir Aldric, The Relentless (Paladin Mode)",
+      {
+        "name": "Sir Aldric, The Relentless (Paladin Mode)",
+        "size": "Medium",
+        "type": "humanoid",
+        "subtype": "human",
+        "alignment": "Lawful Good",
+        "ac": 20,
+        "hp": 235,
+        "hit_dice": "20d10 + 100",
+        "speed": "30 ft.",
+        "stats": [
+          20,
+          12,
+          20,
+          10,
+          14,
+          18
+        ],
+        "fage_stats": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "saves": [
+          {
+            "str": 10
+          },
+          {
+            "cha": 9
+          }
+        ],
+        "skillsaves": [
+          {
+            "Insight": 7
+          },
+          {
+            "Perception": 6
+          },
+          {
+            "Athletics": 10
+          },
+          {
+            "Persuasion": 9
+          }
+        ],
+        "damage_vulnerabilities": "",
+        "damage_resistances": "",
+        "damage_immunities": "",
+        "condition_immunities": "",
+        "senses": "passive Perception 16",
+        "languages": "Common, Celestial, Infernal",
+        "cr": 18,
+        "traits": [
+          {
+            "name": "Aura of Protection",
+            "desc": "Allies within 10 ft. gain a bonus to all saving throws equal to his Charisma modifier (+4)."
+          },
+          {
+            "name": "Aura of Courage",
+            "desc": "Allies within 10 ft. cannot be frightened while Aldric is conscious."
+          },
+          {
+            "name": "Divine Smite",
+            "desc": "When Aldric hits with a melee weapon attack, he may expend a spell slot to deal radiant damage: +2d8 (1st-level slot), +1d8 per level above 1st. +1d8 more vs undead or fiends."
+          },
+          {
+            "name": "Unyielding Will",
+            "desc": "Advantage on saving throws against being charmed, frightened, or possessed."
+          },
+          {
+            "name": "Second Wind (1/Short Rest)",
+            "desc": "Regain 1d10 + 20 HP as a bonus action."
+          },
+          {
+            "name": "Action Surge (1/Short Rest)",
+            "desc": "Take one additional action on his turn."
+          },
+          {
+            "name": "Riposte (Battlemaster Maneuver)",
+            "desc": "When a creature misses him with a melee attack, can use a reaction to make a melee attack and add 1d12 extra damage."
+          },
+          {
+            "name": "Legendary Resistance (3/Day)",
+            "desc": "If Aldric fails a saving throw, he can choose to succeed instead."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Greatsword of Judgement (Carsomyr)",
+            "desc": "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 2d6 + 5 slashing + 3 radiant. May expend spell slot to smite. Target loses magical benefits (Dispel Magic effect) on hit once per turn (DC 17)."
+          },
+          {
+            "name": "Lay on Hands (100 HP/day)",
+            "desc": "As an action, Aldric can restore up to 100 HP per day, or cure disease/poison (5 HP per condition)."
+          },
+          {
+            "name": "Smite the Unholy (Recharge 5–6)",
+            "desc": "Each creature of fiend or undead type within 15 ft. must succeed on a DC 17 Con save or take 6d10 radiant damage and be blinded until end of Aldric’s next turn. Half on save."
+          }
+        ],
+        "bonus_actions": [
+          {
+            "name": "Great Weapon Master Strike",
+            "desc": "Before making an attack, Aldric may choose to take a –5 penalty to hit. If he hits, he adds +10 to the damage."
+          },
+          {
+            "name": "Bonus Attack (GWM)",
+            "desc": "If he scores a critical hit or reduces a target to 0 HP, he may make one weapon attack as a bonus action."
+          }
+        ],
+        "reactions": [
+          {
+            "name": "Riposte",
+            "desc": "When a creature misses with a melee attack, Aldric makes a melee weapon attack and adds 1d12 extra damage."
+          }
+        ],
+        "legendary_actions": [
+          {
+            "name": "Move",
+            "desc": "Aldric moves up to his speed without provoking opportunity attacks."
+          },
+          {
+            "name": "Smite Attack",
+            "desc": "Aldric makes a melee attack with his Greatsword of Judgement. If it hits, he smites with a 2nd-level spell slot."
+          },
+          {
+            "name": "Dispel Wave (Costs 2 Actions)",
+            "desc": "Aldric casts *Dispel Magic* at 3rd level, targeting a creature he can see within 30 ft."
+          }
+        ],
+        "source": [
+          "Custom NPC"
+        ],
+        "image": "<STATBLOCK-WIKI-LINK>SirAldric_PaladinMode.png<STATBLOCK-WIKI-LINK>",
+        "layout": "Basic 5e Layout"
+      }
+    ]
+  ],
   "defaultLayouts": {},
   "layouts": [],
   "default": "basic-5e-layout",

@@ -1,9 +1,36 @@
 ---
-tags:
-  - Factions/BureauofTimeandPlane
+AssociatedGroup: BureauofTimeAndPlane
+Gender: Male
+Race: Human
+Age: Adult
+Class: Bard / Thief
+Alignment: True Neutral
+Character-Role: Friend, Quest Related
+Location: Grand Library
+NoteIcon: npc
 ---
-# **[[Shaperite - The Agent]]**
-![[Shaperite.png|300]]
+> [!infobox]
+> # `=this.file.name`
+> ![[z_Assets/Bureau of Time and Plane/Character Potrait/Shaperite.png|cover hmedium]]
+> [[z_Assets/Bureau of Time and Plane/Character Potrait/Shaperite.png|Show To Players]]
+> ###### Basic Information
+> Type |  Stat |
+> ---|---|
+> Home | `=this.Location` |
+> Group | `=this.AssociatedGroup` |
+> Sex | `=this.gender` |
+> Race | `=this.race` |
+> Age | `=this.age` |
+> Condition | Healthy |
+> ###### Rules Info
+> Type |  Stat |
+> ---|---|
+> Alignment | `=this.alignment` |
+> Class | `=this.class` |
+> Character Role | `=this.character-role` |
+
+# `=this.file.name`
+## Profile
 ## **Basic Information**
 
 - **Full Name:** Sebats
@@ -117,3 +144,17 @@ Sebats sees Damian as **a rival and an enigma**. He recognizes the cambion’s i
 - Sebats was inspired by characters like **Han Solo (Star Wars), Ocelot (Metal Gear Solid), and Jaskier (The Witcher)**.
 - His dynamic with the players is meant to be one of **testing, teasing, and occasional genuine camaraderie**.
 - His ultimate fate in the campaign depends heavily on player choices.
+
+
+> [!info] Statblock
+> ```statblock
+> name: Individual
+> monster: Commoner
+> columns: 1
+> ```
+
+```encounter-table
+name: Individual
+creatures:
+ - 1: Commoner
+```

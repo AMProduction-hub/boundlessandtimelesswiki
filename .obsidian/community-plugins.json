@@ -14,7 +14,8 @@
   "obsidian-dice-roller",
   "initiative-tracker",
   "obsidian-excalidraw-plugin",
-  "obsidian-textgenerator-plugin",
   "obsidian-kanban",
-  "image-window"
+  "image-window",
+  "dbfolder",
+  "buttons"
 ]

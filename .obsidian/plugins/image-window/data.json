@@ -1,0 +1,19 @@
+{
+  "saveWindowLocations": true,
+  "useCustomWindowName": false,
+  "customWindowName": "Second Window",
+  "windows": {
+    "Second Window": {
+      "hosts": {
+        "DESKTOP-10UK43V": {
+          "x": 448,
+          "y": 116,
+          "width": 1332,
+          "height": 800,
+          "fullscreen": false,
+          "maximized": false
+        }
+      }
+    }
+  }
+}

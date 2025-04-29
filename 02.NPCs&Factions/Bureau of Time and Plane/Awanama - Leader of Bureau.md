@@ -1,13 +1,36 @@
 ---
-ImportedOn: Saturday, 18 December 2021 8:41:47 PM
-tags:
-  - Factions/BureauofTimeandPlane
-parent:
-  - General Characters Article
-up:
-  - General Characters Article
+AssociatedGroup: BureauofTimeAndPlane
+Gender: Male
+Race: Elf
+Age: Adult
+Class: Wizard
+Alignment: Lawful Neutral
+Character-Role: Quest Related
+Location: Grand Library
+NoteIcon: npc
 ---
-# **Awanama (Aveeshena Trumbleweed)**
+> [!infobox]
+> # `=this.file.name`
+> ![[z_Assets/Misc/ImagePlaceholder.png|cover hsmall]]
+> [[z_Assets/Misc/ImagePlaceholder.png|Show To Players]]
+> ###### Basic Information
+> Type |  Stat |
+> ---|---|
+> Home | `=this.Location` |
+> Group | `=this.AssociatedGroup` |
+> Sex | `=this.gender` |
+> Race | `=this.race` |
+> Age | `=this.age` |
+> Condition | Healthy |
+> ###### Rules Info
+> Type |  Stat |
+> ---|---|
+> Alignment | `=this.alignment` |
+> Class | `=this.class` |
+> Character Role | `=this.character-role` |
+
+# `=this.file.name`
+## Profile
 
 ## **Basic Information**
 
@@ -132,3 +155,15 @@ As a **Level 19 Divination Wizard**, Awanama possesses vast magical knowledge, p
 ## **Final Notes**
 
 Awanama serves as the **mastermind behind the Bureau’s grand plan**. While he appears detached and calculating, his role is crucial in shaping the fate of the multiverse. Whether the players see him as a **mentor, enigmatic ally, or manipulative overseer** depends on their interactions and choices throughout the campaign.
+
+> [!info] Statblock
+> ```statblock
+> name: Individual
+> columns: 1
+> ```
+
+```encounter-table
+name: Individual
+creatures:
+ - 1: Commoner
+```

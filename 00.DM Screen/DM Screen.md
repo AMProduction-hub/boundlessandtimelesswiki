@@ -10,7 +10,6 @@
 | Lightly Obscured | Disadvantage on Wisdom (Perception) |
 |                  |                                     |
 <br>
-
 > [!info]- Abilities
 > [[08-using-ability-scores#Dexterity|Dexterity]]
 > [[08-using-ability-scores#Strength|Strength]]
@@ -143,3 +142,12 @@
 > [[03.PlayerLog&Handouts/Mechanics/CLI/rules/skills#Sleight of Hand|Sleight of Hand]]
 > [[03.PlayerLog&Handouts/Mechanics/CLI/rules/skills#Stealth|Stealth]]
 > [[03.PlayerLog&Handouts/Mechanics/CLI/rules/skills#Survival|Survival]]
+
+
+```button
+name New NPC
+type note(NewNPC, split) template
+action TemplateNPC
+templater true
+```
+^button-NewNPCID

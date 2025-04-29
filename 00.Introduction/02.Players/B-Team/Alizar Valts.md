@@ -5,7 +5,7 @@ race: Elf (High)
 level: 3
 players: Joz
 ac: "13"
-hp: 0
+hp: "30"
 modifier: 0
 ---
 # Alizar Valts
