@@ -1,9 +1,37 @@
 ---
-tags:
-  - Factions/BureauofTimeandPlane
+AssociatedGroup: BureauofTimeAndPlane
+Gender: Female
+Race: Elf
+Age: Adult
+Class: Cleric
+Alignment: Lawful Neutral
+Character-Role: Quest Related
+Location: Grand Library
+NoteIcon: npc
 ---
-# **Pustakawan (Colette von Daisies)**
-![[Pustakawan.png | 200]]
+> [!infobox]
+> # `=this.file.name`
+> ![[Pustakawan.png|cover hmedium]]
+> [[Pustakawan.png|Show To Players]]
+> ###### Basic Information
+> Type |  Stat |
+> ---|---|
+> Home | `=this.Location` |
+> Group | `=this.AssociatedGroup` |
+> Sex | `=this.gender` |
+> Race | `=this.race` |
+> Age | `=this.age` |
+> Condition | Healthy |
+> ###### Rules Info
+> Type |  Stat |
+> ---|---|
+> Alignment | `=this.alignment` |
+> Class | `=this.class` |
+> Character Role | `=this.character-role` |
+
+# `=this.file.name`
+## Profile
+
 ## **Basic Information**
 
 - **Title(s):** Keeper of the Grand Archives, Adjudicator of Contracts
@@ -131,3 +159,16 @@ As a **Level 17 Knowledge Cleric**, Colette wields both divine magic and an ency
 ## **Final Notes**
 
 Collete von Daisies is the **iron backbone of the Bureau**, ensuring its laws and contracts remain unbroken. Though she may seem cold and distant, those who look beyond her stern exterior may find **a woman burdened with knowledge too heavy to share**. Whether the players see her as **an ally, a relentless overseer, or something in between** depends on how they navigate their dealings with the Bureau.
+
+> [!info] Statblock
+> ```statblock
+> name: Individual
+> monster: Commoner
+> columns: 1
+> ```
+
+```encounter-table
+name: Individual
+creatures:
+ - 1: Commoner
+```
