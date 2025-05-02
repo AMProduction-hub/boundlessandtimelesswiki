@@ -1,87 +1,6 @@
 {
   "monsters": [
     [
-      "Elira, Awakened by the Amulet",
-      {
-        "name": "Elira, Awakened by the Amulet",
-        "size": "Medium",
-        "type": "humanoid (human)",
-        "alignment": "Chaotic Good",
-        "ac": 12,
-        "ac_class": "mage armor (if cast), otherwise 10 + DEX",
-        "hp": 9,
-        "hit_dice": "1d6 + 3",
-        "stats": [
-          8,
-          14,
-          13,
-          12,
-          10,
-          17
-        ],
-        "speed": "30 ft.",
-        "skillsaves": [
-          {
-            "Arcana": 3
-          },
-          {
-            "Deception": 5
-          },
-          {
-            "Stealth": 4
-          }
-        ],
-        "senses": "passive Perception 10",
-        "languages": "Common, Elvish",
-        "cr": "1/8",
-        "traits": [
-          {
-            "name": "Unstable Magic",
-            "desc": "Whenever Elira casts a sorcerer spell of 1st level or higher, roll a d20. On a 1, roll on the Wild Magic Surge table."
-          },
-          {
-            "name": "Awakened Amulet",
-            "desc": "Elira's amulet emits soft magical radiation. While she wears it, she has advantage on Constitution saving throws to maintain concentration, and her hair and eyes glow faintly when she casts spells."
-          },
-          {
-            "name": "Sorcerous Origin: Wild Magic",
-            "desc": "Elira is a Wild Magic Sorcerer, although she is only just discovering what that means."
-          }
-        ],
-        "actions": [
-          {
-            "name": "Fire Bolt (Cantrip)",
-            "desc": "Ranged Spell Attack: +5 to hit, range 120 ft., one target. Hit: 1d10 fire damage."
-          },
-          {
-            "name": "Shield (1st-level Spell)",
-            "desc": "As a reaction when hit, Elira casts *Shield*, raising her AC by +5 until the start of her next turn."
-          },
-          {
-            "name": "Chaos Bolt (1st-level Spell)",
-            "desc": "Ranged Spell Attack: +5 to hit. Hit: 2d8 + 1d6 damage. The type of damage is determined randomly."
-          }
-        ],
-        "bonus_actions": [
-          {
-            "name": "Sorcery Points (1/day)",
-            "desc": "Regains 1 sorcery point once per day, which can be used to trigger subtle or quicken spell (DM's discretion)."
-          }
-        ],
-        "reactions": [
-          {
-            "name": "Shield",
-            "desc": "See above."
-          }
-        ],
-        "source": [
-          "Custom NPC"
-        ],
-        "image": "<STATBLOCK-WIKI-LINK>Elira_2.png<STATBLOCK-WIKI-LINK>",
-        "layout": "Basic 5e Layout"
-      }
-    ],
-    [
       "Ser Elian",
       {
         "name": "Ser Elian",
@@ -137,84 +56,6 @@
           "Homebrew: Boundless and Timeless"
         ],
         "image": "",
-        "layout": "Basic 5e Layout"
-      }
-    ],
-    [
-      "Selaveth, The Mother",
-      {
-        "name": "Selaveth, The Mother",
-        "size": "Medium",
-        "type": "humanoid (half-elf)",
-        "alignment": "Neutral",
-        "ac": 15,
-        "ac_class": "mage armor",
-        "hp": 136,
-        "hit_dice": "16d8 + 48",
-        "stats": [
-          10,
-          14,
-          16,
-          18,
-          14,
-          18
-        ],
-        "speed": "30 ft.",
-        "saves": [
-          {
-            "Intelligence": 7
-          },
-          {
-            "Charisma": 7
-          }
-        ],
-        "skillsaves": [
-          {
-            "Arcana": 9
-          },
-          {
-            "Deception": 7
-          },
-          {
-            "Insight": 6
-          },
-          {
-            "Persuasion": 7
-          }
-        ],
-        "damage_resistances": "necrotic; bludgeoning, piercing, and slashing from nonmagical attacks",
-        "condition_immunities": "<STATBLOCK-MARKDOWN-LINK>03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed|charmed<STATBLOCK-MARKDOWN-LINK>",
-        "senses": "darkvision 60 ft., passive Perception 12",
-        "languages": "Common, Elvish, Infernal",
-        "cr": "7",
-        "traits": [
-          {
-            "name": "Spellcasting",
-            "desc": "Selaveth is a 10th-level spellcaster. Her spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). She has the following spells prepared:\n\n**Cantrips (at will):** <STATBLOCK-MARKDOWN-LINK>03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/eldritch-blast.md|eldritch blast<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/thaumaturgy.md|thaumaturgy<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/minor-illusion.md|minor illusion<STATBLOCK-MARKDOWN-LINK>\n\n**1st level (4 slots):** <STATBLOCK-MARKDOWN-LINK>03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/mage-armor.md|mage armor<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/shield.md|shield<STATBLOCK-MARKDOWN-LINK>\n\n**2nd level (3 slots):** <STATBLOCK-MARKDOWN-LINK>03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/mirror-image.md|mirror image<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/misty-step.md|misty step<STATBLOCK-MARKDOWN-LINK>\n\n**3rd level (3 slots):** <STATBLOCK-MARKDOWN-LINK>03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/counterspell.md|counterspell<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/vampiric-touch.md|vampiric touch<STATBLOCK-MARKDOWN-LINK>\n\n**4th level (3 slots):** <STATBLOCK-MARKDOWN-LINK>03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/greater-invisibility.md|greater invisibility<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/blight.md|blight<STATBLOCK-MARKDOWN-LINK>\n\n**5th level (2 slots):** <STATBLOCK-MARKDOWN-LINK>03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/cloudkill.md|cloudkill<STATBLOCK-MARKDOWN-LINK>"
-          },
-          {
-            "name": "Arcane Rejuvenation",
-            "desc": "Once per short rest, when she drops a creature to 0 HP with a spell, Selaveth regains one expended spell slot of 3rd level or lower."
-          },
-          {
-            "name": "Dreamcatcher Amulet",
-            "desc": "Her amulet can store one spell of up to 3rd level, which she can cast without expending a spell slot. She may change the stored spell during a long rest."
-          }
-        ],
-        "actions": [
-          {
-            "name": "Eldritch Blast",
-            "desc": "Ranged Spell Attack: +7 to hit, range 120 ft., one creature. Hit: 10 (1d10 + 5) force damage. She fires two beams."
-          },
-          {
-            "name": "Shadowbind (Recharge 5–6)",
-            "desc": "Selaveth targets up to three creatures within 60 ft. They must succeed on a DC 15 Strength saving throw or be restrained by shadowy tendrils for 1 minute. They may repeat the save at the end of each of their turns."
-          }
-        ],
-        "source": [
-          "Homebrew"
-        ],
-        "image": "<STATBLOCK-WIKI-LINK>themothers.png<STATBLOCK-WIKI-LINK>",
         "layout": "Basic 5e Layout"
       }
     ],
@@ -357,9 +198,168 @@
           }
         ],
         "source": [
-          "Custom NPC"
+          "Homebrew: Boundless and Timeless"
         ],
         "image": "<STATBLOCK-WIKI-LINK>SirAldric_PaladinMode.png<STATBLOCK-WIKI-LINK>",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Elira, Awakened by the Amulet",
+      {
+        "name": "Elira, Awakened by the Amulet",
+        "size": "Medium",
+        "type": "humanoid (human)",
+        "alignment": "Chaotic Good",
+        "ac": 12,
+        "ac_class": "mage armor (if cast), otherwise 10 + DEX",
+        "hp": 9,
+        "hit_dice": "1d6 + 3",
+        "stats": [
+          8,
+          14,
+          13,
+          12,
+          10,
+          17
+        ],
+        "speed": "30 ft.",
+        "skillsaves": [
+          {
+            "Arcana": 3
+          },
+          {
+            "Deception": 5
+          },
+          {
+            "Stealth": 4
+          }
+        ],
+        "senses": "passive Perception 10",
+        "languages": "Common, Elvish",
+        "cr": "1/8",
+        "traits": [
+          {
+            "name": "Unstable Magic",
+            "desc": "Whenever Elira casts a sorcerer spell of 1st level or higher, roll a d20. On a 1, roll on the Wild Magic Surge table."
+          },
+          {
+            "name": "Awakened Amulet",
+            "desc": "Elira's amulet emits soft magical radiation. While she wears it, she has advantage on Constitution saving throws to maintain concentration, and her hair and eyes glow faintly when she casts spells."
+          },
+          {
+            "name": "Sorcerous Origin: Wild Magic",
+            "desc": "Elira is a Wild Magic Sorcerer, although she is only just discovering what that means."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Fire Bolt (Cantrip)",
+            "desc": "Ranged Spell Attack: +5 to hit, range 120 ft., one target. Hit: 1d10 fire damage."
+          },
+          {
+            "name": "Shield (1st-level Spell)",
+            "desc": "As a reaction when hit, Elira casts *Shield*, raising her AC by +5 until the start of her next turn."
+          },
+          {
+            "name": "Chaos Bolt (1st-level Spell)",
+            "desc": "Ranged Spell Attack: +5 to hit. Hit: 2d8 + 1d6 damage. The type of damage is determined randomly."
+          }
+        ],
+        "bonus_actions": [
+          {
+            "name": "Sorcery Points (1/day)",
+            "desc": "Regains 1 sorcery point once per day, which can be used to trigger subtle or quicken spell (DM's discretion)."
+          }
+        ],
+        "reactions": [
+          {
+            "name": "Shield",
+            "desc": "See above."
+          }
+        ],
+        "source": [
+          "Homebrew: Boundless and Timeless"
+        ],
+        "image": "<STATBLOCK-WIKI-LINK>Elira_2.png<STATBLOCK-WIKI-LINK>",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Selaveth, The Mother",
+      {
+        "name": "Selaveth, The Mother",
+        "size": "Medium",
+        "type": "humanoid (half-elf)",
+        "alignment": "Neutral",
+        "ac": 15,
+        "ac_class": "mage armor",
+        "hp": 136,
+        "hit_dice": "16d8 + 48",
+        "stats": [
+          10,
+          14,
+          16,
+          18,
+          14,
+          18
+        ],
+        "speed": "30 ft.",
+        "saves": [
+          {
+            "Intelligence": 7
+          },
+          {
+            "Charisma": 7
+          }
+        ],
+        "skillsaves": [
+          {
+            "Arcana": 9
+          },
+          {
+            "Deception": 7
+          },
+          {
+            "Insight": 6
+          },
+          {
+            "Persuasion": 7
+          }
+        ],
+        "damage_resistances": "necrotic; bludgeoning, piercing, and slashing from nonmagical attacks",
+        "condition_immunities": "<STATBLOCK-MARKDOWN-LINK>03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed|charmed<STATBLOCK-MARKDOWN-LINK>",
+        "senses": "darkvision 60 ft., passive Perception 12",
+        "languages": "Common, Elvish, Infernal",
+        "cr": "7",
+        "traits": [
+          {
+            "name": "Spellcasting",
+            "desc": "Selaveth is a 10th-level spellcaster. Her spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). She has the following spells prepared:\n\n**Cantrips (at will):** <STATBLOCK-MARKDOWN-LINK>03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/eldritch-blast.md|eldritch blast<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/thaumaturgy.md|thaumaturgy<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/minor-illusion.md|minor illusion<STATBLOCK-MARKDOWN-LINK>\n\n**1st level (4 slots):** <STATBLOCK-MARKDOWN-LINK>03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/mage-armor.md|mage armor<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/shield.md|shield<STATBLOCK-MARKDOWN-LINK>\n\n**2nd level (3 slots):** <STATBLOCK-MARKDOWN-LINK>03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/mirror-image.md|mirror image<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/misty-step.md|misty step<STATBLOCK-MARKDOWN-LINK>\n\n**3rd level (3 slots):** <STATBLOCK-MARKDOWN-LINK>03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/counterspell.md|counterspell<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/vampiric-touch.md|vampiric touch<STATBLOCK-MARKDOWN-LINK>\n\n**4th level (3 slots):** <STATBLOCK-MARKDOWN-LINK>03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/greater-invisibility.md|greater invisibility<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/blight.md|blight<STATBLOCK-MARKDOWN-LINK>\n\n**5th level (2 slots):** <STATBLOCK-MARKDOWN-LINK>03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/cloudkill.md|cloudkill<STATBLOCK-MARKDOWN-LINK>"
+          },
+          {
+            "name": "Arcane Rejuvenation",
+            "desc": "Once per short rest, when she drops a creature to 0 HP with a spell, Selaveth regains one expended spell slot of 3rd level or lower."
+          },
+          {
+            "name": "Dreamcatcher Amulet",
+            "desc": "Her amulet can store one spell of up to 3rd level, which she can cast without expending a spell slot. She may change the stored spell during a long rest."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Eldritch Blast",
+            "desc": "Ranged Spell Attack: +7 to hit, range 120 ft., one creature. Hit: 10 (1d10 + 5) force damage. She fires two beams."
+          },
+          {
+            "name": "Shadowbind (Recharge 5–6)",
+            "desc": "Selaveth targets up to three creatures within 60 ft. They must succeed on a DC 15 Strength saving throw or be restrained by shadowy tendrils for 1 minute. They may repeat the save at the end of each of their turns."
+          }
+        ],
+        "source": [
+          "Homebrew: Boundless and Timeless"
+        ],
+        "image": "<STATBLOCK-WIKI-LINK>themothers.png<STATBLOCK-WIKI-LINK>",
         "layout": "Basic 5e Layout"
       }
     ]
@@ -378,7 +378,8 @@
   },
   "paths": [
     "03.PlayerLog&Handouts/Mechanics/CLI",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting"
+    "01.Into The Stories/02.ACT1.Artifacts Hunting",
+    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary"
   ],
   "autoParse": true,
   "disableSRD": true,

@@ -1,7 +1,7 @@
 ---
 AssociatedGroup: BureauofTimeAndPlane
 Gender: Male
-Race: Elf
+Race: Human
 Age: Adult
 Class: Wizard
 Alignment: Lawful Neutral
@@ -35,7 +35,7 @@ NoteIcon: npc
 ## **Basic Information**
 
 - **Title(s):** Grand Adjudicator of Time and Plane
-- **Race:** High Elf
+- **Race:** Human
 - **Class:** Wizard (Divination)
 - **Level:** 19
 - **Alignment:** Lawful Neutral
