@@ -4,6 +4,9 @@ class: Rogue - Soulknife
 race: Astral Elf
 level: 3
 players: Rafi
+hp: "18"
+ac: "14"
+modifier: 0
 ---
 # Kairos
 ## Overview

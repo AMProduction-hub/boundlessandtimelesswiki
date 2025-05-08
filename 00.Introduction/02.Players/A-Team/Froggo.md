@@ -4,6 +4,8 @@ class: Ranger - Gloomstalker
 race: Grung
 level: 3
 players: Yudha
+hp: "34"
+ac: "16"
 ---
 # Froggo
 ## Overview
@@ -43,3 +45,44 @@ Ranger *Source: Player's Handbook p. 89. Available in the <span title='Systems R
 > </tbody></table>
 
 ^class-progression
+
+## Statblock
+```statblock  
+name: Froggo  
+size: Medium  
+type: Grung  
+subtype: Grung  
+alignment: Chaotic Neutral  
+ac: 16  
+hp: 34  
+hit_dice: "3d10"  
+speed: "30 ft."  
+stats: [number, number, number, number, number, number]  
+fage_stats: [number, number, number, number, number, number, number, number, number]  
+saves:  
+- <ability-score>: number  
+skillsaves:  
+- <skill-name>: number  
+damage_vulnerabilities: string  
+damage_resistances: string  
+damage_immunities: string  
+condition_immunities: string  
+senses: string  
+languages: string  
+cr: number  
+spells:  
+- <description>  
+- <spell level>: <spell-list>  
+traits:  
+- [<trait-name>, <trait-description>]  
+- ...  
+actions:  
+- [<trait-name>, <trait-description>]  
+- ...  
+legendary_actions:  
+- [<legendary_actions-name>, <legendary_actions-description>]  
+- ...  
+reactions:  
+- [<reaction-name>, <reaction-description>]  
+- ...  
+```

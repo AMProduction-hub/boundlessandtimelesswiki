@@ -4,6 +4,8 @@ class: Wizard
 race: Tabaxi
 level: 3
 players: Arya
+hp: "18"
+ac: "12"
 ---
 # Template - General Characters Article
 ## Overview

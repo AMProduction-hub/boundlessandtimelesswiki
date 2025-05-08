@@ -4,6 +4,8 @@ class: Warlock - Fiend Patron
 race: Genasi (Fire)
 level: 3
 players: Rizaldi
+ac: "12"
+hp: "27"
 ---
 # [[Chromatheus]]
 ## Overview

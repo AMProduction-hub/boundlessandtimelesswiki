@@ -53,8 +53,6 @@ The party is caught in a sudden attack by extraplanar invaders emerging from the
 title: East Gate Clash
 creatures:
   - "Dretch"
-  - "Dretch"
-  - "Dretch"
   - "Quasit"
   - "Quasit"
   - "Imp"
@@ -89,9 +87,7 @@ Whichever path players **don’t** take will suffer losses or changes to future 
 creatures:
   - Lemure
   - Lemure
-  - Lemure
   - Bearded Devil
-  - Imp
   - Imp
 "enemy_types": ["Winged Fire Beast (CR 3)", "Ashlings", "Flame Skulks"]
 "goal": "Defeat threat and save trapped civilians"

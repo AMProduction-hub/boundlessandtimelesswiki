@@ -4,6 +4,8 @@ class: Warlock - The Great Old One
 race: Tabaxi
 level: 3
 players: Dipta
+hp: "25"
+ac: "13"
 ---
 # Meows Whiskerpop (Whisky)
 ## Overview

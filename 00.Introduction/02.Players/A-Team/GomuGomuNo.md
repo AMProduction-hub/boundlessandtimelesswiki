@@ -5,6 +5,8 @@ race: Goliath
 level: 3
 players: Faatichi
 hp: "33"
+ac: "17"
+modifier: 3
 ---
 # Gomu Gomu No
 ## Overview
