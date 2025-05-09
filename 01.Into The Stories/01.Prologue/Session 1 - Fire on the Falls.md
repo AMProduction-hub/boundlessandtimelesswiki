@@ -151,7 +151,7 @@ creatures:
 
 ## 🛤 Narrative Transition – Journey to Lonesome Tavern
 
-Regardless of outcome, players are directed toward the next destination:
+Regardless of outcome, players are directed toward the next destinatin:
 
 ```statblock
 "name": "Lonesome Tavern"

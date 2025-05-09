@@ -38,7 +38,7 @@
               "type": "markdown",
               "state": {
                 "file": "01.Into The Stories/01.Prologue/Session 1 - Fire on the Falls.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -146,7 +146,7 @@
       {
         "id": "db99f528ef87e573",
         "type": "tabs",
-        "dimension": 44.81037924151697,
+        "dimension": 61.62361623616236,
         "children": [
           {
             "id": "c906c79932c05f38",
@@ -250,6 +250,16 @@
               "icon": "initiative-tracker",
               "title": "Initiative Tracker"
             }
+          },
+          {
+            "id": "a969b0f824a45a0b",
+            "type": "leaf",
+            "state": {
+              "type": "fantasy-statblocks-creature-pane",
+              "state": {},
+              "icon": "skull",
+              "title": "Combatant"
+            }
           }
         ],
         "currentTab": 4
@@ -257,7 +267,7 @@
       {
         "id": "735d45b0ffd6f0e9",
         "type": "tabs",
-        "dimension": 55.18962075848304,
+        "dimension": 38.37638376383764,
         "children": [
           {
             "id": "be804794cef82c3f",
@@ -273,7 +283,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 389.5
+    "width": 452.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -296,7 +306,13 @@
   },
   "active": "e9ad397d83e48c4e",
   "lastOpenFiles": [
+    "00.Introduction/02.Players/_index.md",
     "00.Introduction/02.Players/B-Team/Meows Whiskerpop (Whisky).md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/deva.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/_index.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/celestial-spirit-avenger-tce.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/celestial-spirit-defender-tce.md",
+    "01.Into The Stories/01.Prologue/Session 1 - Fire on the Falls.md",
     "00.Introduction/02.Players/B-Team/Ashenka Roïs.md",
     "00.Introduction/02.Players/B-Team/Alizar Valts.md",
     "00.Introduction/02.Players/B-Team/Gwyn.md",
@@ -306,7 +322,6 @@
     "00.Introduction/02.Players/A-Team/GomuGomuNo.md",
     "00.Introduction/02.Players/A-Team/Froggo.md",
     "00.Introduction/02.Players/A-Team/Chromatheus.md",
-    "01.Into The Stories/01.Prologue/Session 1 - Fire on the Falls.md",
     "00.Introduction/02.Players/A-Team/_index.md",
     "z_Templates/TemplateNPC.md",
     "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/bearded-devil.md",
@@ -317,11 +332,6 @@
     "01.Into The Stories/01.Prologue/00.DM Only/To Ask To Players.md",
     "01.Into The Stories/01.Prologue/_index.md",
     "00.Introduction/02.Players/1745645561178 - Combat.md",
-    "00.Introduction/02.Players/Untitled.md",
-    "00.Introduction/01.Houses Rules/Characters Specific Rules/Classes/Martial/Rogue.md",
-    "00.Introduction/01.Houses Rules/Characters Specific Rules/Classes/Martial/Ranger.md",
-    "00.Introduction/01.Houses Rules/Tables Etiquette.md",
-    "00.Introduction/01.Houses Rules/Team Party Killed (TPK).md",
     "z_Assets/Worlds/ACT 1/Maps/highfalls.png",
     "z_Assets/Characters/DonQuixote.png",
     "z_Assets/Bureau of Time and Plane/Character Potrait/Damian_humanform.png",
