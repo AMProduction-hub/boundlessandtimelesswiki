@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/bearded-devil.md",
+                "file": "00.Introduction/02.Players/A-Team/Sephire.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "bearded-devil"
+              "title": "Sephire"
             }
           },
           {
-            "id": "3aebfad0657693ee",
+            "id": "0a78ea8e123da78a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01.Into The Stories/01.Prologue/Session 1 - Fire on the Falls.md",
+                "file": "03.PlayerLog&Handouts/Mechanics/CLI/classes/paladin.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,11 +52,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Session 1 - Fire on the Falls"
+              "title": "paladin"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -304,34 +303,34 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "e9ad397d83e48c4e",
+  "active": "da93eabeaca933cd",
   "lastOpenFiles": [
+    "03.PlayerLog&Handouts/Mechanics/CLI/classes/paladin.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/classes/_index.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/classes/druid.md",
+    "00.Introduction/02.Players/A-Team/Sephire.md",
+    "00.Introduction/02.Players/A-Team/Minerva.md",
+    "00.Introduction/02.Players/A-Team/Untitled.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/classes/cleric.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/_index.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/bearded-devil.md",
+    "00.Introduction/02.Players/A-Team/Froggo.md",
+    "00.Introduction/02.Players/A-Team/GomuGomuNo.md",
+    "00.Introduction/02.Players/A-Team/Jeno.md",
+    "00.Introduction/02.Players/A-Team/_index.md",
     "00.Introduction/02.Players/_index.md",
+    "00.Introduction/02.Players/B-Team/Alizar Valts.md",
+    "00.Introduction/02.Players/B-Team/Ashenka Roïs.md",
+    "00.Introduction/02.Players/B-Team/Gwyn.md",
     "00.Introduction/02.Players/B-Team/Meows Whiskerpop (Whisky).md",
+    "00.Introduction/02.Players/B-Team/_index.md",
+    "01.Into The Stories/01.Prologue/Session 1 - Fire on the Falls.md",
     "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/deva.md",
     "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/_index.md",
     "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/celestial-spirit-avenger-tce.md",
     "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/celestial-spirit-defender-tce.md",
-    "01.Into The Stories/01.Prologue/Session 1 - Fire on the Falls.md",
-    "00.Introduction/02.Players/B-Team/Ashenka Roïs.md",
-    "00.Introduction/02.Players/B-Team/Alizar Valts.md",
-    "00.Introduction/02.Players/B-Team/Gwyn.md",
     "00.Introduction/02.Players/A-Team/Verdian Suyanti.md",
     "00.Introduction/02.Players/A-Team/Kairos.md",
-    "00.Introduction/02.Players/A-Team/Jeno.md",
-    "00.Introduction/02.Players/A-Team/GomuGomuNo.md",
-    "00.Introduction/02.Players/A-Team/Froggo.md",
-    "00.Introduction/02.Players/A-Team/Chromatheus.md",
-    "00.Introduction/02.Players/A-Team/_index.md",
-    "z_Templates/TemplateNPC.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/bearded-devil.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/_index.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/cambium-tob1-2023.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/arch-devil-iaaffrat-tob1-2023.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/_index.md",
-    "01.Into The Stories/01.Prologue/00.DM Only/To Ask To Players.md",
-    "01.Into The Stories/01.Prologue/_index.md",
-    "00.Introduction/02.Players/1745645561178 - Combat.md",
     "z_Assets/Worlds/ACT 1/Maps/highfalls.png",
     "z_Assets/Characters/DonQuixote.png",
     "z_Assets/Bureau of Time and Plane/Character Potrait/Damian_humanform.png",

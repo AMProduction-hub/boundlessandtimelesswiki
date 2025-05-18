@@ -1,5 +1,5 @@
 ---
-name: Meows Whiskerpop (Whisky)
+name: Meows Whiskerpop Whisky
 class: Warlock - The Great Old One
 race: Tabaxi
 level: 3

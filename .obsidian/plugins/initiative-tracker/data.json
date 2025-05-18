@@ -87,23 +87,41 @@
     {
       "note": "Meows Whiskerpop (Whisky)",
       "path": "00.Introduction/02.Players/B-Team/Meows Whiskerpop (Whisky).md",
-      "name": "Meows Whiskerpop (Whisky)",
+      "name": "Meows Whiskerpop Whisky",
       "level": 3,
       "player": true,
       "ac": "13",
       "hp": "25"
+    },
+    {
+      "note": "Minerva",
+      "path": "00.Introduction/02.Players/A-Team/Minerva.md",
+      "name": "Minerva",
+      "ac": "18",
+      "hp": "27",
+      "level": 3,
+      "player": true
+    },
+    {
+      "note": "Sephire",
+      "path": "00.Introduction/02.Players/A-Team/Sephire.md",
+      "name": "Sephire",
+      "ac": "19",
+      "hp": "27",
+      "level": 3,
+      "player": true
     }
   ],
   "parties": [
     {
       "name": "Grup A",
       "players": [
-        "Chromatheus",
         "Froggo",
         "Gomu Gomu No",
-        "Jeno",
         "Kairos",
-        "Verdian Suyanti"
+        "Verdian Suyanti",
+        "Minerva",
+        "Sephire"
       ]
     },
     {
