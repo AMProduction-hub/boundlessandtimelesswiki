@@ -1,3 +1,10 @@
+# **Party Session Notes**
+
+| Session No.                                       | Description       | Saga        |
+| ------------------------------------------------- | ----------------- | ----------- |
+| [[01 - Fire in Highfalls - Neverwinter Saga\|01]] | Fire in Highfalls | Neverwinter |
+|                                                   |                   |             |
+
 # DM Notes
 
 ## Grup's Line & Veils

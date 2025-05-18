@@ -4,40 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "804e069d0dfa6b51",
+        "id": "639965943d261e04",
         "type": "tabs",
         "children": [
           {
-            "id": "da93eabeaca933cd",
+            "id": "758ad90fb7d6f3c4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Introduction/02.Players/A-Team/Sephire.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Sephire"
-            }
-          },
-          {
-            "id": "0a78ea8e123da78a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03.PlayerLog&Handouts/Mechanics/CLI/classes/paladin.md",
+                "file": "00.Introduction/02.Players/Ellenlyf Party/_index.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "paladin"
+              "title": "_index"
             }
           }
         ]
@@ -145,7 +121,6 @@
       {
         "id": "db99f528ef87e573",
         "type": "tabs",
-        "dimension": 52.59481037924152,
         "children": [
           {
             "id": "c906c79932c05f38",
@@ -252,23 +227,6 @@
           }
         ],
         "currentTab": 4
-      },
-      {
-        "id": "735d45b0ffd6f0e9",
-        "type": "tabs",
-        "dimension": 47.40518962075848,
-        "children": [
-          {
-            "id": "be804794cef82c3f",
-            "type": "leaf",
-            "state": {
-              "type": "initiative-tracker-creature-view",
-              "state": {},
-              "icon": "initiative-tracker-creature-view",
-              "title": "Combatant"
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
@@ -294,34 +252,37 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "e9ad397d83e48c4e",
+  "active": "758ad90fb7d6f3c4",
   "lastOpenFiles": [
+    "00.Introduction/02.Players/B-Team/_index.md",
+    "00.Introduction/02.Players/B-Team/Party Session Notes/01 - Fire in Highfalls - Neverwinter Saga.md",
+    "00.Introduction/02.Players/Ellenlyf Party/_index.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/01 - Fire in Highfalls - Neverwinter Saga 1.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/zariel-mpmm.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/legendary-group/zariel-mpmm.md",
+    "z_Assets/Misc/highfalls_burning.jpg",
+    "03.PlayerLog&Handouts/Session/Session XX - The Format.md",
+    "03.PlayerLog&Handouts/Session/Session XX - The Format 1.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes",
+    "00.Introduction/02.Players/Ellenlyf Party/Untitled.md",
+    "00.Introduction/02.Players/B-Team/Party Session Notes",
+    "00.Introduction/02.Players/_index.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Plane of Greed - Smaug's Challenge/_index.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Maps.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/_index.md",
+    "00.Introduction/02.Players/B-Team/Gwyn.md",
+    "00.Introduction/02.Players/1745645561178 - Combat.md",
+    "00.Introduction/02.Players/Untitled.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Sephire.md",
     "03.PlayerLog&Handouts/Mechanics/CLI/classes/paladin.md",
     "03.PlayerLog&Handouts/Mechanics/CLI/classes/_index.md",
     "03.PlayerLog&Handouts/Mechanics/CLI/classes/druid.md",
-    "00.Introduction/02.Players/A-Team/Sephire.md",
-    "00.Introduction/02.Players/A-Team/Minerva.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Minerva.md",
     "00.Introduction/02.Players/A-Team/Untitled.md",
     "03.PlayerLog&Handouts/Mechanics/CLI/classes/cleric.md",
     "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/_index.md",
     "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/bearded-devil.md",
-    "00.Introduction/02.Players/A-Team/Froggo.md",
-    "00.Introduction/02.Players/A-Team/GomuGomuNo.md",
-    "00.Introduction/02.Players/A-Team/Jeno.md",
-    "00.Introduction/02.Players/A-Team/_index.md",
-    "00.Introduction/02.Players/_index.md",
-    "00.Introduction/02.Players/B-Team/Alizar Valts.md",
-    "00.Introduction/02.Players/B-Team/Ashenka Roïs.md",
-    "00.Introduction/02.Players/B-Team/Gwyn.md",
-    "00.Introduction/02.Players/B-Team/Meows Whiskerpop (Whisky).md",
-    "00.Introduction/02.Players/B-Team/_index.md",
-    "01.Into The Stories/01.Prologue/Session 1 - Fire on the Falls.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/deva.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/_index.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/celestial-spirit-avenger-tce.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/celestial-spirit-defender-tce.md",
-    "00.Introduction/02.Players/A-Team/Verdian Suyanti.md",
-    "00.Introduction/02.Players/A-Team/Kairos.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Froggo.md",
     "z_Assets/Worlds/ACT 1/Maps/highfalls.png",
     "z_Assets/Characters/DonQuixote.png",
     "z_Assets/Bureau of Time and Plane/Character Potrait/Damian_humanform.png",
@@ -331,7 +292,6 @@
     "z_Assets/Characters/SirAldric.png",
     "z_Assets/Characters/SerAldric.png",
     "z_Assets/Characters/themothers.png",
-    "z_Assets/Characters/Elira_2.png",
     "2. Mechanics/Non-Player Characters",
     "2. Mechanics",
     "02.NPCs&Factions/NPCs/Untitled",
@@ -340,8 +300,6 @@
     "00.Introduction/02.Players/B-Team",
     "00.Introduction/02.Players/Untitled",
     "z_Assets/Worlds/ACT 1/Characters",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Character",
-    "z_Assets/Worlds/ACT 1/Maps",
     "02 - NPCs & Factions/Forgotten Realms Pantheon/Faeurinian Pantheon/Faeurinian Pantheon.canvas",
     "00 - Introduction/02 - Players/02 - Players.canvas",
     "Untitled.canvas"
