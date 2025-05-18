@@ -11,7 +11,7 @@ NoteIcon: npc
 ---
 > [!infobox]
 > # `=this.file.name`
-> ![[z_Assets/Bureau of Time and Plane/Character Potrait/Shaperite.png|cover hmedium]]
+> ![[z_Assets/Bureau of Time and Plane/Character Potrait/Shaperite.png|cover hsmall]]
 > [[z_Assets/Bureau of Time and Plane/Character Potrait/Shaperite.png|Show To Players]]
 > ###### Basic Information
 > Type |  Stat |

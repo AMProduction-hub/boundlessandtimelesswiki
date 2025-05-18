@@ -39,6 +39,7 @@ export default (() => {
     return (
       <head>
         <title>{title}</title>
+        <script src="/scripts/admonitions.js" defer></script>
         <meta charSet="utf-8" />
         {cfg.theme.cdnCaching && cfg.theme.fontOrigin === "googleFonts" && (
           <>

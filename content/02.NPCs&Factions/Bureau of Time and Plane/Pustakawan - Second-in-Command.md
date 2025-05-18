@@ -11,7 +11,7 @@ NoteIcon: npc
 ---
 > [!infobox]
 > # `=this.file.name`
-> ![[Pustakawan.png|cover hmedium]]
+> ![[Pustakawan.png|cover hsmall]]
 > [[Pustakawan.png|Show To Players]]
 > ###### Basic Information
 > Type |  Stat |
