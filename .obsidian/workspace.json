@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Introduction/02.Players/Ellenlyf Party/_index.md",
+                "file": "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/02 - Fire in Highfalls Pt. 2 - Neverwinter Saga.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "_index"
+              "title": "02 - Fire in Highfalls Pt. 2 - Neverwinter Saga"
             }
           }
         ]
@@ -230,7 +230,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 430.5
+    "width": 391.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -254,10 +254,13 @@
   },
   "active": "758ad90fb7d6f3c4",
   "lastOpenFiles": [
+    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/01 - Fire in Highfalls - Neverwinter Saga 1.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/02 - Fire in Highfalls Pt. 2 - Neverwinter Saga.md",
+    "01.Into The Stories/01.Prologue/Session 1 - Fire on the Falls.md",
+    "_index.md",
+    "00.Introduction/02.Players/Ellenlyf Party/_index.md",
     "00.Introduction/02.Players/B-Team/_index.md",
     "00.Introduction/02.Players/B-Team/Party Session Notes/01 - Fire in Highfalls - Neverwinter Saga.md",
-    "00.Introduction/02.Players/Ellenlyf Party/_index.md",
-    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/01 - Fire in Highfalls - Neverwinter Saga 1.md",
     "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/zariel-mpmm.md",
     "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/legendary-group/zariel-mpmm.md",
     "z_Assets/Misc/highfalls_burning.jpg",
@@ -280,9 +283,6 @@
     "00.Introduction/02.Players/Ellenlyf Party/Minerva.md",
     "00.Introduction/02.Players/A-Team/Untitled.md",
     "03.PlayerLog&Handouts/Mechanics/CLI/classes/cleric.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/_index.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/bearded-devil.md",
-    "00.Introduction/02.Players/Ellenlyf Party/Froggo.md",
     "z_Assets/Worlds/ACT 1/Maps/highfalls.png",
     "z_Assets/Characters/DonQuixote.png",
     "z_Assets/Bureau of Time and Plane/Character Potrait/Damian_humanform.png",

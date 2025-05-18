@@ -14,13 +14,14 @@ tags: [timeline, SessionJournals]
 
 ## Characters 
  
-**[[Froggo]].** Description. 
- 
-**[[Kairos]].** Description. 
- 
-**[[GomuGomuNo]].** Description. 
- 
-**[[Verdian Suyanti]].** Description. 
+- **[[Froggo]].**
+- **[[Kairos]].**
+- **[[Verdian Suyanti]].**
+- [[Minerva]].
+- [[Sephire]].
+
+Away:
+- [[GomuGomuNo]]
  
 ## Session Overview 
  
@@ -37,4 +38,6 @@ Para party mendapatkan surat yang menjanjikan "*Petualangan Luar Biasa, Harta Fa
 - **Kepala Desa Highfalls.** Seorang [[cleric|Cleric]] dewa [[forgotten-realms-tyr|Tyr]] yang juga menjadi Kepala Desa di Highfalls.
  
 - **Komandan.** Keturunan [[barbed-devil|Barbed Devil]] yang diutus oleh [[03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/zariel-mpmm|Zariel]] untuk mengambil alih Highfalls.
+ 
+- **[[Shaperite - The Agent]].** Seorang pria yang menyambut para party di Lonesome Tavern. 
  
