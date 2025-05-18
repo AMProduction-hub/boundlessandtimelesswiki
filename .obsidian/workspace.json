@@ -145,7 +145,7 @@
       {
         "id": "db99f528ef87e573",
         "type": "tabs",
-        "dimension": 61.62361623616236,
+        "dimension": 52.59481037924152,
         "children": [
           {
             "id": "c906c79932c05f38",
@@ -249,16 +249,6 @@
               "icon": "initiative-tracker",
               "title": "Initiative Tracker"
             }
-          },
-          {
-            "id": "a969b0f824a45a0b",
-            "type": "leaf",
-            "state": {
-              "type": "fantasy-statblocks-creature-pane",
-              "state": {},
-              "icon": "skull",
-              "title": "Combatant"
-            }
           }
         ],
         "currentTab": 4
@@ -266,7 +256,7 @@
       {
         "id": "735d45b0ffd6f0e9",
         "type": "tabs",
-        "dimension": 38.37638376383764,
+        "dimension": 47.40518962075848,
         "children": [
           {
             "id": "be804794cef82c3f",
@@ -282,7 +272,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 452.5
+    "width": 430.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -300,10 +290,11 @@
       "initiative-tracker:Initiative Tracker Encounter Builder": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-kanban:Create new board": false,
-      "dbfolder:Create a new database table": false
+      "dbfolder:Create a new database table": false,
+      "publish:Publish changes...": false
     }
   },
-  "active": "da93eabeaca933cd",
+  "active": "e9ad397d83e48c4e",
   "lastOpenFiles": [
     "03.PlayerLog&Handouts/Mechanics/CLI/classes/paladin.md",
     "03.PlayerLog&Handouts/Mechanics/CLI/classes/_index.md",
