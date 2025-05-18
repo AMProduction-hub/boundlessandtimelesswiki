@@ -1,3 +1,6 @@
+---
+title: B - Team
+---
 # **Party Session Notes**
 
 | Session No.                                       | Description       | Saga        |
