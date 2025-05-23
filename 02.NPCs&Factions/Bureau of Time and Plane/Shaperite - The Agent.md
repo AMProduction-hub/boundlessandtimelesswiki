@@ -3,7 +3,7 @@ AssociatedGroup: BureauofTimeAndPlane
 Gender: Male
 Race: Human
 Age: Adult
-Class: Bard / Thief
+Class: Bard / Rogue
 Alignment: True Neutral
 Character-Role: Friend, Quest Related
 Location: Grand Library
@@ -37,13 +37,13 @@ NoteIcon: npc
 - **Alias(es):** Shaperite
 - **Title(s):** Field Agent & Covert Operative
 - **Race:** Human
-- **Class:** Bard (College of Swords) / Rogue (Thief)  
+- **Class:** Bard (College of Swords) / Rogue (Swashbuckler)  
 - **Level:** 16
-- **Alignment:** Chaotic Neutral
+- **Alignment:** True Neutral
 - **Affiliation(s):** [[02.NPCs&Factions/Bureau of Time and Plane/_index|Bureau of Time and Plane]]  
 - **Profession:** Covert Operative, Infiltrator, Bureau Agent
 - **Base of Operations:** Grand Library, Bureau of Time and Plane Headquarters
-- **Family:** [[Pustakawan - Second-in-Command |Putakawan]] (Partner), Unnamed Child
+- **Family:** [[Pustakawan - Second-in-Command |Pustakawan]] (Partner), Unnamed Child
 
 ---
 ## **Appearance**

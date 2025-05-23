@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "639965943d261e04",
+        "id": "1a522ff64dd2d8bd",
         "type": "tabs",
         "children": [
           {
-            "id": "758ad90fb7d6f3c4",
+            "id": "b2f31480e2605bd2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/02 - Fire in Highfalls Pt. 2 - Neverwinter Saga.md",
+                "file": "00.Introduction/01.Houses Rules/Death Saves.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "02 - Fire in Highfalls Pt. 2 - Neverwinter Saga"
+              "title": "Death Saves"
             }
           }
         ]
@@ -248,19 +248,32 @@
       "initiative-tracker:Initiative Tracker Encounter Builder": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-kanban:Create new board": false,
-      "dbfolder:Create a new database table": false,
-      "publish:Publish changes...": false
+      "dbfolder:Create a new database table": false
     }
   },
-  "active": "758ad90fb7d6f3c4",
+  "active": "b2f31480e2605bd2",
   "lastOpenFiles": [
-    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/01 - Fire in Highfalls - Neverwinter Saga 1.md",
+    "00.Introduction/01.Houses Rules/_index.md",
+    "00.Introduction/01.Houses Rules/Death Saves.md",
+    "00.Introduction/01.Houses Rules/Characters Specific Rules/_index.md",
+    "02.NPCs&Factions/Forgotten Realms Pantheon/_index.md",
+    "02.NPCs&Factions/Bureau of Time and Plane/Shaperite - The Agent.md",
+    "02.NPCs&Factions/Bureau of Time and Plane/Damian - The Squeeky Devils.md",
+    "02.NPCs&Factions/Bureau of Time and Plane/Awanama - Leader of Bureau.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Plane of Greed - Smaug's Challenge/Maps/The Golden Hall.webp",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Plane of Greed - Smaug's Challenge/Maps/The Heart Of The Hoard.webp",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Plane of Greed - Smaug's Challenge/_index.md",
+    "01.Into The Stories/01.Prologue/00.DM Only/Session 1 - Fire on the Falls.md",
     "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/02 - Fire in Highfalls Pt. 2 - Neverwinter Saga.md",
-    "01.Into The Stories/01.Prologue/Session 1 - Fire on the Falls.md",
-    "_index.md",
-    "00.Introduction/02.Players/Ellenlyf Party/_index.md",
-    "00.Introduction/02.Players/B-Team/_index.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/01 - Fire in Highfalls - Neverwinter Saga 1.md",
     "00.Introduction/02.Players/B-Team/Party Session Notes/01 - Fire in Highfalls - Neverwinter Saga.md",
+    "18-05-2025.md",
+    "01.Into The Stories/_index.md",
+    "00.DM Screen/DC Check House Rules Difficulty List.md",
+    "00.Introduction/02.Players/Ellenlyf Party/_index.md",
+    "01.Into The Stories/01.Prologue/00.DM Only/To Ask To Players.md",
+    "_index.md",
+    "00.Introduction/02.Players/B-Team/_index.md",
     "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/zariel-mpmm.md",
     "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/legendary-group/zariel-mpmm.md",
     "z_Assets/Misc/highfalls_burning.jpg",
@@ -270,19 +283,7 @@
     "00.Introduction/02.Players/Ellenlyf Party/Untitled.md",
     "00.Introduction/02.Players/B-Team/Party Session Notes",
     "00.Introduction/02.Players/_index.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Plane of Greed - Smaug's Challenge/_index.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Maps.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/_index.md",
-    "00.Introduction/02.Players/B-Team/Gwyn.md",
-    "00.Introduction/02.Players/1745645561178 - Combat.md",
-    "00.Introduction/02.Players/Untitled.md",
-    "00.Introduction/02.Players/Ellenlyf Party/Sephire.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/classes/paladin.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/classes/_index.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/classes/druid.md",
-    "00.Introduction/02.Players/Ellenlyf Party/Minerva.md",
-    "00.Introduction/02.Players/A-Team/Untitled.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/classes/cleric.md",
     "z_Assets/Worlds/ACT 1/Maps/highfalls.png",
     "z_Assets/Characters/DonQuixote.png",
     "z_Assets/Bureau of Time and Plane/Character Potrait/Damian_humanform.png",
@@ -290,8 +291,6 @@
     "z_Assets/Characters/SirAldric_PaladinMode.png",
     "z_Assets/Characters/SirAldric_BakerMode.png",
     "z_Assets/Characters/SirAldric.png",
-    "z_Assets/Characters/SerAldric.png",
-    "z_Assets/Characters/themothers.png",
     "2. Mechanics/Non-Player Characters",
     "2. Mechanics",
     "02.NPCs&Factions/NPCs/Untitled",
