@@ -4,8 +4,9 @@ class: Paladin
 race: Human (Variant)
 level: 3
 players: Abi
-hp: "30"
-ac: "15"
+hp: 36
+ac: "21"
+modifier: 0
 ---
 # Gwyn
 ## Overview

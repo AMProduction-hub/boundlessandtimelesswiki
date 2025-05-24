@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "1a522ff64dd2d8bd",
+        "id": "d059fc6853197b0c",
         "type": "tabs",
         "children": [
           {
-            "id": "b2f31480e2605bd2",
+            "id": "cdc354dd7d83a6dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Introduction/01.Houses Rules/Death Saves.md",
+                "file": "00.Introduction/02.Players/B-Team/Party Session Notes/02 - The Danger of The Maws - Bureau Saga.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Death Saves"
+              "title": "02 - The Danger of The Maws - Bureau Saga"
             }
           }
         ]
@@ -112,7 +112,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 275.5
+    "width": 263.5
   },
   "right": {
     "id": "cf7b2befd3e5b8fb",
@@ -176,13 +176,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Character/The Mother.md",
+                "file": "01.Into The Stories/01.Prologue/_index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of The Mother"
+              "title": "Outline of _index"
             }
           },
           {
@@ -216,7 +216,7 @@
             }
           },
           {
-            "id": "c7bfcadfb16b79d9",
+            "id": "5dce6bd21c2b101b",
             "type": "leaf",
             "state": {
               "type": "initiative-tracker-view",
@@ -227,13 +227,30 @@
           }
         ],
         "currentTab": 4
+      },
+      {
+        "id": "fc4bd823013867e1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "188426524d414ade",
+            "type": "leaf",
+            "state": {
+              "type": "initiative-tracker-creature-view",
+              "state": {},
+              "icon": "initiative-tracker-creature-view",
+              "title": "Combatant"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 391.5
+    "width": 473.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "dbfolder:Create a new database table": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -247,58 +264,57 @@
       "obsidian-5e-statblocks:Open Creature pane": false,
       "initiative-tracker:Initiative Tracker Encounter Builder": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-kanban:Create new board": false,
-      "dbfolder:Create a new database table": false
+      "obsidian-kanban:Create new board": false
     }
   },
-  "active": "b2f31480e2605bd2",
+  "active": "e9ad397d83e48c4e",
   "lastOpenFiles": [
-    "00.Introduction/01.Houses Rules/_index.md",
-    "00.Introduction/01.Houses Rules/Death Saves.md",
-    "00.Introduction/01.Houses Rules/Characters Specific Rules/_index.md",
-    "02.NPCs&Factions/Forgotten Realms Pantheon/_index.md",
-    "02.NPCs&Factions/Bureau of Time and Plane/Shaperite - The Agent.md",
+    "z_Assets/Characters/Damian.png",
+    "00.Introduction/02.Players/B-Team/Party Session Notes/02 - The Danger of The Maws - Bureau Saga.md",
     "02.NPCs&Factions/Bureau of Time and Plane/Damian - The Squeeky Devils.md",
-    "02.NPCs&Factions/Bureau of Time and Plane/Awanama - Leader of Bureau.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Plane of Greed - Smaug's Challenge/Maps/The Golden Hall.webp",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Plane of Greed - Smaug's Challenge/Maps/The Heart Of The Hoard.webp",
+    "z_Assets/Bureau of Time and Plane/Character Potrait/Damian_humanform.png",
+    "z_Assets/Characters/Damian_humanform.png",
+    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/adult-black-dragon.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/_index.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Plane of Greed - Smaug's Challenge/_index.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/bouda-tob1-2023.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/_index.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/bebilith-mabjov.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/canoloth-mpmm.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/_index.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Plane of Greed - Smaug's Challenge/Report.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/vehicles/space-galleon-aag.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/vehicles/_index.md",
+    "z_Assets/Worlds/Shops/DnD_Shop.pdf",
+    "00.Introduction/02.Players/B-Team/_index.md",
+    "z_Assets/Bureau of Time and Plane/Character Potrait/Pustakawan.png",
+    "02.NPCs&Factions/Bureau of Time and Plane/Pustakawan - Second-in-Command.md",
+    "z_Assets/Bureau of Time and Plane/Location/GrandLibrary.webp",
+    "02.NPCs&Factions/Bureau of Time and Plane/Grand Library.md",
+    "02.NPCs&Factions/Bureau of Time and Plane/Shaperite - The Agent.md",
+    "00.Introduction/02.Players/_index.md",
+    "z_Assets/Bureau of Time and Plane/Character Potrait/Shaperite.png",
     "01.Into The Stories/01.Prologue/00.DM Only/Session 1 - Fire on the Falls.md",
+    "00.DM Screen/_index.md",
+    "z_Assets/Misc/highfalls_burning.jpg",
+    "18-05-2025.md",
     "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/02 - Fire in Highfalls Pt. 2 - Neverwinter Saga.md",
     "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/01 - Fire in Highfalls - Neverwinter Saga 1.md",
-    "00.Introduction/02.Players/B-Team/Party Session Notes/01 - Fire in Highfalls - Neverwinter Saga.md",
-    "18-05-2025.md",
-    "01.Into The Stories/_index.md",
-    "00.DM Screen/DC Check House Rules Difficulty List.md",
     "00.Introduction/02.Players/Ellenlyf Party/_index.md",
-    "01.Into The Stories/01.Prologue/00.DM Only/To Ask To Players.md",
-    "_index.md",
-    "00.Introduction/02.Players/B-Team/_index.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/zariel-mpmm.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/legendary-group/zariel-mpmm.md",
-    "z_Assets/Misc/highfalls_burning.jpg",
-    "03.PlayerLog&Handouts/Session/Session XX - The Format.md",
-    "03.PlayerLog&Handouts/Session/Session XX - The Format 1.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Verdian Suyanti.md",
     "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes",
-    "00.Introduction/02.Players/Ellenlyf Party/Untitled.md",
+    "00.Introduction/02.Players/Ellenlyf Party",
     "00.Introduction/02.Players/B-Team/Party Session Notes",
-    "00.Introduction/02.Players/_index.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Maps.md",
-    "z_Assets/Worlds/ACT 1/Maps/highfalls.png",
-    "z_Assets/Characters/DonQuixote.png",
-    "z_Assets/Bureau of Time and Plane/Character Potrait/Damian_humanform.png",
-    "z_Assets/Bureau of Time and Plane/Character Potrait/Damian.png",
-    "z_Assets/Characters/SirAldric_PaladinMode.png",
-    "z_Assets/Characters/SirAldric_BakerMode.png",
-    "z_Assets/Characters/SirAldric.png",
-    "2. Mechanics/Non-Player Characters",
-    "2. Mechanics",
-    "02.NPCs&Factions/NPCs/Untitled",
-    "02.NPCs&Factions/NPCs",
-    "z_Assets/Characters",
     "00.Introduction/02.Players/B-Team",
-    "00.Introduction/02.Players/Untitled",
+    "z_Assets/Worlds/ACT 1/Maps/highfalls.png",
+    "z_Assets/Worlds/ACT 1/Characters/themother.png",
+    "z_Assets/Worlds/ACT 1/Characters/Elira.png",
+    "z_Assets/Misc",
+    "z_Assets/Characters/themother.png",
+    "z_Assets/Characters",
     "z_Assets/Worlds/ACT 1/Characters",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Character",
+    "z_Assets/Worlds/ACT 1/Maps",
     "02 - NPCs & Factions/Forgotten Realms Pantheon/Faeurinian Pantheon/Faeurinian Pantheon.canvas",
     "00 - Introduction/02 - Players/02 - Players.canvas",
     "Untitled.canvas"

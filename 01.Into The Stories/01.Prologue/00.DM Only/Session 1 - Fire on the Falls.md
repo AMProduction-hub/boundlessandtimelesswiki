@@ -8,7 +8,6 @@ date_ran:
 players_present: 
 session_summary: 
 ---
-
 ## 🧭 Session Title: Fire on the Falls
 
 **Intro Prompt:**
