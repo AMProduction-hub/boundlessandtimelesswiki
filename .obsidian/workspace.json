@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_index.md",
+                "file": "00.Introduction/02.Players/Ellenlyf Party/Party Progression Notes & Faction Status.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "_index"
+              "title": "Party Progression Notes & Faction Status"
             }
           },
           {
@@ -277,8 +277,10 @@
   },
   "active": "b2f31480e2605bd2",
   "lastOpenFiles": [
-    "00.Introduction/02.Players/B-Team/_index.md",
+    "00.Introduction/02.Players/B-Team/Party Progression Notes & Faction Status.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Party Progression Notes & Faction Status.md",
     "_index.md",
+    "00.Introduction/02.Players/B-Team/_index.md",
     "00.Introduction/02.Players/_index.md",
     "00.Introduction/02.Players/B-Team/Party Session Notes/02 - The Danger of The Maws - Bureau Saga.md",
     "00.Introduction/02.Players/Ellenlyf Party/_index.md",
@@ -303,8 +305,6 @@
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Plane of Greed - Smaug's Challenge/Maps/The Golden Hall.webp",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Plane of Greed - Smaug's Challenge/Maps/The Heart Of The Hoard.webp",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Plane of Greed - Smaug's Challenge/_index.md",
-    "01.Into The Stories/01.Prologue/00.DM Only/Session 1 - Fire on the Falls.md",
-    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/02 - Fire in Highfalls Pt. 2 - Neverwinter Saga.md",
     "z_Assets/Misc/highfalls_burning.jpg",
     "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes",
     "00.Introduction/02.Players/B-Team/Party Session Notes",
