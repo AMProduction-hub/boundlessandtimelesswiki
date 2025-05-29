@@ -11,14 +11,24 @@
             "id": "b2f31480e2605bd2",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "00.Introduction/02.Players/Ellenlyf Party/Party Progression Notes & Faction Status.md",
-                "bFile": "00.Introduction/02.Players/Ellenlyf Party/Party Progression Notes & Faction Status.md",
-                "aRef": ""
+                "file": "00.Introduction/02.Players/B-Team/Party Progression Notes & Faction Status.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "diff",
-              "title": "Diff: Party Progression Notes & Faction Status"
+              "icon": "lucide-file",
+              "title": "Party Progression Notes & Faction Status"
             }
           },
           {

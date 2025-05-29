@@ -23,5 +23,5 @@ party: B
 
 # **Progression Notes**
 - Sempat menanyakan tujuan Bureau mengirimkan ekspedisi ke Verdant Maw tetapi banyak dari mereka mati. Apakah Bureau hanya mengirim mereka untuk mati juga ?
-- Pendidik Bureau dikirimkan untuk mendidik Professor Rumba.
+- Pendidik Bureau dikirimkan untuk mendidik Professor Rumba. Karena Player melaporkan rahasia Verdant Maw yang didapat dari Rumba ke Pustakawan.
 - Bertemu dengan [[Damian - The Squeeky Devils]] saat berada di Verdant Maw.
