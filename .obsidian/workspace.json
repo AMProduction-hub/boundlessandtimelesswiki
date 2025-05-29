@@ -11,24 +11,14 @@
             "id": "b2f31480e2605bd2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "00.Introduction/02.Players/Ellenlyf Party/Party Progression Notes & Faction Status.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "aFile": "00.Introduction/02.Players/Ellenlyf Party/Party Progression Notes & Faction Status.md",
+                "bFile": "00.Introduction/02.Players/Ellenlyf Party/Party Progression Notes & Faction Status.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Party Progression Notes & Faction Status"
+              "icon": "diff",
+              "title": "Diff: Party Progression Notes & Faction Status"
             }
           },
           {
@@ -277,8 +267,18 @@
   },
   "active": "b2f31480e2605bd2",
   "lastOpenFiles": [
-    "00.Introduction/02.Players/B-Team/Party Progression Notes & Faction Status.md",
+    "z_Assets/Worlds/ACT 1/Maps/Aruendel_Maps.png",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Maps.md",
+    "00.Introduction/01.Houses Rules/Death Saves.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/_index.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Character/The Paladin.md",
+    "z_Assets/Characters/SirAldric_BakerMode.png",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Character/The Mother.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Character/The Daughter.md",
+    "01.Into The Stories/03.ACT2.Planescape Conflict/_index.md",
+    "00.Introduction/02.Players/Untitled.md",
     "00.Introduction/02.Players/Ellenlyf Party/Party Progression Notes & Faction Status.md",
+    "00.Introduction/02.Players/B-Team/Party Progression Notes & Faction Status.md",
     "_index.md",
     "00.Introduction/02.Players/B-Team/_index.md",
     "00.Introduction/02.Players/_index.md",
@@ -294,17 +294,8 @@
     "00.DM Screen/DC Check House Rules Difficulty List.md",
     "00.Introduction/02.Players/B-Team/Gwyn.md",
     "00.Introduction/02.Players/B-Team/Meows Whiskerpop (Whisky).md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/_index.md",
-    "00.Introduction/01.Houses Rules/Death Saves.md",
-    "00.Introduction/01.Houses Rules/_index.md",
-    "00.Introduction/01.Houses Rules/Characters Specific Rules/_index.md",
-    "02.NPCs&Factions/Forgotten Realms Pantheon/_index.md",
-    "02.NPCs&Factions/Bureau of Time and Plane/Shaperite - The Agent.md",
-    "02.NPCs&Factions/Bureau of Time and Plane/Damian - The Squeeky Devils.md",
-    "02.NPCs&Factions/Bureau of Time and Plane/Awanama - Leader of Bureau.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Plane of Greed - Smaug's Challenge/Maps/The Golden Hall.webp",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Plane of Greed - Smaug's Challenge/Maps/The Heart Of The Hoard.webp",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Plane of Greed - Smaug's Challenge/_index.md",
     "z_Assets/Misc/highfalls_burning.jpg",
     "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes",
     "00.Introduction/02.Players/B-Team/Party Session Notes",
@@ -313,7 +304,6 @@
     "z_Assets/Bureau of Time and Plane/Character Potrait/Damian_humanform.png",
     "z_Assets/Bureau of Time and Plane/Character Potrait/Damian.png",
     "z_Assets/Characters/SirAldric_PaladinMode.png",
-    "z_Assets/Characters/SirAldric_BakerMode.png",
     "z_Assets/Characters/SirAldric.png",
     "2. Mechanics/Non-Player Characters",
     "2. Mechanics",

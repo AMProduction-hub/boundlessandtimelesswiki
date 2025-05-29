@@ -1,7 +1,6 @@
 ---
 party: Ellenlyf
 ---
-
 # **Faction**
 
 ## **Bureau of Time And Plane**

@@ -14,6 +14,8 @@ Where fog clings soft to memory and moss.
 The bread is warm, the days are kind,  
 Yet ravens perch where magic’s cost was high."*
 
+
+
 ## **🗺️ Major Locations**
 
 ### 🏞️ 1. Danau Estara *(Lake Estara)*  
