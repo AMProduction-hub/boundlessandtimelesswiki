@@ -17,7 +17,7 @@ Halo Selamat Datang Silahkan menuju halaman [[00.Introduction/_index|Overview]]
 | [[Minerva]]         | [[cleric-life-domain\|Life Domain]] \| [[druid-circle-of-stars-tce\|Circle of Stars]] | [[satyr-mpmm\|Satyr]]          |
 | [[Kairos]]          | [[rogue-soulknife-tce\|Rogue - Soulknife]]                                            | [[astral-elf-aag\|Astral Elf]] |
 | [[Verdian Suyanti]] | [[bard-college-of-glamour-xge\|Bard - College of Glamour]]                            | [[half-elf\|Half-Elf]]         |
-### **[[00.Introduction/02.Players/B-Team/_index|B-Team]]**
+### **[[00.Introduction/02.Players/Cest La Vie Party/_index|Cest La Vie Party]]**
 
 | Character Name                | Class                                                               | Race                            |
 | ----------------------------- | ------------------------------------------------------------------- | ------------------------------- |
@@ -25,4 +25,3 @@ Halo Selamat Datang Silahkan menuju halaman [[00.Introduction/_index|Overview]]
 | [[Ashenka Roïs]]              | [[monk-way-of-the-long-death-scag\|Monk - Way of the Long Death]]   | [[shadar-kai-mpmm\|Shadar-Kai]] |
 | [[Gwyn]]                      | [[paladin-oath-of-the-ancients \| Paladin - Oath of Ancient]]       | [[human\|Human]]                |
 | [[Meows Whiskerpop (Whisky)]] | [[warlock-of-the-great-old-one-mpmm\|Warlock of the Great Old One]] | [[tabaxi-mpmm \| Tabaxi]]       |
-
