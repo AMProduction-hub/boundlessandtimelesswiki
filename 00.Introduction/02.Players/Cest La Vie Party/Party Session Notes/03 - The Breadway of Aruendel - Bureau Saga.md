@@ -44,6 +44,7 @@ Party menuju Plane Aruendel yang jauh di Far Realm untuk mencari Sir Aldric yang
 
 **Kepala Desa Brindlewatch**. 
 
+**Shadowy Figure**. Party temui di dalam mimpi dan diberi Ultimatum untuk memberikan Cincin Ruby kepada orang yang berhak memilikinya.
  
 ## Items Of Importance
  
@@ -54,4 +55,8 @@ Party menuju Plane Aruendel yang jauh di Far Realm untuk mencari Sir Aldric yang
 
 ## What Worked 
  
-- Menjual teman sebagai _jasa_ kepada NPC bisa menghadiahkan uang untuk party. 
+- Menjual teman sebagai _jasa_ kepada NPC bisa menghadiahkan uang untuk party. Terutama kepada NPC yang terlihat sendirian dan terlihat kaya.
+
+
+# **DM Notes to Player:**
+- Ketika didalam roleplay atau ketika di meja dan pemain merasa tidak nyaman untuk melakukan atau roleplay atau "act" sebagai karakter. Player bisa segera bilang ke DM atau bilang _safeword_ yaitu nama party. Ty ^_^   
