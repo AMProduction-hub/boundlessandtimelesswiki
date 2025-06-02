@@ -1,3 +1,7 @@
+---
+title: Cest La Vie Party
+---
+
 # **Party Session Notes**
 
 | Session No.                                       | Description            | Saga        |

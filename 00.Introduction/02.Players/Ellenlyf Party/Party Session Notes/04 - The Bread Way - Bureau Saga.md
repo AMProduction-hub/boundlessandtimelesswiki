@@ -23,8 +23,8 @@ Party menuju Plane Aruendel yang jauh di Far Realm untuk mencari Sir Aldric yang
 ## Key Learnings
 
 - Aldric biasanya lewat Moondell Valley, Brindlewatch, Benteng Caerthwyn.
-- Menemukan cincin yang memiliki ruby dan catatan bertuliskan "Aku selalu bersamamu dari jauh. ~ Sang Ibu"
-- Mengetahui reruntuhkan 
+- Menemukan cincin yang memiliki ruby dan catatan bertuliskan "Aku selalu bersamamu dari jauh, buah hatiku. ~ Sang Ibu".
+- Mengetahui penyebab utama reruntuhkan di Jalan Tua Pelgrane.
  
 ## Who Did They Meet?
  

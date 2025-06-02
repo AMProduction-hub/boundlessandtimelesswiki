@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "1a56c9497dbbc9ec",
+        "id": "1a522ff64dd2d8bd",
         "type": "tabs",
         "children": [
           {
-            "id": "01b326e0e4dce319",
+            "id": "b2f31480e2605bd2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Character/The Daughter.md",
-                "mode": "preview",
+                "file": "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/04 - The Bread Way - Bureau Saga.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "The Daughter"
+              "title": "04 - The Bread Way - Bureau Saga"
+            }
+          },
+          {
+            "id": "1baf9107862b260d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00.Introduction/02.Players/_index.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "_index"
             }
           }
         ]
@@ -112,7 +136,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 296.5
+    "width": 275.5
   },
   "right": {
     "id": "cf7b2befd3e5b8fb",
@@ -176,13 +200,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01.Into The Stories/01.Prologue/_index.md",
+                "file": "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Character/The Mother.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of _index"
+              "title": "Outline of The Mother"
             }
           },
           {
@@ -216,7 +240,7 @@
             }
           },
           {
-            "id": "5dce6bd21c2b101b",
+            "id": "c7bfcadfb16b79d9",
             "type": "leaf",
             "state": {
               "type": "initiative-tracker-view",
@@ -230,11 +254,10 @@
       }
     ],
     "direction": "horizontal",
-    "width": 504.5
+    "width": 391.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "dbfolder:Create a new database table": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -248,56 +271,58 @@
       "obsidian-5e-statblocks:Open Creature pane": false,
       "initiative-tracker:Initiative Tracker Encounter Builder": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-kanban:Create new board": false
+      "obsidian-kanban:Create new board": false,
+      "dbfolder:Create a new database table": false
     }
   },
-  "active": "e9ad397d83e48c4e",
+  "active": "b2f31480e2605bd2",
   "lastOpenFiles": [
+    "00.Introduction/02.Players/Cest La Vie Party/Party Session Notes/03 - The Breadway of Aruendel - Bureau Saga.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Maps.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/04 - The Bread Way - Bureau Saga.md",
+    "00.Introduction/02.Players/Cest La Vie Party/Party Session Notes/03 - The Bread Way - Bureau Saga.md",
+    "00.Introduction/02.Players/Ellenlyf Party/_index.md",
+    "00.Introduction/02.Players/Cest La Vie Party/_index.md",
+    "00.Introduction/02.Players/Cest La Vie Party/Party Progression Notes & Faction Status.md",
+    "03.PlayerLog&Handouts/Session/1748183860825 - Combat.md",
+    "z_Assets/Worlds/ACT 1/Maps/Aruendel_Maps.png",
+    "00.Introduction/01.Houses Rules/Death Saves.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/_index.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Character/The Paladin.md",
     "z_Assets/Characters/SirAldric_BakerMode.png",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Character/The Mother.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Character/The Daughter.md",
-    "z_Assets/Characters/Elira_2.png",
-    "02.NPCs&Factions/Bureau of Time and Plane/Damian - The Squeeky Devils.md",
-    "z_Assets/Bureau of Time and Plane/Character Potrait/Damian_humanform.png",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/_index.md",
-    "00.Introduction/02.Players/B-Team/Party Session Notes/02 - The Danger of The Maws - Bureau Saga.md",
-    "00.DM Screen/_index.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Maps.md",
-    "z_Assets/Bureau of Time and Plane/Character Potrait/Damian.png",
-    "00.Introduction/02.Players/B-Team/_index.md",
-    "01.Into The Stories/_index.md",
-    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/04 - The Bread Way - Bureau Saga.md",
-    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/03 - The Danger of The Maws - Bureau Saga.md",
-    "00.Introduction/02.Players/Ellenlyf Party/Kairos.md",
-    "00.Introduction/01.Houses Rules/Characters Specific Rules/_index.md",
+    "01.Into The Stories/03.ACT2.Planescape Conflict/_index.md",
+    "00.Introduction/02.Players/Untitled.md",
     "00.Introduction/02.Players/Ellenlyf Party/Party Progression Notes & Faction Status.md",
-    "00.Introduction/02.Players/B-Team/Party Progression Notes & Faction Status.md",
-    "00.Introduction/01.Houses Rules/Armor Class.md",
-    "z_Assets/Characters/Damian.png",
-    "02.NPCs&Factions/Bureau of Time and Plane/Pustakawan - Second-in-Command.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/ancient-black-dragon.md",
-    "03.PlayerLog&Handouts/Session/1748183860825 - Combat.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/_index.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/_index.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/boar.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Plane of Greed - Smaug's Challenge/Report.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Plane of Greed - Smaug's Challenge/_index.md",
-    "z_Assets/Worlds/Shops/DnD_Shop.pdf",
-    "z_Assets/Bureau of Time and Plane/Character Potrait/Pustakawan.png",
-    "z_Assets/Bureau of Time and Plane/Location/GrandLibrary.webp",
+    "_index.md",
+    "00.Introduction/02.Players/_index.md",
+    "00.Introduction/02.Players/Cest La Vie Party/Party Session Notes/02 - The Danger of The Maws - Bureau Saga.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/03 - The Danger of The Maws - Bureau Saga.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Verdian Suyanti.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Sephire.md",
     "00.Introduction/02.Players/Ellenlyf Party/Minerva.md",
-    "z_Assets/Bureau of Time and Plane/Character Potrait/Shaperite.png",
-    "z_Assets/Characters/Damian_humanform.png",
+    "00.Introduction/02.Players/Ellenlyf Party/Kairos.md",
+    "00.Introduction/02.Players/Ellenlyf Party/GomuGomuNo.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Froggo.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Plane of Greed - Smaug's Challenge/Maps/The Golden Hall.webp",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Plane of Greed - Smaug's Challenge/Maps/The Heart Of The Hoard.webp",
     "z_Assets/Misc/highfalls_burning.jpg",
     "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes",
-    "00.Introduction/02.Players/Ellenlyf Party",
-    "00.Introduction/02.Players/B-Team/Party Session Notes",
-    "00.Introduction/02.Players/B-Team",
-    "z_Assets/Misc",
+    "00.Introduction/02.Players/Cest La Vie Party/Party Session Notes",
+    "z_Assets/Worlds/ACT 1/Maps/highfalls.png",
+    "z_Assets/Characters/DonQuixote.png",
+    "z_Assets/Bureau of Time and Plane/Character Potrait/Damian_humanform.png",
+    "z_Assets/Bureau of Time and Plane/Character Potrait/Damian.png",
+    "z_Assets/Characters/SirAldric_PaladinMode.png",
+    "2. Mechanics/Non-Player Characters",
+    "2. Mechanics",
+    "02.NPCs&Factions/NPCs/Untitled",
+    "02.NPCs&Factions/NPCs",
     "z_Assets/Characters",
+    "00.Introduction/02.Players/Cest La Vie Party",
+    "00.Introduction/02.Players/Untitled",
     "z_Assets/Worlds/ACT 1/Characters",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Character",
-    "z_Assets/Worlds/ACT 1/Maps",
     "02 - NPCs & Factions/Forgotten Realms Pantheon/Faeurinian Pantheon/Faeurinian Pantheon.canvas",
     "00 - Introduction/02 - Players/02 - Players.canvas",
     "Untitled.canvas"
