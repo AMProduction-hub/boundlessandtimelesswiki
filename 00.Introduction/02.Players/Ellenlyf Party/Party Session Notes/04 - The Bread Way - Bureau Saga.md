@@ -1,0 +1,42 @@
+---
+tags: [timeline, SessionJournals]
+---
+## Characters 
+ 
+**[[Sephire]]**. The Paladin 
+ 
+**[[Kairos]].** Soulknife Rogue. 
+ 
+**[[Minerva]].** Circle of Stars Druid / Life Cleric. 
+
+[[Froggo]]. Gloomstalker Ranger
+
+[[Verdian Suyanti]]. The Bard
+
+Away:
+**[[GomuGomuNo]].** The Warlock. 
+ 
+## Session Overview 
+ 
+Party menuju Plane Aruendel yang jauh di Far Realm untuk mencari Sir Aldric yang merupakan mantan agent Bureau yang sedang melindungi artifak yang dicari oleh Bureau.
+
+## Key Learnings
+
+- Aldric biasanya lewat Moondell Valley, Brindlewatch, Benteng Caerthwyn.
+- Menemukan cincin yang memiliki ruby dan catatan bertuliskan "Aku selalu bersamamu dari jauh. ~ Sang Ibu"
+- Mengetahui reruntuhkan 
+ 
+## Who Did They Meet?
+ 
+- Bartender Brindlewatch
+- Kawan lama Aldric ?
+ 
+## Items Of Importance
+ 
+- Party PC mendapatkan Thieves Tools.
+- Player mendapatkan Amulet bangsawan yang sekarang memegang kerajaan.
+- Mendapatkan cincin ruby yang ada tulisan dari Sang Ibu.
+
+## What Worked 
+ 
+- Berhasil menjual Goodberry ke Bartender Brindlewatch.
