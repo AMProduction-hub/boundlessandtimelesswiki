@@ -11,24 +11,14 @@
             "id": "b2f31480e2605bd2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "00.Introduction/02.Players/Cest La Vie Party/_index.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "aFile": "_index.md",
+                "bFile": "_index.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "_index"
+              "icon": "diff",
+              "title": "Diff: _index"
             }
           },
           {
@@ -277,6 +267,9 @@
   },
   "active": "b2f31480e2605bd2",
   "lastOpenFiles": [
+    "_index.md",
+    "00.Introduction/02.Players/Cest La Vie Party/_index.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/races/shadar-kai-mpmm.md",
     "00.Introduction/02.Players/Cest La Vie Party/Party Session Notes/03 - The Breadway of Aruendel - Bureau Saga.md",
     "Pasted image 20250602085324.png",
     "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/02 - Fire in Highfalls Pt. 2 - Neverwinter Saga.md",
@@ -285,7 +278,6 @@
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Maps.md",
     "00.Introduction/02.Players/Cest La Vie Party/Party Session Notes/03 - The Bread Way - Bureau Saga.md",
     "00.Introduction/02.Players/Ellenlyf Party/_index.md",
-    "00.Introduction/02.Players/Cest La Vie Party/_index.md",
     "00.Introduction/02.Players/Cest La Vie Party/Party Progression Notes & Faction Status.md",
     "03.PlayerLog&Handouts/Session/1748183860825 - Combat.md",
     "z_Assets/Worlds/ACT 1/Maps/Aruendel_Maps.png",
@@ -298,7 +290,6 @@
     "01.Into The Stories/03.ACT2.Planescape Conflict/_index.md",
     "00.Introduction/02.Players/Untitled.md",
     "00.Introduction/02.Players/Ellenlyf Party/Party Progression Notes & Faction Status.md",
-    "_index.md",
     "00.Introduction/02.Players/_index.md",
     "00.Introduction/02.Players/Cest La Vie Party/Party Session Notes/02 - The Danger of The Maws - Bureau Saga.md",
     "00.Introduction/02.Players/Ellenlyf Party/Verdian Suyanti.md",
