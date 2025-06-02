@@ -4,8 +4,9 @@ class: Monk - Way of The Long Death
 race: Shadar-Kai
 level: 3
 players: Ruma
-hp: "26"
-ac: "15"
+hp: 35
+ac: "14"
+modifier: 0
 ---
 # Ashenka Roïs
 ## Overview
