@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Introduction/02.Players/Cest La Vie Party/Party Session Notes/03 - The Breadway of Aruendel - Bureau Saga.md",
+                "file": "00.Introduction/02.Players/Cest La Vie Party/_index.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "03 - The Breadway of Aruendel - Bureau Saga"
+              "title": "_index"
             }
           },
           {
@@ -277,11 +277,11 @@
   },
   "active": "b2f31480e2605bd2",
   "lastOpenFiles": [
+    "00.Introduction/02.Players/Cest La Vie Party/Party Session Notes/03 - The Breadway of Aruendel - Bureau Saga.md",
     "Pasted image 20250602085324.png",
     "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/02 - Fire in Highfalls Pt. 2 - Neverwinter Saga.md",
     "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/03 - The Danger of The Maws - Bureau Saga.md",
     "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/04 - The Bread Way - Bureau Saga.md",
-    "00.Introduction/02.Players/Cest La Vie Party/Party Session Notes/03 - The Breadway of Aruendel - Bureau Saga.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Maps.md",
     "00.Introduction/02.Players/Cest La Vie Party/Party Session Notes/03 - The Bread Way - Bureau Saga.md",
     "00.Introduction/02.Players/Ellenlyf Party/_index.md",
@@ -314,7 +314,6 @@
     "z_Assets/Characters/DonQuixote.png",
     "z_Assets/Bureau of Time and Plane/Character Potrait/Damian_humanform.png",
     "z_Assets/Bureau of Time and Plane/Character Potrait/Damian.png",
-    "z_Assets/Characters/SirAldric_PaladinMode.png",
     "2. Mechanics/Non-Player Characters",
     "2. Mechanics",
     "02.NPCs&Factions/NPCs/Untitled",
