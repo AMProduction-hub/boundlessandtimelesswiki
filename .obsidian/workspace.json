@@ -11,14 +11,24 @@
             "id": "b2f31480e2605bd2",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "_index.md",
-                "bFile": "_index.md",
-                "aRef": ""
+                "file": "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Narrative.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "diff",
-              "title": "Diff: _index"
+              "icon": "lucide-file",
+              "title": "Narrative"
             }
           },
           {
@@ -265,8 +275,12 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "b2f31480e2605bd2",
+  "active": "e9ad397d83e48c4e",
   "lastOpenFiles": [
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Character/The Mother.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Narrative.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/spells/ice-storm.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/_index.md",
     "_index.md",
     "00.Introduction/02.Players/Cest La Vie Party/_index.md",
     "03.PlayerLog&Handouts/Mechanics/CLI/races/shadar-kai-mpmm.md",
@@ -282,10 +296,8 @@
     "03.PlayerLog&Handouts/Session/1748183860825 - Combat.md",
     "z_Assets/Worlds/ACT 1/Maps/Aruendel_Maps.png",
     "00.Introduction/01.Houses Rules/Death Saves.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/_index.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Character/The Paladin.md",
     "z_Assets/Characters/SirAldric_BakerMode.png",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Character/The Mother.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Character/The Daughter.md",
     "01.Into The Stories/03.ACT2.Planescape Conflict/_index.md",
     "00.Introduction/02.Players/Untitled.md",
@@ -294,8 +306,6 @@
     "00.Introduction/02.Players/Cest La Vie Party/Party Session Notes/02 - The Danger of The Maws - Bureau Saga.md",
     "00.Introduction/02.Players/Ellenlyf Party/Verdian Suyanti.md",
     "00.Introduction/02.Players/Ellenlyf Party/Sephire.md",
-    "00.Introduction/02.Players/Ellenlyf Party/Minerva.md",
-    "00.Introduction/02.Players/Ellenlyf Party/Kairos.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Plane of Greed - Smaug's Challenge/Maps/The Golden Hall.webp",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Plane of Greed - Smaug's Challenge/Maps/The Heart Of The Hoard.webp",
     "z_Assets/Misc/highfalls_burning.jpg",

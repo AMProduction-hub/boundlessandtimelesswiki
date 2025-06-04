@@ -68,7 +68,7 @@ NoteIcon: npc
 > "cr": "7"
 > "traits":
 > - "name": "Spellcasting"
->   "desc": "Selaveth is a 10th-level spellcaster. Her spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). She has the following spells prepared:\n\n**Cantrips (at will):** [eldritch blast](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/eldritch-blast.md), [thaumaturgy](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/thaumaturgy.md), [minor illusion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/minor-illusion.md)\n\n**1st level (4 slots):** [mage armor](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/mage-armor.md), [shield](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/shield.md)\n\n**2nd level (3 slots):** [mirror image](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/mirror-image.md), [misty step](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/misty-step.md)\n\n**3rd level (3 slots):** [counterspell](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/counterspell.md), [vampiric touch](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/vampiric-touch.md)\n\n**4th level (3 slots):** [greater invisibility](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/greater-invisibility.md), [blight](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/blight.md)\n\n**5th level (2 slots):** [cloudkill](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/cloudkill.md)"
+>   "desc": "Selaveth is a 10th-level spellcaster. Her spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). She has the following spells prepared:\n\n**Cantrips (at will):** [eldritch blast](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/eldritch-blast.md), [thaumaturgy](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/thaumaturgy.md), [minor illusion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/minor-illusion.md)\n\n**1st level (4 slots):** [mage armor](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/mage-armor.md), [shield](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/shield.md)\n\n**2nd level (3 slots):** [mirror image](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/mirror-image.md), [misty step](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/misty-step.md)\n\n**3rd level (3 slots):** [counterspell](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/counterspell.md), [vampiric touch](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/vampiric-touch.md)\n\n**4th level (3 slots):** [greater invisibility](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/greater-invisibility.md), [blight](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/blight.md), [[ice-storm]]\n\n**5th level (2 slots):** [cloudkill](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/cloudkill.md)"
 > - "name": "Arcane Rejuvenation"
 >   "desc": "Once per short rest, when she drops a creature to 0 HP with a spell, Selaveth regains one expended spell slot of 3rd level or lower."
 > - "name": "Dreamcatcher Amulet"
@@ -90,6 +90,7 @@ NoteIcon: npc
 name: Selaveth, The Mother
 creatures:
  - 1: Selaveth, The Mother
+ - 
 ```
 
 
