@@ -3,10 +3,11 @@ obsidianUIMode: preview
 cssclasses: json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
-- ttrpg-cli/race/gnome/deep/dmg
-aliases: ["Gnome (Deep) (DMG)"]
+- ttrpg-cli/race/gnome/deep
+aliases:
+- Gnome (Deep)
 ---
-# Gnome (Deep) (DMG)
+# Gnome (Deep)
 *Source: Dungeon Master's Guide p. 282*  
 
 
@@ -21,8 +22,8 @@ aliases: ["Gnome (Deep) (DMG)"]
 
 You have an innate ability to cast the following spells, requiring no material components:
 
-- **At will.** [nondetection](nondetection.md) (self only)  
-- **1/day each.** [blindness/deafness](blindness-deafness.md), [blur](blur.md), [disguise self](disguise-self.md)  
+- **At will.** [nondetection](03.PlayerLog&Handouts/Mechanics/CLI/spells/nondetection.md) (self only)  
+- **1/day each.** [blindness/deafness](03.PlayerLog&Handouts/Mechanics/CLI/spells/blindness-deafness.md), [blur](03.PlayerLog&Handouts/Mechanics/CLI/spells/blur.md), [disguise self](03.PlayerLog&Handouts/Mechanics/CLI/spells/disguise-self.md)  
 
 Intelligence is your spellcasting ability for these spells.
 

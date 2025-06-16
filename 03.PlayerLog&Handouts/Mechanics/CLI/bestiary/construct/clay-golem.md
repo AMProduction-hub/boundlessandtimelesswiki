@@ -7,10 +7,12 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/construct
 statblock: inline
-aliases: ["Clay Golem"]
+statblock-link: "#^statblock"
+aliases:
+- Clay Golem
 ---
-# [Clay Golem](03 - Player Log & Handouts\Mechanics\CLI\bestiary\construct/clay-golem.md)
-*Source: Monster Manual p. 168. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Clay Golem](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/clay-golem.md)
+*Source: Monster Manual p. 168, Curse of Strahd, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Dragonlance: Shadow of the Dragon Queen, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Sculpted from clay, this bulky golem stands head and shoulders taller than most human-sized creatures. It is human shaped, but its proportions are off.
 
@@ -24,7 +26,7 @@ Clay golems are often divinely endowed with purpose by priests of great faith. H
 
 Golems are made from humble materials-clay, flesh and bones, iron, or stone-but they possess astonishing power and durability. A golem has no ambitions, needs no sustenance, feels no pain, and knows no remorse. An unstoppable juggernaut, it exists to follow its creator's orders, and it protects or attacks as that creator demands.
 
-To create a golem, one requires a [manual of golems](manual-of-golems.md). The comprehensive illustrations and instructions in a manual detail the process for creating a golem of a particular type.
+To create a golem, one requires a [manual of golems](03.PlayerLog&Handouts/Mechanics/CLI/items/manual-of-golems.md). The comprehensive illustrations and instructions in a manual detail the process for creating a golem of a particular type.
 
 ### Elemental Spirit in Material Form
 
@@ -42,7 +44,7 @@ Golems can guard sacred sites, tombs, and treasure vaults long after the deaths 
 
 ### Blind Obedience
 
-When its creator or possessor is on hand to command it, a golem performs flawlessly. If the golem is left without instructions or is [incapacitated](conditions.md#Incapacitated), it continues to follow its last orders to the best of its ability. When it can't fulfill its orders, a golem might react violently-or stand and do nothing. A golem that has been given conflicting orders sometimes alternates between them.
+When its creator or possessor is on hand to command it, a golem performs flawlessly. If the golem is left without instructions or is [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated), it continues to follow its last orders to the best of its ability. When it can't fulfill its orders, a golem might react violently-or stand and do nothing. A golem that has been given conflicting orders sometimes alternates between them.
 
 ### Constructed Nature
 
@@ -57,60 +59,67 @@ A golem doesn't require air, food, drink, or sleep.
 "ac_class": "natural armor"
 "hp": !!int "133"
 "hit_dice": "14d10 + 56"
+"modifier": !!int "-1"
 "stats":
-- !!int "20"
-- !!int "9"
-- !!int "18"
-- !!int "3"
-- !!int "8"
-- !!int "1"
+  - !!int "20"
+  - !!int "9"
+  - !!int "18"
+  - !!int "3"
+  - !!int "8"
+  - !!int "1"
 "speed": "20 ft."
 "damage_immunities": "acid; poison; psychic; bludgeoning, piercing, slashing from\
   \ nonmagical attacks that aren't adamantine"
-"condition_immunities": "[charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
-  \ [exhaustion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
-  \ [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
-  \ [paralyzed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
-  \ [petrified](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
-  \ [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
+  \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
+  \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
+  \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
+  \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
+  \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "darkvision 60 ft., passive Perception 9"
 "languages": "understands the languages of its creator but can't speak"
 "cr": "9"
 "traits":
-- "desc": "Whenever the golem is subjected to acid damage, it takes no damage and\
-    \ instead regains a number of hit points equal to the acid damage dealt."
-  "name": "Acid Absorption"
-- "desc": "Whenever the golem starts its turn with 60 hit points or fewer, roll a\
-    \ d6. On a 6, the golem goes berserk. On each of its turns while berserk, the\
-    \ golem attacks the nearest creature it can see. If no creature is near enough\
-    \ to move to and attack, the golem attacks an object, with preference for an object\
-    \ smaller than itself. Once the golem goes berserk, it continues to do so until\
-    \ it is destroyed or regains all its hit points."
-  "name": "Berserk"
-- "desc": "The golem is immune to any spell or effect that would alter its form."
-  "name": "Immutable Form"
-- "desc": "The golem has advantage on saving throws against spells and other magical\
-    \ effects."
-  "name": "Magic Resistance"
-- "desc": "The golem's weapon attacks are magical."
-  "name": "Magic Weapons"
+  - "desc": "Whenever the golem is subjected to acid damage, it takes no damage and\
+      \ instead regains a number of hit points equal to the acid damage dealt."
+    "name": "Acid Absorption"
+  - "desc": "Whenever the golem starts its turn with 60 hit points or fewer, roll\
+      \ a d6. On a 6, the golem goes berserk. On each of its turns while berserk,\
+      \ the golem attacks the nearest creature it can see. If no creature is near\
+      \ enough to move to and attack, the golem attacks an object, with preference\
+      \ for an object smaller than itself. Once the golem goes berserk, it continues\
+      \ to do so until it is destroyed or regains all its hit points."
+    "name": "Berserk"
+  - "desc": "The golem is immune to any spell or effect that would alter its form."
+    "name": "Immutable Form"
+  - "desc": "The golem has advantage on saving throws against spells and other magical\
+      \ effects."
+    "name": "Magic Resistance"
+  - "desc": "The golem's weapon attacks are magical."
+    "name": "Magic Weapons"
 "actions":
-- "desc": "The golem makes two slam attacks."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 16\
-    \ (2d10 + 5) bludgeoning damage. If the target is a creature, it must succeed\
-    \ on a DC 15 Constitution saving throw or have its hit point maximum reduced by\
-    \ an amount equal to the damage taken. The target dies if this attack reduces\
-    \ its hit point maximum to 0. The reduction lasts until removed by the  [greater\
-    \ restoration](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/greater-restoration.md)\
-    \ spell or other magic."
-  "name": "Slam"
-- "desc": "Until the end of its next turn, the golem magically gains a +2 bonus to\
-    \ its AC, has advantage on Dexterity saving throws, and can use its slam attack\
-    \ as a bonus action."
-  "name": "Haste (Recharge 5-6)"
+  - "desc": "The golem makes two slam attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 16\
+      \ (2d10 + 5) bludgeoning damage. If the target is a creature, it must succeed\
+      \ on a DC 15 Constitution saving throw or have its hit point maximum reduced\
+      \ by an amount equal to the damage taken. The target dies if this attack reduces\
+      \ its hit point maximum to 0. The reduction lasts until removed by the  [greater\
+      \ restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-restoration.md)\
+      \ spell or other magic."
+    "name": "Slam"
+  - "desc": "Until the end of its next turn, the golem magically gains a +2 bonus\
+      \ to its AC, has advantage on Dexterity saving throws, and can use its slam\
+      \ attack as a bonus action."
+    "name": "Haste (Recharge 5-6)"
 "source":
-- "MM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/construct/token/clay-golem.webp"
+  - "MM"
+  - "CoS"
+  - "TftYP"
+  - "ToA"
+  - "WDMM"
+  - "DSotDQ"
+  - "KftGV"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/token/clay-golem.webp"
 ```
 ^statblock

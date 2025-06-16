@@ -16,7 +16,7 @@ aliases:
 
 - **Damage**: 6d8 necrotic
 - **Range**: 120/360
-- **Properties**: [Ammunition](item-properties.md#Ammunition), [Reload](item-properties.md#Reload), [Two-Handed](item-properties.md#Two-Handed)
+- **Properties**: [Ammunition](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Ammunition), [Reload](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Reload), [Two-Handed](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Two-Handed)
 - **Weight**: 10.0 lbs.
 
 *Source: Dungeon Master's Guide p. 268*

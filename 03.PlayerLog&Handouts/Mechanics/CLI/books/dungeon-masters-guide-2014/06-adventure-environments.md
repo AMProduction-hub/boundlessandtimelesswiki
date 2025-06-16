@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
-aliases: ["Adventure Environments"]
+aliases:
+- Adventure Environments
 ---
 # Adventure Environments
 *Source: Dungeon Master's Guide (2014), p. 99* 
@@ -30,9 +31,9 @@ When you set out to create a dungeon, think about its distinctive qualities. For
 
 You can use the Dungeon Location table to determine the locale of your dungeon. You can roll on the table or choose an entry that inspires you.
 
-![Dungeon Location](dungeon-location.md)
+![Dungeon Location](03.PlayerLog&Handouts/Mechanics/CLI/tables/dungeon-location.md)
 
-![Dungeon Location; Exotic Location](dungeon-location-exotic-location.md)
+![Dungeon Location; Exotic Location](03.PlayerLog&Handouts/Mechanics/CLI/tables/dungeon-location-exotic-location.md)
 
 #### Dungeon Creator
 
@@ -42,19 +43,19 @@ Details bring a dungeon setting's personality to life. Great bearded faces might
 
 The Dungeon Creator table includes creatures that typically build dungeons. You can choose a creator from the table or roll randomly, or choose some other dungeon builder appropriate for your campaign.
 
-![Dungeon Creator](dungeon-creator.md)
+![Dungeon Creator](03.PlayerLog&Handouts/Mechanics/CLI/tables/dungeon-creator.md)
 
-![Dungeon Creator; Cults and Religions](dungeon-creator-cults-and-religions.md)
+![Dungeon Creator; Cults and Religions](03.PlayerLog&Handouts/Mechanics/CLI/tables/dungeon-creator-cults-and-religions.md)
 
-![Dungeon Creator; NPC Alignment](dungeon-creator-npc-alignment.md)
+![Dungeon Creator; NPC Alignment](03.PlayerLog&Handouts/Mechanics/CLI/tables/dungeon-creator-npc-alignment.md)
 
-![Dungeon Creator; NPC Class](dungeon-creator-npc-class.md)
+![Dungeon Creator; NPC Class](03.PlayerLog&Handouts/Mechanics/CLI/tables/dungeon-creator-npc-class.md)
 
 #### Dungeon Purpose
 
 Except in the case of a natural cavern, a dungeon is crafted and inhabited for a specific purpose that influences its design and features. You can choose a purpose from the Dungeon Purpose table, roll one at random, or use your own ideas.
 
-![Dungeon Purpose](dungeon-purpose.md)
+![Dungeon Purpose](03.PlayerLog&Handouts/Mechanics/CLI/tables/dungeon-purpose.md)
 
 ##### Death Trap
 
@@ -98,7 +99,7 @@ In most cases, the original architects of a dungeon are long gone, and the quest
 
 The Dungeon History table notes key events that can transform a site from its original purpose into a dungeon for adventurers to explore. Particularly old dungeons can have a history that consists of multiple events, each of which transformed the site in some way.
 
-![Dungeon History](dungeon-history.md)
+![Dungeon History](03.PlayerLog&Handouts/Mechanics/CLI/tables/dungeon-history.md)
 
 ### Dungeon Inhabitants
 
@@ -167,7 +168,7 @@ Dungeon doors often become stuck when not used frequently. Opening a stuck door 
 
 ##### Locked Doors
 
-Characters who don't have the key to a locked door can pick the lock with a successful Dexterity check (doing so requires [thieves' tools](thieves-tools.md) and proficiency in their use). They can also force the door with a successful Strength check, smash the door to pieces by dealing enough damage to it, or use a knock spell or similar magic. Chapter 8 provides guidelines for setting the DCs and assigning statistics to doors and other objects.
+Characters who don't have the key to a locked door can pick the lock with a successful Dexterity check (doing so requires [thieves' tools](03.PlayerLog&Handouts/Mechanics/CLI/items/thieves-tools.md) and proficiency in their use). They can also force the door with a successful Strength check, smash the door to pieces by dealing enough damage to it, or use a knock spell or similar magic. Chapter 8 provides guidelines for setting the DCs and assigning statistics to doors and other objects.
 
 ##### Barred Doors
 
@@ -293,7 +294,7 @@ If you expect the characters to explore a monster's lair, you'll need to find or
 
 In places where civilization rules or once ruled, adventurers might find monuments built to honor great leaders, gods, and cultures. Use the Monuments table for inspiration, or randomly roll to determine what monument the adventurers stumble upon.
 
-![Monuments](monuments.md)
+![Monuments](03.PlayerLog&Handouts/Mechanics/CLI/tables/monuments.md)
 
 #### Ruins
 
@@ -313,7 +314,7 @@ Strongholds provide the local population with protection in times of trouble. Th
 
 Weird locales make the fantastic and the supernatural an intrinsic part of your wilderness adventures.
 
-![Weird Locales](weird-locales.md)
+![Weird Locales](03.PlayerLog&Handouts/Mechanics/CLI/tables/weird-locales.md)
 
 ## Wilderness Survival
 
@@ -323,19 +324,19 @@ Adventuring in the wilderness presents a host of perils beyond the threats of mo
 
 You can pick weather to fit your campaign or roll on the Weather table to determine the weather for a given day, adjusting for the terrain and season as appropriate.
 
-![Weather](weather.md)
+![Weather](03.PlayerLog&Handouts/Mechanics/CLI/tables/weather.md)
 
-![Weather; Wind](weather-wind.md)
+![Weather; Wind](03.PlayerLog&Handouts/Mechanics/CLI/tables/weather-wind.md)
 
-![Weather; Precipitation](weather-precipitation.md)
+![Weather; Precipitation](03.PlayerLog&Handouts/Mechanics/CLI/tables/weather-precipitation.md)
 
 #### Extreme Cold
 
-Whenever the temperature is at or below 0 degrees Fahrenheit, a creature exposed to the cold must succeed on a DC 10 Constitution saving throw at the end of each hour or gain one level of [exhaustion](conditions.md#Exhaustion). Creatures with resistance or immunity to cold damage automatically succeed on the saving throw, as do creatures wearing cold weather gear (thick coats, gloves, and the like) and creatures naturally adapted to cold climates.
+Whenever the temperature is at or below 0 degrees Fahrenheit, a creature exposed to the cold must succeed on a DC 10 Constitution saving throw at the end of each hour or gain one level of [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion). Creatures with resistance or immunity to cold damage automatically succeed on the saving throw, as do creatures wearing cold weather gear (thick coats, gloves, and the like) and creatures naturally adapted to cold climates.
 
 #### Extreme Heat
 
-When the temperature is at or above 100 degrees Fahrenheit, a creature exposed to the heat and without access to drinkable water must succeed on a Constitution saving throw at the end of each hour or gain one level of [exhaustion](conditions.md#Exhaustion). The DC is 5 for the first hour and increases by 1 for each additional hour.
+When the temperature is at or above 100 degrees Fahrenheit, a creature exposed to the heat and without access to drinkable water must succeed on a Constitution saving throw at the end of each hour or gain one level of [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion). The DC is 5 for the first hour and increases by 1 for each additional hour.
 
 Creatures wearing medium or heavy armor, or who are clad in heavy clothing, have disadvantage on the saving throw. Creatures with resistance or immunity to fire damage automatically succeed on the saving throw, as do creatures naturally adapted to hot climates.
 
@@ -365,19 +366,19 @@ The other hazards presented here can be identified with a successful Intelligenc
 
 #### Desecrated Ground
 
-Some cemeteries and catacombs are imbued with the unseen traces of ancient evil. An area of desecrated ground can be any size, and a [detect evil and good](detect-evil-and-good.md) spell cast within range reveals its presence.
+Some cemeteries and catacombs are imbued with the unseen traces of ancient evil. An area of desecrated ground can be any size, and a [detect evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-evil-and-good.md) spell cast within range reveals its presence.
 
 Undead standing on desecrated ground have advantage on all saving throws.
 
-A vial of [holy water](holy-water-flask.md) purifies a 10-foot-square area of desecrated ground when sprinkled on it, and a [hallow](hallow.md) spell purifies desecrated ground within its area.
+A vial of [holy water](03.PlayerLog&Handouts/Mechanics/CLI/items/holy-water-flask.md) purifies a 10-foot-square area of desecrated ground when sprinkled on it, and a [hallow](03.PlayerLog&Handouts/Mechanics/CLI/spells/hallow.md) spell purifies desecrated ground within its area.
 
 #### Frigid Water
 
-A creature can be immersed in frigid water for a number of minutes equal to its Constitution score before suffering any ill effects. Each additional minute spent in frigid water requires the creature to succeed on a DC 10 Constitution saving throw or gain one level of [exhaustion](conditions.md#Exhaustion). Creatures with resistance or immunity to cold damage automatically succeed on the saving throw, as do creatures that are naturally adapted to living in ice-cold water.
+A creature can be immersed in frigid water for a number of minutes equal to its Constitution score before suffering any ill effects. Each additional minute spent in frigid water requires the creature to succeed on a DC 10 Constitution saving throw or gain one level of [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion). Creatures with resistance or immunity to cold damage automatically succeed on the saving throw, as do creatures that are naturally adapted to living in ice-cold water.
 
 #### Quicksand
 
-A quicksand pit covers the ground in roughly a 10-foot square area and is usually 10 feet deep. When a creature enters the area, it sinks `1d4+1` feet into the quicksand and becomes [restrained](conditions.md#Restrained). At the start of each of the creature's turns, it sinks another `1d4` feet. As long as the creature isn't completely submerged in quicksand, it can escape by using its action and succeeding on a Strength check. The DC is 10 plus the number of feet the creature has sunk into the quicksand. A creature that is completely submerged in quicksand can't breathe (see the "suffocation" rules in the *Player's Handbook*).
+A quicksand pit covers the ground in roughly a 10-foot square area and is usually 10 feet deep. When a creature enters the area, it sinks `1d4+1` feet into the quicksand and becomes [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained). At the start of each of the creature's turns, it sinks another `d4` feet. As long as the creature isn't completely submerged in quicksand, it can escape by using its action and succeeding on a Strength check. The DC is 10 plus the number of feet the creature has sunk into the quicksand. A creature that is completely submerged in quicksand can't breathe (see the "suffocation" rules in the *Player's Handbook*).
 
 A creature can pull another creature within its reach out of a quicksand pit by using its action and succeeding on a Strength check. The DC is 5 plus the number of feet the target creature has sunk into the quicksand.
 
@@ -385,11 +386,11 @@ A creature can pull another creature within its reach out of a quicksand pit by 
 
 Razorvine is a plant that grows in wild tangles and hedges. It also clings to the sides of buildings and other surfaces as ivy does. A 10-foot-high, 10-foot-wide, 5-foot-thick wall or hedge of razorvine has AC 11, 25 hit points, and immunity to bludgeoning, piercing, and psychic damage.
 
-When a creature comes into direct contact with razorvine for the first time on a turn, the creature must succeed on a DC 10 Dexterity saving throw or take 5 (`1d10`) slashing damage from the razorvine's bladelike thorns.
+When a creature comes into direct contact with razorvine for the first time on a turn, the creature must succeed on a DC 10 Dexterity saving throw or take 5 (`d10`) slashing damage from the razorvine's bladelike thorns.
 
 #### Slippery Ice
 
-Slippery ice is difficult terrain. When a creature moves onto slippery ice for the first time on a turn, it must succeed on a DC 10 Dexterity ([Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics)) check or fall [prone](conditions.md#Prone).
+Slippery ice is difficult terrain. When a creature moves onto slippery ice for the first time on a turn, it must succeed on a DC 10 Dexterity ([Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics)) check or fall [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone).
 
 #### Thin Ice
 
@@ -399,23 +400,23 @@ Thin ice has a weight tolerance of `3d10 × 10` pounds per 10-foot-square area. 
 
 Characters can gather food and water as the party travels at a normal or slow pace. A foraging character makes a Wisdom ([Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)) check whenever you call for it, with the DC determined by the abundance of food and water in the region.
 
-![Foraging DCs](foraging-dcs.md)
+![Foraging DCs](03.PlayerLog&Handouts/Mechanics/CLI/tables/foraging-dcs.md)
 
-If multiple characters forage, each character makes a separate check. A foraging character finds nothing on a failed check. On a successful check, roll `1d6` + the character's Wisdom modifier to determine how much food (in pounds) the character finds, then repeat the roll for water (in gallons).
+If multiple characters forage, each character makes a separate check. A foraging character finds nothing on a failed check. On a successful check, roll `d6` + the character's Wisdom modifier to determine how much food (in pounds) the character finds, then repeat the roll for water (in gallons).
 
 #### Food and Water
 
 The food and water requirements noted in the Player's Handbook are for characters. Horses and other creatures require different quantities of food and water per day based on their size. Water needs are doubled if the weather is hot.
 
-![Food and Water Needs](food-and-water-needs.md)
+![Food and Water Needs](03.PlayerLog&Handouts/Mechanics/CLI/tables/food-and-water-needs.md)
 
 ### Becoming Lost
 
 Unless they are following a path, or something like it, adventurers traveling in the wilderness run the risk of becoming lost. The party's navigator makes a Wisdom ([Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)) check when you decide it's appropriate, against a DC determined by the prevailing terrain, as shown on the Wilderness Navigation table. If the party is moving at a slow pace, the navigator gains a +5 bonus to the check, and a fast pace imposes a -5 penalty. If the party has an accurate map of the region or can see the sun or stars, the navigator has advantage on the check.
 
-If the Wisdom ([Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)) check succeeds, the party travels in the desired direction without becoming lost. If the check fails, the party inadvertently travels in the wrong direction and becomes lost. The party's navigator can repeat the check after the party spends `1d6` hours trying to get back on course.
+If the Wisdom ([Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)) check succeeds, the party travels in the desired direction without becoming lost. If the check fails, the party inadvertently travels in the wrong direction and becomes lost. The party's navigator can repeat the check after the party spends `d6` hours trying to get back on course.
 
-![Becoming Lost; Wilderness Navigation](becoming-lost-wilderness-navigation.md)
+![Becoming Lost; Wilderness Navigation](03.PlayerLog&Handouts/Mechanics/CLI/tables/becoming-lost-wilderness-navigation.md)
 
 ## Settlement
 
@@ -427,15 +428,15 @@ When creating a settlement for your campaign, focus on the locations that are mo
 
 The following tables allow you to quickly create a settlement. They assume that you've already determined its size and its basic form of government.
 
-![Random Settlements; Race Relations](random-settlements-race-relations.md)
+![Random Settlements; Race Relations](03.PlayerLog&Handouts/Mechanics/CLI/tables/random-settlements-race-relations.md)
 
-![Random Settlements; Ruler's Status](random-settlements-rulers-status.md)
+![Random Settlements; Ruler's Status](03.PlayerLog&Handouts/Mechanics/CLI/tables/random-settlements-rulers-status.md)
 
-![Random Settlements; Notable Traits](random-settlements-notable-traits.md)
+![Random Settlements; Notable Traits](03.PlayerLog&Handouts/Mechanics/CLI/tables/random-settlements-notable-traits.md)
 
-![Random Settlements; Known For Its...](random-settlements-known-for-its.md)
+![Random Settlements; Known For Its...](03.PlayerLog&Handouts/Mechanics/CLI/tables/random-settlements-known-for-its.md)
 
-![Random Settlements; Current Calamity](random-settlements-current-calamity.md)
+![Random Settlements; Current Calamity](03.PlayerLog&Handouts/Mechanics/CLI/tables/random-settlements-current-calamity.md)
 
 ## Random Buildings
 
@@ -443,19 +444,19 @@ Pulse-pounding chases and harrowing escapes within the confines of a town or cit
 
 If a roll makes no sense considering where the characters are (such as a lavish mansion in a rundown part of town), you can always roll again or simply choose another result. However, such unexpected results can prompt creativity and memorable locations that help make your urban encounters distinct.
 
-![Random Buildings; Building Type](random-buildings-building-type.md)
+![Random Buildings; Building Type](03.PlayerLog&Handouts/Mechanics/CLI/tables/random-buildings-building-type.md)
 
-![Random Buildings; Residence](random-buildings-residence.md)
+![Random Buildings; Residence](03.PlayerLog&Handouts/Mechanics/CLI/tables/random-buildings-residence.md)
 
-![Random Buildings; Religious Building](random-buildings-religious-building.md)
+![Random Buildings; Religious Building](03.PlayerLog&Handouts/Mechanics/CLI/tables/random-buildings-religious-building.md)
 
-![Random Buildings; Tavern](random-buildings-tavern.md)
+![Random Buildings; Tavern](03.PlayerLog&Handouts/Mechanics/CLI/tables/random-buildings-tavern.md)
 
-![Random Buildings; Tavern Name Generator](random-buildings-tavern-name-generator.md)
+![Random Buildings; Tavern Name Generator](03.PlayerLog&Handouts/Mechanics/CLI/tables/random-buildings-tavern-name-generator.md)
 
-![Random Buildings; Warehouse](random-buildings-warehouse.md)
+![Random Buildings; Warehouse](03.PlayerLog&Handouts/Mechanics/CLI/tables/random-buildings-warehouse.md)
 
-![Random Buildings; Shop](random-buildings-shop.md)
+![Random Buildings; Shop](03.PlayerLog&Handouts/Mechanics/CLI/tables/random-buildings-shop.md)
 
 ## Mapping a Settlement
 
@@ -487,7 +488,7 @@ A settlement might have a jail to hold accused criminals awaiting trial, but few
 
 The Random Urban Encounters table is useful for city—and town—based adventures. Check for a random encounter at least once per day, and once at night if the characters are out and about. Reroll the result if it doesn't make sense given the time of day.
 
-![Random Urban Encounters](random-urban-encounters.md)
+![Random Urban Encounters](03.PlayerLog&Handouts/Mechanics/CLI/tables/random-urban-encounters.md)
 
 #### Animals on the Loose
 
@@ -533,7 +534,7 @@ A fire breaks out, and the characters have a chance to help put out the flames b
 
 The characters find a random trinket.
 
-You can determine the trinket by rolling on the [Trinkets table](trinket.md) in the *Player's Handbook*.
+You can determine the trinket by rolling on the [Trinkets table](03.PlayerLog&Handouts/Mechanics/CLI/items/trinket.md) in the *Player's Handbook*.
 
 #### Guard Harassment
 
@@ -581,25 +582,25 @@ See chapter 9 of the Player's Handbook for rules on underwater combat.
 
 You can check for random undersea encounters as often as you would check for them on land (see chapter 3). The Random Undersea Encounters table presents several intriguing options. You can either roll on the table for a random result or choose whichever one works best.
 
-![Random Undersea Encounters](random-undersea-encounters.md)
+![Random Undersea Encounters](03.PlayerLog&Handouts/Mechanics/CLI/tables/random-undersea-encounters.md)
 
 #### Swimming
 
-Unless aided by magic, a character can't swim for a full 8 hours per day. After each hour of swimming, a character must succeed on a DC 10 Constitution saving throw or gain one level of [exhaustion](conditions.md#Exhaustion).
+Unless aided by magic, a character can't swim for a full 8 hours per day. After each hour of swimming, a character must succeed on a DC 10 Constitution saving throw or gain one level of [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion).
 
 A creature that has a swimming speed—including a character with a ring of swimming or similar magic—can swim all day without penalty and uses the normal forced march rules in the *Player's Handbook*.
 
-Swimming through deep water is similar to traveling at high altitudes, because of the water's pressure and cold temperature. For a creature without a swimming speed, each hour spent swimming at a depth greater than 100 feet counts as 2 hours for the purpose of determining [exhaustion](conditions.md#Exhaustion). Swimming for an hour at a depth greater than 200 feet counts as 4 hours.
+Swimming through deep water is similar to traveling at high altitudes, because of the water's pressure and cold temperature. For a creature without a swimming speed, each hour spent swimming at a depth greater than 100 feet counts as 2 hours for the purpose of determining [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion). Swimming for an hour at a depth greater than 200 feet counts as 4 hours.
 
 #### Underwater Visibility
 
 Visibility underwater depends on water clarity and the available light. Unless the characters have light sources, use the Underwater Encounter Distance table to determine the distance at which characters underwater become aware of a possible encounter.
 
-![Underwater Encounter Distance](underwater-encounter-distance.md)
+![Underwater Encounter Distance](03.PlayerLog&Handouts/Mechanics/CLI/tables/underwater-encounter-distance.md)
 
 ### The Sea
 
-Characters can row a boat for 8 hours per day, or can row longer at the risk of [exhaustion](conditions.md#Exhaustion) (as per the rules for a forced march in chapter 8 of the Player's Handbook). A fully crewed sailing vessel can sail all day, assuming its sailors work in shifts.
+Characters can row a boat for 8 hours per day, or can row longer at the risk of [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion) (as per the rules for a forced march in chapter 8 of the Player's Handbook). A fully crewed sailing vessel can sail all day, assuming its sailors work in shifts.
 
 #### Navigation
 
@@ -620,7 +621,7 @@ Use the Wilderness Navigation table below to determine whether a ship veers off 
 
 You can check for random encounters at sea as often as you would check for them on land (see chapter 3 for more information). The Random Encounters at Sea table presents a number of options and ideas
 
-![Random Encounters at Sea](random-encounters-at-sea.md)
+![Random Encounters at Sea](03.PlayerLog&Handouts/Mechanics/CLI/tables/random-encounters-at-sea.md)
 
 #### Weather at Sea
 
@@ -664,7 +665,7 @@ A ship has immunity to all damage unless it takes an amount of damage equal to o
 
 Repairs to a damaged ship can be made while the vessel is berthed. Repairing 1 hit point of damage requires 1 day and costs 20 gp for materials and labor.
 
-![Owning a Ship; Airborne and Waterborne Vehicles](owning-a-ship-airborne-and-waterborne-vehicles.md)
+![Owning a Ship; Airborne and Waterborne Vehicles](03.PlayerLog&Handouts/Mechanics/CLI/tables/owning-a-ship-airborne-and-waterborne-vehicles.md)
 
 ### The Sky
 
@@ -694,7 +695,7 @@ Most traps are triggered when a creature goes somewhere or touches something tha
 
 Usually, some element of a trap is visible to careful inspection. Characters might notice an uneven flagstone that conceals a pressure plate, spot the gleam of light off a trip wire, notice small holes in the walls from which jets of flame will erupt, or otherwise detect something that points to a trap's presence.
 
-A trap's description specifies the checks and DCs needed to detect it, disable it, or both. A character actively looking for a trap can attempt a Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) check against the trap's DC. You can also compare the DC to detect the trap with each character's passive Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) score to determine whether anyone in the party notices the trap in passing. If the adventurers detect a trap before triggering it, they might be able to disarm it, either permanently or long enough to move past it. You might call for an Intelligence ([Investigation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Investigation)) check for a character to deduce what needs to be done, followed by a Dexterity check using [thieves' tools](thieves-tools.md) to perform the necessary sabotage.
+A trap's description specifies the checks and DCs needed to detect it, disable it, or both. A character actively looking for a trap can attempt a Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) check against the trap's DC. You can also compare the DC to detect the trap with each character's passive Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) score to determine whether anyone in the party notices the trap in passing. If the adventurers detect a trap before triggering it, they might be able to disarm it, either permanently or long enough to move past it. You might call for an Intelligence ([Investigation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Investigation)) check for a character to deduce what needs to be done, followed by a Dexterity check using [thieves' tools](03.PlayerLog&Handouts/Mechanics/CLI/items/thieves-tools.md) to perform the necessary sabotage.
 
 Any character can attempt an Intelligence ([Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)) check to detect or disarm a magic trap, in addition to any other checks noted in the trap's description. The DCs are the same regardless of the check used. In addition, dispel magic has a chance of disabling most magic traps. A magic trap's description provides the DC for the ability check made when you use dispel magic.
 
@@ -714,9 +715,9 @@ The attack bonus of a trap, the save DC to resist its effects, and the damage it
 
 A trap intended to be a **setback** is unlikely to kill or seriously harm characters of the indicated levels, whereas a **dangerous** trap is likely to seriously injure (and potentially kill) characters of the indicated levels. A *deadly* trap is likely to kill characters of the indicated levels.
 
-![Trap Effects; Trap Save DCs and Attack Bonuses](trap-effects-trap-save-dcs-and-attack-bonuses.md)
+![Trap Effects; Trap Save DCs and Attack Bonuses](03.PlayerLog&Handouts/Mechanics/CLI/tables/trap-effects-trap-save-dcs-and-attack-bonuses.md)
 
-![Trap Effects; Damage Severity by Level](trap-effects-damage-severity-by-level.md)
+![Trap Effects; Damage Severity by Level](03.PlayerLog&Handouts/Mechanics/CLI/tables/trap-effects-damage-severity-by-level.md)
 
 #### Complex Traps
 

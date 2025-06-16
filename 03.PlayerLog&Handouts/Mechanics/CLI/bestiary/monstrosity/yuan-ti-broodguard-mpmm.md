@@ -10,12 +10,14 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/monstrosity
 statblock: inline
-aliases: ["Yuan-ti Broodguard"]
+statblock-link: "#^statblock"
+aliases:
+- Yuan-ti Broodguard
 ---
-# [Yuan-ti Broodguard](03 - Player Log & Handouts\Mechanics\CLI\bestiary\monstrosity/yuan-ti-broodguard-mpmm.md)
+# [Yuan-ti Broodguard](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/yuan-ti-broodguard-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 273, Volo's Guide to Monsters p. 203*  
 
-> [!quote] A quote from Mordekainen  
+> [!quote] A quote from Mordenkainen  
 > 
 > Tasha once likened histachii to the bees that tend to larvae in beehives. It is a fanciful view of a horrific process.
 
@@ -34,45 +36,47 @@ Most broodguards are made from human captives forced to consume a magical brew t
 "ac_class": "natural armor"
 "hp": !!int "45"
 "hit_dice": "7d8 + 14"
+"modifier": !!int "2"
 "stats":
-- !!int "15"
-- !!int "14"
-- !!int "14"
-- !!int "6"
-- !!int "11"
-- !!int "4"
+  - !!int "15"
+  - !!int "14"
+  - !!int "14"
+  - !!int "6"
+  - !!int "11"
+  - !!int "4"
 "speed": "30 ft."
 "saves":
-  "Dexterity": !!int "4"
-  "Wisdom": !!int "2"
-  "Strength": !!int "4"
+  - "strength": "+4"
+  - "dexterity": "+4"
+  - "wisdom": "+2"
 "skillsaves":
-  "Perception": !!int "2"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+2"
 "damage_immunities": "poison"
-"condition_immunities": "[charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
-  \ [paralyzed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
-  \ [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
+  \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
+  \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "darkvision 60 ft., passive Perception 12"
 "languages": "Abyssal, Common, Draconic"
 "cr": "2"
 "traits":
-- "desc": "At the start of its turn, the broodguard can gain advantage on all melee\
-    \ weapon attack rolls it makes during that turn, but attack rolls against it have\
-    \ advantage until the start of its next turn."
-  "name": "Reckless"
+  - "desc": "At the start of its turn, the broodguard can gain advantage on all melee\
+      \ weapon attack rolls it makes during that turn, but attack rolls against it\
+      \ have advantage until the start of its next turn."
+    "name": "Reckless"
 "actions":
-- "desc": "The broodguard makes one Bite attack and two Claw attacks."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8\
-    \ + 2) piercing damage."
-  "name": "Bite"
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6\
-    \ + 2) slashing damage."
-  "name": "Claw"
+  - "desc": "The broodguard makes one Bite attack and two Claw attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6\
+      \ (1d8 + 2) piercing damage."
+    "name": "Bite"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+      \ (1d6 + 2) slashing damage."
+    "name": "Claw"
 "source":
-- "MPMM"
-- "VGM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/monstrosity/token/yuan-ti-broodguard-mpmm.webp"
+  - "MPMM"
+  - "VGM"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/token/yuan-ti-broodguard-mpmm.webp"
 ```
 ^statblock
 

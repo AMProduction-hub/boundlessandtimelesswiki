@@ -3,63 +3,66 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/spell/list/school/divination
-aliases: ["Divination Spells"]
+aliases:
+- Divination Spells
 ---
 # Divination Spells
 
 ## Cantrip
 
-- [Guidance](guidance.md "PHB")
-- [True Strike](true-strike.md "PHB")
+- [Guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md "PHB")
+- [True Strike](03.PlayerLog&Handouts/Mechanics/CLI/spells/true-strike.md "PHB")
 
 ## 1st Level
 
-- [Beast Bond](beast-bond-xge.md "XGE")
-- [Comprehend Languages](comprehend-languages.md "PHB")
-- [Detect Evil and Good](detect-evil-and-good.md "PHB")
-- [Detect Magic](detect-magic.md "PHB")
-- [Detect Poison and Disease](detect-poison-and-disease.md "PHB")
-- [Hunter's Mark](hunters-mark.md "PHB")
-- [Identify](identify.md "PHB")
-- [Speak with Animals](speak-with-animals.md "PHB")
+- [Beast Bond](03.PlayerLog&Handouts/Mechanics/CLI/spells/beast-bond-xge.md "XGE")
+- [Comprehend Languages](03.PlayerLog&Handouts/Mechanics/CLI/spells/comprehend-languages.md "PHB")
+- [Detect Evil and Good](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-evil-and-good.md "PHB")
+- [Detect Magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md "PHB")
+- [Detect Poison and Disease](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-poison-and-disease.md "PHB")
+- [Gift of Alacrity](03.PlayerLog&Handouts/Mechanics/CLI/spells/gift-of-alacrity-egw.md "EGW")
+- [Hunter's Mark](03.PlayerLog&Handouts/Mechanics/CLI/spells/hunters-mark.md "PHB")
+- [Identify](03.PlayerLog&Handouts/Mechanics/CLI/spells/identify.md "PHB")
+- [Speak with Animals](03.PlayerLog&Handouts/Mechanics/CLI/spells/speak-with-animals.md "PHB")
 
 ## 2nd Level
 
-- [Augury](augury.md "PHB")
-- [Beast Sense](beast-sense.md "PHB")
-- [Detect Thoughts](detect-thoughts.md "PHB")
-- [Find Traps](find-traps.md "PHB")
-- [Locate Animals or Plants](locate-animals-or-plants.md "PHB")
-- [Locate Object](locate-object.md "PHB")
-- [Mind Spike](mind-spike-xge.md "XGE")
-- [See Invisibility](see-invisibility.md "PHB")
-- [Warp Sense](warp-sense-sato.md "SatO")
+- [Augury](03.PlayerLog&Handouts/Mechanics/CLI/spells/augury.md "PHB")
+- [Beast Sense](03.PlayerLog&Handouts/Mechanics/CLI/spells/beast-sense.md "PHB")
+- [Borrowed Knowledge](03.PlayerLog&Handouts/Mechanics/CLI/spells/borrowed-knowledge-scc.md "SCC")
+- [Detect Thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md "PHB")
+- [Find Traps](03.PlayerLog&Handouts/Mechanics/CLI/spells/find-traps.md "PHB")
+- [Fortune's Favor](03.PlayerLog&Handouts/Mechanics/CLI/spells/fortunes-favor-egw.md "EGW")
+- [Locate Animals or Plants](03.PlayerLog&Handouts/Mechanics/CLI/spells/locate-animals-or-plants.md "PHB")
+- [Locate Object](03.PlayerLog&Handouts/Mechanics/CLI/spells/locate-object.md "PHB")
+- [Mind Spike](03.PlayerLog&Handouts/Mechanics/CLI/spells/mind-spike-xge.md "XGE")
+- [See Invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/see-invisibility.md "PHB")
 
 ## 3rd Level
 
-- [Clairvoyance](clairvoyance.md "PHB")
-- [Tongues](tongues.md "PHB")
+- [Clairvoyance](03.PlayerLog&Handouts/Mechanics/CLI/spells/clairvoyance.md "PHB")
+- [Tongues](03.PlayerLog&Handouts/Mechanics/CLI/spells/tongues.md "PHB")
 
 ## 4th Level
 
-- [Arcane Eye](arcane-eye.md "PHB")
-- [Divination](divination.md "PHB")
-- [Locate Creature](locate-creature.md "PHB")
+- [Arcane Eye](03.PlayerLog&Handouts/Mechanics/CLI/spells/arcane-eye.md "PHB")
+- [Divination](03.PlayerLog&Handouts/Mechanics/CLI/spells/divination.md "PHB")
+- [Locate Creature](03.PlayerLog&Handouts/Mechanics/CLI/spells/locate-creature.md "PHB")
 
 ## 5th Level
 
-- [Commune](commune.md "PHB")
-- [Commune with Nature](commune-with-nature.md "PHB")
-- [Contact Other Plane](contact-other-plane.md "PHB")
-- [Legend Lore](legend-lore.md "PHB")
-- [Rary's Telepathic Bond](rarys-telepathic-bond.md "PHB")
-- [Scrying](scrying.md "PHB")
+- [Commune](03.PlayerLog&Handouts/Mechanics/CLI/spells/commune.md "PHB")
+- [Commune with Nature](03.PlayerLog&Handouts/Mechanics/CLI/spells/commune-with-nature.md "PHB")
+- [Contact Other Plane](03.PlayerLog&Handouts/Mechanics/CLI/spells/contact-other-plane.md "PHB")
+- [Legend Lore](03.PlayerLog&Handouts/Mechanics/CLI/spells/legend-lore.md "PHB")
+- [Rary's Telepathic Bond](03.PlayerLog&Handouts/Mechanics/CLI/spells/rarys-telepathic-bond.md "PHB")
+- [Scrying](03.PlayerLog&Handouts/Mechanics/CLI/spells/scrying.md "PHB")
 
 ## 6th Level
 
-- [Find the Path](find-the-path.md "PHB")
-- [True Seeing](true-seeing.md "PHB")
+- [Find the Path](03.PlayerLog&Handouts/Mechanics/CLI/spells/find-the-path.md "PHB")
+- [True Seeing](03.PlayerLog&Handouts/Mechanics/CLI/spells/true-seeing.md "PHB")
 
 ## 9th Level
 
-- [Foresight](foresight.md "PHB")
+- [Foresight](03.PlayerLog&Handouts/Mechanics/CLI/spells/foresight.md "PHB")

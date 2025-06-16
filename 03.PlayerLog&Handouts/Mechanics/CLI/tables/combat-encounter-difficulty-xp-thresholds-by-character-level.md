@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
-aliases: ["Combat Encounter Difficulty; XP Thresholds by Character Level"]
+aliases:
+- Combat Encounter Difficulty; XP Thresholds by Character Level
 ---
 # Combat Encounter Difficulty; XP Thresholds by Character Level
 *Source: Dungeon Master's Guide p. 82. Available in the Basic Rules (2014)* 

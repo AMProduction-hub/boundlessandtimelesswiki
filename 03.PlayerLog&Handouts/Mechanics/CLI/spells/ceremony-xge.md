@@ -6,8 +6,10 @@ tags:
 - ttrpg-cli/spell/class/bard
 - ttrpg-cli/spell/class/cleric
 - ttrpg-cli/spell/class/paladin
+- ttrpg-cli/spell/feat/divinely-favored
 - ttrpg-cli/spell/feat/magic-initiate
 - ttrpg-cli/spell/feat/ritual-caster
+- ttrpg-cli/spell/feat/strixhaven-initiate
 - ttrpg-cli/spell/level/1st-level
 - ttrpg-cli/spell/optfeature/book-of-ancient-secrets
 - ttrpg-cli/spell/ritual
@@ -18,7 +20,8 @@ classes:
 - Cleric
 - Paladin
 - Sorcerer (Divine Soul)
-aliases: ["Ceremony"]
+aliases:
+- Ceremony
 ---
 # Ceremony
 *1st-level, Abjuration (ritual)*  
@@ -37,7 +40,7 @@ You touch one willing creature whose alignment has changed, and you make a DC 20
 
 ## Bless Water
 
-You touch one [vial](vial.md) of water and cause it to become [holy water](holy-water-flask.md).
+You touch one [vial](03.PlayerLog&Handouts/Mechanics/CLI/items/vial.md) of water and cause it to become [holy water](03.PlayerLog&Handouts/Mechanics/CLI/items/holy-water-flask.md).
 
 ## Coming of Age
 
@@ -57,6 +60,6 @@ You touch adult humanoids willing to be bonded together in marriage. For the nex
 
 ## Summary
 
-**Classes**: [Paladin](list-spells-classes-paladin.md); [Cleric](list-spells-classes-cleric.md); [Bard](list-spells-classes-bard.md); [Sorcerer (Divine Soul)](list-spells-classes-sorcerer-divine-soul-xge.md "subclass=XGE")
+**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Paladin](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-paladin.md)
 
 *Source: Xanathar's Guide to Everything p. 151*

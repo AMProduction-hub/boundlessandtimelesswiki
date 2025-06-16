@@ -3,12 +3,13 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
-aliases: ["The Blood War"]
+aliases:
+- The Blood War
 ---
 # The Blood War
 *Source: Mordenkainen's Tome of Foes, p. 5* 
 
-![](mtf_chapterstarts_ch1.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/mordenkainens-tome-of-foes/img/mtf_chapterstarts_ch1.webp#center)
 
 Throughout history, the teeming hordes of the Abyss and the strictly regimented legions of the Nine Hells have battled for supremacy in the cosmos. In the mortal world, the scant few scholars, arcanists, and adventurers who know the conflict for what it is refer to it as the Blood War.
 
@@ -56,7 +57,7 @@ The Blood War rages along the length of the River Styx. Direct confrontations be
 
 The devils view fighting demons on Avernus as a net benefit for their cause. Although most devils slain there are destroyed forever, ready access to supplies and support from the Nine Hells tilts the tide heavily against invading demons. Also, the prospect of a permanent death compels the devils fighting on Avernus to maintain the utmost readiness and coordination. Wounded devils retreat, knowing that fresh reinforcements can continue the fight. Hordes of lemures, devils that are permanently destroyed only if subjected to holy energies, are used to blunt demonic incursions. The terrain of Avernus is thoroughly mapped and festooned with ambush points, strongholds, and other defensive measures.
 
-![](315529_cn.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/mordenkainens-tome-of-foes/img/315529_cn.webp#center)
 
 > [!note] Sailing the Styx
 > 
@@ -108,7 +109,7 @@ Therefore, the demons assault the Nine Hells over and over not only because it i
 
 > [!note] Yugoloths: Fickle Allies
 > 
-> Yugoloths are major players on both sides of the Blood War. The death of a yugoloth is meaningless when it occurs in the Abyss or the Nine Hells, and thus these mercenaries freely give their all in any battle even when it means fighting other yugoloths. Demons and devils both know that a yugoloth's loyalty is constantly for sale-even during a conflict on the battlefield-and a yugoloth never agrees to a contract that prohibits it from seeking a better offer. This set of circumstances prompts hellish and abyssal armies to carry war chests with them in the hope of buying the services of the yugoloths on the other side. The war chests themselves thus become highly prized targets, which in turn leads to protective measures, such as valuables hidden in [bags of holding](bag-of-holding.md) or empty treasure containers used to lure the enemy into a trap.
+> Yugoloths are major players on both sides of the Blood War. The death of a yugoloth is meaningless when it occurs in the Abyss or the Nine Hells, and thus these mercenaries freely give their all in any battle even when it means fighting other yugoloths. Demons and devils both know that a yugoloth's loyalty is constantly for sale-even during a conflict on the battlefield-and a yugoloth never agrees to a contract that prohibits it from seeking a better offer. This set of circumstances prompts hellish and abyssal armies to carry war chests with them in the hope of buying the services of the yugoloths on the other side. The war chests themselves thus become highly prized targets, which in turn leads to protective measures, such as valuables hidden in [bags of holding](03.PlayerLog&Handouts/Mechanics/CLI/items/bag-of-holding.md) or empty treasure containers used to lure the enemy into a trap.
 > 
 > Regardless of the side that hires them, yugoloths almost never fight on their home plane of Gehenna despite the fact that both sides sometimes traverse it and many battles of the Blood War are fought there. A yugoloth killed in Gehenna can't be restored to life except through an exceptional ritual, so the sums required to entice one to fight on its home plane are astronomical... and making such a bargain always draws the attention of the ultroloths.
 ^yugoloths-fickle-allies
@@ -125,7 +126,7 @@ Keepers of the Balance sometimes resort to strategies that seem inexplicable to 
 
 Those who vow to maintain the Balance make enemies wherever they go, because their full reasons for acting as they do aren't always apparent. The fact that some of these adherents embrace the Balance to further their personal quests for power makes it impossible to count on them as allies with complete certainty.
 
-![](315590_cn_wmask.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/mordenkainens-tome-of-foes/img/315590_cn_wmask.webp#center)
 
 ## Lords of the Nine
 
@@ -133,7 +134,7 @@ From his throne at the bottom of the Nine Hells, Asmodeus commands a sprawling b
 
 Asmodeus and the other archdevils rule over the nine layers that comprise the Hells. The devil lords make up a hierarchy that is both rigid and fragile. Although Asmodeus is more powerful than any other lord, he has to be constantly wary of treachery within his ranks. It could be said that the true ruler of the Nine Hells is the immense body of rules and regulations that dictate how all devils, even Asmodeus, must conduct themselves.
 
-![Lords of the Nine; Layers and Rulers of the Nine Hells](lords-of-the-nine-layers-and-rulers-of-the-nine-hells-mtf.md)
+![Lords of the Nine; Layers and Rulers of the Nine Hells](03.PlayerLog&Handouts/Mechanics/CLI/tables/lords-of-the-nine-layers-and-rulers-of-the-nine-hells-mtf.md)
 
 ### Asmodeus
 
@@ -268,7 +269,7 @@ Mammon refuses to spend any more coin than necessary to keep the soul marketplac
 
 In the flaming realm of Phlegethos, Fierna and Belial rule in strange tandem. They are variously thought of by mortals as mother and son, daughter and father, wife and husband, or ruler and consort, but none of those terms can capture the paradoxical nature of their partnership. The Nine Hells is a hierarchy in which two individuals can't normally hold the same position as ruler of a single layer. Yet Asmodeus allows these two to claim dominion over Phlegethos as partners and rivals.
 
-Fierna's charisma, equaled only by that of Asmodeus, makes her a brilliant manipulator capable of filling mortal and immortal hearts with whatever emotion she chooses to evoke. Belial, meanwhile, doesn't attempt to sway others with his interpersonal skills and focuses on the duties of ruling a layer of the Nine Hells. The two seem to hate and admire one another in equal measure and are in constant competition. Every time Belial outthinks Fierna, she talks her way out of whatever trap he has devised. Fierna stages insurrections against Belial, but his contingency plans rescue him from possible disaster. Other devils might gain a brief advantage over the two lords because of their infighting, but whenever any true threat to their rule arises, the seeming enemies cooperate to dispatch pretenders to their shared throne.
+Fierna's charisma, equaled only by that of Asmodeus, makes her a brilliant manipulator capable of filling mortal and immortal hearts with whatever emotion she chooses to evoke. Belial, meanwhile, doesn't attempt to sway others with his interpersonal skills and focuses on the duties of ruling a layer of the Nine Hells. The two seem to hate and admire one another in equal measure and are in constant competition. Every time Belial out-thinks Fierna, she talks her way out of whatever trap he has devised. Fierna stages insurrections against Belial, but his contingency plans rescue him from possible disaster. Other devils might gain a brief advantage over the two lords because of their infighting, but whenever any true threat to their rule arises, the seeming enemies cooperate to dispatch pretenders to their shared throne.
 
 #### Fiery Realm of Dark Delights
 
@@ -413,7 +414,7 @@ Mephistopheles keeps his realm churning with punishing storms. He doesn't entert
 
 The foremost wizard in the Hells, Mephistopheles suffers nothing that would compromise his intellectual focus. He hates distractions and allows only particular devils to speak to him without first being spoken to. He has been known to disintegrate minions for the smallest transgressions, and sometimes carries out an execution simply because he suspected that a devil was about to do something to annoy him.
 
-Mephistopheles is able to devote almost all his time to his research thanks to the loyalty of [Hutijin](hutijin-mpmm.md), his top lieutenant. Even though [Hutijin](hutijin-mpmm.md) commands enough power to threaten his master's position, he is content to remain at the right hand of the throne, at least for the time being.
+Mephistopheles is able to devote almost all his time to his research thanks to the loyalty of [Hutijin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/hutijin-mpmm.md), his top lieutenant. Even though [Hutijin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/hutijin-mpmm.md) commands enough power to threaten his master's position, he is content to remain at the right hand of the throne, at least for the time being.
 
 #### Experiments in the Unknown
 
@@ -501,7 +502,7 @@ Each description also includes a list of signature spells associated with the cu
 
 The customization options here will typically have no appreciable effect on the challenge rating of a creature that gains them.
 
-![](315531_cn_wmask.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/mordenkainens-tome-of-foes/img/315531_cn_wmask.webp#center)
 
 - Cult of Asmodeus  
 - Cult of Baalzebul  
@@ -536,21 +537,21 @@ As a bonus action, the cambion chooses an other creature that can see or hear it
 
 At the DM's option, you can create a tiefling character who has a special link to one of the Lords of the Nine Hells. This link is represented by a subrace.
 
-- [Tiefling (Asmodeus)](tiefling-asmodeus-mtf.md)  
-- [Tiefling (Baalzebul)](tiefling-baalzebul-mtf.md)  
-- [Tiefling (Dispater)](tiefling-dispater-mtf.md)  
-- [Tiefling (Fierna)](tiefling-fierna-mtf.md)  
-- [Tiefling (Glasya)](tiefling-glasya-mtf.md)  
-- [Tiefling (Levistus)](tiefling-levistus-mtf.md)  
-- [Tiefling (Mammon)](tiefling-mammon-mtf.md)  
-- [Tiefling (Mephistopheles)](tiefling-mephistopheles-mtf.md)  
-- [Tiefling (Zariel)](tiefling-zariel-mtf.md)  
+- [Tiefling (Asmodeus)](03.PlayerLog&Handouts/Mechanics/CLI/races/tiefling-asmodeus-mtf.md)  
+- [Tiefling (Baalzebul)](03.PlayerLog&Handouts/Mechanics/CLI/races/tiefling-baalzebul-mtf.md)  
+- [Tiefling (Dispater)](03.PlayerLog&Handouts/Mechanics/CLI/races/tiefling-dispater-mtf.md)  
+- [Tiefling (Fierna)](03.PlayerLog&Handouts/Mechanics/CLI/races/tiefling-fierna-mtf.md)  
+- [Tiefling (Glasya)](03.PlayerLog&Handouts/Mechanics/CLI/races/tiefling-glasya-mtf.md)  
+- [Tiefling (Levistus)](03.PlayerLog&Handouts/Mechanics/CLI/races/tiefling-levistus-mtf.md)  
+- [Tiefling (Mammon)](03.PlayerLog&Handouts/Mechanics/CLI/races/tiefling-mammon-mtf.md)  
+- [Tiefling (Mephistopheles)](03.PlayerLog&Handouts/Mechanics/CLI/races/tiefling-mephistopheles-mtf.md)  
+- [Tiefling (Zariel)](03.PlayerLog&Handouts/Mechanics/CLI/races/tiefling-zariel-mtf.md)  
 
 ## Devil Customization Tables
 
 This section provides tables useful for DMs who want to create devil NPCs.
 
-![Devil Customization Tables](devil-customization-tables.md)
+![Devil Customization Tables](03.PlayerLog&Handouts/Mechanics/CLI/tables/devil-customization-tables.md)
 
 ## Princes of the Abyss
 
@@ -604,7 +605,7 @@ The visitation of a demon lord to the Material Plane is a cataclysmic event. The
 
 At this point, a besieged world's only hope for survival is the expulsion of the demon lord. The lord's defeat leaves the other demons again leaderless, and they react by warring against each other, which makes them susceptible to attacks from the world's defenders. The longer a demon lord remains in control of all the other fiends, the more the world around it becomes irrevocably changed. When a demonic incursion runs its course, no vestige remains of the world that existed before-in effect, the realm has become another layer of the Abyss.
 
-![](315584_cn_wmask.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/mordenkainens-tome-of-foes/img/315584_cn_wmask.webp#center)
 
 ### Chaos Incarnate
 
@@ -699,7 +700,7 @@ In mortal realms, people can fall under his sway simply by laying eyes on a true
 > 
 > I studied [Demogorgon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/demogorgon-mpmm.md)'s symbol. I thought that, by looking at it through a mirror, I might avoid its effects. If anything, viewing its reflection made its effect more potent and more subtle. It was Rary who saved me, and I thought he had been spared the symbol's effects. I don't have many regrets, but underestimating that symbol is one of my greatest.
 
-![](315585_cn_wmask.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/mordenkainens-tome-of-foes/img/315585_cn_wmask.webp#center)
 
 ### Fraz-Urb'luu
 
@@ -814,7 +815,7 @@ Boons from demons are fickle gifts. They remain in place only as long as the dem
 
 Cambions spawned by demon lords sometimes manifest different abilities from a typical cambion. [Graz'zt](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/grazzt-mpmm.md) is notable among demon lords for the many cambions he has spawned across the multiverse. Most famous among them is Iuz, who combined his father's abyssal heritage and his mother's peerless arcane tutelage to become a demigod.
 
-![](315587_cn.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/mordenkainens-tome-of-foes/img/315587_cn.webp#center)
 
 ### Signature Spells
 
@@ -840,15 +841,15 @@ In addition, this cambion can use its Innate Spellcasting ability to cast animat
 
 This section provides tables useful for DMs who want to customize certain demons.
 
-![Demon Customization Tables; Demon Personality Traits](demon-customization-tables-demon-personality-traits-mtf.md)
+![Demon Customization Tables; Demon Personality Traits](03.PlayerLog&Handouts/Mechanics/CLI/tables/demon-customization-tables-demon-personality-traits-mtf.md)
 
-![Demon Customization Tables; Demon Ideals](demon-customization-tables-demon-ideals-mtf.md)
+![Demon Customization Tables; Demon Ideals](03.PlayerLog&Handouts/Mechanics/CLI/tables/demon-customization-tables-demon-ideals-mtf.md)
 
-![Demon Customization Tables; Demon Bonds](demon-customization-tables-demon-bonds-mtf.md)
+![Demon Customization Tables; Demon Bonds](03.PlayerLog&Handouts/Mechanics/CLI/tables/demon-customization-tables-demon-bonds-mtf.md)
 
-![Demon Customization Tables; Demon Flaws](demon-customization-tables-demon-flaws-mtf.md)
+![Demon Customization Tables; Demon Flaws](03.PlayerLog&Handouts/Mechanics/CLI/tables/demon-customization-tables-demon-flaws-mtf.md)
 
-![Demon Customization Tables; Unusual Demon Features](demon-customization-tables-unusual-demon-features-mtf.md)
+![Demon Customization Tables; Unusual Demon Features](03.PlayerLog&Handouts/Mechanics/CLI/tables/demon-customization-tables-unusual-demon-features-mtf.md)
 
 Use the following template to quickly customize a Demon
 
@@ -856,16 +857,16 @@ Use the following template to quickly customize a Demon
 
 The following tables can be used to generate random cults dedicated to fiends. Roll on the tables in the order in which they appear to build up the cult's traits.
 
-![](315588_cn_wmask.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/mordenkainens-tome-of-foes/img/315588_cn_wmask.webp#center)
 
-![Fiendish Cults; Cult Goals](fiendish-cults-cult-goals-mtf.md)
+![Fiendish Cults; Cult Goals](03.PlayerLog&Handouts/Mechanics/CLI/tables/fiendish-cults-cult-goals-mtf.md)
 
-![Fiendish Cults; Cult Resources](fiendish-cults-cult-resources-mtf.md)
+![Fiendish Cults; Cult Resources](03.PlayerLog&Handouts/Mechanics/CLI/tables/fiendish-cults-cult-resources-mtf.md)
 
-![](315589_cn.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/mordenkainens-tome-of-foes/img/315589_cn.webp#center)
 
-![Fiendish Cults; Cult Organization](fiendish-cults-cult-organization-mtf.md)
+![Fiendish Cults; Cult Organization](03.PlayerLog&Handouts/Mechanics/CLI/tables/fiendish-cults-cult-organization-mtf.md)
 
-![Fiendish Cults; Cult Hardship](fiendish-cults-cult-hardship-mtf.md)
+![Fiendish Cults; Cult Hardship](03.PlayerLog&Handouts/Mechanics/CLI/tables/fiendish-cults-cult-hardship-mtf.md)
 
 Use the template linked above to quickly draw up some information on a Fiendish Cult.

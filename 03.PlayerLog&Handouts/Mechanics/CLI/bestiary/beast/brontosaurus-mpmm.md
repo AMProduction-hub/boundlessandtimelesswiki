@@ -9,9 +9,11 @@ tags:
 - ttrpg-cli/monster/size/gargantuan
 - ttrpg-cli/monster/type/beast/dinosaur
 statblock: inline
-aliases: ["Brontosaurus"]
+statblock-link: "#^statblock"
+aliases:
+- Brontosaurus
 ---
-# [Brontosaurus](03 - Player Log & Handouts\Mechanics\CLI\bestiary\beast/brontosaurus-mpmm.md)
+# [Brontosaurus](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/brontosaurus-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 95, Volo's Guide to Monsters p. 139*  
 
 This massive four-legged dinosaur is large enough that most predators leave it alone. Its deadly tail can drive away or kill smaller threats.
@@ -26,31 +28,32 @@ This massive four-legged dinosaur is large enough that most predators leave it a
 "ac_class": "natural armor"
 "hp": !!int "121"
 "hit_dice": "9d20 + 27"
+"modifier": !!int "-1"
 "stats":
-- !!int "21"
-- !!int "9"
-- !!int "17"
-- !!int "2"
-- !!int "10"
-- !!int "7"
+  - !!int "21"
+  - !!int "9"
+  - !!int "17"
+  - !!int "2"
+  - !!int "10"
+  - !!int "7"
 "speed": "30 ft."
 "saves":
-  "Constitution": !!int "6"
+  - "constitution": "+6"
 "senses": "passive Perception 10"
 "languages": ""
 "cr": "5"
 "actions":
-- "desc": "Melee Weapon Attack: +8 to hit, reach 20 ft., one target. Hit: 27\
-    \ (5d8 + 5) bludgeoning damage, and the target must succeed on a DC 14 Strength\
-    \ saving throw or be knocked [prone](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
-  "name": "Stomp"
-- "desc": "Melee Weapon Attack: +8 to hit, reach 20 ft., one target. Hit: 32\
-    \ (6d8 + 5) bludgeoning damage"
-  "name": "Tail"
+  - "desc": "Melee Weapon Attack: +8 to hit, reach 20 ft., one target. Hit:\
+      \ 27 (5d8 + 5) bludgeoning damage, and the target must succeed on a DC 14\
+      \ Strength saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
+    "name": "Stomp"
+  - "desc": "Melee Weapon Attack: +8 to hit, reach 20 ft., one target. Hit:\
+      \ 32 (6d8 + 5) bludgeoning damage"
+    "name": "Tail"
 "source":
-- "MPMM"
-- "VGM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/beast/token/brontosaurus-mpmm.webp"
+  - "MPMM"
+  - "VGM"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/brontosaurus-mpmm.webp"
 ```
 ^statblock
 

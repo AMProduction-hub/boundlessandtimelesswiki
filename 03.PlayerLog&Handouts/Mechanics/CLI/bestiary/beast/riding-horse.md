@@ -9,10 +9,12 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/beast
 statblock: inline
-aliases: ["Riding Horse"]
+statblock-link: "#^statblock"
+aliases:
+- Riding Horse
 ---
-# [Riding Horse](03 - Player Log & Handouts\Mechanics\CLI\bestiary\beast/riding-horse.md)
-*Source: Monster Manual p. 336, Baldur's Gate: Descent Into Avernus. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Riding Horse](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/riding-horse.md)
+*Source: Monster Manual p. 336, Curse of Strahd, Storm King's Thunder, Tomb of Annihilation, Waterdeep: Dragon Heist, Dragon of Icespire Peak, Baldur's Gate: Descent Into Avernus, Explorer's Guide to Wildemount, Journeys through the Radiant Citadel, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 ```statblock
 "name": "Riding Horse"
@@ -22,25 +24,34 @@ aliases: ["Riding Horse"]
 "ac": !!int "10"
 "hp": !!int "13"
 "hit_dice": "2d10 + 2"
+"modifier": !!int "0"
 "stats":
-- !!int "16"
-- !!int "10"
-- !!int "12"
-- !!int "2"
-- !!int "11"
-- !!int "7"
+  - !!int "16"
+  - !!int "10"
+  - !!int "12"
+  - !!int "2"
+  - !!int "11"
+  - !!int "7"
 "speed": "60 ft."
 "senses": "passive Perception 10"
 "languages": ""
 "cr": "1/4"
 "actions":
-- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4\
-    \ + 3) bludgeoning damage."
-  "name": "Hooves"
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8\
+      \ (2d4 + 3) bludgeoning damage."
+    "name": "Hooves"
 "source":
-- "MM"
-- "BGDIA"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/beast/token/riding-horse.webp"
+  - "MM"
+  - "CoS"
+  - "SKT"
+  - "ToA"
+  - "WDH"
+  - "DIP"
+  - "BGDIA"
+  - "EGW"
+  - "JttRC"
+  - "KftGV"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/riding-horse.webp"
 ```
 ^statblock
 

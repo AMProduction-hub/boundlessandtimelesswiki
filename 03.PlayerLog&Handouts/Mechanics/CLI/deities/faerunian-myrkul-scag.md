@@ -5,11 +5,15 @@ tags:
 - ttrpg-cli/compendium/src/5e/scag
 - ttrpg-cli/deity/faerunian
 - ttrpg-cli/domain/death
-aliases: ["Myrkul", "The Lord of Bones", "Old Lord Skull", "The Reaper"]
+aliases: 
+- Myrkul
+- The Lord of Bones
+- Old Lord Skull
+- The Reaper
 ---
 # Myrkul
 *Source: Sword Coast Adventurer's Guide p. 21* 
-![](scag-symbol-of-myrkul.webp#symbol)
+![](03.PlayerLog&Handouts/Mechanics/CLI/deities/img/scag-symbol-of-myrkul.webp#symbol)
 
 - **Alternate Names**: The Lord of Bones, Old Lord Skull, The Reaper
 - **Alignment**: Neutral Evil

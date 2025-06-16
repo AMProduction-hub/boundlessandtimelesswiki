@@ -8,10 +8,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/plant
 statblock: inline
-aliases: ["Needle Blight"]
+statblock-link: "#^statblock"
+aliases:
+- Needle Blight
 ---
-# [Needle Blight](03 - Player Log & Handouts\Mechanics\CLI\bestiary\plant/needle-blight.md)
-*Source: Monster Manual p. 32*  
+# [Needle Blight](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\plant/needle-blight.md)
+*Source: Monster Manual p. 32, Curse of Strahd, Ghosts of Saltmarsh, Icewind Dale: Rime of the Frostmaiden, Dragon of Icespire Peak*  
 
 In the shadows of a forest, needle blights might be taken at a distance for shuffling, hunched humanoids. Up close, these creatures reveal themselves as horrid plants whose conifer-like needles grow across their bodies in quivering clumps. A needle blight lashes out with these needles or launches them as an aerial assault that can punch through armor and flesh.
 
@@ -49,29 +51,34 @@ Blights are independent creatures, but most act under a Gulthias tree's control,
 "ac_class": "natural armor"
 "hp": !!int "11"
 "hit_dice": "2d8 + 2"
+"modifier": !!int "1"
 "stats":
-- !!int "12"
-- !!int "12"
-- !!int "13"
-- !!int "4"
-- !!int "8"
-- !!int "3"
+  - !!int "12"
+  - !!int "12"
+  - !!int "13"
+  - !!int "4"
+  - !!int "8"
+  - !!int "3"
 "speed": "30 ft."
-"condition_immunities": "[blinded](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Blinded),\
-  \ [deafened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Deafened)"
+"condition_immunities": "[blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded),\
+  \ [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened)"
 "senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 9"
 "languages": "understands Common but can't speak"
 "cr": "1/4"
 "actions":
-- "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (2d4\
-    \ + 1) piercing damage."
-  "name": "Claws"
-- "desc": "Ranged Weapon Attack: +3 to hit, range 30/60 ft., one target. Hit:\
-    \ 8 (2d6 + 1) piercing damage."
-  "name": "Needles"
+  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6\
+      \ (2d4 + 1) piercing damage."
+    "name": "Claws"
+  - "desc": "Ranged Weapon Attack: +3 to hit, range 30/60 ft., one target. Hit:\
+      \ 8 (2d6 + 1) piercing damage."
+    "name": "Needles"
 "source":
-- "MM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/plant/token/needle-blight.webp"
+  - "MM"
+  - "CoS"
+  - "GoS"
+  - "IDRotF"
+  - "DIP"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/token/needle-blight.webp"
 ```
 ^statblock
 

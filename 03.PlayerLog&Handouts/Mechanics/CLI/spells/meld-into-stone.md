@@ -3,6 +3,7 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
+- ttrpg-cli/spell/background/dimir-operative
 - ttrpg-cli/spell/class/bard
 - ttrpg-cli/spell/class/cleric
 - ttrpg-cli/spell/class/druid
@@ -21,7 +22,8 @@ classes:
 - Ranger
 - Sorcerer (Divine Soul)
 - Warlock (The Genie)
-aliases: ["Meld into Stone"]
+aliases:
+- Meld into Stone
 ---
 # Meld into Stone
 *3rd-level, Transmutation (ritual)*  
@@ -36,8 +38,8 @@ You step into a stone object or surface large enough to fully contain your body,
 
 While merged with the stone, you can't see what occurs outside it, and any Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) checks you make to hear sounds outside it are made with disadvantage. You remain aware of the passage of time and can cast spells on yourself while merged in the stone. You can use your movement to leave the stone where you entered it, which ends the spell. You otherwise can't move.
 
-Minor physical damage to the stone doesn't harm you, but its partial destruction or a change in its shape (to the extent that you no longer fit within it) expels you and deals `6d6` bludgeoning damage to you. The stone's complete destruction (or transmutation into a different substance) expels you and deals 50 bludgeoning damage to you. If expelled, you fall [prone](conditions.md#Prone) in an unoccupied space closest to where you first entered.
+Minor physical damage to the stone doesn't harm you, but its partial destruction or a change in its shape (to the extent that you no longer fit within it) expels you and deals `6d6` bludgeoning damage to you. The stone's complete destruction (or transmutation into a different substance) expels you and deals 50 bludgeoning damage to you. If expelled, you fall [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone) in an unoccupied space closest to where you first entered.
 
-**Classes**: [Druid](list-spells-classes-druid.md); [Cleric](list-spells-classes-cleric.md); [Druid (Circle of the Land)](list-spells-classes-druid-circle-of-the-land.md); [Bard](list-spells-classes-bard.md); [Ranger](list-spells-classes-ranger.md); [Warlock (The Genie)](list-spells-classes-warlock-the-genie-tce.md "subclass=TCE"); [Sorcerer (Divine Soul)](list-spells-classes-sorcerer-divine-soul-xge.md "subclass=XGE")
+**Classes**: [Warlock (The Genie)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-genie-tce.md "subclass=TCE"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Ranger](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-ranger.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Druid (Circle of the Land)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-circle-of-the-land.md)
 
 *Source: Player's Handbook p. 259. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

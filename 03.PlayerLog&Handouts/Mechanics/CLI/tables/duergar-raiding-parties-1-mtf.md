@@ -3,15 +3,16 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
-aliases: ["Duergar Raiding Parties; 1"]
+aliases:
+- Duergar Raiding Parties; 1
 ---
 # Duergar Raiding Parties; 1
 *Source: Mordenkainen's Tome of Foes p. 83* 
 
 | Members | Number Present |
 |---------|----------------|
-| [Duergar](duergar.md) | `2d6 + 5` |
-| [Duergar stone guards](duergar-stone-guard-mpmm.md) | `1d4 + 1` |
-| [Duergar kavalrachni](duergar-kavalrachni-mpmm.md) | `1d4` |
-| [Male steeders](male-steeder-mpmm.md) | `1d4` |
+| [Duergar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/duergar.md) | `2d6 + 5` |
+| [Duergar stone guards](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/duergar-stone-guard-mpmm.md) | `1d4 + 1` |
+| [Duergar kavalrachni](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/duergar-kavalrachni-mpmm.md) | `d4` |
+| [Male steeders](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/male-steeder-mpmm.md) | `d4` |
 ^members-number-present

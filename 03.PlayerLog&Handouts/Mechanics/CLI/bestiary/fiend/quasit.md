@@ -7,10 +7,12 @@ tags:
 - ttrpg-cli/monster/size/tiny
 - ttrpg-cli/monster/type/fiend/demon
 statblock: inline
-aliases: ["Quasit"]
+statblock-link: "#^statblock"
+aliases:
+- Quasit
 ---
-# [Quasit](03 - Player Log & Handouts\Mechanics\CLI\bestiary\fiend/quasit.md)
-*Source: Monster Manual p. 63, Baldur's Gate: Descent Into Avernus, Tasha's Cauldron of Everything. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Quasit](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/quasit.md)
+*Source: Monster Manual p. 63, Curse of Strahd, Tales from the Yawning Portal, Waterdeep: Dungeon of the Mad Mage, Baldur's Gate: Descent Into Avernus, Explorer's Guide to Wildemount, Tasha's Cauldron of Everything, Candlekeep Mysteries, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Quasits infest the Lower Planes. Physically weak, they keep to the shadows to plot mischief and wickedness. More powerful demons use quasits as spies and messengers when they aren't devouring them or pulling them apart to pass the time.
 
@@ -156,7 +158,7 @@ Demonologists organize the chaotic distribution of demons into broad categories 
 
 > [!note] Demon True Names
 > 
-> Though demons all have common names, every demon lord and every demon of type 1 through 6 has a true name that it keeps secret. A demon can be forced to disclose its true name if [charmed](conditions.md#Charmed), and ancient scrolls and tomes are said to exist that list the true names of the most powerful demons.
+> Though demons all have common names, every demon lord and every demon of type 1 through 6 has a true name that it keeps secret. A demon can be forced to disclose its true name if [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), and ancient scrolls and tomes are said to exist that list the true names of the most powerful demons.
 > 
 > A mortal who learns a demon's true name can use powerful summoning magic to call the demon from the Abyss and exercise some measure of control over it. However, most demons brought to the Material Plane in this manner do everything in their power to wreak havoc or sow discord and strife.
 ^demon-true-names
@@ -165,13 +167,13 @@ Demonologists organize the chaotic distribution of demons into broad categories 
 > 
 > Some demons can have an action option that allows them to summon other demons. Summon Demon (1/Day). The demon chooses what to summon and attempts a magical summoning.
 > 
-> - A balor has a 50 percent chance of summoning `1d8` vrocks, `1d6` hezrous, `1d4` glabrezus, `1d3` nalfeshnees, `1d2` mariliths, or one goristro.  
+> - A balor has a 50 percent chance of summoning `d8` vrocks, `d6` hezrous, `d4` glabrezus, `d3` nalfeshnees, `d2` mariliths, or one goristro.  
 > - A barlgura has a 30 percent chance of summoning one barlgura.  
 > - A chasme has a 30 percent chance of summoning one chasme.  
-> - A glabrezu has a 30 percent chance of summoning `1d3` vrocks, `1d2` hezrous, or one glabrezu.  
+> - A glabrezu has a 30 percent chance of summoning `d3` vrocks, `d2` hezrous, or one glabrezu.  
 > - A hezrou has a 30 percent chance of summoning `2d6` dretches or one hezrou.  
-> - A marilith has a 50 percent chance of summoning `1d6` vrocks, `1d4` hezrous, `1d3` glabrezus, `1d2` nalfeshnees, or one marilith.  
-> - A nalfeshnee has a 50 percent chance of summoning `1d4` vrocks, `1d3` hezrous, `1d2` glabrezus, or one nalfeshnee.  
+> - A marilith has a 50 percent chance of summoning `d6` vrocks, `d4` hezrous, `d3` glabrezus, `d2` nalfeshnees, or one marilith.  
+> - A nalfeshnee has a 50 percent chance of summoning `d4` vrocks, `d3` hezrous, `d2` glabrezus, or one nalfeshnee.  
 > - A vrock has a 30 percent chance of summoning `2d4` dretches or one vrock.  
 > - A yochlol has a 50 percent chance of summoning one yochlol.  
 > 
@@ -192,56 +194,65 @@ Demonologists organize the chaotic distribution of demons into broad categories 
 "ac": !!int "13"
 "hp": !!int "7"
 "hit_dice": "3d4"
+"modifier": !!int "3"
 "stats":
-- !!int "5"
-- !!int "17"
-- !!int "10"
-- !!int "7"
-- !!int "10"
-- !!int "10"
+  - !!int "5"
+  - !!int "17"
+  - !!int "10"
+  - !!int "7"
+  - !!int "10"
+  - !!int "10"
 "speed": "40 ft."
 "skillsaves":
-  "Stealth": !!int "5"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+5"
 "damage_resistances": "cold; fire; lightning; bludgeoning, piercing, slashing from\
   \ nonmagical attacks"
 "damage_immunities": "poison"
-"condition_immunities": "[poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "darkvision 120 ft., passive Perception 10"
 "languages": "Abyssal, Common"
 "cr": "1"
 "traits":
-- "desc": "The quasit can use its action to polymorph into a beast form that resembles\
-    \ a bat (speed 10 feet fly 40 ft.), a centipede (40 ft., climb 40 ft.), or a toad\
-    \ (40 ft., swim 40 ft.), or back into its true form. Its statistics are the same\
-    \ in each form, except for the speed changes noted. Any equipment it is wearing\
-    \ or carrying isn't transformed. It reverts to its true form if it dies."
-  "name": "Shapechanger"
-- "desc": "The quasit has advantage on saving throws against spells and other magical\
-    \ effects."
-  "name": "Magic Resistance"
+  - "desc": "The quasit can use its action to polymorph into a beast form that resembles\
+      \ a bat (speed 10 feet fly 40 ft.), a centipede (40 ft., climb 40 ft.), or a\
+      \ toad (40 ft., swim 40 ft.), or back into its true form. Its statistics are\
+      \ the same in each form, except for the speed changes noted. Any equipment it\
+      \ is wearing or carrying isn't transformed. It reverts to its true form if it\
+      \ dies."
+    "name": "Shapechanger"
+  - "desc": "The quasit has advantage on saving throws against spells and other magical\
+      \ effects."
+    "name": "Magic Resistance"
 "actions":
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d4\
-    \ + 3) piercing damage, and the target must succeed on a DC 10 Constitution saving\
-    \ throw or take 5 (2d4) poison damage and become [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
-    \ for 1 minute. The target can repeat the saving throw at the end of each of its\
-    \ turns, ending the effect on itself on a success."
-  "name": "Claw (Bite in Beast Form)"
-- "desc": "One creature of the quasit's choice within 20 feet of it must succeed on\
-    \ a DC 10 Wisdom saving throw or be [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened)\
-    \ for 1 minute. The target can repeat the saving throw at the end of each of its\
-    \ turns, with disadvantage if the quasit is within line of sight, ending the effect\
-    \ on itself on a success."
-  "name": "Scare (1/Day)"
-- "desc": "The quasit magically turns [invisible](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Invisible)\
-    \ until it attacks or uses Scare, or until its [concentration](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Concentration)\
-    \ ends (as if [concentrating](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Concentration)\
-    \ on a spell). Any equipment the quasit wears or carries is [invisible](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Invisible)\
-    \ with it."
-  "name": "Invisibility"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+      \ (1d4 + 3) piercing damage, and the target must succeed on a DC 10 Constitution\
+      \ saving throw or take 5 (2d4) poison damage and become [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
+      \ for 1 minute. The target can repeat the saving throw at the end of each of\
+      \ its turns, ending the effect on itself on a success."
+    "name": "Claw (Bite in Beast Form)"
+  - "desc": "One creature of the quasit's choice within 20 feet of it must succeed\
+      \ on a DC 10 Wisdom saving throw or be [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)\
+      \ for 1 minute. The target can repeat the saving throw at the end of each of\
+      \ its turns, with disadvantage if the quasit is within line of sight, ending\
+      \ the effect on itself on a success."
+    "name": "Scare (1/Day)"
+  - "desc": "The quasit magically turns [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible)\
+      \ until it attacks or uses Scare, or until its [concentration](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Concentration)\
+      \ ends (as if [concentrating](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Concentration)\
+      \ on a spell). Any equipment the quasit wears or carries is [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible)\
+      \ with it."
+    "name": "Invisibility"
 "source":
-- "MM"
-- "BGDIA"
-- "TCE"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/fiend/token/quasit.webp"
+  - "MM"
+  - "CoS"
+  - "TftYP"
+  - "WDMM"
+  - "BGDIA"
+  - "EGW"
+  - "TCE"
+  - "CM"
+  - "KftGV"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/token/quasit.webp"
 ```
 ^statblock

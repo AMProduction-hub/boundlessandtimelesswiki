@@ -4,10 +4,11 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/subclass/warlock/great-old-one
-aliases: ["The Great Old One"]
+aliases:
+- The Great Old One
 ---
 # The Great Old One
-*[Warlock](warlock.md): Otherworldly Patron*  
+*[Warlock](./warlock.md): Otherworldly Patron*  
 *Source: Player's Handbook p. 109*  
 
 > [!tldr] Class and Feature Progression
@@ -56,11 +57,11 @@ The Great Old One lets you choose from an expanded list of spells when you learn
 
 | Spell Level | Spells |
 |-------------|--------|
-| 1st | [dissonant whispers](dissonant-whispers.md), [Tasha's hideous laughter](tashas-hideous-laughter.md) |
-| 2nd | [detect thoughts](detect-thoughts.md), [phantasmal force](phantasmal-force.md) |
-| 3rd | [clairvoyance](clairvoyance.md), [sending](sending.md) |
-| 4th | [dominate beast](dominate-beast.md), [Evard's black tentacles](evards-black-tentacles.md) |
-| 5th | [dominate person](dominate-person.md), [telekinesis](telekinesis.md) |
+| 1st | [dissonant whispers](03.PlayerLog&Handouts/Mechanics/CLI/spells/dissonant-whispers.md), [Tasha's hideous laughter](03.PlayerLog&Handouts/Mechanics/CLI/spells/tashas-hideous-laughter.md) |
+| 2nd | [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md), [phantasmal force](03.PlayerLog&Handouts/Mechanics/CLI/spells/phantasmal-force.md) |
+| 3rd | [clairvoyance](03.PlayerLog&Handouts/Mechanics/CLI/spells/clairvoyance.md), [sending](03.PlayerLog&Handouts/Mechanics/CLI/spells/sending.md) |
+| 4th | [dominate beast](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-beast.md), [Evard's black tentacles](03.PlayerLog&Handouts/Mechanics/CLI/spells/evards-black-tentacles.md) |
+| 5th | [dominate person](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-person.md), [telekinesis](03.PlayerLog&Handouts/Mechanics/CLI/spells/telekinesis.md) |
 ^great-old-one-expanded-spells
 
 ### Awakened Mind (Level 1)
@@ -79,6 +80,6 @@ Starting at 10th level, your thoughts can't be read by telepathy or other means 
 
 ### Create Thrall (Level 14)
 
-At 14th level, you gain the ability to infect a humanoid's mind with the alien magic of your patron. You can use your action to touch an [incapacitated](conditions.md#Incapacitated) humanoid. That creature is then [charmed](conditions.md#Charmed) by you until a [remove curse](remove-curse.md) spell is cast on it, the [charmed](conditions.md#Charmed) condition is removed from it, or you use this feature again.
+At 14th level, you gain the ability to infect a humanoid's mind with the alien magic of your patron. You can use your action to touch an [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated) humanoid. That creature is then [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed) by you until a [remove curse](03.PlayerLog&Handouts/Mechanics/CLI/spells/remove-curse.md) spell is cast on it, the [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed) condition is removed from it, or you use this feature again.
 
-You can communicate telepathically with the [charmed](conditions.md#Charmed) creature as long as the two of you are on the same plane of existence.
+You can communicate telepathically with the [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed) creature as long as the two of you are on the same plane of existence.

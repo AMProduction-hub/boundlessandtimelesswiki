@@ -7,9 +7,11 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/elemental
 statblock: inline
-aliases: ["Earth Elemental Myrmidon"]
+statblock-link: "#^statblock"
+aliases:
+- Earth Elemental Myrmidon
 ---
-# [Earth Elemental Myrmidon](03 - Player Log & Handouts\Mechanics\CLI\bestiary\elemental/earth-elemental-myrmidon-mpmm.md)
+# [Earth Elemental Myrmidon](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\elemental/earth-elemental-myrmidon-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 122, Mordenkainen's Tome of Foes p. 202*  
 
 ## Elemental Myrmidons
@@ -22,39 +24,40 @@ Elemental myrmidons are Elementals conjured and bound by magic into ritually cre
 "type": "elemental"
 "alignment": "Typically  Neutral"
 "ac": !!int "18"
-"ac_class": "[plate](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/items/plate-armor.md)"
+"ac_class": "[plate](03.PlayerLog&Handouts/Mechanics/CLI/items/plate-armor.md)"
 "hp": !!int "127"
 "hit_dice": "17d8 + 51"
+"modifier": !!int "0"
 "stats":
-- !!int "18"
-- !!int "10"
-- !!int "17"
-- !!int "8"
-- !!int "10"
-- !!int "10"
+  - !!int "18"
+  - !!int "10"
+  - !!int "17"
+  - !!int "8"
+  - !!int "10"
+  - !!int "10"
 "speed": "30 ft."
 "damage_resistances": "bludgeoning, piercing, slashing from nonmagical attacks"
 "damage_immunities": "poison"
-"condition_immunities": "[paralyzed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
-  \ [petrified](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
-  \ [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
-  \ [prone](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Prone)"
+"condition_immunities": "[paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
+  \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
+  \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
+  \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)"
 "senses": "darkvision 60 ft., passive Perception 10"
 "languages": "Terran, one language of its creator's choice"
 "cr": "7"
 "actions":
-- "desc": "The myrmidon makes two Maul attacks."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
-    \ (2d6 + 4) force damage."
-  "name": "Maul"
-- "desc": "The myrmidon makes one Maul attack. On a hit, the target takes an extra\
-    \ 22 (4d10) thunder damage, and the target must succeed on a DC 14 Strength\
-    \ saving throw or be knocked [prone](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
-  "name": "Thunderous Strike (Recharge 6)"
+  - "desc": "The myrmidon makes two Maul attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
+      \ (2d6 + 4) force damage."
+    "name": "Maul"
+  - "desc": "The myrmidon makes one Maul attack. On a hit, the target takes an extra\
+      \ 22 (4d10) thunder damage, and the target must succeed on a DC 14 Strength\
+      \ saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
+    "name": "Thunderous Strike (Recharge 6)"
 "source":
-- "MPMM"
-- "MTF"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/elemental/token/earth-elemental-myrmidon-mpmm.webp"
+  - "MPMM"
+  - "MTF"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/token/earth-elemental-myrmidon-mpmm.webp"
 ```
 ^statblock

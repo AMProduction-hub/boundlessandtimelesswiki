@@ -4,11 +4,12 @@ cssclasses: json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/race/dwarf
-aliases: ["Dwarf"]
+aliases:
+- Dwarf
 ---
 # Dwarf
 *Source: Player's Handbook p. 18. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
-![](dwarf.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/races/img/dwarf.webp#right)
 
 - **Ability Scores**: Constitution +2
 - **Size**: Medium
@@ -38,11 +39,11 @@ You have advantage on saving throws against poison, and you have resistance agai
 
 ### Dwarven Combat Training
 
-You have proficiency with the [battleaxe](battleaxe.md), [handaxe](handaxe.md), [light hammer](light-hammer.md), and [warhammer](warhammer.md).
+You have proficiency with the [battleaxe](03.PlayerLog&Handouts/Mechanics/CLI/items/battleaxe.md), [handaxe](03.PlayerLog&Handouts/Mechanics/CLI/items/handaxe.md), [light hammer](03.PlayerLog&Handouts/Mechanics/CLI/items/light-hammer.md), and [warhammer](03.PlayerLog&Handouts/Mechanics/CLI/items/warhammer.md).
 
 ### Tool Proficiency
 
-You gain proficiency with the artisan's tools of your choice: [Smith's tools](smiths-tools.md), [brewer's supplies](brewers-supplies.md), or [mason's tools](masons-tools.md).
+You gain proficiency with the artisan's tools of your choice: [Smith's tools](03.PlayerLog&Handouts/Mechanics/CLI/items/smiths-tools.md), [brewer's supplies](03.PlayerLog&Handouts/Mechanics/CLI/items/brewers-supplies.md), or [mason's tools](03.PlayerLog&Handouts/Mechanics/CLI/items/masons-tools.md).
 
 ### Stonecunning
 

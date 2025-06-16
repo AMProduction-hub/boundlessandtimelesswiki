@@ -13,10 +13,12 @@ tags:
 - ttrpg-cli/monster/size/tiny
 - ttrpg-cli/monster/type/dragon
 statblock: inline
-aliases: ["Pseudodragon"]
+statblock-link: "#^statblock"
+aliases:
+- Pseudodragon
 ---
-# [Pseudodragon](03 - Player Log & Handouts\Mechanics\CLI\bestiary\dragon/pseudodragon.md)
-*Source: Monster Manual p. 254. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Pseudodragon](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\dragon/pseudodragon.md)
+*Source: Monster Manual p. 254, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Eberron: Rising from the Last War, Infernal Machine Rebuild, Explorer's Guide to Wildemount, Icewind Dale: Rime of the Frostmaiden. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 The elusive pseudodragon dwells in the quiet places of the world, making its home in the hollows of trees and small caves. With its red-brown scales, horns, and a maw filled with sharp teeth, a pseudodragon resembles a tiny red dragon but its disposition is playful.
 
@@ -53,45 +55,55 @@ The pseudodragon can serve another creature as a familiar, forming a magic, tele
 "ac": !!int "13"
 "hp": !!int "7"
 "hit_dice": "2d4 + 2"
+"modifier": !!int "2"
 "stats":
-- !!int "6"
-- !!int "15"
-- !!int "13"
-- !!int "10"
-- !!int "12"
-- !!int "10"
+  - !!int "6"
+  - !!int "15"
+  - !!int "13"
+  - !!int "10"
+  - !!int "12"
+  - !!int "10"
 "speed": "15 ft., fly 60 ft."
 "skillsaves":
-  "Stealth": !!int "4"
-  "Perception": !!int "3"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+3"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+4"
 "senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 13"
 "languages": "understands Common and Draconic but can't speak"
 "cr": "1/4"
 "traits":
-- "desc": "The pseudodragon has advantage on Wisdom ([Perception](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/skills.md#Perception))\
-    \ checks that rely on sight, hearing, or smell."
-  "name": "Keen Senses"
-- "desc": "The pseudodragon has advantage on saving throws against spells and other\
-    \ magical effects."
-  "name": "Magic Resistance"
-- "desc": "The pseudodragon can magically communicate simple ideas, emotions, and\
-    \ images telepathically with any creature within 100 feet of it that can understand\
-    \ a language."
-  "name": "Limited Telepathy"
+  - "desc": "The pseudodragon has advantage on Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception))\
+      \ checks that rely on sight, hearing, or smell."
+    "name": "Keen Senses"
+  - "desc": "The pseudodragon has advantage on saving throws against spells and other\
+      \ magical effects."
+    "name": "Magic Resistance"
+  - "desc": "The pseudodragon can magically communicate simple ideas, emotions, and\
+      \ images telepathically with any creature within 100 feet of it that can understand\
+      \ a language."
+    "name": "Limited Telepathy"
 "actions":
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4\
-    \ + 2) piercing damage."
-  "name": "Bite"
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4\
-    \ (1d4 + 2) piercing damage, and the target must succeed on a DC 11 Constitution\
-    \ saving throw or become [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
-    \ for 1 hour. If the saving throw fails by 5 or more, the target falls [unconscious](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)\
-    \ for the same duration, or until it takes damage or another creature uses an\
-    \ action to shake it awake."
-  "name": "Sting"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4\
+      \ (1d4 + 2) piercing damage."
+    "name": "Bite"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit:\
+      \ 4 (1d4 + 2) piercing damage, and the target must succeed on a DC 11 Constitution\
+      \ saving throw or become [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
+      \ for 1 hour. If the saving throw fails by 5 or more, the target falls [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)\
+      \ for the same duration, or until it takes damage or another creature uses an\
+      \ action to shake it awake."
+    "name": "Sting"
 "source":
-- "MM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/dragon/token/pseudodragon.webp"
+  - "MM"
+  - "ToA"
+  - "WDMM"
+  - "GoS"
+  - "ERLW"
+  - "IMR"
+  - "EGW"
+  - "IDRotF"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/token/pseudodragon.webp"
 ```
 ^statblock
 

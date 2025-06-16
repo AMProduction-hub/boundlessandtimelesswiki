@@ -9,10 +9,12 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/dragon
 statblock: inline
-aliases: ["Young Silver Dragon"]
+statblock-link: "#^statblock"
+aliases:
+- Young Silver Dragon
 ---
-# [Young Silver Dragon](03 - Player Log & Handouts\Mechanics\CLI\bestiary\dragon/young-silver-dragon.md)
-*Source: Monster Manual p. 118. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Young Silver Dragon](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\dragon/young-silver-dragon.md)
+*Source: Monster Manual p. 118, Storm King's Thunder, Dragonlance: Shadow of the Dragon Queen. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 The friendliest and most social of the metallic dragons, silver dragons cheerfully assist good creatures in need.
 
@@ -34,7 +36,7 @@ Silver dragons befriend humanoids of all races, but shorter-lived races such as 
 
 ## Hoarding History
 
-Silver dragons love to possess relics of humanoid history. This includes the great piles of coins they covet, minted by current and fallen humanoid empires, as well as art objects and fine jewelery crafted by numerous races. Other treasures that make up their hoards can include intact ships, the remains of kings and queens, thrones, the crown jewels of ancient empires, inventions and contraptions, and monoliths carried from the ruins of fallen cities.
+Silver dragons love to possess relics of humanoid history. This includes the great piles of coins they covet, minted by current and fallen humanoid empires, as well as art objects and fine jewelry crafted by numerous races. Other treasures that make up their hoards can include intact ships, the remains of kings and queens, thrones, the crown jewels of ancient empires, inventions and contraptions, and monoliths carried from the ruins of fallen cities.
 
 ## A Silver Dragon's Lair
 
@@ -95,49 +97,56 @@ True dragons pass through four distinct stages of life, from lowly wyrmlings to 
 "ac_class": "natural armor"
 "hp": !!int "168"
 "hit_dice": "16d10 + 80"
+"modifier": !!int "0"
 "stats":
-- !!int "23"
-- !!int "10"
-- !!int "21"
-- !!int "14"
-- !!int "11"
-- !!int "19"
+  - !!int "23"
+  - !!int "10"
+  - !!int "21"
+  - !!int "14"
+  - !!int "11"
+  - !!int "19"
 "speed": "40 ft., fly 80 ft."
 "saves":
-  "Charisma": !!int "8"
-  "Dexterity": !!int "4"
-  "Wisdom": !!int "4"
-  "Constitution": !!int "9"
+  - "dexterity": "+4"
+  - "constitution": "+9"
+  - "wisdom": "+4"
+  - "charisma": "+8"
 "skillsaves":
-  "Stealth": !!int "4"
-  "Perception": !!int "8"
-  "History": !!int "6"
-  "Arcana": !!int "6"
+  - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
+    "desc": "+6"
+  - "name": "[History](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#History)"
+    "desc": "+6"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+8"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+4"
 "damage_immunities": "cold"
 "senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 18"
 "languages": "Common, Draconic"
 "cr": "9"
 "actions":
-- "desc": "The dragon makes three attacks: one with its bite and two with its claws."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 17\
-    \ (2d10 + 6) piercing damage."
-  "name": "Bite"
-- "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 13\
-    \ (2d6 + 6) slashing damage."
-  "name": "Claw"
-- "desc": "The dragon uses one of the following breath weapons.\n\n- Cold Breath.\
-    \ The dragon exhales an icy blast in a 30-foot cone. Each creature in that area\
-    \ must make a DC 17 Constitution saving throw, taking 54 (12d8) cold damage\
-    \ on a failed save, or half as much damage on a successful one.  \n- Paralyzing\
-    \ Breath. The dragon exhales paralyzing gas in a 30-foot cone. Each creature\
-    \ in that area must succeed on a DC 17 Constitution saving throw or be [paralyzed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed)\
-    \ for 1 minute. A creature can repeat the saving throw at the end of each of its\
-    \ turns, ending the effect on itself on a success.  "
-  "name": "Breath Weapons (Recharge 5-6)"
+  - "desc": "The dragon makes three attacks: one with its bite and two with its claws."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit:\
+      \ 17 (2d10 + 6) piercing damage."
+    "name": "Bite"
+  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit:\
+      \ 13 (2d6 + 6) slashing damage."
+    "name": "Claw"
+  - "desc": "The dragon uses one of the following breath weapons.\n\n- Cold Breath.\
+      \ The dragon exhales an icy blast in a 30-foot cone. Each creature in that area\
+      \ must make a DC 17 Constitution saving throw, taking 54 (12d8) cold damage\
+      \ on a failed save, or half as much damage on a successful one.  \n- Paralyzing\
+      \ Breath. The dragon exhales paralyzing gas in a 30-foot cone. Each creature\
+      \ in that area must succeed on a DC 17 Constitution saving throw or be [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed)\
+      \ for 1 minute. A creature can repeat the saving throw at the end of each of\
+      \ its turns, ending the effect on itself on a success.  "
+    "name": "Breath Weapons (Recharge 5-6)"
 "source":
-- "MM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/dragon/token/young-silver-dragon.webp"
+  - "MM"
+  - "SKT"
+  - "DSotDQ"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/token/young-silver-dragon.webp"
 ```
 ^statblock
 

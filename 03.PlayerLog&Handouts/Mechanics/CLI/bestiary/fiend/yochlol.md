@@ -8,10 +8,12 @@ tags:
 - ttrpg-cli/monster/type/fiend/demon
 - ttrpg-cli/monster/type/fiend/shapechanger
 statblock: inline
-aliases: ["Yochlol"]
+statblock-link: "#^statblock"
+aliases:
+- Yochlol
 ---
-# [Yochlol](03 - Player Log & Handouts\Mechanics\CLI\bestiary\fiend/yochlol.md)
-*Source: Monster Manual p. 65*  
+# [Yochlol](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/yochlol.md)
+*Source: Monster Manual p. 65, Waterdeep: Dungeon of the Mad Mage, Explorer's Guide to Wildemount*  
 
 The yochlols are the Handmaidens of Lolth-extensions of the Spider Queen's will dedicated to acting as her spies, taskmasters, and agents of villainy. They attend their goddess in the Demonweb Pits, but Lolth sometimes dispatches yochlols to the Material Plane to guard her temples and to aid her most devout priestesses. Yochlols don't form outside Lolth's realm of the Demonweb, and they serve no demon lords except their queen.
 
@@ -157,7 +159,7 @@ Demonologists organize the chaotic distribution of demons into broad categories 
 
 > [!note] Demon True Names
 > 
-> Though demons all have common names, every demon lord and every demon of type 1 through 6 has a true name that it keeps secret. A demon can be forced to disclose its true name if [charmed](conditions.md#Charmed), and ancient scrolls and tomes are said to exist that list the true names of the most powerful demons.
+> Though demons all have common names, every demon lord and every demon of type 1 through 6 has a true name that it keeps secret. A demon can be forced to disclose its true name if [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), and ancient scrolls and tomes are said to exist that list the true names of the most powerful demons.
 > 
 > A mortal who learns a demon's true name can use powerful summoning magic to call the demon from the Abyss and exercise some measure of control over it. However, most demons brought to the Material Plane in this manner do everything in their power to wreak havoc or sow discord and strife.
 ^demon-true-names
@@ -166,13 +168,13 @@ Demonologists organize the chaotic distribution of demons into broad categories 
 > 
 > Some demons can have an action option that allows them to summon other demons. Summon Demon (1/Day). The demon chooses what to summon and attempts a magical summoning.
 > 
-> - A balor has a 50 percent chance of summoning `1d8` vrocks, `1d6` hezrous, `1d4` glabrezus, `1d3` nalfeshnees, `1d2` mariliths, or one goristro.  
+> - A balor has a 50 percent chance of summoning `d8` vrocks, `d6` hezrous, `d4` glabrezus, `d3` nalfeshnees, `d2` mariliths, or one goristro.  
 > - A barlgura has a 30 percent chance of summoning one barlgura.  
 > - A chasme has a 30 percent chance of summoning one chasme.  
-> - A glabrezu has a 30 percent chance of summoning `1d3` vrocks, `1d2` hezrous, or one glabrezu.  
+> - A glabrezu has a 30 percent chance of summoning `d3` vrocks, `d2` hezrous, or one glabrezu.  
 > - A hezrou has a 30 percent chance of summoning `2d6` dretches or one hezrou.  
-> - A marilith has a 50 percent chance of summoning `1d6` vrocks, `1d4` hezrous, `1d3` glabrezus, `1d2` nalfeshnees, or one marilith.  
-> - A nalfeshnee has a 50 percent chance of summoning `1d4` vrocks, `1d3` hezrous, `1d2` glabrezus, or one nalfeshnee.  
+> - A marilith has a 50 percent chance of summoning `d6` vrocks, `d4` hezrous, `d3` glabrezus, `d2` nalfeshnees, or one marilith.  
+> - A nalfeshnee has a 50 percent chance of summoning `d4` vrocks, `d3` hezrous, `d2` glabrezus, or one nalfeshnee.  
 > - A vrock has a 30 percent chance of summoning `2d4` dretches or one vrock.  
 > - A yochlol has a 50 percent chance of summoning one yochlol.  
 > 
@@ -194,70 +196,75 @@ Demonologists organize the chaotic distribution of demons into broad categories 
 "ac_class": "natural armor"
 "hp": !!int "136"
 "hit_dice": "16d8 + 64"
+"modifier": !!int "2"
 "stats":
-- !!int "15"
-- !!int "14"
-- !!int "18"
-- !!int "13"
-- !!int "15"
-- !!int "15"
+  - !!int "15"
+  - !!int "14"
+  - !!int "18"
+  - !!int "13"
+  - !!int "15"
+  - !!int "15"
 "speed": "30 ft., climb 30 ft."
 "saves":
-  "Charisma": !!int "6"
-  "Dexterity": !!int "6"
-  "Wisdom": !!int "6"
-  "Intelligence": !!int "5"
+  - "dexterity": "+6"
+  - "intelligence": "+5"
+  - "wisdom": "+6"
+  - "charisma": "+6"
 "skillsaves":
-  "Deception": !!int "10"
-  "Insight": !!int "6"
+  - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
+    "desc": "+10"
+  - "name": "[Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight)"
+    "desc": "+6"
 "damage_resistances": "cold; fire; lightning; bludgeoning, piercing, slashing from\
   \ nonmagical attacks"
 "damage_immunities": "poison"
-"condition_immunities": "[poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "darkvision 120 ft., passive Perception 12"
 "languages": "Abyssal, Elvish, Undercommon"
 "cr": "10"
 "traits":
-- "desc": "The yochlol's spellcasting ability is Charisma (spell save DC 14). The\
-    \ yochlol can innately cast the following spells, requiring no material components:\n\
-    \nAt will: [detect thoughts](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
-    \ [web](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/web.md)\n\n\
-    1/day: [dominate person](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/dominate-person.md)"
-  "name": "Innate Spellcasting"
-- "desc": "The yochlol can use its action to polymorph into a form that resembles\
-    \ a female drow or giant spider, or back into its true form. Its statistics are\
-    \ the same in each form. Any equipment it is wearing or carrying isn't transformed.\
-    \ It reverts to its true form if it dies."
-  "name": "Shapechanger"
-- "desc": "The yochlol has advantage on saving throws against spells and other magical\
-    \ effects."
-  "name": "Magic Resistance"
-- "desc": "The yochlol can climb difficult surfaces, including upside down on ceilings,\
-    \ without needing to make an ability check."
-  "name": "Spider Climb"
-- "desc": "The yochlol ignores movement restrictions caused by webbing."
-  "name": "Web Walker"
+  - "desc": "The yochlol's spellcasting ability is Charisma (spell save DC 14). The\
+      \ yochlol can innately cast the following spells, requiring no material components:\n\
+      \nAt will: [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
+      \ [web](03.PlayerLog&Handouts/Mechanics/CLI/spells/web.md)\n\n1/day: [dominate\
+      \ person](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-person.md)"
+    "name": "Innate Spellcasting"
+  - "desc": "The yochlol can use its action to polymorph into a form that resembles\
+      \ a female drow or giant spider, or back into its true form. Its statistics\
+      \ are the same in each form. Any equipment it is wearing or carrying isn't transformed.\
+      \ It reverts to its true form if it dies."
+    "name": "Shapechanger"
+  - "desc": "The yochlol has advantage on saving throws against spells and other magical\
+      \ effects."
+    "name": "Magic Resistance"
+  - "desc": "The yochlol can climb difficult surfaces, including upside down on ceilings,\
+      \ without needing to make an ability check."
+    "name": "Spider Climb"
+  - "desc": "The yochlol ignores movement restrictions caused by webbing."
+    "name": "Web Walker"
 "actions":
-- "desc": "The yochlol makes two melee attacks."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft. (10 feet in demon form),\
-    \ one target. Hit: 5 (1d6 + 2) bludgeoning (piercing in spider form) damage\
-    \ plus 21 (6d6) poison damage."
-  "name": "Slam (Bite in Spider Form)"
-- "desc": "The yochlol transforms into toxic mist or reverts to its true form. Any\
-    \ equipment it is wearing or carrying is also transformed. It reverts to its true\
-    \ form if it dies.\n\nWhile in mist form, the yochlol is [incapacitated](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)\
-    \ and can't speak. It has a flying speed of 30 feet, can hover, and can pass through\
-    \ any space that isn't airtight. It has advantage on Strength, Dexterity, and\
-    \ Constitution saving throws, and it is immune to nonmagical damage.\n\nWhile\
-    \ in mist form, the yochlol can enter a creature's space and stop there. Each\
-    \ time that creature starts its turn with the yochlol in its space, the creature\
-    \ must succeed on a DC 14 Constitution saving throw or be [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
-    \ until the start of its next turn. While [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
-    \ in this way, the target is [incapacitated](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)."
-  "name": "Mist Form"
+  - "desc": "The yochlol makes two melee attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft. (10 feet in demon form),\
+      \ one target. Hit: 5 (1d6 + 2) bludgeoning (piercing in spider form) damage\
+      \ plus 21 (6d6) poison damage."
+    "name": "Slam (Bite in Spider Form)"
+  - "desc": "The yochlol transforms into toxic mist or reverts to its true form. Any\
+      \ equipment it is wearing or carrying is also transformed. It reverts to its\
+      \ true form if it dies.\n\nWhile in mist form, the yochlol is [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)\
+      \ and can't speak. It has a flying speed of 30 feet, can hover, and can pass\
+      \ through any space that isn't airtight. It has advantage on Strength, Dexterity,\
+      \ and Constitution saving throws, and it is immune to nonmagical damage.\n\n\
+      While in mist form, the yochlol can enter a creature's space and stop there.\
+      \ Each time that creature starts its turn with the yochlol in its space, the\
+      \ creature must succeed on a DC 14 Constitution saving throw or be [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
+      \ until the start of its next turn. While [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
+      \ in this way, the target is [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)."
+    "name": "Mist Form"
 "source":
-- "MM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/fiend/token/yochlol.webp"
+  - "MM"
+  - "WDMM"
+  - "EGW"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/token/yochlol.webp"
 ```
 ^statblock

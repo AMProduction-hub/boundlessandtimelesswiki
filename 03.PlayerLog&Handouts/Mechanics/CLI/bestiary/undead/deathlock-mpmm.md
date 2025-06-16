@@ -8,9 +8,11 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/undead/warlock
 statblock: inline
-aliases: ["Deathlock"]
+statblock-link: "#^statblock"
+aliases:
+- Deathlock
 ---
-# [Deathlock](03 - Player Log & Handouts\Mechanics\CLI\bestiary\undead/deathlock-mpmm.md)
+# [Deathlock](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/deathlock-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 86, Mordenkainen's Tome of Foes p. 128*  
 
 An overpowering urge to serve consumes the mind of a newly awakened deathlock. Any goals and ambitions it had in life that don't please its patron fall away as its master's desires become the purpose that drives it. The deathlock immediately resumes work on its patron's behalf.
@@ -32,57 +34,60 @@ An powerful necromancer might also discover the wicked methods of creating a dea
 "ac": !!int "12"
 "hp": !!int "36"
 "hit_dice": "8d8"
+"modifier": !!int "2"
 "stats":
-- !!int "11"
-- !!int "15"
-- !!int "10"
-- !!int "14"
-- !!int "12"
-- !!int "16"
+  - !!int "11"
+  - !!int "15"
+  - !!int "10"
+  - !!int "14"
+  - !!int "12"
+  - !!int "16"
 "speed": "30 ft."
 "saves":
-  "Charisma": !!int "5"
-  "Intelligence": !!int "4"
+  - "intelligence": "+4"
+  - "charisma": "+5"
 "skillsaves":
-  "History": !!int "4"
-  "Arcana": !!int "4"
+  - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
+    "desc": "+4"
+  - "name": "[History](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#History)"
+    "desc": "+4"
 "damage_resistances": "necrotic; bludgeoning, piercing, slashing from nonmagical attacks\
   \ that aren't silvered"
 "damage_immunities": "poison"
-"condition_immunities": "[exhaustion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
-  \ [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
+  \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "darkvision 60 ft., passive Perception 11"
 "languages": "the languages it knew in life"
 "cr": "4"
 "traits":
-- "desc": "The deathlock casts one of the following spells, using Charisma as the\
-    \ spellcasting ability (spell save DC 13):\n\nAt will: [detect magic](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/detect-magic.md),\
-    \ [disguise self](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/disguise-self.md),\
-    \ [mage armor](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/mage-armor.md),\
-    \ [mage hand](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/mage-hand.md)\n\
-    \n1/day each: [dispel magic](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/dispel-magic.md),\
-    \ [hunger of Hadar](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/hunger-of-hadar.md),\
-    \ [invisibility](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/invisibility.md),\
-    \ [spider climb](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/spider-climb.md)"
-  "name": "Spellcasting"
-- "desc": "The deathlock has advantage on saving throws against any effect that turns\
-    \ Undead."
-  "name": "Turn Resistance"
-- "desc": "The deathlock doesn't require air, food, drink, or sleep."
-  "name": "Unusual Nature"
+  - "desc": "The deathlock has advantage on saving throws against any effect that\
+      \ turns Undead."
+    "name": "Turn Resistance"
+  - "desc": "The deathlock doesn't require air, food, drink, or sleep."
+    "name": "Unusual Nature"
 "actions":
-- "desc": "The deathlock makes two Deathly Claw or Grave Bolt attacks."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6\
-    \ + 2) necrotic damage."
-  "name": "Deathly Claw"
-- "desc": "Ranged Spell Attack: +5 to hit, range 120 ft., one target. Hit: 14\
-    \ (2d10 + 3) necrotic damage."
-  "name": "Grave Bolt"
+  - "desc": "The deathlock makes two Deathly Claw or Grave Bolt attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9\
+      \ (2d6 + 2) necrotic damage."
+    "name": "Deathly Claw"
+  - "desc": "Ranged Spell Attack: +5 to hit, range 120 ft., one target. Hit:\
+      \ 14 (2d10 + 3) necrotic damage."
+    "name": "Grave Bolt"
+  - "desc": "The deathlock casts one of the following spells, using Charisma as the\
+      \ spellcasting ability (spell save DC 13):\n\nAt will: [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      \ [disguise self](03.PlayerLog&Handouts/Mechanics/CLI/spells/disguise-self.md),\
+      \ [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md), [mage\
+      \ hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md)\n\n1/day\
+      \ each: [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
+      \ [hunger of Hadar](03.PlayerLog&Handouts/Mechanics/CLI/spells/hunger-of-hadar.md),\
+      \ [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md),\
+      \ [spider climb](03.PlayerLog&Handouts/Mechanics/CLI/spells/spider-climb.md)"
+    "name": "Spellcasting"
 "source":
-- "MPMM"
-- "MTF"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/undead/token/deathlock-mpmm.webp"
+  - "MPMM"
+  - "MTF"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/token/deathlock-mpmm.webp"
 ```
 ^statblock
 

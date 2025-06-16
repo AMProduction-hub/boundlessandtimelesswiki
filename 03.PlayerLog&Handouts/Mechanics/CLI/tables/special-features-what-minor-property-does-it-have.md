@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
-aliases: ["Special Features; What Minor Property Does It Have"]
+aliases:
+- Special Features; What Minor Property Does It Have
 ---
 # Special Features; What Minor Property Does It Have
 *Source: Dungeon Master's Guide p. 141* 

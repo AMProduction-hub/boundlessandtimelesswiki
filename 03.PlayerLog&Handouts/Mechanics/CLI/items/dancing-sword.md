@@ -20,7 +20,7 @@ aliases:
 ---
 # Dancing Sword
 *Major, very rare (requires attunement)*  
-![](dancing-sword.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/dancing-sword.webp#right)
 
 
 You can use a bonus action to toss this magic sword into the air and speak the command word. When you do so, the sword begins to hover, flies up to 30 feet, and attacks one creature of your choice within 5 feet of it. The sword uses your attack roll and ability score modifier to damage rolls.
@@ -40,13 +40,13 @@ After the hovering sword attacks for the fourth time, it flies up to 30 feet and
 ### Dancing Double-Bladed Scimitar
 
 - **Damage**: 2d4 slashing
-- **Properties**: [Two-Handed](item-properties.md#Two-Handed), [special](item-properties.md#Special%20Weapons)
+- **Properties**: [Two-Handed](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Two-Handed), [special](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Special%20Weapons)
 - **Weight**: 6.0 lbs.
 
 ### Dancing Greatsword
 
 - **Damage**: 2d6 slashing
-- **Properties**: [Heavy](item-properties.md#Heavy), [Two-Handed](item-properties.md#Two-Handed)
+- **Properties**: [Heavy](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Heavy), [Two-Handed](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Two-Handed)
 - **Weight**: 6.0 lbs.
 
 ### Dancing Longsword
@@ -54,25 +54,25 @@ After the hovering sword attacks for the fourth time, it flies up to 30 feet and
 - **Damage**:
   - One-handed: 1d8 slashing
   - Two-handed: 1d10 slashing
-- **Properties**: [Versatile](item-properties.md#Versatile)
+- **Properties**: [Versatile](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Versatile)
 - **Weight**: 3.0 lbs.
 
 ### Dancing Rapier
 
 - **Damage**: 1d8 piercing
-- **Properties**: [Finesse](item-properties.md#Finesse)
+- **Properties**: [Finesse](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Finesse)
 - **Weight**: 2.0 lbs.
 
 ### Dancing Scimitar
 
 - **Damage**: 1d6 slashing
-- **Properties**: [Finesse](item-properties.md#Finesse), [Light](item-properties.md#Light)
+- **Properties**: [Finesse](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Finesse), [Light](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Light)
 - **Weight**: 3.0 lbs.
 
 ### Dancing Shortsword
 
 - **Damage**: 1d6 piercing
-- **Properties**: [Finesse](item-properties.md#Finesse), [Light](item-properties.md#Light)
+- **Properties**: [Finesse](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Finesse), [Light](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Light)
 - **Weight**: 2.0 lbs.
 
 

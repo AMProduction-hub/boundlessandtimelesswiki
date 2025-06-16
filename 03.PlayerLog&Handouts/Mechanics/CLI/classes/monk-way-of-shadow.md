@@ -4,10 +4,11 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/subclass/monk/shadow
-aliases: ["Way of Shadow"]
+aliases:
+- Way of Shadow
 ---
 # Way of Shadow
-*[Monk](monk.md): Monastic Tradition*  
+*[Monk](./monk.md): Monastic Tradition*  
 *Source: Player's Handbook p. 80*  
 
 > [!tldr] Class and Feature Progression
@@ -50,7 +51,7 @@ Monks of the Way of Shadow follow a tradition that values stealth and subterfuge
 
 ### Shadow Arts (Level 3)
 
-You can use your ki to duplicate the effects of certain spells. As an action, you can spend 2 ki points to cast [darkness](darkness.md), [darkvision](darkvision.md), [pass without trace](pass-without-trace.md), or [silence](silence.md), without providing material components. Additionally, you gain the [minor illusion](minor-illusion.md) cantrip if you don't already know it.
+You can use your ki to duplicate the effects of certain spells. As an action, you can spend 2 ki points to cast [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md), [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkvision.md), [pass without trace](03.PlayerLog&Handouts/Mechanics/CLI/spells/pass-without-trace.md), or [silence](03.PlayerLog&Handouts/Mechanics/CLI/spells/silence.md), without providing material components. Additionally, you gain the [minor illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md) cantrip if you don't already know it.
 
 ### Shadow Step (Level 6)
 
@@ -58,7 +59,7 @@ You gain the ability to step from one shadow into another. When you are in dim l
 
 ### Cloak of Shadows (Level 11)
 
-By 11th level, you have learned to become one with the shadows. When you are in an area of dim light or darkness, you can use your action to become [invisible](conditions.md#Invisible). You remain [invisible](conditions.md#Invisible) until you make an attack, cast a spell, or are in an area of bright light.
+By 11th level, you have learned to become one with the shadows. When you are in an area of dim light or darkness, you can use your action to become [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible). You remain [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible) until you make an attack, cast a spell, or are in an area of bright light.
 
 ### Opportunist (Level 17)
 

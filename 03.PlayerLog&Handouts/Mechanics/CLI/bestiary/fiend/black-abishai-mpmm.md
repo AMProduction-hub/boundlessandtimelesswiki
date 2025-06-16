@@ -8,9 +8,11 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/fiend/devil
 statblock: inline
-aliases: ["Black Abishai"]
+statblock-link: "#^statblock"
+aliases:
+- Black Abishai
 ---
-# [Black Abishai](03 - Player Log & Handouts\Mechanics\CLI\bestiary\fiend/black-abishai-mpmm.md)
+# [Black Abishai](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/black-abishai-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 38, Mordenkainen's Tome of Foes p. 160*  
 
 Expert assassins and infiltrators, black abishais can weave shadows to mask their presence, allowing them to reach a location where they can deliver a fatal strike to their targets.
@@ -33,55 +35,58 @@ Abishais stand outside the normal hierarchy of the Nine Hells, having their own 
 "ac_class": "natural armor"
 "hp": !!int "58"
 "hit_dice": "9d8 + 18"
+"modifier": !!int "3"
 "stats":
-- !!int "14"
-- !!int "17"
-- !!int "14"
-- !!int "13"
-- !!int "16"
-- !!int "11"
+  - !!int "14"
+  - !!int "17"
+  - !!int "14"
+  - !!int "13"
+  - !!int "16"
+  - !!int "11"
 "speed": "30 ft., fly 40 ft."
 "saves":
-  "Dexterity": !!int "6"
-  "Wisdom": !!int "6"
+  - "dexterity": "+6"
+  - "wisdom": "+6"
 "skillsaves":
-  "Stealth": !!int "6"
-  "Perception": !!int "6"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+6"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+6"
 "damage_resistances": "cold; bludgeoning, piercing, slashing from nonmagical attacks\
   \ that aren't silvered"
 "damage_immunities": "acid, fire, poison"
-"condition_immunities": "[poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "darkvision 120 ft., passive Perception 16"
 "languages": "Draconic, Infernal, telepathy 120 ft."
 "cr": "7"
 "traits":
-- "desc": "The abishai casts [darkness](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/darkness.md)\
-    \ at a point within 120 feet of it, requiring no spell components or [concentration](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Concentration).\
-    \ Wisdom is its spellcasting ability for this spell. While the spell persists,\
-    \ the abishai can move the area of darkness up to 60 feet as a bonus action.\n"
-  "name": "Creeping Darkness (Recharge 6)"
-- "desc": "Magical darkness doesn't impede the abishai's [darkvision](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/senses.md#Darkvision)."
-  "name": "Devil's Sight"
-- "desc": "The abishai has advantage on saving throws against spells and other magical\
-    \ effects."
-  "name": "Magic Resistance"
+  - "desc": "Magical darkness doesn't impede the abishai's [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)."
+    "name": "Devil's Sight"
+  - "desc": "The abishai has advantage on saving throws against spells and other magical\
+      \ effects."
+    "name": "Magic Resistance"
 "actions":
-- "desc": "The abishai makes one Bite attack and two Scimitar attacks."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d10\
-    \ + 3) piercing damage plus 9 (2d8) acid damage."
-  "name": "Bite"
-- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d6\
-    \ + 3) force damage."
-  "name": "Scimitar"
+  - "desc": "The abishai makes one Bite attack and two Scimitar attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8\
+      \ (1d10 + 3) piercing damage plus 9 (2d8) acid damage."
+    "name": "Bite"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6\
+      \ (1d6 + 3) force damage."
+    "name": "Scimitar"
+  - "desc": "The abishai casts [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md)\
+      \ at a point within 120 feet of it, requiring no spell components or [concentration](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Concentration).\
+      \ Wisdom is its spellcasting ability for this spell. While the spell persists,\
+      \ the abishai can move the area of darkness up to 60 feet as a bonus action.\n"
+    "name": "Creeping Darkness (Recharge 6)"
 "bonus_actions":
-- "desc": "While in dim light or darkness, the abishai takes the [Hide](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/actions.md#Hide)\
-    \ action."
-  "name": "Shadow Stealth"
+  - "desc": "While in dim light or darkness, the abishai takes the [Hide](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Hide)\
+      \ action."
+    "name": "Shadow Stealth"
 "source":
-- "MPMM"
-- "MTF"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/fiend/token/black-abishai-mpmm.webp"
+  - "MPMM"
+  - "MTF"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/token/black-abishai-mpmm.webp"
 ```
 ^statblock
 

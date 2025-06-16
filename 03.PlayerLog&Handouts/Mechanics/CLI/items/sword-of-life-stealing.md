@@ -20,7 +20,7 @@ aliases:
 ---
 # Sword of Life Stealing
 *Major, rare (requires attunement)*  
-![](sword-of-life-stealing.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/sword-of-life-stealing.webp#right)
 
 
 When you attack a creature with this magic weapon and roll a 20 on the attack roll, that target takes an extra 10 necrotic damage if it isn't a construct or an undead. You also gain 10 temporary hit points.
@@ -39,13 +39,13 @@ When you attack a creature with this magic weapon and roll a 20 on the attack ro
 ### Double-Bladed Scimitar of Life Stealing
 
 - **Damage**: 2d4 slashing
-- **Properties**: [Two-Handed](item-properties.md#Two-Handed), [special](item-properties.md#Special%20Weapons)
+- **Properties**: [Two-Handed](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Two-Handed), [special](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Special%20Weapons)
 - **Weight**: 6.0 lbs.
 
 ### Greatsword of Life Stealing
 
 - **Damage**: 2d6 slashing
-- **Properties**: [Heavy](item-properties.md#Heavy), [Two-Handed](item-properties.md#Two-Handed)
+- **Properties**: [Heavy](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Heavy), [Two-Handed](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Two-Handed)
 - **Weight**: 6.0 lbs.
 
 ### Longsword of Life Stealing
@@ -53,25 +53,25 @@ When you attack a creature with this magic weapon and roll a 20 on the attack ro
 - **Damage**:
   - One-handed: 1d8 slashing
   - Two-handed: 1d10 slashing
-- **Properties**: [Versatile](item-properties.md#Versatile)
+- **Properties**: [Versatile](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Versatile)
 - **Weight**: 3.0 lbs.
 
 ### Rapier of Life Stealing
 
 - **Damage**: 1d8 piercing
-- **Properties**: [Finesse](item-properties.md#Finesse)
+- **Properties**: [Finesse](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Finesse)
 - **Weight**: 2.0 lbs.
 
 ### Scimitar of Life Stealing
 
 - **Damage**: 1d6 slashing
-- **Properties**: [Finesse](item-properties.md#Finesse), [Light](item-properties.md#Light)
+- **Properties**: [Finesse](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Finesse), [Light](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Light)
 - **Weight**: 3.0 lbs.
 
 ### Shortsword of Life Stealing
 
 - **Damage**: 1d6 piercing
-- **Properties**: [Finesse](item-properties.md#Finesse), [Light](item-properties.md#Light)
+- **Properties**: [Finesse](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Finesse), [Light](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Light)
 - **Weight**: 2.0 lbs.
 
 

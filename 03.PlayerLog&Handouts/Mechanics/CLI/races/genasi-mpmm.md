@@ -4,11 +4,12 @@ cssclasses: json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/race/genasi
-aliases: ["Genasi"]
+aliases:
+- Genasi
 ---
 # Genasi
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 16*  
-![](genasi.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/races/img/genasi.webp#right)
 
 - **Ability Scores**: Choose one of: (a) Choose any +2, choose any other +1; (b) Choose any +1, choose any other +1, choose any other +1
 - **Size**: Small or Medium

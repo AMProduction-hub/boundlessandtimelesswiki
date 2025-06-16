@@ -10,7 +10,8 @@ tags:
 classes:
 - Bard
 - Warlock
-aliases: ["Shadow of Moil"]
+aliases:
+- Shadow of Moil
 ---
 # Shadow of Moil
 *4th-level, Necromancy*  
@@ -25,6 +26,6 @@ Flame-like shadows wreathe your body until the spell ends, causing you to become
 
 Until the spell ends, you have resistance to radiant damage. In addition, whenever a creature within 10 feet of you hits you with an attack, the shadows lash out at that creature, dealing it `2d8` necrotic damage.
 
-**Classes**: [Bard](list-spells-classes-bard.md); [Warlock](list-spells-classes-warlock.md)
+**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md)
 
 *Source: Xanathar's Guide to Everything p. 164*

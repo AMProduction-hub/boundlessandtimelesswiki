@@ -18,7 +18,8 @@ classes:
 - Sorcerer
 - Warlock
 - Wizard
-aliases: ["Investiture of Stone"]
+aliases:
+- Investiture of Stone
 ---
 # Investiture of Stone
 *6th-level, Transmutation*  
@@ -32,9 +33,9 @@ aliases: ["Investiture of Stone"]
 Until the spell ends, bits of rock spread across your body, and you gain the following benefits:
 
 - You have resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks.  
-- You can use your action to create a small earthquake on the ground in a 15-foot radius centered on you. Other creatures on that ground must succeed on a Dexterity saving throw or be knocked [prone](conditions.md#Prone).  
-- You can move across difficult terrain made of earth or stone without spending extra movement. You can move through solid earth or stone as if it was air and without destabilizing it, but you can't end your movement there. If you do so, you are ejected to the nearest unoccupied space, this spell ends, and you are [stunned](conditions.md#Stunned) until the end of your next turn.  
+- You can use your action to create a small earthquake on the ground in a 15-foot radius centered on you. Other creatures on that ground must succeed on a Dexterity saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone).  
+- You can move across difficult terrain made of earth or stone without spending extra movement. You can move through solid earth or stone as if it was air and without destabilizing it, but you can't end your movement there. If you do so, you are ejected to the nearest unoccupied space, this spell ends, and you are [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned) until the end of your next turn.  
 
-**Classes**: [Druid](list-spells-classes-druid.md); [Bard](list-spells-classes-bard.md); [Wizard](list-spells-classes-wizard.md); [Sorcerer](list-spells-classes-sorcerer.md); [Cleric (Arcana Domain)](list-spells-classes-cleric-arcana-domain-scag.md "subclass=SCAG"); [Warlock](list-spells-classes-warlock.md)
+**Classes**: [Cleric (Arcana Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcana-domain-scag.md "subclass=SCAG"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
-*Source: Xanathar's Guide to Everything p. 159*
+*Source: Xanathar's Guide to Everything p. 159, Elemental Evil Player's Companion p. 19*

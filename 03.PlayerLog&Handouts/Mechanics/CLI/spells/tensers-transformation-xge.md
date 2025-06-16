@@ -12,7 +12,8 @@ classes:
 - Bard
 - Cleric (Arcana Domain)
 - Wizard
-aliases: ["Tenser's Transformation"]
+aliases:
+- Tenser's Transformation
 ---
 # Tenser's Transformation
 *6th-level, Transmutation*  
@@ -30,10 +31,10 @@ You endow yourself with endurance and martial prowess fueled by magic. Until the
 - When you hit a target with a weapon attack, that target takes an extra `2d12` force damage.  
 - You have proficiency with all armor, shields, simple weapons, and martial weapons.  
 - You have proficiency in Strength and Constitution saving throws.  
-- You can attack twice, instead of once, when you take the [Attack](actions.md#Attack) action on your turn. You ignore this benefit if you already have a feature, like Extra Attack, that gives you extra attacks.  
+- You can attack twice, instead of once, when you take the [Attack](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Attack) action on your turn. You ignore this benefit if you already have a feature, like Extra Attack, that gives you extra attacks.  
 
-Immediately after the spell ends, you must succeed on a DC 15 Constitution saving throw or suffer one level of [exhaustion](conditions.md#Exhaustion).
+Immediately after the spell ends, you must succeed on a DC 15 Constitution saving throw or suffer one level of [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion).
 
-**Classes**: [Bard](list-spells-classes-bard.md); [Wizard](list-spells-classes-wizard.md); [Cleric (Arcana Domain)](list-spells-classes-cleric-arcana-domain-scag.md "subclass=SCAG")
+**Classes**: [Cleric (Arcana Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcana-domain-scag.md "subclass=SCAG"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Xanathar's Guide to Everything p. 168*

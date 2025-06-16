@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
-aliases: ["Doors; Beyond a Door"]
+aliases:
+- Doors; Beyond a Door
 ---
 # Doors; Beyond a Door
 *Source: Dungeon Master's Guide p. 291* 

@@ -16,10 +16,12 @@ tags:
 - ttrpg-cli/monster/size/small
 - ttrpg-cli/monster/type/humanoid/kobold
 statblock: inline
-aliases: ["Kobold"]
+statblock-link: "#^statblock"
+aliases:
+- Kobold
 ---
-# [Kobold](03 - Player Log & Handouts\Mechanics\CLI\bestiary\humanoid/kobold.md)
-*Source: Monster Manual p. 195, Baldur's Gate: Descent Into Avernus. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Kobold](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/kobold.md)
+*Source: Monster Manual p. 195, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus, Eberron: Rising from the Last War, Explorer's Guide to Wildemount. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 Kobolds are craven reptilian humanoids that worship evil dragons as demigods and serve them as minions and toadies. Kobolds inhabit dragons' lairs when they can but more commonly infest dungeons, gathering treasures and trinkets to add to their own tiny hoards.
 
@@ -44,37 +46,45 @@ In addition to the dragons they revere, kobolds worship a lesser god named Kurtu
 "ac": !!int "12"
 "hp": !!int "5"
 "hit_dice": "2d6 - 2"
+"modifier": !!int "2"
 "stats":
-- !!int "7"
-- !!int "15"
-- !!int "9"
-- !!int "8"
-- !!int "7"
-- !!int "8"
+  - !!int "7"
+  - !!int "15"
+  - !!int "9"
+  - !!int "8"
+  - !!int "7"
+  - !!int "8"
 "speed": "30 ft."
 "senses": "darkvision 60 ft., passive Perception 8"
 "languages": "Common, Draconic"
 "cr": "1/8"
 "traits":
-- "desc": "While in sunlight, the kobold has disadvantage on attack rolls, as well\
-    \ as on Wisdom ([Perception](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/skills.md#Perception))\
-    \ checks that rely on sight."
-  "name": "Sunlight Sensitivity"
-- "desc": "The kobold has advantage on an attack roll against a creature if at least\
-    \ one of the kobold's allies is within 5 feet of the creature and the ally isn't\
-    \ [incapacitated](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)."
-  "name": "Pack Tactics"
+  - "desc": "While in sunlight, the kobold has disadvantage on attack rolls, as well\
+      \ as on Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception))\
+      \ checks that rely on sight."
+    "name": "Sunlight Sensitivity"
+  - "desc": "The kobold has advantage on an attack roll against a creature if at least\
+      \ one of the kobold's allies is within 5 feet of the creature and the ally isn't\
+      \ [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)."
+    "name": "Pack Tactics"
 "actions":
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4\
-    \ + 2) piercing damage."
-  "name": "Dagger"
-- "desc": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit:\
-    \ 4 (1d4 + 2) bludgeoning damage."
-  "name": "Sling"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4\
+      \ (1d4 + 2) piercing damage."
+    "name": "Dagger"
+  - "desc": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit:\
+      \ 4 (1d4 + 2) bludgeoning damage."
+    "name": "Sling"
 "source":
-- "MM"
-- "BGDIA"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/humanoid/token/kobold.webp"
+  - "MM"
+  - "TftYP"
+  - "ToA"
+  - "WDH"
+  - "WDMM"
+  - "GoS"
+  - "BGDIA"
+  - "ERLW"
+  - "EGW"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/kobold.webp"
 ```
 ^statblock
 

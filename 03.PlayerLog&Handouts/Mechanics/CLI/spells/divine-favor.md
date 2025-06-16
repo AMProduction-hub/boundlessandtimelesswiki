@@ -12,7 +12,8 @@ classes:
 - Bard
 - Cleric (War Domain)
 - Paladin
-aliases: ["Divine Favor"]
+aliases:
+- Divine Favor
 ---
 # Divine Favor
 *1st-level, Evocation*  
@@ -23,8 +24,8 @@ aliases: ["Divine Favor"]
 - **Components:** V, S
 - **Duration:** Concentration, up to 1 minute
 
-Your prayer empowers you with divine radiance. Until the spell ends, your weapon attacks deal an extra `1d4` radiant damage on a hit.
+Your prayer empowers you with divine radiance. Until the spell ends, your weapon attacks deal an extra `d4` radiant damage on a hit.
 
-**Classes**: [Paladin](list-spells-classes-paladin.md); [Bard](list-spells-classes-bard.md); [Cleric (War Domain)](list-spells-classes-cleric-war-domain.md)
+**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Cleric (War Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-war-domain.md); [Paladin](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-paladin.md)
 
 *Source: Player's Handbook p. 234. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

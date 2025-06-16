@@ -7,12 +7,14 @@ tags:
 - ttrpg-cli/monster/size/small
 - ttrpg-cli/monster/type/humanoid/goblinoid
 statblock: inline
-aliases: ["Booyahg Whip"]
+statblock-link: "#^statblock"
+aliases:
+- Booyahg Whip
 ---
-# [Booyahg Whip](03 - Player Log & Handouts\Mechanics\CLI\bestiary\humanoid/booyahg-whip-vgm.md)
+# [Booyahg Whip](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/booyahg-whip-vgm.md)
 *Source: Volo's Guide to Monsters p. 42*  
 
-Khurgorbaeyag saw fit to gift this goblin with powers that enable it to dominate others. The goblin has `1d3` other goblins that slavishly obey its orders.
+Khurgorbaeyag saw fit to gift this goblin with powers that enable it to dominate others. The goblin has `d3` other goblins that slavishly obey its orders.
 
 ## Booyahgs
 
@@ -29,40 +31,42 @@ A goblin with access to booyahg becomes a member of the lashers and can often ri
 "subtype": "goblinoid"
 "alignment": "Neutral Evil"
 "ac": !!int "15"
-"ac_class": "[leather armor](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/items/leather-armor.md),\
-  \ [shield](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/items/shield.md)"
+"ac_class": "[leather armor](03.PlayerLog&Handouts/Mechanics/CLI/items/leather-armor.md),\
+  \ [shield](03.PlayerLog&Handouts/Mechanics/CLI/items/shield.md)"
 "hp": !!int "7"
 "hit_dice": "2d6"
+"modifier": !!int "2"
 "stats":
-- !!int "8"
-- !!int "14"
-- !!int "10"
-- !!int "10"
-- !!int "8"
-- !!int "8"
+  - !!int "8"
+  - !!int "14"
+  - !!int "10"
+  - !!int "10"
+  - !!int "8"
+  - !!int "8"
 "speed": "30 ft."
 "skillsaves":
-  "Stealth": !!int "6"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+6"
 "senses": "darkvision 60 ft., passive Perception 9"
 "languages": "Common, Goblin"
 "cr": "1/4"
 "traits":
-- "desc": "The goblin can take the Disengage or Hide action as a bonus action on each\
-    \ of its turns."
-  "name": "Nimble Escape"
-- "desc": "Khurgorbaeyag saw fit to gift this goblin with powers that enable it to\
-    \ dominate others. The goblin has 1d3 other [goblins](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/humanoid/goblin.md)\
-    \ that slavishly obey its orders."
-  "name": "Khurgorbaeyag's Gift"
+  - "desc": "The goblin can take the Disengage or Hide action as a bonus action on\
+      \ each of its turns."
+    "name": "Nimble Escape"
+  - "desc": "Khurgorbaeyag saw fit to gift this goblin with powers that enable it\
+      \ to dominate others. The goblin has d3 other [goblins](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/goblin.md)\
+      \ that slavishly obey its orders."
+    "name": "Khurgorbaeyag's Gift"
 "actions":
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6\
-    \ + 2) slashing damage."
-  "name": "Scimitar"
-- "desc": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit:\
-    \ 5 (1d6 + 2) piercing damage."
-  "name": "Shortbow"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+      \ (1d6 + 2) slashing damage."
+    "name": "Scimitar"
+  - "desc": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit:\
+      \ 5 (1d6 + 2) piercing damage."
+    "name": "Shortbow"
 "source":
-- "VGM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/humanoid/token/booyahg-whip-vgm.webp"
+  - "VGM"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/booyahg-whip-vgm.webp"
 ```
 ^statblock

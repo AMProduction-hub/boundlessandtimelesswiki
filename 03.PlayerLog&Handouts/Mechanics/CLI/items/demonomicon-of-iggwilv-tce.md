@@ -10,7 +10,7 @@ aliases:
 ---
 # Demonomicon of Iggwilv
 *Wondrous item, artifact (requires attunement)*  
-![](demonomicon-of-iggwilv.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/demonomicon-of-iggwilv.webp#right)
 
 
 An expansive treatise documenting the Abyss's infinite layers and inhabitants, the Demonomicon of Iggwilv is the most thorough and blasphemous tome of demonology in the multiverse. The tome recounts both the oldest and most current profanities of the Abyss and demons. Demons have attempted to censor the text, and while sections have been ripped from the book's spine, the general chapters remain, ever revealing demonic secrets. And the book holds more than blasphemies. Caged behind lines of script roils a secret piece of the Abyss itself, which keeps the book up-to-date, no matter how many pages are removed, and it longs to be more than mere reference material.
@@ -19,13 +19,13 @@ An expansive treatise documenting the Abyss's infinite layers and inhabitants, t
 
 The artifact has the following random properties, which you can determine by rolling on the tables in the "Artifacts" section of the "Dungeon Master's Guide":
 
-- 2 [minor beneficial](artifact-properties-minor-beneficial-properties.md) properties  
-- 1 [minor detrimental](artifact-properties-minor-detrimental-properties.md) property  
-- 1 [major detrimental](artifact-properties-major-detrimental-properties.md) property  
+- 2 [minor beneficial](03.PlayerLog&Handouts/Mechanics/CLI/tables/artifact-properties-minor-beneficial-properties.md) properties  
+- 1 [minor detrimental](03.PlayerLog&Handouts/Mechanics/CLI/tables/artifact-properties-minor-detrimental-properties.md) property  
+- 1 [major detrimental](03.PlayerLog&Handouts/Mechanics/CLI/tables/artifact-properties-major-detrimental-properties.md) property  
 
 ## Spells
 
-The book has 8 charges. It regains `1d8` expended charges daily at dawn. While holding it, you can use an action to cast [Tasha's hideous laughter](tashas-hideous-laughter.md) from it or to expend 1 or more of its charges to cast one of the following spells (save DC 20) from it: [magic circle](magic-circle.md) (1 charge), [magic jar](magic-jar.md) (3 charges), [planar ally](planar-ally.md) (3 charges), [planar binding](planar-binding.md) (2 charges), [plane shift](plane-shift.md) (to layers of the Abyss only; 3 charges), [summon fiend](summon-fiend-tce.md) (3 charges).
+The book has 8 charges. It regains `d8` expended charges daily at dawn. While holding it, you can use an action to cast [Tasha's hideous laughter](03.PlayerLog&Handouts/Mechanics/CLI/spells/tashas-hideous-laughter.md) from it or to expend 1 or more of its charges to cast one of the following spells (save DC 20) from it: [magic circle](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-circle.md) (1 charge), [magic jar](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-jar.md) (3 charges), [planar ally](03.PlayerLog&Handouts/Mechanics/CLI/spells/planar-ally.md) (3 charges), [planar binding](03.PlayerLog&Handouts/Mechanics/CLI/spells/planar-binding.md) (2 charges), [plane shift](03.PlayerLog&Handouts/Mechanics/CLI/spells/plane-shift.md) (to layers of the Abyss only; 3 charges), [summon fiend](03.PlayerLog&Handouts/Mechanics/CLI/spells/summon-fiend-tce.md) (3 charges).
 
 ## Abyssal Reference
 
@@ -37,15 +37,15 @@ Your magic causes pain to fiends. While carrying the book, when you make a damag
 
 ## Ensnarement
 
-While carrying the book, whenever you cast the [magic circle](magic-circle.md) spell naming only fiends, or the [planar binding](planar-binding.md) spell targeting a fiend, the spell is cast at 9th level, regardless of what level spell slot you used, if any. Additionally, the fiend has disadvantage on its saving throw against the spell.
+While carrying the book, whenever you cast the [magic circle](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-circle.md) spell naming only fiends, or the [planar binding](03.PlayerLog&Handouts/Mechanics/CLI/spells/planar-binding.md) spell targeting a fiend, the spell is cast at 9th level, regardless of what level spell slot you used, if any. Additionally, the fiend has disadvantage on its saving throw against the spell.
 
 ## Containment
 
-The first 10 pages of the *Demonomicon* are blank. As an action while holding the book, you can target a fiend that you can see that is trapped within a [magic circle](magic-circle.md). The fiend must succeed on a DC 20 Charisma saving throw with disadvantage or become trapped within one of the *Demonomicon's* empty blank pages, which fills with writing detailing the trapped creature's widely known name and depravities. Once used, this action can't be used again until the next dawn.
+The first 10 pages of the *Demonomicon* are blank. As an action while holding the book, you can target a fiend that you can see that is trapped within a [magic circle](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-circle.md). The fiend must succeed on a DC 20 Charisma saving throw with disadvantage or become trapped within one of the *Demonomicon's* empty blank pages, which fills with writing detailing the trapped creature's widely known name and depravities. Once used, this action can't be used again until the next dawn.
 
 When you finish a long rest, if you and the *Demonomicon* are on the same plane of existence, the trapped creature of the highest challenge rating within the book can attempt to possess you. You must make a DC 20 Charisma saving throw. On a failure, you are possessed by the creature, which controls you like a puppet. The possessing creature can release you as an action, appearing in the closest unoccupied space. On a successful save, the fiend can't try to possess you again for 7 days.
 
-When the tome is discovered, it has `1d4` fiends occupying its pages, typically an assortment of demons.
+When the tome is discovered, it has `d4` fiends occupying its pages, typically an assortment of demons.
 
 ## Destroying the Demonomicon
 

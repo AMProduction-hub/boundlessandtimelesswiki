@@ -20,7 +20,7 @@ aliases:
 ---
 # Flame Tongue
 *Major, rare (requires attunement)*  
-![](flame-tongue.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/flame-tongue.webp#right)
 
 
 You can use a bonus action to speak this magic sword's command word, causing flames to erupt from the blade. These flames shed bright light in a 40-foot radius and dim light for an additional 40 feet. While the sword is ablaze, it deals an extra `2d6` fire damage to any target it hits. The flames last until you use a bonus action to speak the command word again or until you drop or sheathe the sword.
@@ -36,13 +36,13 @@ You can use a bonus action to speak this magic sword's command word, causing fla
 ### Flame Tongue Double-Bladed Scimitar
 
 - **Damage**: 2d4 slashing
-- **Properties**: [Two-Handed](item-properties.md#Two-Handed), [special](item-properties.md#Special%20Weapons)
+- **Properties**: [Two-Handed](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Two-Handed), [special](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Special%20Weapons)
 - **Weight**: 6.0 lbs.
 
 ### Flame Tongue Greatsword
 
 - **Damage**: 2d6 slashing
-- **Properties**: [Heavy](item-properties.md#Heavy), [Two-Handed](item-properties.md#Two-Handed)
+- **Properties**: [Heavy](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Heavy), [Two-Handed](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Two-Handed)
 - **Weight**: 6.0 lbs.
 
 ### Flame Tongue Longsword
@@ -50,25 +50,25 @@ You can use a bonus action to speak this magic sword's command word, causing fla
 - **Damage**:
   - One-handed: 1d8 slashing
   - Two-handed: 1d10 slashing
-- **Properties**: [Versatile](item-properties.md#Versatile)
+- **Properties**: [Versatile](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Versatile)
 - **Weight**: 3.0 lbs.
 
 ### Flame Tongue Rapier
 
 - **Damage**: 1d8 piercing
-- **Properties**: [Finesse](item-properties.md#Finesse)
+- **Properties**: [Finesse](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Finesse)
 - **Weight**: 2.0 lbs.
 
 ### Flame Tongue Scimitar
 
 - **Damage**: 1d6 slashing
-- **Properties**: [Finesse](item-properties.md#Finesse), [Light](item-properties.md#Light)
+- **Properties**: [Finesse](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Finesse), [Light](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Light)
 - **Weight**: 3.0 lbs.
 
 ### Flame Tongue Shortsword
 
 - **Damage**: 1d6 piercing
-- **Properties**: [Finesse](item-properties.md#Finesse), [Light](item-properties.md#Light)
+- **Properties**: [Finesse](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Finesse), [Light](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Light)
 - **Weight**: 2.0 lbs.
 
 

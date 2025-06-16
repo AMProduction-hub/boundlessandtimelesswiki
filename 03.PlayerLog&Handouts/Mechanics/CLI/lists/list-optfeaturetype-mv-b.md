@@ -3,31 +3,32 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/phb
-aliases: ["Maneuver, Battle Master"]
+aliases:
+- Maneuver, Battle Master
 ---
 # Maneuver, Battle Master
 *Source: Player's Handbook, Tasha's Cauldron of Everything p. 42, Player's Handbook (2024)* 
 
-- [Ambush](ambush-tce.md)
-- [Bait and Switch](bait-and-switch-tce.md)
-- [Brace](brace-tce.md)
-- [Commander's Strike](commanders-strike.md)
-- [Commanding Presence](commanding-presence-tce.md)
-- [Disarming Attack](disarming-attack.md)
-- [Distracting Strike](distracting-strike.md)
-- [Evasive Footwork](evasive-footwork.md)
-- [Feinting Attack](feinting-attack.md)
-- [Goading Attack](goading-attack.md)
-- [Grappling Strike](grappling-strike-tce.md)
-- [Lunging Attack](lunging-attack.md)
-- [Maneuvering Attack](maneuvering-attack.md)
-- [Menacing Attack](menacing-attack.md)
-- [Parry](parry.md)
-- [Precision Attack](precision-attack.md)
-- [Pushing Attack](pushing-attack.md)
-- [Quick Toss](quick-toss-tce.md)
-- [Rally](rally.md)
-- [Riposte](riposte.md)
-- [Sweeping Attack](sweeping-attack.md)
-- [Tactical Assessment](tactical-assessment-tce.md)
-- [Trip Attack](trip-attack.md)
+- [Ambush](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/ambush-tce.md)
+- [Bait and Switch](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/bait-and-switch-tce.md)
+- [Brace](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/brace-tce.md)
+- [Commander's Strike](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/commanders-strike.md)
+- [Commanding Presence](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/commanding-presence-tce.md)
+- [Disarming Attack](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/disarming-attack.md)
+- [Distracting Strike](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/distracting-strike.md)
+- [Evasive Footwork](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/evasive-footwork.md)
+- [Feinting Attack](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/feinting-attack.md)
+- [Goading Attack](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/goading-attack.md)
+- [Grappling Strike](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/grappling-strike-tce.md)
+- [Lunging Attack](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/lunging-attack.md)
+- [Maneuvering Attack](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/maneuvering-attack.md)
+- [Menacing Attack](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/menacing-attack.md)
+- [Parry](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/parry.md)
+- [Precision Attack](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/precision-attack.md)
+- [Pushing Attack](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/pushing-attack.md)
+- [Quick Toss](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/quick-toss-tce.md)
+- [Rally](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/rally.md)
+- [Riposte](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/riposte.md)
+- [Sweeping Attack](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/sweeping-attack.md)
+- [Tactical Assessment](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/tactical-assessment-tce.md)
+- [Trip Attack](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/trip-attack.md)

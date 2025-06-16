@@ -18,7 +18,8 @@ classes:
 - Rogue (Arcane Trickster)
 - Sorcerer
 - Wizard
-aliases: ["Catnap"]
+aliases:
+- Catnap
 ---
 # Catnap
 *3rd-level, Enchantment*  
@@ -29,10 +30,10 @@ aliases: ["Catnap"]
 - **Components:** S, M (a pinch of sand)
 - **Duration:** 10 minutes
 
-You make a calming gesture, and up to three willing creatures of your choice that you can see within range fall [unconscious](conditions.md#Unconscious) for the spell's duration. The spell ends on a target early if it takes damage or someone uses an action to shake or slap it awake. If a target remains [unconscious](conditions.md#Unconscious) for the full duration, that target gains the benefit of a short rest, and it can't be affected by this spell again until it finishes a long rest.
+You make a calming gesture, and up to three willing creatures of your choice that you can see within range fall [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious) for the spell's duration. The spell ends on a target early if it takes damage or someone uses an action to shake or slap it awake. If a target remains [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious) for the full duration, that target gains the benefit of a short rest, and it can't be affected by this spell again until it finishes a long rest.
 
 **At Higher Levels.** When you cast this spell using a spell slot of 4th level or higher, you can target one additional willing creature for each slot level above 3rd.
 
-**Classes**: [Artificer](list-spells-classes-artificer.md); [Rogue (Arcane Trickster)](list-spells-classes-rogue-arcane-trickster.md); [Bard](list-spells-classes-bard.md); [Wizard](list-spells-classes-wizard.md); [Fighter (Eldritch Knight)](list-spells-classes-fighter-eldritch-knight.md); [Sorcerer](list-spells-classes-sorcerer.md)
+**Classes**: [Artificer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-artificer.md); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md)
 
 *Source: Xanathar's Guide to Everything p. 151*

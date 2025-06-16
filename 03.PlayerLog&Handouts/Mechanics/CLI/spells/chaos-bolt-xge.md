@@ -3,15 +3,19 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/xge
+- ttrpg-cli/spell/background/izzet-engineer
 - ttrpg-cli/spell/class/bard
 - ttrpg-cli/spell/class/sorcerer
+- ttrpg-cli/spell/feat/aberrant-dragonmark
 - ttrpg-cli/spell/feat/magic-initiate
+- ttrpg-cli/spell/feat/strixhaven-initiate
 - ttrpg-cli/spell/level/1st-level
 - ttrpg-cli/spell/school/evocation
 classes:
 - Bard
 - Sorcerer
-aliases: ["Chaos Bolt"]
+aliases:
+- Chaos Bolt
 ---
 # Chaos Bolt
 *1st-level, Evocation*  
@@ -44,8 +48,8 @@ If you roll the same number on both `d8`s, the chaotic energy leaps from the tar
 
 A creature can be targeted only once by each casting of this spell.
 
-**At Higher Levels.** When you cast this spell using a spell slot of 2nd level or higher, each target takes `1d6` extra damage of the type rolled for each slot level above 1st.
+**At Higher Levels.** When you cast this spell using a spell slot of 2nd level or higher, each target takes `d6` extra damage of the type rolled for each slot level above 1st.
 
-**Classes**: [Bard](list-spells-classes-bard.md); [Sorcerer](list-spells-classes-sorcerer.md)
+**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md)
 
-*Source: Xanathar's Guide to Everything p. 151*
+*Source: Xanathar's Guide to Everything p. 151, Guildmasters' Guide to Ravnica*

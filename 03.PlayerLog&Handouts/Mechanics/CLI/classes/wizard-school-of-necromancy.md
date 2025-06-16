@@ -4,10 +4,11 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/subclass/wizard/necromancy
-aliases: ["School of Necromancy"]
+aliases:
+- School of Necromancy
 ---
 # School of Necromancy
-*[Wizard](wizard.md): Arcane Tradition*  
+*[Wizard](./wizard.md): Arcane Tradition*  
 *Source: Player's Handbook p. 118*  
 
 > [!tldr] Class and Feature Progression
@@ -60,7 +61,7 @@ At 2nd level, you gain the ability to reap life energy from creatures you kill w
 
 ### Undead Thralls (Level 6)
 
-At 6th level, you add the [animate dead](animate-dead.md) spell to your spellbook if it is not there already. When you cast [animate dead](animate-dead.md), you can target one additional corpse or pile of bones, creating another zombie or skeleton, as appropriate.
+At 6th level, you add the [animate dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-dead.md) spell to your spellbook if it is not there already. When you cast [animate dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-dead.md), you can target one additional corpse or pile of bones, creating another zombie or skeleton, as appropriate.
 
 Whenever you create an undead using a necromancy spell, it has additional benefits:
 

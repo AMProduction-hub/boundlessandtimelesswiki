@@ -7,10 +7,12 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/celestial
 statblock: inline
-aliases: ["Solar"]
+statblock-link: "#^statblock"
+aliases:
+- Solar
 ---
-# [Solar](03 - Player Log & Handouts\Mechanics\CLI\bestiary\celestial/solar.md)
-*Source: Monster Manual p. 18, Baldur's Gate: Descent Into Avernus, Sigil and the Outlands. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Solar](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\celestial/solar.md)
+*Source: Monster Manual p. 18, Baldur's Gate: Descent Into Avernus, Candlekeep Mysteries, Journeys through the Radiant Citadel. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 An angel is a celestial agent sent forth into the planes to further its god's agenda for weal or woe. Its sublime beauty and presence can drive awestruck onlookers to their knees. Yet angels are destroyers too, and their appearance portends doom as often as it signals hope.
 
@@ -47,89 +49,92 @@ It is said that only twenty-four solars exist. The few solars that are known are
 "ac_class": "natural armor"
 "hp": !!int "243"
 "hit_dice": "18d10 + 144"
+"modifier": !!int "6"
 "stats":
-- !!int "26"
-- !!int "22"
-- !!int "26"
-- !!int "25"
-- !!int "25"
-- !!int "30"
+  - !!int "26"
+  - !!int "22"
+  - !!int "26"
+  - !!int "25"
+  - !!int "25"
+  - !!int "30"
 "speed": "50 ft., fly 150 ft."
 "saves":
-  "Charisma": !!int "17"
-  "Wisdom": !!int "14"
-  "Intelligence": !!int "14"
+  - "intelligence": "+14"
+  - "wisdom": "+14"
+  - "charisma": "+17"
 "skillsaves":
-  "Perception": !!int "14"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+14"
 "damage_resistances": "radiant; bludgeoning, piercing, slashing from nonmagical attacks"
 "damage_immunities": "necrotic, poison"
-"condition_immunities": "[charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
-  \ [exhaustion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
-  \ [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
-  \ [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
+  \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
+  \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
+  \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "truesight 120 ft., passive Perception 24"
 "languages": "all, telepathy 120 ft."
 "cr": "21"
 "traits":
-- "desc": "The solar's spellcasting ability is Charisma (spell save DC 25). It can\
-    \ innately cast the following spells, requiring no material components:\n\nAt\
-    \ will: [detect evil and good](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/detect-evil-and-good.md),\
-    \ [invisibility](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/invisibility.md)\
-    \ (self only)\n\n1/day each: [commune](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/commune.md),\
-    \ [control weather](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/control-weather.md)\n\
-    \n3/day each: [blade barrier](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/blade-barrier.md),\
-    \ [dispel evil and good](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/dispel-evil-and-good.md),\
-    \ [resurrection](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/resurrection.md)"
-  "name": "Innate Spellcasting"
-- "desc": "The solar's weapon attacks are magical. When the solar hits with any weapon,\
-    \ the weapon deals an extra 6d8 radiant damage (included in the attack)."
-  "name": "Angelic Weapons"
-- "desc": "The solar knows if it hears a lie."
-  "name": "Divine Awareness"
-- "desc": "The solar has advantage on saving throws against spells and other magical\
-    \ effects."
-  "name": "Magic Resistance"
+  - "desc": "The solar's spellcasting ability is Charisma (spell save DC 25). It can\
+      \ innately cast the following spells, requiring no material components:\n\n\
+      At will: [detect evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-evil-and-good.md),\
+      \ [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md)\
+      \ (self only)\n\n3/day each: [blade barrier](03.PlayerLog&Handouts/Mechanics/CLI/spells/blade-barrier.md),\
+      \ [dispel evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-evil-and-good.md),\
+      \ [resurrection](03.PlayerLog&Handouts/Mechanics/CLI/spells/resurrection.md)\n\
+      \n1/day each: [commune](03.PlayerLog&Handouts/Mechanics/CLI/spells/commune.md),\
+      \ [control weather](03.PlayerLog&Handouts/Mechanics/CLI/spells/control-weather.md)"
+    "name": "Innate Spellcasting"
+  - "desc": "The solar's weapon attacks are magical. When the solar hits with any\
+      \ weapon, the weapon deals an extra 6d8 radiant damage (included in the attack)."
+    "name": "Angelic Weapons"
+  - "desc": "The solar knows if it hears a lie."
+    "name": "Divine Awareness"
+  - "desc": "The solar has advantage on saving throws against spells and other magical\
+      \ effects."
+    "name": "Magic Resistance"
 "actions":
-- "desc": "The solar makes two greatsword attacks."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +15 to hit, reach 5 ft., one target. Hit: 22\
-    \ (4d6 + 8) slashing damage plus 27 (6d8) radiant damage."
-  "name": "Greatsword"
-- "desc": "Ranged Weapon Attack: +13 to hit, range 150/600 ft., one target. Hit:\
-    \ 15 (2d8 + 6) piercing damage plus 27 (6d8) radiant damage. If the target\
-    \ is a creature that has 100 hit points or fewer, it must succeed on a DC 15 Constitution\
-    \ saving throw or die."
-  "name": "Slaying Longbow"
-- "desc": "The solar releases its greatsword to hover magically in an unoccupied space\
-    \ within 5 feet of it. If the solar can see the sword, the solar can mentally\
-    \ command it as a bonus action to fly up to 50 feet and either make one attack\
-    \ against a target or return to the solar's hands. If the hovering sword is targeted\
-    \ by any effect, the solar is considered to be holding it. The hovering sword\
-    \ falls if the solar dies."
-  "name": "Flying Sword"
-- "desc": "The solar touches another creature. The target magically regains 40 (8d8\
-    \ + 4) hit points and is freed from any curse, disease, poison, blindness, or\
-    \ deafness."
-  "name": "Healing Touch (4/Day)"
+  - "desc": "The solar makes two greatsword attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +15 to hit, reach 5 ft., one target. Hit:\
+      \ 22 (4d6 + 8) slashing damage plus 27 (6d8) radiant damage."
+    "name": "Greatsword"
+  - "desc": "Ranged Weapon Attack: +13 to hit, range 150/600 ft., one target.\
+      \ Hit: 15 (2d8 + 6) piercing damage plus 27 (6d8) radiant damage. If the\
+      \ target is a creature that has 100 hit points or fewer, it must succeed on\
+      \ a DC 15 Constitution saving throw or die."
+    "name": "Slaying Longbow"
+  - "desc": "The solar releases its greatsword to hover magically in an unoccupied\
+      \ space within 5 feet of it. If the solar can see the sword, the solar can mentally\
+      \ command it as a bonus action to fly up to 50 feet and either make one attack\
+      \ against a target or return to the solar's hands. If the hovering sword is\
+      \ targeted by any effect, the solar is considered to be holding it. The hovering\
+      \ sword falls if the solar dies."
+    "name": "Flying Sword"
+  - "desc": "The solar touches another creature. The target magically regains 40 (8d8\
+      \ + 4) hit points and is freed from any curse, disease, poison, blindness,\
+      \ or deafness."
+    "name": "Healing Touch (4/Day)"
 "legendary_actions":
-- "desc": "The solar magically teleports, along with any equipment it is wearing or\
-    \ carrying, up to 120 feet to an unoccupied space it can see."
-  "name": "Teleport"
-- "desc": "The solar emits magical, divine energy. Each creature of its choice in\
-    \ a 10-foot radius must make a DC 23 Dexterity saving throw, taking 14 (4d6)\
-    \ fire damage plus 14 (4d6) radiant damage on a failed save, or half as much\
-    \ damage on a successful one."
-  "name": "Searing Burst (Costs 2 Actions)"
-- "desc": "The solar targets one creature it can see within 30 feet of it. If the\
-    \ target can see it, the target must succeed on a DC 15 Constitution saving throw\
-    \ or be [blinded](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Blinded)\
-    \ until magic such as the [lesser restoration](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/lesser-restoration.md)\
-    \ spell removes the blindness."
-  "name": "Blinding Gaze (Costs 3 Actions)"
+  - "desc": "The solar magically teleports, along with any equipment it is wearing\
+      \ or carrying, up to 120 feet to an unoccupied space it can see."
+    "name": "Teleport"
+  - "desc": "The solar emits magical, divine energy. Each creature of its choice in\
+      \ a 10-foot radius must make a DC 23 Dexterity saving throw, taking 14 (4d6)\
+      \ fire damage plus 14 (4d6) radiant damage on a failed save, or half as much\
+      \ damage on a successful one."
+    "name": "Searing Burst (Costs 2 Actions)"
+  - "desc": "The solar targets one creature it can see within 30 feet of it. If the\
+      \ target can see it, the target must succeed on a DC 15 Constitution saving\
+      \ throw or be [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded)\
+      \ until magic such as the [lesser restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/lesser-restoration.md)\
+      \ spell removes the blindness."
+    "name": "Blinding Gaze (Costs 3 Actions)"
 "source":
-- "MM"
-- "BGDIA"
-- "SatO"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/celestial/token/solar.webp"
+  - "MM"
+  - "BGDIA"
+  - "CM"
+  - "JttRC"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/token/solar.webp"
 ```
 ^statblock

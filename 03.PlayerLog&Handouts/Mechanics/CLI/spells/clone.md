@@ -12,7 +12,8 @@ classes:
 - Bard
 - Cleric (Arcana Domain)
 - Wizard
-aliases: ["Clone"]
+aliases:
+- Clone
 ---
 # Clone
 *8th-level, Necromancy*  
@@ -27,6 +28,6 @@ This spell grows an inert duplicate of a living creature as a safeguard against 
 
 At any time after the clone matures, if the original creature dies, its soul transfers to the clone, provided that the soul is free and willing to return. The clone is physically identical to the original and has the same personality, memories, and abilities, but none of the original's equipment. The original creature's physical remains, if they still exist, become inert and can't thereafter be restored to life, since the creature's soul is elsewhere.
 
-**Classes**: [Bard](list-spells-classes-bard.md); [Wizard](list-spells-classes-wizard.md); [Cleric (Arcana Domain)](list-spells-classes-cleric-arcana-domain-scag.md "subclass=SCAG")
+**Classes**: [Cleric (Arcana Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcana-domain-scag.md "subclass=SCAG"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook p. 222. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

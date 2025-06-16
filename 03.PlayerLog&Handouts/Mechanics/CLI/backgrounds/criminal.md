@@ -4,15 +4,16 @@ cssclasses: json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/phb
-aliases: ["Criminal"]
+aliases:
+- Criminal
 ---
 # Criminal
 *Source: Player's Handbook p. 129. Available in the Basic Rules (2014)*  
 
 
 - **Skill Proficiencies.** [Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception), [Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)  
-- **Tool Proficiencies.** One type of gaming set, [thieves' tools](thieves-tools.md)  
-- **Equipment.** A [crowbar](crowbar.md), a set of dark [common clothes](common-clothes.md) including a hood, and a belt [pouch](pouch.md) containing 15 gp  
+- **Tool Proficiencies.** One type of gaming set, [thieves' tools](03.PlayerLog&Handouts/Mechanics/CLI/items/thieves-tools.md)  
+- **Equipment.** A [crowbar](03.PlayerLog&Handouts/Mechanics/CLI/items/crowbar.md), a set of dark [common clothes](03.PlayerLog&Handouts/Mechanics/CLI/items/common-clothes.md) including a hood, and a belt [pouch](03.PlayerLog&Handouts/Mechanics/CLI/items/pouch.md) containing 15 gp  
 
 You are an experienced criminal with a history of breaking the law. You have spent a lot of time among other criminals and still have contacts within the criminal underworld. You're far closer than most people to the world of murder, theft, and violence that pervades the underbelly of civilization, and you have survived up to this point by flouting the rules and regulations of society.
 

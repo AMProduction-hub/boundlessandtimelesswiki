@@ -10,7 +10,7 @@ aliases:
 ---
 # Tome of Understanding
 *Wondrous item, major, very rare*  
-![](tome-of-understanding.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/tome-of-understanding.webp#right)
 
 - **Weight**: 5.0 lbs.
 

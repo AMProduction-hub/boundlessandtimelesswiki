@@ -7,10 +7,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/humanoid/gith
 statblock: inline
-aliases: ["Githzerai Monk"]
+statblock-link: "#^statblock"
+aliases:
+- Githzerai Monk
 ---
-# [Githzerai Monk](03 - Player Log & Handouts\Mechanics\CLI\bestiary\humanoid/githzerai-monk.md)
-*Source: Monster Manual p. 161, Sigil and the Outlands*  
+# [Githzerai Monk](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/githzerai-monk.md)
+*Source: Monster Manual p. 161*  
 
 Focused philosophers and austere ascetics, the githzerai pursue lives of rigid order. Lean and muscular, they wear unadorned clothing free of ornamentation, keeping their own counsel and trusting few creatures outside of their own kind. Having turned their backs on their warlike githyanki kin, the githzerai maintain a strict monastic lifestyle, dwelling on islands of order in the vast sea of chaos that is the plane of Limbo.
 
@@ -30,7 +32,7 @@ The social hierarchy of the githzerai is based on merit, and those githzerai who
 
 ## Disciples of Zerthimon
 
-Githzerai revere Zerthimon, the founder of their race. Although Gith won their people's freedom, Zerthimon saw her as unfit to lead. He believed that her warmongering would soon make her a tyrant no better than the [mind flayers](mind-flayer.md).
+Githzerai revere Zerthimon, the founder of their race. Although Gith won their people's freedom, Zerthimon saw her as unfit to lead. He believed that her warmongering would soon make her a tyrant no better than the [mind flayers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/mind-flayer.md).
 
 Skilled githzerai monks that best exemplify the teachings and principles of Zerthimon are called zerths.
 
@@ -46,13 +48,13 @@ As a special devotion, they organize a rrakkma—an illithid hunting party—to 
 
 ## Gith
 
-The warlike githyanki and the contemplative githzerai are a sundered people-two cultures that utterly despise one another. Before there were githyanki or githzerai, these creatures were a single race enslaved by the [mind flayers](mind-flayer.md). Although they attempted to overthrow their masters many times, their rebellions were repeatedly crushed until a great leader named Gith arose.
+The warlike githyanki and the contemplative githzerai are a sundered people-two cultures that utterly despise one another. Before there were githyanki or githzerai, these creatures were a single race enslaved by the [mind flayers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/mind-flayer.md). Although they attempted to overthrow their masters many times, their rebellions were repeatedly crushed until a great leader named Gith arose.
 
 After much bloodshed, Gith and her followers threw off the yoke of their illithid masters, but another leader named Zerthimon emerged in the aftermath of battle.
 
 Zerthimon challenged Gith's motives, claiming that her strict martial leadership and desire for vengeance amounted to little more than another form of slavery for her people. A rift erupted between followers of each leader, and they eventually became the two races whose enmity endures to this day.
 
-Whether these tall, gaunt creatures were peaceful or savage, cultured or primitive before the [mind flayers](mind-flayer.md) enslaved and changed them, none can say. Not even the original name of their race remains from that distant time.
+Whether these tall, gaunt creatures were peaceful or savage, cultured or primitive before the [mind flayers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/mind-flayer.md) enslaved and changed them, none can say. Not even the original name of their race remains from that distant time.
 
 > [!quote] A quote from Aristul the Yellow, master of planar lore  
 > 
@@ -68,46 +70,48 @@ Whether these tall, gaunt creatures were peaceful or savage, cultured or primiti
 "ac": !!int "14"
 "hp": !!int "38"
 "hit_dice": "7d8 + 7"
+"modifier": !!int "2"
 "stats":
-- !!int "12"
-- !!int "15"
-- !!int "12"
-- !!int "13"
-- !!int "14"
-- !!int "10"
+  - !!int "12"
+  - !!int "15"
+  - !!int "12"
+  - !!int "13"
+  - !!int "14"
+  - !!int "10"
 "speed": "30 ft."
 "saves":
-  "Dexterity": !!int "4"
-  "Wisdom": !!int "4"
-  "Intelligence": !!int "3"
-  "Strength": !!int "3"
+  - "strength": "+3"
+  - "dexterity": "+4"
+  - "intelligence": "+3"
+  - "wisdom": "+4"
 "skillsaves":
-  "Insight": !!int "4"
-  "Perception": !!int "4"
+  - "name": "[Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight)"
+    "desc": "+4"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+4"
 "senses": "passive Perception 14"
 "languages": "Gith"
 "cr": "2"
 "traits":
-- "desc": "The githzerai's innate spellcasting ability is Wisdom. It can innately\
-    \ cast the following spells, requiring no components:\n\nAt will: [mage hand](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/mage-hand.md)\
-    \ (the hand is invisible)\n\n3/day each: [feather fall](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/feather-fall.md),\
-    \ [jump](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/jump.md), [see\
-    \ invisibility](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/see-invisibility.md),\
-    \ [shield](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/shield.md)"
-  "name": "Innate Spellcasting (Psionics)"
-- "desc": "While the githzerai is wearing no armor and wielding no shield, its AC\
-    \ includes its Wisdom modifier."
-  "name": "Psychic Defense"
+  - "desc": "The githzerai's innate spellcasting ability is Wisdom. It can innately\
+      \ cast the following spells, requiring no components:\n\nAt will: [mage\
+      \ hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md) (the hand is\
+      \ invisible)\n\n3/day each: [feather fall](03.PlayerLog&Handouts/Mechanics/CLI/spells/feather-fall.md),\
+      \ [jump](03.PlayerLog&Handouts/Mechanics/CLI/spells/jump.md), [see invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/see-invisibility.md),\
+      \ [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md)"
+    "name": "Innate Spellcasting (Psionics)"
+  - "desc": "While the githzerai is wearing no armor and wielding no shield, its AC\
+      \ includes its Wisdom modifier."
+    "name": "Psychic Defense"
 "actions":
-- "desc": "The githzerai makes two unarmed strikes."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8\
-    \ + 2) bludgeoning damage plus 9 (2d8) psychic damage. This is a magic weapon\
-    \ attack."
-  "name": "Unarmed Strike"
+  - "desc": "The githzerai makes two unarmed strikes."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6\
+      \ (1d8 + 2) bludgeoning damage plus 9 (2d8) psychic damage. This is a magic\
+      \ weapon attack."
+    "name": "Unarmed Strike"
 "source":
-- "MM"
-- "SatO"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/humanoid/token/githzerai-monk.webp"
+  - "MM"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/githzerai-monk.webp"
 ```
 ^statblock

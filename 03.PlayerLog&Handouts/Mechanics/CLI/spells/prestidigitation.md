@@ -8,8 +8,11 @@ tags:
 - ttrpg-cli/spell/class/sorcerer
 - ttrpg-cli/spell/class/warlock
 - ttrpg-cli/spell/class/wizard
+- ttrpg-cli/spell/feat/aberrant-dragonmark
 - ttrpg-cli/spell/feat/artificer-initiate
+- ttrpg-cli/spell/feat/initiate-of-high-sorcery
 - ttrpg-cli/spell/feat/magic-initiate
+- ttrpg-cli/spell/feat/strixhaven-initiate
 - ttrpg-cli/spell/level/cantrip
 - ttrpg-cli/spell/optfeature/pact-of-the-tome
 - ttrpg-cli/spell/race/kobold
@@ -20,6 +23,7 @@ tags:
 - ttrpg-cli/spell/subclass/eldritch-knight
 - ttrpg-cli/spell/subrace/elf-high
 - ttrpg-cli/spell/subrace/half-elf-moon-elf-or-sun-elf-descent
+- ttrpg-cli/spell/subrace/halfling-mark-of-hospitality
 classes:
 - Artificer
 - Bard
@@ -30,7 +34,8 @@ classes:
 - Sorcerer
 - Warlock
 - Wizard
-aliases: ["Prestidigitation"]
+aliases:
+- Prestidigitation
 ---
 # Prestidigitation
 *cantrip, Transmutation*  
@@ -52,6 +57,6 @@ This spell is a minor magical trick that novice spellcasters use for practice. Y
 
 If you cast this spell multiple times, you can have up to three of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action.
 
-**Classes**: [Artificer](list-spells-classes-artificer.md); [Bard](list-spells-classes-bard.md); [Fighter (Eldritch Knight)](list-spells-classes-fighter-eldritch-knight.md); [Sorcerer](list-spells-classes-sorcerer.md); [Cleric (Arcana Domain)](list-spells-classes-cleric-arcana-domain-scag.md "subclass=SCAG"); [Rogue (Arcane Trickster)](list-spells-classes-rogue-arcane-trickster.md); [Fighter (Arcane Archer)](list-spells-classes-fighter-arcane-archer-xge.md "subclass=XGE"); [Wizard](list-spells-classes-wizard.md); [Warlock](list-spells-classes-warlock.md)
+**Classes**: [Artificer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-artificer.md); [Cleric (Arcana Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcana-domain-scag.md "subclass=SCAG"); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Fighter (Arcane Archer)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-archer-xge.md "subclass=XGE")
 
 *Source: Player's Handbook p. 267. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*

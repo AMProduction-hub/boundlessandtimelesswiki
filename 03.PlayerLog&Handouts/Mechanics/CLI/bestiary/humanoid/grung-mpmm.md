@@ -8,9 +8,11 @@ tags:
 - ttrpg-cli/monster/size/small
 - ttrpg-cli/monster/type/humanoid
 statblock: inline
-aliases: ["Grung"]
+statblock-link: "#^statblock"
+aliases:
+- Grung
 ---
-# [Grung](03 - Player Log & Handouts\Mechanics\CLI\bestiary\humanoid/grung-mpmm.md)
+# [Grung](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/grung-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 149, Volo's Guide to Monsters p. 156*  
 
 The grung stat block represents a typical grung warrior or hunter, met either in a grung community or traveling elsewhere as a mercenary, game warden, guard, or bandit.
@@ -29,53 +31,58 @@ Born in a wide range of colors, grungs most often appear in shades of green, blu
 "ac": !!int "12"
 "hp": !!int "11"
 "hit_dice": "2d6 + 4"
+"modifier": !!int "2"
 "stats":
-- !!int "7"
-- !!int "14"
-- !!int "15"
-- !!int "10"
-- !!int "11"
-- !!int "10"
+  - !!int "7"
+  - !!int "14"
+  - !!int "15"
+  - !!int "10"
+  - !!int "11"
+  - !!int "10"
 "speed": "25 ft., climb 25 ft."
 "saves":
-  "Dexterity": !!int "4"
+  - "dexterity": "+4"
 "skillsaves":
-  "Athletics": !!int "2"
-  "Stealth": !!int "4"
-  "Perception": !!int "2"
-  "Survival": !!int "2"
+  - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
+    "desc": "+2"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+2"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+4"
+  - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
+    "desc": "+2"
 "damage_immunities": "poison"
-"condition_immunities": "[poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "passive Perception 12"
 "languages": "Grung"
 "cr": "1/4"
 "traits":
-- "desc": "The grung can breathe air and water."
-  "name": "Amphibious"
-- "desc": "Any creature that grapples the grung or otherwise comes into direct contact\
-    \ with the grung's skin must succeed on a DC 12 Constitution saving throw or become\
-    \ [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
-    \ for 1 minute. A [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
-    \ creature no longer in direct contact with the grung can repeat the saving throw\
-    \ at the end of each of its turns, ending the effect on itself on a success."
-  "name": "Poisonous Skin"
-- "desc": "The grung's long jump is up to 25 feet and its high jump is up to 15 feet,\
-    \ with or without a running start."
-  "name": "Standing Leap"
-- "desc": "If the grung isn't immersed in water for at least 1 hour during a day,\
-    \ it suffers 1 level of [exhaustion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion)\
-    \ at the end of that day. The grung can recover from this [exhaustion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion)\
-    \ only through magic or by immersing itself in water for at least 1 hour."
-  "name": "Water Dependency"
+  - "desc": "The grung can breathe air and water."
+    "name": "Amphibious"
+  - "desc": "Any creature that grapples the grung or otherwise comes into direct contact\
+      \ with the grung's skin must succeed on a DC 12 Constitution saving throw or\
+      \ become [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
+      \ for 1 minute. A [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
+      \ creature no longer in direct contact with the grung can repeat the saving\
+      \ throw at the end of each of its turns, ending the effect on itself on a success."
+    "name": "Poisonous Skin"
+  - "desc": "The grung's long jump is up to 25 feet and its high jump is up to 15\
+      \ feet, with or without a running start."
+    "name": "Standing Leap"
+  - "desc": "If the grung isn't immersed in water for at least 1 hour during a day,\
+      \ it suffers 1 level of [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion)\
+      \ at the end of that day. The grung can recover from this [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion)\
+      \ only through magic or by immersing itself in water for at least 1 hour."
+    "name": "Water Dependency"
 "actions":
-- "desc": "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60\
-    \ ft., one target. Hit: 4 (1d4 + 2) piercing damage plus 5 (2d4) poison\
-    \ damage."
-  "name": "Dagger"
+  - "desc": "Melee  or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. Hit: 4 (1d4 + 2) piercing damage plus 5 (2d4) poison\
+      \ damage."
+    "name": "Dagger"
 "source":
-- "MPMM"
-- "VGM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/humanoid/token/grung-mpmm.webp"
+  - "MPMM"
+  - "VGM"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/grung-mpmm.webp"
 ```
 ^statblock
 

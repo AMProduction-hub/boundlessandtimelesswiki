@@ -4,15 +4,16 @@ cssclasses: json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/bgdia
-aliases: ["Baldur's Gate Sailor"]
+aliases:
+- Baldur's Gate Sailor
 ---
 # Baldur's Gate Sailor
 *Source: Baldur's Gate: Descent Into Avernus p. 204, Player's Handbook p. 139*  
 
 
 - **Skill Proficiencies.** [Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics), [Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)  
-- **Tool Proficiencies.** [Navigator's tools](navigators-tools.md), vehicles (water)  
-- **Equipment.** A belaying pin ([club](club.md)), [silk rope (50 feet)](silk-rope-50-feet.md), a lucky charm such as a rabbit foot or a small stone with a hole in the center (or you may roll for a random [trinket](trinket.md) on the Trinkets table in chapter 5), a set of [common clothes](common-clothes.md), and a belt [pouch](pouch.md) containing 10 gp  
+- **Tool Proficiencies.** [Navigator's tools](03.PlayerLog&Handouts/Mechanics/CLI/items/navigators-tools.md), vehicles (water)  
+- **Equipment.** A belaying pin ([club](03.PlayerLog&Handouts/Mechanics/CLI/items/club.md)), [silk rope (50 feet)](03.PlayerLog&Handouts/Mechanics/CLI/items/silk-rope-50-feet.md), a lucky charm such as a rabbit foot or a small stone with a hole in the center (or you may roll for a random [trinket](03.PlayerLog&Handouts/Mechanics/CLI/items/trinket.md) on the Trinkets table in chapter 5), a set of [common clothes](03.PlayerLog&Handouts/Mechanics/CLI/items/common-clothes.md), and a belt [pouch](03.PlayerLog&Handouts/Mechanics/CLI/items/pouch.md) containing 10 gp  
 
 Baldur's Gate was founded by sailors, and its harbor is still the city's beating heart. Several patriars are descended from captains of yore, the commerce of the Lower City is built on the port, and even the Outer City's rhythms are dominated by the ebb and flow of river trade. Because sailors are as fundamental and ubiquitous to Baldur's Gate as the cobbles on its streets, characters with this background are common.
 

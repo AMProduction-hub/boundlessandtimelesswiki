@@ -8,9 +8,11 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/humanoid
 statblock: inline
-aliases: ["Abjurer Wizard"]
+statblock-link: "#^statblock"
+aliases:
+- Abjurer Wizard
 ---
-# [Abjurer Wizard](03 - Player Log & Handouts\Mechanics\CLI\bestiary\humanoid/abjurer-wizard-mpmm.md)
+# [Abjurer Wizard](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/abjurer-wizard-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 260, Volo's Guide to Monsters p. 209*  
 
 Abjurers specialize in creating protective magical wards. Monarchs, nobles, and other wealthy individuals commonly hire abjurers to provide protection.
@@ -25,62 +27,63 @@ Wizards pursue magical power through the study of arcane texts. Some travel the 
 "type": "humanoid"
 "alignment": "Any alignment"
 "ac": !!int "12"
-"ac_class": "15 with [mage armor](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/mage-armor.md)"
+"ac_class": "15 with [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md)"
 "hp": !!int "104"
 "hit_dice": "16d8 + 32"
+"modifier": !!int "2"
 "stats":
-- !!int "9"
-- !!int "14"
-- !!int "14"
-- !!int "18"
-- !!int "12"
-- !!int "11"
+  - !!int "9"
+  - !!int "14"
+  - !!int "14"
+  - !!int "18"
+  - !!int "12"
+  - !!int "11"
 "speed": "30 ft."
 "saves":
-  "Wisdom": !!int "5"
-  "Intelligence": !!int "8"
+  - "intelligence": "+8"
+  - "wisdom": "+5"
 "skillsaves":
-  "History": !!int "8"
-  "Arcana": !!int "8"
+  - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
+    "desc": "+8"
+  - "name": "[History](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#History)"
+    "desc": "+8"
 "senses": "passive Perception 11"
 "languages": "any four languages"
 "cr": "9"
-"traits":
-- "desc": "The abjurer casts one of the following spells, using Intelligence as the\
-    \ spellcasting ability (spell save DC 16):\n\nAt will: [dancing lights](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/dancing-lights.md),\
-    \ [mage hand](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/mage-hand.md),\
-    \ [message](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/message.md),\
-    \ [prestidigitation](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/prestidigitation.md)\n\
-    \n1/day each: [arcane lock](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/arcane-lock.md),\
-    \ [banishment](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/banishment.md),\
-    \ [globe of invulnerability](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/globe-of-invulnerability.md),\
-    \ [invisibility](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/invisibility.md),\
-    \ [wall of force](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/wall-of-force.md)\n\
-    \n2/day each: [dispel magic](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/dispel-magic.md),\
-    \ [lightning bolt](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/lightning-bolt.md),\
-    \ [mage armor](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/mage-armor.md)"
-  "name": "Spellcasting"
 "actions":
-- "desc": "The abjurer makes three Arcane Burst attacks."
-  "name": "Multiattack"
-- "desc": "Melee or Ranged Spell Attack: +6 to hit, reach 5 ft. or range 120 ft.,\
-    \ one target. Hit: 20 (3d10 + 4) force damage."
-  "name": "Arcane Burst"
-- "desc": "Each creature in a 20-foot cube originating from the abjurer must make\
-    \ a DC 16 Constitution saving throw. On a failed save, a creature takes 36 (8d8)\
-    \ force damage and is pushed up to 10 feet away from the abjurer. On a successful\
-    \ save, a creature takes half as much damage and isn't pushed."
-  "name": "Force Blast"
+  - "desc": "The abjurer makes three Arcane Burst attacks."
+    "name": "Multiattack"
+  - "desc": "Melee  or Ranged Spell Attack: +6 to hit, reach 5 ft. or range 120\
+      \ ft., one target. Hit: 20 (3d10 + 4) force damage."
+    "name": "Arcane Burst"
+  - "desc": "Each creature in a 20-foot cube originating from the abjurer must make\
+      \ a DC 16 Constitution saving throw. On a failed save, a creature takes 36 (8d8)\
+      \ force damage and is pushed up to 10 feet away from the abjurer. On a successful\
+      \ save, a creature takes half as much damage and isn't pushed."
+    "name": "Force Blast"
+  - "desc": "The abjurer casts one of the following spells, using Intelligence as\
+      \ the spellcasting ability (spell save DC 16):\n\nAt will: [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md),\
+      \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), [message](03.PlayerLog&Handouts/Mechanics/CLI/spells/message.md),\
+      \ [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md)\n\
+      \n2/day each: [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
+      \ [lightning bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/lightning-bolt.md),\
+      \ [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md)\n\n\
+      1/day each: [arcane lock](03.PlayerLog&Handouts/Mechanics/CLI/spells/arcane-lock.md),\
+      \ [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md), [globe\
+      \ of invulnerability](03.PlayerLog&Handouts/Mechanics/CLI/spells/globe-of-invulnerability.md),\
+      \ [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md),\
+      \ [wall of force](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-force.md)"
+    "name": "Spellcasting"
 "reactions":
-- "desc": "When the abjurer or a creature it can see within 30 feet of it takes damage,\
-    \ the abjurer magically creates a protective barrier around itself or the other\
-    \ creature. The barrier reduces the damage to the protected creature by 26 (4d10\
-    \ + 4), to a minimum of 0, and then vanishes."
-  "name": "Arcane Ward (Recharge 4-6)"
+  - "desc": "When the abjurer or a creature it can see within 30 feet of it takes\
+      \ damage, the abjurer magically creates a protective barrier around itself or\
+      \ the other creature. The barrier reduces the damage to the protected creature\
+      \ by 26 (4d10 + 4), to a minimum of 0, and then vanishes."
+    "name": "Arcane Ward (Recharge 4-6)"
 "source":
-- "MPMM"
-- "VGM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/humanoid/token/abjurer-wizard-mpmm.webp"
+  - "MPMM"
+  - "VGM"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/abjurer-wizard-mpmm.webp"
 ```
 ^statblock
 

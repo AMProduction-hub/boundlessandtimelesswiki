@@ -7,9 +7,11 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/humanoid/human
 statblock: inline
-aliases: ["Necromite of Myrkul"]
+statblock-link: "#^statblock"
+aliases:
+- Necromite of Myrkul
 ---
-# [Necromite of Myrkul](03 - Player Log & Handouts\Mechanics\CLI\bestiary\humanoid/necromite-of-myrkul-bgdia.md)
+# [Necromite of Myrkul](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/necromite-of-myrkul-bgdia.md)
 *Source: Baldur's Gate: Descent Into Avernus p. 234*  
 
 Those who follow Myrkul are either wizards or those who seek to master the necromantic arts.
@@ -31,29 +33,32 @@ A follower of Myrkul wields a flail that has a skull replacing the normal flail'
 "ac": !!int "11"
 "hp": !!int "13"
 "hit_dice": "2d8 + 4"
+"modifier": !!int "1"
 "stats":
-- !!int "10"
-- !!int "13"
-- !!int "15"
-- !!int "16"
-- !!int "11"
-- !!int "10"
+  - !!int "10"
+  - !!int "13"
+  - !!int "15"
+  - !!int "16"
+  - !!int "11"
+  - !!int "10"
 "speed": "30 ft."
 "skillsaves":
-  "Religion": !!int "5"
-  "Arcana": !!int "5"
+  - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
+    "desc": "+5"
+  - "name": "[Religion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Religion)"
+    "desc": "+5"
 "senses": "passive Perception 10"
 "languages": "Abyssal, Common, Infernal"
 "cr": "1/2"
 "actions":
-- "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 4 (1d8)\
-    \ bludgeoning damage."
-  "name": "Skull Flail"
-- "desc": "Ranged Spell Attack: +5 to hit, range 90 ft., one target. Hit: 8\
-    \ (2d4 + 3) necrotic damage."
-  "name": "Claws of the Grave"
+  - "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 4\
+      \ (d8) bludgeoning damage."
+    "name": "Skull Flail"
+  - "desc": "Ranged Spell Attack: +5 to hit, range 90 ft., one target. Hit:\
+      \ 8 (2d4 + 3) necrotic damage."
+    "name": "Claws of the Grave"
 "source":
-- "BGDIA"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/humanoid/token/necromite-of-myrkul-bgdia.webp"
+  - "BGDIA"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/necromite-of-myrkul-bgdia.webp"
 ```
 ^statblock

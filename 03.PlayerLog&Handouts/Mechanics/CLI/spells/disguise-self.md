@@ -3,24 +3,30 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
+- ttrpg-cli/spell/background/dimir-operative
 - ttrpg-cli/spell/class/artificer
 - ttrpg-cli/spell/class/bard
 - ttrpg-cli/spell/class/sorcerer
 - ttrpg-cli/spell/class/wizard
+- ttrpg-cli/spell/feat/aberrant-dragonmark
 - ttrpg-cli/spell/feat/artificer-initiate
+- ttrpg-cli/spell/feat/initiate-of-high-sorcery
 - ttrpg-cli/spell/feat/magic-initiate
 - ttrpg-cli/spell/feat/shadow-touched
+- ttrpg-cli/spell/feat/strixhaven-initiate
 - ttrpg-cli/spell/feat/svirfneblin-magic
 - ttrpg-cli/spell/level/1st-level
 - ttrpg-cli/spell/optfeature/mask-of-many-faces
 - ttrpg-cli/spell/race/deep-gnome
 - ttrpg-cli/spell/race/firbolg
-- ttrpg-cli/spell/race/gnome-deep-dmg
+- ttrpg-cli/spell/race/gnome-deep
+- ttrpg-cli/spell/race/hexblood
 - ttrpg-cli/spell/school/illusion
 - ttrpg-cli/spell/subclass/arcane-trickster
 - ttrpg-cli/spell/subclass/eldritch-knight
 - ttrpg-cli/spell/subclass/gloom-stalker
 - ttrpg-cli/spell/subclass/trickery-domain
+- ttrpg-cli/spell/subrace/elf-mark-of-shadow
 - ttrpg-cli/spell/subrace/tiefling-dispater
 - ttrpg-cli/spell/subrace/tiefling-glasya
 classes:
@@ -32,7 +38,8 @@ classes:
 - Rogue (Arcane Trickster)
 - Sorcerer
 - Wizard
-aliases: ["Disguise Self"]
+aliases:
+- Disguise Self
 ---
 # Disguise Self
 *1st-level, Illusion*  
@@ -49,6 +56,6 @@ The changes wrought by this spell fail to hold up to physical inspection. For ex
 
 To discern that you are disguised, a creature can use its action to inspect your appearance and must succeed on an Intelligence ([Investigation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Investigation)) check against your spell save DC.
 
-**Classes**: [Artificer](list-spells-classes-artificer.md); [Bard](list-spells-classes-bard.md); [Cleric (Trickery Domain)](list-spells-classes-cleric-trickery-domain.md); [Fighter (Eldritch Knight)](list-spells-classes-fighter-eldritch-knight.md); [Sorcerer](list-spells-classes-sorcerer.md); [Ranger (Gloom Stalker)](list-spells-classes-ranger-gloom-stalker-xge.md "subclass=XGE"); [Rogue (Arcane Trickster)](list-spells-classes-rogue-arcane-trickster.md); [Wizard](list-spells-classes-wizard.md)
+**Classes**: [Artificer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-artificer.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Ranger (Gloom Stalker)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-gloom-stalker-xge.md "subclass=XGE"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Cleric (Trickery Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-trickery-domain.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook p. 233. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*

@@ -9,14 +9,12 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/monstrosity
 statblock: inline
-aliases: ["Centaur"]
+statblock-link: "#^statblock"
+aliases:
+- Centaur
 ---
-# [Centaur](03 - Player Log & Handouts\Mechanics\CLI\bestiary\monstrosity/centaur.md)
-*Source: Monster Manual p. 38. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
-
-> [!quote] A quote from Batley Summerfoot, a halfling adventurer who never read HOOVES OF FURY, by Iryil Grayborn of Sundown  
-> 
-> I hear centaurs make excellent mounts!
+# [Centaur](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/centaur.md)
+*Source: Monster Manual p. 38, Storm King's Thunder, Tales from the Yawning Portal, Ghosts of Saltmarsh, Dragon of Icespire Peak, Mythic Odysseys of Theros. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 Reclusive wanderers and omen-readers of the wild, centaurs avoid conflict but fight fiercely when pressed. They roam the vast wilderness, keeping far from borders, laws, and the company of other creatures.
 
@@ -45,42 +43,51 @@ Despite their reclusive nature, centaurs trade with elves and with the caravans 
 "ac": !!int "12"
 "hp": !!int "45"
 "hit_dice": "6d10 + 12"
+"modifier": !!int "2"
 "stats":
-- !!int "18"
-- !!int "14"
-- !!int "14"
-- !!int "9"
-- !!int "13"
-- !!int "11"
+  - !!int "18"
+  - !!int "14"
+  - !!int "14"
+  - !!int "9"
+  - !!int "13"
+  - !!int "11"
 "speed": "50 ft."
 "skillsaves":
-  "Athletics": !!int "6"
-  "Perception": !!int "3"
-  "Survival": !!int "3"
+  - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
+    "desc": "+6"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+3"
+  - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
+    "desc": "+3"
 "senses": "passive Perception 13"
 "languages": "Elvish, Sylvan"
 "cr": "2"
 "traits":
-- "desc": "If the centaur moves at least 30 feet straight toward a target and then\
-    \ hits it with a pike attack on the same turn, the target takes an extra 10 (3d6)\
-    \ piercing damage."
-  "name": "Charge"
+  - "desc": "If the centaur moves at least 30 feet straight toward a target and then\
+      \ hits it with a pike attack on the same turn, the target takes an extra 10\
+      \ (3d6) piercing damage."
+    "name": "Charge"
 "actions":
-- "desc": "The centaur makes two attacks: one with its pike and one with its hooves\
-    \ or two with its longbow."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 9\
-    \ (1d10 + 4) piercing damage."
-  "name": "Pike"
-- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11\
-    \ (2d6 + 4) bludgeoning damage."
-  "name": "Hooves"
-- "desc": "Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit:\
-    \ 6 (1d8 + 2) piercing damage."
-  "name": "Longbow"
+  - "desc": "The centaur makes two attacks: one with its pike and one with its hooves\
+      \ or two with its longbow."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit:\
+      \ 9 (1d10 + 4) piercing damage."
+    "name": "Pike"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11\
+      \ (2d6 + 4) bludgeoning damage."
+    "name": "Hooves"
+  - "desc": "Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit:\
+      \ 6 (1d8 + 2) piercing damage."
+    "name": "Longbow"
 "source":
-- "MM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/monstrosity/token/centaur.webp"
+  - "MM"
+  - "SKT"
+  - "TftYP"
+  - "GoS"
+  - "DIP"
+  - "MOT"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/token/centaur.webp"
 ```
 ^statblock
 

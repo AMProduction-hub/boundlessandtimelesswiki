@@ -2,20 +2,21 @@
 obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
-- ttrpg-cli/spell/list/race/gnome-deep-dmg
-aliases: ["Spells for Gnome (Deep) (DMG)"]
+- ttrpg-cli/spell/list/race/gnome-deep
+aliases:
+- Spells for Gnome (Deep)
 ---
-# Spells for Gnome (Deep) (DMG)
+# Spells for Gnome (Deep)
 
 ## 1st Level
 
-- [Disguise Self](disguise-self.md "PHB") 
+- [Disguise Self](03.PlayerLog&Handouts/Mechanics/CLI/spells/disguise-self.md "PHB") 
 
 ## 2nd Level
 
-- [Blindness/Deafness](blindness-deafness.md "PHB") 
-- [Blur](blur.md "PHB") 
+- [Blindness/Deafness](03.PlayerLog&Handouts/Mechanics/CLI/spells/blindness-deafness.md "PHB") 
+- [Blur](03.PlayerLog&Handouts/Mechanics/CLI/spells/blur.md "PHB") 
 
 ## 3rd Level
 
-- [Nondetection](nondetection.md "PHB")
+- [Nondetection](03.PlayerLog&Handouts/Mechanics/CLI/spells/nondetection.md "PHB")

@@ -7,10 +7,12 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/fiend/devil
 statblock: inline
-aliases: ["Bone Devil"]
+statblock-link: "#^statblock"
+aliases:
+- Bone Devil
 ---
-# [Bone Devil](03 - Player Log & Handouts\Mechanics\CLI\bestiary\fiend/bone-devil.md)
-*Source: Monster Manual p. 71, Baldur's Gate: Descent Into Avernus, Sigil and the Outlands. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Bone Devil](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/bone-devil.md)
+*Source: Monster Manual p. 71, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Divine Contention, Dragon of Icespire Peak, Baldur's Gate: Descent Into Avernus, Explorer's Guide to Wildemount, Dragonlance: Shadow of the Dragon Queen. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Driven by hate, lust, and envy, bone devils act as the cruel taskmasters of the Nine Hells. They set weaker devils to work, taking special delight in seeing fiends that defy them demoted. At the same time, they long for promotion and are bitterly envious of their superiors, attempting to curry favor though it irks them to do so.
 
@@ -112,7 +114,7 @@ The Nine Hells are a single plane comprising nine separate layers (see the Layer
 
 > [!note] Devil True Names and Talismans
 > 
-> Though devils all have common names, every devil above a lemure in station also has a true name that it keeps secret. A devil can be forced to disclose its true name if [charmed](conditions.md#Charmed), and ancient scrolls and tomes are said to exist that list the true names of certain devils.
+> Though devils all have common names, every devil above a lemure in station also has a true name that it keeps secret. A devil can be forced to disclose its true name if [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), and ancient scrolls and tomes are said to exist that list the true names of certain devils.
 > 
 > A mortal who learns a devil's true name can use powerful summoning magic to call the devil from the Nine Hells and bind it into service. Binding can also be accomplished with the help of a devil talisman. Each of these ancient relics is inscribed with the true name of a devil it controls, and was bathed in the blood of a worthy sacrifice-typically someone the creator loved-when crafted.
 > 
@@ -128,10 +130,10 @@ The Nine Hells are a single plane comprising nine separate layers (see the Layer
 > - A barbed devil has a 30 percent chance of summoning one barbed devil.  
 > - A bearded devil has a 30 percent chance of summoning one bearded devil.  
 > - A bone devil has a 40 percent chance of summoning `2d6` spined devils or one bone devil.  
-> - An erinyes has a 50 percent chance of summoning `3d6` spined devils, `1d6` bearded devils, or one erinyes.  
+> - An erinyes has a 50 percent chance of summoning `3d6` spined devils, `d6` bearded devils, or one erinyes.  
 > - A horned devil has a 30 percent chance of summoning one horned devil.  
 > - An ice devil has a 60 percent chance of summoning one ice devil.  
-> - A pit fiend summons `2d4` bearded devils, `1d4` barbed devils, or one erinyes with no chance of failure.  
+> - A pit fiend summons `2d4` bearded devils, `d4` barbed devils, or one erinyes with no chance of failure.  
 > 
 > A summoned devil appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other devils. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.
 ^variant-devil-summoning
@@ -146,50 +148,58 @@ The Nine Hells are a single plane comprising nine separate layers (see the Layer
 "ac_class": "natural armor"
 "hp": !!int "142"
 "hit_dice": "15d10 + 60"
+"modifier": !!int "3"
 "stats":
-- !!int "18"
-- !!int "16"
-- !!int "18"
-- !!int "13"
-- !!int "14"
-- !!int "16"
+  - !!int "18"
+  - !!int "16"
+  - !!int "18"
+  - !!int "13"
+  - !!int "14"
+  - !!int "16"
 "speed": "40 ft., fly 40 ft."
 "saves":
-  "Charisma": !!int "7"
-  "Wisdom": !!int "6"
-  "Intelligence": !!int "5"
+  - "intelligence": "+5"
+  - "wisdom": "+6"
+  - "charisma": "+7"
 "skillsaves":
-  "Deception": !!int "7"
-  "Insight": !!int "6"
+  - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
+    "desc": "+7"
+  - "name": "[Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight)"
+    "desc": "+6"
 "damage_resistances": "cold; bludgeoning, piercing, slashing from nonmagical attacks\
   \ that aren't silvered"
 "damage_immunities": "fire, poison"
-"condition_immunities": "[poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "darkvision 120 ft., passive Perception 12"
 "languages": "Infernal, telepathy 120 ft."
 "cr": "9"
 "traits":
-- "desc": "Magical darkness doesn't impede the devil's darkvision."
-  "name": "Devil's Sight"
-- "desc": "The devil has advantage on saving throws against spells and other magical\
-    \ effects."
-  "name": "Magic Resistance"
+  - "desc": "Magical darkness doesn't impede the devil's darkvision."
+    "name": "Devil's Sight"
+  - "desc": "The devil has advantage on saving throws against spells and other magical\
+      \ effects."
+    "name": "Magic Resistance"
 "actions":
-- "desc": "The devil makes three attacks: two with its claws and one with its sting."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 8\
-    \ (1d8 + 4) slashing damage."
-  "name": "Claw"
-- "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 13\
-    \ (2d8 + 4) piercing damage plus 17 (5d6) poison damage, and the target must\
-    \ succeed on a DC 14 Constitution saving throw or become [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
-    \ for 1 minute. The target can repeat the saving throw at the end of each of its\
-    \ turns, ending the effect on itself on a success."
-  "name": "Sting"
+  - "desc": "The devil makes three attacks: two with its claws and one with its sting."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit:\
+      \ 8 (1d8 + 4) slashing damage."
+    "name": "Claw"
+  - "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit:\
+      \ 13 (2d8 + 4) piercing damage plus 17 (5d6) poison damage, and the target\
+      \ must succeed on a DC 14 Constitution saving throw or become [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
+      \ for 1 minute. The target can repeat the saving throw at the end of each of\
+      \ its turns, ending the effect on itself on a success."
+    "name": "Sting"
 "source":
-- "MM"
-- "BGDIA"
-- "SatO"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/fiend/token/bone-devil.webp"
+  - "MM"
+  - "ToA"
+  - "WDMM"
+  - "DC"
+  - "DIP"
+  - "BGDIA"
+  - "EGW"
+  - "DSotDQ"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/token/bone-devil.webp"
 ```
 ^statblock

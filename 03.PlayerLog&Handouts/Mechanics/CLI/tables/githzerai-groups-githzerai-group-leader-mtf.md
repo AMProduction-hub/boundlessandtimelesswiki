@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
-aliases: ["Githzerai Groups; Githzerai Group Leader"]
+aliases:
+- Githzerai Groups; Githzerai Group Leader
 ---
 # Githzerai Groups; Githzerai Group Leader
 *Source: Mordenkainen's Tome of Foes p. 98* 
@@ -15,6 +16,6 @@ aliases: ["Githzerai Groups; Githzerai Group Leader"]
 | dice: d6 | Leader |
 |----------|--------|
 | 1 | [Githzerai Anarch](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/githzerai-anarch-mpmm.md) |
-| 2-3 | [Githzerai Enlightened](githzerai-enlightened-mpmm.md) |
-| 4-6 | [Githzerai Zerth](githzerai-zerth.md) |
+| 2-3 | [Githzerai Enlightened](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/githzerai-enlightened-mpmm.md) |
+| 4-6 | [Githzerai Zerth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/githzerai-zerth.md) |
 ^githzerai-group-leader

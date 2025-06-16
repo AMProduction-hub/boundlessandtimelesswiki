@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
-aliases: ["Duergar Raiding Parties; Duergar Purpose of Raid"]
+aliases:
+- Duergar Raiding Parties; Duergar Purpose of Raid
 ---
 # Duergar Raiding Parties; Duergar Purpose of Raid
 *Source: Mordenkainen's Tome of Foes p. 83* 

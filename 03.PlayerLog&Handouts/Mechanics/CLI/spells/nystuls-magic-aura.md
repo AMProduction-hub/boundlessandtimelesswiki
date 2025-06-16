@@ -5,6 +5,7 @@ tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/spell/class/bard
 - ttrpg-cli/spell/class/wizard
+- ttrpg-cli/spell/feat/adept-of-the-red-robes
 - ttrpg-cli/spell/level/2nd-level
 - ttrpg-cli/spell/school/illusion
 - ttrpg-cli/spell/subclass/arcana-domain
@@ -16,7 +17,8 @@ classes:
 - Fighter (Eldritch Knight)
 - Rogue (Arcane Trickster)
 - Wizard
-aliases: ["Nystul's Magic Aura"]
+aliases:
+- Nystul's Magic Aura
 ---
 # Nystul's Magic Aura
 *2nd-level, Illusion*  
@@ -33,14 +35,14 @@ When you cast the spell, choose one or both of the following effects. The effect
 
 ## False Aura
 
-You change the way the target appears to spells and magical effects, such as [detect magic](detect-magic.md), that detect magical auras. You can make a nonmagical object appear magical, a magical object appear nonmagical, or change the object's magical aura so that it appears to belong to a specific school of magic that you choose. When you use this effect on an object, you can make the false magic apparent to any creature that handles the item.
+You change the way the target appears to spells and magical effects, such as [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md), that detect magical auras. You can make a nonmagical object appear magical, a magical object appear nonmagical, or change the object's magical aura so that it appears to belong to a specific school of magic that you choose. When you use this effect on an object, you can make the false magic apparent to any creature that handles the item.
 
 ## Mask
 
-You change the way the target appears to spells and magical effects that detect creature types, such as a paladin's [Divine Sense](paladin.md#Divine%20Sense%20(Level%201)) or the trigger of a [symbol](symbol.md) spell. You choose a creature type and other spells and magical effects treat the target as if it were a creature of that type or of that alignment.
+You change the way the target appears to spells and magical effects that detect creature types, such as a paladin's [Divine Sense](03.PlayerLog&Handouts/Mechanics/CLI/classes/paladin.md#Divine%20Sense%20(Level%201)) or the trigger of a [symbol](03.PlayerLog&Handouts/Mechanics/CLI/spells/symbol.md) spell. You choose a creature type and other spells and magical effects treat the target as if it were a creature of that type or of that alignment.
 
 ## Summary
 
-**Classes**: [Rogue (Arcane Trickster)](list-spells-classes-rogue-arcane-trickster.md); [Bard](list-spells-classes-bard.md); [Wizard](list-spells-classes-wizard.md); [Fighter (Eldritch Knight)](list-spells-classes-fighter-eldritch-knight.md); [Cleric (Arcana Domain)](list-spells-classes-cleric-arcana-domain-scag.md "subclass=SCAG")
+**Classes**: [Cleric (Arcana Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcana-domain-scag.md "subclass=SCAG"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md)
 
 *Source: Player's Handbook p. 263. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> (as "Arcanist's Magic Aura")*

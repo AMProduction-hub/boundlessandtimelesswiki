@@ -4,7 +4,8 @@ cssclasses: json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/phb
-aliases: ["Guild Artisan"]
+aliases:
+- Guild Artisan
 ---
 # Guild Artisan
 *Source: Player's Handbook p. 132*  
@@ -13,7 +14,7 @@ aliases: ["Guild Artisan"]
 - **Skill Proficiencies.** [Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight), [Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion)  
 - **Tool Proficiencies.** One type of artisan's tools  
 - **Languages.** One of your choice  
-- **Equipment.** A set of artisan's tools (one of your choice), a letter of introduction from your guild, a set of [traveler's clothes](travelers-clothes.md), and a belt [pouch](pouch.md) containing 15 gp  
+- **Equipment.** A set of artisan's tools (one of your choice), a letter of introduction from your guild, a set of [traveler's clothes](03.PlayerLog&Handouts/Mechanics/CLI/items/travelers-clothes.md), and a belt [pouch](03.PlayerLog&Handouts/Mechanics/CLI/items/pouch.md) containing 15 gp  
 
 You are a member of an artisan's guild, skilled in a particular field and closely associated with other artisans. You are a well-established part of the mercantile world, freed by talent and wealth from the constraints of a feudal social order. You learned your skills as an apprentice to a master artisan, under the sponsorship of your guild, until you became a master in your own right.
 

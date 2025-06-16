@@ -6,7 +6,8 @@ tags:
 - ttrpg-cli/deity/norse
 - ttrpg-cli/domain/light
 - ttrpg-cli/domain/order
-aliases: ["Forseti"]
+aliases: 
+- Forseti
 ---
 # Forseti
 *Source: Player's Handbook p. 299* 

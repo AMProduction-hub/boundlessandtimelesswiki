@@ -5,7 +5,8 @@ tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/object/size/large
 - ttrpg-cli/object/type/siege-weapon
-aliases: ["Suspended Cauldron"]
+aliases:
+- Suspended Cauldron
 ---
 # Suspended Cauldron
 %%-- Embedded content starts on the next line. --%%
@@ -13,11 +14,11 @@ aliases: ["Suspended Cauldron"]
 
 A cauldron is an iron pot suspended so that it can be tipped easily, spilling its contents. Once emptied, a cauldron must be refilled-and its contents must usually be reheated-before it can be used again. It takes three actions to fill a cauldron and one action to tip it.
 
-Cauldrons can be filled with other liquids, such as acid or [green slime](green-slime.md), with different effects.
+Cauldrons can be filled with other liquids, such as acid or [green slime](03.PlayerLog&Handouts/Mechanics/CLI/traps-hazards/green-slime.md), with different effects.
 
 ```ad-statblock
 title: Suspended Cauldron
-![](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/objects/token/suspended-cauldron.webp#token)
+![](03.PlayerLog&Handouts/Mechanics/CLI/objects/token/suspended-cauldron.webp#token)
 *Large Siege weapon*
 
 - **Armor Class** 19

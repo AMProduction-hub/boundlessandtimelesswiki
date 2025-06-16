@@ -4,7 +4,8 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/class/cleric
 - ttrpg-cli/compendium/src/5e/phb
-aliases: ["Cleric"]
+aliases:
+- Cleric
 ---
 # Cleric
 *Source: Player's Handbook p. 56. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
@@ -49,18 +50,18 @@ aliases: ["Cleric"]
 ## Starting Cleric
 
 - **Saving Throws**: Charisma, Wisdom
-- **Armor**: [light armor](item-types.md#Light%20Armor), [medium armor](item-types.md#Medium%20Armor), [shields](03.PlayerLog&Handouts/Mechanics/CLI/items/shield.md)
+- **Armor**: [light armor](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-types.md#Light%20Armor), [medium armor](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-types.md#Medium%20Armor), [shields](03.PlayerLog&Handouts/Mechanics/CLI/items/shield.md)
 - **Weapons**: simple weapons
 - **Tools**: none
 - **Skills**: choose 2 from [History](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#History), [Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight), [Medicine](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Medicine), [Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion), and [Religion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Religion)
 
 You start with the following items, plus anything provided by your background.
 
-- (a) a [mace](mace.md) or (b) a [warhammer](warhammer.md) (if proficient)
-- (a) [scale mail](scale-mail.md), (b) [leather armor](leather-armor.md), or (c) [chain mail](chain-mail.md) (if proficient)
-- (a) a [light crossbow](light-crossbow.md) and [20 bolts](crossbow-bolts-20.md) or (b) any simple weapon
-- (a) a [priest's pack](priests-pack.md) or (b) an [explorer's pack](explorers-pack.md)
-- A [shield](03.PlayerLog&Handouts/Mechanics/CLI/items/shield.md) and a [holy symbol](holy-symbol.md)
+- (a) a [mace](03.PlayerLog&Handouts/Mechanics/CLI/items/mace.md) or (b) a [warhammer](03.PlayerLog&Handouts/Mechanics/CLI/items/warhammer.md) (if proficient)
+- (a) [scale mail](03.PlayerLog&Handouts/Mechanics/CLI/items/scale-mail.md), (b) [leather armor](03.PlayerLog&Handouts/Mechanics/CLI/items/leather-armor.md), or (c) [chain mail](03.PlayerLog&Handouts/Mechanics/CLI/items/chain-mail.md) (if proficient)
+- (a) a [light crossbow](03.PlayerLog&Handouts/Mechanics/CLI/items/light-crossbow.md) and [20 bolts](03.PlayerLog&Handouts/Mechanics/CLI/items/crossbow-bolts-20.md) or (b) any simple weapon
+- (a) a [priest's pack](03.PlayerLog&Handouts/Mechanics/CLI/items/priests-pack.md) or (b) an [explorer's pack](03.PlayerLog&Handouts/Mechanics/CLI/items/explorers-pack.md)
+- A [shield](03.PlayerLog&Handouts/Mechanics/CLI/items/shield.md) and a [holy symbol](03.PlayerLog&Handouts/Mechanics/CLI/items/holy-symbol.md)
 
 Alternatively, you may start with 5d4 × 10 gp to buy your own equipment.
 
@@ -70,7 +71,7 @@ Alternatively, you may start with 5d4 × 10 gp to buy your own equipment.
 
 When you gain a level in a class other than your first, you gain only some of that class's starting proficiencies.
 
-- **Armor**: [light armor](item-types.md#Light%20Armor), [medium armor](item-types.md#Medium%20Armor), [shields](03.PlayerLog&Handouts/Mechanics/CLI/items/shield.md)
+- **Armor**: [light armor](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-types.md#Light%20Armor), [medium armor](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-types.md#Medium%20Armor), [shields](03.PlayerLog&Handouts/Mechanics/CLI/items/shield.md)
 
 ## Cleric
 
@@ -117,6 +118,10 @@ Almost all the folk in the world who revere a deity live their lives without eve
 The question has long been debated: Does a mortal become a cleric as a consequence of deep devotion to one's deity, thereby attracting the god's favor? Or is it the deity who sees the potential in a person and calls that individual into service? Ultimately, perhaps, the answer doesn't matter. However clerics come into being, the world needs clerics as much as clerics and deities need each other.
 
 If you're playing a cleric character, the following sections offer ways to add some detail to that character's history and personality.
+
+> [!quote] A quote from Xanathar  
+> 
+> I don't understand the attraction of gods. Why would anyone worship anything other than me?
 
 ## Temple
 _Source: Xanathar's Guide to Everything_
@@ -206,7 +211,7 @@ The Cleric table shows how many spell slots you have to cast your cleric spells 
 
 You prepare the list of cleric spells that are available for you to cast, choosing from the cleric spell list. When you do so, choose a number of cleric spells equal to your Wisdom modifier + your cleric level (minimum of one spell). The spells must be of a level for which you have spell slots.
 
-For example, if you are a 3rd-level cleric, you have four 1st-level and two 2nd-level spell slots. With a Wisdom of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell [cure wounds](cure-wounds.md), you can cast it using a 1st-level or 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.
+For example, if you are a 3rd-level cleric, you have four 1st-level and two 2nd-level spell slots. With a Wisdom of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell [cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/cure-wounds.md), you can cast it using a 1st-level or 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.
 
 You can change your list of prepared spells when you finish a long rest. Preparing a new list of cleric spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list.
 
@@ -214,9 +219,9 @@ You can change your list of prepared spells when you finish a long rest. Prepari
 
 Wisdom is your spellcasting ability for your cleric spells. The power of your spells comes from your devotion to your deity. You use your Wisdom whenever a cleric spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a cleric spell you cast and when making an attack roll with one.
 
-<span class='abilityDc'>**Spell save DC**: 8 + your proficiency bonus + your Wisdom modifier</span>
+<span class='abilityDc'>**Spell save DC**: your proficiency bonus + your Wisdom</span>
 
-<span class='abilityAttackMod'>**Spell attack modifier**: your proficiency bonus + your Wisdom modifier</span>
+<span class='abilityAttackMod'>**Spell attack modifier**: your proficiency bonus + your Wisdom</span>
 
 #### Ritual Casting
 
@@ -224,7 +229,7 @@ You can cast a cleric spell as a ritual if that spell has the ritual tag and you
 
 #### Spellcasting Focus
 
-You can use a [holy symbol](holy-symbol.md) as a spellcasting focus for your cleric spells.
+You can use a [holy symbol](03.PlayerLog&Handouts/Mechanics/CLI/items/holy-symbol.md) as a spellcasting focus for your cleric spells.
 
 ### Divine Domain (Level 1)
 
@@ -250,12 +255,12 @@ Beginning at 6th level, you can use your Channel Divinity twice between rests, a
 
 As an action, you present your holy symbol and speak a prayer censuring the undead. Each undead that can see or hear you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage.
 
-A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the [Dash](actions.md#Dash) action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the [Dodge](actions.md#Dodge) action.
+A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the [Dash](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Dash) action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the [Dodge](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Dodge) action.
 
 ### Channel Divinity: Harness Divine Power (Level 2)
 _Source: Tasha's Cauldron of Everything p. 30_
 
-*2nd-level cleric [optional feature](optional-class-features-tce.md)*
+*2nd-level cleric [optional feature](03.PlayerLog&Handouts/Mechanics/CLI/rules/variant-rules/optional-class-features-tce.md)*
 
 You can expend a use of your Channel Divinity to fuel your spells. As a bonus action, you touch your holy symbol, utter a prayer, and regain one expended spell slot, the level of which can be no higher than half your proficiency bonus (rounded up). The number of times you can use this feature is based on the level you've reached in this class: 2nd level, once; 6th level, twice; and 18th level, thrice. You regain all expended uses when you finish a long rest.
 
@@ -272,7 +277,7 @@ If your DM allows the use of feats, you may instead take a feat.
 ### Cantrip Versatility (Level 4)
 _Source: Tasha's Cauldron of Everything p. 30_
 
-*4th-level cleric [optional feature](optional-class-features-tce.md)*
+*4th-level cleric [optional feature](03.PlayerLog&Handouts/Mechanics/CLI/rules/variant-rules/optional-class-features-tce.md)*
 
 Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the cleric spell list.
 

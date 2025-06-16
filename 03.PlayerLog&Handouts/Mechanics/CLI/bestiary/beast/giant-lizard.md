@@ -12,10 +12,12 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/beast
 statblock: inline
-aliases: ["Giant Lizard"]
+statblock-link: "#^statblock"
+aliases:
+- Giant Lizard
 ---
-# [Giant Lizard](03 - Player Log & Handouts\Mechanics\CLI\bestiary\beast/giant-lizard.md)
-*Source: Monster Manual p. 326. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Giant Lizard](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/giant-lizard.md)
+*Source: Monster Manual p. 326, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Icewind Dale: Rime of the Frostmaiden, Journeys through the Radiant Citadel, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 A giant lizard can be ridden or used as a draft animal. Lizardfolk also keep them as pets, and subterranean giant lizards are used as mounts and pack animals by drow, duergar, and other Underdark dwellers.
 
@@ -37,24 +39,32 @@ A giant lizard can be ridden or used as a draft animal. Lizardfolk also keep the
 "ac_class": "natural armor"
 "hp": !!int "19"
 "hit_dice": "3d10 + 3"
+"modifier": !!int "1"
 "stats":
-- !!int "15"
-- !!int "12"
-- !!int "13"
-- !!int "2"
-- !!int "10"
-- !!int "5"
+  - !!int "15"
+  - !!int "12"
+  - !!int "13"
+  - !!int "2"
+  - !!int "10"
+  - !!int "5"
 "speed": "30 ft., climb 30 ft."
 "senses": "darkvision 30 ft., passive Perception 10"
 "languages": ""
 "cr": "1/4"
 "actions":
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8\
-    \ + 2) piercing damage."
-  "name": "Bite"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6\
+      \ (1d8 + 2) piercing damage."
+    "name": "Bite"
 "source":
-- "MM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/beast/token/giant-lizard.webp"
+  - "MM"
+  - "TftYP"
+  - "ToA"
+  - "WDMM"
+  - "GoS"
+  - "IDRotF"
+  - "JttRC"
+  - "KftGV"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/giant-lizard.webp"
 ```
 ^statblock
 

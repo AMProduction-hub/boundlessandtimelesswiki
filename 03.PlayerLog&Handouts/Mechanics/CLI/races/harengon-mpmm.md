@@ -4,11 +4,12 @@ cssclasses: json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/race/harengon
-aliases: ["Harengon"]
+aliases:
+- Harengon
 ---
 # Harengon
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 22*  
-![](harengon.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/races/img/harengon.webp#right)
 
 - **Ability Scores**: Choose one of: (a) Choose any +2, choose any other +1; (b) Choose any +1, choose any other +1, choose any other +1
 - **Size**: Small or Medium
@@ -30,7 +31,7 @@ You have proficiency in the [Perception](03.PlayerLog&Handouts/Mechanics/CLI/rul
 
 ### Lucky Footwork
 
-When you fail a Dexterity saving throw, you can use your reaction to roll a `d4` and add it to the save, potentially turning the failure into a success. You can't use this reaction if you're [prone](conditions.md#Prone) or your speed is 0.
+When you fail a Dexterity saving throw, you can use your reaction to roll a `d4` and add it to the save, potentially turning the failure into a success. You can't use this reaction if you're [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone) or your speed is 0.
 
 ### Rabbit Hop
 

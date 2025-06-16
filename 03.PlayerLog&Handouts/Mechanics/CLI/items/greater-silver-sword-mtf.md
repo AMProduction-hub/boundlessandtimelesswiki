@@ -11,13 +11,13 @@ aliases:
 - "Greater Silver Sword"
 ---
 # Greater Silver Sword
-*Weapon ([greatsword](greatsword.md)), legendary (requires attunement by a creature that has psionic ability)*  
-![](greater-silver-sword.webp#right)
+*Weapon ([greatsword](03.PlayerLog&Handouts/Mechanics/CLI/items/greatsword.md)), legendary (requires attunement by a creature that has psionic ability)*  
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/greater-silver-sword.webp#right)
 
 - **Damage**: 2d6 slashing
-- **Properties**: [Heavy](item-properties.md#Heavy), [Two-Handed](item-properties.md#Two-Handed)
+- **Properties**: [Heavy](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Heavy), [Two-Handed](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Two-Handed)
 - **Weight**: 6.0 lbs.
 
-This magic weapon grants a +3 bonus to attack and damage rolls made with it. While you hold the sword, you have advantage on Intelligence, Wisdom, and Charisma saving throws, you are immune to being [charmed](conditions.md#Charmed), and you have resistance to psychic damage. In addition, if you score a critical hit with it against a creature's astral body, you can cut the silvery cord that tethers the target to its material body, instead of dealing damage.
+This magic weapon grants a +3 bonus to attack and damage rolls made with it. While you hold the sword, you have advantage on Intelligence, Wisdom, and Charisma saving throws, you are immune to being [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), and you have resistance to psychic damage. In addition, if you score a critical hit with it against a creature's astral body, you can cut the silvery cord that tethers the target to its material body, instead of dealing damage.
 
 *Source: Mordenkainen's Tome of Foes p. 89*

@@ -6,14 +6,18 @@ tags:
 - ttrpg-cli/spell/class/bard
 - ttrpg-cli/spell/class/druid
 - ttrpg-cli/spell/class/ranger
+- ttrpg-cli/spell/feat/adept-of-the-white-robes
 - ttrpg-cli/spell/level/2nd-level
 - ttrpg-cli/spell/ritual
 - ttrpg-cli/spell/school/divination
+- ttrpg-cli/spell/subrace/half-orc-mark-of-finding
+- ttrpg-cli/spell/subrace/human-mark-of-finding
 classes:
 - Bard
 - Druid
 - Ranger
-aliases: ["Locate Animals or Plants"]
+aliases:
+- Locate Animals or Plants
 ---
 # Locate Animals or Plants
 *2nd-level, Divination (ritual)*  
@@ -26,6 +30,6 @@ aliases: ["Locate Animals or Plants"]
 
 Describe or name a specific kind of beast or plant. Concentrating on the voice of nature in your surroundings, you learn the direction and distance to the closest creature or plant of that kind within 5 miles, if any are present.
 
-**Classes**: [Druid](list-spells-classes-druid.md); [Bard](list-spells-classes-bard.md); [Ranger](list-spells-classes-ranger.md)
+**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Ranger](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-ranger.md)
 
 *Source: Player's Handbook p. 256. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

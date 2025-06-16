@@ -4,7 +4,8 @@ cssclasses: json5e-feat
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/feat
-aliases: ["Crusher"]
+aliases:
+- Crusher
 ---
 # Crusher
 *Source: Tasha's Cauldron of Everything p. 79*  

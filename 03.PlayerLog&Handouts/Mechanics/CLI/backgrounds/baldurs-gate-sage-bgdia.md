@@ -4,7 +4,8 @@ cssclasses: json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/bgdia
-aliases: ["Baldur's Gate Sage"]
+aliases:
+- Baldur's Gate Sage
 ---
 # Baldur's Gate Sage
 *Source: Baldur's Gate: Descent Into Avernus p. 204, Player's Handbook p. 137*  
@@ -12,7 +13,7 @@ aliases: ["Baldur's Gate Sage"]
 
 - **Skill Proficiencies.** [Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana), [History](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#History)  
 - **Languages.** Two of your choice  
-- **Equipment.** A [bottle of black ink](ink-1-ounce-bottle.md), a quill, a small knife, a letter from a dead colleague posing a question you have not yet been able to answer, a set of [common clothes](common-clothes.md), and a belt [pouch](pouch.md) containing 10 gp  
+- **Equipment.** A [bottle of black ink](03.PlayerLog&Handouts/Mechanics/CLI/items/ink-1-ounce-bottle.md), a quill, a small knife, a letter from a dead colleague posing a question you have not yet been able to answer, a set of [common clothes](03.PlayerLog&Handouts/Mechanics/CLI/items/common-clothes.md), and a belt [pouch](03.PlayerLog&Handouts/Mechanics/CLI/items/pouch.md) containing 10 gp  
 
 Baldur's Gate has a modest academic community centered around the libraries of the High Hall and the various temples dedicated to gods of learning and innovation. Lecturers, researchers, and historians all participate with passing scholars from Candlekeep in a lively exchange of ideas, debating and collaborating in book-filled halls across the Upper and Lower City. The city is also rife with opportunities for arcane study, although its masters are dispersed across individual wizards' abodes and lack concentrated communities.
 
@@ -25,7 +26,7 @@ When you attempt to learn or recall a piece of lore, if you do not know that inf
 > [!note]
 > The effects of a Baldur's Gate feature can be used only while the character is in Baldur's Gate—though, at the DM's discretion, they might have applicable effects in situations similar to those in Baldur's Gate.
 
-Via your personal rumor mill and articles published in Baldur's Mouth, you can surmise a great deal about Baldurians' secrets—who's practicing necromancy, who's involved in spying or smuggling, who would purchase or craft dangerous magical wares without batting an eyelash. Whenever a noteworthy crime or mysterious happening occurs in the city, you immediately have a list of `1d4` suspects who, if they aren't involved, have a strong chance of knowing who is.
+Via your personal rumor mill and articles published in Baldur's Mouth, you can surmise a great deal about Baldurians' secrets—who's practicing necromancy, who's involved in spying or smuggling, who would purchase or craft dangerous magical wares without batting an eyelash. Whenever a noteworthy crime or mysterious happening occurs in the city, you immediately have a list of `d4` suspects who, if they aren't involved, have a strong chance of knowing who is.
 
 ## Specialty
 

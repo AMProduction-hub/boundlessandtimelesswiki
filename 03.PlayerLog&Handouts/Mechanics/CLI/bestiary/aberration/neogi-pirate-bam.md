@@ -7,9 +7,11 @@ tags:
 - ttrpg-cli/monster/size/small
 - ttrpg-cli/monster/type/aberration
 statblock: inline
-aliases: ["Neogi Pirate"]
+statblock-link: "#^statblock"
+aliases:
+- Neogi Pirate
 ---
-# [Neogi Pirate](03 - Player Log & Handouts\Mechanics\CLI\bestiary\aberration/neogi-pirate-bam.md)
+# [Neogi Pirate](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\aberration/neogi-pirate-bam.md)
 *Source: Boo's Astral Menagerie p. 41, Light of Xaryxis*  
 
 Neogi pirates are adult neogi that serve as crew members aboard nightspiders (see the *Astral Adventurer's Guide*) and other neogi-controlled vessels.
@@ -24,46 +26,49 @@ Neogi pirates (and adult neogi in general) mark themselves and those they captur
 "type": "aberration"
 "alignment": "typically  Lawful Evil"
 "ac": !!int "16"
-"ac_class": "[breastplate](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/items/breastplate.md)"
+"ac_class": "[breastplate](03.PlayerLog&Handouts/Mechanics/CLI/items/breastplate.md)"
 "hp": !!int "33"
 "hit_dice": "6d6 + 12"
+"modifier": !!int "2"
 "stats":
-- !!int "6"
-- !!int "15"
-- !!int "14"
-- !!int "13"
-- !!int "12"
-- !!int "15"
+  - !!int "6"
+  - !!int "15"
+  - !!int "14"
+  - !!int "13"
+  - !!int "12"
+  - !!int "15"
 "speed": "30 ft., climb 30 ft."
 "skillsaves":
-  "Stealth": !!int "4"
-  "Perception": !!int "3"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+3"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+4"
 "senses": "darkvision 60 ft., passive Perception 13"
 "languages": "Common, Deep Speech, Undercommon"
 "cr": "3"
 "traits":
-- "desc": "The neogi has advantage on saving throws against being [charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
-    \ or [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
-    \ and magic can't put the neogi to sleep."
-  "name": "Mental Fortitude"
-- "desc": "The neogi can climb difficult surfaces, including upside down on ceilings,\
-    \ without needing to make an ability check."
-  "name": "Spider Climb"
+  - "desc": "The neogi has advantage on saving throws against being [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
+      \ or [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
+      \ and magic can't put the neogi to sleep."
+    "name": "Mental Fortitude"
+  - "desc": "The neogi can climb difficult surfaces, including upside down on ceilings,\
+      \ without needing to make an ability check."
+    "name": "Spider Climb"
 "actions":
-- "desc": "The neogi makes one Bite attack and two Claw attacks."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d6\
-    \ + 3) piercing damage plus 14 (4d6) poison damage, and the target must succeed\
-    \ on a DC 12 Constitution saving throw or become [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
-    \ for 1 minute. A target can repeat the saving throw at the end of each of its\
-    \ turns, ending the effect on itself on a success."
-  "name": "Bite"
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d6\
-    \ + 3) slashing damage."
-  "name": "Claw"
+  - "desc": "The neogi makes one Bite attack and two Claw attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6\
+      \ (1d6 + 3) piercing damage plus 14 (4d6) poison damage, and the target\
+      \ must succeed on a DC 12 Constitution saving throw or become [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
+      \ for 1 minute. A target can repeat the saving throw at the end of each of its\
+      \ turns, ending the effect on itself on a success."
+    "name": "Bite"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6\
+      \ (1d6 + 3) slashing damage."
+    "name": "Claw"
 "source":
-- "BAM"
-- "LoX"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/aberration/token/neogi-pirate-bam.webp"
+  - "BAM"
+  - "LoX"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/token/neogi-pirate-bam.webp"
 ```
 ^statblock

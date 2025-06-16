@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
-aliases: ["Monsters and Motivations; Monster Motivation"]
+aliases:
+- Monsters and Motivations; Monster Motivation
 ---
 # Monsters and Motivations; Monster Motivation
 *Source: Dungeon Master's Guide p. 296* 

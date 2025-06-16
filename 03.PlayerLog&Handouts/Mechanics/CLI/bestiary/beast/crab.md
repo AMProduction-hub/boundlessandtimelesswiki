@@ -8,10 +8,12 @@ tags:
 - ttrpg-cli/monster/size/tiny
 - ttrpg-cli/monster/type/beast
 statblock: inline
-aliases: ["Crab"]
+statblock-link: "#^statblock"
+aliases:
+- Crab
 ---
-# [Crab](03 - Player Log & Handouts\Mechanics\CLI\bestiary\beast/crab.md)
-*Source: Monster Manual p. 320, Baldur's Gate: Descent Into Avernus. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Crab](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/crab.md)
+*Source: Monster Manual p. 320, Tomb of Annihilation, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 ```statblock
 "name": "Crab"
@@ -22,30 +24,34 @@ aliases: ["Crab"]
 "ac_class": "natural armor"
 "hp": !!int "2"
 "hit_dice": "1d4"
+"modifier": !!int "0"
 "stats":
-- !!int "2"
-- !!int "11"
-- !!int "10"
-- !!int "1"
-- !!int "8"
-- !!int "2"
+  - !!int "2"
+  - !!int "11"
+  - !!int "10"
+  - !!int "1"
+  - !!int "8"
+  - !!int "2"
 "speed": "20 ft., swim 20 ft."
 "skillsaves":
-  "Stealth": !!int "2"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+2"
 "senses": "blindsight 30 ft., passive Perception 9"
 "languages": ""
 "cr": "0"
 "traits":
-- "desc": "The crab can breathe air and water."
-  "name": "Amphibious"
+  - "desc": "The crab can breathe air and water."
+    "name": "Amphibious"
 "actions":
-- "desc": "Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 bludgeoning\
-    \ damage."
-  "name": "Claw"
+  - "desc": "Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1\
+      \ bludgeoning damage."
+    "name": "Claw"
 "source":
-- "MM"
-- "BGDIA"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/beast/token/crab.webp"
+  - "MM"
+  - "ToA"
+  - "GoS"
+  - "BGDIA"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/crab.webp"
 ```
 ^statblock
 

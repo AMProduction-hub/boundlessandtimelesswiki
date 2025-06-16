@@ -10,10 +10,12 @@ tags:
 - ttrpg-cli/monster/type/humanoid/human
 - ttrpg-cli/monster/type/humanoid/shapechanger
 statblock: inline
-aliases: ["Werewolf"]
+statblock-link: "#^statblock"
+aliases:
+- Werewolf
 ---
-# [Werewolf](03 - Player Log & Handouts\Mechanics\CLI\bestiary\humanoid/werewolf.md)
-*Source: Monster Manual p. 211, Baldur's Gate: Descent Into Avernus. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Werewolf](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/werewolf.md)
+*Source: Monster Manual p. 211, Curse of Strahd, Princes of the Apocalypse, Storm King's Thunder, Waterdeep: Dragon Heist, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus, Eberron: Rising from the Last War, Infernal Machine Rebuild, Explorer's Guide to Wildemount, Icewind Dale: Rime of the Frostmaiden, Candlekeep Mysteries. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 A werewolf is a savage predator. In its humanoid form, a werewolf has heightened senses, a fiery temper, and a tendency to eat rare meat. Its wolf form is a fearsome predator, but its hybrid form is more terrifying by far-a furred and well-muscled humanoid body topped by a ravening wolf's head. A werewolf can wield weapons in hybrid form, though it prefers to tear foes apart with its powerful claws and bite.
 
@@ -31,7 +33,7 @@ Evil lycanthropes hide among normal folk, emerging in animal form at night to sp
 
 ### Curse of Lycanthropy
 
-A humanoid creature can be afflicted with the curse of lycanthropy after being wounded by a lycanthrope, or if one or both of its parents are lycanthropes. A [remove curse](remove-curse.md) spell can rid an afflicted lycanthrope of the curse, but a natural born lycanthrope can be freed of the curse only with a wish.
+A humanoid creature can be afflicted with the curse of lycanthropy after being wounded by a lycanthrope, or if one or both of its parents are lycanthropes. A [remove curse](03.PlayerLog&Handouts/Mechanics/CLI/spells/remove-curse.md) spell can rid an afflicted lycanthrope of the curse, but a natural born lycanthrope can be freed of the curse only with a wish.
 
 A lycanthrope can either resist its curse or embrace it. By resisting the curse, a lycanthrope retains its normal alignment and personality while in humanoid form. It lives its life as it always has, burying deep the bestial urges raging inside it. However, when the full moon rises, the curse becomes too strong to resist, transforming the individual into its beast form-or into a horrible hybrid form that combines animal and humanoid traits. When the moon wanes, the beast within can be controlled once again. Especially if the cursed creature is unaware of its condition, it might not remember the events of its transformation, though those memories often haunt a lycanthrope as bloody dreams.
 
@@ -45,15 +47,15 @@ Some individuals see little point in fighting the curse and accept what they are
 > 
 > The following information applies to specific lycanthropes.
 > 
-> **[Werebear](werebear.md).** The character gains a Strength of 19 if his or her score isn't already higher, and a +1 bonus to AC while in bear or hybrid form (from natural armor). Attack and damage rolls for the natural weapons are based on Strength.
+> **[Werebear](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/werebear.md).** The character gains a Strength of 19 if his or her score isn't already higher, and a +1 bonus to AC while in bear or hybrid form (from natural armor). Attack and damage rolls for the natural weapons are based on Strength.
 > 
-> **[Wereboar](wereboar.md).** The character gains a Strength of 17 if his or her score isn't already higher, and a +1 bonus to AC while in boar or hybrid form (from natural armor). Attack and damage rolls for the tusks are based on Strength. For the Charge trait, the DC is 8 + the character's proficiency bonus + Strength modifier.
+> **[Wereboar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/wereboar.md).** The character gains a Strength of 17 if his or her score isn't already higher, and a +1 bonus to AC while in boar or hybrid form (from natural armor). Attack and damage rolls for the tusks are based on Strength. For the Charge trait, the DC is 8 + the character's proficiency bonus + Strength modifier.
 > 
-> **[Wererat](wererat.md).** The character gains a Dexterity of 15 if his or her score isn't already higher. Attack and damage rolls for the bite are based on whichever is higher of the character's Strength and Dexterity.
+> **[Wererat](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/wererat.md).** The character gains a Dexterity of 15 if his or her score isn't already higher. Attack and damage rolls for the bite are based on whichever is higher of the character's Strength and Dexterity.
 > 
-> **[Weretiger](weretiger.md).** The character gains a Strength of 17 if his or her score isn't already higher. Attack and damage rolls for the natural weapons are based on Strength. For the Pounce trait, the DC is 8 + the character's proficiency bonus + Strength modifier.
+> **[Weretiger](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/weretiger.md).** The character gains a Strength of 17 if his or her score isn't already higher. Attack and damage rolls for the natural weapons are based on Strength. For the Pounce trait, the DC is 8 + the character's proficiency bonus + Strength modifier.
 > 
-> **[Werewolf](werewolf.md).** The character gains a Strength of 15 if his or her score isn't already higher, and a +1 bonus to AC while in wolf or hybrid form (from natural armor). Attack and damage rolls for the natural weapons are based on Strength.
+> **[Werewolf](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/werewolf.md).** The character gains a Strength of 15 if his or her score isn't already higher, and a +1 bonus to AC while in wolf or hybrid form (from natural armor). Attack and damage rolls for the natural weapons are based on Strength.
 ^player-characters-as-lycanthropes
 
 ```statblock
@@ -66,50 +68,63 @@ Some individuals see little point in fighting the curse and accept what they are
 "ac_class": "12 from natural armor in wolf or hybrid form"
 "hp": !!int "58"
 "hit_dice": "9d8 + 18"
+"modifier": !!int "1"
 "stats":
-- !!int "15"
-- !!int "13"
-- !!int "14"
-- !!int "10"
-- !!int "11"
-- !!int "10"
+  - !!int "15"
+  - !!int "13"
+  - !!int "14"
+  - !!int "10"
+  - !!int "11"
+  - !!int "10"
 "speed": "30 ft. (40 ft. in wolf form)"
 "skillsaves":
-  "Stealth": !!int "3"
-  "Perception": !!int "4"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+4"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+3"
 "damage_immunities": "bludgeoning, piercing, slashing from nonmagical attacks that\
   \ aren't silvered"
 "senses": "passive Perception 14"
 "languages": "Common (can't speak in wolf form)"
 "cr": "3"
 "traits":
-- "desc": "The werewolf can use its action to polymorph into a wolf-humanoid hybrid\
-    \ or into a wolf, or back into its true form, which is humanoid. Its statistics,\
-    \ other than its AC, are the same in each form. Any equipment it is wearing or\
-    \ carrying isn't transformed. It reverts to its true form if it dies."
-  "name": "Shapechanger"
-- "desc": "The werewolf has advantage on Wisdom ([Perception](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/skills.md#Perception))\
-    \ checks that rely on hearing or smell."
-  "name": "Keen Hearing and Smell"
+  - "desc": "The werewolf can use its action to polymorph into a wolf-humanoid hybrid\
+      \ or into a wolf, or back into its true form, which is humanoid. Its statistics,\
+      \ other than its AC, are the same in each form. Any equipment it is wearing\
+      \ or carrying isn't transformed. It reverts to its true form if it dies."
+    "name": "Shapechanger"
+  - "desc": "The werewolf has advantage on Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception))\
+      \ checks that rely on hearing or smell."
+    "name": "Keen Hearing and Smell"
 "actions":
-- "desc": "The werewolf makes two attacks: two with its spear (humanoid form) or one\
-    \ with its bite and one with its claws (hybrid form)."
-  "name": "Multiattack (Humanoid or Hybrid Form Only)"
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8\
-    \ + 2) piercing damage. If the target is a humanoid, it must succeed on a DC\
-    \ 12 Constitution saving throw or be cursed with werewolf lycanthropy."
-  "name": "Bite (Wolf or Hybrid Form Only)"
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 7\
-    \ (2d4 + 2) slashing damage."
-  "name": "Claws (Hybrid Form Only)"
-- "desc": "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60\
-    \ ft., one creature. Hit: 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing\
-    \ damage if used with two hands to make a melee attack."
-  "name": "Spear (Humanoid Form Only)"
+  - "desc": "The werewolf makes two attacks: two with its spear (humanoid form) or\
+      \ one with its bite and one with its claws (hybrid form)."
+    "name": "Multiattack (Humanoid or Hybrid Form Only)"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6\
+      \ (1d8 + 2) piercing damage. If the target is a humanoid, it must succeed\
+      \ on a DC 12 Constitution saving throw or be cursed with werewolf lycanthropy."
+    "name": "Bite (Wolf or Hybrid Form Only)"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit:\
+      \ 7 (2d4 + 2) slashing damage."
+    "name": "Claws (Hybrid Form Only)"
+  - "desc": "Melee  or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60\
+      \ ft., one creature. Hit: 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2)\
+      \ piercing damage if used with two hands to make a melee attack."
+    "name": "Spear (Humanoid Form Only)"
 "source":
-- "MM"
-- "BGDIA"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/humanoid/token/werewolf.webp"
+  - "MM"
+  - "CoS"
+  - "PotA"
+  - "SKT"
+  - "WDH"
+  - "GoS"
+  - "BGDIA"
+  - "ERLW"
+  - "IMR"
+  - "EGW"
+  - "IDRotF"
+  - "CM"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/werewolf.webp"
 ```
 ^statblock
 

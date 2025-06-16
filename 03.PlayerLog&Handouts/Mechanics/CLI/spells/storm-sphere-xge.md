@@ -16,11 +16,12 @@ classes:
 - Rogue (Arcane Trickster)
 - Sorcerer
 - Wizard
-aliases: ["Storm Sphere"]
+aliases:
+- Storm Sphere
 ---
 # Storm Sphere
 *4th-level, Evocation*  
-![](storm-sphere.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/spells/img/storm-sphere.webp#right)
 
 - **Casting time:** 1 Action
 - **Range:** 150 feet
@@ -33,8 +34,8 @@ Until the spell ends, you can use a bonus action on each of your turns to cause 
 
 Creatures within 30 feet of the sphere have disadvantage on Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) checks made to listen.
 
-**At Higher Levels.** When you cast this spell using a spell slot of 5th level or higher, the damage for each of its effects increases by `1d6` for each slot level above 4th.
+**At Higher Levels.** When you cast this spell using a spell slot of 5th level or higher, the damage for each of its effects increases by `d6` for each slot level above 4th.
 
-**Classes**: [Rogue (Arcane Trickster)](list-spells-classes-rogue-arcane-trickster.md); [Bard](list-spells-classes-bard.md); [Wizard](list-spells-classes-wizard.md); [Fighter (Eldritch Knight)](list-spells-classes-fighter-eldritch-knight.md); [Sorcerer](list-spells-classes-sorcerer.md)
+**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md)
 
-*Source: Xanathar's Guide to Everything p. 166*
+*Source: Xanathar's Guide to Everything p. 166, Elemental Evil Player's Companion p. 22*

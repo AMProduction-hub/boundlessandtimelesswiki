@@ -8,10 +8,12 @@ tags:
 - ttrpg-cli/monster/size/tiny
 - ttrpg-cli/monster/type/dragon
 statblock: inline
-aliases: ["Faerie Dragon (Green)"]
+statblock-link: "#^statblock"
+aliases:
+- Faerie Dragon (Green)
 ---
-# [Faerie Dragon (Green)](03 - Player Log & Handouts\Mechanics\CLI\bestiary\dragon/faerie-dragon-green.md)
-*Source: Monster Manual p. 133*  
+# [Faerie Dragon (Green)](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\dragon/faerie-dragon-green.md)
+*Source: Monster Manual p. 133, Tomb of Annihilation*  
 
 A faerie dragon is a cat-sized dragon with butterfly wings. It wears a sharp-toothed grin and expresses its delight by the twitching of its tail, its merriment fading only if it is attacked.
 
@@ -48,65 +50,103 @@ CR 1 (200 XP) For a red, orange, or yellow faerie dragon; 2 (450 XP) for a green
 "ac": !!int "15"
 "hp": !!int "14"
 "hit_dice": "4d4 + 4"
+"modifier": !!int "5"
 "stats":
-- !!int "3"
-- !!int "20"
-- !!int "13"
-- !!int "14"
-- !!int "12"
-- !!int "16"
+  - !!int "3"
+  - !!int "20"
+  - !!int "13"
+  - !!int "14"
+  - !!int "12"
+  - !!int "16"
 "speed": "10 ft., fly 60 ft."
 "skillsaves":
-  "Stealth": !!int "7"
-  "Perception": !!int "3"
-  "Arcana": !!int "4"
+  - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
+    "desc": "+4"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+3"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+7"
 "senses": "darkvision 60 ft., passive Perception 13"
 "languages": "Draconic, Sylvan"
 "cr": "2"
 "traits":
-- "desc": "The dragon's innate spellcasting ability is Charisma (spell save DC 13).\
-    \ It can innately cast a number of spells, requiring no material components:\n\
-    \n1/day each: [color spray](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/color-spray.md),\
-    \ [dancing lights](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/dancing-lights.md),\
-    \ [mage hand](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/mage-hand.md),\
-    \ [minor illusion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/minor-illusion.md),\
-    \ [mirror image](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/mirror-image.md),\
-    \ [suggestion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/suggestion.md)"
-  "name": "Innate Spellcasting"
-- "desc": "A faerie dragon's scales change hue as it ages, moving through all the\
-    \ colors of the rainbow. All faerie dragons have innate spellcasting ability,\
-    \ gaining new spells as they mature.\n\nRed—5 years or less\n\nOrange—6–10 years\n\
-    \nYellow—11–20 years\n\nGreen—21–30 years\n\nBlue—31–40 years\n\nIndigo—41–50\
-    \ years\n\nViolet—51 years or more\n\nA green or older faerie dragon's CR increases\
-    \ to 2."
-  "name": "The Colors of Age"
-- "desc": "As a bonus action, the dragon can magically turn [invisible](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Invisible)\
-    \ until its [concentration](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Concentration)\
-    \ ends (as if [concentrating](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Concentration)\
-    \ on a spell). Any equipment the dragon wears or carries is [invisible](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Invisible)\
-    \ with it."
-  "name": "Superior Invisibility"
-- "desc": "Using telepathy, the dragon can magically communicate with any other faerie\
-    \ dragon within 60 feet of it."
-  "name": "Limited Telepathy"
-- "desc": "The faerie dragon has advantage on saving throws against spells and other\
-    \ magical effects."
-  "name": "Magic Resistance"
+  - "desc": "The dragon's innate spellcasting ability is Charisma (spell save DC 13).\
+      \ It can innately cast a number of spells, requiring no material components:\n\
+      \n1/day each: [color spray](03.PlayerLog&Handouts/Mechanics/CLI/spells/color-spray.md),\
+      \ [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md),\
+      \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), [minor\
+      \ illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md), [mirror\
+      \ image](03.PlayerLog&Handouts/Mechanics/CLI/spells/mirror-image.md), [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md)"
+    "name": "Innate Spellcasting"
+  - "desc": "A faerie dragon's scales change hue as it ages, moving through all the\
+      \ colors of the rainbow. All faerie dragons have innate spellcasting ability,\
+      \ gaining new spells as they mature.\n\nRed—5 years or less\n\nOrange—6–10 years\n\
+      \nYellow—11–20 years\n\nGreen—21–30 years\n\nBlue—31–40 years\n\nIndigo—41–\
+      50 years\n\nViolet—51 years or more\n\nA green or older faerie dragon's CR increases\
+      \ to 2."
+    "name": "The Colors of Age"
+  - "desc": "As a bonus action, the dragon can magically turn [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible)\
+      \ until its [concentration](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Concentration)\
+      \ ends (as if [concentrating](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Concentration)\
+      \ on a spell). Any equipment the dragon wears or carries is [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible)\
+      \ with it."
+    "name": "Superior Invisibility"
+  - "desc": "Using telepathy, the dragon can magically communicate with any other\
+      \ faerie dragon within 60 feet of it."
+    "name": "Limited Telepathy"
+  - "desc": "The faerie dragon has advantage on saving throws against spells and other\
+      \ magical effects."
+    "name": "Magic Resistance"
 "actions":
-- "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 1\
-    \ piercing damage."
-  "name": "Bite"
-- "desc": "The dragon exhales a puff of euphoria gas at one creature within 5 feet\
-    \ of it. The target must succeed on a DC 11 Wisdom saving throw, or for 1 minute,\
-    \ the target can't take reactions and must roll a d6 at the start of each of\
-    \ its turns to determine its behavior during the turn:\n\n1–4. The target takes\
-    \ no action or bonus action and uses all of its movement to move in a random direction.\n\
-    \n5–6. The target doesn't move, and the only thing it can do on its turn is make\
-    \ a DC 11 Wisdom saving throw, ending the effect on itself on a success."
-  "name": "Euphoria Breath (Recharge 5-6)"
+  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit:\
+      \ 1 piercing damage."
+    "name": "Bite"
+  - "desc": "The dragon exhales a puff of euphoria gas at one creature within 5 feet\
+      \ of it. The target must succeed on a DC 11 Wisdom saving throw, or for 1 minute,\
+      \ the target can't take reactions and must roll a d6 at the start of each\
+      \ of its turns to determine its behavior during the turn:\n\n1–4. The target\
+      \ takes no action or bonus action and uses all of its movement to move in a\
+      \ random direction.\n\n5–6. The target doesn't move, and the only thing it can\
+      \ do on its turn is make a DC 11 Wisdom saving throw, ending the effect on itself\
+      \ on a success."
+    "name": "Euphoria Breath (Recharge 5-6)"
+"lair_actions":
+  - "desc": "As they are presented in the \"Monster Manual\", faerie dragons don't\
+      \ have access to lair actions while in their lairs. At your discretion, a [green](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/faerie-dragon-green.md)\
+      \ or [older faerie dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/faerie-dragon-violet.md)\
+      \ can take one of the following lair actions on initiative count 20 (losing\
+      \ initiative ties):"
+    "name": ""
+  - "desc": "- Chaotic Aura. The faerie dragon creates misdirecting currents of\
+      \ air and magic around itself. Until initiative count 20 on the next round,\
+      \ whenever a ranged attack roll misses the dragon, reroll the attack against\
+      \ a random creature within 30 feet of the dragon that doesn't have total cover\
+      \ against the attack.  \n- Grasping Plants. The faerie dragon causes roots\
+      \ and vines to temporarily grow around it; until initiative count 20 on the\
+      \ next round, the ground within 20 feet of the dragon is \"difficult terrain\"\
+      .  "
+    "name": ""
+"regional_effects":
+  - "desc": "The region containing a faerie dragon's lair can be transformed by its\
+      \ presence, creating one or more of the following effects:"
+    "name": ""
+  - "desc": "- Compulsory Offering. The first time a creature comes within 1 mile\
+      \ of the faerie dragon's lair, the creature must succeed on a DC 15 Wisdom saving\
+      \ throw or feel an overwhelming compulsion to leave an offering worth at least\
+      \ 5 gp stashed in an out-of-the-way place. The dragon immediately senses the\
+      \ location of this gift. A creature can be affected only once by this compulsion.\
+      \  \n- Malleable Time. Time is fluid within 1 mile of the faerie dragon's\
+      \ lair, flowing somewhere between half and twice its normal speed.  \n- Mischief\
+      \ Afoot. Sapient creatures that spend a year within 5 miles of the faerie\
+      \ dragon's lair feel the persistent urge to play pranks on others.  "
+    "name": ""
+  - "desc": "If the faerie dragon dies, these effects fade over the course of d10\
+      \ days."
+    "name": ""
 "source":
-- "MM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/dragon/token/faerie-dragon-green.webp"
+  - "MM"
+  - "ToA"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/token/faerie-dragon-green.webp"
 ```
 ^statblock
 

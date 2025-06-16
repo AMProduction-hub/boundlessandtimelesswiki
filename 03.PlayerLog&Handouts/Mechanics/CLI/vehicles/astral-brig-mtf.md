@@ -6,7 +6,8 @@ tags:
 - ttrpg-cli/vehicle/size/gargantuan
 - ttrpg-cli/vehicle/terrain/air
 - ttrpg-cli/vehicle/type/ship
-aliases: ["Astral Brig"]
+aliases:
+- Astral Brig
 ---
 # Astral Brig
 %%-- Embedded content starts on the next line. --%%
@@ -16,7 +17,7 @@ The astral brig is the standard githyanki military vessel. It requires a crew of
 
 ```ad-statblock
 title: Astral Brig
-![](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/vehicles/token/astral-brig-mtf.webp#token)
+![](03.PlayerLog&Handouts/Mechanics/CLI/vehicles/token/astral-brig-mtf.webp#token)
 *Gargantuan vehicle (90 ft. by 30 ft.); air*
 
 - **Creature Capacity** 5 crew, 60 passengers

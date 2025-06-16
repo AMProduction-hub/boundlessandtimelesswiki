@@ -3,10 +3,11 @@ obsidianUIMode: preview
 cssclasses: json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
-- ttrpg-cli/race/kenku/dmg
-aliases: ["Kenku (DMG)"]
+- ttrpg-cli/race/kenku
+aliases:
+- Kenku
 ---
-# Kenku (DMG)
+# Kenku
 *Source: Dungeon Master's Guide p. 282*  
 
 
@@ -18,7 +19,7 @@ aliases: ["Kenku (DMG)"]
 
 ### Ambusher
 
-In the first round of a combat, you have advantage on attack rolls against any creature who is [surprised](conditions.md#Surprised).
+In the first round of a combat, you have advantage on attack rolls against any creature who is [surprised](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Surprised).
 
 ### Mimicry
 

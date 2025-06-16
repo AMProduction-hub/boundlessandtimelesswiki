@@ -20,7 +20,8 @@ classes:
 - Rogue (Arcane Trickster)
 - Warlock
 - Wizard
-aliases: ["Summon Fey"]
+aliases:
+- Summon Fey
 ---
 # Summon Fey
 *3rd-level, Conjuration*  
@@ -31,12 +32,12 @@ aliases: ["Summon Fey"]
 - **Components:** V, S, M (a gilded flower worth at least 300 gp)
 - **Duration:** Concentration, up to 1 hour
 
-You call forth a fey spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the [Fey Spirit](fey-spirit-tce.md) stat block. When you cast the spell, choose a mood: Fuming, Mirthful, or Tricksy. The creature resembles a fey creature of your choice marked by the chosen mood, which determines one of the traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.
+You call forth a fey spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the [Fey Spirit](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/fey-spirit-tce.md) stat block. When you cast the spell, choose a mood: Fuming, Mirthful, or Tricksy. The creature resembles a fey creature of your choice marked by the chosen mood, which determines one of the traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.
 
-The creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the [Dodge](actions.md#Dodge) action and uses its move to avoid danger.
+The creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the [Dodge](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Dodge) action and uses its move to avoid danger.
 
 **At Higher Levels.** When you cast this spell using a spell slot of 4th level or higher, use the higher level wherever the spell's level appears in the stat block.
 
-**Classes**: [Druid](list-spells-classes-druid.md); [Rogue (Arcane Trickster)](list-spells-classes-rogue-arcane-trickster.md); [Bard](list-spells-classes-bard.md); [Wizard](list-spells-classes-wizard.md); [Ranger](list-spells-classes-ranger.md); [Fighter (Eldritch Knight)](list-spells-classes-fighter-eldritch-knight.md); [Warlock](list-spells-classes-warlock.md)
+**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Ranger](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-ranger.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md)
 
 *Source: Tasha's Cauldron of Everything p. 112*

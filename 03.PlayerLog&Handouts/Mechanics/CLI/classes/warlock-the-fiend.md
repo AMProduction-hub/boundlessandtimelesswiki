@@ -4,13 +4,11 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/subclass/warlock/fiend
-aliases: ["The Fiend"]
+aliases:
+- The Fiend
 ---
 # The Fiend
-
-^178a5f
-
-*[Warlock](warlock.md): Otherworldly Patron*  
+*[Warlock](./warlock.md): Otherworldly Patron*  
 *Source: Player's Handbook p. 109. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 > [!tldr] Class and Feature Progression
@@ -49,7 +47,7 @@ aliases: ["The Fiend"]
 
 ### The Fiend (Level 1)
 
-You have made a pact with a fiend from the lower planes of existence, a being whose aims are evil, even if you strive against those aims. Such beings desire the corruption or destruction of all things, ultimately including you. Fiends powerful enough to forge a pact include demon lords such as Demogorgon, Orcus, Fraz'Urb-luu, and Baphomet; archdevils such as Asmodeus, Dispater, Mephistopheles, and Belial; pit fiends and balors that are especially mighty; and ultroloths and other lords of the yugoloths.
+You have made a pact with a fiend from the lower planes of existence, a being whose aims are evil, even if you strive against those aims. Such beings desire the corruption or destruction of all things, ultimately including you. Fiends powerful enough to forge a pact include demon lords such as Demogorgon, Orcus, Fraz-Urb'luu, and Baphomet; archdevils such as Asmodeus, Dispater, Mephistopheles, and Belial; pit fiends and balors that are especially mighty; and ultroloths and other lords of the yugoloths.
 
 #### Expanded Spell List
 
@@ -59,11 +57,11 @@ The Fiend lets you choose from an expanded list of spells when you learn a warlo
 
 | Spell Level | Spells |
 |-------------|--------|
-| 1st | [burning hands](burning-hands.md), [command](command.md) |
-| 2nd | [blindness/deafness](blindness-deafness.md), [scorching ray](scorching-ray.md) |
-| 3rd | [fireball](fireball.md), [stinking cloud](stinking-cloud.md) |
-| 4th | [fire shield](fire-shield.md), [wall of fire](wall-of-fire.md) |
-| 5th | [flame strike](flame-strike.md), [hallow](hallow.md) |
+| 1st | [burning hands](03.PlayerLog&Handouts/Mechanics/CLI/spells/burning-hands.md), [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md) |
+| 2nd | [blindness/deafness](03.PlayerLog&Handouts/Mechanics/CLI/spells/blindness-deafness.md), [scorching ray](03.PlayerLog&Handouts/Mechanics/CLI/spells/scorching-ray.md) |
+| 3rd | [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md), [stinking cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/stinking-cloud.md) |
+| 4th | [fire shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-shield.md), [wall of fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-fire.md) |
+| 5th | [flame strike](03.PlayerLog&Handouts/Mechanics/CLI/spells/flame-strike.md), [hallow](03.PlayerLog&Handouts/Mechanics/CLI/spells/hallow.md) |
 ^fiend-expanded-spells
 
 ### Dark One's Blessing (Level 1)

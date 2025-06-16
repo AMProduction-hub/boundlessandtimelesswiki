@@ -9,9 +9,11 @@ tags:
 - ttrpg-cli/monster/size/tiny
 - ttrpg-cli/monster/type/aberration
 statblock: inline
-aliases: ["Cranium Rat"]
+statblock-link: "#^statblock"
+aliases:
+- Cranium Rat
 ---
-# [Cranium Rat](03 - Player Log & Handouts\Mechanics\CLI\bestiary\aberration/cranium-rat-mpmm.md)
+# [Cranium Rat](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\aberration/cranium-rat-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 83, Volo's Guide to Monsters p. 133*  
 
 ## Cranium Rat
@@ -28,33 +30,34 @@ A single cranium rat uses its natural telepathy to communicate hunger, fear, and
 "ac": !!int "12"
 "hp": !!int "2"
 "hit_dice": "1d4"
+"modifier": !!int "2"
 "stats":
-- !!int "2"
-- !!int "14"
-- !!int "10"
-- !!int "4"
-- !!int "11"
-- !!int "8"
+  - !!int "2"
+  - !!int "14"
+  - !!int "10"
+  - !!int "4"
+  - !!int "11"
+  - !!int "8"
 "speed": "30 ft."
 "senses": "darkvision 30 ft., passive Perception 10"
 "languages": "telepathy 30 ft."
 "cr": "0"
 "traits":
-- "desc": "The cranium rat is immune to any effect that would sense its emotions or\
-    \ read its thoughts, as well as to all divination spells."
-  "name": "Telepathic Shroud"
+  - "desc": "The cranium rat is immune to any effect that would sense its emotions\
+      \ or read its thoughts, as well as to all divination spells."
+    "name": "Telepathic Shroud"
 "actions":
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1 piercing\
-    \ damage."
-  "name": "Bite"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1\
+      \ piercing damage."
+    "name": "Bite"
 "bonus_actions":
-- "desc": "The cranium rat sheds dim light from its exposed brain in a 5-foot radius\
-    \ or extinguishes the light."
-  "name": "Illumination"
+  - "desc": "The cranium rat sheds dim light from its exposed brain in a 5-foot radius\
+      \ or extinguishes the light."
+    "name": "Illumination"
 "source":
-- "MPMM"
-- "VGM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/aberration/token/cranium-rat-mpmm.webp"
+  - "MPMM"
+  - "VGM"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/token/cranium-rat-mpmm.webp"
 ```
 ^statblock
 

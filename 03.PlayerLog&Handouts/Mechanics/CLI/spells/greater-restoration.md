@@ -3,6 +3,7 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
+- ttrpg-cli/spell/background/witherbloom-student
 - ttrpg-cli/spell/class/artificer
 - ttrpg-cli/spell/class/bard
 - ttrpg-cli/spell/class/cleric
@@ -14,6 +15,7 @@ tags:
 - ttrpg-cli/spell/subclass/divine-soul
 - ttrpg-cli/spell/subclass/peace-domain
 - ttrpg-cli/spell/subclass/the-celestial
+- ttrpg-cli/spell/subrace/halfling-mark-of-healing
 classes:
 - Artificer
 - Bard
@@ -24,7 +26,8 @@ classes:
 - Sorcerer (Clockwork Soul)
 - Sorcerer (Divine Soul)
 - Warlock (The Celestial)
-aliases: ["Greater Restoration"]
+aliases:
+- Greater Restoration
 ---
 # Greater Restoration
 *5th-level, Abjuration*  
@@ -35,13 +38,13 @@ aliases: ["Greater Restoration"]
 - **Components:** V, S, M (diamond dust worth at least 100 gp, which the spell consumes)
 - **Duration:** Instantaneous
 
-You imbue a creature you touch with positive energy to undo a debilitating effect. You can reduce the target's [exhaustion](conditions.md#Exhaustion) level by one, or end one of the following effects on the target:
+You imbue a creature you touch with positive energy to undo a debilitating effect. You can reduce the target's [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion) level by one, or end one of the following effects on the target:
 
-- One effect that [charmed](conditions.md#Charmed) or [petrified](conditions.md#Petrified) the target  
+- One effect that [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed) or [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified) the target  
 - One curse, including the target's attunement to a cursed magic item  
 - Any reduction to one of the target's ability scores  
 - One effect reducing the target's hit point maximum  
 
-**Classes**: [Druid](list-spells-classes-druid.md); [Artificer](list-spells-classes-artificer.md); [Cleric (Peace Domain)](list-spells-classes-cleric-peace-domain-tce.md "subclass=TCE"); [Cleric](list-spells-classes-cleric.md); [Bard](list-spells-classes-bard.md); [Warlock (The Celestial)](list-spells-classes-warlock-the-celestial-xge.md "subclass=XGE"); [Sorcerer (Clockwork Soul)](list-spells-classes-sorcerer-clockwork-soul-tce.md "subclass=TCE"); [Ranger](list-spells-classes-ranger.md); [Sorcerer (Divine Soul)](list-spells-classes-sorcerer-divine-soul-xge.md "subclass=XGE")
+**Classes**: [Artificer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-artificer.md); [Sorcerer (Clockwork Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-clockwork-soul-tce.md "subclass=TCE"); [Cleric (Peace Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-peace-domain-tce.md "subclass=TCE"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock (The Celestial)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-celestial-xge.md "subclass=XGE"); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Ranger](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-ranger.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md)
 
 *Source: Player's Handbook p. 246. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*

@@ -7,10 +7,12 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/fiend/demon
 statblock: inline
-aliases: ["Glabrezu"]
+statblock-link: "#^statblock"
+aliases:
+- Glabrezu
 ---
-# [Glabrezu](03 - Player Log & Handouts\Mechanics\CLI\bestiary\fiend/glabrezu.md)
-*Source: Monster Manual p. 58, Baldur's Gate: Descent Into Avernus, Sigil and the Outlands. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Glabrezu](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/glabrezu.md)
+*Source: Monster Manual p. 58, Tales from the Yawning Portal, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus, Explorer's Guide to Wildemount. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 A glabrezu takes great pleasure in destroying mortals through temptation, and these creatures are among the few demons to offer their service to creatures foolish enough to summon them.
 
@@ -156,7 +158,7 @@ Demonologists organize the chaotic distribution of demons into broad categories 
 
 > [!note] Demon True Names
 > 
-> Though demons all have common names, every demon lord and every demon of type 1 through 6 has a true name that it keeps secret. A demon can be forced to disclose its true name if [charmed](conditions.md#Charmed), and ancient scrolls and tomes are said to exist that list the true names of the most powerful demons.
+> Though demons all have common names, every demon lord and every demon of type 1 through 6 has a true name that it keeps secret. A demon can be forced to disclose its true name if [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), and ancient scrolls and tomes are said to exist that list the true names of the most powerful demons.
 > 
 > A mortal who learns a demon's true name can use powerful summoning magic to call the demon from the Abyss and exercise some measure of control over it. However, most demons brought to the Material Plane in this manner do everything in their power to wreak havoc or sow discord and strife.
 ^demon-true-names
@@ -165,13 +167,13 @@ Demonologists organize the chaotic distribution of demons into broad categories 
 > 
 > Some demons can have an action option that allows them to summon other demons. Summon Demon (1/Day). The demon chooses what to summon and attempts a magical summoning.
 > 
-> - A balor has a 50 percent chance of summoning `1d8` vrocks, `1d6` hezrous, `1d4` glabrezus, `1d3` nalfeshnees, `1d2` mariliths, or one goristro.  
+> - A balor has a 50 percent chance of summoning `d8` vrocks, `d6` hezrous, `d4` glabrezus, `d3` nalfeshnees, `d2` mariliths, or one goristro.  
 > - A barlgura has a 30 percent chance of summoning one barlgura.  
 > - A chasme has a 30 percent chance of summoning one chasme.  
-> - A glabrezu has a 30 percent chance of summoning `1d3` vrocks, `1d2` hezrous, or one glabrezu.  
+> - A glabrezu has a 30 percent chance of summoning `d3` vrocks, `d2` hezrous, or one glabrezu.  
 > - A hezrou has a 30 percent chance of summoning `2d6` dretches or one hezrou.  
-> - A marilith has a 50 percent chance of summoning `1d6` vrocks, `1d4` hezrous, `1d3` glabrezus, `1d2` nalfeshnees, or one marilith.  
-> - A nalfeshnee has a 50 percent chance of summoning `1d4` vrocks, `1d3` hezrous, `1d2` glabrezus, or one nalfeshnee.  
+> - A marilith has a 50 percent chance of summoning `d6` vrocks, `d4` hezrous, `d3` glabrezus, `d2` nalfeshnees, or one marilith.  
+> - A nalfeshnee has a 50 percent chance of summoning `d4` vrocks, `d3` hezrous, `d2` glabrezus, or one nalfeshnee.  
 > - A vrock has a 30 percent chance of summoning `2d4` dretches or one vrock.  
 > - A yochlol has a 50 percent chance of summoning one yochlol.  
 > 
@@ -193,56 +195,60 @@ Demonologists organize the chaotic distribution of demons into broad categories 
 "ac_class": "natural armor"
 "hp": !!int "157"
 "hit_dice": "15d10 + 75"
+"modifier": !!int "2"
 "stats":
-- !!int "20"
-- !!int "15"
-- !!int "21"
-- !!int "19"
-- !!int "17"
-- !!int "16"
+  - !!int "20"
+  - !!int "15"
+  - !!int "21"
+  - !!int "19"
+  - !!int "17"
+  - !!int "16"
 "speed": "40 ft."
 "saves":
-  "Charisma": !!int "7"
-  "Wisdom": !!int "7"
-  "Strength": !!int "9"
-  "Constitution": !!int "9"
+  - "strength": "+9"
+  - "constitution": "+9"
+  - "wisdom": "+7"
+  - "charisma": "+7"
 "damage_resistances": "cold; fire; lightning; bludgeoning, piercing, slashing from\
   \ nonmagical attacks"
 "damage_immunities": "poison"
-"condition_immunities": "[poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "truesight 120 ft., passive Perception 13"
 "languages": "Abyssal, telepathy 120 ft."
 "cr": "9"
 "traits":
-- "desc": "The glabrezu's spellcasting ability is Intelligence (spell save DC 16).\
-    \ The glabrezu can innately cast the following spells, requiring no material components:\n\
-    \nAt will: [darkness](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/darkness.md),\
-    \ [detect magic](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/detect-magic.md),\
-    \ [dispel magic](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/dispel-magic.md)\n\
-    \n1/day each: [confusion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/confusion.md),\
-    \ [fly](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/fly.md), [power\
-    \ word stun](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/power-word-stun.md)"
-  "name": "Innate Spellcasting"
-- "desc": "The glabrezu has advantage on saving throws against spells and other magical\
-    \ effects."
-  "name": "Magic Resistance"
+  - "desc": "The glabrezu's spellcasting ability is Intelligence (spell save DC 16).\
+      \ The glabrezu can innately cast the following spells, requiring no material\
+      \ components:\n\nAt will: [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
+      \ [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      \ [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md)\n\
+      \n1/day each: [confusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/confusion.md),\
+      \ [fly](03.PlayerLog&Handouts/Mechanics/CLI/spells/fly.md), [power word stun](03.PlayerLog&Handouts/Mechanics/CLI/spells/power-word-stun.md)"
+    "name": "Innate Spellcasting"
+  - "desc": "The glabrezu has advantage on saving throws against spells and other\
+      \ magical effects."
+    "name": "Magic Resistance"
 "actions":
-- "desc": "The glabrezu makes four attacks: two with its pincers and two with its\
-    \ fists. Alternatively, it makes two attacks with its pincers and casts one spell."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 16\
-    \ (2d10 + 5) bludgeoning damage. If the target is a Medium or smaller creature,\
-    \ it is [grappled](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
-    \ (escape DC 15). The glabrezu has two pincers, each of which can grapple only\
-    \ one target."
-  "name": "Pincer"
-- "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 7 (2d4\
-    \ + 2) bludgeoning damage."
-  "name": "Fist"
+  - "desc": "The glabrezu makes four attacks: two with its pincers and two with its\
+      \ fists. Alternatively, it makes two attacks with its pincers and casts one\
+      \ spell."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit:\
+      \ 16 (2d10 + 5) bludgeoning damage. If the target is a Medium or smaller creature,\
+      \ it is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
+      \ (escape DC 15). The glabrezu has two pincers, each of which can grapple only\
+      \ one target."
+    "name": "Pincer"
+  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 7\
+      \ (2d4 + 2) bludgeoning damage."
+    "name": "Fist"
 "source":
-- "MM"
-- "BGDIA"
-- "SatO"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/fiend/token/glabrezu.webp"
+  - "MM"
+  - "TftYP"
+  - "WDMM"
+  - "GoS"
+  - "BGDIA"
+  - "EGW"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/token/glabrezu.webp"
 ```
 ^statblock

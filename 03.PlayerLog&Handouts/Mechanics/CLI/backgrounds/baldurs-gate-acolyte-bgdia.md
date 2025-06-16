@@ -4,7 +4,8 @@ cssclasses: json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/bgdia
-aliases: ["Baldur's Gate Acolyte"]
+aliases:
+- Baldur's Gate Acolyte
 ---
 # Baldur's Gate Acolyte
 *Source: Baldur's Gate: Descent Into Avernus p. 202, Player's Handbook p. 127*  
@@ -12,7 +13,7 @@ aliases: ["Baldur's Gate Acolyte"]
 
 - **Skill Proficiencies.** [Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight), [Religion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Religion)  
 - **Languages.** Two of your choice  
-- **Equipment.** A [holy symbol](holy-symbol.md) (a gift to you when you entered the priesthood), a prayer [book](book.md) or prayer wheel, 5 sticks of incense, vestments, a set of [common clothes](common-clothes.md), and a belt [pouch](pouch.md) containing 15 gp  
+- **Equipment.** A [holy symbol](03.PlayerLog&Handouts/Mechanics/CLI/items/holy-symbol.md) (a gift to you when you entered the priesthood), a prayer [book](03.PlayerLog&Handouts/Mechanics/CLI/items/book.md) or prayer wheel, 5 sticks of incense, vestments, a set of [common clothes](03.PlayerLog&Handouts/Mechanics/CLI/items/common-clothes.md), and a belt [pouch](03.PlayerLog&Handouts/Mechanics/CLI/items/pouch.md) containing 15 gp  
 
 It's said that every faith in the world has a believer in Baldur's Gate. Not only are most established faiths tolerated—even if some of them, including most of the openly evil faiths, are relegated to the Outer City's Twin Songs neighborhood—but new ones arrive constantly, carried by travelers and proselytizers from far-flung lands. A character with this background might aspire to greater things, not for themselves, but for their faith.
 

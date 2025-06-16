@@ -4,10 +4,11 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/subclass/druid/wildfire
-aliases: ["Circle of Wildfire"]
+aliases:
+- Circle of Wildfire
 ---
 # Circle of Wildfire
-*[Druid](03.PlayerLog&Handouts/Mechanics/CLI/classes/druid.md): Druid Circle*  
+*[Druid](./druid.md): Druid Circle*  
 *Source: Tasha's Cauldron of Everything p. 39*  
 
 > [!tldr] Class and Feature Progression
@@ -60,11 +61,11 @@ Once you gain access to one of these spells, you always have it prepared, and it
 
 | Druid Level | Circle Spells |
 |-------------|---------------|
-| 2nd | [burning hands](burning-hands.md), [cure wounds](cure-wounds.md) |
-| 3rd | [flaming sphere](flaming-sphere.md), [scorching ray](scorching-ray.md) |
-| 5th | [plant growth](plant-growth.md), [revivify](revivify.md) |
-| 7th | [aura of life](aura-of-life.md), [fire shield](fire-shield.md) |
-| 9th | [flame strike](flame-strike.md), [mass cure wounds](mass-cure-wounds.md) |
+| 2nd | [burning hands](03.PlayerLog&Handouts/Mechanics/CLI/spells/burning-hands.md), [cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/cure-wounds.md) |
+| 3rd | [flaming sphere](03.PlayerLog&Handouts/Mechanics/CLI/spells/flaming-sphere.md), [scorching ray](03.PlayerLog&Handouts/Mechanics/CLI/spells/scorching-ray.md) |
+| 5th | [plant growth](03.PlayerLog&Handouts/Mechanics/CLI/spells/plant-growth.md), [revivify](03.PlayerLog&Handouts/Mechanics/CLI/spells/revivify.md) |
+| 7th | [aura of life](03.PlayerLog&Handouts/Mechanics/CLI/spells/aura-of-life.md), [fire shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-shield.md) |
+| 9th | [flame strike](03.PlayerLog&Handouts/Mechanics/CLI/spells/flame-strike.md), [mass cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/mass-cure-wounds.md) |
 ^circle-of-wildfire-spells
 
 ### Summon Wildfire Spirit (Level 2)
@@ -75,9 +76,9 @@ You can summon the primal spirit bound to your soul. As an action, you can expen
 
 The spirit appears in an unoccupied space of your choice that you can see within 30 feet of you. Each creature within 10 feet of the spirit (other than you) when it appears must succeed on a Dexterity saving throw against your spell save DC or take `2d6` fire damage.
 
-The spirit is friendly to you and your companions and obeys your commands. See this creature's game statistics in the [Wildfire Spirit](wildfire-spirit-tce.md) stat block, which uses your proficiency bonus (PB) in several places. You determine the spirit's appearance. Some spirits take the form of a humanoid figure made of gnarled branches covered in flame, while others look like beasts wreathed in fire.
+The spirit is friendly to you and your companions and obeys your commands. See this creature's game statistics in the [Wildfire Spirit](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/wildfire-spirit-tce.md) stat block, which uses your proficiency bonus (PB) in several places. You determine the spirit's appearance. Some spirits take the form of a humanoid figure made of gnarled branches covered in flame, while others look like beasts wreathed in fire.
 
-In combat, the spirit shares your initiative count, but it takes its turn immediately after yours. The only action it takes on its turn is the [Dodge](actions.md#Dodge) action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are [incapacitated](conditions.md#Incapacitated), the spirit can take any action of its choice, not just [Dodge](actions.md#Dodge).
+In combat, the spirit shares your initiative count, but it takes its turn immediately after yours. The only action it takes on its turn is the [Dodge](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Dodge) action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated), the spirit can take any action of its choice, not just [Dodge](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Dodge).
 
 The spirit manifests for 1 hour, until it is reduced to 0 hit points, until you use this feature to summon the spirit again, or until you die.
 
@@ -101,6 +102,6 @@ You can use this reaction a number of times equal to your proficiency bonus, and
 
 *14th-level Circle of Wildfire feature*
 
-The bond with your wildfire spirit can save you from death. If the spirit is within 120 feet of you when you are reduced to 0 hit points and thereby fall [unconscious](conditions.md#Unconscious), you can cause the spirit to drop to 0 hit points. You then regain half your hit points and immediately rise to your feet.
+The bond with your wildfire spirit can save you from death. If the spirit is within 120 feet of you when you are reduced to 0 hit points and thereby fall [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious), you can cause the spirit to drop to 0 hit points. You then regain half your hit points and immediately rise to your feet.
 
 Once you use this feature, you can't use it again until you finish a long rest.

@@ -7,7 +7,10 @@ tags:
 - ttrpg-cli/spell/class/druid
 - ttrpg-cli/spell/class/sorcerer
 - ttrpg-cli/spell/class/wizard
+- ttrpg-cli/spell/feat/aberrant-dragonmark
+- ttrpg-cli/spell/feat/divinely-favored
 - ttrpg-cli/spell/feat/magic-initiate
+- ttrpg-cli/spell/feat/strixhaven-initiate
 - ttrpg-cli/spell/level/1st-level
 - ttrpg-cli/spell/school/evocation
 - ttrpg-cli/spell/subclass/arcane-trickster
@@ -19,7 +22,8 @@ classes:
 - Rogue (Arcane Trickster)
 - Sorcerer
 - Wizard
-aliases: ["Earth Tremor"]
+aliases:
+- Earth Tremor
 ---
 # Earth Tremor
 *1st-level, Evocation*  
@@ -30,10 +34,10 @@ aliases: ["Earth Tremor"]
 - **Components:** V, S
 - **Duration:** Instantaneous
 
-You cause a tremor in the ground within range. Each creature other than you in that area must make a Dexterity saving throw. On a failed save, a creature takes `1d6` bludgeoning damage and is knocked [prone](conditions.md#Prone). If the ground in that area is loose earth or stone, it becomes difficult terrain until cleared, with each 5-foot-diameter portion requiring at least 1 minute to clear by hand.
+You cause a tremor in the ground within range. Each creature other than you in that area must make a Dexterity saving throw. On a failed save, a creature takes `d6` bludgeoning damage and is knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone). If the ground in that area is loose earth or stone, it becomes difficult terrain until cleared, with each 5-foot-diameter portion requiring at least 1 minute to clear by hand.
 
-**At Higher Levels.** When you cast this spell using a spell slot of 2nd level or higher, the damage increases by `1d6` for each slot level above 1st.
+**At Higher Levels.** When you cast this spell using a spell slot of 2nd level or higher, the damage increases by `d6` for each slot level above 1st.
 
-**Classes**: [Druid](list-spells-classes-druid.md); [Rogue (Arcane Trickster)](list-spells-classes-rogue-arcane-trickster.md); [Bard](list-spells-classes-bard.md); [Wizard](list-spells-classes-wizard.md); [Fighter (Eldritch Knight)](list-spells-classes-fighter-eldritch-knight.md); [Sorcerer](list-spells-classes-sorcerer.md)
+**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md)
 
-*Source: Xanathar's Guide to Everything p. 155*
+*Source: Xanathar's Guide to Everything p. 155, Elemental Evil Player's Companion p. 17*

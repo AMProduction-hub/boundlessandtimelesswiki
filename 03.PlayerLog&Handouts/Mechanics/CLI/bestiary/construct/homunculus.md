@@ -7,10 +7,12 @@ tags:
 - ttrpg-cli/monster/size/tiny
 - ttrpg-cli/monster/type/construct
 statblock: inline
-aliases: ["Homunculus"]
+statblock-link: "#^statblock"
+aliases:
+- Homunculus
 ---
-# [Homunculus](03 - Player Log & Handouts\Mechanics\CLI\bestiary\construct/homunculus.md)
-*Source: Monster Manual p. 188, Baldur's Gate: Descent Into Avernus. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Homunculus](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/homunculus.md)
+*Source: Monster Manual p. 188, Waterdeep: Dungeon of the Mad Mage, Baldur's Gate: Descent Into Avernus, Eberron: Rising from the Last War, Infernal Machine Rebuild, Mythic Odysseys of Theros, Candlekeep Mysteries. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Shaping a mixture of clay, ash, mandrake root, and blood, one can channel rare ritual magic to create a faithful, squirrel-sized companion.
 
@@ -29,38 +31,44 @@ A homunculus knows everything its creator knows, including all the languages the
 "ac_class": "natural armor"
 "hp": !!int "5"
 "hit_dice": "2d4"
+"modifier": !!int "2"
 "stats":
-- !!int "4"
-- !!int "15"
-- !!int "11"
-- !!int "10"
-- !!int "10"
-- !!int "7"
+  - !!int "4"
+  - !!int "15"
+  - !!int "11"
+  - !!int "10"
+  - !!int "10"
+  - !!int "7"
 "speed": "20 ft., fly 40 ft."
 "damage_immunities": "poison"
-"condition_immunities": "[charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
-  \ [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
+  \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "darkvision 60 ft., passive Perception 10"
 "languages": "understands the languages of its creator but can't speak"
 "cr": "0"
 "traits":
-- "desc": "While the homunculus is on the same plane of existence as its master, it\
-    \ can magically convey what it senses to its master, and the two can communicate\
-    \ telepathically."
-  "name": "Telepathic Bond"
+  - "desc": "While the homunculus is on the same plane of existence as its master,\
+      \ it can magically convey what it senses to its master, and the two can communicate\
+      \ telepathically."
+    "name": "Telepathic Bond"
 "actions":
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 1\
-    \ piercing damage, and the target must succeed on a DC 10 Constitution saving\
-    \ throw or be [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
-    \ for 1 minute. If the saving throw fails by 5 or more, the target is instead\
-    \ [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
-    \ for 5 (1d10) minutes and [unconscious](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)\
-    \ while [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
-    \ in this way."
-  "name": "Bite"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit:\
+      \ 1 piercing damage, and the target must succeed on a DC 10 Constitution saving\
+      \ throw or be [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
+      \ for 1 minute. If the saving throw fails by 5 or more, the target is instead\
+      \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
+      \ for 5 (d10) minutes and [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)\
+      \ while [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
+      \ in this way."
+    "name": "Bite"
 "source":
-- "MM"
-- "BGDIA"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/construct/token/homunculus.webp"
+  - "MM"
+  - "WDMM"
+  - "BGDIA"
+  - "ERLW"
+  - "IMR"
+  - "MOT"
+  - "CM"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/token/homunculus.webp"
 ```
 ^statblock

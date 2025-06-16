@@ -4,11 +4,12 @@ cssclasses: json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/race/elf
-aliases: ["Elf"]
+aliases:
+- Elf
 ---
 # Elf
 *Source: Player's Handbook p. 21. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
-![](elf.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/races/img/elf.webp#right)
 
 - **Ability Scores**: Dexterity +2
 - **Size**: Medium
@@ -34,7 +35,7 @@ You have proficiency in the [Perception](03.PlayerLog&Handouts/Mechanics/CLI/rul
 
 ### Fey Ancestry
 
-You have advantage on saving throws against being [charmed](conditions.md#Charmed), and magic can't put you to sleep.
+You have advantage on saving throws against being [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), and magic can't put you to sleep.
 
 ### Trance
 

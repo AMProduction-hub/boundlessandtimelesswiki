@@ -3,10 +3,11 @@ obsidianUIMode: preview
 cssclasses: json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
-- ttrpg-cli/race/merfolk/dmg
-aliases: ["Merfolk (DMG)"]
+- ttrpg-cli/race/merfolk
+aliases:
+- Merfolk
 ---
-# Merfolk (DMG)
+# Merfolk
 *Source: Dungeon Master's Guide p. 282*  
 
 

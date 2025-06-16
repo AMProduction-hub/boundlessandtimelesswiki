@@ -4,10 +4,11 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 - ttrpg-cli/subclass/sorcerer/divine-soul
-aliases: ["Divine Soul"]
+aliases:
+- Divine Soul
 ---
 # Divine Soul
-*[Sorcerer](sorcerer.md): Sorcerous Origin*  
+*[Sorcerer](./sorcerer.md): Sorcerous Origin*  
 *Source: Xanathar's Guide to Everything p. 50*  
 
 > [!tldr] Class and Feature Progression
@@ -42,6 +43,10 @@ aliases: ["Divine Soul"]
 ^class-progression
 
 
+> [!quote] A quote from Xanathar  
+> 
+> Why do so many celestial things have bird wings and infernal things have bat wings? It seems arbitrary. There should be a bat angel!
+
 ## Class Features
 
 ### Divine Soul (Level 1)
@@ -62,11 +67,11 @@ In addition, choose an affinity for the source of your divine power: good, evil,
 
 | Affinity | Spell |
 |----------|-------|
-| Good | [cure wounds](cure-wounds.md) |
-| Evil | [inflict wounds](inflict-wounds.md) |
-| Law | [bless](bless.md) |
-| Chaos | [bane](bane.md) |
-| Neutrality | [protection from evil and good](protection-from-evil-and-good.md) |
+| Good | [cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/cure-wounds.md) |
+| Evil | [inflict wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/inflict-wounds.md) |
+| Law | [bless](03.PlayerLog&Handouts/Mechanics/CLI/spells/bless.md) |
+| Chaos | [bane](03.PlayerLog&Handouts/Mechanics/CLI/spells/bane.md) |
+| Neutrality | [protection from evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/protection-from-evil-and-good.md) |
 ^affinity-spell
 
 ### Favored by the Gods (Level 1)
@@ -75,11 +80,11 @@ Starting at 1st level, divine power guards your destiny. If you fail a saving th
 
 ### Empowered Healing (Level 6)
 
-Starting at 6th level, the divine energy coursing through you can empower healing spells. Whenever you or an ally within 5 feet of you rolls dice to determine the number of hit points a spell restores, you can spend 1 sorcery point to reroll any number of those dice once, provided you aren't [incapacitated](conditions.md#Incapacitated). You can use this feature only once per turn.
+Starting at 6th level, the divine energy coursing through you can empower healing spells. Whenever you or an ally within 5 feet of you rolls dice to determine the number of hit points a spell restores, you can spend 1 sorcery point to reroll any number of those dice once, provided you aren't [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated). You can use this feature only once per turn.
 
 ### Otherworldly Wings (Level 14)
 
-Starting at 14th level, you can use a bonus action to manifest a pair of spectral wings from your back. While the wings are present, you have a flying speed of 30 feet. The wings last until you're [incapacitated](conditions.md#Incapacitated), you die, or you dismiss them as a bonus action.
+Starting at 14th level, you can use a bonus action to manifest a pair of spectral wings from your back. While the wings are present, you have a flying speed of 30 feet. The wings last until you're [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated), you die, or you dismiss them as a bonus action.
 
 The affinity you chose for your Divine Magic feature determines the appearance of the spectral wings: eagle wings for good or law, bat wings for evil or chaos, and dragonfly wings for neutrality.
 

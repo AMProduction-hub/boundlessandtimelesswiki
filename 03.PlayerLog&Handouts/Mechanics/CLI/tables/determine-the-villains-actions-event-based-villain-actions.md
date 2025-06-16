@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
-aliases: ["Determine the Villain's Actions; Event-Based Villain Actions"]
+aliases:
+- Determine the Villain's Actions; Event-Based Villain Actions
 ---
 # Determine the Villain's Actions; Event-Based Villain Actions
 *Source: Dungeon Master's Guide p. 75* 

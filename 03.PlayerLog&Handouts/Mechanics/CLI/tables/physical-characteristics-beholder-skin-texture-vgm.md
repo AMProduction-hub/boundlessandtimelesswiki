@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
-aliases: ["Physical Characteristics; Beholder Skin Texture"]
+aliases:
+- Physical Characteristics; Beholder Skin Texture
 ---
 # Physical Characteristics; Beholder Skin Texture
 *Source: Volo's Guide to Monsters p. 8* 

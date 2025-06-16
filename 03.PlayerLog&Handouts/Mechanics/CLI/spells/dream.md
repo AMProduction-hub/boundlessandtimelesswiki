@@ -9,12 +9,14 @@ tags:
 - ttrpg-cli/spell/level/5th-level
 - ttrpg-cli/spell/school/illusion
 - ttrpg-cli/spell/subclass/circle-of-the-land
+- ttrpg-cli/spell/subrace/gnome-mark-of-scribing
 classes:
 - Bard
 - Druid (Circle of the Land)
 - Warlock
 - Wizard
-aliases: ["Dream"]
+aliases:
+- Dream
 ---
 # Dream
 *5th-level, Illusion*  
@@ -33,6 +35,6 @@ You can make the messenger appear monstrous and terrifying to the target. If you
 
 If you have a body part, lock of hair, clipping from a nail, or similar portion of the target's body, the target makes its saving throw with disadvantage.
 
-**Classes**: [Druid (Circle of the Land)](list-spells-classes-druid-circle-of-the-land.md); [Bard](list-spells-classes-bard.md); [Wizard](list-spells-classes-wizard.md); [Warlock](list-spells-classes-warlock.md)
+**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Druid (Circle of the Land)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-circle-of-the-land.md)
 
 *Source: Player's Handbook p. 236. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*

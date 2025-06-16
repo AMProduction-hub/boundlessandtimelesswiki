@@ -12,10 +12,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/humanoid/goblinoid
 statblock: inline
-aliases: ["Hobgoblin Warlord"]
+statblock-link: "#^statblock"
+aliases:
+- Hobgoblin Warlord
 ---
-# [Hobgoblin Warlord](03 - Player Log & Handouts\Mechanics\CLI\bestiary\humanoid/hobgoblin-warlord.md)
-*Source: Monster Manual p. 187, Baldur's Gate: Descent Into Avernus, Sigil and the Outlands*  
+# [Hobgoblin Warlord](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/hobgoblin-warlord.md)
+*Source: Monster Manual p. 187, Storm King's Thunder, Waterdeep: Dungeon of the Mad Mage, Baldur's Gate: Descent Into Avernus, Dragonlance: Shadow of the Dragon Queen*  
 
 War horns sound, stones fly from catapults, and the thunder of a thousand booted feet echoes across the land as hobgoblins march to battle. Across the borderlands of civilization, settlements and settlers must contend with these aggressive humanoids, whose thirst for conquest is never satisfied.
 
@@ -81,59 +83,64 @@ Hobgoblins worship Maglubiyet the Mighty One, the greater god of goblinoids. As 
 "subtype": "goblinoid"
 "alignment": "Lawful Evil"
 "ac": !!int "20"
-"ac_class": "[plate armor](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/items/plate-armor.md),\
-  \ [shield](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/items/shield.md)"
+"ac_class": "[plate armor](03.PlayerLog&Handouts/Mechanics/CLI/items/plate-armor.md),\
+  \ [shield](03.PlayerLog&Handouts/Mechanics/CLI/items/shield.md)"
 "hp": !!int "97"
 "hit_dice": "13d8 + 39"
+"modifier": !!int "2"
 "stats":
-- !!int "16"
-- !!int "14"
-- !!int "16"
-- !!int "14"
-- !!int "11"
-- !!int "15"
+  - !!int "16"
+  - !!int "14"
+  - !!int "16"
+  - !!int "14"
+  - !!int "11"
+  - !!int "15"
 "speed": "30 ft."
 "saves":
-  "Charisma": !!int "5"
-  "Wisdom": !!int "3"
-  "Intelligence": !!int "5"
+  - "intelligence": "+5"
+  - "wisdom": "+3"
+  - "charisma": "+5"
 "senses": "darkvision 60 ft., passive Perception 10"
 "languages": "Common, Goblin"
 "cr": "6"
 "traits":
-- "desc": "Once per turn, the hobgoblin can deal an extra 14 (4d6) damage to a creature\
-    \ it hits with a weapon attack if that creature is within 5 feet of an ally of\
-    \ the hobgoblin that isn't [incapacitated](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)."
-  "name": "Martial Advantage"
+  - "desc": "Once per turn, the hobgoblin can deal an extra 14 (4d6) damage to a\
+      \ creature it hits with a weapon attack if that creature is within 5 feet of\
+      \ an ally of the hobgoblin that isn't [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)."
+    "name": "Martial Advantage"
 "actions":
-- "desc": "The hobgoblin makes three melee attacks. Alternatively, it can make two\
-    \ ranged attacks with its javelins."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 7 (1d8\
-    \ + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands."
-  "name": "Longsword"
-- "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one creature. Hit: 5\
-    \ (1d4 + 3) bludgeoning damage. If the target is Large or smaller, it must succeed\
-    \ on a DC 14 Strength saving throw or be knocked [prone](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
-  "name": "Shield Bash"
-- "desc": "Melee or Ranged Weapon Attack: +9 to hit, reach 5 ft. or range 30/120\
-    \ ft., one target. Hit: 6 (1d6 + 3) piercing damage."
-  "name": "Javelin"
-- "desc": "For 1 minute, the hobgoblin can utter a special command or warning whenever\
-    \ a nonhostile creature that it can see within 30 feet of it makes an attack roll\
-    \ or a saving throw. The creature can add a d4 to its roll provided it can hear\
-    \ and understand the hobgoblin. A creature can benefit from only one Leadership\
-    \ die at a time. This effect ends if the hobgoblin is [incapacitated](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)."
-  "name": "Leadership (Recharges after a Short or Long Rest)"
+  - "desc": "The hobgoblin makes three melee attacks. Alternatively, it can make two\
+      \ ranged attacks with its javelins."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 7\
+      \ (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with\
+      \ two hands."
+    "name": "Longsword"
+  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one creature. Hit:\
+      \ 5 (1d4 + 3) bludgeoning damage. If the target is Large or smaller, it must\
+      \ succeed on a DC 14 Strength saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
+    "name": "Shield Bash"
+  - "desc": "Melee  or Ranged Weapon Attack: +9 to hit, reach 5 ft. or range 30/120\
+      \ ft., one target. Hit: 6 (1d6 + 3) piercing damage."
+    "name": "Javelin"
+  - "desc": "For 1 minute, the hobgoblin can utter a special command or warning whenever\
+      \ a nonhostile creature that it can see within 30 feet of it makes an attack\
+      \ roll or a saving throw. The creature can add a d4 to its roll provided it\
+      \ can hear and understand the hobgoblin. A creature can benefit from only one\
+      \ Leadership die at a time. This effect ends if the hobgoblin is [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)."
+    "name": "Leadership (Recharges after a Short or Long Rest)"
 "reactions":
-- "desc": "The hobgoblin adds 3 to its AC against one melee attack that would hit\
-    \ it. To do so, the hobgoblin must see the attacker and be wielding a melee weapon."
-  "name": "Parry"
+  - "desc": "The hobgoblin adds 3 to its AC against one melee attack that would hit\
+      \ it. To do so, the hobgoblin must see the attacker and be wielding a melee\
+      \ weapon."
+    "name": "Parry"
 "source":
-- "MM"
-- "BGDIA"
-- "SatO"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/humanoid/token/hobgoblin-warlord.webp"
+  - "MM"
+  - "SKT"
+  - "WDMM"
+  - "BGDIA"
+  - "DSotDQ"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/hobgoblin-warlord.webp"
 ```
 ^statblock
 

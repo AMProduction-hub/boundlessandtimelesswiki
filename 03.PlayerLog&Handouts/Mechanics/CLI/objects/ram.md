@@ -5,7 +5,8 @@ tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/object/size/large
 - ttrpg-cli/object/type/siege-weapon
-aliases: ["Ram"]
+aliases:
+- Ram
 ---
 # Ram
 %%-- Embedded content starts on the next line. --%%
@@ -19,7 +20,7 @@ It takes a minimum of four Medium creatures to operate a ram. Because of the gal
 
 ```ad-statblock
 title: Ram
-![](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/objects/token/ram.webp#token)
+![](03.PlayerLog&Handouts/Mechanics/CLI/objects/token/ram.webp#token)
 *Large Siege weapon*
 
 - **Armor Class** 15

@@ -9,9 +9,11 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/humanoid/lizardfolk
 statblock: inline
-aliases: ["Lizard Queen"]
+statblock-link: "#^statblock"
+aliases:
+- Lizard Queen
 ---
-# [Lizard Queen](03 - Player Log & Handouts\Mechanics\CLI\bestiary\humanoid/lizard-queen.md)
+# [Lizard Queen](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/lizard-queen.md)
 *Source: Monster Manual p. 205*  
 
 Lizardfolk are primitive reptilian humanoids that lurk in the swamps and jungles of the world. Their hut villages thrive in forbidding grottos, half-sunken ruins, and watery caverns.
@@ -61,49 +63,53 @@ Lizardfolk speak Draconic, which they are thought to have learned from dragons i
 "ac_class": "natural armor"
 "hp": !!int "78"
 "hit_dice": "12d8 + 24"
+"modifier": !!int "1"
 "stats":
-- !!int "17"
-- !!int "12"
-- !!int "15"
-- !!int "11"
-- !!int "11"
-- !!int "15"
+  - !!int "17"
+  - !!int "12"
+  - !!int "15"
+  - !!int "11"
+  - !!int "11"
+  - !!int "15"
 "speed": "30 ft., swim 30 ft."
 "saves":
-  "Wisdom": !!int "2"
-  "Constitution": !!int "4"
+  - "constitution": "+4"
+  - "wisdom": "+2"
 "skillsaves":
-  "Stealth": !!int "5"
-  "Perception": !!int "4"
-  "Survival": !!int "4"
-"condition_immunities": "[frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+4"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+5"
+  - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
+    "desc": "+4"
+"condition_immunities": "[frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
 "senses": "darkvision 60 ft., passive Perception 14"
 "languages": "Abyssal, Draconic"
 "cr": "4"
 "traits":
-- "desc": "The lizardfolk can hold its breath for 15 minutes."
-  "name": "Hold Breath"
-- "desc": "Once per turn, when the lizardfolk makes a melee attack with its trident\
-    \ and hits, the target takes an extra 10 (3d6) damage, and the lizardfolk gains\
-    \ temporary hit points equal to the extra damage dealt."
-  "name": "Skewer"
+  - "desc": "The lizardfolk can hold its breath for 15 minutes."
+    "name": "Hold Breath"
+  - "desc": "Once per turn, when the lizardfolk makes a melee attack with its trident\
+      \ and hits, the target takes an extra 10 (3d6) damage, and the lizardfolk\
+      \ gains temporary hit points equal to the extra damage dealt."
+    "name": "Skewer"
 "actions":
-- "desc": "The lizardfolk makes two attacks: one with its bite and one with its claws\
-    \ or trident or two melee attacks with its trident."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6\
-    \ + 3) piercing damage."
-  "name": "Bite"
-- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4\
-    \ + 3) slashing damage."
-  "name": "Claws"
-- "desc": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60\
-    \ ft., one target. Hit: 6 (1d6 + 3) piercing damage, or 7 (1d8 + 3) piercing\
-    \ damage if used with two hands to make a melee attack."
-  "name": "Trident"
+  - "desc": "The lizardfolk makes two attacks: one with its bite and one with its\
+      \ claws or trident or two melee attacks with its trident."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+      \ (1d6 + 3) piercing damage."
+    "name": "Bite"
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5\
+      \ (1d4 + 3) slashing damage."
+    "name": "Claws"
+  - "desc": "Melee  or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. Hit: 6 (1d6 + 3) piercing damage, or 7 (1d8 + 3) piercing\
+      \ damage if used with two hands to make a melee attack."
+    "name": "Trident"
 "source":
-- "MM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/humanoid/token/lizard-queen.webp"
+  - "MM"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/lizard-queen.webp"
 ```
 ^statblock
 

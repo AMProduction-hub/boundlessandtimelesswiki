@@ -7,7 +7,9 @@ tags:
 - ttrpg-cli/spell/class/bard
 - ttrpg-cli/spell/class/cleric
 - ttrpg-cli/spell/feat/artificer-initiate
+- ttrpg-cli/spell/feat/divinely-favored
 - ttrpg-cli/spell/feat/magic-initiate
+- ttrpg-cli/spell/feat/strixhaven-initiate
 - ttrpg-cli/spell/level/1st-level
 - ttrpg-cli/spell/school/abjuration
 - ttrpg-cli/spell/subclass/divine-soul
@@ -26,7 +28,8 @@ classes:
 - Paladin (Oath of Redemption)
 - Sorcerer (Divine Soul)
 - Warlock (The Genie)
-aliases: ["Sanctuary"]
+aliases:
+- Sanctuary
 ---
 # Sanctuary
 *1st-level, Abjuration*  
@@ -37,10 +40,10 @@ aliases: ["Sanctuary"]
 - **Components:** V, S, M (a small silver mirror)
 - **Duration:** 1 minute
 
-You ward a creature within range against attack. Until the spell ends, any creature who targets the warded creature with an attack or a harmful spell must first make a Wisdom saving throw. On a failed save, the creature must choose a new target or lose the attack or spell. This spell doesn't protect the warded creature from area effects, such as the explosion of a [fireball](fireball.md).
+You ward a creature within range against attack. Until the spell ends, any creature who targets the warded creature with an attack or a harmful spell must first make a Wisdom saving throw. On a failed save, the creature must choose a new target or lose the attack or spell. This spell doesn't protect the warded creature from area effects, such as the explosion of a [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md).
 
 If the warded creature makes an attack, casts a spell that affects an enemy, or deals damage to another creature, this spell ends.
 
-**Classes**: [Artificer](list-spells-classes-artificer.md); [Cleric (Peace Domain)](list-spells-classes-cleric-peace-domain-tce.md "subclass=TCE"); [Cleric](list-spells-classes-cleric.md); [Monk (Way of the Open Hand)](list-spells-classes-monk-way-of-the-open-hand.md); [Bard](list-spells-classes-bard.md); [Warlock (The Genie)](list-spells-classes-warlock-the-genie-tce.md "subclass=TCE"); [Sorcerer (Divine Soul)](list-spells-classes-sorcerer-divine-soul-xge.md "subclass=XGE"); [Paladin (Oath of Devotion)](list-spells-classes-paladin-oath-of-devotion.md); [Paladin (Oath of Redemption)](list-spells-classes-paladin-oath-of-redemption-xge.md "subclass=XGE")
+**Classes**: [Artificer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-artificer.md); [Cleric (Peace Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-peace-domain-tce.md "subclass=TCE"); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Warlock (The Genie)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-genie-tce.md "subclass=TCE"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Paladin (Oath of Devotion)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-devotion.md); [Paladin (Oath of Redemption)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-redemption-xge.md "subclass=XGE"); [Monk (Way of the Open Hand)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-way-of-the-open-hand.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE")
 
 *Source: Player's Handbook p. 272. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*

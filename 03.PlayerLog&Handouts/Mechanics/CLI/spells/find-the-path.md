@@ -14,7 +14,8 @@ classes:
 - Cleric
 - Druid
 - Sorcerer (Divine Soul)
-aliases: ["Find the Path"]
+aliases:
+- Find the Path
 ---
 # Find the Path
 *6th-level, Divination*  
@@ -29,6 +30,6 @@ This spell allows you to find the shortest, most direct physical route to a spec
 
 For the duration, as long as you are on the same plane of existence as the destination, you know how far it is and in what direction it lies. While you are traveling there, whenever you are presented with a choice of paths along the way, you automatically determine which path is the shortest and most direct route (but not necessarily the safest route) to the destination.
 
-**Classes**: [Druid](list-spells-classes-druid.md); [Cleric](list-spells-classes-cleric.md); [Bard](list-spells-classes-bard.md); [Sorcerer (Divine Soul)](list-spells-classes-sorcerer-divine-soul-xge.md "subclass=XGE")
+**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md)
 
 *Source: Player's Handbook p. 240. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*

@@ -4,7 +4,8 @@ cssclasses: json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/race/kenku
-aliases: ["Kenku"]
+aliases:
+- Kenku
 ---
 # Kenku
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 24*  

@@ -6,18 +6,22 @@ tags:
 - ttrpg-cli/spell/class/bard
 - ttrpg-cli/spell/class/cleric
 - ttrpg-cli/spell/class/druid
+- ttrpg-cli/spell/feat/divinely-favored
 - ttrpg-cli/spell/feat/magic-initiate
+- ttrpg-cli/spell/feat/strixhaven-initiate
 - ttrpg-cli/spell/level/1st-level
 - ttrpg-cli/spell/school/evocation
 - ttrpg-cli/spell/subclass/alchemist
 - ttrpg-cli/spell/subclass/divine-soul
+- ttrpg-cli/spell/subrace/halfling-mark-of-healing
 classes:
 - Artificer (Alchemist)
 - Bard
 - Cleric
 - Druid
 - Sorcerer (Divine Soul)
-aliases: ["Healing Word"]
+aliases:
+- Healing Word
 ---
 # Healing Word
 *1st-level, Evocation*  
@@ -28,10 +32,10 @@ aliases: ["Healing Word"]
 - **Components:** V
 - **Duration:** Instantaneous
 
-A creature of your choice that you can see within range regains hit points equal to `1d4` + your spellcasting ability modifier. This spell has no effect on undead or constructs.
+A creature of your choice that you can see within range regains hit points equal to `d4` + your spellcasting ability modifier. This spell has no effect on undead or constructs.
 
-**At Higher Levels.** When you cast this spell using a spell slot of 2nd level or higher, the healing increases by `1d4` for each slot level above 1st.
+**At Higher Levels.** When you cast this spell using a spell slot of 2nd level or higher, the healing increases by `d4` for each slot level above 1st.
 
-**Classes**: [Druid](list-spells-classes-druid.md); [Artificer (Alchemist)](list-spells-classes-artificer-alchemist-tce.md "subclass=TCE;class=TCE"); [Cleric](list-spells-classes-cleric.md); [Bard](list-spells-classes-bard.md); [Sorcerer (Divine Soul)](list-spells-classes-sorcerer-divine-soul-xge.md "subclass=XGE")
+**Classes**: [Artificer (Alchemist)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-alchemist-tce.md "subclass=TCE;class=TCE"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md)
 
 *Source: Player's Handbook p. 250. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*

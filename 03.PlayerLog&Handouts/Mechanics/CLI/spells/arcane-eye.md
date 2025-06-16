@@ -3,6 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
+- ttrpg-cli/spell/background/dimir-operative
+- ttrpg-cli/spell/background/lorehold-student
 - ttrpg-cli/spell/class/artificer
 - ttrpg-cli/spell/class/bard
 - ttrpg-cli/spell/class/wizard
@@ -14,6 +16,8 @@ tags:
 - ttrpg-cli/spell/subclass/eldritch-knight
 - ttrpg-cli/spell/subclass/knowledge-domain
 - ttrpg-cli/spell/subclass/swarmkeeper
+- ttrpg-cli/spell/subrace/gnome-mark-of-scribing
+- ttrpg-cli/spell/subrace/half-elf-mark-of-detection
 classes:
 - Artificer
 - Bard
@@ -23,7 +27,8 @@ classes:
 - Ranger (Swarmkeeper)
 - Rogue (Arcane Trickster)
 - Wizard
-aliases: ["Arcane Eye"]
+aliases:
+- Arcane Eye
 ---
 # Arcane Eye
 *4th-level, Divination*  
@@ -36,10 +41,10 @@ aliases: ["Arcane Eye"]
 
 You create an invisible, magical eye within range that hovers in the air for the duration.
 
-You mentally receive visual information from the eye, which has normal vision and [darkvision](senses.md#Darkvision) out to 30 feet. The eye can look in every direction.
+You mentally receive visual information from the eye, which has normal vision and [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision) out to 30 feet. The eye can look in every direction.
 
 As an action, you can move the eye up to 30 feet in any direction. There is no limit to how far away from you the eye can move, but it can't enter another plane of existence. A solid barrier blocks the eye's movement, but the eye can pass through an opening as small as 1 inch in diameter.
 
-**Classes**: [Artificer](list-spells-classes-artificer.md); [Cleric (Knowledge Domain)](list-spells-classes-cleric-knowledge-domain.md); [Rogue (Arcane Trickster)](list-spells-classes-rogue-arcane-trickster.md); [Ranger (Swarmkeeper)](list-spells-classes-ranger-swarmkeeper-tce.md "subclass=TCE"); [Bard](list-spells-classes-bard.md); [Wizard](list-spells-classes-wizard.md); [Fighter (Eldritch Knight)](list-spells-classes-fighter-eldritch-knight.md); [Cleric (Arcana Domain)](list-spells-classes-cleric-arcana-domain-scag.md "subclass=SCAG")
+**Classes**: [Artificer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-artificer.md); [Cleric (Arcana Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcana-domain-scag.md "subclass=SCAG"); [Cleric (Knowledge Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-knowledge-domain.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Ranger (Swarmkeeper)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-swarmkeeper-tce.md "subclass=TCE"); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook p. 214. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*

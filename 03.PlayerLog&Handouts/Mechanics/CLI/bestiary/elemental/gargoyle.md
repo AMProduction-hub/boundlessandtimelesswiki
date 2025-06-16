@@ -9,10 +9,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/elemental
 statblock: inline
-aliases: ["Gargoyle"]
+statblock-link: "#^statblock"
+aliases:
+- Gargoyle
 ---
-# [Gargoyle](03 - Player Log & Handouts\Mechanics\CLI\bestiary\elemental/gargoyle.md)
-*Source: Monster Manual p. 140, Baldur's Gate: Descent Into Avernus. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Gargoyle](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\elemental/gargoyle.md)
+*Source: Monster Manual p. 140, Curse of Strahd, Princes of the Apocalypse, Storm King's Thunder, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Baldur's Gate: Descent Into Avernus, Eberron: Rising from the Last War, Icewind Dale: Rime of the Frostmaiden, Candlekeep Mysteries, Journeys through the Radiant Citadel. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 The inanimate gargoyles that perch atop great buildings are inspired by these malevolent creatures of elemental earth that resemble grotesque, fiendish statues. A gargoyle lurks among masonry and ruins, as still as any stone sculpture, and delights in the terror it creates when it breaks from its suspended pose, as well as the pain it inflicts on its victims.
 
@@ -52,40 +54,52 @@ A gargoyle doesn't require air, food, drink, or sleep.
 "ac_class": "natural armor"
 "hp": !!int "52"
 "hit_dice": "7d8 + 21"
+"modifier": !!int "0"
 "stats":
-- !!int "15"
-- !!int "11"
-- !!int "16"
-- !!int "6"
-- !!int "11"
-- !!int "7"
+  - !!int "15"
+  - !!int "11"
+  - !!int "16"
+  - !!int "6"
+  - !!int "11"
+  - !!int "7"
 "speed": "30 ft., fly 60 ft."
 "damage_resistances": "bludgeoning, piercing, slashing from nonmagical attacks that\
   \ aren't adamantine"
 "damage_immunities": "poison"
-"condition_immunities": "[exhaustion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
-  \ [petrified](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
-  \ [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
+  \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
+  \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "darkvision 60 ft., passive Perception 10"
 "languages": "Terran"
 "cr": "2"
 "traits":
-- "desc": "While the gargoyle remains motionless, it is indistinguishable from an\
-    \ inanimate statue."
-  "name": "False Appearance"
+  - "desc": "While the gargoyle remains motionless, it is indistinguishable from an\
+      \ inanimate statue."
+    "name": "False Appearance"
 "actions":
-- "desc": "The gargoyle makes two attacks: one with its bite and one with its claws."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6\
-    \ + 2) piercing damage."
-  "name": "Bite"
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6\
-    \ + 2) slashing damage."
-  "name": "Claws"
+  - "desc": "The gargoyle makes two attacks: one with its bite and one with its claws."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+      \ (1d6 + 2) piercing damage."
+    "name": "Bite"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+      \ (1d6 + 2) slashing damage."
+    "name": "Claws"
 "source":
-- "MM"
-- "BGDIA"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/elemental/token/gargoyle.webp"
+  - "MM"
+  - "CoS"
+  - "PotA"
+  - "SKT"
+  - "TftYP"
+  - "ToA"
+  - "WDH"
+  - "WDMM"
+  - "BGDIA"
+  - "ERLW"
+  - "IDRotF"
+  - "CM"
+  - "JttRC"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/token/gargoyle.webp"
 ```
 ^statblock
 

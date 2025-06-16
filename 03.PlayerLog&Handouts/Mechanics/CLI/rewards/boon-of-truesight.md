@@ -4,10 +4,11 @@ cssclasses: json5e-reward
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/reward/boon
-aliases: ["Boon of Truesight"]
+aliases:
+- Boon of Truesight
 ---
 # Boon of Truesight
 
-You have [truesight](senses.md#Truesight) out to a range of 60 feet.
+You have [truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight) out to a range of 60 feet.
 
 *Source: Dungeon Master's Guide p. 232*

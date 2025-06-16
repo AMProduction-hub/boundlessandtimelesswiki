@@ -4,10 +4,11 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/subclass/wizard/evocation
-aliases: ["School of Evocation"]
+aliases:
+- School of Evocation
 ---
 # School of Evocation
-*[Wizard](wizard.md): Arcane Tradition*  
+*[Wizard](./wizard.md): Arcane Tradition*  
 *Source: Player's Handbook p. 117. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 > [!tldr] Class and Feature Progression
@@ -68,4 +69,4 @@ Beginning at 10th level, you can add your Intelligence modifier to one damage ro
 
 Starting at 14th level, you can increase the power of your simpler spells. When you cast a wizard spell of 1st through 5th-level that deals damage, you can deal maximum damage with that spell.
 
-The first time you do so, you suffer no adverse effect. If you use this feature again before you finish a long rest, you take `2d12` necrotic damage for each level of the spell, immediately after you cast it. Each time you use this feature again before finishing a long rest, the necrotic damage per spell level increases by `1d12`. This damage ignores resistance and immunity.
+The first time you do so, you suffer no adverse effect. If you use this feature again before you finish a long rest, you take `2d12` necrotic damage for each level of the spell, immediately after you cast it. Each time you use this feature again before finishing a long rest, the necrotic damage per spell level increases by `d12`. This damage ignores resistance and immunity.

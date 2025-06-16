@@ -15,15 +15,15 @@ aliases:
 
 **Items in this group:**
 
-- [Bagpipes](bagpipes.md)
-- [Drum](drum.md)
-- [Dulcimer](dulcimer.md)
-- [Flute](flute.md)
-- [Horn](horn.md)
-- [Lute](lute.md)
-- [Lyre](lyre.md)
-- [Pan Flute](pan-flute.md)
-- [Shawm](shawm.md)
-- [Viol](viol.md)
+- [Bagpipes](03.PlayerLog&Handouts/Mechanics/CLI/items/bagpipes.md)
+- [Drum](03.PlayerLog&Handouts/Mechanics/CLI/items/drum.md)
+- [Dulcimer](03.PlayerLog&Handouts/Mechanics/CLI/items/dulcimer.md)
+- [Flute](03.PlayerLog&Handouts/Mechanics/CLI/items/flute.md)
+- [Horn](03.PlayerLog&Handouts/Mechanics/CLI/items/horn.md)
+- [Lute](03.PlayerLog&Handouts/Mechanics/CLI/items/lute.md)
+- [Lyre](03.PlayerLog&Handouts/Mechanics/CLI/items/lyre.md)
+- [Pan Flute](03.PlayerLog&Handouts/Mechanics/CLI/items/pan-flute.md)
+- [Shawm](03.PlayerLog&Handouts/Mechanics/CLI/items/shawm.md)
+- [Viol](03.PlayerLog&Handouts/Mechanics/CLI/items/viol.md)
 
 *Source: Player's Handbook p. 154. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*

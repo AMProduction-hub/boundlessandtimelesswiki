@@ -8,9 +8,11 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/fiend/yugoloth
 statblock: inline
-aliases: ["Dhergoloth"]
+statblock-link: "#^statblock"
+aliases:
+- Dhergoloth
 ---
-# [Dhergoloth](03 - Player Log & Handouts\Mechanics\CLI\bestiary\fiend/dhergoloth-mpmm.md)
+# [Dhergoloth](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/dhergoloth-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 94, Mordenkainen's Tome of Foes p. 248*  
 
 > [!quote] A quote from Mordenkainen  
@@ -33,49 +35,50 @@ Since dhergoloths are little more than brutes, employers must use caution when i
 "ac_class": "natural armor"
 "hp": !!int "119"
 "hit_dice": "14d8 + 56"
+"modifier": !!int "0"
 "stats":
-- !!int "17"
-- !!int "10"
-- !!int "19"
-- !!int "7"
-- !!int "10"
-- !!int "9"
+  - !!int "17"
+  - !!int "10"
+  - !!int "19"
+  - !!int "7"
+  - !!int "10"
+  - !!int "9"
 "speed": "30 ft."
 "saves":
-  "Strength": !!int "6"
+  - "strength": "+6"
 "damage_resistances": "cold; fire; lightning; bludgeoning, piercing, slashing from\
   \ nonmagical attacks"
 "damage_immunities": "acid, poison"
-"condition_immunities": "[poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "blindsight 60 ft., darkvision 60 ft., passive Perception 10"
 "languages": "Abyssal, Infernal, telepathy 60 ft."
 "cr": "7"
 "traits":
-- "desc": "The dhergoloth casts one of the following spells, requiring no material\
-    \ components and using Charisma as the spellcasting ability (spell save DC 10):\n\
-    \nAt will: [darkness](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/darkness.md),\
-    \ [fear](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/fear.md)"
-  "name": "Spellcasting"
-- "desc": "The dhergoloth has advantage on saving throws against spells and other\
-    \ magical effects."
-  "name": "Magic Resistance"
+  - "desc": "The dhergoloth has advantage on saving throws against spells and other\
+      \ magical effects."
+    "name": "Magic Resistance"
 "actions":
-- "desc": "The dhergoloth makes two Claw attacks."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 12\
-    \ (2d8 + 3) force damage."
-  "name": "Claw"
-- "desc": "The dhergoloth moves up to its speed in a straight line and targets each\
-    \ creature within 5 feet of it during its movement. Each target must succeed on\
-    \ a DC 14 Dexterity saving throw or take 22 (3d12 + 3) force damage."
-  "name": "Flailing Claws (Recharge 5-6)"
-- "desc": "The dhergoloth teleports, along with any equipment it is wearing or carrying,\
-    \ up to 60 feet to an unoccupied space it can see."
-  "name": "Teleport"
+  - "desc": "The dhergoloth makes two Claw attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 12\
+      \ (2d8 + 3) force damage."
+    "name": "Claw"
+  - "desc": "The dhergoloth moves up to its speed in a straight line and targets each\
+      \ creature within 5 feet of it during its movement. Each target must succeed\
+      \ on a DC 14 Dexterity saving throw or take 22 (3d12 + 3) force damage."
+    "name": "Flailing Claws (Recharge 5-6)"
+  - "desc": "The dhergoloth teleports, along with any equipment it is wearing or carrying,\
+      \ up to 60 feet to an unoccupied space it can see."
+    "name": "Teleport"
+  - "desc": "The dhergoloth casts one of the following spells, requiring no material\
+      \ components and using Charisma as the spellcasting ability (spell save DC 10):\n\
+      \nAt will: [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
+      \ [fear](03.PlayerLog&Handouts/Mechanics/CLI/spells/fear.md)"
+    "name": "Spellcasting"
 "source":
-- "MPMM"
-- "MTF"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/fiend/token/dhergoloth-mpmm.webp"
+  - "MPMM"
+  - "MTF"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/token/dhergoloth-mpmm.webp"
 ```
 ^statblock
 

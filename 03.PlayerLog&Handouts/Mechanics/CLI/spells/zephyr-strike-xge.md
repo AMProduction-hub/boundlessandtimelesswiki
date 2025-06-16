@@ -10,7 +10,8 @@ tags:
 classes:
 - Bard
 - Ranger
-aliases: ["Zephyr Strike"]
+aliases:
+- Zephyr Strike
 ---
 # Zephyr Strike
 *1st-level, Transmutation*  
@@ -23,8 +24,8 @@ aliases: ["Zephyr Strike"]
 
 You move like the wind. Until the spell ends, your movement doesn't provoke opportunity attacks.
 
-Once before the spell ends, you can give yourself advantage on one weapon attack roll on your turn. That attack deals an extra `1d8` force damage on a hit. Whether you hit or miss, your walking speed increases by 30 feet until the end of that turn.
+Once before the spell ends, you can give yourself advantage on one weapon attack roll on your turn. That attack deals an extra `d8` force damage on a hit. Whether you hit or miss, your walking speed increases by 30 feet until the end of that turn.
 
-**Classes**: [Bard](list-spells-classes-bard.md); [Ranger](list-spells-classes-ranger.md)
+**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Ranger](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-ranger.md)
 
 *Source: Xanathar's Guide to Everything p. 171*

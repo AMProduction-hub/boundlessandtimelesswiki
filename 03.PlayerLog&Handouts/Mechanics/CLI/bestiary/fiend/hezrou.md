@@ -7,10 +7,12 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/fiend/demon
 statblock: inline
-aliases: ["Hezrou"]
+statblock-link: "#^statblock"
+aliases:
+- Hezrou
 ---
-# [Hezrou](03 - Player Log & Handouts\Mechanics\CLI\bestiary\fiend/hezrou.md)
-*Source: Monster Manual p. 60, Baldur's Gate: Descent Into Avernus. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Hezrou](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/hezrou.md)
+*Source: Monster Manual p. 60, Princes of the Apocalypse, Tales from the Yawning Portal, Waterdeep: Dungeon of the Mad Mage, Baldur's Gate: Descent Into Avernus, Explorer's Guide to Wildemount. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Hezrous serve as foot soldiers in the demonic hordes of the Abyss. Although physically powerful, they are weak-minded and hezrous can easily be duped into sacrificing themselves by more powerful demons. As they press their attacks into the heart of an enemy's forces, their foul stench can sicken even the toughest foes.
 
@@ -154,7 +156,7 @@ Demonologists organize the chaotic distribution of demons into broad categories 
 
 > [!note] Demon True Names
 > 
-> Though demons all have common names, every demon lord and every demon of type 1 through 6 has a true name that it keeps secret. A demon can be forced to disclose its true name if [charmed](conditions.md#Charmed), and ancient scrolls and tomes are said to exist that list the true names of the most powerful demons.
+> Though demons all have common names, every demon lord and every demon of type 1 through 6 has a true name that it keeps secret. A demon can be forced to disclose its true name if [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), and ancient scrolls and tomes are said to exist that list the true names of the most powerful demons.
 > 
 > A mortal who learns a demon's true name can use powerful summoning magic to call the demon from the Abyss and exercise some measure of control over it. However, most demons brought to the Material Plane in this manner do everything in their power to wreak havoc or sow discord and strife.
 ^demon-true-names
@@ -163,13 +165,13 @@ Demonologists organize the chaotic distribution of demons into broad categories 
 > 
 > Some demons can have an action option that allows them to summon other demons. Summon Demon (1/Day). The demon chooses what to summon and attempts a magical summoning.
 > 
-> - A balor has a 50 percent chance of summoning `1d8` vrocks, `1d6` hezrous, `1d4` glabrezus, `1d3` nalfeshnees, `1d2` mariliths, or one goristro.  
+> - A balor has a 50 percent chance of summoning `d8` vrocks, `d6` hezrous, `d4` glabrezus, `d3` nalfeshnees, `d2` mariliths, or one goristro.  
 > - A barlgura has a 30 percent chance of summoning one barlgura.  
 > - A chasme has a 30 percent chance of summoning one chasme.  
-> - A glabrezu has a 30 percent chance of summoning `1d3` vrocks, `1d2` hezrous, or one glabrezu.  
+> - A glabrezu has a 30 percent chance of summoning `d3` vrocks, `d2` hezrous, or one glabrezu.  
 > - A hezrou has a 30 percent chance of summoning `2d6` dretches or one hezrou.  
-> - A marilith has a 50 percent chance of summoning `1d6` vrocks, `1d4` hezrous, `1d3` glabrezus, `1d2` nalfeshnees, or one marilith.  
-> - A nalfeshnee has a 50 percent chance of summoning `1d4` vrocks, `1d3` hezrous, `1d2` glabrezus, or one nalfeshnee.  
+> - A marilith has a 50 percent chance of summoning `d6` vrocks, `d4` hezrous, `d3` glabrezus, `d2` nalfeshnees, or one marilith.  
+> - A nalfeshnee has a 50 percent chance of summoning `d4` vrocks, `d3` hezrous, `d2` glabrezus, or one nalfeshnee.  
 > - A vrock has a 30 percent chance of summoning `2d4` dretches or one vrock.  
 > - A yochlol has a 50 percent chance of summoning one yochlol.  
 > 
@@ -191,46 +193,51 @@ Demonologists organize the chaotic distribution of demons into broad categories 
 "ac_class": "natural armor"
 "hp": !!int "136"
 "hit_dice": "13d10 + 65"
+"modifier": !!int "3"
 "stats":
-- !!int "19"
-- !!int "17"
-- !!int "20"
-- !!int "5"
-- !!int "12"
-- !!int "13"
+  - !!int "19"
+  - !!int "17"
+  - !!int "20"
+  - !!int "5"
+  - !!int "12"
+  - !!int "13"
 "speed": "30 ft."
 "saves":
-  "Wisdom": !!int "4"
-  "Strength": !!int "7"
-  "Constitution": !!int "8"
+  - "strength": "+7"
+  - "constitution": "+8"
+  - "wisdom": "+4"
 "damage_resistances": "cold; fire; lightning; bludgeoning, piercing, slashing from\
   \ nonmagical attacks"
 "damage_immunities": "poison"
-"condition_immunities": "[poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "darkvision 120 ft., passive Perception 11"
 "languages": "Abyssal, telepathy 120 ft."
 "cr": "8"
 "traits":
-- "desc": "The hezrou has advantage on saving throws against spells and other magical\
-    \ effects."
-  "name": "Magic Resistance"
-- "desc": "Any creature that starts its turn within 10 feet of the hezrou must succeed\
-    \ on a DC 14 Constitution saving throw or be [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
-    \ until the start of its next turn. On a successful saving throw, the creature\
-    \ is immune to the hezrou's stench for 24 hours."
-  "name": "Stench"
+  - "desc": "The hezrou has advantage on saving throws against spells and other magical\
+      \ effects."
+    "name": "Magic Resistance"
+  - "desc": "Any creature that starts its turn within 10 feet of the hezrou must succeed\
+      \ on a DC 14 Constitution saving throw or be [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
+      \ until the start of its next turn. On a successful saving throw, the creature\
+      \ is immune to the hezrou's stench for 24 hours."
+    "name": "Stench"
 "actions":
-- "desc": "The hezrou makes three attacks: one with its bite and two with its claws."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 15\
-    \ (2d10 + 4) piercing damage."
-  "name": "Bite"
-- "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
-    \ (2d6 + 4) slashing damage."
-  "name": "Claws"
+  - "desc": "The hezrou makes three attacks: one with its bite and two with its claws."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 15\
+      \ (2d10 + 4) piercing damage."
+    "name": "Bite"
+  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
+      \ (2d6 + 4) slashing damage."
+    "name": "Claws"
 "source":
-- "MM"
-- "BGDIA"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/fiend/token/hezrou.webp"
+  - "MM"
+  - "PotA"
+  - "TftYP"
+  - "WDMM"
+  - "BGDIA"
+  - "EGW"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/token/hezrou.webp"
 ```
 ^statblock

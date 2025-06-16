@@ -16,7 +16,8 @@ classes:
 - Sorcerer
 - Warlock
 - Wizard
-aliases: ["Scatter"]
+aliases:
+- Scatter
 ---
 # Scatter
 *6th-level, Conjuration*  
@@ -29,6 +30,6 @@ aliases: ["Scatter"]
 
 The air quivers around up to five creatures of your choice that you can see within range. An unwilling creature must succeed on a Wisdom saving throw to resist this spell. You teleport each affected target to an unoccupied space that you can see within 120 feet of you. That space must be on the ground or on a floor.
 
-**Classes**: [Bard](list-spells-classes-bard.md); [Wizard](list-spells-classes-wizard.md); [Sorcerer](list-spells-classes-sorcerer.md); [Cleric (Arcana Domain)](list-spells-classes-cleric-arcana-domain-scag.md "subclass=SCAG"); [Warlock](list-spells-classes-warlock.md)
+**Classes**: [Cleric (Arcana Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcana-domain-scag.md "subclass=SCAG"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Xanathar's Guide to Everything p. 164*

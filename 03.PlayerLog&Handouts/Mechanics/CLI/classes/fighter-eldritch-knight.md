@@ -4,10 +4,11 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/subclass/fighter/eldritch-knight
-aliases: ["Eldritch Knight"]
+aliases:
+- Eldritch Knight
 ---
 # Eldritch Knight
-*[Fighter](03.PlayerLog&Handouts/Mechanics/CLI/classes/fighter.md): Martial Archetype*  
+*[Fighter](./fighter.md): Martial Archetype*  
 *Source: Player's Handbook p. 74*  
 
 > [!tldr] Class and Feature Progression
@@ -76,15 +77,15 @@ Whenever you gain a level in this class, you can replace one of the wizard spell
 
 Intelligence is your spellcasting ability for your wizard spells, since you learn your spells through study and memorization. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.
 
-<span class='abilityDc'>**Spell save DC**: 8 + your proficiency bonus + your Intelligence modifier</span>
+<span class='abilityDc'>**Spell save DC**: your proficiency bonus + your Intelligence</span>
 
-<span class='abilityAttackMod'>**Spell attack modifier**: your proficiency bonus + your Intelligence modifier</span>
+<span class='abilityAttackMod'>**Spell attack modifier**: your proficiency bonus + your Intelligence</span>
 
 ### Weapon Bond (Level 3)
 
 At 3rd level, you learn a ritual that creates a magical bond between yourself and one weapon. You perform the ritual over the course of 1 hour, which can be done during a short rest. The weapon must be within your reach throughout the ritual, at the conclusion of which you touch the weapon and forge the bond.
 
-Once you have bonded a weapon to yourself, you can't be disarmed of that weapon unless you are [incapacitated](conditions.md#Incapacitated). If it is on the same plane of existence, you can summon that weapon as a bonus action on your turn, causing it to teleport instantly to your hand.
+Once you have bonded a weapon to yourself, you can't be disarmed of that weapon unless you are [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated). If it is on the same plane of existence, you can summon that weapon as a bonus action on your turn, causing it to teleport instantly to your hand.
 
 You can have up to two bonded weapons, but can summon only one at a time with your bonus action. If you attempt to bond with a third weapon, you must break the bond with one of the other two.
 

@@ -11,10 +11,10 @@ aliases:
 ---
 # Candle of Invocation
 *Wondrous item, major, very rare (requires attunement)*  
-![](candle-of-invocation.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/candle-of-invocation.webp#right)
 
 
-This slender taper is dedicated to a deity and shares that deity's alignment. The candle's alignment can be detected with the [detect evil and good](detect-evil-and-good.md) spell. The DM chooses the god and associated alignment or determines the alignment randomly.
+This slender taper is dedicated to a deity and shares that deity's alignment. The candle's alignment can be detected with the [detect evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-evil-and-good.md) spell. The DM chooses the god and associated alignment or determines the alignment randomly.
 
 `dice: [](candle-of-invocation.md#^alignment)`
 
@@ -35,6 +35,6 @@ The candle's magic is activated when the candle is lit, which requires an action
 
 While lit, the candle sheds dim light in a 30-foot radius. Any creature within that light whose alignment matches that of the candle makes attack rolls, saving throws, and ability checks with advantage. In addition, a cleric or druid in the light whose alignment matches the candle's can cast 1st-level spells he or she has prepared without expending spell slots, though the spell's effect is as if cast with a 1st-level slot.
 
-Alternatively, when you light the candle for the first time, you can cast the [gate](gate.md) spell with it. Doing so destroys the candle.
+Alternatively, when you light the candle for the first time, you can cast the [gate](03.PlayerLog&Handouts/Mechanics/CLI/spells/gate.md) spell with it. Doing so destroys the candle.
 
 *Source: Dungeon Master's Guide p. 157. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

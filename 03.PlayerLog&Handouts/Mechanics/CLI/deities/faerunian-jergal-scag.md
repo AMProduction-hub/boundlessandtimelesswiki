@@ -6,11 +6,15 @@ tags:
 - ttrpg-cli/deity/faerunian
 - ttrpg-cli/domain/death
 - ttrpg-cli/domain/knowledge
-aliases: ["Jergal", "The Final Scribe", "The Pitiless One", "The Bleak Seneschal"]
+aliases: 
+- Jergal
+- The Final Scribe
+- The Pitiless One
+- The Bleak Seneschal
 ---
 # Jergal
 *Source: Sword Coast Adventurer's Guide p. 21* 
-![](scag-symbol-of-jergal.webp#symbol)
+![](03.PlayerLog&Handouts/Mechanics/CLI/deities/img/scag-symbol-of-jergal.webp#symbol)
 
 - **Alternate Names**: The Final Scribe, The Pitiless One, The Bleak Seneschal
 - **Alignment**: Lawful Neutral

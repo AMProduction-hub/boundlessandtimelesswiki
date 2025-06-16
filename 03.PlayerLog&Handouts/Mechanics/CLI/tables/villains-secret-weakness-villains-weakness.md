@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
-aliases: ["Villain's Secret Weakness; Villain's Weakness"]
+aliases:
+- Villain's Secret Weakness; Villain's Weakness
 ---
 # Villain's Secret Weakness; Villain's Weakness
 *Source: Dungeon Master's Guide p. 96* 

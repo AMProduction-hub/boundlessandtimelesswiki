@@ -10,7 +10,7 @@ aliases:
 ---
 # Robe of Useful Items
 *Wondrous item, minor, uncommon*  
-![](robe-of-useful-items.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/robe-of-useful-items.webp#right)
 
 
 This robe has cloth patches of various shapes and colors covering it. While wearing the robe, you can use an action to detach one of the patches, causing it to become the object or creature it represents. Once the last patch is removed, the robe becomes an ordinary garment.
@@ -37,12 +37,12 @@ In addition, the robe has `4d4` other patches. The DM chooses the patches or det
 | 31-44 | Wooden ladder (24 feet long) |
 | 45-51 | A [riding horse](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/riding-horse.md) with saddle bags |
 | 52-59 | Pit (a cube 10 feet on a side), which you can place on the ground within 10 feet of you |
-| 60-68 | 4 [potions of healing](potion-of-healing.md) |
-| 69-75 | [Rowboat](rowboat.md) (12 feet long) |
+| 60-68 | 4 [potions of healing](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-healing.md) |
+| 69-75 | [Rowboat](03.PlayerLog&Handouts/Mechanics/CLI/items/rowboat.md) (12 feet long) |
 | 76-83 | Spell scroll containing one spell of 1st to 3rd level |
 | 84-90 | 2 [mastiffs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/mastiff.md) |
 | 91-96 | Window (2 feet by 4 feet, up to 2 feet deep), which you can place on a vertical surface you can reach |
-| 97-00 | [Portable ram](portable-ram.md) |
+| 97-00 | [Portable ram](03.PlayerLog&Handouts/Mechanics/CLI/items/portable-ram.md) |
 ^patch
 
 *Source: Dungeon Master's Guide p. 195. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

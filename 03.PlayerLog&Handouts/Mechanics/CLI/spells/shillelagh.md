@@ -18,7 +18,8 @@ classes:
 - Cleric (Nature Domain)
 - Druid
 - Druid (Circle of the Land)
-aliases: ["Shillelagh"]
+aliases:
+- Shillelagh
 ---
 # Shillelagh
 *cantrip, Transmutation*  
@@ -29,8 +30,8 @@ aliases: ["Shillelagh"]
 - **Components:** V, S, M (mistletoe, a shamrock leaf, and a club or quarterstaff)
 - **Duration:** 1 minute
 
-The wood of a [club](club.md) or [quarterstaff](quarterstaff.md) you are holding is imbued with nature's power. For the duration, you can use your spellcasting ability instead of Strength for the attack and damage rolls of melee attacks using that weapon, and the weapon's damage die becomes a `d8`. The weapon also becomes magical, if it isn't already. The spell ends if you cast it again or if you let go of the weapon.
+The wood of a [club](03.PlayerLog&Handouts/Mechanics/CLI/items/club.md) or [quarterstaff](03.PlayerLog&Handouts/Mechanics/CLI/items/quarterstaff.md) you are holding is imbued with nature's power. For the duration, you can use your spellcasting ability instead of Strength for the attack and damage rolls of melee attacks using that weapon, and the weapon's damage die becomes a `d8`. The weapon also becomes magical, if it isn't already. The spell ends if you cast it again or if you let go of the weapon.
 
-**Classes**: [Druid](list-spells-classes-druid.md); [Druid (Circle of the Land)](list-spells-classes-druid-circle-of-the-land.md); [Bard](list-spells-classes-bard.md); [Cleric (Nature Domain)](list-spells-classes-cleric-nature-domain.md)
+**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Druid (Circle of the Land)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-circle-of-the-land.md); [Cleric (Nature Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-nature-domain.md)
 
 *Source: Player's Handbook p. 275. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

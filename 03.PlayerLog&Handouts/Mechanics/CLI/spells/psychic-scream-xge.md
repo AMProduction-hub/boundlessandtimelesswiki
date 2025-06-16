@@ -16,7 +16,8 @@ classes:
 - Sorcerer
 - Warlock
 - Wizard
-aliases: ["Psychic Scream"]
+aliases:
+- Psychic Scream
 ---
 # Psychic Scream
 *9th-level, Enchantment*  
@@ -29,10 +30,10 @@ aliases: ["Psychic Scream"]
 
 You unleash the power of your mind to blast the intellect of up to ten creatures of your choice that you can see within range. Creatures that have an Intelligence score of 2 or lower are unaffected.
 
-Each target must make an Intelligence saving throw. On a failed save, a target takes `14d6` psychic damage and is [stunned](conditions.md#Stunned). On a successful save, a target takes half as much damage and isn't [stunned](conditions.md#Stunned). If a target is killed by this damage, its head explodes, assuming it has one.
+Each target must make an Intelligence saving throw. On a failed save, a target takes `14d6` psychic damage and is [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned). On a successful save, a target takes half as much damage and isn't [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned). If a target is killed by this damage, its head explodes, assuming it has one.
 
-A [stunned](conditions.md#Stunned) target can make an Intelligence saving throw at the end of each of its turns. On a successful save, the stunning effect ends.
+A [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned) target can make an Intelligence saving throw at the end of each of its turns. On a successful save, the stunning effect ends.
 
-**Classes**: [Bard](list-spells-classes-bard.md); [Wizard](list-spells-classes-wizard.md); [Sorcerer](list-spells-classes-sorcerer.md); [Cleric (Arcana Domain)](list-spells-classes-cleric-arcana-domain-scag.md "subclass=SCAG"); [Warlock](list-spells-classes-warlock.md)
+**Classes**: [Cleric (Arcana Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcana-domain-scag.md "subclass=SCAG"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Xanathar's Guide to Everything p. 163*

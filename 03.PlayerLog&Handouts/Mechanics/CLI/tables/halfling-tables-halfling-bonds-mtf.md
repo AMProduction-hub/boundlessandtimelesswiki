@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
-aliases: ["Halfling Tables; Halfling Bonds"]
+aliases:
+- Halfling Tables; Halfling Bonds
 ---
 # Halfling Tables; Halfling Bonds
 *Source: Mordenkainen's Tome of Foes p. 105* 

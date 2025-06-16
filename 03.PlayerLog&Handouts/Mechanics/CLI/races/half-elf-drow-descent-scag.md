@@ -4,7 +4,8 @@ cssclasses: json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/scag
 - ttrpg-cli/race/half-elf/drow-descent
-aliases: ["Half-Elf (Drow Descent)"]
+aliases:
+- Half-Elf (Drow Descent)
 ---
 # Half-Elf (Drow Descent)
 *Source: Sword Coast Adventurer's Guide p. 116*  
@@ -31,13 +32,13 @@ Thanks to your elf blood, you have superior vision in dark and dim conditions. Y
 
 ### Fey Ancestry
 
-You have advantage on saving throws against being [charmed](conditions.md#Charmed), and magic can't put you to sleep.
+You have advantage on saving throws against being [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), and magic can't put you to sleep.
 
 > [!note] Variant Feature (Choose 1)
 > 
 > **Skill Versatility.** You gain proficiency in two skills of your choice.
 > 
-> **Drow Magic.** You know the [dancing lights](dancing-lights.md) cantrip. When you reach 3rd level, you can cast the [faerie fire](faerie-fire.md) spell once per day; you must finish a long rest in order to cast the spell again using this trait. When you reach 5th level, you can also cast the [darkness](darkness.md) spell once per day; you must finish a long rest in order to cast the spell again using this trait. Charisma is your spellcasting ability for these spells.
+> **Drow Magic.** You know the [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md) cantrip. When you reach 3rd level, you can cast the [faerie fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/faerie-fire.md) spell once per day; you must finish a long rest in order to cast the spell again using this trait. When you reach 5th level, you can also cast the [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md) spell once per day; you must finish a long rest in order to cast the spell again using this trait. Charisma is your spellcasting ability for these spells.
 ^variant-feature-choose-1
 
 ### Languages

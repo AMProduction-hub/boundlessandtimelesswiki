@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
-aliases: ["Special Features; Who Created It or Was Intended to Use It?"]
+aliases:
+- Special Features; Who Created It or Was Intended to Use It?
 ---
 # Special Features; Who Created It or Was Intended to Use It?
 *Source: Dungeon Master's Guide p. 141* 

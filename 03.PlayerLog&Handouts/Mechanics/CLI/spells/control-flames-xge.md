@@ -7,6 +7,8 @@ tags:
 - ttrpg-cli/spell/class/druid
 - ttrpg-cli/spell/class/sorcerer
 - ttrpg-cli/spell/class/wizard
+- ttrpg-cli/spell/feat/aberrant-dragonmark
+- ttrpg-cli/spell/feat/initiate-of-high-sorcery
 - ttrpg-cli/spell/feat/magic-initiate
 - ttrpg-cli/spell/feat/wood-elf-magic
 - ttrpg-cli/spell/level/cantrip
@@ -31,11 +33,12 @@ classes:
 - Rogue (Arcane Trickster)
 - Sorcerer
 - Wizard
-aliases: ["Control Flames"]
+aliases:
+- Control Flames
 ---
 # Control Flames
 *cantrip, Transmutation*  
-![](control-flames.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/spells/img/control-flames.webp#right)
 
 - **Casting time:** 1 Action
 - **Range:** 60 feet
@@ -51,6 +54,6 @@ You choose nonmagical flame that you can see within range and that fits within a
 
 If you cast this spell multiple times, you can have up to three non-instantaneous effects created by it active at a time, and you can dismiss such an effect as an action.
 
-**Classes**: [Druid](list-spells-classes-druid.md); [Druid (Circle of the Land)](list-spells-classes-druid-circle-of-the-land.md); [Bard](list-spells-classes-bard.md); [Fighter (Eldritch Knight)](list-spells-classes-fighter-eldritch-knight.md); [Sorcerer](list-spells-classes-sorcerer.md); [Cleric (Arcana Domain)](list-spells-classes-cleric-arcana-domain-scag.md "subclass=SCAG"); [Rogue (Arcane Trickster)](list-spells-classes-rogue-arcane-trickster.md); [Wizard](list-spells-classes-wizard.md); [Cleric (Nature Domain)](list-spells-classes-cleric-nature-domain.md)
+**Classes**: [Cleric (Arcana Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcana-domain-scag.md "subclass=SCAG"); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Cleric (Nature Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-nature-domain.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Druid (Circle of the Land)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-circle-of-the-land.md)
 
-*Source: Xanathar's Guide to Everything p. 152*
+*Source: Xanathar's Guide to Everything p. 152, Elemental Evil Player's Companion p. 16*

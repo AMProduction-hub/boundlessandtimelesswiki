@@ -8,10 +8,12 @@ tags:
 - ttrpg-cli/monster/size/small
 - ttrpg-cli/monster/type/plant
 statblock: inline
-aliases: ["Twig Blight"]
+statblock-link: "#^statblock"
+aliases:
+- Twig Blight
 ---
-# [Twig Blight](03 - Player Log & Handouts\Mechanics\CLI\bestiary\plant/twig-blight.md)
-*Source: Monster Manual p. 32, Lost Mine of Phandelver. Available in the Basic Rules (2014)*  
+# [Twig Blight](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\plant/twig-blight.md)
+*Source: Monster Manual p. 32, Curse of Strahd, Lost Mine of Phandelver, Tales from the Yawning Portal, Ghosts of Saltmarsh, Hunt for the Thessalhydra, Dragon of Icespire Peak. Available in the Basic Rules (2014)*  
 
 Twig blights can root in soil, which they do when living prey are scarce. While rooted, they resemble woody shrubs. When it pulls its roots free of the ground to move, a twig blight's branches twist together to form a humanoid-looking body with a head and limbs.
 
@@ -51,34 +53,41 @@ Blights are independent creatures, but most act under a Gulthias tree's control,
 "ac_class": "natural armor"
 "hp": !!int "4"
 "hit_dice": "1d6 + 1"
+"modifier": !!int "1"
 "stats":
-- !!int "6"
-- !!int "13"
-- !!int "12"
-- !!int "4"
-- !!int "8"
-- !!int "3"
+  - !!int "6"
+  - !!int "13"
+  - !!int "12"
+  - !!int "4"
+  - !!int "8"
+  - !!int "3"
 "speed": "20 ft."
 "skillsaves":
-  "Stealth": !!int "3"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+3"
 "damage_vulnerabilities": "fire"
-"condition_immunities": "[blinded](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Blinded),\
-  \ [deafened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Deafened)"
+"condition_immunities": "[blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded),\
+  \ [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened)"
 "senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 9"
 "languages": "understands Common but can't speak"
 "cr": "1/8"
 "traits":
-- "desc": "While the blight remains motionless, it is indistinguishable from a dead\
-    \ shrub."
-  "name": "False Appearance"
+  - "desc": "While the blight remains motionless, it is indistinguishable from a dead\
+      \ shrub."
+    "name": "False Appearance"
 "actions":
-- "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4\
-    \ + 1) piercing damage."
-  "name": "Claws"
+  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3\
+      \ (1d4 + 1) piercing damage."
+    "name": "Claws"
 "source":
-- "MM"
-- "LMoP"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/plant/token/twig-blight.webp"
+  - "MM"
+  - "CoS"
+  - "LMoP"
+  - "TftYP"
+  - "GoS"
+  - "HftT"
+  - "DIP"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/token/twig-blight.webp"
 ```
 ^statblock
 

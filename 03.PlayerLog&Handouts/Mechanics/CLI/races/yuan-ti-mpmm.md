@@ -4,11 +4,12 @@ cssclasses: json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/race/yuan-ti
-aliases: ["Yuan-Ti"]
+aliases:
+- Yuan-Ti
 ---
 # Yuan-Ti
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 36*  
-![](yuan-ti.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/races/img/yuan-ti.webp#right)
 
 - **Ability Scores**: Choose one of: (a) Choose any +2, choose any other +1; (b) Choose any +1, choose any other +1, choose any other +1
 - **Size**: Small or Medium
@@ -31,11 +32,11 @@ You have advantage on saving throws against spells.
 
 ### Poison Resilience
 
-You have advantage on saving throws you make to avoid or end the [poisoned](conditions.md#Poisoned) condition on yourself. You also have resistance to poison damage.
+You have advantage on saving throws you make to avoid or end the [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned) condition on yourself. You also have resistance to poison damage.
 
 ### Serpentine Spellcasting
 
-You know the [poison spray](poison-spray.md) cantrip. You can cast [animal friendship](animal-friendship.md) an unlimited number of times with this trait, but you can target only snakes with it. Starting at 3rd level, you can also cast [suggestion](suggestion.md) with this trait. Once you cast it, you can't do so again until you finish a long rest. You can also cast it using any spell slots you have of 2nd level or higher.
+You know the [poison spray](03.PlayerLog&Handouts/Mechanics/CLI/spells/poison-spray.md) cantrip. You can cast [animal friendship](03.PlayerLog&Handouts/Mechanics/CLI/spells/animal-friendship.md) an unlimited number of times with this trait, but you can target only snakes with it. Starting at 3rd level, you can also cast [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md) with this trait. Once you cast it, you can't do so again until you finish a long rest. You can also cast it using any spell slots you have of 2nd level or higher.
 
 Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race).
 

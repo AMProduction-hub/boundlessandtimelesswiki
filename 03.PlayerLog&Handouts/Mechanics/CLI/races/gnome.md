@@ -4,11 +4,12 @@ cssclasses: json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/race/gnome
-aliases: ["Gnome"]
+aliases:
+- Gnome
 ---
 # Gnome
 *Source: Player's Handbook p. 35. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
-![](gnome.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/races/img/gnome.webp#right)
 
 - **Ability Scores**: Intelligence +2
 - **Size**: Small

@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
-aliases: ["Weird Locales"]
+aliases:
+- Weird Locales
 ---
 # Weird Locales
 *Source: Dungeon Master's Guide p. 109* 
@@ -15,7 +16,7 @@ aliases: ["Weird Locales"]
 | dice: d20 | Locale |
 |-----------|--------|
 | 1-2 | Dead magic zone (similar to an antimagic field) |
-| 3 | Wild magic zone (roll on the [Wild Magic Surge](wild-magic-surge.md) table in the Player's Handbook whenever a spell is cast within the zone) |
+| 3 | Wild magic zone (roll on the [Wild Magic Surge](03.PlayerLog&Handouts/Mechanics/CLI/tables/wild-magic-surge-phb.md) table in the Player's Handbook whenever a spell is cast within the zone) |
 | 4 | Boulder carved with talking faces |
 | 5 | Crystal cave that mystically answers questions |
 | 6 | Ancient tree containing a trapped spirit |

@@ -10,7 +10,7 @@ aliases:
 ---
 # Alchemy Jug
 *Wondrous item, minor, uncommon*  
-![](alchemy-jug.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/alchemy-jug.webp#right)
 
 - **Weight**: 12.0 lbs.
 

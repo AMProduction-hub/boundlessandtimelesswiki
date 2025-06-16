@@ -7,14 +7,16 @@ tags:
 - ttrpg-cli/monster/size/tiny
 - ttrpg-cli/monster/type/fiend/demon
 statblock: inline
-aliases: ["Abyssal Chicken"]
+statblock-link: "#^statblock"
+aliases:
+- Abyssal Chicken
 ---
-# [Abyssal Chicken](03 - Player Log & Handouts\Mechanics\CLI\bestiary\fiend/abyssal-chicken-bgdia.md)
+# [Abyssal Chicken](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/abyssal-chicken-bgdia.md)
 *Source: Baldur's Gate: Descent Into Avernus p. 97*  
 
 Abyssal chickens are carnivorous, temperamental, tasty bottom-feeders native to the Abyss. They beat their leathery wings to scare predators and to help them run faster, and they taste like fatty chicken.
 
-With your permission, a character who casts the [find familiar](find-familiar.md) spell can henceforth choose to conjure an abyssal chicken instead of a raven.
+With your permission, a character who casts the [find familiar](03.PlayerLog&Handouts/Mechanics/CLI/spells/find-familiar.md) spell can henceforth choose to conjure an abyssal chicken instead of a raven.
 
 ```statblock
 "name": "Abyssal Chicken (BGDIA)"
@@ -26,37 +28,38 @@ With your permission, a character who casts the [find familiar](find-familiar.md
 "ac_class": "natural armor"
 "hp": !!int "10"
 "hit_dice": "3d4 + 3"
+"modifier": !!int "2"
 "stats":
-- !!int "6"
-- !!int "14"
-- !!int "13"
-- !!int "4"
-- !!int "9"
-- !!int "5"
+  - !!int "6"
+  - !!int "14"
+  - !!int "13"
+  - !!int "4"
+  - !!int "9"
+  - !!int "5"
 "speed": "30 ft., fly 30 ft. (see bad flier below)"
 "damage_resistances": "cold, fire, lightning"
 "damage_immunities": "poison"
-"condition_immunities": "[blinded](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Blinded),\
-  \ [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded),\
+  \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "blindsight 30 ft. (blind beyond this radius), passive Perception 9"
 "languages": "understands Abyssal but can't speak"
 "cr": "1/4"
 "traits":
-- "desc": "The abyssal chicken falls at the end of a turn if it's airborne and the\
-    \ only thing holding it aloft is its flying speed."
-  "name": "Bad Flier"
+  - "desc": "The abyssal chicken falls at the end of a turn if it's airborne and the\
+      \ only thing holding it aloft is its flying speed."
+    "name": "Bad Flier"
 "actions":
-- "desc": "The abyssal chicken makes two attacks: one with its bite and one with its\
-    \ claws."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4\
-    \ (1d4 + 2) piercing damage."
-  "name": "Bite"
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6\
-    \ + 2) slashing damage."
-  "name": "Claws"
+  - "desc": "The abyssal chicken makes two attacks: one with its bite and one with\
+      \ its claws."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit:\
+      \ 4 (1d4 + 2) piercing damage."
+    "name": "Bite"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+      \ (1d6 + 2) slashing damage."
+    "name": "Claws"
 "source":
-- "BGDIA"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/fiend/token/abyssal-chicken-bgdia.webp"
+  - "BGDIA"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/token/abyssal-chicken-bgdia.webp"
 ```
 ^statblock

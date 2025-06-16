@@ -8,10 +8,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/humanoid/any-race
 statblock: inline
-aliases: ["Spy"]
+statblock-link: "#^statblock"
+aliases:
+- Spy
 ---
-# [Spy](03 - Player Log & Handouts\Mechanics\CLI\bestiary\humanoid/spy.md)
-*Source: Monster Manual p. 349, Baldur's Gate: Descent Into Avernus, Sigil and the Outlands. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Spy](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/spy.md)
+*Source: Monster Manual p. 349, Curse of Strahd, Princes of the Apocalypse, Storm King's Thunder, Tomb of Annihilation, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Dragon of Icespire Peak, Storm Lord's Wrath, Baldur's Gate: Descent Into Avernus, Eberron: Rising from the Last War, Infernal Machine Rebuild, Explorer's Guide to Wildemount, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden, Candlekeep Mysteries, Journeys through the Radiant Citadel, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Rulers, nobles, merchants, guildmasters, and other wealthy individuals use spies to gain the upper hand in a world of cutthroat politics. A spy is trained to secretly gather information. Loyal spies would rather die than divulge information that could compromise them or their employers.
 
@@ -24,48 +26,72 @@ Rulers, nobles, merchants, guildmasters, and other wealthy individuals use spies
 "ac": !!int "12"
 "hp": !!int "27"
 "hit_dice": "6d8"
+"modifier": !!int "2"
 "stats":
-- !!int "10"
-- !!int "15"
-- !!int "10"
-- !!int "12"
-- !!int "14"
-- !!int "16"
+  - !!int "10"
+  - !!int "15"
+  - !!int "10"
+  - !!int "12"
+  - !!int "14"
+  - !!int "16"
 "speed": "30 ft."
 "skillsaves":
-  "Sleight of Hand": !!int "4"
-  "Deception": !!int "5"
-  "Stealth": !!int "4"
-  "Investigation": !!int "5"
-  "Insight": !!int "4"
-  "Perception": !!int "6"
-  "Persuasion": !!int "5"
+  - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
+    "desc": "+5"
+  - "name": "[Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight)"
+    "desc": "+4"
+  - "name": "[Investigation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Investigation)"
+    "desc": "+5"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+6"
+  - "name": "[Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion)"
+    "desc": "+5"
+  - "name": "[Sleight of Hand](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Sleight%20of%20Hand)"
+    "desc": "+4"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+4"
 "senses": "passive Perception 16"
 "languages": "any two languages"
 "cr": "1"
 "traits":
-- "desc": "On each of its turns, the spy can use a bonus action to take the Dash,\
-    \ Disengage, or Hide action."
-  "name": "Cunning Action"
-- "desc": "The spy deals an extra 7 (2d6) damage when it hits a target with a weapon\
-    \ attack and has advantage on the attack roll, or when the target is within 5\
-    \ feet of an ally of the spy that isn't [incapacitated](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)\
-    \ and the spy doesn't have disadvantage on the attack roll."
-  "name": "Sneak Attack (1/Turn)"
+  - "desc": "On each of its turns, the spy can use a bonus action to take the Dash,\
+      \ Disengage, or Hide action."
+    "name": "Cunning Action"
+  - "desc": "The spy deals an extra 7 (2d6) damage when it hits a target with a\
+      \ weapon attack and has advantage on the attack roll, or when the target is\
+      \ within 5 feet of an ally of the spy that isn't [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)\
+      \ and the spy doesn't have disadvantage on the attack roll."
+    "name": "Sneak Attack (1/Turn)"
 "actions":
-- "desc": "The spy makes two melee attacks."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6\
-    \ + 2) piercing damage."
-  "name": "Shortsword"
-- "desc": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit:\
-    \ 5 (1d6 + 2) piercing damage."
-  "name": "Hand Crossbow"
+  - "desc": "The spy makes two melee attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+      \ (1d6 + 2) piercing damage."
+    "name": "Shortsword"
+  - "desc": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit:\
+      \ 5 (1d6 + 2) piercing damage."
+    "name": "Hand Crossbow"
 "source":
-- "MM"
-- "BGDIA"
-- "SatO"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/humanoid/token/spy.webp"
+  - "MM"
+  - "CoS"
+  - "PotA"
+  - "SKT"
+  - "ToA"
+  - "WDH"
+  - "WDMM"
+  - "GoS"
+  - "DIP"
+  - "SLW"
+  - "BGDIA"
+  - "ERLW"
+  - "IMR"
+  - "EGW"
+  - "MOT"
+  - "IDRotF"
+  - "CM"
+  - "JttRC"
+  - "KftGV"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/spy.webp"
 ```
 ^statblock
 

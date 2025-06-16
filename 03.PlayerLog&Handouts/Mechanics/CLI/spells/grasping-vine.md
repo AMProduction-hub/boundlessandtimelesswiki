@@ -3,6 +3,7 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
+- ttrpg-cli/spell/background/golgari-agent
 - ttrpg-cli/spell/class/bard
 - ttrpg-cli/spell/class/druid
 - ttrpg-cli/spell/class/ranger
@@ -14,7 +15,8 @@ classes:
 - Cleric (Nature Domain)
 - Druid
 - Ranger
-aliases: ["Grasping Vine"]
+aliases:
+- Grasping Vine
 ---
 # Grasping Vine
 *4th-level, Conjuration*  
@@ -29,6 +31,6 @@ You conjure a vine that sprouts from the ground in an unoccupied space of your c
 
 Until the spell ends, you can direct the vine to lash out at the same creature or another one as a bonus action on each of your turns.
 
-**Classes**: [Druid](list-spells-classes-druid.md); [Bard](list-spells-classes-bard.md); [Ranger](list-spells-classes-ranger.md); [Cleric (Nature Domain)](list-spells-classes-cleric-nature-domain.md)
+**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Ranger](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-ranger.md); [Cleric (Nature Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-nature-domain.md)
 
 *Source: Player's Handbook p. 246*

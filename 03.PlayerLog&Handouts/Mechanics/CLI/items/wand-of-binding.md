@@ -12,7 +12,7 @@ aliases:
 ---
 # Wand of Binding
 *Wand, major, rare (requires attunement by a spellcaster)*  
-![](wand-of-binding.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/wand-of-binding.webp#right)
 
 - **Weight**: 1.0 lbs.
 
@@ -20,10 +20,10 @@ This wand has 7 charges for the following properties. It regains `1d6 + 1` expen
 
 ## Spells
 
-While holding the wand, you can use an action to expend some of its charges to cast one of the following spells (save DC 17): [hold monster](hold-monster.md) (5 charges) or [hold person](hold-person.md) (2 charges).
+While holding the wand, you can use an action to expend some of its charges to cast one of the following spells (save DC 17): [hold monster](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-monster.md) (5 charges) or [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md) (2 charges).
 
 ## Assisted Escape
 
-While holding the wand, you can use your reaction to expend 1 charge and gain advantage on a saving throw you make to avoid being [paralyzed](conditions.md#Paralyzed) or [restrained](conditions.md#Restrained), or you can expend 1 charge and gain advantage on any check you make to escape a grapple.
+While holding the wand, you can use your reaction to expend 1 charge and gain advantage on a saving throw you make to avoid being [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed) or [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained), or you can expend 1 charge and gain advantage on any check you make to escape a grapple.
 
 *Source: Dungeon Master's Guide p. 209. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

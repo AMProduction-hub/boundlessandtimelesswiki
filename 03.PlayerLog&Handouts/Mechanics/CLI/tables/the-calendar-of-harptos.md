@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
-aliases: ["The Calendar of Harptos"]
+aliases:
+- The Calendar of Harptos
 ---
 # The Calendar of Harptos
 *Source: Dungeon Master's Guide p. 33* 

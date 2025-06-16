@@ -5,10 +5,11 @@ tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/domain/tempest
 - ttrpg-cli/subclass/cleric/tempest
-aliases: ["Tempest Domain"]
+aliases:
+- Tempest Domain
 ---
 # Tempest Domain
-*[Cleric](cleric.md): Divine Domain*  
+*[Cleric](./cleric.md): Divine Domain*  
 *Source: Player's Handbook p. 62*  
 
 > [!tldr] Class and Feature Progression
@@ -47,7 +48,7 @@ aliases: ["Tempest Domain"]
 
 ### Tempest Domain (Level 1)
 
-Gods whose portfolios include the Tempest domain—including Talos, Umberlee, Kord, Zeboim, the Devourer, Zeus, and Thor—govern storms, sea, and sky. They include gods of lightning and thunder, gods of earthquakes, some fire gods, and certain gods of violence, physical strength, and courage. In some pantheons, a god of this domain rules over other deities and is known for swift justice delivered by thunderbolts. In the pantheons of seafaring people, gods of this domain are ocean deities and the patrons of sailors. Tempest gods send their clerics to inspire fear in the common folk, either to keep those folk on the path of righteousness or to encourage them to offer sacrifices of propitiation to ward off divine wrath.
+Gods whose portfolios include the Tempest domain—including Talos, Umberlee, [Kord](03.PlayerLog&Handouts/Mechanics/CLI/deities/greyhawk-kord.md), Zeboim, the Devourer, [Zeus](03.PlayerLog&Handouts/Mechanics/CLI/deities/greek-zeus.md), and [Thor](03.PlayerLog&Handouts/Mechanics/CLI/deities/norse-thor.md)—govern storms, sea, and sky. They include gods of lightning and thunder, gods of earthquakes, some fire gods, and certain gods of violence, physical strength, and courage. In some pantheons, a god of this domain rules over other deities and is known for swift justice delivered by thunderbolts. In the pantheons of seafaring people, gods of this domain are ocean deities and the patrons of sailors. Tempest gods send their clerics to inspire fear in the common folk, either to keep those folk on the path of righteousness or to encourage them to offer sacrifices of propitiation to ward off divine wrath.
 
 At each indicated cleric level, you add the listed spells to your spells prepared.
 
@@ -55,11 +56,11 @@ At each indicated cleric level, you add the listed spells to your spells prepare
 
 | Cleric Level | Spells |
 |--------------|--------|
-| 1st | [fog cloud](fog-cloud.md), [thunderwave](thunderwave.md) |
-| 3rd | [gust of wind](gust-of-wind.md), [shatter](shatter.md) |
-| 5th | [call lightning](call-lightning.md), [sleet storm](sleet-storm.md) |
-| 7th | [control water](control-water.md), [ice storm](ice-storm.md) |
-| 9th | [destructive wave](destructive-wave.md), [insect plague](insect-plague.md) |
+| 1st | [fog cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/fog-cloud.md), [thunderwave](03.PlayerLog&Handouts/Mechanics/CLI/spells/thunderwave.md) |
+| 3rd | [gust of wind](03.PlayerLog&Handouts/Mechanics/CLI/spells/gust-of-wind.md), [shatter](03.PlayerLog&Handouts/Mechanics/CLI/spells/shatter.md) |
+| 5th | [call lightning](03.PlayerLog&Handouts/Mechanics/CLI/spells/call-lightning.md), [sleet storm](03.PlayerLog&Handouts/Mechanics/CLI/spells/sleet-storm.md) |
+| 7th | [control water](03.PlayerLog&Handouts/Mechanics/CLI/spells/control-water.md), [ice storm](03.PlayerLog&Handouts/Mechanics/CLI/spells/ice-storm.md) |
+| 9th | [destructive wave](03.PlayerLog&Handouts/Mechanics/CLI/spells/destructive-wave.md), [insect plague](03.PlayerLog&Handouts/Mechanics/CLI/spells/insect-plague.md) |
 ^tempest-domain-spells
 
 ### Bonus Proficiencies (Level 1)
@@ -84,14 +85,14 @@ At 6th level, when you deal lightning damage to a Large or smaller creature, you
 
 ### Divine Strike (Level 8)
 
-At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra `1d8` thunder damage to the target. When you reach 14th level, the extra damage increases to `2d8`.
+At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra `d8` thunder damage to the target. When you reach 14th level, the extra damage increases to `2d8`.
 
 ### Blessed Strikes (Level 8)
 _Source: Tasha's Cauldron of Everything p. 30_
 
-*8th-level cleric [optional feature](optional-class-features-tce.md), which replaces the Divine Strike feature*
+*8th-level cleric [optional feature](03.PlayerLog&Handouts/Mechanics/CLI/rules/variant-rules/optional-class-features-tce.md), which replaces the Divine Strike feature*
 
-You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal `1d8` radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.
+You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal `d8` radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.
 
 ### Stormborn (Level 17)
 

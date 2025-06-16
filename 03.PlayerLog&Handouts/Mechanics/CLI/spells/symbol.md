@@ -18,7 +18,8 @@ classes:
 - Druid
 - Sorcerer (Divine Soul)
 - Wizard
-aliases: ["Symbol"]
+aliases:
+- Symbol
 ---
 # Symbol
 *7th-level, Abjuration*  
@@ -49,7 +50,7 @@ Each target must make a Constitution saving throw. On a failed save, a target bi
 
 ## Fear
 
-Each target must make a Wisdom saving throw and becomes [frightened](conditions.md#Frightened) for 1 minute on a failed save. While [frightened](conditions.md#Frightened), the target drops whatever it is holding and must move at least 30 feet away from the glyph on each of its turns, if able.
+Each target must make a Wisdom saving throw and becomes [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened) for 1 minute on a failed save. While [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened), the target drops whatever it is holding and must move at least 30 feet away from the glyph on each of its turns, if able.
 
 ## Hopelessness
 
@@ -61,18 +62,18 @@ Each target must make an Intelligence saving throw. On a failed save, the target
 
 ## Pain
 
-Each target must make a Constitution saving throw and becomes [incapacitated](conditions.md#Incapacitated) with excruciating pain for 1 minute on a failed save.
+Each target must make a Constitution saving throw and becomes [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated) with excruciating pain for 1 minute on a failed save.
 
 ## Sleep
 
-Each target must make a Wisdom saving throw and falls [unconscious](conditions.md#Unconscious) for 10 minutes on a failed save. A creature awakens if it takes damage or if someone uses an action to shake or slap it awake.
+Each target must make a Wisdom saving throw and falls [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious) for 10 minutes on a failed save. A creature awakens if it takes damage or if someone uses an action to shake or slap it awake.
 
 ## Stunning
 
-Each target must make a Wisdom saving throw and becomes [stunned](conditions.md#Stunned) for 1 minute on a failed save.
+Each target must make a Wisdom saving throw and becomes [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned) for 1 minute on a failed save.
 
 ## Summary
 
-**Classes**: [Druid](list-spells-classes-druid.md); [Cleric](list-spells-classes-cleric.md); [Bard](list-spells-classes-bard.md); [Wizard](list-spells-classes-wizard.md); [Cleric (Arcana Domain)](list-spells-classes-cleric-arcana-domain-scag.md "subclass=SCAG"); [Sorcerer (Divine Soul)](list-spells-classes-sorcerer-divine-soul-xge.md "subclass=XGE")
+**Classes**: [Cleric (Arcana Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcana-domain-scag.md "subclass=SCAG"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md)
 
 *Source: Player's Handbook p. 280. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

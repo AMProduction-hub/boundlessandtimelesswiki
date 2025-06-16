@@ -6,7 +6,8 @@ tags:
 - ttrpg-cli/vehicle/size/huge
 - ttrpg-cli/vehicle/terrain/land
 - ttrpg-cli/vehicle/type/infernal-war-machine
-aliases: ["Scavenger"]
+aliases:
+- Scavenger
 ---
 # Scavenger
 %%-- Embedded content starts on the next line. --%%
@@ -16,7 +17,7 @@ The Scavenger handles like a small bus and is used to sift through battlefield d
 
 ```ad-statblock
 title: Scavenger
-![](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/vehicles/token/scavenger-bgdia.webp#token)
+![](03.PlayerLog&Handouts/Mechanics/CLI/vehicles/token/scavenger-bgdia.webp#token)
 *Huge vehicle (4 tons 1000 lb.); land*
 
 - **Cargo Capacity** 2 tons
@@ -30,22 +31,22 @@ title: Scavenger
 |20 (+5)|12 (+1)|20 (+5)| 0 (-5)| 0 (-5)| 0 (-5)|
 
 - **Damage Immunities** fire, poison, psychic
-- **Condition Immunities** [blinded](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Blinded), [charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed), [deafened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Deafened), [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened), [paralyzed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed), [petrified](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Petrified), [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned), [stunned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Stunned), [unconscious](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)
+- **Condition Immunities** [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded), [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened), [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened), [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed), [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified), [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned), [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned), [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)
 
 ## Traits
 
-**Crushing Wheels** The Scavenger can move through the space of any Large or smaller creature. When it does, the creature must succeed on a DC 12 Dexterity saving throw or take 16 (`3d10`) bludgeoning damage and be knocked [prone](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Prone). If the creature was already [prone](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Prone), it takes an extra 16 (`3d10`) bludgeoning damage. This trait can't be used against a particular creature more than once each turn.
+**Crushing Wheels.** The Scavenger can move through the space of any Large or smaller creature. When it does, the creature must succeed on a DC 12 Dexterity saving throw or take 16 (`3d10`) bludgeoning damage and be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone). If the creature was already [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), it takes an extra 16 (`3d10`) bludgeoning damage. This trait can't be used against a particular creature more than once each turn.
 
-**Magic Weapons** The Scavenger's weapon attacks are magical.
+**Magic Weapons.** The Scavenger's weapon attacks are magical.
 
-**Prone Deficiency** If the Scavenger rolls over and falls [prone](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Prone), it can't right itself and is [incapacitated](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated) until flipped upright.
+**Prone Deficiency.** If the Scavenger rolls over and falls [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), it can't right itself and is [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated) until flipped upright.
 
 ## Action Stations
 
-**Helm (Requires 1 Crew and Grants Three-Quarters Cover)** Drive and steer the Scavenger.
+**Helm (Requires 1 Crew and Grants Three-Quarters Cover).** Drive and steer the Scavenger.
 
-**Grappling Claw (Requires 1 Crew and Grants Half Cover)** *Melee Weapon Attack:* `+10` to hit, reach 15 ft., one target. *Hit:* The target is [grappled](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Grappled) (escape DC 12). If the target is a creature, it is [restrained](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Restrained) until the grapple ends. The grappling claw can grapple only one target at a time, and the claw's operator can use a bonus action to make the claw release whatever it's holding.
+**Grappling Claw (Requires 1 Crew and Grants Half Cover).** *Melee Weapon Attack:* `+10` to hit, reach 15 ft., one target. *Hit:* The target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled) (escape DC 12). If the target is a creature, it is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained) until the grapple ends. The grappling claw can grapple only one target at a time, and the claw's operator can use a bonus action to make the claw release whatever it's holding.
 
-**2 Harpoon Flingers (Each Station Requires 1 Crew and Grants Half Cover)** *Ranged Weapon Attack:* `+6` to hit, range 120 ft., one target. *Hit:* 10 (`2d8 + 1`) piercing damage.
+**2 Harpoon Flingers (Each Station Requires 1 Crew and Grants Half Cover).** *Ranged Weapon Attack:* `+6` to hit, range 120 ft., one target. *Hit:* 10 (`2d8 + 1`) piercing damage.
 ```
 ^statblock

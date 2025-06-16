@@ -4,8 +4,9 @@ cssclasses: json5e-feat
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/optional-feature/mv-b
-aliases: ["Ambush"]
+aliases:
+- Ambush
 ---
 # Ambush
 *Source: Tasha's Cauldron of Everything p. 42*  
-When you make a Dexterity ([Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)) check or an initiative roll, you can expend one superiority die and add the die to the roll, provided you aren't [incapacitated](conditions.md#Incapacitated).
+When you make a Dexterity ([Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)) check or an initiative roll, you can expend one superiority die and add the die to the roll, provided you aren't [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated).

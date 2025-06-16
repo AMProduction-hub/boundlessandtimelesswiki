@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xge
-aliases: ["Tying Knots"]
+aliases:
+- Tying Knots
 ---
 # Tying Knots
 *Source: Xanathar's Guide to Everything p. 78* 
@@ -12,4 +13,4 @@ The rules are purposely open-ended concerning mundane tasks like tying knots, bu
 
 The creature who ties the knot makes an Intelligence ([Sleight of Hand](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Sleight%20of%20Hand)) check when doing so. The total of the check becomes the DC for an attempt to untie the knot with an Intelligence ([Sleight of Hand](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Sleight%20of%20Hand)) check or to slip out of it with a Dexterity ([Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics)) check.
 
-This rule intentionally links [Sleight of Hand](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Sleight%20of%20Hand) with Intelligence, rather than Dexterity. This is an example of how to apply the rule in the ["Variant: Skills with Different Abilities"](skills-with-different-abilities.md) section in chapter 7 of the player's handbook.
+This rule intentionally links [Sleight of Hand](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Sleight%20of%20Hand) with Intelligence, rather than Dexterity. This is an example of how to apply the rule in the ["Variant: Skills with Different Abilities"](03.PlayerLog&Handouts/Mechanics/CLI/rules/variant-rules/skills-with-different-abilities-phb.md) section in chapter 7 of the player's handbook.

@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xge
-aliases: ["Grassland Encounters (Levels 1—5)"]
+aliases:
+- Grassland Encounters (Levels 1—5)
 ---
 # Grassland Encounters (Levels 1—5)
 *Source: Xanathar's Guide to Everything p. 100* 
@@ -14,46 +15,46 @@ aliases: ["Grassland Encounters (Levels 1—5)"]
 
 | dice: d100 | Encounter |
 |------------|-----------|
-| 01 | 1 [hobgoblin captain](hobgoblin-captain.md) with `1d4 + 1` [hobgoblins](hobgoblin.md) |
-| 02 | 1 [chimera](chimera.md) |
-| 03 | 1 [gorgon](gorgon.md) |
-| 04 | `1d2` [couatls](couatl.md) |
-| 05 | 1 [ankylosaurus](ankylosaurus.md) |
-| 06 | 1 [weretiger](weretiger.md) |
-| 07 | `1d3` [allosauruses](allosaurus.md) |
-| 08-09 | `1d3` [elephants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/elephant.md) |
+| 01 | 1 [hobgoblin captain](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/hobgoblin-captain.md) with `1d4 + 1` [hobgoblins](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/hobgoblin.md) |
+| 02 | 1 [chimera](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/chimera.md) |
+| 03 | 1 [gorgon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/gorgon.md) |
+| 04 | `d2` [couatls](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/couatl.md) |
+| 05 | 1 [ankylosaurus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/ankylosaurus.md) |
+| 06 | 1 [weretiger](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/weretiger.md) |
+| 07 | `d3` [allosauruses](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/allosaurus.md) |
+| 08-09 | `d3` [elephants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/elephant.md) |
 | 10-14 | A circle of standing stones within which the air is utterly still, no matter how hard the wind blows outside |
-| 15-16 | 1 [phase spider](phase-spider.md) |
-| 17-18 | 1 [gnoll pack lord](gnoll-pack-lord.md) with `1d4` [giant hyenas](giant-hyena.md) |
-| 19-20 | 1 [pegasus](pegasus.md) |
-| 21-22 | 1 [ankheg](ankheg.md) |
-| 23-24 | `1d3` [rhinoceroses](rhinoceros.md) |
-| 25-28 | `1d3` [cockatrices](cockatrice.md) |
-| 29-32 | `1d6 + 2` [giant wasps](giant-wasp.md) or `1d4 + 3` [swarms of insects](swarm-of-insects.md) |
-| 33-36 | `1d4` [jackalweres](jackalwere.md) or `1d4` [scouts](scout.md) |
-| 37-40 | `1d8` [giant goats](giant-goat.md) or `1d8` [worgs](worg.md) |
-| 41-44 | `2d4` [hobgoblins](hobgoblin.md), `2d4` [orcs](orc.md), or `2d4` [gnolls](gnoll.md) |
-| 45-46 | `1d2` [giant poisonous snakes](giant-poisonous-snake.md) |
-| 47-48 | `1d6 + 2` [elk](elk.md) or `1d6 + 2` [riding horses](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/riding-horse.md) |
-| 49-50 | `2d4` [goblins](goblin.md) |
-| 51-52 | `1d3` [boars](boar.md) |
-| 53-54 | 1 leopard ([panther](panther.md)) 1 [lion](lion.md) |
-| 55-58 | `1d6 + 3` [goblins](goblin.md) riding wolves |
-| 59-62 | `2d6` [giant wolf spiders](giant-wolf-spider.md) or 1 [giant eagle](giant-eagle.md) |
-| 63-65 | `1d8 + 4` [pteranodons](pteranodon.md) |
-| 66-69 | `3d6` [wolves](wolf.md) |
-| 70-74 | `2d4 + 2` [axe beaks](axe-beak.md) |
-| 75-76 | 1 [giant boar](giant-boar.md) or `1d2` [tigers](tiger.md) |
-| 77-78 | 1 [ogre](ogre.md) or `1d3` [bugbears](bugbear.md) |
-| 79-80 | [giant elk](giant-elk.md) or 1 [gnoll pack lord](gnoll-pack-lord.md) or `1d3` [giant hyenas](giant-hyena.md) |
-| 81-82 | `1d3` [giant vultures](giant-vulture.md) or `1d3` [hippogriffs](hippogriff.md) |
-| 83-84 | 1 [goblin boss](goblin-boss.md) with `1d6 + 2` [goblins](goblin.md) and `1d4 + 3` [wolves](wolf.md), or `1d3` [thri-kreen](thri-kreen.md) |
-| 85-89 | `1d3` [druids](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/druid.md) patrolling the wilds |
-| 90-91 | `1d6` [scarecrows](scarecrow.md) or 1 [wereboar](wereboar.md) |
-| 92-93 | `1d3` [centaurs](centaur.md) or `1d3` [griffons](griffon.md) |
-| 94 | `1d3` [gnoll fangs of Yeenoghu](gnoll-fang-of-yeenoghu.md), or 1 [orc Eye of Gruumsh](orc-eye-of-gruumsh.md) with `2d4 + 1` [orcs](orc.md) |
-| 95-96 | 1 [triceratops](triceratops.md) |
-| 97 | 1 [cyclops](cyclops.md) or 1 [bulette](bulette.md) |
-| 98-99 | `1d4` [manticores](manticore.md) |
-| 00 | 1 [tyrannosaurus rex](tyrannosaurus-rex.md) |
+| 15-16 | 1 [phase spider](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/phase-spider.md) |
+| 17-18 | 1 [gnoll pack lord](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/gnoll-pack-lord.md) with `d4` [giant hyenas](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-hyena.md) |
+| 19-20 | 1 [pegasus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/pegasus.md) |
+| 21-22 | 1 [ankheg](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/ankheg.md) |
+| 23-24 | `d3` [rhinoceroses](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/rhinoceros.md) |
+| 25-28 | `d3` [cockatrices](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/cockatrice.md) |
+| 29-32 | `1d6 + 2` [giant wasps](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-wasp.md) or `1d4 + 3` [swarms of insects](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/swarm-of-insects.md) |
+| 33-36 | `d4` [jackalweres](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/jackalwere.md) or `d4` [scouts](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/scout.md) |
+| 37-40 | `d8` [giant goats](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-goat.md) or `d8` [worgs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/worg.md) |
+| 41-44 | `2d4` [hobgoblins](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/hobgoblin.md), `2d4` [orcs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/orc.md), or `2d4` [gnolls](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/gnoll.md) |
+| 45-46 | `d2` [giant poisonous snakes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-poisonous-snake.md) |
+| 47-48 | `1d6 + 2` [elk](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/elk.md) or `1d6 + 2` [riding horses](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/riding-horse.md) |
+| 49-50 | `2d4` [goblins](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/goblin.md) |
+| 51-52 | `d3` [boars](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/boar.md) |
+| 53-54 | 1 leopard ([panther](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/panther.md)) 1 [lion](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/lion.md) |
+| 55-58 | `1d6 + 3` [goblins](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/goblin.md) riding wolves |
+| 59-62 | `2d6` [giant wolf spiders](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-wolf-spider.md) or 1 [giant eagle](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-eagle.md) |
+| 63-65 | `1d8 + 4` [pteranodons](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/pteranodon.md) |
+| 66-69 | `3d6` [wolves](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/wolf.md) |
+| 70-74 | `2d4 + 2` [axe beaks](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/axe-beak.md) |
+| 75-76 | 1 [giant boar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-boar.md) or `d2` [tigers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/tiger.md) |
+| 77-78 | 1 [ogre](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/ogre.md) or `d3` [bugbears](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bugbear.md) |
+| 79-80 | [giant elk](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-elk.md) or 1 [gnoll pack lord](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/gnoll-pack-lord.md) or `d3` [giant hyenas](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-hyena.md) |
+| 81-82 | `d3` [giant vultures](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-vulture.md) or `d3` [hippogriffs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/hippogriff.md) |
+| 83-84 | 1 [goblin boss](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/goblin-boss.md) with `1d6 + 2` [goblins](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/goblin.md) and `1d4 + 3` [wolves](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/wolf.md), or `d3` [thri-kreen](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/thri-kreen.md) |
+| 85-89 | `d3` [druids](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/druid.md) patrolling the wilds |
+| 90-91 | `d6` [scarecrows](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/scarecrow.md) or 1 [wereboar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/wereboar.md) |
+| 92-93 | `d3` [centaurs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/centaur.md) or `d3` [griffons](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/griffon.md) |
+| 94 | `d3` [gnoll fangs of Yeenoghu](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/gnoll-fang-of-yeenoghu.md), or 1 [orc Eye of Gruumsh](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/orc-eye-of-gruumsh.md) with `2d4 + 1` [orcs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/orc.md) |
+| 95-96 | 1 [triceratops](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/triceratops.md) |
+| 97 | 1 [cyclops](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/cyclops.md) or 1 [bulette](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/bulette.md) |
+| 98-99 | `d4` [manticores](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/manticore.md) |
+| 00 | 1 [tyrannosaurus rex](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/tyrannosaurus-rex.md) |
 ^grassland-encounters-levels-15

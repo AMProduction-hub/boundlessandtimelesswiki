@@ -7,10 +7,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/dragon
 statblock: inline
-aliases: ["Black Dragon Wyrmling"]
+statblock-link: "#^statblock"
+aliases:
+- Black Dragon Wyrmling
 ---
-# [Black Dragon Wyrmling](03 - Player Log & Handouts\Mechanics\CLI\bestiary\dragon/black-dragon-wyrmling.md)
-*Source: Monster Manual p. 88. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Black Dragon Wyrmling](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\dragon/black-dragon-wyrmling.md)
+*Source: Monster Manual p. 88, Tales from the Yawning Portal. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 The most evil-tempered and vile of the chromatic dragons, black dragons collect the wreckage and treasures of fallen peoples. These dragons loathe seeing the weak prosper and revel in the collapse of humanoid kingdoms. They make their homes in fetid swamps and crumbling ruins where kingdoms once stood.
 
@@ -97,39 +99,43 @@ True dragons pass through four distinct stages of life, from lowly wyrmlings to 
 "ac_class": "natural armor"
 "hp": !!int "33"
 "hit_dice": "6d8 + 6"
+"modifier": !!int "2"
 "stats":
-- !!int "15"
-- !!int "14"
-- !!int "13"
-- !!int "10"
-- !!int "11"
-- !!int "13"
+  - !!int "15"
+  - !!int "14"
+  - !!int "13"
+  - !!int "10"
+  - !!int "11"
+  - !!int "13"
 "speed": "30 ft., fly 60 ft., swim 30 ft."
 "saves":
-  "Charisma": !!int "3"
-  "Dexterity": !!int "4"
-  "Wisdom": !!int "2"
-  "Constitution": !!int "3"
+  - "dexterity": "+4"
+  - "constitution": "+3"
+  - "wisdom": "+2"
+  - "charisma": "+3"
 "skillsaves":
-  "Stealth": !!int "4"
-  "Perception": !!int "4"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+4"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+4"
 "damage_immunities": "acid"
 "senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 14"
 "languages": "Draconic"
 "cr": "2"
 "traits":
-- "desc": "The dragon can breathe air and water."
-  "name": "Amphibious"
+  - "desc": "The dragon can breathe air and water."
+    "name": "Amphibious"
 "actions":
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10\
-    \ + 2) piercing damage plus 2 (1d4) acid damage."
-  "name": "Bite"
-- "desc": "The dragon exhales acid in a 15-foot line that is 5 feet wide. Each creature\
-    \ in that line must make a DC 11 Dexterity saving throw, taking 22 (5d8) acid\
-    \ damage on a failed save, or half as much damage on a successful one."
-  "name": "Acid Breath (Recharge 5-6)"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7\
+      \ (1d10 + 2) piercing damage plus 2 (d4) acid damage."
+    "name": "Bite"
+  - "desc": "The dragon exhales acid in a 15-foot line that is 5 feet wide. Each creature\
+      \ in that line must make a DC 11 Dexterity saving throw, taking 22 (5d8) acid\
+      \ damage on a failed save, or half as much damage on a successful one."
+    "name": "Acid Breath (Recharge 5-6)"
 "source":
-- "MM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/dragon/token/black-dragon-wyrmling.webp"
+  - "MM"
+  - "TftYP"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/token/black-dragon-wyrmling.webp"
 ```
 ^statblock

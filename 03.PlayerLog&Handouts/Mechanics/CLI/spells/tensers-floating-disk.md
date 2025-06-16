@@ -7,19 +7,22 @@ tags:
 - ttrpg-cli/spell/class/wizard
 - ttrpg-cli/spell/feat/magic-initiate
 - ttrpg-cli/spell/feat/ritual-caster
+- ttrpg-cli/spell/feat/strixhaven-initiate
 - ttrpg-cli/spell/level/1st-level
 - ttrpg-cli/spell/optfeature/book-of-ancient-secrets
 - ttrpg-cli/spell/ritual
 - ttrpg-cli/spell/school/conjuration
 - ttrpg-cli/spell/subclass/arcane-trickster
 - ttrpg-cli/spell/subclass/eldritch-knight
+- ttrpg-cli/spell/subrace/human-mark-of-making
 - ttrpg-cli/spell/subrace/tiefling-mammon
 classes:
 - Bard
 - Fighter (Eldritch Knight)
 - Rogue (Arcane Trickster)
 - Wizard
-aliases: ["Tenser's Floating Disk"]
+aliases:
+- Tenser's Floating Disk
 ---
 # Tenser's Floating Disk
 *1st-level, Conjuration (ritual)*  
@@ -36,6 +39,6 @@ The disk is immobile while you are within 20 feet of it. If you move more than 2
 
 If you move more than 100 feet from the disk (typically because it can't move around an obstacle to follow you), the spell ends.
 
-**Classes**: [Rogue (Arcane Trickster)](list-spells-classes-rogue-arcane-trickster.md); [Bard](list-spells-classes-bard.md); [Wizard](list-spells-classes-wizard.md); [Fighter (Eldritch Knight)](list-spells-classes-fighter-eldritch-knight.md)
+**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md)
 
 *Source: Player's Handbook p. 282. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> (as "Floating Disk")*

@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
-aliases: ["Astral Color Pools"]
+aliases:
+- Astral Color Pools
 ---
 # Astral Color Pools
 *Source: Dungeon Master's Guide p. 47* 

@@ -11,7 +11,7 @@ aliases:
 ---
 # Bracers of Defense
 *Wondrous item, major, rare (requires attunement)*  
-![](bracers-of-defense.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/bracers-of-defense.webp#right)
 
 
 While wearing these bracers, you gain a +2 bonus to AC if you are wearing no armor and using no shield.

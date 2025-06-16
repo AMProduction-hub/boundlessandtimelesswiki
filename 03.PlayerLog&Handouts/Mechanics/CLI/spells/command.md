@@ -3,12 +3,17 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
+- ttrpg-cli/spell/background/azorius-functionary
+- ttrpg-cli/spell/background/orzhov-representative
 - ttrpg-cli/spell/class/bard
 - ttrpg-cli/spell/class/cleric
 - ttrpg-cli/spell/class/paladin
+- ttrpg-cli/spell/feat/divinely-favored
 - ttrpg-cli/spell/feat/fey-touched
 - ttrpg-cli/spell/feat/magic-initiate
+- ttrpg-cli/spell/feat/strixhaven-initiate
 - ttrpg-cli/spell/level/1st-level
+- ttrpg-cli/spell/reward/klothyss-devotee
 - ttrpg-cli/spell/school/enchantment
 - ttrpg-cli/spell/subclass/college-of-glamour
 - ttrpg-cli/spell/subclass/divine-soul
@@ -28,7 +33,8 @@ classes:
 - Paladin (Oath of the Crown)
 - Sorcerer (Divine Soul)
 - Warlock (The Fiend)
-aliases: ["Command"]
+aliases:
+- Command
 ---
 # Command
 *1st-level, Enchantment*  
@@ -57,7 +63,7 @@ The target spends its turn moving away from you by the fastest available means.
 
 ## Grovel
 
-The target falls [prone](conditions.md#Prone) and then ends its turn.
+The target falls [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone) and then ends its turn.
 
 ## Halt
 
@@ -69,6 +75,6 @@ When you cast this spell using a spell slot of 2nd level or higher, you can affe
 
 ## Summary
 
-**Classes**: [Paladin](list-spells-classes-paladin.md); [Cleric (Knowledge Domain)](list-spells-classes-cleric-knowledge-domain.md); [Cleric (Order Domain)](list-spells-classes-cleric-order-domain-tce.md "subclass=TCE"); [Bard (College of Glamour)](list-spells-classes-bard-college-of-glamour-xge.md "subclass=XGE"); [Cleric](list-spells-classes-cleric.md); [Paladin (Oath of Conquest)](list-spells-classes-paladin-oath-of-conquest-xge.md "subclass=XGE"); [Bard](list-spells-classes-bard.md); [Paladin (Oath of the Crown)](list-spells-classes-paladin-oath-of-the-crown-scag.md "subclass=SCAG"); [Warlock (The Fiend)](list-spells-classes-warlock-the-fiend.md); [Sorcerer (Divine Soul)](list-spells-classes-sorcerer-divine-soul-xge.md "subclass=XGE")
+**Classes**: [Bard (College of Glamour)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-college-of-glamour-xge.md "subclass=XGE"); [Cleric (Knowledge Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-knowledge-domain.md); [Paladin (Oath of the Crown)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-the-crown-scag.md "subclass=SCAG"); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Paladin](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-paladin.md); [Paladin (Oath of Conquest)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-conquest-xge.md "subclass=XGE"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Cleric (Order Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-order-domain-tce.md "subclass=TCE"); [Warlock (The Fiend)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-fiend.md)
 
 *Source: Player's Handbook p. 223. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*

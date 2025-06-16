@@ -7,9 +7,11 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/celestial
 statblock: inline
-aliases: ["Celestial Spirit (Avenger)"]
+statblock-link: "#^statblock"
+aliases:
+- Celestial Spirit (Avenger)
 ---
-# [Celestial Spirit (Avenger)](03 - Player Log & Handouts\Mechanics\CLI\bestiary\celestial/celestial-spirit-avenger-tce.md)
+# [Celestial Spirit (Avenger)](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\celestial/celestial-spirit-avenger-tce.md)
 *Source: Tasha's Cauldron of Everything p. 110*  
 
 ```statblock
@@ -18,30 +20,31 @@ aliases: ["Celestial Spirit (Avenger)"]
 "type": "celestial"
 "alignment": "Unaligned"
 "ac_class": "11 + the level of the spell (natural armor)"
+"modifier": !!int "2"
 "stats":
-- !!int "16"
-- !!int "14"
-- !!int "16"
-- !!int "10"
-- !!int "14"
-- !!int "16"
+  - !!int "16"
+  - !!int "14"
+  - !!int "16"
+  - !!int "10"
+  - !!int "14"
+  - !!int "16"
 "speed": "30 ft., fly 40 ft."
 "damage_resistances": "radiant"
-"condition_immunities": "[charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
-  \ [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
+"condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
+  \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
 "senses": "darkvision 60 ft., passive Perception 12"
 "languages": "Celestial, understands the languages you speak"
 "actions":
-- "desc": "The celestial makes a number of attacks equal to half this spell's level\
-    \ (rounded down)."
-  "name": "Multiattack"
-- "desc": "Ranged Weapon Attack: YourSpellAttack to hit, range 150/600 ft., one\
-    \ target. Hit: 2d6 + 2 + the spell's level radiant damage."
-  "name": "Radiant Bow"
-- "desc": "The celestial touches another creature. The target magically regains hit\
-    \ points equal to 2d8 + the spell's level."
-  "name": "Healing Touch (1/Day)"
+  - "desc": "The celestial makes a number of attacks equal to half this spell's level\
+      \ (rounded down)."
+    "name": "Multiattack"
+  - "desc": "Ranged Weapon Attack: your spell attack modifier to hit, range 150/600\
+      \ ft., one target. Hit: 2d6 + 2 + the spell's level radiant damage."
+    "name": "Radiant Bow"
+  - "desc": "The celestial touches another creature. The target magically regains\
+      \ hit points equal to 2d8 + the spell's level."
+    "name": "Healing Touch (1/Day)"
 "source":
-- "TCE"
+  - "TCE"
 ```
 ^statblock

@@ -13,7 +13,8 @@ classes:
 - Bard
 - Cleric (Arcana Domain)
 - Wizard
-aliases: ["Drawmij's Instant Summons"]
+aliases:
+- Drawmij's Instant Summons
 ---
 # Drawmij's Instant Summons
 *6th-level, Conjuration (ritual)*  
@@ -30,8 +31,8 @@ At any time thereafter, you can use your action to speak the item's name and cru
 
 If another creature is holding or carrying the item, crushing the sapphire doesn't transport the item to you, but instead you learn who the creature possessing the object is and roughly where that creature is located at that moment.
 
-[Dispel magic](dispel-magic.md) or a similar effect successfully applied to the sapphire ends this spell's effect.
+[Dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md) or a similar effect successfully applied to the sapphire ends this spell's effect.
 
-**Classes**: [Bard](list-spells-classes-bard.md); [Wizard](list-spells-classes-wizard.md); [Cleric (Arcana Domain)](list-spells-classes-cleric-arcana-domain-scag.md "subclass=SCAG")
+**Classes**: [Cleric (Arcana Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcana-domain-scag.md "subclass=SCAG"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook p. 235. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> (as "Instant Summons")*

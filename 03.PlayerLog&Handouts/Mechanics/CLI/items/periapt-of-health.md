@@ -10,7 +10,7 @@ aliases:
 ---
 # Periapt of Health
 *Wondrous item, minor, uncommon*  
-![](periapt-of-health.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/periapt-of-health.webp#right)
 
 - **Weight**: 1.0 lbs.
 

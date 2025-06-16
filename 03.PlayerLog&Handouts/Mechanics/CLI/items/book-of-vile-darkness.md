@@ -10,7 +10,7 @@ aliases:
 ---
 # Book of Vile Darkness
 *Wondrous item, artifact (requires attunement)*  
-![](book-of-vile-darkness.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/book-of-vile-darkness.webp#right)
 
 - **Weight**: 5.0 lbs.
 
@@ -32,10 +32,10 @@ The Book of Vile Darkness remains with you only as long as you strive to work ev
 
 The Book of Vile Darkness has the following random properties:
 
-- 3 [minor beneficial properties](artifact-properties-minor-beneficial-properties.md)  
-- 1 [major beneficial property](artifact-properties-major-beneficial-properties.md)  
-- 3 [minor detrimental properties](artifact-properties-minor-detrimental-properties.md)  
-- 2 [major detrimental properties](artifact-properties-major-detrimental-properties.md)  
+- 3 [minor beneficial properties](03.PlayerLog&Handouts/Mechanics/CLI/tables/artifact-properties-minor-beneficial-properties.md)  
+- 1 [major beneficial property](03.PlayerLog&Handouts/Mechanics/CLI/tables/artifact-properties-major-beneficial-properties.md)  
+- 3 [minor detrimental properties](03.PlayerLog&Handouts/Mechanics/CLI/tables/artifact-properties-minor-detrimental-properties.md)  
+- 2 [major detrimental properties](03.PlayerLog&Handouts/Mechanics/CLI/tables/artifact-properties-major-detrimental-properties.md)  
 
 ## Adjusted Ability Scores
 
@@ -47,7 +47,7 @@ After you spend the requisite amount of time reading and studying the book, you 
 
 ## Command Evil
 
-While you are attuned to the book and holding it, you can use an action to cast the [dominate monster](dominate-monster.md) spell on an evil target (save DC 18). You can't use this property again until the next dawn.
+While you are attuned to the book and holding it, you can use an action to cast the [dominate monster](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-monster.md) spell on an evil target (save DC 18). You can't use this property again until the next dawn.
 
 ## Dark Lore
 
@@ -55,13 +55,13 @@ You can reference the Book of Vile Darkness whenever you make an Intelligence ch
 
 ## Dark Speech
 
-While you carry the Book of Vile Darkness and are attuned to it, you can use an action to recite words from its pages in a foul language known as Dark Speech. Each time you do so, you take `1d12` psychic damage, and each non-evil creature within 15 feet of you takes `3d6` psychic damage.
+While you carry the Book of Vile Darkness and are attuned to it, you can use an action to recite words from its pages in a foul language known as Dark Speech. Each time you do so, you take `d12` psychic damage, and each non-evil creature within 15 feet of you takes `3d6` psychic damage.
 
 ## Destroying the Book
 
 The Book of Vile Darkness allows pages to be torn from it, but any evil lore contained on those pages finds its way back into the book eventually, usually when a new author adds pages to the tome.
 
-If a [solar](solar.md) tears the book in two, the book is destroyed for `1d100` years, after which it reforms in some dark corner of the multiverse.
+If a [solar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/solar.md) tears the book in two, the book is destroyed for `d100` years, after which it reforms in some dark corner of the multiverse.
 
 A creature attuned to the book for one hundred years can unearth a phrase hidden in the original text that, when translated to Celestial and spoken aloud, destroys both the speaker and the book in a blinding flash of radiance. However, as long as evil exists in the multiverse, the book reforms `1d10 × 100` years later.
 

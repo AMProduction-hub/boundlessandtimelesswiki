@@ -8,10 +8,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/humanoid/quaggoth
 statblock: inline
-aliases: ["Quaggoth Thonot"]
+statblock-link: "#^statblock"
+aliases:
+- Quaggoth Thonot
 ---
-# [Quaggoth Thonot](03 - Player Log & Handouts\Mechanics\CLI\bestiary\humanoid/quaggoth-thonot.md)
-*Source: Monster Manual p. 256*  
+# [Quaggoth Thonot](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/quaggoth-thonot.md)
+*Source: Monster Manual p. 256, Waterdeep: Dungeon of the Mad Mage, Icewind Dale: Rime of the Frostmaiden*  
 
 Savage and territorial, quaggoths climb the chasms of the Underdark. They maul their foes in a frenzy, becoming even more murderous in the face of death.
 
@@ -45,44 +47,48 @@ Generations of hunting venomous subterranean creatures and perpetual exposure to
 "ac_class": "natural armor"
 "hp": !!int "45"
 "hit_dice": "6d8 + 18"
+"modifier": !!int "1"
 "stats":
-- !!int "17"
-- !!int "12"
-- !!int "16"
-- !!int "6"
-- !!int "12"
-- !!int "7"
+  - !!int "17"
+  - !!int "12"
+  - !!int "16"
+  - !!int "6"
+  - !!int "12"
+  - !!int "7"
 "speed": "30 ft., climb 30 ft."
 "skillsaves":
-  "Athletics": !!int "5"
+  - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
+    "desc": "+5"
 "damage_immunities": "poison"
-"condition_immunities": "[poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "darkvision 120 ft., passive Perception 10"
 "languages": "Undercommon"
 "cr": "3"
 "traits":
-- "desc": "The quaggoth's innate spellcasting ability is Wisdom (spell save DC 11).\
-    \ The quaggoth can innately cast the following spells, requiring no components:\n\
-    \nAt will: [feather fall](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/feather-fall.md),\
-    \ [mage hand](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/mage-hand.md)\
-    \ (the hand is invisible)\n\n1/day each: [cure wounds](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/cure-wounds.md),\
-    \ [enlarge/reduce](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/enlarge-reduce.md),\
-    \ [heat metal](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/heat-metal.md),\
-    \ [mirror image](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/mirror-image.md)"
-  "name": "Innate Spellcasting (Psionics)"
-- "desc": "While it has 10 hit points or fewer, the quaggoth has advantage on attack\
-    \ rolls. In addition, it deals an extra 7 (2d6) damage to any target it hits\
-    \ with a melee attack."
-  "name": "Wounded Fury"
+  - "desc": "The quaggoth's innate spellcasting ability is Wisdom (spell save DC 11).\
+      \ The quaggoth can innately cast the following spells, requiring no components:\n\
+      \nAt will: [feather fall](03.PlayerLog&Handouts/Mechanics/CLI/spells/feather-fall.md),\
+      \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md) (the\
+      \ hand is invisible)\n\n1/day each: [cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/cure-wounds.md),\
+      \ [enlarge/reduce](03.PlayerLog&Handouts/Mechanics/CLI/spells/enlarge-reduce.md),\
+      \ [heat metal](03.PlayerLog&Handouts/Mechanics/CLI/spells/heat-metal.md), [mirror\
+      \ image](03.PlayerLog&Handouts/Mechanics/CLI/spells/mirror-image.md)"
+    "name": "Innate Spellcasting (Psionics)"
+  - "desc": "While it has 10 hit points or fewer, the quaggoth has advantage on attack\
+      \ rolls. In addition, it deals an extra 7 (2d6) damage to any target it hits\
+      \ with a melee attack."
+    "name": "Wounded Fury"
 "actions":
-- "desc": "The quaggoth makes two claw attacks."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6\
-    \ + 3) slashing damage."
-  "name": "Claw"
+  - "desc": "The quaggoth makes two claw attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+      \ (1d6 + 3) slashing damage."
+    "name": "Claw"
 "source":
-- "MM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/humanoid/token/quaggoth-thonot.webp"
+  - "MM"
+  - "WDMM"
+  - "IDRotF"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/quaggoth-thonot.webp"
 ```
 ^statblock
 

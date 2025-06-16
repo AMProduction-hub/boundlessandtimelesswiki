@@ -10,14 +10,14 @@ aliases:
 ---
 # Bag of Tricks
 *Wondrous item, major, uncommon*  
-![](bag-of-tricks.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/bag-of-tricks.webp#right)
 
 - **Weight**: 0.5 lbs.
 
 **Items in this group:**
 
-- [Bag of Tricks, Gray](bag-of-tricks-gray.md)
-- [Bag of Tricks, Rust](bag-of-tricks-rust.md)
-- [Bag of Tricks, Tan](bag-of-tricks-tan.md)
+- [Bag of Tricks, Gray](03.PlayerLog&Handouts/Mechanics/CLI/items/bag-of-tricks-gray.md)
+- [Bag of Tricks, Rust](03.PlayerLog&Handouts/Mechanics/CLI/items/bag-of-tricks-rust.md)
+- [Bag of Tricks, Tan](03.PlayerLog&Handouts/Mechanics/CLI/items/bag-of-tricks-tan.md)
 
 *Source: Dungeon Master's Guide p. 154*

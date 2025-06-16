@@ -6,7 +6,8 @@ tags:
 - ttrpg-cli/vehicle/size/huge
 - ttrpg-cli/vehicle/terrain/air
 - ttrpg-cli/vehicle/type/ship
-aliases: ["Astral Skiff"]
+aliases:
+- Astral Skiff
 ---
 # Astral Skiff
 %%-- Embedded content starts on the next line. --%%
@@ -16,7 +17,7 @@ An astral skiff is operated by a crew of three and carries up to a dozen passeng
 
 ```ad-statblock
 title: Astral Skiff
-![](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/vehicles/token/astral-skiff-mtf.webp#token)
+![](03.PlayerLog&Handouts/Mechanics/CLI/vehicles/token/astral-skiff-mtf.webp#token)
 *Huge vehicle (30 ft. by 10 ft.); air*
 
 - **Creature Capacity** 3 crew, 12 passengers

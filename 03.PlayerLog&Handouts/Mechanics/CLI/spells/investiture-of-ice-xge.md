@@ -18,7 +18,8 @@ classes:
 - Sorcerer
 - Warlock
 - Wizard
-aliases: ["Investiture of Ice"]
+aliases:
+- Investiture of Ice
 ---
 # Investiture of Ice
 *6th-level, Transmutation*  
@@ -36,6 +37,6 @@ Until the spell ends, ice rimes your body, and you gain the following benefits:
 - The ground in a 10-foot radius around you is icy and is difficult terrain for creatures other than you. The radius moves with you.  
 - You can use your action to create a 15-foot cone of freezing wind extending from your outstretched hand in a direction you choose. Each creature in the cone must make a Constitution saving throw. A creature takes `4d6` cold damage on a failed save, or half as much damage on a successful one. A creature that fails its save against this effect has its speed halved until the start of your next turn.  
 
-**Classes**: [Druid](list-spells-classes-druid.md); [Bard](list-spells-classes-bard.md); [Wizard](list-spells-classes-wizard.md); [Sorcerer](list-spells-classes-sorcerer.md); [Cleric (Arcana Domain)](list-spells-classes-cleric-arcana-domain-scag.md "subclass=SCAG"); [Warlock](list-spells-classes-warlock.md)
+**Classes**: [Cleric (Arcana Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcana-domain-scag.md "subclass=SCAG"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
-*Source: Xanathar's Guide to Everything p. 159*
+*Source: Xanathar's Guide to Everything p. 159, Elemental Evil Player's Companion p. 19*

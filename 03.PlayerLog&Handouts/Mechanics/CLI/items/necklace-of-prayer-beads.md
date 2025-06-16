@@ -11,7 +11,7 @@ aliases:
 ---
 # Necklace of Prayer Beads
 *Wondrous item, major, rare (requires attunement by a cleric, druid, or paladin)*  
-![](necklace-of-prayer-beads.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/necklace-of-prayer-beads.webp#right)
 
 - **Weight**: 1.0 lbs.
 
@@ -23,12 +23,12 @@ Six types of magic beads exist. The DM decides the type of each bead on the neck
 
 | dice: d20 | Bead of... | Spell |
 |-----------|------------|-------|
-| 1-6 | Blessing | [Bless](bless.md) |
-| 7-12 | Curing | [Cure wounds](cure-wounds.md) (2nd level) or [lesser restoration](lesser-restoration.md) |
-| 13-16 | Favor | [Greater restoration](greater-restoration.md) |
-| 17-18 | Smiting | [Branding smite](branding-smite.md) |
-| 19 | Summons | [Planar ally](planar-ally.md) |
-| 20 | Wind walking | [Wind walk](wind-walk.md) |
+| 1-6 | Blessing | [Bless](03.PlayerLog&Handouts/Mechanics/CLI/spells/bless.md) |
+| 7-12 | Curing | [Cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/cure-wounds.md) (2nd level) or [lesser restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/lesser-restoration.md) |
+| 13-16 | Favor | [Greater restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-restoration.md) |
+| 17-18 | Smiting | [Branding smite](03.PlayerLog&Handouts/Mechanics/CLI/spells/branding-smite.md) |
+| 19 | Summons | [Planar ally](03.PlayerLog&Handouts/Mechanics/CLI/spells/planar-ally.md) |
+| 20 | Wind walking | [Wind walk](03.PlayerLog&Handouts/Mechanics/CLI/spells/wind-walk.md) |
 ^bead-of-spell
 
 *Source: Dungeon Master's Guide p. 182. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

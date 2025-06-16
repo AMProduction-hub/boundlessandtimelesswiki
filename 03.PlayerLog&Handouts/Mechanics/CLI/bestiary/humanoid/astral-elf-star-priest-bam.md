@@ -7,9 +7,11 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/humanoid/cleric
 statblock: inline
-aliases: ["Astral Elf Star Priest"]
+statblock-link: "#^statblock"
+aliases:
+- Astral Elf Star Priest
 ---
-# [Astral Elf Star Priest](03 - Player Log & Handouts\Mechanics\CLI\bestiary\humanoid/astral-elf-star-priest-bam.md)
+# [Astral Elf Star Priest](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/astral-elf-star-priest-bam.md)
 *Source: Boo's Astral Menagerie p. 13, Light of Xaryxis*  
 
 Star priests draw their strength from the pantheon of elven gods and oversee religious practices in astral elf society. It's common for them to serve aboard spelljamming ships, not only as emissaries of the gods but also as spelljammers.
@@ -38,59 +40,62 @@ Many astral elves are thousands (in some cases tens of thousands) of years old. 
 "subtype": "cleric"
 "alignment": "Any alignment"
 "ac": !!int "13"
-"ac_class": "[chain shirt](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/items/chain-shirt.md)"
+"ac_class": "[chain shirt](03.PlayerLog&Handouts/Mechanics/CLI/items/chain-shirt.md)"
 "hp": !!int "90"
 "hit_dice": "20d8"
+"modifier": !!int "0"
 "stats":
-- !!int "11"
-- !!int "11"
-- !!int "10"
-- !!int "16"
-- !!int "20"
-- !!int "17"
+  - !!int "11"
+  - !!int "11"
+  - !!int "10"
+  - !!int "16"
+  - !!int "20"
+  - !!int "17"
 "speed": "30 ft."
 "saves":
-  "Charisma": !!int "6"
-  "Wisdom": !!int "8"
-  "Intelligence": !!int "6"
+  - "intelligence": "+6"
+  - "wisdom": "+8"
+  - "charisma": "+6"
 "skillsaves":
-  "Medicine": !!int "8"
-  "Religion": !!int "6"
+  - "name": "[Medicine](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Medicine)"
+    "desc": "+8"
+  - "name": "[Religion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Religion)"
+    "desc": "+6"
 "senses": "darkvision 60 ft., passive Perception 15"
 "languages": "Celestial, Common, Elvish"
 "cr": "5"
 "traits":
-- "desc": "The elf casts one of the following spells, using Wisdom as the spellcasting\
-    \ ability (spell save DC 16):\n\n1/day each: [divination](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/divination.md),\
-    \ [sending](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/sending.md),\
-    \ [word of recall](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/word-of-recall.md)\n\
-    \n2/day each: [cure wounds](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/cure-wounds.md)\
-    \ (8th-level version), [hold person](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/hold-person.md)"
-  "name": "Spellcasting"
-- "desc": "The elf has advantage on saving throws it makes to avoid or end the [charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
-    \ condition on itself, and magic can't put it to sleep."
-  "name": "Fey Ancestry"
-- "desc": "The elf doesn't require sleep."
-  "name": "Unusual Nature"
+  - "desc": "The elf has advantage on saving throws it makes to avoid or end the [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
+      \ condition on itself, and magic can't put it to sleep."
+    "name": "Fey Ancestry"
+  - "desc": "The elf doesn't require sleep."
+    "name": "Unusual Nature"
 "actions":
-- "desc": "The elf makes two Morningstar attacks. It can use Rain of Radiance in place\
-    \ of one of these attacks."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d8)\
-    \ piercing damage plus 17 (5d6) radiant damage."
-  "name": "Morningstar"
-- "desc": "Magical, flame-like radiance rains down on a creature that the elf can\
-    \ see within 60 feet of itself. The target must make a DC 16 Dexterity saving\
-    \ throw, taking 22 (5d8) radiant damage on a failed save, or half as much damage\
-    \ on a successful one."
-  "name": "Rain of Radiance"
+  - "desc": "The elf makes two Morningstar attacks. It can use Rain of Radiance in\
+      \ place of one of these attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4\
+      \ (d8) piercing damage plus 17 (5d6) radiant damage."
+    "name": "Morningstar"
+  - "desc": "Magical, flame-like radiance rains down on a creature that the elf can\
+      \ see within 60 feet of itself. The target must make a DC 16 Dexterity saving\
+      \ throw, taking 22 (5d8) radiant damage on a failed save, or half as much\
+      \ damage on a successful one."
+    "name": "Rain of Radiance"
+  - "desc": "The elf casts one of the following spells, using Wisdom as the spellcasting\
+      \ ability (spell save DC 16):\n\n2/day each: [cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/cure-wounds.md)\
+      \ (8th-level version), [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md)\n\
+      \n1/day each: [divination](03.PlayerLog&Handouts/Mechanics/CLI/spells/divination.md),\
+      \ [sending](03.PlayerLog&Handouts/Mechanics/CLI/spells/sending.md), [word of\
+      \ recall](03.PlayerLog&Handouts/Mechanics/CLI/spells/word-of-recall.md)"
+    "name": "Spellcasting"
 "bonus_actions":
-- "desc": "The elf magically teleports up to 30 feet, along with anything it is wearing\
-    \ or carrying, to an unoccupied space it can see."
-  "name": "Starlight Step (2/Day)"
+  - "desc": "The elf magically teleports up to 30 feet, along with anything it is\
+      \ wearing or carrying, to an unoccupied space it can see."
+    "name": "Starlight Step (2/Day)"
 "source":
-- "BAM"
-- "LoX"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/humanoid/token/astral-elf-star-priest-bam.webp"
+  - "BAM"
+  - "LoX"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/astral-elf-star-priest-bam.webp"
 ```
 ^statblock

@@ -9,7 +9,10 @@ tags:
 - ttrpg-cli/spell/class/druid
 - ttrpg-cli/spell/class/sorcerer
 - ttrpg-cli/spell/class/wizard
+- ttrpg-cli/spell/feat/aberrant-dragonmark
 - ttrpg-cli/spell/feat/artificer-initiate
+- ttrpg-cli/spell/feat/divinely-favored
+- ttrpg-cli/spell/feat/initiate-of-high-sorcery
 - ttrpg-cli/spell/feat/magic-initiate
 - ttrpg-cli/spell/feat/wood-elf-magic
 - ttrpg-cli/spell/level/cantrip
@@ -17,6 +20,7 @@ tags:
 - ttrpg-cli/spell/optfeature/druidic-warrior
 - ttrpg-cli/spell/optfeature/pact-of-the-tome
 - ttrpg-cli/spell/race/kobold
+- ttrpg-cli/spell/reward/purphoross-devotee
 - ttrpg-cli/spell/school/transmutation
 - ttrpg-cli/spell/subclass/arcana-domain
 - ttrpg-cli/spell/subclass/arcane-trickster
@@ -26,6 +30,7 @@ tags:
 - ttrpg-cli/spell/subclass/nature-domain
 - ttrpg-cli/spell/subrace/elf-high
 - ttrpg-cli/spell/subrace/half-elf-moon-elf-or-sun-elf-descent
+- ttrpg-cli/spell/subrace/human-mark-of-making
 classes:
 - Artificer
 - Bard
@@ -39,7 +44,8 @@ classes:
 - Sorcerer
 - Sorcerer (Divine Soul)
 - Wizard
-aliases: ["Mending"]
+aliases:
+- Mending
 ---
 # Mending
 *cantrip, Transmutation*  
@@ -54,6 +60,6 @@ This spell repairs a single break or tear in an object you touch, such as broken
 
 This spell can physically repair a magic item or construct, but the spell can't restore magic to such an object.
 
-**Classes**: [Druid](list-spells-classes-druid.md); [Artificer](list-spells-classes-artificer.md); [Cleric](list-spells-classes-cleric.md); [Druid (Circle of the Land)](list-spells-classes-druid-circle-of-the-land.md); [Bard](list-spells-classes-bard.md); [Fighter (Eldritch Knight)](list-spells-classes-fighter-eldritch-knight.md); [Sorcerer](list-spells-classes-sorcerer.md); [Cleric (Arcana Domain)](list-spells-classes-cleric-arcana-domain-scag.md "subclass=SCAG"); [Rogue (Arcane Trickster)](list-spells-classes-rogue-arcane-trickster.md); [Wizard](list-spells-classes-wizard.md); [Cleric (Nature Domain)](list-spells-classes-cleric-nature-domain.md); [Sorcerer (Divine Soul)](list-spells-classes-sorcerer-divine-soul-xge.md "subclass=XGE")
+**Classes**: [Artificer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-artificer.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Druid (Circle of the Land)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-circle-of-the-land.md); [Cleric (Arcana Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcana-domain-scag.md "subclass=SCAG"); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Cleric (Nature Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-nature-domain.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook p. 259. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

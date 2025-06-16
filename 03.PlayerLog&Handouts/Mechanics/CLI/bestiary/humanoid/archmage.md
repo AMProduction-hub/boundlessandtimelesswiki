@@ -8,10 +8,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/humanoid/any-race
 statblock: inline
-aliases: ["Archmage"]
+statblock-link: "#^statblock"
+aliases:
+- Archmage
 ---
-# [Archmage](03 - Player Log & Handouts\Mechanics\CLI\bestiary\humanoid/archmage.md)
-*Source: Monster Manual p. 342, Baldur's Gate: Descent Into Avernus, Light of Xaryxis, Sigil and the Outlands. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Archmage](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/archmage.md)
+*Source: Monster Manual p. 342, Curse of Strahd, Storm King's Thunder, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus, Eberron: Rising from the Last War, Infernal Machine Rebuild, Explorer's Guide to Wildemount, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden, Candlekeep Mysteries, Journeys through the Radiant Citadel, Light of Xaryxis, Dragonlance: Shadow of the Dragon Queen, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Archmages are powerful (and usually quite old) spellcasters dedicated to the study of the arcane arts. Benevolent ones counsel kings and queens, while evil ones rule as tyrants and pursue lichdom. Those who are neither good nor evil sequester themselves in remote towers to practice their magic without interruption.
 
@@ -24,76 +26,87 @@ An archmage typically has one or more apprentice mages, and an archmage's abode 
 "subtype": "any race"
 "alignment": "Any alignment"
 "ac": !!int "12"
-"ac_class": "15 with [mage armor](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/mage-armor.md)"
+"ac_class": "15 with [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md)"
 "hp": !!int "99"
 "hit_dice": "18d8 + 18"
+"modifier": !!int "2"
 "stats":
-- !!int "10"
-- !!int "14"
-- !!int "12"
-- !!int "20"
-- !!int "15"
-- !!int "16"
+  - !!int "10"
+  - !!int "14"
+  - !!int "12"
+  - !!int "20"
+  - !!int "15"
+  - !!int "16"
 "speed": "30 ft."
 "saves":
-  "Wisdom": !!int "6"
-  "Intelligence": !!int "9"
+  - "intelligence": "+9"
+  - "wisdom": "+6"
 "skillsaves":
-  "History": !!int "13"
-  "Arcana": !!int "13"
+  - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
+    "desc": "+13"
+  - "name": "[History](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#History)"
+    "desc": "+13"
 "damage_resistances": "damage from spells; nonmagical bludgeoning, piercing, slashing\
   \ (from stoneskin)"
 "senses": "passive Perception 12"
 "languages": "any six languages"
 "cr": "12"
 "traits":
-- "desc": "The archmage is an 18th-level spellcaster. Its spellcasting ability is\
-    \ Intelligence (spell save DC 17, +9 to hit with spell attacks). The archmage\
-    \ can cast [disguise self](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/disguise-self.md)\
-    \ and [invisibility](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/invisibility.md)\
-    \ at will and has the following wizard spells prepared:\n\nAt will: [disguise\
-    \ self](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/disguise-self.md),\
-    \ [invisibility](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/invisibility.md)\n\
-    \nCantrips (at will): [fire bolt](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/fire-bolt.md),\
-    \ [light](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/light.md),\
-    \ [mage hand](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/mage-hand.md),\
-    \ [prestidigitation](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/prestidigitation.md),\
-    \ [shocking grasp](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/shocking-grasp.md)\n\
-    \n1st level (4 slots): [detect magic](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/detect-magic.md),\
-    \ [identify](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/identify.md),\
-    \ [mage armor](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/mage-armor.md),\
-    \ [magic missile](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/magic-missile.md)\n\
-    \n2nd level (3 slots): [detect thoughts](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
-    \ [mirror image](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/mirror-image.md),\
-    \ [misty step](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/misty-step.md)\n\
-    \n3rd level (3 slots): [counterspell](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/counterspell.md),\
-    \ [fly](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/fly.md), [lightning\
-    \ bolt](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/lightning-bolt.md)\n\
-    \n4th level (3 slots): [banishment](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/banishment.md),\
-    \ [fire shield](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/fire-shield.md),\
-    \ [stoneskin](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/stoneskin.md)\n\
-    \n5th level (3 slots): [cone of cold](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/cone-of-cold.md),\
-    \ [scrying](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/scrying.md),\
-    \ [wall of force](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/wall-of-force.md)\n\
-    \n6th level (1 slots): [globe of invulnerability](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/globe-of-invulnerability.md)\n\
-    \n7th level (1 slots): [teleport](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/teleport.md)\n\
-    \n8th level (1 slots): [mind blank](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/mind-blank.md)\n\
-    \n9th level (1 slots): [time stop](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/time-stop.md)\n\
-    \nThe archmage casts these spells on itself before combat."
-  "name": "Spellcasting"
-- "desc": "The archmage has advantage on saving throws against spells and other magical\
-    \ effects."
-  "name": "Magic Resistance"
+  - "desc": "The archmage is an 18th-level spellcaster. Its spellcasting ability is\
+      \ Intelligence (spell save DC 17, +9 to hit with spell attacks). The archmage\
+      \ can cast [disguise self](03.PlayerLog&Handouts/Mechanics/CLI/spells/disguise-self.md)\
+      \ and [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md)\
+      \ at will and has the following wizard spells prepared:\n\nCantrips (at will):\
+      \ [fire bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-bolt.md), [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md),\
+      \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md),\
+      \ [shocking grasp](03.PlayerLog&Handouts/Mechanics/CLI/spells/shocking-grasp.md)\n\
+      \n1st level (4 slots): [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      \ [identify](03.PlayerLog&Handouts/Mechanics/CLI/spells/identify.md), [mage\
+      \ armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md), [magic\
+      \ missile](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-missile.md)\n\n\
+      2nd level (3 slots): [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
+      \ [mirror image](03.PlayerLog&Handouts/Mechanics/CLI/spells/mirror-image.md),\
+      \ [misty step](03.PlayerLog&Handouts/Mechanics/CLI/spells/misty-step.md)\n\n\
+      3rd level (3 slots): [counterspell](03.PlayerLog&Handouts/Mechanics/CLI/spells/counterspell.md),\
+      \ [fly](03.PlayerLog&Handouts/Mechanics/CLI/spells/fly.md), [lightning bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/lightning-bolt.md)\n\
+      \n4th level (3 slots): [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md),\
+      \ [fire shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-shield.md),\
+      \ [stoneskin](03.PlayerLog&Handouts/Mechanics/CLI/spells/stoneskin.md)\n\n\
+      5th level (3 slots): [cone of cold](03.PlayerLog&Handouts/Mechanics/CLI/spells/cone-of-cold.md),\
+      \ [scrying](03.PlayerLog&Handouts/Mechanics/CLI/spells/scrying.md), [wall of\
+      \ force](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-force.md)\n\n6th\
+      \ level (1 slots): [globe of invulnerability](03.PlayerLog&Handouts/Mechanics/CLI/spells/globe-of-invulnerability.md)\n\
+      \n7th level (1 slots): [teleport](03.PlayerLog&Handouts/Mechanics/CLI/spells/teleport.md)\n\
+      \n8th level (1 slots): [mind blank](03.PlayerLog&Handouts/Mechanics/CLI/spells/mind-blank.md)\n\
+      \n9th level (1 slots): [time stop](03.PlayerLog&Handouts/Mechanics/CLI/spells/time-stop.md)\n\
+      \nThe archmage casts these spells on itself before combat."
+    "name": "Spellcasting"
+  - "desc": "The archmage has advantage on saving throws against spells and other\
+      \ magical effects."
+    "name": "Magic Resistance"
 "actions":
-- "desc": "Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60\
-    \ ft., one target. Hit: 4 (1d4 + 2) piercing damage."
-  "name": "Dagger"
+  - "desc": "Melee  or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. Hit: 4 (1d4 + 2) piercing damage."
+    "name": "Dagger"
 "source":
-- "MM"
-- "BGDIA"
-- "LoX"
-- "SatO"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/humanoid/token/archmage.webp"
+  - "MM"
+  - "CoS"
+  - "SKT"
+  - "WDH"
+  - "WDMM"
+  - "GoS"
+  - "BGDIA"
+  - "ERLW"
+  - "IMR"
+  - "EGW"
+  - "MOT"
+  - "IDRotF"
+  - "CM"
+  - "JttRC"
+  - "LoX"
+  - "DSotDQ"
+  - "KftGV"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/archmage.webp"
 ```
 ^statblock
 

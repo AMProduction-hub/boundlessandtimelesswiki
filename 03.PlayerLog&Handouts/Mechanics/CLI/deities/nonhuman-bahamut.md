@@ -6,7 +6,8 @@ tags:
 - ttrpg-cli/deity/nonhuman
 - ttrpg-cli/domain/life
 - ttrpg-cli/domain/war
-aliases: ["Bahamut"]
+aliases: 
+- Bahamut
 ---
 # Bahamut
 *Source: Player's Handbook p. 296* 

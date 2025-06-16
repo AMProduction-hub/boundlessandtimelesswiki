@@ -4,7 +4,8 @@ cssclasses: json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/scag
-aliases: ["Faction Agent"]
+aliases:
+- Faction Agent
 ---
 # Faction Agent
 *Source: Sword Coast Adventurer's Guide p. 147*  
@@ -12,7 +13,7 @@ aliases: ["Faction Agent"]
 
 - **Skill Proficiencies.** [Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight) and one Intelligence, Wisdom, or Charisma skill of your choice, as appropriate to your faction  
 - **Languages.** Any two of your choice  
-- **Equipment.** Badge or emblem of your faction, a copy of a seminal faction text (or code-book for a covert faction), a set of [common clothes](common-clothes.md), and a [pouch](pouch.md) containing 15 gp  
+- **Equipment.** Badge or emblem of your faction, a copy of a seminal faction text (or code-book for a covert faction), a set of [common clothes](03.PlayerLog&Handouts/Mechanics/CLI/items/common-clothes.md), and a [pouch](03.PlayerLog&Handouts/Mechanics/CLI/items/pouch.md) containing 15 gp  
 
 Many organizations active in the North and across the face of Faerûn aren't bound by strictures of geography. These factions pursue their agendas without regard for political boundaries, and their members operate anywhere the organization deems necessary. These groups employ listeners, rumormongers, smugglers, sellswords, cache-holders (people who guard caches of wealth or magic for use by the faction's operatives), haven keepers, and message drop minders, to name a few. At the core of every faction are those who don't merely fulfill a small function for that organization, but who serve as its hands, head, and heart.
 

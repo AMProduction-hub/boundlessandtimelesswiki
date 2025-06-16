@@ -8,10 +8,12 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/undead
 statblock: inline
-aliases: ["Bone Naga (Guardian)"]
+statblock-link: "#^statblock"
+aliases:
+- Bone Naga (Guardian)
 ---
-# [Bone Naga (Guardian)](03 - Player Log & Handouts\Mechanics\CLI\bestiary\undead/bone-naga-guardian.md)
-*Source: Monster Manual p. 233*  
+# [Bone Naga (Guardian)](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/bone-naga-guardian.md)
+*Source: Monster Manual p. 233, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage*  
 
 In response to the long history of conflict between the yuan-ti and the nagas, yuan-ti created a necromantic ritual that could halt a naga's resurrection by transforming the living naga into a skeletal undead servitor. A bone naga retains only a few of the spells it knew in life.
 
@@ -44,42 +46,45 @@ A naga doesn't require air, food, drink, or sleep.
 "ac_class": "natural armor"
 "hp": !!int "58"
 "hit_dice": "9d10 + 9"
+"modifier": !!int "3"
 "stats":
-- !!int "15"
-- !!int "16"
-- !!int "12"
-- !!int "15"
-- !!int "15"
-- !!int "16"
+  - !!int "15"
+  - !!int "16"
+  - !!int "12"
+  - !!int "15"
+  - !!int "15"
+  - !!int "16"
 "speed": "30 ft."
 "damage_immunities": "poison"
-"condition_immunities": "[charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
-  \ [exhaustion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
-  \ [paralyzed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
-  \ [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
+  \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
+  \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
+  \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "darkvision 60 ft., passive Perception 12"
 "languages": "Common plus one other language"
 "cr": "4"
 "traits":
-- "desc": "The naga is a 5th-level spellcaster (spell save DC 12, +4 to hit with\
-    \ spell attacks) that needs only verbal components to cast its spells. Its spellcasting\
-    \ ability is Wisdom, and it has the following cleric spells prepared:\n\nCantrips\
-    \ (at will): [mending](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/mending.md),\
-    \ [sacred flame](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/sacred-flame.md),\
-    \ [thaumaturgy](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/thaumaturgy.md)\n\
-    \n1st level (4 slots): [command](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/command.md),\
-    \ [shield of faith](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/shield-of-faith.md)\n\
-    \n2nd level (3 slots): [calm emotions](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/calm-emotions.md),\
-    \ [hold person](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/hold-person.md)\n\
-    \n3rd level (2 slots): [bestow curse](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/bestow-curse.md)"
-  "name": "Spellcasting"
+  - "desc": "The naga is a 5th-level spellcaster (spell save DC 12, +4 to hit with\
+      \ spell attacks) that needs only verbal components to cast its spells. Its spellcasting\
+      \ ability is Wisdom, and it has the following cleric spells prepared:\n\nCantrips\
+      \ (at will): [mending](03.PlayerLog&Handouts/Mechanics/CLI/spells/mending.md),\
+      \ [sacred flame](03.PlayerLog&Handouts/Mechanics/CLI/spells/sacred-flame.md),\
+      \ [thaumaturgy](03.PlayerLog&Handouts/Mechanics/CLI/spells/thaumaturgy.md)\n\
+      \n1st level (4 slots): [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md),\
+      \ [shield of faith](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield-of-faith.md)\n\
+      \n2nd level (3 slots): [calm emotions](03.PlayerLog&Handouts/Mechanics/CLI/spells/calm-emotions.md),\
+      \ [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md)\n\
+      \n3rd level (2 slots): [bestow curse](03.PlayerLog&Handouts/Mechanics/CLI/spells/bestow-curse.md)"
+    "name": "Spellcasting"
 "actions":
-- "desc": "Melee Weapon Attack: +5 to hit, reach 10 ft., one creature. Hit:\
-    \ 10 (2d6 + 3) piercing damage plus 10 (3d6) poison damage."
-  "name": "Bite"
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 10 ft., one creature. Hit:\
+      \ 10 (2d6 + 3) piercing damage plus 10 (3d6) poison damage."
+    "name": "Bite"
 "source":
-- "MM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/undead/token/bone-naga-guardian.webp"
+  - "MM"
+  - "ToA"
+  - "WDMM"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/token/bone-naga-guardian.webp"
 ```
 ^statblock
 

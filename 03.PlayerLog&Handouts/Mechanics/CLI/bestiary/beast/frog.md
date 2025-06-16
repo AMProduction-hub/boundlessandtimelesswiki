@@ -7,10 +7,12 @@ tags:
 - ttrpg-cli/monster/size/tiny
 - ttrpg-cli/monster/type/beast
 statblock: inline
-aliases: ["Frog"]
+statblock-link: "#^statblock"
+aliases:
+- Frog
 ---
-# [Frog](03 - Player Log & Handouts\Mechanics\CLI\bestiary\beast/frog.md)
-*Source: Monster Manual p. 322. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Frog](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/frog.md)
+*Source: Monster Manual p. 322, Tomb of Annihilation, Curse of Strahd, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 A frog has no effective attacks. It feeds on small insects and typically dwells near water, in trees, or underground. The frog's statistics can also be used to represent a toad.
 
@@ -22,28 +24,34 @@ A frog has no effective attacks. It feeds on small insects and typically dwells 
 "ac": !!int "11"
 "hp": !!int "1"
 "hit_dice": "1d4 - 1"
+"modifier": !!int "1"
 "stats":
-- !!int "1"
-- !!int "13"
-- !!int "8"
-- !!int "1"
-- !!int "8"
-- !!int "3"
+  - !!int "1"
+  - !!int "13"
+  - !!int "8"
+  - !!int "1"
+  - !!int "8"
+  - !!int "3"
 "speed": "20 ft., swim 20 ft."
 "skillsaves":
-  "Stealth": !!int "3"
-  "Perception": !!int "1"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+1"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+3"
 "senses": "darkvision 30 ft., passive Perception 11"
 "languages": ""
 "cr": "0"
 "traits":
-- "desc": "The frog can breathe air and water."
-  "name": "Amphibious"
-- "desc": "The frog's long jump is up to 10 feet and its high jump is up to 5 feet,\
-    \ with or without a running start."
-  "name": "Standing Leap"
+  - "desc": "The frog can breathe air and water."
+    "name": "Amphibious"
+  - "desc": "The frog's long jump is up to 10 feet and its high jump is up to 5 feet,\
+      \ with or without a running start."
+    "name": "Standing Leap"
 "source":
-- "MM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/beast/token/frog.webp"
+  - "MM"
+  - "ToA"
+  - "CoS"
+  - "KftGV"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/frog.webp"
 ```
 ^statblock

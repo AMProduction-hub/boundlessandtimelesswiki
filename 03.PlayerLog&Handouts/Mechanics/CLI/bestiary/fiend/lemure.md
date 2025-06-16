@@ -7,10 +7,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/fiend/devil
 statblock: inline
-aliases: ["Lemure"]
+statblock-link: "#^statblock"
+aliases:
+- Lemure
 ---
-# [Lemure](03 - Player Log & Handouts\Mechanics\CLI\bestiary\fiend/lemure.md)
-*Source: Monster Manual p. 76, Baldur's Gate: Descent Into Avernus. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Lemure](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/lemure.md)
+*Source: Monster Manual p. 76, Waterdeep: Dragon Heist, Baldur's Gate: Descent Into Avernus. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 A lemure arises when a mortal soul is twisted by evil and banished to the Nine Hells for eternity. The lowest type of devil, lemures are repugnant, shapeless creatures doomed to suffer torment until they are promoted to a higher form of devil, most commonly an imp.
 
@@ -112,7 +114,7 @@ The Nine Hells are a single plane comprising nine separate layers (see the Layer
 
 > [!note] Devil True Names and Talismans
 > 
-> Though devils all have common names, every devil above a lemure in station also has a true name that it keeps secret. A devil can be forced to disclose its true name if [charmed](conditions.md#Charmed), and ancient scrolls and tomes are said to exist that list the true names of certain devils.
+> Though devils all have common names, every devil above a lemure in station also has a true name that it keeps secret. A devil can be forced to disclose its true name if [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), and ancient scrolls and tomes are said to exist that list the true names of certain devils.
 > 
 > A mortal who learns a devil's true name can use powerful summoning magic to call the devil from the Nine Hells and bind it into service. Binding can also be accomplished with the help of a devil talisman. Each of these ancient relics is inscribed with the true name of a devil it controls, and was bathed in the blood of a worthy sacrifice-typically someone the creator loved-when crafted.
 > 
@@ -128,10 +130,10 @@ The Nine Hells are a single plane comprising nine separate layers (see the Layer
 > - A barbed devil has a 30 percent chance of summoning one barbed devil.  
 > - A bearded devil has a 30 percent chance of summoning one bearded devil.  
 > - A bone devil has a 40 percent chance of summoning `2d6` spined devils or one bone devil.  
-> - An erinyes has a 50 percent chance of summoning `3d6` spined devils, `1d6` bearded devils, or one erinyes.  
+> - An erinyes has a 50 percent chance of summoning `3d6` spined devils, `d6` bearded devils, or one erinyes.  
 > - A horned devil has a 30 percent chance of summoning one horned devil.  
 > - An ice devil has a 60 percent chance of summoning one ice devil.  
-> - A pit fiend summons `2d4` bearded devils, `1d4` barbed devils, or one erinyes with no chance of failure.  
+> - A pit fiend summons `2d4` bearded devils, `d4` barbed devils, or one erinyes with no chance of failure.  
 > 
 > A summoned devil appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other devils. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.
 ^variant-devil-summoning
@@ -145,37 +147,39 @@ The Nine Hells are a single plane comprising nine separate layers (see the Layer
 "ac": !!int "7"
 "hp": !!int "13"
 "hit_dice": "3d8"
+"modifier": !!int "-3"
 "stats":
-- !!int "10"
-- !!int "5"
-- !!int "11"
-- !!int "1"
-- !!int "11"
-- !!int "3"
+  - !!int "10"
+  - !!int "5"
+  - !!int "11"
+  - !!int "1"
+  - !!int "11"
+  - !!int "3"
 "speed": "15 ft."
 "damage_resistances": "cold"
 "damage_immunities": "fire, poison"
-"condition_immunities": "[charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
-  \ [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
-  \ [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
+  \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
+  \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "darkvision 120 ft., passive Perception 10"
 "languages": "understands Infernal but can't speak"
 "cr": "0"
 "traits":
-- "desc": "Magical darkness doesn't impede the lemure's darkvision."
-  "name": "Devil's Sight"
-- "desc": "A lemure that dies in the Nine Hells comes back to life with all its hit\
-    \ points in 1d10 days unless it is killed by a good-aligned creature with a\
-    \ [bless](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/bless.md)\
-    \ spell cast on that creature or its remains are sprinkled with holy water."
-  "name": "Hellish Rejuvenation"
+  - "desc": "Magical darkness doesn't impede the lemure's darkvision."
+    "name": "Devil's Sight"
+  - "desc": "A lemure that dies in the Nine Hells comes back to life with all its\
+      \ hit points in d10 days unless it is killed by a good-aligned creature with\
+      \ a [bless](03.PlayerLog&Handouts/Mechanics/CLI/spells/bless.md) spell cast\
+      \ on that creature or its remains are sprinkled with holy water."
+    "name": "Hellish Rejuvenation"
 "actions":
-- "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 2 (1d4)\
-    \ bludgeoning damage"
-  "name": "Fist"
+  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 2\
+      \ (d4) bludgeoning damage"
+    "name": "Fist"
 "source":
-- "MM"
-- "BGDIA"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/fiend/token/lemure.webp"
+  - "MM"
+  - "WDH"
+  - "BGDIA"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/token/lemure.webp"
 ```
 ^statblock

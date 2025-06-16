@@ -12,25 +12,25 @@ aliases:
 - "Sword of Answering"
 ---
 # Sword of Answering
-*Weapon ([longsword](longsword.md)), major, legendary (requires attunement)*  
+*Weapon ([longsword](03.PlayerLog&Handouts/Mechanics/CLI/items/longsword.md)), major, legendary (requires attunement)*  
 
 
 - **Damage**:
   - One-handed: 1d8 slashing
   - Two-handed: 1d10 slashing
-- **Properties**: [Versatile](item-properties.md#Versatile)
+- **Properties**: [Versatile](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Versatile)
 - **Weight**: 3.0 lbs.
 
 **Items in this group:**
 
-- [Sword of Answering (Answerer)](sword-of-answering-answerer.md)
-- [Sword of Answering (Back Talker)](sword-of-answering-back-talker.md)
-- [Sword of Answering (Concluder)](sword-of-answering-concluder.md)
-- [Sword of Answering (Last Quip)](sword-of-answering-last-quip.md)
-- [Sword of Answering (Rebutter)](sword-of-answering-rebutter.md)
-- [Sword of Answering (Replier)](sword-of-answering-replier.md)
-- [Sword of Answering (Retorter)](sword-of-answering-retorter.md)
-- [Sword of Answering (Scather)](sword-of-answering-scather.md)
-- [Sword of Answering (Squelcher)](sword-of-answering-squelcher.md)
+- [Sword of Answering (Answerer)](03.PlayerLog&Handouts/Mechanics/CLI/items/sword-of-answering-answerer.md)
+- [Sword of Answering (Back Talker)](03.PlayerLog&Handouts/Mechanics/CLI/items/sword-of-answering-back-talker.md)
+- [Sword of Answering (Concluder)](03.PlayerLog&Handouts/Mechanics/CLI/items/sword-of-answering-concluder.md)
+- [Sword of Answering (Last Quip)](03.PlayerLog&Handouts/Mechanics/CLI/items/sword-of-answering-last-quip.md)
+- [Sword of Answering (Rebutter)](03.PlayerLog&Handouts/Mechanics/CLI/items/sword-of-answering-rebutter.md)
+- [Sword of Answering (Replier)](03.PlayerLog&Handouts/Mechanics/CLI/items/sword-of-answering-replier.md)
+- [Sword of Answering (Retorter)](03.PlayerLog&Handouts/Mechanics/CLI/items/sword-of-answering-retorter.md)
+- [Sword of Answering (Scather)](03.PlayerLog&Handouts/Mechanics/CLI/items/sword-of-answering-scather.md)
+- [Sword of Answering (Squelcher)](03.PlayerLog&Handouts/Mechanics/CLI/items/sword-of-answering-squelcher.md)
 
 *Source: Dungeon Master's Guide p. 206*

@@ -16,7 +16,8 @@ classes:
 - Druid
 - Sorcerer
 - Wizard
-aliases: ["Incendiary Cloud"]
+aliases:
+- Incendiary Cloud
 ---
 # Incendiary Cloud
 *8th-level, Conjuration*  
@@ -33,6 +34,6 @@ When the cloud appears, each creature in it must make a Dexterity saving throw. 
 
 The cloud moves 10 feet directly away from you in a direction that you choose at the start of each of your turns.
 
-**Classes**: [Druid](list-spells-classes-druid.md); [Bard](list-spells-classes-bard.md); [Wizard](list-spells-classes-wizard.md); [Sorcerer](list-spells-classes-sorcerer.md); [Cleric (Arcana Domain)](list-spells-classes-cleric-arcana-domain-scag.md "subclass=SCAG")
+**Classes**: [Cleric (Arcana Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcana-domain-scag.md "subclass=SCAG"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook p. 253. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

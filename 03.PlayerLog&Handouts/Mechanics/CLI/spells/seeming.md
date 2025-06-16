@@ -18,7 +18,8 @@ classes:
 - Warlock (The Archfey)
 - Warlock (The Genie)
 - Wizard
-aliases: ["Seeming"]
+aliases:
+- Seeming
 ---
 # Seeming
 *5th-level, Illusion*  
@@ -37,6 +38,6 @@ The changes wrought by this spell fail to hold up to physical inspection. For ex
 
 A creature can use its action to inspect a target and make an Intelligence ([Investigation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Investigation)) check against your spell save DC. If it succeeds, it becomes aware that the target is disguised.
 
-**Classes**: [Warlock (The Archfey)](list-spells-classes-warlock-the-archfey.md); [Bard](list-spells-classes-bard.md); [Wizard](list-spells-classes-wizard.md); [Sorcerer](list-spells-classes-sorcerer.md); [Ranger (Gloom Stalker)](list-spells-classes-ranger-gloom-stalker-xge.md "subclass=XGE"); [Warlock (The Genie)](list-spells-classes-warlock-the-genie-tce.md "subclass=TCE")
+**Classes**: [Ranger (Gloom Stalker)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-gloom-stalker-xge.md "subclass=XGE"); [Warlock (The Genie)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-genie-tce.md "subclass=TCE"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock (The Archfey)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-archfey.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook p. 274. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

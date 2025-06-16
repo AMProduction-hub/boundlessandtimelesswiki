@@ -17,13 +17,13 @@ aliases:
 
 Includes:
 
-- a [backpack](backpack.md)  
-- a [bedroll](bedroll.md)  
-- a [mess kit](mess-kit.md)  
-- a [tinderbox](tinderbox.md)  
-- 10 [torches](torch.md)  
-- 10 days of [rations](rations-1-day.md)  
-- a [waterskin](waterskin.md)  
-- [50 feet of hempen rope](hempen-rope-50-feet.md)  
+- a [backpack](03.PlayerLog&Handouts/Mechanics/CLI/items/backpack.md)  
+- a [bedroll](03.PlayerLog&Handouts/Mechanics/CLI/items/bedroll.md)  
+- a [mess kit](03.PlayerLog&Handouts/Mechanics/CLI/items/mess-kit.md)  
+- a [tinderbox](03.PlayerLog&Handouts/Mechanics/CLI/items/tinderbox.md)  
+- 10 [torches](03.PlayerLog&Handouts/Mechanics/CLI/items/torch.md)  
+- 10 days of [rations](03.PlayerLog&Handouts/Mechanics/CLI/items/rations-1-day.md)  
+- a [waterskin](03.PlayerLog&Handouts/Mechanics/CLI/items/waterskin.md)  
+- [50 feet of hempen rope](03.PlayerLog&Handouts/Mechanics/CLI/items/hempen-rope-50-feet.md)  
 
 *Source: Player's Handbook p. 151. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*

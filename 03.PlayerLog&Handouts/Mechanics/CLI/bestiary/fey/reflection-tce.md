@@ -7,9 +7,11 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/fey
 statblock: inline
-aliases: ["Reflection"]
+statblock-link: "#^statblock"
+aliases:
+- Reflection
 ---
-# [Reflection](03 - Player Log & Handouts\Mechanics\CLI\bestiary\fey/reflection-tce.md)
+# [Reflection](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fey/reflection-tce.md)
 *Source: Tasha's Cauldron of Everything p. 158*  
 
 ```statblock
@@ -20,50 +22,52 @@ aliases: ["Reflection"]
 "ac": !!int "12"
 "hp": !!int "16"
 "hit_dice": "3d8 + 3"
+"modifier": !!int "2"
 "stats":
-- !!int "6"
-- !!int "14"
-- !!int "13"
-- !!int "6"
-- !!int "10"
-- !!int "8"
+  - !!int "6"
+  - !!int "14"
+  - !!int "13"
+  - !!int "6"
+  - !!int "10"
+  - !!int "8"
 "speed": "40 ft."
 "skillsaves":
-  "Stealth": !!int "4"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+4"
 "damage_vulnerabilities": "bludgeoning"
 "damage_resistances": "acid; cold; fire; lightning; thunder; piercing, slashing from\
   \ nonmagical attacks"
 "damage_immunities": "necrotic, poison"
-"condition_immunities": "[exhaustion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
-  \ [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
-  \ [grappled](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Grappled),\
-  \ [paralyzed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
-  \ [petrified](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
-  \ [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
-  \ [prone](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Prone),\
-  \ [restrained](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Restrained)"
+"condition_immunities": "[exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
+  \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
+  \ [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled),\
+  \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
+  \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
+  \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
+  \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)"
 "senses": "darkvision 60 ft., passive Perception 10"
 "languages": ""
 "cr": "1/2"
 "traits":
-- "desc": "The reflection can move through a space as narrow as 1 inch wide without\
-    \ squeezing."
-  "name": "Amorphous"
-- "desc": "While in dim light or darkness, the reflection can take the Hide action\
-    \ as a bonus action. Its stealth bonus is also improved to +6."
-  "name": "Shadow Stealth"
-- "desc": "While in sunlight, the reflection has disadvantage on attack rolls, ability\
-    \ checks, and saving throws."
-  "name": "Sunlight Weakness"
+  - "desc": "The reflection can move through a space as narrow as 1 inch wide without\
+      \ squeezing."
+    "name": "Amorphous"
+  - "desc": "While in dim light or darkness, the reflection can take the Hide action\
+      \ as a bonus action. Its stealth bonus is also improved to +6."
+    "name": "Shadow Stealth"
+  - "desc": "While in sunlight, the reflection has disadvantage on attack rolls, ability\
+      \ checks, and saving throws."
+    "name": "Sunlight Weakness"
 "actions":
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 9\
-    \ (2d6 + 2) necrotic damage, and the target's Strength score is reduced by 1d4.\
-    \ The target dies if this reduces its Strength to 0. Otherwise, the reduction\
-    \ lasts until the target finishes a short or long rest.\n\nIf a non-evil humanoid\
-    \ dies from this attack, a new reflection rises from the corpse 1d4 hours later."
-  "name": "Strength Drain"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit:\
+      \ 9 (2d6 + 2) necrotic damage, and the target's Strength score is reduced\
+      \ by d4. The target dies if this reduces its Strength to 0. Otherwise, the\
+      \ reduction lasts until the target finishes a short or long rest.\n\nIf a non-evil\
+      \ humanoid dies from this attack, a new reflection rises from the corpse d4\
+      \ hours later."
+    "name": "Strength Drain"
 "source":
-- "TCE"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/fey/token/reflection-tce.webp"
+  - "TCE"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/token/reflection-tce.webp"
 ```
 ^statblock

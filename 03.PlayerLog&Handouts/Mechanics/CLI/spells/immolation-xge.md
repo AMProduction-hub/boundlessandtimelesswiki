@@ -12,7 +12,8 @@ classes:
 - Bard
 - Sorcerer
 - Wizard
-aliases: ["Immolation"]
+aliases:
+- Immolation
 ---
 # Immolation
 *5th-level, Evocation*  
@@ -27,6 +28,6 @@ Flames wreathe one creature you can see within range. The target must make a Dex
 
 If damage from this spell kills a target, the target is turned to ash.
 
-**Classes**: [Bard](list-spells-classes-bard.md); [Wizard](list-spells-classes-wizard.md); [Sorcerer](list-spells-classes-sorcerer.md)
+**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
-*Source: Xanathar's Guide to Everything p. 158*
+*Source: Xanathar's Guide to Everything p. 158, Elemental Evil Player's Companion p. 19*

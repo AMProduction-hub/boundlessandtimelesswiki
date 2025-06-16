@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
-aliases: ["Gith Tables; Githzerai Flaws"]
+aliases:
+- Gith Tables; Githzerai Flaws
 ---
 # Gith Tables; Githzerai Flaws
 *Source: Mordenkainen's Tome of Foes p. 97* 

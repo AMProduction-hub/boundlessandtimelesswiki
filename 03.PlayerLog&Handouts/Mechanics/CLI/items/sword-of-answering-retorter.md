@@ -12,13 +12,13 @@ aliases:
 - "Sword of Answering (Retorter)"
 ---
 # Sword of Answering (Retorter)
-*Weapon ([longsword](longsword.md)), major, legendary (requires attunement by a lawful good creature)*  
+*Weapon ([longsword](03.PlayerLog&Handouts/Mechanics/CLI/items/longsword.md)), major, legendary (requires attunement by a lawful good creature)*  
 
 
 - **Damage**:
   - One-handed: 1d8 slashing
   - Two-handed: 1d10 slashing
-- **Properties**: [Versatile](item-properties.md#Versatile)
+- **Properties**: [Versatile](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Versatile)
 - **Weight**: 3.0 lbs.
 
 In the world of Greyhawk, only nine of these blades are known to exist. Each is patterned after the legendary sword Fragarach, which is variously translated as "Final Word." Each of the nine swords has its own name and alignment, and each bears a different gem in its pommel.

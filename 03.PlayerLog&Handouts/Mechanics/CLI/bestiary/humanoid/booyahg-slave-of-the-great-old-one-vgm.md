@@ -7,9 +7,11 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/humanoid/any-race
 statblock: inline
-aliases: ["Booyahg Slave of the Great Old One"]
+statblock-link: "#^statblock"
+aliases:
+- Booyahg Slave of the Great Old One
 ---
-# [Booyahg Slave of the Great Old One](03 - Player Log & Handouts\Mechanics\CLI\bestiary\humanoid/booyahg-slave-of-the-great-old-one-vgm.md)
+# [Booyahg Slave of the Great Old One](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/booyahg-slave-of-the-great-old-one-vgm.md)
 *Source: Volo's Guide to Monsters p. 42*  
 
 This goblin warlock serves a patron who can extract payment in flesh if the goblin doesn't do as promised. Often this patron is a coven of hags serving as the tribe's boss, a fiend that has made its way into the world, or an undying lord such as a lich or a vampire. (For more information on undying lord patrons, see the "Sword Coast Adventurer's Guide").
@@ -29,71 +31,73 @@ A goblin with access to booyahg becomes a member of the lashers and can often ri
 "subtype": "any race"
 "alignment": "Any alignment"
 "ac": !!int "12"
-"ac_class": "15 with [mage armor](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/mage-armor.md)"
+"ac_class": "15 with [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md)"
 "hp": !!int "91"
 "hit_dice": "14d8 + 28"
+"modifier": !!int "2"
 "stats":
-- !!int "9"
-- !!int "14"
-- !!int "15"
-- !!int "12"
-- !!int "12"
-- !!int "18"
+  - !!int "9"
+  - !!int "14"
+  - !!int "15"
+  - !!int "12"
+  - !!int "12"
+  - !!int "18"
 "speed": "30 ft."
 "saves":
-  "Charisma": !!int "7"
-  "Wisdom": !!int "4"
+  - "wisdom": "+4"
+  - "charisma": "+7"
 "skillsaves":
-  "History": !!int "4"
-  "Arcana": !!int "4"
+  - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
+    "desc": "+4"
+  - "name": "[History](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#History)"
+    "desc": "+4"
 "damage_resistances": "psychic"
 "senses": "darkvision 60 ft., darkvision 60 ft., passive Perception 11"
 "languages": "any two languages, telepathy 30 ft., Goblin"
 "cr": "6"
 "traits":
-- "desc": "The goblin's innate spellcasting ability is Charisma. It can innately cast\
-    \ the following spells (spell save DC 15), requiring no material components:\n\
-    \nAt will: [detect magic](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/detect-magic.md),\
-    \ [jump](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/jump.md), [levitate](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/levitate.md),\
-    \ [mage armor](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/mage-armor.md)\
-    \ (self only), [speak with dead](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/speak-with-dead.md)\n\
-    \n1/day each: [arcane gate](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/arcane-gate.md),\
-    \ [true seeing](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/true-seeing.md)"
-  "name": "Innate Spellcasting"
-- "desc": "The goblin is a 14th-level spellcaster. Its spellcasting ability is Charisma\
-    \ (spell save DC 15, +7 to hit with spell attacks). It regains its expended\
-    \ spell slots when it finishes a short or long rest. It knows the following warlock\
-    \ spells:\n\nCantrips (at will): [chill touch](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/chill-touch.md),\
-    \ [eldritch blast](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/eldritch-blast.md),\
-    \ [guidance](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/guidance.md),\
-    \ [mage hand](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/mage-hand.md),\
-    \ [minor illusion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/minor-illusion.md),\
-    \ [prestidigitation](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/prestidigitation.md),\
-    \ [shocking grasp](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/shocking-grasp.md)\n\
-    \n1st-5th level (3 slots): [armor of Agathys](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/armor-of-agathys.md),\
-    \ [arms of Hadar](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/arms-of-hadar.md),\
-    \ [crown of madness](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/crown-of-madness.md),\
-    \ [clairvoyance](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/clairvoyance.md),\
-    \ [contact other plane](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/contact-other-plane.md),\
-    \ [detect thoughts](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
-    \ [dimension door](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/dimension-door.md),\
-    \ [dissonant whispers](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/dissonant-whispers.md),\
-    \ [dominate beast](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/dominate-beast.md),\
-    \ [telekinesis](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/telekinesis.md),\
-    \ [vampiric touch](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/vampiric-touch.md)"
-  "name": "Spellcasting"
-- "desc": "At the start of each of the goblin's turns, each creature of its choice\
-    \ within 5 feet of it must succeed on a DC 15 Wisdom saving throw or take 10 (3d6)\
-    \ psychic damage, provided that the goblin isn't [incapacitated](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)."
-  "name": "Whispering Aura"
-- "desc": "The goblin"
-  "name": "Nimble Escape"
+  - "desc": "The goblin is a 14th-level spellcaster. Its spellcasting ability is Charisma\
+      \ (spell save DC 15, +7 to hit with spell attacks). It regains its expended\
+      \ spell slots when it finishes a short or long rest. It knows the following\
+      \ warlock spells:\n\nCantrips (at will): [chill touch](03.PlayerLog&Handouts/Mechanics/CLI/spells/chill-touch.md),\
+      \ [eldritch blast](03.PlayerLog&Handouts/Mechanics/CLI/spells/eldritch-blast.md),\
+      \ [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md), [mage\
+      \ hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), [minor illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md),\
+      \ [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md),\
+      \ [shocking grasp](03.PlayerLog&Handouts/Mechanics/CLI/spells/shocking-grasp.md)\n\
+      \n1st-5th level (3 slots): [armor of Agathys](03.PlayerLog&Handouts/Mechanics/CLI/spells/armor-of-agathys.md),\
+      \ [arms of Hadar](03.PlayerLog&Handouts/Mechanics/CLI/spells/arms-of-hadar.md),\
+      \ [crown of madness](03.PlayerLog&Handouts/Mechanics/CLI/spells/crown-of-madness.md),\
+      \ [clairvoyance](03.PlayerLog&Handouts/Mechanics/CLI/spells/clairvoyance.md),\
+      \ [contact other plane](03.PlayerLog&Handouts/Mechanics/CLI/spells/contact-other-plane.md),\
+      \ [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
+      \ [dimension door](03.PlayerLog&Handouts/Mechanics/CLI/spells/dimension-door.md),\
+      \ [dissonant whispers](03.PlayerLog&Handouts/Mechanics/CLI/spells/dissonant-whispers.md),\
+      \ [dominate beast](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-beast.md),\
+      \ [telekinesis](03.PlayerLog&Handouts/Mechanics/CLI/spells/telekinesis.md),\
+      \ [vampiric touch](03.PlayerLog&Handouts/Mechanics/CLI/spells/vampiric-touch.md)"
+    "name": "Spellcasting"
+  - "desc": "The goblin's innate spellcasting ability is Charisma. It can innately\
+      \ cast the following spells (spell save DC 15), requiring no material components:\n\
+      \nAt will: [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      \ [jump](03.PlayerLog&Handouts/Mechanics/CLI/spells/jump.md), [levitate](03.PlayerLog&Handouts/Mechanics/CLI/spells/levitate.md),\
+      \ [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md) (self\
+      \ only), [speak with dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/speak-with-dead.md)\n\
+      \n1/day each: [arcane gate](03.PlayerLog&Handouts/Mechanics/CLI/spells/arcane-gate.md),\
+      \ [true seeing](03.PlayerLog&Handouts/Mechanics/CLI/spells/true-seeing.md)"
+    "name": "Innate Spellcasting"
+  - "desc": "At the start of each of the goblin's turns, each creature of its choice\
+      \ within 5 feet of it must succeed on a DC 15 Wisdom saving throw or take 10\
+      \ (3d6) psychic damage, provided that the goblin isn't [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)."
+    "name": "Whispering Aura"
+  - "desc": "The goblin"
+    "name": "Nimble Escape"
 "actions":
-- "desc": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60\
-    \ ft., one target. Hit: 4 (1d4 + 2) piercing damage."
-  "name": "Dagger"
+  - "desc": "Melee  or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. Hit: 4 (1d4 + 2) piercing damage."
+    "name": "Dagger"
 "source":
-- "VGM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/humanoid/token/booyahg-slave-of-the-great-old-one-vgm.webp"
+  - "VGM"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/booyahg-slave-of-the-great-old-one-vgm.webp"
 ```
 ^statblock

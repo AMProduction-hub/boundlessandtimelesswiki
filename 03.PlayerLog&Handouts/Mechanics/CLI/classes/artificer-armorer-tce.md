@@ -4,10 +4,11 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/subclass/artificer/armorer
-aliases: ["Armorer"]
+aliases:
+- Armorer
 ---
 # Armorer
-*[Artificer](artificer-tce.md): Artificer Specialist*  
+*[Artificer](./artificer-tce.md): Artificer Specialist*  
 *Source: Tasha's Cauldron of Everything p. 15*  
 
 > [!tldr] Class and Feature Progression
@@ -52,7 +53,7 @@ An artificer who specializes as an Armorer modifies armor to function almost lik
 
 *3rd-level Armorer feature*
 
-You gain proficiency with heavy armor. You also gain proficiency with [smith's tools](smiths-tools.md). If you already have this tool proficiency, you gain proficiency with one other type of [artisan's tools](artisans-tools.md) of your choice.
+You gain proficiency with heavy armor. You also gain proficiency with [smith's tools](03.PlayerLog&Handouts/Mechanics/CLI/items/smiths-tools.md). If you already have this tool proficiency, you gain proficiency with one other type of [artisan's tools](03.PlayerLog&Handouts/Mechanics/CLI/items/artisans-tools.md) of your choice.
 
 ### Armorer Spells (Level 3)
 
@@ -64,18 +65,18 @@ You always have certain spells prepared after you reach particular levels in thi
 
 | Artificer Level | Spell |
 |-----------------|-------|
-| 3rd | [magic missile](magic-missile.md), [thunderwave](thunderwave.md) |
-| 5th | [mirror image](mirror-image.md), [shatter](shatter.md) |
-| 9th | [hypnotic pattern](hypnotic-pattern.md), [lightning bolt](lightning-bolt.md) |
-| 13th | [fire shield](fire-shield.md), [greater invisibility](greater-invisibility.md) |
-| 17th | [passwall](passwall.md), [wall of force](wall-of-force.md) |
+| 3rd | [magic missile](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-missile.md), [thunderwave](03.PlayerLog&Handouts/Mechanics/CLI/spells/thunderwave.md) |
+| 5th | [mirror image](03.PlayerLog&Handouts/Mechanics/CLI/spells/mirror-image.md), [shatter](03.PlayerLog&Handouts/Mechanics/CLI/spells/shatter.md) |
+| 9th | [hypnotic pattern](03.PlayerLog&Handouts/Mechanics/CLI/spells/hypnotic-pattern.md), [lightning bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/lightning-bolt.md) |
+| 13th | [fire shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-shield.md), [greater invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-invisibility.md) |
+| 17th | [passwall](03.PlayerLog&Handouts/Mechanics/CLI/spells/passwall.md), [wall of force](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-force.md) |
 ^armorer-spells
 
 ### Arcane Armor (Level 3)
 
 *3rd-level Armorer feature*
 
-Your metallurgical pursuits have led to you making armor a conduit for your magic. As an action, you can turn a suit of armor you are wearing into Arcane Armor, provided you have [smith's tools](smiths-tools.md) in hand.
+Your metallurgical pursuits have led to you making armor a conduit for your magic. As an action, you can turn a suit of armor you are wearing into Arcane Armor, provided you have [smith's tools](03.PlayerLog&Handouts/Mechanics/CLI/items/smiths-tools.md) in hand.
 
 You gain the following benefits while wearing this armor:
 
@@ -92,7 +93,7 @@ You can customize your Arcane Armor. When you do so, choose one of the following
 
 Each model includes a special weapon. When you attack with that weapon, you can add your Intelligence modifier, instead of Strength or Dexterity, to the attack and damage rolls.
 
-You can change the armor's model whenever you finish a short or long rest, provided you have [smith's tools](smiths-tools.md) in hand.
+You can change the armor's model whenever you finish a short or long rest, provided you have [smith's tools](03.PlayerLog&Handouts/Mechanics/CLI/items/smiths-tools.md) in hand.
 
 #### Guardian
 
@@ -100,7 +101,7 @@ You design your armor to be in the front line of conflict. It has the following 
 
 - **Thunder Gauntlets**  
 
-    Each of the armor's gauntlets counts as a simple melee weapon while you aren't holding anything in it, and it deals `1d8` thunder damage on a hit. A creature hit by the gauntlet has disadvantage on attack rolls against targets other than you until the start of your next turn, as the armor magically emits a distracting pulse when the creature attacks someone else.  
+    Each of the armor's gauntlets counts as a simple melee weapon while you aren't holding anything in it, and it deals `d8` thunder damage on a hit. A creature hit by the gauntlet has disadvantage on attack rolls against targets other than you until the start of your next turn, as the armor magically emits a distracting pulse when the creature attacks someone else.  
 
 - **Defensive Field**  
 
@@ -112,7 +113,7 @@ You customize your armor for subtle undertakings. It has the following features:
 
 - **Lightning Launcher**  
 
-    A gemlike node appears on one of your armored fists or on the chest (your choice). It counts as a simple ranged weapon, with a normal range of 90 feet and a long range of 300 feet, and it deals `1d6` lightning damage on a hit. Once on each of your turns when you hit a creature with it, you can deal an extra `1d6` lightning damage to that target.  
+    A gemlike node appears on one of your armored fists or on the chest (your choice). It counts as a simple ranged weapon, with a normal range of 90 feet and a long range of 300 feet, and it deals `d6` lightning damage on a hit. Once on each of your turns when you hit a creature with it, you can deal an extra `d6` lightning damage to that target.  
 
 - **Powered Steps**  
 
@@ -126,7 +127,7 @@ You customize your armor for subtle undertakings. It has the following features:
 
 *5th-level Armorer feature*
 
-You can attack twice, rather than once, whenever you take the [Attack](actions.md#Attack) action on your turn.
+You can attack twice, rather than once, whenever you take the [Attack](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Attack) action on your turn.
 
 ### Armor Modifications (Level 9)
 
@@ -148,4 +149,4 @@ You can use this reaction a number of times equal to your proficiency bonus, and
 
 ### Infiltrator (Level 15)
 
-Any creature that takes lightning damage from your Lightning Launcher glimmers with magical light until the start of your next turn. The glimmering creature sheds dim light in a 5-foot radius, and it has disadvantage on attack rolls against you, as the light jolts it if it attacks you. In addition, the next attack roll against it has advantage, and if that attack hits, the target takes an extra `1d6` lightning damage.
+Any creature that takes lightning damage from your Lightning Launcher glimmers with magical light until the start of your next turn. The glimmering creature sheds dim light in a 5-foot radius, and it has disadvantage on attack rolls against you, as the light jolts it if it attacks you. In addition, the next attack roll against it has advantage, and if that attack hits, the target takes an extra `d6` lightning damage.

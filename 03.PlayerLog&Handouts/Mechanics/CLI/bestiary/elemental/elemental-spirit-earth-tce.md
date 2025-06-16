@@ -7,9 +7,11 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/elemental
 statblock: inline
-aliases: ["Elemental Spirit (Earth)"]
+statblock-link: "#^statblock"
+aliases:
+- Elemental Spirit (Earth)
 ---
-# [Elemental Spirit (Earth)](03 - Player Log & Handouts\Mechanics\CLI\bestiary\elemental/elemental-spirit-earth-tce.md)
+# [Elemental Spirit (Earth)](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\elemental/elemental-spirit-earth-tce.md)
 *Source: Tasha's Cauldron of Everything p. 111*  
 
 ```statblock
@@ -18,31 +20,32 @@ aliases: ["Elemental Spirit (Earth)"]
 "type": "elemental"
 "alignment": "Unaligned"
 "ac_class": "11 + the level of the spell (natural armor)"
+"modifier": !!int "2"
 "stats":
-- !!int "18"
-- !!int "15"
-- !!int "17"
-- !!int "4"
-- !!int "10"
-- !!int "16"
+  - !!int "18"
+  - !!int "15"
+  - !!int "17"
+  - !!int "4"
+  - !!int "10"
+  - !!int "16"
 "speed": "40 ft., burrow 40 ft."
 "damage_resistances": "piercing, slashing"
 "damage_immunities": "poison"
-"condition_immunities": "[exhaustion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
-  \ [paralyzed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
-  \ [petrified](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
-  \ [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
-  \ [unconscious](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)"
+"condition_immunities": "[exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
+  \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
+  \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
+  \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
+  \ [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)"
 "senses": "darkvision 60 ft., passive Perception 10"
 "languages": "Primordial, understands the languages you speak"
 "actions":
-- "desc": "The elemental makes a number of attacks equal to half this spell's level\
-    \ (rounded down)."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: YourSpellAttack to hit, reach 5 ft., one target.\
-    \ Hit: 1d10 + 4 + the spell's level bludgeoning damage."
-  "name": "Slam"
+  - "desc": "The elemental makes a number of attacks equal to half this spell's level\
+      \ (rounded down)."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft.,\
+      \ one target. Hit: 1d10 + 4 + the spell's level bludgeoning damage."
+    "name": "Slam"
 "source":
-- "TCE"
+  - "TCE"
 ```
 ^statblock

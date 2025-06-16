@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/tce
-aliases: ["Party Formation; Party Origin"]
+aliases:
+- Party Formation; Party Origin
 ---
 # Party Formation; Party Origin
 *Source: Tasha's Cauldron of Everything p. 139* 

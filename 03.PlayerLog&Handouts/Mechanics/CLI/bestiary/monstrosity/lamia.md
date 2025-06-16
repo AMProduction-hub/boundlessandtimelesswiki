@@ -8,12 +8,14 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/monstrosity
 statblock: inline
-aliases: ["Lamia"]
+statblock-link: "#^statblock"
+aliases:
+- Lamia
 ---
-# [Lamia](03 - Player Log & Handouts\Mechanics\CLI\bestiary\monstrosity/lamia.md)
-*Source: Monster Manual p. 201. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Lamia](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/lamia.md)
+*Source: Monster Manual p. 201, Ghosts of Saltmarsh, Mythic Odysseys of Theros, Candlekeep Mysteries. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
-Ruined desert cities and the tombs of forgotten monarchs make perfect lairs for the wicked lamias. These decadent monsters take what has been forgotten and make it the seat of their hedonistic rule, surrounding themselves with sycophants. Lamias rely on [jackalweres](jackalwere.md) to perform various tasks, sending them across the wastes to capture slaves or steal treasures from caravans, encampments, or villages, concealed by the lamia's magic as they attack.
+Ruined desert cities and the tombs of forgotten monarchs make perfect lairs for the wicked lamias. These decadent monsters take what has been forgotten and make it the seat of their hedonistic rule, surrounding themselves with sycophants. Lamias rely on [jackalweres](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/jackalwere.md) to perform various tasks, sending them across the wastes to capture slaves or steal treasures from caravans, encampments, or villages, concealed by the lamia's magic as they attack.
 
 A lamia has a beautiful humanoid upper body that merges into a powerful four-legged leonine form. Its vicious black claws speak to its predatory nature, as does its hunger for torture and humanoid flesh.
 
@@ -21,11 +23,11 @@ A lamia has a beautiful humanoid upper body that merges into a powerful four-leg
 
 Lamias adorn their crumbling havens with finery stolen from passing caravans, then use magic to further accentuate their lairs, masking decay with illusion. A lair's breathtaking gardens, finely decorated apartments, and numerous slaves seem at odds with its remoteness and state of ruin.
 
-Using its intoxicating touch, a lamia weakens the minds of its enemies, making them more susceptible to its enchantment spells and turning them into its slaves. Those it beguiles with [geas](geas.md) spells are pitted against each other in elaborate contests for the lamia's amusement.
+Using its intoxicating touch, a lamia weakens the minds of its enemies, making them more susceptible to its enchantment spells and turning them into its slaves. Those it beguiles with [geas](03.PlayerLog&Handouts/Mechanics/CLI/spells/geas.md) spells are pitted against each other in elaborate contests for the lamia's amusement.
 
 ## Vain Predators
 
-Always anxious to gain more wealth and slaves, a lamia uses a pool of water or a mirror in conjunction with a [scrying](scrying.md) spell to view its domain. A lamia uses this power to watch over trade routes and nearby settlements, or to seek out objects and creatures it fancies.
+Always anxious to gain more wealth and slaves, a lamia uses a pool of water or a mirror in conjunction with a [scrying](03.PlayerLog&Handouts/Mechanics/CLI/spells/scrying.md) spell to view its domain. A lamia uses this power to watch over trade routes and nearby settlements, or to seek out objects and creatures it fancies.
 
 Lamias are particularly fond of seeking out adventurers with pure hearts to seduce and corrupt to evil, savoring the destruction of their virtue. They use their magic to lure potential victims to their lairs, relying on illusion and their thralls to capture hapless foes. Lamias prize beauty and strength above all else, however. Any prisoner that falls short of their esteem becomes the main course in a horrible feast, or is set free to die while wandering the wastes.
 
@@ -44,49 +46,55 @@ The demon lord Graz'zt creates lamias from his mortal servants, granting them im
 "ac_class": "natural armor"
 "hp": !!int "97"
 "hit_dice": "13d10 + 26"
+"modifier": !!int "1"
 "stats":
-- !!int "16"
-- !!int "13"
-- !!int "15"
-- !!int "14"
-- !!int "15"
-- !!int "16"
+  - !!int "16"
+  - !!int "13"
+  - !!int "15"
+  - !!int "14"
+  - !!int "15"
+  - !!int "16"
 "speed": "30 ft."
 "skillsaves":
-  "Deception": !!int "7"
-  "Stealth": !!int "3"
-  "Insight": !!int "4"
+  - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
+    "desc": "+7"
+  - "name": "[Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight)"
+    "desc": "+4"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+3"
 "senses": "darkvision 60 ft., passive Perception 12"
 "languages": "Abyssal, Common"
 "cr": "4"
 "traits":
-- "desc": "The lamia's innate spellcasting ability is Charisma (spell save DC 13).\
-    \ It can innately cast the following spells, requiring no material components.\n\
-    \nAt will: [disguise self](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/disguise-self.md)\
-    \ (any humanoid form), [major image](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/major-image.md)\n\
-    \n1/day: [geas](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/geas.md)\n\
-    \n3/day each: [charm person](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/charm-person.md),\
-    \ [mirror image](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/mirror-image.md),\
-    \ [scrying](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/scrying.md),\
-    \ [suggestion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/suggestion.md)"
-  "name": "Innate Spellcasting"
+  - "desc": "The lamia's innate spellcasting ability is Charisma (spell save DC 13).\
+      \ It can innately cast the following spells, requiring no material components.\n\
+      \nAt will: [disguise self](03.PlayerLog&Handouts/Mechanics/CLI/spells/disguise-self.md)\
+      \ (any humanoid form), [major image](03.PlayerLog&Handouts/Mechanics/CLI/spells/major-image.md)\n\
+      \n3/day each: [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
+      \ [mirror image](03.PlayerLog&Handouts/Mechanics/CLI/spells/mirror-image.md),\
+      \ [scrying](03.PlayerLog&Handouts/Mechanics/CLI/spells/scrying.md), [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md)\n\
+      \n1/day: [geas](03.PlayerLog&Handouts/Mechanics/CLI/spells/geas.md)"
+    "name": "Innate Spellcasting"
 "actions":
-- "desc": "The lamia makes two attacks: one with its claws and one with its dagger\
-    \ or Intoxicating Touch."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 14\
-    \ (2d10 + 3) slashing damage."
-  "name": "Claws"
-- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4\
-    \ + 3) piercing damage."
-  "name": "Dagger"
-- "desc": "Melee Spell Attack: +5 to hit, reach 5 ft., one creature. Hit: The\
-    \ target is magically cursed for 1 hour. Until the curse ends, the target has\
-    \ disadvantage on Wisdom saving throws and all ability checks."
-  "name": "Intoxicating Touch"
+  - "desc": "The lamia makes two attacks: one with its claws and one with its dagger\
+      \ or Intoxicating Touch."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 14\
+      \ (2d10 + 3) slashing damage."
+    "name": "Claws"
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5\
+      \ (1d4 + 3) piercing damage."
+    "name": "Dagger"
+  - "desc": "Melee Spell Attack: +5 to hit, reach 5 ft., one creature. Hit:\
+      \ The target is magically cursed for 1 hour. Until the curse ends, the target\
+      \ has disadvantage on Wisdom saving throws and all ability checks."
+    "name": "Intoxicating Touch"
 "source":
-- "MM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/monstrosity/token/lamia.webp"
+  - "MM"
+  - "GoS"
+  - "MOT"
+  - "CM"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/token/lamia.webp"
 ```
 ^statblock
 

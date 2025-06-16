@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
-aliases: ["Downtime Activity: Selling Magic Items"]
+aliases:
+- Downtime Activity: Selling Magic Items
 ---
 # Downtime Activity: Selling Magic Items
 *Source: Dungeon Master's Guide p. 129* 
@@ -24,10 +25,10 @@ You determine a buyer's identity. Buyers sometimes procure rare and very rare it
 
 | Rarity | Base Price | Days to Find Buyer | d100 Roll Modifier* |
 |--------|------------|--------------------|---------------------|
-| Common | 100 gp | `1d4` | +10 |
-| Uncommon | 500 gp | `1d6` | +0 |
-| Rare | 5,000 gp | `1d8` | -10 |
-| Very rare | 50,000 gp | `1d10` | -20 |
+| Common | 100 gp | `d4` | +10 |
+| Uncommon | 500 gp | `d6` | +0 |
+| Rare | 5,000 gp | `d8` | -10 |
+| Very rare | 50,000 gp | `d10` | -20 |
 ^salable-magic-items
 
 *Apply this modifier to rolls on the Selling a Magic Item table.

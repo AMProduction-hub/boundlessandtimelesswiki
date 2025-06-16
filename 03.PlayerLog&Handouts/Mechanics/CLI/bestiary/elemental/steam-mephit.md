@@ -8,10 +8,12 @@ tags:
 - ttrpg-cli/monster/size/small
 - ttrpg-cli/monster/type/elemental
 statblock: inline
-aliases: ["Steam Mephit"]
+statblock-link: "#^statblock"
+aliases:
+- Steam Mephit
 ---
-# [Steam Mephit](03 - Player Log & Handouts\Mechanics\CLI\bestiary\elemental/steam-mephit.md)
-*Source: Monster Manual p. 217. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Steam Mephit](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\elemental/steam-mephit.md)
+*Source: Monster Manual p. 217, Princes of the Apocalypse, Storm King's Thunder, Tales from the Yawning Portal, Tomb of Annihilation, Explorer's Guide to Wildemount. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 ## Mephits
 
@@ -35,39 +37,44 @@ Composed of fire and water, steam mephits leave trails of hot water wherever the
 "ac": !!int "10"
 "hp": !!int "21"
 "hit_dice": "6d6"
+"modifier": !!int "0"
 "stats":
-- !!int "5"
-- !!int "11"
-- !!int "10"
-- !!int "11"
-- !!int "10"
-- !!int "12"
+  - !!int "5"
+  - !!int "11"
+  - !!int "10"
+  - !!int "11"
+  - !!int "10"
+  - !!int "12"
 "speed": "30 ft., fly 30 ft."
 "damage_immunities": "fire, poison"
-"condition_immunities": "[poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "darkvision 60 ft., passive Perception 10"
 "languages": "Aquan, Ignan"
 "cr": "1/4"
 "traits":
-- "desc": "The mephit can innately cast [blur](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/blur.md),\
-    \ requiring no material components. Its innate spellcasting ability is Charisma.\n\
-    \nAt will: [blur](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/blur.md)"
-  "name": "Innate Spellcasting (1/Day)"
-- "desc": "When the mephit dies, it explodes in a cloud of steam. Each creature within\
-    \ 5 feet of the mephit must succeed on a DC 10 Dexterity saving throw or take\
-    \ 4 (1d8) fire damage."
-  "name": "Death Burst"
+  - "desc": "The mephit can innately cast [blur](03.PlayerLog&Handouts/Mechanics/CLI/spells/blur.md),\
+      \ requiring no material components. Its innate spellcasting ability is Charisma.\n"
+    "name": "Innate Spellcasting (1/Day)"
+  - "desc": "When the mephit dies, it explodes in a cloud of steam. Each creature\
+      \ within 5 feet of the mephit must succeed on a DC 10 Dexterity saving throw\
+      \ or take 4 (d8) fire damage."
+    "name": "Death Burst"
 "actions":
-- "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one creature. Hit: 2\
-    \ (1d4) slashing damage plus 2 (1d4) fire damage."
-  "name": "Claws"
-- "desc": "The mephit exhales a 15-foot cone of scalding steam. Each creature in that\
-    \ area must succeed on a DC 10 Dexterity saving throw, taking 4 (1d8) fire damage\
-    \ on a failed save, or half as much damage on a successful one."
-  "name": "Steam Breath (Recharge 6)"
+  - "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one creature. Hit:\
+      \ 2 (d4) slashing damage plus 2 (d4) fire damage."
+    "name": "Claws"
+  - "desc": "The mephit exhales a 15-foot cone of scalding steam. Each creature in\
+      \ that area must succeed on a DC 10 Dexterity saving throw, taking 4 (d8)\
+      \ fire damage on a failed save, or half as much damage on a successful one."
+    "name": "Steam Breath (Recharge 6)"
 "source":
-- "MM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/elemental/token/steam-mephit.webp"
+  - "MM"
+  - "PotA"
+  - "SKT"
+  - "TftYP"
+  - "ToA"
+  - "EGW"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/token/steam-mephit.webp"
 ```
 ^statblock
 

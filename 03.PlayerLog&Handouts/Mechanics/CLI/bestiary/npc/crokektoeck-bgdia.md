@@ -7,9 +7,11 @@ tags:
 - ttrpg-cli/monster/size/gargantuan
 - ttrpg-cli/monster/type/fiend/demon
 statblock: inline
-aliases: ["Crokek'toeck"]
+statblock-link: "#^statblock"
+aliases:
+- Crokek'toeck
 ---
-# [Crokek'toeck](03 - Player Log & Handouts\Mechanics\CLI\bestiary\npc/crokektoeck-bgdia.md)
+# [Crokek'toeck](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/crokektoeck-bgdia.md)
 *Source: Baldur's Gate: Descent Into Avernus p. 231*  
 
 Crokek'toeck is Yeenoghu's demonic pet. Resembling a giant mudskipper with the teeth, fur, ears, and laugh of a hyena, this unique demon can hold smaller demons in its gullet and disgorge them anywhere Yeenoghu wishes. Immune to the mind-shattering effects of the River Styx, Crokek'toeck is often used to transport smaller demons (and sometimes Yeenoghu himself) through the Styx's terrible waters.
@@ -24,54 +26,55 @@ Crokek'toeck is Yeenoghu's demonic pet. Resembling a giant mudskipper with the t
 "ac_class": "natural armor"
 "hp": !!int "297"
 "hit_dice": "17d20 + 119"
+"modifier": !!int "0"
 "stats":
-- !!int "28"
-- !!int "10"
-- !!int "24"
-- !!int "6"
-- !!int "10"
-- !!int "13"
+  - !!int "28"
+  - !!int "10"
+  - !!int "24"
+  - !!int "6"
+  - !!int "10"
+  - !!int "13"
 "speed": "60 ft., swim 60 ft."
 "saves":
-  "Wisdom": !!int "5"
-  "Constitution": !!int "12"
+  - "constitution": "+12"
+  - "wisdom": "+5"
 "damage_resistances": "cold; fire; lightning; bludgeoning, piercing, slashing from\
   \ nonmagical attacks"
 "damage_immunities": "poison"
-"condition_immunities": "[charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
-  \ [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
-  \ [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
+  \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
+  \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "darkvision 120 ft., passive Perception 10"
 "languages": "understands Abyssal but can't speak"
 "cr": "14"
 "traits":
-- "desc": "Crokek'toeck can breathe air and water."
-  "name": "Amphibious"
-- "desc": "Crokek'toeck has advantage on saving throws against spells and other magical\
-    \ effects."
-  "name": "Magic Resistance"
-- "desc": "Crokek'toeck's weapon attacks are magical."
-  "name": "Magic Weapons"
-- "desc": "Crokek'toeck is immune to the waters of the River Styx as well as any effect\
-    \ that would steal or modify its memories or detect or read its thoughts."
-  "name": "Secure Memory"
-- "desc": "Crokek'toeck's long jump is up to 60 feet and its high jump is up to 30\
-    \ feet, with or without a running start."
-  "name": "Standing Leap"
+  - "desc": "Crokek'toeck can breathe air and water."
+    "name": "Amphibious"
+  - "desc": "Crokek'toeck has advantage on saving throws against spells and other\
+      \ magical effects."
+    "name": "Magic Resistance"
+  - "desc": "Crokek'toeck's weapon attacks are magical."
+    "name": "Magic Weapons"
+  - "desc": "Crokek'toeck is immune to the waters of the River Styx as well as any\
+      \ effect that would steal or modify its memories or detect or read its thoughts."
+    "name": "Secure Memory"
+  - "desc": "Crokek'toeck's long jump is up to 60 feet and its high jump is up to\
+      \ 30 feet, with or without a running start."
+    "name": "Standing Leap"
 "actions":
-- "desc": "Melee Weapon Attack: +14 to hit, reach 15 ft., one target. Hit: 44\
-    \ (10d6 + 9) piercing damage."
-  "name": "Bite"
-- "desc": "Crokek'toeck opens its mouth and disgorges 1d4 [barlguras](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/fiend/barlgura.md),\
-    \ 3d6 [gnolls](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/humanoid/gnoll.md)\
-    \ led by 1 [gnoll fang of Yeenoghu](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/fiend/gnoll-fang-of-yeenoghu.md),\
-    \ 6d6 [dretches](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/fiend/dretch.md),\
-    \ or 1d3 [vrocks](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/fiend/vrock.md).\
-    \ Each creature it disgorges appears in an unoccupied space within 30 feet of\
-    \ Crokek'toeck's mouth, or the next closest unoccupied space."
-  "name": "Disgorge Allies (Recharge 6)"
+  - "desc": "Melee Weapon Attack: +14 to hit, reach 15 ft., one target. Hit:\
+      \ 44 (10d6 + 9) piercing damage."
+    "name": "Bite"
+  - "desc": "Crokek'toeck opens its mouth and disgorges d4 [barlguras](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/barlgura.md),\
+      \ 3d6 [gnolls](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/gnoll.md)\
+      \ led by 1 [gnoll fang of Yeenoghu](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/gnoll-fang-of-yeenoghu.md),\
+      \ 6d6 [dretches](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/dretch.md),\
+      \ or d3 [vrocks](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/vrock.md).\
+      \ Each creature it disgorges appears in an unoccupied space within 30 feet of\
+      \ Crokek'toeck's mouth, or the next closest unoccupied space."
+    "name": "Disgorge Allies (Recharge 6)"
 "source":
-- "BGDIA"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/npc/token/crokektoeck-bgdia.webp"
+  - "BGDIA"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/token/crokektoeck-bgdia.webp"
 ```
 ^statblock

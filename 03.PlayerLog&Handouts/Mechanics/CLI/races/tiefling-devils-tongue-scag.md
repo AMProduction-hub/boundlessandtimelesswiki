@@ -4,11 +4,12 @@ cssclasses: json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/scag
 - ttrpg-cli/race/tiefling/devils-tongue
-aliases: ["Tiefling (Devil's Tongue)"]
+aliases:
+- Tiefling (Devil's Tongue)
 ---
 # Tiefling (Devil's Tongue)
 *Source: Sword Coast Adventurer's Guide p. 118*  
-![](feral-tiefling.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/races/img/feral-tiefling.webp#right)
 
 - **Ability Scores**: Intelligence +1; Apply +1 to one of Dexterity or Charisma.
 - **Size**: Medium
@@ -35,7 +36,7 @@ You have resistance to fire damage.
 
 ### Devil's Tongue
 
-You know the [vicious mockery](vicious-mockery.md) cantrip. When you reach 3rd level, you can cast the [charm person](charm-person.md) spell as a 2nd-level spell once with this trait. When you reach 5th level, you can cast the [enthrall](enthrall.md) spell once with this trait. You must finish a long rest to cast these spells once again with this trait. Charisma is your spellcasting ability for them. This trait replaces the Infernal Legacy trait.
+You know the [vicious mockery](03.PlayerLog&Handouts/Mechanics/CLI/spells/vicious-mockery.md) cantrip. When you reach 3rd level, you can cast the [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md) spell as a 2nd-level spell once with this trait. When you reach 5th level, you can cast the [enthrall](03.PlayerLog&Handouts/Mechanics/CLI/spells/enthrall.md) spell once with this trait. You must finish a long rest to cast these spells once again with this trait. Charisma is your spellcasting ability for them. This trait replaces the Infernal Legacy trait.
 
 ### Languages
 
@@ -73,4 +74,4 @@ Tiefling names fall into three broad categories. Tieflings born into another cul
 ^mutual-mistrust
 
 
-![](tiefling.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/races/img/tiefling.webp#center)

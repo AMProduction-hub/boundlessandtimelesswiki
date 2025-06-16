@@ -7,10 +7,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/fiend/yugoloth
 statblock: inline
-aliases: ["Ultroloth"]
+statblock-link: "#^statblock"
+aliases:
+- Ultroloth
 ---
-# [Ultroloth](03 - Player Log & Handouts\Mechanics\CLI\bestiary\fiend/ultroloth.md)
-*Source: Monster Manual p. 314, Baldur's Gate: Descent Into Avernus*  
+# [Ultroloth](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/ultroloth.md)
+*Source: Monster Manual p. 314, Waterdeep: Dungeon of the Mad Mage, Baldur's Gate: Descent Into Avernus, Explorer's Guide to Wildemount, Journeys through the Radiant Citadel*  
 
 Ultroloths command the yugoloth armies of the Blood War. An ultroloth looks like a slender gray-skinned humanoid with an elongated head. Its face bears no features except for two ovoid eyes. These eyes can become sparkling pools of light that can transfix other creatures and leave them reeling and helpless.
 
@@ -58,8 +60,8 @@ Whatever the case, no fiend finds the General unless the General desires it. His
 > 
 > - An arcanaloth has a 40 percent chance of summoning one arcanaloth.  
 > - A mezzoloth has a 30 percent chance of summoning one mezzoloth.  
-> - A nycaloth has a 50 percent chance of summoning `1d4` mezzoloths or one nycaloth.  
-> - An ultroloth has a 50 percent chance of summoning `1d6` mezzoloths, `1d4` nycaloths, or one ultroloth.  
+> - A nycaloth has a 50 percent chance of summoning `d4` mezzoloths or one nycaloth.  
+> - An ultroloth has a 50 percent chance of summoning `d6` mezzoloths, `d4` nycaloths, or one ultroloth.  
 > 
 > A summoned yugoloth appears in an unoccupied space within 60 feet of its summoner, does as it pleases (unless its summoner is an ultroloth, in which case it acts as an ally of its summoner), and can't summon other yugoloths. The summoned yugoloth remains for l minute, until it or its summoner dies, or until its summoner takes a bonus action to dismiss it
 ^variant-yugoloth-summoning
@@ -79,69 +81,77 @@ Whatever the case, no fiend finds the General unless the General desires it. His
 "ac_class": "natural armor"
 "hp": !!int "153"
 "hit_dice": "18d8 + 72"
+"modifier": !!int "3"
 "stats":
-- !!int "16"
-- !!int "16"
-- !!int "18"
-- !!int "18"
-- !!int "15"
-- !!int "19"
+  - !!int "16"
+  - !!int "16"
+  - !!int "18"
+  - !!int "18"
+  - !!int "15"
+  - !!int "19"
 "speed": "30 ft., fly 60 ft."
 "skillsaves":
-  "Intimidation": !!int "9"
-  "Stealth": !!int "8"
-  "Perception": !!int "7"
+  - "name": "[Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation)"
+    "desc": "+9"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+7"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+8"
 "damage_resistances": "cold; fire; lightning; bludgeoning, piercing, slashing from\
   \ nonmagical attacks"
 "damage_immunities": "acid, poison"
-"condition_immunities": "[charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
-  \ [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
-  \ [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
+  \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
+  \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "truesight 120 ft., passive Perception 17"
 "languages": "Abyssal, Infernal, telepathy 120 ft."
 "cr": "13"
 "traits":
-- "desc": "The ultroloth's innate spellcasting ability is Charisma (spell save DC\
-    \ 17). The ultroloth can innately cast the following spells, requiring no material\
-    \ components:\n\nAt will: [alter self](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/alter-self.md),\
-    \ [clairvoyance](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/clairvoyance.md),\
-    \ [darkness](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/darkness.md),\
-    \ [detect magic](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/detect-magic.md),\
-    \ [detect thoughts](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
-    \ [dispel magic](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/dispel-magic.md),\
-    \ [invisibility](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/invisibility.md)\
-    \ (self only), [suggestion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/suggestion.md)\n\
-    \n1/day each: [fire storm](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/fire-storm.md),\
-    \ [mass suggestion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/mass-suggestion.md)\n\
-    \n3/day each: [dimension door](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/dimension-door.md),\
-    \ [fear](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/fear.md), [wall\
-    \ of fire](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/wall-of-fire.md)"
-  "name": "Innate Spellcasting"
-- "desc": "The ultroloth has advantage on saving throws against spells and other magical\
-    \ effects."
-  "name": "Magic Resistance"
-- "desc": "The ultroloth's weapon attacks are magical."
-  "name": "Magic Weapons"
+  - "desc": "The ultroloth's innate spellcasting ability is Charisma (spell save DC\
+      \ 17). The ultroloth can innately cast the following spells, requiring no material\
+      \ components:\n\nAt will: [alter self](03.PlayerLog&Handouts/Mechanics/CLI/spells/alter-self.md),\
+      \ [clairvoyance](03.PlayerLog&Handouts/Mechanics/CLI/spells/clairvoyance.md),\
+      \ [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md), [detect\
+      \ magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md), [detect\
+      \ thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
+      \ [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
+      \ [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md)\
+      \ (self only), [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md)\n\
+      \n3/day each: [dimension door](03.PlayerLog&Handouts/Mechanics/CLI/spells/dimension-door.md),\
+      \ [fear](03.PlayerLog&Handouts/Mechanics/CLI/spells/fear.md), [wall of fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-fire.md)\n\
+      \n1/day each: [fire storm](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-storm.md),\
+      \ [mass suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/mass-suggestion.md)"
+    "name": "Innate Spellcasting"
+  - "desc": "The ultroloth has advantage on saving throws against spells and other\
+      \ magical effects."
+    "name": "Magic Resistance"
+  - "desc": "The ultroloth's weapon attacks are magical."
+    "name": "Magic Weapons"
 "actions":
-- "desc": "The ultroloth can use its Hypnotic Gaze and makes three melee attacks."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 7 (1d8\
-    \ + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands."
-  "name": "Longsword"
-- "desc": "The ultroloth's eyes sparkle with opalescent light as it targets one creature\
-    \ it can see within 30 feet of it. If the target can see the ultroloth, the target\
-    \ must succeed on a DC 17 Wisdom saving throw against this magic or be [charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
-    \ until the end of the ultroloth's next turn. The [charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
-    \ target is [stunned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Stunned).\
-    \ If the target's saving throw is successful, the target is immune to the ultroloth's\
-    \ gaze for the next 24 hours."
-  "name": "Hypnotic Gaze"
-- "desc": "The ultroloth magically teleports, along with any equipment it is wearing\
-    \ or carrying, up to 60 feet to an unoccupied space it can see."
-  "name": "Teleport"
+  - "desc": "The ultroloth can use its Hypnotic Gaze and makes three melee attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 7\
+      \ (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with\
+      \ two hands."
+    "name": "Longsword"
+  - "desc": "The ultroloth's eyes sparkle with opalescent light as it targets one\
+      \ creature it can see within 30 feet of it. If the target can see the ultroloth,\
+      \ the target must succeed on a DC 17 Wisdom saving throw against this magic\
+      \ or be [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
+      \ until the end of the ultroloth's next turn. The [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
+      \ target is [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned).\
+      \ If the target's saving throw is successful, the target is immune to the ultroloth's\
+      \ gaze for the next 24 hours."
+    "name": "Hypnotic Gaze"
+  - "desc": "The ultroloth magically teleports, along with any equipment it is wearing\
+      \ or carrying, up to 60 feet to an unoccupied space it can see."
+    "name": "Teleport"
 "source":
-- "MM"
-- "BGDIA"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/fiend/token/ultroloth.webp"
+  - "MM"
+  - "WDMM"
+  - "BGDIA"
+  - "EGW"
+  - "JttRC"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/token/ultroloth.webp"
 ```
 ^statblock

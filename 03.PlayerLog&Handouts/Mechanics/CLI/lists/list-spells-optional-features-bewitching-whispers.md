@@ -3,10 +3,11 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/spell/list/optfeature/bewitching-whispers
-aliases: ["Spells for Bewitching Whispers"]
+aliases:
+- Spells for Bewitching Whispers
 ---
 # Spells for Bewitching Whispers
 
 ## 4th Level
 
-- [Compulsion](compulsion.md "PHB")
+- [Compulsion](03.PlayerLog&Handouts/Mechanics/CLI/spells/compulsion.md "PHB")

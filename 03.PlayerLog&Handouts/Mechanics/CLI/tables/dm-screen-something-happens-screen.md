@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/screen
-aliases: ["DM Screen; Something happens!"]
+aliases:
+- DM Screen; Something happens!
 ---
 # DM Screen; Something happens!
 *Source: Dungeon Master's Screen* 

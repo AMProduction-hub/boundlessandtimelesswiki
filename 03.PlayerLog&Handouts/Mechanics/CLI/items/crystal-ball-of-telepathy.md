@@ -15,8 +15,8 @@ aliases:
 
 - **Weight**: 3.0 lbs.
 
-This [crystal ball](crystal-ball.md) is about 6 inches in diameter. While touching it, you can cast the [scrying](scrying.md) spell (save DC 17) with it.
+This [crystal ball](03.PlayerLog&Handouts/Mechanics/CLI/items/crystal-ball.md) is about 6 inches in diameter. While touching it, you can cast the [scrying](03.PlayerLog&Handouts/Mechanics/CLI/spells/scrying.md) spell (save DC 17) with it.
 
-While [scrying](scrying.md) with the [crystal ball](crystal-ball.md), you can communicate telepathically with creatures you can see within 30 feet of the spell's sensor. You can also use an action to cast the [suggestion](suggestion.md) spell (save DC 17) through the sensor on one of those creatures. You don't need to concentrate on this suggestion to maintain it during its duration, but it ends if [scrying](scrying.md) ends. Once used, the suggestion power of the [crystal ball](crystal-ball.md) can't be used again until the next dawn.
+While [scrying](03.PlayerLog&Handouts/Mechanics/CLI/spells/scrying.md) with the [crystal ball](03.PlayerLog&Handouts/Mechanics/CLI/items/crystal-ball.md), you can communicate telepathically with creatures you can see within 30 feet of the spell's sensor. You can also use an action to cast the [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md) spell (save DC 17) through the sensor on one of those creatures. You don't need to concentrate on this suggestion to maintain it during its duration, but it ends if [scrying](03.PlayerLog&Handouts/Mechanics/CLI/spells/scrying.md) ends. Once used, the suggestion power of the [crystal ball](03.PlayerLog&Handouts/Mechanics/CLI/items/crystal-ball.md) can't be used again until the next dawn.
 
 *Source: Dungeon Master's Guide p. 159*

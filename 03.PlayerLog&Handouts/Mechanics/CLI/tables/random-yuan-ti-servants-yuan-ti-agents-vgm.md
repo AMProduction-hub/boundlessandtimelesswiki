@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
-aliases: ["Random Yuan-ti Servants; Yuan-ti Agents"]
+aliases:
+- Random Yuan-ti Servants; Yuan-ti Agents
 ---
 # Random Yuan-ti Servants; Yuan-ti Agents
 *Source: Volo's Guide to Monsters p. 102* 
@@ -14,12 +15,12 @@ aliases: ["Random Yuan-ti Servants; Yuan-ti Agents"]
 
 | dice: d100 | Agents |
 |------------|--------|
-| 1-20 | [Cultists](cultist.md) |
-| 21-30 | [Cult Fanatics](cult-fanatic.md) |
-| 31-34 | [Doppelgangers](doppelganger.md) |
-| 35-50 | [Guards](guard.md) |
+| 1-20 | [Cultists](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/cultist.md) |
+| 21-30 | [Cult Fanatics](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/cult-fanatic.md) |
+| 31-34 | [Doppelgangers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/doppelganger.md) |
+| 35-50 | [Guards](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/guard.md) |
 | 51-60 | [Nobles](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/noble.md) |
-| 61-72 | [Priests](priest.md) |
-| 73-86 | [Scouts](scout.md) |
-| 87-100 | [Spies](spy.md) |
+| 61-72 | [Priests](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/priest.md) |
+| 73-86 | [Scouts](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/scout.md) |
+| 87-100 | [Spies](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/spy.md) |
 ^yuan-ti-agents

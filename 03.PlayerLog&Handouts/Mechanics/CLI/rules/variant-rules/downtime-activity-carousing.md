@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
-aliases: ["Downtime Activity: Carousing"]
+aliases:
+- Downtime Activity: Carousing
 ---
 # Downtime Activity: Carousing
 *Source: Dungeon Master's Guide p. 128* 
@@ -16,7 +17,7 @@ A carousing character spends money as though maintaining a wealthy lifestyle (se
 
 | d100 + Level | Result |
 |--------------|--------|
-| 01-10 | You are jailed for `1d4` days at the end of the downtime period on charges of disorderly conduct and disturbing the peace. You can pay a fine of 10 gp to avoid jail time, or you can try to resist arrest. |
+| 01-10 | You are jailed for `d4` days at the end of the downtime period on charges of disorderly conduct and disturbing the peace. You can pay a fine of 10 gp to avoid jail time, or you can try to resist arrest. |
 | 11-20 | You regain consciousness in a strange place with no memory of how you got there, and you have been robbed of `3d6 × 5` gp. |
 | 21-30 | You make an enemy. This person, business, or organization is now hostile to you. The DM determines the offended party. You decide how you offended them. |
 | 31-40 | You are caught up in a whirlwind romance. Roll a `d20`. On a 1–5, the romance ends badly. On a 6–10, the romance ends amicably. On an 11–20, the romance is ongoing. You determine the identity of the love interest, subject to your DM's approval. If the romance ends badly, you might gain a new flaw. If it ends well or is ongoing, your new love interest might represent a new bond. |

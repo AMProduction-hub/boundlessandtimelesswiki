@@ -10,10 +10,12 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/elemental
 statblock: inline
-aliases: ["Water Elemental"]
+statblock-link: "#^statblock"
+aliases:
+- Water Elemental
 ---
-# [Water Elemental](03 - Player Log & Handouts\Mechanics\CLI\bestiary\elemental/water-elemental.md)
-*Source: Monster Manual p. 125, Baldur's Gate: Descent Into Avernus, Tasha's Cauldron of Everything. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Water Elemental](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\elemental/water-elemental.md)
+*Source: Monster Manual p. 125, Princes of the Apocalypse, Storm King's Thunder, Ghosts of Saltmarsh, Dragon of Icespire Peak, Storm Lord's Wrath, Baldur's Gate: Descent Into Avernus, Infernal Machine Rebuild, Mythic Odysseys of Theros, Tasha's Cauldron of Everything, Candlekeep Mysteries, Journeys through the Radiant Citadel, Dragonlance: Shadow of the Dragon Queen. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 A water elemental is a cresting wave that rolls across the ground, becoming nearly invisible at it courses through a larger body of water. It engulfs creatures that stand against it, filling their mouths and lungs as easily as it smothers flame.
 
@@ -46,57 +48,67 @@ An elemental doesn't require air, food, drink, or sleep.
 "ac_class": "natural armor"
 "hp": !!int "114"
 "hit_dice": "12d10 + 48"
+"modifier": !!int "2"
 "stats":
-- !!int "18"
-- !!int "14"
-- !!int "18"
-- !!int "5"
-- !!int "10"
-- !!int "8"
+  - !!int "18"
+  - !!int "14"
+  - !!int "18"
+  - !!int "5"
+  - !!int "10"
+  - !!int "8"
 "speed": "30 ft., swim 90 ft."
 "damage_resistances": "acid; bludgeoning, piercing, slashing from nonmagical attacks"
 "damage_immunities": "poison"
-"condition_immunities": "[exhaustion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
-  \ [grappled](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Grappled),\
-  \ [paralyzed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
-  \ [petrified](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
-  \ [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
-  \ [prone](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Prone),\
-  \ [restrained](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
-  \ [unconscious](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)"
+"condition_immunities": "[exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
+  \ [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled),\
+  \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
+  \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
+  \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
+  \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
+  \ [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)"
 "senses": "darkvision 60 ft., passive Perception 10"
 "languages": "Aquan"
 "cr": "5"
 "traits":
-- "desc": "The elemental can enter a hostile creature's space and stop there. It can\
-    \ move through a space as narrow as 1 inch wide without squeezing."
-  "name": "Water Form"
-- "desc": "If the elemental takes cold damage, it partially freezes; its speed is\
-    \ reduced by 20 feet until the end of its next turn."
-  "name": "Freeze"
+  - "desc": "The elemental can enter a hostile creature's space and stop there. It\
+      \ can move through a space as narrow as 1 inch wide without squeezing."
+    "name": "Water Form"
+  - "desc": "If the elemental takes cold damage, it partially freezes; its speed is\
+      \ reduced by 20 feet until the end of its next turn."
+    "name": "Freeze"
 "actions":
-- "desc": "The elemental makes two slam attacks."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13\
-    \ (2d8 + 4) bludgeoning damage."
-  "name": "Slam"
-- "desc": "Each creature in the elemental's space must make a DC 15 Strength saving\
-    \ throw. On a failure, a target takes 13 (2d8 + 4) bludgeoning damage. If it\
-    \ is Large or smaller, it is also [grappled](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
-    \ (escape DC 14). Until this grapple ends, the target is [restrained](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
-    \ and unable to breathe unless it can breathe water. If the saving throw is successful,\
-    \ the target is pushed out of the elemental's space.\n\nThe elemental can grapple\
-    \ one Large creature or up to two Medium or smaller creatures at one time. At\
-    \ the start of each of the elemental's turns, each target [grappled](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
-    \ by it takes 13 (2d8 + 4) bludgeoning damage. A creature within 5 feet of the\
-    \ elemental can pull a creature or object out of it by taking an action to make\
-    \ a DC 14 Strength check and succeeding."
-  "name": "Whelm (Recharge 4-6)"
+  - "desc": "The elemental makes two slam attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13\
+      \ (2d8 + 4) bludgeoning damage."
+    "name": "Slam"
+  - "desc": "Each creature in the elemental's space must make a DC 15 Strength saving\
+      \ throw. On a failure, a target takes 13 (2d8 + 4) bludgeoning damage. If\
+      \ it is Large or smaller, it is also [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
+      \ (escape DC 14). Until this grapple ends, the target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
+      \ and unable to breathe unless it can breathe water. If the saving throw is\
+      \ successful, the target is pushed out of the elemental's space.\n\nThe elemental\
+      \ can grapple one Large creature or up to two Medium or smaller creatures at\
+      \ one time. At the start of each of the elemental's turns, each target [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
+      \ by it takes 13 (2d8 + 4) bludgeoning damage. A creature within 5 feet of\
+      \ the elemental can pull a creature or object out of it by taking an action\
+      \ to make a DC 14 Strength check and succeeding."
+    "name": "Whelm (Recharge 4-6)"
 "source":
-- "MM"
-- "BGDIA"
-- "TCE"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/elemental/token/water-elemental.webp"
+  - "MM"
+  - "PotA"
+  - "SKT"
+  - "GoS"
+  - "DIP"
+  - "SLW"
+  - "BGDIA"
+  - "IMR"
+  - "MOT"
+  - "TCE"
+  - "CM"
+  - "JttRC"
+  - "DSotDQ"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/token/water-elemental.webp"
 ```
 ^statblock
 

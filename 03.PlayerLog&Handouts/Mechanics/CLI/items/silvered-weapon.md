@@ -131,7 +131,7 @@ Some monsters that have immunity or resistance to nonmagical weapons are suscept
 
 - **Damage**: 6d8 necrotic
 - **Range**: 120/360
-- **Properties**: [Ammunition](item-properties.md#Ammunition), [Reload](item-properties.md#Reload), [Silvered](item-properties.md#Silvered%20Weapons), [Two-Handed](item-properties.md#Two-Handed)
+- **Properties**: [Ammunition](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Ammunition), [Reload](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Reload), [Silvered](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Silvered%20Weapons), [Two-Handed](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Two-Handed)
 - **Cost**: 100 gp
 - **Weight**: 10.0 lbs.
 
@@ -139,7 +139,7 @@ Some monsters that have immunity or resistance to nonmagical weapons are suscept
 
 - **Damage**: 2d6 piercing
 - **Range**: 50/150
-- **Properties**: [Ammunition](item-properties.md#Ammunition), [Reload](item-properties.md#Reload), [Silvered](item-properties.md#Silvered%20Weapons)
+- **Properties**: [Ammunition](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Ammunition), [Reload](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Reload), [Silvered](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Silvered%20Weapons)
 - **Cost**: 100 gp
 - **Weight**: 3.0 lbs.
 
@@ -147,7 +147,7 @@ Some monsters that have immunity or resistance to nonmagical weapons are suscept
 
 - **Damage**: 2d8 piercing
 - **Range**: 80/240
-- **Properties**: [Ammunition](item-properties.md#Ammunition), [Burst Fire](item-properties.md#Burst%20Fire), [Reload](item-properties.md#Reload), [Silvered](item-properties.md#Silvered%20Weapons), [Two-Handed](item-properties.md#Two-Handed)
+- **Properties**: [Ammunition](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Ammunition), [Burst Fire](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Burst%20Fire), [Reload](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Reload), [Silvered](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Silvered%20Weapons), [Two-Handed](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Two-Handed)
 - **Cost**: 100 gp
 - **Weight**: 8.0 lbs.
 
@@ -156,7 +156,7 @@ Some monsters that have immunity or resistance to nonmagical weapons are suscept
 - **Damage**:
   - One-handed: 1d8 slashing
   - Two-handed: 1d10 slashing
-- **Properties**: [Silvered](item-properties.md#Silvered%20Weapons), [Versatile](item-properties.md#Versatile)
+- **Properties**: [Silvered](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Silvered%20Weapons), [Versatile](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Versatile)
 - **Cost**: 110 gp
 - **Weight**: 4.0 lbs.
 
@@ -164,14 +164,14 @@ Some monsters that have immunity or resistance to nonmagical weapons are suscept
 
 - **Damage**: 1 piercing
 - **Range**: 25/100
-- **Properties**: [Ammunition](item-properties.md#Ammunition), [Loading](item-properties.md#Loading), [Silvered](item-properties.md#Silvered%20Weapons)
+- **Properties**: [Ammunition](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Ammunition), [Loading](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Loading), [Silvered](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Silvered%20Weapons)
 - **Cost**: 110 gp
 - **Weight**: 1.0 lbs.
 
 ### Silvered Club
 
 - **Damage**: 1d4 bludgeoning
-- **Properties**: [Light](item-properties.md#Light), [Silvered](item-properties.md#Silvered%20Weapons)
+- **Properties**: [Light](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Light), [Silvered](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Silvered%20Weapons)
 - **Cost**: 100 gp, 1 sp
 - **Weight**: 2.0 lbs.
 
@@ -179,7 +179,7 @@ Some monsters that have immunity or resistance to nonmagical weapons are suscept
 
 - **Damage**: 1d4 piercing
 - **Range**: 20/60
-- **Properties**: [Finesse](item-properties.md#Finesse), [Light](item-properties.md#Light), [Silvered](item-properties.md#Silvered%20Weapons), [Thrown](item-properties.md#Thrown)
+- **Properties**: [Finesse](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Finesse), [Light](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Light), [Silvered](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Silvered%20Weapons), [Thrown](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Thrown)
 - **Cost**: 102 gp
 - **Weight**: 1.0 lbs.
 
@@ -187,56 +187,56 @@ Some monsters that have immunity or resistance to nonmagical weapons are suscept
 
 - **Damage**: 1d4 piercing
 - **Range**: 20/60
-- **Properties**: [Finesse](item-properties.md#Finesse), [Silvered](item-properties.md#Silvered%20Weapons), [Thrown](item-properties.md#Thrown)
+- **Properties**: [Finesse](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Finesse), [Silvered](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Silvered%20Weapons), [Thrown](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Thrown)
 - **Cost**: 100 gp, 5 cp
 - **Weight**: 0.25 lbs.
 
 ### Silvered Double-Bladed Scimitar
 
 - **Damage**: 2d4 slashing
-- **Properties**: [Silvered](item-properties.md#Silvered%20Weapons), [Two-Handed](item-properties.md#Two-Handed), [special](item-properties.md#Special%20Weapons)
+- **Properties**: [Silvered](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Silvered%20Weapons), [Two-Handed](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Two-Handed), [special](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Special%20Weapons)
 - **Cost**: 200 gp
 - **Weight**: 6.0 lbs.
 
 ### Silvered Flail
 
 - **Damage**: 1d8 bludgeoning
-- **Properties**: [Silvered](item-properties.md#Silvered%20Weapons)
+- **Properties**: [Silvered](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Silvered%20Weapons)
 - **Cost**: 110 gp
 - **Weight**: 2.0 lbs.
 
 ### Silvered Glaive
 
 - **Damage**: 1d10 slashing
-- **Properties**: [Heavy](item-properties.md#Heavy), [Reach](item-properties.md#Reach), [Silvered](item-properties.md#Silvered%20Weapons), [Two-Handed](item-properties.md#Two-Handed)
+- **Properties**: [Heavy](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Heavy), [Reach](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Reach), [Silvered](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Silvered%20Weapons), [Two-Handed](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Two-Handed)
 - **Cost**: 120 gp
 - **Weight**: 6.0 lbs.
 
 ### Silvered Greataxe
 
 - **Damage**: 1d12 slashing
-- **Properties**: [Heavy](item-properties.md#Heavy), [Silvered](item-properties.md#Silvered%20Weapons), [Two-Handed](item-properties.md#Two-Handed)
+- **Properties**: [Heavy](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Heavy), [Silvered](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Silvered%20Weapons), [Two-Handed](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Two-Handed)
 - **Cost**: 130 gp
 - **Weight**: 7.0 lbs.
 
 ### Silvered Greatclub
 
 - **Damage**: 1d8 bludgeoning
-- **Properties**: [Silvered](item-properties.md#Silvered%20Weapons), [Two-Handed](item-properties.md#Two-Handed)
+- **Properties**: [Silvered](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Silvered%20Weapons), [Two-Handed](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Two-Handed)
 - **Cost**: 100 gp, 2 sp
 - **Weight**: 10.0 lbs.
 
 ### Silvered Greatsword
 
 - **Damage**: 2d6 slashing
-- **Properties**: [Heavy](item-properties.md#Heavy), [Silvered](item-properties.md#Silvered%20Weapons), [Two-Handed](item-properties.md#Two-Handed)
+- **Properties**: [Heavy](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Heavy), [Silvered](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Silvered%20Weapons), [Two-Handed](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Two-Handed)
 - **Cost**: 150 gp
 - **Weight**: 6.0 lbs.
 
 ### Silvered Halberd
 
 - **Damage**: 1d10 slashing
-- **Properties**: [Heavy](item-properties.md#Heavy), [Reach](item-properties.md#Reach), [Silvered](item-properties.md#Silvered%20Weapons), [Two-Handed](item-properties.md#Two-Handed)
+- **Properties**: [Heavy](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Heavy), [Reach](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Reach), [Silvered](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Silvered%20Weapons), [Two-Handed](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Two-Handed)
 - **Cost**: 120 gp
 - **Weight**: 6.0 lbs.
 
@@ -244,7 +244,7 @@ Some monsters that have immunity or resistance to nonmagical weapons are suscept
 
 - **Damage**: 1d6 piercing
 - **Range**: 30/120
-- **Properties**: [Ammunition](item-properties.md#Ammunition), [Light](item-properties.md#Light), [Loading](item-properties.md#Loading), [Silvered](item-properties.md#Silvered%20Weapons)
+- **Properties**: [Ammunition](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Ammunition), [Light](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Light), [Loading](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Loading), [Silvered](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Silvered%20Weapons)
 - **Cost**: 175 gp
 - **Weight**: 3.0 lbs.
 
@@ -252,7 +252,7 @@ Some monsters that have immunity or resistance to nonmagical weapons are suscept
 
 - **Damage**: 1d6 slashing
 - **Range**: 20/60
-- **Properties**: [Light](item-properties.md#Light), [Silvered](item-properties.md#Silvered%20Weapons), [Thrown](item-properties.md#Thrown)
+- **Properties**: [Light](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Light), [Silvered](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Silvered%20Weapons), [Thrown](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Thrown)
 - **Cost**: 105 gp
 - **Weight**: 2.0 lbs.
 
@@ -260,14 +260,14 @@ Some monsters that have immunity or resistance to nonmagical weapons are suscept
 
 - **Damage**: 1d10 piercing
 - **Range**: 100/400
-- **Properties**: [Ammunition](item-properties.md#Ammunition), [Heavy](item-properties.md#Heavy), [Loading](item-properties.md#Loading), [Silvered](item-properties.md#Silvered%20Weapons), [Two-Handed](item-properties.md#Two-Handed)
+- **Properties**: [Ammunition](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Ammunition), [Heavy](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Heavy), [Loading](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Loading), [Silvered](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Silvered%20Weapons), [Two-Handed](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Two-Handed)
 - **Cost**: 150 gp
 - **Weight**: 18.0 lbs.
 
 ### Silvered Hooked Shortspear
 
 - **Damage**: 1d4 piercing
-- **Properties**: [Light](item-properties.md#Light), [Silvered](item-properties.md#Silvered%20Weapons)
+- **Properties**: [Light](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Light), [Silvered](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Silvered%20Weapons)
 - **Cost**: 100 gp
 - **Weight**: 2.0 lbs.
 
@@ -275,7 +275,7 @@ Some monsters that have immunity or resistance to nonmagical weapons are suscept
 
 - **Damage**: 1d6 piercing
 - **Range**: 40/160
-- **Properties**: [Ammunition](item-properties.md#Ammunition), [Finesse](item-properties.md#Finesse), [Silvered](item-properties.md#Silvered%20Weapons), [Two-Handed](item-properties.md#Two-Handed), [special](item-properties.md#Special%20Weapons)
+- **Properties**: [Ammunition](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Ammunition), [Finesse](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Finesse), [Silvered](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Silvered%20Weapons), [Two-Handed](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Two-Handed), [special](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Special%20Weapons)
 - **Cost**: 100 gp, 1 sp
 - **Weight**: 2.0 lbs.
 
@@ -283,7 +283,7 @@ Some monsters that have immunity or resistance to nonmagical weapons are suscept
 
 - **Damage**: 2d10 piercing
 - **Range**: 80/240
-- **Properties**: [Ammunition](item-properties.md#Ammunition), [Reload](item-properties.md#Reload), [Silvered](item-properties.md#Silvered%20Weapons), [Two-Handed](item-properties.md#Two-Handed)
+- **Properties**: [Ammunition](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Ammunition), [Reload](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Reload), [Silvered](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Silvered%20Weapons), [Two-Handed](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Two-Handed)
 - **Cost**: 100 gp
 - **Weight**: 8.0 lbs.
 
@@ -291,14 +291,14 @@ Some monsters that have immunity or resistance to nonmagical weapons are suscept
 
 - **Damage**: 1d6 piercing
 - **Range**: 30/120
-- **Properties**: [Silvered](item-properties.md#Silvered%20Weapons), [Thrown](item-properties.md#Thrown)
+- **Properties**: [Silvered](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Silvered%20Weapons), [Thrown](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Thrown)
 - **Cost**: 100 gp, 5 sp
 - **Weight**: 2.0 lbs.
 
 ### Silvered Lance
 
 - **Damage**: 1d12 piercing
-- **Properties**: [Reach](item-properties.md#Reach), [Silvered](item-properties.md#Silvered%20Weapons), [special](item-properties.md#Special%20Weapons)
+- **Properties**: [Reach](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Reach), [Silvered](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Silvered%20Weapons), [special](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Special%20Weapons)
 - **Cost**: 110 gp
 - **Weight**: 6.0 lbs.
 
@@ -306,7 +306,7 @@ Some monsters that have immunity or resistance to nonmagical weapons are suscept
 
 - **Damage**: 3d6 radiant
 - **Range**: 40/120
-- **Properties**: [Ammunition](item-properties.md#Ammunition), [Reload](item-properties.md#Reload), [Silvered](item-properties.md#Silvered%20Weapons)
+- **Properties**: [Ammunition](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Ammunition), [Reload](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Reload), [Silvered](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Silvered%20Weapons)
 - **Cost**: 100 gp
 - **Weight**: 2.0 lbs.
 
@@ -314,7 +314,7 @@ Some monsters that have immunity or resistance to nonmagical weapons are suscept
 
 - **Damage**: 3d8 radiant
 - **Range**: 100/300
-- **Properties**: [Ammunition](item-properties.md#Ammunition), [Reload](item-properties.md#Reload), [Silvered](item-properties.md#Silvered%20Weapons), [Two-Handed](item-properties.md#Two-Handed)
+- **Properties**: [Ammunition](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Ammunition), [Reload](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Reload), [Silvered](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Silvered%20Weapons), [Two-Handed](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Two-Handed)
 - **Cost**: 100 gp
 - **Weight**: 7.0 lbs.
 
@@ -322,7 +322,7 @@ Some monsters that have immunity or resistance to nonmagical weapons are suscept
 
 - **Damage**: 1d8 piercing
 - **Range**: 80/320
-- **Properties**: [Ammunition](item-properties.md#Ammunition), [Loading](item-properties.md#Loading), [Silvered](item-properties.md#Silvered%20Weapons), [Two-Handed](item-properties.md#Two-Handed)
+- **Properties**: [Ammunition](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Ammunition), [Loading](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Loading), [Silvered](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Silvered%20Weapons), [Two-Handed](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Two-Handed)
 - **Cost**: 125 gp
 - **Weight**: 5.0 lbs.
 
@@ -330,7 +330,7 @@ Some monsters that have immunity or resistance to nonmagical weapons are suscept
 
 - **Damage**: 1d4 bludgeoning
 - **Range**: 20/60
-- **Properties**: [Light](item-properties.md#Light), [Silvered](item-properties.md#Silvered%20Weapons), [Thrown](item-properties.md#Thrown)
+- **Properties**: [Light](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Light), [Silvered](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Silvered%20Weapons), [Thrown](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Thrown)
 - **Cost**: 102 gp
 - **Weight**: 2.0 lbs.
 
@@ -338,7 +338,7 @@ Some monsters that have immunity or resistance to nonmagical weapons are suscept
 
 - **Damage**: 1d8 piercing
 - **Range**: 40/160
-- **Properties**: [Ammunition](item-properties.md#Ammunition), [Silvered](item-properties.md#Silvered%20Weapons), [Two-Handed](item-properties.md#Two-Handed)
+- **Properties**: [Ammunition](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Ammunition), [Silvered](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Silvered%20Weapons), [Two-Handed](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Two-Handed)
 - **Cost**: 100 gp
 - **Weight**: 5.0 lbs.
 
@@ -346,7 +346,7 @@ Some monsters that have immunity or resistance to nonmagical weapons are suscept
 
 - **Damage**: 1d8 piercing
 - **Range**: 150/600
-- **Properties**: [Ammunition](item-properties.md#Ammunition), [Heavy](item-properties.md#Heavy), [Silvered](item-properties.md#Silvered%20Weapons), [Two-Handed](item-properties.md#Two-Handed)
+- **Properties**: [Ammunition](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Ammunition), [Heavy](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Heavy), [Silvered](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Silvered%20Weapons), [Two-Handed](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Two-Handed)
 - **Cost**: 150 gp
 - **Weight**: 2.0 lbs.
 
@@ -355,28 +355,28 @@ Some monsters that have immunity or resistance to nonmagical weapons are suscept
 - **Damage**:
   - One-handed: 1d8 slashing
   - Two-handed: 1d10 slashing
-- **Properties**: [Silvered](item-properties.md#Silvered%20Weapons), [Versatile](item-properties.md#Versatile)
+- **Properties**: [Silvered](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Silvered%20Weapons), [Versatile](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Versatile)
 - **Cost**: 115 gp
 - **Weight**: 3.0 lbs.
 
 ### Silvered Mace
 
 - **Damage**: 1d6 bludgeoning
-- **Properties**: [Silvered](item-properties.md#Silvered%20Weapons)
+- **Properties**: [Silvered](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Silvered%20Weapons)
 - **Cost**: 105 gp
 - **Weight**: 4.0 lbs.
 
 ### Silvered Maul
 
 - **Damage**: 2d6 bludgeoning
-- **Properties**: [Heavy](item-properties.md#Heavy), [Silvered](item-properties.md#Silvered%20Weapons), [Two-Handed](item-properties.md#Two-Handed)
+- **Properties**: [Heavy](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Heavy), [Silvered](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Silvered%20Weapons), [Two-Handed](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Two-Handed)
 - **Cost**: 110 gp
 - **Weight**: 10.0 lbs.
 
 ### Silvered Morningstar
 
 - **Damage**: 1d8 piercing
-- **Properties**: [Silvered](item-properties.md#Silvered%20Weapons)
+- **Properties**: [Silvered](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Silvered%20Weapons)
 - **Cost**: 115 gp
 - **Weight**: 4.0 lbs.
 
@@ -384,14 +384,14 @@ Some monsters that have immunity or resistance to nonmagical weapons are suscept
 
 - **Damage**: 1d12 piercing
 - **Range**: 40/120
-- **Properties**: [Ammunition](item-properties.md#Ammunition), [Loading](item-properties.md#Loading), [Silvered](item-properties.md#Silvered%20Weapons), [Two-Handed](item-properties.md#Two-Handed)
+- **Properties**: [Ammunition](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Ammunition), [Loading](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Loading), [Silvered](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Silvered%20Weapons), [Two-Handed](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Two-Handed)
 - **Cost**: 600 gp
 - **Weight**: 10.0 lbs.
 
 ### Silvered Pike
 
 - **Damage**: 1d10 piercing
-- **Properties**: [Heavy](item-properties.md#Heavy), [Reach](item-properties.md#Reach), [Silvered](item-properties.md#Silvered%20Weapons), [Two-Handed](item-properties.md#Two-Handed)
+- **Properties**: [Heavy](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Heavy), [Reach](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Reach), [Silvered](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Silvered%20Weapons), [Two-Handed](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Two-Handed)
 - **Cost**: 105 gp
 - **Weight**: 18.0 lbs.
 
@@ -399,7 +399,7 @@ Some monsters that have immunity or resistance to nonmagical weapons are suscept
 
 - **Damage**: 1d10 piercing
 - **Range**: 30/90
-- **Properties**: [Ammunition](item-properties.md#Ammunition), [Loading](item-properties.md#Loading), [Silvered](item-properties.md#Silvered%20Weapons)
+- **Properties**: [Ammunition](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Ammunition), [Loading](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Loading), [Silvered](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Silvered%20Weapons)
 - **Cost**: 350 gp
 - **Weight**: 3.0 lbs.
 
@@ -408,14 +408,14 @@ Some monsters that have immunity or resistance to nonmagical weapons are suscept
 - **Damage**:
   - One-handed: 1d6 bludgeoning
   - Two-handed: 1d8 bludgeoning
-- **Properties**: [Silvered](item-properties.md#Silvered%20Weapons), [Versatile](item-properties.md#Versatile)
+- **Properties**: [Silvered](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Silvered%20Weapons), [Versatile](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Versatile)
 - **Cost**: 100 gp, 2 sp
 - **Weight**: 4.0 lbs.
 
 ### Silvered Rapier
 
 - **Damage**: 1d8 piercing
-- **Properties**: [Finesse](item-properties.md#Finesse), [Silvered](item-properties.md#Silvered%20Weapons)
+- **Properties**: [Finesse](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Finesse), [Silvered](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Silvered%20Weapons)
 - **Cost**: 125 gp
 - **Weight**: 2.0 lbs.
 
@@ -423,14 +423,14 @@ Some monsters that have immunity or resistance to nonmagical weapons are suscept
 
 - **Damage**: 2d8 piercing
 - **Range**: 40/120
-- **Properties**: [Ammunition](item-properties.md#Ammunition), [Reload](item-properties.md#Reload), [Silvered](item-properties.md#Silvered%20Weapons)
+- **Properties**: [Ammunition](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Ammunition), [Reload](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Reload), [Silvered](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Silvered%20Weapons)
 - **Cost**: 100 gp
 - **Weight**: 3.0 lbs.
 
 ### Silvered Scimitar
 
 - **Damage**: 1d6 slashing
-- **Properties**: [Finesse](item-properties.md#Finesse), [Light](item-properties.md#Light), [Silvered](item-properties.md#Silvered%20Weapons)
+- **Properties**: [Finesse](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Finesse), [Light](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Light), [Silvered](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Silvered%20Weapons)
 - **Cost**: 125 gp
 - **Weight**: 3.0 lbs.
 
@@ -438,14 +438,14 @@ Some monsters that have immunity or resistance to nonmagical weapons are suscept
 
 - **Damage**: 1d6 piercing
 - **Range**: 80/320
-- **Properties**: [Ammunition](item-properties.md#Ammunition), [Silvered](item-properties.md#Silvered%20Weapons), [Two-Handed](item-properties.md#Two-Handed)
+- **Properties**: [Ammunition](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Ammunition), [Silvered](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Silvered%20Weapons), [Two-Handed](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Two-Handed)
 - **Cost**: 125 gp
 - **Weight**: 2.0 lbs.
 
 ### Silvered Shortsword
 
 - **Damage**: 1d6 piercing
-- **Properties**: [Finesse](item-properties.md#Finesse), [Light](item-properties.md#Light), [Silvered](item-properties.md#Silvered%20Weapons)
+- **Properties**: [Finesse](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Finesse), [Light](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Light), [Silvered](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Silvered%20Weapons)
 - **Cost**: 110 gp
 - **Weight**: 2.0 lbs.
 
@@ -453,14 +453,14 @@ Some monsters that have immunity or resistance to nonmagical weapons are suscept
 
 - **Damage**: 2d8 piercing
 - **Range**: 30/90
-- **Properties**: [Ammunition](item-properties.md#Ammunition), [Reload](item-properties.md#Reload), [Silvered](item-properties.md#Silvered%20Weapons), [Two-Handed](item-properties.md#Two-Handed)
+- **Properties**: [Ammunition](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Ammunition), [Reload](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Reload), [Silvered](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Silvered%20Weapons), [Two-Handed](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Two-Handed)
 - **Cost**: 100 gp
 - **Weight**: 7.0 lbs.
 
 ### Silvered Sickle
 
 - **Damage**: 1d4 slashing
-- **Properties**: [Light](item-properties.md#Light), [Silvered](item-properties.md#Silvered%20Weapons)
+- **Properties**: [Light](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Light), [Silvered](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Silvered%20Weapons)
 - **Cost**: 101 gp
 - **Weight**: 2.0 lbs.
 
@@ -468,7 +468,7 @@ Some monsters that have immunity or resistance to nonmagical weapons are suscept
 
 - **Damage**: 1d4 bludgeoning
 - **Range**: 30/120
-- **Properties**: [Ammunition](item-properties.md#Ammunition), [Silvered](item-properties.md#Silvered%20Weapons)
+- **Properties**: [Ammunition](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Ammunition), [Silvered](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Silvered%20Weapons)
 - **Cost**: 100 gp, 1 sp
 
 ### Silvered Spear
@@ -477,7 +477,7 @@ Some monsters that have immunity or resistance to nonmagical weapons are suscept
   - One-handed: 1d6 piercing
   - Two-handed: 1d8 piercing
 - **Range**: 20/60
-- **Properties**: [Silvered](item-properties.md#Silvered%20Weapons), [Thrown](item-properties.md#Thrown), [Versatile](item-properties.md#Versatile)
+- **Properties**: [Silvered](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Silvered%20Weapons), [Thrown](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Thrown), [Versatile](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Versatile)
 - **Cost**: 101 gp
 - **Weight**: 3.0 lbs.
 
@@ -487,14 +487,14 @@ Some monsters that have immunity or resistance to nonmagical weapons are suscept
   - One-handed: 1d6 piercing
   - Two-handed: 1d8 piercing
 - **Range**: 20/60
-- **Properties**: [Silvered](item-properties.md#Silvered%20Weapons), [Thrown](item-properties.md#Thrown), [Versatile](item-properties.md#Versatile)
+- **Properties**: [Silvered](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Silvered%20Weapons), [Thrown](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Thrown), [Versatile](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Versatile)
 - **Cost**: 105 gp
 - **Weight**: 4.0 lbs.
 
 ### Silvered War Pick
 
 - **Damage**: 1d8 piercing
-- **Properties**: [Silvered](item-properties.md#Silvered%20Weapons)
+- **Properties**: [Silvered](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Silvered%20Weapons)
 - **Cost**: 105 gp
 - **Weight**: 2.0 lbs.
 
@@ -503,14 +503,14 @@ Some monsters that have immunity or resistance to nonmagical weapons are suscept
 - **Damage**:
   - One-handed: 1d8 bludgeoning
   - Two-handed: 1d10 bludgeoning
-- **Properties**: [Silvered](item-properties.md#Silvered%20Weapons), [Versatile](item-properties.md#Versatile)
+- **Properties**: [Silvered](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Silvered%20Weapons), [Versatile](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Versatile)
 - **Cost**: 115 gp
 - **Weight**: 2.0 lbs.
 
 ### Silvered Whip
 
 - **Damage**: 1d4 slashing
-- **Properties**: [Finesse](item-properties.md#Finesse), [Reach](item-properties.md#Reach), [Silvered](item-properties.md#Silvered%20Weapons)
+- **Properties**: [Finesse](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Finesse), [Reach](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Reach), [Silvered](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Silvered%20Weapons)
 - **Cost**: 102 gp
 - **Weight**: 3.0 lbs.
 
@@ -518,7 +518,7 @@ Some monsters that have immunity or resistance to nonmagical weapons are suscept
 
 - **Damage**: 1d8 piercing
 - **Range**: 10/30
-- **Properties**: [Silvered](item-properties.md#Silvered%20Weapons), [Thrown](item-properties.md#Thrown)
+- **Properties**: [Silvered](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Silvered%20Weapons), [Thrown](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Thrown)
 - **Cost**: 101 gp
 - **Weight**: 3.0 lbs.
 

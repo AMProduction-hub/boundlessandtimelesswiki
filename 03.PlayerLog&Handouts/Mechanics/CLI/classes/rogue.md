@@ -4,7 +4,8 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/class/rogue
 - ttrpg-cli/compendium/src/5e/phb
-aliases: ["Rogue"]
+aliases:
+- Rogue
 ---
 # Rogue
 *Source: Player's Handbook p. 94. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
@@ -49,17 +50,17 @@ aliases: ["Rogue"]
 ## Starting Rogue
 
 - **Saving Throws**: Dexterity, Intelligence
-- **Armor**: [light armor](item-types.md#Light%20Armor)
-- **Weapons**: simple weapons, [hand crossbows](hand-crossbow.md), [longswords](longsword.md), [rapiers](rapier.md), [shortswords](shortsword.md)
-- **Tools**: [thieves' tools](thieves-tools.md)
+- **Armor**: [light armor](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-types.md#Light%20Armor)
+- **Weapons**: simple weapons, [hand crossbows](03.PlayerLog&Handouts/Mechanics/CLI/items/hand-crossbow.md), [longswords](03.PlayerLog&Handouts/Mechanics/CLI/items/longsword.md), [rapiers](03.PlayerLog&Handouts/Mechanics/CLI/items/rapier.md), [shortswords](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)
+- **Tools**: [thieves' tools](03.PlayerLog&Handouts/Mechanics/CLI/items/thieves-tools.md)
 - **Skills**: choose 4 from [Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics), [Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics), [Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception), [Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight), [Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation), [Investigation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Investigation), [Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception), [Performance](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Performance), [Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion), [Sleight of Hand](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Sleight%20of%20Hand), and [Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)
 
 You start with the following items, plus anything provided by your background.
 
-- (a) a [rapier](rapier.md) or (b) a [shortsword](shortsword.md)
-- (a) a [shortbow](shortbow.md) and [quiver](quiver.md) of [20 arrows](arrows-20.md) or (b) a [shortsword](shortsword.md)
-- (a) a [burglar's pack](burglars-pack.md), (b) a [dungeoneer's pack](dungeoneers-pack.md), or (c) an [explorer's pack](explorers-pack.md)
-- [Leather armor](leather-armor.md), two [daggers](dagger.md), and [thieves' tools](thieves-tools.md)
+- (a) a [rapier](03.PlayerLog&Handouts/Mechanics/CLI/items/rapier.md) or (b) a [shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)
+- (a) a [shortbow](03.PlayerLog&Handouts/Mechanics/CLI/items/shortbow.md) and [quiver](03.PlayerLog&Handouts/Mechanics/CLI/items/quiver.md) of [20 arrows](03.PlayerLog&Handouts/Mechanics/CLI/items/arrows-20.md) or (b) a [shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md)
+- (a) a [burglar's pack](03.PlayerLog&Handouts/Mechanics/CLI/items/burglars-pack.md), (b) a [dungeoneer's pack](03.PlayerLog&Handouts/Mechanics/CLI/items/dungeoneers-pack.md), or (c) an [explorer's pack](03.PlayerLog&Handouts/Mechanics/CLI/items/explorers-pack.md)
+- [Leather armor](03.PlayerLog&Handouts/Mechanics/CLI/items/leather-armor.md), two [daggers](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md), and [thieves' tools](03.PlayerLog&Handouts/Mechanics/CLI/items/thieves-tools.md)
 
 Alternatively, you may start with 4d4 × 10 gp to buy your own equipment.
 
@@ -69,8 +70,8 @@ Alternatively, you may start with 4d4 × 10 gp to buy your own equipment.
 
 When you gain a level in a class other than your first, you gain only some of that class's starting proficiencies.
 
-- **Armor**: [light armor](item-types.md#Light%20Armor)
-- **Tools**: [thieves' tools](thieves-tools.md)
+- **Armor**: [light armor](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-types.md#Light%20Armor)
+- **Tools**: [thieves' tools](03.PlayerLog&Handouts/Mechanics/CLI/items/thieves-tools.md)
 - **Skills**: choose 1 from [Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics), [Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics), [Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception), [Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight), [Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation), [Investigation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Investigation), [Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception), [Performance](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Performance), [Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion), [Sleight of Hand](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Sleight%20of%20Hand), and [Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)
 
 ## Rogue
@@ -103,7 +104,7 @@ What was the trigger that led you away from your previous life? Did a great con 
 
 #### Quick Build
 
-You can make a rogue quickly by following these suggestions. First, Dexterity should be your highest ability score. Make Intelligence your next-highest if you want to excel at Investigation or plan to take up the Arcane Trickster archetype. Choose Charisma instead if you plan to emphasize deception and social interaction. Second, choose the [charlatan](charlatan.md) background.
+You can make a rogue quickly by following these suggestions. First, Dexterity should be your highest ability score. Make Intelligence your next-highest if you want to excel at Investigation or plan to take up the Arcane Trickster archetype. Choose Charisma instead if you plan to emphasize deception and social interaction. Second, choose the [charlatan](03.PlayerLog&Handouts/Mechanics/CLI/backgrounds/charlatan.md) background.
 
 > [!quote] A quote from Barnabas Bladecutter  
 > 
@@ -116,6 +117,10 @@ Some rogues who turn to adventuring are former criminals who have decided that d
 On adventures, a rogue is likely to mix an outwardly cautious approach—few rogues enjoy combat—with a ravenous hunger for loot. Most of the time, in a rogue's mind, taking up arms against a creature is not about killing the creature but about becoming the new owner of its treasure.
 
 The following sections explore certain facets of what it means to be a rogue, which you can use to add depth to your character.
+
+> [!quote] A quote from Xanathar  
+> 
+> Thieves are the worst. I hate anyone that handles my stuff when I'm not looking, especially if they don't put it back where they found it.
 
 ## Guilty Pleasures
 _Source: Xanathar's Guide to Everything_
@@ -188,15 +193,15 @@ If your character's backstory doesn't already include a personage of this sort, 
 
 ### Expertise (Level 1)
 
-At 1st level, choose two of your skill proficiencies, or one of your skill proficiencies and your proficiency with [thieves' tools](thieves-tools.md). Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.
+At 1st level, choose two of your skill proficiencies, or one of your skill proficiencies and your proficiency with [thieves' tools](03.PlayerLog&Handouts/Mechanics/CLI/items/thieves-tools.md). Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.
 
-At 6th level, you can choose two more of your proficiencies (in skills or with [thieves' tools](thieves-tools.md)) to gain this benefit.
+At 6th level, you can choose two more of your proficiencies (in skills or with [thieves' tools](03.PlayerLog&Handouts/Mechanics/CLI/items/thieves-tools.md)) to gain this benefit.
 
 ### Sneak Attack (Level 1)
 
-Beginning at 1st level, you know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra `1d6` damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.
+Beginning at 1st level, you know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra `d6` damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.
 
-You don't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't [incapacitated](conditions.md#Incapacitated), and you don't have disadvantage on the attack roll.
+You don't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated), and you don't have disadvantage on the attack roll.
 
 The amount of the extra damage increases as you gain levels in this class, as shown in the Sneak Attack column of the Rogue table.
 
@@ -208,7 +213,7 @@ In addition, you understand a set of secret signs and symbols used to convey sho
 
 ### Cunning Action (Level 2)
 
-Starting at 2nd level, your quick thinking and agility allow you to move and act quickly. You can take a bonus action on each of your turns in combat. This action can be used only to take the [Dash](actions.md#Dash), [Disengage](actions.md#Disengage), or [Hide](actions.md#Hide) action.
+Starting at 2nd level, your quick thinking and agility allow you to move and act quickly. You can take a bonus action on each of your turns in combat. This action can be used only to take the [Dash](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Dash), [Disengage](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Disengage), or [Hide](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Hide) action.
 
 ### Roguish Archetype (Level 3)
 
@@ -217,7 +222,7 @@ At 3rd level, you choose an archetype that you emulate in the exercise of your r
 ### Steady Aim (Level 3)
 _Source: Tasha's Cauldron of Everything p. 62_
 
-*3rd-level rogue [optional feature](optional-class-features-tce.md)*
+*3rd-level rogue [optional feature](03.PlayerLog&Handouts/Mechanics/CLI/rules/variant-rules/optional-class-features-tce.md)*
 
 As a bonus action, you give yourself advantage on your next attack roll on the current turn. You can use this bonus action only if you haven't moved during this turn, and after you use the bonus action, your speed is 0 until the end of the current turn.
 
@@ -233,11 +238,11 @@ Starting at 5th level, when an attacker that you can see hits you with an attack
 
 ### Expertise (Level 6)
 
-At 6th level, you can choose two more of your proficiencies (in skills or with [thieves' tools](thieves-tools.md)) to gain the benefit of Expertise.
+At 6th level, you can choose two more of your proficiencies (in skills or with [thieves' tools](03.PlayerLog&Handouts/Mechanics/CLI/items/thieves-tools.md)) to gain the benefit of Expertise.
 
 ### Evasion (Level 7)
 
-Beginning at 7th level, you can nimbly dodge out of the way of certain area effects, such as a red dragon's fiery breath or an [ice storm](ice-storm.md) spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.
+Beginning at 7th level, you can nimbly dodge out of the way of certain area effects, such as a red dragon's fiery breath or an [ice storm](03.PlayerLog&Handouts/Mechanics/CLI/spells/ice-storm.md) spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.
 
 ### Ability Score Improvement (Level 8)
 
@@ -271,7 +276,7 @@ At 13th level, you gain a feature granted by your Roguish Archetype.
 
 ### Blindsense (Level 14)
 
-Starting at 14th level, if you are able to hear, you are aware of the location of any hidden or [invisible](conditions.md#Invisible) creature within 10 feet of you.
+Starting at 14th level, if you are able to hear, you are aware of the location of any hidden or [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible) creature within 10 feet of you.
 
 ### Slippery Mind (Level 15)
 
@@ -289,7 +294,7 @@ At 17th level, you gain a feature granted by your Roguish Archetype.
 
 ### Elusive (Level 18)
 
-Beginning at 18th level, you are so evasive that attackers rarely gain the upper hand against you. No attack roll has advantage against you while you aren't [incapacitated](conditions.md#Incapacitated).
+Beginning at 18th level, you are so evasive that attackers rarely gain the upper hand against you. No attack roll has advantage against you while you aren't [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated).
 
 ### Ability Score Improvement (Level 19)
 

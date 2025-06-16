@@ -11,12 +11,14 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/construct
 statblock: inline
-aliases: ["Clockwork Stone Defender"]
+statblock-link: "#^statblock"
+aliases:
+- Clockwork Stone Defender
 ---
-# [Clockwork Stone Defender](03 - Player Log & Handouts\Mechanics\CLI\bestiary\construct/clockwork-stone-defender-mpmm.md)
+# [Clockwork Stone Defender](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/clockwork-stone-defender-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 80, Mordenkainen's Tome of Foes p. 126*  
 
-The thick plates of stone riveted onto a stone [defender](defender.md) give it substantial protection. Its chief role is as a bodyguard.
+The thick plates of stone riveted onto a stone [defender](03.PlayerLog&Handouts/Mechanics/CLI/items/defender.md) give it substantial protection. Its chief role is as a bodyguard.
 
 ## Clockworks
 
@@ -33,7 +35,7 @@ Gnome artisans prefer unique clockworks over perfectly functioning ones that cop
 | dice: d10 | Enhancement |
 |-----------|-------------|
 | 1 | **Camouflaged.** The clockwork gains proficiency in [Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth) if it lacks that proficiency. While motionless, it is indistinguishable from a stopped machine. |
-| 2 | **Sensors.** The range of the clockwork's [darkvision](senses.md#Darkvision) increases by 60 feet, and it gains proficiency in [Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception) if it lacks that proficiency. |
+| 2 | **Sensors.** The range of the clockwork's [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision) increases by 60 feet, and it gains proficiency in [Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception) if it lacks that proficiency. |
 | 3 | **Fortified.** The clockwork's AC increases by 2. |
 | 4 | **Increased Speed.** The clockwork's speed increases by 10 feet. |
 | 5 | **Reinforced Construction.** The clockwork has resistance to force, lightning, and thunder damage. |
@@ -50,13 +52,13 @@ Gnome artisans prefer unique clockworks over perfectly functioning ones that cop
 
 | dice: d8 | Malfunction |
 |----------|-------------|
-| 1 | **Faulty Sensors.** Roll a `d6` at the start of the clock work's turn. If you roll a 1, the clockwork is [blinded](conditions.md#Blinded) until the end of its turn. |
+| 1 | **Faulty Sensors.** Roll a `d6` at the start of the clock work's turn. If you roll a 1, the clockwork is [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded) until the end of its turn. |
 | 2 | **Flawed Targeting.** Roll a `d6` at the start of the clock work's turn. If you roll a 1, the clockwork makes attack rolls with disadvantage until the end of its turn. |
 | 3 | **Ground Fault.** The clockwork has vulnerability to lightning damage. |
 | 4 | **Imprinting Loop.** Roll a `d6` at the start of the clock work's turn. If you roll a 1, the clockwork mistakes one creature it can see within 30 feet for its creator. The clockwork won't willingly harm that creature for 1 minute or until that creature attacks or dam ages it. |
 | 5 | **Limited Steering.** The clockwork must move in a straight line. It can turn up to 90 degrees before moving and again at the midpoint of its movement. It can rotate freely if it doesn't use any of its speeds on its turn. |
 | 6 | **Overactive Sense of Self-Preservation.** If the clock work has half its hit points or fewer at the start of its turn in combat, roll a `d6`. If you roll a 1, it retreats from combat if possible. It otherwise keeps fighting. |
-| 7 | **Overheats.** Roll a `d6` at the start of the clockwork's turn. If you roll a 1, the clockwork is [incapacitated](conditions.md#Incapacitated) until the end of its turn. |
+| 7 | **Overheats.** Roll a `d6` at the start of the clockwork's turn. If you roll a 1, the clockwork is [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated) until the end of its turn. |
 | 8 | **Rusty Gears.** The clockwork has disadvantage on initiative rolls, and its speed decreases by 10 feet. |
 ^clockwork-malfunctions
 
@@ -69,45 +71,46 @@ Gnome artisans prefer unique clockworks over perfectly functioning ones that cop
 "ac_class": "natural armor"
 "hp": !!int "105"
 "hit_dice": "14d8 + 42"
+"modifier": !!int "0"
 "stats":
-- !!int "19"
-- !!int "10"
-- !!int "17"
-- !!int "3"
-- !!int "10"
-- !!int "1"
+  - !!int "19"
+  - !!int "10"
+  - !!int "17"
+  - !!int "3"
+  - !!int "10"
+  - !!int "1"
 "speed": "30 ft."
 "damage_immunities": "poison"
-"condition_immunities": "[charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
-  \ [exhaustion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
-  \ [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
-  \ [paralyzed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
-  \ [petrified](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
-  \ [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
+  \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
+  \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
+  \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
+  \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
+  \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "darkvision 60 ft., passive Perception 10"
 "languages": "understands one language of its creator but can't speak"
 "cr": "4"
 "traits":
-- "desc": "The clockwork has advantage on saving throws against spells and other magical\
-    \ effects."
-  "name": "Magic Resistance"
-- "desc": "The clockwork doesn't require air, food, drink, or sleep."
-  "name": "Unusual Nature"
+  - "desc": "The clockwork has advantage on saving throws against spells and other\
+      \ magical effects."
+    "name": "Magic Resistance"
+  - "desc": "The clockwork doesn't require air, food, drink, or sleep."
+    "name": "Unusual Nature"
 "actions":
-- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11\
-    \ (2d6 + 4) bludgeoning damage, and if the target is Large or smaller, it is\
-    \ knocked [prone](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
-  "name": "Slam"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11\
+      \ (2d6 + 4) bludgeoning damage, and if the target is Large or smaller, it\
+      \ is knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
+    "name": "Slam"
 "reactions":
-- "desc": "In response to another creature within 5 feet of it being hit by an attack\
-    \ roll, the clockwork gives that creature a +5 bonus to its AC against that attack,\
-    \ potentially causing a miss. To use this ability, the clockwork must be able\
-    \ to see the creature and the attacker."
-  "name": "Intercept Attack"
+  - "desc": "In response to another creature within 5 feet of it being hit by an attack\
+      \ roll, the clockwork gives that creature a +5 bonus to its AC against that\
+      \ attack, potentially causing a miss. To use this ability, the clockwork must\
+      \ be able to see the creature and the attacker."
+    "name": "Intercept Attack"
 "source":
-- "MPMM"
-- "MTF"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/construct/token/clockwork-stone-defender-mpmm.webp"
+  - "MPMM"
+  - "MTF"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/token/clockwork-stone-defender-mpmm.webp"
 ```
 ^statblock
 

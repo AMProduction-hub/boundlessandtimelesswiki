@@ -11,14 +11,16 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/beast
 statblock: inline
-aliases: ["Swarm of Bats"]
+statblock-link: "#^statblock"
+aliases:
+- Swarm of Bats
 ---
-# [Swarm of Bats](03 - Player Log & Handouts\Mechanics\CLI\bestiary\beast/swarm-of-bats.md)
-*Source: Monster Manual p. 337. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Swarm of Bats](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/swarm-of-bats.md)
+*Source: Monster Manual p. 337, Curse of Strahd, Princes of the Apocalypse, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Explorer's Guide to Wildemount, Candlekeep Mysteries. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 > [!note] The Nature of Swarms
 > 
-> The swarms presented here aren't ordinary or benign assemblies of little creatures. They form as a result of some sinister or unwholesome influence. A vampire can summon swarms of bats and rats from the darkest corners of the night, while the very presence of a mummy lord can cause scarab beetles to boil up from the sand-filled depths of its tomb. A hag might have the power to turn swarms of ravens against her enemies, while a [yuan-ti abomination](yuan-ti-abomination.md) might have [swarms of poisonous snakes](swarm-of-poisonous-snakes.md) slithering in its wake. Even druids can't charm these swarms, and their aggressiveness is borderline unnatural.
+> The swarms presented here aren't ordinary or benign assemblies of little creatures. They form as a result of some sinister or unwholesome influence. A vampire can summon swarms of bats and rats from the darkest corners of the night, while the very presence of a mummy lord can cause scarab beetles to boil up from the sand-filled depths of its tomb. A hag might have the power to turn swarms of ravens against her enemies, while a [yuan-ti abomination](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/yuan-ti-abomination.md) might have [swarms of poisonous snakes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/swarm-of-poisonous-snakes.md) slithering in its wake. Even druids can't charm these swarms, and their aggressiveness is borderline unnatural.
 ^the-nature-of-swarms
 
 ```statblock
@@ -29,44 +31,51 @@ aliases: ["Swarm of Bats"]
 "ac": !!int "12"
 "hp": !!int "22"
 "hit_dice": "5d8"
+"modifier": !!int "2"
 "stats":
-- !!int "5"
-- !!int "15"
-- !!int "10"
-- !!int "2"
-- !!int "12"
-- !!int "4"
+  - !!int "5"
+  - !!int "15"
+  - !!int "10"
+  - !!int "2"
+  - !!int "12"
+  - !!int "4"
 "speed": "0 ft., fly 30 ft."
 "damage_resistances": "bludgeoning, piercing, slashing"
-"condition_immunities": "[charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
-  \ [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
-  \ [grappled](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Grappled),\
-  \ [paralyzed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
-  \ [petrified](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
-  \ [prone](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Prone),\
-  \ [restrained](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
-  \ [stunned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Stunned)"
+"condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
+  \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
+  \ [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled),\
+  \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
+  \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
+  \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
+  \ [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)"
 "senses": "blindsight 60 ft., passive Perception 11"
 "languages": ""
 "cr": "1/4"
 "traits":
-- "desc": "The swarm can't use its blindsight while [deafened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Deafened)."
-  "name": "Echolocation"
-- "desc": "The swarm has advantage on Wisdom ([Perception](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/skills.md#Perception))\
-    \ checks that rely on hearing."
-  "name": "Keen Hearing"
-- "desc": "The swarm can occupy another creature's space and vice versa, and the swarm\
-    \ can move through any opening large enough for a Tiny bat. The swarm can't regain\
-    \ hit points or gain temporary hit points."
-  "name": "Swarm"
+  - "desc": "The swarm can't use its blindsight while [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened)."
+    "name": "Echolocation"
+  - "desc": "The swarm has advantage on Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception))\
+      \ checks that rely on hearing."
+    "name": "Keen Hearing"
+  - "desc": "The swarm can occupy another creature's space and vice versa, and the\
+      \ swarm can move through any opening large enough for a Tiny bat. The swarm\
+      \ can't regain hit points or gain temporary hit points."
+    "name": "Swarm"
 "actions":
-- "desc": "Melee Weapon Attack: +4 to hit, reach 0 ft., one creature in the swarm's\
-    \ space. Hit: 5 (2d4) piercing damage, or 2 (1d4) piercing damage if the\
-    \ swarm has half of its hit points or fewer."
-  "name": "Bites"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 0 ft., one creature in the\
+      \ swarm's space. Hit: 5 (2d4) piercing damage, or 2 (d4) piercing damage\
+      \ if the swarm has half of its hit points or fewer."
+    "name": "Bites"
 "source":
-- "MM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/beast/token/swarm-of-bats.webp"
+  - "MM"
+  - "CoS"
+  - "PotA"
+  - "TftYP"
+  - "ToA"
+  - "WDMM"
+  - "EGW"
+  - "CM"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/swarm-of-bats.webp"
 ```
 ^statblock
 

@@ -10,11 +10,11 @@ aliases:
 ---
 # Brazier of Commanding Fire Elementals
 *Wondrous item, major, rare*  
-![](brazier-of-commanding-fire-elementals.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/brazier-of-commanding-fire-elementals.webp#right)
 
 - **Weight**: 5.0 lbs.
 
-While a fire burns in this brass brazier, you can use an action to speak the brazier's command word and summon a [fire elemental](fire-elemental.md), as if you had cast the [conjure elemental](conjure-elemental.md) spell. The brazier can't be used this way again until the next dawn.
+While a fire burns in this brass brazier, you can use an action to speak the brazier's command word and summon a [fire elemental](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/fire-elemental.md), as if you had cast the [conjure elemental](03.PlayerLog&Handouts/Mechanics/CLI/spells/conjure-elemental.md) spell. The brazier can't be used this way again until the next dawn.
 
 The brazier weighs 5 pounds.
 

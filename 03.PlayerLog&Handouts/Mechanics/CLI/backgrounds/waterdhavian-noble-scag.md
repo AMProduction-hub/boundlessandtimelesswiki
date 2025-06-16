@@ -4,7 +4,8 @@ cssclasses: json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/scag
-aliases: ["Waterdhavian Noble"]
+aliases:
+- Waterdhavian Noble
 ---
 # Waterdhavian Noble
 *Source: Sword Coast Adventurer's Guide p. 154*  
@@ -13,7 +14,7 @@ aliases: ["Waterdhavian Noble"]
 - **Skill Proficiencies.** [History](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#History), [Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion)  
 - **Languages.** Any one of your choice  
 - **Tool Proficiencies.** One type of gaming set or musical instrument  
-- **Equipment.** A set of [fine clothes](fine-clothes.md), a [signet ring](signet-ring.md) or brooch, a scroll of pedigree, a skin of fine zzar or wine, and a purse containing 20 gp  
+- **Equipment.** A set of [fine clothes](03.PlayerLog&Handouts/Mechanics/CLI/items/fine-clothes.md), a [signet ring](03.PlayerLog&Handouts/Mechanics/CLI/items/signet-ring.md) or brooch, a scroll of pedigree, a skin of fine zzar or wine, and a purse containing 20 gp  
 
 You are a scion of one of the great noble families of Waterdeep. Human families who jealously guard their privilege and place in the City of Splendors, Waterdhavian nobles have a reputation across Faerûn for being eccentric, spoiled, venal, and, above all else, rich.
 

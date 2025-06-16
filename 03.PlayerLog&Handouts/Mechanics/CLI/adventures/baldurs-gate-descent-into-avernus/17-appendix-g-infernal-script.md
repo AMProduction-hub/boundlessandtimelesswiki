@@ -3,9 +3,10 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/bgdia
-aliases: ["Appendix G: Infernal Script"]
+aliases:
+- Appendix G: Infernal Script
 ---
 # Appendix G: Infernal Script
 *Source: Baldur's Gate: Descent Into Avernus, p. 256* 
 
-![](182-ef7bt-g-01.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/adventures/baldurs-gate-descent-into-avernus/img/182-ef7bt-g-01.webp#center)

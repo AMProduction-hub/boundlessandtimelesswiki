@@ -3,6 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
+- ttrpg-cli/spell/background/golgari-agent
+- ttrpg-cli/spell/background/selesnya-initiate
 - ttrpg-cli/spell/class/bard
 - ttrpg-cli/spell/class/druid
 - ttrpg-cli/spell/class/ranger
@@ -22,7 +24,8 @@ classes:
 - Paladin (Oath of the Ancients)
 - Ranger
 - Warlock (The Archfey)
-aliases: ["Plant Growth"]
+aliases:
+- Plant Growth
 ---
 # Plant Growth
 *3rd-level, Transmutation*  
@@ -41,6 +44,6 @@ You can exclude one or more areas of any size within the spell's area from being
 
 If you cast this spell over 8 hours, you enrich the land. All plants in a half-mile radius centered on a point within range become enriched for 1 year. The plants yield twice the normal amount of food when harvested.
 
-**Classes**: [Druid](list-spells-classes-druid.md); [Warlock (The Archfey)](list-spells-classes-warlock-the-archfey.md); [Druid (Circle of the Land)](list-spells-classes-druid-circle-of-the-land.md); [Bard](list-spells-classes-bard.md); [Paladin (Oath of the Ancients)](list-spells-classes-paladin-oath-of-the-ancients.md); [Ranger](list-spells-classes-ranger.md); [Druid (Circle of Wildfire)](list-spells-classes-druid-circle-of-wildfire-tce.md "subclass=TCE"); [Cleric (Nature Domain)](list-spells-classes-cleric-nature-domain.md)
+**Classes**: [Paladin (Oath of the Ancients)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-the-ancients.md); [Druid (Circle of Wildfire)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-circle-of-wildfire-tce.md "subclass=TCE"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock (The Archfey)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-archfey.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Ranger](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-ranger.md); [Druid (Circle of the Land)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-circle-of-the-land.md); [Cleric (Nature Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-nature-domain.md)
 
 *Source: Player's Handbook p. 266. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

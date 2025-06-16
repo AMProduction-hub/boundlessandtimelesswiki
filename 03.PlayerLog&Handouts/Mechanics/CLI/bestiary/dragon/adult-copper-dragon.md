@@ -8,10 +8,12 @@ tags:
 - ttrpg-cli/monster/size/huge
 - ttrpg-cli/monster/type/dragon
 statblock: inline
-aliases: ["Adult Copper Dragon"]
+statblock-link: "#^statblock"
+aliases:
+- Adult Copper Dragon
 ---
-# [Adult Copper Dragon](03 - Player Log & Handouts\Mechanics\CLI\bestiary\dragon/adult-copper-dragon.md)
-*Source: Monster Manual p. 112, Sigil and the Outlands. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Adult Copper Dragon](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\dragon/adult-copper-dragon.md)
+*Source: Monster Manual p. 112, Ghosts of Saltmarsh, Candlekeep Mysteries. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Copper dragons are incorrigible pranksters, joke tellers, and riddlers that live in hills and rocky uplands. Despite their gregarious and even-tempered natures, they possess a covetous, miserly streak, and can become dangerous when their hoards are threatened.
 
@@ -88,130 +90,135 @@ True dragons pass through four distinct stages of life, from lowly wyrmlings to 
 "ac_class": "natural armor"
 "hp": !!int "184"
 "hit_dice": "16d12 + 80"
+"modifier": !!int "1"
 "stats":
-- !!int "23"
-- !!int "12"
-- !!int "21"
-- !!int "18"
-- !!int "15"
-- !!int "17"
+  - !!int "23"
+  - !!int "12"
+  - !!int "21"
+  - !!int "18"
+  - !!int "15"
+  - !!int "17"
 "speed": "40 ft., climb 40 ft., fly 80 ft."
 "saves":
-  "Charisma": !!int "8"
-  "Dexterity": !!int "6"
-  "Wisdom": !!int "7"
-  "Constitution": !!int "10"
+  - "dexterity": "+6"
+  - "constitution": "+10"
+  - "wisdom": "+7"
+  - "charisma": "+8"
 "skillsaves":
-  "Deception": !!int "8"
-  "Stealth": !!int "6"
-  "Perception": !!int "12"
+  - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
+    "desc": "+8"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+12"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+6"
 "damage_immunities": "acid"
 "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 22"
 "languages": "Common, Draconic"
 "cr": "14"
 "traits":
-- "desc": "If the dragon fails a saving throw, it can choose to succeed instead."
-  "name": "Legendary Resistance (3/Day)"
+  - "desc": "If the dragon fails a saving throw, it can choose to succeed instead."
+    "name": "Legendary Resistance (3/Day)"
 "actions":
-- "desc": "The dragon can use its Frightful Presence. It then makes three attacks:\
-    \ one with its bite and two with its claws."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 17\
-    \ (2d10 + 6) piercing damage."
-  "name": "Bite"
-- "desc": "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 13\
-    \ (2d6 + 6) slashing damage."
-  "name": "Claw"
-- "desc": "Melee Weapon Attack: +11 to hit, reach 15 ft., one target. Hit: 15\
-    \ (2d8 + 6) bludgeoning damage."
-  "name": "Tail"
-- "desc": "Each creature of the dragon's choice that is within 120 feet of the dragon\
-    \ and aware of it must succeed on a DC 16 Wisdom saving throw or become [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened)\
-    \ for 1 minute. A creature can repeat the saving throw at the end of each of its\
-    \ turns, ending the effect on itself on a success. If a creature's saving throw\
-    \ is successful or the effect ends for it, the creature is immune to the dragon's\
-    \ Frightful Presence for the next 24 hours."
-  "name": "Frightful Presence"
-- "desc": "The dragon uses one of the following breath weapons.\n\n- Acid Breath.\
-    \ The dragon exhales acid in a 60-foot line that is 5 feet wide. Each creature\
-    \ in that line must make a DC 18 Dexterity saving throw, taking 54 (12d8) acid\
-    \ damage on a failed save, or half as much damage on a successful one.  \n- Slowing\
-    \ Breath. The dragon exhales gas in a 60-foot cone. Each creature in that area\
-    \ must succeed on a DC 18 Constitution saving throw. On a failed save, the creature\
-    \ can't use reactions, its speed is halved, and it can't make more than one attack\
-    \ on its turn. In addition, the creature can use either an action or a bonus action\
-    \ on its turn, but not both. These effects last for 1 minute. The creature can\
-    \ repeat the saving throw at the end of each of its turns, ending the effect on\
-    \ itself with a successful save.  "
-  "name": "Breath Weapons (Recharge 5-6)"
+  - "desc": "The dragon can use its Frightful Presence. It then makes three attacks:\
+      \ one with its bite and two with its claws."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit:\
+      \ 17 (2d10 + 6) piercing damage."
+    "name": "Bite"
+  - "desc": "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit:\
+      \ 13 (2d6 + 6) slashing damage."
+    "name": "Claw"
+  - "desc": "Melee Weapon Attack: +11 to hit, reach 15 ft., one target. Hit:\
+      \ 15 (2d8 + 6) bludgeoning damage."
+    "name": "Tail"
+  - "desc": "Each creature of the dragon's choice that is within 120 feet of the dragon\
+      \ and aware of it must succeed on a DC 16 Wisdom saving throw or become [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)\
+      \ for 1 minute. A creature can repeat the saving throw at the end of each of\
+      \ its turns, ending the effect on itself on a success. If a creature's saving\
+      \ throw is successful or the effect ends for it, the creature is immune to the\
+      \ dragon's Frightful Presence for the next 24 hours."
+    "name": "Frightful Presence"
+  - "desc": "The dragon uses one of the following breath weapons.\n\n- Acid Breath.\
+      \ The dragon exhales acid in a 60-foot line that is 5 feet wide. Each creature\
+      \ in that line must make a DC 18 Dexterity saving throw, taking 54 (12d8)\
+      \ acid damage on a failed save, or half as much damage on a successful one.\
+      \  \n- Slowing Breath. The dragon exhales gas in a 60-foot cone. Each creature\
+      \ in that area must succeed on a DC 18 Constitution saving throw. On a failed\
+      \ save, the creature can't use reactions, its speed is halved, and it can't\
+      \ make more than one attack on its turn. In addition, the creature can use either\
+      \ an action or a bonus action on its turn, but not both. These effects last\
+      \ for 1 minute. The creature can repeat the saving throw at the end of each\
+      \ of its turns, ending the effect on itself with a successful save.  "
+    "name": "Breath Weapons (Recharge 5-6)"
 "legendary_actions":
-- "desc": "The dragon makes a Wisdom ([Perception](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/skills.md#Perception))\
-    \ check."
-  "name": "Detect"
-- "desc": "The dragon makes a tail attack."
-  "name": "Tail Attack"
-- "desc": "The dragon beats its wings. Each creature within 10 feet of the dragon\
-    \ must succeed on a DC 19 Dexterity saving throw or take 13 (2d6 + 6) bludgeoning\
-    \ damage and be knocked [prone](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Prone).\
-    \ The dragon can then fly up to half its flying speed."
-  "name": "Wing Attack (Costs 2 Actions)"
+  - "desc": "The dragon makes a Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception))\
+      \ check."
+    "name": "Detect"
+  - "desc": "The dragon makes a tail attack."
+    "name": "Tail Attack"
+  - "desc": "The dragon beats its wings. Each creature within 10 feet of the dragon\
+      \ must succeed on a DC 19 Dexterity saving throw or take 13 (2d6 + 6) bludgeoning\
+      \ damage and be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone).\
+      \ The dragon can then fly up to half its flying speed."
+    "name": "Wing Attack (Costs 2 Actions)"
 "lair_actions":
-- "desc": "On initiative count 20 (losing initiative ties), the dragon takes a lair\
-    \ action to cause one of the following effects:"
-  "name": ""
-- "desc": "- The dragon chooses a point on the ground that it can see within 120 feet\
-    \ of it. Stone spikes sprout from the ground in a 20-foot radius centered on that\
-    \ point. The effect is otherwise identical to the [spike growth](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/spike-growth.md)\
-    \ spell and lasts until the dragon uses this lair action again or until the dragon\
-    \ dies.  \n- The dragon chooses a 10-foot-square area on the ground that it can\
-    \ see within 120 feet of it. The ground in that area turns into 3-foot-deep mud.\
-    \ Each creature on the ground in that area when the mud appears must succeed on\
-    \ a DC 15 Dexterity saving throw or sink into the mud and become [restrained](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Restrained).\
-    \ A creature can take an action to attempt a DC 15 Strength check, freeing itself\
-    \ or another creature within its reach and ending the [restrained](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
-    \ condition on a success. Moving 1 foot in the mud costs 2 feet of movement. On\
-    \ initiative count 20 on the next round, the mud hardens, and the Strength DC\
-    \ to work free increases to 20.  "
-  "name": ""
-- "desc": "At your discretion, a legendary ([adult](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/dragon/adult-copper-dragon.md)\
-    \ or [ancient](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/dragon/ancient-copper-dragon.md))\
-    \ copper dragon can use one or both of the following additional lair actions while\
-    \ in its lair:\n\n- Laughing Gas. The dragon chooses a point on the ground\
-    \ that it can see within 120 feet of it. A cloud of pink gas fills a 20-foot-radius\
-    \ sphere centered on that point. Each creature in that area that fails a DC 15\
-    \ Wisdom saving throw is [incapacitated](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)\
-    \ with laughter until the end of its next turn.  \n- Torpid Energy. The dragon\
-    \ chooses a creature it can see within 120 feet of it. If the target fails a DC\
-    \ 15 Constitution saving throw, its speed is halved, and it can't use reactions\
-    \ or bonus actions until the end of its next turn.  "
-  "name": "Additional Lair Actions"
+  - "desc": "On initiative count 20 (losing initiative ties), the dragon takes a lair\
+      \ action to cause one of the following effects:"
+    "name": ""
+  - "desc": "- The dragon chooses a point on the ground that it can see within 120\
+      \ feet of it. Stone spikes sprout from the ground in a 20-foot radius centered\
+      \ on that point. The effect is otherwise identical to the [spike growth](03.PlayerLog&Handouts/Mechanics/CLI/spells/spike-growth.md)\
+      \ spell and lasts until the dragon uses this lair action again or until the\
+      \ dragon dies.  \n- The dragon chooses a 10-foot-square area on the ground that\
+      \ it can see within 120 feet of it. The ground in that area turns into 3-foot-deep\
+      \ mud. Each creature on the ground in that area when the mud appears must succeed\
+      \ on a DC 15 Dexterity saving throw or sink into the mud and become [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained).\
+      \ A creature can take an action to attempt a DC 15 Strength check, freeing itself\
+      \ or another creature within its reach and ending the [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
+      \ condition on a success. Moving 1 foot in the mud costs 2 feet of movement.\
+      \ On initiative count 20 on the next round, the mud hardens, and the Strength\
+      \ DC to work free increases to 20.  "
+    "name": ""
+  - "desc": "At your discretion, a legendary ([adult](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/adult-copper-dragon.md)\
+      \ or [ancient](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/ancient-copper-dragon.md))\
+      \ copper dragon can use one or both of the following additional lair actions\
+      \ while in its lair:\n\n- Laughing Gas. The dragon chooses a point on the\
+      \ ground that it can see within 120 feet of it. A cloud of pink gas fills a\
+      \ 20-foot-radius sphere centered on that point. Each creature in that area that\
+      \ fails a DC 15 Wisdom saving throw is [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)\
+      \ with laughter until the end of its next turn.  \n- Torpid Energy. The\
+      \ dragon chooses a creature it can see within 120 feet of it. If the target\
+      \ fails a DC 15 Constitution saving throw, its speed is halved, and it can't\
+      \ use reactions or bonus actions until the end of its next turn.  "
+    "name": "Additional Lair Actions"
 "regional_effects":
-- "desc": "The region containing a legendary copper dragon's lair is warped by the\
-    \ dragon's magic, which creates one or more of the following effects:"
-  "name": ""
-- "desc": "- Magic carvings of the dragon's smiling visage can be seen worked into\
-    \ stone terrain and objects within 6 miles of the dragon's lair.  \n- Tiny beasts\
-    \ such as rodents and birds that are normally unable to speak gain the magical\
-    \ ability to speak and understand Draconic while within 1 mile of the dragon's\
-    \ lair. These creatures speak well of the dragon, but can't divulge its whereabouts.\
-    \  \n- Intelligent creatures within 1 mile of the dragon's lair are prone to fits\
-    \ of giggling. Even serious matters suddenly seem amusing.  "
-  "name": ""
-- "desc": "If the dragon dies, the magic carvings fade over the course of 1d10 days.\
-    \ The other effects end immediately."
-  "name": ""
-- "desc": "Either of these effects might appear in the area around a copper dragon's\
-    \ lair, in addition to or instead of the effects described in the Monster Manual:\n\
-    \n- Distant Melodies. The ethereal music of woodwinds and bells can be heard\
-    \ carried on the wind within 1 mile of the dragon's lair.  \n- Starlit Stones.\
-    \ Standing stones are common on hilltops within 1 mile of the dragon's lair. The\
-    \ stones shed dim light in a 10-foot radius at night. (If the dragon dies, the\
-    \ stones remain, but they no longer shed light.)  "
-  "name": "Additional Regional Effects"
+  - "desc": "The region containing a legendary copper dragon's lair is warped by the\
+      \ dragon's magic, which creates one or more of the following effects:"
+    "name": ""
+  - "desc": "- Magic carvings of the dragon's smiling visage can be seen worked into\
+      \ stone terrain and objects within 6 miles of the dragon's lair.  \n- Tiny beasts\
+      \ such as rodents and birds that are normally unable to speak gain the magical\
+      \ ability to speak and understand Draconic while within 1 mile of the dragon's\
+      \ lair. These creatures speak well of the dragon, but can't divulge its whereabouts.\
+      \  \n- Intelligent creatures within 1 mile of the dragon's lair are prone to\
+      \ fits of giggling. Even serious matters suddenly seem amusing.  "
+    "name": ""
+  - "desc": "If the dragon dies, the magic carvings fade over the course of d10\
+      \ days. The other effects end immediately."
+    "name": ""
+  - "desc": "Either of these effects might appear in the area around a copper dragon's\
+      \ lair, in addition to or instead of the effects described in the Monster Manual:\n\
+      \n- Distant Melodies. The ethereal music of woodwinds and bells can be heard\
+      \ carried on the wind within 1 mile of the dragon's lair.  \n- Starlit Stones.\
+      \ Standing stones are common on hilltops within 1 mile of the dragon's lair.\
+      \ The stones shed dim light in a 10-foot radius at night. (If the dragon dies,\
+      \ the stones remain, but they no longer shed light.)  "
+    "name": "Additional Regional Effects"
 "source":
-- "MM"
-- "SatO"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/dragon/token/adult-copper-dragon.webp"
+  - "MM"
+  - "GoS"
+  - "CM"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/token/adult-copper-dragon.webp"
 ```
 ^statblock
 

@@ -4,10 +4,11 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/subclass/sorcerer/clockwork-soul
-aliases: ["Clockwork Soul"]
+aliases:
+- Clockwork Soul
 ---
 # Clockwork Soul
-*[Sorcerer](sorcerer.md): Sorcerous Origin*  
+*[Sorcerer](./sorcerer.md): Sorcerous Origin*  
 *Source: Tasha's Cauldron of Everything p. 68*  
 
 > [!tldr] Class and Feature Progression
@@ -60,11 +61,11 @@ Whenever you gain a sorcerer level, you can replace one spell you gained from th
 
 | Sorcerer Level | Spells |
 |----------------|--------|
-| 1st | [alarm](alarm.md), [protection from evil and good](protection-from-evil-and-good.md) |
-| 3rd | [aid](aid.md), [lesser restoration](lesser-restoration.md) |
-| 5th | [dispel magic](dispel-magic.md), [protection from energy](protection-from-energy.md) |
-| 7th | [freedom of movement](freedom-of-movement.md), [summon construct](summon-construct-tce.md) |
-| 9th | [greater restoration](greater-restoration.md), [wall of force](wall-of-force.md) |
+| 1st | [alarm](03.PlayerLog&Handouts/Mechanics/CLI/spells/alarm.md), [protection from evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/protection-from-evil-and-good.md) |
+| 3rd | [aid](03.PlayerLog&Handouts/Mechanics/CLI/spells/aid.md), [lesser restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/lesser-restoration.md) |
+| 5th | [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md), [protection from energy](03.PlayerLog&Handouts/Mechanics/CLI/spells/protection-from-energy.md) |
+| 7th | [freedom of movement](03.PlayerLog&Handouts/Mechanics/CLI/spells/freedom-of-movement.md), [summon construct](03.PlayerLog&Handouts/Mechanics/CLI/spells/summon-construct-tce.md) |
+| 9th | [greater restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-restoration.md), [wall of force](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-force.md) |
 ^clockwork-spells
 
 In addition, consult the Manifestations of Order table and choose or randomly determine a way your connection to order manifests while you are casting any of your sorcerer spells.

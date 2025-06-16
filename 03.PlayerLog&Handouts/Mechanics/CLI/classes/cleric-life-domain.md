@@ -5,10 +5,11 @@ tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/domain/life
 - ttrpg-cli/subclass/cleric/life
-aliases: ["Life Domain"]
+aliases:
+- Life Domain
 ---
 # Life Domain
-*[Cleric](cleric.md): Divine Domain*  
+*[Cleric](./cleric.md): Divine Domain*  
 *Source: Player's Handbook p. 60. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 > [!tldr] Class and Feature Progression
@@ -47,7 +48,7 @@ aliases: ["Life Domain"]
 
 ### Life Domain (Level 1)
 
-The Life domain focuses on the vibrant positive energy—one of the fundamental forces of the universe—that sustains all life. The gods of life promote vitality and health through healing the sick and wounded, caring for those in need, and driving away the forces of death and undeath. Almost any non-evil deity can claim influence over this domain, particularly agricultural deities (such as Chauntea, Arawai, and Demeter), sun gods (such as Lathander, Pelor, and Re-Horakhty), gods of healing or endurance (such as Ilmater, Mishakal, Apollo, and Diancecht), and gods of home and community (such as Hestia, Hathor, and Boldrei).
+The Life domain focuses on the vibrant positive energy—one of the fundamental forces of the universe—that sustains all life. The gods of life promote vitality and health through healing the sick and wounded, caring for those in need, and driving away the forces of death and undeath. Almost any non-evil deity can claim influence over this domain, particularly agricultural deities (such as Chauntea, Arawai, and [Demeter](03.PlayerLog&Handouts/Mechanics/CLI/deities/greek-demeter.md)), sun gods (such as Lathander, [Pelor](03.PlayerLog&Handouts/Mechanics/CLI/deities/greyhawk-pelor.md), and [Re-Horakhty](03.PlayerLog&Handouts/Mechanics/CLI/deities/egyptian-re-horakhty.md)), gods of healing or endurance (such as Ilmater, Mishakal, [Apollo](03.PlayerLog&Handouts/Mechanics/CLI/deities/greek-apollo.md), and [Diancecht](03.PlayerLog&Handouts/Mechanics/CLI/deities/celtic-diancecht.md)), and gods of home and community (such as [Hestia](03.PlayerLog&Handouts/Mechanics/CLI/deities/greek-hestia.md), [Hathor](03.PlayerLog&Handouts/Mechanics/CLI/deities/egyptian-hathor.md), and Boldrei).
 
 At each indicated cleric level, you add the listed spells to your spells prepared.
 
@@ -55,11 +56,11 @@ At each indicated cleric level, you add the listed spells to your spells prepare
 
 | Cleric Level | Spells |
 |--------------|--------|
-| 1st | [bless](bless.md), [cure wounds](cure-wounds.md) |
-| 3rd | [lesser restoration](lesser-restoration.md), [spiritual weapon](spiritual-weapon.md) |
-| 5th | [beacon of hope](beacon-of-hope.md), [revivify](revivify.md) |
-| 7th | [death ward](death-ward.md), [guardian of faith](guardian-of-faith.md) |
-| 9th | [mass cure wounds](mass-cure-wounds.md), [raise dead](raise-dead.md) |
+| 1st | [bless](03.PlayerLog&Handouts/Mechanics/CLI/spells/bless.md), [cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/cure-wounds.md) |
+| 3rd | [lesser restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/lesser-restoration.md), [spiritual weapon](03.PlayerLog&Handouts/Mechanics/CLI/spells/spiritual-weapon.md) |
+| 5th | [beacon of hope](03.PlayerLog&Handouts/Mechanics/CLI/spells/beacon-of-hope.md), [revivify](03.PlayerLog&Handouts/Mechanics/CLI/spells/revivify.md) |
+| 7th | [death ward](03.PlayerLog&Handouts/Mechanics/CLI/spells/death-ward.md), [guardian of faith](03.PlayerLog&Handouts/Mechanics/CLI/spells/guardian-of-faith.md) |
+| 9th | [mass cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/mass-cure-wounds.md), [raise dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/raise-dead.md) |
 ^life-domain-spells
 
 ### Bonus Proficiency (Level 1)
@@ -82,14 +83,14 @@ Beginning at 6th level, the healing spells you cast on others heal you as well. 
 
 ### Divine Strike (Level 8)
 
-At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra `1d8` radiant damage to the target. When you reach 14th level, the extra damage increases to `2d8`.
+At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra `d8` radiant damage to the target. When you reach 14th level, the extra damage increases to `2d8`.
 
 ### Blessed Strikes (Level 8)
 _Source: Tasha's Cauldron of Everything p. 30_
 
-*8th-level cleric [optional feature](optional-class-features-tce.md), which replaces the Divine Strike feature*
+*8th-level cleric [optional feature](03.PlayerLog&Handouts/Mechanics/CLI/rules/variant-rules/optional-class-features-tce.md), which replaces the Divine Strike feature*
 
-You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal `1d8` radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.
+You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal `d8` radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.
 
 ### Supreme Healing (Level 17)
 

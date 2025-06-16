@@ -7,10 +7,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/construct
 statblock: inline
-aliases: ["Duodrone"]
+statblock-link: "#^statblock"
+aliases:
+- Duodrone
 ---
-# [Duodrone](03 - Player Log & Handouts\Mechanics\CLI\bestiary\construct/duodrone.md)
-*Source: Monster Manual p. 225*  
+# [Duodrone](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/duodrone.md)
+*Source: Monster Manual p. 225, Keys from the Golden Vault*  
 
 The blocky duodrones supervise units of monodrones and can perform up to two tasks at a time.
 
@@ -55,35 +57,37 @@ When the gears of Mechanus complete seventeen cycles once every 289 years, Primu
 "ac_class": "natural armor"
 "hp": !!int "11"
 "hit_dice": "2d8 + 2"
+"modifier": !!int "1"
 "stats":
-- !!int "11"
-- !!int "13"
-- !!int "12"
-- !!int "6"
-- !!int "10"
-- !!int "7"
+  - !!int "11"
+  - !!int "13"
+  - !!int "12"
+  - !!int "6"
+  - !!int "10"
+  - !!int "7"
 "speed": "30 ft."
 "senses": "truesight 120 ft., passive Perception 10"
 "languages": "Modron"
 "cr": "1/4"
 "traits":
-- "desc": "The duodrone can't be compelled to act in a manner contrary to its nature\
-    \ or its instructions."
-  "name": "Axiomatic Mind"
-- "desc": "If the duodrone dies, its body disintegrates into dust, leaving behind\
-    \ its weapons and anything else it was carrying."
-  "name": "Disintegration"
+  - "desc": "The duodrone can't be compelled to act in a manner contrary to its nature\
+      \ or its instructions."
+    "name": "Axiomatic Mind"
+  - "desc": "If the duodrone dies, its body disintegrates into dust, leaving behind\
+      \ its weapons and anything else it was carrying."
+    "name": "Disintegration"
 "actions":
-- "desc": "The duodrone makes two fist attacks or two javelin attacks."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4)\
-    \ bludgeoning damage."
-  "name": "Fist"
-- "desc": "Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 30/120\
-    \ ft., one target. Hit: 4 (1d6 + 1) piercing damage."
-  "name": "Javelin"
+  - "desc": "The duodrone makes two fist attacks or two javelin attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2\
+      \ (d4) bludgeoning damage."
+    "name": "Fist"
+  - "desc": "Melee  or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 30/120\
+      \ ft., one target. Hit: 4 (1d6 + 1) piercing damage."
+    "name": "Javelin"
 "source":
-- "MM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/construct/token/duodrone.webp"
+  - "MM"
+  - "KftGV"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/token/duodrone.webp"
 ```
 ^statblock

@@ -9,7 +9,7 @@ aliases:
 ---
 # Soul Coin
 *Wondrous item, uncommon*  
-![](soul-coin.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/soul-coin.webp#right)
 
 - **Weight**: 0.333 lbs.
 
@@ -25,14 +25,14 @@ An evil creature can carry as many soul coins as it wishes (up to its maximum we
 
 A soul coin has 3 charges. A creature carrying the coin can use its action to expend 1 charge from a soul coin and use it to do one of the following:
 
-- **Drain Life.** You siphon away some of the soul's essence and gain `1d10` temporary hit points.  
+- **Drain Life.** You siphon away some of the soul's essence and gain `d10` temporary hit points.  
 - **Query.** You telepathically ask the soul a question and receive a brief telepathic response, which you can understand. The soul knows only what it knew in life, but it must answer you truthfully and to the best of its ability. The answer is no more than a sentence or two and might be cryptic.  
 
 ## Freeing a Soul
 
-Casting a spell that removes a curse on a soul coin frees the soul trapped within it, as does expending all of the coin's charges. The coin itself rusts from within and is destroyed once the soul is released. A freed soul travels to the realm of the god it served or the outer plane most closely tied to its alignment (DM's choice). The souls of lawful evil creatures released from soul coins typically emerge from the River Styx as [lemure](lemure.md) devils.
+Casting a spell that removes a curse on a soul coin frees the soul trapped within it, as does expending all of the coin's charges. The coin itself rusts from within and is destroyed once the soul is released. A freed soul travels to the realm of the god it served or the outer plane most closely tied to its alignment (DM's choice). The souls of lawful evil creatures released from soul coins typically emerge from the River Styx as [lemure](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/lemure.md) devils.
 
-A soul can also be freed by destroying the coin that contains it. A soul coin has AC 19, 1 hit point for each charge it has remaining, and immunity to all damage except that which is dealt by a [hellfire weapon](hellfire-weapon-bgdia.md) or an infernal war machine's furnace (see "Soul Fuel").
+A soul can also be freed by destroying the coin that contains it. A soul coin has AC 19, 1 hit point for each charge it has remaining, and immunity to all damage except that which is dealt by a [hellfire weapon](03.PlayerLog&Handouts/Mechanics/CLI/items/hellfire-weapon-bgdia.md) or an infernal war machine's furnace (see "Soul Fuel").
 
 Freeing a soul from a soul coin is considered a good act, even if the soul belongs to an evil creature.
 

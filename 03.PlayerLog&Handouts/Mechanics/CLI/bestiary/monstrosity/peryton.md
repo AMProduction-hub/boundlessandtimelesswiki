@@ -9,10 +9,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/monstrosity
 statblock: inline
-aliases: ["Peryton"]
+statblock-link: "#^statblock"
+aliases:
+- Peryton
 ---
-# [Peryton](03 - Player Log & Handouts\Mechanics\CLI\bestiary\monstrosity/peryton.md)
-*Source: Monster Manual p. 251*  
+# [Peryton](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/peryton.md)
+*Source: Monster Manual p. 251, Princes of the Apocalypse, Tales from the Yawning Portal, Ghosts of Saltmarsh, Icewind Dale: Rime of the Frostmaiden, Journeys through the Radiant Citadel*  
 
 Although this monstrous carnivore feeds on any creature, it prefers humanoids, especially elves, half-elves, and humans. When it kills a humanoid, a peryton rips out its prey's heart and takes it back to its nest to be devoured.
 
@@ -39,43 +41,50 @@ Established settlements are attractive to perytons as a renewable food source. A
 "ac_class": "natural armor"
 "hp": !!int "33"
 "hit_dice": "6d8 + 6"
+"modifier": !!int "1"
 "stats":
-- !!int "16"
-- !!int "12"
-- !!int "13"
-- !!int "9"
-- !!int "12"
-- !!int "10"
+  - !!int "16"
+  - !!int "12"
+  - !!int "13"
+  - !!int "9"
+  - !!int "12"
+  - !!int "10"
 "speed": "20 ft., fly 60 ft."
 "skillsaves":
-  "Perception": !!int "5"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+5"
 "damage_resistances": "bludgeoning, piercing, slashing from nonmagical attacks"
 "senses": "passive Perception 15"
 "languages": "understands Common and Elvish but can't speak"
 "cr": "2"
 "traits":
-- "desc": "If the peryton is flying and dives at least 30 feet straight toward a target\
-    \ and then hits it with a melee weapon attack, the attack deals an extra 9 (2d8)\
-    \ damage to the target."
-  "name": "Dive Attack"
-- "desc": "The peryton doesn't provoke an opportunity attack when it flies out of\
-    \ an enemy's reach."
-  "name": "Flyby"
-- "desc": "The peryton has advantage on Wisdom ([Perception](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/skills.md#Perception))\
-    \ checks that rely on sight or smell."
-  "name": "Keen Sight and Smell"
+  - "desc": "If the peryton is flying and dives at least 30 feet straight toward a\
+      \ target and then hits it with a melee weapon attack, the attack deals an extra\
+      \ 9 (2d8) damage to the target."
+    "name": "Dive Attack"
+  - "desc": "The peryton doesn't provoke an opportunity attack when it flies out of\
+      \ an enemy's reach."
+    "name": "Flyby"
+  - "desc": "The peryton has advantage on Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception))\
+      \ checks that rely on sight or smell."
+    "name": "Keen Sight and Smell"
 "actions":
-- "desc": "The peryton makes one gore attack and one talon attack."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8\
-    \ + 3) piercing damage."
-  "name": "Gore"
-- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4\
-    \ + 3) piercing damage."
-  "name": "Talons"
+  - "desc": "The peryton makes one gore attack and one talon attack."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7\
+      \ (1d8 + 3) piercing damage."
+    "name": "Gore"
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8\
+      \ (2d4 + 3) piercing damage."
+    "name": "Talons"
 "source":
-- "MM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/monstrosity/token/peryton.webp"
+  - "MM"
+  - "PotA"
+  - "TftYP"
+  - "GoS"
+  - "IDRotF"
+  - "JttRC"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/token/peryton.webp"
 ```
 ^statblock
 

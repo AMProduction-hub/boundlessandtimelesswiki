@@ -7,9 +7,11 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/plant
 statblock: inline
-aliases: ["Aartuk Elder"]
+statblock-link: "#^statblock"
+aliases:
+- Aartuk Elder
 ---
-# [Aartuk Elder](03 - Player Log & Handouts\Mechanics\CLI\bestiary\plant/aartuk-elder-bam.md)
+# [Aartuk Elder](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\plant/aartuk-elder-bam.md)
 *Source: Boo's Astral Menagerie p. 8, Light of Xaryxis*  
 
 Aartuks are intelligent plant creatures that live to wage war. Beholders destroyed their original home world and scattered the survivors across the Material Plane. These survivors formed small nomadic cells.
@@ -33,47 +35,48 @@ The Aartuk language is made up of rustling sounds, snaps, pops, and hisses. It h
 "ac_class": "natural armor"
 "hp": !!int "75"
 "hit_dice": "10d10 + 20"
+"modifier": !!int "0"
 "stats":
-- !!int "18"
-- !!int "10"
-- !!int "15"
-- !!int "12"
-- !!int "14"
-- !!int "12"
+  - !!int "18"
+  - !!int "10"
+  - !!int "15"
+  - !!int "12"
+  - !!int "14"
+  - !!int "12"
 "speed": "20 ft., climb 20 ft."
 "senses": "darkvision 60 ft., passive Perception 12"
 "languages": "Aartuk"
 "cr": "3"
 "traits":
-- "desc": "The aartuk casts one of the following spells, requiring no spell components\
-    \ and using Wisdom as the spellcasting ability (spell save DC 12):\n\n1/day\
-    \ each: [calm emotions](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/calm-emotions.md),\
-    \ [detect magic](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/detect-magic.md),\
-    \ [sending](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/sending.md)"
-  "name": "Spellcasting (Psionics)"
-- "desc": "The aartuk can climb difficult surfaces, including upside down on ceilings,\
-    \ without needing to make an ability check."
-  "name": "Spider Climb"
+  - "desc": "The aartuk can climb difficult surfaces, including upside down on ceilings,\
+      \ without needing to make an ability check."
+    "name": "Spider Climb"
 "actions":
-- "desc": "The aartuk makes two Branch attacks, two Radiant Pellet attacks, or one\
-    \ of each."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 11\
-    \ (2d6 + 4) bludgeoning damage."
-  "name": "Branch"
-- "desc": "Ranged Spell Attack: +4 to hit, range 60 ft., one target. Hit: 10\
-    \ (4d4) radiant damage."
-  "name": "Radiant Pellet"
+  - "desc": "The aartuk makes two Branch attacks, two Radiant Pellet attacks, or one\
+      \ of each."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit:\
+      \ 11 (2d6 + 4) bludgeoning damage."
+    "name": "Branch"
+  - "desc": "Ranged Spell Attack: +4 to hit, range 60 ft., one target. Hit:\
+      \ 10 (4d4) radiant damage."
+    "name": "Radiant Pellet"
+  - "desc": "The aartuk casts one of the following spells, requiring no spell components\
+      \ and using Wisdom as the spellcasting ability (spell save DC 12):\n\n1/day\
+      \ each: [calm emotions](03.PlayerLog&Handouts/Mechanics/CLI/spells/calm-emotions.md),\
+      \ [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      \ [sending](03.PlayerLog&Handouts/Mechanics/CLI/spells/sending.md)"
+    "name": "Spellcasting (Psionics)"
 "bonus_actions":
-- "desc": "The aartuk tries to use its gooey tongue to snare one Large or smaller\
-    \ creature it can see within 30 feet of itself. The target must make a DC 12 Dexterity\
-    \ saving throw. On a failed save, the target is [grappled](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
-    \ by the tongue (escape DC 14) and pulled up to 25 feet toward the aartuk. The\
-    \ tongue can grapple one creature at a time."
-  "name": "Tongue (Recharge 6)"
+  - "desc": "The aartuk tries to use its gooey tongue to snare one Large or smaller\
+      \ creature it can see within 30 feet of itself. The target must make a DC 12\
+      \ Dexterity saving throw. On a failed save, the target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
+      \ by the tongue (escape DC 14) and pulled up to 25 feet toward the aartuk. The\
+      \ tongue can grapple one creature at a time."
+    "name": "Tongue (Recharge 6)"
 "source":
-- "BAM"
-- "LoX"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/plant/token/aartuk-elder-bam.webp"
+  - "BAM"
+  - "LoX"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/token/aartuk-elder-bam.webp"
 ```
 ^statblock

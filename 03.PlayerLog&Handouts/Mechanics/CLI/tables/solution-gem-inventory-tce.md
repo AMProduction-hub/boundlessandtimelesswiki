@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/tce
-aliases: ["Solution; Gem Inventory"]
+aliases:
+- Solution; Gem Inventory
 ---
 # Solution; Gem Inventory
 *Source: Tasha's Cauldron of Everything p. 176* 

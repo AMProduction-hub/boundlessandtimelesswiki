@@ -9,10 +9,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/undead
 statblock: inline
-aliases: ["Shadow"]
+statblock-link: "#^statblock"
+aliases:
+- Shadow
 ---
-# [Shadow](03 - Player Log & Handouts\Mechanics\CLI\bestiary\undead/shadow.md)
-*Source: Monster Manual p. 269, Baldur's Gate: Descent Into Avernus, Tasha's Cauldron of Everything, Spelljammer Academy, Sigil and the Outlands. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Shadow](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/shadow.md)
+*Source: Monster Manual p. 269, Curse of Strahd, Princes of the Apocalypse, Tales from the Yawning Portal, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus, Infernal Machine Rebuild, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden, Tasha's Cauldron of Everything, Candlekeep Mysteries. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Shadows are undead that resemble dark exaggerations of humanoid shadows.
 
@@ -34,54 +36,65 @@ A shadow doesn't require air, food, drink, or sleep
 "ac": !!int "12"
 "hp": !!int "16"
 "hit_dice": "3d8 + 3"
+"modifier": !!int "2"
 "stats":
-- !!int "6"
-- !!int "14"
-- !!int "13"
-- !!int "6"
-- !!int "10"
-- !!int "8"
+  - !!int "6"
+  - !!int "14"
+  - !!int "13"
+  - !!int "6"
+  - !!int "10"
+  - !!int "8"
 "speed": "40 ft."
 "skillsaves":
-  "Stealth": !!int "4"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+4"
 "damage_vulnerabilities": "radiant"
 "damage_resistances": "acid; cold; fire; lightning; thunder; bludgeoning, piercing,\
   \ slashing from nonmagical attacks"
 "damage_immunities": "necrotic, poison"
-"condition_immunities": "[exhaustion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
-  \ [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
-  \ [grappled](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Grappled),\
-  \ [paralyzed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
-  \ [petrified](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
-  \ [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
-  \ [prone](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Prone),\
-  \ [restrained](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Restrained)"
+"condition_immunities": "[exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
+  \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
+  \ [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled),\
+  \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
+  \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
+  \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
+  \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)"
 "senses": "darkvision 60 ft., passive Perception 10"
 "languages": ""
 "cr": "1/2"
 "traits":
-- "desc": "The shadow can move through a space as narrow as 1 inch wide without squeezing."
-  "name": "Amorphous"
-- "desc": "While in dim light or darkness, the shadow can take the Hide action as\
-    \ a bonus action. Its stealth bonus is also improved to +6."
-  "name": "Shadow Stealth"
-- "desc": "While in sunlight, the shadow has disadvantage on attack rolls, ability\
-    \ checks, and saving throws."
-  "name": "Sunlight Weakness"
+  - "desc": "The shadow can move through a space as narrow as 1 inch wide without\
+      \ squeezing."
+    "name": "Amorphous"
+  - "desc": "While in dim light or darkness, the shadow can take the Hide action as\
+      \ a bonus action. Its stealth bonus is also improved to +6."
+    "name": "Shadow Stealth"
+  - "desc": "While in sunlight, the shadow has disadvantage on attack rolls, ability\
+      \ checks, and saving throws."
+    "name": "Sunlight Weakness"
 "actions":
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 9\
-    \ (2d6 + 2) necrotic damage, and the target's Strength score is reduced by 1d4.\
-    \ The target dies if this reduces its Strength to 0. Otherwise, the reduction\
-    \ lasts until the target finishes a short or long rest.\n\nIf a non-evil humanoid\
-    \ dies from this attack, a new shadow rises from the corpse 1d4 hours later."
-  "name": "Strength Drain"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit:\
+      \ 9 (2d6 + 2) necrotic damage, and the target's Strength score is reduced\
+      \ by d4. The target dies if this reduces its Strength to 0. Otherwise, the\
+      \ reduction lasts until the target finishes a short or long rest.\n\nIf a non-evil\
+      \ humanoid dies from this attack, a new shadow rises from the corpse d4 hours\
+      \ later."
+    "name": "Strength Drain"
 "source":
-- "MM"
-- "BGDIA"
-- "TCE"
-- "SjA"
-- "SatO"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/undead/token/shadow.webp"
+  - "MM"
+  - "CoS"
+  - "PotA"
+  - "TftYP"
+  - "WDH"
+  - "WDMM"
+  - "GoS"
+  - "BGDIA"
+  - "IMR"
+  - "MOT"
+  - "IDRotF"
+  - "TCE"
+  - "CM"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/token/shadow.webp"
 ```
 ^statblock
 

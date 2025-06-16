@@ -7,10 +7,12 @@ tags:
 - ttrpg-cli/monster/size/tiny
 - ttrpg-cli/monster/type/undead
 statblock: inline
-aliases: ["Crawling Claw"]
+statblock-link: "#^statblock"
+aliases:
+- Crawling Claw
 ---
-# [Crawling Claw](03 - Player Log & Handouts\Mechanics\CLI\bestiary\undead/crawling-claw.md)
-*Source: Monster Manual p. 44, Baldur's Gate: Descent Into Avernus, Light of Xaryxis*  
+# [Crawling Claw](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/crawling-claw.md)
+*Source: Monster Manual p. 44, Curse of Strahd, Princes of the Apocalypse, Tomb of Annihilation, Waterdeep: Dragon Heist, Baldur's Gate: Descent Into Avernus, Icewind Dale: Rime of the Frostmaiden, Candlekeep Mysteries, Journeys through the Radiant Citadel, Light of Xaryxis, Keys from the Golden Vault*  
 
 Crawling claws are the severed hands of murderers animated by dark magic so that they can go on killing. Wizards and warlocks of a dark bent use crawling claws as extra hands in their labors.
 
@@ -53,32 +55,41 @@ A crawling claw doesn't require air, food, drink, or sleep.
 "ac": !!int "12"
 "hp": !!int "2"
 "hit_dice": "1d4"
+"modifier": !!int "2"
 "stats":
-- !!int "13"
-- !!int "14"
-- !!int "11"
-- !!int "5"
-- !!int "10"
-- !!int "4"
+  - !!int "13"
+  - !!int "14"
+  - !!int "11"
+  - !!int "5"
+  - !!int "10"
+  - !!int "4"
 "speed": "20 ft., climb 20 ft."
 "damage_immunities": "poison"
-"condition_immunities": "[charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
-  \ [exhaustion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
-  \ [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
+  \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
+  \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "blindsight 30 ft. (blind beyond this radius), passive Perception 10"
 "languages": "understands Common but can't speak"
 "cr": "0"
 "traits":
-- "desc": "The claw is immune to effects that turn undead."
-  "name": "Turn Immunity"
+  - "desc": "The claw is immune to effects that turn undead."
+    "name": "Turn Immunity"
 "actions":
-- "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4\
-    \ + 1) bludgeoning or slashing damage (claw's choice)."
-  "name": "Claw"
+  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3\
+      \ (1d4 + 1) bludgeoning or slashing damage (claw's choice)."
+    "name": "Claw"
 "source":
-- "MM"
-- "BGDIA"
-- "LoX"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/undead/token/crawling-claw.webp"
+  - "MM"
+  - "CoS"
+  - "PotA"
+  - "ToA"
+  - "WDH"
+  - "BGDIA"
+  - "IDRotF"
+  - "CM"
+  - "JttRC"
+  - "LoX"
+  - "KftGV"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/token/crawling-claw.webp"
 ```
 ^statblock

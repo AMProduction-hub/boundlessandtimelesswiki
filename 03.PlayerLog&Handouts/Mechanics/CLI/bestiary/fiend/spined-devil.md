@@ -7,10 +7,12 @@ tags:
 - ttrpg-cli/monster/size/small
 - ttrpg-cli/monster/type/fiend/devil
 statblock: inline
-aliases: ["Spined Devil"]
+statblock-link: "#^statblock"
+aliases:
+- Spined Devil
 ---
-# [Spined Devil](03 - Player Log & Handouts\Mechanics\CLI\bestiary\fiend/spined-devil.md)
-*Source: Monster Manual p. 78, Baldur's Gate: Descent Into Avernus*  
+# [Spined Devil](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/spined-devil.md)
+*Source: Monster Manual p. 78, Tomb of Annihilation, Waterdeep: Dragon Heist, Baldur's Gate: Descent Into Avernus, Keys from the Golden Vault*  
 
 Smaller than most other devils, spinagons act as messengers and spies for greater devils and archdevils. They are the eyes and ears of the Nine Hells, and even fiends that despise a spined devil's weakness treat it with a modicum of respect. A spined devil's body and tail bristle with spines, and it can fling its tail spines as ranged weapons. The spines burst into flame on impact.
 
@@ -116,7 +118,7 @@ The Nine Hells are a single plane comprising nine separate layers (see the Layer
 
 > [!note] Devil True Names and Talismans
 > 
-> Though devils all have common names, every devil above a lemure in station also has a true name that it keeps secret. A devil can be forced to disclose its true name if [charmed](conditions.md#Charmed), and ancient scrolls and tomes are said to exist that list the true names of certain devils.
+> Though devils all have common names, every devil above a lemure in station also has a true name that it keeps secret. A devil can be forced to disclose its true name if [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), and ancient scrolls and tomes are said to exist that list the true names of certain devils.
 > 
 > A mortal who learns a devil's true name can use powerful summoning magic to call the devil from the Nine Hells and bind it into service. Binding can also be accomplished with the help of a devil talisman. Each of these ancient relics is inscribed with the true name of a devil it controls, and was bathed in the blood of a worthy sacrifice-typically someone the creator loved-when crafted.
 > 
@@ -132,10 +134,10 @@ The Nine Hells are a single plane comprising nine separate layers (see the Layer
 > - A barbed devil has a 30 percent chance of summoning one barbed devil.  
 > - A bearded devil has a 30 percent chance of summoning one bearded devil.  
 > - A bone devil has a 40 percent chance of summoning `2d6` spined devils or one bone devil.  
-> - An erinyes has a 50 percent chance of summoning `3d6` spined devils, `1d6` bearded devils, or one erinyes.  
+> - An erinyes has a 50 percent chance of summoning `3d6` spined devils, `d6` bearded devils, or one erinyes.  
 > - A horned devil has a 30 percent chance of summoning one horned devil.  
 > - An ice devil has a 60 percent chance of summoning one ice devil.  
-> - A pit fiend summons `2d4` bearded devils, `1d4` barbed devils, or one erinyes with no chance of failure.  
+> - A pit fiend summons `2d4` bearded devils, `d4` barbed devils, or one erinyes with no chance of failure.  
 > 
 > A summoned devil appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other devils. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.
 ^variant-devil-summoning
@@ -150,49 +152,53 @@ The Nine Hells are a single plane comprising nine separate layers (see the Layer
 "ac_class": "natural armor"
 "hp": !!int "22"
 "hit_dice": "5d6 + 5"
+"modifier": !!int "2"
 "stats":
-- !!int "10"
-- !!int "15"
-- !!int "12"
-- !!int "11"
-- !!int "14"
-- !!int "8"
+  - !!int "10"
+  - !!int "15"
+  - !!int "12"
+  - !!int "11"
+  - !!int "14"
+  - !!int "8"
 "speed": "20 ft., fly 40 ft."
 "damage_resistances": "cold; bludgeoning, piercing, slashing from nonmagical attacks\
   \ that aren't silvered"
 "damage_immunities": "fire, poison"
-"condition_immunities": "[poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "darkvision 120 ft., passive Perception 12"
 "languages": "Infernal, telepathy 120 ft."
 "cr": "2"
 "traits":
-- "desc": "Magical darkness doesn't impede the devil's darkvision."
-  "name": "Devil's Sight"
-- "desc": "The devil doesn't provoke an opportunity attack when it flies out of an\
-    \ enemy's reach."
-  "name": "Flyby"
-- "desc": "The devil has twelve tail spines. Used spines regrow by the time the devil\
-    \ finishes a long rest."
-  "name": "Limited Spines"
-- "desc": "The devil has advantage on saving throws against spells and other magical\
-    \ effects."
-  "name": "Magic Resistance"
+  - "desc": "Magical darkness doesn't impede the devil's darkvision."
+    "name": "Devil's Sight"
+  - "desc": "The devil doesn't provoke an opportunity attack when it flies out of\
+      \ an enemy's reach."
+    "name": "Flyby"
+  - "desc": "The devil has twelve tail spines. Used spines regrow by the time the\
+      \ devil finishes a long rest."
+    "name": "Limited Spines"
+  - "desc": "The devil has advantage on saving throws against spells and other magical\
+      \ effects."
+    "name": "Magic Resistance"
 "actions":
-- "desc": "The devil makes two attacks: one with its bite and one with its fork or\
-    \ two with its tail spines."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 5 (2d4)\
-    \ slashing damage."
-  "name": "Bite"
-- "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 3 (1d6)\
-    \ piercing damage."
-  "name": "Fork"
-- "desc": "Ranged Weapon Attack: +4 to hit, range 20/80 ft., one target. Hit:\
-    \ 4 (1d4 + 2) piercing damage plus 3 (1d6) fire damage."
-  "name": "Tail Spine"
+  - "desc": "The devil makes two attacks: one with its bite and one with its fork\
+      \ or two with its tail spines."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 5\
+      \ (2d4) slashing damage."
+    "name": "Bite"
+  - "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 3\
+      \ (d6) piercing damage."
+    "name": "Fork"
+  - "desc": "Ranged Weapon Attack: +4 to hit, range 20/80 ft., one target. Hit:\
+      \ 4 (1d4 + 2) piercing damage plus 3 (d6) fire damage."
+    "name": "Tail Spine"
 "source":
-- "MM"
-- "BGDIA"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/fiend/token/spined-devil.webp"
+  - "MM"
+  - "ToA"
+  - "WDH"
+  - "BGDIA"
+  - "KftGV"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/token/spined-devil.webp"
 ```
 ^statblock

@@ -9,10 +9,12 @@ tags:
 - ttrpg-cli/monster/size/tiny
 - ttrpg-cli/monster/type/beast
 statblock: inline
-aliases: ["Rat"]
+statblock-link: "#^statblock"
+aliases:
+- Rat
 ---
-# [Rat](03 - Player Log & Handouts\Mechanics\CLI\bestiary\beast/rat.md)
-*Source: Monster Manual p. 335, Baldur's Gate: Descent Into Avernus. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Rat](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/rat.md)
+*Source: Monster Manual p. 335, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dragon Heist, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus, Explorer's Guide to Wildemount, Icewind Dale: Rime of the Frostmaiden. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 ```statblock
 "name": "Rat"
@@ -22,29 +24,36 @@ aliases: ["Rat"]
 "ac": !!int "10"
 "hp": !!int "1"
 "hit_dice": "1d4 - 1"
+"modifier": !!int "0"
 "stats":
-- !!int "2"
-- !!int "11"
-- !!int "9"
-- !!int "2"
-- !!int "10"
-- !!int "4"
+  - !!int "2"
+  - !!int "11"
+  - !!int "9"
+  - !!int "2"
+  - !!int "10"
+  - !!int "4"
 "speed": "20 ft."
 "senses": "darkvision 30 ft., passive Perception 10"
 "languages": ""
 "cr": "0"
 "traits":
-- "desc": "The rat has advantage on Wisdom ([Perception](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/skills.md#Perception))\
-    \ checks that rely on smell."
-  "name": "Keen Smell"
+  - "desc": "The rat has advantage on Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception))\
+      \ checks that rely on smell."
+    "name": "Keen Smell"
 "actions":
-- "desc": "Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 piercing\
-    \ damage."
-  "name": "Bite"
+  - "desc": "Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1\
+      \ piercing damage."
+    "name": "Bite"
 "source":
-- "MM"
-- "BGDIA"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/beast/token/rat.webp"
+  - "MM"
+  - "TftYP"
+  - "ToA"
+  - "WDH"
+  - "GoS"
+  - "BGDIA"
+  - "EGW"
+  - "IDRotF"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/rat.webp"
 ```
 ^statblock
 

@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/screen
-aliases: ["DM Screen; NPC Flaws"]
+aliases:
+- DM Screen; NPC Flaws
 ---
 # DM Screen; NPC Flaws
 *Source: Dungeon Master's Screen* 

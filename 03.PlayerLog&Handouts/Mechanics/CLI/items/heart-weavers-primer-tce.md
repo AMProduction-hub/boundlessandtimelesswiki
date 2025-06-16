@@ -14,11 +14,11 @@ aliases:
 
 - **Weight**: 3.0 lbs.
 
-This pristine book smells faintly of a random scent you find pleasing. When found, the book contains the following spells: [antipathy/sympathy](antipathy-sympathy.md), [charm person](charm-person.md), [dominate person](dominate-person.md), [enthrall](enthrall.md), [hypnotic pattern](hypnotic-pattern.md), [modify memory](modify-memory.md), and [suggestion](suggestion.md). It functions as a spellbook for you.
+This pristine book smells faintly of a random scent you find pleasing. When found, the book contains the following spells: [antipathy/sympathy](03.PlayerLog&Handouts/Mechanics/CLI/spells/antipathy-sympathy.md), [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md), [dominate person](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-person.md), [enthrall](03.PlayerLog&Handouts/Mechanics/CLI/spells/enthrall.md), [hypnotic pattern](03.PlayerLog&Handouts/Mechanics/CLI/spells/hypnotic-pattern.md), [modify memory](03.PlayerLog&Handouts/Mechanics/CLI/spells/modify-memory.md), and [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md). It functions as a spellbook for you.
 
 While you are holding the book, you can use it as a spellcasting focus for your wizard spells.
 
-The book has 3 charges, and it regains `1d3` expended charges daily at dawn. You can use the charges in the following ways while holding it:
+The book has 3 charges, and it regains `d3` expended charges daily at dawn. You can use the charges in the following ways while holding it:
 
 - If you spend 1 minute studying the book, you can expend 1 charge to replace one of your prepared wizard spells with a different spell in the book. The new spell must be of the enchantment school.  
 - When you cast an enchantment spell, you can expend 1 charge to impose disadvantage on the first saving throw one target makes against the spell.  

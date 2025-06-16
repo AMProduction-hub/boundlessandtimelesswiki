@@ -5,7 +5,8 @@ tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/optional-feature/fs-f
 - ttrpg-cli/optional-feature/fs-p
-aliases: ["Great Weapon Fighting"]
+aliases:
+- Great Weapon Fighting
 ---
 # Great Weapon Fighting
 *Source: Player's Handbook. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  

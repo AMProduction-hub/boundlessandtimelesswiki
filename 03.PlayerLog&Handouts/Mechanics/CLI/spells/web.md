@@ -22,11 +22,12 @@ classes:
 - Rogue (Arcane Trickster)
 - Sorcerer
 - Wizard
-aliases: ["Web"]
+aliases:
+- Web
 ---
 # Web
 *2nd-level, Conjuration*  
-![](web.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/spells/img/web.webp#right)
 
 - **Casting time:** 1 Action
 - **Range:** 60 feet
@@ -37,12 +38,12 @@ You conjure a mass of thick, sticky webbing at a point of your choice within ran
 
 If the webs aren't anchored between two solid masses (such as walls or trees) or layered across a floor, wall, or ceiling, the conjured web collapses on itself, and the spell ends at the start of your next turn. Webs layered over a flat surface have a depth of 5 feet.
 
-Each creature that starts its turn in the webs or that enters them during its turn must make a Dexterity saving throw. On a failed save, the creature is [restrained](conditions.md#Restrained) as long as it remains in the webs or until it breaks free.
+Each creature that starts its turn in the webs or that enters them during its turn must make a Dexterity saving throw. On a failed save, the creature is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained) as long as it remains in the webs or until it breaks free.
 
-A creature [restrained](conditions.md#Restrained) by the webs can use its action to make a Strength check against your spell save DC. If it succeeds, it is no longer [restrained](conditions.md#Restrained).
+A creature [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained) by the webs can use its action to make a Strength check against your spell save DC. If it succeeds, it is no longer [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained).
 
 The webs are flammable. Any 5-foot cube of webs exposed to fire burns away in 1 round, dealing `2d4` fire damage to any creature that starts its turn in the fire.
 
-**Classes**: [Artificer](list-spells-classes-artificer.md); [Druid (Circle of the Land)](list-spells-classes-druid-circle-of-the-land.md); [Rogue (Arcane Trickster)](list-spells-classes-rogue-arcane-trickster.md); [Ranger (Swarmkeeper)](list-spells-classes-ranger-swarmkeeper-tce.md "subclass=TCE"); [Bard](list-spells-classes-bard.md); [Wizard](list-spells-classes-wizard.md); [Fighter (Eldritch Knight)](list-spells-classes-fighter-eldritch-knight.md); [Sorcerer](list-spells-classes-sorcerer.md)
+**Classes**: [Artificer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-artificer.md); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Ranger (Swarmkeeper)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-swarmkeeper-tce.md "subclass=TCE"); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Druid (Circle of the Land)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-circle-of-the-land.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md)
 
 *Source: Player's Handbook p. 287. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*

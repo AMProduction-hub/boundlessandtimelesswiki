@@ -14,7 +14,8 @@ classes:
 - Cleric
 - Druid
 - Sorcerer (Divine Soul)
-aliases: ["Heal"]
+aliases:
+- Heal
 ---
 # Heal
 *6th-level, Evocation*  
@@ -25,10 +26,10 @@ aliases: ["Heal"]
 - **Components:** V, S
 - **Duration:** Instantaneous
 
-Choose a creature that you can see within range. A surge of positive energy washes through the creature, causing it to regain 70 hit points. This spell also ends [blindness](conditions.md#Blinded), [deafness](conditions.md#Deafened), and any diseases affecting the target. This spell has no effect on constructs or undead.
+Choose a creature that you can see within range. A surge of positive energy washes through the creature, causing it to regain 70 hit points. This spell also ends [blindness](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded), [deafness](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened), and any diseases affecting the target. This spell has no effect on constructs or undead.
 
 **At Higher Levels.** When you cast this spell using a spell slot of 7th level or higher, the amount of healing increases by 10 for each slot level above 6th.
 
-**Classes**: [Druid](list-spells-classes-druid.md); [Cleric](list-spells-classes-cleric.md); [Bard](list-spells-classes-bard.md); [Sorcerer (Divine Soul)](list-spells-classes-sorcerer-divine-soul-xge.md "subclass=XGE")
+**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md)
 
 *Source: Player's Handbook p. 250. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*

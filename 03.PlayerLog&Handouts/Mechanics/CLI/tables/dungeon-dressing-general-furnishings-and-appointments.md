@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
-aliases: ["Dungeon Dressing; General Furnishings and Appointments"]
+aliases:
+- Dungeon Dressing; General Furnishings and Appointments
 ---
 # Dungeon Dressing; General Furnishings and Appointments
 *Source: Dungeon Master's Guide p. 298* 

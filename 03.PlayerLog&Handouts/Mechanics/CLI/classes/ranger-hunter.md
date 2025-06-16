@@ -4,10 +4,11 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/subclass/ranger/hunter
-aliases: ["Hunter"]
+aliases:
+- Hunter
 ---
 # Hunter
-*[Ranger](03.PlayerLog&Handouts/Mechanics/CLI/classes/ranger.md): Ranger Archetype*  
+*[Ranger](./ranger.md): Ranger Archetype*  
 *Source: Player's Handbook p. 93. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 > [!tldr] Class and Feature Progression
@@ -54,7 +55,7 @@ At 3rd level, you gain one of the following features of your choice.
 
 - **Colossus Slayer**  
 
-    Your tenacity can wear down the most potent foes. When you hit a creature with a weapon attack, the creature takes an extra `1d8` damage if it's below its hit point maximum. You can deal this extra damage only once per turn.  
+    Your tenacity can wear down the most potent foes. When you hit a creature with a weapon attack, the creature takes an extra `d8` damage if it's below its hit point maximum. You can deal this extra damage only once per turn.  
 
 - **Giant Killer**  
 
@@ -78,7 +79,7 @@ At 7th level, you gain one of the following features of your choice.
 
 - **Steel Will**  
 
-    You have advantage on saving throws against being [frightened](conditions.md#Frightened).  
+    You have advantage on saving throws against being [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened).  
 
 ### Multiattack (Level 11)
 
@@ -98,7 +99,7 @@ At 15th level, you gain one of the following features of your choice.
 
 - **Evasion**  
 
-    You can nimbly dodge out of the way of certain area effects, such as a red dragon's fiery breath or a [lightning bolt](lightning-bolt.md) spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.  
+    You can nimbly dodge out of the way of certain area effects, such as a red dragon's fiery breath or a [lightning bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/lightning-bolt.md) spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.  
 
 - **Stand Against the Tide**  
 

@@ -10,10 +10,12 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/monstrosity
 statblock: inline
-aliases: ["Bulette"]
+statblock-link: "#^statblock"
+aliases:
+- Bulette
 ---
-# [Bulette](03 - Player Log & Handouts\Mechanics\CLI\bestiary\monstrosity/bulette.md)
-*Source: Monster Manual p. 34, Light of Xaryxis. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Bulette](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/bulette.md)
+*Source: Monster Manual p. 34, Princes of the Apocalypse, Storm King's Thunder, Icewind Dale: Rime of the Frostmaiden, Journeys through the Radiant Citadel, Light of Xaryxis, Dragonlance: Shadow of the Dragon Queen. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 A bulette is a massive predator that terrorizes any lands it inhabits. Also called a "land shark," it lives only to feed. Irascible and rapacious, bulettes fear no other creature, and they attack with no regard for superior numbers or strength.
 
@@ -42,43 +44,50 @@ Some sages believe the bulette is the result of a mad wizard's experiments at cr
 "ac_class": "natural armor"
 "hp": !!int "94"
 "hit_dice": "9d10 + 45"
+"modifier": !!int "0"
 "stats":
-- !!int "19"
-- !!int "11"
-- !!int "21"
-- !!int "2"
-- !!int "10"
-- !!int "5"
+  - !!int "19"
+  - !!int "11"
+  - !!int "21"
+  - !!int "2"
+  - !!int "10"
+  - !!int "5"
 "speed": "40 ft., burrow 40 ft."
 "skillsaves":
-  "Perception": !!int "6"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+6"
 "senses": "darkvision 60 ft., tremorsense 60 ft., passive Perception 16"
 "languages": ""
 "cr": "5"
 "traits":
-- "desc": "The bulette's long jump is up to 30 feet and its high jump is up to 15\
-    \ feet, with or without a running start."
-  "name": "Standing Leap"
+  - "desc": "The bulette's long jump is up to 30 feet and its high jump is up to 15\
+      \ feet, with or without a running start."
+    "name": "Standing Leap"
 "actions":
-- "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 30\
-    \ (4d12 + 4) piercing damage."
-  "name": "Bite"
-- "desc": "If the bulette jumps at least 15 feet as part of its movement, it can then\
-    \ use this action to land on its feet in a space that contains one or more other\
-    \ creatures. Each of those creatures must succeed on a DC 16 Strength or Dexterity\
-    \ saving throw (target's choice) or be knocked [prone](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Prone)\
-    \ and take 14 (3d6 + 4) bludgeoning damage plus 14 (3d6 + 4) slashing damage.\
-    \ On a successful save, the creature takes only half the damage, isn't knocked\
-    \ [prone](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Prone),\
-    \ and is pushed 5 feet out of the bulette's space into an unoccupied space of\
-    \ the creature's choice. If no unoccupied space is within range, the creature\
-    \ instead falls [prone](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Prone)\
-    \ in the bulette's space."
-  "name": "Deadly Leap"
+  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 30\
+      \ (4d12 + 4) piercing damage."
+    "name": "Bite"
+  - "desc": "If the bulette jumps at least 15 feet as part of its movement, it can\
+      \ then use this action to land on its feet in a space that contains one or more\
+      \ other creatures. Each of those creatures must succeed on a DC 16 Strength\
+      \ or Dexterity saving throw (target's choice) or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)\
+      \ and take 14 (3d6 + 4) bludgeoning damage plus 14 (3d6 + 4) slashing damage.\
+      \ On a successful save, the creature takes only half the damage, isn't knocked\
+      \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), and\
+      \ is pushed 5 feet out of the bulette's space into an unoccupied space of the\
+      \ creature's choice. If no unoccupied space is within range, the creature instead\
+      \ falls [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)\
+      \ in the bulette's space."
+    "name": "Deadly Leap"
 "source":
-- "MM"
-- "LoX"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/monstrosity/token/bulette.webp"
+  - "MM"
+  - "PotA"
+  - "SKT"
+  - "IDRotF"
+  - "JttRC"
+  - "LoX"
+  - "DSotDQ"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/token/bulette.webp"
 ```
 ^statblock
 

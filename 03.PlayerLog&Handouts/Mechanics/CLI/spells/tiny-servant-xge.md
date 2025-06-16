@@ -16,11 +16,12 @@ classes:
 - Fighter (Eldritch Knight)
 - Rogue (Arcane Trickster)
 - Wizard
-aliases: ["Tiny Servant"]
+aliases:
+- Tiny Servant
 ---
 # Tiny Servant
 *3rd-level, Transmutation*  
-![](tiny-servant.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/spells/img/tiny-servant.webp#right)
 
 - **Casting time:** 1 minute
 - **Range:** Touch
@@ -35,6 +36,6 @@ When the creature drops to 0 hit points, it reverts to its original form, and an
 
 **At Higher Levels.** When you cast this spell using a spell slot of 4th level or higher, you can animate two additional objects for each slot level above 3rd.
 
-**Classes**: [Artificer](list-spells-classes-artificer.md); [Rogue (Arcane Trickster)](list-spells-classes-rogue-arcane-trickster.md); [Bard](list-spells-classes-bard.md); [Wizard](list-spells-classes-wizard.md); [Fighter (Eldritch Knight)](list-spells-classes-fighter-eldritch-knight.md)
+**Classes**: [Artificer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-artificer.md); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md)
 
 *Source: Xanathar's Guide to Everything p. 168*

@@ -3,6 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
+- ttrpg-cli/spell/background/boros-legionnaire
+- ttrpg-cli/spell/background/prismari-student
+- ttrpg-cli/spell/background/rakdos-cultist
 - ttrpg-cli/spell/class/bard
 - ttrpg-cli/spell/class/druid
 - ttrpg-cli/spell/class/sorcerer
@@ -29,7 +32,8 @@ classes:
 - Warlock (The Celestial)
 - Warlock (The Fiend)
 - Wizard
-aliases: ["Wall of Fire"]
+aliases:
+- Wall of Fire
 ---
 # Wall of Fire
 *4th-level, Evocation*  
@@ -46,8 +50,8 @@ When the wall appears, each creature within its area must make a Dexterity savin
 
 One side of the wall, selected by you when you cast this spell, deals `5d8` fire damage to each creature that ends its turn within 10 feet of that side or inside the wall. A creature takes the same damage when it enters the wall for the first time on a turn or ends its turn there. The other side of the wall deals no damage.
 
-**At Higher Levels.** When you cast this spell using a spell slot of 5th level or higher, the damage increases by `1d8` for each slot level above 4th.
+**At Higher Levels.** When you cast this spell using a spell slot of 5th level or higher, the damage increases by `d8` for each slot level above 4th.
 
-**Classes**: [Druid](list-spells-classes-druid.md); [Rogue (Arcane Trickster)](list-spells-classes-rogue-arcane-trickster.md); [Artificer (Artillerist)](list-spells-classes-artificer-artillerist-tce.md "subclass=TCE;class=TCE"); [Bard](list-spells-classes-bard.md); [Wizard](list-spells-classes-wizard.md); [Warlock (The Celestial)](list-spells-classes-warlock-the-celestial-xge.md "subclass=XGE"); [Fighter (Eldritch Knight)](list-spells-classes-fighter-eldritch-knight.md); [Sorcerer](list-spells-classes-sorcerer.md); [Cleric (Forge Domain)](list-spells-classes-cleric-forge-domain-xge.md "subclass=XGE"); [Cleric (Light Domain)](list-spells-classes-cleric-light-domain.md); [Warlock (The Fiend)](list-spells-classes-warlock-the-fiend.md)
+**Classes**: [Artificer (Artillerist)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-artillerist-tce.md "subclass=TCE;class=TCE"); [Cleric (Forge Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-forge-domain-xge.md "subclass=XGE"); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Cleric (Light Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-light-domain.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock (The Celestial)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-celestial-xge.md "subclass=XGE"); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Warlock (The Fiend)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-fiend.md)
 
 *Source: Player's Handbook p. 285. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*

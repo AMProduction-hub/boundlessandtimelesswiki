@@ -3,14 +3,15 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/phb
-aliases: ["Personality and Background"]
+aliases:
+- Personality and Background
 ---
 # Personality and Background
 *Source: Player's Handbook (2014), p. 121* 
 
 Characters are defined by much more than their race and class. They're individuals with their own stories, interests, connections, and capabilities beyond those that class and race define. This chapter expounds on the details that distinguish characters from one another, including the basics of name and physical description, the rules of backgrounds and languages, and the finer points of personality and alignment.
 
-![](ch4.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/players-handbook-2014/img/ch4.webp#center)
 
 ## Character Details
 
@@ -32,7 +33,7 @@ You don't need to be confined to binary notions of sex and gender. The elf god C
 > 
 > Hailing from the Dragonlance setting, Tika Waylan was a brash teenager who had a rough childhood. The daughter of a thief, she ran away from home and practiced her father's trade on the streets of Solace. When she tried to rob the proprietor of the Inn of the Last Home, he caught her and took her under his wing, giving her a job as a barmaid. But when the dragon armies laid waste to the town of Solace and destroyed the inn, necessity forced Tika into adventure alongside the friends she'd known from her childhood. Her skill as a fighter (a frying pan remains one of her favorite weapons) combined with her history on the streets gave her skills invaluable in her adventuring career.
 > 
-> Artemis Entreri grew up on the streets of Cailmport in the Forgotten Realms. He used his wits, strength, and agility to carve out his own territory in one of the city's hundreds of poor shanty towns. After several years, he attracted the notice of one of the most powerful thieves' guilds in the city, and he ascended the ranks of the guild quickly despite his youth. Artemis became the favored assassin of one of the city's pashas, who sent him to far-off Icewind Dale to recover some stolen gems. He's a professional killer, constantly challenging himself to improve his skills.
+> Artemis Entreri grew up on the streets of Calimport in the Forgotten Realms. He used his wits, strength, and agility to carve out his own territory in one of the city's hundreds of poor shanty towns. After several years, he attracted the notice of one of the most powerful thieves' guilds in the city, and he ascended the ranks of the guild quickly despite his youth. Artemis became the favored assassin of one of the city's pashas, who sent him to far-off Icewind Dale to recover some stolen gems. He's a professional killer, constantly challenging himself to improve his skills.
 > 
 > Tika and Artemis are both human and both fighters (with some experience as rogues), possessing similarly high Strength and Dexterity scores, but there the similarity ends.
 ^tika-and-artemis-contrasting-characters
@@ -45,7 +46,7 @@ If you want to, you can roll randomly for your character's height and weight usi
 
 The dice roll given in the Height Modifier column determines the character's extra height (in inches) beyond the base height. That same number multiplied by the dice roll or quantity given in the Weight Modifier column determines the character's extra weight (in pounds) beyond the base weight.
 
-![Random Height and Weight](random-height-and-weight.md)
+![Random Height and Weight](03.PlayerLog&Handouts/Mechanics/CLI/tables/random-height-and-weight-phb.md)
 
 For example, as a human, Tika has a height of 4 feet 8 inches plus 2d10 inches. Her player rolls 2d10 and gets a total of 12, so Tika stands 5 feet 8 inches tall. Then the player uses that same roll of 12 and multiplies it by 2d4 pounds. Her 2d4 roll is 3, so Tika weighs an extra 36 pounds (12 × 3) on top of her base 110 pounds, for a total of 146 pounds.
 
@@ -107,17 +108,17 @@ Your race indicates the languages your character can speak by default, and your 
 
 With your DM's permission, you can instead choose a language from the Exotic Languages table or a secret language, such as thieves' cant or the tongue of druids.
 
-![Dwarvish Alphabet](c4dwarvishalphabet.webp#center)
+![Dwarvish Alphabet](03.PlayerLog&Handouts/Mechanics/CLI/books/players-handbook-2014/img/c4dwarvishalphabet.webp#center)
 
 Some of these languages are actually families of languages with many dialects. For example, the Primordial language includes the Primordial, Primordial, Primordial, and Primordial dialects, one for each of the four elemental planes. Creatures that speak different dialects of the same language can communicate with one another.
 
-![Standard Languages](standard-languages.md)
+![Standard Languages](03.PlayerLog&Handouts/Mechanics/CLI/tables/standard-languages-phb.md)
 
-![Elvish Alphabet](c4elvishalphabet.webp#center)
+![Elvish Alphabet](03.PlayerLog&Handouts/Mechanics/CLI/books/players-handbook-2014/img/c4elvishalphabet.webp#center)
 
-![Exotic Languages](exotic-languages.md)
+![Exotic Languages](03.PlayerLog&Handouts/Mechanics/CLI/tables/exotic-languages-phb.md)
 
-![Draconic Alphabet](c4draconicalphabet.webp#center)
+![Draconic Alphabet](03.PlayerLog&Handouts/Mechanics/CLI/books/players-handbook-2014/img/c4draconicalphabet.webp#center)
 
 ### Personal Characteristics
 
@@ -184,7 +185,7 @@ Choosing a background provides you with important story cues about your characte
 
 The sample backgrounds in this chapter provide both concrete benefits (features, proficiencies, and languages) and roleplaying suggestions.
 
-![](c4-1.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/players-handbook-2014/img/c4-1.webp#center)
 
 ### Proficiencies
 

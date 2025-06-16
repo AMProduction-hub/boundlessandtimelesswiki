@@ -4,7 +4,8 @@ cssclasses: json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/bgdia
-aliases: ["Baldur's Gate Guild Artisan"]
+aliases:
+- Baldur's Gate Guild Artisan
 ---
 # Baldur's Gate Guild Artisan
 *Source: Baldur's Gate: Descent Into Avernus p. 204, Player's Handbook p. 132*  
@@ -13,7 +14,7 @@ aliases: ["Baldur's Gate Guild Artisan"]
 - **Skill Proficiencies.** [Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight), [Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion)  
 - **Tool Proficiencies.** One type of artisan's tools  
 - **Languages.** One of your choice  
-- **Equipment.** A set of artisan's tools (one of your choice), a letter of introduction from your guild, a set of [traveler's clothes](travelers-clothes.md), and a belt [pouch](pouch.md) containing 15 gp  
+- **Equipment.** A set of artisan's tools (one of your choice), a letter of introduction from your guild, a set of [traveler's clothes](03.PlayerLog&Handouts/Mechanics/CLI/items/travelers-clothes.md), and a belt [pouch](03.PlayerLog&Handouts/Mechanics/CLI/items/pouch.md) containing 15 gp  
 
 Numerous guilds and professional associations exist in Baldur's Gate, covering every imaginable trade and discipline from gravediggers to moneylenders.
 

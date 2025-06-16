@@ -3,10 +3,11 @@ obsidianUIMode: preview
 cssclasses: json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
-- ttrpg-cli/race/hobgoblin/dmg
-aliases: ["Hobgoblin (DMG)"]
+- ttrpg-cli/race/hobgoblin
+aliases:
+- Hobgoblin
 ---
-# Hobgoblin (DMG)
+# Hobgoblin
 *Source: Dungeon Master's Guide p. 282*  
 
 
@@ -18,7 +19,7 @@ aliases: ["Hobgoblin (DMG)"]
 
 ### Martial Advantage
 
-Once per turn, you can deal an extra `2d6` damage to a creature you hit with a weapon attack if that creature is within 5 ft. of an ally of yours that isn't [incapacitated](conditions.md#Incapacitated).
+Once per turn, you can deal an extra `2d6` damage to a creature you hit with a weapon attack if that creature is within 5 ft. of an ally of yours that isn't [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated).
 
 ### Darkvision
 

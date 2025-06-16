@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
-aliases: ["Physical Variations; Scale Color"]
+aliases:
+- Physical Variations; Scale Color
 ---
 # Physical Variations; Scale Color
 *Source: Volo's Guide to Monsters p. 66* 

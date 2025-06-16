@@ -4,7 +4,8 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/class/expert-sidekick
 - ttrpg-cli/compendium/src/5e/tce
-aliases: ["Expert Sidekick"]
+aliases:
+- Expert Sidekick
 ---
 # Expert Sidekick
 *Source: Tasha's Cauldron of Everything p. 142*  
@@ -66,7 +67,7 @@ The Expert is a master of certain tasks or knowledge, favoring cunning over braw
 To gain the Expert class, a creature must have at least one language in its stat block that it can speak.
 
 > [!note]
-> Note: this class is intended for NPC [sidekicks](sidekicks-tce.md).
+> Note: this class is intended for NPC [sidekicks](03.PlayerLog&Handouts/Mechanics/CLI/rules/variant-rules/sidekicks-tce.md).
 
 ### Bonus Proficiencies (Level 1)
 
@@ -80,13 +81,13 @@ In addition, the sidekick gains proficiency in five skills of your choice, and i
 
 *1st-level Expert feature*
 
-The sidekick is adept at giving well-timed assistance; the sidekick can take the [Help](actions.md#Help) action as a bonus action.
+The sidekick is adept at giving well-timed assistance; the sidekick can take the [Help](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Help) action as a bonus action.
 
 ### Cunning Action (Level 2)
 
 *2nd-level Expert feature*
 
-The sidekick's agility or quick thinking allows it to act speedily. On its turn in combat, it can take the [Dash](actions.md#Dash), [Disengage](actions.md#Disengage), or [Hide](actions.md#Hide) action as a bonus action.
+The sidekick's agility or quick thinking allows it to act speedily. On its turn in combat, it can take the [Dash](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Dash), [Disengage](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Disengage), or [Hide](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Hide) action as a bonus action.
 
 ### Expertise (Level 3)
 
@@ -114,7 +115,7 @@ The sidekick is adept at fighting in concert with a companion. When the sidekick
 
 *7th-level Expert feature*
 
-Because of extraordinary good luck, the sidekick is skilled at avoiding danger. When the sidekick is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it failed. The sidekick doesn't benefit from this feature while [incapacitated](conditions.md#Incapacitated).
+Because of extraordinary good luck, the sidekick is skilled at avoiding danger. When the sidekick is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it failed. The sidekick doesn't benefit from this feature while [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated).
 
 ### Ability Score Improvement (Level 8)
 
@@ -136,7 +137,7 @@ If your DM allows the use of feats, the sidekick may instead take a feat.
 
 *11th-level Expert feature*
 
-When the sidekick takes the [Help](actions.md#Help) action, the creature who receives the help also gains a `1d6` bonus to the `d20` roll. If that roll is an attack roll, the creature can forgo adding the bonus to it, and then if the attack hits, the creature can add the bonus to the attack's damage roll against one target.
+When the sidekick takes the [Help](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Help) action, the creature who receives the help also gains a `d6` bonus to the `d20` roll. If that roll is an attack roll, the creature can forgo adding the bonus to it, and then if the attack hits, the creature can add the bonus to the attack's damage roll against one target.
 
 At 20th level, the bonus increases to `2d6`.
 

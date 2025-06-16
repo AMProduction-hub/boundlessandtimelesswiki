@@ -11,9 +11,9 @@ aliases:
 ---
 # Unbreakable Arrow
 *Ammunition, minor, common*  
-![](unbreakable-arrow.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/unbreakable-arrow.webp#right)
 
 
-This arrow can't be broken, except when it is within an [antimagic field](antimagic-field.md).
+This arrow can't be broken, except when it is within an [antimagic field](03.PlayerLog&Handouts/Mechanics/CLI/spells/antimagic-field.md).
 
 *Source: Xanathar's Guide to Everything p. 139*

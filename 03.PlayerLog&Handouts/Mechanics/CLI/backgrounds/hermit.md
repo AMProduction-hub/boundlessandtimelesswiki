@@ -4,16 +4,17 @@ cssclasses: json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/phb
-aliases: ["Hermit"]
+aliases:
+- Hermit
 ---
 # Hermit
 *Source: Player's Handbook p. 134*  
 
 
 - **Skill Proficiencies.** [Medicine](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Medicine), [Religion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Religion)  
-- **Tool Proficiencies.** [Herbalism kit](herbalism-kit.md)  
+- **Tool Proficiencies.** [Herbalism kit](03.PlayerLog&Handouts/Mechanics/CLI/items/herbalism-kit.md)  
 - **Languages.** One of your choice  
-- **Equipment.** A [scroll case](map-or-scroll-case.md) stuffed full of notes from your studies or prayers, a winter [blanket](blanket.md), a set of [common clothes](common-clothes.md), an [herbalism kit](herbalism-kit.md), and 5 gp  
+- **Equipment.** A [scroll case](03.PlayerLog&Handouts/Mechanics/CLI/items/map-or-scroll-case.md) stuffed full of notes from your studies or prayers, a winter [blanket](03.PlayerLog&Handouts/Mechanics/CLI/items/blanket.md), a set of [common clothes](03.PlayerLog&Handouts/Mechanics/CLI/items/common-clothes.md), an [herbalism kit](03.PlayerLog&Handouts/Mechanics/CLI/items/herbalism-kit.md), and 5 gp  
 
 You lived in seclusion–either in a sheltered community such as a monastery, or entirely alone–for a formative part of your life. In your time apart from the clamor of society, you found quiet, solitude, and perhaps some of the answers you were looking for.
 

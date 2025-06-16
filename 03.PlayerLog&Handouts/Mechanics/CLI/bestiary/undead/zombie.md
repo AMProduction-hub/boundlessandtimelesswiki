@@ -8,10 +8,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/undead
 statblock: inline
-aliases: ["Zombie"]
+statblock-link: "#^statblock"
+aliases:
+- Zombie
 ---
-# [Zombie](03 - Player Log & Handouts\Mechanics\CLI\bestiary\undead/zombie.md)
-*Source: Monster Manual p. 316, Lost Mine of Phandelver, Baldur's Gate: Descent Into Avernus, Tasha's Cauldron of Everything, Sigil and the Outlands. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Zombie](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/zombie.md)
+*Source: Monster Manual p. 316, Curse of Strahd, Lost Mine of Phandelver, Princes of the Apocalypse, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Divine Contention, Dragon of Icespire Peak, Storm Lord's Wrath, Sleeping Dragon's Wake, Baldur's Gate: Descent Into Avernus, Eberron: Rising from the Last War, Explorer's Guide to Wildemount, Tasha's Cauldron of Everything, Journeys through the Radiant Citadel, Dragonlance: Shadow of the Dragon Queen, Keys from the Golden Vault, Hunt for the Thessalhydra. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 From somewhere in the darkness, a gurgling moan is heard. A form lurches into view, dragging one foot as it raises bloated arms and broken hands. The zombie advances, driven to kill anyone too slow to escape its grasp.
 
@@ -19,7 +21,7 @@ From somewhere in the darkness, a gurgling moan is heard. A form lurches into vi
 
 Sinister necromantic magic infuses the remains of the dead, causing them to rise as zombies that do their creator's bidding without fear or hesitation. They move with a jerky, uneven gait, clad in the moldering apparel they wore when put to rest, and carrying the stench of decay.
 
-Most zombies are made from humanoid remains, though the flesh and bones of any formerly living creature can be imbued with a semblance of life. Necromantic magic, usually from spells, animates a zombie. Some zombies rise spontaneously when dark magic saturates an area. Once turned into a zombie, a creature can't be restored to life except by powerful magic, such as a [resurrection](resurrection.md) spell.
+Most zombies are made from humanoid remains, though the flesh and bones of any formerly living creature can be imbued with a semblance of life. Necromantic magic, usually from spells, animates a zombie. Some zombies rise spontaneously when dark magic saturates an area. Once turned into a zombie, a creature can't be restored to life except by powerful magic, such as a [resurrection](03.PlayerLog&Handouts/Mechanics/CLI/spells/resurrection.md) spell.
 
 A zombie retains no vestiges of its former self, its mind devoid of thought and imagination. A zombie left without orders simply stands in place and rots unless something comes along that it can kill. The magic animating a zombie imbues it with evil, so left without purpose, it attacks any living creature it encounters.
 
@@ -39,7 +41,7 @@ A zombie doesn't require air, food, drink, or sleep.
 
 > [!quote] A quote from Fonkin Hoodypeak  
 > 
-> After Beek died, we cast an [animate dead](animate-dead.md) spell on his corpse. It was fun for a while, but the zombie started to smell real bad, so we doused it in oil and set it on fire. Beek would've found that hilarious.
+> After Beek died, we cast an [animate dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-dead.md) spell on his corpse. It was fun for a while, but the zombie started to smell real bad, so we doused it in oil and set it on fire. Beek would've found that hilarious.
 
 
 ```statblock
@@ -50,37 +52,53 @@ A zombie doesn't require air, food, drink, or sleep.
 "ac": !!int "8"
 "hp": !!int "22"
 "hit_dice": "3d8 + 9"
+"modifier": !!int "-2"
 "stats":
-- !!int "13"
-- !!int "6"
-- !!int "16"
-- !!int "3"
-- !!int "6"
-- !!int "5"
+  - !!int "13"
+  - !!int "6"
+  - !!int "16"
+  - !!int "3"
+  - !!int "6"
+  - !!int "5"
 "speed": "20 ft."
 "saves":
-  "Wisdom": !!int "0"
+  - "wisdom": "+0"
 "damage_immunities": "poison"
-"condition_immunities": "[poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "darkvision 60 ft., passive Perception 8"
 "languages": "understands all languages it spoke in life but can't speak"
 "cr": "1/4"
 "traits":
-- "desc": "If damage reduces the zombie to 0 hit points, it must make a Constitution\
-    \ saving throw with a DC of 5 + the damage taken, unless the damage is radiant\
-    \ or from a critical hit. On a success, the zombie drops to 1 hit point instead."
-  "name": "Undead Fortitude"
+  - "desc": "If damage reduces the zombie to 0 hit points, it must make a Constitution\
+      \ saving throw with a DC of 5 + the damage taken, unless the damage is radiant\
+      \ or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+    "name": "Undead Fortitude"
 "actions":
-- "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6\
-    \ + 1) bludgeoning damage."
-  "name": "Slam"
+  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4\
+      \ (1d6 + 1) bludgeoning damage."
+    "name": "Slam"
 "source":
-- "MM"
-- "LMoP"
-- "BGDIA"
-- "TCE"
-- "SatO"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/undead/token/zombie.webp"
+  - "MM"
+  - "CoS"
+  - "LMoP"
+  - "PotA"
+  - "TftYP"
+  - "ToA"
+  - "WDMM"
+  - "GoS"
+  - "DC"
+  - "DIP"
+  - "SLW"
+  - "SDW"
+  - "BGDIA"
+  - "ERLW"
+  - "EGW"
+  - "TCE"
+  - "JttRC"
+  - "DSotDQ"
+  - "KftGV"
+  - "HftT"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/token/zombie.webp"
 ```
 ^statblock
 

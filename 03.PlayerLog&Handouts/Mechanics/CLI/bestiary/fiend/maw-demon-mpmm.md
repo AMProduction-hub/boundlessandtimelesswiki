@@ -8,9 +8,11 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/fiend/demon
 statblock: inline
-aliases: ["Maw Demon"]
+statblock-link: "#^statblock"
+aliases:
+- Maw Demon
 ---
-# [Maw Demon](03 - Player Log & Handouts\Mechanics\CLI\bestiary\fiend/maw-demon-mpmm.md)
+# [Maw Demon](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/maw-demon-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 176, Volo's Guide to Monsters p. 137*  
 
 > [!quote] A quote from Tasha  
@@ -49,34 +51,36 @@ Because maw demons are indiscriminate in their hunger, their stomachs contain al
 "ac_class": "natural armor"
 "hp": !!int "33"
 "hit_dice": "6d8 + 6"
+"modifier": !!int "-1"
 "stats":
-- !!int "14"
-- !!int "8"
-- !!int "13"
-- !!int "5"
-- !!int "8"
-- !!int "5"
+  - !!int "14"
+  - !!int "8"
+  - !!int "13"
+  - !!int "5"
+  - !!int "8"
+  - !!int "5"
 "speed": "30 ft."
 "damage_resistances": "cold, fire, lightning"
 "damage_immunities": "poison"
-"condition_immunities": "[charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
-  \ [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
-  \ [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
+  \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
+  \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "darkvision 60 ft., passive Perception 9"
 "languages": "understands Abyssal but can't speak"
 "cr": "1"
 "actions":
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 11\
-    \ (2d8 + 2) piercing damage."
-  "name": "Bite"
-- "desc": "The demon vomits in a 15-foot cube. Each creature in that area must succeed\
-    \ on a DC 11 Dexterity saving throw or take 11 (2d10) acid damage and fall [prone](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Prone)\
-    \ in the spew."
-  "name": "Disgorge (Recharge 6)"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 11\
+      \ (2d8 + 2) piercing damage."
+    "name": "Bite"
+  - "desc": "The demon vomits in a 15-foot cube. Each creature in that area must succeed\
+      \ on a DC 11 Dexterity saving throw or take 11 (2d10) acid damage and fall\
+      \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone) in\
+      \ the spew."
+    "name": "Disgorge (Recharge 6)"
 "source":
-- "MPMM"
-- "VGM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/fiend/token/maw-demon-mpmm.webp"
+  - "MPMM"
+  - "VGM"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/token/maw-demon-mpmm.webp"
 ```
 ^statblock
 

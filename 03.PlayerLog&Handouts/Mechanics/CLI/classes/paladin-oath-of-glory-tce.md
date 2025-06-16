@@ -4,11 +4,12 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/subclass/paladin/glory
-aliases: ["Oath of Glory"]
+aliases:
+- Oath of Glory
 ---
 # Oath of Glory
-*[Paladin](paladin.md): Sacred Oath*  
-*Source: Tasha's Cauldron of Everything p. 53*  
+*[Paladin](./paladin.md): Sacred Oath*  
+*Source: Tasha's Cauldron of Everything p. 53, Mythic Odysseys of Theros p. 29*  
 
 > [!tldr] Class and Feature Progression
 > 
@@ -82,11 +83,11 @@ You gain oath spells at the paladin levels listed in the Oath of Glory Spells ta
 
 | Paladin Level | Spells |
 |---------------|--------|
-| 3rd | [guiding bolt](guiding-bolt.md), [heroism](heroism.md) |
-| 5th | [enhance ability](enhance-ability.md), [magic weapon](magic-weapon.md) |
-| 9th | [haste](haste.md), [protection from energy](protection-from-energy.md) |
-| 13th | [compulsion](compulsion.md), [freedom of movement](freedom-of-movement.md) |
-| 17th | [commune](commune.md), [flame strike](flame-strike.md) |
+| 3rd | [guiding bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/guiding-bolt.md), [heroism](03.PlayerLog&Handouts/Mechanics/CLI/spells/heroism.md) |
+| 5th | [enhance ability](03.PlayerLog&Handouts/Mechanics/CLI/spells/enhance-ability.md), [magic weapon](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-weapon.md) |
+| 9th | [haste](03.PlayerLog&Handouts/Mechanics/CLI/spells/haste.md), [protection from energy](03.PlayerLog&Handouts/Mechanics/CLI/spells/protection-from-energy.md) |
+| 13th | [compulsion](03.PlayerLog&Handouts/Mechanics/CLI/spells/compulsion.md), [freedom of movement](03.PlayerLog&Handouts/Mechanics/CLI/spells/freedom-of-movement.md) |
+| 17th | [commune](03.PlayerLog&Handouts/Mechanics/CLI/spells/commune.md), [flame strike](03.PlayerLog&Handouts/Mechanics/CLI/spells/flame-strike.md) |
 ^oath-of-glory-spells
 
 ### Channel Divinity (Level 3)
@@ -107,7 +108,7 @@ Immediately after you deal damage to a creature with your Divine Smite feature, 
 
 *7th-level Oath of Glory feature*
 
-You emanate an aura that fills you and your companions with supernatural speed, allowing you to race across a battlefield in formation. Your walking speed increases by 10 feet. In addition, if you aren't [incapacitated](conditions.md#Incapacitated), the walking speed of any ally who starts their turn within 5 feet of you increases by 10 feet until the end of that turn.
+You emanate an aura that fills you and your companions with supernatural speed, allowing you to race across a battlefield in formation. Your walking speed increases by 10 feet. In addition, if you aren't [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated), the walking speed of any ally who starts their turn within 5 feet of you increases by 10 feet until the end of that turn.
 
 When you reach 18th level in this class, the range of the aura increases to 10 feet.
 

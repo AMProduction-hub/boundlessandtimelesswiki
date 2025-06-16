@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/tce
-aliases: ["Personalizing Spells; Magic Themes"]
+aliases:
+- Personalizing Spells; Magic Themes
 ---
 # Personalizing Spells; Magic Themes
 *Source: Tasha's Cauldron of Everything p. 116* 

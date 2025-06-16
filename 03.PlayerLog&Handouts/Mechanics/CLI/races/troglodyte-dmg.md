@@ -3,10 +3,11 @@ obsidianUIMode: preview
 cssclasses: json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
-- ttrpg-cli/race/troglodyte/dmg
-aliases: ["Troglodyte (DMG)"]
+- ttrpg-cli/race/troglodyte
+aliases:
+- Troglodyte
 ---
-# Troglodyte (DMG)
+# Troglodyte
 *Source: Dungeon Master's Guide p. 282*  
 
 
@@ -22,7 +23,7 @@ You have advantage on Dexterity ([Stealth](03.PlayerLog&Handouts/Mechanics/CLI/r
 
 ### Stench
 
-Any creature other than a troglodyte that starts its turn within 5 ft. of you must succeed on a DC 12 Constitution saving throw or be [poisoned](conditions.md#Poisoned) until the start of the creature's next turn. On a successful saving throw, the creature is immune to the stench of all troglodytes for 1 hour.
+Any creature other than a troglodyte that starts its turn within 5 ft. of you must succeed on a DC 12 Constitution saving throw or be [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned) until the start of the creature's next turn. On a successful saving throw, the creature is immune to the stench of all troglodytes for 1 hour.
 
 ### Sunlight Sensitivity
 

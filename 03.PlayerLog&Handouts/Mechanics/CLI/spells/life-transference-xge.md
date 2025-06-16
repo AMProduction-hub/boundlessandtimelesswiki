@@ -18,7 +18,8 @@ classes:
 - Rogue (Arcane Trickster)
 - Sorcerer (Divine Soul)
 - Wizard
-aliases: ["Life Transference"]
+aliases:
+- Life Transference
 ---
 # Life Transference
 *3rd-level, Necromancy*  
@@ -31,8 +32,8 @@ aliases: ["Life Transference"]
 
 You sacrifice some of your health to mend another creature's injuries. You take `4d8` necrotic damage, which can't be reduced in any way, and one creature of your choice that you can see within range regains a number of hit points equal to twice the necrotic damage you take.
 
-**At Higher Levels.** When you cast this spell using a spell slot of 4th level or higher, the damage increases by `1d8` for each slot level above 3rd.
+**At Higher Levels.** When you cast this spell using a spell slot of 4th level or higher, the damage increases by `d8` for each slot level above 3rd.
 
-**Classes**: [Cleric](list-spells-classes-cleric.md); [Rogue (Arcane Trickster)](list-spells-classes-rogue-arcane-trickster.md); [Bard](list-spells-classes-bard.md); [Wizard](list-spells-classes-wizard.md); [Fighter (Eldritch Knight)](list-spells-classes-fighter-eldritch-knight.md); [Sorcerer (Divine Soul)](list-spells-classes-sorcerer-divine-soul-xge.md "subclass=XGE")
+**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md)
 
 *Source: Xanathar's Guide to Everything p. 160*

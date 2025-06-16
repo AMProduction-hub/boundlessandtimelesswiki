@@ -4,10 +4,11 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/subclass/wizard/bladesinging
-aliases: ["Bladesinging"]
+aliases:
+- Bladesinging
 ---
 # Bladesinging
-*[Wizard](wizard.md): Arcane Tradition*  
+*[Wizard](./wizard.md): Arcane Tradition*  
 *Source: Tasha's Cauldron of Everything p. 76, Sword Coast Adventurer's Guide p. 141*  
 
 > [!tldr] Class and Feature Progression
@@ -60,14 +61,14 @@ You also gain proficiency in the [Performance](03.PlayerLog&Handouts/Mechanics/C
 
 Starting at 2nd level, you can invoke a secret elven magic called the Bladesong, provided you aren't wearing medium or heavy armor or using a shield. It graces you with supernatural speed, agility, and focus.
 
-You can use a bonus action to start the Bladesong, which lasts for 1 minute. It ends early if you are [incapacitated](conditions.md#Incapacitated), if you don medium or heavy armor or a shield, or if you use two hands to make an attack with a weapon. You can also dismiss Bladesong at any time you choose (no action required).
+You can use a bonus action to start the Bladesong, which lasts for 1 minute. It ends early if you are [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated), if you don medium or heavy armor or a shield, or if you use two hands to make an attack with a weapon. You can also dismiss Bladesong at any time you choose (no action required).
 
 While your bladesong is active, you gain the following benefits:
 
 - You gain a bonus to your AC equal to your Intelligence modifier (minimum of +1).  
 - Your walking speed increases by 10 feet.  
 - You have advantage on Dexterity ([Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics)) checks.  
-- You gain a bonus to any Constitution saving throws you make to maintain [concentration](conditions.md#Concentration) on a spell. The bonus equals your Intelligence modifier (minimum of +1).  
+- You gain a bonus to any Constitution saving throws you make to maintain [concentration](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Concentration) on a spell. The bonus equals your Intelligence modifier (minimum of +1).  
 
 You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses of it when you finish a long rest.
 
@@ -94,7 +95,7 @@ Practitioners of these styles use a flail, chain, or whip. Viper style uses a wh
 
 ### Extra Attack (Level 6)
 
-Starting at 6th level, you can attack twice, instead of once, whenever you take the [Attack](actions.md#Attack) action on your turn. Moreover, you can cast one of your cantrips in place of one of those attacks.
+Starting at 6th level, you can attack twice, instead of once, whenever you take the [Attack](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Attack) action on your turn. Moreover, you can cast one of your cantrips in place of one of those attacks.
 
 ### Song of Defense (Level 10)
 

@@ -4,7 +4,8 @@ cssclasses: json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/scag
-aliases: ["Far Traveler"]
+aliases:
+- Far Traveler
 ---
 # Far Traveler
 *Source: Sword Coast Adventurer's Guide p. 148*  
@@ -13,7 +14,7 @@ aliases: ["Far Traveler"]
 - **Skill Proficiencies.** [Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight), [Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)  
 - **Tool Proficiencies.** Any one musical instrument or gaming set of your choice, likely something native to your homeland  
 - **Languages.** Any one of your choice  
-- **Equipment.** One set of [traveler's clothes](travelers-clothes.md), any one musical instrument or gaming set you are proficient with, poorly wrought maps from your homeland that depict where you are in Faerûn, a small piece of jewelry worth 10 gp in the style of your homeland's craftsmanship, and a [pouch](pouch.md) containing 5 gp  
+- **Equipment.** One set of [traveler's clothes](03.PlayerLog&Handouts/Mechanics/CLI/items/travelers-clothes.md), any one musical instrument or gaming set you are proficient with, poorly wrought maps from your homeland that depict where you are in Faerûn, a small piece of jewelry worth 10 gp in the style of your homeland's craftsmanship, and a [pouch](03.PlayerLog&Handouts/Mechanics/CLI/items/pouch.md) containing 5 gp  
 
 Almost all of the common people and other folk that one might encounter along the Sword Coast or in the North have one thing in common: they live out their lives without ever traveling more than a few miles from where they were born.
 

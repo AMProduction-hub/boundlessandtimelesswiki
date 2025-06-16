@@ -8,10 +8,12 @@ tags:
 - ttrpg-cli/monster/size/tiny
 - ttrpg-cli/monster/type/fey
 statblock: inline
-aliases: ["Pixie"]
+statblock-link: "#^statblock"
+aliases:
+- Pixie
 ---
-# [Pixie](03 - Player Log & Handouts\Mechanics\CLI\bestiary\fey/pixie.md)
-*Source: Monster Manual p. 253, Sigil and the Outlands*  
+# [Pixie](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fey/pixie.md)
+*Source: Monster Manual p. 253, Ghosts of Saltmarsh, Eberron: Rising from the Last War, Infernal Machine Rebuild, Explorer's Guide to Wildemount, Keys from the Golden Vault*  
 
 Standing barely a foot tall, pixies resemble diminutive elves with gossamer wings like those of dragonflies or butterflies, bright as the clear dawn and as luminous as the full moonrise.
 
@@ -50,49 +52,54 @@ Unlike their fey cousins, the sprites, pixies abhor weapons and would sooner fle
 "ac": !!int "15"
 "hp": !!int "1"
 "hit_dice": "1d4 - 1"
+"modifier": !!int "5"
 "stats":
-- !!int "2"
-- !!int "20"
-- !!int "8"
-- !!int "10"
-- !!int "14"
-- !!int "15"
+  - !!int "2"
+  - !!int "20"
+  - !!int "8"
+  - !!int "10"
+  - !!int "14"
+  - !!int "15"
 "speed": "10 ft., fly 30 ft."
 "skillsaves":
-  "Stealth": !!int "7"
-  "Perception": !!int "4"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+4"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+7"
 "senses": "passive Perception 14"
 "languages": "Sylvan"
 "cr": "1/4"
 "traits":
-- "desc": "The pixie's innate spellcasting ability is Charisma (spell save DC 12).\
-    \ It can innately cast the following spells, requiring only its pixie dust as\
-    \ a component:\n\nAt will: [druidcraft](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/druidcraft.md)\n\
-    \n1/day each: [confusion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/confusion.md),\
-    \ [dancing lights](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/dancing-lights.md),\
-    \ [detect evil and good](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/detect-evil-and-good.md),\
-    \ [detect thoughts](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
-    \ [dispel magic](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/dispel-magic.md),\
-    \ [entangle](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/entangle.md),\
-    \ [fly](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/fly.md), [phantasmal\
-    \ force](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/phantasmal-force.md),\
-    \ [polymorph](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/polymorph.md),\
-    \ [sleep](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/sleep.md)"
-  "name": "Innate Spellcasting"
-- "desc": "The pixie has advantage on saving throws against spells and other magical\
-    \ effects."
-  "name": "Magic Resistance"
+  - "desc": "The pixie's innate spellcasting ability is Charisma (spell save DC 12).\
+      \ It can innately cast the following spells, requiring only its pixie dust as\
+      \ a component:\n\nAt will: [druidcraft](03.PlayerLog&Handouts/Mechanics/CLI/spells/druidcraft.md)\n\
+      \n1/day each: [confusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/confusion.md),\
+      \ [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md),\
+      \ [detect evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-evil-and-good.md),\
+      \ [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
+      \ [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
+      \ [entangle](03.PlayerLog&Handouts/Mechanics/CLI/spells/entangle.md), [fly](03.PlayerLog&Handouts/Mechanics/CLI/spells/fly.md),\
+      \ [phantasmal force](03.PlayerLog&Handouts/Mechanics/CLI/spells/phantasmal-force.md),\
+      \ [polymorph](03.PlayerLog&Handouts/Mechanics/CLI/spells/polymorph.md), [sleep](03.PlayerLog&Handouts/Mechanics/CLI/spells/sleep.md)"
+    "name": "Innate Spellcasting"
+  - "desc": "The pixie has advantage on saving throws against spells and other magical\
+      \ effects."
+    "name": "Magic Resistance"
 "actions":
-- "desc": "The pixie magically turns [invisible](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Invisible)\
-    \ until its [concentration](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Concentration)\
-    \ ends (as if [concentrating](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Concentration)\
-    \ on a spell). Any equipment the pixie wears or carries is [invisible](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Invisible)\
-    \ with it."
-  "name": "Superior Invisibility"
+  - "desc": "The pixie magically turns [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible)\
+      \ until its [concentration](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Concentration)\
+      \ ends (as if [concentrating](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Concentration)\
+      \ on a spell). Any equipment the pixie wears or carries is [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible)\
+      \ with it."
+    "name": "Superior Invisibility"
 "source":
-- "MM"
-- "SatO"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/fey/token/pixie.webp"
+  - "MM"
+  - "GoS"
+  - "ERLW"
+  - "IMR"
+  - "EGW"
+  - "KftGV"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/token/pixie.webp"
 ```
 ^statblock
 

@@ -5,16 +5,19 @@ tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/spell/class/bard
 - ttrpg-cli/spell/class/warlock
+- ttrpg-cli/spell/feat/divinely-favored
 - ttrpg-cli/spell/feat/magic-initiate
 - ttrpg-cli/spell/level/1st-level
 - ttrpg-cli/spell/school/abjuration
 - ttrpg-cli/spell/subclass/oath-of-conquest
+- ttrpg-cli/spell/subrace/dwarf-mark-of-warding
 - ttrpg-cli/spell/subrace/tiefling-levistus
 classes:
 - Bard
 - Paladin (Oath of Conquest)
 - Warlock
-aliases: ["Armor of Agathys"]
+aliases:
+- Armor of Agathys
 ---
 # Armor of Agathys
 *1st-level, Abjuration*  
@@ -29,6 +32,6 @@ A protective magical force surrounds you, manifesting as a spectral frost that c
 
 **At Higher Levels.** When you cast this spell using a spell slot of 2nd level or higher, both the temporary hit points and the cold damage increase by 5 for each slot level above 1st.
 
-**Classes**: [Paladin (Oath of Conquest)](list-spells-classes-paladin-oath-of-conquest-xge.md "subclass=XGE"); [Bard](list-spells-classes-bard.md); [Warlock](list-spells-classes-warlock.md)
+**Classes**: [Paladin (Oath of Conquest)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-conquest-xge.md "subclass=XGE"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md)
 
 *Source: Player's Handbook p. 215*

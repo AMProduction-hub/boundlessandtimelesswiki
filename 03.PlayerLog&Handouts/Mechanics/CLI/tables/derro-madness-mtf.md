@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
-aliases: ["Derro Madness"]
+aliases:
+- Derro Madness
 ---
 # Derro Madness
 *Source: Mordenkainen's Tome of Foes p. 159* 

@@ -11,7 +11,7 @@ aliases:
 ---
 # Amulet of Health
 *Wondrous item, major, rare (requires attunement)*  
-![](amulet-of-health.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/amulet-of-health.webp#right)
 
 - **Weight**: 1.0 lbs.
 

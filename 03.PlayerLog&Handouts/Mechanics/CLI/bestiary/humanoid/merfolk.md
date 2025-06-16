@@ -9,10 +9,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/humanoid/merfolk
 statblock: inline
-aliases: ["Merfolk"]
+statblock-link: "#^statblock"
+aliases:
+- Merfolk
 ---
-# [Merfolk](03 - Player Log & Handouts\Mechanics\CLI\bestiary\humanoid/merfolk.md)
-*Source: Monster Manual p. 218. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Merfolk](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/merfolk.md)
+*Source: Monster Manual p. 218, Waterdeep: Dragon Heist, Ghosts of Saltmarsh, Journeys through the Radiant Citadel. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 Aquatic humanoids with the upper body of a human and the lower body of a fish, merfolk adorn their skin and scales with shell decorations.
 
@@ -35,30 +37,35 @@ Merfolk defend their communities with spears crafted from whatever materials the
 "ac": !!int "11"
 "hp": !!int "11"
 "hit_dice": "2d8 + 2"
+"modifier": !!int "1"
 "stats":
-- !!int "10"
-- !!int "13"
-- !!int "12"
-- !!int "11"
-- !!int "11"
-- !!int "12"
+  - !!int "10"
+  - !!int "13"
+  - !!int "12"
+  - !!int "11"
+  - !!int "11"
+  - !!int "12"
 "speed": "10 ft., swim 40 ft."
 "skillsaves":
-  "Perception": !!int "2"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+2"
 "senses": "passive Perception 12"
 "languages": "Aquan, Common"
 "cr": "1/8"
 "traits":
-- "desc": "The merfolk can breathe air and water."
-  "name": "Amphibious"
+  - "desc": "The merfolk can breathe air and water."
+    "name": "Amphibious"
 "actions":
-- "desc": "Melee or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 20/60\
-    \ ft., one target. Hit: 3 (1d6) piercing damage, or 4 (1d8) piercing damage\
-    \ if used with two hands to make a melee attack."
-  "name": "Spear"
+  - "desc": "Melee  or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. Hit: 3 (d6) piercing damage, or 4 (d8) piercing damage\
+      \ if used with two hands to make a melee attack."
+    "name": "Spear"
 "source":
-- "MM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/humanoid/token/merfolk.webp"
+  - "MM"
+  - "WDH"
+  - "GoS"
+  - "JttRC"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/merfolk.webp"
 ```
 ^statblock
 

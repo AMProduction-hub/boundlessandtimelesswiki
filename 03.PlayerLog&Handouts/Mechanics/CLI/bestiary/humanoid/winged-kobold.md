@@ -16,10 +16,12 @@ tags:
 - ttrpg-cli/monster/size/small
 - ttrpg-cli/monster/type/humanoid/kobold
 statblock: inline
-aliases: ["Winged Kobold"]
+statblock-link: "#^statblock"
+aliases:
+- Winged Kobold
 ---
-# [Winged Kobold](03 - Player Log & Handouts\Mechanics\CLI\bestiary\humanoid/winged-kobold.md)
-*Source: Monster Manual p. 195*  
+# [Winged Kobold](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/winged-kobold.md)
+*Source: Monster Manual p. 195, Tomb of Annihilation, Ghosts of Saltmarsh, Candlekeep Mysteries*  
 
 Kobolds are craven reptilian humanoids that worship evil dragons as demigods and serve them as minions and toadies. Kobolds inhabit dragons' lairs when they can but more commonly infest dungeons, gathering treasures and trinkets to add to their own tiny hoards.
 
@@ -44,36 +46,40 @@ In addition to the dragons they revere, kobolds worship a lesser god named Kurtu
 "ac": !!int "13"
 "hp": !!int "7"
 "hit_dice": "3d6 - 3"
+"modifier": !!int "3"
 "stats":
-- !!int "7"
-- !!int "16"
-- !!int "9"
-- !!int "8"
-- !!int "7"
-- !!int "8"
+  - !!int "7"
+  - !!int "16"
+  - !!int "9"
+  - !!int "8"
+  - !!int "7"
+  - !!int "8"
 "speed": "30 ft., fly 30 ft."
 "senses": "darkvision 60 ft., passive Perception 8"
 "languages": "Common, Draconic"
 "cr": "1/4"
 "traits":
-- "desc": "While in sunlight, the kobold has disadvantage on attack rolls, as well\
-    \ as on Wisdom ([Perception](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/skills.md#Perception))\
-    \ checks that rely on sight."
-  "name": "Sunlight Sensitivity"
-- "desc": "The kobold has advantage on an attack roll against a creature if at least\
-    \ one of the kobold's allies is within 5 feet of the creature and the ally isn't\
-    \ [incapacitated](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)."
-  "name": "Pack Tactics"
+  - "desc": "While in sunlight, the kobold has disadvantage on attack rolls, as well\
+      \ as on Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception))\
+      \ checks that rely on sight."
+    "name": "Sunlight Sensitivity"
+  - "desc": "The kobold has advantage on an attack roll against a creature if at least\
+      \ one of the kobold's allies is within 5 feet of the creature and the ally isn't\
+      \ [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)."
+    "name": "Pack Tactics"
 "actions":
-- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4\
-    \ + 3) piercing damage."
-  "name": "Dagger"
-- "desc": "Ranged Weapon Attack: +5 to hit, one target directly below the kobold.\
-    \ Hit: 6 (1d6 + 3) bludgeoning damage."
-  "name": "Dropped Rock"
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5\
+      \ (1d4 + 3) piercing damage."
+    "name": "Dagger"
+  - "desc": "Ranged Weapon Attack: +5 to hit, one target directly below the kobold.\
+      \ Hit: 6 (1d6 + 3) bludgeoning damage."
+    "name": "Dropped Rock"
 "source":
-- "MM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/humanoid/token/winged-kobold.webp"
+  - "MM"
+  - "ToA"
+  - "GoS"
+  - "CM"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/winged-kobold.webp"
 ```
 ^statblock
 

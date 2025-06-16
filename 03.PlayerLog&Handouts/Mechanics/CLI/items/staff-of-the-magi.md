@@ -12,12 +12,12 @@ aliases:
 ---
 # Staff of the Magi
 *Staff, weapon, major, legendary (requires attunement by a sorcerer, warlock, or wizard)*  
-![](staff-of-the-magi.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/staff-of-the-magi.webp#right)
 
 - **Damage**:
   - One-handed: 1d6 bludgeoning
   - Two-handed: 1d8 bludgeoning
-- **Properties**: [Versatile](item-properties.md#Versatile)
+- **Properties**: [Versatile](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Versatile)
 - **Weight**: 4.0 lbs.
 
 This staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls made with it. While you hold it, you gain a +2 bonus to spell attack rolls.
@@ -30,9 +30,9 @@ While holding the staff, you have advantage on saving throws against spells. In 
 
 ## Spells
 
-While holding the staff, you can use an action to expend some of its charges to cast one of the following spells from it, using your spell save DC and spellcasting ability: [conjure elemental](conjure-elemental.md) (7 charges), [dispel magic](dispel-magic.md) (3 charges), [fireball](fireball.md) (7th-level version, 7 charges), [flaming sphere](flaming-sphere.md) (2 charges), [ice storm](ice-storm.md) (4 charges), [invisibility](invisibility.md) (2 charges), [knock](knock.md) (2 charges), [lightning bolt](lightning-bolt.md) (7th-level version, 7 charges), [passwall](passwall.md) (5 charges), [plane shift](plane-shift.md) (7 charges), [telekinesis](telekinesis.md) (5 charges), [wall of fire](wall-of-fire.md) (4 charges), or [web](web.md) (2 charges).
+While holding the staff, you can use an action to expend some of its charges to cast one of the following spells from it, using your spell save DC and spellcasting ability: [conjure elemental](03.PlayerLog&Handouts/Mechanics/CLI/spells/conjure-elemental.md) (7 charges), [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md) (3 charges), [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md) (7th-level version, 7 charges), [flaming sphere](03.PlayerLog&Handouts/Mechanics/CLI/spells/flaming-sphere.md) (2 charges), [ice storm](03.PlayerLog&Handouts/Mechanics/CLI/spells/ice-storm.md) (4 charges), [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md) (2 charges), [knock](03.PlayerLog&Handouts/Mechanics/CLI/spells/knock.md) (2 charges), [lightning bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/lightning-bolt.md) (7th-level version, 7 charges), [passwall](03.PlayerLog&Handouts/Mechanics/CLI/spells/passwall.md) (5 charges), [plane shift](03.PlayerLog&Handouts/Mechanics/CLI/spells/plane-shift.md) (7 charges), [telekinesis](03.PlayerLog&Handouts/Mechanics/CLI/spells/telekinesis.md) (5 charges), [wall of fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-fire.md) (4 charges), or [web](03.PlayerLog&Handouts/Mechanics/CLI/spells/web.md) (2 charges).
 
-You can also use an action to cast one of the following spells from the staff without using any charges: [arcane lock](arcane-lock.md), [detect magic](detect-magic.md), [enlarge/reduce](enlarge-reduce.md), [light](light.md), [mage hand](mage-hand.md), or [protection from evil and good](protection-from-evil-and-good.md).
+You can also use an action to cast one of the following spells from the staff without using any charges: [arcane lock](03.PlayerLog&Handouts/Mechanics/CLI/spells/arcane-lock.md), [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md), [enlarge/reduce](03.PlayerLog&Handouts/Mechanics/CLI/spells/enlarge-reduce.md), [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md), [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), or [protection from evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/protection-from-evil-and-good.md).
 
 ## Retributive Strike
 

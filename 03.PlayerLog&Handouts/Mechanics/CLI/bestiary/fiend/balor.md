@@ -7,10 +7,12 @@ tags:
 - ttrpg-cli/monster/size/huge
 - ttrpg-cli/monster/type/fiend/demon
 statblock: inline
-aliases: ["Balor"]
+statblock-link: "#^statblock"
+aliases:
+- Balor
 ---
-# [Balor](03 - Player Log & Handouts\Mechanics\CLI\bestiary\fiend/balor.md)
-*Source: Monster Manual p. 55, Baldur's Gate: Descent Into Avernus, Tasha's Cauldron of Everything. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Balor](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/balor.md)
+*Source: Monster Manual p. 55, Baldur's Gate: Descent Into Avernus, Infernal Machine Rebuild, Explorer's Guide to Wildemount, Tasha's Cauldron of Everything. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Figures of ancient and terrible evil, balors rule as generals over demonic armies, yearning to seize power while destroying any creatures that oppose them.
 
@@ -156,7 +158,7 @@ Demonologists organize the chaotic distribution of demons into broad categories 
 
 > [!note] Demon True Names
 > 
-> Though demons all have common names, every demon lord and every demon of type 1 through 6 has a true name that it keeps secret. A demon can be forced to disclose its true name if [charmed](conditions.md#Charmed), and ancient scrolls and tomes are said to exist that list the true names of the most powerful demons.
+> Though demons all have common names, every demon lord and every demon of type 1 through 6 has a true name that it keeps secret. A demon can be forced to disclose its true name if [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), and ancient scrolls and tomes are said to exist that list the true names of the most powerful demons.
 > 
 > A mortal who learns a demon's true name can use powerful summoning magic to call the demon from the Abyss and exercise some measure of control over it. However, most demons brought to the Material Plane in this manner do everything in their power to wreak havoc or sow discord and strife.
 ^demon-true-names
@@ -165,13 +167,13 @@ Demonologists organize the chaotic distribution of demons into broad categories 
 > 
 > Some demons can have an action option that allows them to summon other demons. Summon Demon (1/Day). The demon chooses what to summon and attempts a magical summoning.
 > 
-> - A balor has a 50 percent chance of summoning `1d8` vrocks, `1d6` hezrous, `1d4` glabrezus, `1d3` nalfeshnees, `1d2` mariliths, or one goristro.  
+> - A balor has a 50 percent chance of summoning `d8` vrocks, `d6` hezrous, `d4` glabrezus, `d3` nalfeshnees, `d2` mariliths, or one goristro.  
 > - A barlgura has a 30 percent chance of summoning one barlgura.  
 > - A chasme has a 30 percent chance of summoning one chasme.  
-> - A glabrezu has a 30 percent chance of summoning `1d3` vrocks, `1d2` hezrous, or one glabrezu.  
+> - A glabrezu has a 30 percent chance of summoning `d3` vrocks, `d2` hezrous, or one glabrezu.  
 > - A hezrou has a 30 percent chance of summoning `2d6` dretches or one hezrou.  
-> - A marilith has a 50 percent chance of summoning `1d6` vrocks, `1d4` hezrous, `1d3` glabrezus, `1d2` nalfeshnees, or one marilith.  
-> - A nalfeshnee has a 50 percent chance of summoning `1d4` vrocks, `1d3` hezrous, `1d2` glabrezus, or one nalfeshnee.  
+> - A marilith has a 50 percent chance of summoning `d6` vrocks, `d4` hezrous, `d3` glabrezus, `d2` nalfeshnees, or one marilith.  
+> - A nalfeshnee has a 50 percent chance of summoning `d4` vrocks, `d3` hezrous, `d2` glabrezus, or one nalfeshnee.  
 > - A vrock has a 30 percent chance of summoning `2d4` dretches or one vrock.  
 > - A yochlol has a 50 percent chance of summoning one yochlol.  
 > 
@@ -193,62 +195,67 @@ Demonologists organize the chaotic distribution of demons into broad categories 
 "ac_class": "natural armor"
 "hp": !!int "262"
 "hit_dice": "21d12 + 126"
+"modifier": !!int "2"
 "stats":
-- !!int "26"
-- !!int "15"
-- !!int "22"
-- !!int "20"
-- !!int "16"
-- !!int "22"
+  - !!int "26"
+  - !!int "15"
+  - !!int "22"
+  - !!int "20"
+  - !!int "16"
+  - !!int "22"
 "speed": "40 ft., fly 80 ft."
 "saves":
-  "Charisma": !!int "12"
-  "Wisdom": !!int "9"
-  "Strength": !!int "14"
-  "Constitution": !!int "12"
+  - "strength": "+14"
+  - "constitution": "+12"
+  - "wisdom": "+9"
+  - "charisma": "+12"
 "damage_resistances": "cold; lightning; bludgeoning, piercing, slashing from nonmagical\
   \ attacks"
 "damage_immunities": "fire, poison"
-"condition_immunities": "[poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "truesight 120 ft., passive Perception 13"
 "languages": "Abyssal, telepathy 120 ft."
 "cr": "19"
 "traits":
-- "desc": "When the balor dies, it explodes, and each creature within 30 feet of it\
-    \ must make a DC 20 Dexterity saving throw, taking 70 (20d6) fire damage on\
-    \ a failed save, or half as much damage on a successful one. The explosion ignites\
-    \ flammable objects in that area that aren't being worn or carried, and it destroys\
-    \ the balor's weapons."
-  "name": "Death Throes"
-- "desc": "At the start of each of the balor's turns, each creature within 5 feet\
-    \ of it takes 10 (3d6) fire damage, and flammable objects in the aura that aren't\
-    \ being worn or carried ignite. A creature that touches the balor or hits it with\
-    \ a melee attack while within 5 feet of it takes 10 (3d6) fire damage."
-  "name": "Fire Aura"
-- "desc": "The balor has advantage on saving throws against spells and other magical\
-    \ effects."
-  "name": "Magic Resistance"
-- "desc": "The balor's weapon attacks are magical."
-  "name": "Magic Weapons"
+  - "desc": "When the balor dies, it explodes, and each creature within 30 feet of\
+      \ it must make a DC 20 Dexterity saving throw, taking 70 (20d6) fire damage\
+      \ on a failed save, or half as much damage on a successful one. The explosion\
+      \ ignites flammable objects in that area that aren't being worn or carried,\
+      \ and it destroys the balor's weapons."
+    "name": "Death Throes"
+  - "desc": "At the start of each of the balor's turns, each creature within 5 feet\
+      \ of it takes 10 (3d6) fire damage, and flammable objects in the aura that\
+      \ aren't being worn or carried ignite. A creature that touches the balor or\
+      \ hits it with a melee attack while within 5 feet of it takes 10 (3d6) fire\
+      \ damage."
+    "name": "Fire Aura"
+  - "desc": "The balor has advantage on saving throws against spells and other magical\
+      \ effects."
+    "name": "Magic Resistance"
+  - "desc": "The balor's weapon attacks are magical."
+    "name": "Magic Weapons"
 "actions":
-- "desc": "The balor makes two attacks: one with its longsword and one with its whip."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit: 21\
-    \ (3d8 + 8) slashing damage plus 13 (3d8) lightning damage. If the balor scores\
-    \ a critical hit, it rolls damage dice three times, instead of twice."
-  "name": "Longsword"
-- "desc": "Melee Weapon Attack: +14 to hit, reach 30 ft., one target. Hit: 15\
-    \ (2d6 + 8) slashing damage plus 10 (3d6) fire damage, and the target must\
-    \ succeed on a DC 20 Strength saving throw or be pulled up to 25 feet toward the\
-    \ balor."
-  "name": "Whip"
-- "desc": "The balor magically teleports, along with any equipment it is wearing or\
-    \ carrying, up to 120 feet to an unoccupied space it can see."
-  "name": "Teleport"
+  - "desc": "The balor makes two attacks: one with its longsword and one with its\
+      \ whip."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit:\
+      \ 21 (3d8 + 8) slashing damage plus 13 (3d8) lightning damage. If the balor\
+      \ scores a critical hit, it rolls damage dice three times, instead of twice."
+    "name": "Longsword"
+  - "desc": "Melee Weapon Attack: +14 to hit, reach 30 ft., one target. Hit:\
+      \ 15 (2d6 + 8) slashing damage plus 10 (3d6) fire damage, and the target\
+      \ must succeed on a DC 20 Strength saving throw or be pulled up to 25 feet toward\
+      \ the balor."
+    "name": "Whip"
+  - "desc": "The balor magically teleports, along with any equipment it is wearing\
+      \ or carrying, up to 120 feet to an unoccupied space it can see."
+    "name": "Teleport"
 "source":
-- "MM"
-- "BGDIA"
-- "TCE"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/fiend/token/balor.webp"
+  - "MM"
+  - "BGDIA"
+  - "IMR"
+  - "EGW"
+  - "TCE"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/token/balor.webp"
 ```
 ^statblock

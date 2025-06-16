@@ -15,17 +15,17 @@ aliases:
 
 **Items in this group:**
 
-- [Birdpipes](birdpipes-scag.md)
-- [Glaur](glaur-scag.md)
-- [Hand Drum](hand-drum-scag.md)
-- [Longhorn](longhorn-scag.md)
-- [Shawm](shawm-scag.md)
-- [Songhorn](songhorn-scag.md)
-- [Tantan](tantan-scag.md)
-- [Thelarr](thelarr-scag.md)
-- [Tocken](tocken-scag.md)
-- [Wargong](wargong-scag.md)
-- [Yarting](yarting-scag.md)
-- [Zulkoon](zulkoon-scag.md)
+- [Birdpipes](03.PlayerLog&Handouts/Mechanics/CLI/items/birdpipes-scag.md)
+- [Glaur](03.PlayerLog&Handouts/Mechanics/CLI/items/glaur-scag.md)
+- [Hand Drum](03.PlayerLog&Handouts/Mechanics/CLI/items/hand-drum-scag.md)
+- [Longhorn](03.PlayerLog&Handouts/Mechanics/CLI/items/longhorn-scag.md)
+- [Shawm](03.PlayerLog&Handouts/Mechanics/CLI/items/shawm-scag.md)
+- [Songhorn](03.PlayerLog&Handouts/Mechanics/CLI/items/songhorn-scag.md)
+- [Tantan](03.PlayerLog&Handouts/Mechanics/CLI/items/tantan-scag.md)
+- [Thelarr](03.PlayerLog&Handouts/Mechanics/CLI/items/thelarr-scag.md)
+- [Tocken](03.PlayerLog&Handouts/Mechanics/CLI/items/tocken-scag.md)
+- [Wargong](03.PlayerLog&Handouts/Mechanics/CLI/items/wargong-scag.md)
+- [Yarting](03.PlayerLog&Handouts/Mechanics/CLI/items/yarting-scag.md)
+- [Zulkoon](03.PlayerLog&Handouts/Mechanics/CLI/items/zulkoon-scag.md)
 
 *Source: Sword Coast Adventurer's Guide p. 124*

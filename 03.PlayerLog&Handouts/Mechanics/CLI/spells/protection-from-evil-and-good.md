@@ -9,7 +9,10 @@ tags:
 - ttrpg-cli/spell/class/paladin
 - ttrpg-cli/spell/class/warlock
 - ttrpg-cli/spell/class/wizard
+- ttrpg-cli/spell/feat/divinely-favored
+- ttrpg-cli/spell/feat/initiate-of-high-sorcery
 - ttrpg-cli/spell/feat/magic-initiate
+- ttrpg-cli/spell/feat/strixhaven-initiate
 - ttrpg-cli/spell/level/1st-level
 - ttrpg-cli/spell/school/abjuration
 - ttrpg-cli/spell/subclass/arcane-trickster
@@ -33,7 +36,8 @@ classes:
 - Sorcerer (Divine Soul)
 - Warlock
 - Wizard
-aliases: ["Protection from Evil and Good"]
+aliases:
+- Protection from Evil and Good
 ---
 # Protection from Evil and Good
 *1st-level, Abjuration*  
@@ -46,8 +50,8 @@ aliases: ["Protection from Evil and Good"]
 
 Until the spell ends, one willing creature you touch is protected against certain types of creatures: aberrations, celestials, elementals, fey, fiends, and undead.
 
-The protection grants several benefits. Creatures of those types have disadvantage on attack rolls against the target. The target also can't be [charmed](conditions.md#Charmed), [frightened](conditions.md#Frightened), or possessed by them. If the target is already [charmed](conditions.md#Charmed), [frightened](conditions.md#Frightened), or possessed by such a creature, the target has advantage on any new saving throw against the relevant effect.
+The protection grants several benefits. Creatures of those types have disadvantage on attack rolls against the target. The target also can't be [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened), or possessed by them. If the target is already [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened), or possessed by such a creature, the target has advantage on any new saving throw against the relevant effect.
 
-**Classes**: [Druid](list-spells-classes-druid.md); [Cleric](list-spells-classes-cleric.md); [Bard](list-spells-classes-bard.md); [Sorcerer (Clockwork Soul)](list-spells-classes-sorcerer-clockwork-soul-tce.md "subclass=TCE"); [Fighter (Eldritch Knight)](list-spells-classes-fighter-eldritch-knight.md); [Paladin (Oath of Devotion)](list-spells-classes-paladin-oath-of-devotion.md); [Ranger (Monster Slayer)](list-spells-classes-ranger-monster-slayer-xge.md "subclass=XGE"); [Paladin](list-spells-classes-paladin.md); [Ranger (Horizon Walker)](list-spells-classes-ranger-horizon-walker-xge.md "subclass=XGE"); [Rogue (Arcane Trickster)](list-spells-classes-rogue-arcane-trickster.md); [Wizard](list-spells-classes-wizard.md); [Warlock](list-spells-classes-warlock.md); [Sorcerer (Divine Soul)](list-spells-classes-sorcerer-divine-soul-xge.md "subclass=XGE")
+**Classes**: [Sorcerer (Clockwork Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-clockwork-soul-tce.md "subclass=TCE"); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Ranger (Monster Slayer)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-monster-slayer-xge.md "subclass=XGE"); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Paladin](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-paladin.md); [Ranger (Horizon Walker)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-horizon-walker-xge.md "subclass=XGE"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Paladin (Oath of Devotion)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-devotion.md); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook p. 270. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

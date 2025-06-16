@@ -6,11 +6,15 @@ tags:
 - ttrpg-cli/deity/faerunian
 - ttrpg-cli/domain/knowledge
 - ttrpg-cli/domain/trickery
-aliases: ["Waukeen", "Our Lady of Gold", "The Coinmaiden", "The Merchant's Friend"]
+aliases: 
+- Waukeen
+- Our Lady of Gold
+- The Coinmaiden
+- The Merchant's Friend
 ---
 # Waukeen
 *Source: Sword Coast Adventurer's Guide p. 21* 
-![](scag-symbol-of-waukeen.webp#symbol)
+![](03.PlayerLog&Handouts/Mechanics/CLI/deities/img/scag-symbol-of-waukeen.webp#symbol)
 
 - **Alternate Names**: Our Lady of Gold, The Coinmaiden, The Merchant's Friend
 - **Alignment**: Neutral

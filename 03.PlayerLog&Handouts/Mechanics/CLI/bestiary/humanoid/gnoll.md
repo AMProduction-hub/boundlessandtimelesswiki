@@ -11,10 +11,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/humanoid/gnoll
 statblock: inline
-aliases: ["Gnoll"]
+statblock-link: "#^statblock"
+aliases:
+- Gnoll
 ---
-# [Gnoll](03 - Player Log & Handouts\Mechanics\CLI\bestiary\humanoid/gnoll.md)
-*Source: Monster Manual p. 163, Baldur's Gate: Descent Into Avernus, Sigil and the Outlands. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Gnoll](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/gnoll.md)
+*Source: Monster Manual p. 163, Princes of the Apocalypse, Tales from the Yawning Portal, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus, Eberron: Rising from the Last War, Explorer's Guide to Wildemount, Icewind Dale: Rime of the Frostmaiden. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 Gnolls are feral humanoids that attack settlements along the frontiers and borderlands of civilization without warning, slaughtering their victims and devouring their flesh.
 
@@ -39,42 +41,48 @@ No goodness or compassion resides in the heart of a gnoll. Like a demon, it lack
 "subtype": "gnoll"
 "alignment": "Chaotic Evil"
 "ac": !!int "15"
-"ac_class": "[hide armor](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/items/hide-armor.md),\
-  \ [shield](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/items/shield.md)"
+"ac_class": "[hide armor](03.PlayerLog&Handouts/Mechanics/CLI/items/hide-armor.md),\
+  \ [shield](03.PlayerLog&Handouts/Mechanics/CLI/items/shield.md)"
 "hp": !!int "22"
 "hit_dice": "5d8"
+"modifier": !!int "1"
 "stats":
-- !!int "14"
-- !!int "12"
-- !!int "11"
-- !!int "6"
-- !!int "10"
-- !!int "7"
+  - !!int "14"
+  - !!int "12"
+  - !!int "11"
+  - !!int "6"
+  - !!int "10"
+  - !!int "7"
 "speed": "30 ft."
 "senses": "darkvision 60 ft., passive Perception 10"
 "languages": "Gnoll"
 "cr": "1/2"
 "traits":
-- "desc": "When the gnoll reduces a creature to 0 hit points with a melee attack on\
-    \ its turn, the gnoll can take a bonus action to move up to half its speed and\
-    \ make a bite attack."
-  "name": "Rampage"
+  - "desc": "When the gnoll reduces a creature to 0 hit points with a melee attack\
+      \ on its turn, the gnoll can take a bonus action to move up to half its speed\
+      \ and make a bite attack."
+    "name": "Rampage"
 "actions":
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4\
-    \ (1d4 + 2) piercing damage."
-  "name": "Bite"
-- "desc": "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60\
-    \ ft., one target. Hit: 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing\
-    \ damage if used with two hands to make a melee attack."
-  "name": "Spear"
-- "desc": "Ranged Weapon Attack: +3 to hit, range 150/600 ft., one target. Hit:\
-    \ 5 (1d8 + 1) piercing damage."
-  "name": "Longbow"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit:\
+      \ 4 (1d4 + 2) piercing damage."
+    "name": "Bite"
+  - "desc": "Melee  or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. Hit: 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing\
+      \ damage if used with two hands to make a melee attack."
+    "name": "Spear"
+  - "desc": "Ranged Weapon Attack: +3 to hit, range 150/600 ft., one target. Hit:\
+      \ 5 (1d8 + 1) piercing damage."
+    "name": "Longbow"
 "source":
-- "MM"
-- "BGDIA"
-- "SatO"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/humanoid/token/gnoll.webp"
+  - "MM"
+  - "PotA"
+  - "TftYP"
+  - "GoS"
+  - "BGDIA"
+  - "ERLW"
+  - "EGW"
+  - "IDRotF"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/gnoll.webp"
 ```
 ^statblock
 

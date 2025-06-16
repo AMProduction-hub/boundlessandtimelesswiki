@@ -4,7 +4,8 @@ cssclasses: json5e-reward
 tags:
 - ttrpg-cli/compendium/src/5e/bgdia
 - ttrpg-cli/reward/charm
-aliases: ["Charm of Agelessness"]
+aliases:
+- Charm of Agelessness
 ---
 # Charm of Agelessness
 

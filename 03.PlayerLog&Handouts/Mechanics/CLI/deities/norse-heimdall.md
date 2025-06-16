@@ -6,7 +6,8 @@ tags:
 - ttrpg-cli/deity/norse
 - ttrpg-cli/domain/light
 - ttrpg-cli/domain/war
-aliases: ["Heimdall"]
+aliases: 
+- Heimdall
 ---
 # Heimdall
 *Source: Player's Handbook p. 299* 

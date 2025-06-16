@@ -7,10 +7,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/construct
 statblock: inline
-aliases: ["Helmed Horror"]
+statblock-link: "#^statblock"
+aliases:
+- Helmed Horror
 ---
-# [Helmed Horror](03 - Player Log & Handouts\Mechanics\CLI\bestiary\construct/helmed-horror.md)
-*Source: Monster Manual p. 183, Baldur's Gate: Descent Into Avernus*  
+# [Helmed Horror](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/helmed-horror.md)
+*Source: Monster Manual p. 183, Princes of the Apocalypse, Storm King's Thunder, Tales from the Yawning Portal, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Baldur's Gate: Descent Into Avernus, Icewind Dale: Rime of the Frostmaiden, Journeys through the Radiant Citadel, Keys from the Golden Vault*  
 
 This construct possesses intelligence, the ability to reason and adjust its tactics, and an unswerving devotion to its maker that persists even after its maker's demise. Resembling an animated suit of empty plate armor, a helmed horror serves without ambition or emotion.
 
@@ -32,52 +34,62 @@ A helmed horror doesn't require air, food, drink, or sleep.
 "type": "construct"
 "alignment": "Unaligned"
 "ac": !!int "20"
-"ac_class": "[plate armor](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/items/plate-armor.md),\
-  \ [shield](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/items/shield.md)"
+"ac_class": "[plate armor](03.PlayerLog&Handouts/Mechanics/CLI/items/plate-armor.md),\
+  \ [shield](03.PlayerLog&Handouts/Mechanics/CLI/items/shield.md)"
 "hp": !!int "60"
 "hit_dice": "8d8 + 24"
+"modifier": !!int "1"
 "stats":
-- !!int "18"
-- !!int "13"
-- !!int "16"
-- !!int "10"
-- !!int "10"
-- !!int "10"
+  - !!int "18"
+  - !!int "13"
+  - !!int "16"
+  - !!int "10"
+  - !!int "10"
+  - !!int "10"
 "speed": "30 ft., fly 30 ft."
 "skillsaves":
-  "Perception": !!int "4"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+4"
 "damage_resistances": "bludgeoning, piercing, slashing from nonmagical attacks that\
   \ aren't adamantine"
 "damage_immunities": "force, necrotic, poison"
-"condition_immunities": "[blinded](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Blinded),\
-  \ [charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
-  \ [deafened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Deafened),\
-  \ [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
-  \ [paralyzed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
-  \ [petrified](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
-  \ [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
-  \ [stunned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Stunned)"
+"condition_immunities": "[blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded),\
+  \ [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened),\
+  \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
+  \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
+  \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
+  \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
+  \ [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)"
 "senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 14"
 "languages": "understands the languages of its creator but can't speak"
 "cr": "4"
 "traits":
-- "desc": "The helmed horror has advantage on saving throws against spells and other\
-    \ magical effects."
-  "name": "Magic Resistance"
-- "desc": "The helmed horror is immune to three spells chosen by its creator. Typical\
-    \ immunities include [fireball](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/fireball.md),\
-    \ [heat metal](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/heat-metal.md),\
-    \ and [lightning bolt](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/lightning-bolt.md)."
-  "name": "Spell Immunity"
+  - "desc": "The helmed horror has advantage on saving throws against spells and other\
+      \ magical effects."
+    "name": "Magic Resistance"
+  - "desc": "The helmed horror is immune to three spells chosen by its creator. Typical\
+      \ immunities include [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md),\
+      \ [heat metal](03.PlayerLog&Handouts/Mechanics/CLI/spells/heat-metal.md), and\
+      \ [lightning bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/lightning-bolt.md)."
+    "name": "Spell Immunity"
 "actions":
-- "desc": "The helmed horror makes two longsword attacks."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8\
-    \ + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with two hands."
-  "name": "Longsword"
+  - "desc": "The helmed horror makes two longsword attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8\
+      \ (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with\
+      \ two hands."
+    "name": "Longsword"
 "source":
-- "MM"
-- "BGDIA"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/construct/token/helmed-horror.webp"
+  - "MM"
+  - "PotA"
+  - "SKT"
+  - "TftYP"
+  - "WDH"
+  - "WDMM"
+  - "BGDIA"
+  - "IDRotF"
+  - "JttRC"
+  - "KftGV"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/token/helmed-horror.webp"
 ```
 ^statblock

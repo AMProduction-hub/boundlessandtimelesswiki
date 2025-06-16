@@ -11,7 +11,7 @@ aliases:
 ---
 # Cloak of Elvenkind
 *Wondrous item, major, uncommon (requires attunement)*  
-![](cloak-of-elvenkind.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/cloak-of-elvenkind.webp#right)
 
 
 While you wear this cloak with its hood up, Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) checks made to see you have disadvantage, and you have advantage on Dexterity ([Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)) checks made to hide, as the cloak's color shifts to camouflage you. Pulling the hood up or down requires an action.

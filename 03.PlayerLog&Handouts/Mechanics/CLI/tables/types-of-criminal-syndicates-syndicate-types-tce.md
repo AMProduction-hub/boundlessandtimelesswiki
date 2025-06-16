@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/tce
-aliases: ["Types of Criminal Syndicates; Syndicate Types"]
+aliases:
+- Types of Criminal Syndicates; Syndicate Types
 ---
 # Types of Criminal Syndicates; Syndicate Types
 *Source: Tasha's Cauldron of Everything p. 91* 

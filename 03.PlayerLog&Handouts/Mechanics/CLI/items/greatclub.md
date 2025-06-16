@@ -14,7 +14,7 @@ aliases:
 
 
 - **Damage**: 1d8 bludgeoning
-- **Properties**: [Two-Handed](item-properties.md#Two-Handed)
+- **Properties**: [Two-Handed](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Two-Handed)
 - **Cost**: 2 sp
 - **Weight**: 10.0 lbs.
 

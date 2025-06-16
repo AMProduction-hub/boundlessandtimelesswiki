@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/scag
-aliases: ["Classes"]
+aliases:
+- Classes
 ---
 # Classes
 *Source: Sword Coast Adventurer's Guide, p. 121* 
@@ -14,30 +15,30 @@ The twelve classes presented in the Player's Handbook are all found in the Forgo
 
 > [!quote] A quote from R.A. Salvatore, Siege of Darkness  
 > 
-> Closest to the dark elves, pwent lowered his head, with its long helmet spike, and impaled one elf through the chest, blasting through the fine mesh of drow armor easily and brutally. The second drow managed to deflect the next battlerager's charge, turning the helmet spike aside with both his swords. But a mailed fist, the knuckles devilishly spiked with barbed points, caught the drow under the chin and tore a gaping hole in his throat. Fighting for breath, the drow managed to score two nasty hits on his opponent's back, but those two strikes did little in the face of the flurry launched by the wild-eyed dwarf.
+> Closest to the dark elves, Pwent lowered his head, with its long helmet spike, and impaled one elf through the chest, blasting through the fine mesh of drow armor easily and brutally. The second drow managed to deflect the next battlerager's charge, turning the helmet spike aside with both his swords. But a mailed fist, the knuckles devilishly spiked with barbed points, caught the drow under the chin and tore a gaping hole in his throat. Fighting for breath, the drow managed to score two nasty hits on his opponent's back, but those two strikes did little in the face of the flurry launched by the wild-eyed dwarf.
 
-![](scag04-02.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/sword-coast-adventurers-guide/img/scag04-02.webp#center)
 
 Many of the lands of the Sword Coast and the North are savage, where day-to-day survival is a struggle. Such lands breed hardy tribes and fierce warriors, such as the Reghed and Uthgardt barbarians of the North and the seafaring Northlanders of the Moonshae Isles and the northernmost reaches of the Sword Coast.
 
-Barbarians of these lands are most often humans or half-orcs, occasionally half-elves born of contact between savage human tribes and the elves of the North or Western Heartlands, or tieflings from tribes known to consort with fiends. Dwarf barbarians are famed and feared warriors among the fiercely proud clans that have reclaimed territories like Mithril Hall and Gautlgrym. Barbarians of most other races hail from warmer southern lands, rather than the Savage North, although southern foundlings are sometimes adopted in the North and raised by tribes there.
+Barbarians of these lands are most often humans or half-orcs, occasionally half-elves born of contact between savage human tribes and the elves of the North or Western Heartlands, or tieflings from tribes known to consort with fiends. Dwarf barbarians are famed and feared warriors among the fiercely proud clans that have reclaimed territories like Mithral Hall and Gautlgrym. Barbarians of most other races hail from warmer southern lands, rather than the Savage North, although southern foundlings are sometimes adopted in the North and raised by tribes there.
 
 ## Primal Paths
 
 Barbarians in the Forgotten Realms have the following Primal Path options, in addition to those in the Player's Handbook. Reghed and Northlander barbarians tend to follow the Path of the Berserker, while Uthgardt barbarians are nearly always followers of the Path of the Totem Warrior.
 
-- [Path of the Battlerager](barbarian-path-of-the-battlerager-scag.md)  
+- [Path of the Battlerager](03.PlayerLog&Handouts/Mechanics/CLI/classes/barbarian-path-of-the-battlerager-scag.md)  
 
 > [!note] Uthgardt Totems
 > 
 > The totems of the Uthgardt barbarians of the North (described in chapter 5) correspond to the spirits of the Path of the Totem Warrior as shown in the following table.
 > 
-> ![Uthgardt Totems](uthgardt-totems-scag.md)
+> ![Uthgardt Totems](03.PlayerLog&Handouts/Mechanics/CLI/tables/uthgardt-totems-scag.md)
 ^uthgardt-totems
 
 ## Bards
 
-![](scag04-03.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/sword-coast-adventurers-guide/img/scag04-03.webp#center)
 
 Bards hold a special place of responsibility and respect in the Forgotten Realms. They are bearers of news, gossip, and messages in their travels from place to place, in addition to being living storehouses of history and folklore. Bards know a great deal, and they tend to be willing to share what they know, or at least barter for it.
 
@@ -45,7 +46,7 @@ The arrival of a renowned bard is a special occasion, akin to the visit of a dig
 
 Not all wandering performers are true bards, nor are all bards inclined to sing for their supper, although most will, given the need. Bards literally have magic to them, and the powers they command through their performance and lore earns them additional respect.
 
-In the Savage North, singers and storytellers called skalds are keepers of the history and great legends of the Northlanders and the Reghed. These warrior-poets are the singers of the songs and sagas that fire the blood of warriors in battle, and composers of the new songs and sagas relating the mighty deeds of heroes and villains. However, spellcasting is taboo among Reghed and Norhtlanders unless it is considered a gift of their gods. Characters with the bard class who rise to prominence among these folk must align themselves with their clan's priests and shamans or risk being outcast. Most skalds are members of the College of Valor, as described in the Bard College class feature in the Player's Handbook.
+In the Savage North, singers and storytellers called skalds are keepers of the history and great legends of the Northlanders and the Reghed. These warrior-poets are the singers of the songs and sagas that fire the blood of warriors in battle, and composers of the new songs and sagas relating the mighty deeds of heroes and villains. However, spellcasting is taboo among Reghed and Northlanders unless it is considered a gift of their gods. Characters with the bard class who rise to prominence among these folk must align themselves with their clan's priests and shamans or risk being outcast. Most skalds are members of the College of Valor, as described in the Bard College class feature in the Player's Handbook.
 
 ## The Harpers
 
@@ -72,7 +73,7 @@ The College of Fochlucan is naturally allied with the Harpers, although its mast
 
 Housed in two Cliffride villas overlooking the sea near Waterdeep, the College of New Olamn is a prestigious bardic college established in the Year of the Staff (1366 DR) by wealthy Waterdhavian patrons and named for the old College of Ollamh. Students of the college undergo training in their chosen instruments, along with rigorous practice in memorization and the study of ancient songs, sagas, and history. Most bards of New Olamn belong to the College of Lore, as described in the Bard College class feature in the Player's Handbook.
 
-The Cliffride, a gravel path up Mount Waterdeep's northern spur, is used to bring goods to the college, but most visitors and students use the Mount Melody Walk—a tunnel through the mountain itself—to reach it. The tunnel regularly resounds with music, thanks to the Neverending String of Pearls, an ongoing concert where bardic students perform in a small alcove in the tunnel, which carries and echoes their music.
+The Cliffride, a gravel path up Mount Waterdeep's northern spur, is used to bring goods to the college, but most visitors and students use the Mount Melody Walk—a tunnel through the mountain itself—to reach it. The tunnel regularly resounds with music, thanks to the Never-ending String of Pearls, an ongoing concert where bardic students perform in a small alcove in the tunnel, which carries and echoes their music.
 
 ### College of the Herald
 
@@ -82,7 +83,7 @@ The College of the Herald is less concerned with musical performance (although i
 
 ## Musical Instruments
 
-![](scag04-04.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/sword-coast-adventurers-guide/img/scag04-04.webp#center)
 
 In addition to the common musical instruments listed in chapter 5, "Equipment," of the Player's Handbook, bards in the Realms play the following instruments:
 
@@ -101,7 +102,7 @@ In addition to the common musical instruments listed in chapter 5, "Equipment," 
 
 ## Clerics
 
-![](scag04-05.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/sword-coast-adventurers-guide/img/scag04-05.webp#center)
 
 The gods are most active through their chosen clerics, who carry out the gods' work on the Material Plane. A typical cleric in Faerûn serves a single divine patron, but some individuals feel called to serve a group, such as the elemental gods Akadi, Grumbar, Kossuth, and Istishia, while others serve deities that are intertwined gods, such as the elves' Angharradh.
 
@@ -115,7 +116,7 @@ Some clerics are homebodies who serve a particular community of the faithful, bu
 
 Clerics in the Forgotten Realms have the following Divine Domain option, in addition to those in the Player's Handbook.
 
-- [Arcana Domain](cleric-arcana-domain-scag.md)  
+- [Arcana Domain](03.PlayerLog&Handouts/Mechanics/CLI/classes/cleric-arcana-domain-scag.md)  
 
 ## Druids
 
@@ -127,7 +128,7 @@ Although they are most strongly associated with sylvan forests, druids care for 
 
 ## Druid Circles
 
-![](scag04-06.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/sword-coast-adventurers-guide/img/scag04-06.webp#center)
 
 Druidic ways are ancient and largely practiced in secret, away from the eyes of the uninitiated. In many lands, the Old Ways of the First Circle have given way to new churches and temples, but druids and their followers still gather to honor the cycles of nature and to ensure the natural balance isn't threatened. People who dwell in or near wild lands do well to learn if a druid circle operates nearby, seeking the circle's blessing before hunting or farming on the lands they protect.
 
@@ -149,11 +150,11 @@ Founded in the Vilhon Reach over a thousand years ago, the Emerald Enclave has s
 
 In the Druid Circle class feature in the Player's Handbook, Emerald Enclave druids belong to the Circle of the Land and Circle of the Moon in equal measure.
 
-### The Moonshea Circles
+### The Moonshae Circles
 
-The folk of the Moonshea Isles venerate the land as the great goddess they call the Earthmother. Their circles gather around sacred pools known as moonwells, their link between the natural world and the goddess, ringed by standing stone circles, raised by their ancient ancestors.
+The folk of the Moonshae Isles venerate the land as the great goddess they call the Earthmother. Their circles gather around sacred pools known as moonwells, their link between the natural world and the goddess, ringed by standing stone circles, raised by their ancient ancestors.
 
-In the Druid Circle class feature in the Player's Handbook, Moonshea druids most often belong to the Circle of the Land (Coast, Forest, and Mountain).
+In the Druid Circle class feature in the Player's Handbook, Moonshae druids most often belong to the Circle of the Land (Coast, Forest, and Mountain).
 
 #### Moonwells
 
@@ -176,7 +177,7 @@ On the three nights of the full moon, three or more druids gathered around a moo
 > 
 > "Slow to learn, aren't they?" a white-haired old knight who'd lost his helm in the last fray drawled. "This is getting to be like a proper romp in the dragonjaws, it is! I'll have to get my minstrel to write a ballad about this..." "I hope he sings swiftly, "a purple dragon armsman growled. "Here they are!" The howling spilled over the bodies in another rushing tide of flapping leather, slashing swords, and beady goblin eyes. Men planted themselves—no running and leaping now—to hew steadily, like harvesters with scythes and many fields in front of them, in a rhythm of death.
 
-![](scag04-07.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/sword-coast-adventurers-guide/img/scag04-07.webp#center)
 
 Whether doughty warriors, idealistic young soldiers, or hard-bitten mercenaries, fighters are found everywhere in the Forgotten Realms. Even the most peaceful lands have militia for protection against their enemies, and many great rulers in the Realms' past were fighters of some sort. There are always opportunities for those who know how to handle themselves in a fight.
 
@@ -192,7 +193,7 @@ A good deal of danger comes from fighters who abandon legitimate employment to b
 
 Fighters in the Forgotten Realms have the following Martial Archetype option, in addition to those in the Player's Handbook.
 
-- [Purple Dragon Knight (Banneret)](fighter-purple-dragon-knight-banneret-scag.md)  
+- [Purple Dragon Knight (Banneret)](03.PlayerLog&Handouts/Mechanics/CLI/classes/fighter-purple-dragon-knight-banneret-scag.md)  
 
 ## Monks
 
@@ -200,7 +201,7 @@ Fighters in the Forgotten Realms have the following Martial Archetype option, in
 > 
 > The fat man straightened his black-and-gold vest, lowered his round head, and charged. Danica waited until he was right in front of her, and to the onlookers it appeared as if the woman would be buried beneath mounds of flesh. at the last moment, she dipped her head under the fat man's lunging arm, caught his hand, and casually stepped behind him as he lumbered past. A subtle twist of her wrist stopped him dead in his tracks, and before he even realized what was happening, Danica kicked the back of both his knees, dropping him to a kneel.
 
-![](scag04-08.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/sword-coast-adventurers-guide/img/scag04-08.webp#center)
 
 Some of the earliest monastic orders in Faerûn arose in the southern lands of Amn and Calimshan, their practices migrating north and east at the same time similar practices filtered westward from distant Kara-Tur.
 
@@ -224,7 +225,7 @@ A halfling monastic order from Luiren, adherents of the Hin Fist turn their peop
 
 Also known as the Disciples of Saint Sollars the Twice-Martyred, the Order of the Yellow Rose is a solitary monastery of Ilmater worshipers in the Earthspur Mountains of Damara. It is known for loyalty to its allies and destruction to its enemies. Greatly respected on matters of truth and diplomacy, the monks work hard to survive in their remote sanctuary. The monks of the Monastery of the Yellow Rose use the remorhaz to test their disciples. Young monks must prove the power of their mind to overcome fear and pain by riding the beasts.
 
-The faith of Ilmater fosters far more orders of monks than other gods. Other llmatari monastic orders include the Followers of the Unhindered Path, the Disciples of St. Morgan the Taciturn, and the Sisters of St. Jasper of the Rocks.
+The faith of Ilmater fosters far more orders of monks than other gods. Other Ilmatari monastic orders include the Followers of the Unhindered Path, the Disciples of St. Morgan the Taciturn, and the Sisters of St. Jasper of the Rocks.
 
 Monks of Ilmater often travel as wanderers, begging for alms, seeking enlightenment, and relieving the suffering of others. They tend to follow the Way of the Open Hand, as described in the Monastic Tradition class feature in the Player's Handbook.
 
@@ -266,8 +267,8 @@ The monastic order of Eldath is the Disciples of the Yielding Way, sometimes kno
 
 Monks in the Forgotten Realms have the following Monastic Tradition options, in addition to those in the Player's Handbook.
 
-- [Way of the Long Death](monk-way-of-the-long-death-scag.md)  
-- [Way of the Sun Soul](monk-way-of-the-sun-soul-xge.md)  
+- [Way of the Long Death](03.PlayerLog&Handouts/Mechanics/CLI/classes/monk-way-of-the-long-death-scag.md)  
+- [Way of the Sun Soul](03.PlayerLog&Handouts/Mechanics/CLI/classes/monk-way-of-the-sun-soul-xge.md)  
 
 ## Paladins
 
@@ -289,7 +290,7 @@ Different paladin orders in the Forgotten Realms emphasize different elements of
 - **Kindness.** Protect the weak. Grant mercy to those who seek redemption.  
 - **Honor.** Hold true to the code. Death before dishonor.  
 
-![](scag04-09.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/sword-coast-adventurers-guide/img/scag04-09.webp#center)
 
 Every paladin grades and emphasizes these virtues based on his or her own personal ethos and religious background. A paladin of Sune would emphasize aspects of courtly love and courtesy, whereas a paladin of Tyr would be more concerned with justice and fair treatment of foes.
 
@@ -315,13 +316,13 @@ Of the options in the Sacred Oath class feature in the Player's Handbook, paladi
 
 ### Order of Samular
 
-The Holy Order of Samular, also known as the Knights of Samular, is made up of warriors in the service of Tyr. The order is based at Summit Hall, while also maintaining a chapter house in Waterdeep. Legendary paladin Samular Caradoon founded the order in 952 DR after the Second Troll War and the deaths of his brothers Renwick "Snowcloak" and Amphail the Just during the war. When Tyr fell silent and the paladins in his service lost their powers, many turned to other gods such as Torm, but the Kights of Samular stayed true to Tyr. Their patience was recently rewarded when, upon Tyr's return to the world, many of their dwindling number were invested with the powers of a paladin. Known for their support of the law, many paladins of the order follow the Oath of the Crown, which is described below.
+The Holy Order of Samular, also known as the Knights of Samular, is made up of warriors in the service of Tyr. The order is based at Summit Hall, while also maintaining a chapter house in Waterdeep. Legendary paladin Samular Caradoon founded the order in 952 DR after the Second Troll War and the deaths of his brothers Renwick "Snowcloak" and Amphail the Just during the war. When Tyr fell silent and the paladins in his service lost their powers, many turned to other gods such as Torm, but the Knights of Samular stayed true to Tyr. Their patience was recently rewarded when, upon Tyr's return to the world, many of their dwindling number were invested with the powers of a paladin. Known for their support of the law, many paladins of the order follow the Oath of the Crown, which is described below.
 
 ## Sacred Oath
 
 Paladins in the Forgotten Realms have the following Sacred Oath option, in addition to those in the Player's Handbook:
 
-- [Oath of the Crown](paladin-oath-of-the-crown-scag.md)  
+- [Oath of the Crown](03.PlayerLog&Handouts/Mechanics/CLI/classes/paladin-oath-of-the-crown-scag.md)  
 
 ## Rangers
 
@@ -329,7 +330,7 @@ Paladins in the Forgotten Realms have the following Sacred Oath option, in addit
 > 
 > Montolio held out his arm, and the great owl promptly hopped onto it, carefully finding its footing on the man's heavy leather sleeve. "You have seen the drow?" Montolio asked. The owl responded with a whoo, then went off into a complicated series of chattering hoots and whoos. Montolio took it all in, weighing every detail. With the help of his friends, particularly this rather talkative owl, the ranger had monitored the drow for several days, curious as to why a dark elf had wandered into the valley. At first, Montolio had assumed that the drow was somehow connected to Graul, the chief orc of the region, but as time went on, the ranger began to suspect differently.
 
-![](scag04-10.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/sword-coast-adventurers-guide/img/scag04-10.webp#center)
 
 Long have rangers walked the wilds of the Sword Coast and the Savage Frontier. Like druids, their practices date back to the earliest days of humanity. And long before humans set foot in the North, elf rangers strode through its forests and climbed its mountains. The traditions and outlook of these people are now shared by members of many races. In particular, lightfoot halflings frequently hear the call of the wild and become rangers, often acting as guides and protectors of roving halfling bands, and shield dwarves forced to wander far from old clanholds sometimes follow the ranger's path.
 
@@ -357,7 +358,7 @@ Most dwarves prefer to hunker down under a mountain, rather than roam the wilder
 
 ## Rogues
 
-![](scag04-11.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/sword-coast-adventurers-guide/img/scag04-11.webp#center)
 
 There are those whose abilities lie not with sword or the Art, but with quiet motion, dexterous action, and stealth. Such talents often lead to illegal endeavors, which plague most major cities, but can be placed to good use in dealing with dangerous monsters and lost treasure.
 
@@ -373,14 +374,14 @@ Some rogues have learned it is easier to pick someone's pocket when you have a r
 
 Rogues in the Forgotten Realms have the following Roguish Archetype options, in addition to those in the Player's Handbook:
 
-- [Mastermind](rogue-mastermind-xge.md)  
-- [Swashbuckler](rogue-swashbuckler-xge.md)  
+- [Mastermind](03.PlayerLog&Handouts/Mechanics/CLI/classes/rogue-mastermind-xge.md)  
+- [Swashbuckler](03.PlayerLog&Handouts/Mechanics/CLI/classes/rogue-swashbuckler-xge.md)  
 
 ## Sorcerers
 
 The Weave of magic infuses every part of the Realms, and some people have the natural ability to perceive, touch, and shape the Weave. Some inherit this ability from a magical ancestor such as a dragon or an angel, others gain it by accident from exposure to wild magical power, and others manifest this power by chance or the hand of fate, perhaps portended by events at their conception or birth.
 
-Due to their varied origins and delayed manifestation of powers, sorcerers can be found almost anywhere and among almost any people. Larger cities on the Sword Coast—including Baldur's Gate, Neverwinter, and Waterdeep—all have a few sorcerers, since people with magic gravitate to places where their abilities are valued. Sorcerers are slightly more common among cultures steeped in magic, such as among the elves of Evermeet and the humans of Halruua. The witches of Rashemen are sorcerers who lead that country's society, but their Thayan neighbors often persecute the sorcerers who appear in Thay, seeing sorcery as a threat to the nation's power structure, which is based on the study of wizardry. Magic-hating cultures, such as the Northlanders and Uthgardt, exile or kill the sorcerers who manifest among them.
+Due to their varied origins and delayed manifestation of powers, sorcerers can be found almost anywhere and among almost any people. Larger cities on the Sword Coast—including Baldur's Gate, Neverwinter, and Waterdeep—all have a few sorcerers, since people with magic gravitate to places where their abilities are valued. Sorcerers are slightly more common among cultures steeped in magic, such as among the elves of Evermeet and the humans of Halruaa. The witches of Rashemen are sorcerers who lead that country's society, but their Thayan neighbors often persecute the sorcerers who appear in Thay, seeing sorcery as a threat to the nation's power structure, which is based on the study of wizardry. Magic-hating cultures, such as the Northlanders and Uthgardt, exile or kill the sorcerers who manifest among them.
 
 ### Wild Magic
 
@@ -402,7 +403,7 @@ The common folk of Faerûn often make little distinction between sorcerers, warl
 
 Sorcerers in the Forgotten Realms have the following Sorcerous Origin option, in addition to those in the Player's Handbook:
 
-- [Storm Sorcery](sorcerer-storm-sorcery-xge.md)  
+- [Storm Sorcery](03.PlayerLog&Handouts/Mechanics/CLI/classes/sorcerer-storm-sorcery-xge.md)  
 
 ## Warlocks
 
@@ -418,11 +419,11 @@ The gods are far from the only forces at work in the Realms, and ambitious warlo
 
 In the vast wilderness of the Realms one can still find connections to the Feywild. These are fey crossings, places of mysterious natural beauty in the world that have a near-perfect mirror in the Feywild. You can pass through a fey crossing by entering a clearing, passing through the surface of a pool, stepping into a circle of mushrooms, or crawling under the trunk of a tree. A few warlocks seek out such places to bargain with the Archfey of that realm for power. Noteworthy Archfey patrons include the following: **Titania,** the Summer Queen, is perhaps the mightiest of the archfey. With a smile, she can ripen a crop, and with a frown, summon wildfires. She rules the seelie of the Summer Court. **Oberon,** the Green Lord, an unrivaled hunter and woodland warrior, is Titania's lover and frequently her foe. Oberon is attuned to every bough of each tree and each branch of every stream in the forests of the Feywild. If Oberon has a weakness, it is the wild nature of his heart. His mood swings like a weather vane in a wind storm. **Hyrsam,** the Prince of Fools, is thought to be the first satyr. He can sing the shine off gold, and his jokes and antics can cause stones to cry with laughter. Yet Hyrsam is also the soul of savagery and the wild. Hyrsam the Fool is a prankster and prone to mischief, but when such jokes turn vicious and deadly, Hyrsam the Savage is at play. **The Queen of Air and Darkness** rules the unseelie of the Gloaming Court from an onyx throne that sits empty except for the hovering Night Diamond, a black gem the size of a human head that dully glimmers with captured stars. The Queen of Air and Darkness is an invisible presence around it, her voice thundering from the Night Diamond or whispering secrets directly in the ears of her courtiers, and sometimes both at once. **The Prince of Frost** was once known as the Sun Prince, but his heart grew cold when his betrothed betrayed him and escaped, her soul becoming one of the stars. Ever since, the wrathful prince has sought to reunite with his betrothed whenever she is reincarnated in mortal form.
 
-![](scag04-13.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/sword-coast-adventurers-guide/img/scag04-13.webp#center)
 
 ### The Fiend
 
-Numerous fiends forge pacts with mortal warlocks in the Realms—so many that warlocks are almost synonymous with infernal power in Faerûn. These fiends include the Archdevils of the Nine Hells and their most powerful dukes, the Demon Lords of the Abyss, and the ultroloths who rule over yugoloth armies. Such deals need not be struck directly with the power in question, however. Often a weaker fiend serves as an intermediary, and the warlock might not know whom he or she serves. Notable fiendish patrons peculiar to the Forgotten Realms include the following: **Baazka** is the pit fiend behind the most recent incursion of infernal forces from Dragonspear Castle. Its plans for the Sword Coast were thwarted along with those of allied Red Wizards, but its ambitions in the region remain. **Belaphoss** is a demon that serves Demogorgon. It considers itself the greatest servitor of the Prince of Demons and thus a rival for Demogorgon's power. **Eltab** was once bound beneath the city of Eltabbar in Thay, caged even by the layout of the city's streets and canals, which formed a glyph of imprisonment. The demon is now loose in the world, seeking revenge. **Errtu** the balor has plagued Drizzt Do'Urden for more than a century, largely over possession of an artifact called the Crenshinibon. Having lost the last battle and been banished from the world, the balor now seeks indirect means of revenge. **Gargauth** is a mysterious infernal power who seeks godhood while trapped in the world within a magical shield. **Lorcan** is a [cambion](cambion.md) who collects warlocks like one might collect butterflies. His favorite collection, the Troil Thirteen, includes warlocks of blood descent from the thirteen who first made a pact with Asmodeus. **Malkizid** is a solar who fell from grace when he betrayed the Seldarine. Ever since then, Malkizid has delighted in every wrong he can do to elves, but he gains the greatest pleasure when he manipulates the elves into harming each other. **Wendonai** is the balor lord who first tempted the dark elves to summon demons in the ancient wars between the elf peoples. It also turned them to the worship of Lolth and continued to advise and tutor them for long after the Descent.
+Numerous fiends forge pacts with mortal warlocks in the Realms—so many that warlocks are almost synonymous with infernal power in Faerûn. These fiends include the Archdevils of the Nine Hells and their most powerful dukes, the Demon Lords of the Abyss, and the ultroloths who rule over yugoloth armies. Such deals need not be struck directly with the power in question, however. Often a weaker fiend serves as an intermediary, and the warlock might not know whom he or she serves. Notable fiendish patrons peculiar to the Forgotten Realms include the following: **Baazka** is the pit fiend behind the most recent incursion of infernal forces from Dragonspear Castle. Its plans for the Sword Coast were thwarted along with those of allied Red Wizards, but its ambitions in the region remain. **Belaphoss** is a demon that serves Demogorgon. It considers itself the greatest servitor of the Prince of Demons and thus a rival for Demogorgon's power. **Eltab** was once bound beneath the city of Eltabbar in Thay, caged even by the layout of the city's streets and canals, which formed a glyph of imprisonment. The demon is now loose in the world, seeking revenge. **Errtu** the balor has plagued Drizzt Do'Urden for more than a century, largely over possession of an artifact called the Crenshinibon. Having lost the last battle and been banished from the world, the balor now seeks indirect means of revenge. **Gargauth** is a mysterious infernal power who seeks godhood while trapped in the world within a magical shield. **Lorcan** is a [cambion](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/cambion.md) who collects warlocks like one might collect butterflies. His favorite collection, the Troil Thirteen, includes warlocks of blood descent from the thirteen who first made a pact with Asmodeus. **Malkizid** is a solar who fell from grace when he betrayed the Seldarine. Ever since then, Malkizid has delighted in every wrong he can do to elves, but he gains the greatest pleasure when he manipulates the elves into harming each other. **Wendonai** is the balor lord who first tempted the dark elves to summon demons in the ancient wars between the elf peoples. It also turned them to the worship of Lolth and continued to advise and tutor them for long after the Descent.
 
 ### The Great Old One
 
@@ -432,7 +433,7 @@ Beyond the planes known to great wizards and sages lies the Far Realm of the Gre
 
 Warlocks in the Forgotten Realms have the following Otherworldly Patron option, in addition to those in the Player's Handbook:
 
-- [The Undying](warlock-the-undying-scag.md)  
+- [The Undying](03.PlayerLog&Handouts/Mechanics/CLI/classes/warlock-the-undying-scag.md)  
 
 ## Wizards
 
@@ -440,7 +441,7 @@ Warlocks in the Forgotten Realms have the following Otherworldly Patron option, 
 > 
 > The first hilt parried a clumsy axe swing and caught the rhythm of the wizard's spell. It was one with which he was well familiar. Using his free hand, the bladesinger mirrored his opponent's casting then sent his considerable power out to surround the overmatched wizard, binding it to himself. Argent energy flew from the human's outstretched hand only to fizzle into nothingness as the bladesinger quenched the spell.
 
-![](scag04-14.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/sword-coast-adventurers-guide/img/scag04-14.webp#center)
 
 Scholars and practitioners of what they call "the Art" (see chapter 1 for details), wizards are the most disciplined spellcasters in the Forgotten Realms. They need to be, as their powers come from years of careful study and practice. Some wizards apprentice and study with an experienced master, while others attend formal academies or universities of wizardry, such as those in Evermeet or Halruaa, or in the great cities of the North like Waterdeep or Silverymoon.
 
@@ -458,7 +459,7 @@ The most infamous group of wizards in the Realms are the Red Wizards of Thay. Ga
 
 In Thay, the Red Wizards have ultimate power, although they give governance of day-to-day affairs to those without skill in the Art. Every Red Wizard devotes study to one of the eight schools of magic and serves that school's zulkir, the leader and ultimate master of that style of magic. The zulkirs and their underlings constantly vie with one another for power and influence, and this competition frequently sends Red Wizards far from Thay to seek new spells, recover lost artifacts, and create wealth that can flow back to Thay. The power the Red Wizards hold in Thay gives them a measure of diplomatic legitimacy in the lands of the Sword Coast and the North, but their presence is rarely welcome and is universally viewed with suspicion.
 
-![](scag04-15.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/sword-coast-adventurers-guide/img/scag04-15.webp#center)
 
 ### War Wizards
 
@@ -477,7 +478,7 @@ The War Wizards of Cormyr are perhaps the best known application of the Art to t
 
 Wizards in the Forgotten Realms have the following Arcane Tradition option, in addition to those in the Player's Handbook.
 
-- [Bladesinging](wizard-bladesinging-tce.md)  
+- [Bladesinging](03.PlayerLog&Handouts/Mechanics/CLI/classes/wizard-bladesinging-tce.md)  
 
 > [!note] Bladesinger Styles
 > 
@@ -498,7 +499,7 @@ Practitioners of the Art have developed the following cantrips for those who fav
 
 These cantrips are on the sorcerer, warlock, and wizard spell lists.
 
-- [Booming Blade](booming-blade-tce.md)  
-- [Green-Flame Blade](green-flame-blade-tce.md)  
-- [Lightning Lure](lightning-lure-tce.md)  
-- [Sword Burst](sword-burst-tce.md)
+- [Booming Blade](03.PlayerLog&Handouts/Mechanics/CLI/spells/booming-blade-tce.md)  
+- [Green-Flame Blade](03.PlayerLog&Handouts/Mechanics/CLI/spells/green-flame-blade-tce.md)  
+- [Lightning Lure](03.PlayerLog&Handouts/Mechanics/CLI/spells/lightning-lure-tce.md)  
+- [Sword Burst](03.PlayerLog&Handouts/Mechanics/CLI/spells/sword-burst-tce.md)

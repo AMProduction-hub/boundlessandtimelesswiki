@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mm
-aliases: ["Introduction"]
+aliases:
+- Introduction
 ---
 # Introduction
 *Source: Monster Manual (2014), p. 4* 
@@ -117,7 +118,7 @@ A monster's statistics, sometimes referred to as its stat block, provide the ess
 
 A monster can be Tiny, Small, Medium, Large, Huge, or Gargantuan. The Size Categories table shows how much space a creature of a particular size controls in combat. See the 6 for more information on creature size and space.
 
-![Size Categories](size-categories.md)
+![Size Categories](03.PlayerLog&Handouts/Mechanics/CLI/tables/size-categories-mm.md)
 
 ### Type
 
@@ -181,13 +182,13 @@ A monster's size determines the die used to calculate its hit points, as shown i
 
 A monster's Constitution modifier also affects the number of hit points it has. Its Constitution modifier is multiplied by the number of Hit Dice it possesses, and the result is added to its hit points. For example, if a monster has a Constitution of 12 (+1 modifier) and `2d8` Hit Dice, it has `2d8 + 2` hit points (average 11).
 
-![Hit Points; Hit Dice by Size](hit-points-hit-dice-by-size.md)
+![Hit Points; Hit Dice by Size](03.PlayerLog&Handouts/Mechanics/CLI/tables/hit-points-hit-dice-by-size-mm.md)
 
 ### Speed
 
 A monster's speed tells you how far it can move on its turn. For more information on speed, see the *Player's Handbook.*
 
-All creatures have a walking speed, simply called the monster's speed. Creatures that have no form of groundbased locomotion have a walking speed of 0 feet.
+All creatures have a walking speed, simply called the monster's speed. Creatures that have no form of ground-based locomotion have a walking speed of 0 feet.
 
 Some creatures have one or more of the following additional movement modes.
 
@@ -213,11 +214,11 @@ Every monster has six ability scores (Strength, Dexterity, Constitution, Intelli
 
 ### Saving Throws
 
-The Saving Throws entry is reserved for creatures that are adept at resisting certain kinds of effects. For example, a creature that isn't easily [charmed](conditions.md#Charmed) or [frightened](conditions.md#Frightened) might gain a bonus on its Wisdom saving throws. Most creatures don't have special saving throw bonuses, in which case this section is absent.
+The Saving Throws entry is reserved for creatures that are adept at resisting certain kinds of effects. For example, a creature that isn't easily [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed) or [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened) might gain a bonus on its Wisdom saving throws. Most creatures don't have special saving throw bonuses, in which case this section is absent.
 
 A saving throw bonus is the sum of a monster's relevant ability modifier and its proficiency bonus, which is determined by the monster's challenge rating (as shown in the Proficiency Bonus by Challenge Rating table).
 
-![Saving Throws; Proficiency Bonus by Challenge Rating](saving-throws-proficiency-bonus-by-challenge-rating.md)
+![Saving Throws; Proficiency Bonus by Challenge Rating](03.PlayerLog&Handouts/Mechanics/CLI/tables/saving-throws-proficiency-bonus-by-challenge-rating-mm.md)
 
 ### Skills
 
@@ -235,21 +236,21 @@ The Senses entry notes a monster's passive Wisdom ([Perception](03.PlayerLog&Han
 
 #### Blindsight
 
-A monster with [blindsight](senses.md#Blindsight) can perceive its surroundings without relying on sight, within a specific radius. Creatures without eyes, such as grimlocks and gray oozes, typically have this special sense, as do creatures with echolocation or heightened senses, such as bats and true dragons.
+A monster with [blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight) can perceive its surroundings without relying on sight, within a specific radius. Creatures without eyes, such as grimlocks and gray oozes, typically have this special sense, as do creatures with echolocation or heightened senses, such as bats and true dragons.
 
-If a monster is naturally blind, it has a parenthetical note to this effect, indicating that the radius of its [blindsight](senses.md#Blindsight) defines the maximum range of its perception.
+If a monster is naturally blind, it has a parenthetical note to this effect, indicating that the radius of its [blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight) defines the maximum range of its perception.
 
 #### Darkvision
 
-A monster with [darkvision](senses.md#Darkvision) can see in the dark within a specific radius. The monster can see in dim light within the radius as if it were bright light, and in darkness as if it were dim light. The monster can't discern color in darkness, only shades of gray. Many creatures that live underground have this special sense.
+A monster with [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision) can see in the dark within a specific radius. The monster can see in dim light within the radius as if it were bright light, and in darkness as if it were dim light. The monster can't discern color in darkness, only shades of gray. Many creatures that live underground have this special sense.
 
 #### Tremorsense
 
-A monster with [tremorsense](senses.md#Tremorsense) can detect and pinpoint the origin of vibrations within a specific radius, provided that the monster and the source of the vibrations are in contact with the same ground or substance. Tremorsense can't be used to detect flying or incorporeal creatures. Many burrowing creatures, such as ankhegs and umber hulks, have this special sense.
+A monster with [tremorsense](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Tremorsense) can detect and pinpoint the origin of vibrations within a specific radius, provided that the monster and the source of the vibrations are in contact with the same ground or substance. Tremorsense can't be used to detect flying or incorporeal creatures. Many burrowing creatures, such as ankhegs and umber hulks, have this special sense.
 
 #### Truesight
 
-A monster with [truesight](senses.md#Truesight) can, out to a specific range, see in normal and magical darkness, see [invisible](conditions.md#Invisible) creatures and objects, automatically detect visual illusions and succeed on saving throws against them, and perceive the original form of a shapechanger or a creature that is transformed by magic. Furthermore, the monster can see into the Ethereal Plane within the same range.
+A monster with [truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight) can, out to a specific range, see in normal and magical darkness, see [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible) creatures and objects, automatically detect visual illusions and succeed on saving throws against them, and perceive the original form of a shapechanger or a creature that is transformed by magic. Furthermore, the monster can see into the Ethereal Plane within the same range.
 
 ### Languages
 
@@ -259,7 +260,7 @@ The languages that a monster can speak are listed in alphabetical order. Sometim
 
 Telepathy is a magical ability that allows a monster to communicate mentally with another creature within a specified range. The contacted creature doesn't need to share a language with the monster to communicate in this way with it, but it must be able to understand at least one language. A creature without telepathy can receive and respond to telepathic messages but can't initiate or terminate a telepathic conversation.
 
-A telepathic monster doesn't need to see a contacted creature and can end the telepathic contact at any time. The contact is broken as soon as the two creatures are no longer within range of each other or if the telepathic monster contacts a different creature within range. A telepathic monster can initiate or terminate a telepathic conversation without using an action, but while the monster is [incapacitated](conditions.md#Incapacitated), it can't initiate telepathic contact, and any current contact is terminated.
+A telepathic monster doesn't need to see a contacted creature and can end the telepathic contact at any time. The contact is broken as soon as the two creatures are no longer within range of each other or if the telepathic monster contacts a different creature within range. A telepathic monster can initiate or terminate a telepathic conversation without using an action, but while the monster is [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated), it can't initiate telepathic contact, and any current contact is terminated.
 
 A creature within the area of an antimagic field or in any other location where magic doesn't function can't send or receive telepathic messages.
 
@@ -290,7 +291,7 @@ Unless something tells you otherwise, a monster summoned by a spell or other mag
 
 The *Dungeon Master's Guide* explains how to create encounters using XP budgets, as well as how to adjust an encounter's difficulty.
 
-![Experience Points by Challenge Rating](experience-points-by-challenge-rating.md)
+![Experience Points by Challenge Rating](03.PlayerLog&Handouts/Mechanics/CLI/tables/experience-points-by-challenge-rating-mm.md)
 
 ### Special Traits
 
@@ -300,7 +301,7 @@ Special traits (which appear after a monster's challenge rating but before any a
 
 A monster with the innate ability to cast spells has the Innate Spellcasting special trait. Unless noted otherwise. an innate spell of 1st level or higher is always cast at its lowest possible level and can't be cast at a higher level. If a monster has a cantrip where its level matters and no level is given, use the monster's challenge rating.
 
-An innate spell can have special rules or restrictions. For example, a drow mage can innately cast the [levitate](levitate.md) spell, but the spell has a "self only" restriction, which means that the spell affects only the drow mage.
+An innate spell can have special rules or restrictions. For example, a drow mage can innately cast the [levitate](03.PlayerLog&Handouts/Mechanics/CLI/spells/levitate.md) spell, but the spell has a "self only" restriction, which means that the spell affects only the drow mage.
 
 A monster's innate spells can't be swapped out with other spells. If a monster's innate spells don't require attack rolls, no attack bonus is given for them.
 
@@ -310,7 +311,7 @@ A monster with the Spellcasting special trait has a spellcaster level and spell 
 
 The monster has a list of spells known or prepared from a specific class. The list might also include spells from a feature in that class, such as the Divine Domain feature of the cleric or the Druid Circle feature of the druid. The monster is considered a member of that class when attuning to or using a magic item that requires membership in the class or access to its spell list.
 
-A monster can cast a spell from its list at a higher level if it has the spell slot to do so. For example, a drow mage with the 3rd level [lightning bolt](lightning-bolt.md) spell can cast it as a 5th-level spell by using one of its 5th-level spell slots.
+A monster can cast a spell from its list at a higher level if it has the spell slot to do so. For example, a drow mage with the 3rd level [lightning bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/lightning-bolt.md) spell can cast it as a 5th-level spell by using one of its 5th-level spell slots.
 
 You can change the spells that a monster knows or has prepared, replacing any spell on its spell list with a spell of the same level and from the same class list. If you do so. you might cause the monster to be a greater or lesser threat than suggested by its challenge rating.
 
@@ -320,7 +321,7 @@ A monster that casts spells using only the power of its mind has the psionics ta
 
 ### Actions
 
-When a monster takes its action, it can choose from the options in the Actions section of its stat block or use one of the actions available to all creatures, such as the [Dash](actions.md#Dash) or [Hide](actions.md#Hide) action, as described in the *Player's Handbook.*
+When a monster takes its action, it can choose from the options in the Actions section of its stat block or use one of the actions available to all creatures, such as the [Dash](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Dash) or [Hide](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Hide) action, as described in the *Player's Handbook.*
 
 #### Melee and Ranged Attacks
 
@@ -370,7 +371,7 @@ This notation means that a monster can use a special ability once and then must 
 > 
 > Many monsters have special attacks that allow them to quickly grapple prey. When a monster hits with such an attack, it doesn't need to make an additional ability check to determine whether the grapple succeeds, unless the attack says otherwise.
 > 
-> A creature [grappled](conditions.md#Grappled) by the monster can use its action to try to escape. To do so, it must succeed on a Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) or Dexterity ([Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics)) check against the escape DC in the monster's stat block. If no escape DC is given, assume the DC is 10 + the monster's Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) modifier.
+> A creature [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled) by the monster can use its action to try to escape. To do so, it must succeed on a Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) or Dexterity ([Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics)) check against the escape DC in the monster's stat block. If no escape DC is given, assume the DC is 10 + the monster's Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) modifier.
 ^grapple-rules-for-monsters
 
 ### Equipment
@@ -389,7 +390,7 @@ If a creature assumes the form of a legendary creature, such as through a spell,
 
 ### Legendary Actions
 
-A legendary creature can take a certain number of special actions-called legendary actions-outside its turn. Only one legendary action option can be used at a time and only at the end of another creature's turn. A legendary creature regains spent legendary actions at the start of its turn. It can forgo using them, and it can't use them while [incapacitated](conditions.md#Incapacitated) or otherwise unable to take actions. If [surprised](conditions.md#Surprised), it can't use them until after its first turn in the combat.
+A legendary creature can take a certain number of special actions-called legendary actions-outside its turn. Only one legendary action option can be used at a time and only at the end of another creature's turn. A legendary creature regains spent legendary actions at the start of its turn. It can forgo using them, and it can't use them while [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated) or otherwise unable to take actions. If [surprised](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Surprised), it can't use them until after its first turn in the combat.
 
 ### A Legendary Creature's Lair
 
@@ -397,346 +398,346 @@ A legendary creature might have a section describing its lair and the special ef
 
 #### Lair Actions
 
-If a legendary creature has lair actions, it can use them to harness the ambient magic in its lair. On initiative count 20 (losing all initiative ties), it can use one of its lair action options. It can't do so while [incapacitated](conditions.md#Incapacitated) or otherwise unable to take actions. If [surprised](conditions.md#Surprised), it can't use one until after its first turn in the combat.
+If a legendary creature has lair actions, it can use them to harness the ambient magic in its lair. On initiative count 20 (losing all initiative ties), it can use one of its lair action options. It can't do so while [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated) or otherwise unable to take actions. If [surprised](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Surprised), it can't use one until after its first turn in the combat.
 
 #### Regional Effects
 
 The mere presence of a legendary creature can have strange and wondrous effects on its environment, as noted in this section. Regional effects end abruptly or dissipate over time when the legendary creature dies.
 
-- [Aarakocra](aarakocra.md)  
+- [Aarakocra](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/aarakocra.md)  
 - [Aboleth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/aboleth.md)  
-- [Abominable Yeti](abominable-yeti.md)  
-- [Adult Black Dragon](adult-black-dragon.md)  
-- [Adult Blue Dracolich](adult-blue-dracolich.md)  
-- [Adult Blue Dragon](adult-blue-dragon.md)  
-- [Adult Brass Dragon](adult-brass-dragon.md)  
-- [Adult Bronze Dragon](adult-bronze-dragon.md)  
-- [Adult Copper Dragon](adult-copper-dragon.md)  
-- [Adult Gold Dragon](adult-gold-dragon.md)  
-- [Adult Green Dragon](adult-green-dragon.md)  
-- [Adult Red Dragon](adult-red-dragon.md)  
-- [Adult Silver Dragon](adult-silver-dragon.md)  
-- [Adult White Dragon](adult-white-dragon.md)  
-- [Air Elemental](air-elemental.md)  
-- [Allosaurus](allosaurus.md)  
-- [Ancient Black Dragon](ancient-black-dragon.md)  
-- [Ancient Blue Dragon](ancient-blue-dragon.md)  
-- [Ancient Brass Dragon](ancient-brass-dragon.md)  
-- [Ancient Bronze Dragon](ancient-bronze-dragon.md)  
-- [Ancient Copper Dragon](ancient-copper-dragon.md)  
-- [Ancient Gold Dragon](ancient-gold-dragon.md)  
-- [Ancient Green Dragon](ancient-green-dragon.md)  
-- [Ancient Red Dragon](ancient-red-dragon.md)  
-- [Ancient Silver Dragon](ancient-silver-dragon.md)  
-- [Ancient White Dragon](ancient-white-dragon.md)  
-- [Androsphinx](androsphinx.md)  
-- [Animated Armor](animated-armor.md)  
-- [Ankheg](ankheg.md)  
-- [Ankylosaurus](ankylosaurus.md)  
-- [Arcanaloth](arcanaloth.md)  
-- [Azer](azer.md)  
-- [Balor](balor.md)  
-- [Banshee](banshee.md)  
-- [Barbed Devil](barbed-devil.md)  
-- [Barlgura](barlgura.md)  
-- [Basilisk](basilisk.md)  
-- [Bearded Devil](bearded-devil.md)  
-- [Behir](behir.md)  
+- [Abominable Yeti](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/abominable-yeti.md)  
+- [Adult Black Dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/adult-black-dragon.md)  
+- [Adult Blue Dracolich](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/adult-blue-dracolich.md)  
+- [Adult Blue Dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/adult-blue-dragon.md)  
+- [Adult Brass Dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/adult-brass-dragon.md)  
+- [Adult Bronze Dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/adult-bronze-dragon.md)  
+- [Adult Copper Dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/adult-copper-dragon.md)  
+- [Adult Gold Dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/adult-gold-dragon.md)  
+- [Adult Green Dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/adult-green-dragon.md)  
+- [Adult Red Dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/adult-red-dragon.md)  
+- [Adult Silver Dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/adult-silver-dragon.md)  
+- [Adult White Dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/adult-white-dragon.md)  
+- [Air Elemental](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/air-elemental.md)  
+- [Allosaurus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/allosaurus.md)  
+- [Ancient Black Dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/ancient-black-dragon.md)  
+- [Ancient Blue Dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/ancient-blue-dragon.md)  
+- [Ancient Brass Dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/ancient-brass-dragon.md)  
+- [Ancient Bronze Dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/ancient-bronze-dragon.md)  
+- [Ancient Copper Dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/ancient-copper-dragon.md)  
+- [Ancient Gold Dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/ancient-gold-dragon.md)  
+- [Ancient Green Dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/ancient-green-dragon.md)  
+- [Ancient Red Dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/ancient-red-dragon.md)  
+- [Ancient Silver Dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/ancient-silver-dragon.md)  
+- [Ancient White Dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/ancient-white-dragon.md)  
+- [Androsphinx](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/androsphinx.md)  
+- [Animated Armor](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/animated-armor.md)  
+- [Ankheg](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/ankheg.md)  
+- [Ankylosaurus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/ankylosaurus.md)  
+- [Arcanaloth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/arcanaloth.md)  
+- [Azer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/azer.md)  
+- [Balor](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/balor.md)  
+- [Banshee](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/banshee.md)  
+- [Barbed Devil](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/barbed-devil.md)  
+- [Barlgura](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/barlgura.md)  
+- [Basilisk](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/basilisk.md)  
+- [Bearded Devil](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/bearded-devil.md)  
+- [Behir](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/behir.md)  
 - [Beholder](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/beholder.md)  
-- [Beholder Zombie](beholder-zombie.md)  
-- [Black Dragon Wyrmling](black-dragon-wyrmling.md)  
-- [Black Pudding](black-pudding.md)  
-- [Blue Dragon Wyrmling](blue-dragon-wyrmling.md)  
-- [Blue Slaad](blue-slaad.md)  
-- [Bone Devil](bone-devil.md)  
-- [Bone Naga (Guardian)](bone-naga-guardian.md)  
-- [Bone Naga (Spirit)](bone-naga-spirit.md)  
-- [Brass Dragon Wyrmling](brass-dragon-wyrmling.md)  
-- [Bronze Dragon Wyrmling](bronze-dragon-wyrmling.md)  
-- [Bugbear](bugbear.md)  
-- [Bugbear Chief](bugbear-chief.md)  
-- [Bulette](bulette.md)  
-- [Bullywug](bullywug.md)  
-- [Cambion](cambion.md)  
-- [Carrion Crawler](carrion-crawler.md)  
-- [Cave Bear](cave-bear.md)  
-- [Centaur](centaur.md)  
-- [Chain Devil](chain-devil.md)  
-- [Chasme](chasme.md)  
-- [Chimera](chimera.md)  
-- [Chuul](chuul.md)  
-- [Clay Golem](clay-golem.md)  
-- [Cloaker](cloaker.md)  
-- [Cloud Giant](cloud-giant.md)  
-- [Cockatrice](cockatrice.md)  
-- [Copper Dragon Wyrmling](copper-dragon-wyrmling.md)  
-- [Couatl](couatl.md)  
-- [Crawling Claw](crawling-claw.md)  
-- [Cyclops](cyclops.md)  
-- [Dao](dao.md)  
-- [Darkmantle](darkmantle.md)  
-- [Death Knight](death-knight.md)  
-- [Death Slaad](death-slaad.md)  
+- [Beholder Zombie](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/beholder-zombie.md)  
+- [Black Dragon Wyrmling](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/black-dragon-wyrmling.md)  
+- [Black Pudding](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/ooze/black-pudding.md)  
+- [Blue Dragon Wyrmling](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/blue-dragon-wyrmling.md)  
+- [Blue Slaad](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/blue-slaad.md)  
+- [Bone Devil](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/bone-devil.md)  
+- [Bone Naga (Guardian)](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/bone-naga-guardian.md)  
+- [Bone Naga (Spirit)](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/bone-naga-spirit.md)  
+- [Brass Dragon Wyrmling](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/brass-dragon-wyrmling.md)  
+- [Bronze Dragon Wyrmling](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/bronze-dragon-wyrmling.md)  
+- [Bugbear](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bugbear.md)  
+- [Bugbear Chief](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bugbear-chief.md)  
+- [Bulette](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/bulette.md)  
+- [Bullywug](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bullywug.md)  
+- [Cambion](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/cambion.md)  
+- [Carrion Crawler](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/carrion-crawler.md)  
+- [Cave Bear](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/cave-bear.md)  
+- [Centaur](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/centaur.md)  
+- [Chain Devil](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/chain-devil.md)  
+- [Chasme](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/chasme.md)  
+- [Chimera](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/chimera.md)  
+- [Chuul](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/chuul.md)  
+- [Clay Golem](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/clay-golem.md)  
+- [Cloaker](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/cloaker.md)  
+- [Cloud Giant](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/cloud-giant.md)  
+- [Cockatrice](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/cockatrice.md)  
+- [Copper Dragon Wyrmling](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/copper-dragon-wyrmling.md)  
+- [Couatl](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/couatl.md)  
+- [Crawling Claw](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/crawling-claw.md)  
+- [Cyclops](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/cyclops.md)  
+- [Dao](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/dao.md)  
+- [Darkmantle](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/darkmantle.md)  
+- [Death Knight](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/death-knight.md)  
+- [Death Slaad](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/death-slaad.md)  
 - [Death Tyrant](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/death-tyrant.md)  
-- [Deep Gnome (Svirfneblin)](deep-gnome-svirfneblin.md)  
+- [Deep Gnome (Svirfneblin)](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/deep-gnome-svirfneblin.md)  
 - [Demilich](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/demilich.md)  
-- [Deva](deva.md)  
-- [Displacer Beast](displacer-beast.md)  
-- [Djinni](djinni.md)  
-- [Doppelganger](doppelganger.md)  
-- [Dragon Turtle](dragon-turtle.md)  
-- [Dretch](dretch.md)  
-- [Drider](drider.md)  
-- [Drow](drow.md)  
-- [Drow Elite Warrior](drow-elite-warrior.md)  
-- [Drow Mage](drow-mage.md)  
-- [Drow Priestess of Lolth](drow-priestess-of-lolth.md)  
-- [Dryad](dryad.md)  
-- [Duergar](duergar.md)  
-- [Duodrone](duodrone.md)  
-- [Dust Mephit](dust-mephit.md)  
-- [Earth Elemental](earth-elemental.md)  
-- [Efreeti](efreeti.md)  
-- [Empyrean](empyrean.md)  
-- [Erinyes](erinyes.md)  
-- [Ettercap](ettercap.md)  
-- [Ettin](ettin.md)  
-- [Faerie Dragon (Blue)](faerie-dragon-blue.md)  
-- [Faerie Dragon (Green)](faerie-dragon-green.md)  
-- [Faerie Dragon (Indigo)](faerie-dragon-indigo.md)  
-- [Faerie Dragon (Orange)](faerie-dragon-orange.md)  
-- [Faerie Dragon (Red)](faerie-dragon-red.md)  
-- [Faerie Dragon (Violet)](faerie-dragon-violet.md)  
-- [Faerie Dragon (Yellow)](faerie-dragon-yellow.md)  
-- [Fire Elemental](fire-elemental.md)  
-- [Fire Giant](fire-giant.md)  
-- [Fire Snake](fire-snake.md)  
-- [Flameskull](flameskull.md)  
-- [Flesh Golem](flesh-golem.md)  
-- [Flumph](flumph.md)  
-- [Flying Sword](flying-sword.md)  
-- [Fomorian](fomorian.md)  
-- [Frost Giant](frost-giant.md)  
-- [Galeb Duhr](galeb-duhr.md)  
-- [Gargoyle](gargoyle.md)  
-- [Gas Spore](gas-spore.md)  
-- [Gelatinous Cube](gelatinous-cube.md)  
-- [Ghast](ghast.md)  
-- [Ghost](ghost.md)  
-- [Ghoul](ghoul.md)  
-- [Gibbering Mouther](gibbering-mouther.md)  
-- [Githyanki Knight](githyanki-knight.md)  
-- [Githyanki Warrior](githyanki-warrior.md)  
-- [Githzerai Monk](githzerai-monk.md)  
-- [Githzerai Zerth](githzerai-zerth.md)  
-- [Glabrezu](glabrezu.md)  
-- [Gnoll](gnoll.md)  
-- [Gnoll Fang of Yeenoghu](gnoll-fang-of-yeenoghu.md)  
-- [Gnoll Pack Lord](gnoll-pack-lord.md)  
-- [Goblin](goblin.md)  
-- [Goblin Boss](goblin-boss.md)  
-- [Gold Dragon Wyrmling](gold-dragon-wyrmling.md)  
-- [Gorgon](gorgon.md)  
-- [Goristro](goristro.md)  
-- [Gray Ooze](gray-ooze.md)  
-- [Gray Slaad](gray-slaad.md)  
-- [Green Dragon Wyrmling](green-dragon-wyrmling.md)  
+- [Deva](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/deva.md)  
+- [Displacer Beast](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/displacer-beast.md)  
+- [Djinni](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/djinni.md)  
+- [Doppelganger](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/doppelganger.md)  
+- [Dragon Turtle](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/dragon-turtle.md)  
+- [Dretch](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/dretch.md)  
+- [Drider](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/drider.md)  
+- [Drow](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/drow.md)  
+- [Drow Elite Warrior](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/drow-elite-warrior.md)  
+- [Drow Mage](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/drow-mage.md)  
+- [Drow Priestess of Lolth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/drow-priestess-of-lolth.md)  
+- [Dryad](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/dryad.md)  
+- [Duergar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/duergar.md)  
+- [Duodrone](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/duodrone.md)  
+- [Dust Mephit](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/dust-mephit.md)  
+- [Earth Elemental](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/earth-elemental.md)  
+- [Efreeti](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/efreeti.md)  
+- [Empyrean](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/empyrean.md)  
+- [Erinyes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/erinyes.md)  
+- [Ettercap](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/ettercap.md)  
+- [Ettin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/ettin.md)  
+- [Faerie Dragon (Blue)](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/faerie-dragon-blue.md)  
+- [Faerie Dragon (Green)](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/faerie-dragon-green.md)  
+- [Faerie Dragon (Indigo)](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/faerie-dragon-indigo.md)  
+- [Faerie Dragon (Orange)](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/faerie-dragon-orange.md)  
+- [Faerie Dragon (Red)](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/faerie-dragon-red.md)  
+- [Faerie Dragon (Violet)](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/faerie-dragon-violet.md)  
+- [Faerie Dragon (Yellow)](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/faerie-dragon-yellow.md)  
+- [Fire Elemental](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/fire-elemental.md)  
+- [Fire Giant](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/fire-giant.md)  
+- [Fire Snake](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/fire-snake.md)  
+- [Flameskull](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/flameskull.md)  
+- [Flesh Golem](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/flesh-golem.md)  
+- [Flumph](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/flumph.md)  
+- [Flying Sword](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/flying-sword.md)  
+- [Fomorian](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/fomorian.md)  
+- [Frost Giant](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/frost-giant.md)  
+- [Galeb Duhr](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/galeb-duhr.md)  
+- [Gargoyle](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/gargoyle.md)  
+- [Gas Spore](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/gas-spore.md)  
+- [Gelatinous Cube](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/ooze/gelatinous-cube.md)  
+- [Ghast](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/ghast.md)  
+- [Ghost](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/ghost.md)  
+- [Ghoul](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/ghoul.md)  
+- [Gibbering Mouther](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/gibbering-mouther.md)  
+- [Githyanki Knight](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/githyanki-knight.md)  
+- [Githyanki Warrior](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/githyanki-warrior.md)  
+- [Githzerai Monk](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/githzerai-monk.md)  
+- [Githzerai Zerth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/githzerai-zerth.md)  
+- [Glabrezu](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/glabrezu.md)  
+- [Gnoll](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/gnoll.md)  
+- [Gnoll Fang of Yeenoghu](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/gnoll-fang-of-yeenoghu.md)  
+- [Gnoll Pack Lord](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/gnoll-pack-lord.md)  
+- [Goblin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/goblin.md)  
+- [Goblin Boss](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/goblin-boss.md)  
+- [Gold Dragon Wyrmling](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/gold-dragon-wyrmling.md)  
+- [Gorgon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/gorgon.md)  
+- [Goristro](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/goristro.md)  
+- [Gray Ooze](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/ooze/gray-ooze.md)  
+- [Gray Slaad](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/gray-slaad.md)  
+- [Green Dragon Wyrmling](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/green-dragon-wyrmling.md)  
 - [Green Hag](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/green-hag.md)  
-- [Green Slaad](green-slaad.md)  
-- [Grell](grell.md)  
-- [Grick](grick.md)  
-- [Grick Alpha](grick-alpha.md)  
-- [Griffon](griffon.md)  
-- [Grimlock](grimlock.md)  
-- [Guardian Naga](guardian-naga.md)  
-- [Gynosphinx](gynosphinx.md)  
-- [Half-Ogre (Ogrillon)](half-ogre-ogrillon.md)  
-- [Half-Red Dragon Veteran](half-red-dragon-veteran.md)  
-- [Harpy](harpy.md)  
-- [Hell Hound](hell-hound.md)  
-- [Helmed Horror](helmed-horror.md)  
-- [Hezrou](hezrou.md)  
-- [Hill Giant](hill-giant.md)  
-- [Hippogriff](hippogriff.md)  
-- [Hobgoblin](hobgoblin.md)  
-- [Hobgoblin Captain](hobgoblin-captain.md)  
-- [Hobgoblin Warlord](hobgoblin-warlord.md)  
-- [Homunculus](homunculus.md)  
-- [Hook Horror](hook-horror.md)  
-- [Horned Devil](horned-devil.md)  
-- [Hydra](hydra.md)  
-- [Ice Devil](ice-devil.md)  
-- [Ice Mephit](ice-mephit.md)  
-- [Imp](imp.md)  
-- [Incubus](incubus.md)  
-- [Intellect Devourer](intellect-devourer.md)  
-- [Invisible Stalker](invisible-stalker.md)  
-- [Iron Golem](iron-golem.md)  
-- [Jackalwere](jackalwere.md)  
-- [Kenku](kenku.md)  
-- [Kobold](kobold.md)  
+- [Green Slaad](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/green-slaad.md)  
+- [Grell](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/grell.md)  
+- [Grick](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/grick.md)  
+- [Grick Alpha](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/grick-alpha.md)  
+- [Griffon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/griffon.md)  
+- [Grimlock](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/grimlock.md)  
+- [Guardian Naga](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/guardian-naga.md)  
+- [Gynosphinx](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/gynosphinx.md)  
+- [Half-Ogre (Ogrillon)](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/half-ogre-ogrillon.md)  
+- [Half-Red Dragon Veteran](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/half-red-dragon-veteran.md)  
+- [Harpy](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/harpy.md)  
+- [Hell Hound](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/hell-hound.md)  
+- [Helmed Horror](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/helmed-horror.md)  
+- [Hezrou](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/hezrou.md)  
+- [Hill Giant](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/hill-giant.md)  
+- [Hippogriff](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/hippogriff.md)  
+- [Hobgoblin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/hobgoblin.md)  
+- [Hobgoblin Captain](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/hobgoblin-captain.md)  
+- [Hobgoblin Warlord](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/hobgoblin-warlord.md)  
+- [Homunculus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/homunculus.md)  
+- [Hook Horror](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/hook-horror.md)  
+- [Horned Devil](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/horned-devil.md)  
+- [Hydra](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/hydra.md)  
+- [Ice Devil](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/ice-devil.md)  
+- [Ice Mephit](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/ice-mephit.md)  
+- [Imp](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/imp.md)  
+- [Incubus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/incubus.md)  
+- [Intellect Devourer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/intellect-devourer.md)  
+- [Invisible Stalker](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/invisible-stalker.md)  
+- [Iron Golem](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/iron-golem.md)  
+- [Jackalwere](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/jackalwere.md)  
+- [Kenku](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/kenku.md)  
+- [Kobold](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/kobold.md)  
 - [Kraken](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/kraken.md)  
-- [Kuo-toa](kuo-toa.md)  
-- [Kuo-toa Archpriest](kuo-toa-archpriest.md)  
-- [Kuo-toa Monitor](kuo-toa-monitor.md)  
-- [Kuo-toa Whip](kuo-toa-whip.md)  
-- [Lamia](lamia.md)  
-- [Lemure](lemure.md)  
+- [Kuo-toa](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/kuo-toa.md)  
+- [Kuo-toa Archpriest](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/kuo-toa-archpriest.md)  
+- [Kuo-toa Monitor](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/kuo-toa-monitor.md)  
+- [Kuo-toa Whip](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/kuo-toa-whip.md)  
+- [Lamia](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/lamia.md)  
+- [Lemure](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/lemure.md)  
 - [Lich](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/lich.md)  
-- [Lizard King](lizard-king.md)  
-- [Lizard Queen](lizard-queen.md)  
-- [Lizardfolk](lizardfolk.md)  
-- [Lizardfolk Shaman](lizardfolk-shaman.md)  
-- [Magma Mephit](magma-mephit.md)  
-- [Magmin](magmin.md)  
-- [Manes](manes.md)  
-- [Manticore](manticore.md)  
-- [Marid](marid.md)  
-- [Marilith](marilith.md)  
-- [Medusa](medusa.md)  
-- [Merfolk](merfolk.md)  
-- [Merrow](merrow.md)  
-- [Mezzoloth](mezzoloth.md)  
-- [Mimic](mimic.md)  
-- [Mind Flayer](mind-flayer.md)  
-- [Mind Flayer Arcanist](mind-flayer-arcanist.md)  
-- [Minotaur](minotaur.md)  
-- [Minotaur Skeleton](minotaur-skeleton.md)  
-- [Monodrone](monodrone.md)  
-- [Mud Mephit](mud-mephit.md)  
-- [Mummy](mummy.md)  
+- [Lizard King](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/lizard-king.md)  
+- [Lizard Queen](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/lizard-queen.md)  
+- [Lizardfolk](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/lizardfolk.md)  
+- [Lizardfolk Shaman](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/lizardfolk-shaman.md)  
+- [Magma Mephit](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/magma-mephit.md)  
+- [Magmin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/magmin.md)  
+- [Manes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/manes.md)  
+- [Manticore](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/manticore.md)  
+- [Marid](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/marid.md)  
+- [Marilith](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/marilith.md)  
+- [Medusa](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/medusa.md)  
+- [Merfolk](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/merfolk.md)  
+- [Merrow](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/merrow.md)  
+- [Mezzoloth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/mezzoloth.md)  
+- [Mimic](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/mimic.md)  
+- [Mind Flayer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/mind-flayer.md)  
+- [Mind Flayer Arcanist](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/mind-flayer-arcanist.md)  
+- [Minotaur](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/minotaur.md)  
+- [Minotaur Skeleton](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/minotaur-skeleton.md)  
+- [Monodrone](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/monodrone.md)  
+- [Mud Mephit](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/mud-mephit.md)  
+- [Mummy](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/mummy.md)  
 - [Mummy Lord](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/mummy-lord.md)  
-- [Myconid Adult](myconid-adult.md)  
-- [Myconid Sovereign](myconid-sovereign.md)  
-- [Myconid Sprout](myconid-sprout.md)  
-- [Nalfeshnee](nalfeshnee.md)  
-- [Needle Blight](needle-blight.md)  
+- [Myconid Adult](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/myconid-adult.md)  
+- [Myconid Sovereign](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/myconid-sovereign.md)  
+- [Myconid Sprout](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/myconid-sprout.md)  
+- [Nalfeshnee](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/nalfeshnee.md)  
+- [Needle Blight](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/needle-blight.md)  
 - [Night Hag](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/night-hag.md)  
-- [Nightmare](nightmare.md)  
-- [Nothic](nothic.md)  
-- [Nycaloth](nycaloth.md)  
-- [Ochre Jelly](ochre-jelly.md)  
-- [Ogre](ogre.md)  
-- [Ogre Zombie](ogre-zombie.md)  
-- [Oni](oni.md)  
-- [Orc](orc.md)  
-- [Orc Eye of Gruumsh](orc-eye-of-gruumsh.md)  
-- [Orc War Chief](orc-war-chief.md)  
-- [Orog](orog.md)  
-- [Otyugh](otyugh.md)  
-- [Owlbear](owlbear.md)  
-- [Pegasus](pegasus.md)  
-- [Pentadrone](pentadrone.md)  
-- [Peryton](peryton.md)  
-- [Piercer](piercer.md)  
-- [Pit Fiend](pit-fiend.md)  
-- [Pixie](pixie.md)  
-- [Planetar](planetar.md)  
-- [Plesiosaurus](plesiosaurus.md)  
-- [Poltergeist](poltergeist.md)  
-- [Pseudodragon](pseudodragon.md)  
-- [Pteranodon](pteranodon.md)  
-- [Purple Worm](purple-worm.md)  
-- [Quadrone](quadrone.md)  
-- [Quaggoth](quaggoth.md)  
-- [Quaggoth Spore Servant](quaggoth-spore-servant.md)  
-- [Quaggoth Thonot](quaggoth-thonot.md)  
-- [Quasit](quasit.md)  
-- [Rakshasa](rakshasa.md)  
-- [Red Dragon Wyrmling](red-dragon-wyrmling.md)  
-- [Red Slaad](red-slaad.md)  
-- [Remorhaz](remorhaz.md)  
-- [Revenant](revenant.md)  
-- [Roc](roc.md)  
-- [Roper](roper.md)  
-- [Rug of Smothering](rug-of-smothering.md)  
-- [Rust Monster](rust-monster.md)  
-- [Sahuagin](sahuagin.md)  
-- [Sahuagin Baron](sahuagin-baron.md)  
-- [Sahuagin Priestess](sahuagin-priestess.md)  
-- [Salamander](salamander.md)  
-- [Satyr](satyr.md)  
-- [Scarecrow](scarecrow.md)  
+- [Nightmare](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/nightmare.md)  
+- [Nothic](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/nothic.md)  
+- [Nycaloth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/nycaloth.md)  
+- [Ochre Jelly](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/ooze/ochre-jelly.md)  
+- [Ogre](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/ogre.md)  
+- [Ogre Zombie](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/ogre-zombie.md)  
+- [Oni](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/oni.md)  
+- [Orc](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/orc.md)  
+- [Orc Eye of Gruumsh](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/orc-eye-of-gruumsh.md)  
+- [Orc War Chief](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/orc-war-chief.md)  
+- [Orog](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/orog.md)  
+- [Otyugh](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/otyugh.md)  
+- [Owlbear](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/owlbear.md)  
+- [Pegasus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/pegasus.md)  
+- [Pentadrone](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/pentadrone.md)  
+- [Peryton](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/peryton.md)  
+- [Piercer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/piercer.md)  
+- [Pit Fiend](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/pit-fiend.md)  
+- [Pixie](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/pixie.md)  
+- [Planetar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/planetar.md)  
+- [Plesiosaurus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/plesiosaurus.md)  
+- [Poltergeist](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/poltergeist.md)  
+- [Pseudodragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/pseudodragon.md)  
+- [Pteranodon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/pteranodon.md)  
+- [Purple Worm](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/purple-worm.md)  
+- [Quadrone](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/quadrone.md)  
+- [Quaggoth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/quaggoth.md)  
+- [Quaggoth Spore Servant](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/quaggoth-spore-servant.md)  
+- [Quaggoth Thonot](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/quaggoth-thonot.md)  
+- [Quasit](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/quasit.md)  
+- [Rakshasa](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/rakshasa.md)  
+- [Red Dragon Wyrmling](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/red-dragon-wyrmling.md)  
+- [Red Slaad](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/red-slaad.md)  
+- [Remorhaz](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/remorhaz.md)  
+- [Revenant](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/revenant.md)  
+- [Roc](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/roc.md)  
+- [Roper](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/roper.md)  
+- [Rug of Smothering](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/rug-of-smothering.md)  
+- [Rust Monster](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/rust-monster.md)  
+- [Sahuagin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/sahuagin.md)  
+- [Sahuagin Baron](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/sahuagin-baron.md)  
+- [Sahuagin Priestess](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/sahuagin-priestess.md)  
+- [Salamander](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/salamander.md)  
+- [Satyr](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/satyr.md)  
+- [Scarecrow](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/scarecrow.md)  
 - [Sea Hag](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/sea-hag.md)  
-- [Shadow](shadow.md)  
-- [Shadow Demon](shadow-demon.md)  
-- [Shambling Mound](shambling-mound.md)  
-- [Shield Guardian](shield-guardian.md)  
-- [Shrieker](shrieker.md)  
-- [Silver Dragon Wyrmling](silver-dragon-wyrmling.md)  
-- [Skeleton](skeleton.md)  
-- [Slaad Tadpole](slaad-tadpole.md)  
-- [Smoke Mephit](smoke-mephit.md)  
-- [Solar](solar.md)  
-- [Spectator](spectator.md)  
-- [Specter](specter.md)  
-- [Spined Devil](spined-devil.md)  
-- [Spirit Naga](spirit-naga.md)  
-- [Sprite](sprite.md)  
-- [Steam Mephit](steam-mephit.md)  
-- [Stirge](stirge.md)  
-- [Stone Giant](stone-giant.md)  
-- [Stone Golem](stone-golem.md)  
-- [Storm Giant](storm-giant.md)  
-- [Succubus](succubus.md)  
-- [Swarm of Beetles](swarm-of-beetles.md)  
-- [Swarm of Centipedes](swarm-of-centipedes.md)  
-- [Swarm of Spiders](swarm-of-spiders.md)  
-- [Swarm of Wasps](swarm-of-wasps.md)  
-- [Tarrasque](tarrasque.md)  
-- [Thri-kreen](thri-kreen.md)  
-- [Treant](treant.md)  
-- [Triceratops](triceratops.md)  
-- [Tridrone](tridrone.md)  
-- [Troglodyte](troglodyte.md)  
-- [Troll](troll.md)  
-- [Twig Blight](twig-blight.md)  
-- [Tyrannosaurus Rex](tyrannosaurus-rex.md)  
-- [Ultroloth](ultroloth.md)  
-- [Umber Hulk](umber-hulk.md)  
+- [Shadow](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/shadow.md)  
+- [Shadow Demon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/shadow-demon.md)  
+- [Shambling Mound](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/shambling-mound.md)  
+- [Shield Guardian](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/shield-guardian.md)  
+- [Shrieker](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/shrieker.md)  
+- [Silver Dragon Wyrmling](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/silver-dragon-wyrmling.md)  
+- [Skeleton](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/skeleton.md)  
+- [Slaad Tadpole](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/slaad-tadpole.md)  
+- [Smoke Mephit](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/smoke-mephit.md)  
+- [Solar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/solar.md)  
+- [Spectator](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/spectator.md)  
+- [Specter](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/specter.md)  
+- [Spined Devil](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/spined-devil.md)  
+- [Spirit Naga](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/spirit-naga.md)  
+- [Sprite](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/sprite.md)  
+- [Steam Mephit](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/steam-mephit.md)  
+- [Stirge](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/stirge.md)  
+- [Stone Giant](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/stone-giant.md)  
+- [Stone Golem](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/stone-golem.md)  
+- [Storm Giant](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/storm-giant.md)  
+- [Succubus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/succubus.md)  
+- [Swarm of Beetles](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/swarm-of-beetles.md)  
+- [Swarm of Centipedes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/swarm-of-centipedes.md)  
+- [Swarm of Spiders](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/swarm-of-spiders.md)  
+- [Swarm of Wasps](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/swarm-of-wasps.md)  
+- [Tarrasque](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/tarrasque.md)  
+- [Thri-kreen](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/thri-kreen.md)  
+- [Treant](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/treant.md)  
+- [Triceratops](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/triceratops.md)  
+- [Tridrone](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/tridrone.md)  
+- [Troglodyte](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/troglodyte.md)  
+- [Troll](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/troll.md)  
+- [Twig Blight](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/twig-blight.md)  
+- [Tyrannosaurus Rex](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/tyrannosaurus-rex.md)  
+- [Ultroloth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/ultroloth.md)  
+- [Umber Hulk](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/umber-hulk.md)  
 - [Unicorn](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/unicorn.md)  
 - [Vampire](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/vampire.md)  
-- [Vampire Spawn](vampire-spawn.md)  
-- [Vampire Spellcaster](vampire-spellcaster.md)  
-- [Vampire Warrior](vampire-warrior.md)  
-- [Vine Blight](vine-blight.md)  
-- [Violet Fungus](violet-fungus.md)  
-- [Vrock](vrock.md)  
-- [Warhorse Skeleton](warhorse-skeleton.md)  
-- [Water Elemental](water-elemental.md)  
-- [Water Weird](water-weird.md)  
-- [Werebear](werebear.md)  
-- [Wereboar](wereboar.md)  
-- [Wererat](wererat.md)  
-- [Weretiger](weretiger.md)  
-- [Werewolf](werewolf.md)  
-- [White Dragon Wyrmling](white-dragon-wyrmling.md)  
-- [Wight](wight.md)  
-- [Will-o'-Wisp](will-o-wisp.md)  
-- [Winged Kobold](winged-kobold.md)  
-- [Wraith](wraith.md)  
-- [Wyvern](wyvern.md)  
-- [Xorn](xorn.md)  
-- [Yeti](yeti.md)  
-- [Yochlol](yochlol.md)  
-- [Young Black Dragon](young-black-dragon.md)  
-- [Young Blue Dragon](young-blue-dragon.md)  
-- [Young Brass Dragon](young-brass-dragon.md)  
-- [Young Bronze Dragon](young-bronze-dragon.md)  
-- [Young Copper Dragon](young-copper-dragon.md)  
-- [Young Gold Dragon](young-gold-dragon.md)  
-- [Young Green Dragon](young-green-dragon.md)  
-- [Young Red Dragon](young-red-dragon.md)  
-- [Young Red Shadow Dragon](young-red-shadow-dragon.md)  
-- [Young Remorhaz](young-remorhaz.md)  
-- [Young Silver Dragon](young-silver-dragon.md)  
-- [Young White Dragon](young-white-dragon.md)  
-- [Yuan-ti Abomination](yuan-ti-abomination.md)  
-- [Yuan-ti Malison (Type 1)](yuan-ti-malison-type-1.md)  
-- [Yuan-ti Malison (Type 2)](yuan-ti-malison-type-2.md)  
-- [Yuan-ti Malison (Type 3)](yuan-ti-malison-type-3.md)  
-- [Yuan-ti Pureblood](yuan-ti-pureblood.md)  
-- [Zombie](zombie.md)  
+- [Vampire Spawn](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/vampire-spawn.md)  
+- [Vampire Spellcaster](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/vampire-spellcaster.md)  
+- [Vampire Warrior](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/vampire-warrior.md)  
+- [Vine Blight](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/vine-blight.md)  
+- [Violet Fungus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/violet-fungus.md)  
+- [Vrock](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/vrock.md)  
+- [Warhorse Skeleton](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/warhorse-skeleton.md)  
+- [Water Elemental](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/water-elemental.md)  
+- [Water Weird](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/water-weird.md)  
+- [Werebear](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/werebear.md)  
+- [Wereboar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/wereboar.md)  
+- [Wererat](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/wererat.md)  
+- [Weretiger](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/weretiger.md)  
+- [Werewolf](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/werewolf.md)  
+- [White Dragon Wyrmling](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/white-dragon-wyrmling.md)  
+- [Wight](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/wight.md)  
+- [Will-o'-Wisp](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/will-o-wisp.md)  
+- [Winged Kobold](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/winged-kobold.md)  
+- [Wraith](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/wraith.md)  
+- [Wyvern](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/wyvern.md)  
+- [Xorn](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/xorn.md)  
+- [Yeti](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/yeti.md)  
+- [Yochlol](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/yochlol.md)  
+- [Young Black Dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/young-black-dragon.md)  
+- [Young Blue Dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/young-blue-dragon.md)  
+- [Young Brass Dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/young-brass-dragon.md)  
+- [Young Bronze Dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/young-bronze-dragon.md)  
+- [Young Copper Dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/young-copper-dragon.md)  
+- [Young Gold Dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/young-gold-dragon.md)  
+- [Young Green Dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/young-green-dragon.md)  
+- [Young Red Dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/young-red-dragon.md)  
+- [Young Red Shadow Dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/young-red-shadow-dragon.md)  
+- [Young Remorhaz](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/young-remorhaz.md)  
+- [Young Silver Dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/young-silver-dragon.md)  
+- [Young White Dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/young-white-dragon.md)  
+- [Yuan-ti Abomination](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/yuan-ti-abomination.md)  
+- [Yuan-ti Malison (Type 1)](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/yuan-ti-malison-type-1.md)  
+- [Yuan-ti Malison (Type 2)](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/yuan-ti-malison-type-2.md)  
+- [Yuan-ti Malison (Type 3)](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/yuan-ti-malison-type-3.md)  
+- [Yuan-ti Pureblood](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/yuan-ti-pureblood.md)  
+- [Zombie](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/zombie.md)  
 
 ## Shadow Dragon Template
 
@@ -758,7 +759,7 @@ While in dim light or darkness, the dragon has resistance to damage that isn't f
 
 ### Shadow Stealth
 
-While in dim light or darkness, the dragon can take the [Hide](actions.md#Hide) action as a bonus action.
+While in dim light or darkness, the dragon can take the [Hide](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Hide) action as a bonus action.
 
 ### Sunlight Sensitivity
 
@@ -782,13 +783,13 @@ To avoid recalculating the creature's challenge rating, apply the template only 
 
 ### Senses
 
-The half-dragon gains [blindsight](senses.md#Blindsight) with a radius of 10 feet and [darkvision](senses.md#Darkvision) with a radius of 60 feet.
+The half-dragon gains [blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight) with a radius of 10 feet and [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision) with a radius of 60 feet.
 
 ### Resistances
 
 The half-dragon gains resistance to a type of damage based on its color.
 
-![Resistances](resistances.md)
+![Resistances](03.PlayerLog&Handouts/Mechanics/CLI/tables/resistances-mm.md)
 
 ### Languages
 
@@ -798,7 +799,7 @@ The half-dragon speaks Draconic in addition to any other languages it knows.
 
 The half-dragon has the breath weapon of its dragon half. The half-dragon's size determines how this action functions.
 
-![New Action: Breath Weapon](new-action-breath-weapon.md)
+![New Action: Breath Weapon](03.PlayerLog&Handouts/Mechanics/CLI/tables/new-action-breath-weapon-mm.md)
 
 ## Spore Servant Template
 
@@ -830,11 +831,11 @@ The servant's ability scores change as follows: Int 2 (−4), Wis 6 (−2), Cha 
 
 ### Senses
 
-The servant has [blindsight](senses.md#Blindsight) with a radius of 30 feet, and it is blind beyond this radius.
+The servant has [blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight) with a radius of 30 feet, and it is blind beyond this radius.
 
 ### Condition Immunities
 
-The servant can't be [blinded](conditions.md#Blinded), [charmed](conditions.md#Charmed), [frightened](conditions.md#Frightened), or [paralyzed](conditions.md#Paralyzed).
+The servant can't be [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded), [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened), or [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed).
 
 ### Languages
 
@@ -842,4 +843,4 @@ The servant loses all known languages, but it responds to orders given to it by 
 
 ### Attacks
 
-If the servant has no other means of dealing damage, it can use its fists or limbs to make unarmed strikes. On a hit, an unarmed strike deals bludgeoning damage equal to `1d4` + the servant's Strength modifier, or, if the servant is Large, `2d4` + its Strength modifier.
+If the servant has no other means of dealing damage, it can use its fists or limbs to make unarmed strikes. On a hit, an unarmed strike deals bludgeoning damage equal to `d4` + the servant's Strength modifier, or, if the servant is Large, `2d4` + its Strength modifier.

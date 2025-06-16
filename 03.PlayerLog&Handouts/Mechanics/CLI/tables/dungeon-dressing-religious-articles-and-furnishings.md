@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
-aliases: ["Dungeon Dressing; Religious Articles and Furnishings"]
+aliases:
+- Dungeon Dressing; Religious Articles and Furnishings
 ---
 # Dungeon Dressing; Religious Articles and Furnishings
 *Source: Dungeon Master's Guide p. 298* 

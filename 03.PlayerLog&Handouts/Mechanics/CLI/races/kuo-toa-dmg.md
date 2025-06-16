@@ -3,10 +3,11 @@ obsidianUIMode: preview
 cssclasses: json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
-- ttrpg-cli/race/kuo-toa/dmg
-aliases: ["Kuo-Toa (DMG)"]
+- ttrpg-cli/race/kuo-toa
+aliases:
+- Kuo-Toa
 ---
-# Kuo-Toa (DMG)
+# Kuo-Toa
 *Source: Dungeon Master's Guide p. 282*  
 
 
@@ -22,7 +23,7 @@ You can breathe air and water.
 
 ### Otherworldly Perception
 
-You can sense the presence of any creature within 30 feet of you that is [invisible](conditions.md#Invisible) or on the Ethereal Plane. You can pinpoint such a creature that is moving.
+You can sense the presence of any creature within 30 feet of you that is [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible) or on the Ethereal Plane. You can pinpoint such a creature that is moving.
 
 ### Slippery
 

@@ -11,7 +11,7 @@ aliases:
 ---
 # Crossbow Bolt of Slaying
 *Ammunition, minor, very rare*  
-![](arrow-of-slaying.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/arrow-of-slaying.webp#right)
 
 - **Weight**: 0.075 lbs.
 

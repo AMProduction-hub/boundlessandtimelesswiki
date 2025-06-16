@@ -4,7 +4,8 @@ cssclasses: json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/race/bugbear
-aliases: ["Bugbear"]
+aliases:
+- Bugbear
 ---
 # Bugbear
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 8*  
@@ -27,7 +28,7 @@ You can see in dim light within 60 feet of you as if it were bright light and in
 
 ### Fey Ancestry
 
-You have advantage on saving throws you make to avoid or end the [charmed](conditions.md#Charmed) condition on yourself.
+You have advantage on saving throws you make to avoid or end the [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed) condition on yourself.
 
 ### Long-Limbed
 

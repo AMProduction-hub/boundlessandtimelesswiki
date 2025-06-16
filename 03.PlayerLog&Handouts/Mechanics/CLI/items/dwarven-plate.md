@@ -10,8 +10,8 @@ aliases:
 - "Dwarven Plate"
 ---
 # Dwarven Plate
-*Heavy armor ([plate armor](plate-armor.md)), major, very rare*  
-![](dwarven-plate.webp#right)
+*Heavy armor ([plate armor](03.PlayerLog&Handouts/Mechanics/CLI/items/plate-armor.md)), major, very rare*  
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/dwarven-plate.webp#right)
 
 - **Armor Class**: 18
 - **Strength**: Requires 15 STR.

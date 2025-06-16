@@ -10,11 +10,11 @@ aliases:
 ---
 # Sending Stones
 *Wondrous item, minor, uncommon*  
-![](sending-stones.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/sending-stones.webp#right)
 
 
-Sending stones come in pairs, with each smooth stone carved to match the other so the pairing is easily recognized. While you touch one stone, you can use an action to cast the [sending](sending.md) spell from it. The target is the bearer of the other stone. If no creature bears the other stone, you know that fact as soon as you use the stone and don't cast the spell.
+Sending stones come in pairs, with each smooth stone carved to match the other so the pairing is easily recognized. While you touch one stone, you can use an action to cast the [sending](03.PlayerLog&Handouts/Mechanics/CLI/spells/sending.md) spell from it. The target is the bearer of the other stone. If no creature bears the other stone, you know that fact as soon as you use the stone and don't cast the spell.
 
-Once [sending](sending.md) is cast through the stones, they can't be used again until the next dawn. If one of the stones in a pair is destroyed, the other one becomes nonmagical.
+Once [sending](03.PlayerLog&Handouts/Mechanics/CLI/spells/sending.md) is cast through the stones, they can't be used again until the next dawn. If one of the stones in a pair is destroyed, the other one becomes nonmagical.
 
 *Source: Dungeon Master's Guide p. 199*

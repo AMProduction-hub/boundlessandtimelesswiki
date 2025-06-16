@@ -133,7 +133,7 @@ The adamantine version of a melee weapon costs 500 gp more than the normal versi
 
 - **Damage**: 6d8 necrotic
 - **Range**: 120/360
-- **Properties**: [Ammunition](item-properties.md#Ammunition), [Reload](item-properties.md#Reload), [Two-Handed](item-properties.md#Two-Handed)
+- **Properties**: [Ammunition](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Ammunition), [Reload](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Reload), [Two-Handed](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Two-Handed)
 - **Cost**: 500 gp
 - **Weight**: 10.0 lbs.
 
@@ -141,7 +141,7 @@ The adamantine version of a melee weapon costs 500 gp more than the normal versi
 
 - **Damage**: 2d6 piercing
 - **Range**: 50/150
-- **Properties**: [Ammunition](item-properties.md#Ammunition), [Reload](item-properties.md#Reload)
+- **Properties**: [Ammunition](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Ammunition), [Reload](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Reload)
 - **Cost**: 500 gp
 - **Weight**: 3.0 lbs.
 
@@ -149,7 +149,7 @@ The adamantine version of a melee weapon costs 500 gp more than the normal versi
 
 - **Damage**: 2d8 piercing
 - **Range**: 80/240
-- **Properties**: [Ammunition](item-properties.md#Ammunition), [Burst Fire](item-properties.md#Burst%20Fire), [Reload](item-properties.md#Reload), [Two-Handed](item-properties.md#Two-Handed)
+- **Properties**: [Ammunition](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Ammunition), [Burst Fire](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Burst%20Fire), [Reload](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Reload), [Two-Handed](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Two-Handed)
 - **Cost**: 500 gp
 - **Weight**: 8.0 lbs.
 
@@ -158,7 +158,7 @@ The adamantine version of a melee weapon costs 500 gp more than the normal versi
 - **Damage**:
   - One-handed: 1d8 slashing
   - Two-handed: 1d10 slashing
-- **Properties**: [Versatile](item-properties.md#Versatile)
+- **Properties**: [Versatile](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Versatile)
 - **Cost**: 510 gp
 - **Weight**: 4.0 lbs.
 
@@ -166,14 +166,14 @@ The adamantine version of a melee weapon costs 500 gp more than the normal versi
 
 - **Damage**: 1 piercing
 - **Range**: 25/100
-- **Properties**: [Ammunition](item-properties.md#Ammunition), [Loading](item-properties.md#Loading)
+- **Properties**: [Ammunition](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Ammunition), [Loading](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Loading)
 - **Cost**: 510 gp
 - **Weight**: 1.0 lbs.
 
 ### Adamantine Club
 
 - **Damage**: 1d4 bludgeoning
-- **Properties**: [Light](item-properties.md#Light)
+- **Properties**: [Light](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Light)
 - **Cost**: 500 gp, 1 sp
 - **Weight**: 2.0 lbs.
 
@@ -181,7 +181,7 @@ The adamantine version of a melee weapon costs 500 gp more than the normal versi
 
 - **Damage**: 1d4 piercing
 - **Range**: 20/60
-- **Properties**: [Finesse](item-properties.md#Finesse), [Light](item-properties.md#Light), [Thrown](item-properties.md#Thrown)
+- **Properties**: [Finesse](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Finesse), [Light](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Light), [Thrown](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Thrown)
 - **Cost**: 502 gp
 - **Weight**: 1.0 lbs.
 
@@ -189,14 +189,14 @@ The adamantine version of a melee weapon costs 500 gp more than the normal versi
 
 - **Damage**: 1d4 piercing
 - **Range**: 20/60
-- **Properties**: [Finesse](item-properties.md#Finesse), [Thrown](item-properties.md#Thrown)
+- **Properties**: [Finesse](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Finesse), [Thrown](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Thrown)
 - **Cost**: 500 gp, 5 cp
 - **Weight**: 0.25 lbs.
 
 ### Adamantine Double-Bladed Scimitar
 
 - **Damage**: 2d4 slashing
-- **Properties**: [Two-Handed](item-properties.md#Two-Handed), [special](item-properties.md#Special%20Weapons)
+- **Properties**: [Two-Handed](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Two-Handed), [special](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Special%20Weapons)
 - **Cost**: 600 gp
 - **Weight**: 6.0 lbs.
 
@@ -209,35 +209,35 @@ The adamantine version of a melee weapon costs 500 gp more than the normal versi
 ### Adamantine Glaive
 
 - **Damage**: 1d10 slashing
-- **Properties**: [Heavy](item-properties.md#Heavy), [Reach](item-properties.md#Reach), [Two-Handed](item-properties.md#Two-Handed)
+- **Properties**: [Heavy](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Heavy), [Reach](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Reach), [Two-Handed](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Two-Handed)
 - **Cost**: 520 gp
 - **Weight**: 6.0 lbs.
 
 ### Adamantine Greataxe
 
 - **Damage**: 1d12 slashing
-- **Properties**: [Heavy](item-properties.md#Heavy), [Two-Handed](item-properties.md#Two-Handed)
+- **Properties**: [Heavy](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Heavy), [Two-Handed](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Two-Handed)
 - **Cost**: 530 gp
 - **Weight**: 7.0 lbs.
 
 ### Adamantine Greatclub
 
 - **Damage**: 1d8 bludgeoning
-- **Properties**: [Two-Handed](item-properties.md#Two-Handed)
+- **Properties**: [Two-Handed](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Two-Handed)
 - **Cost**: 500 gp, 2 sp
 - **Weight**: 10.0 lbs.
 
 ### Adamantine Greatsword
 
 - **Damage**: 2d6 slashing
-- **Properties**: [Heavy](item-properties.md#Heavy), [Two-Handed](item-properties.md#Two-Handed)
+- **Properties**: [Heavy](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Heavy), [Two-Handed](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Two-Handed)
 - **Cost**: 550 gp
 - **Weight**: 6.0 lbs.
 
 ### Adamantine Halberd
 
 - **Damage**: 1d10 slashing
-- **Properties**: [Heavy](item-properties.md#Heavy), [Reach](item-properties.md#Reach), [Two-Handed](item-properties.md#Two-Handed)
+- **Properties**: [Heavy](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Heavy), [Reach](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Reach), [Two-Handed](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Two-Handed)
 - **Cost**: 520 gp
 - **Weight**: 6.0 lbs.
 
@@ -245,7 +245,7 @@ The adamantine version of a melee weapon costs 500 gp more than the normal versi
 
 - **Damage**: 1d6 piercing
 - **Range**: 30/120
-- **Properties**: [Ammunition](item-properties.md#Ammunition), [Light](item-properties.md#Light), [Loading](item-properties.md#Loading)
+- **Properties**: [Ammunition](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Ammunition), [Light](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Light), [Loading](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Loading)
 - **Cost**: 575 gp
 - **Weight**: 3.0 lbs.
 
@@ -253,7 +253,7 @@ The adamantine version of a melee weapon costs 500 gp more than the normal versi
 
 - **Damage**: 1d6 slashing
 - **Range**: 20/60
-- **Properties**: [Light](item-properties.md#Light), [Thrown](item-properties.md#Thrown)
+- **Properties**: [Light](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Light), [Thrown](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Thrown)
 - **Cost**: 505 gp
 - **Weight**: 2.0 lbs.
 
@@ -261,14 +261,14 @@ The adamantine version of a melee weapon costs 500 gp more than the normal versi
 
 - **Damage**: 1d10 piercing
 - **Range**: 100/400
-- **Properties**: [Ammunition](item-properties.md#Ammunition), [Heavy](item-properties.md#Heavy), [Loading](item-properties.md#Loading), [Two-Handed](item-properties.md#Two-Handed)
+- **Properties**: [Ammunition](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Ammunition), [Heavy](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Heavy), [Loading](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Loading), [Two-Handed](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Two-Handed)
 - **Cost**: 550 gp
 - **Weight**: 18.0 lbs.
 
 ### Adamantine Hooked Shortspear
 
 - **Damage**: 1d4 piercing
-- **Properties**: [Light](item-properties.md#Light)
+- **Properties**: [Light](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Light)
 - **Cost**: 500 gp
 - **Weight**: 2.0 lbs.
 
@@ -276,7 +276,7 @@ The adamantine version of a melee weapon costs 500 gp more than the normal versi
 
 - **Damage**: 1d6 piercing
 - **Range**: 40/160
-- **Properties**: [Ammunition](item-properties.md#Ammunition), [Finesse](item-properties.md#Finesse), [Two-Handed](item-properties.md#Two-Handed), [special](item-properties.md#Special%20Weapons)
+- **Properties**: [Ammunition](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Ammunition), [Finesse](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Finesse), [Two-Handed](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Two-Handed), [special](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Special%20Weapons)
 - **Cost**: 500 gp, 1 sp
 - **Weight**: 2.0 lbs.
 
@@ -284,7 +284,7 @@ The adamantine version of a melee weapon costs 500 gp more than the normal versi
 
 - **Damage**: 2d10 piercing
 - **Range**: 80/240
-- **Properties**: [Ammunition](item-properties.md#Ammunition), [Reload](item-properties.md#Reload), [Two-Handed](item-properties.md#Two-Handed)
+- **Properties**: [Ammunition](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Ammunition), [Reload](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Reload), [Two-Handed](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Two-Handed)
 - **Cost**: 500 gp
 - **Weight**: 8.0 lbs.
 
@@ -292,14 +292,14 @@ The adamantine version of a melee weapon costs 500 gp more than the normal versi
 
 - **Damage**: 1d6 piercing
 - **Range**: 30/120
-- **Properties**: [Thrown](item-properties.md#Thrown)
+- **Properties**: [Thrown](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Thrown)
 - **Cost**: 500 gp, 5 sp
 - **Weight**: 2.0 lbs.
 
 ### Adamantine Lance
 
 - **Damage**: 1d12 piercing
-- **Properties**: [Reach](item-properties.md#Reach), [special](item-properties.md#Special%20Weapons)
+- **Properties**: [Reach](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Reach), [special](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Special%20Weapons)
 - **Cost**: 510 gp
 - **Weight**: 6.0 lbs.
 
@@ -307,7 +307,7 @@ The adamantine version of a melee weapon costs 500 gp more than the normal versi
 
 - **Damage**: 3d6 radiant
 - **Range**: 40/120
-- **Properties**: [Ammunition](item-properties.md#Ammunition), [Reload](item-properties.md#Reload)
+- **Properties**: [Ammunition](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Ammunition), [Reload](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Reload)
 - **Cost**: 500 gp
 - **Weight**: 2.0 lbs.
 
@@ -315,7 +315,7 @@ The adamantine version of a melee weapon costs 500 gp more than the normal versi
 
 - **Damage**: 3d8 radiant
 - **Range**: 100/300
-- **Properties**: [Ammunition](item-properties.md#Ammunition), [Reload](item-properties.md#Reload), [Two-Handed](item-properties.md#Two-Handed)
+- **Properties**: [Ammunition](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Ammunition), [Reload](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Reload), [Two-Handed](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Two-Handed)
 - **Cost**: 500 gp
 - **Weight**: 7.0 lbs.
 
@@ -323,7 +323,7 @@ The adamantine version of a melee weapon costs 500 gp more than the normal versi
 
 - **Damage**: 1d8 piercing
 - **Range**: 80/320
-- **Properties**: [Ammunition](item-properties.md#Ammunition), [Loading](item-properties.md#Loading), [Two-Handed](item-properties.md#Two-Handed)
+- **Properties**: [Ammunition](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Ammunition), [Loading](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Loading), [Two-Handed](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Two-Handed)
 - **Cost**: 525 gp
 - **Weight**: 5.0 lbs.
 
@@ -331,7 +331,7 @@ The adamantine version of a melee weapon costs 500 gp more than the normal versi
 
 - **Damage**: 1d4 bludgeoning
 - **Range**: 20/60
-- **Properties**: [Light](item-properties.md#Light), [Thrown](item-properties.md#Thrown)
+- **Properties**: [Light](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Light), [Thrown](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Thrown)
 - **Cost**: 502 gp
 - **Weight**: 2.0 lbs.
 
@@ -339,7 +339,7 @@ The adamantine version of a melee weapon costs 500 gp more than the normal versi
 
 - **Damage**: 1d8 piercing
 - **Range**: 40/160
-- **Properties**: [Ammunition](item-properties.md#Ammunition), [Two-Handed](item-properties.md#Two-Handed)
+- **Properties**: [Ammunition](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Ammunition), [Two-Handed](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Two-Handed)
 - **Cost**: 500 gp
 - **Weight**: 5.0 lbs.
 
@@ -347,7 +347,7 @@ The adamantine version of a melee weapon costs 500 gp more than the normal versi
 
 - **Damage**: 1d8 piercing
 - **Range**: 150/600
-- **Properties**: [Ammunition](item-properties.md#Ammunition), [Heavy](item-properties.md#Heavy), [Two-Handed](item-properties.md#Two-Handed)
+- **Properties**: [Ammunition](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Ammunition), [Heavy](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Heavy), [Two-Handed](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Two-Handed)
 - **Cost**: 550 gp
 - **Weight**: 2.0 lbs.
 
@@ -356,7 +356,7 @@ The adamantine version of a melee weapon costs 500 gp more than the normal versi
 - **Damage**:
   - One-handed: 1d8 slashing
   - Two-handed: 1d10 slashing
-- **Properties**: [Versatile](item-properties.md#Versatile)
+- **Properties**: [Versatile](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Versatile)
 - **Cost**: 515 gp
 - **Weight**: 3.0 lbs.
 
@@ -369,7 +369,7 @@ The adamantine version of a melee weapon costs 500 gp more than the normal versi
 ### Adamantine Maul
 
 - **Damage**: 2d6 bludgeoning
-- **Properties**: [Heavy](item-properties.md#Heavy), [Two-Handed](item-properties.md#Two-Handed)
+- **Properties**: [Heavy](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Heavy), [Two-Handed](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Two-Handed)
 - **Cost**: 510 gp
 - **Weight**: 10.0 lbs.
 
@@ -383,14 +383,14 @@ The adamantine version of a melee weapon costs 500 gp more than the normal versi
 
 - **Damage**: 1d12 piercing
 - **Range**: 40/120
-- **Properties**: [Ammunition](item-properties.md#Ammunition), [Loading](item-properties.md#Loading), [Two-Handed](item-properties.md#Two-Handed)
+- **Properties**: [Ammunition](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Ammunition), [Loading](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Loading), [Two-Handed](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Two-Handed)
 - **Cost**: 1,000 gp
 - **Weight**: 10.0 lbs.
 
 ### Adamantine Pike
 
 - **Damage**: 1d10 piercing
-- **Properties**: [Heavy](item-properties.md#Heavy), [Reach](item-properties.md#Reach), [Two-Handed](item-properties.md#Two-Handed)
+- **Properties**: [Heavy](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Heavy), [Reach](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Reach), [Two-Handed](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Two-Handed)
 - **Cost**: 505 gp
 - **Weight**: 18.0 lbs.
 
@@ -398,7 +398,7 @@ The adamantine version of a melee weapon costs 500 gp more than the normal versi
 
 - **Damage**: 1d10 piercing
 - **Range**: 30/90
-- **Properties**: [Ammunition](item-properties.md#Ammunition), [Loading](item-properties.md#Loading)
+- **Properties**: [Ammunition](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Ammunition), [Loading](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Loading)
 - **Cost**: 750 gp
 - **Weight**: 3.0 lbs.
 
@@ -407,14 +407,14 @@ The adamantine version of a melee weapon costs 500 gp more than the normal versi
 - **Damage**:
   - One-handed: 1d6 bludgeoning
   - Two-handed: 1d8 bludgeoning
-- **Properties**: [Versatile](item-properties.md#Versatile)
+- **Properties**: [Versatile](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Versatile)
 - **Cost**: 500 gp, 2 sp
 - **Weight**: 4.0 lbs.
 
 ### Adamantine Rapier
 
 - **Damage**: 1d8 piercing
-- **Properties**: [Finesse](item-properties.md#Finesse)
+- **Properties**: [Finesse](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Finesse)
 - **Cost**: 525 gp
 - **Weight**: 2.0 lbs.
 
@@ -422,14 +422,14 @@ The adamantine version of a melee weapon costs 500 gp more than the normal versi
 
 - **Damage**: 2d8 piercing
 - **Range**: 40/120
-- **Properties**: [Ammunition](item-properties.md#Ammunition), [Reload](item-properties.md#Reload)
+- **Properties**: [Ammunition](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Ammunition), [Reload](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Reload)
 - **Cost**: 500 gp
 - **Weight**: 3.0 lbs.
 
 ### Adamantine Scimitar
 
 - **Damage**: 1d6 slashing
-- **Properties**: [Finesse](item-properties.md#Finesse), [Light](item-properties.md#Light)
+- **Properties**: [Finesse](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Finesse), [Light](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Light)
 - **Cost**: 525 gp
 - **Weight**: 3.0 lbs.
 
@@ -437,14 +437,14 @@ The adamantine version of a melee weapon costs 500 gp more than the normal versi
 
 - **Damage**: 1d6 piercing
 - **Range**: 80/320
-- **Properties**: [Ammunition](item-properties.md#Ammunition), [Two-Handed](item-properties.md#Two-Handed)
+- **Properties**: [Ammunition](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Ammunition), [Two-Handed](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Two-Handed)
 - **Cost**: 525 gp
 - **Weight**: 2.0 lbs.
 
 ### Adamantine Shortsword
 
 - **Damage**: 1d6 piercing
-- **Properties**: [Finesse](item-properties.md#Finesse), [Light](item-properties.md#Light)
+- **Properties**: [Finesse](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Finesse), [Light](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Light)
 - **Cost**: 510 gp
 - **Weight**: 2.0 lbs.
 
@@ -452,14 +452,14 @@ The adamantine version of a melee weapon costs 500 gp more than the normal versi
 
 - **Damage**: 2d8 piercing
 - **Range**: 30/90
-- **Properties**: [Ammunition](item-properties.md#Ammunition), [Reload](item-properties.md#Reload), [Two-Handed](item-properties.md#Two-Handed)
+- **Properties**: [Ammunition](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Ammunition), [Reload](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Reload), [Two-Handed](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Two-Handed)
 - **Cost**: 500 gp
 - **Weight**: 7.0 lbs.
 
 ### Adamantine Sickle
 
 - **Damage**: 1d4 slashing
-- **Properties**: [Light](item-properties.md#Light)
+- **Properties**: [Light](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Light)
 - **Cost**: 501 gp
 - **Weight**: 2.0 lbs.
 
@@ -467,7 +467,7 @@ The adamantine version of a melee weapon costs 500 gp more than the normal versi
 
 - **Damage**: 1d4 bludgeoning
 - **Range**: 30/120
-- **Properties**: [Ammunition](item-properties.md#Ammunition)
+- **Properties**: [Ammunition](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Ammunition)
 - **Cost**: 500 gp, 1 sp
 
 ### Adamantine Spear
@@ -476,7 +476,7 @@ The adamantine version of a melee weapon costs 500 gp more than the normal versi
   - One-handed: 1d6 piercing
   - Two-handed: 1d8 piercing
 - **Range**: 20/60
-- **Properties**: [Thrown](item-properties.md#Thrown), [Versatile](item-properties.md#Versatile)
+- **Properties**: [Thrown](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Thrown), [Versatile](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Versatile)
 - **Cost**: 501 gp
 - **Weight**: 3.0 lbs.
 
@@ -486,7 +486,7 @@ The adamantine version of a melee weapon costs 500 gp more than the normal versi
   - One-handed: 1d6 piercing
   - Two-handed: 1d8 piercing
 - **Range**: 20/60
-- **Properties**: [Thrown](item-properties.md#Thrown), [Versatile](item-properties.md#Versatile)
+- **Properties**: [Thrown](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Thrown), [Versatile](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Versatile)
 - **Cost**: 505 gp
 - **Weight**: 4.0 lbs.
 
@@ -501,14 +501,14 @@ The adamantine version of a melee weapon costs 500 gp more than the normal versi
 - **Damage**:
   - One-handed: 1d8 bludgeoning
   - Two-handed: 1d10 bludgeoning
-- **Properties**: [Versatile](item-properties.md#Versatile)
+- **Properties**: [Versatile](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Versatile)
 - **Cost**: 515 gp
 - **Weight**: 2.0 lbs.
 
 ### Adamantine Whip
 
 - **Damage**: 1d4 slashing
-- **Properties**: [Finesse](item-properties.md#Finesse), [Reach](item-properties.md#Reach)
+- **Properties**: [Finesse](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Finesse), [Reach](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Reach)
 - **Cost**: 502 gp
 - **Weight**: 3.0 lbs.
 
@@ -516,7 +516,7 @@ The adamantine version of a melee weapon costs 500 gp more than the normal versi
 
 - **Damage**: 1d8 piercing
 - **Range**: 10/30
-- **Properties**: [Thrown](item-properties.md#Thrown)
+- **Properties**: [Thrown](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Thrown)
 - **Cost**: 501 gp
 - **Weight**: 3.0 lbs.
 

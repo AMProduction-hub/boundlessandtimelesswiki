@@ -7,6 +7,8 @@ tags:
 - ttrpg-cli/spell/class/sorcerer
 - ttrpg-cli/spell/class/warlock
 - ttrpg-cli/spell/class/wizard
+- ttrpg-cli/spell/feat/aberrant-dragonmark
+- ttrpg-cli/spell/feat/initiate-of-high-sorcery
 - ttrpg-cli/spell/feat/magic-initiate
 - ttrpg-cli/spell/level/cantrip
 - ttrpg-cli/spell/optfeature/pact-of-the-tome
@@ -27,21 +29,22 @@ classes:
 - Sorcerer (Aberrant Mind)
 - Warlock
 - Wizard
-aliases: ["Mind Sliver"]
+aliases:
+- Mind Sliver
 ---
 # Mind Sliver
 *cantrip, Enchantment*  
-![](mind-sliver.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/spells/img/mind-sliver.webp#right)
 
 - **Casting time:** 1 Action
 - **Range:** 60 feet
 - **Components:** V
 - **Duration:** 1 round
 
-You drive a disorienting spike of psychic energy into the mind of one creature you can see within range. The target must succeed on an Intelligence saving throw or take `1d6` psychic damage and subtract `1d4` from the next saving throw it makes before the end of your next turn.
+You drive a disorienting spike of psychic energy into the mind of one creature you can see within range. The target must succeed on an Intelligence saving throw or take `d6` psychic damage and subtract `d4` from the next saving throw it makes before the end of your next turn.
 
-This spell's damage increases by `1d6` when you reach certain levels: 5th level (`2d6`), 11th level (`3d6`), and 17th level (`4d6`).
+This spell's damage increases by `d6` when you reach certain levels: 5th level (`2d6`), 11th level (`3d6`), and 17th level (`4d6`).
 
-**Classes**: [Bard](list-spells-classes-bard.md); [Fighter (Eldritch Knight)](list-spells-classes-fighter-eldritch-knight.md); [Sorcerer](list-spells-classes-sorcerer.md); [Cleric (Arcana Domain)](list-spells-classes-cleric-arcana-domain-scag.md "subclass=SCAG"); [Rogue (Arcane Trickster)](list-spells-classes-rogue-arcane-trickster.md); [Wizard](list-spells-classes-wizard.md); [Sorcerer (Aberrant Mind)](list-spells-classes-sorcerer-aberrant-mind-tce.md "subclass=TCE"); [Warlock](list-spells-classes-warlock.md)
+**Classes**: [Sorcerer (Aberrant Mind)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-aberrant-mind-tce.md "subclass=TCE"); [Cleric (Arcana Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcana-domain-scag.md "subclass=SCAG"); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Tasha's Cauldron of Everything p. 108*

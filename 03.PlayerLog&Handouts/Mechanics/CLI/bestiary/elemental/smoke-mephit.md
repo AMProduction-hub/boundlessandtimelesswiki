@@ -8,10 +8,12 @@ tags:
 - ttrpg-cli/monster/size/small
 - ttrpg-cli/monster/type/elemental
 statblock: inline
-aliases: ["Smoke Mephit"]
+statblock-link: "#^statblock"
+aliases:
+- Smoke Mephit
 ---
-# [Smoke Mephit](03 - Player Log & Handouts\Mechanics\CLI\bestiary\elemental/smoke-mephit.md)
-*Source: Monster Manual p. 217*  
+# [Smoke Mephit](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\elemental/smoke-mephit.md)
+*Source: Monster Manual p. 217, Curse of Strahd, Princes of the Apocalypse, Storm King's Thunder, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Keys from the Golden Vault*  
 
 ## Mephits
 
@@ -35,42 +37,50 @@ Smoke mephits are crude, lazy creatures of air and fire that billow smoke consta
 "ac": !!int "12"
 "hp": !!int "22"
 "hit_dice": "5d6 + 5"
+"modifier": !!int "2"
 "stats":
-- !!int "6"
-- !!int "14"
-- !!int "12"
-- !!int "10"
-- !!int "10"
-- !!int "11"
+  - !!int "6"
+  - !!int "14"
+  - !!int "12"
+  - !!int "10"
+  - !!int "10"
+  - !!int "11"
 "speed": "30 ft., fly 30 ft."
 "skillsaves":
-  "Stealth": !!int "4"
-  "Perception": !!int "2"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+2"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+4"
 "damage_immunities": "fire, poison"
-"condition_immunities": "[poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "darkvision 60 ft., passive Perception 12"
 "languages": "Auran, Ignan"
 "cr": "1/4"
 "traits":
-- "desc": "The mephit can innately cast [dancing lights](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/dancing-lights.md),\
-    \ requiring no material components. Its innate spellcasting ability is Charisma.\n\
-    \nAt will: [dancing lights](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/dancing-lights.md)"
-  "name": "Innate Spellcasting (1/Day)"
-- "desc": "When the mephit dies, it leaves behind a cloud of smoke that fills a 5-foot-radius\
-    \ sphere centered on its space. The sphere is heavily obscured. Wind disperses\
-    \ the cloud, which otherwise lasts for 1 minute."
-  "name": "Death Burst"
+  - "desc": "The mephit can innately cast [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md),\
+      \ requiring no material components. Its innate spellcasting ability is Charisma.\n"
+    "name": "Innate Spellcasting (1/Day)"
+  - "desc": "When the mephit dies, it leaves behind a cloud of smoke that fills a\
+      \ 5-foot-radius sphere centered on its space. The sphere is heavily obscured.\
+      \ Wind disperses the cloud, which otherwise lasts for 1 minute."
+    "name": "Death Burst"
 "actions":
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4\
-    \ (1d4 + 2) slashing damage."
-  "name": "Claws"
-- "desc": "The mephit exhales a 15-foot cone of smoldering ash. Each creature in that\
-    \ area must succeed on a DC 10 Dexterity saving throw or be [blinded](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Blinded)\
-    \ until the end of the mephit's next turn."
-  "name": "Cinder Breath (Recharge 6)"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit:\
+      \ 4 (1d4 + 2) slashing damage."
+    "name": "Claws"
+  - "desc": "The mephit exhales a 15-foot cone of smoldering ash. Each creature in\
+      \ that area must succeed on a DC 10 Dexterity saving throw or be [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded)\
+      \ until the end of the mephit's next turn."
+    "name": "Cinder Breath (Recharge 6)"
 "source":
-- "MM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/elemental/token/smoke-mephit.webp"
+  - "MM"
+  - "CoS"
+  - "PotA"
+  - "SKT"
+  - "ToA"
+  - "WDMM"
+  - "KftGV"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/token/smoke-mephit.webp"
 ```
 ^statblock
 

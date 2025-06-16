@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
-aliases: ["Individual Treasure: Challenge 0—4"]
+aliases:
+- Individual Treasure: Challenge 0—4
 ---
 # Individual Treasure: Challenge 0—4
 *Source: Dungeon Master's Guide p. 133* 
@@ -18,5 +19,5 @@ aliases: ["Individual Treasure: Challenge 0—4"]
 | 31-60 | — | `4d6` (14) | — | — | — |
 | 61-70 | — | — | `3d6` (10) | — | — |
 | 71-95 | — | — | — | `3d6` (10) | — |
-| 96-00 | — | — | — | — | `1d6` (3) |
+| 96-00 | — | — | — | — | `d6` (3) |
 ^individual-treasure-challenge-04

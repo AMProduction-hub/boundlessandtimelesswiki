@@ -7,8 +7,9 @@ tags:
 - ttrpg-cli/spell/class/sorcerer
 - ttrpg-cli/spell/class/warlock
 - ttrpg-cli/spell/class/wizard
+- ttrpg-cli/spell/feat/aberrant-dragonmark
+- ttrpg-cli/spell/feat/initiate-of-high-sorcery
 - ttrpg-cli/spell/feat/magic-initiate
-- ttrpg-cli/spell/feat/scion-of-the-outer-planes
 - ttrpg-cli/spell/level/cantrip
 - ttrpg-cli/spell/optfeature/pact-of-the-tome
 - ttrpg-cli/spell/race/kobold
@@ -19,6 +20,7 @@ tags:
 - ttrpg-cli/spell/subclass/school-of-illusion
 - ttrpg-cli/spell/subclass/way-of-shadow
 - ttrpg-cli/spell/subrace/elf-high
+- ttrpg-cli/spell/subrace/elf-mark-of-shadow
 - ttrpg-cli/spell/subrace/gnome-forest
 - ttrpg-cli/spell/subrace/half-elf-moon-elf-or-sun-elf-descent
 - ttrpg-cli/spell/subrace/tiefling-glasya
@@ -32,7 +34,8 @@ classes:
 - Warlock
 - Wizard
 - Wizard (School of Illusion)
-aliases: ["Minor Illusion"]
+aliases:
+- Minor Illusion
 ---
 # Minor Illusion
 *cantrip, Illusion*  
@@ -51,6 +54,6 @@ If you create an image of an object—such as a chair, muddy footprints, or a sm
 
 If a creature uses its action to examine the sound or image, the creature can determine that it is an illusion with a successful Intelligence ([Investigation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Investigation)) check against your spell save DC. If a creature discerns the illusion for what it is, the illusion becomes faint to the creature.
 
-**Classes**: [Wizard (School of Illusion)](list-spells-classes-wizard-school-of-illusion.md); [Monk (Way of Shadow)](list-spells-classes-monk-way-of-shadow.md); [Bard](list-spells-classes-bard.md); [Fighter (Eldritch Knight)](list-spells-classes-fighter-eldritch-knight.md); [Sorcerer](list-spells-classes-sorcerer.md); [Cleric (Arcana Domain)](list-spells-classes-cleric-arcana-domain-scag.md "subclass=SCAG"); [Rogue (Arcane Trickster)](list-spells-classes-rogue-arcane-trickster.md); [Wizard](list-spells-classes-wizard.md); [Warlock](list-spells-classes-warlock.md)
+**Classes**: [Cleric (Arcana Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcana-domain-scag.md "subclass=SCAG"); [Wizard (School of Illusion)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-school-of-illusion.md); [Monk (Way of Shadow)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-way-of-shadow.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook p. 260. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*

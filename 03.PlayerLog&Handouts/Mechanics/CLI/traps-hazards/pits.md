@@ -4,7 +4,8 @@ cssclasses: json5e-hazard
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/hazard/mech
-aliases: ["Pits"]
+aliases:
+- Pits
 ---
 # Pits
 *Mechanical Trap*  
@@ -21,7 +22,7 @@ A successful DC 15 Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rule
 
 When a creature steps on the cover, it swings open like a trapdoor, causing the intruder to spill into the pit below. The pit is usually 10 or 20 feet deep but can be deeper.
 
-Once the pit trap is detected, an iron spike or similar object can be wedged between the pit's cover and the surrounding floor in such a way as to prevent the cover from opening, thereby making it safe to cross. The cover can also be magically held shut using the [arcane lock](arcane-lock.md) spell or similar magic.
+Once the pit trap is detected, an iron spike or similar object can be wedged between the pit's cover and the surrounding floor in such a way as to prevent the cover from opening, thereby making it safe to cross. The cover can also be magically held shut using the [arcane lock](03.PlayerLog&Handouts/Mechanics/CLI/spells/arcane-lock.md) spell or similar magic.
 
 ## Locking Pit
 

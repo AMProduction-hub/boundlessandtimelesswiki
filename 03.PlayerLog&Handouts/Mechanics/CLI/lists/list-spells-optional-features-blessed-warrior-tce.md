@@ -3,18 +3,19 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/spell/list/optfeature/blessed-warrior
-aliases: ["Spells for Blessed Warrior"]
+aliases:
+- Spells for Blessed Warrior
 ---
 # Spells for Blessed Warrior
 
 ## Cantrip
 
-- [Guidance](guidance.md "PHB") 
-- [Light](light.md "PHB") 
-- [Mending](mending.md "PHB") 
-- [Resistance](resistance.md "PHB") 
-- [Sacred Flame](sacred-flame.md "PHB") 
-- [Spare the Dying](spare-the-dying.md "PHB") 
-- [Thaumaturgy](thaumaturgy.md "PHB") 
-- [Toll the Dead](toll-the-dead-xge.md "XGE") 
-- [Word of Radiance](word-of-radiance-xge.md "XGE")
+- [Guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md "PHB") 
+- [Light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md "PHB") 
+- [Mending](03.PlayerLog&Handouts/Mechanics/CLI/spells/mending.md "PHB") 
+- [Resistance](03.PlayerLog&Handouts/Mechanics/CLI/spells/resistance.md "PHB") 
+- [Sacred Flame](03.PlayerLog&Handouts/Mechanics/CLI/spells/sacred-flame.md "PHB") 
+- [Spare the Dying](03.PlayerLog&Handouts/Mechanics/CLI/spells/spare-the-dying.md "PHB") 
+- [Thaumaturgy](03.PlayerLog&Handouts/Mechanics/CLI/spells/thaumaturgy.md "PHB") 
+- [Toll the Dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/toll-the-dead-xge.md "XGE") 
+- [Word of Radiance](03.PlayerLog&Handouts/Mechanics/CLI/spells/word-of-radiance-xge.md "XGE")

@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
-aliases: ["Dwarves on the Move; Purpose of Travel"]
+aliases:
+- Dwarves on the Move; Purpose of Travel
 ---
 # Dwarves on the Move; Purpose of Travel
 *Source: Mordenkainen's Tome of Foes p. 81* 

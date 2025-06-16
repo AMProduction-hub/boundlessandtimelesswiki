@@ -8,10 +8,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/beast
 statblock: inline
-aliases: ["Pony"]
+statblock-link: "#^statblock"
+aliases:
+- Pony
 ---
-# [Pony](03 - Player Log & Handouts\Mechanics\CLI\bestiary\beast/pony.md)
-*Source: Monster Manual p. 335, Sigil and the Outlands. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Pony](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/pony.md)
+*Source: Monster Manual p. 335, Storm King's Thunder. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 ```statblock
 "name": "Pony"
@@ -21,25 +23,26 @@ aliases: ["Pony"]
 "ac": !!int "10"
 "hp": !!int "11"
 "hit_dice": "2d8 + 2"
+"modifier": !!int "0"
 "stats":
-- !!int "15"
-- !!int "10"
-- !!int "13"
-- !!int "2"
-- !!int "11"
-- !!int "7"
+  - !!int "15"
+  - !!int "10"
+  - !!int "13"
+  - !!int "2"
+  - !!int "11"
+  - !!int "7"
 "speed": "40 ft."
 "senses": "passive Perception 10"
 "languages": ""
 "cr": "1/8"
 "actions":
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4\
-    \ + 2) bludgeoning damage."
-  "name": "Hooves"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7\
+      \ (2d4 + 2) bludgeoning damage."
+    "name": "Hooves"
 "source":
-- "MM"
-- "SatO"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/beast/token/pony.webp"
+  - "MM"
+  - "SKT"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/pony.webp"
 ```
 ^statblock
 

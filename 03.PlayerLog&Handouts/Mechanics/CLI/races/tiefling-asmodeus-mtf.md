@@ -4,11 +4,12 @@ cssclasses: json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
 - ttrpg-cli/race/tiefling/asmodeus
-aliases: ["Tiefling (Asmodeus)"]
+aliases:
+- Tiefling (Asmodeus)
 ---
 # Tiefling (Asmodeus)
 *Source: Mordenkainen's Tome of Foes p. 21*  
-![](tiefling.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/races/img/tiefling.webp#right)
 
 - **Ability Scores**: Charisma +2; Intelligence +1
 - **Size**: Medium
@@ -35,7 +36,7 @@ You have resistance to fire damage.
 
 ### Infernal Legacy
 
-You know the [thaumaturgy](thaumaturgy.md) cantrip. Once you reach 3rd level, you can cast the [hellish rebuke](hellish-rebuke.md) spell as a 2nd-level spell with this trait; you regain the ability to cast it when you finish a long rest. Once you reach 5th level, you can also cast the [darkness](darkness.md) spell once per day with this trait; you regain the ability to cast it when you finish a long rest. Charisma is your spellcasting ability for these spells.
+You know the [thaumaturgy](03.PlayerLog&Handouts/Mechanics/CLI/spells/thaumaturgy.md) cantrip. Once you reach 3rd level, you can cast the [hellish rebuke](03.PlayerLog&Handouts/Mechanics/CLI/spells/hellish-rebuke.md) spell as a 2nd-level spell with this trait; you regain the ability to cast it when you finish a long rest. Once you reach 5th level, you can also cast the [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md) spell once per day with this trait; you regain the ability to cast it when you finish a long rest. Charisma is your spellcasting ability for these spells.
 
 ### Languages
 

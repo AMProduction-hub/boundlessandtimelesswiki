@@ -7,9 +7,11 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/dragon
 statblock: inline
-aliases: ["Bronze Dragon Wyrmling"]
+statblock-link: "#^statblock"
+aliases:
+- Bronze Dragon Wyrmling
 ---
-# [Bronze Dragon Wyrmling](03 - Player Log & Handouts\Mechanics\CLI\bestiary\dragon/bronze-dragon-wyrmling.md)
+# [Bronze Dragon Wyrmling](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\dragon/bronze-dragon-wyrmling.md)
 *Source: Monster Manual p. 109. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Bronze dragons are coastal dwellers that feed primarily on aquatic plants and fish. They take the forms of friendly animals to observe other creatures of interest. They are also fascinated by warfare and eagerly join armies fighting for a just cause.
@@ -87,43 +89,47 @@ True dragons pass through four distinct stages of life, from lowly wyrmlings to 
 "ac_class": "natural armor"
 "hp": !!int "32"
 "hit_dice": "5d8 + 10"
+"modifier": !!int "0"
 "stats":
-- !!int "17"
-- !!int "10"
-- !!int "15"
-- !!int "12"
-- !!int "11"
-- !!int "15"
+  - !!int "17"
+  - !!int "10"
+  - !!int "15"
+  - !!int "12"
+  - !!int "11"
+  - !!int "15"
 "speed": "30 ft., fly 60 ft., swim 30 ft."
 "saves":
-  "Charisma": !!int "4"
-  "Dexterity": !!int "2"
-  "Wisdom": !!int "2"
-  "Constitution": !!int "4"
+  - "dexterity": "+2"
+  - "constitution": "+4"
+  - "wisdom": "+2"
+  - "charisma": "+4"
 "skillsaves":
-  "Stealth": !!int "2"
-  "Perception": !!int "4"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+4"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+2"
 "damage_immunities": "lightning"
 "senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 14"
 "languages": "Draconic"
 "cr": "2"
 "traits":
-- "desc": "The dragon can breathe air and water."
-  "name": "Amphibious"
+  - "desc": "The dragon can breathe air and water."
+    "name": "Amphibious"
 "actions":
-- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d10\
-    \ + 3) piercing damage."
-  "name": "Bite"
-- "desc": "The dragon uses one of the following breath weapons.\n\n- Lightning Breath.\
-    \ The dragon exhales lightning in a 40-foot line that is 5 feet wide. Each creature\
-    \ in that line must make a DC 12 Dexterity saving throw, taking 16 (3d10) lightning\
-    \ damage on a failed save, or half as much damage on a successful one.  \n- Repulsion\
-    \ Breath. The dragon exhales repulsion energy in a 30-foot cone. Each creature\
-    \ in that area must succeed on a DC 12 Strength saving throw. On a failed save,\
-    \ the creature is pushed 30 feet away from the dragon.  "
-  "name": "Breath Weapons (Recharge 5-6)"
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8\
+      \ (1d10 + 3) piercing damage."
+    "name": "Bite"
+  - "desc": "The dragon uses one of the following breath weapons.\n\n- Lightning\
+      \ Breath. The dragon exhales lightning in a 40-foot line that is 5 feet wide.\
+      \ Each creature in that line must make a DC 12 Dexterity saving throw, taking\
+      \ 16 (3d10) lightning damage on a failed save, or half as much damage on a\
+      \ successful one.  \n- Repulsion Breath. The dragon exhales repulsion energy\
+      \ in a 30-foot cone. Each creature in that area must succeed on a DC 12 Strength\
+      \ saving throw. On a failed save, the creature is pushed 30 feet away from the\
+      \ dragon.  "
+    "name": "Breath Weapons (Recharge 5-6)"
 "source":
-- "MM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/dragon/token/bronze-dragon-wyrmling.webp"
+  - "MM"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/token/bronze-dragon-wyrmling.webp"
 ```
 ^statblock

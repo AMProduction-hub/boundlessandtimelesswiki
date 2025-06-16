@@ -4,10 +4,11 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 - ttrpg-cli/subclass/fighter/arcane-archer
-aliases: ["Arcane Archer"]
+aliases:
+- Arcane Archer
 ---
 # Arcane Archer
-*[Fighter](03.PlayerLog&Handouts/Mechanics/CLI/classes/fighter.md): Martial Archetype*  
+*[Fighter](./fighter.md): Martial Archetype*  
 *Source: Xanathar's Guide to Everything p. 28*  
 
 > [!tldr] Class and Feature Progression
@@ -42,6 +43,14 @@ aliases: ["Arcane Archer"]
 ^class-progression
 
 
+> [!quote] A quote from Xanathar  
+> 
+> Arrows are the worst. They go much farther than eye rays. That's why I stay indoors all the time. Besides, the sky is totally overrated.
+
+> [!quote] A quote from Xanathar  
+> 
+> So there are different names for different sorts of people who swing swords? Why? Let me try: big sword swinger and tiny sword swinger. No, that sounds like it's the size of the sword that matters. How about: big meat bag with a sword and little meat bag with a sword!
+
 ## Class Features
 
 ### Arcane Archer (Level 3)
@@ -50,13 +59,13 @@ An Arcane Archer studies a unique elven method of archery that weaves magic into
 
 ### Arcane Archer Lore (Level 3)
 
-At 3rd level, you learn magical theory or some of the secrets of nature—typical for practitioners of this elven martial tradition. You choose to gain proficiency in either the [Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana) or the [Nature](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Nature) skill, and you choose to learn either the [prestidigitation](prestidigitation.md) or the [druidcraft](druidcraft.md) cantrip.
+At 3rd level, you learn magical theory or some of the secrets of nature—typical for practitioners of this elven martial tradition. You choose to gain proficiency in either the [Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana) or the [Nature](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Nature) skill, and you choose to learn either the [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md) or the [druidcraft](03.PlayerLog&Handouts/Mechanics/CLI/spells/druidcraft.md) cantrip.
 
 ### Arcane Shot (Level 3)
 
 At 3rd level, you learn to unleash special magical effects with some of your shots. When you gain this feature, you learn two Arcane Shot options of your choice (see "Arcane Shot Options" below).
 
-Once per turn when you fire an arrow from a shortbow or longbow as part of the [Attack](actions.md#Attack) action, you can apply one of your Arcane Shot options to that arrow. You decide to use the option when the arrow hits a creature, unless the option doesn't involve an attack roll. You have two uses of this ability, and you regain all expended uses of it when you finish a short or long rest.
+Once per turn when you fire an arrow from a shortbow or longbow as part of the [Attack](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Attack) action, you can apply one of your Arcane Shot options to that arrow. You decide to use the option when the arrow hits a creature, unless the option doesn't involve an attack roll. You have two uses of this ability, and you regain all expended uses of it when you finish a short or long rest.
 
 You gain an additional Arcane Shot option of your choice when you reach certain levels in this class: 7th, 10th, 15th, and 18th level. Each option also improves when you become an 18th-level fighter.
 
@@ -66,7 +75,7 @@ The Arcane Shot feature lets you choose options for it at certain levels. The op
 
 If an option requires a saving throw, your Arcane Shot save DC is calculated as follows:
 
-<span class='abilityDc'>**Spell save DC**: 8 + your proficiency bonus + your Intelligence modifier</span>
+<span class='abilityDc'>**Arcane Shot save DC**: your proficiency bonus + your Intelligence</span>
 
 ### Magic Arrow (Level 7)
 
@@ -99,5 +108,5 @@ You gain an additional Arcane Shot option of your choice when you reach 18th lev
 ## Optional Features
 
 > [!example]- Optional Features: Arcane Shot
-> ![Arcane Shot](list-optfeaturetype-as.md#Arcane%20Shot)
+> ![Arcane Shot](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-optfeaturetype-as.md#Arcane%20Shot)
 ^list-optfeature-as

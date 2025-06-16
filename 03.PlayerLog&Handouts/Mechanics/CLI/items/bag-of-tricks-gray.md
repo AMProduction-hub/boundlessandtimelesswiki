@@ -26,14 +26,14 @@ Once three fuzzy objects have been pulled from the bag, the bag can't be used ag
 
 | dice: d8 | Creature |
 |----------|----------|
-| 1 | [Weasel](weasel.md) |
-| 2 | [Giant rat](giant-rat.md) |
-| 3 | [Badger](badger.md) |
-| 4 | [Boar](boar.md) |
-| 5 | [Panther](panther.md) |
-| 6 | [Giant badger](giant-badger.md) |
-| 7 | [Dire wolf](dire-wolf.md) |
-| 8 | [Giant elk](giant-elk.md) |
+| 1 | [Weasel](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/weasel.md) |
+| 2 | [Giant rat](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-rat.md) |
+| 3 | [Badger](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/badger.md) |
+| 4 | [Boar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/boar.md) |
+| 5 | [Panther](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/panther.md) |
+| 6 | [Giant badger](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-badger.md) |
+| 7 | [Dire wolf](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/dire-wolf.md) |
+| 8 | [Giant elk](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-elk.md) |
 ^creature
 
 *Source: Dungeon Master's Guide p. 154. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

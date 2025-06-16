@@ -7,7 +7,8 @@ tags:
 - ttrpg-cli/optional-feature/fs-f
 - ttrpg-cli/optional-feature/fs-p
 - ttrpg-cli/optional-feature/fs-r
-aliases: ["Dueling"]
+aliases:
+- Dueling
 ---
 # Dueling
 *Source: Player's Handbook, Xanathar's Guide to Everything p. 15. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  

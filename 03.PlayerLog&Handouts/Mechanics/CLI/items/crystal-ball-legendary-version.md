@@ -17,8 +17,8 @@ aliases:
 
 **Items in this group:**
 
-- [Crystal Ball of Mind Reading](crystal-ball-of-mind-reading.md)
-- [Crystal Ball of Telepathy](crystal-ball-of-telepathy.md)
-- [Crystal Ball of True Seeing](crystal-ball-of-true-seeing.md)
+- [Crystal Ball of Mind Reading](03.PlayerLog&Handouts/Mechanics/CLI/items/crystal-ball-of-mind-reading.md)
+- [Crystal Ball of Telepathy](03.PlayerLog&Handouts/Mechanics/CLI/items/crystal-ball-of-telepathy.md)
+- [Crystal Ball of True Seeing](03.PlayerLog&Handouts/Mechanics/CLI/items/crystal-ball-of-true-seeing.md)
 
 *Source: Dungeon Master's Guide p. 159*

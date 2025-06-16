@@ -14,7 +14,7 @@ aliases:
 
 
 - **Damage**: 2d6 bludgeoning
-- **Properties**: [Heavy](item-properties.md#Heavy), [Two-Handed](item-properties.md#Two-Handed)
+- **Properties**: [Heavy](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Heavy), [Two-Handed](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Two-Handed)
 - **Cost**: 10 gp
 - **Weight**: 10.0 lbs.
 

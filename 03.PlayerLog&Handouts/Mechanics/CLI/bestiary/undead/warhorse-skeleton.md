@@ -7,10 +7,12 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/undead
 statblock: inline
-aliases: ["Warhorse Skeleton"]
+statblock-link: "#^statblock"
+aliases:
+- Warhorse Skeleton
 ---
-# [Warhorse Skeleton](03 - Player Log & Handouts\Mechanics\CLI\bestiary\undead/warhorse-skeleton.md)
-*Source: Monster Manual p. 273. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Warhorse Skeleton](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/warhorse-skeleton.md)
+*Source: Monster Manual p. 273, Curse of Strahd, Storm King's Thunder, Candlekeep Mysteries, Dragonlance: Shadow of the Dragon Queen. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Skeletons arise when animated by dark magic. They heed the summons of spellcasters who call them from their stony tombs and ancient battlefields, or rise of their own accord in places saturated with death and loss, awakened by stirrings of necromantic energy or the presence of corrupting evil.
 
@@ -47,27 +49,32 @@ A skeleton doesn't require air, food, drink, or sleep.
 "ac_class": "barding scraps"
 "hp": !!int "22"
 "hit_dice": "3d10 + 6"
+"modifier": !!int "1"
 "stats":
-- !!int "18"
-- !!int "12"
-- !!int "15"
-- !!int "2"
-- !!int "8"
-- !!int "5"
+  - !!int "18"
+  - !!int "12"
+  - !!int "15"
+  - !!int "2"
+  - !!int "8"
+  - !!int "5"
 "speed": "60 ft."
 "damage_vulnerabilities": "bludgeoning"
 "damage_immunities": "poison"
-"condition_immunities": "[exhaustion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
-  \ [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
+  \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "darkvision 60 ft., passive Perception 9"
 "languages": ""
 "cr": "1/2"
 "actions":
-- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11\
-    \ (2d6 + 4) bludgeoning damage."
-  "name": "Hooves"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11\
+      \ (2d6 + 4) bludgeoning damage."
+    "name": "Hooves"
 "source":
-- "MM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/undead/token/warhorse-skeleton.webp"
+  - "MM"
+  - "CoS"
+  - "SKT"
+  - "CM"
+  - "DSotDQ"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/token/warhorse-skeleton.webp"
 ```
 ^statblock

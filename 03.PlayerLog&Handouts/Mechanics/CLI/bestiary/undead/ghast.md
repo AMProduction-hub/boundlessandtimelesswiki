@@ -10,10 +10,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/undead
 statblock: inline
-aliases: ["Ghast"]
+statblock-link: "#^statblock"
+aliases:
+- Ghast
 ---
-# [Ghast](03 - Player Log & Handouts\Mechanics\CLI\bestiary\undead/ghast.md)
-*Source: Monster Manual p. 148, Baldur's Gate: Descent Into Avernus. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Ghast](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/ghast.md)
+*Source: Monster Manual p. 148, Curse of Strahd, Princes of the Apocalypse, Tomb of Annihilation, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Divine Contention, Dragon of Icespire Peak, Sleeping Dragon's Wake, Baldur's Gate: Descent Into Avernus, Dragonlance: Shadow of the Dragon Queen. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Ghouls roam the night in packs, driven by an insatiable hunger for humanoid flesh.
 
@@ -37,45 +39,56 @@ Orcus sometimes infuses a ghoul with a stronger dose of abyssal energy, making a
 "ac": !!int "13"
 "hp": !!int "36"
 "hit_dice": "8d8"
+"modifier": !!int "3"
 "stats":
-- !!int "16"
-- !!int "17"
-- !!int "10"
-- !!int "11"
-- !!int "10"
-- !!int "8"
+  - !!int "16"
+  - !!int "17"
+  - !!int "10"
+  - !!int "11"
+  - !!int "10"
+  - !!int "8"
 "speed": "30 ft."
 "damage_resistances": "necrotic"
 "damage_immunities": "poison"
-"condition_immunities": "[charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
-  \ [exhaustion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
-  \ [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
+  \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
+  \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "darkvision 60 ft., passive Perception 10"
 "languages": "Common"
 "cr": "2"
 "traits":
-- "desc": "Any creature that starts its turn within 5 feet of the ghast must succeed\
-    \ on a DC 10 Constitution saving throw or be [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
-    \ until the start of its next turn. On a successful saving throw, the creature\
-    \ is immune to the ghast's Stench for 24 hours."
-  "name": "Stench"
-- "desc": "The ghast and any ghouls within 30 feet of it have advantage on saving\
-    \ throws against effects that turn undead."
-  "name": "Turn Defiance"
+  - "desc": "Any creature that starts its turn within 5 feet of the ghast must succeed\
+      \ on a DC 10 Constitution saving throw or be [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
+      \ until the start of its next turn. On a successful saving throw, the creature\
+      \ is immune to the ghast's Stench for 24 hours."
+    "name": "Stench"
+  - "desc": "The ghast and any ghouls within 30 feet of it have advantage on saving\
+      \ throws against effects that turn undead."
+    "name": "Turn Defiance"
 "actions":
-- "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 12\
-    \ (2d8 + 3) piercing damage."
-  "name": "Bite"
-- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10\
-    \ (2d6 + 3) slashing damage. If the target is a creature other than an undead,\
-    \ it must succeed on a DC 10 Constitution saving throw or be [paralyzed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed)\
-    \ for 1 minute. The target can repeat the saving throw at the end of each of its\
-    \ turns, ending the effect on itself on a success."
-  "name": "Claws"
+  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit:\
+      \ 12 (2d8 + 3) piercing damage."
+    "name": "Bite"
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10\
+      \ (2d6 + 3) slashing damage. If the target is a creature other than an undead,\
+      \ it must succeed on a DC 10 Constitution saving throw or be [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed)\
+      \ for 1 minute. The target can repeat the saving throw at the end of each of\
+      \ its turns, ending the effect on itself on a success."
+    "name": "Claws"
 "source":
-- "MM"
-- "BGDIA"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/undead/token/ghast.webp"
+  - "MM"
+  - "CoS"
+  - "PotA"
+  - "ToA"
+  - "WDH"
+  - "WDMM"
+  - "GoS"
+  - "DC"
+  - "DIP"
+  - "SDW"
+  - "BGDIA"
+  - "DSotDQ"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/token/ghast.webp"
 ```
 ^statblock
 

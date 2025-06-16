@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/tce
-aliases: ["Ancient Being Quests"]
+aliases:
+- Ancient Being Quests
 ---
 # Ancient Being Quests
 *Source: Tasha's Cauldron of Everything p. 88* 

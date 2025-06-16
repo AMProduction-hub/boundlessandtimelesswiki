@@ -4,10 +4,11 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 - ttrpg-cli/subclass/druid/dreams
-aliases: ["Circle of Dreams"]
+aliases:
+- Circle of Dreams
 ---
 # Circle of Dreams
-*[Druid](03.PlayerLog&Handouts/Mechanics/CLI/classes/druid.md): Druid Circle*  
+*[Druid](./druid.md): Druid Circle*  
 *Source: Xanathar's Guide to Everything p. 22*  
 
 > [!tldr] Class and Feature Progression
@@ -42,6 +43,10 @@ aliases: ["Circle of Dreams"]
 ^class-progression
 
 
+> [!quote] A quote from Xanathar  
+> 
+> I don't dream because I don't sleep. I'm always awake so no one can ever sneak up on me. If I dreamed, they would be bigger dreams than yours, though, because my head is bigger.
+
 ## Class Features
 
 ### Circle of Dreams (Level 2)
@@ -74,8 +79,8 @@ You can use this feature a number of times equal to your Wisdom modifier (minimu
 
 At 14th level, the magic of the Feywild grants you the ability to travel mentally or physically through dreamlands.
 
-When you finish a short rest, you can cast one of the following spells, without expending a spell slot or requiring material components: [dream](dream.md) (with you as the messenger), [scrying](scrying.md), or [teleportation circle](teleportation-circle.md).
+When you finish a short rest, you can cast one of the following spells, without expending a spell slot or requiring material components: [dream](03.PlayerLog&Handouts/Mechanics/CLI/spells/dream.md) (with you as the messenger), [scrying](03.PlayerLog&Handouts/Mechanics/CLI/spells/scrying.md), or [teleportation circle](03.PlayerLog&Handouts/Mechanics/CLI/spells/teleportation-circle.md).
 
-This use of [teleportation circle](teleportation-circle.md) is special. Rather than opening a portal to a permanent [teleportation circle](teleportation-circle.md), it opens a portal to the last location where you finished a long rest on your current plane of existence. If you haven't taken a long rest on your current plane, the spell fails but isn't wasted.
+This use of [teleportation circle](03.PlayerLog&Handouts/Mechanics/CLI/spells/teleportation-circle.md) is special. Rather than opening a portal to a permanent [teleportation circle](03.PlayerLog&Handouts/Mechanics/CLI/spells/teleportation-circle.md), it opens a portal to the last location where you finished a long rest on your current plane of existence. If you haven't taken a long rest on your current plane, the spell fails but isn't wasted.
 
 Once you use this feature, you can't use it again until you finish a long rest.

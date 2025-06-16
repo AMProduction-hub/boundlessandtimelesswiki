@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
-aliases: ["Passages; Passage Width"]
+aliases:
+- Passages; Passage Width
 ---
 # Passages; Passage Width
 *Source: Dungeon Master's Guide p. 290* 

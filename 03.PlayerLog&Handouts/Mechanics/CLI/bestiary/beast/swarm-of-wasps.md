@@ -14,14 +14,16 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/beast
 statblock: inline
-aliases: ["Swarm of Wasps"]
+statblock-link: "#^statblock"
+aliases:
+- Swarm of Wasps
 ---
-# [Swarm of Wasps](03 - Player Log & Handouts\Mechanics\CLI\bestiary\beast/swarm-of-wasps.md)
-*Source: Monster Manual p. 338. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Swarm of Wasps](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/swarm-of-wasps.md)
+*Source: Monster Manual p. 338, Curse of Strahd, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 > [!note] The Nature of Swarms
 > 
-> The swarms presented here aren't ordinary or benign assemblies of little creatures. They form as a result of some sinister or unwholesome influence. A vampire can summon swarms of bats and rats from the darkest corners of the night, while the very presence of a mummy lord can cause scarab beetles to boil up from the sand-filled depths of its tomb. A hag might have the power to turn swarms of ravens against her enemies, while a [yuan-ti abomination](yuan-ti-abomination.md) might have [swarms of poisonous snakes](swarm-of-poisonous-snakes.md) slithering in its wake. Even druids can't charm these swarms, and their aggressiveness is borderline unnatural.
+> The swarms presented here aren't ordinary or benign assemblies of little creatures. They form as a result of some sinister or unwholesome influence. A vampire can summon swarms of bats and rats from the darkest corners of the night, while the very presence of a mummy lord can cause scarab beetles to boil up from the sand-filled depths of its tomb. A hag might have the power to turn swarms of ravens against her enemies, while a [yuan-ti abomination](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/yuan-ti-abomination.md) might have [swarms of poisonous snakes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/swarm-of-poisonous-snakes.md) slithering in its wake. Even druids can't charm these swarms, and their aggressiveness is borderline unnatural.
 ^the-nature-of-swarms
 
 ```statblock
@@ -33,39 +35,42 @@ aliases: ["Swarm of Wasps"]
 "ac_class": "natural armor"
 "hp": !!int "22"
 "hit_dice": "5d8"
+"modifier": !!int "1"
 "stats":
-- !!int "3"
-- !!int "13"
-- !!int "10"
-- !!int "1"
-- !!int "7"
-- !!int "1"
+  - !!int "3"
+  - !!int "13"
+  - !!int "10"
+  - !!int "1"
+  - !!int "7"
+  - !!int "1"
 "speed": "5 ft., fly 30 ft."
 "damage_resistances": "bludgeoning, piercing, slashing"
-"condition_immunities": "[charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
-  \ [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
-  \ [grappled](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Grappled),\
-  \ [paralyzed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
-  \ [petrified](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
-  \ [prone](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Prone),\
-  \ [restrained](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
-  \ [stunned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Stunned)"
+"condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
+  \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
+  \ [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled),\
+  \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
+  \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
+  \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
+  \ [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)"
 "senses": "blindsight 10 ft., passive Perception 8"
 "languages": ""
 "cr": "1/2"
 "traits":
-- "desc": "The swarm can occupy another creature's space and vice versa, and the swarm\
-    \ can move through any opening large enough for a Tiny insect. The swarm can't\
-    \ regain hit points or gain temporary hit points."
-  "name": "Swarm"
+  - "desc": "The swarm can occupy another creature's space and vice versa, and the\
+      \ swarm can move through any opening large enough for a Tiny insect. The swarm\
+      \ can't regain hit points or gain temporary hit points."
+    "name": "Swarm"
 "actions":
-- "desc": "Melee Weapon Attack: +3 to hit, reach 0 ft., one target in the swarm's\
-    \ space. Hit: 10 (4d4) piercing damage, or 5 (2d4) piercing damage if the\
-    \ swarm has half of its hit points or fewer."
-  "name": "Bites"
+  - "desc": "Melee Weapon Attack: +3 to hit, reach 0 ft., one target in the swarm's\
+      \ space. Hit: 10 (4d4) piercing damage, or 5 (2d4) piercing damage if\
+      \ the swarm has half of its hit points or fewer."
+    "name": "Bites"
 "source":
-- "MM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/beast/token/swarm-of-wasps.webp"
+  - "MM"
+  - "CoS"
+  - "WDMM"
+  - "GoS"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/swarm-of-wasps.webp"
 ```
 ^statblock
 

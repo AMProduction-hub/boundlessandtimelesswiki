@@ -20,7 +20,8 @@ classes:
 - Sorcerer
 - Warlock
 - Wizard
-aliases: ["Charm Monster"]
+aliases:
+- Charm Monster
 ---
 # Charm Monster
 *4th-level, Enchantment*  
@@ -31,10 +32,10 @@ aliases: ["Charm Monster"]
 - **Components:** V, S
 - **Duration:** 1 hour
 
-You attempt to charm a creature you can see within range. It must make a Wisdom saving throw, and it does so with advantage if you or your companions are fighting it. If it fails the saving throw, it is [charmed](conditions.md#Charmed) by you until the spell ends or until you or your companions do anything harmful to it. The [charmed](conditions.md#Charmed) creature is friendly to you. When the spell ends, the creature knows it was [charmed](conditions.md#Charmed) by you.
+You attempt to charm a creature you can see within range. It must make a Wisdom saving throw, and it does so with advantage if you or your companions are fighting it. If it fails the saving throw, it is [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed) by you until the spell ends or until you or your companions do anything harmful to it. The [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed) creature is friendly to you. When the spell ends, the creature knows it was [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed) by you.
 
 **At Higher Levels.** When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for each slot level above 4th. The creatures must be within 30 feet of each other when you target them.
 
-**Classes**: [Druid](list-spells-classes-druid.md); [Rogue (Arcane Trickster)](list-spells-classes-rogue-arcane-trickster.md); [Bard](list-spells-classes-bard.md); [Wizard](list-spells-classes-wizard.md); [Fighter (Eldritch Knight)](list-spells-classes-fighter-eldritch-knight.md); [Sorcerer](list-spells-classes-sorcerer.md); [Warlock](list-spells-classes-warlock.md)
+**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md)
 
 *Source: Xanathar's Guide to Everything p. 151*

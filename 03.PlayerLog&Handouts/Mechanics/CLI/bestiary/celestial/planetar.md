@@ -7,10 +7,12 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/celestial
 statblock: inline
-aliases: ["Planetar"]
+statblock-link: "#^statblock"
+aliases:
+- Planetar
 ---
-# [Planetar](03 - Player Log & Handouts\Mechanics\CLI\bestiary\celestial/planetar.md)
-*Source: Monster Manual p. 17, Baldur's Gate: Descent Into Avernus, Sigil and the Outlands. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Planetar](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\celestial/planetar.md)
+*Source: Monster Manual p. 17, Baldur's Gate: Descent Into Avernus, Journeys through the Radiant Citadel. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 An angel is a celestial agent sent forth into the planes to further its god's agenda for weal or woe. Its sublime beauty and presence can drive awestruck onlookers to their knees. Yet angels are destroyers too, and their appearance portends doom as often as it signals hope.
 
@@ -45,63 +47,65 @@ Planetars are muscular and hairless and have opalescent green skin and white-fea
 "ac_class": "natural armor"
 "hp": !!int "200"
 "hit_dice": "16d10 + 112"
+"modifier": !!int "5"
 "stats":
-- !!int "24"
-- !!int "20"
-- !!int "24"
-- !!int "19"
-- !!int "22"
-- !!int "25"
+  - !!int "24"
+  - !!int "20"
+  - !!int "24"
+  - !!int "19"
+  - !!int "22"
+  - !!int "25"
 "speed": "40 ft., fly 120 ft."
 "saves":
-  "Charisma": !!int "12"
-  "Wisdom": !!int "11"
-  "Constitution": !!int "12"
+  - "constitution": "+12"
+  - "wisdom": "+11"
+  - "charisma": "+12"
 "skillsaves":
-  "Perception": !!int "11"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+11"
 "damage_resistances": "radiant; bludgeoning, piercing, slashing from nonmagical attacks"
-"condition_immunities": "[charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
-  \ [exhaustion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
-  \ [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
+"condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
+  \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
+  \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
 "senses": "truesight 120 ft., passive Perception 21"
 "languages": "all, telepathy 120 ft."
 "cr": "16"
 "traits":
-- "desc": "The planetar's spellcasting ability is Charisma (spell save DC 20). The\
-    \ planetar can innately cast the following spells, requiring no material components:\n\
-    \nAt will: [detect evil and good](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/detect-evil-and-good.md),\
-    \ [invisibility](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/invisibility.md)\
-    \ (self only)\n\n1/day each: [commune](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/commune.md),\
-    \ [control weather](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/control-weather.md),\
-    \ [insect plague](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/insect-plague.md)\n\
-    \n3/day each: [blade barrier](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/blade-barrier.md),\
-    \ [dispel evil and good](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/dispel-evil-and-good.md),\
-    \ [flame strike](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/flame-strike.md),\
-    \ [raise dead](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/raise-dead.md)"
-  "name": "Innate Spellcasting"
-- "desc": "The planetar's weapon attacks are magical. When the planetar hits with\
-    \ any weapon, the weapon deals an extra 5d8 radiant damage (included in the\
-    \ attack)."
-  "name": "Angelic Weapons"
-- "desc": "The planetar knows if it hears a lie."
-  "name": "Divine Awareness"
-- "desc": "The planetar has advantage on saving throws against spells and other magical\
-    \ effects."
-  "name": "Magic Resistance"
+  - "desc": "The planetar's spellcasting ability is Charisma (spell save DC 20). The\
+      \ planetar can innately cast the following spells, requiring no material components:\n\
+      \nAt will: [detect evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-evil-and-good.md),\
+      \ [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md)\
+      \ (self only)\n\n3/day each: [blade barrier](03.PlayerLog&Handouts/Mechanics/CLI/spells/blade-barrier.md),\
+      \ [dispel evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-evil-and-good.md),\
+      \ [flame strike](03.PlayerLog&Handouts/Mechanics/CLI/spells/flame-strike.md),\
+      \ [raise dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/raise-dead.md)\n\n\
+      1/day each: [commune](03.PlayerLog&Handouts/Mechanics/CLI/spells/commune.md),\
+      \ [control weather](03.PlayerLog&Handouts/Mechanics/CLI/spells/control-weather.md),\
+      \ [insect plague](03.PlayerLog&Handouts/Mechanics/CLI/spells/insect-plague.md)"
+    "name": "Innate Spellcasting"
+  - "desc": "The planetar's weapon attacks are magical. When the planetar hits with\
+      \ any weapon, the weapon deals an extra 5d8 radiant damage (included in the\
+      \ attack)."
+    "name": "Angelic Weapons"
+  - "desc": "The planetar knows if it hears a lie."
+    "name": "Divine Awareness"
+  - "desc": "The planetar has advantage on saving throws against spells and other\
+      \ magical effects."
+    "name": "Magic Resistance"
 "actions":
-- "desc": "The planetar makes two melee attacks."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 21\
-    \ (4d6 + 7) slashing damage plus 22 (5d8) radiant damage."
-  "name": "Greatsword"
-- "desc": "The planetar touches another creature. The target magically regains 30\
-    \ (6d8 + 3) hit points and is freed from any curse, disease, poison, blindness,\
-    \ or deafness."
-  "name": "Healing Touch (4/Day)"
+  - "desc": "The planetar makes two melee attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit:\
+      \ 21 (4d6 + 7) slashing damage plus 22 (5d8) radiant damage."
+    "name": "Greatsword"
+  - "desc": "The planetar touches another creature. The target magically regains 30\
+      \ (6d8 + 3) hit points and is freed from any curse, disease, poison, blindness,\
+      \ or deafness."
+    "name": "Healing Touch (4/Day)"
 "source":
-- "MM"
-- "BGDIA"
-- "SatO"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/celestial/token/planetar.webp"
+  - "MM"
+  - "BGDIA"
+  - "JttRC"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/token/planetar.webp"
 ```
 ^statblock

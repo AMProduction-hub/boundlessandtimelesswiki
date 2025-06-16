@@ -11,10 +11,12 @@ tags:
 - ttrpg-cli/monster/size/tiny
 - ttrpg-cli/monster/type/beast
 statblock: inline
-aliases: ["Cat"]
+statblock-link: "#^statblock"
+aliases:
+- Cat
 ---
-# [Cat](03 - Player Log & Handouts\Mechanics\CLI\bestiary\beast/cat.md)
-*Source: Monster Manual p. 320, Tasha's Cauldron of Everything. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Cat](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/cat.md)
+*Source: Monster Manual p. 320, Curse of Strahd, Storm King's Thunder, Tomb of Annihilation, Waterdeep: Dragon Heist, Infernal Machine Rebuild, Icewind Dale: Rime of the Frostmaiden, Tasha's Cauldron of Everything, Candlekeep Mysteries, Journeys through the Radiant Citadel. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 ```statblock
 "name": "Cat"
@@ -24,32 +26,43 @@ aliases: ["Cat"]
 "ac": !!int "12"
 "hp": !!int "2"
 "hit_dice": "1d4"
+"modifier": !!int "2"
 "stats":
-- !!int "3"
-- !!int "15"
-- !!int "10"
-- !!int "3"
-- !!int "12"
-- !!int "7"
+  - !!int "3"
+  - !!int "15"
+  - !!int "10"
+  - !!int "3"
+  - !!int "12"
+  - !!int "7"
 "speed": "40 ft., climb 30 ft."
 "skillsaves":
-  "Stealth": !!int "4"
-  "Perception": !!int "3"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+3"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+4"
 "senses": "passive Perception 13"
 "languages": ""
 "cr": "0"
 "traits":
-- "desc": "The cat has advantage on Wisdom ([Perception](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/skills.md#Perception))\
-    \ checks that rely on smell."
-  "name": "Keen Smell"
+  - "desc": "The cat has advantage on Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception))\
+      \ checks that rely on smell."
+    "name": "Keen Smell"
 "actions":
-- "desc": "Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 slashing\
-    \ damage."
-  "name": "Claws"
+  - "desc": "Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1\
+      \ slashing damage."
+    "name": "Claws"
 "source":
-- "MM"
-- "TCE"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/beast/token/cat.webp"
+  - "MM"
+  - "CoS"
+  - "SKT"
+  - "ToA"
+  - "WDH"
+  - "IMR"
+  - "IDRotF"
+  - "TCE"
+  - "CM"
+  - "JttRC"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/cat.webp"
 ```
 ^statblock
 

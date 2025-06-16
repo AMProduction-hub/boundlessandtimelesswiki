@@ -7,9 +7,11 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/celestial
 statblock: inline
-aliases: ["Mercane"]
+statblock-link: "#^statblock"
+aliases:
+- Mercane
 ---
-# [Mercane](03 - Player Log & Handouts\Mechanics\CLI\bestiary\celestial/mercane-bam.md)
+# [Mercane](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\celestial/mercane-bam.md)
 *Source: Boo's Astral Menagerie p. 37, Light of Xaryxis*  
 
 Mercanes are the mysterious, magical creations of one or more deities whose portfolios revolve around fair commerce. Standing 12 feet tall, they are lanky blue beings who dress in elegant robes and have elongated heads and long, spindly fingers.
@@ -24,52 +26,56 @@ Mercanes will conduct business with anyone, fairly and reliably, provided the ot
 "type": "celestial"
 "alignment": "typically  Lawful Neutral"
 "ac": !!int "13"
-"ac_class": "[mage armor](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/mage-armor.md)"
+"ac_class": "[mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md)"
 "hp": !!int "75"
 "hit_dice": "10d10 + 20"
+"modifier": !!int "0"
 "stats":
-- !!int "16"
-- !!int "10"
-- !!int "15"
-- !!int "18"
-- !!int "16"
-- !!int "15"
+  - !!int "16"
+  - !!int "10"
+  - !!int "15"
+  - !!int "18"
+  - !!int "16"
+  - !!int "15"
 "speed": "30 ft."
 "saves":
-  "Charisma": !!int "5"
-  "Wisdom": !!int "6"
-  "Intelligence": !!int "7"
+  - "intelligence": "+7"
+  - "wisdom": "+6"
+  - "charisma": "+5"
 "skillsaves":
-  "Insight": !!int "9"
-  "Perception": !!int "6"
-  "Persuasion": !!int "5"
+  - "name": "[Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight)"
+    "desc": "+9"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+6"
+  - "name": "[Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion)"
+    "desc": "+5"
 "senses": "passive Perception 16"
 "languages": "Common, Giant, telepathy 60 ft. (see also Mercane telepathy)"
 "cr": "5"
 "traits":
-- "desc": "The mercane casts one of the following spells, requiring no spell components\
-    \ and using Intelligence as the spellcasting ability (spell save DC 15):\n\nAt\
-    \ will: [detect magic](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/detect-magic.md),\
-    \ [light](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/light.md)\n\
-    \n1/day each: [dimension door](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/dimension-door.md),\
-    \ [invisibility](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/invisibility.md),\
-    \ [mage armor](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/mage-armor.md)\
-    \ (self only)"
-  "name": "Spellcasting (Psionics)"
-- "desc": "The mercane can communicate telepathically with any other mercane it knows,\
-    \ regardless of the distance between them."
-  "name": "Mercane Telepathy"
+  - "desc": "The mercane can communicate telepathically with any other mercane it\
+      \ knows, regardless of the distance between them."
+    "name": "Mercane Telepathy"
 "actions":
-- "desc": "The mercane makes three Psi-Imbued Blade attacks."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10\
-    \ (2d6 + 3) slashing damage, and if the target is a creature, it must succeed\
-    \ on a DC 15 Wisdom saving throw or be [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened)\
-    \ of the mercane until the end of the target's next turn."
-  "name": "Psi-Imbued Blade"
+  - "desc": "The mercane makes three Psi-Imbued Blade attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10\
+      \ (2d6 + 3) slashing damage, and if the target is a creature, it must succeed\
+      \ on a DC 15 Wisdom saving throw or be [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)\
+      \ of the mercane until the end of the target's next turn."
+    "name": "Psi-Imbued Blade"
+  - "desc": "The mercane casts one of the following spells, requiring no spell components\
+      \ and using Intelligence as the spellcasting ability (spell save DC 15):\n\n\
+      At will: [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      \ [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md)\n\n1/day each:\
+      \ [dimension door](03.PlayerLog&Handouts/Mechanics/CLI/spells/dimension-door.md),\
+      \ [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md),\
+      \ [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md) (self\
+      \ only)"
+    "name": "Spellcasting (Psionics)"
 "source":
-- "BAM"
-- "LoX"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/celestial/token/mercane-bam.webp"
+  - "BAM"
+  - "LoX"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/token/mercane-bam.webp"
 ```
 ^statblock

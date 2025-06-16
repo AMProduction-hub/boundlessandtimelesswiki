@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
-aliases: ["Beholder Names"]
+aliases:
+- Beholder Names
 ---
 # Beholder Names
 *Source: Volo's Guide to Monsters p. 9* 

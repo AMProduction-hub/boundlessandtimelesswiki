@@ -7,10 +7,12 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/fiend/demon
 statblock: inline
-aliases: ["Chasme"]
+statblock-link: "#^statblock"
+aliases:
+- Chasme
 ---
-# [Chasme](03 - Player Log & Handouts\Mechanics\CLI\bestiary\fiend/chasme.md)
-*Source: Monster Manual p. 57, Baldur's Gate: Descent Into Avernus*  
+# [Chasme](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/chasme.md)
+*Source: Monster Manual p. 57, Waterdeep: Dungeon of the Mad Mage, Baldur's Gate: Descent Into Avernus, Keys from the Golden Vault*  
 
 This loathsome demon resembles an unspeakable crossing of humanoid and fly. A chasme shuffles about on four spindly legs that can find purchase on walls and ceilings. A droning sound precedes the approach of a chasme, inflicting foes with a terrible lethargy that leaves them open to attack.
 
@@ -156,7 +158,7 @@ Demonologists organize the chaotic distribution of demons into broad categories 
 
 > [!note] Demon True Names
 > 
-> Though demons all have common names, every demon lord and every demon of type 1 through 6 has a true name that it keeps secret. A demon can be forced to disclose its true name if [charmed](conditions.md#Charmed), and ancient scrolls and tomes are said to exist that list the true names of the most powerful demons.
+> Though demons all have common names, every demon lord and every demon of type 1 through 6 has a true name that it keeps secret. A demon can be forced to disclose its true name if [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), and ancient scrolls and tomes are said to exist that list the true names of the most powerful demons.
 > 
 > A mortal who learns a demon's true name can use powerful summoning magic to call the demon from the Abyss and exercise some measure of control over it. However, most demons brought to the Material Plane in this manner do everything in their power to wreak havoc or sow discord and strife.
 ^demon-true-names
@@ -165,13 +167,13 @@ Demonologists organize the chaotic distribution of demons into broad categories 
 > 
 > Some demons can have an action option that allows them to summon other demons. Summon Demon (1/Day). The demon chooses what to summon and attempts a magical summoning.
 > 
-> - A balor has a 50 percent chance of summoning `1d8` vrocks, `1d6` hezrous, `1d4` glabrezus, `1d3` nalfeshnees, `1d2` mariliths, or one goristro.  
+> - A balor has a 50 percent chance of summoning `d8` vrocks, `d6` hezrous, `d4` glabrezus, `d3` nalfeshnees, `d2` mariliths, or one goristro.  
 > - A barlgura has a 30 percent chance of summoning one barlgura.  
 > - A chasme has a 30 percent chance of summoning one chasme.  
-> - A glabrezu has a 30 percent chance of summoning `1d3` vrocks, `1d2` hezrous, or one glabrezu.  
+> - A glabrezu has a 30 percent chance of summoning `d3` vrocks, `d2` hezrous, or one glabrezu.  
 > - A hezrou has a 30 percent chance of summoning `2d6` dretches or one hezrou.  
-> - A marilith has a 50 percent chance of summoning `1d6` vrocks, `1d4` hezrous, `1d3` glabrezus, `1d2` nalfeshnees, or one marilith.  
-> - A nalfeshnee has a 50 percent chance of summoning `1d4` vrocks, `1d3` hezrous, `1d2` glabrezus, or one nalfeshnee.  
+> - A marilith has a 50 percent chance of summoning `d6` vrocks, `d4` hezrous, `d3` glabrezus, `d2` nalfeshnees, or one marilith.  
+> - A nalfeshnee has a 50 percent chance of summoning `d4` vrocks, `d3` hezrous, `d2` glabrezus, or one nalfeshnee.  
 > - A vrock has a 30 percent chance of summoning `2d4` dretches or one vrock.  
 > - A yochlol has a 50 percent chance of summoning one yochlol.  
 > 
@@ -193,52 +195,56 @@ Demonologists organize the chaotic distribution of demons into broad categories 
 "ac_class": "natural armor"
 "hp": !!int "84"
 "hit_dice": "13d10 + 13"
+"modifier": !!int "2"
 "stats":
-- !!int "15"
-- !!int "15"
-- !!int "12"
-- !!int "11"
-- !!int "14"
-- !!int "10"
+  - !!int "15"
+  - !!int "15"
+  - !!int "12"
+  - !!int "11"
+  - !!int "14"
+  - !!int "10"
 "speed": "20 ft., fly 60 ft."
 "saves":
-  "Dexterity": !!int "5"
-  "Wisdom": !!int "5"
+  - "dexterity": "+5"
+  - "wisdom": "+5"
 "skillsaves":
-  "Perception": !!int "5"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+5"
 "damage_resistances": "cold, fire, lightning"
 "damage_immunities": "poison"
-"condition_immunities": "[poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "blindsight 10 ft., darkvision 120 ft., passive Perception 15"
 "languages": "Abyssal, telepathy 120 ft."
 "cr": "6"
 "traits":
-- "desc": "The chasme produces a horrid droning sound to which demons are immune.\
-    \ Any other creature that starts its turn with in 30 feet of the chasme must succeed\
-    \ on a DC 12 Constitution saving throw or fall [unconscious](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)\
-    \ for 10 minutes. A creature that can't hear the drone automatically succeeds\
-    \ on the save. The effect on the creature ends if it takes damage or if another\
-    \ creature takes an action to splash it with holy water. If a creature's saving\
-    \ throw is successful or the effect ends for it, it is immune to the drone for\
-    \ the next 24 hours."
-  "name": "Drone"
-- "desc": "The chasme has advantage on saving throws against spells and other magical\
-    \ effects."
-  "name": "Magic Resistance"
-- "desc": "The chasme can climb difficult surfaces, including upside down on ceilings,\
-    \ without needing to make an ability check."
-  "name": "Spider Climb"
+  - "desc": "The chasme produces a horrid droning sound to which demons are immune.\
+      \ Any other creature that starts its turn with in 30 feet of the chasme must\
+      \ succeed on a DC 12 Constitution saving throw or fall [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)\
+      \ for 10 minutes. A creature that can't hear the drone automatically succeeds\
+      \ on the save. The effect on the creature ends if it takes damage or if another\
+      \ creature takes an action to splash it with holy water. If a creature's saving\
+      \ throw is successful or the effect ends for it, it is immune to the drone for\
+      \ the next 24 hours."
+    "name": "Drone"
+  - "desc": "The chasme has advantage on saving throws against spells and other magical\
+      \ effects."
+    "name": "Magic Resistance"
+  - "desc": "The chasme can climb difficult surfaces, including upside down on ceilings,\
+      \ without needing to make an ability check."
+    "name": "Spider Climb"
 "actions":
-- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 16\
-    \ (4d6 + 2) piercing damage plus 24 (7d6) necrotic damage, and the target's\
-    \ hit point maximum is reduced by an amount equal to the necrotic damage taken.\
-    \ If this effect reduces a creature's hit point maximum to 0, the creature dies.\
-    \ This reduction to a creature's hit point maximum lasts until the creature finishes\
-    \ a long rest or until it is affected by a spell like  [greater restoration](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/greater-restoration.md)."
-  "name": "Proboscis"
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit:\
+      \ 16 (4d6 + 2) piercing damage plus 24 (7d6) necrotic damage, and the target's\
+      \ hit point maximum is reduced by an amount equal to the necrotic damage taken.\
+      \ If this effect reduces a creature's hit point maximum to 0, the creature dies.\
+      \ This reduction to a creature's hit point maximum lasts until the creature\
+      \ finishes a long rest or until it is affected by a spell like  [greater restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-restoration.md)."
+    "name": "Proboscis"
 "source":
-- "MM"
-- "BGDIA"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/fiend/token/chasme.webp"
+  - "MM"
+  - "WDMM"
+  - "BGDIA"
+  - "KftGV"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/token/chasme.webp"
 ```
 ^statblock

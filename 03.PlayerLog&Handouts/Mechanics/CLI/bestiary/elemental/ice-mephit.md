@@ -8,10 +8,12 @@ tags:
 - ttrpg-cli/monster/size/small
 - ttrpg-cli/monster/type/elemental
 statblock: inline
-aliases: ["Ice Mephit"]
+statblock-link: "#^statblock"
+aliases:
+- Ice Mephit
 ---
-# [Ice Mephit](03 - Player Log & Handouts\Mechanics\CLI\bestiary\elemental/ice-mephit.md)
-*Source: Monster Manual p. 215. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Ice Mephit](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\elemental/ice-mephit.md)
+*Source: Monster Manual p. 215, Princes of the Apocalypse, Storm King's Thunder, Tales from the Yawning Portal, Explorer's Guide to Wildemount, Icewind Dale: Rime of the Frostmaiden, Candlekeep Mysteries, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 ## Mephits
 
@@ -35,46 +37,55 @@ Comprising frigid air and water, ice mephits are aloof and cold, surpassing all 
 "ac": !!int "11"
 "hp": !!int "21"
 "hit_dice": "6d6"
+"modifier": !!int "1"
 "stats":
-- !!int "7"
-- !!int "13"
-- !!int "10"
-- !!int "9"
-- !!int "11"
-- !!int "12"
+  - !!int "7"
+  - !!int "13"
+  - !!int "10"
+  - !!int "9"
+  - !!int "11"
+  - !!int "12"
 "speed": "30 ft., fly 30 ft."
 "skillsaves":
-  "Stealth": !!int "3"
-  "Perception": !!int "2"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+2"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+3"
 "damage_vulnerabilities": "bludgeoning, fire"
 "damage_immunities": "cold, poison"
-"condition_immunities": "[poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "darkvision 60 ft., passive Perception 12"
 "languages": "Aquan, Auran"
 "cr": "1/2"
 "traits":
-- "desc": "The mephit can innately cast [fog cloud](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/fog-cloud.md),\
-    \ requiring no material components. Its innate spellcasting ability is Charisma.\n\
-    \nAt will: [fog cloud](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/fog-cloud.md)"
-  "name": "Innate Spellcasting (1/Day)"
-- "desc": "When the mephit dies, it explodes in a burst of jagged ice. Each creature\
-    \ within 5 feet of it must make a DC 10 Dexterity saving throw, taking 4 (1d8)\
-    \ slashing damage on a failed save, or half as much damage on a successful one."
-  "name": "Death Burst"
-- "desc": "While the mephit remains motionless, it is indistinguishable from an ordinary\
-    \ shard of ice."
-  "name": "False Appearance"
+  - "desc": "The mephit can innately cast [fog cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/fog-cloud.md),\
+      \ requiring no material components. Its innate spellcasting ability is Charisma.\n"
+    "name": "Innate Spellcasting (1/Day)"
+  - "desc": "When the mephit dies, it explodes in a burst of jagged ice. Each creature\
+      \ within 5 feet of it must make a DC 10 Dexterity saving throw, taking 4 (d8)\
+      \ slashing damage on a failed save, or half as much damage on a successful one."
+    "name": "Death Burst"
+  - "desc": "While the mephit remains motionless, it is indistinguishable from an\
+      \ ordinary shard of ice."
+    "name": "False Appearance"
 "actions":
-- "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 3\
-    \ (1d4 + 1) slashing damage plus 2 (1d4) cold damage."
-  "name": "Claws"
-- "desc": "The mephit exhales a 15-foot cone of cold air. Each creature in that area\
-    \ must succeed on a DC 10 Dexterity saving throw, taking 5 (2d4) cold damage\
-    \ on a failed save, or half as much damage on a successful one."
-  "name": "Frost Breath (Recharge 6)"
+  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit:\
+      \ 3 (1d4 + 1) slashing damage plus 2 (d4) cold damage."
+    "name": "Claws"
+  - "desc": "The mephit exhales a 15-foot cone of cold air. Each creature in that\
+      \ area must succeed on a DC 10 Dexterity saving throw, taking 5 (2d4) cold\
+      \ damage on a failed save, or half as much damage on a successful one."
+    "name": "Frost Breath (Recharge 6)"
 "source":
-- "MM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/elemental/token/ice-mephit.webp"
+  - "MM"
+  - "PotA"
+  - "SKT"
+  - "TftYP"
+  - "EGW"
+  - "IDRotF"
+  - "CM"
+  - "KftGV"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/token/ice-mephit.webp"
 ```
 ^statblock
 

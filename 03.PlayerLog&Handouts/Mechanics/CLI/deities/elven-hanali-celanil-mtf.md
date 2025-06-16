@@ -5,7 +5,8 @@ tags:
 - ttrpg-cli/compendium/src/5e/mtf
 - ttrpg-cli/deity/elven
 - ttrpg-cli/domain/life
-aliases: ["Hanali Celanil"]
+aliases: 
+- Hanali Celanil
 ---
 # Hanali Celanil
 *Source: Mordenkainen's Tome of Foes p. 45* 
@@ -25,7 +26,7 @@ Priests of Hanali perform weddings between elves and preside over most other fam
 
 ## Pools of Beauty
 
- Those who worship Hanali Celanil build shrines in her honor around natural pools of clear spring water-a representation of the purity and power of Evergold. Her priests often surround such an area with flowers or arrange stones in a way that accentuates the natural beauty of the place. In a shrine dedicated to the worship of several elven deities, an alabaster bowl of water, usually with yellow flowers or petals floating in it, is left in reverence to Hanali.
+Those who worship Hanali Celanil build shrines in her honor around natural pools of clear spring water-a representation of the purity and power of Evergold. Her priests often surround such an area with flowers or arrange stones in a way that accentuates the natural beauty of the place. In a shrine dedicated to the worship of several elven deities, an alabaster bowl of water, usually with yellow flowers or petals floating in it, is left in reverence to Hanali.
 
 Hanali's pool is a symbol of rejuvenation, and its water has significance as well in representing the ever-flowing force of love. To Hanali's followers, love is a living thing that flows like a river, moving around obstacles with ease, and, if it must, carving a path through bedrock to reach the sea of unity where all love gathers to become one with the cosmos. As one would navigate a river, the faithful of Hanali are known for following their hearts, unwilling to deviate from the pursuit of ultimate beauty.
 

@@ -12,15 +12,15 @@ aliases:
 ---
 # Staff of Withering
 *Staff, weapon, major, rare (requires attunement by a cleric, druid, or warlock)*  
-![](staff-of-withering.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/staff-of-withering.webp#right)
 
 - **Damage**:
   - One-handed: 1d6 bludgeoning
   - Two-handed: 1d8 bludgeoning
-- **Properties**: [Versatile](item-properties.md#Versatile)
+- **Properties**: [Versatile](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Versatile)
 - **Weight**: 4.0 lbs.
 
-This staff has 3 charges and regains `1d3` expended charges daily at dawn.
+This staff has 3 charges and regains `d3` expended charges daily at dawn.
 
 The staff can be wielded as a magic quarterstaff. On a hit, it deals damage as a normal quarterstaff, and you can expend 1 charge to deal an extra `2d10` necrotic damage to the target. In addition, the target must succeed on a DC 15 Constitution saving throw or have disadvantage for 1 hour on any ability check or saving throw that uses Strength or Constitution.
 

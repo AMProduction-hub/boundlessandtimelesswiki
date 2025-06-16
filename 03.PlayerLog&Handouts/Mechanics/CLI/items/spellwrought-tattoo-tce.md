@@ -15,11 +15,11 @@ aliases:
 
 **Items in this group:**
 
-- [Spellwrought Tattoo (Cantrip)](spellwrought-tattoo-cantrip-tce.md)
-- [Spellwrought Tattoo (1st Level)](spellwrought-tattoo-1st-level-tce.md)
-- [Spellwrought Tattoo (2nd Level)](spellwrought-tattoo-2nd-level-tce.md)
-- [Spellwrought Tattoo (3rd Level)](spellwrought-tattoo-3rd-level-tce.md)
-- [Spellwrought Tattoo (4th Level)](spellwrought-tattoo-4th-level-tce.md)
-- [Spellwrought Tattoo (5th Level)](spellwrought-tattoo-5th-level-tce.md)
+- [Spellwrought Tattoo (Cantrip)](03.PlayerLog&Handouts/Mechanics/CLI/items/spellwrought-tattoo-cantrip-tce.md)
+- [Spellwrought Tattoo (1st Level)](03.PlayerLog&Handouts/Mechanics/CLI/items/spellwrought-tattoo-1st-level-tce.md)
+- [Spellwrought Tattoo (2nd Level)](03.PlayerLog&Handouts/Mechanics/CLI/items/spellwrought-tattoo-2nd-level-tce.md)
+- [Spellwrought Tattoo (3rd Level)](03.PlayerLog&Handouts/Mechanics/CLI/items/spellwrought-tattoo-3rd-level-tce.md)
+- [Spellwrought Tattoo (4th Level)](03.PlayerLog&Handouts/Mechanics/CLI/items/spellwrought-tattoo-4th-level-tce.md)
+- [Spellwrought Tattoo (5th Level)](03.PlayerLog&Handouts/Mechanics/CLI/items/spellwrought-tattoo-5th-level-tce.md)
 
 *Source: Tasha's Cauldron of Everything p. 135*

@@ -5,11 +5,14 @@ tags:
 - ttrpg-cli/compendium/src/5e/scag
 - ttrpg-cli/deity/faerunian
 - ttrpg-cli/domain/trickery
-aliases: ["Mask", "The Lord of Shadows", "The Master of All Thieves"]
+aliases: 
+- Mask
+- The Lord of Shadows
+- The Master of All Thieves
 ---
 # Mask
 *Source: Sword Coast Adventurer's Guide p. 21* 
-![](scag-symbol-of-mask.webp#symbol)
+![](03.PlayerLog&Handouts/Mechanics/CLI/deities/img/scag-symbol-of-mask.webp#symbol)
 
 - **Alternate Names**: The Lord of Shadows, The Master of All Thieves
 - **Alignment**: Chaotic Neutral

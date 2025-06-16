@@ -7,6 +7,7 @@ tags:
 - ttrpg-cli/spell/class/sorcerer
 - ttrpg-cli/spell/class/warlock
 - ttrpg-cli/spell/class/wizard
+- ttrpg-cli/spell/feat/adept-of-the-red-robes
 - ttrpg-cli/spell/level/2nd-level
 - ttrpg-cli/spell/school/illusion
 - ttrpg-cli/spell/subclass/arcane-trickster
@@ -18,11 +19,12 @@ classes:
 - Sorcerer
 - Warlock
 - Wizard
-aliases: ["Shadow Blade"]
+aliases:
+- Shadow Blade
 ---
 # Shadow Blade
 *2nd-level, Illusion*  
-![](shadow-blade.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/spells/img/shadow-blade.webp#right)
 
 - **Casting time:** 1 Bonus Action
 - **Range:** Self
@@ -35,6 +37,6 @@ If you drop the weapon or throw it, it dissipates at the end of the turn. Therea
 
 **At Higher Levels.** When you cast this spell using a 3rd- or 4th-level spell slot, the damage increases to `3d8`. When you cast it using a 5th- or 6th-level spell slot, the damage increases to `4d8`. When you cast it using a spell slot of 7th level or higher, the damage increases to `5d8`.
 
-**Classes**: [Rogue (Arcane Trickster)](list-spells-classes-rogue-arcane-trickster.md); [Bard](list-spells-classes-bard.md); [Wizard](list-spells-classes-wizard.md); [Fighter (Eldritch Knight)](list-spells-classes-fighter-eldritch-knight.md); [Sorcerer](list-spells-classes-sorcerer.md); [Warlock](list-spells-classes-warlock.md)
+**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md)
 
 *Source: Xanathar's Guide to Everything p. 164*

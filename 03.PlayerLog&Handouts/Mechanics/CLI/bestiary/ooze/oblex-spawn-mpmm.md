@@ -10,9 +10,11 @@ tags:
 - ttrpg-cli/monster/size/tiny
 - ttrpg-cli/monster/type/ooze
 statblock: inline
-aliases: ["Oblex Spawn"]
+statblock-link: "#^statblock"
+aliases:
+- Oblex Spawn
 ---
-# [Oblex Spawn](03 - Player Log & Handouts\Mechanics\CLI\bestiary\ooze/oblex-spawn-mpmm.md)
+# [Oblex Spawn](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\ooze/oblex-spawn-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 197, Mordenkainen's Tome of Foes p. 217*  
 
 An oblex devours memories not only to sustain its existence, but also to spawn new oblexes. Each time it fully drains the memories of a victim, it gains the creature's personality—now twisted by the oblex's foul nature. The more memories an oblex steals, the larger it becomes, until it must shed a personality it has absorbed or else go uncontrolled and erratic. This act spawns a new oblex.
@@ -41,41 +43,41 @@ When oblexes feed on thoughts, they can form weird copies of their prey to use a
 "ac": !!int "13"
 "hp": !!int "18"
 "hit_dice": "4d4 + 8"
+"modifier": !!int "3"
 "stats":
-- !!int "8"
-- !!int "16"
-- !!int "15"
-- !!int "14"
-- !!int "11"
-- !!int "10"
+  - !!int "8"
+  - !!int "16"
+  - !!int "15"
+  - !!int "14"
+  - !!int "11"
+  - !!int "10"
 "speed": "20 ft."
 "saves":
-  "Charisma": !!int "2"
-  "Intelligence": !!int "4"
-"condition_immunities": "[blinded](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Blinded),\
-  \ [charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
-  \ [deafened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Deafened),\
-  \ [exhaustion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
-  \ [prone](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Prone)"
+  - "intelligence": "+4"
+  - "charisma": "+2"
+"condition_immunities": "[blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded),\
+  \ [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened),\
+  \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
+  \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)"
 "senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 12"
 "languages": ""
 "cr": "1/4"
 "traits":
-- "desc": "The oblex can move through a space as narrow as 1 inch wide without squeezing."
-  "name": "Amorphous"
-- "desc": "If the oblex takes fire damage, it has disadvantage on attack rolls and\
-    \ ability checks until the end of its next turn."
-  "name": "Aversion to Fire"
-- "desc": "The oblex doesn't require sleep."
-  "name": "Unusual Nature"
+  - "desc": "The oblex can move through a space as narrow as 1 inch wide without squeezing."
+    "name": "Amorphous"
+  - "desc": "If the oblex takes fire damage, it has disadvantage on attack rolls and\
+      \ ability checks until the end of its next turn."
+    "name": "Aversion to Fire"
+  - "desc": "The oblex doesn't require sleep."
+    "name": "Unusual Nature"
 "actions":
-- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4\
-    \ + 3) bludgeoning damage plus 2 (1d4) psychic damage."
-  "name": "Pseudopod"
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5\
+      \ (1d4 + 3) bludgeoning damage plus 2 (d4) psychic damage."
+    "name": "Pseudopod"
 "source":
-- "MPMM"
-- "MTF"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/ooze/token/oblex-spawn-mpmm.webp"
+  - "MPMM"
+  - "MTF"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/ooze/token/oblex-spawn-mpmm.webp"
 ```
 ^statblock
 

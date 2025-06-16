@@ -11,7 +11,7 @@ aliases:
 ---
 # Belt of Dwarvenkind
 *Wondrous item, major, rare (requires attunement)*  
-![](belt-of-dwarvenkind.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/belt-of-dwarvenkind.webp#right)
 
 
 While wearing this belt, you gain the following benefits:
@@ -24,7 +24,7 @@ In addition, while attuned to the belt, you have a 50 percent chance each day at
 If you aren't a dwarf, you gain the following additional benefits while wearing the belt:
 
 - You have advantage on saving throws against poison, and you have resistance against poison damage.  
-- You have [darkvision](senses.md#Darkvision) out to a range of 60 feet.  
+- You have [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision) out to a range of 60 feet.  
 - You can speak, read, and write Dwarvish.  
 
 *Source: Dungeon Master's Guide p. 155. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

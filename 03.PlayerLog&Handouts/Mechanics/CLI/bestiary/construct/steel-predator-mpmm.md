@@ -8,9 +8,11 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/construct
 statblock: inline
-aliases: ["Steel Predator"]
+statblock-link: "#^statblock"
+aliases:
+- Steel Predator
 ---
-# [Steel Predator](03 - Player Log & Handouts\Mechanics\CLI\bestiary\construct/steel-predator-mpmm.md)
+# [Steel Predator](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/steel-predator-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 232, Mordenkainen's Tome of Foes p. 239*  
 
 A steel predator is a merciless machine with one purpose: to locate and kill its target regardless of distance and obstacles.
@@ -32,64 +34,68 @@ If all goes according to plan, a steel predator slays its target and then volunt
 "ac_class": "natural armor"
 "hp": !!int "207"
 "hit_dice": "18d10 + 108"
+"modifier": !!int "3"
 "stats":
-- !!int "24"
-- !!int "17"
-- !!int "22"
-- !!int "4"
-- !!int "14"
-- !!int "6"
+  - !!int "24"
+  - !!int "17"
+  - !!int "22"
+  - !!int "4"
+  - !!int "14"
+  - !!int "6"
 "speed": "40 ft."
 "skillsaves":
-  "Stealth": !!int "8"
-  "Perception": !!int "7"
-  "Survival": !!int "7"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+7"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+8"
+  - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
+    "desc": "+7"
 "damage_resistances": "cold, lightning, necrotic, thunder"
 "damage_immunities": "poison; psychic; bludgeoning, piercing, slashing from nonmagical\
   \ attacks"
-"condition_immunities": "[charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
-  \ [exhaustion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
-  \ [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
-  \ [paralyzed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
-  \ [petrified](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
-  \ [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
-  \ [stunned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Stunned)"
+"condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
+  \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
+  \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
+  \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
+  \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
+  \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
+  \ [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)"
 "senses": "blindsight 30 ft., darkvision 60 ft., passive Perception 17"
 "languages": "understands Modron and the language of its owner but can't speak"
 "cr": "16"
 "traits":
-- "desc": "The steel predator casts one of the following spells, requiring no spell\
-    \ components and using Wisdom as the spellcasting ability:\n\n3/day each:\
-    \ [dimension door](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/dimension-door.md)\
-    \ (self only), [plane shift](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/plane-shift.md)\
-    \ (self only)"
-  "name": "Spellcasting"
-- "desc": "The steel predator has advantage on saving throws against spells and other\
-    \ magical effects."
-  "name": "Magic Resistance"
-- "desc": "The steel predator doesn't require air, food, drink, or sleep."
-  "name": "Unusual Nature"
+  - "desc": "The steel predator has advantage on saving throws against spells and\
+      \ other magical effects."
+    "name": "Magic Resistance"
+  - "desc": "The steel predator doesn't require air, food, drink, or sleep."
+    "name": "Unusual Nature"
 "actions":
-- "desc": "The steel predator makes one Bite attack and two Claw attacks."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 18\
-    \ (2d10 + 7) lightning damage."
-  "name": "Bite"
-- "desc": "Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 16\
-    \ (2d8 + 7) force damage."
-  "name": "Claw"
-- "desc": "The steel predator emits a roar in a 60-foot cone. Each creature in that\
-    \ area must make a DC 19 Constitution saving throw. On a failed save, a creature\
-    \ takes 33 (6d10) thunder damage, drops everything it's holding, and is [stunned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Stunned)\
-    \ for 1 minute. The [stunned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Stunned)\
-    \ creature can repeat the saving throw at the end of each of its turns, ending\
-    \ the effect on itself on a success. On a successful save, a creature takes half\
-    \ as much damage and isn't [stunned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Stunned)."
-  "name": "Stunning Roar (Recharge 5-6)"
+  - "desc": "The steel predator makes one Bite attack and two Claw attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit:\
+      \ 18 (2d10 + 7) lightning damage."
+    "name": "Bite"
+  - "desc": "Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit:\
+      \ 16 (2d8 + 7) force damage."
+    "name": "Claw"
+  - "desc": "The steel predator emits a roar in a 60-foot cone. Each creature in that\
+      \ area must make a DC 19 Constitution saving throw. On a failed save, a creature\
+      \ takes 33 (6d10) thunder damage, drops everything it's holding, and is [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)\
+      \ for 1 minute. The [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)\
+      \ creature can repeat the saving throw at the end of each of its turns, ending\
+      \ the effect on itself on a success. On a successful save, a creature takes\
+      \ half as much damage and isn't [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)."
+    "name": "Stunning Roar (Recharge 5-6)"
+  - "desc": "The steel predator casts one of the following spells, requiring no spell\
+      \ components and using Wisdom as the spellcasting ability:\n\n3/day each:\
+      \ [dimension door](03.PlayerLog&Handouts/Mechanics/CLI/spells/dimension-door.md)\
+      \ (self only), [plane shift](03.PlayerLog&Handouts/Mechanics/CLI/spells/plane-shift.md)\
+      \ (self only)"
+    "name": "Spellcasting"
 "source":
-- "MPMM"
-- "MTF"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/construct/token/steel-predator-mpmm.webp"
+  - "MPMM"
+  - "MTF"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/token/steel-predator-mpmm.webp"
 ```
 ^statblock
 

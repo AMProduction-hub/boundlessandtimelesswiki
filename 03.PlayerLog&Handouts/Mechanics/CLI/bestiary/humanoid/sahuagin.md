@@ -9,10 +9,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/humanoid/sahuagin
 statblock: inline
-aliases: ["Sahuagin"]
+statblock-link: "#^statblock"
+aliases:
+- Sahuagin
 ---
-# [Sahuagin](03 - Player Log & Handouts\Mechanics\CLI\bestiary\humanoid/sahuagin.md)
-*Source: Monster Manual p. 263, Baldur's Gate: Descent Into Avernus, Sigil and the Outlands. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Sahuagin](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/sahuagin.md)
+*Source: Monster Manual p. 263, Tales from the Yawning Portal, Ghosts of Saltmarsh, Dragon of Icespire Peak, Sleeping Dragon's Wake, Baldur's Gate: Descent Into Avernus, Explorer's Guide to Wildemount. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Across fog-shrouded coasts or endless ocean swells, an ominous drone sounded on a conch shell chills the blood of all who hear it. This is the sound of the sahuagin hunting horn-a call to raid and battle. Coastal settlers refer to sahuagin as "sea devils," for sahuagin have no compassion in them, slaughtering the crews of ships and decimating coastal villages.
 
@@ -32,7 +34,7 @@ Sahuagin are driven into a frenzy by the smell of fresh blood. As worshipers of 
 
 The sahuagin might control the oceans if not for the presence of their mortal enemies, the aquatic elves. Wars between the two races have raged for centuries across the coasts and seas of the world, disrupting maritime trade and drawing other races into the bloody conflict.
 
-So intense is sahuagin hatred for the aquatic elves that the sea devils have adapted to combat their ancient foes. A sahuagin born near enough to an aquatic elf community can enter the world as a malenti-a sahuagin that physically resembles an aquatic elf in every way. Sahuagin are prone to mutation, but whether this rare phenomenon is a result of the wars between the sahuagin and the aquatic elves-or whether it preceded or even began the conflict-none can say.
+So intense is sahuagin hatred for the aquatic elves that the sea devils have adapted to combat their ancient foes. A sahuagin born near enough to an aquatic elf community can enter the world as a malenti—a sahuagin that physically resembles an aquatic elf in every way. Sahuagin are prone to mutation, but whether this rare phenomenon is a result of the wars between the sahuagin and the aquatic elves-or whether it preceded or even began the conflict-none can say.
 
 The sahuagin put the malenti to good use as spies and assassins in aquatic elf cities and the societies of other creatures that pose a threat to sahuagin. The mere shadow of the malenti threat incites paranoia and suspicion among aquatic elves, whose resilience is weakened as the prelude to an actual sahuagin invasion.
 
@@ -51,48 +53,54 @@ The sahuagin put the malenti to good use as spies and assassins in aquatic elf c
 "ac_class": "natural armor"
 "hp": !!int "22"
 "hit_dice": "4d8 + 4"
+"modifier": !!int "0"
 "stats":
-- !!int "13"
-- !!int "11"
-- !!int "12"
-- !!int "12"
-- !!int "13"
-- !!int "9"
+  - !!int "13"
+  - !!int "11"
+  - !!int "12"
+  - !!int "12"
+  - !!int "13"
+  - !!int "9"
 "speed": "30 ft., swim 40 ft."
 "skillsaves":
-  "Perception": !!int "5"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+5"
 "senses": "darkvision 120 ft., passive Perception 15"
 "languages": "Sahuagin"
 "cr": "1/2"
 "traits":
-- "desc": "The sahuagin has advantage on melee attack rolls against any creature that\
-    \ doesn't have all its hit points."
-  "name": "Blood Frenzy"
-- "desc": "The sahuagin can breathe air and water, but it needs to be submerged at\
-    \ least once every 4 hours to avoid suffocating."
-  "name": "Limited Amphibiousness"
-- "desc": "The sahuagin can magically command any shark within 120 feet of it, using\
-    \ a limited telepathy."
-  "name": "Shark Telepathy"
+  - "desc": "The sahuagin has advantage on melee attack rolls against any creature\
+      \ that doesn't have all its hit points."
+    "name": "Blood Frenzy"
+  - "desc": "The sahuagin can breathe air and water, but it needs to be submerged\
+      \ at least once every 4 hours to avoid suffocating."
+    "name": "Limited Amphibiousness"
+  - "desc": "The sahuagin can magically command any shark within 120 feet of it, using\
+      \ a limited telepathy."
+    "name": "Shark Telepathy"
 "actions":
-- "desc": "The sahuagin makes two melee attacks: one with its bite and one with its\
-    \ claws or spear."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4\
-    \ + 1) piercing damage."
-  "name": "Bite"
-- "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4\
-    \ + 1) slashing damage."
-  "name": "Claws"
-- "desc": "Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60\
-    \ ft., one target. Hit: 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing\
-    \ damage if used with two hands to make a melee attack."
-  "name": "Spear"
+  - "desc": "The sahuagin makes two melee attacks: one with its bite and one with\
+      \ its claws or spear."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3\
+      \ (1d4 + 1) piercing damage."
+    "name": "Bite"
+  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3\
+      \ (1d4 + 1) slashing damage."
+    "name": "Claws"
+  - "desc": "Melee  or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. Hit: 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing\
+      \ damage if used with two hands to make a melee attack."
+    "name": "Spear"
 "source":
-- "MM"
-- "BGDIA"
-- "SatO"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/humanoid/token/sahuagin.webp"
+  - "MM"
+  - "TftYP"
+  - "GoS"
+  - "DIP"
+  - "SDW"
+  - "BGDIA"
+  - "EGW"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/sahuagin.webp"
 ```
 ^statblock
 

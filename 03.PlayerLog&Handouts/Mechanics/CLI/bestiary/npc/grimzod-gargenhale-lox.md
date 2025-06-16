@@ -7,9 +7,11 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/undead
 statblock: inline
-aliases: ["Grimzod Gargenhale"]
+statblock-link: "#^statblock"
+aliases:
+- Grimzod Gargenhale
 ---
-# [Grimzod Gargenhale](03 - Player Log & Handouts\Mechanics\CLI\bestiary\npc/grimzod-gargenhale-lox.md)
+# [Grimzod Gargenhale](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/grimzod-gargenhale-lox.md)
 *Source: Light of Xaryxis p. 32*  
 
 ```statblock
@@ -21,58 +23,59 @@ aliases: ["Grimzod Gargenhale"]
 "ac_class": "natural armor"
 "hp": !!int "85"
 "hit_dice": "10d8 + 40"
+"modifier": !!int "3"
 "stats":
-- !!int "15"
-- !!int "16"
-- !!int "18"
-- !!int "12"
-- !!int "13"
-- !!int "16"
+  - !!int "15"
+  - !!int "16"
+  - !!int "18"
+  - !!int "12"
+  - !!int "13"
+  - !!int "16"
 "speed": "30 ft."
 "saves":
-  "Charisma": !!int "6"
-  "Wisdom": !!int "4"
-  "Constitution": !!int "7"
+  - "constitution": "+7"
+  - "wisdom": "+4"
+  - "charisma": "+6"
 "damage_vulnerabilities": "radiant"
 "damage_immunities": "cold, necrotic, poison"
-"condition_immunities": "[charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
-  \ [exhaustion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
-  \ [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
+  \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
+  \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "darkvision 120 ft., passive Perception 11"
 "languages": "the languages it knew in life"
 "cr": "6"
 "traits":
-- "desc": "When Grimzod is reduced to 0 hit points, it explodes in a cloud of ash.\
-    \ Any creature within 5 feet of it must succeed on a DC 15 Constitution saving\
-    \ throw or take 16 (3d10) necrotic damage."
-  "name": "Explode"
-- "desc": "Grimzod can climb difficult surfaces, including upside down on ceilings,\
-    \ without needing to make an ability check."
-  "name": "Spider Climb"
-- "desc": "Grimzod doesn't require air or drink."
-  "name": "Unusual Nature"
+  - "desc": "When Grimzod is reduced to 0 hit points, it explodes in a cloud of ash.\
+      \ Any creature within 5 feet of it must succeed on a DC 15 Constitution saving\
+      \ throw or take 16 (3d10) necrotic damage."
+    "name": "Explode"
+  - "desc": "Grimzod can climb difficult surfaces, including upside down on ceilings,\
+      \ without needing to make an ability check."
+    "name": "Spider Climb"
+  - "desc": "Grimzod doesn't require air or drink."
+    "name": "Unusual Nature"
 "actions":
-- "desc": "Melee or Ranged Spell Attack: +6 to hit, reach 5 ft. or range 30 ft.,\
-    \ one creature. Hit: 22 (4d10) necrotic damage. A Humanoid reduced to 0 hit\
-    \ points by this attack dies and instantly transforms into a free-willed shadow\
-    \ or vampirate (captain's choice) under the DM's control."
-  "name": "Energy Drain"
-- "desc": "Ranged Weapon Attack: +6 to hit, range 100/400 ft., one target. Hit:\
-    \ 19 (3d10 + 3) piercing damage."
-  "name": "Heavy Crossbow"
-- "desc": "A ship upon which Grimzod stands, along with all creatures and objects\
-    \ aboard it, becomes [invisible](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Invisible)\
-    \ to creatures not aboard the ship. Grimzod must concentrate on this magical effect\
-    \ to maintain it (as if [concentrating](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Concentration)\
-    \ on a spell), and it lasts for up to 1 hour. The effect ends if Grimzod leaves\
-    \ the ship."
-  "name": "Ship Invisibility (Recharges after a Short or Long Rest)"
+  - "desc": "Melee  or Ranged Spell Attack: +6 to hit, reach 5 ft. or range 30\
+      \ ft., one creature. Hit: 22 (4d10) necrotic damage. A Humanoid reduced\
+      \ to 0 hit points by this attack dies and instantly transforms into a free-willed\
+      \ shadow or vampirate (captain's choice) under the DM's control."
+    "name": "Energy Drain"
+  - "desc": "Ranged Weapon Attack: +6 to hit, range 100/400 ft., one target. Hit:\
+      \ 19 (3d10 + 3) piercing damage."
+    "name": "Heavy Crossbow"
+  - "desc": "A ship upon which Grimzod stands, along with all creatures and objects\
+      \ aboard it, becomes [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible)\
+      \ to creatures not aboard the ship. Grimzod must concentrate on this magical\
+      \ effect to maintain it (as if [concentrating](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Concentration)\
+      \ on a spell), and it lasts for up to 1 hour. The effect ends if Grimzod leaves\
+      \ the ship."
+    "name": "Ship Invisibility (Recharges after a Short or Long Rest)"
 "reactions":
-- "desc": "Grimzod halves the damage that it takes from an attack that hits it. Grimzod\
-    \ must be able to see the attacker."
-  "name": "Uncanny Dodge"
+  - "desc": "Grimzod halves the damage that it takes from an attack that hits it.\
+      \ Grimzod must be able to see the attacker."
+    "name": "Uncanny Dodge"
 "source":
-- "LoX"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/npc/token/grimzod-gargenhale-lox.webp"
+  - "LoX"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/token/grimzod-gargenhale-lox.webp"
 ```
 ^statblock

@@ -4,7 +4,8 @@ cssclasses: json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/race/tortle
-aliases: ["Tortle"]
+aliases:
+- Tortle
 ---
 # Tortle
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 34*  
@@ -22,7 +23,7 @@ You are Medium or Small. You choose the size when you select this race.
 
 ### Claws
 
-You have claws that you can use to make unarmed strikes. When you hit with them, the strike deals `1d6` + your Strength modifier slashing damage, instead of the bludgeoning damage normal for an unarmed strike.
+You have claws that you can use to make unarmed strikes. When you hit with them, the strike deals `d6` + your Strength modifier slashing damage, instead of the bludgeoning damage normal for an unarmed strike.
 
 ### Hold Breath
 
@@ -38,7 +39,7 @@ Thanks to your mystical connection to nature, you gain proficiency with one of t
 
 ### Shell Defense
 
-You can withdraw into your shell as an action. Until you emerge, you gain a +4 bonus to your AC, and you have advantage on Strength and Constitution saving throws. While in your shell, you are [prone](conditions.md#Prone), your speed is 0 and can't increase, you have disadvantage on Dexterity saving throws, you can't take reactions, and the only action you can take is a bonus action to emerge from your shell.
+You can withdraw into your shell as an action. Until you emerge, you gain a +4 bonus to your AC, and you have advantage on Strength and Constitution saving throws. While in your shell, you are [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), your speed is 0 and can't increase, you have disadvantage on Dexterity saving throws, you can't take reactions, and the only action you can take is a bonus action to emerge from your shell.
 
 ## Description
 

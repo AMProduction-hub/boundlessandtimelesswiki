@@ -11,12 +11,12 @@ aliases:
 ---
 # Cube of Force
 *Wondrous item, major, rare (requires attunement)*  
-![](cube-of-force.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/cube-of-force.webp#right)
 
 
 This cube is about an inch across. Each face has a distinct marking on it that can be pressed. The cube starts with 36 charges, and it regains `d20` expended charges daily at dawn.
 
-You can use an action to press one of the cube's faces, expending a number of charges based on the chosen face, as shown in the Cube of Force Faces table. Each face has a different effect. If the cube has insufficient charges remaining, nothing happens. Otherwise, a barrier of [invisible](conditions.md#Invisible) force springs into existence, forming a cube 15 feet on a side. The barrier is centered on you, moves with you, and lasts for 1 minute, until you use an action to press the cube's sixth face, or the cube runs out of charges. You can change the barrier's effect by pressing a different face of the cube and expending the requisite number of charges, resetting the duration. If your movement causes the barrier to come into contact with a solid object that can't pass through the cube, you can't move any closer to that object as long as the barrier remains.
+You can use an action to press one of the cube's faces, expending a number of charges based on the chosen face, as shown in the Cube of Force Faces table. Each face has a different effect. If the cube has insufficient charges remaining, nothing happens. Otherwise, a barrier of [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible) force springs into existence, forming a cube 15 feet on a side. The barrier is centered on you, moves with you, and lasts for 1 minute, until you use an action to press the cube's sixth face, or the cube runs out of charges. You can change the barrier's effect by pressing a different face of the cube and expending the requisite number of charges, resetting the duration. If your movement causes the barrier to come into contact with a solid object that can't pass through the cube, you can't move any closer to that object as long as the barrier remains.
 
 **Cube of Force Faces**
 
@@ -34,11 +34,11 @@ The cube loses charges when the barrier is targeted by certain spells or comes i
 
 | Spell or item | Charges Lost |
 |---------------|--------------|
-| [Disintegrate](disintegrate.md) | `1d12` |
-| [Horn of blasting](horn-of-blasting.md) | `1d10` |
-| [Passwall](passwall.md) | `1d6` |
-| [Prismatic spray](prismatic-spray.md) | `d20` |
-| [Wall of fire](wall-of-fire.md) | `1d4` |
+| [Disintegrate](03.PlayerLog&Handouts/Mechanics/CLI/spells/disintegrate.md) | `d12` |
+| [Horn of blasting](03.PlayerLog&Handouts/Mechanics/CLI/items/horn-of-blasting.md) | `d10` |
+| [Passwall](03.PlayerLog&Handouts/Mechanics/CLI/spells/passwall.md) | `d6` |
+| [Prismatic spray](03.PlayerLog&Handouts/Mechanics/CLI/spells/prismatic-spray.md) | `d20` |
+| [Wall of fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-fire.md) | `d4` |
 ^spell-or-item-charges-lost
 
 *Source: Dungeon Master's Guide p. 159. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

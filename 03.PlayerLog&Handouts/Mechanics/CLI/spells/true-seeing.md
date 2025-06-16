@@ -20,7 +20,8 @@ classes:
 - Sorcerer (Divine Soul)
 - Warlock
 - Wizard
-aliases: ["True Seeing"]
+aliases:
+- True Seeing
 ---
 # True Seeing
 *6th-level, Divination*  
@@ -31,8 +32,8 @@ aliases: ["True Seeing"]
 - **Components:** V, S, M (an ointment for the eyes that costs 25 gp; is made from mushroom powder, saffron, and fat; and is consumed by the spell)
 - **Duration:** 1 hour
 
-This spell gives the willing creature you touch the ability to see things as they actually are. For the duration, the creature has [truesight](senses.md#Truesight), notices secret doors hidden by magic, and can see into the Ethereal Plane, all out to a range of 120 feet.
+This spell gives the willing creature you touch the ability to see things as they actually are. For the duration, the creature has [truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight), notices secret doors hidden by magic, and can see into the Ethereal Plane, all out to a range of 120 feet.
 
-**Classes**: [Cleric](list-spells-classes-cleric.md); [Bard](list-spells-classes-bard.md); [Wizard](list-spells-classes-wizard.md); [Sorcerer](list-spells-classes-sorcerer.md); [Cleric (Arcana Domain)](list-spells-classes-cleric-arcana-domain-scag.md "subclass=SCAG"); [Warlock](list-spells-classes-warlock.md); [Sorcerer (Divine Soul)](list-spells-classes-sorcerer-divine-soul-xge.md "subclass=XGE")
+**Classes**: [Cleric (Arcana Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcana-domain-scag.md "subclass=SCAG"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md)
 
 *Source: Player's Handbook p. 284. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*

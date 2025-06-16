@@ -7,10 +7,12 @@ tags:
 - ttrpg-cli/monster/size/small
 - ttrpg-cli/monster/type/fiend/demon
 statblock: inline
-aliases: ["Dretch"]
+statblock-link: "#^statblock"
+aliases:
+- Dretch
 ---
-# [Dretch](03 - Player Log & Handouts\Mechanics\CLI\bestiary\fiend/dretch.md)
-*Source: Monster Manual p. 57, Baldur's Gate: Descent Into Avernus, Sigil and the Outlands. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Dretch](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/dretch.md)
+*Source: Monster Manual p. 57, Curse of Strahd, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus, Infernal Machine Rebuild, Explorer's Guide to Wildemount. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Dretches are among the weakest of demons-repulsive, self-loathing creatures doomed to spend eternity in a state of perpetual discontent. Their low intelligence makes dretches unsuitable for anything but the simplest tasks. However, what they lack in potential, they make up for in sheer malice. Dretches mill about in mobs, voicing their displeasure as an unsettling din of hoots, snarls, and grunts.
 
@@ -154,7 +156,7 @@ Demonologists organize the chaotic distribution of demons into broad categories 
 
 > [!note] Demon True Names
 > 
-> Though demons all have common names, every demon lord and every demon of type 1 through 6 has a true name that it keeps secret. A demon can be forced to disclose its true name if [charmed](conditions.md#Charmed), and ancient scrolls and tomes are said to exist that list the true names of the most powerful demons.
+> Though demons all have common names, every demon lord and every demon of type 1 through 6 has a true name that it keeps secret. A demon can be forced to disclose its true name if [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), and ancient scrolls and tomes are said to exist that list the true names of the most powerful demons.
 > 
 > A mortal who learns a demon's true name can use powerful summoning magic to call the demon from the Abyss and exercise some measure of control over it. However, most demons brought to the Material Plane in this manner do everything in their power to wreak havoc or sow discord and strife.
 ^demon-true-names
@@ -163,13 +165,13 @@ Demonologists organize the chaotic distribution of demons into broad categories 
 > 
 > Some demons can have an action option that allows them to summon other demons. Summon Demon (1/Day). The demon chooses what to summon and attempts a magical summoning.
 > 
-> - A balor has a 50 percent chance of summoning `1d8` vrocks, `1d6` hezrous, `1d4` glabrezus, `1d3` nalfeshnees, `1d2` mariliths, or one goristro.  
+> - A balor has a 50 percent chance of summoning `d8` vrocks, `d6` hezrous, `d4` glabrezus, `d3` nalfeshnees, `d2` mariliths, or one goristro.  
 > - A barlgura has a 30 percent chance of summoning one barlgura.  
 > - A chasme has a 30 percent chance of summoning one chasme.  
-> - A glabrezu has a 30 percent chance of summoning `1d3` vrocks, `1d2` hezrous, or one glabrezu.  
+> - A glabrezu has a 30 percent chance of summoning `d3` vrocks, `d2` hezrous, or one glabrezu.  
 > - A hezrou has a 30 percent chance of summoning `2d6` dretches or one hezrou.  
-> - A marilith has a 50 percent chance of summoning `1d6` vrocks, `1d4` hezrous, `1d3` glabrezus, `1d2` nalfeshnees, or one marilith.  
-> - A nalfeshnee has a 50 percent chance of summoning `1d4` vrocks, `1d3` hezrous, `1d2` glabrezus, or one nalfeshnee.  
+> - A marilith has a 50 percent chance of summoning `d6` vrocks, `d4` hezrous, `d3` glabrezus, `d2` nalfeshnees, or one marilith.  
+> - A nalfeshnee has a 50 percent chance of summoning `d4` vrocks, `d3` hezrous, `d2` glabrezus, or one nalfeshnee.  
 > - A vrock has a 30 percent chance of summoning `2d4` dretches or one vrock.  
 > - A yochlol has a 50 percent chance of summoning one yochlol.  
 > 
@@ -191,42 +193,47 @@ Demonologists organize the chaotic distribution of demons into broad categories 
 "ac_class": "natural armor"
 "hp": !!int "18"
 "hit_dice": "4d6 + 4"
+"modifier": !!int "0"
 "stats":
-- !!int "11"
-- !!int "11"
-- !!int "12"
-- !!int "5"
-- !!int "8"
-- !!int "3"
+  - !!int "11"
+  - !!int "11"
+  - !!int "12"
+  - !!int "5"
+  - !!int "8"
+  - !!int "3"
 "speed": "20 ft."
 "damage_resistances": "cold, fire, lightning"
 "damage_immunities": "poison"
-"condition_immunities": "[poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "darkvision 60 ft., passive Perception 9"
 "languages": "Abyssal, telepathy 60 ft. (works only with creatures that understand\
   \ Abyssal)"
 "cr": "1/4"
 "actions":
-- "desc": "The dretch makes two attacks: one with its bite and one with its claws."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 3 (1d6)\
-    \ piercing damage."
-  "name": "Bite"
-- "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 5 (2d4)\
-    \ slashing damage."
-  "name": "Claws"
-- "desc": "A 10-foot radius of disgusting green gas extends out from the dretch. The\
-    \ gas spreads around corners, and its area is lightly obscured. It lasts for 1\
-    \ minute or until a strong wind disperses it. Any creature that starts its turn\
-    \ in that area must succeed on a DC 11 Constitution saving throw or be [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
-    \ until the start of its next turn. While [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
-    \ in this way, the target can take either an action or a bonus action on its turn,\
-    \ not both, and can't take reactions."
-  "name": "Fetid Cloud (1/Day)"
+  - "desc": "The dretch makes two attacks: one with its bite and one with its claws."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 3\
+      \ (d6) piercing damage."
+    "name": "Bite"
+  - "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 5\
+      \ (2d4) slashing damage."
+    "name": "Claws"
+  - "desc": "A 10-foot radius of disgusting green gas extends out from the dretch.\
+      \ The gas spreads around corners, and its area is lightly obscured. It lasts\
+      \ for 1 minute or until a strong wind disperses it. Any creature that starts\
+      \ its turn in that area must succeed on a DC 11 Constitution saving throw or\
+      \ be [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
+      \ until the start of its next turn. While [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
+      \ in this way, the target can take either an action or a bonus action on its\
+      \ turn, not both, and can't take reactions."
+    "name": "Fetid Cloud (1/Day)"
 "source":
-- "MM"
-- "BGDIA"
-- "SatO"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/fiend/token/dretch.webp"
+  - "MM"
+  - "CoS"
+  - "GoS"
+  - "BGDIA"
+  - "IMR"
+  - "EGW"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/token/dretch.webp"
 ```
 ^statblock

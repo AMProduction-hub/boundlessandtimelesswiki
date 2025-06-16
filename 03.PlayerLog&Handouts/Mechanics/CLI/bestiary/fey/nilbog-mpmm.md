@@ -10,9 +10,11 @@ tags:
 - ttrpg-cli/monster/size/small
 - ttrpg-cli/monster/type/fey/goblinoid
 statblock: inline
-aliases: ["Nilbog"]
+statblock-link: "#^statblock"
+aliases:
+- Nilbog
 ---
-# [Nilbog](03 - Player Log & Handouts\Mechanics\CLI\bestiary\fey/nilbog-mpmm.md)
+# [Nilbog](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fey/nilbog-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 195, Volo's Guide to Monsters p. 182*  
 
 When Maglubiyet conquered the goblin gods, a trickster deity was determined to get the last laugh. Although Maglubiyet shattered its essence, this trickster god survives in a splintered form as possessing spirits that cause disorder unless they are appeased. Goblins have no name for this deity and dare not give it one, lest Maglubiyet use its name to ensnare and crush it as he did their other deities. They call the possessing spirit, as well as the goblin possessed by it, a nilbog ("goblin" spelled backward), and they revel in the chaos a nilbog sows.
@@ -36,55 +38,57 @@ If its host is killed or the possession is ended by a spell such as hallow, magi
 "subtype": "goblinoid"
 "alignment": "Typically  Chaotic Neutral"
 "ac": !!int "13"
-"ac_class": "[leather armor](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/items/leather-armor.md)"
+"ac_class": "[leather armor](03.PlayerLog&Handouts/Mechanics/CLI/items/leather-armor.md)"
 "hp": !!int "7"
 "hit_dice": "2d6"
+"modifier": !!int "2"
 "stats":
-- !!int "8"
-- !!int "14"
-- !!int "10"
-- !!int "10"
-- !!int "8"
-- !!int "15"
+  - !!int "8"
+  - !!int "14"
+  - !!int "10"
+  - !!int "10"
+  - !!int "8"
+  - !!int "15"
 "speed": "30 ft."
 "skillsaves":
-  "Stealth": !!int "6"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+6"
 "senses": "darkvision 60 ft., passive Perception 9"
 "languages": "Common, Goblin"
 "cr": "1"
 "traits":
-- "desc": "The nilbog casts one of the following spells, using Charisma as the spellcasting\
-    \ ability (spell save DC 12):\n\nAt will: [mage hand](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/mage-hand.md),\
-    \ [Tasha's hideous laughter](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/tashas-hideous-laughter.md)"
-  "name": "Spellcasting"
-- "desc": "Any creature that attempts to damage the nilbog must first succeed on a\
-    \ DC 12 Charisma saving throw or be [charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
-    \ until the end of the creature's next turn. A creature [charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
-    \ in this way must use its action praising the nilbog.\n\nThe nilbog can't regain\
-    \ hit points, including through magical healing, except through its Reversal of\
-    \ Fortune reaction."
-  "name": "Nilbogism"
+  - "desc": "Any creature that attempts to damage the nilbog must first succeed on\
+      \ a DC 12 Charisma saving throw or be [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
+      \ until the end of the creature's next turn. A creature [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
+      \ in this way must use its action praising the nilbog.\n\nThe nilbog can't regain\
+      \ hit points, including through magical healing, except through its Reversal\
+      \ of Fortune reaction."
+    "name": "Nilbogism"
 "actions":
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6\
-    \ + 2) bludgeoning damage."
-  "name": "Fool's Scepter"
-- "desc": "The nilbog targets one creature it can see within 60 feet of it. The target\
-    \ must succeed on a DC 12 Wisdom saving throw or take 5 (2d4) psychic damage\
-    \ and have disadvantage on its next attack roll before the end of its next turn."
-  "name": "Mocking Word"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+      \ (1d6 + 2) bludgeoning damage."
+    "name": "Fool's Scepter"
+  - "desc": "The nilbog targets one creature it can see within 60 feet of it. The\
+      \ target must succeed on a DC 12 Wisdom saving throw or take 5 (2d4) psychic\
+      \ damage and have disadvantage on its next attack roll before the end of its\
+      \ next turn."
+    "name": "Mocking Word"
+  - "desc": "The nilbog casts one of the following spells, using Charisma as the spellcasting\
+      \ ability (spell save DC 12):\n\nAt will: [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
+      \ [Tasha's hideous laughter](03.PlayerLog&Handouts/Mechanics/CLI/spells/tashas-hideous-laughter.md)"
+    "name": "Spellcasting"
 "bonus_actions":
-- "desc": "The nilbog takes the [Disengage](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/actions.md#Disengage)\
-    \ or [Hide](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/actions.md#Hide)\
-    \ action."
-  "name": "Nimble Escape"
+  - "desc": "The nilbog takes the [Disengage](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Disengage)\
+      \ or [Hide](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Hide) action."
+    "name": "Nimble Escape"
 "reactions":
-- "desc": "In response to another creature dealing damage to the nilbog, the nilbog\
-    \ reduces the damage to 0 and regains 3 (1d6) hit points."
-  "name": "Reversal of Fortune"
+  - "desc": "In response to another creature dealing damage to the nilbog, the nilbog\
+      \ reduces the damage to 0 and regains 3 (d6) hit points."
+    "name": "Reversal of Fortune"
 "source":
-- "MPMM"
-- "VGM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/fey/token/nilbog-mpmm.webp"
+  - "MPMM"
+  - "VGM"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/token/nilbog-mpmm.webp"
 ```
 ^statblock
 

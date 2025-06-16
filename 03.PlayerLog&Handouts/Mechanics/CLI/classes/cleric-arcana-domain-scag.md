@@ -5,10 +5,11 @@ tags:
 - ttrpg-cli/compendium/src/5e/scag
 - ttrpg-cli/domain/arcana
 - ttrpg-cli/subclass/cleric/arcana
-aliases: ["Arcana Domain"]
+aliases:
+- Arcana Domain
 ---
 # Arcana Domain
-*[Cleric](cleric.md): Divine Domain*  
+*[Cleric](./cleric.md): Divine Domain*  
 *Source: Sword Coast Adventurer's Guide p. 125*  
 
 > [!tldr] Class and Feature Progression
@@ -49,7 +50,7 @@ aliases: ["Arcana Domain"]
 
 Magic is an energy that suffuses the multiverse and that fuels both destruction and creation. Gods of the Arcana domain know the secrets and potential of magic intimately. For some of these gods, magical knowledge is a great responsibility that comes with a special understanding of the nature of reality. Other gods of Arcana see magic as pure power, to be used as its wielder sees fit.
 
-The gods of this domain are often associated with knowledge, as learning and arcane power tend to go hand-in-hand. In the Realms, deities of this domain include Azuth and Mystra, as well as Corellon Larethian of the elven pantheon. In other worlds, this domain includes Hecate, Math Mathonwy, and Isis; the triple moon gods of Solinari, Lunitari, and Nuitari of Krynn; and Boccob, Vecna, and Wee Jas of Greyhawk.
+The gods of this domain are often associated with knowledge, as learning and arcane power tend to go hand-in-hand. In the Realms, deities of this domain include [Azuth](03.PlayerLog&Handouts/Mechanics/CLI/deities/faerunian-azuth-scag.md) and [Mystra](03.PlayerLog&Handouts/Mechanics/CLI/deities/faerunian-mystra-scag.md), as well as Corellon Larethian of the elven pantheon. In other worlds, this domain includes [Hecate](03.PlayerLog&Handouts/Mechanics/CLI/deities/greek-hecate.md), [Math Mathonwy](03.PlayerLog&Handouts/Mechanics/CLI/deities/celtic-math-mathonwy.md), and [Isis](03.PlayerLog&Handouts/Mechanics/CLI/deities/egyptian-isis.md); the triple moon gods of Solinari, Lunitari, and Nuitari of Krynn; and [Boccob](03.PlayerLog&Handouts/Mechanics/CLI/deities/greyhawk-boccob.md), [Vecna](03.PlayerLog&Handouts/Mechanics/CLI/deities/greyhawk-vecna.md), and [Wee Jas](03.PlayerLog&Handouts/Mechanics/CLI/deities/greyhawk-wee-jas.md) of Greyhawk.
 
 At each indicated cleric level, add the listed spells to your spells prepared. They do not count towards your limit.
 
@@ -57,11 +58,11 @@ At each indicated cleric level, add the listed spells to your spells prepared. T
 
 | Cleric Level | Spells |
 |--------------|--------|
-| 1st | [detect magic](detect-magic.md), [magic missile](magic-missile.md) |
-| 3rd | [magic weapon](magic-weapon.md), [Nystul's magic aura](nystuls-magic-aura.md) |
-| 5th | [dispel magic](dispel-magic.md), [magic circle](magic-circle.md) |
-| 7th | [arcane eye](arcane-eye.md), [Leomund's secret chest](leomunds-secret-chest.md) |
-| 9th | [planar binding](planar-binding.md), [teleportation circle](teleportation-circle.md) |
+| 1st | [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md), [magic missile](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-missile.md) |
+| 3rd | [magic weapon](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-weapon.md), [Nystul's magic aura](03.PlayerLog&Handouts/Mechanics/CLI/spells/nystuls-magic-aura.md) |
+| 5th | [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md), [magic circle](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-circle.md) |
+| 7th | [arcane eye](03.PlayerLog&Handouts/Mechanics/CLI/spells/arcane-eye.md), [Leomund's secret chest](03.PlayerLog&Handouts/Mechanics/CLI/spells/leomunds-secret-chest.md) |
+| 9th | [planar binding](03.PlayerLog&Handouts/Mechanics/CLI/spells/planar-binding.md), [teleportation circle](03.PlayerLog&Handouts/Mechanics/CLI/spells/teleportation-circle.md) |
 ^arcana-domain-spells
 
 ### Arcane Initiate (Level 1)
@@ -74,9 +75,9 @@ Starting at 2nd level, you can use your Channel Divinity to abjure otherworldly 
 
 As an action, you present your holy symbol, and one celestial, elemental, fey, or fiend of your choice that is within 30 feet of you must make a Wisdom saving throw, provided that the creature can see or hear you. If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage.
 
-A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly end its move in a space within 30 feet of you. It also can't take reactions. For its action, it can use only the [Dash](actions.md#Dash) action or try to escape from an effect that prevents it from moving. If there's nowhere to move, then the creature can use the [Dodge](actions.md#Dodge) action.
+A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly end its move in a space within 30 feet of you. It also can't take reactions. For its action, it can use only the [Dash](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Dash) action or try to escape from an effect that prevents it from moving. If there's nowhere to move, then the creature can use the [Dodge](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Dodge) action.
 
-After you reach 5th level, when a creature fails its saving throw against your Arcane Abjuration feature, the creature is banished for 1 minute (as in the [banishment](banishment.md) spell, no [concentration](conditions.md#Concentration) required) if it isn't on its plane of origin, and its challenge rating is at or below a certain threshold, as shown below.
+After you reach 5th level, when a creature fails its saving throw against your Arcane Abjuration feature, the creature is banished for 1 minute (as in the [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md) spell, no [concentration](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Concentration) required) if it isn't on its plane of origin, and its challenge rating is at or below a certain threshold, as shown below.
 
 **Arcane Banishment**
 
@@ -100,9 +101,9 @@ Starting at 8th level, you add your Wisdom modifier to the damage you deal with 
 ### Blessed Strikes (Level 8)
 _Source: Tasha's Cauldron of Everything p. 30_
 
-*8th-level cleric [optional feature](optional-class-features-tce.md), which replaces the Potent Spellcasting feature*
+*8th-level cleric [optional feature](03.PlayerLog&Handouts/Mechanics/CLI/rules/variant-rules/optional-class-features-tce.md), which replaces the Potent Spellcasting feature*
 
-You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal `1d8` radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.
+You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal `d8` radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.
 
 ### Arcane Mastery (Level 17)
 

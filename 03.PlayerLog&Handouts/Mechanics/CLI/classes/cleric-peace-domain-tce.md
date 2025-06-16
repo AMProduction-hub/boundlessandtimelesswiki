@@ -5,10 +5,11 @@ tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/domain/peace
 - ttrpg-cli/subclass/cleric/peace
-aliases: ["Peace Domain"]
+aliases:
+- Peace Domain
 ---
 # Peace Domain
-*[Cleric](cleric.md): Divine Domain*  
+*[Cleric](./cleric.md): Divine Domain*  
 *Source: Tasha's Cauldron of Everything p. 32*  
 
 > [!tldr] Class and Feature Progression
@@ -60,9 +61,9 @@ Clerics of the Peace Domain preside over the signing of treaties, and they are o
 | Boldrei | Eberron |
 | Cyrrollalee | Halfling |
 | Eldath | Forgotten Realms |
-| Gaerdal Ironhand | Gnomish |
+| [Gaerdal Ironhand](03.PlayerLog&Handouts/Mechanics/CLI/deities/gnomish-gaerdal-ironhand-scag.md) | Gnomish |
 | Paladine | Dragonlance |
-| Rao | Greyhawk |
+| [Rao](03.PlayerLog&Handouts/Mechanics/CLI/deities/greyhawk-rao.md) | Greyhawk |
 ^peace-deities
 
 #### Domain Spells
@@ -76,11 +77,11 @@ You gain domain spells at the cleric levels listed in the Peace Domain Spells ta
 
 | Cleric Level | Spells |
 |--------------|--------|
-| 1st | [heroism](heroism.md), [sanctuary](sanctuary.md) |
-| 3rd | [aid](aid.md), [warding bond](warding-bond.md) |
-| 5th | [beacon of hope](beacon-of-hope.md), [sending](sending.md) |
-| 7th | [aura of purity](aura-of-purity.md), [Otiluke's resilient sphere](otilukes-resilient-sphere.md) |
-| 9th | [greater restoration](greater-restoration.md), [Rary's telepathic bond](rarys-telepathic-bond.md) |
+| 1st | [heroism](03.PlayerLog&Handouts/Mechanics/CLI/spells/heroism.md), [sanctuary](03.PlayerLog&Handouts/Mechanics/CLI/spells/sanctuary.md) |
+| 3rd | [aid](03.PlayerLog&Handouts/Mechanics/CLI/spells/aid.md), [warding bond](03.PlayerLog&Handouts/Mechanics/CLI/spells/warding-bond.md) |
+| 5th | [beacon of hope](03.PlayerLog&Handouts/Mechanics/CLI/spells/beacon-of-hope.md), [sending](03.PlayerLog&Handouts/Mechanics/CLI/spells/sending.md) |
+| 7th | [aura of purity](03.PlayerLog&Handouts/Mechanics/CLI/spells/aura-of-purity.md), [Otiluke's resilient sphere](03.PlayerLog&Handouts/Mechanics/CLI/spells/otilukes-resilient-sphere.md) |
+| 9th | [greater restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-restoration.md), [Rary's telepathic bond](03.PlayerLog&Handouts/Mechanics/CLI/spells/rarys-telepathic-bond.md) |
 ^peace-domain-spells
 
 ### Implement of Peace (Level 1)
@@ -117,9 +118,9 @@ You add your Wisdom modifier to the damage you deal with any cleric cantrip.
 
 ### Blessed Strikes (Level 8)
 
-*8th-level cleric [optional feature](optional-class-features-tce.md), which replaces the Potent Spellcasting feature*
+*8th-level cleric [optional feature](03.PlayerLog&Handouts/Mechanics/CLI/rules/variant-rules/optional-class-features-tce.md), which replaces the Potent Spellcasting feature*
 
-You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal `1d8` radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.
+You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal `d8` radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.
 
 ### Expansive Bond (Level 17)
 

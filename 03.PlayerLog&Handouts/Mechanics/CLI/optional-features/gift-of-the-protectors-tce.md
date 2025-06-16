@@ -4,7 +4,8 @@ cssclasses: json5e-feat
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/optional-feature/ei
-aliases: ["Gift of the Protectors"]
+aliases:
+- Gift of the Protectors
 ---
 # Gift of the Protectors
 *Source: Tasha's Cauldron of Everything p. 71*  

@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
-aliases: ["Dungeon Dressing; Noises"]
+aliases:
+- Dungeon Dressing; Noises
 ---
 # Dungeon Dressing; Noises
 *Source: Dungeon Master's Guide p. 298* 

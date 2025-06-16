@@ -8,10 +8,12 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/elemental
 statblock: inline
-aliases: ["Salamander"]
+statblock-link: "#^statblock"
+aliases:
+- Salamander
 ---
-# [Salamander](03 - Player Log & Handouts\Mechanics\CLI\bestiary\elemental/salamander.md)
-*Source: Monster Manual p. 266, Baldur's Gate: Descent Into Avernus. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Salamander](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\elemental/salamander.md)
+*Source: Monster Manual p. 266, Princes of the Apocalypse, Storm King's Thunder, Tales from the Yawning Portal, Tomb of Annihilation, Baldur's Gate: Descent Into Avernus, Journeys through the Radiant Citadel, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Salamanders slither across the Sea of Ash on the Elemental Plane of Fire, their sinuous coils and jagged spines smoldering. Intense heat washes off their bodies, while their yellow eyes glow like candles in the deep-set hollows of their hawkish faces.
 
@@ -25,7 +27,7 @@ Salamanders hatch from eggs that are two-foot-diameter spheres of smoldering obs
 
 Long ago, the efreet hired azers to build the fabled City of Brass, but then failed in their attempt to enslave that mystical race when the azers' work was done. Turning instead to strike against the salamanders, the efreet had better luck in establishing a slave race, which they use to unleash war and destruction across the planes.
 
-Salamanders despise the azers, believing that if the efreet had succeeded in dominating that race of elemental crafters, the salamanders would still be free. The efreet use this enmity to their own advantage, stoking the salamanders' hatred and pitting them against the efreets' former servants.
+Salamanders despise the azers, believing that if the efreet had succeeded in dominating that race of elemental crafters, the salamanders would still be free. The efreet use this enmity to their own advantage, stoking the salamanders' hatred and pitting them against the efreeti's former servants.
 
 The efreet suffer salamanders to serve no other master; when efreet encounter salamanders dedicated to the cults of Elemental Evil, they slay them rather than taking them as slaves.
 
@@ -50,13 +52,14 @@ This inherent heat is an asset to salamanders' skill as smiths, allowing them to
 "ac_class": "natural armor"
 "hp": !!int "90"
 "hit_dice": "12d10 + 24"
+"modifier": !!int "2"
 "stats":
-- !!int "18"
-- !!int "14"
-- !!int "15"
-- !!int "11"
-- !!int "10"
-- !!int "12"
+  - !!int "18"
+  - !!int "14"
+  - !!int "15"
+  - !!int "11"
+  - !!int "10"
+  - !!int "12"
 "speed": "30 ft."
 "damage_vulnerabilities": "cold"
 "damage_resistances": "bludgeoning, piercing, slashing from nonmagical attacks"
@@ -65,30 +68,38 @@ This inherent heat is an asset to salamanders' skill as smiths, allowing them to
 "languages": "Ignan"
 "cr": "5"
 "traits":
-- "desc": "A creature that touches the salamander or hits it with a melee attack while\
-    \ within 5 feet of it takes 7 (2d6) fire damage."
-  "name": "Heated Body"
-- "desc": "Any metal melee weapon the salamander wields deals an extra 3 (1d6) fire\
-    \ damage on a hit (included in the attack)."
-  "name": "Heated Weapons"
+  - "desc": "A creature that touches the salamander or hits it with a melee attack\
+      \ while within 5 feet of it takes 7 (2d6) fire damage."
+    "name": "Heated Body"
+  - "desc": "Any metal melee weapon the salamander wields deals an extra 3 (d6)\
+      \ fire damage on a hit (included in the attack)."
+    "name": "Heated Weapons"
 "actions":
-- "desc": "The salamander makes two attacks: one with its spear and one with its tail."
-  "name": "Multiattack"
-- "desc": "Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60\
-    \ ft., one target. Hit: 11 (2d6 + 4) piercing damage, or 13 (2d8 + 4) piercing\
-    \ damage if used with two hands to make a melee attack, plus 3 (1d6) fire damage."
-  "name": "Spear"
-- "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 11\
-    \ (2d6 + 4) bludgeoning damage plus 7 (2d6) fire damage, and the target is\
-    \ [grappled](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
-    \ (escape DC 14). Until this grapple ends, the target is [restrained](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
-    \ the salamander can automatically hit the target with its tail, and the salamander\
-    \ can't make tail attacks against other targets."
-  "name": "Tail"
+  - "desc": "The salamander makes two attacks: one with its spear and one with its\
+      \ tail."
+    "name": "Multiattack"
+  - "desc": "Melee  or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. Hit: 11 (2d6 + 4) piercing damage, or 13 (2d8 + 4)\
+      \ piercing damage if used with two hands to make a melee attack, plus 3 (d6)\
+      \ fire damage."
+    "name": "Spear"
+  - "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit:\
+      \ 11 (2d6 + 4) bludgeoning damage plus 7 (2d6) fire damage, and the target\
+      \ is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
+      \ (escape DC 14). Until this grapple ends, the target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
+      \ the salamander can automatically hit the target with its tail, and the salamander\
+      \ can't make tail attacks against other targets."
+    "name": "Tail"
 "source":
-- "MM"
-- "BGDIA"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/elemental/token/salamander.webp"
+  - "MM"
+  - "PotA"
+  - "SKT"
+  - "TftYP"
+  - "ToA"
+  - "BGDIA"
+  - "JttRC"
+  - "KftGV"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/token/salamander.webp"
 ```
 ^statblock
 

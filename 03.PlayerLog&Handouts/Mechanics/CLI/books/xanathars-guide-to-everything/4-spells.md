@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xge
-aliases: ["Spells"]
+aliases:
+- Spells
 ---
 # Spells
 *Source: Xanathar's Guide to Everything, p. 147* 
@@ -14,4 +15,10 @@ When a DM adds spells to a campaign, clerics, druids, and paladins require speci
 
 See the full list of spells from *Xanathar's Guide to Everything* on the Spells page.
 
-![](c3001.webp#center)
+> [!quote] A quote from Xanathar  
+> 
+> So why can't people who use magic do it all the time?
+> 
+> I can disintegrate things whenever I want. Like now. And now. And now. And now... Hey, where'd everybody go?
+
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/xanathars-guide-to-everything/img/c3001.webp#center)

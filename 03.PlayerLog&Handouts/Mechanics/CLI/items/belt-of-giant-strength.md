@@ -10,16 +10,16 @@ aliases:
 ---
 # Belt of Giant Strength
 *Wondrous item (requires attunement)*  
-![](belt-of-giant-strength.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/belt-of-giant-strength.webp#right)
 
 
 **Items in this group:**
 
-- [Belt of Cloud Giant Strength](belt-of-cloud-giant-strength.md)
-- [Belt of Fire Giant Strength](belt-of-fire-giant-strength.md)
-- [Belt of Frost Giant Strength](belt-of-frost-giant-strength.md)
-- [Belt of Hill Giant Strength](belt-of-hill-giant-strength.md)
-- [Belt of Stone Giant Strength](belt-of-stone-giant-strength.md)
-- [Belt of Storm Giant Strength](belt-of-storm-giant-strength.md)
+- [Belt of Cloud Giant Strength](03.PlayerLog&Handouts/Mechanics/CLI/items/belt-of-cloud-giant-strength.md)
+- [Belt of Fire Giant Strength](03.PlayerLog&Handouts/Mechanics/CLI/items/belt-of-fire-giant-strength.md)
+- [Belt of Frost Giant Strength](03.PlayerLog&Handouts/Mechanics/CLI/items/belt-of-frost-giant-strength.md)
+- [Belt of Hill Giant Strength](03.PlayerLog&Handouts/Mechanics/CLI/items/belt-of-hill-giant-strength.md)
+- [Belt of Stone Giant Strength](03.PlayerLog&Handouts/Mechanics/CLI/items/belt-of-stone-giant-strength.md)
+- [Belt of Storm Giant Strength](03.PlayerLog&Handouts/Mechanics/CLI/items/belt-of-storm-giant-strength.md)
 
 *Source: Dungeon Master's Guide p. 155*

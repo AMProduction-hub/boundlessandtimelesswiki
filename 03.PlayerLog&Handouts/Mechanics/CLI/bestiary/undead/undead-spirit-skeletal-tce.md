@@ -7,9 +7,11 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/undead
 statblock: inline
-aliases: ["Undead Spirit (Skeletal)"]
+statblock-link: "#^statblock"
+aliases:
+- Undead Spirit (Skeletal)
 ---
-# [Undead Spirit (Skeletal)](03 - Player Log & Handouts\Mechanics\CLI\bestiary\undead/undead-spirit-skeletal-tce.md)
+# [Undead Spirit (Skeletal)](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/undead-spirit-skeletal-tce.md)
 *Source: Tasha's Cauldron of Everything p. 114*  
 
 ```statblock
@@ -18,29 +20,30 @@ aliases: ["Undead Spirit (Skeletal)"]
 "type": "undead"
 "alignment": "Unaligned"
 "ac_class": "11 + the level of the spell (natural armor)"
+"modifier": !!int "3"
 "stats":
-- !!int "12"
-- !!int "16"
-- !!int "15"
-- !!int "4"
-- !!int "10"
-- !!int "9"
+  - !!int "12"
+  - !!int "16"
+  - !!int "15"
+  - !!int "4"
+  - !!int "10"
+  - !!int "9"
 "speed": "30 ft."
 "damage_immunities": "necrotic, poison"
-"condition_immunities": "[exhaustion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
-  \ [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
-  \ [paralyzed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
-  \ [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
+  \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
+  \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
+  \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "darkvision 60 ft., passive Perception 10"
 "languages": "understands the languages you speak"
 "actions":
-- "desc": "The spirit makes a number of attacks equal to half this spell's level (rounded\
-    \ down)."
-  "name": "Multiattack"
-- "desc": "Ranged Spell Attack: YourSpellAttack to hit, range 150 ft., one target.\
-    \ Hit: 2d4 + 3 + the spell's level necrotic damage."
-  "name": "Grave Bolt"
+  - "desc": "The spirit makes a number of attacks equal to half this spell's level\
+      \ (rounded down)."
+    "name": "Multiattack"
+  - "desc": "Ranged Spell Attack: your spell attack modifier to hit, range 150 ft.,\
+      \ one target. Hit: 2d4 + 3 + the spell's level necrotic damage."
+    "name": "Grave Bolt"
 "source":
-- "TCE"
+  - "TCE"
 ```
 ^statblock

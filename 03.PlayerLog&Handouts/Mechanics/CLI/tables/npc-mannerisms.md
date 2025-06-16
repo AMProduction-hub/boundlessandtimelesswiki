@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
-aliases: ["NPC Mannerisms"]
+aliases:
+- NPC Mannerisms
 ---
 # NPC Mannerisms
 *Source: Dungeon Master's Guide p. 90* 

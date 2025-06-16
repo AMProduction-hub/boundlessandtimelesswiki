@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
-aliases: ["Random Dungeon Hazards; Dungeon Hazards"]
+aliases:
+- Random Dungeon Hazards; Dungeon Hazards
 ---
 # Random Dungeon Hazards; Dungeon Hazards
 *Source: Dungeon Master's Guide p. 296* 
@@ -14,10 +15,10 @@ aliases: ["Random Dungeon Hazards; Dungeon Hazards"]
 
 | dice: d20 | Hazard |
 |-----------|--------|
-| 1-3 | [Brown mold](brown-mold.md) |
-| 4-8 | [Green slime](green-slime.md) |
-| 9-10 | [Shrieker](shrieker.md) |
-| 11-15 | [Spiderwebs](webs.md) |
-| 16-17 | [Violet fungus](violet-fungus.md) |
-| 18-20 | [Yellow mold](yellow-mold.md) |
+| 1-3 | [Brown mold](03.PlayerLog&Handouts/Mechanics/CLI/traps-hazards/brown-mold.md) |
+| 4-8 | [Green slime](03.PlayerLog&Handouts/Mechanics/CLI/traps-hazards/green-slime.md) |
+| 9-10 | [Shrieker](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/shrieker.md) |
+| 11-15 | [Spiderwebs](03.PlayerLog&Handouts/Mechanics/CLI/traps-hazards/webs.md) |
+| 16-17 | [Violet fungus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/violet-fungus.md) |
+| 18-20 | [Yellow mold](03.PlayerLog&Handouts/Mechanics/CLI/traps-hazards/yellow-mold.md) |
 ^dungeon-hazards

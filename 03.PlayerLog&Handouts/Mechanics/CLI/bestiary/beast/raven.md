@@ -10,10 +10,12 @@ tags:
 - ttrpg-cli/monster/size/tiny
 - ttrpg-cli/monster/type/beast
 statblock: inline
-aliases: ["Raven"]
+statblock-link: "#^statblock"
+aliases:
+- Raven
 ---
-# [Raven](03 - Player Log & Handouts\Mechanics\CLI\bestiary\beast/raven.md)
-*Source: Monster Manual p. 335. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Raven](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/raven.md)
+*Source: Monster Manual p. 335, Curse of Strahd, Icewind Dale: Rime of the Frostmaiden, Candlekeep Mysteries, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 ```statblock
 "name": "Raven"
@@ -23,32 +25,38 @@ aliases: ["Raven"]
 "ac": !!int "12"
 "hp": !!int "1"
 "hit_dice": "1d4 - 1"
+"modifier": !!int "2"
 "stats":
-- !!int "2"
-- !!int "14"
-- !!int "8"
-- !!int "2"
-- !!int "12"
-- !!int "6"
+  - !!int "2"
+  - !!int "14"
+  - !!int "8"
+  - !!int "2"
+  - !!int "12"
+  - !!int "6"
 "speed": "10 ft., fly 50 ft."
 "skillsaves":
-  "Perception": !!int "3"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+3"
 "senses": "passive Perception 13"
 "languages": ""
 "cr": "0"
 "traits":
-- "desc": "The raven can mimic simple sounds it has heard, such as a person whispering,\
-    \ a baby crying, or an animal chittering. A creature that hears the sounds can\
-    \ tell they are imitations with a successful DC 10 Wisdom ([Insight](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/skills.md#Insight))\
-    \ check."
-  "name": "Mimicry"
+  - "desc": "The raven can mimic simple sounds it has heard, such as a person whispering,\
+      \ a baby crying, or an animal chittering. A creature that hears the sounds can\
+      \ tell they are imitations with a successful DC 10 Wisdom ([Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight))\
+      \ check."
+    "name": "Mimicry"
 "actions":
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1 piercing\
-    \ damage."
-  "name": "Beak"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1\
+      \ piercing damage."
+    "name": "Beak"
 "source":
-- "MM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/beast/token/raven.webp"
+  - "MM"
+  - "CoS"
+  - "IDRotF"
+  - "CM"
+  - "KftGV"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/raven.webp"
 ```
 ^statblock
 

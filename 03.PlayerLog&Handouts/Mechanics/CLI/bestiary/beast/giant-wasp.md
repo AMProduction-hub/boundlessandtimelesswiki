@@ -10,10 +10,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/beast
 statblock: inline
-aliases: ["Giant Wasp"]
+statblock-link: "#^statblock"
+aliases:
+- Giant Wasp
 ---
-# [Giant Wasp](03 - Player Log & Handouts\Mechanics\CLI\bestiary\beast/giant-wasp.md)
-*Source: Monster Manual p. 329. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Giant Wasp](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/giant-wasp.md)
+*Source: Monster Manual p. 329, Tomb of Annihilation, Ghosts of Saltmarsh, Explorer's Guide to Wildemount. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 ```statblock
 "name": "Giant Wasp"
@@ -23,30 +25,34 @@ aliases: ["Giant Wasp"]
 "ac": !!int "12"
 "hp": !!int "13"
 "hit_dice": "3d8"
+"modifier": !!int "2"
 "stats":
-- !!int "10"
-- !!int "14"
-- !!int "10"
-- !!int "1"
-- !!int "10"
-- !!int "3"
+  - !!int "10"
+  - !!int "14"
+  - !!int "10"
+  - !!int "1"
+  - !!int "10"
+  - !!int "3"
 "speed": "10 ft., fly 50 ft."
 "senses": "passive Perception 10"
 "languages": ""
 "cr": "1/2"
 "actions":
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5\
-    \ (1d6 + 2) piercing damage, and the target must make a DC 11 Constitution saving\
-    \ throw, taking 10 (3d6) poison damage on a failed save, or half as much damage\
-    \ on a successful one. If the poison damage reduces the target to 0 hit points,\
-    \ the target is stable but [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
-    \ for 1 hour, even after regaining hit points, and is [paralyzed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed)\
-    \ while [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
-    \ in this way."
-  "name": "Sting"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit:\
+      \ 5 (1d6 + 2) piercing damage, and the target must make a DC 11 Constitution\
+      \ saving throw, taking 10 (3d6) poison damage on a failed save, or half as\
+      \ much damage on a successful one. If the poison damage reduces the target to\
+      \ 0 hit points, the target is stable but [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
+      \ for 1 hour, even after regaining hit points, and is [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed)\
+      \ while [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
+      \ in this way."
+    "name": "Sting"
 "source":
-- "MM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/beast/token/giant-wasp.webp"
+  - "MM"
+  - "ToA"
+  - "GoS"
+  - "EGW"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/giant-wasp.webp"
 ```
 ^statblock
 

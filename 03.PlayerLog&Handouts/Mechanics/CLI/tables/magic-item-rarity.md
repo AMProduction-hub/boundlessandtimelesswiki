@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
-aliases: ["Magic Item Rarity"]
+aliases:
+- Magic Item Rarity
 ---
 # Magic Item Rarity
 *Source: Dungeon Master's Guide p. 135* 

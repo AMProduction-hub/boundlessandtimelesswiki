@@ -9,10 +9,12 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/beast
 statblock: inline
-aliases: ["Dire Wolf"]
+statblock-link: "#^statblock"
+aliases:
+- Dire Wolf
 ---
-# [Dire Wolf](03 - Player Log & Handouts\Mechanics\CLI\bestiary\beast/dire-wolf.md)
-*Source: Monster Manual p. 321. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Dire Wolf](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/dire-wolf.md)
+*Source: Monster Manual p. 321, Curse of Strahd, Storm King's Thunder, Tales from the Yawning Portal, Ghosts of Saltmarsh, Icewind Dale: Rime of the Frostmaiden, Journeys through the Radiant Citadel. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 ```statblock
 "name": "Dire Wolf"
@@ -23,36 +25,45 @@ aliases: ["Dire Wolf"]
 "ac_class": "natural armor"
 "hp": !!int "37"
 "hit_dice": "5d10 + 10"
+"modifier": !!int "2"
 "stats":
-- !!int "17"
-- !!int "15"
-- !!int "15"
-- !!int "3"
-- !!int "12"
-- !!int "7"
+  - !!int "17"
+  - !!int "15"
+  - !!int "15"
+  - !!int "3"
+  - !!int "12"
+  - !!int "7"
 "speed": "50 ft."
 "skillsaves":
-  "Stealth": !!int "4"
-  "Perception": !!int "3"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+3"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+4"
 "senses": "passive Perception 13"
 "languages": ""
 "cr": "1"
 "traits":
-- "desc": "The wolf has advantage on Wisdom ([Perception](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/skills.md#Perception))\
-    \ checks that rely on hearing or smell."
-  "name": "Keen Hearing and Smell"
-- "desc": "The wolf has advantage on an attack roll against a creature if at least\
-    \ one of the wolf's allies is within 5 feet of the creature and the ally isn't\
-    \ [incapacitated](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)."
-  "name": "Pack Tactics"
+  - "desc": "The wolf has advantage on Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception))\
+      \ checks that rely on hearing or smell."
+    "name": "Keen Hearing and Smell"
+  - "desc": "The wolf has advantage on an attack roll against a creature if at least\
+      \ one of the wolf's allies is within 5 feet of the creature and the ally isn't\
+      \ [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)."
+    "name": "Pack Tactics"
 "actions":
-- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10\
-    \ (2d6 + 3) piercing damage. If the target is a creature, it must succeed on\
-    \ a DC 13 Strength saving throw or be knocked [prone](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
-  "name": "Bite"
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10\
+      \ (2d6 + 3) piercing damage. If the target is a creature, it must succeed\
+      \ on a DC 13 Strength saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
+    "name": "Bite"
 "source":
-- "MM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/beast/token/dire-wolf.webp"
+  - "MM"
+  - "CoS"
+  - "SKT"
+  - "TftYP"
+  - "GoS"
+  - "IDRotF"
+  - "JttRC"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/dire-wolf.webp"
 ```
 ^statblock
 

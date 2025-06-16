@@ -4,16 +4,17 @@ cssclasses: json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/bgdia
-aliases: ["Faceless"]
+aliases:
+- Faceless
 ---
 # Faceless
 *Source: Baldur's Gate: Descent Into Avernus p. 203*  
 
 
 - **Skill Proficiencies.** [Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception), [Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation)  
-- **Tool Proficiencies.** [Disguise kit](disguise-kit.md)  
+- **Tool Proficiencies.** [Disguise kit](03.PlayerLog&Handouts/Mechanics/CLI/items/disguise-kit.md)  
 - **Languages.** One of your choice  
-- **Equipment.** [Disguise kit](disguise-kit.md), a [costume](costume-clothes.md), a [pouch](pouch.md) containing 10 gp  
+- **Equipment.** [Disguise kit](03.PlayerLog&Handouts/Mechanics/CLI/items/disguise-kit.md), a [costume](03.PlayerLog&Handouts/Mechanics/CLI/items/costume-clothes.md), a [pouch](03.PlayerLog&Handouts/Mechanics/CLI/items/pouch.md) containing 10 gp  
 
 Being who you are, you could never be a hero. Whether due to your class, your people, your family, or your sins, something about you prevents you from effectively pursuing the path you've chosen. Even so, that doesn't stop you. You've left your old face behind, taking on a new persona, becoming something more.
 

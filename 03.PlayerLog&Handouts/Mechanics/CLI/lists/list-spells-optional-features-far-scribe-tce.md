@@ -3,10 +3,11 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/spell/list/optfeature/far-scribe
-aliases: ["Spells for Far Scribe"]
+aliases:
+- Spells for Far Scribe
 ---
 # Spells for Far Scribe
 
 ## 3rd Level
 
-- [Sending](sending.md "PHB")
+- [Sending](03.PlayerLog&Handouts/Mechanics/CLI/spells/sending.md "PHB")

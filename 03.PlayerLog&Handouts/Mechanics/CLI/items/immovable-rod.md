@@ -11,7 +11,7 @@ aliases:
 ---
 # Immovable Rod
 *Rod, minor, uncommon*  
-![](immovable-rod.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/immovable-rod.webp#right)
 
 - **Weight**: 2.0 lbs.
 

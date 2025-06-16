@@ -4,10 +4,11 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/subclass/sorcerer/draconic
-aliases: ["Draconic Bloodline"]
+aliases:
+- Draconic Bloodline
 ---
 # Draconic Bloodline
-*[Sorcerer](sorcerer.md): Sorcerous Origin*  
+*[Sorcerer](./sorcerer.md): Sorcerous Origin*  
 *Source: Player's Handbook p. 102. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 > [!tldr] Class and Feature Progression
@@ -88,4 +89,4 @@ You can't manifest your wings while wearing armor unless the armor is made to ac
 
 ### Draconic Presence (Level 18)
 
-Beginning at 18th level, you can channel the dread presence of your dragon ancestor, causing those around you to become awestruck or [frightened](conditions.md#Frightened). As an action, you can spend 5 sorcery points to draw on this power and exude an aura of awe or fear (your choice) to a distance of 60 feet. For 1 minute or until you lose your [concentration](conditions.md#Concentration) (as if you were casting a [concentration](conditions.md#Concentration) spell), each hostile creature that starts its turn in this aura must succeed on a Wisdom saving throw or be [charmed](conditions.md#Charmed) (if you chose awe) or [frightened](conditions.md#Frightened) (if you chose fear) until the aura ends. A creature that succeeds on this saving throw is immune to your aura for 24 hours.
+Beginning at 18th level, you can channel the dread presence of your dragon ancestor, causing those around you to become awestruck or [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened). As an action, you can spend 5 sorcery points to draw on this power and exude an aura of awe or fear (your choice) to a distance of 60 feet. For 1 minute or until you lose your [concentration](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Concentration) (as if you were casting a [concentration](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Concentration) spell), each hostile creature that starts its turn in this aura must succeed on a Wisdom saving throw or be [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed) (if you chose awe) or [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened) (if you chose fear) until the aura ends. A creature that succeeds on this saving throw is immune to your aura for 24 hours.

@@ -5,11 +5,13 @@ tags:
 - ttrpg-cli/compendium/src/5e/scag
 - ttrpg-cli/deity/faerunian
 - ttrpg-cli/domain/death
-aliases: ["Bhaal", "The Lord of Murder"]
+aliases: 
+- Bhaal
+- The Lord of Murder
 ---
 # Bhaal
 *Source: Sword Coast Adventurer's Guide p. 21* 
-![](scag-symbol-of-bhaal.webp#symbol)
+![](03.PlayerLog&Handouts/Mechanics/CLI/deities/img/scag-symbol-of-bhaal.webp#symbol)
 
 - **Alternate Names**: The Lord of Murder
 - **Alignment**: Neutral Evil

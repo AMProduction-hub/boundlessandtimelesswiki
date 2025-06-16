@@ -18,7 +18,8 @@ classes:
 - Warlock (The Genie)
 - Warlock (The Hexblade)
 - Wizard
-aliases: ["Phantasmal Killer"]
+aliases:
+- Phantasmal Killer
 ---
 # Phantasmal Killer
 *4th-level, Illusion*  
@@ -29,10 +30,10 @@ aliases: ["Phantasmal Killer"]
 - **Components:** V, S
 - **Duration:** Concentration, up to 1 minute
 
-You tap into the nightmares of a creature you can see within range and create an illusory manifestation of its deepest fears, visible only to that creature. The target must make a Wisdom saving throw. On a failed save, the target becomes [frightened](conditions.md#Frightened) for the duration. At the end of each of the target's turns before the spell ends, the target must succeed on a Wisdom saving throw or take `4d10` psychic damage. On a successful save, the spell ends.
+You tap into the nightmares of a creature you can see within range and create an illusory manifestation of its deepest fears, visible only to that creature. The target must make a Wisdom saving throw. On a failed save, the target becomes [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened) for the duration. At the end of each of the target's turns before the spell ends, the target must succeed on a Wisdom saving throw or take `4d10` psychic damage. On a successful save, the spell ends.
 
-**At Higher Levels.** When you cast this spell using a spell slot of 5th level or higher, the damage increases by `1d10` for each slot level above 4th.
+**At Higher Levels.** When you cast this spell using a spell slot of 5th level or higher, the damage increases by `d10` for each slot level above 4th.
 
-**Classes**: [Rogue (Arcane Trickster)](list-spells-classes-rogue-arcane-trickster.md); [Bard](list-spells-classes-bard.md); [Wizard](list-spells-classes-wizard.md); [Fighter (Eldritch Knight)](list-spells-classes-fighter-eldritch-knight.md); [Warlock (The Genie)](list-spells-classes-warlock-the-genie-tce.md "subclass=TCE"); [Warlock (The Hexblade)](list-spells-classes-warlock-the-hexblade-xge.md "subclass=XGE")
+**Classes**: [Warlock (The Genie)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-genie-tce.md "subclass=TCE"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Warlock (The Hexblade)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-hexblade-xge.md "subclass=XGE"); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md)
 
 *Source: Player's Handbook p. 265. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

@@ -4,10 +4,11 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/subclass/paladin/devotion
-aliases: ["Oath of Devotion"]
+aliases:
+- Oath of Devotion
 ---
 # Oath of Devotion
-*[Paladin](paladin.md): Sacred Oath*  
+*[Paladin](./paladin.md): Sacred Oath*  
 *Source: Player's Handbook p. 85. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 > [!tldr] Class and Feature Progression
@@ -80,11 +81,11 @@ You gain oath spells at the paladin levels listed.
 
 | Paladin Level | Spells |
 |---------------|--------|
-| 3rd | [protection from evil and good](protection-from-evil-and-good.md), [sanctuary](sanctuary.md) |
-| 5th | [lesser restoration](lesser-restoration.md), [zone of truth](zone-of-truth.md) |
-| 9th | [beacon of hope](beacon-of-hope.md), [dispel magic](dispel-magic.md) |
-| 13th | [freedom of movement](freedom-of-movement.md), [guardian of faith](guardian-of-faith.md) |
-| 17th | [commune](commune.md), [flame strike](flame-strike.md) |
+| 3rd | [protection from evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/protection-from-evil-and-good.md), [sanctuary](03.PlayerLog&Handouts/Mechanics/CLI/spells/sanctuary.md) |
+| 5th | [lesser restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/lesser-restoration.md), [zone of truth](03.PlayerLog&Handouts/Mechanics/CLI/spells/zone-of-truth.md) |
+| 9th | [beacon of hope](03.PlayerLog&Handouts/Mechanics/CLI/spells/beacon-of-hope.md), [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md) |
+| 13th | [freedom of movement](03.PlayerLog&Handouts/Mechanics/CLI/spells/freedom-of-movement.md), [guardian of faith](03.PlayerLog&Handouts/Mechanics/CLI/spells/guardian-of-faith.md) |
+| 17th | [commune](03.PlayerLog&Handouts/Mechanics/CLI/spells/commune.md), [flame strike](03.PlayerLog&Handouts/Mechanics/CLI/spells/flame-strike.md) |
 ^oath-of-devotion-spells
 
 ### Channel Divinity (Level 3)
@@ -95,23 +96,23 @@ When you take this oath at 3rd level, you gain the following two Channel Divinit
 
 As an action, you can imbue one weapon that you are holding with positive energy, using your Channel Divinity. For 1 minute, you add your Charisma modifier to attack rolls made with that weapon (with a minimum bonus of +1). The weapon also emits bright light in a 20-foot radius and dim light 20 feet beyond that. If the weapon is not already magical, it becomes magical for the duration.
 
-You can end this effect on your turn as part of any other action. If you are no longer holding or carrying this weapon, or if you fall [unconscious](conditions.md#Unconscious), this effect ends.
+You can end this effect on your turn as part of any other action. If you are no longer holding or carrying this weapon, or if you fall [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious), this effect ends.
 
 ### Turn the Unholy (Level 3)
 
 As an action, you present your holy symbol and speak a prayer censuring fiends and undead, using your Channel Divinity. Each fiend or undead that can see or hear you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes damage.
 
-A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the [Dash](actions.md#Dash) action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the [Dodge](actions.md#Dodge) action.
+A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the [Dash](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Dash) action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the [Dodge](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Dodge) action.
 
 ### Aura of Devotion (Level 7)
 
-Starting at 7th level, you and friendly creatures within 10 feet of you can't be [charmed](conditions.md#Charmed) while you are conscious.
+Starting at 7th level, you and friendly creatures within 10 feet of you can't be [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed) while you are conscious.
 
 At 18th level, the range of this aura increases to 30 feet.
 
 ### Purity of Spirit (Level 15)
 
-Beginning at 15th level, you are always under the effects of a [protection from evil and good](protection-from-evil-and-good.md) spell.
+Beginning at 15th level, you are always under the effects of a [protection from evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/protection-from-evil-and-good.md) spell.
 
 ### Holy Nimbus (Level 20)
 

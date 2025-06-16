@@ -15,7 +15,7 @@ aliases:
 
 - **Damage**: 1d6 piercing
 - **Range**: 30/120
-- **Properties**: [Thrown](item-properties.md#Thrown)
+- **Properties**: [Thrown](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Thrown)
 - **Cost**: 5 sp
 - **Weight**: 2.0 lbs.
 

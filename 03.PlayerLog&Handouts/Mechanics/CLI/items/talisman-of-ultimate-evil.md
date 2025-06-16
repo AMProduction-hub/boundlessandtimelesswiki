@@ -11,7 +11,7 @@ aliases:
 ---
 # Talisman of Ultimate Evil
 *Wondrous item, major, legendary (requires attunement by a creature of evil alignment)*  
-![](talisman-of-ultimate-evil.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/talisman-of-ultimate-evil.webp#right)
 
 - **Weight**: 1.0 lbs.
 

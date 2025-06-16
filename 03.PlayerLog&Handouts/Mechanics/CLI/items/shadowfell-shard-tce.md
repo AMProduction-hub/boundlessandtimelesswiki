@@ -10,7 +10,7 @@ aliases:
 ---
 # Shadowfell Shard
 *Wondrous item, rare (requires attunement by a sorcerer)*  
-![](shadowfell-shard.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/shadowfell-shard.webp#right)
 
 - **Weight**: 1.0 lbs.
 

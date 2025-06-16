@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
-aliases: ["Dwarves on the Move; Special Circumstances"]
+aliases:
+- Dwarves on the Move; Special Circumstances
 ---
 # Dwarves on the Move; Special Circumstances
 *Source: Mordenkainen's Tome of Foes p. 81* 

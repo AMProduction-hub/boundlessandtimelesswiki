@@ -8,10 +8,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/humanoid/kuo-toa
 statblock: inline
-aliases: ["Kuo-toa Monitor"]
+statblock-link: "#^statblock"
+aliases:
+- Kuo-toa Monitor
 ---
-# [Kuo-toa Monitor](03 - Player Log & Handouts\Mechanics\CLI\bestiary\humanoid/kuo-toa-monitor.md)
-*Source: Monster Manual p. 198*  
+# [Kuo-toa Monitor](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/kuo-toa-monitor.md)
+*Source: Monster Manual p. 198, Princes of the Apocalypse, Ghosts of Saltmarsh*  
 
 Kuo-toa are degenerate fishlike humanoids that once inhabited the shores and islands of the surface world. Long ago humans and their ilk drove the kuo-toa underground, where they dwell in madness and everlasting night. Kuo-toa can no longer abide daylight.
 
@@ -47,7 +49,7 @@ In general, kuo-toa don't like the weight of armor on their slippery bodies and 
 > 
 > **Bite.** Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 4 (`1d4 + 2`) piercing damage.
 > 
-> **Unarmed Strike.** Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5 (`1d6 + 2`) bludgeoning damage + 3 (`1d6`) lightning damage, and the target can't take reactions until the end of the kuo-toa's next turn.
+> **Unarmed Strike.** Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5 (`1d6 + 2`) bludgeoning damage + 3 (`d6`) lightning damage, and the target can't take reactions until the end of the kuo-toa's next turn.
 ^variant-kuo-toa-monitor
 
 > [!quote] A quote from Sabal Mizzrym of Menzoberranzan  
@@ -65,49 +67,54 @@ In general, kuo-toa don't like the weight of armor on their slippery bodies and 
 "ac_class": "natural armor, Unarmored Defense"
 "hp": !!int "65"
 "hit_dice": "10d8 + 20"
+"modifier": !!int "0"
 "stats":
-- !!int "14"
-- !!int "10"
-- !!int "14"
-- !!int "12"
-- !!int "14"
-- !!int "11"
+  - !!int "14"
+  - !!int "10"
+  - !!int "14"
+  - !!int "12"
+  - !!int "14"
+  - !!int "11"
 "speed": "30 ft., swim 30 ft."
 "skillsaves":
-  "Religion": !!int "5"
-  "Perception": !!int "6"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+6"
+  - "name": "[Religion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Religion)"
+    "desc": "+5"
 "senses": "darkvision 120 ft., passive Perception 16"
 "languages": "Undercommon"
 "cr": "3"
 "traits":
-- "desc": "The kuo-toa can breathe air and water."
-  "name": "Amphibious"
-- "desc": "The kuo-toa can sense the presence of any creature within 30 feet of it\
-    \ that is [invisible](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Invisible)\
-    \ or on the Ethereal Plane. It can pinpoint such a creature that is moving."
-  "name": "Otherworldly Perception"
-- "desc": "The kuo-toa has advantage on ability checks and saving throws made to escape\
-    \ a grapple."
-  "name": "Slippery"
-- "desc": "While in sunlight, the kuo-toa has disadvantage on attack rolls, as well\
-    \ as on Wisdom ([Perception](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/skills.md#Perception))\
-    \ checks that rely on sight."
-  "name": "Sunlight Sensitivity"
-- "desc": "The kuo-toa adds its Wisdom modifier to its armor class."
-  "name": "Unarmored Defense"
+  - "desc": "The kuo-toa can breathe air and water."
+    "name": "Amphibious"
+  - "desc": "The kuo-toa can sense the presence of any creature within 30 feet of\
+      \ it that is [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible)\
+      \ or on the Ethereal Plane. It can pinpoint such a creature that is moving."
+    "name": "Otherworldly Perception"
+  - "desc": "The kuo-toa has advantage on ability checks and saving throws made to\
+      \ escape a grapple."
+    "name": "Slippery"
+  - "desc": "While in sunlight, the kuo-toa has disadvantage on attack rolls, as well\
+      \ as on Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception))\
+      \ checks that rely on sight."
+    "name": "Sunlight Sensitivity"
+  - "desc": "The kuo-toa adds its Wisdom modifier to its armor class."
+    "name": "Unarmored Defense"
 "actions":
-- "desc": "The kuo-toa makes one bite attack and two unarmed strikes."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 4 (1d4\
-    \ + 2) piercing damage."
-  "name": "Bite"
-- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5 (1d6\
-    \ + 2) bludgeoning damage plus 3 (1d6) lightning damage, and the target can't\
-    \ take reactions until the end of the kuo-toa's next turn."
-  "name": "Unarmed Strike"
+  - "desc": "The kuo-toa makes one bite attack and two unarmed strikes."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 4\
+      \ (1d4 + 2) piercing damage."
+    "name": "Bite"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5\
+      \ (1d6 + 2) bludgeoning damage plus 3 (d6) lightning damage, and the target\
+      \ can't take reactions until the end of the kuo-toa's next turn."
+    "name": "Unarmed Strike"
 "source":
-- "MM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/humanoid/token/kuo-toa-monitor.webp"
+  - "MM"
+  - "PotA"
+  - "GoS"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/kuo-toa-monitor.webp"
 ```
 ^statblock
 

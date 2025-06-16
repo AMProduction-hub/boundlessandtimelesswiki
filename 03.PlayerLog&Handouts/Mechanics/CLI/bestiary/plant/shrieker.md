@@ -8,10 +8,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/plant
 statblock: inline
-aliases: ["Shrieker"]
+statblock-link: "#^statblock"
+aliases:
+- Shrieker
 ---
-# [Shrieker](03 - Player Log & Handouts\Mechanics\CLI\bestiary\plant/shrieker.md)
-*Source: Monster Manual p. 138. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Shrieker](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\plant/shrieker.md)
+*Source: Monster Manual p. 138, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 A shrieker is a human-sized mushroom that emits a piercing screech to drive off creatures that disturb it. Other creatures use the fungi as an alarm to signal the approach of prey, and various intelligent races of the Underdark cultivate shriekers on the outskirts of their communities to discourage trespassers.
 
@@ -31,32 +33,36 @@ Not needing sunlight or warmth to grow, fungi thrive in every corner and crevice
 "ac": !!int "5"
 "hp": !!int "13"
 "hit_dice": "3d8"
+"modifier": !!int "-5"
 "stats":
-- !!int "1"
-- !!int "1"
-- !!int "10"
-- !!int "1"
-- !!int "3"
-- !!int "1"
+  - !!int "1"
+  - !!int "1"
+  - !!int "10"
+  - !!int "1"
+  - !!int "3"
+  - !!int "1"
 "speed": "0 ft."
-"condition_immunities": "[blinded](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Blinded),\
-  \ [deafened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Deafened),\
-  \ [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
+"condition_immunities": "[blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded),\
+  \ [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened),\
+  \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
 "senses": "blindsight 30 ft. (blind beyond this radius), passive Perception 6"
 "languages": ""
 "cr": "0"
 "traits":
-- "desc": "While the shrieker remains motionless, it is indistinguishable from an\
-    \ ordinary fungus."
-  "name": "False Appearance"
+  - "desc": "While the shrieker remains motionless, it is indistinguishable from an\
+      \ ordinary fungus."
+    "name": "False Appearance"
 "reactions":
-- "desc": "When bright light or a creature is within 30 feet of the shrieker, it emits\
-    \ a shriek audible within 300 feet of it. The shrieker continues to shriek until\
-    \ the disturbance moves out of range and for 1d4 of the shrieker's turns afterward."
-  "name": "Shriek"
+  - "desc": "When bright light or a creature is within 30 feet of the shrieker, it\
+      \ emits a shriek audible within 300 feet of it. The shrieker continues to shriek\
+      \ until the disturbance moves out of range and for d4 of the shrieker's turns\
+      \ afterward."
+    "name": "Shriek"
 "source":
-- "MM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/plant/token/shrieker.webp"
+  - "MM"
+  - "WDMM"
+  - "GoS"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/token/shrieker.webp"
 ```
 ^statblock
 

@@ -3,48 +3,49 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
-aliases: ["Fantastical Races"]
+aliases:
+- Fantastical Races
 ---
 # Fantastical Races
 *Source: Mordenkainen Presents: Monsters of the Multiverse, p. 5* 
 
-![](01-001-ch1-splash.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/mordenkainen-presents-monsters-of-the-multiverse/img/01-001-ch1-splash.webp#center)
 
 Gathering together fantastical races from throughout the D&D multiverse, this chapter offers the following races for player characters, supplementing the race options in the "Player's Handbook":
 
-- [Aarakocra](aarakocra-mpmm.md)  
-- [Aasimar](aasimar-mpmm.md)  
-- [Bugbear](bugbear-mpmm.md)  
-- [Centaur](centaur-mpmm.md)  
-- [Changeling](changeling-mpmm.md)  
-- [Deep Gnome](deep-gnome-mpmm.md)  
-- [Duergar](duergar-mpmm.md)  
-- [Eladrin](eladrin-mpmm.md)  
-- [Fairy](fairy-mpmm.md)  
-- [Firbolg](firbolg-mpmm.md)  
-- [Genasi, Air](genasi-air-mpmm.md)  
-- [Genasi, Earth](genasi-earth-mpmm.md)  
-- [Genasi, Fire](genasi-fire-mpmm.md)  
-- [Genasi, Water](genasi-water-mpmm.md)  
-- [Githyanki](githyanki-mpmm.md)  
-- [Githzerai](githzerai-mpmm.md)  
-- [Goblin](goblin-mpmm.md)  
-- [Goliath](goliath-mpmm.md)  
-- [Harengon](harengon-mpmm.md)  
-- [Hobgoblin](hobgoblin-mpmm.md)  
-- [Kenku](kenku-mpmm.md)  
-- [Kobold](kobold-mpmm.md)  
-- [Lizardfolk](lizardfolk-mpmm.md)  
-- [Minotaur](minotaur-mpmm.md)  
-- [Orc](orc-mpmm.md)  
-- [Satyr](satyr-mpmm.md)  
-- [Sea Elf](sea-elf-mpmm.md)  
-- [Shadar-kai](shadar-kai-mpmm.md)  
-- [Shifter](shifter-mpmm.md)  
-- [Tabaxi](tabaxi-mpmm.md)  
+- [Aarakocra](03.PlayerLog&Handouts/Mechanics/CLI/races/aarakocra-mpmm.md)  
+- [Aasimar](03.PlayerLog&Handouts/Mechanics/CLI/races/aasimar-mpmm.md)  
+- [Bugbear](03.PlayerLog&Handouts/Mechanics/CLI/races/bugbear-mpmm.md)  
+- [Centaur](03.PlayerLog&Handouts/Mechanics/CLI/races/centaur-mpmm.md)  
+- [Changeling](03.PlayerLog&Handouts/Mechanics/CLI/races/changeling-mpmm.md)  
+- [Deep Gnome](03.PlayerLog&Handouts/Mechanics/CLI/races/deep-gnome-mpmm.md)  
+- [Duergar](03.PlayerLog&Handouts/Mechanics/CLI/races/duergar-mpmm.md)  
+- [Eladrin](03.PlayerLog&Handouts/Mechanics/CLI/races/eladrin-mpmm.md)  
+- [Fairy](03.PlayerLog&Handouts/Mechanics/CLI/races/fairy-mpmm.md)  
+- [Firbolg](03.PlayerLog&Handouts/Mechanics/CLI/races/firbolg-mpmm.md)  
+- [Genasi, Air](03.PlayerLog&Handouts/Mechanics/CLI/races/genasi-air-mpmm.md)  
+- [Genasi, Earth](03.PlayerLog&Handouts/Mechanics/CLI/races/genasi-earth-mpmm.md)  
+- [Genasi, Fire](03.PlayerLog&Handouts/Mechanics/CLI/races/genasi-fire-mpmm.md)  
+- [Genasi, Water](03.PlayerLog&Handouts/Mechanics/CLI/races/genasi-water-mpmm.md)  
+- [Githyanki](03.PlayerLog&Handouts/Mechanics/CLI/races/githyanki-mpmm.md)  
+- [Githzerai](03.PlayerLog&Handouts/Mechanics/CLI/races/githzerai-mpmm.md)  
+- [Goblin](03.PlayerLog&Handouts/Mechanics/CLI/races/goblin-mpmm.md)  
+- [Goliath](03.PlayerLog&Handouts/Mechanics/CLI/races/goliath-mpmm.md)  
+- [Harengon](03.PlayerLog&Handouts/Mechanics/CLI/races/harengon-mpmm.md)  
+- [Hobgoblin](03.PlayerLog&Handouts/Mechanics/CLI/races/hobgoblin-mpmm.md)  
+- [Kenku](03.PlayerLog&Handouts/Mechanics/CLI/races/kenku-mpmm.md)  
+- [Kobold](03.PlayerLog&Handouts/Mechanics/CLI/races/kobold-mpmm.md)  
+- [Lizardfolk](03.PlayerLog&Handouts/Mechanics/CLI/races/lizardfolk-mpmm.md)  
+- [Minotaur](03.PlayerLog&Handouts/Mechanics/CLI/races/minotaur-mpmm.md)  
+- [Orc](03.PlayerLog&Handouts/Mechanics/CLI/races/orc-mpmm.md)  
+- [Satyr](03.PlayerLog&Handouts/Mechanics/CLI/races/satyr-mpmm.md)  
+- [Sea Elf](03.PlayerLog&Handouts/Mechanics/CLI/races/sea-elf-mpmm.md)  
+- [Shadar-kai](03.PlayerLog&Handouts/Mechanics/CLI/races/shadar-kai-mpmm.md)  
+- [Shifter](03.PlayerLog&Handouts/Mechanics/CLI/races/shifter-mpmm.md)  
+- [Tabaxi](03.PlayerLog&Handouts/Mechanics/CLI/races/tabaxi-mpmm.md)  
 - [Tortle](03.PlayerLog&Handouts/Mechanics/CLI/races/tortle-mpmm.md)  
-- [Triton](triton-mpmm.md)  
-- [Yuan-ti](yuan-ti-mpmm.md)  
+- [Triton](03.PlayerLog&Handouts/Mechanics/CLI/races/triton-mpmm.md)  
+- [Yuan-ti](03.PlayerLog&Handouts/Mechanics/CLI/races/yuan-ti-mpmm.md)  
 
 Many of these races are based on creatures that appear in the "Monster Manual" or the bestiary of this book. Consult with your DM to see whether an option here is appropriate for your campaign. If you do use a race in this chapter, first read the "Creating Your Character" section below.
 
@@ -62,7 +63,7 @@ Your character can speak, read, and write Common and one other language that you
 
 ### Creature Type
 
-Every creature in D&D, including each player character, has a special tag in the rules that identifies the type of creature they are. Most player characters are of the Humanoid type. A race in this chapter tells you what your character's creature type is. Here's a list of the game's creature types in alphabetical order: Aberration, Beast, Celestial, Construct, Dragon, Elemental, Fey, Fiend, Giant, Humanoid, Monstrosity, Ooze, Plant, Undead. These types don't have rules themselves, but some rules in the game affect creatures of certain types in different ways. For example, the [cure wounds](cure-wounds.md) spell doesn't work on a Construct or an Undead.
+Every creature in D&D, including each player character, has a special tag in the rules that identifies the type of creature they are. Most player characters are of the Humanoid type. A race in this chapter tells you what your character's creature type is. Here's a list of the game's creature types in alphabetical order: Aberration, Beast, Celestial, Construct, Dragon, Elemental, Fey, Fiend, Giant, Humanoid, Monstrosity, Ooze, Plant, Undead. These types don't have rules themselves, but some rules in the game affect creatures of certain types in different ways. For example, the [cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/cure-wounds.md) spell doesn't work on a Construct or an Undead.
 
 ### Life Span
 

@@ -3,6 +3,7 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
+- ttrpg-cli/spell/background/silverquill-student
 - ttrpg-cli/spell/class/bard
 - ttrpg-cli/spell/class/sorcerer
 - ttrpg-cli/spell/class/warlock
@@ -13,10 +14,11 @@ tags:
 - ttrpg-cli/spell/subclass/arcane-trickster
 - ttrpg-cli/spell/subclass/circle-of-the-land
 - ttrpg-cli/spell/subclass/eldritch-knight
-- ttrpg-cli/spell/subclass/oathbreaker-dmg
+- ttrpg-cli/spell/subclass/oathbreaker
 - ttrpg-cli/spell/subclass/shadow-magic
 - ttrpg-cli/spell/subclass/way-of-shadow
 - ttrpg-cli/spell/subrace/elf-drow
+- ttrpg-cli/spell/subrace/elf-mark-of-shadow
 - ttrpg-cli/spell/subrace/half-elf-drow-descent
 - ttrpg-cli/spell/subrace/tiefling
 - ttrpg-cli/spell/subrace/tiefling-asmodeus
@@ -28,13 +30,14 @@ classes:
 - Druid (Circle of the Land)
 - Fighter (Eldritch Knight)
 - Monk (Way of Shadow)
-- Paladin (Oathbreaker (DMG))
+- Paladin (Oathbreaker)
 - Rogue (Arcane Trickster)
 - Sorcerer
 - Sorcerer (Shadow Magic)
 - Warlock
 - Wizard
-aliases: ["Darkness"]
+aliases:
+- Darkness
 ---
 # Darkness
 *2nd-level, Evocation*  
@@ -45,12 +48,12 @@ aliases: ["Darkness"]
 - **Components:** V, M (bat fur and a drop of pitch or piece of coal)
 - **Duration:** Concentration, up to 10 minutes
 
-Magical darkness spreads from a point you choose within range to fill a 15-foot-radius sphere for the duration. The darkness spreads around corners. A creature with [darkvision](senses.md#Darkvision) can't see through this darkness, and nonmagical light can't illuminate it.
+Magical darkness spreads from a point you choose within range to fill a 15-foot-radius sphere for the duration. The darkness spreads around corners. A creature with [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision) can't see through this darkness, and nonmagical light can't illuminate it.
 
 If the point you choose is on an object you are holding or one that isn't being worn or carried, the darkness emanates from the object and moves with it. Completely covering the source of the darkness with an opaque object, such as a bowl or a helm, blocks the darkness.
 
 If any of this spell's area overlaps with an area of light created by a spell of 2nd level or lower, the spell that created the light is dispelled.
 
-**Classes**: [Druid (Circle of the Land)](list-spells-classes-druid-circle-of-the-land.md); [Monk (Way of Shadow)](list-spells-classes-monk-way-of-shadow.md); [Bard](list-spells-classes-bard.md); [Fighter (Eldritch Knight)](list-spells-classes-fighter-eldritch-knight.md); [Sorcerer (Shadow Magic)](list-spells-classes-sorcerer-shadow-magic-xge.md "subclass=XGE"); [Sorcerer](list-spells-classes-sorcerer.md); [Rogue (Arcane Trickster)](list-spells-classes-rogue-arcane-trickster.md); [Paladin (Oathbreaker (DMG))](list-spells-classes-paladin-oathbreaker-dmg.md "subclass=DMG"); [Wizard](list-spells-classes-wizard.md); [Warlock](list-spells-classes-warlock.md)
+**Classes**: [Monk (Way of Shadow)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-way-of-shadow.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Sorcerer (Shadow Magic)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-shadow-magic-xge.md "subclass=XGE"); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Druid (Circle of the Land)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-circle-of-the-land.md); [Paladin (Oathbreaker)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oathbreaker-dmg.md "subclass=DMG")
 
 *Source: Player's Handbook p. 230. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*

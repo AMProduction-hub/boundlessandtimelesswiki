@@ -3,10 +3,11 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/spell/list/optfeature/tricksters-escape
-aliases: ["Spells for Trickster's Escape"]
+aliases:
+- Spells for Trickster's Escape
 ---
 # Spells for Trickster's Escape
 
 ## 4th Level
 
-- [Freedom of Movement](freedom-of-movement.md "PHB")
+- [Freedom of Movement](03.PlayerLog&Handouts/Mechanics/CLI/spells/freedom-of-movement.md "PHB")

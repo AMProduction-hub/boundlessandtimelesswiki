@@ -6,7 +6,8 @@ tags:
 - ttrpg-cli/deity/greyhawk
 - ttrpg-cli/domain/light
 - ttrpg-cli/domain/order
-aliases: ["Pholtus"]
+aliases: 
+- Pholtus
 ---
 # Pholtus
 *Source: Player's Handbook p. 295* 

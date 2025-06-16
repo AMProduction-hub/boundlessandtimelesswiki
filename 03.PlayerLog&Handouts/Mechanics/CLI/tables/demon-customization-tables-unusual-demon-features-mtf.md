@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
-aliases: ["Demon Customization Tables; Unusual Demon Features"]
+aliases:
+- Demon Customization Tables; Unusual Demon Features
 ---
 # Demon Customization Tables; Unusual Demon Features
 *Source: Mordenkainen's Tome of Foes p. 33* 
@@ -17,7 +18,7 @@ aliases: ["Demon Customization Tables; Unusual Demon Features"]
 | 1 | Belches Flies. Once per day, the demon can use an action to belch enough flies to create an effect as though it cast fog cloud. |
 | 2 | Tiny Wings. The demon gains a flying speed of 10 feet. If it could already fly, its flying speed becomes 10 feet. |
 | 3 | Ever-Open Extra Eye. The demon gains advantage on Perception checks related to sight. |
-| 4 | Bleeds Wasps. The first time in each combat the demon is reduced to half its hit points or less, a [swarm of insects (wasps)](swarm-of-wasps.md) forms around it. The swarm considers creatures other than the demon to be enemies. |
+| 4 | Bleeds Wasps. The first time in each combat the demon is reduced to half its hit points or less, a [swarm of insects (wasps)](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/swarm-of-wasps.md) forms around it. The swarm considers creatures other than the demon to be enemies. |
 | 5 | Extra Arm. The demon gains advantage on Sleight of Hand checks. |
 | 6 | Enormous Ears. The demon gains advantage on Perception checks to hear sounds. |
 | 7 | Silver Bones. The demon's natural weapons are considered silvered. |

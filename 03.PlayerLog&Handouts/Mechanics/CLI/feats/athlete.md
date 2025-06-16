@@ -4,13 +4,14 @@ cssclasses: json5e-feat
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/feat
-aliases: ["Athlete"]
+aliases:
+- Athlete
 ---
 # Athlete
 *Source: Player's Handbook p. 165*  
 **Ability Score Increase**: Increase your Strength or Dexterity by 1, to a maximum of 20.
 You have undergone extensive physical training to gain the following benefits:
 
-- When you are [prone](conditions.md#Prone), standing up uses only 5 feet of your movement.  
+- When you are [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), standing up uses only 5 feet of your movement.  
 - Climbing doesn't cost you extra movement.  
 - You can make a running long jump or a running high jump after moving only 5 feet on foot, rather than 10 feet.

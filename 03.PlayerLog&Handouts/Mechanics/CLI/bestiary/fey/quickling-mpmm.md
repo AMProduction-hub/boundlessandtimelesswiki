@@ -8,9 +8,11 @@ tags:
 - ttrpg-cli/monster/size/tiny
 - ttrpg-cli/monster/type/fey
 statblock: inline
-aliases: ["Quickling"]
+statblock-link: "#^statblock"
+aliases:
+- Quickling
 ---
-# [Quickling](03 - Player Log & Handouts\Mechanics\CLI\bestiary\fey/quickling-mpmm.md)
+# [Quickling](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fey/quickling-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 207, Volo's Guide to Monsters p. 187*  
 
 Quicklings rocket through twisted forests where the unseelie fey hold sway, both in the Feywild and in the world. These slender Fey resemble miniature elves with feral features and cold eyes that gleam like jewels. Racing faster than the eye can track, they appear as little more than blurry waverings in the air.
@@ -33,40 +35,45 @@ Tricks of that sort are hardly the limit of quicklings' artful malice, however. 
 "ac": !!int "16"
 "hp": !!int "10"
 "hit_dice": "3d4 + 3"
+"modifier": !!int "6"
 "stats":
-- !!int "4"
-- !!int "23"
-- !!int "13"
-- !!int "10"
-- !!int "12"
-- !!int "7"
+  - !!int "4"
+  - !!int "23"
+  - !!int "13"
+  - !!int "10"
+  - !!int "12"
+  - !!int "7"
 "speed": "120 ft."
 "skillsaves":
-  "Sleight of Hand": !!int "8"
-  "Stealth": !!int "8"
-  "Perception": !!int "5"
-  "Acrobatics": !!int "8"
+  - "name": "[Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics)"
+    "desc": "+8"
+  - "name": "[Sleight of Hand](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Sleight%20of%20Hand)"
+    "desc": "+8"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+8"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+5"
 "senses": "darkvision 60 ft., passive Perception 15"
 "languages": "Common, Sylvan"
 "cr": "1"
 "traits":
-- "desc": "Attack rolls against the quickling have disadvantage unless it is [incapacitated](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)\
-    \ or its speed is 0."
-  "name": "Blurred Movement"
-- "desc": "If the quickling is subjected to an effect that allows it to make a Dexterity\
-    \ saving throw to take only half damage, it instead takes no damage if it succeeds\
-    \ on the saving throw and only half damage if it fails, provided it isn't [incapacitated](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)."
-  "name": "Evasion"
+  - "desc": "Attack rolls against the quickling have disadvantage unless it is [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)\
+      \ or its speed is 0."
+    "name": "Blurred Movement"
+  - "desc": "If the quickling is subjected to an effect that allows it to make a Dexterity\
+      \ saving throw to take only half damage, it instead takes no damage if it succeeds\
+      \ on the saving throw and only half damage if it fails, provided it isn't [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)."
+    "name": "Evasion"
 "actions":
-- "desc": "The quickling makes three Dagger attacks."
-  "name": "Multiattack"
-- "desc": "Melee or Ranged Weapon Attack: +8 to hit, reach 5 ft. or range 20/60\
-    \ ft., one target. Hit: 8 (1d4 + 6) piercing damage."
-  "name": "Dagger"
+  - "desc": "The quickling makes three Dagger attacks."
+    "name": "Multiattack"
+  - "desc": "Melee  or Ranged Weapon Attack: +8 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. Hit: 8 (1d4 + 6) piercing damage."
+    "name": "Dagger"
 "source":
-- "MPMM"
-- "VGM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/fey/token/quickling-mpmm.webp"
+  - "MPMM"
+  - "VGM"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/token/quickling-mpmm.webp"
 ```
 ^statblock
 

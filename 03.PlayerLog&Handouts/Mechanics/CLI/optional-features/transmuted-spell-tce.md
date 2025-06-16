@@ -4,7 +4,8 @@ cssclasses: json5e-feat
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/optional-feature/mm
-aliases: ["Transmuted Spell"]
+aliases:
+- Transmuted Spell
 ---
 # Transmuted Spell
 *Source: Tasha's Cauldron of Everything p. 66*  

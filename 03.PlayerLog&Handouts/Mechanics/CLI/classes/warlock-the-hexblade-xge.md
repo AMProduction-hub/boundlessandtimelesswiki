@@ -4,10 +4,11 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 - ttrpg-cli/subclass/warlock/hexblade
-aliases: ["The Hexblade"]
+aliases:
+- The Hexblade
 ---
 # The Hexblade
-*[Warlock](warlock.md): Otherworldly Patron*  
+*[Warlock](./warlock.md): Otherworldly Patron*  
 *Source: Xanathar's Guide to Everything p. 55*  
 
 > [!tldr] Class and Feature Progression
@@ -42,13 +43,17 @@ aliases: ["The Hexblade"]
 ^class-progression
 
 
+> [!quote] A quote from Xanathar  
+> 
+> Hexblade. What a cool name! So is your sword evil or cursed or something? But you're evil, right?... Okay, now I don't like the name. Names aren't cool if they don't make sense. Like mine: The Xanathar. See? It's cool, and it makes sense!
+
 ## Class Features
 
 ### The Hexblade (Level 1)
 
-You have made your pact with a mysterious entity from the Shadowfell—a force that manifests in sentient magic weapons carved from the stuff of shadow. The mighty sword Blackrazor is the most notable of these weapons, which have been spread across the multiverse over the ages. The shadowy force behind these weapons can offer power to warlocks who form pacts with it. Many hexblade warlocks create weapons that emulate those formed in the Shadowfell. Others forgo such arms, content to weave the dark magic of that plane into their spellcasting.
+You have made your pact with a mysterious entity from the Shadowfell—a force that manifests in sentient magic weapons carved from the stuff of shadow. The mighty sword Blackrazor is the most notable of these weapons, which have been spread across the multiverse over the ages. The shadowy force behind these weapons can offer power to warlocks who form pacts with it. Many Hexblade warlocks create weapons that emulate those formed in the Shadowfell. Others forgo such arms, content to weave the dark magic of that plane into their spellcasting.
 
-Because the Raven Queen is known to have forged the first of these weapons, many sages speculate that she and the force are one and that the weapons, along with hexblade warlocks, are tools she uses to manipulate events on the Material Plane to her inscrutable ends.
+Because the Raven Queen is known to have forged the first of these weapons, many sages speculate that she and the force are one and that the weapons, along with Hexblade warlocks, are tools she uses to manipulate events on the Material Plane to her inscrutable ends.
 
 #### Expanded Spell List
 _Source: Xanathar's Guide to Everything_
@@ -59,16 +64,16 @@ The Hexblade lets you choose from an expanded list of spells when you learn a wa
 
 | Spell Level | Spells |
 |-------------|--------|
-| 1st | [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md), [wrathful smite](wrathful-smite.md) |
-| 2nd | [blur](blur.md), [branding smite](branding-smite.md) |
-| 3rd | [blink](blink.md), [elemental weapon](elemental-weapon.md) |
-| 4th | [phantasmal killer](phantasmal-killer.md), [staggering smite](staggering-smite.md) |
-| 5th | [banishing smite](banishing-smite.md), [cone of cold](cone-of-cold.md) |
+| 1st | [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md), [wrathful smite](03.PlayerLog&Handouts/Mechanics/CLI/spells/wrathful-smite.md) |
+| 2nd | [blur](03.PlayerLog&Handouts/Mechanics/CLI/spells/blur.md), [branding smite](03.PlayerLog&Handouts/Mechanics/CLI/spells/branding-smite.md) |
+| 3rd | [blink](03.PlayerLog&Handouts/Mechanics/CLI/spells/blink.md), [elemental weapon](03.PlayerLog&Handouts/Mechanics/CLI/spells/elemental-weapon.md) |
+| 4th | [phantasmal killer](03.PlayerLog&Handouts/Mechanics/CLI/spells/phantasmal-killer.md), [staggering smite](03.PlayerLog&Handouts/Mechanics/CLI/spells/staggering-smite.md) |
+| 5th | [banishing smite](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishing-smite.md), [cone of cold](03.PlayerLog&Handouts/Mechanics/CLI/spells/cone-of-cold.md) |
 ^hexblade-expanded-spells
 
 ### Hexblade's Curse (Level 1)
 
-Starting at 1st level, you gain the ability to place a baleful curse on someone. As a bonus action, choose one creature you can see within 30 feet of you. The target is cursed for 1 minute. The curse ends early if the target dies, you die, or you are [incapacitated](conditions.md#Incapacitated). Until the curse ends, you gain the following benefits:
+Starting at 1st level, you gain the ability to place a baleful curse on someone. As a bonus action, choose one creature you can see within 30 feet of you. The target is cursed for 1 minute. The curse ends early if the target dies, you die, or you are [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated). Until the curse ends, you gain the following benefits:
 
 - You gain a bonus to damage rolls against the cursed target. The bonus equals your proficiency bonus.  
 - Any attack roll you make against the cursed target is a critical hit on a roll of 19 or 20 on the `d20`.  
@@ -84,7 +89,7 @@ The influence of your patron also allows you to mystically channel your will thr
 
 ### Accursed Specter (Level 6)
 
-Starting at 6th level, you can curse the soul of a person you slay, temporarily binding it to your service. When you slay a humanoid, you can cause its spirit to rise from its corpse as a [specter](specter.md), the statistics for which are in the Monster Manual. When the specter appears, it gains temporary hit points equal to half your warlock level. Roll initiative for the specter, which has its own turns. It obeys your verbal commands, and it gains a special bonus to its attack rolls equal to your Charisma modifier (minimum of +0).
+Starting at 6th level, you can curse the soul of a person you slay, temporarily binding it to your service. When you slay a humanoid, you can cause its spirit to rise from its corpse as a [specter](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/specter.md), the statistics for which are in the Monster Manual. When the specter appears, it gains temporary hit points equal to half your warlock level. Roll initiative for the specter, which has its own turns. It obeys your verbal commands, and it gains a special bonus to its attack rolls equal to your Charisma modifier (minimum of +0).
 
 The specter remains in your service until the end of your next long rest, at which point it vanishes to the afterlife.
 
@@ -96,4 +101,4 @@ At 10th level, your hex grows more powerful. If the target cursed by your Hexbla
 
 ### Master of Hexes (Level 14)
 
-Starting at 14th level, you can spread your Hexblade's Curse from a slain creature to another creature. When the creature cursed by your Hexblade's Curse dies, you can apply the curse to a different creature you can see within 30 feet of you, provided you aren't [incapacitated](conditions.md#Incapacitated). When you apply the curse in this way, you don't regain hit points from the death of the previously cursed creature.
+Starting at 14th level, you can spread your Hexblade's Curse from a slain creature to another creature. When the creature cursed by your Hexblade's Curse dies, you can apply the curse to a different creature you can see within 30 feet of you, provided you aren't [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated). When you apply the curse in this way, you don't regain hit points from the death of the previously cursed creature.

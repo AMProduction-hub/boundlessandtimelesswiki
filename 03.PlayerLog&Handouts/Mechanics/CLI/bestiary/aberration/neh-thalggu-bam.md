@@ -7,9 +7,11 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/aberration
 statblock: inline
-aliases: ["Neh-thalggu"]
+statblock-link: "#^statblock"
+aliases:
+- Neh-thalggu
 ---
-# [Neh-thalggu](03 - Player Log & Handouts\Mechanics\CLI\bestiary\aberration/neh-thalggu-bam.md)
+# [Neh-thalggu](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\aberration/neh-thalggu-bam.md)
 *Source: Boo's Astral Menagerie p. 39, Light of Xaryxis*  
 
 Known throughout the multiverse as brain collectors, neh-thalggu consume the brains of Humanoids and use them as receptacles to enhance their magical abilities.
@@ -29,63 +31,64 @@ In an encounter with a neh-thalggu, roll a `d12` to determine how many brains it
 "ac_class": "natural armor"
 "hp": !!int "95"
 "hit_dice": "10d10 + 40"
+"modifier": !!int "-1"
 "stats":
-- !!int "15"
-- !!int "8"
-- !!int "18"
-- !!int "12"
-- !!int "11"
-- !!int "7"
+  - !!int "15"
+  - !!int "8"
+  - !!int "18"
+  - !!int "12"
+  - !!int "11"
+  - !!int "7"
 "speed": "40 ft."
 "senses": "darkvision 120 ft., passive Perception 10"
 "languages": "Deep Speech; see also Brain Dump"
 "cr": "4"
 "traits":
-- "desc": "The neh-thalggu casts one of the following spells, requiring no spell components\
-    \ and using Intelligence as the spellcasting ability (spell save DC 11). It must\
-    \ have consumed the requisite number of brains to cast the spell, as indicated:\n\
-    \n1/day each: [arms of Hadar](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/arms-of-hadar.md)\
-    \ (1 brain), [detect magic](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/detect-magic.md)\
-    \ (2 brains), [magic missile](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/magic-missile.md)\
-    \ (3 brains), [Tenser's floating disk](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/tensers-floating-disk.md)\
-    \ (4 brains), [darkness](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/darkness.md)\
-    \ (5 brains), [hold person](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/hold-person.md)\
-    \ (6 brains), [invisibility](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/invisibility.md)\
-    \ (7 brains), [spider climb](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/spider-climb.md)\
-    \ (8 brains), [fear](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/fear.md)\
-    \ (9 brains), [hypnotic pattern](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/hypnotic-pattern.md)\
-    \ (10 brains), [major image](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/major-image.md)\
-    \ (11 brains), [stinking cloud](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/stinking-cloud.md)\
-    \ (12 brains)"
-  "name": "Spellcasting (Psionics)"
-- "desc": "Whenever the neh-thalggu consumes a brain, it gains the magical ability\
-    \ to speak and understand languages known by the brain's previous owner."
-  "name": "Brain Dump"
-- "desc": "The neh-thalggu doesn't require air."
-  "name": "Unusual Nature"
+  - "desc": "Whenever the neh-thalggu consumes a brain, it gains the magical ability\
+      \ to speak and understand languages known by the brain's previous owner."
+    "name": "Brain Dump"
+  - "desc": "The neh-thalggu doesn't require air."
+    "name": "Unusual Nature"
 "actions":
-- "desc": "The neh-thalggu makes one Bite attack and two Claw attacks."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 11\
-    \ (2d8 + 2) piercing damage."
-  "name": "Bite"
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4\
-    \ + 2) slashing damage."
-  "name": "Claw"
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one [incapacitated](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)\
-    \ Humanoid. Hit: 35 (10d6) piercing damage. If this damage reduces the target\
-    \ to 0 hit points, the neh-thalggu kills the target by extracting and consuming\
-    \ its brain."
-  "name": "Extract Brain"
-- "desc": "The neh-thalggu magically emits psychic energy at one Humanoid it can see\
-    \ within 10 feet of itself. The target must make a DC 14 Wisdom saving throw.\
-    \ On a failed save, the target takes 9 (2d8) psychic damage and is [incapacitated](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)\
-    \ until the end of its next turn. On a successful save, the target takes half\
-    \ as much damage and isn't [incapacitated](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)."
-  "name": "Mind Blast (Recharge 5-6)"
+  - "desc": "The neh-thalggu makes one Bite attack and two Claw attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 11\
+      \ (2d8 + 2) piercing damage."
+    "name": "Bite"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4\
+      \ (1d4 + 2) slashing damage."
+    "name": "Claw"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)\
+      \ Humanoid. Hit: 35 (10d6) piercing damage. If this damage reduces the target\
+      \ to 0 hit points, the neh-thalggu kills the target by extracting and consuming\
+      \ its brain."
+    "name": "Extract Brain"
+  - "desc": "The neh-thalggu magically emits psychic energy at one Humanoid it can\
+      \ see within 10 feet of itself. The target must make a DC 14 Wisdom saving throw.\
+      \ On a failed save, the target takes 9 (2d8) psychic damage and is [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)\
+      \ until the end of its next turn. On a successful save, the target takes half\
+      \ as much damage and isn't [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)."
+    "name": "Mind Blast (Recharge 5-6)"
+  - "desc": "The neh-thalggu casts one of the following spells, requiring no spell\
+      \ components and using Intelligence as the spellcasting ability (spell save\
+      \ DC 11). It must have consumed the requisite number of brains to cast the spell,\
+      \ as indicated:\n\n1/day each: [arms of Hadar](03.PlayerLog&Handouts/Mechanics/CLI/spells/arms-of-hadar.md)\
+      \ (1 brain), [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md)\
+      \ (2 brains), [magic missile](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-missile.md)\
+      \ (3 brains), [Tenser's floating disk](03.PlayerLog&Handouts/Mechanics/CLI/spells/tensers-floating-disk.md)\
+      \ (4 brains), [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md)\
+      \ (5 brains), [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md)\
+      \ (6 brains), [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md)\
+      \ (7 brains), [spider climb](03.PlayerLog&Handouts/Mechanics/CLI/spells/spider-climb.md)\
+      \ (8 brains), [fear](03.PlayerLog&Handouts/Mechanics/CLI/spells/fear.md) (9\
+      \ brains), [hypnotic pattern](03.PlayerLog&Handouts/Mechanics/CLI/spells/hypnotic-pattern.md)\
+      \ (10 brains), [major image](03.PlayerLog&Handouts/Mechanics/CLI/spells/major-image.md)\
+      \ (11 brains), [stinking cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/stinking-cloud.md)\
+      \ (12 brains)"
+    "name": "Spellcasting (Psionics)"
 "source":
-- "BAM"
-- "LoX"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/aberration/token/neh-thalggu-bam.webp"
+  - "BAM"
+  - "LoX"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/token/neh-thalggu-bam.webp"
 ```
 ^statblock

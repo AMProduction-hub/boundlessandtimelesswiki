@@ -7,10 +7,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/dragon
 statblock: inline
-aliases: ["Silver Dragon Wyrmling"]
+statblock-link: "#^statblock"
+aliases:
+- Silver Dragon Wyrmling
 ---
-# [Silver Dragon Wyrmling](03 - Player Log & Handouts\Mechanics\CLI\bestiary\dragon/silver-dragon-wyrmling.md)
-*Source: Monster Manual p. 118. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Silver Dragon Wyrmling](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\dragon/silver-dragon-wyrmling.md)
+*Source: Monster Manual p. 118, Storm King's Thunder, Icewind Dale: Rime of the Frostmaiden. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 The friendliest and most social of the metallic dragons, silver dragons cheerfully assist good creatures in need.
 
@@ -32,7 +34,7 @@ Silver dragons befriend humanoids of all races, but shorter-lived races such as 
 
 ## Hoarding History
 
-Silver dragons love to possess relics of humanoid history. This includes the great piles of coins they covet, minted by current and fallen humanoid empires, as well as art objects and fine jewelery crafted by numerous races. Other treasures that make up their hoards can include intact ships, the remains of kings and queens, thrones, the crown jewels of ancient empires, inventions and contraptions, and monoliths carried from the ruins of fallen cities.
+Silver dragons love to possess relics of humanoid history. This includes the great piles of coins they covet, minted by current and fallen humanoid empires, as well as art objects and fine jewelry crafted by numerous races. Other treasures that make up their hoards can include intact ships, the remains of kings and queens, thrones, the crown jewels of ancient empires, inventions and contraptions, and monoliths carried from the ruins of fallen cities.
 
 ## A Silver Dragon's Lair
 
@@ -93,41 +95,46 @@ True dragons pass through four distinct stages of life, from lowly wyrmlings to 
 "ac_class": "natural armor"
 "hp": !!int "45"
 "hit_dice": "6d8 + 18"
+"modifier": !!int "0"
 "stats":
-- !!int "19"
-- !!int "10"
-- !!int "17"
-- !!int "12"
-- !!int "11"
-- !!int "15"
+  - !!int "19"
+  - !!int "10"
+  - !!int "17"
+  - !!int "12"
+  - !!int "11"
+  - !!int "15"
 "speed": "30 ft., fly 60 ft."
 "saves":
-  "Charisma": !!int "4"
-  "Dexterity": !!int "2"
-  "Wisdom": !!int "2"
-  "Constitution": !!int "5"
+  - "dexterity": "+2"
+  - "constitution": "+5"
+  - "wisdom": "+2"
+  - "charisma": "+4"
 "skillsaves":
-  "Stealth": !!int "2"
-  "Perception": !!int "4"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+4"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+2"
 "damage_immunities": "cold"
 "senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 14"
 "languages": "Draconic"
 "cr": "2"
 "actions":
-- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (1d10\
-    \ + 4) piercing damage."
-  "name": "Bite"
-- "desc": "The dragon uses one of the following breath weapons.\n\n- Cold Breath.\
-    \ The dragon exhales an icy blast in a 15-foot cone. Each creature in that area\
-    \ must make a DC 13 Constitution saving throw, taking 18 (4d8) cold damage on\
-    \ a failed save, or half as much damage on a successful one.  \n- Paralyzing\
-    \ Breath. The dragon exhales paralyzing gas in a 15-foot cone. Each creature\
-    \ in that area must succeed on a DC 13 Constitution saving throw or be [paralyzed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed)\
-    \ for 1 minute. A creature can repeat the saving throw at the end of each of its\
-    \ turns, ending the effect on itself on a success.  "
-  "name": "Breath Weapons (Recharge 5-6)"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9\
+      \ (1d10 + 4) piercing damage."
+    "name": "Bite"
+  - "desc": "The dragon uses one of the following breath weapons.\n\n- Cold Breath.\
+      \ The dragon exhales an icy blast in a 15-foot cone. Each creature in that area\
+      \ must make a DC 13 Constitution saving throw, taking 18 (4d8) cold damage\
+      \ on a failed save, or half as much damage on a successful one.  \n- Paralyzing\
+      \ Breath. The dragon exhales paralyzing gas in a 15-foot cone. Each creature\
+      \ in that area must succeed on a DC 13 Constitution saving throw or be [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed)\
+      \ for 1 minute. A creature can repeat the saving throw at the end of each of\
+      \ its turns, ending the effect on itself on a success.  "
+    "name": "Breath Weapons (Recharge 5-6)"
 "source":
-- "MM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/dragon/token/silver-dragon-wyrmling.webp"
+  - "MM"
+  - "SKT"
+  - "IDRotF"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/token/silver-dragon-wyrmling.webp"
 ```
 ^statblock

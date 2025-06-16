@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
-aliases: ["Gnoll Names"]
+aliases:
+- Gnoll Names
 ---
 # Gnoll Names
 *Source: Volo's Guide to Monsters p. 36* 

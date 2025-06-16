@@ -8,10 +8,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/humanoid
 statblock: inline
-aliases: ["Apprentice Wizard"]
+statblock-link: "#^statblock"
+aliases:
+- Apprentice Wizard
 ---
-# [Apprentice Wizard](03 - Player Log & Handouts\Mechanics\CLI\bestiary\humanoid/apprentice-wizard-mpmm.md)
-*Source: Mordenkainen Presents: Monsters of the Multiverse p. 259, Volo's Guide to Monsters p. 209, Spelljammer Academy*  
+# [Apprentice Wizard](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/apprentice-wizard-mpmm.md)
+*Source: Mordenkainen Presents: Monsters of the Multiverse p. 259, Volo's Guide to Monsters p. 209*  
 
 Apprentices are novice arcane spellcasters who serve more experienced wizards or attend school. They perform menial work like cooking or cleaning in exchange for education in the ways of magic.
 
@@ -25,40 +27,41 @@ Wizards pursue magical power through the study of arcane texts. Some travel the 
 "type": "humanoid"
 "alignment": "Any alignment"
 "ac": !!int "10"
-"ac_class": "13 with [mage armor](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/mage-armor.md)"
+"ac_class": "13 with [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md)"
 "hp": !!int "13"
 "hit_dice": "3d8"
+"modifier": !!int "0"
 "stats":
-- !!int "10"
-- !!int "10"
-- !!int "10"
-- !!int "14"
-- !!int "10"
-- !!int "11"
+  - !!int "10"
+  - !!int "10"
+  - !!int "10"
+  - !!int "14"
+  - !!int "10"
+  - !!int "11"
 "speed": "30 ft."
 "skillsaves":
-  "History": !!int "4"
-  "Arcana": !!int "4"
+  - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
+    "desc": "+4"
+  - "name": "[History](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#History)"
+    "desc": "+4"
 "senses": "passive Perception 10"
 "languages": "any one language (usually Common)"
 "cr": "1/4"
-"traits":
-- "desc": "The apprentice casts one of the following spells, using Intelligence as\
-    \ the spellcasting ability (spell save DC 12)\n\nAt will: [mage hand](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/mage-hand.md),\
-    \ [prestidigitation](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/prestidigitation.md)\n\
-    \n1/day each: [burning hands](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/burning-hands.md),\
-    \ [disguise self](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/disguise-self.md),\
-    \ [mage armor](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/mage-armor.md)"
-  "name": "Spellcasting"
 "actions":
-- "desc": "Melee or Ranged Spell Attack: +4 to hit, reach 5 ft. or range 120 ft.,\
-    \ one target. Hit: 7 (1d10 + 2) force damage."
-  "name": "Arcane Burst"
+  - "desc": "Melee  or Ranged Spell Attack: +4 to hit, reach 5 ft. or range 120\
+      \ ft., one target. Hit: 7 (1d10 + 2) force damage."
+    "name": "Arcane Burst"
+  - "desc": "The apprentice casts one of the following spells, using Intelligence\
+      \ as the spellcasting ability (spell save DC 12)\n\nAt will: [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
+      \ [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md)\n\
+      \n1/day each: [burning hands](03.PlayerLog&Handouts/Mechanics/CLI/spells/burning-hands.md),\
+      \ [disguise self](03.PlayerLog&Handouts/Mechanics/CLI/spells/disguise-self.md),\
+      \ [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md)"
+    "name": "Spellcasting"
 "source":
-- "MPMM"
-- "VGM"
-- "SjA"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/humanoid/token/apprentice-wizard-mpmm.webp"
+  - "MPMM"
+  - "VGM"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/apprentice-wizard-mpmm.webp"
 ```
 ^statblock
 

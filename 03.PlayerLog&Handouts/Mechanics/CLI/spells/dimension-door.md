@@ -14,6 +14,7 @@ tags:
 - ttrpg-cli/spell/subclass/fey-wanderer
 - ttrpg-cli/spell/subclass/oath-of-vengeance
 - ttrpg-cli/spell/subclass/trickery-domain
+- ttrpg-cli/spell/subrace/human-mark-of-passage
 classes:
 - Bard
 - Cleric (Trickery Domain)
@@ -24,11 +25,12 @@ classes:
 - Sorcerer
 - Warlock
 - Wizard
-aliases: ["Dimension Door"]
+aliases:
+- Dimension Door
 ---
 # Dimension Door
 *4th-level, Conjuration*  
-![](dimension-door.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/spells/img/dimension-door.webp#right)
 
 - **Casting time:** 1 Action
 - **Range:** 500 feet
@@ -41,6 +43,6 @@ You can bring along objects as long as their weight doesn't exceed what you can 
 
 If you would arrive in a place already occupied by an object or a creature, you and any creature traveling with you each take `4d6` force damage, and the spell fails to teleport you.
 
-**Classes**: [Paladin (Oath of Vengeance)](list-spells-classes-paladin-oath-of-vengeance.md); [Rogue (Arcane Trickster)](list-spells-classes-rogue-arcane-trickster.md); [Bard](list-spells-classes-bard.md); [Wizard](list-spells-classes-wizard.md); [Cleric (Trickery Domain)](list-spells-classes-cleric-trickery-domain.md); [Ranger (Fey Wanderer)](list-spells-classes-ranger-fey-wanderer-tce.md "subclass=TCE"); [Fighter (Eldritch Knight)](list-spells-classes-fighter-eldritch-knight.md); [Sorcerer](list-spells-classes-sorcerer.md); [Warlock](list-spells-classes-warlock.md)
+**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Ranger (Fey Wanderer)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-fey-wanderer-tce.md "subclass=TCE"); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Paladin (Oath of Vengeance)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-vengeance.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Cleric (Trickery Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-trickery-domain.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md)
 
 *Source: Player's Handbook p. 233. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*

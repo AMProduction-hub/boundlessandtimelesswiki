@@ -7,10 +7,12 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/construct
 statblock: inline
-aliases: ["Pentadrone (Rogue)"]
+statblock-link: "#^statblock"
+aliases:
+- Pentadrone (Rogue)
 ---
-# [Pentadrone (Rogue)](03 - Player Log & Handouts\Mechanics\CLI\bestiary\construct/pentadrone-rogue.md)
-*Source: Monster Manual p. 226, Sigil and the Outlands*  
+# [Pentadrone (Rogue)](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/pentadrone-rogue.md)
+*Source: Monster Manual p. 226, Tomb of Annihilation, Keys from the Golden Vault*  
 
 ```statblock
 "name": "Pentadrone (Rogue)"
@@ -21,36 +23,39 @@ aliases: ["Pentadrone (Rogue)"]
 "ac_class": "natural armor"
 "hp": !!int "32"
 "hit_dice": "5d10 + 5"
+"modifier": !!int "2"
 "stats":
-- !!int "15"
-- !!int "14"
-- !!int "12"
-- !!int "10"
-- !!int "10"
-- !!int "13"
+  - !!int "15"
+  - !!int "14"
+  - !!int "12"
+  - !!int "10"
+  - !!int "10"
+  - !!int "13"
 "speed": "40 ft."
 "skillsaves":
-  "Perception": !!int "4"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+4"
 "senses": "truesight 120 ft., passive Perception 14"
 "languages": "Modron"
 "cr": "2"
 "traits":
-- "desc": "If the pentadrone dies, its body disintegrates into dust, leaving behind\
-    \ its weapons and anything else it was carrying."
-  "name": "Disintegration"
+  - "desc": "If the pentadrone dies, its body disintegrates into dust, leaving behind\
+      \ its weapons and anything else it was carrying."
+    "name": "Disintegration"
 "actions":
-- "desc": "The pentadrone makes five arm attacks."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6\
-    \ + 2) bludgeoning damage."
-  "name": "Arm"
-- "desc": "The pentadrone exhales a 30-foot cone of gas. Each creature in that area\
-    \ must succeed on a DC 11 Constitution saving throw or be [paralyzed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed)\
-    \ for 1 minute. A creature can repeat the saving throw at the end of each of its\
-    \ turns, ending the effect on itself on a success."
-  "name": "Paralysis Gas (Recharge 5-6)"
+  - "desc": "The pentadrone makes five arm attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+      \ (1d6 + 2) bludgeoning damage."
+    "name": "Arm"
+  - "desc": "The pentadrone exhales a 30-foot cone of gas. Each creature in that area\
+      \ must succeed on a DC 11 Constitution saving throw or be [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed)\
+      \ for 1 minute. A creature can repeat the saving throw at the end of each of\
+      \ its turns, ending the effect on itself on a success."
+    "name": "Paralysis Gas (Recharge 5-6)"
 "source":
-- "MM"
-- "SatO"
+  - "MM"
+  - "ToA"
+  - "KftGV"
 ```
 ^statblock

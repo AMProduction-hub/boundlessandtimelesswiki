@@ -9,9 +9,11 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/humanoid/elf
 statblock: inline
-aliases: ["Shadar-kai Gloom Weaver"]
+statblock-link: "#^statblock"
+aliases:
+- Shadar-kai Gloom Weaver
 ---
-# [Shadar-kai Gloom Weaver](03 - Player Log & Handouts\Mechanics\CLI\bestiary\humanoid/shadar-kai-gloom-weaver-mpmm.md)
+# [Shadar-kai Gloom Weaver](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/shadar-kai-gloom-weaver-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 213, Mordenkainen's Tome of Foes p. 224*  
 
 Although they're formidable warriors, gloom weavers are often content to hide in the shadows, watching as their very presence affects their victims. Their bleak energy weighs down the heart, causing those nearby to feel the approach of death. If detected, gloom weavers use their shadow magic to reduce enemies to ghastly corpses.
@@ -41,63 +43,62 @@ Shadar-kai encountered outside the Shadowfell are often on quests to find the mo
 "ac": !!int "14"
 "hp": !!int "104"
 "hit_dice": "16d8 + 32"
+"modifier": !!int "4"
 "stats":
-- !!int "11"
-- !!int "18"
-- !!int "14"
-- !!int "15"
-- !!int "12"
-- !!int "18"
+  - !!int "11"
+  - !!int "18"
+  - !!int "14"
+  - !!int "15"
+  - !!int "12"
+  - !!int "18"
 "speed": "30 ft."
 "saves":
-  "Dexterity": !!int "8"
-  "Constitution": !!int "6"
+  - "dexterity": "+8"
+  - "constitution": "+6"
 "damage_immunities": "necrotic"
-"condition_immunities": "[charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
-  \ [exhaustion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion)"
+"condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
+  \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion)"
 "senses": "darkvision 60 ft., passive Perception 11"
 "languages": "Common, Elvish"
 "cr": "9"
 "traits":
-- "desc": "The shadar-kai casts one of the following spells, requiring no material\
-    \ components and using Charisma as the spellcasting ability (spell save DC 16):\n\
-    \nAt will: [arcane eye](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/arcane-eye.md),\
-    \ [mage armor](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/mage-armor.md),\
-    \ [minor illusion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/minor-illusion.md),\
-    \ [prestidigitation](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/prestidigitation.md),\
-    \ [speak with dead](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/speak-with-dead.md)\n\
-    \n1/day each: [arcane gate](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/arcane-gate.md),\
-    \ [bane](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/bane.md), [confusion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/confusion.md),\
-    \ [darkness](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/darkness.md),\
-    \ [fear](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/fear.md), [major\
-    \ image](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/major-image.md),\
-    \ [true seeing](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/true-seeing.md)"
-  "name": "Spellcasting"
-- "desc": "Beasts and Humanoids (except elves) have disadvantage on saving throws\
-    \ while within 10 feet of the shadar-kai."
-  "name": "Burden of Time"
-- "desc": "The shadar-kai has advantage on saving throws against being [charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
-    \ and magic can't put it to sleep."
-  "name": "Fey Ancestry"
+  - "desc": "Beasts and Humanoids (except elves) have disadvantage on saving throws\
+      \ while within 10 feet of the shadar-kai."
+    "name": "Burden of Time"
+  - "desc": "The shadar-kai has advantage on saving throws against being [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
+      \ and magic can't put it to sleep."
+    "name": "Fey Ancestry"
 "actions":
-- "desc": "The shadar-kai makes three Shadow Spear attacks. It can replace one attack\
-    \ with a use of Spellcasting."
-  "name": "Multiattack"
-- "desc": "Melee or Ranged Weapon Attack: +8 to hit, reach 5 ft. or range 30/120,\
-    \ one target. Hit: 7 (1d6 + 4) piercing damage plus 26 (4d12) necrotic damage.\
-    \ Hit or Miss: The spear magically returns to the shadar-kai's hand immediately\
-    \ after a ranged attack."
-  "name": "Shadow Spear"
+  - "desc": "The shadar-kai makes three Shadow Spear attacks. It can replace one attack\
+      \ with a use of Spellcasting."
+    "name": "Multiattack"
+  - "desc": "Melee  or Ranged Weapon Attack: +8 to hit, reach 5 ft. or range 30/120,\
+      \ one target. Hit: 7 (1d6 + 4) piercing damage plus 26 (4d12) necrotic\
+      \ damage. Hit or Miss: The spear magically returns to the shadar-kai's hand\
+      \ immediately after a ranged attack."
+    "name": "Shadow Spear"
+  - "desc": "The shadar-kai casts one of the following spells, requiring no material\
+      \ components and using Charisma as the spellcasting ability (spell save DC 16):\n\
+      \nAt will: [arcane eye](03.PlayerLog&Handouts/Mechanics/CLI/spells/arcane-eye.md),\
+      \ [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md), [minor\
+      \ illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md), [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md),\
+      \ [speak with dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/speak-with-dead.md)\n\
+      \n1/day each: [arcane gate](03.PlayerLog&Handouts/Mechanics/CLI/spells/arcane-gate.md),\
+      \ [bane](03.PlayerLog&Handouts/Mechanics/CLI/spells/bane.md), [confusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/confusion.md),\
+      \ [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md), [fear](03.PlayerLog&Handouts/Mechanics/CLI/spells/fear.md),\
+      \ [major image](03.PlayerLog&Handouts/Mechanics/CLI/spells/major-image.md),\
+      \ [true seeing](03.PlayerLog&Handouts/Mechanics/CLI/spells/true-seeing.md)"
+    "name": "Spellcasting"
 "reactions":
-- "desc": "When the shadar-kai takes damage, it turns [invisible](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Invisible)\
-    \ and teleports, along with any equipment it is wearing or carrying, up to 60\
-    \ feet to an unoccupied space it can see. It remains [invisible](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Invisible)\
-    \ until the start of its next turn or until it attacks or casts a spell."
-  "name": "Misty Escape (Recharge 6-6)"
+  - "desc": "When the shadar-kai takes damage, it turns [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible)\
+      \ and teleports, along with any equipment it is wearing or carrying, up to 60\
+      \ feet to an unoccupied space it can see. It remains [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible)\
+      \ until the start of its next turn or until it attacks or casts a spell."
+    "name": "Misty Escape (Recharge 6-6)"
 "source":
-- "MPMM"
-- "MTF"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/humanoid/token/shadar-kai-gloom-weaver-mpmm.webp"
+  - "MPMM"
+  - "MTF"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/shadar-kai-gloom-weaver-mpmm.webp"
 ```
 ^statblock
 

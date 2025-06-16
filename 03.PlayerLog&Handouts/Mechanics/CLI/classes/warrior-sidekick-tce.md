@@ -4,7 +4,8 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/class/warrior-sidekick
 - ttrpg-cli/compendium/src/5e/tce
-aliases: ["Warrior Sidekick"]
+aliases:
+- Warrior Sidekick
 ---
 # Warrior Sidekick
 *Source: Tasha's Cauldron of Everything p. 146*  
@@ -64,7 +65,7 @@ A Warrior sidekick grows in martial prowess as it fights by your side. It might 
 ### Sidekick Class (Level 1)
 
 > [!note]
-> Note: this class is intended for NPC [sidekicks](sidekicks-tce.md).
+> Note: this class is intended for NPC [sidekicks](03.PlayerLog&Handouts/Mechanics/CLI/rules/variant-rules/sidekicks-tce.md).
 
 ### Bonus Proficiencies (Level 1)
 
@@ -89,7 +90,7 @@ Each warrior focuses on offense or defense in their training. Choose one of the 
 
 *2nd-level Warrior feature*
 
-The sidekick can use a bonus action on its turn to regain hit points equal to `1d10` + its level in this class. Once it uses this feature, it must finish a short or long rest before it can use it again.
+The sidekick can use a bonus action on its turn to regain hit points equal to `d10` + its level in this class. Once it uses this feature, it must finish a short or long rest before it can use it again.
 
 The sidekick can use this feature twice between rests starting at 20th level.
 
@@ -111,7 +112,7 @@ If your DM allows the use of feats, the sidekick may instead take a feat.
 
 *6th-level Warrior feature*
 
-The sidekick can attack twice, instead of once, whenever it takes the [Attack](actions.md#Attack) action on its turn.
+The sidekick can attack twice, instead of once, whenever it takes the [Attack](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Attack) action on its turn.
 
 The number of attacks increases to three when the sidekick reaches 15th level.
 
@@ -165,7 +166,7 @@ If your DM allows the use of feats, the sidekick may instead take a feat.
 
 *15th-level Warrior feature*
 
-The sidekick can attack twice, instead of once, whenever it takes the [Attack](actions.md#Attack) action on its turn.
+The sidekick can attack twice, instead of once, whenever it takes the [Attack](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Attack) action on its turn.
 
 The number of attacks increases to three when the sidekick reaches 15th level.
 

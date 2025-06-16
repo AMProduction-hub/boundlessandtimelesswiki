@@ -11,9 +11,11 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/fey
 statblock: inline
-aliases: ["Darkling Elder"]
+statblock-link: "#^statblock"
+aliases:
+- Darkling Elder
 ---
-# [Darkling Elder](03 - Player Log & Handouts\Mechanics\CLI\bestiary\fey/darkling-elder-mpmm.md)
+# [Darkling Elder](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fey/darkling-elder-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 84, Volo's Guide to Monsters p. 134*  
 
 A wise and respected darkling can undergo a ritual to become an elder. Other elders mark the supplicant with glowing tattoos, channeling away some of the darkling's absorbed light. If the ritual succeeds, the darkling grows into a taller, elf-like form. The darkling perishes if the ritual fails.
@@ -28,46 +30,52 @@ Ancient legends speak of a seelie fey who betrayed the Summer Queen. In the Summ
 "type": "fey"
 "alignment": "Typically  Chaotic Neutral"
 "ac": !!int "15"
-"ac_class": "[studded leather armor](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/items/studded-leather-armor.md)"
+"ac_class": "[studded leather armor](03.PlayerLog&Handouts/Mechanics/CLI/items/studded-leather-armor.md)"
 "hp": !!int "27"
 "hit_dice": "5d8 + 5"
+"modifier": !!int "3"
 "stats":
-- !!int "13"
-- !!int "17"
-- !!int "12"
-- !!int "10"
-- !!int "14"
-- !!int "13"
+  - !!int "13"
+  - !!int "17"
+  - !!int "12"
+  - !!int "10"
+  - !!int "14"
+  - !!int "13"
 "speed": "30 ft."
 "skillsaves":
-  "Deception": !!int "3"
-  "Stealth": !!int "7"
-  "Perception": !!int "6"
-  "Acrobatics": !!int "5"
+  - "name": "[Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics)"
+    "desc": "+5"
+  - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
+    "desc": "+3"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+6"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+7"
 "senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 16"
 "languages": "Elvish, Sylvan"
 "cr": "2"
 "traits":
-- "desc": "The darkling elder casts [darkness](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/darkness.md),\
-    \ requiring no spell components and using Wisdom as the spellcasting ability.\n"
-  "name": "Darkness (Recharges after a Short or Long Rest)"
-- "desc": "When the darkling elder dies, magical light flashes out from it in a 10-foot\
-    \ radius as its body and possessions, other than metal or magic objects, burn\
-    \ to ash. Any creature in that area must make a DC 11 Constitution saving throw.\
-    \ On a failed save, the creature takes 7 (2d6) radiant damage and is [blinded](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Blinded)\
-    \ until the end of its next turn. On a successful save, the creature takes half\
-    \ as much damage and isn't [blinded](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Blinded)."
-  "name": "Death Burn"
+  - "desc": "When the darkling elder dies, magical light flashes out from it in a\
+      \ 10-foot radius as its body and possessions, other than metal or magic objects,\
+      \ burn to ash. Any creature in that area must make a DC 11 Constitution saving\
+      \ throw. On a failed save, the creature takes 7 (2d6) radiant damage and is\
+      \ [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded)\
+      \ until the end of its next turn. On a successful save, the creature takes half\
+      \ as much damage and isn't [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded)."
+    "name": "Death Burn"
 "actions":
-- "desc": "The darkling elder makes two Scimitar attacks."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6\
-    \ + 3) slashing damage plus 7 (2d6) necrotic damage."
-  "name": "Scimitar"
+  - "desc": "The darkling elder makes two Scimitar attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+      \ (1d6 + 3) slashing damage plus 7 (2d6) necrotic damage."
+    "name": "Scimitar"
+  - "desc": "The darkling elder casts [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
+      \ requiring no spell components and using Wisdom as the spellcasting ability.\n"
+    "name": "Darkness (Recharges after a Short or Long Rest)"
 "source":
-- "MPMM"
-- "VGM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/fey/token/darkling-elder-mpmm.webp"
+  - "MPMM"
+  - "VGM"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/token/darkling-elder-mpmm.webp"
 ```
 ^statblock
 

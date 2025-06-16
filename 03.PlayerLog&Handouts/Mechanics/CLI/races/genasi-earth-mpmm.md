@@ -4,11 +4,12 @@ cssclasses: json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/race/genasi/earth
-aliases: ["Genasi (Earth)"]
+aliases:
+- Genasi (Earth)
 ---
 # Genasi (Earth)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 17*  
-![](genasi.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/races/img/genasi.webp#right)
 
 - **Ability Scores**: Choose one of: (a) Choose any +2, choose any other +1; (b) Choose any +1, choose any other +1, choose any other +1
 - **Size**: Small or Medium
@@ -35,9 +36,9 @@ You can move across difficult terrain without expending extra movement if you ar
 
 ### Merge with Stone
 
-You know the [blade ward](blade-ward.md) cantrip. You can cast it as normal, and you can also cast it as a bonus action a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest.
+You know the [blade ward](03.PlayerLog&Handouts/Mechanics/CLI/spells/blade-ward.md) cantrip. You can cast it as normal, and you can also cast it as a bonus action a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest.
 
-Starting at 5th level, you can cast the [pass without trace](pass-without-trace.md) spell with this trait, without requiring a material component. Once you cast that spell with this trait, you can't do so again until you finish a long rest. You can also cast it using any spell slots you have of 2nd level or higher.
+Starting at 5th level, you can cast the [pass without trace](03.PlayerLog&Handouts/Mechanics/CLI/spells/pass-without-trace.md) spell with this trait, without requiring a material component. Once you cast that spell with this trait, you can't do so again until you finish a long rest. You can also cast it using any spell slots you have of 2nd level or higher.
 
 Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race).
 

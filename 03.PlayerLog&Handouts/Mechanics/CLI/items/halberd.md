@@ -14,7 +14,7 @@ aliases:
 
 
 - **Damage**: 1d10 slashing
-- **Properties**: [Heavy](item-properties.md#Heavy), [Reach](item-properties.md#Reach), [Two-Handed](item-properties.md#Two-Handed)
+- **Properties**: [Heavy](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Heavy), [Reach](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Reach), [Two-Handed](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Two-Handed)
 - **Cost**: 20 gp
 - **Weight**: 6.0 lbs.
 

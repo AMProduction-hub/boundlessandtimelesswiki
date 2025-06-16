@@ -10,9 +10,11 @@ tags:
 - ttrpg-cli/monster/size/small
 - ttrpg-cli/monster/type/monstrosity
 statblock: inline
-aliases: ["Wretched Sorrowsworn"]
+statblock-link: "#^statblock"
+aliases:
+- Wretched Sorrowsworn
 ---
-# [Wretched Sorrowsworn](03 - Player Log & Handouts\Mechanics\CLI\bestiary\monstrosity/wretched-sorrowsworn-mpmm.md)
+# [Wretched Sorrowsworn](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/wretched-sorrowsworn-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 224, Mordenkainen's Tome of Foes p. 233*  
 
 Horrid little monsters, wretched sorrowsworn—or the Wretched—gather in packs to scour the Shadowfell for prey. These desperate entities subsist on life force; when they find a creature, they surge forward to sink their fangs into their victims and drink deep.
@@ -30,38 +32,39 @@ The Shadowfell's pervasive melancholy sometimes gives rise to strange incarnatio
 "ac_class": "natural armor"
 "hp": !!int "10"
 "hit_dice": "4d6 - 4"
+"modifier": !!int "1"
 "stats":
-- !!int "7"
-- !!int "12"
-- !!int "9"
-- !!int "5"
-- !!int "6"
-- !!int "5"
+  - !!int "7"
+  - !!int "12"
+  - !!int "9"
+  - !!int "5"
+  - !!int "6"
+  - !!int "5"
 "speed": "40 ft."
 "damage_resistances": "bludgeoning, piercing, slashing while in dim light or darkness"
 "senses": "darkvision 60 ft., passive Perception 8"
 "languages": ""
 "cr": "1/4"
 "traits":
-- "desc": "The sorrowsworn has advantage on an attack roll against a creature if at\
-    \ least one of the sorrowsworn's allies is within 5 feet of the creature and the\
-    \ ally isn't [incapacitated](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated).\
-    \ The sorrowsworn otherwise has disadvantage on attack rolls."
-  "name": "Wretched Pack Tactics"
+  - "desc": "The sorrowsworn has advantage on an attack roll against a creature if\
+      \ at least one of the sorrowsworn's allies is within 5 feet of the creature\
+      \ and the ally isn't [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated).\
+      \ The sorrowsworn otherwise has disadvantage on attack rolls."
+    "name": "Wretched Pack Tactics"
 "actions":
-- "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (1d10\
-    \ + 1) piercing damage, and the sorrowsworn attaches to the target. While attached,\
-    \ the sorrowsworn can't attack, and at the start of each of the sorrowsworn's\
-    \ turns, the target takes 6 (1d10 + 1) necrotic damage.\n\nThe attached sorrowsworn\
-    \ moves with the target whenever the target moves, requiring none of the sorrowsworn's\
-    \ movement. The sorrowsworn can detach itself by spending 5 feet of its movement\
-    \ on its turn. A creature, including the target, can use its action to detach\
-    \ the sorrowsworn."
-  "name": "Bite"
+  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6\
+      \ (1d10 + 1) piercing damage, and the sorrowsworn attaches to the target.\
+      \ While attached, the sorrowsworn can't attack, and at the start of each of\
+      \ the sorrowsworn's turns, the target takes 6 (1d10 + 1) necrotic damage.\n\
+      \nThe attached sorrowsworn moves with the target whenever the target moves,\
+      \ requiring none of the sorrowsworn's movement. The sorrowsworn can detach itself\
+      \ by spending 5 feet of its movement on its turn. A creature, including the\
+      \ target, can use its action to detach the sorrowsworn."
+    "name": "Bite"
 "source":
-- "MPMM"
-- "MTF"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/monstrosity/token/wretched-sorrowsworn-mpmm.webp"
+  - "MPMM"
+  - "MTF"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/token/wretched-sorrowsworn-mpmm.webp"
 ```
 ^statblock
 

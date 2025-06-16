@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
-aliases: ["Villains; Villain's Methods"]
+aliases:
+- Villains; Villain's Methods
 ---
 # Villains; Villain's Methods
 *Source: Dungeon Master's Guide p. 94* 

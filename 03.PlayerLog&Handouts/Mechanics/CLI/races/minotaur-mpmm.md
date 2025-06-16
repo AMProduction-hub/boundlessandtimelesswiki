@@ -4,7 +4,8 @@ cssclasses: json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/race/minotaur
-aliases: ["Minotaur"]
+aliases:
+- Minotaur
 ---
 # Minotaur
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 27*  
@@ -18,15 +19,15 @@ aliases: ["Minotaur"]
 
 ### Horns
 
-You have horns that you can use to make unarmed strikes. When you hit with them, the strike deals `1d6` + your Strength modifier piercing damage, instead of the bludgeoning damage normal for an unarmed strike.
+You have horns that you can use to make unarmed strikes. When you hit with them, the strike deals `d6` + your Strength modifier piercing damage, instead of the bludgeoning damage normal for an unarmed strike.
 
 ### Goring Rush
 
-Immediately after you take the [Dash](actions.md#Dash) action on your turn and move at least 20 feet, you can make one melee attack with your Horns as a bonus action.
+Immediately after you take the [Dash](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Dash) action on your turn and move at least 20 feet, you can make one melee attack with your Horns as a bonus action.
 
 ### Hammering Horns
 
-Immediately after you hit a creature with a melee attack as part of the [Attack](actions.md#Attack) action on your turn, you can use a bonus action to attempt to push that target with your horns. The target must be within 5 feet of you and no more than one size larger than you. Unless it succeeds on a Strength saving throw against a DC equal to 8 + your proficiency bonus + your Strength modifier, you can push it up to 10 feet away from you.
+Immediately after you hit a creature with a melee attack as part of the [Attack](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Attack) action on your turn, you can use a bonus action to attempt to push that target with your horns. The target must be within 5 feet of you and no more than one size larger than you. Unless it succeeds on a Strength saving throw against a DC equal to 8 + your proficiency bonus + your Strength modifier, you can push it up to 10 feet away from you.
 
 ### Labyrinthine Recall
 

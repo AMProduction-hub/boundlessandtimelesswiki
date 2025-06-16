@@ -14,11 +14,12 @@ classes:
 - Cleric (Arcana Domain)
 - Sorcerer
 - Wizard
-aliases: ["Prismatic Spray"]
+aliases:
+- Prismatic Spray
 ---
 # Prismatic Spray
 *7th-level, Evocation*  
-![](prismatic-spray.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/spells/img/prismatic-spray.webp#right)
 
 - **Casting time:** 1 Action
 - **Range:** Self (60-foot Cone)
@@ -49,11 +50,11 @@ The target takes `10d6` cold damage on a failed save, or half as much damage on 
 
 ## 6-Indigo
 
-On a failed save, the target is [restrained](conditions.md#Restrained). It must then make a Constitution saving throw at the end of each of its turns. If it successfully saves three times, the spell ends. If it fails its save three times, it permanently turns to stone and is subjected to the [petrified](conditions.md#Petrified) condition. The successes and failures don't need to be consecutive, keep track of both until the target collects three of a kind.
+On a failed save, the target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained). It must then make a Constitution saving throw at the end of each of its turns. If it successfully saves three times, the spell ends. If it fails its save three times, it permanently turns to stone and is subjected to the [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified) condition. The successes and failures don't need to be consecutive, keep track of both until the target collects three of a kind.
 
 ## 7-Violet
 
-On a failed save, the target is [blinded](conditions.md#Blinded). It must then make a Wisdom saving throw at the start of your next turn. A successful save ends the blindness. If it fails that save, the creature is transported to another plane of existence of the DM's choosing and is no longer [blinded](conditions.md#Blinded). (Typically, a creature that is on a plane that isn't its home plane is banished home, while other creatures are usually cast into the Astral or Ethereal planes.)
+On a failed save, the target is [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded). It must then make a Wisdom saving throw at the start of your next turn. A successful save ends the blindness. If it fails that save, the creature is transported to another plane of existence of the DM's choosing and is no longer [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded). (Typically, a creature that is on a plane that isn't its home plane is banished home, while other creatures are usually cast into the Astral or Ethereal planes.)
 
 ## 8-Special
 
@@ -61,6 +62,6 @@ The target is struck by two rays. Roll twice more, rerolling any 8.
 
 ## Summary
 
-**Classes**: [Bard](list-spells-classes-bard.md); [Wizard](list-spells-classes-wizard.md); [Sorcerer](list-spells-classes-sorcerer.md); [Cleric (Arcana Domain)](list-spells-classes-cleric-arcana-domain-scag.md "subclass=SCAG")
+**Classes**: [Cleric (Arcana Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcana-domain-scag.md "subclass=SCAG"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook p. 267. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

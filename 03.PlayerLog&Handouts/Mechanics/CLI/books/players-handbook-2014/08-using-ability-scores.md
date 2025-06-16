@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/phb
-aliases: ["Using Ability Scores"]
+aliases:
+- Using Ability Scores
 ---
 # Using Ability Scores
 *Source: Player's Handbook (2014), p. 173* 
@@ -23,7 +24,7 @@ The three main rolls of the game—the ability check, the saving throw, and the 
 
 This chapter focuses on how to use ability checks and saving throws, covering the fundamental activities that creatures attempt in the game. Rules for attack rolls appear in chapter 9.
 
-![](ch7.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/players-handbook-2014/img/ch7.webp#center)
 
 ## Ability Scores and Modifiers
 
@@ -37,7 +38,7 @@ To determine an ability modifier without consulting the table, subtract 10 from 
 
 Because ability modifiers affect almost every attack roll, ability check, and saving throw, ability modifiers come up in play more often than their associated scores.
 
-![Ability Scores and Modifiers](ability-scores-and-modifiers.md)
+![Ability Scores and Modifiers](03.PlayerLog&Handouts/Mechanics/CLI/tables/ability-scores-and-modifiers-phb.md)
 
 ## Advantage and Disadvantage
 
@@ -69,7 +70,7 @@ An ability check tests a character's or monster's innate talent and training in 
 
 For every ability check, the DM decides which of the six abilities is relevant to the task at hand and the difficulty of the task, represented by a Difficulty Class. The more difficult a task, the higher its DC. The Typical Difficulty Classes table shows the most common DCs.
 
-![Ability Checks; Typical Difficulty Classes](ability-checks-typical-difficulty-classes.md)
+![Ability Checks; Typical Difficulty Classes](03.PlayerLog&Handouts/Mechanics/CLI/tables/ability-checks-typical-difficulty-classes-phb.md)
 
 To make an ability check, roll a d20 and add the relevant ability modifier.
 
@@ -91,7 +92,7 @@ For example, a Dexterity check might reflect a character's attempt to pull off a
 
 The skills related to each ability score are shown in the following list. (No skills are related to Constitution.) See an ability's description in the later sections of this chapter for examples of how to use a skill associated with an ability.
 
-![Skills](03.PlayerLog&Handouts/Mechanics/CLI/tables/skills.md)
+![Skills](03.PlayerLog&Handouts/Mechanics/CLI/tables/skills-phb.md)
 
 Sometimes, the DM might ask for an ability check using a specific skill—for example, "Make a Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) check." At other times, a player might ask the DM if proficiency in a particular skill applies to a check. In either case, proficiency in a skill means an individual can add his or her proficiency bonus to ability checks that involve that skill. Without proficiency in the skill, the individual makes a normal ability check.
 
@@ -119,7 +120,7 @@ The rules on hiding in the "Dexterity" section below rely on passive checks, as 
 
 ### Working Together
 
-Sometimes two or more characters team up to attempt a task. The character who's leading the effort—or the one with the highest ability modifier—can make an ability check with advantage, reflecting the help provided by the other characters. In combat, this requires the [Help](actions.md#Help) action (see chapter 9).
+Sometimes two or more characters team up to attempt a task. The character who's leading the effort—or the one with the highest ability modifier—can make an ability check with advantage, reflecting the help provided by the other characters. In combat, this requires the [Help](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Help) action (see chapter 9).
 
 A character can only provide help if the task is one that he or she could attempt alone. For example, trying to open a lock requires proficiency with thieves' tools, so a character who lacks that proficiency can't help another character in that task. Moreover, a character can help only when two or more individuals working together would actually be productive. Some tasks, such as threading a needle, are no easier with help.
 
@@ -131,7 +132,7 @@ To make a group ability check, everyone in the group makes the ability check. If
 
 Group checks don't come up very often, and they're most useful when all the characters succeed or fail as a group. For example, when adventurers are navigating a swamp, the DM might call for a group Wisdom ([Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)) check to see if the characters can avoid the quicksand, sinkholes, and other natural hazards of the environment. If at least half the group succeeds, the successful characters are able to guide their companions out of danger. Otherwise, the group stumbles into one of these hazards.
 
-![](c71.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/players-handbook-2014/img/c71.webp#center)
 
 ## Using Each Ability
 
@@ -241,7 +242,7 @@ At the beginning of every combat, you roll initiative by making a Dexterity chec
 > 
 > The DM decides when circumstances are appropriate for hiding. When you try to hide, make a Dexterity ([Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)) check. Until you are discovered or you stop hiding, that check's total is contested by the Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) check of any creature that actively searches for signs of your presence.
 > 
-> You can't hide from a creature that can see you clearly, and you give away your position if you make noise, such as shouting a warning or knocking over a vase. An [invisible](conditions.md#Invisible) creature can always try to hide. Signs of its passage might still be noticed, and it does have to stay quiet.
+> You can't hide from a creature that can see you clearly, and you give away your position if you make noise, such as shouting a warning or knocking over a vase. An [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible) creature can always try to hide. Signs of its passage might still be noticed, and it does have to stay quiet.
 > 
 > In combat, most creatures stay alert for signs of danger all around, so if you come out of hiding and approach a creature, it usually sees you. However, under certain circumstances, the DM might allow you to stay hidden as you approach a creature that is distracted, allowing you to gain advantage on an attack roll before you are seen.
 > 
@@ -391,7 +392,7 @@ Your Charisma ([Performance](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md
 
 When you attempt to influence someone or a group of people with tact, social graces, or good nature, the DM might ask you to make a Charisma ([Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion)) check. Typically, you use persuasion when acting in good faith, to foster friendships, make cordial requests, or exhibit proper etiquette. Examples of persuading others include convincing a chamberlain to let your party see the king, negotiating peace between warring tribes, or inspiring a crowd of townsfolk.
 
-![](c72.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/players-handbook-2014/img/c72.webp#center)
 
 ##### Other Charisma Checks
 

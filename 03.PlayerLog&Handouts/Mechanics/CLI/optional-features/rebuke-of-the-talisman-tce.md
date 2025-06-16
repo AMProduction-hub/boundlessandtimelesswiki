@@ -4,7 +4,8 @@ cssclasses: json5e-feat
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/optional-feature/ei
-aliases: ["Rebuke of the Talisman"]
+aliases:
+- Rebuke of the Talisman
 ---
 # Rebuke of the Talisman
 *Source: Tasha's Cauldron of Everything p. 71*  

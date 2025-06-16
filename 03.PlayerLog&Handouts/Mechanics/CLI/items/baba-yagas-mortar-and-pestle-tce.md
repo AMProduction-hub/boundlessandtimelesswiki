@@ -10,7 +10,7 @@ aliases:
 ---
 # Baba Yaga's Mortar and Pestle
 *Wondrous item, artifact (requires attunement)*  
-![](baba-yagas-mortar-and-pestle.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/baba-yagas-mortar-and-pestle.webp#right)
 
 
 The creations of the immortal hag Baba Yaga defy the laws of mortal magic. Among the notorious implements that cement her legend on countless worlds are the artifacts that propel her through the planes: Baba Yaga's Mortar and Pestle. These signature tools of Baba Yaga are a single artifact for purposes of attunement. Should the two objects become separated, the pestle appears next to the mortar at the next dawn.
@@ -19,9 +19,9 @@ The creations of the immortal hag Baba Yaga defy the laws of mortal magic. Among
 
 This artifact has the following random properties, which you can determine by rolling on the tables in the "Artifacts" section of the "Dungeon Master's Guide":
 
-- 2 [minor beneficial](artifact-properties-minor-beneficial-properties.md) properties  
-- 1 [major beneficial](artifact-properties-major-beneficial-properties.md) property  
-- 1 [minor detrimental](artifact-properties-minor-detrimental-properties.md) property  
+- 2 [minor beneficial](03.PlayerLog&Handouts/Mechanics/CLI/tables/artifact-properties-minor-beneficial-properties.md) properties  
+- 1 [major beneficial](03.PlayerLog&Handouts/Mechanics/CLI/tables/artifact-properties-major-beneficial-properties.md) property  
+- 1 [minor detrimental](03.PlayerLog&Handouts/Mechanics/CLI/tables/artifact-properties-minor-detrimental-properties.md) property  
 
 ## Properties of the Mortar
 
@@ -31,13 +31,13 @@ The mortar is a Tiny wooden bowl. However, the mortar increases in size to accom
 
 The pestle is a 6-inch-long, worn wooden tool. Once during your turn while you are holding the pestle, you can extend it into a quarterstaff or shrink it back into a pestle (no action required). As a quarterstaff, the pestle is a magic weapon that grants a +3 bonus to attack and damage rolls made with it.
 
-The pestle has 12 charges. When you hit with a melee attack using the pestle, you can expend up to 3 of its charges to deal an extra `1d8` force damage for each charge expended. The pestle regains all expended charges daily at dawn.
+The pestle has 12 charges. When you hit with a melee attack using the pestle, you can expend up to 3 of its charges to deal an extra `d8` force damage for each charge expended. The pestle regains all expended charges daily at dawn.
 
 ## Perfect Tools
 
 While holding the mortar and pestle, you can use your action to say the name of any nonmagical plant, mineral, or fluid and an amount of the material worth 10 gp or less. The mortar instantly fills with the desired amount of that material. Once you use this action, you can't do so again until you finish a short or long rest.
 
-You can also use the artifact as [alchemist's supplies](alchemists-supplies.md), [brewer's supplies](brewers-supplies.md), [cook's utensils](cooks-utensils.md), an [herbalism kit](herbalism-kit.md), and a [poisoner's kit](poisoners-kit.md). You have advantage on any check you make using the artifact as one of these tools.
+You can also use the artifact as [alchemist's supplies](03.PlayerLog&Handouts/Mechanics/CLI/items/alchemists-supplies.md), [brewer's supplies](03.PlayerLog&Handouts/Mechanics/CLI/items/brewers-supplies.md), [cook's utensils](03.PlayerLog&Handouts/Mechanics/CLI/items/cooks-utensils.md), an [herbalism kit](03.PlayerLog&Handouts/Mechanics/CLI/items/herbalism-kit.md), and a [poisoner's kit](03.PlayerLog&Handouts/Mechanics/CLI/items/poisoners-kit.md). You have advantage on any check you make using the artifact as one of these tools.
 
 ## Primal Parts
 

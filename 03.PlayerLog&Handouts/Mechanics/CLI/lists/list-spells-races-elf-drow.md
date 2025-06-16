@@ -3,18 +3,19 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/spell/list/subrace/elf-drow
-aliases: ["Spells for Elf (Drow)"]
+aliases:
+- Spells for Elf (Drow)
 ---
 # Spells for Elf (Drow)
 
 ## Cantrip
 
-- [Dancing Lights](dancing-lights.md "PHB") as cantrip
+- [Dancing Lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md "PHB") as cantrip
 
 ## 1st Level
 
-- [Faerie Fire](faerie-fire.md "PHB") as cantrip
+- [Faerie Fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/faerie-fire.md "PHB") as cantrip
 
 ## 2nd Level
 
-- [Darkness](darkness.md "PHB") as cantrip
+- [Darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md "PHB") as cantrip

@@ -6,7 +6,8 @@ tags:
 - ttrpg-cli/vehicle/size/huge
 - ttrpg-cli/vehicle/terrain/land
 - ttrpg-cli/vehicle/type/infernal-war-machine
-aliases: ["Tormentor"]
+aliases:
+- Tormentor
 ---
 # Tormentor
 %%-- Embedded content starts on the next line. --%%
@@ -16,7 +17,7 @@ The Tormentor handles like a dune buggy and is designed for raiding and scouting
 
 ```ad-statblock
 title: Tormentor
-![](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/vehicles/token/tormentor-bgdia.webp#token)
+![](03.PlayerLog&Handouts/Mechanics/CLI/vehicles/token/tormentor-bgdia.webp#token)
 *Huge vehicle (1 ton 1000 lb.); land*
 
 - **Cargo Capacity**  500 lb.
@@ -30,26 +31,26 @@ title: Tormentor
 |16 (+3)|14 (+2)|14 (+2)| 0 (-5)| 0 (-5)| 0 (-5)|
 
 - **Damage Immunities** fire, poison, psychic
-- **Condition Immunities** [blinded](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Blinded), [charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed), [deafened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Deafened), [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened), [paralyzed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed), [petrified](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Petrified), [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned), [stunned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Stunned), [unconscious](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)
+- **Condition Immunities** [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded), [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened), [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened), [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed), [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified), [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned), [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned), [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)
 
 ## Traits
 
-**Crushing Wheels** The Tormentor can move through the space of any Medium or smaller creature. When it does, the creature must succeed on a DC 13 Dexterity saving throw or take 11 (`2d10`) bludgeoning damage and be knocked [prone](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Prone).If the creature was already [prone](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Prone), it takes an extra 11 (`2d10`) bludgeoning damage.This trait can't be used against a particular creature more than once each turn.
+**Crushing Wheels.** The Tormentor can move through the space of any Medium or smaller creature. When it does, the creature must succeed on a DC 13 Dexterity saving throw or take 11 (`2d10`) bludgeoning damage and be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone).If the creature was already [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), it takes an extra 11 (`2d10`) bludgeoning damage.This trait can't be used against a particular creature more than once each turn.
 
-**Magic Weapons** The Tormentor's weapon attacks are magical.
+**Magic Weapons.** The Tormentor's weapon attacks are magical.
 
-**Prone Deficiency** If the Tormentor rolls over and falls [prone](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Prone), it can't right itself and is [incapacitated](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated) until flipped upright.
+**Prone Deficiency.** If the Tormentor rolls over and falls [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), it can't right itself and is [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated) until flipped upright.
 
-**Raking Scythes** When the Tormentor moves within 5 feet of a creature that isn't [prone](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Prone) or another vehicle for the first time on a turn, it can rake the creature or vehicle with its protruding blades for 13 (`2d10 + 2`) slashing damage. A creature moves out of the way and takes no damage if it succeeds on a DC 13 Dexterity saving throw.A vehicle moves out of the way and takes no damage if its driver succeeds on the saving throw.
+**Raking Scythes.** When the Tormentor moves within 5 feet of a creature that isn't [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone) or another vehicle for the first time on a turn, it can rake the creature or vehicle with its protruding blades for 13 (`2d10 + 2`) slashing damage. A creature moves out of the way and takes no damage if it succeeds on a DC 13 Dexterity saving throw.A vehicle moves out of the way and takes no damage if its driver succeeds on the saving throw.
 
 ## Action Stations
 
-**Helm (Requires 1 Crew and Grants Three-Quarters Cover)** Drive and steer the Tormentor
+**Helm (Requires 1 Crew and Grants Three-Quarters Cover).** Drive and steer the Tormentor
 
-**Harpoon Flinger (Requires 1 Crew and Grants Half Cover)** *Ranged Weapon Attack:* `+7` to hit, range 120 ft., one target. *Hit:* 11 (`2d8 + 2`) piercing damage.
+**Harpoon Flinger (Requires 1 Crew and Grants Half Cover).** *Ranged Weapon Attack:* `+7` to hit, range 120 ft., one target. *Hit:* 11 (`2d8 + 2`) piercing damage.
 
 ## Reactions
 
-**Juke** If the Tormentor is able to move, the driver can use its reaction to grant the Tormentor advantage on a Dexterity saving throw.
+**Juke.** If the Tormentor is able to move, the driver can use its reaction to grant the Tormentor advantage on a Dexterity saving throw.
 ```
 ^statblock

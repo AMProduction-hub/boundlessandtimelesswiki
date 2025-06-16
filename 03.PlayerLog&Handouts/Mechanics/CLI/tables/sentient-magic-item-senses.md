@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
-aliases: ["Sentient Magic Item Senses"]
+aliases:
+- Sentient Magic Item Senses
 ---
 # Sentient Magic Item Senses
 *Source: Dungeon Master's Guide p. 214. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>* 

@@ -14,6 +14,6 @@ aliases:
 
 
 
-When you drink this potion, you gain the effect of the [haste](haste.md) spell for 1 minute (no [concentration](conditions.md#Concentration) required). The potion's yellow fluid is streaked with black and swirls on its own.
+When you drink this potion, you gain the effect of the [haste](03.PlayerLog&Handouts/Mechanics/CLI/spells/haste.md) spell for 1 minute (no [concentration](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Concentration) required). The potion's yellow fluid is streaked with black and swirls on its own.
 
 *Source: Dungeon Master's Guide p. 188. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

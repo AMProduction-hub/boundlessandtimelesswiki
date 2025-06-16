@@ -4,7 +4,8 @@ cssclasses: json5e-feat
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/optional-feature/mv-b
-aliases: ["Parry"]
+aliases:
+- Parry
 ---
 # Parry
 *Source: Player's Handbook p. 74*  

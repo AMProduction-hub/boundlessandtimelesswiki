@@ -8,10 +8,12 @@ tags:
 - ttrpg-cli/monster/size/small
 - ttrpg-cli/monster/type/elemental
 statblock: inline
-aliases: ["Magma Mephit"]
+statblock-link: "#^statblock"
+aliases:
+- Magma Mephit
 ---
-# [Magma Mephit](03 - Player Log & Handouts\Mechanics\CLI\bestiary\elemental/magma-mephit.md)
-*Source: Monster Manual p. 216, Spelljammer Academy. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Magma Mephit](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\elemental/magma-mephit.md)
+*Source: Monster Manual p. 216, Princes of the Apocalypse, Storm King's Thunder, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Explorer's Guide to Wildemount. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 ## Mephits
 
@@ -35,46 +37,53 @@ Composed of earth and fire, magma mephits glow a dull red color as they perspire
 "ac": !!int "11"
 "hp": !!int "22"
 "hit_dice": "5d6 + 5"
+"modifier": !!int "1"
 "stats":
-- !!int "8"
-- !!int "12"
-- !!int "12"
-- !!int "7"
-- !!int "10"
-- !!int "10"
+  - !!int "8"
+  - !!int "12"
+  - !!int "12"
+  - !!int "7"
+  - !!int "10"
+  - !!int "10"
 "speed": "30 ft., fly 30 ft."
 "skillsaves":
-  "Stealth": !!int "3"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+3"
 "damage_vulnerabilities": "cold"
 "damage_immunities": "fire, poison"
-"condition_immunities": "[poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "darkvision 60 ft., passive Perception 10"
 "languages": "Ignan, Terran"
 "cr": "1/2"
 "traits":
-- "desc": "The mephit can innately cast [heat metal](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/heat-metal.md)\
-    \ (spell save DC 10), requiring no material components. Its innate spellcasting\
-    \ ability is Charisma.\n\nAt will: [heat metal](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/heat-metal.md)"
-  "name": "Innate Spellcasting (1/Day)"
-- "desc": "When the mephit dies, it explodes in a burst of lava. Each creature within\
-    \ 5 feet of it must make a DC 11 Dexterity saving throw, taking 7 (2d6) fire\
-    \ damage on a failed save, or half as much damage on a successful one."
-  "name": "Death Burst"
-- "desc": "While the mephit remains motionless, it is indistinguishable from an ordinary\
-    \ mound of magma."
-  "name": "False Appearance"
+  - "desc": "The mephit can innately cast [heat metal](03.PlayerLog&Handouts/Mechanics/CLI/spells/heat-metal.md)\
+      \ (spell save DC 10), requiring no material components. Its innate spellcasting\
+      \ ability is Charisma.\n"
+    "name": "Innate Spellcasting (1/Day)"
+  - "desc": "When the mephit dies, it explodes in a burst of lava. Each creature within\
+      \ 5 feet of it must make a DC 11 Dexterity saving throw, taking 7 (2d6) fire\
+      \ damage on a failed save, or half as much damage on a successful one."
+    "name": "Death Burst"
+  - "desc": "While the mephit remains motionless, it is indistinguishable from an\
+      \ ordinary mound of magma."
+    "name": "False Appearance"
 "actions":
-- "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 3\
-    \ (1d4 + 1) slashing damage plus 2 (1d4) fire damage."
-  "name": "Claws"
-- "desc": "The mephit exhales a 15-foot cone of fire. Each creature in that area must\
-    \ make a DC 11 Dexterity saving throw, taking 7 (2d6) fire damage on a failed\
-    \ save, or half as much damage on a successful one."
-  "name": "Fire Breath (Recharge 6)"
+  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit:\
+      \ 3 (1d4 + 1) slashing damage plus 2 (d4) fire damage."
+    "name": "Claws"
+  - "desc": "The mephit exhales a 15-foot cone of fire. Each creature in that area\
+      \ must make a DC 11 Dexterity saving throw, taking 7 (2d6) fire damage on\
+      \ a failed save, or half as much damage on a successful one."
+    "name": "Fire Breath (Recharge 6)"
 "source":
-- "MM"
-- "SjA"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/elemental/token/magma-mephit.webp"
+  - "MM"
+  - "PotA"
+  - "SKT"
+  - "ToA"
+  - "WDMM"
+  - "GoS"
+  - "EGW"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/token/magma-mephit.webp"
 ```
 ^statblock
 

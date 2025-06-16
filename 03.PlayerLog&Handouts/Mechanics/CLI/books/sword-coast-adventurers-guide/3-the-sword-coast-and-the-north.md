@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/scag
-aliases: ["The Sword Coast and the North"]
+aliases:
+- The Sword Coast and the North
 ---
 # The Sword Coast and the North
 *Source: Sword Coast Adventurer's Guide, p. 43* 
@@ -43,7 +44,7 @@ Named for its founder, a former warlord of Waterdeep, the small town of Amphail 
 
 Amphail's sovereignty means that, although patrols from the Waterdeep City Guard sometimes ride north to check on matters in Amphail, the only true authority in the town is the will of the noble families that control it. The primary business of Amphail is horse ranching, and the town is a fine place to find replacement mounts, and all manner of tack, bridle, feed, and other goods necessary to keep up one's horse. Most farms have farriers, or at least hands that can swiftly shoe a horse, and spare shoes all but litter the town.
 
-Visitors to Amphail often get a polite admonishment to "mind the high born" or "ware silver saddles" from the locals, but those who ignore such warnings should expect no help if they get into trouble with the nobility. Amphailans are by their nature suspicious of and quiet around folk who openly display wealth or status, having learned early in their lives that nobles are folk who like to throw their weight around, to the detriment of anyone nearby without enough coin or a grand enough title to stand up to them. I find that these common folk are ideal sources of information about the very people they distrust.
+Visitors to Amphail often get a polite admonishment to "mind the high born" or "ware silver saddles" from the locals, but those who ignore such warnings should expect no help if they get into trouble with the nobility. Amphailians are by their nature suspicious of and quiet around folk who openly display wealth or status, having learned early in their lives that nobles are folk who like to throw their weight around, to the detriment of anyone nearby without enough coin or a grand enough title to stand up to them. I find that these common folk are ideal sources of information about the very people they distrust.
 
 For their part, the young nobles that litter the town seem to make mischief mainly because they can. The feuds and rivalries that would generate only carefully worded insults in the city can escalate into brawls when these miscreants are far from the watchful eyes of their parents. Duels have long been prohibited by mutual agreement, due to the blood feuds they provoked in the past, but hands often drift to sword hilts when heated words are exchanged. Nearly every other sort of noble indiscretion is foisted on the residents of Amphail. Those who suffer property damage or worse at the nobles' hands are forced to forgive the offense in exchange for the application of coin or a promise made in the transgressor's name (suggesting that the youngster's relatives will handle any obligations). Some businesses survive entirely by bringing the comforts of Waterdeep to Amphail, creating gathering places where young nobles can feel at home.
 
@@ -69,9 +70,9 @@ Baldur's Gate is ruled by the Council of Four, dukes who vote among themselves o
 
 Defense of the Upper City is handled by the Watch, the official constabulary of the city's elite. Their duty is to defend the patriars and enforce their laws, and little else. For the rest of Baldur's Gate, security is enforced and order maintained by the Flaming Fist mercenary company, a supposedly neutral force which is free to fight in external conflicts, so long as it doesn't side against Baldur's Gate. By tradition, the highest officer of the Flaming Fist is one of the city's dukes, and Grand Duke Ulder Ravengard fulfills that tradition proudly. Membership in the Flaming Fist is fairly easy to achieve, and adventurers with much experience swiftly advance in rank (and, consequently, political influence) once they become permanent members. Many ranking officers are former adventurers who have "retired" to military life.
 
-![](sword-coast-map-baldurs-gate.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/sword-coast-adventurers-guide/img/sword-coast-map-baldurs-gate.webp#center)
 
-![](baldurs-gate-map.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/sword-coast-adventurers-guide/img/baldurs-gate-map.webp#center)
 
 In both the Upper and Lower Cities, the underworld is controlled by a shadowy group known merely as the Guild. The dukes don't acknowledge the power of this group in any meaningful way—at least not publicly—but try (at least nominally) to curb its influence where and how they can. I lost count of how many gangs claim territory in the Lower and Outer City, and all of them seem to owe allegiance to the Guild. Efforts to destroy the Guild have thus far failed, due in part to the inability of outsiders to identify a clear leader of the group, but in no small measure to the shameful lack of effort on the part of the rulers of the city to protect its people.
 
@@ -109,7 +110,7 @@ Daily rulership is in the hands of the Council of Guilds, composed of the heads 
 
 The largest and oldest building in Daggerford is the ducal castle, a three-level keep enclosed by a two-story wall that contains its own smithy, a wide parade ground, and stabling for a large number of animals. The dukes of Daggerford have always kept a well-stocked larder, capable of feeding the castle's inhabitants and any citizens that might shelter inside during a siege.
 
-Three gates lead into the town of Daggerford: River Gate, which provides access to the river, and through which shipping cargo is carted into the town proper; Caravan Gate, which handles most landgoing traffic, including land-based trade; and Farmers' Gate, which remains open at nearly all times, but is wide enough only to let one wagon or cart pass at a time.
+Three gates lead into the town of Daggerford: River Gate, which provides access to the river, and through which shipping cargo is carted into the town proper; Caravan Gate, which handles most land going traffic, including land-based trade; and Farmers' Gate, which remains open at nearly all times, but is wide enough only to let one wagon or cart pass at a time.
 
 A militia guards Daggerford. Militia service is mandatory for all able-bodied adults, and lasts for twenty years. All citizens living within the town receive instruction from the duchess's own soldiers in the use of spears and other weapons, and must spend at least one day a month in defense of the town, standing sentry on its walls or patrolling the nearby roads. Their training means that the common citizens of Daggerford aren't easily cowed by armed folk demanding goods, coin, or passage, and are slightly more likely to take up work as mercenaries, caravan guards, or adventurers.
 
@@ -145,7 +146,7 @@ Across the road, the Ostever family serves as the local slaughterer and butcher 
 
 There is entertainment to be had at the Gambling Golem, where cheaters in the card or dice games are tossed out into the street, and a local marbles game known as scattershields is popular. Dry goods, candles, lanterns, saddles, rope, and wagon wheels are available from a number of other shops.
 
-![](scag02-04.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/sword-coast-adventurers-guide/img/scag02-04.webp#center)
 
 It can't be stressed enough that while the Harpells have little interest in the daily running of Longsaddle, it is undeniably their town. They rarely suffer insults, and never tolerate violence against themselves, their family, or the locals. A conflict involving the Harpells is likely to end swiftly and bloodily, and (unless the offender is convincingly apologetic, unconscious, dead, or forgiven of the wrongdoing) will often draw additional Harpells to support their kin. Harpell supports Harpell in all public matters, and no one bothers to record the numbers and names of those that forgot that fact.
 
@@ -157,17 +158,17 @@ These families are also the ones most likely to hire outsiders to deal with matt
 
 Mirabar is a human city that rests atop dwarven caverns. On the surface, humans dominate the population, with some dwarves mixed in, and a handful of gnomes and halflings. The uppermost level of the undercity is mostly dwarves, with some few humans. The mixing of races is due to convenience of trade, preference, or skill; just as some few humans like to mine, to imbibe strong dwarven drink, and to work underground, so do a minority of dwarves take to the open sky, doing dock work, or even manning and building ships. The lower levels beneath Mirabar are all dwarven, as even the most dwarf-like human can live so deep below ground for only so long. Almost all of its citizens, regardless of race, honor Moradin and the dwarven gods, making Mirabar a dwarven city in spirit and ethics, if not entirely by population, much in the way my own Silverymoon speaks to elven ideals of natural beauty.
 
-![](sword-coast-map-mirabar.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/sword-coast-adventurers-guide/img/sword-coast-map-mirabar.webp#center)
 
 Long ago, the great dwarven kingdom of Gharraghaur stood to the west of Delzoun, delving mines near the River Mirar and finding great, near-endless veins of gems. Like many of the dwarven realms, Gharraghaur fell to marauding orcs, which destroyed the kingdom and its capital city but couldn't take advantage of the wealth therein. For millennia the lower city lay empty, until some eight hundred years ago, when Prince Ereskas of Amn settled the same spot, creating the city of Mirabar (coincidentally echoing the dwarven "-bar" naming convention used for citadels throughout the North). It was only when dwarves returned to work the mines below that Mirabar began to see its fortunes increase.
 
 Mirabar is ruled by its hereditary marchion, Selin Raurym, who issues edicts fed to him by the Council of Sparkling Stones. The council is a group of dwarves and some few humans elected to make policy for the city, who determine where the output of Mirabar's mines will be sold. Although the council has long kept Mirabar associated with the Lords' Alliance, it is the marchion who negotiates with his fellow lords. Thus far, Selin Raurym has proved far more capable than his predecessors at making beneficial decisions for the city, and the council has given him great leeway to speak for Mirabar outside the walls. His threat to pull out of the Alliance following its failure to aid the northern cities against the most recent orc hordes, though considered by some an empty gesture, has brought Mirabar more advantageous relationships with Waterdeep and Baldur's Gate, something which has not gone unappreciated by the council.
 
-The city's guard, the Axe of Mirabar, exists primarily to deter and prevent sabotage of the mines, without which Mirabar would collapse. The guard also provides swift and capable defense and law enforcement within the city. The wealth of Mirabar is so great that it maintains docks, ships, and fortified harbors on many of the islands in the Sea of Swords, and as such the city is always seeking magical and military support for these defenses. Where other cities might use such vast mountains of coin as Mirabar possesses on shows of prosperity, Mirabarrens use it for more functional goals, making sure that the city's defenses are new, that its gates close securely when they are moved, that its buildings and walls are strong and secure. Given the recent destruction of Sundabar's surface city at the hand of orc armies, such expenditures are well justified, since no one in Mirabar wishes to see the surface city wiped out. It would simply be bad for business. Mirabar spares no expense in defending its wealth, and hires as many mages and adventurers as necessary to clear threats away from roads, investigate sabotage, and otherwise protect its vital trade.
+The city's guard, the Axe of Mirabar, exists primarily to deter and prevent sabotage of the mines, without which Mirabar would collapse. The guard also provides swift and capable defense and law enforcement within the city. The wealth of Mirabar is so great that it maintains docks, ships, and fortified harbors on many of the islands in the Sea of Swords, and as such the city is always seeking magical and military support for these defenses. Where other cities might use such vast mountains of coin as Mirabar possesses on shows of prosperity, Mirabarrans use it for more functional goals, making sure that the city's defenses are new, that its gates close securely when they are moved, that its buildings and walls are strong and secure. Given the recent destruction of Sundabar's surface city at the hand of orc armies, such expenditures are well justified, since no one in Mirabar wishes to see the surface city wiped out. It would simply be bad for business. Mirabar spares no expense in defending its wealth, and hires as many mages and adventurers as necessary to clear threats away from roads, investigate sabotage, and otherwise protect its vital trade.
 
 With the rise of Mithral Hall in the last century, and now Gauntlgrym, Mirabar fears its place as the armory of the North is at risk. The miners, smelters, and smiths of Mirabar work ever harder to increase their output and improve their craft, while the jewelers and enamelers study ways to incorporate ancient techniques of melding dwarven, human, and elven designs together in their work, in the manner of old Phalorm.
 
-Mirabarren (or to some, just Mierren) dwarves like to cultivate long, wide (as opposed to tapered or pointed) beards and tight braids of hair growing elsewhere than on the chin, a fashion copied by some local humans. They love polished, everbright-treated sheets of metal, particularly copper, used as doors or mirrorlike wallpanel inlays. They often set gems into the pommels and nonworking ends of tools and weapons. Mierren dwarves tend to be wealthy, to have personal collections of unusual and rare gems, to use seals made of gems carved into signet rings, and to be investors in ventures (rather than property) up and down the Sword Coast. They are sophisticated and worldly, and they decry the isolationist and xenophobic attitudes of some dwarves. Mierren dwarves demonstrate their own broader attitudes by being the diplomatic traders and power brokers in trademoots and agreements in Fireshear and Neverwinter and everywhere else they can worm their way into, among dwarves and between dwarves and non-dwarves.
+Mirabarran (or to some, just Mierren) dwarves like to cultivate long, wide (as opposed to tapered or pointed) beards and tight braids of hair growing elsewhere than on the chin, a fashion copied by some local humans. They love polished, everbright-treated sheets of metal, particularly copper, used as doors or mirrorlike wallpanel inlays. They often set gems into the pommels and nonworking ends of tools and weapons. Mierren dwarves tend to be wealthy, to have personal collections of unusual and rare gems, to use seals made of gems carved into signet rings, and to be investors in ventures (rather than property) up and down the Sword Coast. They are sophisticated and worldly, and they decry the isolationist and xenophobic attitudes of some dwarves. Mierren dwarves demonstrate their own broader attitudes by being the diplomatic traders and power brokers in trademoots and agreements in Fireshear and Neverwinter and everywhere else they can worm their way into, among dwarves and between dwarves and non-dwarves.
 
 To other dwarves, Mierren are translators and local guides and "the people who know the right people" in human-dominated cities everywhere along the Sword Coast and in much of the Heartlands. Most adult Mierren have dealings with a variety of human costers and merchants, taking care to avoid exclusivity or cultivate too narrow a range of business partners and contacts, so they control their own destinies and fortunes. They abhor the thought of humans having the slightest chance of dominating them.
 
@@ -184,9 +185,9 @@ Still, despite the city's overall wealth, there are rich and (relatively) poor M
 
 A short while ago, Neverwinter was beset by all manner of damage, danger, and gloom. Now, the orcs that once menaced the city have moved east to join their brethren in being crushed by the dwarves. The Chasm that rent the land has been sealed by powerful magic. The High Road has been cleared and rebuilt, and trade has resumed with Waterdeep and realms to the south. What was the blasted, wounded city of Neverwinter just a decade ago is now an exciting, humming place, where folk seem eager to throw off the hardships from which they have emerged and create a new, brighter future for their city.
 
-![](sword-coast-map-neverwinter.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/sword-coast-adventurers-guide/img/sword-coast-map-neverwinter.webp#center)
 
-![](neverwinter-map.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/sword-coast-adventurers-guide/img/neverwinter-map.webp#center)
 
 Nearly half a century ago, Mount Hotenow (the nearby volcano that perpetually heats the river flowing through the city) violently erupted, destroying much of Neverwinter, killing thousands, and leaving in its wake a great, gaping chasm that split the city. Neverwinter was in ruins, and external influences—from Netheril to Thay to Lord Dagult Neverember of Waterdeep to the agents of the Hells themselves—sought to exert control over the city. Many folk fought to stem all these dangers, and eventually, a measure of peace fell over Neverwinter.
 
@@ -214,7 +215,7 @@ Like any city, Neverwinter isn't without its drawbacks. Though most folk are wil
 
 Long a powerful and influential member of the Lords' Alliance—and, for its entire existence, the Silver Marches of Luruar—Silverymoon is what many cities aspire to be: a quiet, peaceful realm, where many races live together for common knowledge, celebration, and defense. The city is peopled primarily by the "goodly" races (humans, dwarves, gnomes, elves, halflings, and half-elves), but no being is turned away from Silverymoon because of its race—though a drow or an orc proving true to one's blood is sure to be punished in full for transgressing against the peace of the city. I will make no secret of my love for my home in the following summary, but I will endeavor to be as evenhanded as I can in describing it.
 
-![](sword-coast-map-silverymoon.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/sword-coast-adventurers-guide/img/sword-coast-map-silverymoon.webp#center)
 
 The Gem of the North is a stunning place of sweeping curves, soaring towers, and structures built into the living trees. To many elves, the city is a reminder of the ancient elven cities of old; some call it the Myth Drannor of the North, even nowadays after the restoration and subsequent fall of that fabled city. Even where stone is employed in construction, ivy and other living plants grow through, over, or around most structural elements, giving most of the city a green cast.
 
@@ -244,13 +245,13 @@ Silverymoon has nonetheless long been known as a safe haven for Harpers in the N
 
 Rising from the shores of its deep harbor to ring the great mountain standing tall out of the Sea of Swords is Waterdeep, the City of Splendors and the Crown of the North. To all of Faerûn, this great metropolis stands as the pinnacle of what a great city might be, in wealth, influence, and stability. Here, the citizens work, the nobles sneer, and the great masked lords plot and scheme, all while merchants dance between them to collect their coins and continue profiting as best they can. Waterdeep's shops and merchants offer goods of every sort from every corner of Toril, and even the rarest of items can be procured, given sufficient coin and patience. Adventurers lacking one or the other can very easily find all manner of employment, from simple escorting of caravans, to guarding nobility, to investigating a ruin or rumor of monsters anywhere in the North.
 
-![](waterdeep-map.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/sword-coast-adventurers-guide/img/waterdeep-map.webp#center)
 
 Though it has stood for hundreds of years, Waterdeep is only now returning to its status of a century and a half ago. The recent disruptions began when the gods walked the Realms and slew each other before the eyes of mortals, until they walked back to their divine domains through the very streets of Waterdeep itself. Decades later, more deities began dying off, magic failed, and all manner of catastrophes started altering the very nature of the city. Lord Neverember wasted the city's navy and then, instead of rebuilding it, hired sailors out of Mintarn (and profited from the endeavor).
 
 Now, the City of Splendors is on the mend. The harbor has been cleared of the broken ships that made up the former district of Mistshore, and Waterdeep again has its own navy. The city's Guard (its army), Watch (police force), Navy, and it famous Griffon Cavalry are all being reformed, but all of that might be a matter of years in the settling. A plague chased most residents out of the Warrens and Downshadow, and living or digging below the city's surface has been deemed illegal except by those authorized by the lords to do so. Somehow, even the air seems fresher. In the words of one wise moon elf matron (whose status as my aunt has positively no bearing on her wisdom), "Waterdeep is back to where it was when I was a lass."
 
-![](scag02-08.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/sword-coast-adventurers-guide/img/scag02-08.webp#center)
 
 Perhaps most surprising of the newest developments is the return of Laeral Silverhand to Waterdeep. Long thought dead, she reemerged only recently, and swiftly rallied the masked lords to support her supplanting of Dagult Neverember as Open Lord of Waterdeep. Very few remember Lady Laeral from her previous time in the city, but those elves who have been living in there for the last century claim she is more reserved than she once was. The new Open Lord doesn't speak of her family—any mention of her children, her late husband (the fabled Blackstaff, Khelben Arunsun), or any of her famed sisters is cause for her to cut short whatever conversation may be in progress at the time. Her relationship with the current Blackstaff, Vajra Safahr, is cordial, but the two are seldom seen in one-on-one conversation, and most think that Lady Laeral has little to learn from a mage who isn't nearly her equal.
 
@@ -289,7 +290,7 @@ Although they seldom agree on much, one matter that all the noble houses see the
 
 Situated in the fork where the Rivers Surbrin and Dessarin join near the Evermoor Way, Yartar is a fortified town that, were it not for its own petty, internal squabbles, might wield more influence among its fellows in the North. Currently, it is most remarkable for its barge-building operation (and that industry's importance to the commerce of other settlements) and its annual fairs.
 
-![](sword-coast-map-yartar.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/sword-coast-adventurers-guide/img/sword-coast-map-yartar.webp#center)
 
 Each summer, except in years when Shieldmeet occurs, a vast Hiring Fair is held in Yartar, during which all sorts of undesirable folk gather north of the town looking for work as guards, miners, farmhands, guides, or other unskilled laborers. For the most part, those who attend this fair are brutes, bandits, freeholders whose lands can no longer sustain them, or Uthgardt who wish to be among "civilized" folk for a short time—but occasionally, a strong hand or a skilled warrior can be culled from the bunch. While this event is going on, Yartar is overrun with visitors it would rather not welcome, who steal goods, sell wares in the street (sometimes those they have just stolen), meet unscrupulous contacts to hand off coin, information, or purloined items, and engage in the occasional spell duel. It's quite common for a new adventuring company to come into being at one of these fairs, when those who stand out from the crowd because they have legitimate skills to sell gravitate toward one another and decide to form a group.
 
@@ -344,7 +345,7 @@ In the center of town is the Waterbaron' Hall, a grand structure that is both th
 
 The history of the dwarves in the North is a long and violent one, dating back more than six millennia. Before there was a Standing Stone in the Dalelands, or a Waterdeep, or a Myth Drannor, there was the brief (in dwarven terms) glory of Besilmer, and the realms of Haunghdannar and Gharraghaur. Ruins now, to be sure, but these kingdoms lasted longer than almost any living realm of humans, even if their works have been forgotten by humans and dwarves alike.
 
-![](scag02-11.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/sword-coast-adventurers-guide/img/scag02-11.webp#center)
 
 The greatest and most recent of these dwarven realms was Delzoun, also called the Northkingdom. It stretched from the western edge of what was then the Narrow Sea (later, the Great Desert of Anauroch) west almost to present-day Silverymoon, and from the Ice Mountains to the Nether Mountains. Citadels Adbar and Felbarr were fortresses of Delzoun, and Mirabar, Mithral Hall, and Sundabar all owe their existence to that ancient kingdom or its descendants. Fabled Gauntlgrym, said to be touched by the presence of Moradin himself, was built by Delzoun's dwarves—first as a mine, and then as a city. It was the dwarves of Delzoun who built Ironmaster, too, and all the great mines and renowned forges of the North reside in the halls of the dwarves.
 
@@ -486,7 +487,7 @@ Mithral Hall enjoyed centuries of profit before its delving permitted the shadow
 
 When Garumn's grandson, Bruenor, was old enough, and sure of his path, he gathered allies to retake his former homeland, and went on a great many adventures with the group later known as the Companions of the Hall. At the end, Bruenor slew the dragon Shimmergloom and reclaimed Mithral Hall for Clan Battlehammer after almost two centuries.
 
-![](scag02-13.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/sword-coast-adventurers-guide/img/scag02-13.webp#center)
 
 After Bruenor regained the throne, his personal friends attracted some powerful enemies to Mithral Hall, including the drow of Menzoberranzan. This is one reason, his supporters claim, that the king abdicated in favor of his ancestor Gandalug Battlehammer: to protect the people from his personal enemies. Some of Bruenor's detractors claim it was wanderlust that made him leave, but none will bother (or dare) to ask him. In any case, when Gandalug died, Bruenor did his duty and resumed the throne.
 
@@ -556,7 +557,7 @@ The information below is drawn from fifty years at sea, volume the third, by Gar
 
 I don't know what the people of Mintarn did to attract Beshaba's ire, but they surely have her attention. For as long as I can remember, Mintarn has lived in the shadow of the dragon Hoondarrh—called the Red Rage of Mintarn since he dwells on an island close by—but for just as long, the people of Mintarn have been able to purchase the dragon's mercy. Now a series of events conspire to threaten their power to pay the dragon, as well as their other aspirations on the Sword Coast.
 
-Mintarn has long been a neutral ground for various forces—a place aloof from the conflicts between the citystates of the coast and the rivalries of the Northlander isles. Any ship—be it pirate, privateer, or merchant vessel—could dock at Mintarn and find a warm welcome. Many treaties were struck on its shores, and when peace couldn't be achieved, soldiers and ships of Mintarn hired themselves out to various power groups, with no fear of retribution on Mintarn.
+Mintarn has long been a neutral ground for various forces—a place aloof from the conflicts between the city-states of the coast and the rivalries of the Northlander isles. Any ship—be it pirate, privateer, or merchant vessel—could dock at Mintarn and find a warm welcome. Many treaties were struck on its shores, and when peace couldn't be achieved, soldiers and ships of Mintarn hired themselves out to various power groups, with no fear of retribution on Mintarn.
 
 Not long ago, Mintarn was awash with coin. Dagult Neverember invested heavily in the island, creating a ship-building company, combat-training facilities, and even lending his coin to the yearly tribute to Hoondarrh when other means fell short. The White Sails company in which he invested grew to become Mintarn's preeminent supplier of mercenary ships and soldiers.
 
@@ -568,7 +569,7 @@ The trouble started, not surprisingly, with Hoondarrh. Though Mintarn made yearl
 
 Of course, the folk of Mintarn scrambled to meet the impatient wyrm's demands. Even if they had all the soldiers shipped away to Neverwinter and Waterdeep, what could they hope to do to mighty Hoondarrh?
 
-Things got worse recently when Neverember was deposed as Open Lord of Waterdeep. The Lords of Waterdeep have decided to reestablish their own navy, and they've told the soldiers of Mintarn to leave the city or take a commission among the navy or the city's other armed forces. Now in Neverwinter, Lord Neverember has decided to do away with a mercenary force as well. He says he wants to instill a sense of civic pride among the folk of Neverwitner, but many in Mintarn see it as a betrayal. Neverember is a cunning man. I think with Hoondarrh active, the Lord Protector is simply cutting his losses. He didn't get the nickname Dagger just because his first name is Dagult.
+Things got worse recently when Neverember was deposed as Open Lord of Waterdeep. The Lords of Waterdeep have decided to reestablish their own navy, and they've told the soldiers of Mintarn to leave the city or take a commission among the navy or the city's other armed forces. Now in Neverwinter, Lord Neverember has decided to do away with a mercenary force as well. He says he wants to instill a sense of civic pride among the folk of Neverwinter, but many in Mintarn see it as a betrayal. Neverember is a cunning man. I think with Hoondarrh active, the Lord Protector is simply cutting his losses. He didn't get the nickname Dagger just because his first name is Dagult.
 
 Mintarn had been playing the game well, but now it finds itself backed into a corner with few moves left to make. The coin is no longer flowing into its harbors, and many of its best and brightest have decided not to return. There's talk of hiring adventurers to slay Hoondarrh, but Hoondarrh's hoard must be massive. If that's not enough of a draw to dragon slayers, then there's no amount of money Mintarn could offer that would sweeten the deal.
 
@@ -584,11 +585,11 @@ The Red Rage of Mintarn dwells in this mountain that rises from the sea north of
 
 ### The Moonshaes
 
-![](scag02-14.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/sword-coast-adventurers-guide/img/scag02-14.webp#center)
 
 Cloaked in mists, the rocky cliffs of the Moonshae Isles rise high above the surf of the Sea of Swords, their tops clothed in ancient forests. The Moonshaes lie due west from Mintarn—and Baldur's Gate, and Candlekeep, and even Amn, for that matter: this great stretch of islands is nearly half as long as the Sword Coast, enclosing the Sea of Moonshae.
 
-![](sword-coast-map-moonshaes.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/sword-coast-adventurers-guide/img/sword-coast-map-moonshaes.webp#center)
 
 On the southern isles live the Ffolk, humans ruled by their High King, Derid Kendrick, from the fortress of Caer Callidyr on Alaron. The Ffolk worship a goddess they call the Earthmother; her druids gather in sacred groves on the islands. Some of these groves hold moonwells, magical pools that the druids say the goddess uses as her windows onto the world.
 
@@ -707,7 +708,7 @@ Off the coast of the southern realms of Faerûn, even south of the Moonshae Isle
 
 I had not visited Lantan for over a year when it happened, but the way most tell it, when magic failed utterly in this place, all the stored smokepowder and magical gewgaws in Lantan exploded, one by one, just as great waves washed over the island. Within a terrifyingly short time, Lantan was no more.
 
-Or so the stories of survivors went. It appears now that Lantan was transferred to another world, much like Halruaa. Halruua, though, had foreseen the calamity and taken time to prepare. Lantan was not so lucky.
+Or so the stories of survivors went. It appears now that Lantan was transferred to another world, much like Halruaa. Halruaa, though, had foreseen the calamity and taken time to prepare. Lantan was not so lucky.
 
 The Lantanese were fascinated—some say obsessed—with building mechanical wonders. Though they employed magic from time to time, the whole island smelled like sawdust, grease, and freshly scraped metal, as shop after shop worked on refining its latest and greatest invention. The new creation might have been little metal knights that walk and fight and knock each other over, elaborate coffers with locks that latch themselves, or mechanical arms that copy what a scribe is writing onto a second sheet of parchment. During my past visits there, I'd seen all of those and more with my own eyes.
 
@@ -719,7 +720,7 @@ Some ships claiming to be from returned Lantan have appeared in ports along the 
 
 Take an old salt's advice and beware the Pirate Isles of the Sea of Swords, the Nelanther. Here, all manner of seafaring or sea-dwelling creatures live, from lizardfolk and minotaurs to orcs and ogres, with a smattering of humans and others thrown in for variety. Where some pirates hold to their own code of conduct, the folk of Nelanther care nothing for rules, honor, or even good, neighborly sense: they attack each another as often and as viciously as they do any passing ship or convoy. Simply put, the Nelanther Isles are a chain of reavers and raiders, who eke out a living fighting whomever they can find.
 
-![](sword-coast-map-nelanther.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/sword-coast-adventurers-guide/img/sword-coast-map-nelanther.webp#center)
 
 No one's ever bothered to count or name all the tribes of these islands, and I doubt anyone's going to start now. For one thing, it's a fool's errand: tribes split up or are destroyed at such a rapid pace that by the time you finished counting, you'd have to start over anyway. For another, it's dirty, dangerous work, and dealing with pirates is a task best left to swift ships, well-armed navies, and the kinds of fools that would want to count them in the first place.
 
@@ -731,7 +732,7 @@ Still, if you're looking for cheap, strong hands, Nelanther may be the place for
 
 Ever seen an island simply disappear? That is, supposedly, what happened to Nimbral at about the time Lantan drowned, or so they say. Four ship captains of my acquaintance claim to have seen it one moment, and then not seen it the next, and sailed straight through its former location as though it was never there.
 
-![](scag02-17.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/sword-coast-adventurers-guide/img/scag02-17.webp#center)
 
 Some claim that powerful magic moved or hid the island in a vast illusion. That I find believable, because the Lords of Nimbral have long been known for illusion and trickery. If any isle were to vanish into thin air, it would be theirs. Likewise, Nimbral's return is certainly within their capabilities, and perhaps this event is the climax of a trick so long and complex that even a gnome can envy its scope.
 
@@ -777,7 +778,7 @@ I had brought some food with me, since I didn't know how long I'd have to remain
 
 I felt it before I saw it. With the barest glimmer of golden light through the basket weave all that I could see, Evermeet took my breath way. Coiled in the basket like a snake, with cramps in every limb, I was desperate not to give myself away, yet I could feel the magic of Evermeet seep through my body, soothing aching limbs and easing guilty conscience. When I could breathe again, I gasped. And that was how the elf discovered me.
 
-![](scag02-18.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/sword-coast-adventurers-guide/img/scag02-18.webp#center)
 
 The blind elf, whose beloved treasures I'd displaced to take my journey, pulled me from his basket, and when he did so, his eyes were clear as diamonds and just as hard. I thought for sure that I was dead, and on seeing my surroundings, I can say with all my heart that I didn't care. Had the elf killed me on the spot, my soul would have gone to Garl and demanded a ship so that I could sail right back to Evermeet. My dumb wonderment caused the elf to turn and look, and he too was enraptured.
 
@@ -833,7 +834,7 @@ From the center rises the largest and thickest tower of Candlekeep. If the other
 
 The only gate into Candlekeep stands at the end of the Way of the Lion, which is the only road that provides access to and from the outside world. The route extends from Beregost, leagues away, and winds a lonely path out on the peninsula where Candlekeep stands.
 
-![](scag02-19.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/sword-coast-adventurers-guide/img/scag02-19.webp#center)
 
 #### The Great Library
 
@@ -927,13 +928,13 @@ Candlekeep also buys books and even sponsors adventurers on expeditions to seek 
 
 I don't suppose you've heard of Darkhold. It's been many years since folk whispered the name of the place in fear. After all, the Zhentarim, the organization that gave Darkhold its evil reputation, are by all accounts no longer the cadre of thieves, assassins, and evil wizards they once were. And strangely enough, according to my source among the Zhentarim, that change in character can be traced right back to Darkhold. As it was told to me, it came about like this...
 
-![](sword-coast-map-darkhold.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/sword-coast-adventurers-guide/img/sword-coast-map-darkhold.webp#center)
 
 Zhentil Keep was burning. The Citadel of the Ravens lay in ruins. The leadership of the Zhentarim died, were captured by the Shadovar of returned Netheril, or were in flight. The vaunted Black Network was shredded. Cells of Zhentarim agents were cut loose, and without connections or direction, they dissolved or were crushed by rivals. The Zhentarim was no more.
 
 Or so it seemed. There was one stronghold of the Zhents that had not fallen and whose leader never wavered in his dedication to the organization. Darkhold stands deep in the mountains of the Western Heartlands, and there the remnants of the Zhentarim quietly gathered. There they swore allegiance anew to the leader who promised to reforge the organization into something stronger than before.
 
-The man to whom this new Zhentarim owed fealty was a dark knight known only as the Pereghost. The Pereghost had long led the armed forces of the Zhentarim at Darkhold, and his vision for the revival of the organization was along military lines. After a time of recruitment and training, the Zhentarim emerged from Darkhold not as conquerers or as bullying capitalists but as mercenaries willing to serve others instead of forcing them to serve.
+The man to whom this new Zhentarim owed fealty was a dark knight known only as the Pereghost. The Pereghost had long led the armed forces of the Zhentarim at Darkhold, and his vision for the revival of the organization was along military lines. After a time of recruitment and training, the Zhentarim emerged from Darkhold not as conquerors or as bullying capitalists but as mercenaries willing to serve others instead of forcing them to serve.
 
 In the years that followed, the transformation served the Zhentarim well. They earned a reputation for sterling service, and their ranks swelled. Those who knew of Darkhold thought of it as the headquarters of this new version of the Zhentarim.
 
@@ -987,11 +988,11 @@ Ah Elturgard! If any place in the world exemplifies humanity's potential for gre
 
 Oh how bright Elturgard's light burns! If only it could last. Humans are, after all, short-lived creatures, and fickle in their faith and attentions. Elturgard is the product of just a generation or two of humans, and it seems implausible that it will last many more. Sadly, I think I shall witness Elturgard diminish. But it was a miracle that brought about the nation of Elturgard, and perhaps that divine provenance will preserve it.
 
-![](scag02-21.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/sword-coast-adventurers-guide/img/scag02-21.webp#center)
 
 It began, as all the great stories do, in darkness. Half a century ago, the city of Elturel was a petty power. It had claimed its neighbors' territory under various excuses, putting them under "Elturel's Guard." Then, the city's leader, its High Rider, was revealed to be a vampire. The extent of the vampire's network of charmed servants, undead allies, and willing sycophants took the Hellriders by surprise. An undead plague swamped Elturel, and although its Hellriders made some gains by day, in darkness the vampire and its minions inflicted cruel losses. Each night the good people of Elturel prayed to the gods that dawn might come more swiftly.
 
-Then, on a particularly disastrous night when all seemed lost, dawn did come. A warm golden light suffused the city and surrounding lands, cast down from a golden orb that hung unwavering in the sky, so bright that it seemed a new day had dawned. Caught outside when this miracle appeared, the High Rider and his [vampire spawn](vampire-spawn.md) burned away to dust, and the other undead quailed in its illumination. In short order, Elturel was free.
+Then, on a particularly disastrous night when all seemed lost, dawn did come. A warm golden light suffused the city and surrounding lands, cast down from a golden orb that hung unwavering in the sky, so bright that it seemed a new day had dawned. Caught outside when this miracle appeared, the High Rider and his [vampire spawn](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/vampire-spawn.md) burned away to dust, and the other undead quailed in its illumination. In short order, Elturel was free.
 
 When the true dawn came, the new sun remained. And it stayed in the sky through the next night, and the night after, and each night from then until now. While some called it Amaunator's Gift, none could say what god granted them this boon. Most saw it as a companion to the sun and to themselves, and so it is known as the Companion. This holy wonder brought pilgrims of all kinds to Elturel. The devout, the curious, the afflicted—all came to bathe in its warmth and see its blessed light by night. Paladins had always been small in number among the Hellriders, but the Companion drew many to Elturgard, and the best among them was named High Observer to rule in the High Rider's place.
 
@@ -1011,7 +1012,7 @@ I regard crossing the border into Elturgard as a relief, for it usually means th
 
 > [!note] Fort Morninglord
 > 
-> Several years ago, the entire complement of paladins at Fort Morninglord simply disappeared. The High Observer at the time ordered the fort, a day's ride west of Elturel, to be bricked up, and the curious forbidden entrance, for fear of what evil they might release into the world. The fort remains sealed today, and guards occupy a fortified encampment nearby. The camp serves as a base from which the paladins of Elturgard can patrol this area of the nation, and also as a deterrent to adventurers and other ne'er-dowells who might otherwise try to find whatever is trapped in the fort's depths.
+> Several years ago, the entire complement of paladins at Fort Morninglord simply disappeared. The High Observer at the time ordered the fort, a day's ride west of Elturel, to be bricked up, and the curious forbidden entrance, for fear of what evil they might release into the world. The fort remains sealed today, and guards occupy a fortified encampment nearby. The camp serves as a base from which the paladins of Elturgard can patrol this area of the nation, and also as a deterrent to adventurers and other ne'er-do-wells who might otherwise try to find whatever is trapped in the fort's depths.
 ^fort-morninglord
 
 #### The Companion
@@ -1054,7 +1055,7 @@ Soubar is a small walled town with supporting farmsteads strung along the road t
 
 I would be remiss if I didn't mention Evereska, but I will be brief for I have no desire to publish all its secrets. I shall endeavor to describe my own homeland in as unbiased a way as I might, but I must warn: I am a daughter of the Greycloak Hills, and its mists yet roil through my soul as surely as elven blood does through my veins. Ere I make mention of my home, though, I will discuss the meeting-ground that is the closest most outsiders will ever get to fair Evereska: the Halfway Inn.
 
-![](sword-coast-map-evereska.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/sword-coast-adventurers-guide/img/sword-coast-map-evereska.webp#center)
 
 #### The Halfway Inn
 
@@ -1064,7 +1065,7 @@ Strange, then, that the Halfway Inn should stand where it does. Perhaps it is th
 
 Evereska is self-sufficient, but its citizens in their travels sometimes stop at the Halfway Inn and, if traders are present, exchange goods with them. Whenever I return home, I make it a point to spend at least a night at the inn to see old friends (often much older since last I saw them) and learn what has passed since my last visit.
 
-Elf artisans sometimes come out of the Greycloak Hills to sell their goods here, and some of the bestknown can sometimes spark impromptu bidding wars over the right to purchase their wares. My kin don't do anything so pedestrian as set up booths or tables for themselves, but instead deal with a few traders who might be at the inn at the time. These agents then travel out and sell the elven crafts to others, which has given the Halfway Inn an undeserved reputation as Evereska's trading post.
+Elf artisans sometimes come out of the Greycloak Hills to sell their goods here, and some of the best known can sometimes spark impromptu bidding wars over the right to purchase their wares. My kin don't do anything so pedestrian as set up booths or tables for themselves, but instead deal with a few traders who might be at the inn at the time. These agents then travel out and sell the elven crafts to others, which has given the Halfway Inn an undeserved reputation as Evereska's trading post.
 
 Permit me to state this in as clear a fashion as writing allows: don't venture into the mountains seeking Evereska unless you are in the company of a citizen of Evereska. You will not find such accompaniment easily, for we are determined over the whole of our lives that no outsiders may gaze upon our homes without invitation from the eldest among us. If strangers need to meet with any of us, that is the purpose the Halfway Inn fulfills.
 
@@ -1102,7 +1103,7 @@ After that event, Dragonspear's ruins were occupied by hobgoblins and myriad ban
 
 Then came the Second Dragonspear War, more than a century ago, during which a strange cloak of mist settled over the castle, and the forces of Waterdeep and Baldur's Gate once more attacked. This time, they defeated the devils, leaving the castle ruined and still cloaked in mists. At least one other time since then, the devils have punched back through, amassing other fell creatures to attack the nearby settlements (notably Daggerford), but they have been fought off by adventurers each time. The most recent stories tell of heroes confronting Red Wizards of Thay and other devilry. I pray that this will be the last time such efforts are necessary, but somehow, I think not.
 
-Today, Dragonspear remains crumbled and mistshrouded. Rumors say that the castle—seemingly quiescent—has become home to undead horrors of some sort, but no one seems terribly inclined to investigate such claims, so long as they don't threaten the folk who live nearby. Some interested parties out of Baldur's Gate offered me more than a fair amount of coin to investigate the truth of these rumors, though I demurred. I don't fancy myself an investigator or a spy, and I know better than to seek out whatever foulness might have taken hold in this place.
+Today, Dragonspear remains crumbled and mist-shrouded. Rumors say that the castle—seemingly quiescent—has become home to undead horrors of some sort, but no one seems terribly inclined to investigate such claims, so long as they don't threaten the folk who live nearby. Some interested parties out of Baldur's Gate offered me more than a fair amount of coin to investigate the truth of these rumors, though I demurred. I don't fancy myself an investigator or a spy, and I know better than to seek out whatever foulness might have taken hold in this place.
 
 ### Trollclaws
 
@@ -1114,7 +1115,7 @@ Those traveling south to Baldur's Gate or north out of the Fields of the Dead ty
 
 I have been to Hartsvale only once, and found it surpassingly beautiful each time. Its wonders are wild and untamed, with even the so-called civilization of the place exuding a kind of primal beauty that is found nowhere else that I know of.
 
-![](sword-coast-map-hartsvale.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/sword-coast-adventurers-guide/img/sword-coast-map-hartsvale.webp#center)
 
 Hartsvale is far in the windswept north, a fertile mountain valley where the Ice Spire Mountains abut the High Ice. The Clear Whirl River, easily the cleanest and coldest I have ever bathed in, flows south into the valley out of the lands of the Endless Blizzard, feeding the rich soil tucked between the northern and southern arms of the Ice Spires. The river splits as it runs through the hilly lands, eventually draining into a series of lakes along the southern edge of the vale. Two small woods also grow in the vale, one along its northern edge, between the vale proper and the northern Ice Spires, and another fed by the lakes on its southern edge.
 
@@ -1174,7 +1175,7 @@ Worse still, the Holy Watcher has seen premonitions of something unspeakable ris
 
 ### High Forest
 
-![](scag02-24.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/sword-coast-adventurers-guide/img/scag02-24.webp#center)
 
 Anyone with even a hint of elven blood can't help but feel it stir upon setting foot in the High Forest. The sheer age and the power of the trees, the depth of their roots, and the wind whispering through their leaves—all these things call to us.
 
@@ -1202,7 +1203,7 @@ Far less idyllic are the cursed ruins of Karse. Here are the remains of the grea
 
 The High Moor was once a place much like the High Forest or the nearby Misty Forest, but during the Crown Wars, thousands of years ago, powerful magic burned the land such that all that remained was a blasted moor. It is a rocky wilderness infested with trolls and goblinoids and all manner of other dangers for anyone who treks across it instead of going around.
 
-![](sword-coast-map-high-moor.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/sword-coast-adventurers-guide/img/sword-coast-map-high-moor.webp#center)
 
 As the name suggests, the High Moor is a raised area extending for many miles of heath, lichen-covered outcroppings, and hidden gullies. Herd animals wander the land, from sheep to rock ponies to the occasional rothé. These beasts graze without great risk, because wolves and other predators that would thin the herds are themselves the prey of the trolls and goblinoids that otherwise rule the moor. These two-legged threats sometimes seed the High Moor with traps, but are normally occupied with fighting and killing their prey and each other. There is something of a cycle to the hunts of the High Moor: wolves are killed off by the hobgoblins one year, leading to more sheep grazing, which brings the trolls out (the local trolls enjoy mutton, it seems), which brings intrepid adventurers to deal with the growing menace, enabling just enough of the wolves to survive that they aren't wiped out completely.
 
@@ -1236,7 +1237,7 @@ As we now know, the kingdom of Najara, as proclaimed by the serpents that live w
 
 I discovered for myself the truth of Najara, the Kingdom of Serpents, when a sage in Baldur's Gate hired me to guide him, his apprentices, and a handful of adventurers to some ruins in the eastern edges of the High Moor. I will forever regret accepting that commission, for not only did half the adventurers turn out to be greedy swine intent on plundering the ruins rather than allowing the sage his study, but their idiocy awoke an ancient spirit that caused most of the group to drop off into a deathly sleep while it consumed their souls. Since I am unaffected by magics that force slumber, I escaped, along with a half-elf among the apprentices to the sage. The spirit chased us across the moors relentlessly, forcing us into the tunnels beneath the Serpent Hills, where we were taken prisoner by yuan-ti patrolling the borders of their domain. The half-elf was hauled away in slaver's chains, but for some reason I was taken to the court of Jarant, the Serpent King. A brief account of that experience follows.
 
-Ancient and evil, the spirit naga Jarant rules the kingdom by virtue of his personal power and thanks to the aid of the marlspire of najara, a thin silver crown that has protective and other magical abilities. Though he still preferred to remain utterly isolated from the outside world at the time when I met him, ten years ago the Dark Serpent began sending ambassadors to neighboring kingdoms to warn them about the consequences of interfering in Najaran matters. Though I saw the king for but a moment, Jarant's influence in his realm is undeniable, for his name is spoken reverently by all his subjects. A guard might swear "by Jarant's crown" to emphasize an edict, and the yuan-ti who owned the keys to my shackles referred to Najara's laws as "Jarant's will."
+Ancient and evil, the spirit naga Jarant rules the kingdom by virtue of his personal power and thanks to the aid of the Marlspire of Najara, a thin silver crown that has protective and other magical abilities. Though he still preferred to remain utterly isolated from the outside world at the time when I met him, ten years ago the Dark Serpent began sending ambassadors to neighboring kingdoms to warn them about the consequences of interfering in Najaran matters. Though I saw the king for but a moment, Jarant's influence in his realm is undeniable, for his name is spoken reverently by all his subjects. A guard might swear "by Jarant's crown" to emphasize an edict, and the yuan-ti who owned the keys to my shackles referred to Najara's laws as "Jarant's will."
 
 No one knows why Jarant chose the time he did to make public his kingdom's sovereignty, or what he hoped to gain by such an act. The yuan-ti ambassadors he sent forth made their king's wishes clear to the nations they visited: leave Najaran prosperity alone, and discourage intruders (such as adventuring types) from violating Najaran borders to steal the fortunes of the serpentfolk. In return, the serpents promised that any caravans and other legitimate travelers passing through Najara's dominion would be unharmed and unhindered—as long as they don't stray from the main route.
 
@@ -1262,11 +1263,11 @@ A variety of advisors and hangers-on can be found within Jarant's court, which i
 
 The Serpent Hills is a desolate region of red clay hills and deep, treacherous ravines, featuring stretches of rough, ridged land surrounding tall mesas. Only scrub can manage to grow here, tenaciously clinging to the dry clay. Beneath this perilous territory—filled with serpents and poisonous creatures of all manner—lie the Serpent Ways, a series of intricate, well-guarded tunnels interspersed with caverns and chambers. The passages serve as the main pathways for the folk of Najara through these lands; indeed, it was while resting within such a cavern that the half-elf apprentice and I were captured by yuan-ti. I have since learned that in general, the serpents don't care who tromps over the hills, so long as they stay out of the places under them. The Najaran capital city, Ss'khanaja, is found in the northwest of the Serpent Hills, but an even larger population of snakefolk live beneath the surface. It is common to find settlements inside the large underground chambers connected by the tunnels, excavations many centuries in age.
 
-![](scag02-26.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/sword-coast-adventurers-guide/img/scag02-26.webp#center)
 
 #### Marsh of Chelimber
 
-I didn't have occasion to travel to Chelimber before my "sojourn" with the Narajan court, but I did ask Dhosun about the place. It was through those questions that he divined my intention to escape, in fact, and offered his aid. A vast marshland pocked with sulfurous pools that often gout their steaming contents high into the air, the marsh is inhospitable even to most serpents; the majority of the denizens in these lands are lizardfolk. Once a Netherese principality, ruled by vampires, and then a holding of the Zhentarim, the Marsh of Chelimber is solidly within the grasp of Najara today. Though each tribe of lizardfolk is dominated by a chieftain from among their kind, each of those leaders has sworn fealty to the King of Najara.
+I didn't have occasion to travel to Chelimber before my "sojourn" with the Najaran court, but I did ask Dhosun about the place. It was through those questions that he divined my intention to escape, in fact, and offered his aid. A vast marshland pocked with sulfurous pools that often gout their steaming contents high into the air, the marsh is inhospitable even to most serpents; the majority of the denizens in these lands are lizardfolk. Once a Netherese principality, ruled by vampires, and then a holding of the Zhentarim, the Marsh of Chelimber is solidly within the grasp of Najara today. Though each tribe of lizardfolk is dominated by a chieftain from among their kind, each of those leaders has sworn fealty to the King of Najara.
 
 #### Forest of Wyrms
 
@@ -1284,7 +1285,7 @@ I chose to make my escape from Najara through the Forest of Wyrms because, thoug
 
 In the rolling terrain of the Trielta Hills, scattered with small settlements of gnomes and halflings, life seems pastoral and idyllic. Halfling farmers tend to their plots, and gnome miners scrape out the interior of the hills seeking the bits of gold and silver they may find waiting there. No warlords threaten this land, no liches or dragons plot to seize it for themselves. There are no great castles to covet here, nor ruins to pillage. All told, the place seems dull and unremarkable.
 
-![](sword-coast-map-trielta-hills.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/sword-coast-adventurers-guide/img/sword-coast-map-trielta-hills.webp#center)
 
 That, of course, is just the way its residents like it. They enjoy their solitude, which is broken only rarely. The hills of Trielta do occasionally offer up some impressive bounty, in the form of heretofore-undiscovered gold and silver. While such finds are usually small lodes that are played out almost before others become aware of them, Trielta has played host to full-on gold rushes from time to time. Someone stumbles on a particularly large vein of ore, and prospectors and fortune-seekers come pouring in by the dozens. Trieltan folk tend to see these occasional influxes of gold-hungry seekers the way other settlements look upon periodic plagues of locusts: aggravating, inevitable, and thoroughly disruptive, but also part of the natural order, and so nothing to get bothered about.
 
@@ -1344,7 +1345,7 @@ Though the Uthgardt each belong to a given tribe, these are markers of identity,
 
 The Uthgardt are spread across the North, rarely found farther south than the High Forest. There is no nation of Uthgardt to which they belong; instead, each tribe has a central ancestral mound, regarded as a holy site. Gyrt told me that the holy site of the Elk tribe is at a place called Flint Rock, somewhere in the Evermoors. She, understandably, never offered to take me there, and I was never foolish enough to ask.
 
-By and large, the Uthgardt are a hunting people who rely on game for much of their sustenance, favoring large herd animals such as elk, rothe, and deer. Young men and women looking to make a name for themselves sometimes build their reputations by hunting dangerous predators and great beasts: bears, great cats, large boar, and even monsters such as wyverns, owlbears, and displacer beasts.
+By and large, the Uthgardt are a hunting people who rely on game for much of their sustenance, favoring large herd animals such as elk, rothé, and deer. Young men and women looking to make a name for themselves sometimes build their reputations by hunting dangerous predators and great beasts: bears, great cats, large boar, and even monsters such as wyverns, owlbears, and displacer beasts.
 
 Some tribes put the prowess they demonstrate in hunting to good use in another endeavor, for which the Uthgardt are well known: raiding. As a rule, the Uthgardt engage in raiding only in remote areas—meaning that the closer a potential target is to civilization, the less likely it will be set upon. The raiders prefer to strike against wealthy merchant caravans and nobles' baggage trains, which offer the likelihood of fine foods, alcohol, and jewelry that Uthgardt wear as trophies and trade among themselves. For the most part, Uthgardt have little use for coin, so travelers hoping to buy their way out of a confrontation are advised to offer something else.
 
@@ -1440,9 +1441,9 @@ As one might imagine, this blast drew the attention of all manner of twisted pre
 
 Anyone who goes to Luskan should know about its ruling Ships and the Arcane Brotherhood. The Ships of Luskan have been described as bands of pirates, but that characterization misses how deeply ingrained the Ships are to the society of Luskan and the mentality of its citizens. Attack a Ship member and you might incur not just the wrath of the Ship, but of much of the city as well. As for the Arcane Brotherhood, one member of it may or may not come to another's aid, but know that each of these egotistical mages is eager to prove his or her magical prowess, and none can afford to show weakness before the folk of Luskan.
 
-![](sword-coast-map-luskan.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/sword-coast-adventurers-guide/img/sword-coast-map-luskan.webp#center)
 
-![](luskan-map.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/sword-coast-adventurers-guide/img/luskan-map.webp#center)
 
 Luskan, the City of Sails, spans the icy River Mirar, which tumbles from the Spine of the World, races past Mirabar, and then plunges toward the sea. The swift river has cut deep here, and Luskan rests atop two escarpments on either side, with sheer, forty-foot bluffs of gray stone rising above the water. Around the city's perimeter, thick stone walls with squat towers provide defense. The southern gate, called the Twin Teeth, boasts the most impressive towers, standing twice as tall as the city walls, and bedecked with crenellations and arrow slits enough for numerous defenders, in a show of strength toward the southern approach.
 
@@ -1522,9 +1523,9 @@ Dark Arch connects South Bank with Closeguard Island, and only members of Ship K
 
 In the last decade or so, two great changes have come over Luskan. The first was the plague that crippled the gangs that had controlled the city, allowing the High Captains to reclaim the power they had long held in Luskan. The other, far more sudden, was the return of the Arcane Brotherhood and its five-spired tower. A few years ago, the ruined Hosttower of the Arcane began regenerating its damaged stone, climbing into the sky once more. Shortly thereafter, mages of the Arcane Brotherhood emerged, almost immediately began cleansing the Luskar ruins of undead, and fought off a dragon menacing the city. Cheered by the citizens, they swore to keep themselves out of the politics of the High Captains and the city at large, but the notion that powerful wizards closely aligned with one another can truly remain neutral is laughable to anyone familiar with such things.
 
-![](scag02-30.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/sword-coast-adventurers-guide/img/scag02-30.webp#center)
 
-Now, the Arcane Brotherhood again walks the streets of Luskan, marked by the distinctive colors and patterns of their cloaks. From a distance, these cloaks all bear the same cut and silhouette, but each wizard of the Hosttower chooses a color or a design, and a moniker to match it. The leadership of the Arcane Brotherhood is the archmage and the four overwizards of the other spires of the Hosttower:
+Now, the Arcane Brotherhood again walks the streets of Luskan, marked by the distinctive colors and patterns of their cloaks. From a distance, these cloaks all bear the same cut and silhouette, but each wizard of the Hosttower chooses a color or a design, and a moniker to match it. The leadership of the Arcane Brotherhood is the archmage and the four Overwizards of the other spires of the Hosttower:
 
 - Cashaan the Red, Archmage Arcane  
 - Zelenn the White, Overwizard of the West  
@@ -1566,9 +1567,9 @@ Dwarves still live in the mines of Kelvin's Cairn, but in fewer numbers than the
 > 
 > Do you know what it is to be a slave? To feel the crack of a whip, the venom of a drow priestess's snake-headed lash, the weight of a burden you can't possibly lift after so much toil? No, you don't. So close your mouth and open your eyes and ears, and dip your quill.
 
-![](scag02-31.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/sword-coast-adventurers-guide/img/scag02-31.webp#center)
 
-Known by many as the Realms Below, the vast, milesdeep network of caverns, caves, and underground waterways called the Underdark is home to many strange creatures and even stranger societies. No one is quite sure the extent of this massive ecosystem, except to say that it reaches at least the breadth of the continent, and that most creatures are fully capable of surviving their entire lives within it, provided they can find enough food and safety to do so. Breathable air is plentiful, and clean water can be found. Beyond that, most surface folk only have the tales of adventurers, the survivors of attacks, and the occasional escaped captive to describe the horrors lurking below the surface.
+Known by many as the Realms Below, the vast, miles-deep network of caverns, caves, and underground waterways called the Underdark is home to many strange creatures and even stranger societies. No one is quite sure the extent of this massive ecosystem, except to say that it reaches at least the breadth of the continent, and that most creatures are fully capable of surviving their entire lives within it, provided they can find enough food and safety to do so. Breathable air is plentiful, and clean water can be found. Beyond that, most surface folk only have the tales of adventurers, the survivors of attacks, and the occasional escaped captive to describe the horrors lurking below the surface.
 
 What follows are portions of the tale told by Oshgir, a half-orc warrior who was captured by a duergar raiding party, sold to a Zhentarim agent, captured by drow, and then escaped his captivity by killing an overseer and fleeing to Blingdenstone. This account was recorded by a traveling scribe of Deneir named Kimitar Thaeless and submitted to the library at Candlekeep. Most don't believe that a half-orc was quite so eloquent in his telling, and thus contend that the scribe embellished the tale somewhat.
 

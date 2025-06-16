@@ -20,10 +20,10 @@ aliases:
 ---
 # Frost Brand
 *Major, very rare (requires attunement)*  
-![](frost-brand.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/frost-brand.webp#right)
 
 
-When you hit with an attack using this magic sword, the target takes an extra `1d6` cold damage. In addition, while you hold the sword, you have resistance to fire damage.
+When you hit with an attack using this magic sword, the target takes an extra `d6` cold damage. In addition, while you hold the sword, you have resistance to fire damage.
 
 In freezing temperatures, the blade sheds bright light in a 10-foot radius and dim light for an additional 10 feet.
 
@@ -40,13 +40,13 @@ When you draw this weapon, you can extinguish all nonmagical flames within 30 fe
 ### Frost Brand Double-Bladed Scimitar
 
 - **Damage**: 2d4 slashing
-- **Properties**: [Two-Handed](item-properties.md#Two-Handed), [special](item-properties.md#Special%20Weapons)
+- **Properties**: [Two-Handed](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Two-Handed), [special](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Special%20Weapons)
 - **Weight**: 6.0 lbs.
 
 ### Frost Brand Greatsword
 
 - **Damage**: 2d6 slashing
-- **Properties**: [Heavy](item-properties.md#Heavy), [Two-Handed](item-properties.md#Two-Handed)
+- **Properties**: [Heavy](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Heavy), [Two-Handed](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Two-Handed)
 - **Weight**: 6.0 lbs.
 
 ### Frost Brand Longsword
@@ -54,25 +54,25 @@ When you draw this weapon, you can extinguish all nonmagical flames within 30 fe
 - **Damage**:
   - One-handed: 1d8 slashing
   - Two-handed: 1d10 slashing
-- **Properties**: [Versatile](item-properties.md#Versatile)
+- **Properties**: [Versatile](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Versatile)
 - **Weight**: 3.0 lbs.
 
 ### Frost Brand Rapier
 
 - **Damage**: 1d8 piercing
-- **Properties**: [Finesse](item-properties.md#Finesse)
+- **Properties**: [Finesse](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Finesse)
 - **Weight**: 2.0 lbs.
 
 ### Frost Brand Scimitar
 
 - **Damage**: 1d6 slashing
-- **Properties**: [Finesse](item-properties.md#Finesse), [Light](item-properties.md#Light)
+- **Properties**: [Finesse](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Finesse), [Light](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Light)
 - **Weight**: 3.0 lbs.
 
 ### Frost Brand Shortsword
 
 - **Damage**: 1d6 piercing
-- **Properties**: [Finesse](item-properties.md#Finesse), [Light](item-properties.md#Light)
+- **Properties**: [Finesse](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Finesse), [Light](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Light)
 - **Weight**: 2.0 lbs.
 
 

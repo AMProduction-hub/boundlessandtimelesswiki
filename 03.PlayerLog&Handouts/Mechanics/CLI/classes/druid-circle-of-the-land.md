@@ -4,10 +4,11 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/subclass/druid/land
-aliases: ["Circle of the Land"]
+aliases:
+- Circle of the Land
 ---
 # Circle of the Land
-*[Druid](03.PlayerLog&Handouts/Mechanics/CLI/classes/druid.md): Druid Circle*  
+*[Druid](./druid.md): Druid Circle*  
 *Source: Player's Handbook p. 68. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 > [!tldr] Class and Feature Progression
@@ -68,91 +69,91 @@ Once you gain access to a circle spell, you always have it prepared, and it does
 
 | Druid Level | Circle Spells |
 |-------------|---------------|
-| 3rd | [hold person](hold-person.md), [spike growth](spike-growth.md) |
-| 5th | [sleet storm](sleet-storm.md), [slow](slow.md) |
-| 7th | [freedom of movement](freedom-of-movement.md), [ice storm](ice-storm.md) |
-| 9th | [commune with nature](commune-with-nature.md), [cone of cold](cone-of-cold.md) |
+| 3rd | [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md), [spike growth](03.PlayerLog&Handouts/Mechanics/CLI/spells/spike-growth.md) |
+| 5th | [sleet storm](03.PlayerLog&Handouts/Mechanics/CLI/spells/sleet-storm.md), [slow](03.PlayerLog&Handouts/Mechanics/CLI/spells/slow.md) |
+| 7th | [freedom of movement](03.PlayerLog&Handouts/Mechanics/CLI/spells/freedom-of-movement.md), [ice storm](03.PlayerLog&Handouts/Mechanics/CLI/spells/ice-storm.md) |
+| 9th | [commune with nature](03.PlayerLog&Handouts/Mechanics/CLI/spells/commune-with-nature.md), [cone of cold](03.PlayerLog&Handouts/Mechanics/CLI/spells/cone-of-cold.md) |
 ^arctic
 
 **Coast**
 
 | Druid Level | Circle Spells |
 |-------------|---------------|
-| 3rd | [mirror image](mirror-image.md), [misty step](misty-step.md) |
-| 5th | [water breathing](water-breathing.md), [water walk](water-walk.md) |
-| 7th | [control water](control-water.md), [freedom of movement](freedom-of-movement.md) |
-| 9th | [conjure elemental](conjure-elemental.md), [scrying](scrying.md) |
+| 3rd | [mirror image](03.PlayerLog&Handouts/Mechanics/CLI/spells/mirror-image.md), [misty step](03.PlayerLog&Handouts/Mechanics/CLI/spells/misty-step.md) |
+| 5th | [water breathing](03.PlayerLog&Handouts/Mechanics/CLI/spells/water-breathing.md), [water walk](03.PlayerLog&Handouts/Mechanics/CLI/spells/water-walk.md) |
+| 7th | [control water](03.PlayerLog&Handouts/Mechanics/CLI/spells/control-water.md), [freedom of movement](03.PlayerLog&Handouts/Mechanics/CLI/spells/freedom-of-movement.md) |
+| 9th | [conjure elemental](03.PlayerLog&Handouts/Mechanics/CLI/spells/conjure-elemental.md), [scrying](03.PlayerLog&Handouts/Mechanics/CLI/spells/scrying.md) |
 ^coast
 
 **Desert**
 
 | Druid Level | Circle Spells |
 |-------------|---------------|
-| 3rd | [blur](blur.md), [silence](silence.md) |
-| 5th | [create food and water](create-food-and-water.md), [protection from energy](protection-from-energy.md) |
-| 7th | [blight](blight.md), [hallucinatory terrain](hallucinatory-terrain.md) |
-| 9th | [insect plague](insect-plague.md), [wall of stone](wall-of-stone.md) |
+| 3rd | [blur](03.PlayerLog&Handouts/Mechanics/CLI/spells/blur.md), [silence](03.PlayerLog&Handouts/Mechanics/CLI/spells/silence.md) |
+| 5th | [create food and water](03.PlayerLog&Handouts/Mechanics/CLI/spells/create-food-and-water.md), [protection from energy](03.PlayerLog&Handouts/Mechanics/CLI/spells/protection-from-energy.md) |
+| 7th | [blight](03.PlayerLog&Handouts/Mechanics/CLI/spells/blight.md), [hallucinatory terrain](03.PlayerLog&Handouts/Mechanics/CLI/spells/hallucinatory-terrain.md) |
+| 9th | [insect plague](03.PlayerLog&Handouts/Mechanics/CLI/spells/insect-plague.md), [wall of stone](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-stone.md) |
 ^desert
 
 **Forest**
 
 | Druid Level | Circle Spells |
 |-------------|---------------|
-| 3rd | [barkskin](barkskin.md), [spider climb](spider-climb.md) |
-| 5th | [call lightning](call-lightning.md), [plant growth](plant-growth.md) |
-| 7th | [divination](divination.md), [freedom of movement](freedom-of-movement.md) |
-| 9th | [commune with nature](commune-with-nature.md), [tree stride](tree-stride.md) |
+| 3rd | [barkskin](03.PlayerLog&Handouts/Mechanics/CLI/spells/barkskin.md), [spider climb](03.PlayerLog&Handouts/Mechanics/CLI/spells/spider-climb.md) |
+| 5th | [call lightning](03.PlayerLog&Handouts/Mechanics/CLI/spells/call-lightning.md), [plant growth](03.PlayerLog&Handouts/Mechanics/CLI/spells/plant-growth.md) |
+| 7th | [divination](03.PlayerLog&Handouts/Mechanics/CLI/spells/divination.md), [freedom of movement](03.PlayerLog&Handouts/Mechanics/CLI/spells/freedom-of-movement.md) |
+| 9th | [commune with nature](03.PlayerLog&Handouts/Mechanics/CLI/spells/commune-with-nature.md), [tree stride](03.PlayerLog&Handouts/Mechanics/CLI/spells/tree-stride.md) |
 ^forest
 
 **Grassland**
 
 | Druid Level | Circle Spells |
 |-------------|---------------|
-| 3rd | [invisibility](invisibility.md), [pass without trace](pass-without-trace.md) |
-| 5th | [daylight](daylight.md), [haste](haste.md) |
-| 7th | [divination](divination.md), [freedom of movement](freedom-of-movement.md) |
-| 9th | [dream](dream.md), [insect plague](insect-plague.md) |
+| 3rd | [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md), [pass without trace](03.PlayerLog&Handouts/Mechanics/CLI/spells/pass-without-trace.md) |
+| 5th | [daylight](03.PlayerLog&Handouts/Mechanics/CLI/spells/daylight.md), [haste](03.PlayerLog&Handouts/Mechanics/CLI/spells/haste.md) |
+| 7th | [divination](03.PlayerLog&Handouts/Mechanics/CLI/spells/divination.md), [freedom of movement](03.PlayerLog&Handouts/Mechanics/CLI/spells/freedom-of-movement.md) |
+| 9th | [dream](03.PlayerLog&Handouts/Mechanics/CLI/spells/dream.md), [insect plague](03.PlayerLog&Handouts/Mechanics/CLI/spells/insect-plague.md) |
 ^grassland
 
 **Mountain**
 
 | Druid Level | Circle Spells |
 |-------------|---------------|
-| 3rd | [spider climb](spider-climb.md), [spike growth](spike-growth.md) |
-| 5th | [lightning bolt](lightning-bolt.md), [meld into stone](meld-into-stone.md) |
-| 7th | [stone shape](stone-shape.md), [stoneskin](stoneskin.md) |
-| 9th | [passwall](passwall.md), [wall of stone](wall-of-stone.md) |
+| 3rd | [spider climb](03.PlayerLog&Handouts/Mechanics/CLI/spells/spider-climb.md), [spike growth](03.PlayerLog&Handouts/Mechanics/CLI/spells/spike-growth.md) |
+| 5th | [lightning bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/lightning-bolt.md), [meld into stone](03.PlayerLog&Handouts/Mechanics/CLI/spells/meld-into-stone.md) |
+| 7th | [stone shape](03.PlayerLog&Handouts/Mechanics/CLI/spells/stone-shape.md), [stoneskin](03.PlayerLog&Handouts/Mechanics/CLI/spells/stoneskin.md) |
+| 9th | [passwall](03.PlayerLog&Handouts/Mechanics/CLI/spells/passwall.md), [wall of stone](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-stone.md) |
 ^mountain
 
 **Swamp**
 
 | Druid Level | Circle Spells |
 |-------------|---------------|
-| 3rd | [darkness](darkness.md), [Melf's acid arrow](melfs-acid-arrow.md) |
-| 5th | [water walk](water-walk.md), [stinking cloud](stinking-cloud.md) |
-| 7th | [freedom of movement](freedom-of-movement.md), [locate creature](locate-creature.md) |
-| 9th | [insect plague](insect-plague.md), [scrying](scrying.md) |
+| 3rd | [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md), [Melf's acid arrow](03.PlayerLog&Handouts/Mechanics/CLI/spells/melfs-acid-arrow.md) |
+| 5th | [water walk](03.PlayerLog&Handouts/Mechanics/CLI/spells/water-walk.md), [stinking cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/stinking-cloud.md) |
+| 7th | [freedom of movement](03.PlayerLog&Handouts/Mechanics/CLI/spells/freedom-of-movement.md), [locate creature](03.PlayerLog&Handouts/Mechanics/CLI/spells/locate-creature.md) |
+| 9th | [insect plague](03.PlayerLog&Handouts/Mechanics/CLI/spells/insect-plague.md), [scrying](03.PlayerLog&Handouts/Mechanics/CLI/spells/scrying.md) |
 ^swamp
 
 **Underdark**
 
 | Druid Level | Circle Spells |
 |-------------|---------------|
-| 3rd | [spider climb](spider-climb.md), [web](web.md) |
-| 5th | [gaseous form](gaseous-form.md), [stinking cloud](stinking-cloud.md) |
-| 7th | [greater invisibility](greater-invisibility.md), [stone shape](stone-shape.md) |
-| 9th | [cloudkill](cloudkill.md), [insect plague](insect-plague.md) |
+| 3rd | [spider climb](03.PlayerLog&Handouts/Mechanics/CLI/spells/spider-climb.md), [web](03.PlayerLog&Handouts/Mechanics/CLI/spells/web.md) |
+| 5th | [gaseous form](03.PlayerLog&Handouts/Mechanics/CLI/spells/gaseous-form.md), [stinking cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/stinking-cloud.md) |
+| 7th | [greater invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-invisibility.md), [stone shape](03.PlayerLog&Handouts/Mechanics/CLI/spells/stone-shape.md) |
+| 9th | [cloudkill](03.PlayerLog&Handouts/Mechanics/CLI/spells/cloudkill.md), [insect plague](03.PlayerLog&Handouts/Mechanics/CLI/spells/insect-plague.md) |
 ^underdark
 
 ### Land's Stride (Level 6)
 
 Starting at 6th level, moving through nonmagical difficult terrain costs you no extra movement. You can also pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard.
 
-In addition, you have advantage on saving throws against plants that are magically created or manipulated to impede movement, such as those created by the [entangle](entangle.md) spell.
+In addition, you have advantage on saving throws against plants that are magically created or manipulated to impede movement, such as those created by the [entangle](03.PlayerLog&Handouts/Mechanics/CLI/spells/entangle.md) spell.
 
 ### Nature's Ward (Level 10)
 
-When you reach 10th level, you can't be [charmed](conditions.md#Charmed) or [frightened](conditions.md#Frightened) by elementals or fey, and you are immune to poison and disease.
+When you reach 10th level, you can't be [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed) or [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened) by elementals or fey, and you are immune to poison and disease.
 
 ### Nature's Sanctuary (Level 14)
 

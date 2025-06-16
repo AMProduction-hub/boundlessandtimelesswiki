@@ -4,7 +4,8 @@ cssclasses: json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/phb
-aliases: ["Folk Hero"]
+aliases:
+- Folk Hero
 ---
 # Folk Hero
 *Source: Player's Handbook p. 131. Available in the Basic Rules (2014)*  
@@ -12,7 +13,7 @@ aliases: ["Folk Hero"]
 
 - **Skill Proficiencies.** [Animal Handling](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Animal%20Handling), [Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)  
 - **Tool Proficiencies.** One type of artisan's tools, vehicles (land)  
-- **Equipment.** A set of artisan's tools (one of your choice), a [shovel](shovel.md), an [iron pot](iron-pot.md), a set of [common clothes](common-clothes.md), and a belt [pouch](pouch.md) containing 10 gp  
+- **Equipment.** A set of artisan's tools (one of your choice), a [shovel](03.PlayerLog&Handouts/Mechanics/CLI/items/shovel.md), an [iron pot](03.PlayerLog&Handouts/Mechanics/CLI/items/iron-pot.md), a set of [common clothes](03.PlayerLog&Handouts/Mechanics/CLI/items/common-clothes.md), and a belt [pouch](03.PlayerLog&Handouts/Mechanics/CLI/items/pouch.md) containing 10 gp  
 
 You come from a humble social rank, but you are destined for so much more. Already the people of your home village regard you as their champion, and your destiny calls you to stand against the tyrants and monsters that threaten the common folk everywhere.
 

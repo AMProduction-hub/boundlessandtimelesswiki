@@ -12,9 +12,9 @@ aliases:
 *Adventuring gear, poison (ingested)*  
 
 
-- **Properties**: [Poison](item-properties.md#Poison)
+- **Properties**: [Poison](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Poison)
 - **Cost**: 600 gp
 
-A creature subjected to this poison must succeed on a DC 15 Constitution saving throw or become [poisoned](conditions.md#Poisoned) for `4d6` hours. The [poisoned](conditions.md#Poisoned) creature is [incapacitated](conditions.md#Incapacitated).
+A creature subjected to this poison must succeed on a DC 15 Constitution saving throw or become [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned) for `4d6` hours. The [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned) creature is [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated).
 
 *Source: Dungeon Master's Guide p. 258. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

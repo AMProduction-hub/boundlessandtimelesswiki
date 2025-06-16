@@ -4,7 +4,8 @@ cssclasses: json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/scag
-aliases: ["Courtier"]
+aliases:
+- Courtier
 ---
 # Courtier
 *Source: Sword Coast Adventurer's Guide p. 146*  
@@ -12,7 +13,7 @@ aliases: ["Courtier"]
 
 - **Skill Proficiencies.** [Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight), [Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion)  
 - **Languages.** Any two of your choice  
-- **Equipment.** A set of [fine clothes](fine-clothes.md) and a [pouch](pouch.md) containing 5 gp  
+- **Equipment.** A set of [fine clothes](03.PlayerLog&Handouts/Mechanics/CLI/items/fine-clothes.md) and a [pouch](03.PlayerLog&Handouts/Mechanics/CLI/items/pouch.md) containing 5 gp  
 
 In your earlier days, you were a personage of some significance in a noble court or a bureaucratic organization. You might or might not come from an upper-class family; your talents, rather than the circumstances of your birth, could have secured you this position.
 
@@ -26,6 +27,6 @@ Your knowledge of how bureaucracies function lets you gain access to the records
 
 ## Suggested Characteristics
 
-Use the tables for the [guild artisan](guild-artisan.md) background in the Player's Handbook as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as a courtier.
+Use the tables for the [guild artisan](03.PlayerLog&Handouts/Mechanics/CLI/backgrounds/guild-artisan.md) background in the Player's Handbook as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as a courtier.
 
 The noble court or bureaucratic organization where you got your start is directly or indirectly associated with your bond (which could pertain to certain individuals in the group, such as your sponsor or mentor). Your ideal might be concerned with the prevailing philosophy of your court or organization.

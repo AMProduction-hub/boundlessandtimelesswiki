@@ -12,9 +12,9 @@ aliases:
 *Adventuring gear, poison (inhaled)*  
 
 
-- **Properties**: [Poison](item-properties.md#Poison)
+- **Properties**: [Poison](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Poison)
 - **Cost**: 250 gp
 
-A creature subjected to this poison must succeed on a DC 15 Constitution saving throw or become [poisoned](conditions.md#Poisoned) for 1 hour. The [poisoned](conditions.md#Poisoned) creature is [blinded](conditions.md#Blinded).
+A creature subjected to this poison must succeed on a DC 15 Constitution saving throw or become [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned) for 1 hour. The [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned) creature is [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded).
 
 *Source: Dungeon Master's Guide p. 258. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

@@ -12,7 +12,8 @@ classes:
 - Bard
 - Cleric (Arcana Domain)
 - Wizard
-aliases: ["Project Image"]
+aliases:
+- Project Image
 ---
 # Project Image
 *7th-level, Illusion*  
@@ -27,10 +28,10 @@ You create an illusory copy of yourself that lasts for the duration. The copy ca
 
 You can use your action to move this illusion up to twice your speed, and make it gesture, speak, and behave in whatever way you choose. It mimics your mannerisms perfectly.
 
-You can see through its eyes and hear through its ears as if you were in its space. On your turn as a bonus action, you can switch from using its senses to using your own, or back again. While you are using its senses, you are [blinded](conditions.md#Blinded) and [deafened](conditions.md#Deafened) in regard to your own surroundings.
+You can see through its eyes and hear through its ears as if you were in its space. On your turn as a bonus action, you can switch from using its senses to using your own, or back again. While you are using its senses, you are [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded) and [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened) in regard to your own surroundings.
 
 Physical interaction with the image reveals it to be an illusion, because things can pass through it. A creature that uses its action to examine the image can determine that it is an illusion with a successful Intelligence ([Investigation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Investigation)) check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image, and any noise it makes sounds hollow to the creature.
 
-**Classes**: [Bard](list-spells-classes-bard.md); [Wizard](list-spells-classes-wizard.md); [Cleric (Arcana Domain)](list-spells-classes-cleric-arcana-domain-scag.md "subclass=SCAG")
+**Classes**: [Cleric (Arcana Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcana-domain-scag.md "subclass=SCAG"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook p. 270. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

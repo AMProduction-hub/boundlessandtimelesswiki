@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
-aliases: ["Roleplaying an Orc; Orc Personality Traits"]
+aliases:
+- Roleplaying an Orc; Orc Personality Traits
 ---
 # Roleplaying an Orc; Orc Personality Traits
 *Source: Volo's Guide to Monsters p. 87* 

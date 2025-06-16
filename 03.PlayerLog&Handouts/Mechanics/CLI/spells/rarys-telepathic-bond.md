@@ -3,19 +3,23 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
+- ttrpg-cli/spell/background/silverquill-student
 - ttrpg-cli/spell/class/bard
 - ttrpg-cli/spell/class/wizard
 - ttrpg-cli/spell/level/5th-level
 - ttrpg-cli/spell/ritual
 - ttrpg-cli/spell/school/divination
 - ttrpg-cli/spell/subclass/aberrant-mind
+- ttrpg-cli/spell/subclass/lunar-sorcery
 - ttrpg-cli/spell/subclass/peace-domain
 classes:
 - Bard
 - Cleric (Peace Domain)
 - Sorcerer (Aberrant Mind)
+- Sorcerer (Lunar Sorcery)
 - Wizard
-aliases: ["Rary's Telepathic Bond"]
+aliases:
+- Rary's Telepathic Bond
 ---
 # Rary's Telepathic Bond
 *5th-level, Divination (ritual)*  
@@ -30,6 +34,6 @@ You forge a telepathic link among up to eight willing creatures of your choice w
 
 Until the spell ends, the targets can communicate telepathically through the bond whether or not they have a common language. The communication is possible over any distance, though it can't extend to other planes of existence.
 
-**Classes**: [Cleric (Peace Domain)](list-spells-classes-cleric-peace-domain-tce.md "subclass=TCE"); [Bard](list-spells-classes-bard.md); [Wizard](list-spells-classes-wizard.md); [Sorcerer (Aberrant Mind)](list-spells-classes-sorcerer-aberrant-mind-tce.md "subclass=TCE")
+**Classes**: [Sorcerer (Aberrant Mind)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-aberrant-mind-tce.md "subclass=TCE"); [Cleric (Peace Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-peace-domain-tce.md "subclass=TCE"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Sorcerer (Lunar Sorcery)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-lunar-sorcery-dsotdq.md "subclass=DSotDQ")
 
 *Source: Player's Handbook p. 270. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> (as "Telepathic Bond")*

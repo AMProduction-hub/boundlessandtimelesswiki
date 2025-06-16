@@ -6,11 +6,15 @@ tags:
 - ttrpg-cli/deity/faerunian
 - ttrpg-cli/domain/nature
 - ttrpg-cli/domain/tempest
-aliases: ["Auril", "The Frostmaiden", "Lady Frostkiss", "Icedawn"]
+aliases: 
+- Auril
+- The Frostmaiden
+- Lady Frostkiss
+- Icedawn
 ---
 # Auril
 *Source: Sword Coast Adventurer's Guide p. 21* 
-![](scag-symbol-of-auril.webp#symbol)
+![](03.PlayerLog&Handouts/Mechanics/CLI/deities/img/scag-symbol-of-auril.webp#symbol)
 
 - **Alternate Names**: The Frostmaiden, Lady Frostkiss, Icedawn
 - **Alignment**: Neutral Evil

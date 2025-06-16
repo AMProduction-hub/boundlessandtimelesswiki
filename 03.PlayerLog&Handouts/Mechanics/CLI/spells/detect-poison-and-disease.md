@@ -3,19 +3,23 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
+- ttrpg-cli/spell/background/simic-scientist
 - ttrpg-cli/spell/class/bard
 - ttrpg-cli/spell/class/cleric
 - ttrpg-cli/spell/class/druid
 - ttrpg-cli/spell/class/paladin
 - ttrpg-cli/spell/class/ranger
+- ttrpg-cli/spell/feat/divinely-favored
 - ttrpg-cli/spell/feat/fey-touched
 - ttrpg-cli/spell/feat/magic-initiate
 - ttrpg-cli/spell/feat/ritual-caster
+- ttrpg-cli/spell/feat/strixhaven-initiate
 - ttrpg-cli/spell/level/1st-level
 - ttrpg-cli/spell/optfeature/book-of-ancient-secrets
 - ttrpg-cli/spell/ritual
 - ttrpg-cli/spell/school/divination
 - ttrpg-cli/spell/subclass/divine-soul
+- ttrpg-cli/spell/subrace/half-elf-mark-of-detection
 classes:
 - Bard
 - Cleric
@@ -23,7 +27,8 @@ classes:
 - Paladin
 - Ranger
 - Sorcerer (Divine Soul)
-aliases: ["Detect Poison and Disease"]
+aliases:
+- Detect Poison and Disease
 ---
 # Detect Poison and Disease
 *1st-level, Divination (ritual)*  
@@ -38,6 +43,6 @@ For the duration, you can sense the presence and location of poisons, poisonous 
 
 The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.
 
-**Classes**: [Druid](list-spells-classes-druid.md); [Paladin](list-spells-classes-paladin.md); [Cleric](list-spells-classes-cleric.md); [Bard](list-spells-classes-bard.md); [Ranger](list-spells-classes-ranger.md); [Sorcerer (Divine Soul)](list-spells-classes-sorcerer-divine-soul-xge.md "subclass=XGE")
+**Classes**: [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Paladin](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-paladin.md); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Ranger](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-ranger.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE")
 
 *Source: Player's Handbook p. 231. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

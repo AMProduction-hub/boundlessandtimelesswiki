@@ -10,7 +10,7 @@ aliases:
 - "Candle Mace"
 ---
 # Candle Mace
-*Weapon ([mace](mace.md))*  
+*Weapon ([mace](03.PlayerLog&Handouts/Mechanics/CLI/items/mace.md))*  
 
 
 - **Damage**: 1d6 bludgeoning

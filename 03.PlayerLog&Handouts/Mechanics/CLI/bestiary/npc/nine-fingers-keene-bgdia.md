@@ -7,9 +7,11 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/humanoid/human
 statblock: inline
-aliases: ["Nine-Fingers Keene"]
+statblock-link: "#^statblock"
+aliases:
+- Nine-Fingers Keene
 ---
-# [Nine-Fingers Keene](03 - Player Log & Handouts\Mechanics\CLI\bestiary\npc/nine-fingers-keene-bgdia.md)
+# [Nine-Fingers Keene](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/nine-fingers-keene-bgdia.md)
 *Source: Baldur's Gate: Descent Into Avernus p. 170*  
 
 The current leader of the Guild, Nine-Fingers Keene, disdains flashy garb and illusion magic. She appears to the world as she is: an unassuming woman of middling age and build. Her forgettable looks have proven her greatest asset as a thief, as her victims have trouble recognizing her even when they meet her again face-to-face. Keene's leadership over the years earned her a reputation of thoughtful pragmatism. When necessary, she seeks revenge for offenses against the Guild—provided doing so is profitable. Her methods are vicious when necessary, and she is as feared as she is respected.
@@ -23,51 +25,59 @@ Keene has become increasingly intolerant of the populous tide turning against he
 "subtype": "human"
 "alignment": "Neutral"
 "ac": !!int "15"
-"ac_class": "[leather armor](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/items/leather-armor.md)"
+"ac_class": "[leather armor](03.PlayerLog&Handouts/Mechanics/CLI/items/leather-armor.md)"
 "hp": !!int "84"
 "hit_dice": "13d8 + 26"
+"modifier": !!int "4"
 "stats":
-- !!int "12"
-- !!int "18"
-- !!int "14"
-- !!int "13"
-- !!int "17"
-- !!int "14"
+  - !!int "12"
+  - !!int "18"
+  - !!int "14"
+  - !!int "13"
+  - !!int "17"
+  - !!int "14"
 "speed": "30 ft."
 "saves":
-  "Dexterity": !!int "7"
-  "Intelligence": !!int "4"
+  - "dexterity": "+7"
+  - "intelligence": "+4"
 "skillsaves":
-  "Intimidation": !!int "5"
-  "Sleight of Hand": !!int "10"
-  "Deception": !!int "5"
-  "Stealth": !!int "10"
-  "Insight": !!int "6"
-  "Perception": !!int "6"
-  "Acrobatics": !!int "10"
+  - "name": "[Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics)"
+    "desc": "+10"
+  - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
+    "desc": "+5"
+  - "name": "[Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight)"
+    "desc": "+6"
+  - "name": "[Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation)"
+    "desc": "+5"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+6"
+  - "name": "[Sleight of Hand](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Sleight%20of%20Hand)"
+    "desc": "+10"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+10"
 "senses": "passive Perception 16"
 "languages": "Common, Thieves' cant"
 "cr": "5"
 "traits":
-- "desc": "On each of her turns in combat, Nine-Fingers can use a bonus action to\
-    \ take the Dash, Disengage, or Hide action."
-  "name": "Cunning Action"
-- "desc": "Nine-Fingers adds double her proficiency bonus to the damage she deals\
-    \ on ranged attacks made with daggers (already factored into her attacks)."
-  "name": "Dagger Thrower"
+  - "desc": "On each of her turns in combat, Nine-Fingers can use a bonus action to\
+      \ take the Dash, Disengage, or Hide action."
+    "name": "Cunning Action"
+  - "desc": "Nine-Fingers adds double her proficiency bonus to the damage she deals\
+      \ on ranged attacks made with daggers (already factored into her attacks)."
+    "name": "Dagger Thrower"
 "actions":
-- "desc": "Nine-Fingers attacks three times with her daggers."
-  "name": "Multiattack"
-- "desc": "Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60\
-    \ ft., one target. Hit: 6 (1d4 + 4) piercing damage, plus 6 piercing damage\
-    \ if it's a ranged attack."
-  "name": "Dagger"
+  - "desc": "Nine-Fingers attacks three times with her daggers."
+    "name": "Multiattack"
+  - "desc": "Melee  or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. Hit: 6 (1d4 + 4) piercing damage, plus 6 piercing damage\
+      \ if it's a ranged attack."
+    "name": "Dagger"
 "reactions":
-- "desc": "Nine-Fingers halves the damage that she takes from an attack that hits\
-    \ her. She must be able to see the attacker."
-  "name": "Uncanny Dodge"
+  - "desc": "Nine-Fingers halves the damage that she takes from an attack that hits\
+      \ her. She must be able to see the attacker."
+    "name": "Uncanny Dodge"
 "source":
-- "BGDIA"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/npc/token/nine-fingers-keene-bgdia.webp"
+  - "BGDIA"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/token/nine-fingers-keene-bgdia.webp"
 ```
 ^statblock

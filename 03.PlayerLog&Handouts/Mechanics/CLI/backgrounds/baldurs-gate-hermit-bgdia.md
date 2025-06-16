@@ -4,16 +4,17 @@ cssclasses: json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/bgdia
-aliases: ["Baldur's Gate Hermit"]
+aliases:
+- Baldur's Gate Hermit
 ---
 # Baldur's Gate Hermit
 *Source: Baldur's Gate: Descent Into Avernus p. 204, Player's Handbook p. 134*  
 
 
 - **Skill Proficiencies.** [Medicine](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Medicine), [Religion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Religion)  
-- **Tool Proficiencies.** [Herbalism kit](herbalism-kit.md)  
+- **Tool Proficiencies.** [Herbalism kit](03.PlayerLog&Handouts/Mechanics/CLI/items/herbalism-kit.md)  
 - **Languages.** One of your choice  
-- **Equipment.** A [scroll case](map-or-scroll-case.md) stuffed full of notes from your studies or prayers, a winter [blanket](blanket.md), a set of [common clothes](common-clothes.md), an [herbalism kit](herbalism-kit.md), and 5 gp  
+- **Equipment.** A [scroll case](03.PlayerLog&Handouts/Mechanics/CLI/items/map-or-scroll-case.md) stuffed full of notes from your studies or prayers, a winter [blanket](03.PlayerLog&Handouts/Mechanics/CLI/items/blanket.md), a set of [common clothes](03.PlayerLog&Handouts/Mechanics/CLI/items/common-clothes.md), an [herbalism kit](03.PlayerLog&Handouts/Mechanics/CLI/items/herbalism-kit.md), and 5 gp  
 
 While some might think it strange to find hermits in a bustling city, others know that sometimes the most profound solitude exists in the midst of a crowd. Baldur's Gate holds a handful of souls who manage to find isolation amid its tumult.
 

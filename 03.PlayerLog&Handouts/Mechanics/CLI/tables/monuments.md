@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
-aliases: ["Monuments"]
+aliases:
+- Monuments
 ---
 # Monuments
 *Source: Dungeon Master's Guide p. 108* 

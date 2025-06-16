@@ -8,10 +8,12 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/aberration
 statblock: inline
-aliases: ["Otyugh"]
+statblock-link: "#^statblock"
+aliases:
+- Otyugh
 ---
-# [Otyugh](03 - Player Log & Handouts\Mechanics\CLI\bestiary\aberration/otyugh.md)
-*Source: Monster Manual p. 248. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Otyugh](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\aberration/otyugh.md)
+*Source: Monster Manual p. 248, Storm King's Thunder, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Infernal Machine Rebuild, Journeys through the Radiant Citadel. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 An otyugh is a grotesque, bulbous creature borne along on three sturdy legs, its eyes and nose set along a vine-like stalk that snakes from the top of its bloated body. Two rubbery tentacles end in spiky, leaf-like appendages that the otyugh uses to shovel food into its gaping maw.
 
@@ -38,53 +40,60 @@ Sentient subterranean beings can coexist with otyughs, employing them as garbage
 "ac_class": "natural armor"
 "hp": !!int "114"
 "hit_dice": "12d10 + 48"
+"modifier": !!int "0"
 "stats":
-- !!int "16"
-- !!int "11"
-- !!int "19"
-- !!int "6"
-- !!int "13"
-- !!int "6"
+  - !!int "16"
+  - !!int "11"
+  - !!int "19"
+  - !!int "6"
+  - !!int "13"
+  - !!int "6"
 "speed": "30 ft."
 "saves":
-  "Constitution": !!int "7"
+  - "constitution": "+7"
 "senses": "darkvision 120 ft., passive Perception 11"
 "languages": "Otyugh"
 "cr": "5"
 "traits":
-- "desc": "The otyugh can magically transmit simple messages and images to any creature\
-    \ within 120 feet of it that can understand a language. This form of telepathy\
-    \ doesn't allow the receiving creature to telepathically respond."
-  "name": "Limited Telepathy"
+  - "desc": "The otyugh can magically transmit simple messages and images to any creature\
+      \ within 120 feet of it that can understand a language. This form of telepathy\
+      \ doesn't allow the receiving creature to telepathically respond."
+    "name": "Limited Telepathy"
 "actions":
-- "desc": "The otyugh makes three attacks: one with its bite and two with its tentacles."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 12\
-    \ (2d8 + 3) piercing damage. If the target is a creature, it must succeed on\
-    \ a DC 15 Constitution saving throw against disease or become [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
-    \ until the disease is cured. Every 24 hours that elapse, the target must repeat\
-    \ the saving throw, reducing its hit point maximum by 5 (1d10) on a failure.\
-    \ The disease is cured on a success. The target dies if the disease reduces its\
-    \ hit point maximum to 0. This reduction to the target's hit point maximum lasts\
-    \ until the disease is cured."
-  "name": "Bite"
-- "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 7\
-    \ (1d8 + 3) bludgeoning damage plus 4 (1d8) piercing damage. If the target\
-    \ is Medium or smaller, it is [grappled](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
-    \ (escape DC 13) and [restrained](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
-    \ until the grapple ends. The otyugh has two tentacles, each of which can grapple\
-    \ one target."
-  "name": "Tentacle"
-- "desc": "The otyugh slams creatures [grappled](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
-    \ by it into each other or a solid surface. Each creature must succeed on a DC\
-    \ 14 Constitution saving throw or take 10 (2d6 + 3) bludgeoning damage and be\
-    \ [stunned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Stunned)\
-    \ until the end of the otyugh's next turn. On a successful save, the target takes\
-    \ half the bludgeoning damage and isn't [stunned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Stunned)."
-  "name": "Tentacle Slam"
+  - "desc": "The otyugh makes three attacks: one with its bite and two with its tentacles."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 12\
+      \ (2d8 + 3) piercing damage. If the target is a creature, it must succeed\
+      \ on a DC 15 Constitution saving throw against disease or become [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
+      \ until the disease is cured. Every 24 hours that elapse, the target must repeat\
+      \ the saving throw, reducing its hit point maximum by 5 (d10) on a failure.\
+      \ The disease is cured on a success. The target dies if the disease reduces\
+      \ its hit point maximum to 0. This reduction to the target's hit point maximum\
+      \ lasts until the disease is cured."
+    "name": "Bite"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit:\
+      \ 7 (1d8 + 3) bludgeoning damage plus 4 (d8) piercing damage. If the target\
+      \ is Medium or smaller, it is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
+      \ (escape DC 13) and [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
+      \ until the grapple ends. The otyugh has two tentacles, each of which can grapple\
+      \ one target."
+    "name": "Tentacle"
+  - "desc": "The otyugh slams creatures [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
+      \ by it into each other or a solid surface. Each creature must succeed on a\
+      \ DC 14 Constitution saving throw or take 10 (2d6 + 3) bludgeoning damage\
+      \ and be [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)\
+      \ until the end of the otyugh's next turn. On a successful save, the target\
+      \ takes half the bludgeoning damage and isn't [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)."
+    "name": "Tentacle Slam"
 "source":
-- "MM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/aberration/token/otyugh.webp"
+  - "MM"
+  - "SKT"
+  - "TftYP"
+  - "ToA"
+  - "WDMM"
+  - "IMR"
+  - "JttRC"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/token/otyugh.webp"
 ```
 ^statblock
 

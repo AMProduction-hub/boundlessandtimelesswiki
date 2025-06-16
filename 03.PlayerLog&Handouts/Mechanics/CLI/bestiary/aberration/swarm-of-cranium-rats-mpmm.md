@@ -9,9 +9,11 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/aberration
 statblock: inline
-aliases: ["Swarm of Cranium Rats"]
+statblock-link: "#^statblock"
+aliases:
+- Swarm of Cranium Rats
 ---
-# [Swarm of Cranium Rats](03 - Player Log & Handouts\Mechanics\CLI\bestiary\aberration/swarm-of-cranium-rats-mpmm.md)
+# [Swarm of Cranium Rats](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\aberration/swarm-of-cranium-rats-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 83, Volo's Guide to Monsters p. 133*  
 
 ## Cranium Rat
@@ -28,57 +30,58 @@ A single cranium rat uses its natural telepathy to communicate hunger, fear, and
 "ac": !!int "12"
 "hp": !!int "76"
 "hit_dice": "17d8"
+"modifier": !!int "2"
 "stats":
-- !!int "9"
-- !!int "14"
-- !!int "10"
-- !!int "15"
-- !!int "11"
-- !!int "14"
+  - !!int "9"
+  - !!int "14"
+  - !!int "10"
+  - !!int "15"
+  - !!int "11"
+  - !!int "14"
 "speed": "30 ft."
 "damage_resistances": "bludgeoning, piercing, slashing"
-"condition_immunities": "[charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
-  \ [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
-  \ [grappled](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Grappled),\
-  \ [paralyzed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
-  \ [petrified](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
-  \ [prone](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Prone),\
-  \ [restrained](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
-  \ [stunned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Stunned)"
+"condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
+  \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
+  \ [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled),\
+  \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
+  \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
+  \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
+  \ [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)"
 "senses": "darkvision 30 ft., passive Perception 10"
 "languages": "telepathy 30 ft."
 "cr": "5"
 "traits":
-- "desc": "As long as it has more than half of its hit points remaining, the swarm\
-    \ casts one of the following spells, requiring no spell components and using Intelligence\
-    \ as the spellcasting ability (spell save DC 13):\n\nAt will: [command](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/command.md),\
-    \ [comprehend languages](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/comprehend-languages.md),\
-    \ [detect thoughts](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/detect-thoughts.md)\n\
-    \n1/day each: [confusion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/confusion.md),\
-    \ [dominate monster](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/dominate-monster.md)"
-  "name": "Spellcasting (Psionics)"
-- "desc": "The swarm can occupy another creature's space and vice versa, and the swarm\
-    \ can move through any opening large enough for a Tiny rat. The swarm can't regain\
-    \ hit points or gain temporary hit points."
-  "name": "Swarm"
-- "desc": "The swarm is immune to any effect that would sense its emotions or read\
-    \ its thoughts, as well as to all divination spells."
-  "name": "Telepathic Shroud"
+  - "desc": "The swarm can occupy another creature's space and vice versa, and the\
+      \ swarm can move through any opening large enough for a Tiny rat. The swarm\
+      \ can't regain hit points or gain temporary hit points."
+    "name": "Swarm"
+  - "desc": "The swarm is immune to any effect that would sense its emotions or read\
+      \ its thoughts, as well as to all divination spells."
+    "name": "Telepathic Shroud"
 "actions":
-- "desc": "Melee Weapon Attack: +5 to hit, reach 0 ft., one target in the swarm's\
-    \ space. Hit: 14 (4d6) piercing damage, or 7 (2d6) piercing damage if the\
-    \ swarm has half of its hit points or fewer, plus 22 (5d8) psychic damage."
-  "name": "Bites"
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 0 ft., one target in the swarm's\
+      \ space. Hit: 14 (4d6) piercing damage, or 7 (2d6) piercing damage if\
+      \ the swarm has half of its hit points or fewer, plus 22 (5d8) psychic damage."
+    "name": "Bites"
+  - "desc": "As long as it has more than half of its hit points remaining, the swarm\
+      \ casts one of the following spells, requiring no spell components and using\
+      \ Intelligence as the spellcasting ability (spell save DC 13):\n\nAt will:\
+      \ [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md), [comprehend\
+      \ languages](03.PlayerLog&Handouts/Mechanics/CLI/spells/comprehend-languages.md),\
+      \ [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md)\n\
+      \n1/day each: [confusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/confusion.md),\
+      \ [dominate monster](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-monster.md)"
+    "name": "Spellcasting (Psionics)"
 "bonus_actions":
-- "desc": "The swarm sheds dim light from its brains in a 5-foot radius, increases\
-    \ the illumination to bright light in a 5- to 20-foot radius (and dim light for\
-    \ an additional number of feet equal to the chosen radius), or extinguishes the\
-    \ light."
-  "name": "Illumination"
+  - "desc": "The swarm sheds dim light from its brains in a 5-foot radius, increases\
+      \ the illumination to bright light in a 5- to 20-foot radius (and dim light\
+      \ for an additional number of feet equal to the chosen radius), or extinguishes\
+      \ the light."
+    "name": "Illumination"
 "source":
-- "MPMM"
-- "VGM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/aberration/token/swarm-of-cranium-rats-mpmm.webp"
+  - "MPMM"
+  - "VGM"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/token/swarm-of-cranium-rats-mpmm.webp"
 ```
 ^statblock
 

@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/tce
-aliases: ["Spells as Natural Hazards"]
+aliases:
+- Spells as Natural Hazards
 ---
 # Spells as Natural Hazards
 *Source: Tasha's Cauldron of Everything p. 170* 
@@ -12,27 +13,27 @@ aliases: ["Spells as Natural Hazards"]
 
 | Natural Hazard | Approximate Spell |
 |----------------|-------------------|
-| Ball lightning | [Chromatic orb](chromatic-orb.md) |
-| Blizzard | [Cone of cold](cone-of-cold.md), [ice storm](ice-storm.md), [sleet storm](sleet-storm.md) |
-| Earthquake | [Earthquake](earthquake.md) |
-| Falling debris | [Conjure barrage](conjure-barrage.md), [conjure volley](conjure-volley.md) |
-| Flood | [Control water](control-water.md), [tsunami](tsunami.md) |
-| Fog | [Fog cloud](fog-cloud.md) |
-| Lava bomb | [Fireball](fireball.md), [produce flame](produce-flame.md) |
-| Lightning | [Call lightning](call-lightning.md), [lightning bolt](lightning-bolt.md) |
-| Meteor | [Fireball](fireball.md), [meteor swarm](meteor-swarm.md) |
-| Mirage | [Hallucinatory terrain](hallucinatory-terrain.md) |
-| Pyroclastic flow | [Incendiary cloud](incendiary-cloud.md) |
-| Radiation | [Blight](blight.md), [circle of death](circle-of-death.md) |
-| Smoke | [Fog cloud](fog-cloud.md) |
-| St. Elmo's fire | [Faerie fire](faerie-fire.md) |
-| Swamp gas | [Dancing lights](dancing-lights.md) |
-| Tidal wave | [Tsunami](tsunami.md) |
-| Toxic eruption | [Acid splash](acid-splash.md) |
-| Toxic gas | [Cloudkill](cloudkill.md), [stinking cloud](stinking-cloud.md) |
-| Thunder | [Thunderwave](thunderwave.md) |
-| Volcanic lightning | [Storm of vengeance](storm-of-vengeance.md) |
-| Whirlpool | [Control water](control-water.md) |
-| Wildfire | [Fire storm](fire-storm.md), [wall of fire](wall-of-fire.md) |
-| Windstorm | [Gust of wind](gust-of-wind.md) |
+| Ball lightning | [Chromatic orb](03.PlayerLog&Handouts/Mechanics/CLI/spells/chromatic-orb.md) |
+| Blizzard | [Cone of cold](03.PlayerLog&Handouts/Mechanics/CLI/spells/cone-of-cold.md), [ice storm](03.PlayerLog&Handouts/Mechanics/CLI/spells/ice-storm.md), [sleet storm](03.PlayerLog&Handouts/Mechanics/CLI/spells/sleet-storm.md) |
+| Earthquake | [Earthquake](03.PlayerLog&Handouts/Mechanics/CLI/spells/earthquake.md) |
+| Falling debris | [Conjure barrage](03.PlayerLog&Handouts/Mechanics/CLI/spells/conjure-barrage.md), [conjure volley](03.PlayerLog&Handouts/Mechanics/CLI/spells/conjure-volley.md) |
+| Flood | [Control water](03.PlayerLog&Handouts/Mechanics/CLI/spells/control-water.md), [tsunami](03.PlayerLog&Handouts/Mechanics/CLI/spells/tsunami.md) |
+| Fog | [Fog cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/fog-cloud.md) |
+| Lava bomb | [Fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md), [produce flame](03.PlayerLog&Handouts/Mechanics/CLI/spells/produce-flame.md) |
+| Lightning | [Call lightning](03.PlayerLog&Handouts/Mechanics/CLI/spells/call-lightning.md), [lightning bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/lightning-bolt.md) |
+| Meteor | [Fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md), [meteor swarm](03.PlayerLog&Handouts/Mechanics/CLI/spells/meteor-swarm.md) |
+| Mirage | [Hallucinatory terrain](03.PlayerLog&Handouts/Mechanics/CLI/spells/hallucinatory-terrain.md) |
+| Pyroclastic flow | [Incendiary cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/incendiary-cloud.md) |
+| Radiation | [Blight](03.PlayerLog&Handouts/Mechanics/CLI/spells/blight.md), [circle of death](03.PlayerLog&Handouts/Mechanics/CLI/spells/circle-of-death.md) |
+| Smoke | [Fog cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/fog-cloud.md) |
+| St. Elmo's fire | [Faerie fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/faerie-fire.md) |
+| Swamp gas | [Dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md) |
+| Tidal wave | [Tsunami](03.PlayerLog&Handouts/Mechanics/CLI/spells/tsunami.md) |
+| Toxic eruption | [Acid splash](03.PlayerLog&Handouts/Mechanics/CLI/spells/acid-splash.md) |
+| Toxic gas | [Cloudkill](03.PlayerLog&Handouts/Mechanics/CLI/spells/cloudkill.md), [stinking cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/stinking-cloud.md) |
+| Thunder | [Thunderwave](03.PlayerLog&Handouts/Mechanics/CLI/spells/thunderwave.md) |
+| Volcanic lightning | [Storm of vengeance](03.PlayerLog&Handouts/Mechanics/CLI/spells/storm-of-vengeance.md) |
+| Whirlpool | [Control water](03.PlayerLog&Handouts/Mechanics/CLI/spells/control-water.md) |
+| Wildfire | [Fire storm](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-storm.md), [wall of fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-fire.md) |
+| Windstorm | [Gust of wind](03.PlayerLog&Handouts/Mechanics/CLI/spells/gust-of-wind.md) |
 ^spells-as-natural-hazards

@@ -8,12 +8,14 @@ tags:
 - ttrpg-cli/monster/size/huge
 - ttrpg-cli/monster/type/plant
 statblock: inline
-aliases: ["Awakened Tree"]
+statblock-link: "#^statblock"
+aliases:
+- Awakened Tree
 ---
-# [Awakened Tree](03 - Player Log & Handouts\Mechanics\CLI\bestiary\plant/awakened-tree.md)
-*Source: Monster Manual p. 317. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Awakened Tree](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\plant/awakened-tree.md)
+*Source: Monster Manual p. 317, Princes of the Apocalypse, Storm King's Thunder, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden, Candlekeep Mysteries. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
-An awakened tree is an ordinary tree given sentience and mobility by the [awaken](awaken.md) spell or similar magic.
+An awakened tree is an ordinary tree given sentience and mobility by the [awaken](03.PlayerLog&Handouts/Mechanics/CLI/spells/awaken.md) spell or similar magic.
 
 ```statblock
 "name": "Awakened Tree"
@@ -24,13 +26,14 @@ An awakened tree is an ordinary tree given sentience and mobility by the [awaken
 "ac_class": "natural armor"
 "hp": !!int "59"
 "hit_dice": "7d12 + 14"
+"modifier": !!int "-2"
 "stats":
-- !!int "19"
-- !!int "6"
-- !!int "15"
-- !!int "10"
-- !!int "10"
-- !!int "7"
+  - !!int "19"
+  - !!int "6"
+  - !!int "15"
+  - !!int "10"
+  - !!int "10"
+  - !!int "7"
 "speed": "20 ft."
 "damage_vulnerabilities": "fire"
 "damage_resistances": "bludgeoning, piercing"
@@ -38,16 +41,24 @@ An awakened tree is an ordinary tree given sentience and mobility by the [awaken
 "languages": "one language known by its creator"
 "cr": "2"
 "traits":
-- "desc": "While the tree remains motionless, it is indistinguishable from a normal\
-    \ tree."
-  "name": "False Appearance"
+  - "desc": "While the tree remains motionless, it is indistinguishable from a normal\
+      \ tree."
+    "name": "False Appearance"
 "actions":
-- "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 14\
-    \ (3d6 + 4) bludgeoning damage."
-  "name": "Slam"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit:\
+      \ 14 (3d6 + 4) bludgeoning damage."
+    "name": "Slam"
 "source":
-- "MM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/plant/token/awakened-tree.webp"
+  - "MM"
+  - "PotA"
+  - "SKT"
+  - "WDH"
+  - "WDMM"
+  - "GoS"
+  - "MOT"
+  - "IDRotF"
+  - "CM"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/token/awakened-tree.webp"
 ```
 ^statblock
 

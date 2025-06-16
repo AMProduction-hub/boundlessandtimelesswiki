@@ -3,17 +3,21 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
+- ttrpg-cli/spell/background/dimir-operative
 - ttrpg-cli/spell/class/bard
 - ttrpg-cli/spell/class/sorcerer
 - ttrpg-cli/spell/class/wizard
+- ttrpg-cli/spell/feat/adept-of-the-white-robes
 - ttrpg-cli/spell/feat/telepathic
 - ttrpg-cli/spell/level/2nd-level
 - ttrpg-cli/spell/race/githzerai
+- ttrpg-cli/spell/reward/kruphixs-votary
 - ttrpg-cli/spell/school/divination
 - ttrpg-cli/spell/subclass/aberrant-mind
 - ttrpg-cli/spell/subclass/arcane-trickster
 - ttrpg-cli/spell/subclass/eldritch-knight
 - ttrpg-cli/spell/subclass/the-great-old-one
+- ttrpg-cli/spell/subrace/half-elf-mark-of-detection
 - ttrpg-cli/spell/subrace/tiefling-dispater
 classes:
 - Bard
@@ -23,7 +27,8 @@ classes:
 - Sorcerer (Aberrant Mind)
 - Warlock (The Great Old One)
 - Wizard
-aliases: ["Detect Thoughts"]
+aliases:
+- Detect Thoughts
 ---
 # Detect Thoughts
 *2nd-level, Divination*  
@@ -44,6 +49,6 @@ You can also use this spell to detect the presence of thinking creatures you can
 
 Once you detect the presence of a creature in this way, you can read its thoughts for the rest of the duration as described above, even if you can't see it, but it must still be within range.
 
-**Classes**: [Rogue (Arcane Trickster)](list-spells-classes-rogue-arcane-trickster.md); [Bard](list-spells-classes-bard.md); [Wizard](list-spells-classes-wizard.md); [Fighter (Eldritch Knight)](list-spells-classes-fighter-eldritch-knight.md); [Sorcerer](list-spells-classes-sorcerer.md); [Sorcerer (Aberrant Mind)](list-spells-classes-sorcerer-aberrant-mind-tce.md "subclass=TCE"); [Warlock (The Great Old One)](list-spells-classes-warlock-the-great-old-one.md)
+**Classes**: [Sorcerer (Aberrant Mind)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-aberrant-mind-tce.md "subclass=TCE"); [Warlock (The Great Old One)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-great-old-one.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook p. 231. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

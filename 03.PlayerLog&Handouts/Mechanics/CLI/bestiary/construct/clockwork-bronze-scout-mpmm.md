@@ -11,9 +11,11 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/construct
 statblock: inline
-aliases: ["Clockwork Bronze Scout"]
+statblock-link: "#^statblock"
+aliases:
+- Clockwork Bronze Scout
 ---
-# [Clockwork Bronze Scout](03 - Player Log & Handouts\Mechanics\CLI\bestiary\construct/clockwork-bronze-scout-mpmm.md)
+# [Clockwork Bronze Scout](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/clockwork-bronze-scout-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 79, Mordenkainen's Tome of Foes p. 125*  
 
 A bronze scout seldom emerges from underground. Its telescoping eyestalks observe foes at close range while most of its segmented body remains buried. If detected, it sends electrical shocks through the ground toward pursuers while it retreats.
@@ -33,7 +35,7 @@ Gnome artisans prefer unique clockworks over perfectly functioning ones that cop
 | dice: d10 | Enhancement |
 |-----------|-------------|
 | 1 | **Camouflaged.** The clockwork gains proficiency in [Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth) if it lacks that proficiency. While motionless, it is indistinguishable from a stopped machine. |
-| 2 | **Sensors.** The range of the clockwork's [darkvision](senses.md#Darkvision) increases by 60 feet, and it gains proficiency in [Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception) if it lacks that proficiency. |
+| 2 | **Sensors.** The range of the clockwork's [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision) increases by 60 feet, and it gains proficiency in [Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception) if it lacks that proficiency. |
 | 3 | **Fortified.** The clockwork's AC increases by 2. |
 | 4 | **Increased Speed.** The clockwork's speed increases by 10 feet. |
 | 5 | **Reinforced Construction.** The clockwork has resistance to force, lightning, and thunder damage. |
@@ -50,13 +52,13 @@ Gnome artisans prefer unique clockworks over perfectly functioning ones that cop
 
 | dice: d8 | Malfunction |
 |----------|-------------|
-| 1 | **Faulty Sensors.** Roll a `d6` at the start of the clock work's turn. If you roll a 1, the clockwork is [blinded](conditions.md#Blinded) until the end of its turn. |
+| 1 | **Faulty Sensors.** Roll a `d6` at the start of the clock work's turn. If you roll a 1, the clockwork is [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded) until the end of its turn. |
 | 2 | **Flawed Targeting.** Roll a `d6` at the start of the clock work's turn. If you roll a 1, the clockwork makes attack rolls with disadvantage until the end of its turn. |
 | 3 | **Ground Fault.** The clockwork has vulnerability to lightning damage. |
 | 4 | **Imprinting Loop.** Roll a `d6` at the start of the clock work's turn. If you roll a 1, the clockwork mistakes one creature it can see within 30 feet for its creator. The clockwork won't willingly harm that creature for 1 minute or until that creature attacks or dam ages it. |
 | 5 | **Limited Steering.** The clockwork must move in a straight line. It can turn up to 90 degrees before moving and again at the midpoint of its movement. It can rotate freely if it doesn't use any of its speeds on its turn. |
 | 6 | **Overactive Sense of Self-Preservation.** If the clock work has half its hit points or fewer at the start of its turn in combat, roll a `d6`. If you roll a 1, it retreats from combat if possible. It otherwise keeps fighting. |
-| 7 | **Overheats.** Roll a `d6` at the start of the clockwork's turn. If you roll a 1, the clockwork is [incapacitated](conditions.md#Incapacitated) until the end of its turn. |
+| 7 | **Overheats.** Roll a `d6` at the start of the clockwork's turn. If you roll a 1, the clockwork is [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated) until the end of its turn. |
 | 8 | **Rusty Gears.** The clockwork has disadvantage on initiative rolls, and its speed decreases by 10 feet. |
 ^clockwork-malfunctions
 
@@ -68,48 +70,51 @@ Gnome artisans prefer unique clockworks over perfectly functioning ones that cop
 "ac": !!int "13"
 "hp": !!int "36"
 "hit_dice": "8d8"
+"modifier": !!int "3"
 "stats":
-- !!int "10"
-- !!int "16"
-- !!int "11"
-- !!int "3"
-- !!int "14"
-- !!int "1"
+  - !!int "10"
+  - !!int "16"
+  - !!int "11"
+  - !!int "3"
+  - !!int "14"
+  - !!int "1"
 "speed": "30 ft., burrow 30 ft."
 "skillsaves":
-  "Stealth": !!int "7"
-  "Perception": !!int "6"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+6"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+7"
 "damage_immunities": "poison"
-"condition_immunities": "[charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
-  \ [exhaustion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
-  \ [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
-  \ [paralyzed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
-  \ [petrified](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
-  \ [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
+  \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
+  \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
+  \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
+  \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
+  \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "darkvision 60 ft., passive Perception 16"
 "languages": "understands one language of its creator but can't speak"
 "cr": "1"
 "traits":
-- "desc": "The clockwork doesn't provoke [opportunity attacks](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/actions.md#Opportunity%20Attack)\
-    \ when it burrows."
-  "name": "Earth Armor"
-- "desc": "The clockwork has advantage on saving throws against spells and other magical\
-    \ effects."
-  "name": "Magic Resistance"
-- "desc": "The clockwork doesn't require air, food, drink, or sleep."
-  "name": "Unusual Nature"
+  - "desc": "The clockwork doesn't provoke [opportunity attacks](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Opportunity%20Attack)\
+      \ when it burrows."
+    "name": "Earth Armor"
+  - "desc": "The clockwork has advantage on saving throws against spells and other\
+      \ magical effects."
+    "name": "Magic Resistance"
+  - "desc": "The clockwork doesn't require air, food, drink, or sleep."
+    "name": "Unusual Nature"
 "actions":
-- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4\
-    \ + 3) piercing damage plus 3 (1d6) lightning damage."
-  "name": "Bite"
-- "desc": "Each creature in contact with the ground within 15 feet of the clockwork\
-    \ must make a DC 13 Dexterity saving throw, taking 14 (4d6) lightning damage\
-    \ on a failed save, or half as much damage on a successful one."
-  "name": "Lightning Flare (Recharges after a Short or Long Rest)"
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5\
+      \ (1d4 + 3) piercing damage plus 3 (d6) lightning damage."
+    "name": "Bite"
+  - "desc": "Each creature in contact with the ground within 15 feet of the clockwork\
+      \ must make a DC 13 Dexterity saving throw, taking 14 (4d6) lightning damage\
+      \ on a failed save, or half as much damage on a successful one."
+    "name": "Lightning Flare (Recharges after a Short or Long Rest)"
 "source":
-- "MPMM"
-- "MTF"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/construct/token/clockwork-bronze-scout-mpmm.webp"
+  - "MPMM"
+  - "MTF"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/token/clockwork-bronze-scout-mpmm.webp"
 ```
 ^statblock
 

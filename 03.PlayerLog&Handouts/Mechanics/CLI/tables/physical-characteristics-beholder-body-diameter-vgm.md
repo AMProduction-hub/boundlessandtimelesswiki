@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
-aliases: ["Physical Characteristics; Beholder Body Diameter"]
+aliases:
+- Physical Characteristics; Beholder Body Diameter
 ---
 # Physical Characteristics; Beholder Body Diameter
 *Source: Volo's Guide to Monsters p. 8* 

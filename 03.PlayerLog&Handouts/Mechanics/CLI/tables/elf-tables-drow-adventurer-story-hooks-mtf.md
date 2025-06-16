@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
-aliases: ["Elf Tables; Drow Adventurer Story Hooks"]
+aliases:
+- Elf Tables; Drow Adventurer Story Hooks
 ---
 # Elf Tables; Drow Adventurer Story Hooks
 *Source: Mordenkainen's Tome of Foes p. 64* 

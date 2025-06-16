@@ -4,7 +4,8 @@ cssclasses: json5e-feat
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/feat
-aliases: ["Sharpshooter"]
+aliases:
+- Sharpshooter
 ---
 # Sharpshooter
 *Source: Player's Handbook p. 170*  

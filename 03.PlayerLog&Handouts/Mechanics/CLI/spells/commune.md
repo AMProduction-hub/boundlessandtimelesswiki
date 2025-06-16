@@ -19,7 +19,8 @@ classes:
 - Paladin (Oath of Devotion)
 - Paladin (Oath of Glory)
 - Sorcerer (Divine Soul)
-aliases: ["Commune"]
+aliases:
+- Commune
 ---
 # Commune
 *5th-level, Divination (ritual)*  
@@ -36,6 +37,6 @@ Divine beings aren't necessarily omniscient, so you might receive "unclear" as a
 
 If you cast the spell two or more times before finishing your next long rest, there is a cumulative  chance for each casting after the first that you get no answer. The DM makes this roll in secret.
 
-**Classes**: [Cleric (Order Domain)](list-spells-classes-cleric-order-domain-tce.md "subclass=TCE"); [Cleric](list-spells-classes-cleric.md); [Bard](list-spells-classes-bard.md); [Paladin (Oath of Glory)](list-spells-classes-paladin-oath-of-glory-tce.md "subclass=TCE"); [Sorcerer (Divine Soul)](list-spells-classes-sorcerer-divine-soul-xge.md "subclass=XGE"); [Paladin (Oath of Devotion)](list-spells-classes-paladin-oath-of-devotion.md)
+**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Paladin (Oath of Devotion)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-devotion.md); [Paladin (Oath of Glory)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-glory-tce.md "subclass=TCE"); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Cleric (Order Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-order-domain-tce.md "subclass=TCE"); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md)
 
 *Source: Player's Handbook p. 223. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*

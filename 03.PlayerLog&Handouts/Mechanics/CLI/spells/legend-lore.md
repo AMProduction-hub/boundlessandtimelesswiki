@@ -3,6 +3,7 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
+- ttrpg-cli/spell/background/lorehold-student
 - ttrpg-cli/spell/class/bard
 - ttrpg-cli/spell/class/cleric
 - ttrpg-cli/spell/class/wizard
@@ -11,6 +12,7 @@ tags:
 - ttrpg-cli/spell/subclass/divine-soul
 - ttrpg-cli/spell/subclass/knowledge-domain
 - ttrpg-cli/spell/subclass/the-undying
+- ttrpg-cli/spell/subrace/half-elf-mark-of-detection
 classes:
 - Bard
 - Cleric
@@ -18,7 +20,8 @@ classes:
 - Sorcerer (Divine Soul)
 - Warlock (The Undying)
 - Wizard
-aliases: ["Legend Lore"]
+aliases:
+- Legend Lore
 ---
 # Legend Lore
 *5th-level, Divination*  
@@ -33,6 +36,6 @@ Name or describe a person, place, or object. The spell brings to your mind a bri
 
 The information you learn is accurate but might be couched in figurative language. For example, if you have a mysterious magic axe on hand, the spell might yield this information: "Woe to the evildoer whose hand touches the axe, for even the haft slices the hand of the evil ones. Only a true Child of Stone, lover and beloved of Moradin, may awaken the true powers of the axe, and only with the sacred word Rudnogg on the lips."
 
-**Classes**: [Cleric (Knowledge Domain)](list-spells-classes-cleric-knowledge-domain.md); [Cleric](list-spells-classes-cleric.md); [Bard](list-spells-classes-bard.md); [Wizard](list-spells-classes-wizard.md); [Warlock (The Undying)](list-spells-classes-warlock-the-undying-scag.md "subclass=SCAG"); [Sorcerer (Divine Soul)](list-spells-classes-sorcerer-divine-soul-xge.md "subclass=XGE")
+**Classes**: [Cleric (Knowledge Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-knowledge-domain.md); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock (The Undying)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-undying-scag.md "subclass=SCAG"); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md)
 
 *Source: Player's Handbook p. 254. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

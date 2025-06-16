@@ -8,10 +8,12 @@ tags:
 - ttrpg-cli/monster/size/huge
 - ttrpg-cli/monster/type/plant
 statblock: inline
-aliases: ["Treant"]
+statblock-link: "#^statblock"
+aliases:
+- Treant
 ---
-# [Treant](03 - Player Log & Handouts\Mechanics\CLI\bestiary\plant/treant.md)
-*Source: Monster Manual p. 289, Baldur's Gate: Descent Into Avernus, Tasha's Cauldron of Everything, Light of Xaryxis, Sigil and the Outlands. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Treant](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\plant/treant.md)
+*Source: Monster Manual p. 289, Storm King's Thunder, Waterdeep: Dragon Heist, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus, Eberron: Rising from the Last War, Infernal Machine Rebuild, Explorer's Guide to Wildemount, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden, Tasha's Cauldron of Everything, Candlekeep Mysteries, Journeys through the Radiant Citadel, Light of Xaryxis, Dragonlance: Shadow of the Dragon Queen. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Treants are awakened trees that dwell in ancient forests. Although treants prefer to while away the days, months, and years in quiet contemplation, they fiercely protect their woodland demesnes from outside threats.
 
@@ -38,13 +40,14 @@ Woodcutters who avoid culling healthy living trees and hunters who take only wha
 "ac_class": "natural armor"
 "hp": !!int "138"
 "hit_dice": "12d12 + 60"
+"modifier": !!int "-1"
 "stats":
-- !!int "23"
-- !!int "8"
-- !!int "21"
-- !!int "12"
-- !!int "16"
-- !!int "12"
+  - !!int "23"
+  - !!int "8"
+  - !!int "21"
+  - !!int "12"
+  - !!int "16"
+  - !!int "12"
 "speed": "30 ft."
 "damage_vulnerabilities": "fire"
 "damage_resistances": "bludgeoning, piercing"
@@ -52,35 +55,46 @@ Woodcutters who avoid culling healthy living trees and hunters who take only wha
 "languages": "Common, Druidic, Elvish, Sylvan"
 "cr": "9"
 "traits":
-- "desc": "While the treant remains motionless, it is indistinguishable from a normal\
-    \ tree."
-  "name": "False Appearance"
-- "desc": "The treant deals double damage to objects and structures."
-  "name": "Siege Monster"
+  - "desc": "While the treant remains motionless, it is indistinguishable from a normal\
+      \ tree."
+    "name": "False Appearance"
+  - "desc": "The treant deals double damage to objects and structures."
+    "name": "Siege Monster"
 "actions":
-- "desc": "The treant makes two slam attacks."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 16\
-    \ (3d6 + 6) bludgeoning damage."
-  "name": "Slam"
-- "desc": "Ranged Weapon Attack: +10 to hit, range 60/180 ft., one target. Hit:\
-    \ 28 (4d10 + 6) bludgeoning damage."
-  "name": "Rock"
-- "desc": "The treant magically animates one or two trees it can see within 60 feet\
-    \ of it. These trees have the same statistics as a [treant](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/plant/treant.md),\
-    \ except they have Intelligence and Charisma scores of 1, they can't speak, and\
-    \ they have only the Slam action option. An animated tree acts as an ally of the\
-    \ treant. The tree remains animate for 1 day or until it dies; until the treant\
-    \ dies or is more than 120 feet from the tree; or until the treant takes a bonus\
-    \ action to turn it back into an inanimate tree. The tree then takes root if possible."
-  "name": "Animate Trees (1/Day)"
+  - "desc": "The treant makes two slam attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit:\
+      \ 16 (3d6 + 6) bludgeoning damage."
+    "name": "Slam"
+  - "desc": "Ranged Weapon Attack: +10 to hit, range 60/180 ft., one target. Hit:\
+      \ 28 (4d10 + 6) bludgeoning damage."
+    "name": "Rock"
+  - "desc": "The treant magically animates one or two trees it can see within 60 feet\
+      \ of it. These trees have the same statistics as a [treant](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/treant.md),\
+      \ except they have Intelligence and Charisma scores of 1, they can't speak,\
+      \ and they have only the Slam action option. An animated tree acts as an ally\
+      \ of the treant. The tree remains animate for 1 day or until it dies; until\
+      \ the treant dies or is more than 120 feet from the tree; or until the treant\
+      \ takes a bonus action to turn it back into an inanimate tree. The tree then\
+      \ takes root if possible."
+    "name": "Animate Trees (1/Day)"
 "source":
-- "MM"
-- "BGDIA"
-- "TCE"
-- "LoX"
-- "SatO"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/plant/token/treant.webp"
+  - "MM"
+  - "SKT"
+  - "WDH"
+  - "GoS"
+  - "BGDIA"
+  - "ERLW"
+  - "IMR"
+  - "EGW"
+  - "MOT"
+  - "IDRotF"
+  - "TCE"
+  - "CM"
+  - "JttRC"
+  - "LoX"
+  - "DSotDQ"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/token/treant.webp"
 ```
 ^statblock
 

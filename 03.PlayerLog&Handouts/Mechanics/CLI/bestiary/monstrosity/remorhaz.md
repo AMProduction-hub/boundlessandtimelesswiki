@@ -8,10 +8,12 @@ tags:
 - ttrpg-cli/monster/size/huge
 - ttrpg-cli/monster/type/monstrosity
 statblock: inline
-aliases: ["Remorhaz"]
+statblock-link: "#^statblock"
+aliases:
+- Remorhaz
 ---
-# [Remorhaz](03 - Player Log & Handouts\Mechanics\CLI\bestiary\monstrosity/remorhaz.md)
-*Source: Monster Manual p. 258, Baldur's Gate: Descent Into Avernus, Light of Xaryxis. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Remorhaz](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/remorhaz.md)
+*Source: Monster Manual p. 258, Storm King's Thunder, Tales from the Yawning Portal, Waterdeep: Dungeon of the Mad Mage, Baldur's Gate: Descent Into Avernus, Infernal Machine Rebuild, Explorer's Guide to Wildemount, Icewind Dale: Rime of the Frostmaiden, Light of Xaryxis. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 From beneath the snow and ice bursts a remorhaz in a cloud of steam, its body pulsing with internal fire. Wing like fins flare from the back of the creature's head, and its wide mouth brims with jagged teeth.
 
@@ -32,47 +34,55 @@ Frost giant hunters scour the icy wastes for remorhaz nests and eggs. The giants
 "ac_class": "natural armor"
 "hp": !!int "195"
 "hit_dice": "17d12 + 85"
+"modifier": !!int "1"
 "stats":
-- !!int "24"
-- !!int "13"
-- !!int "21"
-- !!int "4"
-- !!int "10"
-- !!int "5"
+  - !!int "24"
+  - !!int "13"
+  - !!int "21"
+  - !!int "4"
+  - !!int "10"
+  - !!int "5"
 "speed": "30 ft., burrow 20 ft."
 "damage_immunities": "cold, fire"
 "senses": "darkvision 60 ft., tremorsense 60 ft., passive Perception 10"
 "languages": ""
 "cr": "11"
 "traits":
-- "desc": "A creature that touches the remorhaz or hits it with a melee attack while\
-    \ within 5 feet of it takes 10 (3d6) fire damage."
-  "name": "Heated Body"
+  - "desc": "A creature that touches the remorhaz or hits it with a melee attack while\
+      \ within 5 feet of it takes 10 (3d6) fire damage."
+    "name": "Heated Body"
 "actions":
-- "desc": "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 40\
-    \ (6d10 + 7) piercing damage plus 10 (3d6) fire damage. If the target is a\
-    \ creature, it is [grappled](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
-    \ (escape DC 17). Until this grapple ends, the target is [restrained](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
-    \ and the remorhaz can't bite another target."
-  "name": "Bite"
-- "desc": "The remorhaz makes one bite attack against a Medium or smaller creature\
-    \ it is grappling. If the attack hits, that creature takes the bite's damage and\
-    \ is swallowed, and the grapple ends. While swallowed, the creature is [blinded](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Blinded)\
-    \ and [restrained](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
-    \ it has total cover against attacks and other effects outside the remorhaz, and\
-    \ it takes 21 (6d6) acid damage at the start of each of the remorhaz's turns.\n\
-    \nIf the remorhaz takes 30 damage or more on a single turn from a creature inside\
-    \ it, the remorhaz must succeed on a DC 15 Constitution saving throw at the end\
-    \ of that turn or regurgitate all swallowed creatures, which fall [prone](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Prone)\
-    \ in a space within 10 feet of the remorhaz. If the remorhaz dies, a swallowed\
-    \ creature is no longer [restrained](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
-    \ by it and can escape from the corpse using 15 feet of movement, exiting [prone](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
-  "name": "Swallow"
+  - "desc": "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit:\
+      \ 40 (6d10 + 7) piercing damage plus 10 (3d6) fire damage. If the target\
+      \ is a creature, it is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
+      \ (escape DC 17). Until this grapple ends, the target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
+      \ and the remorhaz can't bite another target."
+    "name": "Bite"
+  - "desc": "The remorhaz makes one bite attack against a Medium or smaller creature\
+      \ it is grappling. If the attack hits, that creature takes the bite's damage\
+      \ and is swallowed, and the grapple ends. While swallowed, the creature is [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded)\
+      \ and [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
+      \ it has total cover against attacks and other effects outside the remorhaz,\
+      \ and it takes 21 (6d6) acid damage at the start of each of the remorhaz's\
+      \ turns.\n\nIf the remorhaz takes 30 damage or more on a single turn from a\
+      \ creature inside it, the remorhaz must succeed on a DC 15 Constitution saving\
+      \ throw at the end of that turn or regurgitate all swallowed creatures, which\
+      \ fall [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)\
+      \ in a space within 10 feet of the remorhaz. If the remorhaz dies, a swallowed\
+      \ creature is no longer [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
+      \ by it and can escape from the corpse using 15 feet of movement, exiting [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
+    "name": "Swallow"
 "source":
-- "MM"
-- "BGDIA"
-- "LoX"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/monstrosity/token/remorhaz.webp"
+  - "MM"
+  - "SKT"
+  - "TftYP"
+  - "WDMM"
+  - "BGDIA"
+  - "IMR"
+  - "EGW"
+  - "IDRotF"
+  - "LoX"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/token/remorhaz.webp"
 ```
 ^statblock
 

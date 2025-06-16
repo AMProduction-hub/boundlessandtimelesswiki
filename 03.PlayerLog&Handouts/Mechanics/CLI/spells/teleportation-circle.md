@@ -11,6 +11,7 @@ tags:
 - ttrpg-cli/spell/school/conjuration
 - ttrpg-cli/spell/subclass/arcana-domain
 - ttrpg-cli/spell/subclass/horizon-walker
+- ttrpg-cli/spell/subrace/human-mark-of-passage
 classes:
 - Bard
 - Cleric (Arcana Domain)
@@ -18,7 +19,8 @@ classes:
 - Sorcerer
 - Warlock
 - Wizard
-aliases: ["Teleportation Circle"]
+aliases:
+- Teleportation Circle
 ---
 # Teleportation Circle
 *5th-level, Conjuration*  
@@ -35,6 +37,6 @@ Many major temples, guilds, and other important places have permanent teleportat
 
 You can create a permanent teleportation circle by casting this spell in the same location every day for one year. You need not use the circle to teleport when you cast the spell in this way.
 
-**Classes**: [Ranger (Horizon Walker)](list-spells-classes-ranger-horizon-walker-xge.md "subclass=XGE"); [Bard](list-spells-classes-bard.md); [Wizard](list-spells-classes-wizard.md); [Sorcerer](list-spells-classes-sorcerer.md); [Cleric (Arcana Domain)](list-spells-classes-cleric-arcana-domain-scag.md "subclass=SCAG"); [Warlock](list-spells-classes-warlock.md)
+**Classes**: [Cleric (Arcana Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcana-domain-scag.md "subclass=SCAG"); [Ranger (Horizon Walker)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-horizon-walker-xge.md "subclass=XGE"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook p. 282. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

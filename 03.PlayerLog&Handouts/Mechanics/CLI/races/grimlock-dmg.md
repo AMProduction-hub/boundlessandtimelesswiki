@@ -3,10 +3,11 @@ obsidianUIMode: preview
 cssclasses: json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
-- ttrpg-cli/race/grimlock/dmg
-aliases: ["Grimlock (DMG)"]
+- ttrpg-cli/race/grimlock
+aliases:
+- Grimlock
 ---
-# Grimlock (DMG)
+# Grimlock
 *Source: Dungeon Master's Guide p. 282*  
 
 
@@ -18,7 +19,7 @@ aliases: ["Grimlock (DMG)"]
 
 ### Blindsight
 
-You have no eyes, and cannot be [blinded](conditions.md#Blinded). You can perceive your surroundings within 30 ft., or 10 ft. while [deafened](conditions.md#Deafened). You are considered blind beyond this radius.
+You have no eyes, and cannot be [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded). You can perceive your surroundings within 30 ft., or 10 ft. while [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened). You are considered blind beyond this radius.
 
 ### Keen Hearing and Smell
 

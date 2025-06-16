@@ -7,9 +7,11 @@ tags:
 - ttrpg-cli/monster/size/huge
 - ttrpg-cli/monster/type/fiend/demon
 statblock: inline
-aliases: ["Demogorgon"]
+statblock-link: "#^statblock"
+aliases:
+- Demogorgon
 ---
-# [Demogorgon](03 - Player Log & Handouts\Mechanics\CLI\bestiary\npc/demogorgon-mpmm.md)
+# [Demogorgon](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/demogorgon-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 90, Mordenkainen's Tome of Foes p. 144*  
 
 > [!quote] A quote from Mordenkainen  
@@ -41,119 +43,125 @@ Demogorgon makes his lair in a palace called Abysm, found on a layer of the Abys
 "ac_class": "natural armor"
 "hp": !!int "464"
 "hit_dice": "32d12 + 256"
+"modifier": !!int "2"
 "stats":
-- !!int "29"
-- !!int "14"
-- !!int "26"
-- !!int "20"
-- !!int "17"
-- !!int "25"
+  - !!int "29"
+  - !!int "14"
+  - !!int "26"
+  - !!int "20"
+  - !!int "17"
+  - !!int "25"
 "speed": "50 ft., swim 50 ft."
 "saves":
-  "Charisma": !!int "15"
-  "Dexterity": !!int "10"
-  "Wisdom": !!int "11"
-  "Constitution": !!int "16"
+  - "dexterity": "+10"
+  - "constitution": "+16"
+  - "wisdom": "+11"
+  - "charisma": "+15"
 "skillsaves":
-  "Insight": !!int "11"
-  "Perception": !!int "19"
+  - "name": "[Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight)"
+    "desc": "+11"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+19"
 "damage_resistances": "cold, fire, lightning"
 "damage_immunities": "poison; bludgeoning, piercing, slashing from nonmagical attacks"
-"condition_immunities": "[charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
-  \ [exhaustion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
-  \ [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
-  \ [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
+  \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
+  \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
+  \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "truesight 120 ft., passive Perception 29"
 "languages": "all, telepathy 120 ft."
 "cr": "26"
 "traits":
-- "desc": "Demogorgon casts one of the following spells, requiring no material components\
-    \ and using Charisma as the spellcasting ability (spell save DC 23):\n\nAt will:\
-    \ [detect magic](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/detect-magic.md),\
-    \ [major image](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/major-image.md)\n\
-    \n1/day each: [feeblemind](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/feeblemind.md),\
-    \ [project image](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/project-image.md)\n\
-    \n3/day each: [dispel magic](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/dispel-magic.md),\
-    \ [fear](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/fear.md), [telekinesis](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/telekinesis.md)"
-  "name": "Spellcasting"
-- "desc": "If Demogorgon fails a saving throw, he can choose to succeed instead."
-  "name": "Legendary Resistance (3/Day)"
-- "desc": "Demogorgon has advantage on saving throws against spells and other magical\
-    \ effects."
-  "name": "Magic Resistance"
-- "desc": "Demogorgon has advantage on saving throws against being [blinded](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Blinded),\
-    \ [deafened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Deafened),\
-    \ [stunned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Stunned),\
-    \ or knocked [unconscious](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)."
-  "name": "Two Heads"
+  - "desc": "If Demogorgon fails a saving throw, he can choose to succeed instead."
+    "name": "Legendary Resistance (3/Day)"
+  - "desc": "Demogorgon has advantage on saving throws against spells and other magical\
+      \ effects."
+    "name": "Magic Resistance"
+  - "desc": "Demogorgon has advantage on saving throws against being [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded),\
+      \ [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened),\
+      \ [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned),\
+      \ or knocked [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)."
+    "name": "Two Heads"
 "actions":
-- "desc": "Demogorgon makes two Tentacle attacks. He can replace one attack with a\
-    \ use of Gaze."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: 28\
-    \ (3d12 + 9) force damage. If the target is a creature, it must succeed on a\
-    \ DC 23 Constitution saving throw, or its hit point maximum is reduced by an amount\
-    \ equal to the damage taken. This reduction lasts until the target finishes a\
-    \ long rest. The target dies if its hit point maximum is reduced to 0."
-  "name": "Tentacle"
-- "desc": "Demogorgon turns his magical gaze toward one creature he can see within\
-    \ 120 feet of him. The target must succeed on a DC 23 Wisdom saving throw or suffer\
-    \ one of the following effects (choose one or roll a d6):\n\n- 1–2 Beguiling\
-    \ Gaze. The target is [stunned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Stunned)\
-    \ until the start of Demogorgon's next turn or until Demogorgon is no longer within\
-    \ line of sight.  \n- 3–4 Confusing Gaze. The target suffers the effect of\
-    \ the [confusion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/confusion.md)\
-    \ spell without making a saving throw. The effect lasts until the start of Demogorgon's\
-    \ next turn. Demogorgon doesn't need to concentrate on the spell.  \n- 5–6 Hypnotic\
-    \ Gaze. The target is [charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
-    \ by Demogorgon until the start of Demogorgon's next turn. Demogorgon chooses\
-    \ how the [charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
-    \ target uses its action, reaction, and movement.  "
-  "name": "Gaze"
+  - "desc": "Demogorgon makes two Tentacle attacks. He can replace one attack with\
+      \ a use of Gaze."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit:\
+      \ 28 (3d12 + 9) force damage. If the target is a creature, it must succeed\
+      \ on a DC 23 Constitution saving throw, or its hit point maximum is reduced\
+      \ by an amount equal to the damage taken. This reduction lasts until the target\
+      \ finishes a long rest. The target dies if its hit point maximum is reduced\
+      \ to 0."
+    "name": "Tentacle"
+  - "desc": "Demogorgon turns his magical gaze toward one creature he can see within\
+      \ 120 feet of him. The target must succeed on a DC 23 Wisdom saving throw or\
+      \ suffer one of the following effects (choose one or roll a d6):\n\n- 1–\
+      2 Beguiling Gaze. The target is [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)\
+      \ until the start of Demogorgon's next turn or until Demogorgon is no longer\
+      \ within line of sight.  \n- 3–4 Confusing Gaze. The target suffers the\
+      \ effect of the [confusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/confusion.md)\
+      \ spell without making a saving throw. The effect lasts until the start of Demogorgon's\
+      \ next turn. Demogorgon doesn't need to concentrate on the spell.  \n- 5–\
+      6 Hypnotic Gaze. The target is [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
+      \ by Demogorgon until the start of Demogorgon's next turn. Demogorgon chooses\
+      \ how the [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
+      \ target uses its action, reaction, and movement.  "
+    "name": "Gaze"
+  - "desc": "Demogorgon casts one of the following spells, requiring no material components\
+      \ and using Charisma as the spellcasting ability (spell save DC 23):\n\nAt\
+      \ will: [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      \ [major image](03.PlayerLog&Handouts/Mechanics/CLI/spells/major-image.md)\n\
+      \n3/day each: [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
+      \ [fear](03.PlayerLog&Handouts/Mechanics/CLI/spells/fear.md), [telekinesis](03.PlayerLog&Handouts/Mechanics/CLI/spells/telekinesis.md)\n\
+      \n1/day each: [feeblemind](03.PlayerLog&Handouts/Mechanics/CLI/spells/feeblemind.md),\
+      \ [project image](03.PlayerLog&Handouts/Mechanics/CLI/spells/project-image.md)"
+    "name": "Spellcasting"
 "legendary_actions":
-- "desc": "Demogorgon uses Gaze and must use either Beguiling Gaze or Confusing Gaze."
-  "name": "Gaze"
-- "desc": "Melee Weapon Attack: +17 to hit, reach 15 ft., one target. Hit: 20\
-    \ (2d10 + 9) bludgeoning damage plus 11 (2d10) necrotic damage."
-  "name": "Tail"
-- "desc": "Demogorgon uses Spellcasting."
-  "name": "Cast a Spell (Costs 2 Actions)"
+  - "desc": "Demogorgon uses Gaze and must use either Beguiling Gaze or Confusing\
+      \ Gaze."
+    "name": "Gaze"
+  - "desc": "Melee Weapon Attack: +17 to hit, reach 15 ft., one target. Hit:\
+      \ 20 (2d10 + 9) bludgeoning damage plus 11 (2d10) necrotic damage."
+    "name": "Tail"
+  - "desc": "Demogorgon uses Spellcasting."
+    "name": "Cast a Spell (Costs 2 Actions)"
 "lair_actions":
-- "desc": "On initiative count 20 (losing initiative ties), Demogorgon can take one\
-    \ of the following lair actions; he can't take the same lair action two rounds\
-    \ in a row:"
-  "name": ""
-- "desc": "- Darkness. Demogorgon casts the [darkness](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/darkness.md)\
-    \ spell four times, targeting different areas with the spell. Demogorgon doesn't\
-    \ need to concentrate on the spells, which end on initiative count 20 of the next\
-    \ round.  \n- Illusory Duplicate. Demogorgon creates an illusory duplicate\
-    \ of himself, which appears in his space and lasts until initiative count 20 of\
-    \ the next round. On his turn, Demogorgon can move the illusory duplicate a distance\
-    \ equal to his walking speed (no action required). The first time a creature or\
-    \ an object interacts physically with Demogorgon (for example, by hitting him\
-    \ with an attack), there is a 50 percent chance that the illusory duplicate is\
-    \ affected, not Demogorgon, in which case the illusion disappears.  "
-  "name": ""
+  - "desc": "On initiative count 20 (losing initiative ties), Demogorgon can take\
+      \ one of the following lair actions; he can't take the same lair action two\
+      \ rounds in a row:"
+    "name": ""
+  - "desc": "- Darkness. Demogorgon casts the [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md)\
+      \ spell four times, targeting different areas with the spell. Demogorgon doesn't\
+      \ need to concentrate on the spells, which end on initiative count 20 of the\
+      \ next round.  \n- Illusory Duplicate. Demogorgon creates an illusory duplicate\
+      \ of himself, which appears in his space and lasts until initiative count 20\
+      \ of the next round. On his turn, Demogorgon can move the illusory duplicate\
+      \ a distance equal to his walking speed (no action required). The first time\
+      \ a creature or an object interacts physically with Demogorgon (for example,\
+      \ by hitting him with an attack), there is a 50 percent chance that the illusory\
+      \ duplicate is affected, not Demogorgon, in which case the illusion disappears.\
+      \  "
+    "name": ""
 "regional_effects":
-- "desc": "The region containing Demogorgon's lair is warped by his magic, creating\
-    \ one or more of the following effects:"
-  "name": ""
-- "desc": "- Beguiling Realm. Within 6 miles of the lair, all Charisma ([Persuasion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/skills.md#Persuasion))\
-    \ and Charisma ([Performance](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/skills.md#Performance))\
-    \ checks have disadvantage, and all Charisma ([Deception](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/skills.md#Deception))\
-    \ and Charisma ([Intimidation](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/skills.md#Intimidation))\
-    \ checks have advantage.  \n- Frenzied Animals. Beasts within 1 mile of the\
-    \ lair become frenzied and violent—even creatures that are normally docile. Within\
-    \ that area, any ability check involving Animal Handling has disadvantage.  \n\
-    - Venomous Beasts. The area within 6 miles of the lair becomes overpopulated\
-    \ with [poisonous snakes](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/beast/poisonous-snake.md)\
-    \ and other venomous Beasts.  "
-  "name": ""
-- "desc": "If Demogorgon dies, these effects fade over the course of 1d10 days."
-  "name": ""
+  - "desc": "The region containing Demogorgon's lair is warped by his magic, creating\
+      \ one or more of the following effects:"
+    "name": ""
+  - "desc": "- Beguiling Realm. Within 6 miles of the lair, all Charisma ([Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion))\
+      \ and Charisma ([Performance](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Performance))\
+      \ checks have disadvantage, and all Charisma ([Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception))\
+      \ and Charisma ([Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation))\
+      \ checks have advantage.  \n- Frenzied Animals. Beasts within 1 mile of\
+      \ the lair become frenzied and violent—even creatures that are normally docile.\
+      \ Within that area, any ability check involving Animal Handling has disadvantage.\
+      \  \n- Venomous Beasts. The area within 6 miles of the lair becomes overpopulated\
+      \ with [poisonous snakes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/poisonous-snake.md)\
+      \ and other venomous Beasts.  "
+    "name": ""
+  - "desc": "If Demogorgon dies, these effects fade over the course of d10 days."
+    "name": ""
 "source":
-- "MPMM"
-- "MTF"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/npc/token/demogorgon-mpmm.webp"
+  - "MPMM"
+  - "MTF"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/token/demogorgon-mpmm.webp"
 ```
 ^statblock

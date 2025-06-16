@@ -10,7 +10,7 @@ aliases:
 ---
 # Iron Flask
 *Wondrous item, major, legendary*  
-![](iron-flask.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/iron-flask.webp#right)
 
 - **Weight**: 1.0 lbs.
 
@@ -18,42 +18,42 @@ This iron bottle has a brass stopper. You can use an action to speak the flask's
 
 You can use an action to remove the flask's stopper and release the creature the flask contains. The creature is friendly to you and your companions for 1 hour and obeys your commands for that duration. If you give no commands or give it a command that is likely to result in its death, it defends itself but otherwise takes no actions. At the end of the duration, the creature acts in accordance with its normal disposition and alignment.
 
-An [identify](identify.md) spell reveals that a creature is inside the flask, but the only way to determine the type of creature is to open the flask. A newly discovered bottle might already contain a creature chosen by the DM or determined randomly.
+An [identify](03.PlayerLog&Handouts/Mechanics/CLI/spells/identify.md) spell reveals that a creature is inside the flask, but the only way to determine the type of creature is to open the flask. A newly discovered bottle might already contain a creature chosen by the DM or determined randomly.
 
 `dice: [](iron-flask.md#^contents)`
 
 | dice: d100 | Contents |
 |------------|----------|
 | 01-50 | Empty |
-| 51 | [Arcanaloth](arcanaloth.md) |
-| 52 | [Cambion](cambion.md) |
-| 53-54 | [Dao](dao.md) |
-| 55-57 | Demon (type 1): [barlgura](barlgura.md), [shadow demon](shadow-demon.md), or [vrock](vrock.md) |
-| 58-60 | Demon (type 2): [chasme](chasme.md) or [hezrou](hezrou.md) |
-| 61-62 | Demon (type 3): [glabrezu](glabrezu.md) or [yochlol](yochlol.md) |
-| 63-64 | Demon (type 4): [nalfeshnee](nalfeshnee.md) |
-| 65 | Demon (type 5): [marilith](marilith.md) |
-| 66 | Demon (type 6): [balor](balor.md) or [goristro](goristro.md) |
-| 67 | [Deva](deva.md) |
-| 68-69 | Devil (greater): [horned devil](horned-devil.md), [erinyes](erinyes.md), [ice devil](ice-devil.md), or [pit fiend](pit-fiend.md) |
-| 70-72 | Devil (lesser): [imp](imp.md), [spined devil](spined-devil.md), [bearded devil](bearded-devil.md), [barbed devil](barbed-devil.md), [chain devil](chain-devil.md), or [bone devil](bone-devil.md) |
-| 73-74 | [Djinni](djinni.md) |
-| 75-76 | [Efreeti](efreeti.md) |
+| 51 | [Arcanaloth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/arcanaloth.md) |
+| 52 | [Cambion](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/cambion.md) |
+| 53-54 | [Dao](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/dao.md) |
+| 55-57 | Demon (type 1): [barlgura](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/barlgura.md), [shadow demon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/shadow-demon.md), or [vrock](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/vrock.md) |
+| 58-60 | Demon (type 2): [chasme](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/chasme.md) or [hezrou](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/hezrou.md) |
+| 61-62 | Demon (type 3): [glabrezu](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/glabrezu.md) or [yochlol](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/yochlol.md) |
+| 63-64 | Demon (type 4): [nalfeshnee](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/nalfeshnee.md) |
+| 65 | Demon (type 5): [marilith](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/marilith.md) |
+| 66 | Demon (type 6): [balor](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/balor.md) or [goristro](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/goristro.md) |
+| 67 | [Deva](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/deva.md) |
+| 68-69 | Devil (greater): [horned devil](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/horned-devil.md), [erinyes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/erinyes.md), [ice devil](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/ice-devil.md), or [pit fiend](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/pit-fiend.md) |
+| 70-72 | Devil (lesser): [imp](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/imp.md), [spined devil](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/spined-devil.md), [bearded devil](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/bearded-devil.md), [barbed devil](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/barbed-devil.md), [chain devil](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/chain-devil.md), or [bone devil](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/bone-devil.md) |
+| 73-74 | [Djinni](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/djinni.md) |
+| 75-76 | [Efreeti](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/efreeti.md) |
 | 77-78 | Elemental (any) |
-| 79 | [Githyanki knight](githyanki-knight.md) |
-| 80 | [Githzerai zerth](githzerai-zerth.md) |
-| 81-82 | [Invisible stalker](invisible-stalker.md) |
-| 83-84 | [Marid](marid.md) |
-| 85-86 | [Mezzoloth](mezzoloth.md) |
+| 79 | [Githyanki knight](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/githyanki-knight.md) |
+| 80 | [Githzerai zerth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/githzerai-zerth.md) |
+| 81-82 | [Invisible stalker](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/invisible-stalker.md) |
+| 83-84 | [Marid](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/marid.md) |
+| 85-86 | [Mezzoloth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/mezzoloth.md) |
 | 87-88 | [Night hag](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/night-hag.md) |
-| 89-90 | [Nycaloth](nycaloth.md) |
-| 91 | [Planetar](planetar.md) |
-| 92-93 | [Salamander](salamander.md) |
+| 89-90 | [Nycaloth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/nycaloth.md) |
+| 91 | [Planetar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/planetar.md) |
+| 92-93 | [Salamander](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/salamander.md) |
 | 94-95 | Slaad (any) |
-| 96 | [Solar](solar.md) |
-| 97-98 | [Succubus/Incubus](succubus.md) |
-| 99 | [Ultroloth](ultroloth.md) |
-| 00 | [Xorn](xorn.md) |
+| 96 | [Solar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/solar.md) |
+| 97-98 | [Succubus/Incubus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/succubus.md) |
+| 99 | [Ultroloth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/ultroloth.md) |
+| 00 | [Xorn](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/xorn.md) |
 ^contents
 
 *Source: Dungeon Master's Guide p. 178. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

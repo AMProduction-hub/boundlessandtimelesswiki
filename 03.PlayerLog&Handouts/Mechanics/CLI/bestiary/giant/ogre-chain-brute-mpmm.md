@@ -10,9 +10,11 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/giant
 statblock: inline
-aliases: ["Ogre Chain Brute"]
+statblock-link: "#^statblock"
+aliases:
+- Ogre Chain Brute
 ---
-# [Ogre Chain Brute](03 - Player Log & Handouts\Mechanics\CLI\bestiary\giant/ogre-chain-brute-mpmm.md)
+# [Ogre Chain Brute](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\giant/ogre-chain-brute-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 201, Mordenkainen's Tome of Foes p. 221*  
 
 An ogre chain brute wields a great spiked chain, swinging it with both hands in a wide circle to knock foes off their feet. Alternatively, the ogre can swing the chain in a crushing overhead smash.
@@ -27,40 +29,41 @@ Ogres love to rush headlong into battle, but with enough time and patience, some
 "type": "giant"
 "alignment": "Typically  Chaotic Evil"
 "ac": !!int "11"
-"ac_class": "[hide armor](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/items/hide-armor.md)"
+"ac_class": "[hide armor](03.PlayerLog&Handouts/Mechanics/CLI/items/hide-armor.md)"
 "hp": !!int "59"
 "hit_dice": "7d10 + 21"
+"modifier": !!int "-1"
 "stats":
-- !!int "19"
-- !!int "8"
-- !!int "16"
-- !!int "5"
-- !!int "7"
-- !!int "7"
+  - !!int "19"
+  - !!int "8"
+  - !!int "16"
+  - !!int "5"
+  - !!int "7"
+  - !!int "7"
 "speed": "40 ft."
 "senses": "darkvision 60 ft., passive Perception 8"
 "languages": "Common, Giant"
 "cr": "3"
 "actions":
-- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (2d4\
-    \ + 4) bludgeoning damage."
-  "name": "Fist"
-- "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 13\
-    \ (2d8 + 4) bludgeoning damage, and the target must make a DC 14 Constitution\
-    \ saving throw or be [stunned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Stunned)\
-    \ for 1 minute. The target repeats the saving throw if it takes damage and at\
-    \ the end of each of its turns, ending the effect on itself on a success."
-  "name": "Chain Smash (Recharge 6)"
-- "desc": "The ogre swings its chain, and every creature within 10 feet of it must\
-    \ make a DC 14 Dexterity saving throw. On a failed saving throw, a creature takes\
-    \ 8 (1d8 + 4) bludgeoning damage and is knocked [prone](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Prone).\
-    \ On a successful save, the creature takes half as much damage and isn't knocked\
-    \ [prone](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
-  "name": "Chain Sweep"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9\
+      \ (2d4 + 4) bludgeoning damage."
+    "name": "Fist"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit:\
+      \ 13 (2d8 + 4) bludgeoning damage, and the target must make a DC 14 Constitution\
+      \ saving throw or be [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)\
+      \ for 1 minute. The target repeats the saving throw if it takes damage and at\
+      \ the end of each of its turns, ending the effect on itself on a success."
+    "name": "Chain Smash (Recharge 6)"
+  - "desc": "The ogre swings its chain, and every creature within 10 feet of it must\
+      \ make a DC 14 Dexterity saving throw. On a failed saving throw, a creature\
+      \ takes 8 (1d8 + 4) bludgeoning damage and is knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone).\
+      \ On a successful save, the creature takes half as much damage and isn't knocked\
+      \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
+    "name": "Chain Sweep"
 "source":
-- "MPMM"
-- "MTF"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/giant/token/ogre-chain-brute-mpmm.webp"
+  - "MPMM"
+  - "MTF"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/token/ogre-chain-brute-mpmm.webp"
 ```
 ^statblock
 

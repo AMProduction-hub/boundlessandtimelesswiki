@@ -4,7 +4,8 @@ cssclasses: json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/bgdia
-aliases: ["Baldur's Gate Noble"]
+aliases:
+- Baldur's Gate Noble
 ---
 # Baldur's Gate Noble
 *Source: Baldur's Gate: Descent Into Avernus p. 204, Player's Handbook p. 135*  
@@ -13,7 +14,7 @@ aliases: ["Baldur's Gate Noble"]
 - **Skill Proficiencies.** [History](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#History), [Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion)  
 - **Tool Proficiencies.** One type of gaming set  
 - **Languages.** One of your choice  
-- **Equipment.** A set of [fine clothes](fine-clothes.md), a [signet ring](signet-ring.md), a scroll of pedigree, and a purse containing 25 gp  
+- **Equipment.** A set of [fine clothes](03.PlayerLog&Handouts/Mechanics/CLI/items/fine-clothes.md), a [signet ring](03.PlayerLog&Handouts/Mechanics/CLI/items/signet-ring.md), a scroll of pedigree, and a purse containing 25 gp  
 
 The patriars of Baldur's Gate live in the Upper City, where they host grand galas and flaunt cosmopolitan fashions, but are walled off from the poverty and squalor of the less fortunate districts and their neighborhoods. Although they might visit prosperous Bloomridge to try a fashionable restaurant or boutique, or watch a spectacle at the Oasis Theater, the patriars have little reason to venture into the dirtier, more dangerous parts of the city. If they do, it is generally as thrill-seeking tourists or enclosed by a retinue of armed guards, not as friends or neighbors. As a result, many patriars are at once acutely attuned to the nuances of royal courts half a continent away and shockingly ignorant of what life is like for the poor outside their own doorsteps.
 

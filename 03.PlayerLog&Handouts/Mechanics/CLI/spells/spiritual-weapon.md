@@ -18,7 +18,8 @@ classes:
 - Cleric (War Domain)
 - Paladin (Oath of Conquest)
 - Sorcerer (Divine Soul)
-aliases: ["Spiritual Weapon"]
+aliases:
+- Spiritual Weapon
 ---
 # Spiritual Weapon
 *2nd-level, Evocation*  
@@ -29,14 +30,14 @@ aliases: ["Spiritual Weapon"]
 - **Components:** V, S
 - **Duration:** 1 minute
 
-You create a floating, spectral weapon within range that lasts for the duration or until you cast this spell again. When you cast the spell, you can make a melee spell attack against a creature within 5 feet of the weapon. On a hit, the target takes force damage equal to `1d8` + your spellcasting ability modifier.
+You create a floating, spectral weapon within range that lasts for the duration or until you cast this spell again. When you cast the spell, you can make a melee spell attack against a creature within 5 feet of the weapon. On a hit, the target takes force damage equal to `d8` + your spellcasting ability modifier.
 
 As a bonus action on your turn, you can move the weapon up to 20 feet and repeat the attack against a creature within 5 feet of it.
 
 The weapon can take whatever form you choose. Clerics of deities who are associated with a particular weapon (as St. Cuthbert is known for his mace and Thor for his hammer) make this spell's effect resemble that weapon.
 
-**At Higher Levels.** When you cast this spell using a spell slot of 3rd level or higher, the damage increases by `1d8` for every two slot levels above 2nd.
+**At Higher Levels.** When you cast this spell using a spell slot of 3rd level or higher, the damage increases by `d8` for every two slot levels above 2nd.
 
-**Classes**: [Cleric (Life Domain)](list-spells-classes-cleric-life-domain.md); [Cleric](list-spells-classes-cleric.md); [Paladin (Oath of Conquest)](list-spells-classes-paladin-oath-of-conquest-xge.md "subclass=XGE"); [Bard](list-spells-classes-bard.md); [Sorcerer (Divine Soul)](list-spells-classes-sorcerer-divine-soul-xge.md "subclass=XGE"); [Cleric (War Domain)](list-spells-classes-cleric-war-domain.md)
+**Classes**: [Paladin (Oath of Conquest)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-conquest-xge.md "subclass=XGE"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Cleric (Life Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-life-domain.md); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Cleric (War Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-war-domain.md)
 
 *Source: Player's Handbook p. 278. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*

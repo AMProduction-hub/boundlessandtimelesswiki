@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
-aliases: ["Creating Nonplayer Characters"]
+aliases:
+- Creating Nonplayer Characters
 ---
 # Creating Nonplayer Characters
 *Source: Dungeon Master's Guide (2014), p. 88* 
@@ -45,33 +46,33 @@ In one sentence, describe the NPC's occupation and provide a brief historical no
 
 In one sentence, describe the NPC's most distinctive physical features. You can roll on the NPC Appearance table or choose a feature that suits the character.
 
-![NPC Appearance](npc-appearance.md)
+![NPC Appearance](03.PlayerLog&Handouts/Mechanics/CLI/tables/npc-appearance.md)
 
 #### Abilities
 
 You don't need to roll ability scores for the NPC, but note abilities that are above or below average-great strength or monumental stupidity, for example-and use them to inform the NPC's qualities.
 
-![NPC Abilities](npc-abilities.md)
+![NPC Abilities](03.PlayerLog&Handouts/Mechanics/CLI/tables/npc-abilities.md)
 
-![NPC Low Abilities](npc-low-abilities.md)
+![NPC Low Abilities](03.PlayerLog&Handouts/Mechanics/CLI/tables/npc-low-abilities.md)
 
 #### Talent
 
 In one sentence, describe something that your NPC can do that is special, if anything. Roll on the NPC Talents table or use it to spur your own ideas.
 
-![NPC Talents](npc-talents.md)
+![NPC Talents](03.PlayerLog&Handouts/Mechanics/CLI/tables/npc-talents.md)
 
 #### Mannerism
 
 In one sentence, describe one mannerism that will help players remember the NPC. Roll on the NPC Mannerisms and Quirks table or use it to generate your own ideas.
 
-![NPC Mannerisms](npc-mannerisms.md)
+![NPC Mannerisms](03.PlayerLog&Handouts/Mechanics/CLI/tables/npc-mannerisms.md)
 
 #### Interactions with Others
 
 In one sentence, describe how the NPC interacts with others, using the NPC Interaction Traits table if necessary. An NPC's behavior can change depending on who he or she is interacting with. For example, an innkeeper might be friendly toward guests and rude to her staff.
 
-![Interactions with Others; NPC Interaction Traits](interactions-with-others-npc-interaction-traits.md)
+![Interactions with Others; NPC Interaction Traits](03.PlayerLog&Handouts/Mechanics/CLI/tables/interactions-with-others-npc-interaction-traits.md)
 
 #### Useful Knowledge
 
@@ -83,7 +84,7 @@ The NPC might know something as banal as the best inn in town or as important as
 
 In a sentence, describe one ideal that the NPC holds dear and which governs his or her greater actions. Player characters who uncover an NPC's ideal can use what they've learned to influence the NPC in asocial interaction (as discussed in chapter 8, "Running the Game"). Ideals can connect to alignment, as shown on the NPC Ideals table. The alignment connections here are suggestions only; an evil character could have beauty as an ideal, for instance.
 
-![Ideals](ideals.md)
+![Ideals](03.PlayerLog&Handouts/Mechanics/CLI/tables/ideals.md)
 
 #### Bond
 
@@ -91,15 +92,15 @@ In a sentence, summarize the people, places, or things that are especially impor
 
 The character backgrounds in the *Player's Handbook* explore bonds in more detail, and player characters who uncover an NPC's bond can use what they've learned to influence the NPC in a social interaction (as discussed in chapter 8).
 
-![NPC Bonds](npc-bonds.md)
+![NPC Bonds](03.PlayerLog&Handouts/Mechanics/CLI/tables/npc-bonds.md)
 
 #### Flaw or Secret
 
 In one sentence, describe the NPC's flaw-some element of the character's personality or history that could potentially undermine the character-or a secret that the NPC is trying to hide.
 
-The NPC Flaws and Secrets table provides several ideas. The backgrounds in the *Player's Handbook* can be used to create more detailed flaws. Player characters who uncover an NPC'sflaw or secret can use what they've learned to influence the NPC in a social interaction (as discussed in chapter 8).
+The NPC Flaws and Secrets table provides several ideas. The backgrounds in the *Player's Handbook* can be used to create more detailed flaws. Player characters who uncover an NPC's flaw or secret can use what they've learned to influence the NPC in a social interaction (as discussed in chapter 8).
 
-![Flaw or Secret; NPC Flaws and Secrets](flaw-or-secret-npc-flaws-and-secrets.md)
+![Flaw or Secret; NPC Flaws and Secrets](03.PlayerLog&Handouts/Mechanics/CLI/tables/flaw-or-secret-npc-flaws-and-secrets.md)
 
 ### Monsters as NPCs
 
@@ -175,9 +176,9 @@ An NPC's loyalty is measured on a numerical scale from 0 to 20. The NPC's maximu
 
 Keep track of an NPC's loyalty score in secret so that the players won't know for sure whether an NPC party member is loyal or disloyal (even if the NPC is currently under a player's control).
 
-An NPC's loyalty score increases by `1d4` if other party members help the NPC achieve a goal tied to its bond. Likewise, an NPC's loyalty score increases by `1d4` if the NPC is treated particularly well (for example, given a magic weapon as a gift) or rescued by another party member. An NPC's loyalty score can never be raised above its maximum.
+An NPC's loyalty score increases by `d4` if other party members help the NPC achieve a goal tied to its bond. Likewise, an NPC's loyalty score increases by `d4` if the NPC is treated particularly well (for example, given a magic weapon as a gift) or rescued by another party member. An NPC's loyalty score can never be raised above its maximum.
 
-When other party members act in a manner that runs counter to the NPC's alignment or bond, reduce the NPC's loyalty score by `1d4`. Reduce the NPC's loyalty score by `2d4` if the character is abused, misled, or endangered by other party members for purely selfish reasons.
+When other party members act in a manner that runs counter to the NPC's alignment or bond, reduce the NPC's loyalty score by `d4`. Reduce the NPC's loyalty score by `2d4` if the character is abused, misled, or endangered by other party members for purely selfish reasons.
 
 An NPC whose loyalty score drops to 0 is no longer loyal to the party and might part ways with them. A loyalty score can never drop below 0.
 
@@ -215,15 +216,15 @@ Whenever extras are present, be prepared to come up with names and mannerisms on
 
 By their actions, villains provide job security for heroes. Chapter 3 helps you determine suitable villains for your adventures, while this section helps you flesh out their evil schemes, methods, and weaknesses. Let the tables that follow inspire you.
 
-![Villains; Villain's Scheme](villains-villains-scheme.md)
+![Villains; Villain's Scheme](03.PlayerLog&Handouts/Mechanics/CLI/tables/villains-villains-scheme.md)
 
-![Villains; Villain's Methods](villains-villains-methods.md)
+![Villains; Villain's Methods](03.PlayerLog&Handouts/Mechanics/CLI/tables/villains-villains-methods.md)
 
 ### Villain's Secret Weakness
 
 Finding and exploiting a villain's weakness can be very gratifying for players, although a smart villain tries to conceal its weakness. A lich, for example, has a phylactery-a magical receptacle for its soul-that it keeps well hidden. Only by destroying the phylactery can the characters ensure the lich's destruction.
 
-![Villain's Secret Weakness; Villain's Weakness](villains-secret-weakness-villains-weakness.md)
+![Villain's Secret Weakness; Villain's Weakness](03.PlayerLog&Handouts/Mechanics/CLI/tables/villains-secret-weakness-villains-weakness.md)
 
 ## Villainous Class Options
 
@@ -235,7 +236,7 @@ The Death Domain is an additional domain choice for evil clerics, and the Oathbr
 
 The Death domain is concerned with the forces that cause death, as well as the negative energy that gives rise to undead creatures. Deities such as Chemosh, Myrkul, and Wee Jas are patrons of necromancers, death knights, liches, mummy lords, and vampires. Gods of the Death domain also embody murder (Anubis, Bhaal, and Pyremius), pain (Iuz or Loviatar), disease or poison (Incabulos, Talona, or Morgion), and the underworld (Hades and Hel).
 
-See the [Death Domain classes page entry](cleric-death-domain.md) for more information.
+See the [Death Domain classes page entry](03.PlayerLog&Handouts/Mechanics/CLI/classes/cleric-death-domain-dmg.md) for more information.
 
 ### Paladin: Oathbreaker
 
@@ -243,4 +244,4 @@ An Oathbreaker is a paladin who breaks his or her sacred oaths to pursue some da
 
 A paladin must be evil and at least 3rd level to become an Oathbreaker. The paladin replaces the features specific to his or her Sacred Oath with Oathbreaker features.
 
-See the [Oathbreaker classes page entry](paladin-oathbreaker.md) for more information.
+See the [Oathbreaker classes page entry](03.PlayerLog&Handouts/Mechanics/CLI/classes/paladin-oathbreaker-dmg.md) for more information.

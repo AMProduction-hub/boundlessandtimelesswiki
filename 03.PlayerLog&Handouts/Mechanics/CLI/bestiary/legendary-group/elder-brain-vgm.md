@@ -4,7 +4,8 @@ cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
 - ttrpg-cli/monster/legendary-group
-aliases: ["Elder Brain"]
+aliases:
+- Elder Brain
 ---
 # Elder Brain
 
@@ -13,7 +14,7 @@ _Source: Volo's Guide to Monsters_
 
 When fighting inside its lair, an elder brain can use lair actions. On initiative count 20 (losing initiative ties), an elder brain can take one lair action to cause one of the following effects; the elder brain can't use the same lair action two rounds in a row:
 
-- The elder brain casts [wall of force](wall-of-force.md).  
+- The elder brain casts [wall of force](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-force.md).  
 - The elder brain targets one friendly creature it can sense within 120 feet of it. The target has a flash of inspiration and gains advantage on one attack roll, ability check, or saving throw it makes before the end of its next turn. If the target doesn't or can't use this benefit in that time, the inspiration is lost.  
 - The elder brain targets one creature it can sense within 120 feet of it and anchors it by sheer force of will. The target must succeed on a DC 18 Charisma saving throw or be unable to leave its current space. It can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.  
 

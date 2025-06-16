@@ -4,7 +4,8 @@ cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
 - ttrpg-cli/monster/legendary-group
-aliases: ["Graz'zt"]
+aliases:
+- Graz'zt
 ---
 # Graz'zt
 
@@ -13,7 +14,7 @@ _Source: Mordenkainen's Tome of Foes_
 
 On Initiative count 20 (losing initiative ties), Graz'zt can take a lair action to cause one of the following effects; he can't use the same effect two rounds in a row:
 
-- Graz'zt casts the [command](command.md) spell on every creature of his choice in the lair. He needn't see each one, but he must be aware that an individual is in the lair to target that creature. He issues the same command to all the targets.  
+- Graz'zt casts the [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md) spell on every creature of his choice in the lair. He needn't see each one, but he must be aware that an individual is in the lair to target that creature. He issues the same command to all the targets.  
 - Smooth surfaces within the lair become as reflective as a polished mirror. Until a different lair action is used, creatures within the lair have disadvantage on Dexterity ([Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)) checks made to hide.  
 
 ## Regional effects
@@ -25,7 +26,7 @@ The region containing Graz'zt's lair is warped by his magic, creating one or mor
 - Wild beasts within 6 miles of the lair break into frequent conflicts and coupling, mirroring the behavior that occurs during their mating seasons.  
 - If a humanoid spends at least 1 hour within 1 mile of the lair, that creature must succeed on a DC 23 Wisdom saving throw or descend into a madness determined by the Madness of Graz'zt table. A creature that succeeds on this saving throw can't be affected by this regional effect again for 24 hours.  
 
-If Graz'zt dies, these effects fade over the course of `1d10` days.
+If Graz'zt dies, these effects fade over the course of `d10` days.
 
 ### Madness of Graz'zt
 

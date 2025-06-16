@@ -9,9 +9,11 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/fey/elf
 statblock: inline
-aliases: ["Summer Eladrin"]
+statblock-link: "#^statblock"
+aliases:
+- Summer Eladrin
 ---
-# [Summer Eladrin](03 - Player Log & Handouts\Mechanics\CLI\bestiary\fey/summer-eladrin-mpmm.md)
+# [Summer Eladrin](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fey/summer-eladrin-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 116, Mordenkainen's Tome of Foes p. 196*  
 
 When angered, eladrin enter the season of summer, a burning, tempestuous state that transforms them into aggressive warriors eager to vent their wrath. Their magic responds to their fury and amplifies their fighting ability, helping them move with astonishing quickness and strike with terrible force.
@@ -32,7 +34,7 @@ The magic flowing through eladrin responds to their emotional state by transform
 
 ### Changeable Natures
 
-Whenever one of the eladrin presented here finishes a long rest, they can associate themself with a different season, provided they aren't [incapacitated](conditions.md#Incapacitated). When the eladrin makes this change, they use the stat block of the new season rather than their old stat block. Any damage the eladrin sustained in their previous form applies to the new form, as do any conditions or other ongoing effects affecting them.
+Whenever one of the eladrin presented here finishes a long rest, they can associate themself with a different season, provided they aren't [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated). When the eladrin makes this change, they use the stat block of the new season rather than their old stat block. Any damage the eladrin sustained in their previous form applies to the new form, as do any conditions or other ongoing effects affecting them.
 
 ```statblock
 "name": "Summer Eladrin (MPMM)"
@@ -44,55 +46,58 @@ Whenever one of the eladrin presented here finishes a long rest, they can associ
 "ac_class": "natural armor"
 "hp": !!int "165"
 "hit_dice": "22d8 + 66"
+"modifier": !!int "5"
 "stats":
-- !!int "19"
-- !!int "21"
-- !!int "16"
-- !!int "14"
-- !!int "12"
-- !!int "18"
+  - !!int "19"
+  - !!int "21"
+  - !!int "16"
+  - !!int "14"
+  - !!int "12"
+  - !!int "18"
 "speed": "50 ft."
 "skillsaves":
-  "Intimidation": !!int "8"
-  "Athletics": !!int "8"
+  - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
+    "desc": "+8"
+  - "name": "[Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation)"
+    "desc": "+8"
 "damage_resistances": "fire"
 "senses": "darkvision 60 ft., passive Perception 11"
 "languages": "Common, Elvish, Sylvan"
 "cr": "10"
 "traits":
-- "desc": "Any non-eladrin creature that starts its turn within 60 feet of the eladrin\
-    \ must make a DC 16 Wisdom saving throw. On a failed save, the creature becomes\
-    \ [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened)\
-    \ of the eladrin for 1 minute. A creature can repeat the saving throw at the end\
-    \ of each of its turns, ending the effect on itself on a success. If a creature's\
-    \ saving throw is successful or the effect ends for it, the creature is immune\
-    \ to any eladrin's Fearsome Presence for the next 24 hours."
-  "name": "Fearsome Presence"
-- "desc": "The eladrin has advantage on saving throws against spells and other magical\
-    \ effects."
-  "name": "Magic Resistance"
+  - "desc": "Any non-eladrin creature that starts its turn within 60 feet of the eladrin\
+      \ must make a DC 16 Wisdom saving throw. On a failed save, the creature becomes\
+      \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)\
+      \ of the eladrin for 1 minute. A creature can repeat the saving throw at the\
+      \ end of each of its turns, ending the effect on itself on a success. If a creature's\
+      \ saving throw is successful or the effect ends for it, the creature is immune\
+      \ to any eladrin's Fearsome Presence for the next 24 hours."
+    "name": "Fearsome Presence"
+  - "desc": "The eladrin has advantage on saving throws against spells and other magical\
+      \ effects."
+    "name": "Magic Resistance"
 "actions":
-- "desc": "The eladrin makes two Longsword or Longbow attacks."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 13\
-    \ (2d8 + 4) slashing damage, or 15 (2d10 + 4) slashing damage if used with\
-    \ two hands, plus 9 (2d8) fire damage."
-  "name": "Longsword"
-- "desc": "Ranged Weapon Attack: +9 to hit, range 150/600 ft., one target. Hit:\
-    \ 14 (2d8 + 5) piercing damage plus 9 (2d8) fire damage."
-  "name": "Longbow"
+  - "desc": "The eladrin makes two Longsword or Longbow attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 13\
+      \ (2d8 + 4) slashing damage, or 15 (2d10 + 4) slashing damage if used with\
+      \ two hands, plus 9 (2d8) fire damage."
+    "name": "Longsword"
+  - "desc": "Ranged Weapon Attack: +9 to hit, range 150/600 ft., one target. Hit:\
+      \ 14 (2d8 + 5) piercing damage plus 9 (2d8) fire damage."
+    "name": "Longbow"
 "bonus_actions":
-- "desc": "The eladrin teleports, along with any equipment it is wearing or carrying,\
-    \ up to 30 feet to an unoccupied space it can see."
-  "name": "Fey Step (Recharge 4-6)"
+  - "desc": "The eladrin teleports, along with any equipment it is wearing or carrying,\
+      \ up to 30 feet to an unoccupied space it can see."
+    "name": "Fey Step (Recharge 4-6)"
 "reactions":
-- "desc": "The eladrin adds 3 to its AC against one melee attack that would hit it.\
-    \ To do so, the eladrin must see the attacker and be wielding a melee weapon."
-  "name": "Parry"
+  - "desc": "The eladrin adds 3 to its AC against one melee attack that would hit\
+      \ it. To do so, the eladrin must see the attacker and be wielding a melee weapon."
+    "name": "Parry"
 "source":
-- "MPMM"
-- "MTF"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/fey/token/summer-eladrin-mpmm.webp"
+  - "MPMM"
+  - "MTF"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/token/summer-eladrin-mpmm.webp"
 ```
 ^statblock
 

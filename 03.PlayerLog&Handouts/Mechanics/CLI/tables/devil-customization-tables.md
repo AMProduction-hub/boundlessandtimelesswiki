@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
-aliases: ["Devil Customization Tables"]
+aliases:
+- Devil Customization Tables
 ---
 # Devil Customization Tables
 *Source: Mordenkainen's Tome of Foes p. 23* 

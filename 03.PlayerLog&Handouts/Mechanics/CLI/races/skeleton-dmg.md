@@ -3,10 +3,11 @@ obsidianUIMode: preview
 cssclasses: json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
-- ttrpg-cli/race/skeleton/dmg
-aliases: ["Skeleton (DMG)"]
+- ttrpg-cli/race/skeleton
+aliases:
+- Skeleton
 ---
-# Skeleton (DMG)
+# Skeleton
 *Source: Dungeon Master's Guide p. 282*  
 
 
@@ -27,7 +28,7 @@ You are vulnerable to bludgeoning damage.
 
 ### Undead Nature
 
-You are immune to poison damage and [exhaustion](conditions.md#Exhaustion), and you can't be [poisoned](conditions.md#Poisoned). You don't require air, food, drink, or sleep.
+You are immune to poison damage and [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion), and you can't be [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned). You don't require air, food, drink, or sleep.
 
 ### Darkvision
 

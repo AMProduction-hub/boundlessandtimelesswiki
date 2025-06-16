@@ -4,15 +4,16 @@ cssclasses: json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/phb
-aliases: ["Urchin"]
+aliases:
+- Urchin
 ---
 # Urchin
 *Source: Player's Handbook p. 141*  
 
 
 - **Skill Proficiencies.** [Sleight of Hand](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Sleight%20of%20Hand), [Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)  
-- **Tool Proficiencies.** [Disguise kit](disguise-kit.md), [Thieves' tools](thieves-tools.md)  
-- **Equipment.** A small knife, a map of the city you grew up in, a pet mouse, a token to remember your parents by, a set of [common clothes](common-clothes.md), and a belt [pouch](pouch.md) containing 10 gp  
+- **Tool Proficiencies.** [Disguise kit](03.PlayerLog&Handouts/Mechanics/CLI/items/disguise-kit.md), [Thieves' tools](03.PlayerLog&Handouts/Mechanics/CLI/items/thieves-tools.md)  
+- **Equipment.** A small knife, a map of the city you grew up in, a pet mouse, a token to remember your parents by, a set of [common clothes](03.PlayerLog&Handouts/Mechanics/CLI/items/common-clothes.md), and a belt [pouch](03.PlayerLog&Handouts/Mechanics/CLI/items/pouch.md) containing 10 gp  
 
 You grew up on the streets alone, orphaned, and poor. You had no one to watch over you or to provide for you, so you learned to provide for yourself. You fought fiercely over food and kept a constant watch out for other desperate souls who might steal from you. You slept on rooftops and in alleyways, exposed to the elements, and endured sickness without the advantage of medicine or a place to recuperate. You've survived despite all odds, and did so through cunning, strength, speed, or some combination of each.
 

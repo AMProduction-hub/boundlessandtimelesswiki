@@ -9,10 +9,12 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/dragon
 statblock: inline
-aliases: ["Wyvern"]
+statblock-link: "#^statblock"
+aliases:
+- Wyvern
 ---
-# [Wyvern](03 - Player Log & Handouts\Mechanics\CLI\bestiary\dragon/wyvern.md)
-*Source: Monster Manual p. 303, Baldur's Gate: Descent Into Avernus. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Wyvern](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\dragon/wyvern.md)
+*Source: Monster Manual p. 303, Princes of the Apocalypse, Storm King's Thunder, Waterdeep: Dungeon of the Mad Mage, Dragon of Icespire Peak, Storm Lord's Wrath, Baldur's Gate: Descent Into Avernus, Candlekeep Mysteries, Journeys through the Radiant Citadel. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 Travelers in the wild sometimes look to the skies to see the dark-winged shape of a wyvern carrying its prey. These cousins to the great dragons hunt the same tangled forests and caverns as their kin. Their appearance sends ripples of alarm through the borderlands of civilization.
 
@@ -41,38 +43,47 @@ A wyvern can be tamed for use as a mount, but doing so presents a difficult and 
 "ac_class": "natural armor"
 "hp": !!int "110"
 "hit_dice": "13d10 + 39"
+"modifier": !!int "0"
 "stats":
-- !!int "19"
-- !!int "10"
-- !!int "16"
-- !!int "5"
-- !!int "12"
-- !!int "6"
+  - !!int "19"
+  - !!int "10"
+  - !!int "16"
+  - !!int "5"
+  - !!int "12"
+  - !!int "6"
 "speed": "20 ft., fly 80 ft."
 "skillsaves":
-  "Perception": !!int "4"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+4"
 "senses": "darkvision 60 ft., passive Perception 14"
 "languages": ""
 "cr": "6"
 "actions":
-- "desc": "The wyvern makes two attacks: one with its bite and one with its stinger.\
-    \ While flying, it can use its claws in place of one other attack."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one creature. Hit:\
-    \ 11 (2d6 + 4) piercing damage."
-  "name": "Bite"
-- "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13\
-    \ (2d8 + 4) slashing damage."
-  "name": "Claws"
-- "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one creature. Hit:\
-    \ 11 (2d6 + 4) piercing damage. The target must make a DC 15 Constitution saving\
-    \ throw, taking 24 (7d6) poison damage on a failed save, or half as much damage\
-    \ on a successful one."
-  "name": "Stinger"
+  - "desc": "The wyvern makes two attacks: one with its bite and one with its stinger.\
+      \ While flying, it can use its claws in place of one other attack."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one creature. Hit:\
+      \ 11 (2d6 + 4) piercing damage."
+    "name": "Bite"
+  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13\
+      \ (2d8 + 4) slashing damage."
+    "name": "Claws"
+  - "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one creature. Hit:\
+      \ 11 (2d6 + 4) piercing damage. The target must make a DC 15 Constitution\
+      \ saving throw, taking 24 (7d6) poison damage on a failed save, or half as\
+      \ much damage on a successful one."
+    "name": "Stinger"
 "source":
-- "MM"
-- "BGDIA"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/dragon/token/wyvern.webp"
+  - "MM"
+  - "PotA"
+  - "SKT"
+  - "WDMM"
+  - "DIP"
+  - "SLW"
+  - "BGDIA"
+  - "CM"
+  - "JttRC"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/token/wyvern.webp"
 ```
 ^statblock
 

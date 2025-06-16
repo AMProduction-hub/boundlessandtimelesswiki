@@ -18,7 +18,8 @@ classes:
 - Sorcerer (Aberrant Mind)
 - Warlock (The Great Old One)
 - Wizard
-aliases: ["Telekinesis"]
+aliases:
+- Telekinesis
 ---
 # Telekinesis
 *5th-level, Transmutation*  
@@ -33,7 +34,7 @@ You gain the ability to move or manipulate creatures or objects by thought. When
 
 ## Creature
 
-You can try to move a Huge or smaller creature. Make an ability check with your spellcasting ability contested by the creature's Strength check. If you win the contest, you move the creature up to 30 feet in any direction, including upward but not beyond the range of this spell. Until the end of your next turn, the creature is [restrained](conditions.md#Restrained) in your telekinetic grip. A creature lifted upward is suspended in mid-air.
+You can try to move a Huge or smaller creature. Make an ability check with your spellcasting ability contested by the creature's Strength check. If you win the contest, you move the creature up to 30 feet in any direction, including upward but not beyond the range of this spell. Until the end of your next turn, the creature is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained) in your telekinetic grip. A creature lifted upward is suspended in mid-air.
 
 On subsequent rounds, you can use your action to attempt to maintain your telekinetic grip on the creature by repeating the contest.
 
@@ -47,6 +48,6 @@ You can exert fine control on objects with your telekinetic grip, such as manipu
 
 ## Summary
 
-**Classes**: [Bard](list-spells-classes-bard.md); [Wizard](list-spells-classes-wizard.md); [Fighter (Psi Warrior)](list-spells-classes-fighter-psi-warrior-tce.md "subclass=TCE"); [Sorcerer](list-spells-classes-sorcerer.md); [Sorcerer (Aberrant Mind)](list-spells-classes-sorcerer-aberrant-mind-tce.md "subclass=TCE"); [Warlock (The Great Old One)](list-spells-classes-warlock-the-great-old-one.md)
+**Classes**: [Sorcerer (Aberrant Mind)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-aberrant-mind-tce.md "subclass=TCE"); [Fighter (Psi Warrior)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-psi-warrior-tce.md "subclass=TCE"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock (The Great Old One)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-great-old-one.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook p. 280. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

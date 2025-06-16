@@ -12,10 +12,12 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/beast
 statblock: inline
-aliases: ["Giant Lizard (Hold Breath and Spider Climb)"]
+statblock-link: "#^statblock"
+aliases:
+- Giant Lizard (Hold Breath and Spider Climb)
 ---
-# [Giant Lizard (Hold Breath and Spider Climb)](03 - Player Log & Handouts\Mechanics\CLI\bestiary\beast/giant-lizard-hold-breath-and-spider-climb.md)
-*Source: Monster Manual p. 326. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Giant Lizard (Hold Breath and Spider Climb)](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/giant-lizard-hold-breath-and-spider-climb.md)
+*Source: Monster Manual p. 326, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Icewind Dale: Rime of the Frostmaiden, Journeys through the Radiant Citadel, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 ```statblock
 "name": "Giant Lizard (Hold Breath and Spider Climb)"
@@ -26,29 +28,37 @@ aliases: ["Giant Lizard (Hold Breath and Spider Climb)"]
 "ac_class": "natural armor"
 "hp": !!int "19"
 "hit_dice": "3d10 + 3"
+"modifier": !!int "1"
 "stats":
-- !!int "15"
-- !!int "12"
-- !!int "13"
-- !!int "2"
-- !!int "10"
-- !!int "5"
+  - !!int "15"
+  - !!int "12"
+  - !!int "13"
+  - !!int "2"
+  - !!int "10"
+  - !!int "5"
 "speed": "30 ft., climb 30 ft., swim 30 ft."
 "senses": "darkvision 30 ft., passive Perception 10"
 "languages": ""
 "cr": "1/4"
 "traits":
-- "desc": "The lizard can hold its breath for 15 minutes."
-  "name": "Hold Breath"
-- "desc": "The lizard can climb difficult surfaces, including upside down on ceilings,\
-    \ without needing to make an ability check."
-  "name": "Spider Climb"
+  - "desc": "The lizard can hold its breath for 15 minutes."
+    "name": "Hold Breath"
+  - "desc": "The lizard can climb difficult surfaces, including upside down on ceilings,\
+      \ without needing to make an ability check."
+    "name": "Spider Climb"
 "actions":
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8\
-    \ + 2) piercing damage."
-  "name": "Bite"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6\
+      \ (1d8 + 2) piercing damage."
+    "name": "Bite"
 "source":
-- "MM"
+  - "MM"
+  - "TftYP"
+  - "ToA"
+  - "WDMM"
+  - "GoS"
+  - "IDRotF"
+  - "JttRC"
+  - "KftGV"
 ```
 ^statblock
 

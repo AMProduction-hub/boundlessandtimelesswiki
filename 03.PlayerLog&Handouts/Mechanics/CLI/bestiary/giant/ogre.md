@@ -16,10 +16,12 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/giant
 statblock: inline
-aliases: ["Ogre"]
+statblock-link: "#^statblock"
+aliases:
+- Ogre
 ---
-# [Ogre](03 - Player Log & Handouts\Mechanics\CLI\bestiary\giant/ogre.md)
-*Source: Monster Manual p. 237, Lost Mine of Phandelver, Baldur's Gate: Descent Into Avernus, Spelljammer Academy, Sigil and the Outlands. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Ogre](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\giant/ogre.md)
+*Source: Monster Manual p. 237, Lost Mine of Phandelver, Princes of the Apocalypse, Storm King's Thunder, Tales from the Yawning Portal, Ghosts of Saltmarsh, Dragon of Icespire Peak, Storm Lord's Wrath, Baldur's Gate: Descent Into Avernus, Eberron: Rising from the Last War, Explorer's Guide to Wildemount, Icewind Dale: Rime of the Frostmaiden, Candlekeep Mysteries, Dragonlance: Shadow of the Dragon Queen, Keys from the Golden Vault, Hunt for the Thessalhydra. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 Ogres are as lazy of mind as they are strong of body. They live by raiding, scavenging, and killing for food and pleasure. The average adult specimen stands between 9 and 10 feet tall and weighs close to a thousand pounds.
 
@@ -62,34 +64,46 @@ Whenever possible, ogres gang up with other monsters to bully or prey on creatur
 "type": "giant"
 "alignment": "Chaotic Evil"
 "ac": !!int "11"
-"ac_class": "[hide armor](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/items/hide-armor.md)"
+"ac_class": "[hide armor](03.PlayerLog&Handouts/Mechanics/CLI/items/hide-armor.md)"
 "hp": !!int "59"
 "hit_dice": "7d10 + 21"
+"modifier": !!int "-1"
 "stats":
-- !!int "19"
-- !!int "8"
-- !!int "16"
-- !!int "5"
-- !!int "7"
-- !!int "7"
+  - !!int "19"
+  - !!int "8"
+  - !!int "16"
+  - !!int "5"
+  - !!int "7"
+  - !!int "7"
 "speed": "40 ft."
 "senses": "darkvision 60 ft., passive Perception 8"
 "languages": "Common, Giant"
 "cr": "2"
 "actions":
-- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13\
-    \ (2d8 + 4) bludgeoning damage."
-  "name": "Greatclub"
-- "desc": "Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 30/120\
-    \ ft., one target. Hit: 11 (2d6 + 4) piercing damage."
-  "name": "Javelin"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13\
+      \ (2d8 + 4) bludgeoning damage."
+    "name": "Greatclub"
+  - "desc": "Melee  or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 30/120\
+      \ ft., one target. Hit: 11 (2d6 + 4) piercing damage."
+    "name": "Javelin"
 "source":
-- "MM"
-- "LMoP"
-- "BGDIA"
-- "SjA"
-- "SatO"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/giant/token/ogre.webp"
+  - "MM"
+  - "LMoP"
+  - "PotA"
+  - "SKT"
+  - "TftYP"
+  - "GoS"
+  - "DIP"
+  - "SLW"
+  - "BGDIA"
+  - "ERLW"
+  - "EGW"
+  - "IDRotF"
+  - "CM"
+  - "DSotDQ"
+  - "KftGV"
+  - "HftT"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/token/ogre.webp"
 ```
 ^statblock
 

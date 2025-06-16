@@ -10,10 +10,12 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/beast
 statblock: inline
-aliases: ["Giant Owl"]
+statblock-link: "#^statblock"
+aliases:
+- Giant Owl
 ---
-# [Giant Owl](03 - Player Log & Handouts\Mechanics\CLI\bestiary\beast/giant-owl.md)
-*Source: Monster Manual p. 327. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Giant Owl](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/giant-owl.md)
+*Source: Monster Manual p. 327, Storm King's Thunder, Eberron: Rising from the Last War, Infernal Machine Rebuild, Explorer's Guide to Wildemount. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 Giant owls often befriend fey and other sylvan creatures and are guardians of their woodland realms.
 
@@ -25,34 +27,41 @@ Giant owls often befriend fey and other sylvan creatures and are guardians of th
 "ac": !!int "12"
 "hp": !!int "19"
 "hit_dice": "3d10 + 3"
+"modifier": !!int "2"
 "stats":
-- !!int "13"
-- !!int "15"
-- !!int "12"
-- !!int "8"
-- !!int "13"
-- !!int "10"
+  - !!int "13"
+  - !!int "15"
+  - !!int "12"
+  - !!int "8"
+  - !!int "13"
+  - !!int "10"
 "speed": "5 ft., fly 60 ft."
 "skillsaves":
-  "Stealth": !!int "4"
-  "Perception": !!int "5"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+5"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+4"
 "senses": "darkvision 120 ft., passive Perception 15"
 "languages": "Giant Owl, understands Common, Elvish, and Sylvan but can't speak them"
 "cr": "1/4"
 "traits":
-- "desc": "The owl doesn't provoke opportunity attacks when it flies out of an enemy's\
-    \ reach."
-  "name": "Flyby"
-- "desc": "The owl has advantage on Wisdom ([Perception](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/skills.md#Perception))\
-    \ checks that rely on hearing or sight."
-  "name": "Keen Hearing and Sight"
+  - "desc": "The owl doesn't provoke opportunity attacks when it flies out of an enemy's\
+      \ reach."
+    "name": "Flyby"
+  - "desc": "The owl has advantage on Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception))\
+      \ checks that rely on hearing or sight."
+    "name": "Keen Hearing and Sight"
 "actions":
-- "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 8 (2d6\
-    \ + 1) slashing damage."
-  "name": "Talons"
+  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 8\
+      \ (2d6 + 1) slashing damage."
+    "name": "Talons"
 "source":
-- "MM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/beast/token/giant-owl.webp"
+  - "MM"
+  - "SKT"
+  - "ERLW"
+  - "IMR"
+  - "EGW"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/giant-owl.webp"
 ```
 ^statblock
 

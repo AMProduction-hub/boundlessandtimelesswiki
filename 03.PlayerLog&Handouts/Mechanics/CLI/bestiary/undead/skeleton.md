@@ -8,10 +8,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/undead
 statblock: inline
-aliases: ["Skeleton"]
+statblock-link: "#^statblock"
+aliases:
+- Skeleton
 ---
-# [Skeleton](03 - Player Log & Handouts\Mechanics\CLI\bestiary\undead/skeleton.md)
-*Source: Monster Manual p. 272, Lost Mine of Phandelver, Baldur's Gate: Descent Into Avernus, Tasha's Cauldron of Everything, Sigil and the Outlands. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Skeleton](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/skeleton.md)
+*Source: Monster Manual p. 272, Curse of Strahd, Lost Mine of Phandelver, Princes of the Apocalypse, Storm King's Thunder, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Divine Contention, Dragon of Icespire Peak, Sleeping Dragon's Wake, Baldur's Gate: Descent Into Avernus, Infernal Machine Rebuild, Tasha's Cauldron of Everything, Journeys through the Radiant Citadel, Dragonlance: Shadow of the Dragon Queen, Keys from the Golden Vault, Hunt for the Thessalhydra. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 Skeletons arise when animated by dark magic. They heed the summons of spellcasters who call them from their stony tombs and ancient battlefields, or rise of their own accord in places saturated with death and loss, awakened by stirrings of necromantic energy or the presence of corrupting evil.
 
@@ -48,35 +50,51 @@ A skeleton doesn't require air, food, drink, or sleep.
 "ac_class": "armor scraps"
 "hp": !!int "13"
 "hit_dice": "2d8 + 4"
+"modifier": !!int "2"
 "stats":
-- !!int "10"
-- !!int "14"
-- !!int "15"
-- !!int "6"
-- !!int "8"
-- !!int "5"
+  - !!int "10"
+  - !!int "14"
+  - !!int "15"
+  - !!int "6"
+  - !!int "8"
+  - !!int "5"
 "speed": "30 ft."
 "damage_vulnerabilities": "bludgeoning"
 "damage_immunities": "poison"
-"condition_immunities": "[exhaustion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
-  \ [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
+  \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "darkvision 60 ft., passive Perception 9"
 "languages": "understands all languages it spoke in life but can't speak"
 "cr": "1/4"
 "actions":
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6\
-    \ + 2) piercing damage."
-  "name": "Shortsword"
-- "desc": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit:\
-    \ 5 (1d6 + 2) piercing damage."
-  "name": "Shortbow"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+      \ (1d6 + 2) piercing damage."
+    "name": "Shortsword"
+  - "desc": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit:\
+      \ 5 (1d6 + 2) piercing damage."
+    "name": "Shortbow"
 "source":
-- "MM"
-- "LMoP"
-- "BGDIA"
-- "TCE"
-- "SatO"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/undead/token/skeleton.webp"
+  - "MM"
+  - "CoS"
+  - "LMoP"
+  - "PotA"
+  - "SKT"
+  - "TftYP"
+  - "ToA"
+  - "WDH"
+  - "WDMM"
+  - "GoS"
+  - "DC"
+  - "DIP"
+  - "SDW"
+  - "BGDIA"
+  - "IMR"
+  - "TCE"
+  - "JttRC"
+  - "DSotDQ"
+  - "KftGV"
+  - "HftT"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/token/skeleton.webp"
 ```
 ^statblock
 

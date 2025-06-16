@@ -7,10 +7,12 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/fiend/devil
 statblock: inline
-aliases: ["Pit Fiend"]
+statblock-link: "#^statblock"
+aliases:
+- Pit Fiend
 ---
-# [Pit Fiend](03 - Player Log & Handouts\Mechanics\CLI\bestiary\fiend/pit-fiend.md)
-*Source: Monster Manual p. 77, Baldur's Gate: Descent Into Avernus, Tasha's Cauldron of Everything, Sigil and the Outlands. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Pit Fiend](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/pit-fiend.md)
+*Source: Monster Manual p. 77, Waterdeep: Dungeon of the Mad Mage, Baldur's Gate: Descent Into Avernus, Explorer's Guide to Wildemount, Tasha's Cauldron of Everything. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 The undisputed lords of most other devils, pit fiends attend the archdukes and archduchesses of the Nine Hells and carry out their wishes. These mighty devils are the generals of the Nine Hells, leading its infernal legions into battle.
 
@@ -118,7 +120,7 @@ The Nine Hells are a single plane comprising nine separate layers (see the Layer
 
 > [!note] Devil True Names and Talismans
 > 
-> Though devils all have common names, every devil above a lemure in station also has a true name that it keeps secret. A devil can be forced to disclose its true name if [charmed](conditions.md#Charmed), and ancient scrolls and tomes are said to exist that list the true names of certain devils.
+> Though devils all have common names, every devil above a lemure in station also has a true name that it keeps secret. A devil can be forced to disclose its true name if [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), and ancient scrolls and tomes are said to exist that list the true names of certain devils.
 > 
 > A mortal who learns a devil's true name can use powerful summoning magic to call the devil from the Nine Hells and bind it into service. Binding can also be accomplished with the help of a devil talisman. Each of these ancient relics is inscribed with the true name of a devil it controls, and was bathed in the blood of a worthy sacrifice-typically someone the creator loved-when crafted.
 > 
@@ -134,10 +136,10 @@ The Nine Hells are a single plane comprising nine separate layers (see the Layer
 > - A barbed devil has a 30 percent chance of summoning one barbed devil.  
 > - A bearded devil has a 30 percent chance of summoning one bearded devil.  
 > - A bone devil has a 40 percent chance of summoning `2d6` spined devils or one bone devil.  
-> - An erinyes has a 50 percent chance of summoning `3d6` spined devils, `1d6` bearded devils, or one erinyes.  
+> - An erinyes has a 50 percent chance of summoning `3d6` spined devils, `d6` bearded devils, or one erinyes.  
 > - A horned devil has a 30 percent chance of summoning one horned devil.  
 > - An ice devil has a 60 percent chance of summoning one ice devil.  
-> - A pit fiend summons `2d4` bearded devils, `1d4` barbed devils, or one erinyes with no chance of failure.  
+> - A pit fiend summons `2d4` bearded devils, `d4` barbed devils, or one erinyes with no chance of failure.  
 > 
 > A summoned devil appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other devils. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.
 ^variant-devil-summoning
@@ -152,72 +154,74 @@ The Nine Hells are a single plane comprising nine separate layers (see the Layer
 "ac_class": "natural armor"
 "hp": !!int "300"
 "hit_dice": "24d10 + 168"
+"modifier": !!int "2"
 "stats":
-- !!int "26"
-- !!int "14"
-- !!int "24"
-- !!int "22"
-- !!int "18"
-- !!int "24"
+  - !!int "26"
+  - !!int "14"
+  - !!int "24"
+  - !!int "22"
+  - !!int "18"
+  - !!int "24"
 "speed": "30 ft., fly 60 ft."
 "saves":
-  "Dexterity": !!int "8"
-  "Wisdom": !!int "10"
-  "Constitution": !!int "13"
+  - "dexterity": "+8"
+  - "constitution": "+13"
+  - "wisdom": "+10"
 "damage_resistances": "cold; bludgeoning, piercing, slashing from nonmagical attacks\
   \ that aren't silvered"
 "damage_immunities": "fire, poison"
-"condition_immunities": "[poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "truesight 120 ft., passive Perception 14"
 "languages": "Infernal, telepathy 120 ft."
 "cr": "20"
 "traits":
-- "desc": "The pit fiend's spellcasting ability is Charisma (spell save DC 21). The\
-    \ pit fiend can innately cast the following spells, requiring no material components:\n\
-    \nAt will: [detect magic](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/detect-magic.md),\
-    \ [fireball](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/fireball.md)\n\
-    \n3/day each: [hold monster](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/hold-monster.md),\
-    \ [wall of fire](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/wall-of-fire.md)"
-  "name": "Innate Spellcasting"
-- "desc": "Any creature hostile to the pit fiend that starts its turn within 20 feet\
-    \ of the pit fiend must make a DC 21 Wisdom saving throw, unless the pit fiend\
-    \ is [incapacitated](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated).\
-    \ On a failed save, the creature is [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened)\
-    \ until the start of its next turn. If a creature's saving throw is successful,\
-    \ the creature is immune to the pit fiend's Fear Aura for the next 24 hours."
-  "name": "Fear Aura"
-- "desc": "The pit fiend has advantage on saving throws against spells and other magical\
-    \ effects."
-  "name": "Magic Resistance"
-- "desc": "The pit fiend's weapon attacks are magical."
-  "name": "Magic Weapons"
+  - "desc": "The pit fiend's spellcasting ability is Charisma (spell save DC 21).\
+      \ The pit fiend can innately cast the following spells, requiring no material\
+      \ components:\n\nAt will: [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      \ [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md)\n\n3/day\
+      \ each: [hold monster](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-monster.md),\
+      \ [wall of fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-fire.md)"
+    "name": "Innate Spellcasting"
+  - "desc": "Any creature hostile to the pit fiend that starts its turn within 20\
+      \ feet of the pit fiend must make a DC 21 Wisdom saving throw, unless the pit\
+      \ fiend is [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated).\
+      \ On a failed save, the creature is [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)\
+      \ until the start of its next turn. If a creature's saving throw is successful,\
+      \ the creature is immune to the pit fiend's Fear Aura for the next 24 hours."
+    "name": "Fear Aura"
+  - "desc": "The pit fiend has advantage on saving throws against spells and other\
+      \ magical effects."
+    "name": "Magic Resistance"
+  - "desc": "The pit fiend's weapon attacks are magical."
+    "name": "Magic Weapons"
 "actions":
-- "desc": "The pit fiend makes four attacks: one with its bite, one with its claw,\
-    \ one with its mace, and one with its tail."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +14 to hit, reach 5 ft., one target. Hit: 22\
-    \ (4d6 + 8) piercing damage. The target must succeed on a DC 21 Constitution\
-    \ saving throw or become [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned).\
-    \ While [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
-    \ in this way, the target can't regain hit points, and it takes 21 (6d6) poison\
-    \ damage at the start of each of its turns. The [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
-    \ target can repeat the saving throw at the end of each of its turns, ending the\
-    \ effect on itself on a success."
-  "name": "Bite"
-- "desc": "Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit: 17\
-    \ (2d8 + 8) slashing damage."
-  "name": "Claw"
-- "desc": "Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit: 15\
-    \ (2d6 + 8) bludgeoning damage plus 21 (6d6) fire damage."
-  "name": "Mace"
-- "desc": "Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit: 24\
-    \ (3d10 + 8) bludgeoning damage."
-  "name": "Tail"
+  - "desc": "The pit fiend makes four attacks: one with its bite, one with its claw,\
+      \ one with its mace, and one with its tail."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +14 to hit, reach 5 ft., one target. Hit:\
+      \ 22 (4d6 + 8) piercing damage. The target must succeed on a DC 21 Constitution\
+      \ saving throw or become [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned).\
+      \ While [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
+      \ in this way, the target can't regain hit points, and it takes 21 (6d6) poison\
+      \ damage at the start of each of its turns. The [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
+      \ target can repeat the saving throw at the end of each of its turns, ending\
+      \ the effect on itself on a success."
+    "name": "Bite"
+  - "desc": "Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit:\
+      \ 17 (2d8 + 8) slashing damage."
+    "name": "Claw"
+  - "desc": "Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit:\
+      \ 15 (2d6 + 8) bludgeoning damage plus 21 (6d6) fire damage."
+    "name": "Mace"
+  - "desc": "Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit:\
+      \ 24 (3d10 + 8) bludgeoning damage."
+    "name": "Tail"
 "source":
-- "MM"
-- "BGDIA"
-- "TCE"
-- "SatO"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/fiend/token/pit-fiend.webp"
+  - "MM"
+  - "WDMM"
+  - "BGDIA"
+  - "EGW"
+  - "TCE"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/token/pit-fiend.webp"
 ```
 ^statblock

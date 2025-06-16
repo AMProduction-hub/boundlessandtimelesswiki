@@ -17,9 +17,9 @@ aliases:
 
 **Items in this group:**
 
-- [Ring of Air Elemental Command](ring-of-air-elemental-command.md)
-- [Ring of Earth Elemental Command](ring-of-earth-elemental-command.md)
-- [Ring of Fire Elemental Command](ring-of-fire-elemental-command.md)
-- [Ring of Water Elemental Command](ring-of-water-elemental-command.md)
+- [Ring of Air Elemental Command](03.PlayerLog&Handouts/Mechanics/CLI/items/ring-of-air-elemental-command.md)
+- [Ring of Earth Elemental Command](03.PlayerLog&Handouts/Mechanics/CLI/items/ring-of-earth-elemental-command.md)
+- [Ring of Fire Elemental Command](03.PlayerLog&Handouts/Mechanics/CLI/items/ring-of-fire-elemental-command.md)
+- [Ring of Water Elemental Command](03.PlayerLog&Handouts/Mechanics/CLI/items/ring-of-water-elemental-command.md)
 
 *Source: Dungeon Master's Guide p. 190*

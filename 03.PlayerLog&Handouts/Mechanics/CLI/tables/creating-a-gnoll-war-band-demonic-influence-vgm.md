@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
-aliases: ["Creating a Gnoll War Band; Demonic Influence"]
+aliases:
+- Creating a Gnoll War Band; Demonic Influence
 ---
 # Creating a Gnoll War Band; Demonic Influence
 *Source: Volo's Guide to Monsters p. 39* 

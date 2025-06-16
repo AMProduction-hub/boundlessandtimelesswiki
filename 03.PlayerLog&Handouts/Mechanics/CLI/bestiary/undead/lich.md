@@ -7,10 +7,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/undead
 statblock: inline
-aliases: ["Lich"]
+statblock-link: "#^statblock"
+aliases:
+- Lich
 ---
-# [Lich](03 - Player Log & Handouts\Mechanics\CLI\bestiary\undead/lich.md)
-*Source: Monster Manual p. 202, Tasha's Cauldron of Everything, Sigil and the Outlands. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Lich](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/lich.md)
+*Source: Monster Manual p. 202, Curse of Strahd, Ghosts of Saltmarsh, Icewind Dale: Rime of the Frostmaiden, Tasha's Cauldron of Everything. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Liches are the remains of great wizards who embrace undeath as a means of preserving themselves. They further their own power at any cost, having no interest in the affairs of the living except where those affairs interfere with their own. Scheming and insane, they hunger for long-forgotten knowledge and the most terrible secrets. Because the shadow of death doesn't hang over them, they can conceive plans that take years, decades, or centuries to come to fruition.
 
@@ -26,7 +28,7 @@ With its phylactery prepared, the future lich drinks a potion of transformation-
 
 ## Soul Sacrifices
 
-A lich must periodically feed souls to its phylactery to sustain the magic preserving its body and consciousness. It does this using the [imprisonment](imprisonment.md) spell. Instead of choosing one of the normal options of the spell, the lich uses the spell to magically trap the target's body and soul inside its phylactery. The phylactery must be on the same plane as the lich for the spell to work. A lich's phylactery can hold only one creature at a time, and a [dispel magic](dispel-magic.md) cast as a 9th-level spell upon the phylactery releases any creature imprisoned within it. A creature imprisoned in the phylactery for 24 hours is consumed and destroyed utterly, whereupon nothing short of divine intervention can restore it to life.
+A lich must periodically feed souls to its phylactery to sustain the magic preserving its body and consciousness. It does this using the [imprisonment](03.PlayerLog&Handouts/Mechanics/CLI/spells/imprisonment.md) spell. Instead of choosing one of the normal options of the spell, the lich uses the spell to magically trap the target's body and soul inside its phylactery. The phylactery must be on the same plane as the lich for the spell to work. A lich's phylactery can hold only one creature at a time, and a [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md) cast as a 9th-level spell upon the phylactery releases any creature imprisoned within it. A creature imprisoned in the phylactery for 24 hours is consumed and destroyed utterly, whereupon nothing short of divine intervention can restore it to life.
 
 A lich that fails or forgets to maintain its body with sacrificed souls begins to physically fall apart, and might eventually become a demilich.
 
@@ -65,119 +67,126 @@ A lich encountered in its lair has a challenge rating of 22 (41,000 XP).
 "ac_class": "natural armor"
 "hp": !!int "135"
 "hit_dice": "18d8 + 54"
+"modifier": !!int "3"
 "stats":
-- !!int "11"
-- !!int "16"
-- !!int "16"
-- !!int "20"
-- !!int "14"
-- !!int "16"
+  - !!int "11"
+  - !!int "16"
+  - !!int "16"
+  - !!int "20"
+  - !!int "14"
+  - !!int "16"
 "speed": "30 ft."
 "saves":
-  "Wisdom": !!int "9"
-  "Intelligence": !!int "12"
-  "Constitution": !!int "10"
+  - "constitution": "+10"
+  - "intelligence": "+12"
+  - "wisdom": "+9"
 "skillsaves":
-  "Insight": !!int "9"
-  "Perception": !!int "9"
-  "History": !!int "12"
-  "Arcana": !!int "19"
+  - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
+    "desc": "+19"
+  - "name": "[History](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#History)"
+    "desc": "+12"
+  - "name": "[Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight)"
+    "desc": "+9"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+9"
 "damage_resistances": "cold, lightning, necrotic"
 "damage_immunities": "poison; bludgeoning, piercing, slashing from nonmagical attacks"
-"condition_immunities": "[charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
-  \ [exhaustion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
-  \ [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
-  \ [paralyzed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
-  \ [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
+  \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
+  \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
+  \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
+  \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "truesight 120 ft., passive Perception 19"
 "languages": "Common plus up to five other languages"
 "cr": "21"
 "traits":
-- "desc": "The lich is an 18th-level spellcaster. Its spellcasting ability is Intelligence\
-    \ (spell save DC 20, +12 to hit with spell attacks). The lich has the following\
-    \ wizard spells prepared:\n\nCantrips (at will): [mage hand](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/mage-hand.md),\
-    \ [prestidigitation](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/prestidigitation.md),\
-    \ [ray of frost](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/ray-of-frost.md)\n\
-    \n1st level (4 slots): [detect magic](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/detect-magic.md),\
-    \ [magic missile](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/magic-missile.md),\
-    \ [shield](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/shield.md),\
-    \ [thunderwave](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/thunderwave.md)\n\
-    \n2nd level (3 slots): [detect thoughts](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
-    \ [invisibility](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/invisibility.md),\
-    \ [Melf's acid arrow](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/melfs-acid-arrow.md),\
-    \ [mirror image](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/mirror-image.md)\n\
-    \n3rd level (3 slots): [animate dead](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/animate-dead.md),\
-    \ [counterspell](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/counterspell.md),\
-    \ [dispel magic](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/dispel-magic.md),\
-    \ [fireball](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/fireball.md)\n\
-    \n4th level (3 slots): [blight](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/blight.md),\
-    \ [dimension door](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/dimension-door.md)\n\
-    \n5th level (3 slots): [cloudkill](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/cloudkill.md),\
-    \ [scrying](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/scrying.md)\n\
-    \n6th level (1 slots): [disintegrate](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/disintegrate.md),\
-    \ [globe of invulnerability](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/globe-of-invulnerability.md)\n\
-    \n7th level (1 slots): [finger of death](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/finger-of-death.md),\
-    \ [plane shift](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/plane-shift.md)\n\
-    \n8th level (1 slots): [dominate monster](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/dominate-monster.md),\
-    \ [power word stun](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/power-word-stun.md)\n\
-    \n9th level (1 slots): [power word kill](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/power-word-kill.md)"
-  "name": "Spellcasting"
-- "desc": "If the lich fails a saving throw, it can choose to succeed instead."
-  "name": "Legendary Resistance (3/Day)"
-- "desc": "If it has a phylactery, a destroyed lich gains a new body in 1d10 days,\
-    \ regaining all its hit points and becoming active again. The new body appears\
-    \ within 5 feet of the phylactery."
-  "name": "Rejuvenation"
-- "desc": "The lich has advantage on saving throws against any effect that turns undead."
-  "name": "Turn Resistance"
+  - "desc": "The lich is an 18th-level spellcaster. Its spellcasting ability is Intelligence\
+      \ (spell save DC 20, +12 to hit with spell attacks). The lich has the following\
+      \ wizard spells prepared:\n\nCantrips (at will): [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
+      \ [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md),\
+      \ [ray of frost](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-frost.md)\n\
+      \n1st level (4 slots): [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      \ [magic missile](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-missile.md),\
+      \ [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md), [thunderwave](03.PlayerLog&Handouts/Mechanics/CLI/spells/thunderwave.md)\n\
+      \n2nd level (3 slots): [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
+      \ [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md),\
+      \ [Melf's acid arrow](03.PlayerLog&Handouts/Mechanics/CLI/spells/melfs-acid-arrow.md),\
+      \ [mirror image](03.PlayerLog&Handouts/Mechanics/CLI/spells/mirror-image.md)\n\
+      \n3rd level (3 slots): [animate dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-dead.md),\
+      \ [counterspell](03.PlayerLog&Handouts/Mechanics/CLI/spells/counterspell.md),\
+      \ [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
+      \ [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md)\n\n4th\
+      \ level (3 slots): [blight](03.PlayerLog&Handouts/Mechanics/CLI/spells/blight.md),\
+      \ [dimension door](03.PlayerLog&Handouts/Mechanics/CLI/spells/dimension-door.md)\n\
+      \n5th level (3 slots): [cloudkill](03.PlayerLog&Handouts/Mechanics/CLI/spells/cloudkill.md),\
+      \ [scrying](03.PlayerLog&Handouts/Mechanics/CLI/spells/scrying.md)\n\n6th\
+      \ level (1 slots): [disintegrate](03.PlayerLog&Handouts/Mechanics/CLI/spells/disintegrate.md),\
+      \ [globe of invulnerability](03.PlayerLog&Handouts/Mechanics/CLI/spells/globe-of-invulnerability.md)\n\
+      \n7th level (1 slots): [finger of death](03.PlayerLog&Handouts/Mechanics/CLI/spells/finger-of-death.md),\
+      \ [plane shift](03.PlayerLog&Handouts/Mechanics/CLI/spells/plane-shift.md)\n\
+      \n8th level (1 slots): [dominate monster](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-monster.md),\
+      \ [power word stun](03.PlayerLog&Handouts/Mechanics/CLI/spells/power-word-stun.md)\n\
+      \n9th level (1 slots): [power word kill](03.PlayerLog&Handouts/Mechanics/CLI/spells/power-word-kill.md)"
+    "name": "Spellcasting"
+  - "desc": "If the lich fails a saving throw, it can choose to succeed instead."
+    "name": "Legendary Resistance (3/Day)"
+  - "desc": "If it has a phylactery, a destroyed lich gains a new body in d10 days,\
+      \ regaining all its hit points and becoming active again. The new body appears\
+      \ within 5 feet of the phylactery."
+    "name": "Rejuvenation"
+  - "desc": "The lich has advantage on saving throws against any effect that turns\
+      \ undead."
+    "name": "Turn Resistance"
 "actions":
-- "desc": "Melee Spell Attack: +12 to hit, reach 5 ft., one creature. Hit: 10\
-    \ (3d6) cold damage. The target must succeed on a DC 18 Constitution saving\
-    \ throw or be [paralyzed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed)\
-    \ for 1 minute. The target can repeat the saving throw at the end of each of its\
-    \ turns, ending the effect on itself on a success."
-  "name": "Paralyzing Touch"
+  - "desc": "Melee Spell Attack: +12 to hit, reach 5 ft., one creature. Hit:\
+      \ 10 (3d6) cold damage. The target must succeed on a DC 18 Constitution saving\
+      \ throw or be [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed)\
+      \ for 1 minute. The target can repeat the saving throw at the end of each of\
+      \ its turns, ending the effect on itself on a success."
+    "name": "Paralyzing Touch"
 "legendary_actions":
-- "desc": "The lich casts a cantrip."
-  "name": "Cantrip"
-- "desc": "The lich uses its Paralyzing Touch."
-  "name": "Paralyzing Touch (Costs 2 Actions)"
-- "desc": "The lich fixes its gaze on one creature it can see within 10 feet of it.\
-    \ The target must succeed on a DC 18 Wisdom saving throw against this magic or\
-    \ become [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened)\
-    \ for 1 minute. The [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened)\
-    \ target can repeat the saving throw at the end of each of its turns, ending the\
-    \ effect on itself on a success. If a target's saving throw is successful or the\
-    \ effect ends for it, the target is immune to the lich's gaze for the next 24\
-    \ hours."
-  "name": "Frightening Gaze (Costs 2 Actions)"
-- "desc": "Each non-undead creature within 20 feet of the lich must make a DC 18 Constitution\
-    \ saving throw against this magic, taking 21 (6d6) necrotic damage on a failed\
-    \ save, or half as much damage on a successful one."
-  "name": "Disrupt Life (Costs 3 Actions)"
+  - "desc": "The lich casts a cantrip."
+    "name": "Cantrip"
+  - "desc": "The lich uses its Paralyzing Touch."
+    "name": "Paralyzing Touch (Costs 2 Actions)"
+  - "desc": "The lich fixes its gaze on one creature it can see within 10 feet of\
+      \ it. The target must succeed on a DC 18 Wisdom saving throw against this magic\
+      \ or become [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)\
+      \ for 1 minute. The [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)\
+      \ target can repeat the saving throw at the end of each of its turns, ending\
+      \ the effect on itself on a success. If a target's saving throw is successful\
+      \ or the effect ends for it, the target is immune to the lich's gaze for the\
+      \ next 24 hours."
+    "name": "Frightening Gaze (Costs 2 Actions)"
+  - "desc": "Each non-undead creature within 20 feet of the lich must make a DC 18\
+      \ Constitution saving throw against this magic, taking 21 (6d6) necrotic damage\
+      \ on a failed save, or half as much damage on a successful one."
+    "name": "Disrupt Life (Costs 3 Actions)"
 "lair_actions":
-- "desc": "On initiative count 20 (losing initiative ties), the lich can take a lair\
-    \ action to cause one of the following magical effects; the lich can't use the\
-    \ same effect two rounds in a row:"
-  "name": ""
-- "desc": "- The lich rolls a d8 and regains a spell slot of that level or lower.\
-    \ If it has no spent spell slots of that level or lower, nothing happens.  \n\
-    - The lich targets one creature it can see within 30 feet of it. A crackling cord\
-    \ of negative energy tethers the lich to the target. Whenever the lich takes damage,\
-    \ the target must make a DC 18 Constitution saving throw. On a failed save, the\
-    \ lich takes half the damage (rounded down), and the target takes the remaining\
-    \ damage. This tether lasts until initiative count 20 on the next round or until\
-    \ the lich or the target is no longer in the lich's lair.  \n- The lich calls\
-    \ forth the spirits of creatures that died in its lair. These apparitions materialize\
-    \ and attack one creature that the lich can see within 60 feet of it. The target\
-    \ must succeed on a DC 18 Constitution saving throw, taking 52 (15d6) necrotic\
-    \ damage on a failed save, or half as much damage on a success. The apparitions\
-    \ then disappear.  "
-  "name": ""
+  - "desc": "On initiative count 20 (losing initiative ties), the lich can take a\
+      \ lair action to cause one of the following magical effects; the lich can't\
+      \ use the same effect two rounds in a row:"
+    "name": ""
+  - "desc": "- The lich rolls a d8 and regains a spell slot of that level or lower.\
+      \ If it has no spent spell slots of that level or lower, nothing happens.  \n\
+      - The lich targets one creature it can see within 30 feet of it. A crackling\
+      \ cord of negative energy tethers the lich to the target. Whenever the lich\
+      \ takes damage, the target must make a DC 18 Constitution saving throw. On a\
+      \ failed save, the lich takes half the damage (rounded down), and the target\
+      \ takes the remaining damage. This tether lasts until initiative count 20 on\
+      \ the next round or until the lich or the target is no longer in the lich's\
+      \ lair.  \n- The lich calls forth the spirits of creatures that died in its\
+      \ lair. These apparitions materialize and attack one creature that the lich\
+      \ can see within 60 feet of it. The target must succeed on a DC 18 Constitution\
+      \ saving throw, taking 52 (15d6) necrotic damage on a failed save, or half\
+      \ as much damage on a success. The apparitions then disappear.  "
+    "name": ""
 "source":
-- "MM"
-- "TCE"
-- "SatO"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/undead/token/lich.webp"
+  - "MM"
+  - "CoS"
+  - "GoS"
+  - "IDRotF"
+  - "TCE"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/token/lich.webp"
 ```
 ^statblock

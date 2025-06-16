@@ -7,9 +7,11 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/fiend/demon
 statblock: inline
-aliases: ["Zuggtmoy"]
+statblock-link: "#^statblock"
+aliases:
+- Zuggtmoy
 ---
-# [Zuggtmoy](03 - Player Log & Handouts\Mechanics\CLI\bestiary\npc/zuggtmoy-mpmm.md)
+# [Zuggtmoy](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/zuggtmoy-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 281, Mordenkainen's Tome of Foes p. 157*  
 
 The Demon Queen of Fungi, Lady of Rot and Decay, Zuggtmoy is an alien creature whose only desire is to infect the living with spores, transforming them into her mindless servants and, eventually, into decomposing hosts for the mushrooms, molds, and other fungi that she spawns.
@@ -39,117 +41,119 @@ Zuggtmoy's principal lair is her palace on Shedaklah. It consists of two dozen m
 "ac_class": "natural armor"
 "hp": !!int "304"
 "hit_dice": "32d10 + 128"
+"modifier": !!int "2"
 "stats":
-- !!int "22"
-- !!int "15"
-- !!int "18"
-- !!int "20"
-- !!int "19"
-- !!int "24"
+  - !!int "22"
+  - !!int "15"
+  - !!int "18"
+  - !!int "20"
+  - !!int "19"
+  - !!int "24"
 "speed": "30 ft."
 "saves":
-  "Dexterity": !!int "9"
-  "Wisdom": !!int "11"
-  "Constitution": !!int "11"
+  - "dexterity": "+9"
+  - "constitution": "+11"
+  - "wisdom": "+11"
 "skillsaves":
-  "Perception": !!int "11"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+11"
 "damage_resistances": "cold, fire, lightning"
 "damage_immunities": "poison; bludgeoning, piercing, slashing that is nonmagical"
-"condition_immunities": "[charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
-  \ [exhaustion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
-  \ [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
-  \ [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
+  \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
+  \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
+  \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "truesight 120 ft., passive Perception 21"
 "languages": "all, telepathy 120 ft."
 "cr": "23"
 "traits":
-- "desc": "Zuggtmoy casts one of the following spells, requiring no material components\
-    \ and using Charisma as the spellcasting ability (spell save DC 22):\n\nAt will:\
-    \ [detect magic](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/detect-magic.md),\
-    \ [locate animals or plants](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/locate-animals-or-plants.md)\n\
-    \n1/day each: [etherealness](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/etherealness.md),\
-    \ [teleport](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/teleport.md)\n\
-    \n3/day each: [dispel magic](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/dispel-magic.md),\
-    \ [entangle](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/entangle.md),\
-    \ [plant growth](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/plant-growth.md)"
-  "name": "Spellcasting"
-- "desc": "If Zuggtmoy fails a saving throw, she can choose to succeed instead."
-  "name": "Legendary Resistance (3/Day)"
-- "desc": "Zuggtmoy has advantage on saving throws against spells and other magical\
-    \ effects."
-  "name": "Magic Resistance"
+  - "desc": "If Zuggtmoy fails a saving throw, she can choose to succeed instead."
+    "name": "Legendary Resistance (3/Day)"
+  - "desc": "Zuggtmoy has advantage on saving throws against spells and other magical\
+      \ effects."
+    "name": "Magic Resistance"
 "actions":
-- "desc": "Zuggtmoy makes three Pseudopod attacks."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 15\
-    \ (2d8 + 6) force damage plus 9 (2d8) poison damage."
-  "name": "Pseudopod"
+  - "desc": "Zuggtmoy makes three Pseudopod attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit:\
+      \ 15 (2d8 + 6) force damage plus 9 (2d8) poison damage."
+    "name": "Pseudopod"
+  - "desc": "Zuggtmoy casts one of the following spells, requiring no material components\
+      \ and using Charisma as the spellcasting ability (spell save DC 22):\n\nAt\
+      \ will: [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      \ [locate animals or plants](03.PlayerLog&Handouts/Mechanics/CLI/spells/locate-animals-or-plants.md)\n\
+      \n3/day each: [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
+      \ [entangle](03.PlayerLog&Handouts/Mechanics/CLI/spells/entangle.md), [plant\
+      \ growth](03.PlayerLog&Handouts/Mechanics/CLI/spells/plant-growth.md)\n\n1/day\
+      \ each: [etherealness](03.PlayerLog&Handouts/Mechanics/CLI/spells/etherealness.md),\
+      \ [teleport](03.PlayerLog&Handouts/Mechanics/CLI/spells/teleport.md)"
+    "name": "Spellcasting"
 "bonus_actions":
-- "desc": "Zuggtmoy releases spores that burst out in a cloud that fills a 20-foot-radius\
-    \ sphere centered on her, and it lingers for 1 minute. Any creature in the cloud\
-    \ when it appears, or that enters it later, must make a DC 19 Constitution saving\
-    \ throw. On a successful save, the creature can't be infected by these spores\
-    \ for 24 hours. On a failed save, the creature is infected with a disease called\
-    \ the spores of Zuggtmoy, which lasts until the creature is cured of the disease\
-    \ or dies. While infected in this way, the creature can't be reinfected, and it\
-    \ must repeat the saving throw at the end of every 24 hours, ending the infection\
-    \ on a success. On a failure, the infected creature's body is slowly taken over\
-    \ by fungal growth, and after three such failed saves, the creature dies and is\
-    \ reanimated as a [spore servant](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/plant/quaggoth-spore-servant.md)\
-    \ if it's a type of creature that can be."
-  "name": "Infestation Spores (3/Day)"
-- "desc": "Zuggtmoy releases spores that burst out in a cloud that fills a 20-foot-radius\
-    \ sphere centered on her, and it lingers for 1 minute. Humanoids and Beasts in\
-    \ the cloud when it appears, or that enter it later, must make a DC 19 Wisdom\
-    \ saving throw. On a successful save, a creature can't be infected by these spores\
-    \ for 24 hours. On a failed save, the creature is infected with a disease called\
-    \ the influence of Zuggtmoy for 24 hours. While infected in this way, the creature\
-    \ is [charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
-    \ by her and can't be reinfected by these spores."
-  "name": "Mind Control Spores (Recharge 5-6)"
+  - "desc": "Zuggtmoy releases spores that burst out in a cloud that fills a 20-foot-radius\
+      \ sphere centered on her, and it lingers for 1 minute. Any creature in the cloud\
+      \ when it appears, or that enters it later, must make a DC 19 Constitution saving\
+      \ throw. On a successful save, the creature can't be infected by these spores\
+      \ for 24 hours. On a failed save, the creature is infected with a disease called\
+      \ the spores of Zuggtmoy, which lasts until the creature is cured of the disease\
+      \ or dies. While infected in this way, the creature can't be reinfected, and\
+      \ it must repeat the saving throw at the end of every 24 hours, ending the infection\
+      \ on a success. On a failure, the infected creature's body is slowly taken over\
+      \ by fungal growth, and after three such failed saves, the creature dies and\
+      \ is reanimated as a [spore servant](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/quaggoth-spore-servant.md)\
+      \ if it's a type of creature that can be."
+    "name": "Infestation Spores (3/Day)"
+  - "desc": "Zuggtmoy releases spores that burst out in a cloud that fills a 20-foot-radius\
+      \ sphere centered on her, and it lingers for 1 minute. Humanoids and Beasts\
+      \ in the cloud when it appears, or that enter it later, must make a DC 19 Wisdom\
+      \ saving throw. On a successful save, a creature can't be infected by these\
+      \ spores for 24 hours. On a failed save, the creature is infected with a disease\
+      \ called the influence of Zuggtmoy for 24 hours. While infected in this way,\
+      \ the creature is [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
+      \ by her and can't be reinfected by these spores."
+    "name": "Mind Control Spores (Recharge 5-6)"
 "reactions":
-- "desc": "When Zuggtmoy is hit by an attack roll, one creature within 10 feet of\
-    \ her that is [charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
-    \ by her is hit by the attack instead."
-  "name": "Protective Thrall"
+  - "desc": "When Zuggtmoy is hit by an attack roll, one creature within 10 feet of\
+      \ her that is [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
+      \ by her is hit by the attack instead."
+    "name": "Protective Thrall"
 "legendary_actions":
-- "desc": "Zuggtmoy makes one Pseudopod attack."
-  "name": "Attack"
-- "desc": "One creature [charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
-    \ by Zuggtmoy that she can see must use its reaction, if a available, to move\
-    \ up to its speed as she directs or to make one weapon attack against a target\
-    \ that she designates."
-  "name": "Exert Will"
+  - "desc": "Zuggtmoy makes one Pseudopod attack."
+    "name": "Attack"
+  - "desc": "One creature [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
+      \ by Zuggtmoy that she can see must use its reaction, if a available, to move\
+      \ up to its speed as she directs or to make one weapon attack against a target\
+      \ that she designates."
+    "name": "Exert Will"
 "lair_actions":
-- "desc": "On Initiative count 20 (losing initiative ties), Zuggtmoy can take a lair\
-    \ action to cause one of the following effects; she can't use the same effect\
-    \ two rounds in a row:"
-  "name": ""
-- "desc": "- Rally Plants. Up to four plant creatures that are friendly to Zuggtmoy\
-    \ and that Zuggtmoy can see can use their reactions to move up to their speed\
-    \ and make one weapon attack.  \n- Summon Fungi. Zuggtmoy causes four [gas\
-    \ spores](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/plant/gas-spore.md)\
-    \ or [violet fungi](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/plant/violet-fungus.md)\
-    \ to appear in unoccupied spaces that she chooses within the lair. They vanish\
-    \ after 1 hour.  \n- Unleash Spores. Zuggtmoy uses either her Infestation\
-    \ Spores or her Mind Control Spores, centered on a mushroom or other fungus within\
-    \ her lair, instead of on herself.  "
-  "name": ""
+  - "desc": "On Initiative count 20 (losing initiative ties), Zuggtmoy can take a\
+      \ lair action to cause one of the following effects; she can't use the same\
+      \ effect two rounds in a row:"
+    "name": ""
+  - "desc": "- Rally Plants. Up to four plant creatures that are friendly to Zuggtmoy\
+      \ and that Zuggtmoy can see can use their reactions to move up to their speed\
+      \ and make one weapon attack.  \n- Summon Fungi. Zuggtmoy causes four [gas\
+      \ spores](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/gas-spore.md) or\
+      \ [violet fungi](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/violet-fungus.md)\
+      \ to appear in unoccupied spaces that she chooses within the lair. They vanish\
+      \ after 1 hour.  \n- Unleash Spores. Zuggtmoy uses either her Infestation\
+      \ Spores or her Mind Control Spores, centered on a mushroom or other fungus\
+      \ within her lair, instead of on herself.  "
+    "name": ""
 "regional_effects":
-- "desc": "The region containing Zuggtmoy's lair is warped by his magic, creating\
-    \ one or more of the following effects:"
-  "name": ""
-- "desc": "- Corrupted Nature. Within 6 miles of the lair, all Wisdom ([Medicine](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/skills.md#Medicine))\
-    \ and Wisdom ([Survival](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/skills.md#Survival))\
-    \ checks have disadvantage.  \n- Fungal Infestation. Molds and fungi grow\
-    \ on surfaces within 6 miles of the lair, even where they would normally find\
-    \ no purchase.  \n- Mutating Vegetation. Vegetation within 1 mile of the lair\
-    \ becomes infested with parasitic fungi, slowly mutating as it is overwhelmed.\
-    \  \n- If Zuggtmoy dies, these effects fade over the course of 1d10 days.  "
-  "name": ""
+  - "desc": "The region containing Zuggtmoy's lair is warped by his magic, creating\
+      \ one or more of the following effects:"
+    "name": ""
+  - "desc": "- Corrupted Nature. Within 6 miles of the lair, all Wisdom ([Medicine](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Medicine))\
+      \ and Wisdom ([Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival))\
+      \ checks have disadvantage.  \n- Fungal Infestation. Molds and fungi grow\
+      \ on surfaces within 6 miles of the lair, even where they would normally find\
+      \ no purchase.  \n- Mutating Vegetation. Vegetation within 1 mile of the\
+      \ lair becomes infested with parasitic fungi, slowly mutating as it is overwhelmed.\
+      \  \n- If Zuggtmoy dies, these effects fade over the course of d10 days.  "
+    "name": ""
 "source":
-- "MPMM"
-- "MTF"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/npc/token/zuggtmoy-mpmm.webp"
+  - "MPMM"
+  - "MTF"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/token/zuggtmoy-mpmm.webp"
 ```
 ^statblock

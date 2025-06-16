@@ -7,9 +7,11 @@ tags:
 - ttrpg-cli/monster/size/small
 - ttrpg-cli/monster/type/fey
 statblock: inline
-aliases: ["Dohwar"]
+statblock-link: "#^statblock"
+aliases:
+- Dohwar
 ---
-# [Dohwar](03 - Player Log & Handouts\Mechanics\CLI\bestiary\fey/dohwar-bam.md)
+# [Dohwar](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fey/dohwar-bam.md)
 *Source: Boo's Astral Menagerie p. 19, Light of Xaryxis*  
 
 Dohwars are short, pudgy, flightless avians that look and move like penguins. Dohwars migrate from the Feywild to Wildspace, where they are typically encountered. They conduct their affairs in secrecy, preferring to meet in dark alleys and out-of-the-way places even when their business isn't illegal or dangerous. They tend to dress in a garish mishmash of clothing, but many of them also shroud themselves in hooded cloaks.
@@ -26,40 +28,44 @@ Dohwars prefer to communicate through a form of telepathy they call merging, in 
 "ac": !!int "11"
 "hp": !!int "10"
 "hit_dice": "3d6"
+"modifier": !!int "1"
 "stats":
-- !!int "5"
-- !!int "12"
-- !!int "11"
-- !!int "11"
-- !!int "14"
-- !!int "13"
+  - !!int "5"
+  - !!int "12"
+  - !!int "11"
+  - !!int "11"
+  - !!int "14"
+  - !!int "13"
 "speed": "20 ft., swim 20 ft."
 "saves":
-  "Dexterity": !!int "3"
-  "Wisdom": !!int "4"
+  - "dexterity": "+3"
+  - "wisdom": "+4"
 "skillsaves":
-  "Deception": !!int "3"
-  "Insight": !!int "4"
-  "Persuasion": !!int "3"
+  - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
+    "desc": "+3"
+  - "name": "[Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight)"
+    "desc": "+4"
+  - "name": "[Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion)"
+    "desc": "+3"
 "senses": "passive Perception 12"
 "languages": "Common, Dohwar, telepathy 30 ft. (see also Merging below)"
 "cr": "0"
 "traits":
-- "desc": "The dohwar casts the following spell, requiring no spell components and\
-    \ using Charisma as the spellcasting ability (spell save DC 11):\n\n3/day:\
-    \ [detect thoughts](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/detect-thoughts.md)"
-  "name": "Spellcasting (Psionics)"
-- "desc": "Two dohwars can have a telepathic conversation with each other and a third\
-    \ willing creature of their choice, provided all three are within 30 feet of one\
-    \ another."
-  "name": "Merging"
+  - "desc": "Two dohwars can have a telepathic conversation with each other and a\
+      \ third willing creature of their choice, provided all three are within 30 feet\
+      \ of one another."
+    "name": "Merging"
 "actions":
-- "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4\
-    \ + 1) piercing damage."
-  "name": "Bite"
+  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3\
+      \ (1d4 + 1) piercing damage."
+    "name": "Bite"
+  - "desc": "The dohwar casts the following spell, requiring no spell components and\
+      \ using Charisma as the spellcasting ability (spell save DC 11):\n\n3/day:\
+      \ [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md)"
+    "name": "Spellcasting (Psionics)"
 "source":
-- "BAM"
-- "LoX"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/fey/token/dohwar-bam.webp"
+  - "BAM"
+  - "LoX"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/token/dohwar-bam.webp"
 ```
 ^statblock

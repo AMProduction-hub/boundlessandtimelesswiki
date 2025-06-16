@@ -13,6 +13,6 @@ aliases:
 
 
 
-While held up to your ear, this horn suppresses the effects of the [deafened](conditions.md#Deafened) condition on you, allowing you to hear normally.
+While held up to your ear, this horn suppresses the effects of the [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened) condition on you, allowing you to hear normally.
 
 *Source: Xanathar's Guide to Everything p. 137*

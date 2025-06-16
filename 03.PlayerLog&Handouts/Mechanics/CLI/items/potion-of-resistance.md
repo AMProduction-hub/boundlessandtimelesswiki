@@ -16,15 +16,15 @@ aliases:
 
 **Items in this group:**
 
-- [Potion of Acid Resistance](potion-of-acid-resistance.md)
-- [Potion of Cold Resistance](potion-of-cold-resistance.md)
-- [Potion of Fire Resistance](potion-of-fire-resistance.md)
-- [Potion of Force Resistance](potion-of-force-resistance.md)
-- [Potion of Lightning Resistance](potion-of-lightning-resistance.md)
-- [Potion of Necrotic Resistance](potion-of-necrotic-resistance.md)
-- [Potion of Poison Resistance](potion-of-poison-resistance.md)
-- [Potion of Psychic Resistance](potion-of-psychic-resistance.md)
-- [Potion of Radiant Resistance](potion-of-radiant-resistance.md)
-- [Potion of Thunder Resistance](potion-of-thunder-resistance.md)
+- [Potion of Acid Resistance](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-acid-resistance.md)
+- [Potion of Cold Resistance](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-cold-resistance.md)
+- [Potion of Fire Resistance](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-fire-resistance.md)
+- [Potion of Force Resistance](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-force-resistance.md)
+- [Potion of Lightning Resistance](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-lightning-resistance.md)
+- [Potion of Necrotic Resistance](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-necrotic-resistance.md)
+- [Potion of Poison Resistance](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-poison-resistance.md)
+- [Potion of Psychic Resistance](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-psychic-resistance.md)
+- [Potion of Radiant Resistance](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-radiant-resistance.md)
+- [Potion of Thunder Resistance](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-thunder-resistance.md)
 
 *Source: Dungeon Master's Guide p. 188*

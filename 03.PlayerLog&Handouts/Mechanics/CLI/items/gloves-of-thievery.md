@@ -13,6 +13,6 @@ aliases:
 
 
 
-These gloves are [invisible](conditions.md#Invisible) while worn. While wearing them, you gain a +5 bonus to Dexterity ([Sleight of Hand](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Sleight%20of%20Hand)) checks and Dexterity checks made to pick locks.
+These gloves are [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible) while worn. While wearing them, you gain a +5 bonus to Dexterity ([Sleight of Hand](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Sleight%20of%20Hand)) checks and Dexterity checks made to pick locks.
 
 *Source: Dungeon Master's Guide p. 172*

@@ -8,10 +8,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/beast
 statblock: inline
-aliases: ["Giant Crab"]
+statblock-link: "#^statblock"
+aliases:
+- Giant Crab
 ---
-# [Giant Crab](03 - Player Log & Handouts\Mechanics\CLI\bestiary\beast/giant-crab.md)
-*Source: Monster Manual p. 324, Baldur's Gate: Descent Into Avernus. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Giant Crab](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/giant-crab.md)
+*Source: Monster Manual p. 324, Princes of the Apocalypse, Storm King's Thunder, Tales from the Yawning Portal, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Dragon of Icespire Peak, Baldur's Gate: Descent Into Avernus, Explorer's Guide to Wildemount, Mythic Odysseys of Theros, Candlekeep Mysteries. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 ```statblock
 "name": "Giant Crab"
@@ -22,31 +24,43 @@ aliases: ["Giant Crab"]
 "ac_class": "natural armor"
 "hp": !!int "13"
 "hit_dice": "3d8"
+"modifier": !!int "2"
 "stats":
-- !!int "13"
-- !!int "15"
-- !!int "11"
-- !!int "1"
-- !!int "9"
-- !!int "3"
+  - !!int "13"
+  - !!int "15"
+  - !!int "11"
+  - !!int "1"
+  - !!int "9"
+  - !!int "3"
 "speed": "30 ft., swim 30 ft."
 "skillsaves":
-  "Stealth": !!int "4"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+4"
 "senses": "blindsight 30 ft., passive Perception 9"
 "languages": ""
 "cr": "1/8"
 "traits":
-- "desc": "The crab can breathe air and water."
-  "name": "Amphibious"
+  - "desc": "The crab can breathe air and water."
+    "name": "Amphibious"
 "actions":
-- "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6\
-    \ + 1) bludgeoning damage, and the target is [grappled](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
-    \ (escape DC 11). The crab has two claws, each of which can grapple only one target."
-  "name": "Claw"
+  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4\
+      \ (1d6 + 1) bludgeoning damage, and the target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
+      \ (escape DC 11). The crab has two claws, each of which can grapple only one\
+      \ target."
+    "name": "Claw"
 "source":
-- "MM"
-- "BGDIA"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/beast/token/giant-crab.webp"
+  - "MM"
+  - "PotA"
+  - "SKT"
+  - "TftYP"
+  - "WDMM"
+  - "GoS"
+  - "DIP"
+  - "BGDIA"
+  - "EGW"
+  - "MOT"
+  - "CM"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/giant-crab.webp"
 ```
 ^statblock
 

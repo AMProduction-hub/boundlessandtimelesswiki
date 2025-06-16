@@ -3,10 +3,11 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/spell/list/optfeature/pact-of-the-chain
-aliases: ["Spells for Pact of the Chain"]
+aliases:
+- Spells for Pact of the Chain
 ---
 # Spells for Pact of the Chain
 
 ## 1st Level
 
-- [Find Familiar](find-familiar.md "PHB")
+- [Find Familiar](03.PlayerLog&Handouts/Mechanics/CLI/spells/find-familiar.md "PHB")

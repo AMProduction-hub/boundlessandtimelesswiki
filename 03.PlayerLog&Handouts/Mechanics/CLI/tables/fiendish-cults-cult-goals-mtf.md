@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
-aliases: ["Fiendish Cults; Cult Goals"]
+aliases:
+- Fiendish Cults; Cult Goals
 ---
 # Fiendish Cults; Cult Goals
 *Source: Mordenkainen's Tome of Foes p. 34* 

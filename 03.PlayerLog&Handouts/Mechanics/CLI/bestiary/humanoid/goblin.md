@@ -11,10 +11,12 @@ tags:
 - ttrpg-cli/monster/size/small
 - ttrpg-cli/monster/type/humanoid/goblinoid
 statblock: inline
-aliases: ["Goblin"]
+statblock-link: "#^statblock"
+aliases:
+- Goblin
 ---
-# [Goblin](03 - Player Log & Handouts\Mechanics\CLI\bestiary\humanoid/goblin.md)
-*Source: Monster Manual p. 166, Lost Mine of Phandelver, Baldur's Gate: Descent Into Avernus, Tasha's Cauldron of Everything, Sigil and the Outlands. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Goblin](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/goblin.md)
+*Source: Monster Manual p. 166, Lost Mine of Phandelver, Princes of the Apocalypse, Storm King's Thunder, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus, Eberron: Rising from the Last War, Explorer's Guide to Wildemount, Icewind Dale: Rime of the Frostmaiden, Tasha's Cauldron of Everything, Dragonlance: Shadow of the Dragon Queen, Hunt for the Thessalhydra. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 Goblins are small, black-hearted, selfish humanoids that lair in caves, abandoned mines, despoiled dungeons, and other dismal settings. Individually weak, goblins gather in large-sometimes overwhelming-numbers. They crave power and regularly abuse whatever authority they obtain.
 
@@ -54,41 +56,54 @@ Maglubiyet the Mighty One, the Lord of Depths and Darkness, is the greater god o
 "subtype": "goblinoid"
 "alignment": "Neutral Evil"
 "ac": !!int "15"
-"ac_class": "[leather armor](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/items/leather-armor.md),\
-  \ [shield](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/items/shield.md)"
+"ac_class": "[leather armor](03.PlayerLog&Handouts/Mechanics/CLI/items/leather-armor.md),\
+  \ [shield](03.PlayerLog&Handouts/Mechanics/CLI/items/shield.md)"
 "hp": !!int "7"
 "hit_dice": "2d6"
+"modifier": !!int "2"
 "stats":
-- !!int "8"
-- !!int "14"
-- !!int "10"
-- !!int "10"
-- !!int "8"
-- !!int "8"
+  - !!int "8"
+  - !!int "14"
+  - !!int "10"
+  - !!int "10"
+  - !!int "8"
+  - !!int "8"
 "speed": "30 ft."
 "skillsaves":
-  "Stealth": !!int "6"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+6"
 "senses": "darkvision 60 ft., passive Perception 9"
 "languages": "Common, Goblin"
 "cr": "1/4"
 "traits":
-- "desc": "The goblin can take the Disengage or Hide action as a bonus action on each\
-    \ of its turns."
-  "name": "Nimble Escape"
+  - "desc": "The goblin can take the Disengage or Hide action as a bonus action on\
+      \ each of its turns."
+    "name": "Nimble Escape"
 "actions":
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6\
-    \ + 2) slashing damage."
-  "name": "Scimitar"
-- "desc": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit:\
-    \ 5 (1d6 + 2) piercing damage."
-  "name": "Shortbow"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+      \ (1d6 + 2) slashing damage."
+    "name": "Scimitar"
+  - "desc": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit:\
+      \ 5 (1d6 + 2) piercing damage."
+    "name": "Shortbow"
 "source":
-- "MM"
-- "LMoP"
-- "BGDIA"
-- "TCE"
-- "SatO"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/humanoid/token/goblin.webp"
+  - "MM"
+  - "LMoP"
+  - "PotA"
+  - "SKT"
+  - "TftYP"
+  - "ToA"
+  - "WDH"
+  - "WDMM"
+  - "GoS"
+  - "BGDIA"
+  - "ERLW"
+  - "EGW"
+  - "IDRotF"
+  - "TCE"
+  - "DSotDQ"
+  - "HftT"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/goblin.webp"
 ```
 ^statblock
 

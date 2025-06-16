@@ -3,6 +3,7 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
+- ttrpg-cli/spell/background/orzhov-representative
 - ttrpg-cli/spell/class/bard
 - ttrpg-cli/spell/class/cleric
 - ttrpg-cli/spell/class/wizard
@@ -13,17 +14,18 @@ tags:
 - ttrpg-cli/spell/subclass/divine-soul
 - ttrpg-cli/spell/subclass/eldritch-knight
 - ttrpg-cli/spell/subclass/oath-of-conquest
-- ttrpg-cli/spell/subclass/oathbreaker-dmg
+- ttrpg-cli/spell/subclass/oathbreaker
 classes:
 - Bard
 - Cleric
 - Fighter (Eldritch Knight)
 - Paladin (Oath of Conquest)
-- Paladin (Oathbreaker (DMG))
+- Paladin (Oathbreaker)
 - Rogue (Arcane Trickster)
 - Sorcerer (Divine Soul)
 - Wizard
-aliases: ["Bestow Curse"]
+aliases:
+- Bestow Curse
 ---
 # Bestow Curse
 *3rd-level, Necromancy*  
@@ -39,12 +41,12 @@ You touch a creature, and that creature must succeed on a Wisdom saving throw or
 - Choose one ability score. While cursed, the target has disadvantage on ability checks and saving throws made with that ability score.  
 - While cursed, the target has disadvantage on attack rolls against you.  
 - While cursed, the target must make a Wisdom saving throw at the start of each of its turns. If it fails, it wastes its action that turn doing nothing.  
-- While the target is cursed, your attacks and spells deal an extra `1d8` necrotic damage to the target.  
+- While the target is cursed, your attacks and spells deal an extra `d8` necrotic damage to the target.  
 
-A [remove curse](remove-curse.md) spell ends this effect. At the DM's option, you may choose an alternative curse effect, but it should be no more powerful than those described above. The DM has final say on such a curse's effect.
+A [remove curse](03.PlayerLog&Handouts/Mechanics/CLI/spells/remove-curse.md) spell ends this effect. At the DM's option, you may choose an alternative curse effect, but it should be no more powerful than those described above. The DM has final say on such a curse's effect.
 
-**At Higher Levels.** If you cast this spell using a spell slot of 4th level or higher, the duration is [concentration](conditions.md#Concentration), up to 10 minutes. If you use a spell slot of 5th level or higher, the duration is 8 hours. If you use a spell slot of 7th level or higher, the duration is 24 hours. If you use a 9th level spell slot, the spell lasts until it is dispelled. Using a spell slot of 5th level or higher grants a duration that doesn't require [concentration](conditions.md#Concentration).
+**At Higher Levels.** If you cast this spell using a spell slot of 4th level or higher, the duration is [concentration](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Concentration), up to 10 minutes. If you use a spell slot of 5th level or higher, the duration is 8 hours. If you use a spell slot of 7th level or higher, the duration is 24 hours. If you use a 9th level spell slot, the spell lasts until it is dispelled. Using a spell slot of 5th level or higher grants a duration that doesn't require [concentration](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Concentration).
 
-**Classes**: [Cleric](list-spells-classes-cleric.md); [Rogue (Arcane Trickster)](list-spells-classes-rogue-arcane-trickster.md); [Paladin (Oath of Conquest)](list-spells-classes-paladin-oath-of-conquest-xge.md "subclass=XGE"); [Paladin (Oathbreaker (DMG))](list-spells-classes-paladin-oathbreaker-dmg.md "subclass=DMG"); [Bard](list-spells-classes-bard.md); [Wizard](list-spells-classes-wizard.md); [Fighter (Eldritch Knight)](list-spells-classes-fighter-eldritch-knight.md); [Sorcerer (Divine Soul)](list-spells-classes-sorcerer-divine-soul-xge.md "subclass=XGE")
+**Classes**: [Paladin (Oath of Conquest)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-conquest-xge.md "subclass=XGE"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Paladin (Oathbreaker)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oathbreaker-dmg.md "subclass=DMG")
 
 *Source: Player's Handbook p. 218. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

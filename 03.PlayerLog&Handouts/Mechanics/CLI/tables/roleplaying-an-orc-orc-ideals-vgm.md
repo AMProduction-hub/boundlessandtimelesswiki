@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
-aliases: ["Roleplaying an Orc; Orc Ideals"]
+aliases:
+- Roleplaying an Orc; Orc Ideals
 ---
 # Roleplaying an Orc; Orc Ideals
 *Source: Volo's Guide to Monsters p. 87* 

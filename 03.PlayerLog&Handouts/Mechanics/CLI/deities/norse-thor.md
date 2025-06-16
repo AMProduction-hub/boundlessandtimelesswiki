@@ -6,7 +6,8 @@ tags:
 - ttrpg-cli/deity/norse
 - ttrpg-cli/domain/tempest
 - ttrpg-cli/domain/war
-aliases: ["Thor"]
+aliases: 
+- Thor
 ---
 # Thor
 *Source: Player's Handbook p. 299* 

@@ -9,10 +9,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/humanoid
 statblock: inline
-aliases: ["Champion"]
+statblock-link: "#^statblock"
+aliases:
+- Champion
 ---
-# [Champion](03 - Player Log & Handouts\Mechanics\CLI\bestiary\humanoid/champion-mpmm.md)
-*Source: Mordenkainen Presents: Monsters of the Multiverse p. 74, Volo's Guide to Monsters p. 212*  
+# [Champion](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/champion-mpmm.md)
+*Source: Mordenkainen Presents: Monsters of the Multiverse p. 74, Volo's Guide to Monsters p. 212, Waterdeep: Dungeon of the Mad Mage p. 312*  
 
 > [!quote] A quote from Mordenkainen  
 > 
@@ -48,48 +50,53 @@ A typical champion bears a coat of arms, heraldry that is associated with the ch
 "type": "humanoid"
 "alignment": "Any alignment"
 "ac": !!int "18"
-"ac_class": "[plate](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/items/plate-armor.md)"
+"ac_class": "[plate](03.PlayerLog&Handouts/Mechanics/CLI/items/plate-armor.md)"
 "hp": !!int "143"
 "hit_dice": "22d8 + 44"
+"modifier": !!int "2"
 "stats":
-- !!int "20"
-- !!int "15"
-- !!int "14"
-- !!int "10"
-- !!int "14"
-- !!int "12"
+  - !!int "20"
+  - !!int "15"
+  - !!int "14"
+  - !!int "10"
+  - !!int "14"
+  - !!int "12"
 "speed": "30 ft."
 "saves":
-  "Strength": !!int "9"
-  "Constitution": !!int "6"
+  - "strength": "+9"
+  - "constitution": "+6"
 "skillsaves":
-  "Intimidation": !!int "5"
-  "Athletics": !!int "9"
-  "Perception": !!int "6"
+  - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
+    "desc": "+9"
+  - "name": "[Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation)"
+    "desc": "+5"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+6"
 "senses": "passive Perception 16"
 "languages": "any one language (usually Common)"
 "cr": "9"
 "traits":
-- "desc": "The champion rerolls a failed saving throw."
-  "name": "Indomitable (2/Day)"
+  - "desc": "The champion rerolls a failed saving throw."
+    "name": "Indomitable (2/Day)"
 "actions":
-- "desc": "The champion makes three Greatsword or Shortbow attacks."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12\
-    \ (2d6 + 5) slashing damage, plus 7 (2d6) slashing damage if the champion\
-    \ has more than half of its total hit points remaining."
-  "name": "Greatsword"
-- "desc": "Ranged Weapon Attack: +6 to hit, range 80/320 ft., one target. Hit:\
-    \ 5 (1d6 + 2) piercing damage, plus 7 (2d6) piercing damage if the champion\
-    \ has more than half of its total hit points remaining."
-  "name": "Shortbow"
+  - "desc": "The champion makes three Greatsword or Shortbow attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12\
+      \ (2d6 + 5) slashing damage, plus 7 (2d6) slashing damage if the champion\
+      \ has more than half of its total hit points remaining."
+    "name": "Greatsword"
+  - "desc": "Ranged Weapon Attack: +6 to hit, range 80/320 ft., one target. Hit:\
+      \ 5 (1d6 + 2) piercing damage, plus 7 (2d6) piercing damage if the champion\
+      \ has more than half of its total hit points remaining."
+    "name": "Shortbow"
 "bonus_actions":
-- "desc": "The champion regains 20 hit points."
-  "name": "Second Wind (Recharges after a Short or Long Rest)"
+  - "desc": "The champion regains 20 hit points."
+    "name": "Second Wind (Recharges after a Short or Long Rest)"
 "source":
-- "MPMM"
-- "VGM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/humanoid/token/champion-mpmm.webp"
+  - "MPMM"
+  - "VGM"
+  - "WDMM"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/champion-mpmm.webp"
 ```
 ^statblock
 

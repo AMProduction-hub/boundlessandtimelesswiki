@@ -3,12 +3,13 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
-aliases: ["Elves"]
+aliases:
+- Elves
 ---
 # Elves
 *Source: Mordenkainen's Tome of Foes, p. 35* 
 
-![](mtf_chapterstarts_ch2.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/mordenkainens-tome-of-foes/img/mtf_chapterstarts_ch2.webp#center)
 
 The most ancient tales speak of elves as the children of the god Corellon. Unlike many similar myths involving other races, these tales are true. Elves are all descended from a deity, and their origin led to a tragedy that shapes their culture to this day.
 
@@ -48,7 +49,7 @@ No matter where they are in the multiverse, elves of all sorts feel a special co
 
 One group of elves, the eladrin, never left that first refuge. After being exposed to the pervasive magic of the Feywild for centuries, these elves have a supernatural quality not shared by their cousins on the Material Plane. Some eladrin have been transformed so thoroughly that they have become fey creatures again and have been permitted to return to Arvandor, where they are a fascination and a delight to the Seldarine.
 
-![](315608_cn_wmask.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/mordenkainens-tome-of-foes/img/315608_cn_wmask.webp#center)
 
 ## Living in Reverie
 
@@ -109,7 +110,7 @@ Regardless of how soon or how often elves experience such memories, most conside
 
 A handful of elves in any generation never experience an other-life memory during trance. It's hypothesized that these select few might be reincarnations of the original primal elves who sprang from Corellon's blood and were allowed to stay in his company. Although most elder elves become more serene, these rare folk spend the rest of their lives throwing themselves into dangerous situations, as if daring death to try to take them.
 
-![](136866_cn.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/mordenkainens-tome-of-foes/img/136866_cn.webp#center)
 
 > [!note] Dreams from beyond Memory
 > 
@@ -198,7 +199,7 @@ A small fraction of elves are born with or develop the qualities that mark them 
 
 On extremely rare occasions, an elf might join an adventuring party for reasons that are based in fear. A tiny percentage of elves develop an irrational fear of the serene, contemplative life that awaits them in their later years. Even if such a future life seems tepid and unbearably dull during an elf's prime, the psychological changes that come with age make this peaceful period of existence the most satisfying experience possible for an elf's later years. Nevertheless, this fear is immune to logic when it arises in adult elves. To avoid the fate they dread, consciously or subconsciously, they throw themselves into dangerous situations, not caring whether they survive or perhaps even hoping they don't. In effect, they're looking for another chance, seeing their current life or perceived future as unbearable and hoping to stop the clock on this mortal body and start afresh.
 
-![](315615_cn.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/mordenkainens-tome-of-foes/img/315615_cn.webp#center)
 
 ## Elves and Magic
 
@@ -228,7 +229,7 @@ The metropolis of Waterdeep, which lies on the Sword Coast of Faerûn, benefits 
 
 Those who see a bladesinger in battle never forget the sight. Surrounded by chaos and blood, the bladesinger moves in an otherworldly dance. Spells and sword act in concert, meshing awe-inspiring beauty with fearsome deadliness. When the bladesinger's sword whirls through the air so swiftly that it keens and the air hums and whistles in chorus, the bladesong has begun-and it might be the last thing the bladesinger's enemy hears.
 
-The elves and half-elves who practice the art of the bladesinger, a tradition found primarily on the world of Faerûn, appear to be almost casual in combat, deflecting opponents' blades while elegantly moving into position to score hits in return. A bladesinger wields a weapon one-handed, leaving the other free for spellcasting or to manipulate a wand that can be incorporated into the fighting style. This technique gives a bladesinger the freedom of movement necessary for the dancelike motions of the various forms of martial art, which allow both magical and physical attacks to flow freely.
+The elves and half-elves who practice the art of the bladesinger, a tradition found primarily on the world of Faerûn, appear to be almost casual in combat, deflecting opponents' blades while elegantly moving into position to score hits in return. A bladesinger wields a weapon one-handed, leaving the other free for spellcasting or to manipulate a wand that can be incorporated into the fighting style. This technique gives a bladesinger the freedom of movement necessary for the dance-like motions of the various forms of martial art, which allow both magical and physical attacks to flow freely.
 
 Few among the elves, and an even smaller number of half-elves, have the honor of being inducted into the ranks of the bladesingers. One must have the mind necessary to be a great wizard, and also the agility of the greatest dancers.
 
@@ -240,7 +241,7 @@ Surface elves, and other elves who dwell in the light, revere these entities for
 
 The Elf Deities table enumerates the members of the Seldarine. For each god, the table notes alignment, province (the god's main areas of interest and responsibility), suggested domains for clerics who serve the god, and a common symbol of the god. Several of the gods in the table are described in this section.
 
-![Elf Deities (The Seldarine)](elf-deities-the-seldarine-mtf.md)
+![Elf Deities (The Seldarine)](03.PlayerLog&Handouts/Mechanics/CLI/tables/elf-deities-the-seldarine-mtf.md)
 
 ### Corellon Larethian
 
@@ -254,7 +255,7 @@ Services in Corellon's honor are typically conducted in natural stone amphitheat
 
 Many elf wizards honor Corellon and adorn their spellbooks and towers with the god's symbols. Some of them speculate that Corellon is the personification of raw magic itself, the primal force that underlies the multiverse. Corellon is not magic tamed or shaped-not the Weave, as some name it-but magic in its original form: a well of endless, splendid possibilities.
 
-![Priest of Corellon](315612_cn_wmask.webp#center)
+![Priest of Corellon](03.PlayerLog&Handouts/Mechanics/CLI/books/mordenkainens-tome-of-foes/img/315612_cn_wmask.webp#center)
 
 #### The Mysteries of Arvandor
 
@@ -285,7 +286,7 @@ In Arvandor, Hanali maintains a hidden pool called Evergold. She bathes in it at
 
 Priests of Hanali perform weddings between elves and preside over most other family-related ceremonies. Other than nuptials and a spate of spring celebrations, the priests conduct few observances.
 
-![](315619_cn_wmask.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/mordenkainens-tome-of-foes/img/315619_cn_wmask.webp#center)
 
 #### Pools of Beauty
 
@@ -349,7 +350,7 @@ Temples to Sehanine Moonbow are almost always aligned with the heavens to enable
 
 Offerings to Sehanine are mostly made from silver, often shaped in a way that is reminiscent of the full moon. Cups, bowls, cloak pins, and plates of silver are found at her shrines, as well as those dedicated to the Seldarine collectively. The weapons and gear used by her followers, such as silver arrowheads, knife blades, and wooden shields, are often decorated with a stylized image of Sehanine's eye with rays coming out of it-a warning to the elves' enemies that Sehanine's gaze has fallen upon them.
 
-![](315607_cn_wmask.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/mordenkainens-tome-of-foes/img/315607_cn_wmask.webp#center)
 
 ### Deep Sashelas
 
@@ -403,7 +404,7 @@ All kinds of elves live in the Feywild, but one subrace—the eladrin—has adop
 
 Continued exposure to the Feywild, over a century or more, hastens the onset of Remembrance significantly among most elves. Elves who have spent most of their lives in the Feywild can experience their first other-life memory as early as the age of 200 years. Eladrin aren't affected this way.
 
-![](315610_cn_wmask.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/mordenkainens-tome-of-foes/img/315610_cn_wmask.webp#center)
 
 Because of their link to the primal elves, eladrin tend to be haughty around other elves. They're proud of their heritage and equally proud of their ability to thrive in the Feywild, a land full of threats that would overwhelm and destroy weaker creatures. Some eladrin trade haughtiness for a tender kindness toward their elf cousins, knowing that many elves have never felt the ecstasies of a life amid the fey and of years spent near the ancient shrines and other glories created by the primal elves who first arrived in Faerie. These kinder eladrin take a special pleasure in introducing their realm to others.
 
@@ -465,7 +466,7 @@ To rise to the top echelons of power, a female must first become a priestess of 
 
 A male drow can advance in standing as a combatant, a consort, or both. Physical beauty and fitness are highly prized in male drow, and those who are especially favored in this regard can earn protection and gifts from their matrons. A few males can attain high status in their society, especially those who serve as mages, but they never overshadow the females of their houses. Even the most intelligent, strong-willed, and devious male will never be more than a second-class citizen in any drow city or house. That situation will never change as long as Lolth reigns as their queen.
 
-![](315613_cn_wmask.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/mordenkainens-tome-of-foes/img/315613_cn_wmask.webp#center)
 
 ### Nocturnal Raiders
 
@@ -499,7 +500,7 @@ Lolth demands the lion's share of worship from the drow, according to her wishes
 
 The Drow Deities table lists the members of the Dark Seldarine. For each god, the table notes alignment, province (the god's main areas of interest and responsibility), suggested domains for clerics who serve the god, and a common symbol of the god. The gods in the table are described below.
 
-![Drow Deities (The Dark Seldarine)](drow-deities-the-dark-seldarine-mtf.md)
+![Drow Deities (The Dark Seldarine)](03.PlayerLog&Handouts/Mechanics/CLI/tables/drow-deities-the-dark-seldarine-mtf.md)
 
 > [!note] Drow Trance: Entering the Void
 > 
@@ -559,7 +560,7 @@ Malyk is associated with rebellion because when a wild mage's true nature is rev
 
 #### Selvetarm
 
-Drow regard Selvetarm as the Champion of Lolth and the patron of drow warriors. He is portrayed as an eightarmed drow that represents the epitome of fighting prowess. But Lolth rarely looses her champion to do her bidding, keeping him snared by unbreakable webs that she removes only in times of direst need.
+Drow regard Selvetarm as the Champion of Lolth and the patron of drow warriors. He is portrayed as an eight-armed drow that represents the epitome of fighting prowess. But Lolth rarely looses her champion to do her bidding, keeping him snared by unbreakable webs that she removes only in times of direst need.
 
 The dark elves believe that Selvetarm walked in solitude for many centuries, spurning both Lolth and Corellon, for he was not wholly given over to evil but neither was he fully aligned with the forces of light. Eventually his path crossed that of Eilistraee, and he began to appreciate the goodness of the Dark Maiden, as exhibited in her teachings and deeds. By aiding in Selvetarm's redemption, Eilistraee hoped to begin to heal the breach between drow and the Seldarine. That hope was dashed, however, by the insidious plotting of Lolth.
 
@@ -569,7 +570,7 @@ Enraged by Lolth's duplicity, Selvetarm is an engine of destruction, an eight-li
 
 Because of his status as a captive, Selvetarm draws little attention from drow of high status. Low-caste drow warriors who are themselves slaves or indentured servants, or who have no chance to rise in rank, can beseech Selvetarm for prowess in battle without suffering any shame. Anyone of high standing or who hopes to attain high standing shies away from openly expressing reverence for Selvetarm, though such an individual might still beg his aid privately.
 
-![](315614_cn_wmask.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/mordenkainens-tome-of-foes/img/315614_cn_wmask.webp#center)
 
 #### Vhaeraun
 
@@ -667,7 +668,7 @@ By the time the queen realized her error, she could feel the now-twisted magical
 
 When their ritual failed with catastrophic results, the wizards in the consortium were pulled into the Shadowfell along with the queen and the shadar-kai, but their misfortune didn't end there. Their former queen arose from the center of a maze of ash and let loose a scream of ebon smoke that penetrated the flesh and minds of the wizards, turning their bones black and lacerating their souls. Their cries of agony merged with her own, and when her scream faded, the wizards had been mutated and warped into the scabrous, vulturish creatures known as nagpas. Now they wander the planes as wretched monsters, marked forever by the Raven Queen's curse and banished from her presence.
 
-![](315609_cn_wmask.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/mordenkainens-tome-of-foes/img/315609_cn_wmask.webp#center)
 
 ### After the Fall
 
@@ -741,13 +742,13 @@ Shadar-kai are very interested in the magical silt at the bottom of the River St
 
 At the DM's discretion, you have access to more subraces for elf characters, in addition to the subraces in the *Player's Handbook.* When you choose the subrace of your elf, you can choose one of the following options: eladrin, sea elf, or shadar-kai.
 
-- [Elf (Eladrin)](eladrin-mpmm.md)  
-- [Elf (Sea)](sea-elf-mpmm.md)  
-- [Elf (Shadar-kai)](shadar-kai-mpmm.md)  
+- [Elf (Eladrin)](03.PlayerLog&Handouts/Mechanics/CLI/races/eladrin-mpmm.md)  
+- [Elf (Sea)](03.PlayerLog&Handouts/Mechanics/CLI/races/sea-elf-mpmm.md)  
+- [Elf (Shadar-kai)](03.PlayerLog&Handouts/Mechanics/CLI/races/shadar-kai-mpmm.md)  
 
 ### Elf Random Height and Weight
 
-![Elf Random Height and Weight](elf-random-height-and-weight-mtf.md)
+![Elf Random Height and Weight](03.PlayerLog&Handouts/Mechanics/CLI/tables/elf-random-height-and-weight-mtf.md)
 
 Height = Base Height + Height Modifier (in inches)
 
@@ -758,12 +759,12 @@ Weight = Base Weight + Height Modifier (in pounds) × Weight Modifier
 This section provides tables for players and DMs who want to choose or randomly generate details about elves
 
 > [!embed-item]- Elven Trinket
-> ![Elven Trinket](elven-trinket-mtf.md)
+> ![Elven Trinket](03.PlayerLog&Handouts/Mechanics/CLI/items/elven-trinket-mtf.md)
 
-![Elf Tables; Elf (Non-drow) Adventurer Story Hooks](elf-tables-elf-non-drow-adventurer-story-hooks-mtf.md)
+![Elf Tables; Elf (Non-drow) Adventurer Story Hooks](03.PlayerLog&Handouts/Mechanics/CLI/tables/elf-tables-elf-non-drow-adventurer-story-hooks-mtf.md)
 
-![](315616_cn_wmask.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/mordenkainens-tome-of-foes/img/315616_cn_wmask.webp#center)
 
-![Elf Tables; Drow Adventurer Story Hooks](elf-tables-drow-adventurer-story-hooks-mtf.md)
+![Elf Tables; Drow Adventurer Story Hooks](03.PlayerLog&Handouts/Mechanics/CLI/tables/elf-tables-drow-adventurer-story-hooks-mtf.md)
 
-![Elf Tables; Drow House Specialty](elf-tables-drow-house-specialty-mtf.md)
+![Elf Tables; Drow House Specialty](03.PlayerLog&Handouts/Mechanics/CLI/tables/elf-tables-drow-house-specialty-mtf.md)

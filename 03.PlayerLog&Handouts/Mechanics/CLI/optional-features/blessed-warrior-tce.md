@@ -4,7 +4,8 @@ cssclasses: json5e-feat
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/optional-feature/fs-p
-aliases: ["Blessed Warrior"]
+aliases:
+- Blessed Warrior
 ---
 # Blessed Warrior
 *Source: Tasha's Cauldron of Everything p. 52*  

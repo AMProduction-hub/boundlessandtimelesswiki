@@ -6,19 +6,24 @@ tags:
 - ttrpg-cli/spell/class/bard
 - ttrpg-cli/spell/class/cleric
 - ttrpg-cli/spell/class/paladin
+- ttrpg-cli/spell/feat/divinely-favored
 - ttrpg-cli/spell/feat/fey-touched
+- ttrpg-cli/spell/feat/initiate-of-high-sorcery
 - ttrpg-cli/spell/feat/magic-initiate
+- ttrpg-cli/spell/feat/strixhaven-initiate
 - ttrpg-cli/spell/level/1st-level
 - ttrpg-cli/spell/school/divination
 - ttrpg-cli/spell/subclass/divine-soul
 - ttrpg-cli/spell/subclass/the-genie
+- ttrpg-cli/spell/subrace/half-elf-mark-of-detection
 classes:
 - Bard
 - Cleric
 - Paladin
 - Sorcerer (Divine Soul)
 - Warlock (The Genie)
-aliases: ["Detect Evil and Good"]
+aliases:
+- Detect Evil and Good
 ---
 # Detect Evil and Good
 *1st-level, Divination*  
@@ -33,6 +38,6 @@ For the duration, you know if there is an aberration, celestial, elemental, fey,
 
 The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.
 
-**Classes**: [Paladin](list-spells-classes-paladin.md); [Cleric](list-spells-classes-cleric.md); [Bard](list-spells-classes-bard.md); [Warlock (The Genie)](list-spells-classes-warlock-the-genie-tce.md "subclass=TCE"); [Sorcerer (Divine Soul)](list-spells-classes-sorcerer-divine-soul-xge.md "subclass=XGE")
+**Classes**: [Warlock (The Genie)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-genie-tce.md "subclass=TCE"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Paladin](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-paladin.md)
 
 *Source: Player's Handbook p. 231. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

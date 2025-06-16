@@ -4,10 +4,11 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 - ttrpg-cli/subclass/rogue/inquisitive
-aliases: ["Inquisitive"]
+aliases:
+- Inquisitive
 ---
 # Inquisitive
-*[Rogue](03.PlayerLog&Handouts/Mechanics/CLI/classes/rogue.md): Roguish Archetype*  
+*[Rogue](./rogue.md): Roguish Archetype*  
 *Source: Xanathar's Guide to Everything p. 45*  
 
 > [!tldr] Class and Feature Progression
@@ -58,7 +59,7 @@ Starting at 3rd level, you can use a bonus action to make a Wisdom ([Perception]
 
 ### Insightful Fighting (Level 3)
 
-At 3rd level, you gain the ability to decipher an opponent's tactics and develop a counter to them. As a bonus action, you can make a Wisdom ([Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight)) check against a creature you can see that isn't [incapacitated](conditions.md#Incapacitated), contested by the target's Charisma ([Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)) check. If you succeed, you can use your Sneak Attack against that target even if you don't have advantage on the attack roll, but not if you have disadvantage on it.
+At 3rd level, you gain the ability to decipher an opponent's tactics and develop a counter to them. As a bonus action, you can make a Wisdom ([Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight)) check against a creature you can see that isn't [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated), contested by the target's Charisma ([Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)) check. If you succeed, you can use your Sneak Attack against that target even if you don't have advantage on the attack roll, but not if you have disadvantage on it.
 
 This benefit lasts for 1 minute or until you successfully use this feature against a different target.
 
@@ -68,7 +69,7 @@ Starting at 9th level, you have advantage on any Wisdom ([Perception](03.PlayerL
 
 ### Unerring Eye (Level 13)
 
-Beginning at 13th level, your senses are almost impossible to foil. As an action, you sense the presence of illusions, shapechangers not in their original form, and other magic designed to deceive the senses within 30 feet of you, provided you aren't [blinded](conditions.md#Blinded) or [deafened](conditions.md#Deafened). You sense that an effect is attempting to trick you, but you gain no insight into what is hidden or into its true nature.
+Beginning at 13th level, your senses are almost impossible to foil. As an action, you sense the presence of illusions, shapechangers not in their original form, and other magic designed to deceive the senses within 30 feet of you, provided you aren't [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded) or [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened). You sense that an effect is attempting to trick you, but you gain no insight into what is hidden or into its true nature.
 
 You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses of it when you finish a long rest.
 

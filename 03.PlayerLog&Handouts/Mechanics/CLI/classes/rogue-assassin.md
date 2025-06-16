@@ -4,10 +4,11 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/subclass/rogue/assassin
-aliases: ["Assassin"]
+aliases:
+- Assassin
 ---
 # Assassin
-*[Rogue](03.PlayerLog&Handouts/Mechanics/CLI/classes/rogue.md): Roguish Archetype*  
+*[Rogue](./rogue.md): Roguish Archetype*  
 *Source: Player's Handbook p. 97*  
 
 > [!tldr] Class and Feature Progression
@@ -52,11 +53,11 @@ Your archetype grants you features at 3rd level and then again at 9th, 13th, and
 
 ### Assassinate (Level 3)
 
-Starting at 3rd level, you are at your deadliest when you get the drop on your enemies. You have advantage on attack rolls against any creature that hasn't taken a turn in the combat yet. In addition, any hit you score against a creature that is [surprised](conditions.md#Surprised) is a critical hit.
+Starting at 3rd level, you are at your deadliest when you get the drop on your enemies. You have advantage on attack rolls against any creature that hasn't taken a turn in the combat yet. In addition, any hit you score against a creature that is [surprised](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Surprised) is a critical hit.
 
 ### Bonus Proficiencies (Level 3)
 
-When you choose this archetype at 3rd level, you gain proficiency with the [disguise kit](disguise-kit.md) and the [poisoner's kit](poisoners-kit.md).
+When you choose this archetype at 3rd level, you gain proficiency with the [disguise kit](03.PlayerLog&Handouts/Mechanics/CLI/items/disguise-kit.md) and the [poisoner's kit](03.PlayerLog&Handouts/Mechanics/CLI/items/poisoners-kit.md).
 
 ### Infiltration Expertise (Level 9)
 
@@ -72,4 +73,4 @@ Your ruse is indiscernible to the casual observer. If a wary creature suspects s
 
 ### Death Strike (Level 17)
 
-Starting at 17th level, you become a master of instant death. When you attack and hit a creature that is [surprised](conditions.md#Surprised), it must make a Constitution saving throw (DC 8 + your Dexterity modifier + your proficiency bonus). On a failed save, double the damage of your attack against the creature.
+Starting at 17th level, you become a master of instant death. When you attack and hit a creature that is [surprised](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Surprised), it must make a Constitution saving throw (DC 8 + your Dexterity modifier + your proficiency bonus). On a failed save, double the damage of your attack against the creature.

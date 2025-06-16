@@ -7,14 +7,16 @@ tags:
 - ttrpg-cli/monster/size/tiny
 - ttrpg-cli/monster/type/fiend/devil
 statblock: inline
-aliases: ["Imp"]
+statblock-link: "#^statblock"
+aliases:
+- Imp
 ---
-# [Imp](03 - Player Log & Handouts\Mechanics\CLI\bestiary\fiend/imp.md)
-*Source: Monster Manual p. 76, Baldur's Gate: Descent Into Avernus, Tasha's Cauldron of Everything, Sigil and the Outlands. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Imp](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/imp.md)
+*Source: Monster Manual p. 76, Curse of Strahd, Storm King's Thunder, Tomb of Annihilation, Waterdeep: Dragon Heist, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus, Explorer's Guide to Wildemount, Tasha's Cauldron of Everything, Candlekeep Mysteries, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Imps are found throughout the Lower Planes, either running errands for their infernal masters, spying on rivals, or misleading and waylaying mortals. An imp will proudly serve an evil master of any kind, but it can't be relied on to carry out tasks with any speed or efficiency.
 
-An imp can assume animal form at will, but in its natural state it resembles a diminutive red-skinned humanoid with a barbed tail, small horns, and leathery wings. It strikes while [invisible](conditions.md#Invisible), attacking with its poison stinger.
+An imp can assume animal form at will, but in its natural state it resembles a diminutive red-skinned humanoid with a barbed tail, small horns, and leathery wings. It strikes while [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible), attacking with its poison stinger.
 
 > [!note] Variant: Imp Familiar
 > 
@@ -119,7 +121,7 @@ The Nine Hells are a single plane comprising nine separate layers (see the Layer
 
 > [!note] Devil True Names and Talismans
 > 
-> Though devils all have common names, every devil above a lemure in station also has a true name that it keeps secret. A devil can be forced to disclose its true name if [charmed](conditions.md#Charmed), and ancient scrolls and tomes are said to exist that list the true names of certain devils.
+> Though devils all have common names, every devil above a lemure in station also has a true name that it keeps secret. A devil can be forced to disclose its true name if [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), and ancient scrolls and tomes are said to exist that list the true names of certain devils.
 > 
 > A mortal who learns a devil's true name can use powerful summoning magic to call the devil from the Nine Hells and bind it into service. Binding can also be accomplished with the help of a devil talisman. Each of these ancient relics is inscribed with the true name of a devil it controls, and was bathed in the blood of a worthy sacrifice-typically someone the creator loved-when crafted.
 > 
@@ -135,10 +137,10 @@ The Nine Hells are a single plane comprising nine separate layers (see the Layer
 > - A barbed devil has a 30 percent chance of summoning one barbed devil.  
 > - A bearded devil has a 30 percent chance of summoning one bearded devil.  
 > - A bone devil has a 40 percent chance of summoning `2d6` spined devils or one bone devil.  
-> - An erinyes has a 50 percent chance of summoning `3d6` spined devils, `1d6` bearded devils, or one erinyes.  
+> - An erinyes has a 50 percent chance of summoning `3d6` spined devils, `d6` bearded devils, or one erinyes.  
 > - A horned devil has a 30 percent chance of summoning one horned devil.  
 > - An ice devil has a 60 percent chance of summoning one ice devil.  
-> - A pit fiend summons `2d4` bearded devils, `1d4` barbed devils, or one erinyes with no chance of failure.  
+> - A pit fiend summons `2d4` bearded devils, `d4` barbed devils, or one erinyes with no chance of failure.  
 > 
 > A summoned devil appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other devils. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.
 ^variant-devil-summoning
@@ -152,55 +154,67 @@ The Nine Hells are a single plane comprising nine separate layers (see the Layer
 "ac": !!int "13"
 "hp": !!int "10"
 "hit_dice": "3d4 + 3"
+"modifier": !!int "3"
 "stats":
-- !!int "6"
-- !!int "17"
-- !!int "13"
-- !!int "11"
-- !!int "12"
-- !!int "14"
+  - !!int "6"
+  - !!int "17"
+  - !!int "13"
+  - !!int "11"
+  - !!int "12"
+  - !!int "14"
 "speed": "20 ft., fly 40 ft."
 "skillsaves":
-  "Deception": !!int "4"
-  "Stealth": !!int "5"
-  "Insight": !!int "3"
-  "Persuasion": !!int "4"
+  - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
+    "desc": "+4"
+  - "name": "[Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight)"
+    "desc": "+3"
+  - "name": "[Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion)"
+    "desc": "+4"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+5"
 "damage_resistances": "cold; bludgeoning, piercing, slashing from nonmagical attacks\
   \ not made with silvered weapons"
 "damage_immunities": "fire, poison"
-"condition_immunities": "[poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "darkvision 120 ft., passive Perception 11"
 "languages": "Infernal, Common"
 "cr": "1"
 "traits":
-- "desc": "The imp can use its action to polymorph into a beast form that resembles\
-    \ a rat (speed 20 ft.), a raven (20 ft., fly 60 ft.), or a spider (20 ft., climb\
-    \ 20 ft.), or back into its true form. Its statistics are the same in each form,\
-    \ except for the speed changes noted. Any equipment it is wearing or carrying\
-    \ isn't transformed. It reverts to its true form if it dies."
-  "name": "Shapechanger"
-- "desc": "Magical darkness doesn't impede the imp's darkvision."
-  "name": "Devil's Sight"
-- "desc": "The imp has advantage on saving throws against spells and other magical\
-    \ effects."
-  "name": "Magic Resistance"
+  - "desc": "The imp can use its action to polymorph into a beast form that resembles\
+      \ a rat (speed 20 ft.), a raven (20 ft., fly 60 ft.), or a spider (20 ft., climb\
+      \ 20 ft.), or back into its true form. Its statistics are the same in each form,\
+      \ except for the speed changes noted. Any equipment it is wearing or carrying\
+      \ isn't transformed. It reverts to its true form if it dies."
+    "name": "Shapechanger"
+  - "desc": "Magical darkness doesn't impede the imp's darkvision."
+    "name": "Devil's Sight"
+  - "desc": "The imp has advantage on saving throws against spells and other magical\
+      \ effects."
+    "name": "Magic Resistance"
 "actions":
-- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4\
-    \ + 3) piercing damage, and the target must make a DC 11 Constitution saving\
-    \ throw, taking 10 (3d6) poison damage on a failed save, or half as much damage\
-    \ on a successful one."
-  "name": "Sting (Bite in Beast Form)"
-- "desc": "The imp magically turns [invisible](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Invisible)\
-    \ until it attacks, or until its [concentration](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Concentration)\
-    \ ends (as if [concentrating](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Concentration)\
-    \ on a spell). Any equipment the imp wears or carries is [invisible](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Invisible)\
-    \ with it."
-  "name": "Invisibility"
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5\
+      \ (1d4 + 3) piercing damage, and the target must make a DC 11 Constitution\
+      \ saving throw, taking 10 (3d6) poison damage on a failed save, or half as\
+      \ much damage on a successful one."
+    "name": "Sting (Bite in Beast Form)"
+  - "desc": "The imp magically turns [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible)\
+      \ until it attacks, or until its [concentration](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Concentration)\
+      \ ends (as if [concentrating](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Concentration)\
+      \ on a spell). Any equipment the imp wears or carries is [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible)\
+      \ with it."
+    "name": "Invisibility"
 "source":
-- "MM"
-- "BGDIA"
-- "TCE"
-- "SatO"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/fiend/token/imp.webp"
+  - "MM"
+  - "CoS"
+  - "SKT"
+  - "ToA"
+  - "WDH"
+  - "GoS"
+  - "BGDIA"
+  - "EGW"
+  - "TCE"
+  - "CM"
+  - "KftGV"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/token/imp.webp"
 ```
 ^statblock

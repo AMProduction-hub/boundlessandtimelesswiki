@@ -5,7 +5,8 @@ tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/object/size/huge
 - ttrpg-cli/object/type/siege-weapon
-aliases: ["Trebuchet"]
+aliases:
+- Trebuchet
 ---
 # Trebuchet
 %%-- Embedded content starts on the next line. --%%
@@ -19,7 +20,7 @@ A trebuchet typically hurls a heavy stone. However, it can launch other kinds of
 
 ```ad-statblock
 title: Trebuchet
-![](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/objects/token/trebuchet.webp#token)
+![](03.PlayerLog&Handouts/Mechanics/CLI/objects/token/trebuchet.webp#token)
 *Huge Siege weapon*
 
 - **Armor Class** 15

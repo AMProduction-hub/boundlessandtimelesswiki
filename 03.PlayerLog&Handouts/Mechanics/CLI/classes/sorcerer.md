@@ -4,7 +4,8 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/class/sorcerer
 - ttrpg-cli/compendium/src/5e/phb
-aliases: ["Sorcerer"]
+aliases:
+- Sorcerer
 ---
 # Sorcerer
 *Source: Player's Handbook p. 99. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
@@ -50,16 +51,16 @@ aliases: ["Sorcerer"]
 
 - **Saving Throws**: Charisma, Constitution
 - **Armor**: none
-- **Weapons**: [daggers](dagger.md), [darts](dart.md), [slings](sling.md), [quarterstaffs](quarterstaff.md), [light crossbows](light-crossbow.md)
+- **Weapons**: [daggers](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md), [darts](03.PlayerLog&Handouts/Mechanics/CLI/items/dart.md), [slings](03.PlayerLog&Handouts/Mechanics/CLI/items/sling.md), [quarterstaffs](03.PlayerLog&Handouts/Mechanics/CLI/items/quarterstaff.md), [light crossbows](03.PlayerLog&Handouts/Mechanics/CLI/items/light-crossbow.md)
 - **Tools**: none
 - **Skills**: choose 2 from [Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana), [Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception), [Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight), [Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation), [Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion), and [Religion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Religion)
 
 You start with the following items, plus anything provided by your background.
 
-- (a) a [light crossbow](light-crossbow.md) and [20 bolts](crossbow-bolts-20.md) or (b) any simple weapon
-- (a) a [component pouch](component-pouch.md) or (b) an [arcane focus](arcane-focus.md)
-- (a) a [dungeoneer's pack](dungeoneers-pack.md) or (b) an [explorer's pack](explorers-pack.md)
-- Two [daggers](dagger.md)
+- (a) a [light crossbow](03.PlayerLog&Handouts/Mechanics/CLI/items/light-crossbow.md) and [20 bolts](03.PlayerLog&Handouts/Mechanics/CLI/items/crossbow-bolts-20.md) or (b) any simple weapon
+- (a) a [component pouch](03.PlayerLog&Handouts/Mechanics/CLI/items/component-pouch.md) or (b) an [arcane focus](03.PlayerLog&Handouts/Mechanics/CLI/items/arcane-focus.md)
+- (a) a [dungeoneer's pack](03.PlayerLog&Handouts/Mechanics/CLI/items/dungeoneers-pack.md) or (b) an [explorer's pack](03.PlayerLog&Handouts/Mechanics/CLI/items/explorers-pack.md)
+- Two [daggers](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md)
 
 Alternatively, you may start with 3d4 × 10 gp to buy your own equipment.
 
@@ -99,7 +100,7 @@ How do you feel about the magical power coursing through you? Do you embrace it,
 
 #### Quick Build
 
-You can make a sorcerer quickly by following these suggestions. First, Charisma should be your highest ability score, followed by Constitution. Second, choose the hermit background. Third, choose the [light](light.md), [prestidigitation](prestidigitation.md), [ray of frost](ray-of-frost.md), and [shocking grasp](shocking-grasp.md) cantrips, along with the 1st-level spells [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md) and [magic missile](magic-missile.md).
+You can make a sorcerer quickly by following these suggestions. First, Charisma should be your highest ability score, followed by Constitution. Second, choose the hermit background. Third, choose the [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md), [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md), [ray of frost](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-frost.md), and [shocking grasp](03.PlayerLog&Handouts/Mechanics/CLI/spells/shocking-grasp.md) cantrips, along with the 1st-level spells [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md) and [magic missile](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-missile.md).
 
 > [!quote] A quote from Hennet, scion of Tiamat  
 > 
@@ -112,6 +113,10 @@ Because the idea of an innately magical being traveling among them does not sit 
 Sorcerers are often defined by the events surrounding the manifestation of their power. For those who receive it as an expected birthright, its appearance is a cause for celebration. Other sorcerers are treated as outcasts, banished from their homes after the sudden, terrifying arrival of their abilities.
 
 Playing a sorcerer character can be as rewarding as it is challenging. The sections below offer suggestions on how to flesh out and personalize your persona.
+
+> [!quote] A quote from Xanathar  
+> 
+> Divine? Arcane? What difference does it make where magic comes from? You've got it or you don't. Fortunately, I've got loads of the stuff.
 
 ## Arcane Origins
 _Source: Xanathar's Guide to Everything_
@@ -211,7 +216,7 @@ At 1st level, you know four cantrips of your choice from the sorcerer spell list
 
 The Sorcerer table shows how many spell slots you have to cast your sorcerer spells of 1st level and higher. To cast one of these sorcerer spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
 
-For example, if you know the 1st-level spell [burning hands](burning-hands.md) and have a 1st-level and a 2nd-level spell slot available, you can cast [burning hands](burning-hands.md) using either slot.
+For example, if you know the 1st-level spell [burning hands](03.PlayerLog&Handouts/Mechanics/CLI/spells/burning-hands.md) and have a 1st-level and a 2nd-level spell slot available, you can cast [burning hands](03.PlayerLog&Handouts/Mechanics/CLI/spells/burning-hands.md) using either slot.
 
 #### Spells Known of 1st Level and Higher
 
@@ -225,13 +230,13 @@ Additionally, when you gain a level in this class, you can choose one of the sor
 
 Charisma is your spellcasting ability for your sorcerer spells, since the power of your magic relies on your ability to project your will into the world. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a sorcerer spell you cast and when making an attack roll with one.
 
-<span class='abilityDc'>**Spell save DC**: 8 + your proficiency bonus + your Charisma modifier</span>
+<span class='abilityDc'>**Spell save DC**: your proficiency bonus + your Charisma</span>
 
-<span class='abilityAttackMod'>**Spell attack modifier**: your proficiency bonus + your Charisma modifier</span>
+<span class='abilityAttackMod'>**Spell attack modifier**: your proficiency bonus + your Charisma</span>
 
 #### Spellcasting Focus
 
-You can use an [arcane focus](arcane-focus.md) as a spellcasting focus for your sorcerer spells.
+You can use an [arcane focus](03.PlayerLog&Handouts/Mechanics/CLI/items/arcane-focus.md) as a spellcasting focus for your sorcerer spells.
 
 ### Sorcerous Origin (Level 1)
 
@@ -276,19 +281,19 @@ At 3rd level, you gain the ability to twist your spells to suit your needs. You 
 
 You can use only one Metamagic option on a spell when you cast it, unless otherwise noted.
 
-- [Careful Spell](careful-spell.md)  
-- [Distant Spell](distant-spell.md)  
-- [Empowered Spell](empowered-spell.md)  
-- [Extended Spell](extended-spell.md)  
-- [Heightened Spell](heightened-spell.md)  
-- [Quickened Spell](quickened-spell.md)  
-- [Subtle Spell](subtle-spell.md)  
-- [Twinned Spell](twinned-spell.md)  
+- [Careful Spell](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/careful-spell.md)  
+- [Distant Spell](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/distant-spell.md)  
+- [Empowered Spell](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/empowered-spell.md)  
+- [Extended Spell](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/extended-spell.md)  
+- [Heightened Spell](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/heightened-spell.md)  
+- [Quickened Spell](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/quickened-spell.md)  
+- [Subtle Spell](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/subtle-spell.md)  
+- [Twinned Spell](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/twinned-spell.md)  
 
 ### Metamagic Options (Level 3)
 _Source: Tasha's Cauldron of Everything p. 65_
 
-*3rd-level sorcerer [optional feature](optional-class-features-tce.md)*
+*3rd-level sorcerer [optional feature](03.PlayerLog&Handouts/Mechanics/CLI/rules/variant-rules/optional-class-features-tce.md)*
 
 When you choose Metamagic options, you have access to the following additional options.
 
@@ -301,17 +306,17 @@ If your DM allows the use of feats, you may instead take a feat.
 ### Sorcerous Versatility (Level 4)
 _Source: Tasha's Cauldron of Everything p. 65_
 
-*4th-level sorcerer [optional feature](optional-class-features-tce.md)*
+*4th-level sorcerer [optional feature](03.PlayerLog&Handouts/Mechanics/CLI/rules/variant-rules/optional-class-features-tce.md)*
 
 Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, representing the magic within you flowing in new ways:
 
-- Replace one of the options you chose for the Metamagic feature with a different [Metamagic option](list-optfeaturetype-mm.md) available to you.  
+- Replace one of the options you chose for the Metamagic feature with a different [Metamagic option](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-optfeaturetype-mm.md) available to you.  
 - Replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the sorcerer spell list.  
 
 ### Magical Guidance (Level 5)
 _Source: Tasha's Cauldron of Everything p. 65_
 
-*5th-level sorcerer [optional feature](optional-class-features-tce.md)*
+*5th-level sorcerer [optional feature](03.PlayerLog&Handouts/Mechanics/CLI/rules/variant-rules/optional-class-features-tce.md)*
 
 You can tap into your inner wellspring of magic to try to conjure success from failure. When you make an ability check that fails, you can spend 1 sorcery point to reroll the `d20`, and you must use the new roll, potentially turning the failure into a success.
 
@@ -366,5 +371,5 @@ At 20th level, you regain 4 expended sorcery points whenever you finish a short 
 ## Optional Features
 
 > [!example]- Optional Features: Metamagic
-> ![Metamagic](list-optfeaturetype-mm.md#Metamagic)
+> ![Metamagic](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-optfeaturetype-mm.md#Metamagic)
 ^list-optfeature-mm

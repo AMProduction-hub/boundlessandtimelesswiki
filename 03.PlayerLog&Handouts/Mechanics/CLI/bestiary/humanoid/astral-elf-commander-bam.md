@@ -7,9 +7,11 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/humanoid
 statblock: inline
-aliases: ["Astral Elf Commander"]
+statblock-link: "#^statblock"
+aliases:
+- Astral Elf Commander
 ---
-# [Astral Elf Commander](03 - Player Log & Handouts\Mechanics\CLI\bestiary\humanoid/astral-elf-commander-bam.md)
+# [Astral Elf Commander](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/astral-elf-commander-bam.md)
 *Source: Boo's Astral Menagerie p. 12, Light of Xaryxis*  
 
 An astral elf commander leads warriors into battle and usually has one or more spelljamming ships under their command. A commander channels the radiant energy of starlight through their weapons, and they can rescue warriors from a perilous situation by using their gods-given power of teleportation.
@@ -37,52 +39,57 @@ Many astral elves are thousands (in some cases tens of thousands) of years old. 
 "type": "humanoid"
 "alignment": "Any alignment"
 "ac": !!int "17"
-"ac_class": "[half plate](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/items/half-plate-armor.md)"
+"ac_class": "[half plate](03.PlayerLog&Handouts/Mechanics/CLI/items/half-plate-armor.md)"
 "hp": !!int "143"
 "hit_dice": "26d8 + 26"
+"modifier": !!int "2"
 "stats":
-- !!int "12"
-- !!int "15"
-- !!int "13"
-- !!int "18"
-- !!int "18"
-- !!int "18"
+  - !!int "12"
+  - !!int "15"
+  - !!int "13"
+  - !!int "18"
+  - !!int "18"
+  - !!int "18"
 "speed": "30 ft."
 "saves":
-  "Charisma": !!int "7"
-  "Dexterity": !!int "5"
-  "Wisdom": !!int "7"
-  "Constitution": !!int "4"
+  - "dexterity": "+5"
+  - "constitution": "+4"
+  - "wisdom": "+7"
+  - "charisma": "+7"
 "skillsaves":
-  "Intimidation": !!int "7"
-  "Deception": !!int "7"
-  "History": !!int "7"
-  "Survival": !!int "7"
+  - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
+    "desc": "+7"
+  - "name": "[History](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#History)"
+    "desc": "+7"
+  - "name": "[Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation)"
+    "desc": "+7"
+  - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
+    "desc": "+7"
 "senses": "darkvision 60 ft., passive Perception 14"
 "languages": "Celestial, Common, Elvish"
 "cr": "7"
 "traits":
-- "desc": "The elf casts the following spell, using Wisdom as the spellcasting ability:\n\
-    \n2/day: [teleport](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/teleport.md)"
-  "name": "Spellcasting"
-- "desc": "The elf has advantage on saving throws it makes to avoid or end the [charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
-    \ condition on itself, and magic can't put it to sleep."
-  "name": "Fey Ancestry"
-- "desc": "The elf doesn't require sleep."
-  "name": "Unusual Nature"
+  - "desc": "The elf has advantage on saving throws it makes to avoid or end the [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
+      \ condition on itself, and magic can't put it to sleep."
+    "name": "Fey Ancestry"
+  - "desc": "The elf doesn't require sleep."
+    "name": "Unusual Nature"
 "actions":
-- "desc": "The elf makes two Longsword or Longbow attacks."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d8\
-    \ + 1) slashing damage, or 6 (1d10 + 1) slashing damage when used with two\
-    \ hands, plus 14 (4d6) radiant damage."
-  "name": "Longsword"
-- "desc": "Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. Hit:\
-    \ 6 (1d8 + 2) piercing damage plus 14 (4d6) radiant damage."
-  "name": "Longbow"
+  - "desc": "The elf makes two Longsword or Longbow attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+      \ (1d8 + 1) slashing damage, or 6 (1d10 + 1) slashing damage when used with\
+      \ two hands, plus 14 (4d6) radiant damage."
+    "name": "Longsword"
+  - "desc": "Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. Hit:\
+      \ 6 (1d8 + 2) piercing damage plus 14 (4d6) radiant damage."
+    "name": "Longbow"
+  - "desc": "The elf casts the following spell, using Wisdom as the spellcasting ability:\n\
+      \n2/day: [teleport](03.PlayerLog&Handouts/Mechanics/CLI/spells/teleport.md)"
+    "name": "Spellcasting"
 "source":
-- "BAM"
-- "LoX"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/humanoid/token/astral-elf-commander-bam.webp"
+  - "BAM"
+  - "LoX"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/astral-elf-commander-bam.webp"
 ```
 ^statblock

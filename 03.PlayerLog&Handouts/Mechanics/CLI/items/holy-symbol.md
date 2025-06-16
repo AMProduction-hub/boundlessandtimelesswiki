@@ -15,8 +15,8 @@ aliases:
 
 **Items in this group:**
 
-- [Amulet](amulet.md)
-- [Emblem](emblem.md)
-- [Reliquary](reliquary.md)
+- [Amulet](03.PlayerLog&Handouts/Mechanics/CLI/items/amulet.md)
+- [Emblem](03.PlayerLog&Handouts/Mechanics/CLI/items/emblem.md)
+- [Reliquary](03.PlayerLog&Handouts/Mechanics/CLI/items/reliquary.md)
 
 *Source: Player's Handbook p. 151*

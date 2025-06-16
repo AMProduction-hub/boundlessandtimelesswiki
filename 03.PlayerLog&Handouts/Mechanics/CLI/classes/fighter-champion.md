@@ -4,10 +4,11 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/subclass/fighter/champion
-aliases: ["Champion"]
+aliases:
+- Champion
 ---
 # Champion
-*[Fighter](03.PlayerLog&Handouts/Mechanics/CLI/classes/fighter.md): Martial Archetype*  
+*[Fighter](./fighter.md): Martial Archetype*  
 *Source: Player's Handbook p. 72. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 > [!tldr] Class and Feature Progression
@@ -73,5 +74,5 @@ At 18th level, you attain the pinnacle of resilience in battle. At the start of 
 ## Optional Features
 
 > [!example]- Optional Features: Fighting Style, Fighter
-> ![Fighting Style, Fighter](list-optfeaturetype-fs-f.md#Fighting%20Style,%20Fighter)
+> ![Fighting Style, Fighter](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-optfeaturetype-fs-f.md#Fighting%20Style,%20Fighter)
 ^list-optfeature-fs-f

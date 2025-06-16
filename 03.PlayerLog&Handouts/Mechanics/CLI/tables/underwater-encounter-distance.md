@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
-aliases: ["Underwater Encounter Distance"]
+aliases:
+- Underwater Encounter Distance
 ---
 # Underwater Encounter Distance
 *Source: Dungeon Master's Guide p. 117* 

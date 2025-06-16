@@ -3,18 +3,19 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/spell/list/subrace/tiefling-fierna
-aliases: ["Spells for Tiefling (Fierna)"]
+aliases:
+- Spells for Tiefling (Fierna)
 ---
 # Spells for Tiefling (Fierna)
 
 ## Cantrip
 
-- [Friends](friends.md "PHB") as 2nd-level, at class level 3
+- [Friends](03.PlayerLog&Handouts/Mechanics/CLI/spells/friends.md "PHB") as 2nd-level, at class level 3
 
 ## 1st Level
 
-- [Charm Person](charm-person.md "PHB") as 2nd-level, at class level 3
+- [Charm Person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md "PHB") as 2nd-level, at class level 3
 
 ## 2nd Level
 
-- [Suggestion](suggestion.md "PHB") as 2nd-level, at class level 3
+- [Suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md "PHB") as 2nd-level, at class level 3

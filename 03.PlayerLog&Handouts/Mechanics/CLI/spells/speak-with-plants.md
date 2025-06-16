@@ -3,16 +3,20 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
+- ttrpg-cli/spell/background/selesnya-initiate
 - ttrpg-cli/spell/class/bard
 - ttrpg-cli/spell/class/druid
 - ttrpg-cli/spell/class/ranger
 - ttrpg-cli/spell/level/3rd-level
 - ttrpg-cli/spell/school/transmutation
+- ttrpg-cli/spell/subrace/half-orc-mark-of-finding
+- ttrpg-cli/spell/subrace/human-mark-of-finding
 classes:
 - Bard
 - Druid
 - Ranger
-aliases: ["Speak with Plants"]
+aliases:
+- Speak with Plants
 ---
 # Speak with Plants
 *3rd-level, Transmutation*  
@@ -31,8 +35,8 @@ Plants might be able to perform other tasks on your behalf, at the DM's discreti
 
 If a plant creature is in the area, you can communicate with it as if you shared a common language, but you gain no magical ability to influence it.
 
-This spell can cause the plants created by the [entangle](entangle.md) spell to release a [restrained](conditions.md#Restrained) creature.
+This spell can cause the plants created by the [entangle](03.PlayerLog&Handouts/Mechanics/CLI/spells/entangle.md) spell to release a [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained) creature.
 
-**Classes**: [Druid](list-spells-classes-druid.md); [Bard](list-spells-classes-bard.md); [Ranger](list-spells-classes-ranger.md)
+**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Ranger](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-ranger.md)
 
 *Source: Player's Handbook p. 277. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

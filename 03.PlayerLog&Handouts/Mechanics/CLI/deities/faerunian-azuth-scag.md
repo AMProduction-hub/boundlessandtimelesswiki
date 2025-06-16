@@ -6,11 +6,15 @@ tags:
 - ttrpg-cli/deity/faerunian
 - ttrpg-cli/domain/arcana
 - ttrpg-cli/domain/knowledge
-aliases: ["Azuth", "The High One", "The Lord of Spellcraft", "The First Magister"]
+aliases: 
+- Azuth
+- The High One
+- The Lord of Spellcraft
+- The First Magister
 ---
 # Azuth
 *Source: Sword Coast Adventurer's Guide* 
-![](scag-symbol-of-azuth.webp#symbol)
+![](03.PlayerLog&Handouts/Mechanics/CLI/deities/img/scag-symbol-of-azuth.webp#symbol)
 
 - **Alternate Names**: The High One, The Lord of Spellcraft, The First Magister
 - **Alignment**: Lawful Neutral

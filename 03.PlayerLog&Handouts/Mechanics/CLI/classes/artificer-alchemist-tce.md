@@ -4,11 +4,12 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/subclass/artificer/alchemist
-aliases: ["Alchemist"]
+aliases:
+- Alchemist
 ---
 # Alchemist
-*[Artificer](artificer-tce.md): Artificer Specialist*  
-*Source: Tasha's Cauldron of Everything p. 14*  
+*[Artificer](./artificer-tce.md): Artificer Specialist*  
+*Source: Tasha's Cauldron of Everything p. 14, Eberron: Rising from the Last War p. 58*  
 
 > [!tldr] Class and Feature Progression
 > 
@@ -50,7 +51,7 @@ An Alchemist is an expert at combining reagents to produce mystical effects. Alc
 
 ### Tool Proficiency (Level 3)
 
-When you adopt this specialization at 3rd level, you gain proficiency with [alchemist's supplies](alchemists-supplies.md). If you already have this proficiency, you gain proficiency with one other type of [artisan's tools](artisans-tools.md) of your choice.
+When you adopt this specialization at 3rd level, you gain proficiency with [alchemist's supplies](03.PlayerLog&Handouts/Mechanics/CLI/items/alchemists-supplies.md). If you already have this proficiency, you gain proficiency with one other type of [artisan's tools](03.PlayerLog&Handouts/Mechanics/CLI/items/artisans-tools.md) of your choice.
 
 ### Alchemist Spells (Level 3)
 
@@ -60,18 +61,18 @@ Starting at 3rd level, you always have certain spells prepared after you reach p
 
 | Artificer Level | Spell |
 |-----------------|-------|
-| 3rd | [healing word](healing-word.md), [ray of sickness](ray-of-sickness.md) |
-| 5th | [flaming sphere](flaming-sphere.md), [Melf's acid arrow](melfs-acid-arrow.md) |
-| 9th | [gaseous form](gaseous-form.md), [mass healing word](mass-healing-word.md) |
-| 13th | [blight](blight.md), [death ward](death-ward.md) |
-| 17th | [cloudkill](cloudkill.md), [raise dead](raise-dead.md) |
+| 3rd | [healing word](03.PlayerLog&Handouts/Mechanics/CLI/spells/healing-word.md), [ray of sickness](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-sickness.md) |
+| 5th | [flaming sphere](03.PlayerLog&Handouts/Mechanics/CLI/spells/flaming-sphere.md), [Melf's acid arrow](03.PlayerLog&Handouts/Mechanics/CLI/spells/melfs-acid-arrow.md) |
+| 9th | [gaseous form](03.PlayerLog&Handouts/Mechanics/CLI/spells/gaseous-form.md), [mass healing word](03.PlayerLog&Handouts/Mechanics/CLI/spells/mass-healing-word.md) |
+| 13th | [blight](03.PlayerLog&Handouts/Mechanics/CLI/spells/blight.md), [death ward](03.PlayerLog&Handouts/Mechanics/CLI/spells/death-ward.md) |
+| 17th | [cloudkill](03.PlayerLog&Handouts/Mechanics/CLI/spells/cloudkill.md), [raise dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/raise-dead.md) |
 ^alchemist-spells
 
 ### Experimental Elixir (Level 3)
 
-Beginning at 3rd level, whenever you finish a long rest, you can magically produce an *experimental elixir* in an empty flask you touch. Roll on the Experimental Elixir table for the elixir's effect, which is triggered when someone drinks the elixir. As an action, a creature can drink the elixir or administer it to an [incapacitated](conditions.md#Incapacitated) creature.
+Beginning at 3rd level, whenever you finish a long rest, you can magically produce an *experimental elixir* in an empty flask you touch. Roll on the Experimental Elixir table for the elixir's effect, which is triggered when someone drinks the elixir. As an action, a creature can drink the elixir or administer it to an [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated) creature.
 
-Creating an *experimental elixir* requires you to have [alchemist's supplies](alchemists-supplies.md) on your person, and any elixir you create with this feature lasts until it is drunk or until the end of your next long rest.
+Creating an *experimental elixir* requires you to have [alchemist's supplies](03.PlayerLog&Handouts/Mechanics/CLI/items/alchemists-supplies.md) on your person, and any elixir you create with this feature lasts until it is drunk or until the end of your next long rest.
 
 When you reach certain levels in this class, you can make more elixirs at the end of a long rest: two at 6th level and three at 15th level. Roll for each elixir's effect separately. Each elixir requires its own flask.
 
@@ -88,23 +89,23 @@ You can create additional *experimental elixirs* by expending a spell slot of 1s
 | 3 | **Resilience**. The drinker gains a +1 bonus to AC for 10 minutes. |
 | 4 | **Boldness**. The drinker can roll a `d4` and add the number rolled to every attack roll and saving throw they make for the next minute. |
 | 5 | **Flight**. The drinker gains a flying speed of 10 feet for 10 minutes. |
-| 6 | **Transformation**. The drinker's body is transformed as if by the [alter self](alter-self.md) spell. The drinker determines the transformation caused by the spell, the effects of which last for 10 minutes. |
+| 6 | **Transformation**. The drinker's body is transformed as if by the [alter self](03.PlayerLog&Handouts/Mechanics/CLI/spells/alter-self.md) spell. The drinker determines the transformation caused by the spell, the effects of which last for 10 minutes. |
 ^experimental-elixir
 
 ### Alchemical Savant (Level 5)
 
-At 5th level, you develop masterful command of magical chemicals, enhancing the healing and damage you create through them. Whenever you cast a spell using your [alchemist's supplies](alchemists-supplies.md) as the spellcasting focus, you gain a bonus to one roll of the spell. That roll must restore hit points or be a damage roll that deals acid, fire, necrotic, or poison damage, and the bonus equals your Intelligence modifier (minimum of +1).
+At 5th level, you develop masterful command of magical chemicals, enhancing the healing and damage you create through them. Whenever you cast a spell using your [alchemist's supplies](03.PlayerLog&Handouts/Mechanics/CLI/items/alchemists-supplies.md) as the spellcasting focus, you gain a bonus to one roll of the spell. That roll must restore hit points or be a damage roll that deals acid, fire, necrotic, or poison damage, and the bonus equals your Intelligence modifier (minimum of +1).
 
 ### Restorative Reagents (Level 9)
 
 Starting at 9th level, you can incorporate restorative reagents into some of your works:
 
 - Whenever a creature drinks an *experimental elixir* you created, the creature gains temporary hit points equal to `2d6` + your Intelligence modifier (minimum of 1 temporary hit point).  
-- You can cast [lesser restoration](lesser-restoration.md) without expending a spell slot and without preparing the spell, provided you use [alchemist's supplies](alchemists-supplies.md) as the spellcasting focus. You can do so a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a long rest.  
+- You can cast [lesser restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/lesser-restoration.md) without expending a spell slot and without preparing the spell, provided you use [alchemist's supplies](03.PlayerLog&Handouts/Mechanics/CLI/items/alchemists-supplies.md) as the spellcasting focus. You can do so a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a long rest.  
 
 ### Chemical Mastery (Level 15)
 
 By 15th level, you have been exposed to so many chemicals that they pose little risk to you, and you can use them to quickly end certain ailments:
 
-- You gain resistance to acid damage and poison damage, and you are immune to the [poisoned](conditions.md#Poisoned) condition.  
-- You can cast [greater restoration](greater-restoration.md) and [heal](heal.md) without expending a spell slot, without preparing the spell, and without material components, provided you use [alchemist's supplies](alchemists-supplies.md) as the spellcasting focus. Once you cast either spell with this feature, you can't cast that spell with it again until you finish a long rest.
+- You gain resistance to acid damage and poison damage, and you are immune to the [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned) condition.  
+- You can cast [greater restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-restoration.md) and [heal](03.PlayerLog&Handouts/Mechanics/CLI/spells/heal.md) without expending a spell slot, without preparing the spell, and without material components, provided you use [alchemist's supplies](03.PlayerLog&Handouts/Mechanics/CLI/items/alchemists-supplies.md) as the spellcasting focus. Once you cast either spell with this feature, you can't cast that spell with it again until you finish a long rest.

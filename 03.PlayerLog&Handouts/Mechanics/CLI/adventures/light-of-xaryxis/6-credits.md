@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/lox
-aliases: ["Credits"]
+aliases:
+- Credits
 ---
 # Credits
 *Source: Light of Xaryxis* 
@@ -17,7 +18,7 @@ aliases: ["Credits"]
         - **Senior Graphic Designer.** Trish Yochum    
         - **Graphic Designers.** Matt Cole, Trystan Falcone    
         - **Cover Illustrators.** Ekaterina Burmak, Hydro74    
-        - **Interior Illustrators.** Tom Babbey, Mark Behm, Olivier Bernard, Zoltan Boros, Bruce Brenneise, Sidharth Chaturvedi, Nikki Dawes, Simon Dominic, Olga Drebas, Merlin G.G., Suzanne Helmigh, Ralph Horsley, Katerina Ladon, Olly Lawson, Andrew Mar, Robson Michel, Irina Nordsol, Ned Rogers, Craig J Spearing, Cory Trego-Erdner, Randy Vargas, Campbell White, Shawn Wood, Zuzanna Wuzyk    
+        - **Interior Illustrators.** Tom Babbey, Mark Behm, Olivier Bernard, Zoltan Boros, Bruce Brenneise, Sidharth Chaturvedi, Nikki Dawes, Simon Dominic, Olga Drebas, Merlin G.G., Suzanne Helmigh, Ralph Horsley, Katerina Ladon, Olly Lawson, Andrew Mar, Robson Michel, Irina Nordsol, Ned Rogers, Craig J Spearing, Cory Trego-Erdner, Randy Vargas, Campbell White, Shawn Wood, Zuzanna Wužyk    
         - **Cartographers.** CoupleofKooks, Dyson Logos    
         - **Concept Illustrators.** Titus Lunter, Shawn Wood    
         - **Stat Block Analysts.** Makenzie De Armas, Taymoor Rehman    

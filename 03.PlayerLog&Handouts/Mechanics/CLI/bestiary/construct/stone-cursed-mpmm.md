@@ -10,12 +10,14 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/construct
 statblock: inline
-aliases: ["Stone Cursed"]
+statblock-link: "#^statblock"
+aliases:
+- Stone Cursed
 ---
-# [Stone Cursed](03 - Player Log & Handouts\Mechanics\CLI\bestiary\construct/stone-cursed-mpmm.md)
+# [Stone Cursed](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/stone-cursed-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 233, Mordenkainen's Tome of Foes p. 240*  
 
-Stone cursed are spawned through a foul alchemical ritual performed on a Humanoid that has been turned to stone. The ritual, which requires a mixture of basilisk blood and the ashes from the burned feathers of a cockatrice, awakens a dim echo of the [petrified](conditions.md#Petrified) victim's spirit, animating the statue and turning it into a useful guardian.
+Stone cursed are spawned through a foul alchemical ritual performed on a Humanoid that has been turned to stone. The ritual, which requires a mixture of basilisk blood and the ashes from the burned feathers of a cockatrice, awakens a dim echo of the [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified) victim's spirit, animating the statue and turning it into a useful guardian.
 
 Stone cursed possess a malevolent drive to slay the living, yet they are utterly loyal to whoever performed the ritual to animate them, and they obey that being's orders to the best of their ability. In combat, stony claws that drip with thick, gray sludge emerge from a stone cursed's fingers. This alchemical sludge transforms those slashed by the claws into statues.
 
@@ -34,46 +36,48 @@ Even though a creature transformed into a stone cursed is long dead, a vague whi
 "ac_class": "natural armor"
 "hp": !!int "19"
 "hit_dice": "3d8 + 6"
+"modifier": !!int "-3"
 "stats":
-- !!int "16"
-- !!int "5"
-- !!int "14"
-- !!int "5"
-- !!int "8"
-- !!int "7"
+  - !!int "16"
+  - !!int "5"
+  - !!int "14"
+  - !!int "5"
+  - !!int "8"
+  - !!int "7"
 "speed": "10 ft."
 "damage_vulnerabilities": "bludgeoning"
 "damage_immunities": "poison"
-"condition_immunities": "[charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
-  \ [exhaustion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
-  \ [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
-  \ [petrified](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
-  \ [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
+  \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
+  \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
+  \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
+  \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "passive Perception 9"
 "languages": "the languages it knew in life"
 "cr": "1"
 "traits":
-- "desc": "The stone cursed has advantage on the attack rolls of [opportunity attacks](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/actions.md#Opportunity%20Attack)."
-  "name": "Cunning Opportunist"
-- "desc": "If the stone cursed is motionless at the start of combat, it has advantage\
-    \ on its initiative roll. Moreover, if a creature hasn't observed the stone cursed\
-    \ move or act, that creature must succeed on a DC 18 Intelligence ([Investigation](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/skills.md#Investigation))\
-    \ check to discern that the stone cursed isn't a statue."
-  "name": "False Appearance"
-- "desc": "The stone cursed doesn't require air, food, drink, or sleep."
-  "name": "Unusual Nature"
+  - "desc": "The stone cursed has advantage on the attack rolls of [opportunity attacks](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Opportunity%20Attack)."
+    "name": "Cunning Opportunist"
+  - "desc": "If the stone cursed is motionless at the start of combat, it has advantage\
+      \ on its initiative roll. Moreover, if a creature hasn't observed the stone\
+      \ cursed move or act, that creature must succeed on a DC 18 Intelligence ([Investigation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Investigation))\
+      \ check to discern that the stone cursed isn't a statue."
+    "name": "False Appearance"
+  - "desc": "The stone cursed doesn't require air, food, drink, or sleep."
+    "name": "Unusual Nature"
 "actions":
-- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 12\
-    \ (2d8 + 3) slashing damage. If the target is a creature, it must succeed on\
-    \ a DC 12 Constitution saving throw, or it begins to turn to stone and is [restrained](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
-    \ until the end of its next turn, when it must repeat the saving throw. The effect\
-    \ ends if the second save is successful; otherwise the target is [petrified](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Petrified)\
-    \ for 24 hours."
-  "name": "Petrifying Claws"
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 12\
+      \ (2d8 + 3) slashing damage. If the target is a creature, it must succeed\
+      \ on a DC 12 Constitution saving throw, or it begins to turn to stone and is\
+      \ [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
+      \ until the end of its next turn, when it must repeat the saving throw. The\
+      \ effect ends if the second save is successful; otherwise the target is [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified)\
+      \ for 24 hours."
+    "name": "Petrifying Claws"
 "source":
-- "MPMM"
-- "MTF"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/construct/token/stone-cursed-mpmm.webp"
+  - "MPMM"
+  - "MTF"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/token/stone-cursed-mpmm.webp"
 ```
 ^statblock
 

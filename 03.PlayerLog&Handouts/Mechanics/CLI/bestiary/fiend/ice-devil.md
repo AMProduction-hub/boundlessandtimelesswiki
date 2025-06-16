@@ -7,10 +7,12 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/fiend/devil
 statblock: inline
-aliases: ["Ice Devil"]
+statblock-link: "#^statblock"
+aliases:
+- Ice Devil
 ---
-# [Ice Devil](03 - Player Log & Handouts\Mechanics\CLI\bestiary\fiend/ice-devil.md)
-*Source: Monster Manual p. 75, Baldur's Gate: Descent Into Avernus, Tasha's Cauldron of Everything, Sigil and the Outlands. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Ice Devil](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/ice-devil.md)
+*Source: Monster Manual p. 75, Baldur's Gate: Descent Into Avernus, Tasha's Cauldron of Everything. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Found most commonly on the cold layers of Stygia and Cania, ice devils serve as commanders of the infernal armies of the Nine Hells, tormenting lesser devils as an outlet for their anger and resentment. Coveting the power of their pit fiend superiors, ice devils work ceaselessly toward promotion, slaughtering the enemies of the Nine Hells and claiming as many souls as they can for their archdevil masters.
 
@@ -121,7 +123,7 @@ The Nine Hells are a single plane comprising nine separate layers (see the Layer
 
 > [!note] Devil True Names and Talismans
 > 
-> Though devils all have common names, every devil above a lemure in station also has a true name that it keeps secret. A devil can be forced to disclose its true name if [charmed](conditions.md#Charmed), and ancient scrolls and tomes are said to exist that list the true names of certain devils.
+> Though devils all have common names, every devil above a lemure in station also has a true name that it keeps secret. A devil can be forced to disclose its true name if [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), and ancient scrolls and tomes are said to exist that list the true names of certain devils.
 > 
 > A mortal who learns a devil's true name can use powerful summoning magic to call the devil from the Nine Hells and bind it into service. Binding can also be accomplished with the help of a devil talisman. Each of these ancient relics is inscribed with the true name of a devil it controls, and was bathed in the blood of a worthy sacrifice-typically someone the creator loved-when crafted.
 > 
@@ -137,10 +139,10 @@ The Nine Hells are a single plane comprising nine separate layers (see the Layer
 > - A barbed devil has a 30 percent chance of summoning one barbed devil.  
 > - A bearded devil has a 30 percent chance of summoning one bearded devil.  
 > - A bone devil has a 40 percent chance of summoning `2d6` spined devils or one bone devil.  
-> - An erinyes has a 50 percent chance of summoning `3d6` spined devils, `1d6` bearded devils, or one erinyes.  
+> - An erinyes has a 50 percent chance of summoning `3d6` spined devils, `d6` bearded devils, or one erinyes.  
 > - A horned devil has a 30 percent chance of summoning one horned devil.  
 > - An ice devil has a 60 percent chance of summoning one ice devil.  
-> - A pit fiend summons `2d4` bearded devils, `1d4` barbed devils, or one erinyes with no chance of failure.  
+> - A pit fiend summons `2d4` bearded devils, `d4` barbed devils, or one erinyes with no chance of failure.  
 > 
 > A summoned devil appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other devils. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.
 ^variant-devil-summoning
@@ -155,68 +157,68 @@ The Nine Hells are a single plane comprising nine separate layers (see the Layer
 "ac_class": "natural armor"
 "hp": !!int "180"
 "hit_dice": "19d10 + 76"
+"modifier": !!int "2"
 "stats":
-- !!int "21"
-- !!int "14"
-- !!int "18"
-- !!int "18"
-- !!int "15"
-- !!int "18"
+  - !!int "21"
+  - !!int "14"
+  - !!int "18"
+  - !!int "18"
+  - !!int "15"
+  - !!int "18"
 "speed": "40 ft."
 "saves":
-  "Charisma": !!int "9"
-  "Dexterity": !!int "7"
-  "Wisdom": !!int "7"
-  "Constitution": !!int "9"
+  - "dexterity": "+7"
+  - "constitution": "+9"
+  - "wisdom": "+7"
+  - "charisma": "+9"
 "damage_resistances": "bludgeoning, piercing, slashing from nonmagical attacks that\
   \ aren't silvered"
 "damage_immunities": "fire, poison, cold"
-"condition_immunities": "[poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 12"
 "languages": "Infernal, telepathy 120 ft."
 "cr": "14"
 "traits":
-- "desc": "Magical darkness doesn't impede the devil's darkvision."
-  "name": "Devil's Sight"
-- "desc": "The devil has advantage on saving throws against spells and other magical\
-    \ effects."
-  "name": "Magic Resistance"
+  - "desc": "Magical darkness doesn't impede the devil's darkvision."
+    "name": "Devil's Sight"
+  - "desc": "The devil has advantage on saving throws against spells and other magical\
+      \ effects."
+    "name": "Magic Resistance"
 "actions":
-- "desc": "The devil makes three attacks: one with its bite, one with its claws, and\
-    \ one with its tail."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 12\
-    \ (2d6 + 5) piercing damage plus 10 (3d6) cold damage."
-  "name": "Bite"
-- "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 10\
-    \ (2d4 + 5) slashing damage plus 10 (3d6) cold damage."
-  "name": "Claws"
-- "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 12\
-    \ (2d6 + 5) bludgeoning damage plus 10 (3d6) cold damage."
-  "name": "Tail"
-- "desc": "The devil magically forms an opaque wall of ice on a solid surface it can\
-    \ see within 60 feet of it. The wall is 1 foot thick and up to 30 feet long and\
-    \ 10 feet high, or it's a hemispherical dome up to 20 feet in diameter.\n\nWhen\
-    \ the wall appears, each creature in its space is pushed out of it by the shortest\
-    \ route. The creature chooses which side of the wall to end up on, unless the\
-    \ creature is [incapacitated](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated).\
-    \ The creature then makes a DC 17 Dexterity saving throw, taking 35 (10d6) cold\
-    \ damage on a failed save, or half as much damage on a successful one.\n\nThe\
-    \ wall lasts for 1 minute or until the devil is [incapacitated](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)\
-    \ or dies. The wall can be damaged and breached; each 10-foot section has AC 5,\
-    \ 30 hit points, vulnerability to fire damage, and immunity to acid, cold, necrotic,\
-    \ poison, and psychic damage. If a section is destroyed, it leaves behind a sheet\
-    \ of frigid air in the space the wall occupied. Whenever a creature finishes moving\
-    \ through the frigid air on a turn, willingly or otherwise, the creature must\
-    \ make a DC 17 Constitution saving throw, taking 17 (5d6) cold damage on a failed\
-    \ save, or half as much damage on a successful one. The frigid air dissipates\
-    \ when the rest of the wall vanishes."
-  "name": "Wall of Ice (Recharge 6)"
+  - "desc": "The devil makes three attacks: one with its bite, one with its claws,\
+      \ and one with its tail."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit:\
+      \ 12 (2d6 + 5) piercing damage plus 10 (3d6) cold damage."
+    "name": "Bite"
+  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit:\
+      \ 10 (2d4 + 5) slashing damage plus 10 (3d6) cold damage."
+    "name": "Claws"
+  - "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit:\
+      \ 12 (2d6 + 5) bludgeoning damage plus 10 (3d6) cold damage."
+    "name": "Tail"
+  - "desc": "The devil magically forms an opaque wall of ice on a solid surface it\
+      \ can see within 60 feet of it. The wall is 1 foot thick and up to 30 feet long\
+      \ and 10 feet high, or it's a hemispherical dome up to 20 feet in diameter.\n\
+      \nWhen the wall appears, each creature in its space is pushed out of it by the\
+      \ shortest route. The creature chooses which side of the wall to end up on,\
+      \ unless the creature is [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated).\
+      \ The creature then makes a DC 17 Dexterity saving throw, taking 35 (10d6)\
+      \ cold damage on a failed save, or half as much damage on a successful one.\n\
+      \nThe wall lasts for 1 minute or until the devil is [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)\
+      \ or dies. The wall can be damaged and breached; each 10-foot section has AC\
+      \ 5, 30 hit points, vulnerability to fire damage, and immunity to acid, cold,\
+      \ necrotic, poison, and psychic damage. If a section is destroyed, it leaves\
+      \ behind a sheet of frigid air in the space the wall occupied. Whenever a creature\
+      \ finishes moving through the frigid air on a turn, willingly or otherwise,\
+      \ the creature must make a DC 17 Constitution saving throw, taking 17 (5d6)\
+      \ cold damage on a failed save, or half as much damage on a successful one.\
+      \ The frigid air dissipates when the rest of the wall vanishes."
+    "name": "Wall of Ice (Recharge 6)"
 "source":
-- "MM"
-- "BGDIA"
-- "TCE"
-- "SatO"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/fiend/token/ice-devil.webp"
+  - "MM"
+  - "BGDIA"
+  - "TCE"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/token/ice-devil.webp"
 ```
 ^statblock

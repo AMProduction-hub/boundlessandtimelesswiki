@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/tce
-aliases: ["Sovereign Contact"]
+aliases:
+- Sovereign Contact
 ---
 # Sovereign Contact
 *Source: Tasha's Cauldron of Everything p. 102* 

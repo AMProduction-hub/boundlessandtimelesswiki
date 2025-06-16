@@ -3,10 +3,11 @@ obsidianUIMode: preview
 cssclasses: json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
-- ttrpg-cli/race/kobold/dmg
-aliases: ["Kobold (DMG)"]
+- ttrpg-cli/race/kobold
+aliases:
+- Kobold
 ---
-# Kobold (DMG)
+# Kobold
 *Source: Dungeon Master's Guide p. 282*  
 
 
@@ -18,7 +19,7 @@ aliases: ["Kobold (DMG)"]
 
 ### Pack Tactics
 
-You have advantage on an attack roll against a creature if at least one of your allies is within 5 feet of the creature and the ally isn't [incapacitated](conditions.md#Incapacitated).
+You have advantage on an attack roll against a creature if at least one of your allies is within 5 feet of the creature and the ally isn't [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated).
 
 ### Sunlight Sensitivity
 

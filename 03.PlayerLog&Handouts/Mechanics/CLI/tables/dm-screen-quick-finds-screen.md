@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/screen
-aliases: ["DM Screen; Quick Finds"]
+aliases:
+- DM Screen; Quick Finds
 ---
 # DM Screen; Quick Finds
 *Source: Dungeon Master's Screen* 
@@ -17,7 +18,7 @@ aliases: ["DM Screen; Quick Finds"]
 | 1 | Artwork |
 | 2 | Body |
 | 3 | Food or drink |
-| 4 | Jewelery |
+| 4 | Jewelry |
 | 5 | Key |
 | 6 | Letter |
 | 7 | Magic herbs |

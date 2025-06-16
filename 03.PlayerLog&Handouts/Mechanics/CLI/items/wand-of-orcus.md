@@ -12,8 +12,8 @@ aliases:
 - "Wand of Orcus"
 ---
 # Wand of Orcus
-*Weapon ([mace](mace.md)), wand, artifact (requires attunement)*  
-![](wand-of-orcus.webp#right)
+*Weapon ([mace](03.PlayerLog&Handouts/Mechanics/CLI/items/mace.md)), wand, artifact (requires attunement)*  
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/wand-of-orcus.webp#right)
 
 - **Damage**: 1d6 bludgeoning
 - **Weight**: 4.0 lbs.
@@ -22,18 +22,18 @@ The ghastly Wand of Orcus rarely leaves [Orcus's](03.PlayerLog&Handouts/Mechanic
 
 Made from bones as hard as iron, the wand is topped with a magically enlarged skull that once belonged to a human hero slain by [Orcus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/orcus-mpmm.md). The wand can magically change in size to better conform to the grip of its user. Plants wither, drinks spoil, flesh rots, and vermin thrive in the wand's presence.
 
-Any creature besides [Orcus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/orcus-mpmm.md) that tries to attune to the wand must make a DC 17 Constitution saving throw. On a successful save, the creature takes `10d6` necrotic damage. On a failed save, the creature dies and rises as a [zombie](zombie.md).
+Any creature besides [Orcus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/orcus-mpmm.md) that tries to attune to the wand must make a DC 17 Constitution saving throw. On a successful save, the creature takes `10d6` necrotic damage. On a failed save, the creature dies and rises as a [zombie](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/zombie.md).
 
-In the hands of one who is attuned to it, the wand can be wielded as a magic [mace](mace.md) that grants a +3 bonus to attack and damage rolls made with it. The wand deals an extra `2d12` necrotic damage on a hit.
+In the hands of one who is attuned to it, the wand can be wielded as a magic [mace](03.PlayerLog&Handouts/Mechanics/CLI/items/mace.md) that grants a +3 bonus to attack and damage rolls made with it. The wand deals an extra `2d12` necrotic damage on a hit.
 
 ## Random Properties
 
 The Wand of Orcus has the following random properties:
 
-- 2 [minor beneficial properties](artifact-properties-minor-beneficial-properties.md)  
-- 1 [major beneficial property](artifact-properties-major-beneficial-properties.md)  
-- 2 [minor detrimental properties](artifact-properties-minor-detrimental-properties.md)  
-- 1 [major detrimental property](artifact-properties-major-detrimental-properties.md)  
+- 2 [minor beneficial properties](03.PlayerLog&Handouts/Mechanics/CLI/tables/artifact-properties-minor-beneficial-properties.md)  
+- 1 [major beneficial property](03.PlayerLog&Handouts/Mechanics/CLI/tables/artifact-properties-major-beneficial-properties.md)  
+- 2 [minor detrimental properties](03.PlayerLog&Handouts/Mechanics/CLI/tables/artifact-properties-minor-detrimental-properties.md)  
+- 1 [major detrimental property](03.PlayerLog&Handouts/Mechanics/CLI/tables/artifact-properties-major-detrimental-properties.md)  
 
 The detrimental properties of the Wand of Orcus are suppressed while the wand is attuned to [Orcus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/orcus-mpmm.md) himself.
 
@@ -43,19 +43,19 @@ You gain a +3 bonus to Armor Class while holding the wand.
 
 ## Spells
 
-The wand has 7 charges. While holding it, you can use an action and expend 1 or more of its charges to cast one of the following spells (save DC 18) from it: [animate dead](animate-dead.md) (1 charge), [blight](blight.md) (2 charges), [circle of death](circle-of-death.md) (3 charges), [finger of death](finger-of-death.md) (3 charges), [power word kill](power-word-kill.md) (4 charges), or [speak with dead](speak-with-dead.md) (1 charge). The wand regains `1d4 + 3` expended charges daily at dawn.
+The wand has 7 charges. While holding it, you can use an action and expend 1 or more of its charges to cast one of the following spells (save DC 18) from it: [animate dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-dead.md) (1 charge), [blight](03.PlayerLog&Handouts/Mechanics/CLI/spells/blight.md) (2 charges), [circle of death](03.PlayerLog&Handouts/Mechanics/CLI/spells/circle-of-death.md) (3 charges), [finger of death](03.PlayerLog&Handouts/Mechanics/CLI/spells/finger-of-death.md) (3 charges), [power word kill](03.PlayerLog&Handouts/Mechanics/CLI/spells/power-word-kill.md) (4 charges), or [speak with dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/speak-with-dead.md) (1 charge). The wand regains `1d4 + 3` expended charges daily at dawn.
 
 While attuned to the wand, [Orcus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/orcus-mpmm.md) or a follower blessed by him can cast each of the wand's spells using 2 fewer charges (minimum of 0).
 
 ## Call Undead
 
-While you are holding the wand, you can use an action to conjure [skeletons](skeleton.md) and [zombies](zombie.md), calling forth as many of them as you can divide 500 hit points among, each undead having average hit points. The undead magically rise up from the ground or otherwise form in unoccupied spaces within 300 feet of you and obey your commands until they are destroyed or until dawn of the next day, when they collapse into inanimate piles of bones and rotting corpses. Once you use this property of the wand, you can't use it again until the next dawn.
+While you are holding the wand, you can use an action to conjure [skeletons](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/skeleton.md) and [zombies](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/zombie.md), calling forth as many of them as you can divide 500 hit points among, each undead having average hit points. The undead magically rise up from the ground or otherwise form in unoccupied spaces within 300 feet of you and obey your commands until they are destroyed or until dawn of the next day, when they collapse into inanimate piles of bones and rotting corpses. Once you use this property of the wand, you can't use it again until the next dawn.
 
 While attuned to the wand, [Orcus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/orcus-mpmm.md) can summon any kind of undead, not just skeletons and zombies. The undead don't perish or disappear at dawn the following day, remaining until [Orcus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/orcus-mpmm.md) dismisses them.
 
 ## Sentience
 
-The Wand of Orcus is a sentient, chaotic evil item with an Intelligence of 16, a Wisdom of 12, and a Charisma of 16. It has hearing and [darkvision](senses.md#Darkvision) out to a range of 120 feet.
+The Wand of Orcus is a sentient, chaotic evil item with an Intelligence of 16, a Wisdom of 12, and a Charisma of 16. It has hearing and [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision) out to a range of 120 feet.
 
 The wand communicates telepathically with its wielder and can speak, read, and understand Abyssal and Common.
 

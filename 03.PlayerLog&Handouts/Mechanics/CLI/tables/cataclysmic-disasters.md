@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
-aliases: ["Cataclysmic Disasters"]
+aliases:
+- Cataclysmic Disasters
 ---
 # Cataclysmic Disasters
 *Source: Dungeon Master's Guide p. 28* 

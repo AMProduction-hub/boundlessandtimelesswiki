@@ -11,7 +11,7 @@ aliases:
 ---
 # Elven Chain
 *Medium armor, major, rare*  
-![](elven-chain.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/elven-chain.webp#right)
 
 - **Armor Class**: 13 + Dex modifier (max of +2)
 - **Weight**: 20.0 lbs.

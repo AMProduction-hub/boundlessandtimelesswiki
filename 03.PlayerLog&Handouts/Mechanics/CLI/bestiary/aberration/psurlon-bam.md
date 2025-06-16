@@ -7,9 +7,11 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/aberration
 statblock: inline
-aliases: ["Psurlon"]
+statblock-link: "#^statblock"
+aliases:
+- Psurlon
 ---
-# [Psurlon](03 - Player Log & Handouts\Mechanics\CLI\bestiary\aberration/psurlon-bam.md)
+# [Psurlon](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\aberration/psurlon-bam.md)
 *Source: Boo's Astral Menagerie p. 44, Light of Xaryxis*  
 
 Psurlons are malevolent, wormlike creatures that live on the Astral Plane. A fully grown specimen is 7 feet long. They have legs that end in hooves and arms that end in hands with three long fingers. A psurlon's eyeless head resembles that of an earthworm, capped by a maw ringed with teeth. Psurlons adorn themselves in richly colored robes and rarely wear armor or carry weapons.
@@ -26,49 +28,49 @@ When a psurlon dies, other psurlons store the corpse in a safe place. As the cor
 "type": "aberration"
 "alignment": "typically  Lawful Evil"
 "ac": !!int "15"
-"ac_class": "[mage armor](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/mage-armor.md)"
+"ac_class": "[mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md)"
 "hp": !!int "45"
 "hit_dice": "7d8 + 14"
+"modifier": !!int "2"
 "stats":
-- !!int "14"
-- !!int "14"
-- !!int "14"
-- !!int "17"
-- !!int "11"
-- !!int "7"
+  - !!int "14"
+  - !!int "14"
+  - !!int "14"
+  - !!int "17"
+  - !!int "11"
+  - !!int "7"
 "speed": "30 ft."
 "damage_resistances": "psychic"
-"condition_immunities": "[blinded](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Blinded),\
-  \ [charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed)"
+"condition_immunities": "[blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded),\
+  \ [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)"
 "senses": "blindsight 120 ft. (blind beyond this radius), passive Perception 10"
 "languages": "Deep Speech, telepathy 120 ft."
 "cr": "2"
 "traits":
-- "desc": "The psurlon casts one of the following spells, requiring no spell components\
-    \ and using Intelligence as the spellcasting ability (spell save DC 13):\n\n1/day:\
-    \ [suggestion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/suggestion.md)\n\
-    \n2/day each: [disguise self](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/disguise-self.md),\
-    \ [mage armor](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/mage-armor.md)\
-    \ (self only)"
-  "name": "Spellcasting (Psionics)"
-- "desc": "Magic can't read the psurlon's thoughts or put the psurlon to sleep."
-  "name": "Aberrant Mind"
+  - "desc": "Magic can't read the psurlon's thoughts or put the psurlon to sleep."
+    "name": "Aberrant Mind"
 "actions":
-- "desc": "The psurlon makes one Bite attack and two Claw attacks."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 6\
-    \ (1d8 + 2) piercing damage."
-  "name": "Bite"
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4\
-    \ + 2) slashing damage."
-  "name": "Claw"
-- "desc": "The psurlon targets one creature it can see within 120 feet of itself.\
-    \ The target must make a DC 13 Wisdom saving throw, taking 14 (2d10 + 3) psychic\
-    \ damage on a failed save, or half as much damage on a successful one."
-  "name": "Psychic Crush"
+  - "desc": "The psurlon makes one Bite attack and two Claw attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit:\
+      \ 6 (1d8 + 2) piercing damage."
+    "name": "Bite"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4\
+      \ (1d4 + 2) slashing damage."
+    "name": "Claw"
+  - "desc": "The psurlon targets one creature it can see within 120 feet of itself.\
+      \ The target must make a DC 13 Wisdom saving throw, taking 14 (2d10 + 3) psychic\
+      \ damage on a failed save, or half as much damage on a successful one."
+    "name": "Psychic Crush"
+  - "desc": "The psurlon casts one of the following spells, requiring no spell components\
+      \ and using Intelligence as the spellcasting ability (spell save DC 13):\n\n\
+      2/day each: [disguise self](03.PlayerLog&Handouts/Mechanics/CLI/spells/disguise-self.md),\
+      \ [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md) (self\
+      \ only)\n\n1/day: [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md)"
+    "name": "Spellcasting (Psionics)"
 "source":
-- "BAM"
-- "LoX"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/aberration/token/psurlon-bam.webp"
+  - "BAM"
+  - "LoX"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/token/psurlon-bam.webp"
 ```
 ^statblock

@@ -11,10 +11,12 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/beast
 statblock: inline
-aliases: ["Constrictor Snake"]
+statblock-link: "#^statblock"
+aliases:
+- Constrictor Snake
 ---
-# [Constrictor Snake](03 - Player Log & Handouts\Mechanics\CLI\bestiary\beast/constrictor-snake.md)
-*Source: Monster Manual p. 320. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Constrictor Snake](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/constrictor-snake.md)
+*Source: Monster Manual p. 320, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 ```statblock
 "name": "Constrictor Snake"
@@ -24,29 +26,33 @@ aliases: ["Constrictor Snake"]
 "ac": !!int "12"
 "hp": !!int "13"
 "hit_dice": "2d10 + 2"
+"modifier": !!int "2"
 "stats":
-- !!int "15"
-- !!int "14"
-- !!int "12"
-- !!int "1"
-- !!int "10"
-- !!int "3"
+  - !!int "15"
+  - !!int "14"
+  - !!int "12"
+  - !!int "1"
+  - !!int "10"
+  - !!int "3"
 "speed": "30 ft., swim 30 ft."
 "senses": "blindsight 10 ft., passive Perception 10"
 "languages": ""
 "cr": "1/4"
 "actions":
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5\
-    \ (1d6 + 2) piercing damage."
-  "name": "Bite"
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 6\
-    \ (1d8 + 2) bludgeoning damage, and the target is [grappled](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
-    \ (escape DC 14). Until this grapple ends, the creature is [restrained](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
-    \ and the snake can't constrict another target."
-  "name": "Constrict"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit:\
+      \ 5 (1d6 + 2) piercing damage."
+    "name": "Bite"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit:\
+      \ 6 (1d8 + 2) bludgeoning damage, and the target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
+      \ (escape DC 14). Until this grapple ends, the creature is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
+      \ and the snake can't constrict another target."
+    "name": "Constrict"
 "source":
-- "MM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/beast/token/constrictor-snake.webp"
+  - "MM"
+  - "TftYP"
+  - "ToA"
+  - "WDMM"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/constrictor-snake.webp"
 ```
 ^statblock
 

@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
-aliases: ["Creating a Gnoll War Band; War Band Leadership"]
+aliases:
+- Creating a Gnoll War Band; War Band Leadership
 ---
 # Creating a Gnoll War Band; War Band Leadership
 *Source: Volo's Guide to Monsters p. 39* 

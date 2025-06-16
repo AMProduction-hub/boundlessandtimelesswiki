@@ -3,10 +3,11 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/spell/list/reward/boon-of-dimensional-travel
-aliases: ["Spells for Boon of Dimensional Travel"]
+aliases:
+- Spells for Boon of Dimensional Travel
 ---
 # Spells for Boon of Dimensional Travel
 
 ## 2nd Level
 
-- [Misty Step](misty-step.md "PHB")
+- [Misty Step](03.PlayerLog&Handouts/Mechanics/CLI/spells/misty-step.md "PHB")

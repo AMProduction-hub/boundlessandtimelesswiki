@@ -18,7 +18,8 @@ classes:
 - Sorcerer
 - Warlock
 - Wizard
-aliases: ["Sickening Radiance"]
+aliases:
+- Sickening Radiance
 ---
 # Sickening Radiance
 *4th-level, Evocation*  
@@ -31,8 +32,8 @@ aliases: ["Sickening Radiance"]
 
 Dim, greenish light spreads within a 30-foot-radius sphere centered on a point you choose within range. The light spreads around corners, and it lasts until the spell ends.
 
-When a creature moves into the spell's area for the first time on a turn or starts its turn there, that creature must succeed on a Constitution saving throw or take `4d10` radiant damage, and it suffers one level of [exhaustion](conditions.md#Exhaustion) and emits a dim, greenish light in a 5-foot radius. This light makes it impossible for the creature to benefit from being [invisible](conditions.md#Invisible). The light and any levels of [exhaustion](conditions.md#Exhaustion) caused by this spell go away when the spell ends.
+When a creature moves into the spell's area for the first time on a turn or starts its turn there, that creature must succeed on a Constitution saving throw or take `4d10` radiant damage, and it suffers one level of [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion) and emits a dim, greenish light in a 5-foot radius. This light makes it impossible for the creature to benefit from being [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible). The light and any levels of [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion) caused by this spell go away when the spell ends.
 
-**Classes**: [Rogue (Arcane Trickster)](list-spells-classes-rogue-arcane-trickster.md); [Bard](list-spells-classes-bard.md); [Wizard](list-spells-classes-wizard.md); [Fighter (Eldritch Knight)](list-spells-classes-fighter-eldritch-knight.md); [Sorcerer](list-spells-classes-sorcerer.md); [Warlock](list-spells-classes-warlock.md)
+**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md)
 
 *Source: Xanathar's Guide to Everything p. 164*

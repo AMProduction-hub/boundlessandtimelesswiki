@@ -4,10 +4,11 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 - ttrpg-cli/subclass/paladin/redemption
-aliases: ["Oath of Redemption"]
+aliases:
+- Oath of Redemption
 ---
 # Oath of Redemption
-*[Paladin](paladin.md): Sacred Oath*  
+*[Paladin](./paladin.md): Sacred Oath*  
 *Source: Xanathar's Guide to Everything p. 38*  
 
 > [!tldr] Class and Feature Progression
@@ -41,6 +42,10 @@ aliases: ["Oath of Redemption"]
 
 ^class-progression
 
+
+> [!quote] A quote from Xanathar  
+> 
+> Redemption. So you feel bad about having done something, and then you have to do something to feel better? Why don't you just kill and eat someone? That always makes me feel better.
 
 ## Class Features
 
@@ -82,11 +87,11 @@ You gain oath spells at the paladin levels listed.
 
 | Paladin Level | Spells |
 |---------------|--------|
-| 3rd | [sanctuary](sanctuary.md), [sleep](sleep.md) |
-| 5th | [calm emotions](calm-emotions.md), [hold person](hold-person.md) |
-| 9th | [counterspell](03.PlayerLog&Handouts/Mechanics/CLI/spells/counterspell.md), [hypnotic pattern](hypnotic-pattern.md) |
-| 13th | [Otiluke's resilient sphere](otilukes-resilient-sphere.md), [stoneskin](stoneskin.md) |
-| 17th | [hold monster](hold-monster.md), [wall of force](wall-of-force.md) |
+| 3rd | [sanctuary](03.PlayerLog&Handouts/Mechanics/CLI/spells/sanctuary.md), [sleep](03.PlayerLog&Handouts/Mechanics/CLI/spells/sleep.md) |
+| 5th | [calm emotions](03.PlayerLog&Handouts/Mechanics/CLI/spells/calm-emotions.md), [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md) |
+| 9th | [counterspell](03.PlayerLog&Handouts/Mechanics/CLI/spells/counterspell.md), [hypnotic pattern](03.PlayerLog&Handouts/Mechanics/CLI/spells/hypnotic-pattern.md) |
+| 13th | [Otiluke's resilient sphere](03.PlayerLog&Handouts/Mechanics/CLI/spells/otilukes-resilient-sphere.md), [stoneskin](03.PlayerLog&Handouts/Mechanics/CLI/spells/stoneskin.md) |
+| 17th | [hold monster](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-monster.md), [wall of force](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-force.md) |
 ^oath-of-redemption-spells
 
 ### Channel Divinity (Level 3)
@@ -109,7 +114,7 @@ At 18th level, the range of this aura increases to 30 feet.
 
 ### Protective Spirit (Level 15)
 
-Starting at 15th level, a holy presence mends your wounds in battle. You regain hit points equal to `1d6` + half your paladin level if you end your turn in combat with fewer than half of your hit points remaining and you aren't [incapacitated](conditions.md#Incapacitated).
+Starting at 15th level, a holy presence mends your wounds in battle. You regain hit points equal to `d6` + half your paladin level if you end your turn in combat with fewer than half of your hit points remaining and you aren't [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated).
 
 ### Emissary of Redemption (Level 20)
 

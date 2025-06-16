@@ -3,6 +3,7 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
+- ttrpg-cli/spell/background/gruul-anarch
 - ttrpg-cli/spell/class/artificer
 - ttrpg-cli/spell/class/bard
 - ttrpg-cli/spell/class/druid
@@ -33,7 +34,8 @@ classes:
 - Rogue (Arcane Trickster)
 - Sorcerer
 - Wizard
-aliases: ["Stoneskin"]
+aliases:
+- Stoneskin
 ---
 # Stoneskin
 *4th-level, Abjuration*  
@@ -46,6 +48,6 @@ aliases: ["Stoneskin"]
 
 This spell turns the flesh of a willing creature you touch as hard as stone. Until the spell ends, the target has resistance to nonmagical bludgeoning, piercing, and slashing damage.
 
-**Classes**: [Druid](list-spells-classes-druid.md); [Artificer](list-spells-classes-artificer.md); [Druid (Circle of the Land)](list-spells-classes-druid-circle-of-the-land.md); [Paladin (Oath of Conquest)](list-spells-classes-paladin-oath-of-conquest-xge.md "subclass=XGE"); [Bard](list-spells-classes-bard.md); [Paladin (Oath of the Ancients)](list-spells-classes-paladin-oath-of-the-ancients.md); [Ranger](list-spells-classes-ranger.md); [Fighter (Eldritch Knight)](list-spells-classes-fighter-eldritch-knight.md); [Sorcerer](list-spells-classes-sorcerer.md); [Rogue (Arcane Trickster)](list-spells-classes-rogue-arcane-trickster.md); [Wizard](list-spells-classes-wizard.md); [Paladin (Oath of Redemption)](list-spells-classes-paladin-oath-of-redemption-xge.md "subclass=XGE"); [Cleric (War Domain)](list-spells-classes-cleric-war-domain.md)
+**Classes**: [Artificer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-artificer.md); [Paladin (Oath of the Ancients)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-the-ancients.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Paladin (Oath of Conquest)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-conquest-xge.md "subclass=XGE"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Paladin (Oath of Redemption)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-redemption-xge.md "subclass=XGE"); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Ranger](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-ranger.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Druid (Circle of the Land)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-circle-of-the-land.md); [Cleric (War Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-war-domain.md)
 
 *Source: Player's Handbook p. 278. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*

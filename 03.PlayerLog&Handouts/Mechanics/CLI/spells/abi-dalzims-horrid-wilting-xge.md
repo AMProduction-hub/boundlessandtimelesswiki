@@ -14,7 +14,8 @@ classes:
 - Cleric (Arcana Domain)
 - Sorcerer
 - Wizard
-aliases: ["Abi-Dalzim's Horrid Wilting"]
+aliases:
+- Abi-Dalzim's Horrid Wilting
 ---
 # Abi-Dalzim's Horrid Wilting
 *8th-level, Necromancy*  
@@ -29,6 +30,6 @@ You draw the moisture from every creature in a 30-foot cube centered on a point 
 
 Nonmagical plants in the area that aren't creatures, such as trees and shrubs, wither and die instantly.
 
-**Classes**: [Bard](list-spells-classes-bard.md); [Wizard](list-spells-classes-wizard.md); [Sorcerer](list-spells-classes-sorcerer.md); [Cleric (Arcana Domain)](list-spells-classes-cleric-arcana-domain-scag.md "subclass=SCAG")
+**Classes**: [Cleric (Arcana Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcana-domain-scag.md "subclass=SCAG"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
-*Source: Xanathar's Guide to Everything p. 150*
+*Source: Xanathar's Guide to Everything p. 150, Elemental Evil Player's Companion p. 15*

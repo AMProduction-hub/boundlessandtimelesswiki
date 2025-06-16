@@ -26,7 +26,8 @@ classes:
 - Rogue (Arcane Trickster)
 - Sorcerer
 - Wizard
-aliases: ["Ice Storm"]
+aliases:
+- Ice Storm
 ---
 # Ice Storm
 *4th-level, Evocation*  
@@ -41,8 +42,8 @@ A hail of rock-hard ice pounds to the ground in a 20-foot-radius, 40-foot-high c
 
 Hailstones turn the storm's area of effect into difficult terrain until the end of your next turn.
 
-**At Higher Levels.** When you cast this spell using a spell slot of 5th level or higher, the bludgeoning damage increases by `1d8` for each slot level above 4th.
+**At Higher Levels.** When you cast this spell using a spell slot of 5th level or higher, the bludgeoning damage increases by `d8` for each slot level above 4th.
 
-**Classes**: [Druid](list-spells-classes-druid.md); [Druid (Circle of the Land)](list-spells-classes-druid-circle-of-the-land.md); [Rogue (Arcane Trickster)](list-spells-classes-rogue-arcane-trickster.md); [Cleric (Tempest Domain)](list-spells-classes-cleric-tempest-domain.md); [Artificer (Artillerist)](list-spells-classes-artificer-artillerist-tce.md "subclass=TCE;class=TCE"); [Bard](list-spells-classes-bard.md); [Wizard](list-spells-classes-wizard.md); [Paladin (Oath of the Ancients)](list-spells-classes-paladin-oath-of-the-ancients.md); [Fighter (Eldritch Knight)](list-spells-classes-fighter-eldritch-knight.md); [Sorcerer](list-spells-classes-sorcerer.md)
+**Classes**: [Cleric (Tempest Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-tempest-domain.md); [Artificer (Artillerist)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-artillerist-tce.md "subclass=TCE;class=TCE"); [Paladin (Oath of the Ancients)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-the-ancients.md); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Druid (Circle of the Land)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-circle-of-the-land.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md)
 
 *Source: Player's Handbook p. 252. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*

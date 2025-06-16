@@ -6,7 +6,8 @@ tags:
 - ttrpg-cli/deity/dwarven
 - ttrpg-cli/domain/forge
 - ttrpg-cli/domain/light
-aliases: ["Tharmekhûl"]
+aliases: 
+- Tharmekhûl
 ---
 # Tharmekhûl
 *Source: Mordenkainen's Tome of Foes p. 73* 

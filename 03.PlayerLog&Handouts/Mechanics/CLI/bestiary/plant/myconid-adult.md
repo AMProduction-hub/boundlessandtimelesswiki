@@ -8,10 +8,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/plant
 statblock: inline
-aliases: ["Myconid Adult"]
+statblock-link: "#^statblock"
+aliases:
+- Myconid Adult
 ---
-# [Myconid Adult](03 - Player Log & Handouts\Mechanics\CLI\bestiary\plant/myconid-adult.md)
-*Source: Monster Manual p. 232*  
+# [Myconid Adult](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\plant/myconid-adult.md)
+*Source: Monster Manual p. 232, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Keys from the Golden Vault*  
 
 Myconids are intelligent, ambulatory fungi that live in the Underdark, seek enlightenment, and deplore violence. If approached peacefully, myconids gladly provide shelter or allow safe passage through their colonies.
 
@@ -34,43 +36,47 @@ Like other fungi, myconids reproduce by mundane sporing. They carefully control 
 "ac_class": "natural armor"
 "hp": !!int "22"
 "hit_dice": "4d8 + 4"
+"modifier": !!int "0"
 "stats":
-- !!int "10"
-- !!int "10"
-- !!int "12"
-- !!int "10"
-- !!int "13"
-- !!int "7"
+  - !!int "10"
+  - !!int "10"
+  - !!int "12"
+  - !!int "10"
+  - !!int "13"
+  - !!int "7"
 "speed": "20 ft."
 "senses": "darkvision 120 ft., passive Perception 11"
 "languages": ""
 "cr": "1/2"
 "traits":
-- "desc": "When the myconid takes damage, all other myconids within 240 feet of it\
-    \ can sense its pain."
-  "name": "Distress Spores"
-- "desc": "While in sunlight, the myconid has disadvantage on ability checks, attack\
-    \ rolls, and saving throws. The myconid dies if it spends more than 1 hour in\
-    \ direct sunlight."
-  "name": "Sun Sickness"
+  - "desc": "When the myconid takes damage, all other myconids within 240 feet of\
+      \ it can sense its pain."
+    "name": "Distress Spores"
+  - "desc": "While in sunlight, the myconid has disadvantage on ability checks, attack\
+      \ rolls, and saving throws. The myconid dies if it spends more than 1 hour in\
+      \ direct sunlight."
+    "name": "Sun Sickness"
 "actions":
-- "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 5 (2d4)\
-    \ bludgeoning damage plus 5 (2d4) poison damage."
-  "name": "Fist"
-- "desc": "The myconid ejects spores at one creature it can see within 5 feet of it.\
-    \ The target must succeed on a DC 11 Constitution saving throw or be [stunned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Stunned)\
-    \ for 1 minute. The target can repeat the saving throw at the end of each of its\
-    \ turns, ending the effect on itself on a success."
-  "name": "Pacifying Spores (3/Day)"
-- "desc": "A 20-foot radius of spores extends from the myconid. These spores can go\
-    \ around corners and affect only creatures with an Intelligence of 2 or higher\
-    \ that aren't undead, constructs, or elementals. Affected creatures can communicate\
-    \ telepathically with one another while they are within 30 feet of each other.\
-    \ The effect lasts for 1 hour."
-  "name": "Rapport Spores"
+  - "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 5\
+      \ (2d4) bludgeoning damage plus 5 (2d4) poison damage."
+    "name": "Fist"
+  - "desc": "The myconid ejects spores at one creature it can see within 5 feet of\
+      \ it. The target must succeed on a DC 11 Constitution saving throw or be [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)\
+      \ for 1 minute. The target can repeat the saving throw at the end of each of\
+      \ its turns, ending the effect on itself on a success."
+    "name": "Pacifying Spores (3/Day)"
+  - "desc": "A 20-foot radius of spores extends from the myconid. These spores can\
+      \ go around corners and affect only creatures with an Intelligence of 2 or higher\
+      \ that aren't undead, constructs, or elementals. Affected creatures can communicate\
+      \ telepathically with one another while they are within 30 feet of each other.\
+      \ The effect lasts for 1 hour."
+    "name": "Rapport Spores"
 "source":
-- "MM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/plant/token/myconid-adult.webp"
+  - "MM"
+  - "WDMM"
+  - "GoS"
+  - "KftGV"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/token/myconid-adult.webp"
 ```
 ^statblock
 

@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-deck
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
-aliases: ["Deck of Many Things"]
+aliases:
+- Deck of Many Things
 ---
 # Deck of Many Things
 *Source: Dungeon Master's Guide p. 162. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
@@ -53,89 +54,89 @@ In the case of the [Rogue](03.PlayerLog&Handouts/Mechanics/CLI/decks/deck-of-man
 ## Cards
 
 ### Vizier
-![](deck-of-many-things-01-vizier.webp#card)
+![](03.PlayerLog&Handouts/Mechanics/CLI/decks/img/deck-of-many-things-01-vizier.webp#card)
 At any time you choose within one year of drawing this card, you can ask a question in meditation and mentally receive a truthful answer to that question. Besides information, the answer helps you solve a puzzling problem or other dilemma. In other words, the knowledge comes with wisdom on how to apply it.
 
 ### Sun
-![](deck-of-many-things-02-sun.webp#card)
+![](03.PlayerLog&Handouts/Mechanics/CLI/decks/img/deck-of-many-things-02-sun.webp#card)
 You gain 50,000 XP, and a wondrous item (which the DM determines randomly) appears in your hands.
 
 ### Moon
-![](deck-of-many-things-03-moon.webp#card)
-You are granted the ability to cast the [wish](03.PlayerLog&Handouts/Mechanics/CLI/spells/wish.md) spell `1d3` times.
+![](03.PlayerLog&Handouts/Mechanics/CLI/decks/img/deck-of-many-things-03-moon.webp#card)
+You are granted the ability to cast the [wish](03.PlayerLog&Handouts/Mechanics/CLI/spells/wish.md) spell `d3` times.
 
 ### Star
-![](deck-of-many-things-04-star.webp#card)
+![](03.PlayerLog&Handouts/Mechanics/CLI/decks/img/deck-of-many-things-04-star.webp#card)
 Increase one of your ability scores by 2. The score can exceed 20 but can't exceed 24.
 
 ### Comet
-![](deck-of-many-things-05-comet.webp#card)
+![](03.PlayerLog&Handouts/Mechanics/CLI/decks/img/deck-of-many-things-05-comet.webp#card)
 If you single-handedly defeat the next hostile monster or group of monsters you encounter, you gain experience points enough to gain one level. Otherwise, this card has no effect.
 
 ### The Fates
-![](deck-of-many-things-06-fates.webp#card)
+![](03.PlayerLog&Handouts/Mechanics/CLI/decks/img/deck-of-many-things-06-fates.webp#card)
 Reality's fabric unravels and spins anew, allowing you to avoid or erase one event as if it never happened. You can use the card's magic as soon as you draw the card or at any other time before you die.
 
 ### Throne
-![](deck-of-many-things-07-throne.webp#card)
+![](03.PlayerLog&Handouts/Mechanics/CLI/decks/img/deck-of-many-things-07-throne.webp#card)
 You gain proficiency in the [Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion) skill, and you double your proficiency bonus on checks made with that skill. In addition, you gain rightful ownership of a small keep somewhere in the world. However, the keep is currently in the hands of monsters, which you must clear out before you can claim the keep as yours.
 
 ### Key
-![](deck-of-many-things-08-key.webp#card)
+![](03.PlayerLog&Handouts/Mechanics/CLI/decks/img/deck-of-many-things-08-key.webp#card)
 A rare or rarer magic weapon with which you are proficient appears in your hands. The DM chooses the weapon.
 
 ### Knight
-![](deck-of-many-things-09-knight.webp#card)
+![](03.PlayerLog&Handouts/Mechanics/CLI/decks/img/deck-of-many-things-09-knight.webp#card)
 You gain the service of a 4th-level fighter who appears in a space you choose within 30 feet of you. The fighter is of the same race as you and serves you loyally until death, believing the fates have drawn him or her to you. You control this character.
 
 ### Gem
-![](deck-of-many-things-10-gem.webp#card)
+![](03.PlayerLog&Handouts/Mechanics/CLI/decks/img/deck-of-many-things-10-gem.webp#card)
 Twenty-five pieces of jewelry worth 2,000 gp each or fifty gems worth 1,000 gp each appear at your feet.
 
 ### Talons
-![](deck-of-many-things-11-talons.webp#card)
+![](03.PlayerLog&Handouts/Mechanics/CLI/decks/img/deck-of-many-things-11-talons.webp#card)
 Every magic item you wear or carry disintegrates. Artifacts in your possession aren't destroyed but do vanish.
 
 ### The Void
-![](deck-of-many-things-12-void.webp#card)
-This black card spells disaster. Your soul is drawn from your body and contained in an object in a place of the DM's choice. One or more powerful beings guard the place. While your soul is trapped in this way, your body is [incapacitated](conditions.md#Incapacitated). A [wish](03.PlayerLog&Handouts/Mechanics/CLI/spells/wish.md) spell can't restore your soul, but the spell reveals the location of the object that holds it. You draw no more cards.
+![](03.PlayerLog&Handouts/Mechanics/CLI/decks/img/deck-of-many-things-12-void.webp#card)
+This black card spells disaster. Your soul is drawn from your body and contained in an object in a place of the DM's choice. One or more powerful beings guard the place. While your soul is trapped in this way, your body is [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated). A [wish](03.PlayerLog&Handouts/Mechanics/CLI/spells/wish.md) spell can't restore your soul, but the spell reveals the location of the object that holds it. You draw no more cards.
 
 ### Flames
-![](deck-of-many-things-13-flames.webp#card)
+![](03.PlayerLog&Handouts/Mechanics/CLI/decks/img/deck-of-many-things-13-flames.webp#card)
 A powerful devil becomes your enemy. The devil seeks your ruin and plagues your life, savoring your suffering before attempting to slay you. This enmity lasts until either you or the devil dies.
 
 ### Skull
-![](deck-of-many-things-14-skull.webp#card)
-You summon an [avatar of death](avatar-of-death-dmg.md)—a ghostly humanoid skeleton clad in a tattered black robe and carrying a spectral scythe. It appears in a space of the DM's choice within 10 feet of you and attacks you, warning all others that you must win the battle alone. The avatar fights until you die or it drops to 0 hit points, whereupon it disappears. If anyone tries to help you, the helper summons its own [avatar of death](avatar-of-death-dmg.md). A creature slain by an [avatar of death](avatar-of-death-dmg.md) can't be restored to life.
+![](03.PlayerLog&Handouts/Mechanics/CLI/decks/img/deck-of-many-things-14-skull.webp#card)
+You summon an [avatar of death](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/avatar-of-death-dmg.md)—a ghostly humanoid skeleton clad in a tattered black robe and carrying a spectral scythe. It appears in a space of the DM's choice within 10 feet of you and attacks you, warning all others that you must win the battle alone. The avatar fights until you die or it drops to 0 hit points, whereupon it disappears. If anyone tries to help you, the helper summons its own [avatar of death](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/avatar-of-death-dmg.md). A creature slain by an [avatar of death](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/avatar-of-death-dmg.md) can't be restored to life.
 
 ### Idiot
-![](deck-of-many-things-15-idiot.webp#card)
+![](03.PlayerLog&Handouts/Mechanics/CLI/decks/img/deck-of-many-things-15-idiot.webp#card)
 Permanently reduce your Intelligence by `1d4 + 1` (to a minimum score of 1). You can draw one additional card beyond your declared draws.
 
 ### Donjon
-![](deck-of-many-things-16-donjon.webp#card)
+![](03.PlayerLog&Handouts/Mechanics/CLI/decks/img/deck-of-many-things-16-donjon.webp#card)
 You disappear and become entombed in a state of suspended animation in an extradimensional sphere. Everything you were wearing and carrying stays behind in the space you occupied when you disappeared. You remain imprisoned until you are found and removed from the sphere. You can't be located by any divination magic, but a [wish](03.PlayerLog&Handouts/Mechanics/CLI/spells/wish.md) spell can reveal the location of your prison. You draw no more cards.
 
 ### Ruin
-![](deck-of-many-things-17-ruin.webp#card)
+![](03.PlayerLog&Handouts/Mechanics/CLI/decks/img/deck-of-many-things-17-ruin.webp#card)
 All forms of wealth that you carry or own, other than magic items, are lost to you. Portable property vanishes. Businesses, buildings, and land you own are lost in a way that alters reality the least. Any documentation that proves you should own something lost to this card also disappears.
 
 ### Euryale
-![](deck-of-many-things-18-euryale.webp#card)
-The card's [medusa](medusa.md)-like visage curses you. You take a −2 penalty on saving throws while cursed in this way. Only a god or the magic of [The Fates](03.PlayerLog&Handouts/Mechanics/CLI/decks/deck-of-many-things.md#The%20Fates) card can end this curse.
+![](03.PlayerLog&Handouts/Mechanics/CLI/decks/img/deck-of-many-things-18-euryale.webp#card)
+The card's [medusa](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/medusa.md)-like visage curses you. You take a −2 penalty on saving throws while cursed in this way. Only a god or the magic of [The Fates](03.PlayerLog&Handouts/Mechanics/CLI/decks/deck-of-many-things.md#The%20Fates) card can end this curse.
 
 ### Rogue
-![](deck-of-many-things-19-rogue.webp#card)
+![](03.PlayerLog&Handouts/Mechanics/CLI/decks/img/deck-of-many-things-19-rogue.webp#card)
 A nonplayer character of the DM's choice becomes hostile toward you. The identity of your new enemy isn't known until the NPC or someone else reveals it. Nothing less than a [wish](03.PlayerLog&Handouts/Mechanics/CLI/spells/wish.md) spell or divine intervention can end the NPC's hostility toward you.
 
 ### Balance
-![](deck-of-many-things-20-balance.webp#card)
+![](03.PlayerLog&Handouts/Mechanics/CLI/decks/img/deck-of-many-things-20-balance.webp#card)
 Your mind suffers a wrenching alteration, causing your alignment to change. Lawful becomes chaotic, good becomes evil, and vice versa. If you are true neutral or unaligned, this card has no effect on you.
 
 ### Fool
-![](deck-of-many-things-21-fool.webp#card)
+![](03.PlayerLog&Handouts/Mechanics/CLI/decks/img/deck-of-many-things-21-fool.webp#card)
 You lose 10,000 XP, discard this card, and draw from the deck again, counting both draws as one of your declared draws. If losing that much XP would cause you to lose a level, you instead lose an amount that leaves you with just enough XP to keep your level.
 
 ### Jester
-![](deck-of-many-things-22-jester.webp#card)
+![](03.PlayerLog&Handouts/Mechanics/CLI/decks/img/deck-of-many-things-22-jester.webp#card)
 You gain 10,000 XP, or you can draw two additional cards beyond your declared draws.

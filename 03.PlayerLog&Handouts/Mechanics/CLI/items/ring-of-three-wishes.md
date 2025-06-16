@@ -11,7 +11,7 @@ aliases:
 ---
 # Ring of Three Wishes
 *Ring, major, legendary*  
-![](ring-of-three-wishes.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/ring-of-three-wishes.webp#right)
 
 
 While wearing this ring, you can use an action to expend 1 of its 3 charges to cast the [wish](03.PlayerLog&Handouts/Mechanics/CLI/spells/wish.md) spell from it. The ring becomes nonmagical when you use the last charge.

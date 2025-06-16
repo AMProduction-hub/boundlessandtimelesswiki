@@ -6,11 +6,15 @@ tags:
 - ttrpg-cli/deity/faerunian
 - ttrpg-cli/domain/life
 - ttrpg-cli/domain/light
-aliases: ["Sune", "Lady Firehair", "The Lady of Love", "The Princess of Passion"]
+aliases: 
+- Sune
+- Lady Firehair
+- The Lady of Love
+- The Princess of Passion
 ---
 # Sune
 *Source: Sword Coast Adventurer's Guide p. 21* 
-![](scag-symbol-of-sune.webp#symbol)
+![](03.PlayerLog&Handouts/Mechanics/CLI/deities/img/scag-symbol-of-sune.webp#symbol)
 
 - **Alternate Names**: Lady Firehair, The Lady of Love, The Princess of Passion
 - **Alignment**: Chaotic Good

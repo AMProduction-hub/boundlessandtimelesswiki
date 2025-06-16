@@ -4,7 +4,8 @@ cssclasses: json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/phb
-aliases: ["Soldier"]
+aliases:
+- Soldier
 ---
 # Soldier
 *Source: Player's Handbook p. 140. Available in the Basic Rules (2014)*  
@@ -12,7 +13,7 @@ aliases: ["Soldier"]
 
 - **Skill Proficiencies.** [Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics), [Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation)  
 - **Tool Proficiencies.** One type of gaming set, vehicles (land)  
-- **Equipment.** An insignia of rank, a trophy taken from a fallen enemy (a [dagger](dagger.md), broken blade, or piece of a banner), a bone [dice set](dice-set.md) or [playing card set](playing-card-set.md), a set of [common clothes](common-clothes.md), and a belt [pouch](pouch.md) containing 10 gp  
+- **Equipment.** An insignia of rank, a trophy taken from a fallen enemy (a [dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md), broken blade, or piece of a banner), a bone [dice set](03.PlayerLog&Handouts/Mechanics/CLI/items/dice-set.md) or [playing card set](03.PlayerLog&Handouts/Mechanics/CLI/items/playing-card-set.md), a set of [common clothes](03.PlayerLog&Handouts/Mechanics/CLI/items/common-clothes.md), and a belt [pouch](03.PlayerLog&Handouts/Mechanics/CLI/items/pouch.md) containing 10 gp  
 
 War has been your life for as long as you care to remember. You trained as a youth, studied the use of weapons and armor, learned basic survival techniques, including how to stay alive on the battlefield. You might have been part of a standing national army or a mercenary company, or perhaps a member of a local militia who rose to prominence during a recent war.
 

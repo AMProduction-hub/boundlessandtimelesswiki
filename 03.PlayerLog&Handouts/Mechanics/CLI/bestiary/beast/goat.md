@@ -11,10 +11,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/beast
 statblock: inline
-aliases: ["Goat"]
+statblock-link: "#^statblock"
+aliases:
+- Goat
 ---
-# [Goat](03 - Player Log & Handouts\Mechanics\CLI\bestiary\beast/goat.md)
-*Source: Monster Manual p. 330, Baldur's Gate: Descent Into Avernus. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Goat](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/goat.md)
+*Source: Monster Manual p. 330, Curse of Strahd, Princes of the Apocalypse, Storm King's Thunder, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus, Icewind Dale: Rime of the Frostmaiden. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 ```statblock
 "name": "Goat"
@@ -24,34 +26,42 @@ aliases: ["Goat"]
 "ac": !!int "10"
 "hp": !!int "4"
 "hit_dice": "1d8"
+"modifier": !!int "0"
 "stats":
-- !!int "12"
-- !!int "10"
-- !!int "11"
-- !!int "2"
-- !!int "10"
-- !!int "5"
+  - !!int "12"
+  - !!int "10"
+  - !!int "11"
+  - !!int "2"
+  - !!int "10"
+  - !!int "5"
 "speed": "40 ft."
 "senses": "passive Perception 10"
 "languages": ""
 "cr": "0"
 "traits":
-- "desc": "If the goat moves at least 20 feet straight toward a target and then hits\
-    \ it with a ram attack on the same turn, the target takes an extra 2 (1d4) bludgeoning\
-    \ damage. If the target is a creature, it must succeed on a DC 10 Strength saving\
-    \ throw or be knocked [prone](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
-  "name": "Charge"
-- "desc": "The goat has advantage on Strength and Dexterity saving throws made against\
-    \ effects that would knock it [prone](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
-  "name": "Sure-Footed"
+  - "desc": "If the goat moves at least 20 feet straight toward a target and then\
+      \ hits it with a ram attack on the same turn, the target takes an extra 2 (d4)\
+      \ bludgeoning damage. If the target is a creature, it must succeed on a DC 10\
+      \ Strength saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
+    "name": "Charge"
+  - "desc": "The goat has advantage on Strength and Dexterity saving throws made against\
+      \ effects that would knock it [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
+    "name": "Sure-Footed"
 "actions":
-- "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4\
-    \ + 1) bludgeoning damage."
-  "name": "Ram"
+  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3\
+      \ (1d4 + 1) bludgeoning damage."
+    "name": "Ram"
 "source":
-- "MM"
-- "BGDIA"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/beast/token/goat.webp"
+  - "MM"
+  - "CoS"
+  - "PotA"
+  - "SKT"
+  - "ToA"
+  - "WDMM"
+  - "GoS"
+  - "BGDIA"
+  - "IDRotF"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/goat.webp"
 ```
 ^statblock
 

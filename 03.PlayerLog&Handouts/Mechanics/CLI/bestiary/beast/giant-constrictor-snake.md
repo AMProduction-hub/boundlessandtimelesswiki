@@ -12,10 +12,12 @@ tags:
 - ttrpg-cli/monster/size/huge
 - ttrpg-cli/monster/type/beast
 statblock: inline
-aliases: ["Giant Constrictor Snake"]
+statblock-link: "#^statblock"
+aliases:
+- Giant Constrictor Snake
 ---
-# [Giant Constrictor Snake](03 - Player Log & Handouts\Mechanics\CLI\bestiary\beast/giant-constrictor-snake.md)
-*Source: Monster Manual p. 324. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Giant Constrictor Snake](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/giant-constrictor-snake.md)
+*Source: Monster Manual p. 324, Tomb of Annihilation, Ghosts of Saltmarsh, Dragon of Icespire Peak, Storm Lord's Wrath, Explorer's Guide to Wildemount. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 ```statblock
 "name": "Giant Constrictor Snake"
@@ -25,31 +27,38 @@ aliases: ["Giant Constrictor Snake"]
 "ac": !!int "12"
 "hp": !!int "60"
 "hit_dice": "8d12 + 8"
+"modifier": !!int "2"
 "stats":
-- !!int "19"
-- !!int "14"
-- !!int "12"
-- !!int "1"
-- !!int "10"
-- !!int "3"
+  - !!int "19"
+  - !!int "14"
+  - !!int "12"
+  - !!int "1"
+  - !!int "10"
+  - !!int "3"
 "speed": "30 ft., swim 30 ft."
 "skillsaves":
-  "Perception": !!int "2"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+2"
 "senses": "blindsight 10 ft., passive Perception 12"
 "languages": ""
 "cr": "2"
 "actions":
-- "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one creature. Hit:\
-    \ 11 (2d6 + 4) piercing damage."
-  "name": "Bite"
-- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 13\
-    \ (2d8 + 4) bludgeoning damage, and the target is [grappled](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
-    \ (escape DC 16). Until this grapple ends, the creature is [restrained](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
-    \ and the snake can't constrict another target."
-  "name": "Constrict"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one creature. Hit:\
+      \ 11 (2d6 + 4) piercing damage."
+    "name": "Bite"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit:\
+      \ 13 (2d8 + 4) bludgeoning damage, and the target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
+      \ (escape DC 16). Until this grapple ends, the creature is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
+      \ and the snake can't constrict another target."
+    "name": "Constrict"
 "source":
-- "MM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/beast/token/giant-constrictor-snake.webp"
+  - "MM"
+  - "ToA"
+  - "GoS"
+  - "DIP"
+  - "SLW"
+  - "EGW"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/giant-constrictor-snake.webp"
 ```
 ^statblock
 

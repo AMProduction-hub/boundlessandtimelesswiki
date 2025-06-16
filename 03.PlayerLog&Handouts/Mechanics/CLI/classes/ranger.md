@@ -4,7 +4,8 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/class/ranger
 - ttrpg-cli/compendium/src/5e/phb
-aliases: ["Ranger"]
+aliases:
+- Ranger
 ---
 # Ranger
 *Source: Player's Handbook p. 89. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
@@ -49,17 +50,17 @@ aliases: ["Ranger"]
 ## Starting Ranger
 
 - **Saving Throws**: Dexterity, Strength
-- **Armor**: [light armor](item-types.md#Light%20Armor), [medium armor](item-types.md#Medium%20Armor), [shields](03.PlayerLog&Handouts/Mechanics/CLI/items/shield.md)
+- **Armor**: [light armor](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-types.md#Light%20Armor), [medium armor](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-types.md#Medium%20Armor), [shields](03.PlayerLog&Handouts/Mechanics/CLI/items/shield.md)
 - **Weapons**: simple weapons, martial weapons
 - **Tools**: none
 - **Skills**: choose 3 from [Animal Handling](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Animal%20Handling), [Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics), [Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight), [Investigation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Investigation), [Nature](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Nature), [Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception), [Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth), and [Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)
 
 You start with the following items, plus anything provided by your background.
 
-- (a) [scale mail](scale-mail.md) or (b) [leather armor](leather-armor.md)
-- (a) two [shortswords](shortsword.md) or (b) two simple melee weapons
-- (a) a [dungeoneer's pack](dungeoneers-pack.md) or (b) an [explorer's pack](explorers-pack.md)
-- A [longbow](longbow.md) and a [quiver](quiver.md) of [20 arrows](arrows-20.md)
+- (a) [scale mail](03.PlayerLog&Handouts/Mechanics/CLI/items/scale-mail.md) or (b) [leather armor](03.PlayerLog&Handouts/Mechanics/CLI/items/leather-armor.md)
+- (a) two [shortswords](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md) or (b) two simple melee weapons
+- (a) a [dungeoneer's pack](03.PlayerLog&Handouts/Mechanics/CLI/items/dungeoneers-pack.md) or (b) an [explorer's pack](03.PlayerLog&Handouts/Mechanics/CLI/items/explorers-pack.md)
+- A [longbow](03.PlayerLog&Handouts/Mechanics/CLI/items/longbow.md) and a [quiver](03.PlayerLog&Handouts/Mechanics/CLI/items/quiver.md) of [20 arrows](03.PlayerLog&Handouts/Mechanics/CLI/items/arrows-20.md)
 
 Alternatively, you may start with 5d4 × 10 gp to buy your own equipment.
 
@@ -69,7 +70,7 @@ Alternatively, you may start with 5d4 × 10 gp to buy your own equipment.
 
 When you gain a level in a class other than your first, you gain only some of that class's starting proficiencies.
 
-- **Armor**: [light armor](item-types.md#Light%20Armor), [medium armor](item-types.md#Medium%20Armor), [shields](03.PlayerLog&Handouts/Mechanics/CLI/items/shield.md)
+- **Armor**: [light armor](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-types.md#Light%20Armor), [medium armor](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-types.md#Medium%20Armor), [shields](03.PlayerLog&Handouts/Mechanics/CLI/items/shield.md)
 - **Weapons**: simple weapons, martial weapons
 - **Skills**: choose 1 from [Animal Handling](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Animal%20Handling), [Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics), [Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight), [Investigation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Investigation), [Nature](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Nature), [Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception), [Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth), and [Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)
 
@@ -103,7 +104,7 @@ What's the source of your particular hatred of a certain kind of enemy? Did a mo
 
 #### Quick Build
 
-You can make a ranger quickly by following these suggestions. First, make Dexterity your highest ability score, followed by Wisdom. (Some rangers who focus on two-weapon fighting make Strength higher than Dexterity.) Second, choose the [outlander](outlander.md) background.
+You can make a ranger quickly by following these suggestions. First, make Dexterity your highest ability score, followed by Wisdom. (Some rangers who focus on two-weapon fighting make Strength higher than Dexterity.) Second, choose the [outlander](03.PlayerLog&Handouts/Mechanics/CLI/backgrounds/outlander.md) background.
 
 > [!quote] A quote from Soveliss  
 > 
@@ -114,6 +115,10 @@ Rangers are free-minded wanderers and seekers who patrol the edges of civilized 
 A relationship with civilization informs every ranger's personality and history. Some rangers see themselves as enforcers of the law and bringers of justice on civilization's frontier, answering to no sovereign power. Others are survivalists who eschew civilization altogether. They vanquish monsters to keep themselves safe while they live in and travel through the perilous wild areas of the world. If their efforts also benefit the kingdoms and other civilized realms that they avoid, so be it.
 
 If you're creating or playing a ranger character, the following sections offer ideas for embellishing the character and enhancing your roleplaying experience.
+
+> [!quote] A quote from Xanathar  
+> 
+> I'm a monster. Are you going to try to kill me? Didn't think so. Go kill some goblins or something. On second thought, goblins aren't monsters - they're people. So maybe you should call yourself a people killer.
 
 ## View of the World
 _Source: Xanathar's Guide to Everything_
@@ -184,7 +189,7 @@ What spurred your character to select a particular enemy? Was the choice made be
 
 Beginning at 1st level, you have significant experience studying, tracking, hunting, and even talking to a certain type of enemy.
 
-Choose a type of favored enemy: aberrations, beasts, celestials, constructs, dragons, elementals, fey, fiends, giants, monstrosities, oozes, plants, or undead. Alternatively, you can select two races of humanoid (such as [gnolls](gnoll.md) and [orcs](orc.md)) as favored enemies.
+Choose a type of favored enemy: aberrations, beasts, celestials, constructs, dragons, elementals, fey, fiends, giants, monstrosities, oozes, plants, or undead. Alternatively, you can select two races of humanoid (such as [gnolls](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/gnoll.md) and [orcs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/orc.md)) as favored enemies.
 
 You have advantage on Wisdom ([Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)) checks to track your favored enemies, as well as on Intelligence checks to recall information about them.
 
@@ -195,15 +200,15 @@ You choose one additional favored enemy, as well as an associated language, at 6
 ### Favored Foe (Level 1)
 _Source: Tasha's Cauldron of Everything p. 56_
 
-*1st-level ranger [optional feature](optional-class-features-tce.md), which replaces the Favored Enemy feature and works with the Foe Slayer feature*
+*1st-level ranger [optional feature](03.PlayerLog&Handouts/Mechanics/CLI/rules/variant-rules/optional-class-features-tce.md), which replaces the Favored Enemy feature and works with the Foe Slayer feature*
 
-When you hit a creature with an attack roll, you can call on your mystical bond with nature to mark the target as your favored enemy for 1 minute or until you lose your [concentration](conditions.md#Concentration) (as if you were [concentrating](conditions.md#Concentration) on a spell).
+When you hit a creature with an attack roll, you can call on your mystical bond with nature to mark the target as your favored enemy for 1 minute or until you lose your [concentration](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Concentration) (as if you were [concentrating](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Concentration) on a spell).
 
-The first time on each of your turns that you hit the favored enemy and deal damage to it, including when you mark it, you can increase that damage by `1d4`.
+The first time on each of your turns that you hit the favored enemy and deal damage to it, including when you mark it, you can increase that damage by `d4`.
 
 You can use this feature to mark a favored enemy a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.
 
-This feature's extra damage increases when you reach certain levels in this class: to `1d6` at 6th level and to `1d8` at 14th level.
+This feature's extra damage increases when you reach certain levels in this class: to `d6` at 6th level and to `d8` at 14th level.
 
 ### Natural Explorer (Level 1)
 
@@ -223,7 +228,7 @@ You choose additional favored terrain types at 6th and 10th level.
 ### Deft Explorer (Level 1)
 _Source: Tasha's Cauldron of Everything p. 56_
 
-*1st-level ranger [optional feature](optional-class-features-tce.md), which replaces the Natural Explorer feature*
+*1st-level ranger [optional feature](03.PlayerLog&Handouts/Mechanics/CLI/rules/variant-rules/optional-class-features-tce.md), which replaces the Natural Explorer feature*
 
 You are an unsurpassed explorer and survivor, both in the wilderness and in dealing with others on your travels. You gain the Canny benefit below, and you gain an additional benefit below when you reach 6th level and 10th level in this class.
 
@@ -237,10 +242,10 @@ You can also speak, read, and write two additional languages of your choice.
 
 At 2nd level, you adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again.
 
-- [Archery](archery.md)  
-- [Defense](defense.md)  
-- [Dueling](dueling.md)  
-- [Two-Weapon Fighting](two-weapon-fighting.md)  
+- [Archery](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/archery.md)  
+- [Defense](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/defense.md)  
+- [Dueling](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/dueling.md)  
+- [Two-Weapon Fighting](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/two-weapon-fighting.md)  
 
 ### Spellcasting (Level 2)
 
@@ -250,7 +255,7 @@ By the time you reach 2nd level, you have learned to use the magical essence of 
 
 The Ranger table shows how many spell slots you have to cast your ranger spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
 
-For example, if you know the 1st-level spell [animal friendship](animal-friendship.md) and have a 1st-level and a 2nd-level spell slot available, you can cast [animal friendship](animal-friendship.md) using either slot.
+For example, if you know the 1st-level spell [animal friendship](03.PlayerLog&Handouts/Mechanics/CLI/spells/animal-friendship.md) and have a 1st-level and a 2nd-level spell slot available, you can cast [animal friendship](03.PlayerLog&Handouts/Mechanics/CLI/spells/animal-friendship.md) using either slot.
 
 #### Spells Known of 1st Level and Higher
 
@@ -264,16 +269,16 @@ Additionally, when you gain a level in this class, you can choose one of the ran
 
 Wisdom is your spellcasting ability for your ranger spells, since your magic draws on your attunement to nature. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a ranger spell you cast and when making an attack roll with one.
 
-<span class='abilityDc'>**Spell save DC**: 8 + your proficiency bonus + your Wisdom modifier</span>
+<span class='abilityDc'>**Spell save DC**: your proficiency bonus + your Wisdom</span>
 
-<span class='abilityAttackMod'>**Spell attack modifier**: your proficiency bonus + your Wisdom modifier</span>
+<span class='abilityAttackMod'>**Spell attack modifier**: your proficiency bonus + your Wisdom</span>
 
 ### Spellcasting Focus (Level 2)
 _Source: Tasha's Cauldron of Everything p. 56_
 
-*2nd-level ranger [optional feature](optional-class-features-tce.md)*
+*2nd-level ranger [optional feature](03.PlayerLog&Handouts/Mechanics/CLI/rules/variant-rules/optional-class-features-tce.md)*
 
-You can use a [druidic focus](druidic-focus.md) as a spellcasting focus for your ranger spells. A druidic focus might be a sprig of mistletoe or holly, a wand or rod made of yew or another special wood, a staff drawn whole from a living tree, or an object incorporating feathers, fur, bones, and teeth from sacred animals.
+You can use a [druidic focus](03.PlayerLog&Handouts/Mechanics/CLI/items/druidic-focus.md) as a spellcasting focus for your ranger spells. A druidic focus might be a sprig of mistletoe or holly, a wand or rod made of yew or another special wood, a staff drawn whole from a living tree, or an object incorporating feathers, fur, bones, and teeth from sacred animals.
 
 ### Ranger Archetype (Level 3)
 
@@ -286,7 +291,7 @@ Beginning at 3rd level, you can use your action and expend one ranger spell slot
 ### Primal Awareness (Level 3)
 _Source: Tasha's Cauldron of Everything p. 56_
 
-*3rd-level ranger [optional feature](optional-class-features-tce.md), which replaces the Primeval Awareness feature*
+*3rd-level ranger [optional feature](03.PlayerLog&Handouts/Mechanics/CLI/rules/variant-rules/optional-class-features-tce.md), which replaces the Primeval Awareness feature*
 
 You can focus your awareness through the interconnections of nature: you learn additional spells when you reach certain levels in this class if you don't already know them, as shown in the Primal Awareness Spells table. These spells don't count against the number of ranger spells you know.
 
@@ -294,11 +299,11 @@ You can focus your awareness through the interconnections of nature: you learn a
 
 | Ranger Level | Spell |
 |--------------|-------|
-| 3rd | [speak with animals](speak-with-animals.md) |
-| 5th | [beast sense](beast-sense.md) |
-| 9th | [speak with plants](speak-with-plants.md) |
-| 13th | [locate creature](locate-creature.md) |
-| 17th | [commune with nature](commune-with-nature.md) |
+| 3rd | [speak with animals](03.PlayerLog&Handouts/Mechanics/CLI/spells/speak-with-animals.md) |
+| 5th | [beast sense](03.PlayerLog&Handouts/Mechanics/CLI/spells/beast-sense.md) |
+| 9th | [speak with plants](03.PlayerLog&Handouts/Mechanics/CLI/spells/speak-with-plants.md) |
+| 13th | [locate creature](03.PlayerLog&Handouts/Mechanics/CLI/spells/locate-creature.md) |
+| 17th | [commune with nature](03.PlayerLog&Handouts/Mechanics/CLI/spells/commune-with-nature.md) |
 ^primal-awareness-spells
 
 You can cast each of these spells once without expending a spell slot. Once you cast a spell in this way, you can't do so again until you finish a long rest.
@@ -312,13 +317,13 @@ If your DM allows the use of feats, you may instead take a feat.
 ### Martial Versatility (Level 4)
 _Source: Tasha's Cauldron of Everything p. 56_
 
-*4th-level ranger [optional feature](optional-class-features-tce.md)*
+*4th-level ranger [optional feature](03.PlayerLog&Handouts/Mechanics/CLI/rules/variant-rules/optional-class-features-tce.md)*
 
 Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace a fighting style you know with another fighting style available to rangers. This replacement represents a shift of focus in your martial practice.
 
 ### Extra Attack (Level 5)
 
-Beginning at 5th level, you can attack twice, instead of once, whenever you take the [Attack](actions.md#Attack) action on your turn.
+Beginning at 5th level, you can attack twice, instead of once, whenever you take the [Attack](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Attack) action on your turn.
 
 ### Favored Enemy and Natural Explorer improvements (Level 6)
 
@@ -349,7 +354,7 @@ If your DM allows the use of feats, you may instead take a feat.
 
 Starting at 8th level, moving through nonmagical difficult terrain costs you no extra movement. You can also pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard.
 
-In addition, you have advantage on saving throws against plants that are magically created or manipulated to impede movement, such as those created by the [entangle](entangle.md) spell.
+In addition, you have advantage on saving throws against plants that are magically created or manipulated to impede movement, such as those created by the [entangle](03.PlayerLog&Handouts/Mechanics/CLI/spells/entangle.md) spell.
 
 ### Hide in Plain Sight (Level 10)
 
@@ -360,9 +365,9 @@ Once you are camouflaged in this way, you can try to hide by pressing yourself u
 ### Nature's Veil (Level 10)
 _Source: Tasha's Cauldron of Everything p. 56_
 
-*10th-level ranger [optional feature](optional-class-features-tce.md), which replaces the Hide in Plain Sight feature*
+*10th-level ranger [optional feature](03.PlayerLog&Handouts/Mechanics/CLI/rules/variant-rules/optional-class-features-tce.md), which replaces the Hide in Plain Sight feature*
 
-You draw on the powers of nature to hide yourself from view briefly. As a bonus action, you can magically become [invisible](conditions.md#Invisible), along with any equipment you are wearing or carrying, until the start of your next turn.
+You draw on the powers of nature to hide yourself from view briefly. As a bonus action, you can magically become [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible), along with any equipment you are wearing or carrying, until the start of your next turn.
 
 You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.
 
@@ -377,9 +382,9 @@ You gain an additional benefit when you reach 10th level in this class.
 
 #### Tireless
 
-As an action, you can give yourself a number of temporary hit points equal to `1d8` + your Wisdom modifier (minimum of 1 temporary hit point). You can use this action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.
+As an action, you can give yourself a number of temporary hit points equal to `d8` + your Wisdom modifier (minimum of 1 temporary hit point). You can use this action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.
 
-In addition, whenever you finish a short rest, your [exhaustion](conditions.md#Exhaustion) level, if any, is decreased by 1.
+In addition, whenever you finish a short rest, your [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion) level, if any, is decreased by 1.
 
 ### Ranger Archetype feature (Level 11)
 
@@ -393,7 +398,7 @@ If your DM allows the use of feats, you may instead take a feat.
 
 ### Vanish (Level 14)
 
-Starting at 14th level, you can use the [Hide](actions.md#Hide) action as a bonus action on your turn. Also, you can't be tracked by nonmagical means, unless you choose to leave a trail.
+Starting at 14th level, you can use the [Hide](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Hide) action as a bonus action on your turn. Also, you can't be tracked by nonmagical means, unless you choose to leave a trail.
 
 ### Favored Enemy improvement (Level 14)
 
@@ -411,7 +416,7 @@ If your DM allows the use of feats, you may instead take a feat.
 
 ### Feral Senses (Level 18)
 
-At 18th level, you gain preternatural senses that help you fight creatures you can't see. When you attack a creature you can't see, your inability to see it doesn't impose disadvantage on your attack rolls against it. You are also aware of the location of any [invisible](conditions.md#Invisible) creature within 30 feet of you, provided that the creature isn't hidden from you and you aren't [blinded](conditions.md#Blinded) or [deafened](conditions.md#Deafened).
+At 18th level, you gain preternatural senses that help you fight creatures you can't see. When you attack a creature you can't see, your inability to see it doesn't impose disadvantage on your attack rolls against it. You are also aware of the location of any [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible) creature within 30 feet of you, provided that the creature isn't hidden from you and you aren't [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded) or [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened).
 
 ### Ability Score Improvement (Level 19)
 
@@ -426,5 +431,5 @@ At 20th level, you become an unparalleled hunter of your enemies. Once on each o
 ## Optional Features
 
 > [!example]- Optional Features: Fighting Style, Ranger
-> ![Fighting Style, Ranger](list-optfeaturetype-fs-r.md#Fighting%20Style,%20Ranger)
+> ![Fighting Style, Ranger](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-optfeaturetype-fs-r.md#Fighting%20Style,%20Ranger)
 ^list-optfeature-fs-r

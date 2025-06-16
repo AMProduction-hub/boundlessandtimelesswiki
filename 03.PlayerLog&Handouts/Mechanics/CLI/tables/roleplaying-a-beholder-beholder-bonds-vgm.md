@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
-aliases: ["Roleplaying a Beholder; Beholder Bonds"]
+aliases:
+- Roleplaying a Beholder; Beholder Bonds
 ---
 # Roleplaying a Beholder; Beholder Bonds
 *Source: Volo's Guide to Monsters p. 8* 

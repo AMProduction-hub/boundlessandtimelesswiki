@@ -16,7 +16,7 @@ aliases:
 
 - **Damage**: 2d8 piercing
 - **Range**: 30/90
-- **Properties**: [Ammunition](item-properties.md#Ammunition), [Reload](item-properties.md#Reload), [Two-Handed](item-properties.md#Two-Handed)
+- **Properties**: [Ammunition](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Ammunition), [Reload](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Reload), [Two-Handed](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Two-Handed)
 - **Weight**: 7.0 lbs.
 
 *Source: Dungeon Master's Guide p. 268*

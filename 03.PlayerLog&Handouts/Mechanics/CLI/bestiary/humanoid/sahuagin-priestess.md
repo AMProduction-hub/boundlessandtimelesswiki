@@ -9,10 +9,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/humanoid/sahuagin
 statblock: inline
-aliases: ["Sahuagin Priestess"]
+statblock-link: "#^statblock"
+aliases:
+- Sahuagin Priestess
 ---
-# [Sahuagin Priestess](03 - Player Log & Handouts\Mechanics\CLI\bestiary\humanoid/sahuagin-priestess.md)
-*Source: Monster Manual p. 264, Baldur's Gate: Descent Into Avernus*  
+# [Sahuagin Priestess](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/sahuagin-priestess.md)
+*Source: Monster Manual p. 264, Tales from the Yawning Portal, Ghosts of Saltmarsh, Sleeping Dragon's Wake, Baldur's Gate: Descent Into Avernus*  
 
 Across fog-shrouded coasts or endless ocean swells, an ominous drone sounded on a conch shell chills the blood of all who hear it. This is the sound of the sahuagin hunting horn-a call to raid and battle. Coastal settlers refer to sahuagin as "sea devils," for sahuagin have no compassion in them, slaughtering the crews of ships and decimating coastal villages.
 
@@ -32,7 +34,7 @@ Sahuagin are driven into a frenzy by the smell of fresh blood. As worshipers of 
 
 The sahuagin might control the oceans if not for the presence of their mortal enemies, the aquatic elves. Wars between the two races have raged for centuries across the coasts and seas of the world, disrupting maritime trade and drawing other races into the bloody conflict.
 
-So intense is sahuagin hatred for the aquatic elves that the sea devils have adapted to combat their ancient foes. A sahuagin born near enough to an aquatic elf community can enter the world as a malenti-a sahuagin that physically resembles an aquatic elf in every way. Sahuagin are prone to mutation, but whether this rare phenomenon is a result of the wars between the sahuagin and the aquatic elves-or whether it preceded or even began the conflict-none can say.
+So intense is sahuagin hatred for the aquatic elves that the sea devils have adapted to combat their ancient foes. A sahuagin born near enough to an aquatic elf community can enter the world as a malenti—a sahuagin that physically resembles an aquatic elf in every way. Sahuagin are prone to mutation, but whether this rare phenomenon is a result of the wars between the sahuagin and the aquatic elves-or whether it preceded or even began the conflict-none can say.
 
 The sahuagin put the malenti to good use as spies and assassins in aquatic elf cities and the societies of other creatures that pose a threat to sahuagin. The mere shadow of the malenti threat incites paranoia and suspicion among aquatic elves, whose resilience is weakened as the prelude to an actual sahuagin invasion.
 
@@ -51,56 +53,62 @@ The sahuagin put the malenti to good use as spies and assassins in aquatic elf c
 "ac_class": "natural armor"
 "hp": !!int "33"
 "hit_dice": "6d8 + 6"
+"modifier": !!int "0"
 "stats":
-- !!int "13"
-- !!int "11"
-- !!int "12"
-- !!int "12"
-- !!int "14"
-- !!int "13"
+  - !!int "13"
+  - !!int "11"
+  - !!int "12"
+  - !!int "12"
+  - !!int "14"
+  - !!int "13"
 "speed": "30 ft., swim 40 ft."
 "skillsaves":
-  "Religion": !!int "3"
-  "Perception": !!int "6"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+6"
+  - "name": "[Religion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Religion)"
+    "desc": "+3"
 "senses": "darkvision 120 ft., passive Perception 16"
 "languages": "Sahuagin"
 "cr": "2"
 "traits":
-- "desc": "The sahuagin is a 6th-level spellcaster. Her spellcasting ability is Wisdom\
-    \ (spell save DC 12, +4 to hit with spell attacks). She has the following cleric\
-    \ spells prepared:\n\nCantrips (at will): [guidance](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/guidance.md),\
-    \ [thaumaturgy](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/thaumaturgy.md)\n\
-    \n1st level (4 slots): [bless](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/bless.md),\
-    \ [detect magic](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/detect-magic.md),\
-    \ [guiding bolt](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/guiding-bolt.md)\n\
-    \n2nd level (3 slots): [hold person](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/hold-person.md),\
-    \ [spiritual weapon](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/spiritual-weapon.md)\
-    \ (trident)\n\n3rd level (3 slots): [mass healing word](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/mass-healing-word.md),\
-    \ [tongues](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/tongues.md)"
-  "name": "Spellcasting"
-- "desc": "The sahuagin has advantage on melee attack rolls against any creature that\
-    \ doesn't have all its hit points."
-  "name": "Blood Frenzy"
-- "desc": "The sahuagin can breathe air and water, but it needs to be submerged at\
-    \ least once every 4 hours to avoid suffocating."
-  "name": "Limited Amphibiousness"
-- "desc": "The sahuagin can magically command any shark within 120 feet of it, using\
-    \ a limited telepathy."
-  "name": "Shark Telepathy"
+  - "desc": "The sahuagin is a 6th-level spellcaster. Her spellcasting ability is\
+      \ Wisdom (spell save DC 12, +4 to hit with spell attacks). She has the following\
+      \ cleric spells prepared:\n\nCantrips (at will): [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md),\
+      \ [thaumaturgy](03.PlayerLog&Handouts/Mechanics/CLI/spells/thaumaturgy.md)\n\
+      \n1st level (4 slots): [bless](03.PlayerLog&Handouts/Mechanics/CLI/spells/bless.md),\
+      \ [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      \ [guiding bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/guiding-bolt.md)\n\
+      \n2nd level (3 slots): [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md),\
+      \ [spiritual weapon](03.PlayerLog&Handouts/Mechanics/CLI/spells/spiritual-weapon.md)\
+      \ (trident)\n\n3rd level (3 slots): [mass healing word](03.PlayerLog&Handouts/Mechanics/CLI/spells/mass-healing-word.md),\
+      \ [tongues](03.PlayerLog&Handouts/Mechanics/CLI/spells/tongues.md)"
+    "name": "Spellcasting"
+  - "desc": "The sahuagin has advantage on melee attack rolls against any creature\
+      \ that doesn't have all its hit points."
+    "name": "Blood Frenzy"
+  - "desc": "The sahuagin can breathe air and water, but it needs to be submerged\
+      \ at least once every 4 hours to avoid suffocating."
+    "name": "Limited Amphibiousness"
+  - "desc": "The sahuagin can magically command any shark within 120 feet of it, using\
+      \ a limited telepathy."
+    "name": "Shark Telepathy"
 "actions":
-- "desc": "The sahuagin makes two melee attacks: one with her bite and one with her\
-    \ claws."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4\
-    \ + 1) piercing damage."
-  "name": "Bite"
-- "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4\
-    \ + 1) slashing damage."
-  "name": "Claws"
+  - "desc": "The sahuagin makes two melee attacks: one with her bite and one with\
+      \ her claws."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3\
+      \ (1d4 + 1) piercing damage."
+    "name": "Bite"
+  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3\
+      \ (1d4 + 1) slashing damage."
+    "name": "Claws"
 "source":
-- "MM"
-- "BGDIA"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/humanoid/token/sahuagin-priestess.webp"
+  - "MM"
+  - "TftYP"
+  - "GoS"
+  - "SDW"
+  - "BGDIA"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/sahuagin-priestess.webp"
 ```
 ^statblock
 

@@ -2,10 +2,10 @@
 obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
-- ttrpg-cli/compendium/src/5e/aag
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/compendium/src/5e/phb
-aliases: ["Item Types"]
+aliases:
+- Item Types
 ---
 # Item Types
 
@@ -177,9 +177,6 @@ A passenger is usually expected to pay 5 sp per day for a hammock, but prices ca
 
 ## Vehicle (Land)
 _Source: Player's Handbook p. 155_
-
-## Vehicle (Space)
-_Source: Astral Adventurer's Guide p. 24_
 
 ## Vehicle (Water)
 _Source: Dungeon Master's Guide p. 119_

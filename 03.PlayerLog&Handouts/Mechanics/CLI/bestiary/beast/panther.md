@@ -10,10 +10,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/beast
 statblock: inline
-aliases: ["Panther"]
+statblock-link: "#^statblock"
+aliases:
+- Panther
 ---
-# [Panther](03 - Player Log & Handouts\Mechanics\CLI\bestiary\beast/panther.md)
-*Source: Monster Manual p. 333. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Panther](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/panther.md)
+*Source: Monster Manual p. 333, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dragon Heist. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 ```statblock
 "name": "Panther"
@@ -23,40 +25,46 @@ aliases: ["Panther"]
 "ac": !!int "12"
 "hp": !!int "13"
 "hit_dice": "3d8"
+"modifier": !!int "2"
 "stats":
-- !!int "14"
-- !!int "15"
-- !!int "10"
-- !!int "3"
-- !!int "14"
-- !!int "7"
+  - !!int "14"
+  - !!int "15"
+  - !!int "10"
+  - !!int "3"
+  - !!int "14"
+  - !!int "7"
 "speed": "50 ft., climb 40 ft."
 "skillsaves":
-  "Stealth": !!int "6"
-  "Perception": !!int "4"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+4"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+6"
 "senses": "passive Perception 14"
 "languages": ""
 "cr": "1/4"
 "traits":
-- "desc": "The panther has advantage on Wisdom ([Perception](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/skills.md#Perception))\
-    \ checks that rely on smell."
-  "name": "Keen Smell"
-- "desc": "If the panther moves at least 20 feet straight toward a creature and then\
-    \ hits it with a claw attack on the same turn, that target must succeed on a DC\
-    \ 12 Strength saving throw or be knocked [prone](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Prone).\
-    \ If the target is [prone](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Prone),\
-    \ the panther can make one bite attack against it as a bonus action."
-  "name": "Pounce"
+  - "desc": "The panther has advantage on Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception))\
+      \ checks that rely on smell."
+    "name": "Keen Smell"
+  - "desc": "If the panther moves at least 20 feet straight toward a creature and\
+      \ then hits it with a claw attack on the same turn, that target must succeed\
+      \ on a DC 12 Strength saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone).\
+      \ If the target is [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone),\
+      \ the panther can make one bite attack against it as a bonus action."
+    "name": "Pounce"
 "actions":
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6\
-    \ + 2) piercing damage."
-  "name": "Bite"
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4\
-    \ + 2) slashing damage."
-  "name": "Claw"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+      \ (1d6 + 2) piercing damage."
+    "name": "Bite"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4\
+      \ (1d4 + 2) slashing damage."
+    "name": "Claw"
 "source":
-- "MM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/beast/token/panther.webp"
+  - "MM"
+  - "TftYP"
+  - "ToA"
+  - "WDH"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/panther.webp"
 ```
 ^statblock
 

@@ -14,7 +14,7 @@ aliases:
 
 
 - **Damage**: 1d12 piercing
-- **Properties**: [Reach](item-properties.md#Reach), [special](item-properties.md#Special%20Weapons)
+- **Properties**: [Reach](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Reach), [special](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Special%20Weapons)
 - **Cost**: 10 gp
 - **Weight**: 6.0 lbs.
 

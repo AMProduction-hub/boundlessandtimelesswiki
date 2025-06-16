@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/phb
-aliases: ["Races"]
+aliases:
+- Races
 ---
 # Races
 *Source: Player's Handbook (2014), p. 17* 
@@ -14,7 +15,7 @@ And the people themselves—people of varying size, shape, and color, dressed in
 
 Scattered among the members of these more common races are the true exotics: a hulking dragonborn here, pushing his way through the crowd, and a sly tiefling there, lurking in the shadows with mischief in her eyes. A group of gnomes laughs as one of them activates a clever wooden toy that moves of its own accord. Half-elves and half-orcs live and work alongside humans, without fully belonging to the races of either of their parents. And there, well out of the sunlight, is a lone drow—a fugitive from the subterranean expanse of the Underdark, trying to make his way in a world that fears his kind. The Player's Handbook has more information about these unusual races.
 
-![](ch2.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/players-handbook-2014/img/ch2.webp#center)
 
 ## Uncommon Races
 
@@ -84,12 +85,12 @@ By virtue of your race, your character can speak, read, and write certain langua
 
 Some races have subraces. Members of a subrace have the traits of the parent race in addition to the traits specified for their subrace. Relationships among subraces vary significantly from race to race and world to world. In the Dragonlance campaign setting, for example, mountain dwarves and hill dwarves live together as different clans of the same people, but in the Forgotten Realms, they live far apart in separate kingdoms and call themselves shield dwarves and gold dwarves, respectively.
 
-- [Dragonborn](dragonborn.md)  
-- [Dwarf](dwarf.md)  
-- [Elf](elf.md)  
-- [Gnome](gnome.md)  
-- [Half-Elf](half-elf.md)  
-- [Half-Orc](half-orc.md)  
-- [Halfling](halfling.md)  
-- [Human](human.md)  
-- [Tiefling](tiefling.md)
+- [Dragonborn](03.PlayerLog&Handouts/Mechanics/CLI/races/dragonborn.md)  
+- [Dwarf](03.PlayerLog&Handouts/Mechanics/CLI/races/dwarf.md)  
+- [Elf](03.PlayerLog&Handouts/Mechanics/CLI/races/elf.md)  
+- [Gnome](03.PlayerLog&Handouts/Mechanics/CLI/races/gnome.md)  
+- [Half-Elf](03.PlayerLog&Handouts/Mechanics/CLI/races/half-elf.md)  
+- [Half-Orc](03.PlayerLog&Handouts/Mechanics/CLI/races/half-orc.md)  
+- [Halfling](03.PlayerLog&Handouts/Mechanics/CLI/races/halfling.md)  
+- [Human](03.PlayerLog&Handouts/Mechanics/CLI/races/human.md)  
+- [Tiefling](03.PlayerLog&Handouts/Mechanics/CLI/races/tiefling.md)

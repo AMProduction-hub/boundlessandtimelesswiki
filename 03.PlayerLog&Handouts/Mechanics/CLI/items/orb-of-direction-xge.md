@@ -10,7 +10,7 @@ aliases:
 ---
 # Orb of Direction
 *Wondrous item, minor, common*  
-![](orb-of-direction.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/orb-of-direction.webp#right)
 
 - **Weight**: 3.0 lbs.
 

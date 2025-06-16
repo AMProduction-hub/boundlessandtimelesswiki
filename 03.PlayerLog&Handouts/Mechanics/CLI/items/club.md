@@ -14,7 +14,7 @@ aliases:
 
 
 - **Damage**: 1d4 bludgeoning
-- **Properties**: [Light](item-properties.md#Light)
+- **Properties**: [Light](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Light)
 - **Cost**: 1 sp
 - **Weight**: 2.0 lbs.
 

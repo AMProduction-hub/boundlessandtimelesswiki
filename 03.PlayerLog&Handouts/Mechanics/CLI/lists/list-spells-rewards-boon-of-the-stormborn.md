@@ -3,10 +3,11 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/spell/list/reward/boon-of-the-stormborn
-aliases: ["Spells for Boon of the Stormborn"]
+aliases:
+- Spells for Boon of the Stormborn
 ---
 # Spells for Boon of the Stormborn
 
 ## 1st Level
 
-- [Thunderwave](thunderwave.md "PHB")
+- [Thunderwave](03.PlayerLog&Handouts/Mechanics/CLI/spells/thunderwave.md "PHB")

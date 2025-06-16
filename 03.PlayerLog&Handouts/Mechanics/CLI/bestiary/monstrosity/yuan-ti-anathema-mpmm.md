@@ -10,9 +10,11 @@ tags:
 - ttrpg-cli/monster/size/huge
 - ttrpg-cli/monster/type/monstrosity
 statblock: inline
-aliases: ["Yuan-ti Anathema"]
+statblock-link: "#^statblock"
+aliases:
+- Yuan-ti Anathema
 ---
-# [Yuan-ti Anathema](03 - Player Log & Handouts\Mechanics\CLI\bestiary\monstrosity/yuan-ti-anathema-mpmm.md)
+# [Yuan-ti Anathema](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/yuan-ti-anathema-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 272, Volo's Guide to Monsters p. 202*  
 
 As part of their quest for godhood, a yuan-ti abomination might perform a ritual that, if successful, transforms them into an even greater form: a yuan-ti anathema. This ritual demands the sacrifice of hundreds of snakes and requires the abomination to bathe in the blood of their enemies. The transformation is quick but painful.
@@ -30,77 +32,79 @@ Anathemas don't age, allowing them to pursue their goals until the end of days. 
 "ac_class": "natural armor"
 "hp": !!int "189"
 "hit_dice": "18d12 + 72"
+"modifier": !!int "1"
 "stats":
-- !!int "23"
-- !!int "13"
-- !!int "19"
-- !!int "19"
-- !!int "17"
-- !!int "20"
+  - !!int "23"
+  - !!int "13"
+  - !!int "19"
+  - !!int "19"
+  - !!int "17"
+  - !!int "20"
 "speed": "40 ft., climb 40 ft., swim 40 ft."
 "skillsaves":
-  "Stealth": !!int "5"
-  "Perception": !!int "11"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+11"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+5"
 "damage_resistances": "acid, fire, lightning"
 "damage_immunities": "poison"
-"condition_immunities": "[poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "blindsight 30 ft., darkvision 60 ft., passive Perception 21"
 "languages": "Abyssal, Common, Draconic"
 "cr": "12"
 "traits":
-- "desc": "The anathema casts one of the following spells, requiring no material components\
-    \ and using Charisma as the spellcasting ability (spell save DC 17):\n\nAt will:\
-    \ [animal friendship](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/animal-friendship.md)\
-    \ (snakes only)\n\n3/day each: [darkness](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/darkness.md),\
-    \ [entangle](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/entangle.md),\
-    \ [fear](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/fear.md), [polymorph](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/polymorph.md),\
-    \ [suggestion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/suggestion.md)"
-  "name": "Spellcasting (Anathema Form Only)"
-- "desc": "The anathema has advantage on saving throws against spells and other magical\
-    \ effects."
-  "name": "Magic Resistance"
-- "desc": "Any creature of the anathema's choice, other than a snake or a yuan-ti,\
-    \ that starts its turn within 30 feet of the anathema must succeed on a DC 17\
-    \ Wisdom saving throw or become [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened)\
-    \ of snakes and yuan-ti. A [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened)\
-    \ target can repeat the saving throw at the end of each of its turns, ending the\
-    \ effect on itself on a success. If a target's saving throw is successful or the\
-    \ effect ends for it, the target is immune to this anathama's aura for the next\
-    \ 24 hours."
-  "name": "Ophidiophobia Aura"
-- "desc": "The anathema has advantage on saves against being [blinded](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Blinded),\
-    \ [charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
-    \ [deafened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Deafened),\
-    \ [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
-    \ [stunned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Stunned),\
-    \ or knocked [unconscious](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)."
-  "name": "Six Heads"
+  - "desc": "The anathema has advantage on saving throws against spells and other\
+      \ magical effects."
+    "name": "Magic Resistance"
+  - "desc": "Any creature of the anathema's choice, other than a snake or a yuan-ti,\
+      \ that starts its turn within 30 feet of the anathema must succeed on a DC 17\
+      \ Wisdom saving throw or become [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)\
+      \ of snakes and yuan-ti. A [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)\
+      \ target can repeat the saving throw at the end of each of its turns, ending\
+      \ the effect on itself on a success. If a target's saving throw is successful\
+      \ or the effect ends for it, the target is immune to this anathema's aura for\
+      \ the next 24 hours."
+    "name": "Ophidiophobia Aura"
+  - "desc": "The anathema has advantage on saves against being [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded),\
+      \ [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
+      \ [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened),\
+      \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
+      \ [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned),\
+      \ or knocked [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)."
+    "name": "Six Heads"
 "actions":
-- "desc": "The anathema makes two Claw attacks and one Flurry of Bites attack."
-  "name": "Multiattack (Anathema Form Only)"
-- "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 13\
-    \ (2d6 + 6) slashing damage."
-  "name": "Claw (Anathema Form Only)"
-- "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one creature. Hit:\
-    \ 27 (6d6 + 6) piercing damage plus 14 (4d6) poison damage."
-  "name": "Flurry of Bites (Anathema Form Only)"
-- "desc": "Melee Weapon Attack: +10 to hit, reach 15 ft., one Large or smaller\
-    \ creature. Hit: 16 (3d6 + 6) bludgeoning damage plus 7 (2d6) acid damage,\
-    \ and the target is [grappled](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
-    \ (escape DC 16). Until this grapple ends, the target is [restrained](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
-    \ and it takes 16 (3d6 + 6) bludgeoning damage plus 7 (2d6) acid damage at\
-    \ the start of each of its turns. The anathema can constrict only one creature\
-    \ at a time."
-  "name": "Constrict (Snake Form Only)"
+  - "desc": "The anathema makes two Claw attacks and one Flurry of Bites attack."
+    "name": "Multiattack (Anathema Form Only)"
+  - "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit:\
+      \ 13 (2d6 + 6) slashing damage."
+    "name": "Claw (Anathema Form Only)"
+  - "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one creature. Hit:\
+      \ 27 (6d6 + 6) piercing damage plus 14 (4d6) poison damage."
+    "name": "Flurry of Bites (Anathema Form Only)"
+  - "desc": "Melee Weapon Attack: +10 to hit, reach 15 ft., one Large or smaller\
+      \ creature. Hit: 16 (3d6 + 6) bludgeoning damage plus 7 (2d6) acid damage,\
+      \ and the target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
+      \ (escape DC 16). Until this grapple ends, the target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
+      \ and it takes 16 (3d6 + 6) bludgeoning damage plus 7 (2d6) acid damage\
+      \ at the start of each of its turns. The anathema can constrict only one creature\
+      \ at a time."
+    "name": "Constrict (Snake Form Only)"
+  - "desc": "The anathema casts one of the following spells, requiring no material\
+      \ components and using Charisma as the spellcasting ability (spell save DC 17):\n\
+      \nAt will: [animal friendship](03.PlayerLog&Handouts/Mechanics/CLI/spells/animal-friendship.md)\
+      \ (snakes only)\n\n3/day each: [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
+      \ [entangle](03.PlayerLog&Handouts/Mechanics/CLI/spells/entangle.md), [fear](03.PlayerLog&Handouts/Mechanics/CLI/spells/fear.md),\
+      \ [polymorph](03.PlayerLog&Handouts/Mechanics/CLI/spells/polymorph.md), [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md)"
+    "name": "Spellcasting (Anathema Form Only)"
 "bonus_actions":
-- "desc": "The anathema transforms into a Huge constrictor snake or back into its\
-    \ true form. Its statistics are the same in each form. Any equipment it is wearing\
-    \ or carrying isn't transformed."
-  "name": "Change Shape"
+  - "desc": "The anathema transforms into a Huge constrictor snake or back into its\
+      \ true form. Its statistics are the same in each form. Any equipment it is wearing\
+      \ or carrying isn't transformed."
+    "name": "Change Shape"
 "source":
-- "MPMM"
-- "VGM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/monstrosity/token/yuan-ti-anathema-mpmm.webp"
+  - "MPMM"
+  - "VGM"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/token/yuan-ti-anathema-mpmm.webp"
 ```
 ^statblock
 

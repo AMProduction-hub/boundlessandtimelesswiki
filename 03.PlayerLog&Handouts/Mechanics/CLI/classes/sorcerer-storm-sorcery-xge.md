@@ -4,10 +4,11 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 - ttrpg-cli/subclass/sorcerer/storm
-aliases: ["Storm Sorcery"]
+aliases:
+- Storm Sorcery
 ---
 # Storm Sorcery
-*[Sorcerer](sorcerer.md): Sorcerous Origin*  
+*[Sorcerer](./sorcerer.md): Sorcerous Origin*  
 *Source: Xanathar's Guide to Everything p. 51, Sword Coast Adventurer's Guide p. 137*  
 
 > [!tldr] Class and Feature Progression
@@ -41,6 +42,12 @@ aliases: ["Storm Sorcery"]
 
 ^class-progression
 
+
+> [!quote] A quote from Xanathar  
+> 
+> What is it with people and the weather?
+> 
+> It's just the sky weeping and shouting because it's so far away from me.
 
 ## Class Features
 

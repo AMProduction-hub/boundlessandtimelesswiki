@@ -4,7 +4,8 @@ cssclasses: json5e-feat
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/optional-feature/mv-b
-aliases: ["Goading Attack"]
+aliases:
+- Goading Attack
 ---
 # Goading Attack
 *Source: Player's Handbook p. 74*  

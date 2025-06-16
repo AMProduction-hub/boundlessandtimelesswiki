@@ -3,18 +3,19 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/spell/list/subrace/tiefling-levistus
-aliases: ["Spells for Tiefling (Levistus)"]
+aliases:
+- Spells for Tiefling (Levistus)
 ---
 # Spells for Tiefling (Levistus)
 
 ## Cantrip
 
-- [Ray of Frost](ray-of-frost.md "PHB") as 2nd-level, at class level 3
+- [Ray of Frost](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-frost.md "PHB") as 2nd-level, at class level 3
 
 ## 1st Level
 
-- [Armor of Agathys](armor-of-agathys.md "PHB") as 2nd-level, at class level 3
+- [Armor of Agathys](03.PlayerLog&Handouts/Mechanics/CLI/spells/armor-of-agathys.md "PHB") as 2nd-level, at class level 3
 
 ## 2nd Level
 
-- [Darkness](darkness.md "PHB") as 2nd-level, at class level 3
+- [Darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md "PHB") as 2nd-level, at class level 3

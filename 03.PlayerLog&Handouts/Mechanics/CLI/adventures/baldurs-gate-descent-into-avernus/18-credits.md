@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/bgdia
-aliases: ["Credits"]
+aliases:
+- Credits
 ---
 # Credits
 *Source: Baldur's Gate: Descent Into Avernus* 

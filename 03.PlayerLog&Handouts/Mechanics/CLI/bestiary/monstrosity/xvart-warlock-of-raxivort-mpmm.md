@@ -9,9 +9,11 @@ tags:
 - ttrpg-cli/monster/size/small
 - ttrpg-cli/monster/type/monstrosity
 statblock: inline
-aliases: ["Xvart Warlock of Raxivort"]
+statblock-link: "#^statblock"
+aliases:
+- Xvart Warlock of Raxivort
 ---
-# [Xvart Warlock of Raxivort](03 - Player Log & Handouts\Mechanics\CLI\bestiary\monstrosity/xvart-warlock-of-raxivort-mpmm.md)
+# [Xvart Warlock of Raxivort](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/xvart-warlock-of-raxivort-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 267, Volo's Guide to Monsters p. 200*  
 
 Some xvarts are spawned with a trace of Raxivort's divine energy. These xvarts usually form a pact with him and wield magic in his service as warlocks.
@@ -30,55 +32,57 @@ Raxivort spent centuries watching over the treasury of Graz'zt, and in time, Rax
 "ac": !!int "12"
 "hp": !!int "22"
 "hit_dice": "5d6 + 5"
+"modifier": !!int "2"
 "stats":
-- !!int "8"
-- !!int "14"
-- !!int "12"
-- !!int "8"
-- !!int "11"
-- !!int "12"
+  - !!int "8"
+  - !!int "14"
+  - !!int "12"
+  - !!int "8"
+  - !!int "11"
+  - !!int "12"
 "speed": "30 ft."
 "skillsaves":
-  "Stealth": !!int "3"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+3"
 "senses": "darkvision 30 ft., passive Perception 10"
 "languages": "Abyssal"
 "cr": "1"
 "traits":
-- "desc": "The xvart casts one of the following spells, requiring no material components\
-    \ and using Charisma as the spellcasting ability (spell save DC 11):\n\nAt will:\
-    \ [detect magic](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/detect-magic.md),\
-    \ [mage armor](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/mage-armor.md)\
-    \ (self only), [mage hand](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/mage-hand.md),\
-    \ [minor illusion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/minor-illusion.md),\
-    \ [prestidigitation](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/prestidigitation.md)\n\
-    \n1/day each: [burning hands](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/burning-hands.md),\
-    \ [invisibility](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/invisibility.md)"
-  "name": "Spellcasting"
-- "desc": "When the xvart reduces an enemy to 0 hit points, the xvart gains 4 temporary\
-    \ hit points."
-  "name": "Raxivort's Blessing"
-- "desc": "The xvart can communicate with ordinary [bats](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/beast/bat.md)\
-    \ and [rats](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/beast/rat.md),\
-    \ as well as [giant bats](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/beast/giant-bat.md)\
-    \ and [giant rats](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/beast/giant-rat.md)."
-  "name": "Raxivort's Tongue"
+  - "desc": "When the xvart reduces an enemy to 0 hit points, the xvart gains 4 temporary\
+      \ hit points."
+    "name": "Raxivort's Blessing"
+  - "desc": "The xvart can communicate with ordinary [bats](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/bat.md)\
+      \ and [rats](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/rat.md), as\
+      \ well as [giant bats](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-bat.md)\
+      \ and [giant rats](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-rat.md)."
+    "name": "Raxivort's Tongue"
 "actions":
-- "desc": "The xvart makes two Scimitar or Raxivort's Bite attacks."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6\
-    \ + 2) slashing damage."
-  "name": "Scimitar"
-- "desc": "Ranged Spell Attack: +3 to hit, range 30 ft., one creature. Hit:\
-    \ 7 (1d10 + 2) poison damage."
-  "name": "Raxivort's Bite"
+  - "desc": "The xvart makes two Scimitar or Raxivort's Bite attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+      \ (1d6 + 2) slashing damage."
+    "name": "Scimitar"
+  - "desc": "Ranged Spell Attack: +3 to hit, range 30 ft., one creature. Hit:\
+      \ 7 (1d10 + 2) poison damage."
+    "name": "Raxivort's Bite"
+  - "desc": "The xvart casts one of the following spells, requiring no material components\
+      \ and using Charisma as the spellcasting ability (spell save DC 11):\n\nAt\
+      \ will: [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      \ [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md) (self\
+      \ only), [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
+      \ [minor illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md),\
+      \ [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md)\n\
+      \n1/day each: [burning hands](03.PlayerLog&Handouts/Mechanics/CLI/spells/burning-hands.md),\
+      \ [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md)"
+    "name": "Spellcasting"
 "bonus_actions":
-- "desc": "The xvart takes the [Disengage](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/actions.md#Disengage)\
-    \ action."
-  "name": "Low Cunning"
+  - "desc": "The xvart takes the [Disengage](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Disengage)\
+      \ action."
+    "name": "Low Cunning"
 "source":
-- "MPMM"
-- "VGM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/monstrosity/token/xvart-warlock-of-raxivort-mpmm.webp"
+  - "MPMM"
+  - "VGM"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/token/xvart-warlock-of-raxivort-mpmm.webp"
 ```
 ^statblock
 

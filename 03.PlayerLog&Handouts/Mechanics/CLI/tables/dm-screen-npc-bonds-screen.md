@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/screen
-aliases: ["DM Screen; NPC Bonds"]
+aliases:
+- DM Screen; NPC Bonds
 ---
 # DM Screen; NPC Bonds
 *Source: Dungeon Master's Screen* 

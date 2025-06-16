@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
-aliases: ["Extinction or Depletion"]
+aliases:
+- Extinction or Depletion
 ---
 # Extinction or Depletion
 *Source: Dungeon Master's Guide p. 30* 

@@ -4,11 +4,12 @@ cssclasses: json5e-feat
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 - ttrpg-cli/feat
-aliases: ["Orcish Fury"]
+aliases:
+- Orcish Fury
 ---
 # Orcish Fury
 *Source: Xanathar's Guide to Everything p. 75*  
-**Prerequisite**: [Half-Orc](half-orc.md)
+**Prerequisite**: [Half-Orc](03.PlayerLog&Handouts/Mechanics/CLI/races/half-orc.md)
 **Ability Score Increase**: Increase your Strength or Constitution by 1, to a maximum of 20.
 Your fury burns tirelessly. You gain the following benefits:
 

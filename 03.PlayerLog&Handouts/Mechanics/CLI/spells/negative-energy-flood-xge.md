@@ -12,7 +12,8 @@ classes:
 - Bard
 - Warlock
 - Wizard
-aliases: ["Negative Energy Flood"]
+aliases:
+- Negative Energy Flood
 ---
 # Negative Energy Flood
 *5th-level, Necromancy*  
@@ -23,10 +24,10 @@ aliases: ["Negative Energy Flood"]
 - **Components:** V, M (a broken bone and a square of black silk)
 - **Duration:** Instantaneous
 
-You send ribbons of negative energy at one creature you can see within range. Unless the target is undead, it must make a Constitution saving throw, taking `5d12` necrotic damage on a failed save, or half as much damage on a successful one. A target killed by this damage rises up as a [zombie](zombie.md) at the start of your next turn. The zombie pursues whatever creature it can see that is closest to it. Statistics for the [zombie](zombie.md) are in the Monster Manual.
+You send ribbons of negative energy at one creature you can see within range. Unless the target is undead, it must make a Constitution saving throw, taking `5d12` necrotic damage on a failed save, or half as much damage on a successful one. A target killed by this damage rises up as a [zombie](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/zombie.md) at the start of your next turn. The zombie pursues whatever creature it can see that is closest to it. Statistics for the [zombie](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/zombie.md) are in the Monster Manual.
 
 If you target an undead with this spell, the target doesn't make a saving throw. Instead, roll `5d12`. The target gains half the total as temporary hit points.
 
-**Classes**: [Bard](list-spells-classes-bard.md); [Wizard](list-spells-classes-wizard.md); [Warlock](list-spells-classes-warlock.md)
+**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Xanathar's Guide to Everything p. 163*

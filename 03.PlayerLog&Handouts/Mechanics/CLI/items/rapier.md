@@ -14,7 +14,7 @@ aliases:
 
 
 - **Damage**: 1d8 piercing
-- **Properties**: [Finesse](item-properties.md#Finesse)
+- **Properties**: [Finesse](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Finesse)
 - **Cost**: 25 gp
 - **Weight**: 2.0 lbs.
 

@@ -7,9 +7,11 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/plant
 statblock: inline
-aliases: ["Aartuk Starhorror"]
+statblock-link: "#^statblock"
+aliases:
+- Aartuk Starhorror
 ---
-# [Aartuk Starhorror](03 - Player Log & Handouts\Mechanics\CLI\bestiary\plant/aartuk-starhorror-bam.md)
+# [Aartuk Starhorror](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\plant/aartuk-starhorror-bam.md)
 *Source: Boo's Astral Menagerie p. 9, Light of Xaryxis*  
 
 Aartuks are intelligent plant creatures that live to wage war. Beholders destroyed their original home world and scattered the survivors across the Material Plane. These survivors formed small nomadic cells.
@@ -33,52 +35,54 @@ The Aartuk language is made up of rustling sounds, snaps, pops, and hisses. It h
 "ac_class": "natural armor"
 "hp": !!int "52"
 "hit_dice": "8d8 + 16"
+"modifier": !!int "0"
 "stats":
-- !!int "12"
-- !!int "10"
-- !!int "14"
-- !!int "13"
-- !!int "16"
-- !!int "10"
+  - !!int "12"
+  - !!int "10"
+  - !!int "14"
+  - !!int "13"
+  - !!int "16"
+  - !!int "10"
 "speed": "20 ft., climb 20 ft."
 "skillsaves":
-  "Stealth": !!int "4"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+4"
 "senses": "darkvision 60 ft., passive Perception 13"
 "languages": "Aartuk"
 "cr": "2"
 "traits":
-- "desc": "The aartuk casts one of the following spells, requiring no spell components\
-    \ and using Wisdom as the spellcasting ability:\n\n1/day each: [revivify](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/revivify.md),\
-    \ [speak with plants](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/speak-with-plants.md)"
-  "name": "Spellcasting (Psionics)"
-- "desc": "The aartuk can climb difficult surfaces, including upside down on ceilings,\
-    \ without needing to make an ability check."
-  "name": "Spider Climb"
+  - "desc": "The aartuk can climb difficult surfaces, including upside down on ceilings,\
+      \ without needing to make an ability check."
+    "name": "Spider Climb"
 "actions":
-- "desc": "The aartuk makes two Branch attacks, two Radiant Pellet attacks, or one\
-    \ of each."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +3 to hit, reach 10 ft., one target. Hit: 8\
-    \ (2d6 + 1) bludgeoning damage."
-  "name": "Branch"
-- "desc": "Ranged Spell Attack: +2 to hit, range 60 ft., one target. Hit: 7\
-    \ (3d4) radiant damage."
-  "name": "Radiant Pellet"
+  - "desc": "The aartuk makes two Branch attacks, two Radiant Pellet attacks, or one\
+      \ of each."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +3 to hit, reach 10 ft., one target. Hit:\
+      \ 8 (2d6 + 1) bludgeoning damage."
+    "name": "Branch"
+  - "desc": "Ranged Spell Attack: +2 to hit, range 60 ft., one target. Hit:\
+      \ 7 (3d4) radiant damage."
+    "name": "Radiant Pellet"
+  - "desc": "The aartuk casts one of the following spells, requiring no spell components\
+      \ and using Wisdom as the spellcasting ability:\n\n1/day each: [revivify](03.PlayerLog&Handouts/Mechanics/CLI/spells/revivify.md),\
+      \ [speak with plants](03.PlayerLog&Handouts/Mechanics/CLI/spells/speak-with-plants.md)"
+    "name": "Spellcasting (Psionics)"
 "bonus_actions":
-- "desc": "The aartuk magically ends the [charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
-    \ and [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened)\
-    \ conditions on itself and each creature of its choice that it can see within\
-    \ 30 feet of itself."
-  "name": "Rally the Troops (1/Day)"
-- "desc": "The aartuk tries to use its gooey tongue to snare one Medium or smaller\
-    \ creature it can see within 30 feet of itself. The target must make a DC 12 Dexterity\
-    \ saving throw. On a failed save, the target is [grappled](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
-    \ by the tongue (escape DC 11) and pulled up to 25 feet toward the aartuk. The\
-    \ tongue can grapple one creature at a time."
-  "name": "Tongue (Recharge 6)"
+  - "desc": "The aartuk magically ends the [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
+      \ and [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)\
+      \ conditions on itself and each creature of its choice that it can see within\
+      \ 30 feet of itself."
+    "name": "Rally the Troops (1/Day)"
+  - "desc": "The aartuk tries to use its gooey tongue to snare one Medium or smaller\
+      \ creature it can see within 30 feet of itself. The target must make a DC 12\
+      \ Dexterity saving throw. On a failed save, the target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
+      \ by the tongue (escape DC 11) and pulled up to 25 feet toward the aartuk. The\
+      \ tongue can grapple one creature at a time."
+    "name": "Tongue (Recharge 6)"
 "source":
-- "BAM"
-- "LoX"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/plant/token/aartuk-starhorror-bam.webp"
+  - "BAM"
+  - "LoX"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/token/aartuk-starhorror-bam.webp"
 ```
 ^statblock

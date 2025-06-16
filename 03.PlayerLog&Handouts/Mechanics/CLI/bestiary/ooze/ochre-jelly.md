@@ -8,10 +8,12 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/ooze
 statblock: inline
-aliases: ["Ochre Jelly"]
+statblock-link: "#^statblock"
+aliases:
+- Ochre Jelly
 ---
-# [Ochre Jelly](03 - Player Log & Handouts\Mechanics\CLI\bestiary\ooze/ochre-jelly.md)
-*Source: Monster Manual p. 243, Lost Mine of Phandelver, Baldur's Gate: Descent Into Avernus. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Ochre Jelly](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\ooze/ochre-jelly.md)
+*Source: Monster Manual p. 243, Lost Mine of Phandelver, Princes of the Apocalypse, Tales from the Yawning Portal, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Dragon of Icespire Peak, Baldur's Gate: Descent Into Avernus, Eberron: Rising from the Last War, Journeys through the Radiant Citadel, Hunt for the Thessalhydra. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 Ochre jellies are yellowish blobs that can slide under doors and through narrow cracks in pursuit of creatures to devour. They have enough bestial cunning to avoid large groups of enemies.
 
@@ -51,46 +53,54 @@ An ooze doesn't require sleep.
 "ac": !!int "8"
 "hp": !!int "45"
 "hit_dice": "6d10 + 12"
+"modifier": !!int "-2"
 "stats":
-- !!int "15"
-- !!int "6"
-- !!int "14"
-- !!int "2"
-- !!int "6"
-- !!int "1"
+  - !!int "15"
+  - !!int "6"
+  - !!int "14"
+  - !!int "2"
+  - !!int "6"
+  - !!int "1"
 "speed": "10 ft., climb 10 ft."
 "damage_resistances": "acid"
 "damage_immunities": "lightning, slashing"
-"condition_immunities": "[blinded](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Blinded),\
-  \ [charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
-  \ [deafened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Deafened),\
-  \ [exhaustion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
-  \ [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
-  \ [prone](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Prone)"
+"condition_immunities": "[blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded),\
+  \ [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened),\
+  \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
+  \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
+  \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)"
 "senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 8"
 "languages": ""
 "cr": "2"
 "traits":
-- "desc": "The jelly can move through a space as narrow as 1 inch wide without squeezing."
-  "name": "Amorphous"
-- "desc": "The jelly can climb difficult surfaces, including upside down on ceilings,\
-    \ without needing to make an ability check."
-  "name": "Spider Climb"
+  - "desc": "The jelly can move through a space as narrow as 1 inch wide without squeezing."
+    "name": "Amorphous"
+  - "desc": "The jelly can climb difficult surfaces, including upside down on ceilings,\
+      \ without needing to make an ability check."
+    "name": "Spider Climb"
 "actions":
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6\
-    \ + 2) bludgeoning damage plus 3 (1d6) acid damage."
-  "name": "Pseudopod"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9\
+      \ (2d6 + 2) bludgeoning damage plus 3 (d6) acid damage."
+    "name": "Pseudopod"
 "reactions":
-- "desc": "When a jelly that is Medium or larger is subjected to lightning or slashing\
-    \ damage, it splits into two new jellies if it has at least 10 hit points. Each\
-    \ new jelly has hit points equal to half the original jelly's, rounded down. New\
-    \ jellies are one size smaller than the original jelly."
-  "name": "Split"
+  - "desc": "When a jelly that is Medium or larger is subjected to lightning or slashing\
+      \ damage, it splits into two new jellies if it has at least 10 hit points. Each\
+      \ new jelly has hit points equal to half the original jelly's, rounded down.\
+      \ New jellies are one size smaller than the original jelly."
+    "name": "Split"
 "source":
-- "MM"
-- "LMoP"
-- "BGDIA"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/ooze/token/ochre-jelly.webp"
+  - "MM"
+  - "LMoP"
+  - "PotA"
+  - "TftYP"
+  - "WDMM"
+  - "GoS"
+  - "DIP"
+  - "BGDIA"
+  - "ERLW"
+  - "JttRC"
+  - "HftT"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/ooze/token/ochre-jelly.webp"
 ```
 ^statblock
 

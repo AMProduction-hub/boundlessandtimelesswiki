@@ -4,10 +4,11 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/subclass/druid/moon
-aliases: ["Circle of the Moon"]
+aliases:
+- Circle of the Moon
 ---
 # Circle of the Moon
-*[Druid](03.PlayerLog&Handouts/Mechanics/CLI/classes/druid.md): Druid Circle*  
+*[Druid](./druid.md): Druid Circle*  
 *Source: Player's Handbook p. 69*  
 
 > [!tldr] Class and Feature Progression
@@ -54,7 +55,7 @@ Changeable as the moon, a druid of this circle might prowl as a great cat one ni
 
 You gain the ability to use Wild Shape on your turn as a bonus action, rather than as an action.
 
-Additionally, while you are transformed by Wild Shape, you can use a bonus action to expend one spell slot to regain `1d8` hit points per level of the spell slot expended.
+Additionally, while you are transformed by Wild Shape, you can use a bonus action to expend one spell slot to regain `d8` hit points per level of the spell slot expended.
 
 ### Circle Forms (Level 2)
 
@@ -82,8 +83,8 @@ Starting at 6th level, your attacks in beast form count as magical for the purpo
 
 ### Elemental Wild Shape (Level 10)
 
-At 10th level, you can expend two uses of Wild Shape at the same time to transform into an [air elemental](air-elemental.md), an [earth elemental](earth-elemental.md), a [fire elemental](fire-elemental.md), or a [water elemental](water-elemental.md).
+At 10th level, you can expend two uses of Wild Shape at the same time to transform into an [air elemental](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/air-elemental.md), an [earth elemental](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/earth-elemental.md), a [fire elemental](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/fire-elemental.md), or a [water elemental](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/water-elemental.md).
 
 ### Thousand Forms (Level 14)
 
-By 14th level, you have learned to use magic to alter your physical form in more subtle ways. You can cast the [alter self](alter-self.md) spell at will.
+By 14th level, you have learned to use magic to alter your physical form in more subtle ways. You can cast the [alter self](03.PlayerLog&Handouts/Mechanics/CLI/spells/alter-self.md) spell at will.

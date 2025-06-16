@@ -8,10 +8,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/elemental
 statblock: inline
-aliases: ["Invisible Stalker"]
+statblock-link: "#^statblock"
+aliases:
+- Invisible Stalker
 ---
-# [Invisible Stalker](03 - Player Log & Handouts\Mechanics\CLI\bestiary\elemental/invisible-stalker.md)
-*Source: Monster Manual p. 192. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Invisible Stalker](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\elemental/invisible-stalker.md)
+*Source: Monster Manual p. 192, Curse of Strahd, Princes of the Apocalypse, Storm King's Thunder, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Divine Contention, Dragon of Icespire Peak, Storm Lord's Wrath, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 An invisible stalker is an air elemental that has been summoned from its native plane and transformed by powerful magic. Its sole purpose is to hunt down creatures and retrieve objects for its summoner. When it is defeated or the magic that binds it expires, an invisible stalker vanishes in a gust of wind.
 
@@ -37,46 +39,61 @@ An invisible stalker requires no air, food, drink, or sleep.
 "ac": !!int "14"
 "hp": !!int "104"
 "hit_dice": "16d8 + 32"
+"modifier": !!int "4"
 "stats":
-- !!int "16"
-- !!int "19"
-- !!int "14"
-- !!int "10"
-- !!int "15"
-- !!int "11"
+  - !!int "16"
+  - !!int "19"
+  - !!int "14"
+  - !!int "10"
+  - !!int "15"
+  - !!int "11"
 "speed": "50 ft., fly 50 ft. (hover)"
 "skillsaves":
-  "Stealth": !!int "10"
-  "Perception": !!int "8"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+8"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+10"
 "damage_resistances": "bludgeoning, piercing, slashing from nonmagical attacks"
 "damage_immunities": "poison"
-"condition_immunities": "[exhaustion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
-  \ [grappled](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Grappled),\
-  \ [paralyzed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
-  \ [petrified](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
-  \ [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
-  \ [prone](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Prone),\
-  \ [restrained](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
-  \ [unconscious](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)"
+"condition_immunities": "[exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
+  \ [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled),\
+  \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
+  \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
+  \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
+  \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
+  \ [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)"
 "senses": "darkvision 60 ft., passive Perception 18"
 "languages": "Auran, understands Common but doesn't speak it"
 "cr": "6"
 "traits":
-- "desc": "The stalker is [invisible](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Invisible)."
-  "name": "Invisibility"
-- "desc": "The stalker is given a quarry by its summoner. The stalker knows the direction\
-    \ and distance to its quarry as long as the two of them are on the same plane\
-    \ of existence. The stalker also knows the location of its summoner."
-  "name": "Faultless Tracker"
+  - "desc": "The stalker is [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible)."
+    "name": "Invisibility"
+  - "desc": "The stalker is given a quarry by its summoner. The stalker knows the\
+      \ direction and distance to its quarry as long as the two of them are on the\
+      \ same plane of existence. The stalker also knows the location of its summoner."
+    "name": "Faultless Tracker"
 "actions":
-- "desc": "The stalker makes two slam attacks."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10\
-    \ (2d6 + 3) bludgeoning damage."
-  "name": "Slam"
+  - "desc": "The stalker makes two slam attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10\
+      \ (2d6 + 3) bludgeoning damage."
+    "name": "Slam"
 "source":
-- "MM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/elemental/token/invisible-stalker.webp"
+  - "MM"
+  - "CoS"
+  - "PotA"
+  - "SKT"
+  - "TftYP"
+  - "ToA"
+  - "WDMM"
+  - "GoS"
+  - "DC"
+  - "DIP"
+  - "SLW"
+  - "MOT"
+  - "IDRotF"
+  - "KftGV"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/token/invisible-stalker.webp"
 ```
 ^statblock
 

@@ -4,7 +4,8 @@ cssclasses: json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/bgdia
-aliases: ["Baldur's Gate Folk Hero"]
+aliases:
+- Baldur's Gate Folk Hero
 ---
 # Baldur's Gate Folk Hero
 *Source: Baldur's Gate: Descent Into Avernus p. 204, Player's Handbook p. 131*  
@@ -12,7 +13,7 @@ aliases: ["Baldur's Gate Folk Hero"]
 
 - **Skill Proficiencies.** [Animal Handling](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Animal%20Handling), [Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)  
 - **Tool Proficiencies.** One type of artisan's tools, vehicles (land)  
-- **Equipment.** A set of artisan's tools (one of your choice), a [shovel](shovel.md), an [iron pot](iron-pot.md), a set of [common clothes](common-clothes.md), and a belt [pouch](pouch.md) containing 10 gp  
+- **Equipment.** A set of artisan's tools (one of your choice), a [shovel](03.PlayerLog&Handouts/Mechanics/CLI/items/shovel.md), an [iron pot](03.PlayerLog&Handouts/Mechanics/CLI/items/iron-pot.md), a set of [common clothes](03.PlayerLog&Handouts/Mechanics/CLI/items/common-clothes.md), and a belt [pouch](03.PlayerLog&Handouts/Mechanics/CLI/items/pouch.md) containing 10 gp  
 
 Baldur's Gate is a city badly in need of heroes, and every so often, one rises from among its own. Ordinary people who rise to greatness are beloved in local history, but the popular imagination can turn on such champions almost as quickly as it anoints them.
 
@@ -25,7 +26,7 @@ Since you come from the ranks of the common folk, you fit in among them with eas
 > [!note]
 > The effects of a Baldur's Gate feature can be used only while the character is in Baldur's Gate—though, at the DM's discretion, they might have applicable effects in situations similar to those in Baldur's Gate.
 
-You've lived your entire life in the Lower or Outer City of Baldur's Gate. You grew up seeing arrogant patriars flaunt their wealth while your hardworking neighbors struggled. As a result, you know how eager commoners in Baldur's Gate are to see any patriar get what they deserve. While in a busy part of the Lower City or Outer City of Baldur's Gate, you can spend `2d10` minutes to convince `1d6` [commoners](commoner.md) to perform a non-illegal act that inconveniences a member of the Watch or Flaming Fist, a patriar, or some other wealthy looking individual.
+You've lived your entire life in the Lower or Outer City of Baldur's Gate. You grew up seeing arrogant patriars flaunt their wealth while your hardworking neighbors struggled. As a result, you know how eager commoners in Baldur's Gate are to see any patriar get what they deserve. While in a busy part of the Lower City or Outer City of Baldur's Gate, you can spend `2d10` minutes to convince `d6` [commoners](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md) to perform a non-illegal act that inconveniences a member of the Watch or Flaming Fist, a patriar, or some other wealthy looking individual.
 
 ## Folk Hero Origins
 

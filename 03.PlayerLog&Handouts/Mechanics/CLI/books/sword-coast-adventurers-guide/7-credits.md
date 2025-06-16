@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/scag
-aliases: ["Credits"]
+aliases:
+- Credits
 ---
 # Credits
 *Source: Sword Coast Adventurer's Guide* 
@@ -26,7 +27,7 @@ This book was a collaboration between Wizards of the Coast and Green Ronin Publi
 - **Project Management.** Neil Shinkle, John Hay  
 - **Production Services.** Cynda Callaway, Jefferson Dunlap, David Gershman  
 - **Brand and Marketing.** Nathan Stewart, Liz Schuh, Chris Lindsay, Shelly Mazzanoble, Hilary Ross, John Feil, Greg Tito, Kim Lundstrom, Trevor Kidd  
-- **Playtesters.** Adam Hennebeck, Anthony Caroselli, Arthur Wright, Bill Benham, Bryce Haley, Christopher Hackler, Claudio Pozas, Daniel Oquendo, David "Oak" Stark, Gregory L. Harris, Jason Baxter, Jason Fuller, Jay Anderson, Jeff Greiner, Jonathan Longstaff, Jonathan Urman, Josh Dillard, Karl Resch, Ken J Breese, Keoki Young, Kevin Neff, Krupal Desai, Kyle Turner, Liam Gulliver, Logan Neufeld, Lou Michelli, Matt Maranda, Mik Calow, Mike Mihalas, Naomi Kellerman-Bernard, Paul Hughes, Paul Melamed, Richard Green, Robert Alaniz, Rory Madden, Shane Leahy, Shawn Merwin, Stacy Bermes, Teos Abadia, Tom Lommel, Travis Brock, Yan Lacharité  
+- **Playtesters.** Adam Hennebeck, Anthony Caroselli, Arthur Wright, Bill Benham, Bryce Haley, Christopher Hackler, Claudio Pozas, Daniel Oquendo, David "Oak" Stark, Gregory L. Harris, Jason Baxter, Jason Fuller, Jay Anderson, Jeff Greiner, Jonathan Longstaff, Jonathan Urman, Josh Dillard, Karl Resch, Ken J Breese, Keoki Young, Kevin Neff, Krupal Desai, Kyle Turner, Liam Gulliver, Logan Neufeld, Lou Michelli, Matt Maranda, Mik Calow, Mike Mihalas, Naomi Kellerman-Bernard, Paul Hughes, Paul Melamed, Richard Green, Robert Alaniz, Rory Madden, Shane Leahy, Shawn Merwin, Stacy Bermes, Teos Abadía, Tom Lommel, Travis Brock, Yan Lacharité  
 
 ## Bibliography
 
@@ -61,4 +62,4 @@ Here are the Forgotten Realms works that most influenced this book.
 - Sernett, Matt, Erik Scott de Bie, and Ari Marmell. Neverwinter Campaign Setting. 2011.  
 - slade, Ed Greenwood, Jeff Grubb, and others. The North: Guide to the Savage Frontier. 1996.  
 
-![On the Cover: Tyler Jacobs...](scagcover.webp#center "On the Cover: Tyler Jacobson illustrates this band of adventurers as they engage in aggressive negotiations with a fierce delegation of orcs. Featured (left to right): Skip Brickard, a halfling fighter with an orc-sized chip on his shoulder; Illydia Maethellyn, an aged moon elf cleric of Sehanine Moonbow; Hitch, a brash rogue whose shady past ties him to the Zhentarim; Makos, a tiefling warlock hell-bent on revenge against his infernal father; and Nayeli Goldflower, a powerful human paladin driven by an oath of vengeance.")
+![On the Cover: Tyler Jacobs...](03.PlayerLog&Handouts/Mechanics/CLI/books/sword-coast-adventurers-guide/img/scagcover.webp#center "On the Cover: Tyler Jacobson illustrates this band of adventurers as they engage in aggressive negotiations with a fierce delegation of orcs. Featured (left to right): Skip Brickard, a halfling fighter with an orc-sized chip on his shoulder; Illydia Maethellyn, an aged moon elf cleric of Sehanine Moonbow; Hitch, a brash rogue whose shady past ties him to the Zhentarim; Makos, a tiefling warlock hell-bent on revenge against his infernal father; and Nayeli Goldflower, a powerful human paladin driven by an oath of vengeance.")

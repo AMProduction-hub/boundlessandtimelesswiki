@@ -6,9 +6,10 @@ tags:
 - ttrpg-cli/deity/elven
 - ttrpg-cli/domain/life
 - ttrpg-cli/domain/nature
-aliases: ["Elebrin liothiel"]
+aliases: 
+- Elebrin Liothiel
 ---
-# Elebrin liothiel
+# Elebrin Liothiel
 *Source: Mordenkainen's Tome of Foes p. 43* 
 
 - **Alignment**: Chaotic Good

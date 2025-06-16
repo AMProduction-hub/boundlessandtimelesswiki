@@ -7,10 +7,12 @@ tags:
 - ttrpg-cli/monster/size/small
 - ttrpg-cli/monster/type/construct
 statblock: inline
-aliases: ["Flying Sword"]
+statblock-link: "#^statblock"
+aliases:
+- Flying Sword
 ---
-# [Flying Sword](03 - Player Log & Handouts\Mechanics\CLI\bestiary\construct/flying-sword.md)
-*Source: Monster Manual p. 20, Baldur's Gate: Descent Into Avernus, Tasha's Cauldron of Everything. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Flying Sword](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/flying-sword.md)
+*Source: Monster Manual p. 20, Curse of Strahd, Princes of the Apocalypse, Storm King's Thunder, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus, Explorer's Guide to Wildemount, Icewind Dale: Rime of the Frostmaiden, Tasha's Cauldron of Everything, Candlekeep Mysteries, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 A flying sword dances through the air, fighting with the confidence of a warrior that can't be injured. Swords are the most common weapons animated with magic. Axes, clubs, daggers, maces, spears, and even self-loading crossbows are also known to exist in animated object form.
 
@@ -35,46 +37,58 @@ An animated object doesn't require air, food, drink, or sleep. The magic that an
 "ac_class": "natural armor"
 "hp": !!int "17"
 "hit_dice": "5d6"
+"modifier": !!int "2"
 "stats":
-- !!int "12"
-- !!int "15"
-- !!int "11"
-- !!int "1"
-- !!int "5"
-- !!int "1"
+  - !!int "12"
+  - !!int "15"
+  - !!int "11"
+  - !!int "1"
+  - !!int "5"
+  - !!int "1"
 "speed": "0 ft., fly 50 ft. (hover)"
 "saves":
-  "Dexterity": !!int "4"
+  - "dexterity": "+4"
 "damage_immunities": "poison, psychic"
-"condition_immunities": "[blinded](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Blinded),\
-  \ [charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
-  \ [deafened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Deafened),\
-  \ [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
-  \ [paralyzed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
-  \ [petrified](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
-  \ [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded),\
+  \ [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened),\
+  \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
+  \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
+  \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
+  \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 7"
 "languages": ""
 "cr": "1/4"
 "traits":
-- "desc": "The sword is [incapacitated](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)\
-    \ while in the area of an [antimagic field](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/antimagic-field.md).\
-    \ If targeted by [dispel magic](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/dispel-magic.md),\
-    \ the sword must succeed on a Constitution saving throw against the caster's spell\
-    \ save DC or fall [unconscious](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)\
-    \ for 1 minute."
-  "name": "Antimagic Susceptibility"
-- "desc": "While the sword remains motionless and isn't flying, it is indistinguishable\
-    \ from a normal sword."
-  "name": "False Appearance"
+  - "desc": "The sword is [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)\
+      \ while in the area of an [antimagic field](03.PlayerLog&Handouts/Mechanics/CLI/spells/antimagic-field.md).\
+      \ If targeted by [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md),\
+      \ the sword must succeed on a Constitution saving throw against the caster's\
+      \ spell save DC or fall [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)\
+      \ for 1 minute."
+    "name": "Antimagic Susceptibility"
+  - "desc": "While the sword remains motionless and isn't flying, it is indistinguishable\
+      \ from a normal sword."
+    "name": "False Appearance"
 "actions":
-- "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d8\
-    \ + 1) slashing damage."
-  "name": "Longsword"
+  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5\
+      \ (1d8 + 1) slashing damage."
+    "name": "Longsword"
 "source":
-- "MM"
-- "BGDIA"
-- "TCE"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/construct/token/flying-sword.webp"
+  - "MM"
+  - "CoS"
+  - "PotA"
+  - "SKT"
+  - "TftYP"
+  - "ToA"
+  - "WDH"
+  - "WDMM"
+  - "GoS"
+  - "BGDIA"
+  - "EGW"
+  - "IDRotF"
+  - "TCE"
+  - "CM"
+  - "KftGV"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/token/flying-sword.webp"
 ```
 ^statblock

@@ -18,7 +18,8 @@ classes:
 - Rogue (Arcane Trickster)
 - Sorcerer
 - Wizard
-aliases: ["Warding Wind"]
+aliases:
+- Warding Wind
 ---
 # Warding Wind
 *2nd-level, Evocation*  
@@ -33,12 +34,12 @@ A strong wind (20 miles per hour) blows around you in a 10-foot radius and moves
 
 The wind has the following effects:
 
-- It [deafens](conditions.md#Deafened) you and other creatures in its area.  
+- It [deafens](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened) you and other creatures in its area.  
 - It extinguishes unprotected flames in its area that are torch-sized or smaller.  
 - It hedges out vapor, gas, and fog that can be dispersed by strong wind.  
 - The area is difficult terrain for creatures other than you.  
 - The attack rolls of ranged weapon attacks have disadvantage if the attacks pass in or out of the wind.  
 
-**Classes**: [Druid](list-spells-classes-druid.md); [Rogue (Arcane Trickster)](list-spells-classes-rogue-arcane-trickster.md); [Bard](list-spells-classes-bard.md); [Wizard](list-spells-classes-wizard.md); [Fighter (Eldritch Knight)](list-spells-classes-fighter-eldritch-knight.md); [Sorcerer](list-spells-classes-sorcerer.md)
+**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md)
 
-*Source: Xanathar's Guide to Everything p. 170*
+*Source: Xanathar's Guide to Everything p. 170, Elemental Evil Player's Companion p. 23*

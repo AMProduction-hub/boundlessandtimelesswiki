@@ -11,10 +11,12 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/beast
 statblock: inline
-aliases: ["Giant Hyena"]
+statblock-link: "#^statblock"
+aliases:
+- Giant Hyena
 ---
-# [Giant Hyena](03 - Player Log & Handouts\Mechanics\CLI\bestiary\beast/giant-hyena.md)
-*Source: Monster Manual p. 326, Baldur's Gate: Descent Into Avernus. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Giant Hyena](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/giant-hyena.md)
+*Source: Monster Manual p. 326, Tales from the Yawning Portal, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 ```statblock
 "name": "Giant Hyena"
@@ -24,32 +26,36 @@ aliases: ["Giant Hyena"]
 "ac": !!int "12"
 "hp": !!int "45"
 "hit_dice": "6d10 + 12"
+"modifier": !!int "2"
 "stats":
-- !!int "16"
-- !!int "14"
-- !!int "14"
-- !!int "2"
-- !!int "12"
-- !!int "7"
+  - !!int "16"
+  - !!int "14"
+  - !!int "14"
+  - !!int "2"
+  - !!int "12"
+  - !!int "7"
 "speed": "50 ft."
 "skillsaves":
-  "Perception": !!int "3"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+3"
 "senses": "passive Perception 13"
 "languages": ""
 "cr": "1"
 "traits":
-- "desc": "When the hyena reduces a creature to 0 hit points with a melee attack on\
-    \ its turn, the hyena can take a bonus action to move up to half its speed and\
-    \ make a bite attack."
-  "name": "Rampage"
+  - "desc": "When the hyena reduces a creature to 0 hit points with a melee attack\
+      \ on its turn, the hyena can take a bonus action to move up to half its speed\
+      \ and make a bite attack."
+    "name": "Rampage"
 "actions":
-- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10\
-    \ (2d6 + 3) piercing damage."
-  "name": "Bite"
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10\
+      \ (2d6 + 3) piercing damage."
+    "name": "Bite"
 "source":
-- "MM"
-- "BGDIA"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/beast/token/giant-hyena.webp"
+  - "MM"
+  - "TftYP"
+  - "GoS"
+  - "BGDIA"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/giant-hyena.webp"
 ```
 ^statblock
 

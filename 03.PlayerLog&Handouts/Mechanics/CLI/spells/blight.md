@@ -3,6 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
+- ttrpg-cli/spell/background/orzhov-representative
+- ttrpg-cli/spell/background/witherbloom-student
 - ttrpg-cli/spell/class/bard
 - ttrpg-cli/spell/class/druid
 - ttrpg-cli/spell/class/sorcerer
@@ -14,25 +16,26 @@ tags:
 - ttrpg-cli/spell/subclass/arcane-trickster
 - ttrpg-cli/spell/subclass/circle-of-spores
 - ttrpg-cli/spell/subclass/circle-of-the-land
-- ttrpg-cli/spell/subclass/death-domain-dmg
+- ttrpg-cli/spell/subclass/death-domain
 - ttrpg-cli/spell/subclass/eldritch-knight
 - ttrpg-cli/spell/subclass/grave-domain
-- ttrpg-cli/spell/subclass/oathbreaker-dmg
+- ttrpg-cli/spell/subclass/oathbreaker
 classes:
 - Artificer (Alchemist)
 - Bard
-- Cleric (Death Domain (DMG))
+- Cleric (Death Domain)
 - Cleric (Grave Domain)
 - Druid
 - Druid (Circle of Spores)
 - Druid (Circle of the Land)
 - Fighter (Eldritch Knight)
-- Paladin (Oathbreaker (DMG))
+- Paladin (Oathbreaker)
 - Rogue (Arcane Trickster)
 - Sorcerer
 - Warlock
 - Wizard
-aliases: ["Blight"]
+aliases:
+- Blight
 ---
 # Blight
 *4th-level, Necromancy*  
@@ -49,8 +52,8 @@ If you target a plant creature or a magical plant, it makes the saving throw wit
 
 If you target a nonmagical plant that isn't a creature, such as a tree or shrub, it doesn't make a saving throw, it simply withers and dies.
 
-**At Higher Levels.** When you cast this spell using a spell slot of 5th level or higher, the damage increases by `1d8` for each slot level above 4th.
+**At Higher Levels.** When you cast this spell using a spell slot of 5th level or higher, the damage increases by `d8` for each slot level above 4th.
 
-**Classes**: [Druid](list-spells-classes-druid.md); [Artificer (Alchemist)](list-spells-classes-artificer-alchemist-tce.md "subclass=TCE;class=TCE"); [Druid (Circle of the Land)](list-spells-classes-druid-circle-of-the-land.md); [Bard](list-spells-classes-bard.md); [Fighter (Eldritch Knight)](list-spells-classes-fighter-eldritch-knight.md); [Sorcerer](list-spells-classes-sorcerer.md); [Cleric (Death Domain (DMG))](list-spells-classes-cleric-death-domain-dmg.md "subclass=DMG"); [Rogue (Arcane Trickster)](list-spells-classes-rogue-arcane-trickster.md); [Paladin (Oathbreaker (DMG))](list-spells-classes-paladin-oathbreaker-dmg.md "subclass=DMG"); [Wizard](list-spells-classes-wizard.md); [Druid (Circle of Spores)](list-spells-classes-druid-circle-of-spores-tce.md "subclass=TCE"); [Cleric (Grave Domain)](list-spells-classes-cleric-grave-domain-xge.md "subclass=XGE"); [Warlock](list-spells-classes-warlock.md)
+**Classes**: [Cleric (Death Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-death-domain-dmg.md "subclass=DMG"); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Artificer (Alchemist)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-alchemist-tce.md "subclass=TCE;class=TCE"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Druid (Circle of Spores)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-circle-of-spores-tce.md "subclass=TCE"); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Cleric (Grave Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-grave-domain-xge.md "subclass=XGE"); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Druid (Circle of the Land)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-circle-of-the-land.md); [Paladin (Oathbreaker)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oathbreaker-dmg.md "subclass=DMG")
 
 *Source: Player's Handbook p. 219. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

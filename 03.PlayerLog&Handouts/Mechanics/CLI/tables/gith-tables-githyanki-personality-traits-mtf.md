@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
-aliases: ["Gith Tables; Githyanki Personality Traits"]
+aliases:
+- Gith Tables; Githyanki Personality Traits
 ---
 # Gith Tables; Githyanki Personality Traits
 *Source: Mordenkainen's Tome of Foes p. 97* 

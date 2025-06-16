@@ -7,9 +7,11 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/humanoid
 statblock: inline
-aliases: ["Hadozee Explorer"]
+statblock-link: "#^statblock"
+aliases:
+- Hadozee Explorer
 ---
-# [Hadozee Explorer](03 - Player Log & Handouts\Mechanics\CLI\bestiary\humanoid/hadozee-explorer-bam.md)
+# [Hadozee Explorer](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/hadozee-explorer-bam.md)
 *Source: Boo's Astral Menagerie p. 28, Light of Xaryxis*  
 
 Hadozee explorers scour Wildspace systems for riches and adventure. They often serve as navigators aboard spelljamming ships. To them, the Astral Plane is a mostly uncharted expanse worthy of further exploration.
@@ -20,52 +22,57 @@ Hadozee explorers scour Wildspace systems for riches and adventure. They often s
 "type": "humanoid"
 "alignment": "Any alignment"
 "ac": !!int "15"
-"ac_class": "[studded leather](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/items/studded-leather-armor.md)"
+"ac_class": "[studded leather](03.PlayerLog&Handouts/Mechanics/CLI/items/studded-leather-armor.md)"
 "hp": !!int "49"
 "hit_dice": "9d8 + 9"
+"modifier": !!int "3"
 "stats":
-- !!int "11"
-- !!int "17"
-- !!int "13"
-- !!int "13"
-- !!int "17"
-- !!int "14"
+  - !!int "11"
+  - !!int "17"
+  - !!int "13"
+  - !!int "13"
+  - !!int "17"
+  - !!int "14"
 "speed": "30 ft., climb 30 ft."
 "saves":
-  "Wisdom": !!int "5"
-  "Constitution": !!int "3"
+  - "constitution": "+3"
+  - "wisdom": "+5"
 "skillsaves":
-  "Athletics": !!int "2"
-  "Stealth": !!int "5"
-  "Perception": !!int "5"
-  "Survival": !!int "5"
+  - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
+    "desc": "+2"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+5"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+5"
+  - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
+    "desc": "+5"
 "senses": "passive Perception 15"
 "languages": "Common, Hadozee"
 "cr": "2"
 "traits":
-- "desc": "If it isn't [incapacitated](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)\
-    \ or wearing heavy armor, the hadozee can extend its skin membranes to move up\
-    \ to 5 feet horizontally for every 1 foot it descends in the air."
-  "name": "Glide"
+  - "desc": "If it isn't [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)\
+      \ or wearing heavy armor, the hadozee can extend its skin membranes to move\
+      \ up to 5 feet horizontally for every 1 foot it descends in the air."
+    "name": "Glide"
 "actions":
-- "desc": "The hadozee makes two Shortsword attacks."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6\
-    \ + 3) piercing damage."
-  "name": "Shortsword"
-- "desc": "Ranged Weapon Attack: +5 to hit, range 40/120 ft., one target. Hit:\
-    \ 16 (2d12 + 3) piercing damage."
-  "name": "Musket"
+  - "desc": "The hadozee makes two Shortsword attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+      \ (1d6 + 3) piercing damage."
+    "name": "Shortsword"
+  - "desc": "Ranged Weapon Attack: +5 to hit, range 40/120 ft., one target. Hit:\
+      \ 16 (2d12 + 3) piercing damage."
+    "name": "Musket"
 "bonus_actions":
-- "desc": "The hadozee takes the Disengage or Hide action."
-  "name": "Nimble Escape"
+  - "desc": "The hadozee takes the Disengage or Hide action."
+    "name": "Nimble Escape"
 "reactions":
-- "desc": "When it would take damage from a fall, the hadozee extends its skin membranes\
-    \ to reduce the fall's damage to 0, provided it isn't wearing heavy armor."
-  "name": "Safe Descent"
+  - "desc": "When it would take damage from a fall, the hadozee extends its skin membranes\
+      \ to reduce the fall's damage to 0, provided it isn't wearing heavy armor."
+    "name": "Safe Descent"
 "source":
-- "BAM"
-- "LoX"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/humanoid/token/hadozee-explorer-bam.webp"
+  - "BAM"
+  - "LoX"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/hadozee-explorer-bam.webp"
 ```
 ^statblock

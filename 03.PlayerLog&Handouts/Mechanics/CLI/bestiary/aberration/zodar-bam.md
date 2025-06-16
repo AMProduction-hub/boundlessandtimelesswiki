@@ -7,9 +7,11 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/aberration
 statblock: inline
-aliases: ["Zodar"]
+statblock-link: "#^statblock"
+aliases:
+- Zodar
 ---
-# [Zodar](03 - Player Log & Handouts\Mechanics\CLI\bestiary\aberration/zodar-bam.md)
+# [Zodar](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\aberration/zodar-bam.md)
 *Source: Boo's Astral Menagerie p. 64, Light of Xaryxis*  
 
 A zodar is a bipedal entity whose body is encased in an obsidian exoskeleton. It has no facial features aside from two narrow, vertical slits that resemble eyes, and its countenance betrays no hint of pain or emotion. Underneath its armored exterior, a zodar's body is composed of tightly knit muscle fibers that make it incredibly strong and heavy. A zodar weighs 1,500 pounds.
@@ -29,65 +31,66 @@ A zodar can cause speech to issue from the air around it on three occasions in i
 "ac_class": "natural armor"
 "hp": !!int "200"
 "hit_dice": "16d8 + 128"
+"modifier": !!int "0"
 "stats":
-- !!int "30"
-- !!int "10"
-- !!int "26"
-- !!int "12"
-- !!int "15"
-- !!int "18"
+  - !!int "30"
+  - !!int "10"
+  - !!int "26"
+  - !!int "12"
+  - !!int "15"
+  - !!int "18"
 "speed": "30 ft., fly 30 ft. (hover)"
 "saves":
-  "Charisma": !!int "9"
-  "Wisdom": !!int "7"
-  "Intelligence": !!int "6"
-  "Constitution": !!int "13"
+  - "constitution": "+13"
+  - "intelligence": "+6"
+  - "wisdom": "+7"
+  - "charisma": "+9"
 "damage_immunities": "acid, fire, poison"
-"condition_immunities": "[blinded](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Blinded),\
-  \ [charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
-  \ [deafened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Deafened),\
-  \ [exhaustion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
-  \ [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
-  \ [petrified](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
-  \ [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded),\
+  \ [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened),\
+  \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
+  \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
+  \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
+  \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "blindsight 120 ft. (blind beyond this radius), passive Perception 12"
 "languages": "see Disembodied Voice below"
 "cr": "16"
 "traits":
-- "desc": "The zodar casts the [wish](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/wish.md)\
-    \ spell, requiring no spell components and using Charisma as the spellcasting\
-    \ ability (spell save DC 17). After casting this spell, the zodar turns to dust\
-    \ and is destroyed.\n\nAt will: "
-  "name": "Wish"
-- "desc": "Up to three times in its life, the zodar can cause a message of up to twenty-five\
-    \ words to issue from the air around it. It speaks only when it has something\
-    \ profoundly important to say, and the message can be understood by any creature\
-    \ that has an Intelligence score of 2 or higher."
-  "name": "Disembodied Voice"
-- "desc": "If the zodar fails a saving throw, it can choose to succeed instead."
-  "name": "Legendary Resistance (3/Day)"
-- "desc": "The zodar can't be teleported or sent to any plane of existence against\
-    \ its will."
-  "name": "Transport Inhibitor"
-- "desc": "The zodar doesn't require air, food, drink, or sleep."
-  "name": "Unusual Nature"
+  - "desc": "Up to three times in its life, the zodar can cause a message of up to\
+      \ twenty-five words to issue from the air around it. It speaks only when it\
+      \ has something profoundly important to say, and the message can be understood\
+      \ by any creature that has an Intelligence score of 2 or higher."
+    "name": "Disembodied Voice"
+  - "desc": "If the zodar fails a saving throw, it can choose to succeed instead."
+    "name": "Legendary Resistance (3/Day)"
+  - "desc": "The zodar can't be teleported or sent to any plane of existence against\
+      \ its will."
+    "name": "Transport Inhibitor"
+  - "desc": "The zodar doesn't require air, food, drink, or sleep."
+    "name": "Unusual Nature"
 "actions":
-- "desc": "The zodar makes two Crushing Fist attacks. Before or after these attacks,\
-    \ the zodar uses Forced Teleport."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +15 to hit, reach 5 ft., one target. Hit: 21\
-    \ (2d10 + 10) force damage."
-  "name": "Crushing Fist"
-- "desc": "The zodar magically warps space around one creature it can see within 60\
-    \ feet of itself. The target must make a DC 21 Constitution saving throw. On a\
-    \ failed save, the target takes 22 (4d10) force damage, and the zodar teleports\
-    \ it, along with any equipment it's wearing or carrying, up to 60 feet to an unoccupied\
-    \ space that the zodar can see and that can support the target. On a successful\
-    \ save, the target takes half as much damage and isn't teleported."
-  "name": "Forced Teleport"
+  - "desc": "The zodar makes two Crushing Fist attacks. Before or after these attacks,\
+      \ the zodar uses Forced Teleport."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +15 to hit, reach 5 ft., one target. Hit:\
+      \ 21 (2d10 + 10) force damage."
+    "name": "Crushing Fist"
+  - "desc": "The zodar magically warps space around one creature it can see within\
+      \ 60 feet of itself. The target must make a DC 21 Constitution saving throw.\
+      \ On a failed save, the target takes 22 (4d10) force damage, and the zodar\
+      \ teleports it, along with any equipment it's wearing or carrying, up to 60\
+      \ feet to an unoccupied space that the zodar can see and that can support the\
+      \ target. On a successful save, the target takes half as much damage and isn't\
+      \ teleported."
+    "name": "Forced Teleport"
+  - "desc": "The zodar casts the [wish](03.PlayerLog&Handouts/Mechanics/CLI/spells/wish.md)\
+      \ spell, requiring no spell components and using Charisma as the spellcasting\
+      \ ability (spell save DC 17). After casting this spell, the zodar turns to dust\
+      \ and is destroyed.\n"
+    "name": "Wish"
 "source":
-- "BAM"
-- "LoX"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/aberration/token/zodar-bam.webp"
+  - "BAM"
+  - "LoX"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/token/zodar-bam.webp"
 ```
 ^statblock

@@ -12,9 +12,9 @@ aliases:
 *Adventuring gear, poison (ingested)*  
 
 
-- **Properties**: [Poison](item-properties.md#Poison)
+- **Properties**: [Poison](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Poison)
 - **Cost**: 150 gp
 
-A creature subjected to this poison must succeed on a DC 11 Constitution saving throw or become [poisoned](conditions.md#Poisoned) for 1 hour. The [poisoned](conditions.md#Poisoned) creature can't knowingly speak a lie, as if under the effect of a [zone of truth](zone-of-truth.md) spell.
+A creature subjected to this poison must succeed on a DC 11 Constitution saving throw or become [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned) for 1 hour. The [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned) creature can't knowingly speak a lie, as if under the effect of a [zone of truth](03.PlayerLog&Handouts/Mechanics/CLI/spells/zone-of-truth.md) spell.
 
 *Source: Dungeon Master's Guide p. 258. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

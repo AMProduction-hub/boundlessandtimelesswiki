@@ -8,10 +8,12 @@ tags:
 - ttrpg-cli/monster/size/tiny
 - ttrpg-cli/monster/type/fey
 statblock: inline
-aliases: ["Sprite"]
+statblock-link: "#^statblock"
+aliases:
+- Sprite
 ---
-# [Sprite](03 - Player Log & Handouts\Mechanics\CLI\bestiary\fey/sprite.md)
-*Source: Monster Manual p. 283, Baldur's Gate: Descent Into Avernus, Sigil and the Outlands. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Sprite](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fey/sprite.md)
+*Source: Monster Manual p. 283, Princes of the Apocalypse, Storm King's Thunder, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus, Eberron: Rising from the Last War, Infernal Machine Rebuild, Candlekeep Mysteries, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 In secret groves and shaded glens, tiny sprites with dragonfly wings flutter. For all their fey splendor, however, sprites lack warmth and compassion. They are aggressive and hardy warriors, taking severe measures to ward strangers away from their homes. Interlopers that come too close have their moral character judged, then are put to sleep or frightened off.
 
@@ -44,51 +46,60 @@ Unlike pixies, sprites rarely indulge in frivolous merriment and fun. They are f
 "type": "fey"
 "alignment": "Neutral Good"
 "ac": !!int "15"
-"ac_class": "[leather armor](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/items/leather-armor.md)"
+"ac_class": "[leather armor](03.PlayerLog&Handouts/Mechanics/CLI/items/leather-armor.md)"
 "hp": !!int "2"
 "hit_dice": "1d4"
+"modifier": !!int "4"
 "stats":
-- !!int "3"
-- !!int "18"
-- !!int "10"
-- !!int "14"
-- !!int "13"
-- !!int "11"
+  - !!int "3"
+  - !!int "18"
+  - !!int "10"
+  - !!int "14"
+  - !!int "13"
+  - !!int "11"
 "speed": "10 ft., fly 40 ft."
 "skillsaves":
-  "Stealth": !!int "8"
-  "Perception": !!int "3"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+3"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+8"
 "senses": "passive Perception 13"
 "languages": "Common, Elvish, Sylvan"
 "cr": "1/4"
 "actions":
-- "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 1 slashing\
-    \ damage."
-  "name": "Longsword"
-- "desc": "Ranged Weapon Attack: +6 to hit, range 40/160 ft., one target. Hit:\
-    \ 1 piercing damage, and the target must succeed on a DC 10 Constitution saving\
-    \ throw or become [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
-    \ for 1 minute. If its saving throw result is 5 or lower, the [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
-    \ target falls [unconscious](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)\
-    \ for the same duration, or until it takes damage or another creature takes an\
-    \ action to shake it awake."
-  "name": "Shortbow"
-- "desc": "The sprite touches a creature and magically knows the creature's current\
-    \ emotional state. If the target fails a DC 10 Charisma saving throw, the sprite\
-    \ also knows the creature's alignment. Celestials, fiends, and undead automatically\
-    \ fail the saving throw."
-  "name": "Heart Sight"
-- "desc": "The sprite magically turns [invisible](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Invisible)\
-    \ until it attacks or casts a spell, or until its [concentration](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Concentration)\
-    \ ends (as if [concentrating](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Concentration)\
-    \ on a spell). Any equipment the sprite wears or carries is [invisible](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Invisible)\
-    \ with it."
-  "name": "Invisibility"
+  - "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 1\
+      \ slashing damage."
+    "name": "Longsword"
+  - "desc": "Ranged Weapon Attack: +6 to hit, range 40/160 ft., one target. Hit:\
+      \ 1 piercing damage, and the target must succeed on a DC 10 Constitution saving\
+      \ throw or become [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
+      \ for 1 minute. If its saving throw result is 5 or lower, the [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
+      \ target falls [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)\
+      \ for the same duration, or until it takes damage or another creature takes\
+      \ an action to shake it awake."
+    "name": "Shortbow"
+  - "desc": "The sprite touches a creature and magically knows the creature's current\
+      \ emotional state. If the target fails a DC 10 Charisma saving throw, the sprite\
+      \ also knows the creature's alignment. Celestials, fiends, and undead automatically\
+      \ fail the saving throw."
+    "name": "Heart Sight"
+  - "desc": "The sprite magically turns [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible)\
+      \ until it attacks or casts a spell, or until its [concentration](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Concentration)\
+      \ ends (as if [concentrating](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Concentration)\
+      \ on a spell). Any equipment the sprite wears or carries is [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible)\
+      \ with it."
+    "name": "Invisibility"
 "source":
-- "MM"
-- "BGDIA"
-- "SatO"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/fey/token/sprite.webp"
+  - "MM"
+  - "PotA"
+  - "SKT"
+  - "GoS"
+  - "BGDIA"
+  - "ERLW"
+  - "IMR"
+  - "CM"
+  - "KftGV"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/token/sprite.webp"
 ```
 ^statblock
 

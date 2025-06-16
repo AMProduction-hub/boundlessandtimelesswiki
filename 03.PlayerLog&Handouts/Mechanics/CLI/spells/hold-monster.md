@@ -10,6 +10,7 @@ tags:
 - ttrpg-cli/spell/level/5th-level
 - ttrpg-cli/spell/optfeature/chains-of-carceri
 - ttrpg-cli/spell/school/enchantment
+- ttrpg-cli/spell/subclass/lunar-sorcery
 - ttrpg-cli/spell/subclass/monster-slayer
 - ttrpg-cli/spell/subclass/oath-of-redemption
 - ttrpg-cli/spell/subclass/oath-of-the-watchers
@@ -23,9 +24,11 @@ classes:
 - Paladin (Oath of the Watchers)
 - Ranger (Monster Slayer)
 - Sorcerer
+- Sorcerer (Lunar Sorcery)
 - Warlock
 - Wizard
-aliases: ["Hold Monster"]
+aliases:
+- Hold Monster
 ---
 # Hold Monster
 *5th-level, Enchantment*  
@@ -36,10 +39,10 @@ aliases: ["Hold Monster"]
 - **Components:** V, S, M (a small, straight piece of iron)
 - **Duration:** Concentration, up to 1 minute
 
-Choose a creature that you can see within range. The target must succeed on a Wisdom saving throw or be [paralyzed](conditions.md#Paralyzed) for the duration. This spell has no effect on undead. At the end of each of its turns, the target can make another Wisdom saving throw. On a success, the spell ends on the target.
+Choose a creature that you can see within range. The target must succeed on a Wisdom saving throw or be [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed) for the duration. This spell has no effect on undead. At the end of each of its turns, the target can make another Wisdom saving throw. On a success, the spell ends on the target.
 
 **At Higher Levels.** When you cast this spell using a spell slot of 6th level or higher, you can target one additional creature for each slot level above 5th. The creatures must be within 30 feet of each other when you target them.
 
-**Classes**: [Ranger (Monster Slayer)](list-spells-classes-ranger-monster-slayer-xge.md "subclass=XGE"); [Paladin (Oath of Vengeance)](list-spells-classes-paladin-oath-of-vengeance.md); [Paladin (Oath of the Watchers)](list-spells-classes-paladin-oath-of-the-watchers-tce.md "subclass=TCE"); [Bard](list-spells-classes-bard.md); [Wizard](list-spells-classes-wizard.md); [Sorcerer](list-spells-classes-sorcerer.md); [Warlock](list-spells-classes-warlock.md); [Paladin (Oath of Redemption)](list-spells-classes-paladin-oath-of-redemption-xge.md "subclass=XGE"); [Cleric (War Domain)](list-spells-classes-cleric-war-domain.md)
+**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Paladin (Oath of Vengeance)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-vengeance.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Paladin (Oath of Redemption)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-redemption-xge.md "subclass=XGE"); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Cleric (War Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-war-domain.md); [Ranger (Monster Slayer)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-monster-slayer-xge.md "subclass=XGE"); [Sorcerer (Lunar Sorcery)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-lunar-sorcery-dsotdq.md "subclass=DSotDQ"); [Paladin (Oath of the Watchers)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-the-watchers-tce.md "subclass=TCE")
 
 *Source: Player's Handbook p. 251. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

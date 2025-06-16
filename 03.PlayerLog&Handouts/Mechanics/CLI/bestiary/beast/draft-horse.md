@@ -8,10 +8,12 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/beast
 statblock: inline
-aliases: ["Draft Horse"]
+statblock-link: "#^statblock"
+aliases:
+- Draft Horse
 ---
-# [Draft Horse](03 - Player Log & Handouts\Mechanics\CLI\bestiary\beast/draft-horse.md)
-*Source: Monster Manual p. 321, Baldur's Gate: Descent Into Avernus. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Draft Horse](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/draft-horse.md)
+*Source: Monster Manual p. 321, Curse of Strahd, Storm King's Thunder, Waterdeep: Dragon Heist, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 ```statblock
 "name": "Draft Horse"
@@ -21,25 +23,30 @@ aliases: ["Draft Horse"]
 "ac": !!int "10"
 "hp": !!int "19"
 "hit_dice": "3d10 + 3"
+"modifier": !!int "0"
 "stats":
-- !!int "18"
-- !!int "10"
-- !!int "12"
-- !!int "2"
-- !!int "11"
-- !!int "7"
+  - !!int "18"
+  - !!int "10"
+  - !!int "12"
+  - !!int "2"
+  - !!int "11"
+  - !!int "7"
 "speed": "40 ft."
 "senses": "passive Perception 10"
 "languages": ""
 "cr": "1/4"
 "actions":
-- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (2d4\
-    \ + 4) bludgeoning damage."
-  "name": "Hooves"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9\
+      \ (2d4 + 4) bludgeoning damage."
+    "name": "Hooves"
 "source":
-- "MM"
-- "BGDIA"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/beast/token/draft-horse.webp"
+  - "MM"
+  - "CoS"
+  - "SKT"
+  - "WDH"
+  - "GoS"
+  - "BGDIA"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/draft-horse.webp"
 ```
 ^statblock
 

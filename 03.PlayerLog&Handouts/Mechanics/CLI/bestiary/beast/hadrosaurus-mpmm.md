@@ -9,9 +9,11 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/beast/dinosaur
 statblock: inline
-aliases: ["Hadrosaurus"]
+statblock-link: "#^statblock"
+aliases:
+- Hadrosaurus
 ---
-# [Hadrosaurus](03 - Player Log & Handouts\Mechanics\CLI\bestiary\beast/hadrosaurus-mpmm.md)
+# [Hadrosaurus](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/hadrosaurus-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 96, Volo's Guide to Monsters p. 140*  
 
 A hadrosaurus is a semi-quadrupedal herbivore with bony head crests. If raised from a hatchling, it can be trained to carry a rider.
@@ -26,27 +28,29 @@ A hadrosaurus is a semi-quadrupedal herbivore with bony head crests. If raised f
 "ac_class": "natural armor"
 "hp": !!int "19"
 "hit_dice": "3d10 + 3"
+"modifier": !!int "0"
 "stats":
-- !!int "15"
-- !!int "10"
-- !!int "13"
-- !!int "2"
-- !!int "10"
-- !!int "5"
+  - !!int "15"
+  - !!int "10"
+  - !!int "13"
+  - !!int "2"
+  - !!int "10"
+  - !!int "5"
 "speed": "40 ft."
 "skillsaves":
-  "Perception": !!int "2"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+2"
 "senses": "passive Perception 12"
 "languages": ""
 "cr": "1/4"
 "actions":
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10\
-    \ + 2) bludgeoning damage."
-  "name": "Tail"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7\
+      \ (1d10 + 2) bludgeoning damage."
+    "name": "Tail"
 "source":
-- "MPMM"
-- "VGM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/beast/token/hadrosaurus-mpmm.webp"
+  - "MPMM"
+  - "VGM"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/hadrosaurus-mpmm.webp"
 ```
 ^statblock
 

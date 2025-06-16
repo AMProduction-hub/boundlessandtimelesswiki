@@ -8,10 +8,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/elemental
 statblock: inline
-aliases: ["Fire Snake"]
+statblock-link: "#^statblock"
+aliases:
+- Fire Snake
 ---
-# [Fire Snake](03 - Player Log & Handouts\Mechanics\CLI\bestiary\elemental/fire-snake.md)
-*Source: Monster Manual p. 265*  
+# [Fire Snake](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\elemental/fire-snake.md)
+*Source: Monster Manual p. 265, Princes of the Apocalypse, Tales from the Yawning Portal, Tomb of Annihilation, Journeys through the Radiant Citadel*  
 
 Salamanders slither across the Sea of Ash on the Elemental Plane of Fire, their sinuous coils and jagged spines smoldering. Intense heat washes off their bodies, while their yellow eyes glow like candles in the deep-set hollows of their hawkish faces.
 
@@ -25,7 +27,7 @@ Salamanders hatch from eggs that are two-foot-diameter spheres of smoldering obs
 
 Long ago, the efreet hired azers to build the fabled City of Brass, but then failed in their attempt to enslave that mystical race when the azers' work was done. Turning instead to strike against the salamanders, the efreet had better luck in establishing a slave race, which they use to unleash war and destruction across the planes.
 
-Salamanders despise the azers, believing that if the efreet had succeeded in dominating that race of elemental crafters, the salamanders would still be free. The efreet use this enmity to their own advantage, stoking the salamanders' hatred and pitting them against the efreets' former servants.
+Salamanders despise the azers, believing that if the efreet had succeeded in dominating that race of elemental crafters, the salamanders would still be free. The efreet use this enmity to their own advantage, stoking the salamanders' hatred and pitting them against the efreeti's former servants.
 
 The efreet suffer salamanders to serve no other master; when efreet encounter salamanders dedicated to the cults of Elemental Evil, they slay them rather than taking them as slaves.
 
@@ -50,13 +52,14 @@ This inherent heat is an asset to salamanders' skill as smiths, allowing them to
 "ac_class": "natural armor"
 "hp": !!int "22"
 "hit_dice": "5d8"
+"modifier": !!int "2"
 "stats":
-- !!int "12"
-- !!int "14"
-- !!int "11"
-- !!int "7"
-- !!int "10"
-- !!int "8"
+  - !!int "12"
+  - !!int "14"
+  - !!int "11"
+  - !!int "7"
+  - !!int "10"
+  - !!int "8"
 "speed": "30 ft."
 "damage_vulnerabilities": "cold"
 "damage_resistances": "bludgeoning, piercing, slashing from nonmagical attacks"
@@ -65,21 +68,25 @@ This inherent heat is an asset to salamanders' skill as smiths, allowing them to
 "languages": "understands Ignan but can't speak"
 "cr": "1"
 "traits":
-- "desc": "A creature that touches the snake or hits it with a melee attack while\
-    \ within 5 feet of it takes 3 (1d6) fire damage."
-  "name": "Heated Body"
+  - "desc": "A creature that touches the snake or hits it with a melee attack while\
+      \ within 5 feet of it takes 3 (d6) fire damage."
+    "name": "Heated Body"
 "actions":
-- "desc": "The snake makes two attacks: one with its bite and one with its tail."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4\
-    \ + 1) piercing damage plus 3 (1d6) fire damage."
-  "name": "Bite"
-- "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4\
-    \ + 1) bludgeoning damage plus 3 (1d6) fire damage."
-  "name": "Tail"
+  - "desc": "The snake makes two attacks: one with its bite and one with its tail."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3\
+      \ (1d4 + 1) piercing damage plus 3 (d6) fire damage."
+    "name": "Bite"
+  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3\
+      \ (1d4 + 1) bludgeoning damage plus 3 (d6) fire damage."
+    "name": "Tail"
 "source":
-- "MM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/elemental/token/fire-snake.webp"
+  - "MM"
+  - "PotA"
+  - "TftYP"
+  - "ToA"
+  - "JttRC"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/token/fire-snake.webp"
 ```
 ^statblock
 

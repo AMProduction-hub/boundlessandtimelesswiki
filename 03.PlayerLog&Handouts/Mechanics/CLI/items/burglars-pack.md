@@ -17,19 +17,19 @@ aliases:
 
 Includes:
 
-- a [backpack](backpack.md)  
-- a [bag of 1,000 ball bearings](ball-bearings-bag-of-1000.md)  
+- a [backpack](03.PlayerLog&Handouts/Mechanics/CLI/items/backpack.md)  
+- a [bag of 1,000 ball bearings](03.PlayerLog&Handouts/Mechanics/CLI/items/ball-bearings-bag-of-1000.md)  
 - 10 feet of string  
-- a [bell](bell.md)  
-- 5 [candles](candle.md)  
-- a [crowbar](crowbar.md)  
-- a [hammer](hammer.md)  
-- 10 [pitons](piton.md)  
-- a [hooded lantern](hooded-lantern.md)  
-- 2 [flasks of oil](oil-flask.md)  
-- 5 days [rations](rations-1-day.md)  
-- a [tinderbox](tinderbox.md)  
-- a [waterskin](waterskin.md)  
-- [50 feet of hempen rope](hempen-rope-50-feet.md)  
+- a [bell](03.PlayerLog&Handouts/Mechanics/CLI/items/bell.md)  
+- 5 [candles](03.PlayerLog&Handouts/Mechanics/CLI/items/candle.md)  
+- a [crowbar](03.PlayerLog&Handouts/Mechanics/CLI/items/crowbar.md)  
+- a [hammer](03.PlayerLog&Handouts/Mechanics/CLI/items/hammer.md)  
+- 10 [pitons](03.PlayerLog&Handouts/Mechanics/CLI/items/piton.md)  
+- a [hooded lantern](03.PlayerLog&Handouts/Mechanics/CLI/items/hooded-lantern.md)  
+- 2 [flasks of oil](03.PlayerLog&Handouts/Mechanics/CLI/items/oil-flask.md)  
+- 5 days [rations](03.PlayerLog&Handouts/Mechanics/CLI/items/rations-1-day.md)  
+- a [tinderbox](03.PlayerLog&Handouts/Mechanics/CLI/items/tinderbox.md)  
+- a [waterskin](03.PlayerLog&Handouts/Mechanics/CLI/items/waterskin.md)  
+- [50 feet of hempen rope](03.PlayerLog&Handouts/Mechanics/CLI/items/hempen-rope-50-feet.md)  
 
 *Source: Player's Handbook p. 151. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*

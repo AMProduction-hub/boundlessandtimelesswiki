@@ -3,6 +3,7 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
+- ttrpg-cli/spell/background/izzet-engineer
 - ttrpg-cli/spell/class/artificer
 - ttrpg-cli/spell/class/bard
 - ttrpg-cli/spell/class/sorcerer
@@ -16,7 +17,8 @@ classes:
 - Cleric (Forge Domain)
 - Sorcerer
 - Wizard
-aliases: ["Animate Objects"]
+aliases:
+- Animate Objects
 ---
 # Animate Objects
 *5th-level, Transmutation*  
@@ -35,11 +37,11 @@ As a bonus action, you can mentally command any creature you made with this spel
 
 | Size | HP | AC | Attack | Str | Dex |
 |------|----|----|--------|-----|-----|
-| [Tiny](animated-object-tiny.md) | 20 | 18 | `+8` to hit, `1d4 + 4` damage | 4 (` - 3`) | 18 (` + 4`) |
-| [Small](animated-object-small.md) | 25 | 16 | `+6` to hit, `1d8 + 2` damage | 6 (` - 2`) | 14 (` + 2`) |
-| [Medium](animated-object-medium.md) | 40 | 13 | `+5` to hit, `2d6 + 1` damage | 10 (`d20`) | 12 (` + 1`) |
-| [Large](animated-object-large.md) | 50 | 10 | `+6` to hit, `2d10 + 2` damage | 14 (` + 2`) | 10 (`d20`) |
-| [Huge](animated-object-huge.md) | 80 | 10 | `+8` to hit, `2d12 + 4` damage | 18 (` + 4`) | 6 (` - 3`) |
+| [Tiny](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/animated-object-tiny.md) | 20 | 18 | `+8` to hit, `1d4 + 4` damage | 4 (` - 3`) | 18 (` + 4`) |
+| [Small](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/animated-object-small.md) | 25 | 16 | `+6` to hit, `1d8 + 2` damage | 6 (` - 2`) | 14 (` + 2`) |
+| [Medium](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/animated-object-medium.md) | 40 | 13 | `+5` to hit, `2d6 + 1` damage | 10 (`d20`) | 12 (` + 1`) |
+| [Large](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/animated-object-large.md) | 50 | 10 | `+6` to hit, `2d10 + 2` damage | 14 (` + 2`) | 10 (`d20`) |
+| [Huge](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/animated-object-huge.md) | 80 | 10 | `+8` to hit, `2d12 + 4` damage | 18 (` + 4`) | 6 (` - 3`) |
 ^animated-object-statistics
 
 An animated object is a construct with AC, hit points, attacks, Strength, and Dexterity determined by its size. Its Constitution is 10 and its Intelligence and Wisdom are 3, and its Charisma is 1. Its speed is 30 feet; if the object lacks legs or other appendages it can use for locomotion, it instead has a flying speed of 30 feet and can hover. If the object is securely attached to a surface or a larger object, such as a chain bolted to a wall, its speed is 0. It has blindsight with a radius of 30 feet and is blind beyond that distance. When the animated object drops to 0 hit points, it reverts to its original object form, and any remaining damage carries over to its original object form.
@@ -48,6 +50,6 @@ If you command an object to attack, it can make a single melee attack against a 
 
 **At Higher Levels.** If you cast this spell using a spell slot of 6th level or higher, you can animate two additional objects for each slot level above 5th.
 
-**Classes**: [Artificer](list-spells-classes-artificer.md); [Bard](list-spells-classes-bard.md); [Wizard](list-spells-classes-wizard.md); [Sorcerer](list-spells-classes-sorcerer.md); [Cleric (Forge Domain)](list-spells-classes-cleric-forge-domain-xge.md "subclass=XGE")
+**Classes**: [Artificer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-artificer.md); [Cleric (Forge Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-forge-domain-xge.md "subclass=XGE"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook p. 213. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

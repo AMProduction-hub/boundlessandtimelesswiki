@@ -10,7 +10,7 @@ aliases:
 ---
 # Manual of Quickness of Action
 *Wondrous item, major, very rare*  
-![](manual-of-quickness-of-action.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/manual-of-quickness-of-action.webp#right)
 
 - **Weight**: 5.0 lbs.
 

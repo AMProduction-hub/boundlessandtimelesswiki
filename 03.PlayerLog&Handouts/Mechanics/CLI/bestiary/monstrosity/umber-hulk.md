@@ -8,10 +8,12 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/monstrosity
 statblock: inline
-aliases: ["Umber Hulk"]
+statblock-link: "#^statblock"
+aliases:
+- Umber Hulk
 ---
-# [Umber Hulk](03 - Player Log & Handouts\Mechanics\CLI\bestiary\monstrosity/umber-hulk.md)
-*Source: Monster Manual p. 292, Light of Xaryxis, Sigil and the Outlands*  
+# [Umber Hulk](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/umber-hulk.md)
+*Source: Monster Manual p. 292, Princes of the Apocalypse, Waterdeep: Dungeon of the Mad Mage, Infernal Machine Rebuild, Icewind Dale: Rime of the Frostmaiden, Light of Xaryxis*  
 
 An abominable horror from deep beneath the earth, an umber hulk burrows into cave complexes, dungeons, or Underdark settlements in search of food. Those lucky enough to survive an umber hulk attack often remember precious little of the incident, thanks to the umber hulk's mind-scrambling gaze.
 
@@ -39,50 +41,54 @@ Many survivors of an umber hulk encounter recollect little about the attack, bec
 "ac_class": "natural armor"
 "hp": !!int "93"
 "hit_dice": "11d10 + 33"
+"modifier": !!int "1"
 "stats":
-- !!int "20"
-- !!int "13"
-- !!int "16"
-- !!int "9"
-- !!int "10"
-- !!int "10"
+  - !!int "20"
+  - !!int "13"
+  - !!int "16"
+  - !!int "9"
+  - !!int "10"
+  - !!int "10"
 "speed": "30 ft., burrow 20 ft."
 "senses": "darkvision 120 ft., tremorsense 60 ft., passive Perception 10"
 "languages": "Umber Hulk"
 "cr": "5"
 "traits":
-- "desc": "When a creature starts its turn within 30 feet of the umber hulk and is\
-    \ able to see the umber hulk's eyes, the umber hulk can magically force it to\
-    \ make a DC 15 Charisma saving throw, unless the umber hulk is [incapacitated](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated).\n\
-    \nOn a failed saving throw, the creature can't take reactions until the start\
-    \ of its next turn and rolls a d8 to determine what it does during that turn.\
-    \ On a 1 to 4, the creature does nothing. On a 5 or 6, the creature takes no action\
-    \ but uses all its movement to move in a random direction. On a 7 or 8, the creature\
-    \ makes one melee attack against a random creature, or it does nothing if no creature\
-    \ is within reach.\n\nUnless [surprised](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Surprised),\
-    \ a creature can avert its eyes to avoid the saving throw at the start of its\
-    \ turn. If the creature does so, it can't see the umber hulk until the start of\
-    \ its next turn, when it can avert its eyes again. If the creature looks at the\
-    \ umber hulk in the meantime, it must immediately make the save."
-  "name": "Confusing Gaze"
-- "desc": "The umber hulk can burrow through solid rock at half its burrowing speed\
-    \ and leaves a 5 foot-wide, 8-foot-high tunnel in its wake."
-  "name": "Tunneler"
+  - "desc": "When a creature starts its turn within 30 feet of the umber hulk and\
+      \ is able to see the umber hulk's eyes, the umber hulk can magically force it\
+      \ to make a DC 15 Charisma saving throw, unless the umber hulk is [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated).\n\
+      \nOn a failed saving throw, the creature can't take reactions until the start\
+      \ of its next turn and rolls a d8 to determine what it does during that turn.\
+      \ On a 1 to 4, the creature does nothing. On a 5 or 6, the creature takes no\
+      \ action but uses all its movement to move in a random direction. On a 7 or\
+      \ 8, the creature makes one melee attack against a random creature, or it does\
+      \ nothing if no creature is within reach.\n\nUnless [surprised](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Surprised),\
+      \ a creature can avert its eyes to avoid the saving throw at the start of its\
+      \ turn. If the creature does so, it can't see the umber hulk until the start\
+      \ of its next turn, when it can avert its eyes again. If the creature looks\
+      \ at the umber hulk in the meantime, it must immediately make the save."
+    "name": "Confusing Gaze"
+  - "desc": "The umber hulk can burrow through solid rock at half its burrowing speed\
+      \ and leaves a 5 foot-wide, 8-foot-high tunnel in its wake."
+    "name": "Tunneler"
 "actions":
-- "desc": "The umber hulk makes three attacks: two with its claws and one with its\
-    \ mandibles."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 9 (1d8\
-    \ + 5) slashing damage."
-  "name": "Claw"
-- "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 14\
-    \ (2d8 + 5) slashing damage."
-  "name": "Mandibles"
+  - "desc": "The umber hulk makes three attacks: two with its claws and one with its\
+      \ mandibles."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 9\
+      \ (1d8 + 5) slashing damage."
+    "name": "Claw"
+  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 14\
+      \ (2d8 + 5) slashing damage."
+    "name": "Mandibles"
 "source":
-- "MM"
-- "LoX"
-- "SatO"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/monstrosity/token/umber-hulk.webp"
+  - "MM"
+  - "PotA"
+  - "WDMM"
+  - "IMR"
+  - "IDRotF"
+  - "LoX"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/token/umber-hulk.webp"
 ```
 ^statblock
 

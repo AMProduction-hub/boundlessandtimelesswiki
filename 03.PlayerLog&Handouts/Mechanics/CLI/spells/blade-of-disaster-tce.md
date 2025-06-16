@@ -16,7 +16,8 @@ classes:
 - Sorcerer
 - Warlock
 - Wizard
-aliases: ["Blade of Disaster"]
+aliases:
+- Blade of Disaster
 ---
 # Blade of Disaster
 *9th-level, Conjuration*  
@@ -31,8 +32,8 @@ You create a blade-shaped planar rift about 3 feet long in an unoccupied space y
 
 As a bonus action on your turn, you can move the blade up to 30 feet to an unoccupied space you can see and then make up to two melee spell attacks with it again.
 
-The blade can harmlessly pass through any barrier, including a [wall of force](wall-of-force.md).
+The blade can harmlessly pass through any barrier, including a [wall of force](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-force.md).
 
-**Classes**: [Bard](list-spells-classes-bard.md); [Wizard](list-spells-classes-wizard.md); [Sorcerer](list-spells-classes-sorcerer.md); [Cleric (Arcana Domain)](list-spells-classes-cleric-arcana-domain-scag.md "subclass=SCAG"); [Warlock](list-spells-classes-warlock.md)
+**Classes**: [Cleric (Arcana Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcana-domain-scag.md "subclass=SCAG"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
-*Source: Tasha's Cauldron of Everything p. 106*
+*Source: Tasha's Cauldron of Everything p. 106, Icewind Dale: Rime of the Frostmaiden p. 318*

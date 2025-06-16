@@ -7,10 +7,12 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/fiend
 statblock: inline
-aliases: ["Nightmare"]
+statblock-link: "#^statblock"
+aliases:
+- Nightmare
 ---
-# [Nightmare](03 - Player Log & Handouts\Mechanics\CLI\bestiary\fiend/nightmare.md)
-*Source: Monster Manual p. 235, Baldur's Gate: Descent Into Avernus, Sigil and the Outlands. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Nightmare](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/nightmare.md)
+*Source: Monster Manual p. 235, Baldur's Gate: Descent Into Avernus, Infernal Machine Rebuild, Mythic Odysseys of Theros, Curse of Strahd. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 A nightmare appears in a cloud of roiling smoke, its mane, tail, and hooves wreathed in flame. The creature's unearthly black form moves with supernatural speed, vanishing in a cloud of brimstone as quickly as it appeared.
 
@@ -31,35 +33,38 @@ Nightmares don't appear naturally in the multiverse. They must be created from p
 "ac_class": "natural armor"
 "hp": !!int "68"
 "hit_dice": "8d10 + 24"
+"modifier": !!int "2"
 "stats":
-- !!int "18"
-- !!int "15"
-- !!int "16"
-- !!int "10"
-- !!int "13"
-- !!int "15"
+  - !!int "18"
+  - !!int "15"
+  - !!int "16"
+  - !!int "10"
+  - !!int "13"
+  - !!int "15"
 "speed": "60 ft., fly 90 ft."
 "damage_immunities": "fire"
 "senses": "passive Perception 11"
 "languages": "understands Abyssal, Common, and Infernal but can't speak "
 "cr": "3"
 "traits":
-- "desc": "The nightmare can grant resistance to fire damage to anyone riding it."
-  "name": "Confer Fire Resistance"
-- "desc": "The nightmare sheds bright light in a 10-foot radius and dim light for\
-    \ an additional 10 feet."
-  "name": "Illumination"
+  - "desc": "The nightmare can grant resistance to fire damage to anyone riding it."
+    "name": "Confer Fire Resistance"
+  - "desc": "The nightmare sheds bright light in a 10-foot radius and dim light for\
+      \ an additional 10 feet."
+    "name": "Illumination"
 "actions":
-- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13\
-    \ (2d8 + 4) bludgeoning damage plus 7 (2d6) fire damage."
-  "name": "Hooves"
-- "desc": "The nightmare and up to three willing creatures within 5 feet of it magically\
-    \ enter the Ethereal Plane from the Material Plane, or vice versa."
-  "name": "Ethereal Stride"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13\
+      \ (2d8 + 4) bludgeoning damage plus 7 (2d6) fire damage."
+    "name": "Hooves"
+  - "desc": "The nightmare and up to three willing creatures within 5 feet of it magically\
+      \ enter the Ethereal Plane from the Material Plane, or vice versa."
+    "name": "Ethereal Stride"
 "source":
-- "MM"
-- "BGDIA"
-- "SatO"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/fiend/token/nightmare.webp"
+  - "MM"
+  - "BGDIA"
+  - "IMR"
+  - "MOT"
+  - "CoS"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/token/nightmare.webp"
 ```
 ^statblock

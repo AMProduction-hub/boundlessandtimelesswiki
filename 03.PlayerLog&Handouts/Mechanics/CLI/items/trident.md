@@ -17,7 +17,7 @@ aliases:
   - One-handed: 1d6 piercing
   - Two-handed: 1d8 piercing
 - **Range**: 20/60
-- **Properties**: [Thrown](item-properties.md#Thrown), [Versatile](item-properties.md#Versatile)
+- **Properties**: [Thrown](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Thrown), [Versatile](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Versatile)
 - **Cost**: 5 gp
 - **Weight**: 4.0 lbs.
 

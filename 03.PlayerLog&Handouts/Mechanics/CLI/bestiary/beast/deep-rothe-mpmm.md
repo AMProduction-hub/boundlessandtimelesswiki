@@ -8,12 +8,14 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/beast/cattle
 statblock: inline
-aliases: ["Deep Rothé"]
+statblock-link: "#^statblock"
+aliases:
+- Deep Rothé
 ---
-# [Deep Rothé](03 - Player Log & Handouts\Mechanics\CLI\bestiary\beast/deep-rothe-mpmm.md)
+# [Deep Rothé](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/deep-rothe-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 71, Volo's Guide to Monsters p. 208*  
 
-Deep rothe are Underdark cattle that communicate with one another using the dancing lights spell. Some scholars speculate that rothe came originally from the Feywild and brought the ability to cast the spell with them. Other sages attribute the ability to the centuries rothe have spent in the Underdark, where ambient magic slowly transforms everything.
+Deep rothé are Underdark cattle that communicate with one another using the dancing lights spell. Some scholars speculate that rothé came originally from the Feywild and brought the ability to cast the spell with them. Other sages attribute the ability to the centuries rothé have spent in the Underdark, where ambient magic slowly transforms everything.
 
 ## Cattle
 
@@ -28,35 +30,35 @@ Many kinds of cattle roam the multiverse, some of them domesticated and others f
 "ac": !!int "10"
 "hp": !!int "13"
 "hit_dice": "2d8 + 4"
+"modifier": !!int "0"
 "stats":
-- !!int "18"
-- !!int "10"
-- !!int "14"
-- !!int "2"
-- !!int "10"
-- !!int "4"
+  - !!int "18"
+  - !!int "10"
+  - !!int "14"
+  - !!int "2"
+  - !!int "10"
+  - !!int "4"
 "speed": "30 ft."
 "senses": "darkvision 60 ft., passive Perception 10"
 "languages": ""
 "cr": "1/4"
 "traits":
-- "desc": "The rothé casts [dancing lights](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/dancing-lights.md),\
-    \ requiring no spell components and using Wisdom as the spellcasting ability.\n\
-    \nAt will: [dancing lights](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/dancing-lights.md)"
-  "name": "Dancing Lights"
-- "desc": "The rothé is considered to be one size larger for the purpose of determining\
-    \ its carrying capacity."
-  "name": "Beast of Burden"
+  - "desc": "The rothé is considered to be one size larger for the purpose of determining\
+      \ its carrying capacity."
+    "name": "Beast of Burden"
 "actions":
-- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d6\
-    \ + 4) piercing damage. If the rothé moved at least 20 feet straight toward the\
-    \ target immediately before the hit, the target takes an extra 7 (2d6) piercing\
-    \ damage."
-  "name": "Gore"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7\
+      \ (1d6 + 4) piercing damage. If the rothé moved at least 20 feet straight\
+      \ toward the target immediately before the hit, the target takes an extra 7\
+      \ (2d6) piercing damage."
+    "name": "Gore"
+  - "desc": "The rothé casts [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md),\
+      \ requiring no spell components and using Wisdom as the spellcasting ability.\n"
+    "name": "Dancing Lights"
 "source":
-- "MPMM"
-- "VGM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/beast/token/deep-rothe-mpmm.webp"
+  - "MPMM"
+  - "VGM"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/deep-rothe-mpmm.webp"
 ```
 ^statblock
 

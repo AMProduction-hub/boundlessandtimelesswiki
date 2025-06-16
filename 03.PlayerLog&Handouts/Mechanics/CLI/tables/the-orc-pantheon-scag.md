@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/scag
-aliases: ["The Orc Pantheon"]
+aliases:
+- The Orc Pantheon
 ---
 # The Orc Pantheon
 *Source: Sword Coast Adventurer's Guide p. 24* 

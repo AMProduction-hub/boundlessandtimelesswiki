@@ -9,9 +9,11 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/humanoid/dwarf
 statblock: inline
-aliases: ["Duergar Despot"]
+statblock-link: "#^statblock"
+aliases:
+- Duergar Despot
 ---
-# [Duergar Despot](03 - Player Log & Handouts\Mechanics\CLI\bestiary\humanoid/duergar-despot-mpmm.md)
+# [Duergar Despot](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/duergar-despot-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 107, Mordenkainen's Tome of Foes p. 188*  
 
 Duergar despots replace parts of their bodies with mechanical devices that they control through their psionic abilities.
@@ -46,67 +48,68 @@ Among the duergar of the Forgotten Realms, creation is a fiercely passionate pro
 "ac_class": "natural armor"
 "hp": !!int "119"
 "hit_dice": "14d8 + 56"
+"modifier": !!int "-3"
 "stats":
-- !!int "20"
-- !!int "5"
-- !!int "19"
-- !!int "15"
-- !!int "14"
-- !!int "13"
+  - !!int "20"
+  - !!int "5"
+  - !!int "19"
+  - !!int "15"
+  - !!int "14"
+  - !!int "13"
 "speed": "25 ft."
 "saves":
-  "Wisdom": !!int "6"
-  "Constitution": !!int "8"
+  - "constitution": "+8"
+  - "wisdom": "+6"
 "damage_immunities": "poison"
-"condition_immunities": "[charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
-  \ [exhaustion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
-  \ [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
-  \ [paralyzed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
-  \ [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
+  \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
+  \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
+  \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
+  \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "darkvision 120 ft., passive Perception 12"
 "languages": "Dwarvish, Undercommon"
 "cr": "12"
 "traits":
-- "desc": "The duergar casts one of the following spells, requiring no spell components\
-    \ and using Intelligence as the spellcasting ability (spell save DC 12):\n\nAt\
-    \ will: [mage hand](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/mage-hand.md),\
-    \ [minor illusion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/minor-illusion.md)\n\
-    \n1/day: [stinking cloud](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/stinking-cloud.md)"
-  "name": "Spellcasting (Psionics)"
-- "desc": "The duergar has advantage on saving throws against spells and other magical\
-    \ effects."
-  "name": "Magic Resistance"
-- "desc": "When the duergar suffers a critical hit or is reduced to 0 hit points,\
-    \ psychic energy erupts from its frame to deal 14 (4d6) psychic damage to each\
-    \ creature within 5 feet of it."
-  "name": "Psychic Engine"
-- "desc": "While in sunlight, the duergar has disadvantage on attack rolls, as well\
-    \ as on Wisdom ([Perception](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/skills.md#Perception))\
-    \ checks that rely on sight."
-  "name": "Sunlight Sensitivity"
+  - "desc": "The duergar has advantage on saving throws against spells and other magical\
+      \ effects."
+    "name": "Magic Resistance"
+  - "desc": "When the duergar suffers a critical hit or is reduced to 0 hit points,\
+      \ psychic energy erupts from its frame to deal 14 (4d6) psychic damage to\
+      \ each creature within 5 feet of it."
+    "name": "Psychic Engine"
+  - "desc": "While in sunlight, the duergar has disadvantage on attack rolls, as well\
+      \ as on Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception))\
+      \ checks that rely on sight."
+    "name": "Sunlight Sensitivity"
 "actions":
-- "desc": "The duergar makes two Iron Fist attacks and two Stomping Foot attacks.\
-    \ After one of the attacks, the duergar can move up to its speed without provoking\
-    \ [opportunity attacks](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/actions.md#Opportunity%20Attack).\
-    \ It can replace one of the attacks with a use of Flame Jet."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 23\
-    \ (4d8 + 5) bludgeoning damage. If the target is a Large or smaller creature,\
-    \ it must succeed on a DC 17 Strength saving throw or be pushed up to 30 feet\
-    \ away in a straight line and be knocked [prone](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
-  "name": "Iron Fist"
-- "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 10\
-    \ (1d10 + 5) bludgeoning damage, or 21 (3d10 + 5) to a [prone](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Prone)\
-    \ target."
-  "name": "Stomping Foot"
-- "desc": "The duergar spews flames in a line 100 feet long and 5 feet wide. Each\
-    \ creature in the line must make a DC 16 Dexterity saving throw, taking 18 (4d8)\
-    \ fire damage on a failed save, or half as much damage on a successful one."
-  "name": "Flame Jet"
+  - "desc": "The duergar makes two Iron Fist attacks and two Stomping Foot attacks.\
+      \ After one of the attacks, the duergar can move up to its speed without provoking\
+      \ [opportunity attacks](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Opportunity%20Attack).\
+      \ It can replace one of the attacks with a use of Flame Jet."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 23\
+      \ (4d8 + 5) bludgeoning damage. If the target is a Large or smaller creature,\
+      \ it must succeed on a DC 17 Strength saving throw or be pushed up to 30 feet\
+      \ away in a straight line and be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
+    "name": "Iron Fist"
+  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 10\
+      \ (1d10 + 5) bludgeoning damage, or 21 (3d10 + 5) to a [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)\
+      \ target."
+    "name": "Stomping Foot"
+  - "desc": "The duergar spews flames in a line 100 feet long and 5 feet wide. Each\
+      \ creature in the line must make a DC 16 Dexterity saving throw, taking 18 (4d8)\
+      \ fire damage on a failed save, or half as much damage on a successful one."
+    "name": "Flame Jet"
+  - "desc": "The duergar casts one of the following spells, requiring no spell components\
+      \ and using Intelligence as the spellcasting ability (spell save DC 12):\n\n\
+      At will: [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
+      \ [minor illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md)\n\
+      \n1/day: [stinking cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/stinking-cloud.md)"
+    "name": "Spellcasting (Psionics)"
 "source":
-- "MPMM"
-- "MTF"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/humanoid/token/duergar-despot-mpmm.webp"
+  - "MPMM"
+  - "MTF"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/duergar-despot-mpmm.webp"
 ```
 ^statblock
 

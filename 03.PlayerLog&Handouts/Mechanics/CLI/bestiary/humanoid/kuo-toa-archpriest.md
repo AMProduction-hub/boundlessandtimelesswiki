@@ -8,10 +8,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/humanoid/kuo-toa
 statblock: inline
-aliases: ["Kuo-toa Archpriest"]
+statblock-link: "#^statblock"
+aliases:
+- Kuo-toa Archpriest
 ---
-# [Kuo-toa Archpriest](03 - Player Log & Handouts\Mechanics\CLI\bestiary\humanoid/kuo-toa-archpriest.md)
-*Source: Monster Manual p. 200*  
+# [Kuo-toa Archpriest](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/kuo-toa-archpriest.md)
+*Source: Monster Manual p. 200, Princes of the Apocalypse, Waterdeep: Dungeon of the Mad Mage*  
 
 Kuo-toa are degenerate fishlike humanoids that once inhabited the shores and islands of the surface world. Long ago humans and their ilk drove the kuo-toa underground, where they dwell in madness and everlasting night. Kuo-toa can no longer abide daylight.
 
@@ -47,7 +49,7 @@ In general, kuo-toa don't like the weight of armor on their slippery bodies and 
 > 
 > **Bite.** Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 4 (`1d4 + 2`) piercing damage.
 > 
-> **Unarmed Strike.** Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5 (`1d6 + 2`) bludgeoning damage + 3 (`1d6`) lightning damage, and the target can't take reactions until the end of the kuo-toa's next turn.
+> **Unarmed Strike.** Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5 (`1d6 + 2`) bludgeoning damage + 3 (`d6`) lightning damage, and the target can't take reactions until the end of the kuo-toa's next turn.
 ^variant-kuo-toa-monitor
 
 > [!quote] A quote from Sabal Mizzrym of Menzoberranzan  
@@ -65,63 +67,68 @@ In general, kuo-toa don't like the weight of armor on their slippery bodies and 
 "ac_class": "natural armor"
 "hp": !!int "97"
 "hit_dice": "13d8 + 39"
+"modifier": !!int "2"
 "stats":
-- !!int "16"
-- !!int "14"
-- !!int "16"
-- !!int "13"
-- !!int "16"
-- !!int "14"
+  - !!int "16"
+  - !!int "14"
+  - !!int "16"
+  - !!int "13"
+  - !!int "16"
+  - !!int "14"
 "speed": "30 ft., swim 30 ft."
 "skillsaves":
-  "Religion": !!int "7"
-  "Perception": !!int "9"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+9"
+  - "name": "[Religion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Religion)"
+    "desc": "+7"
 "senses": "darkvision 120 ft., passive Perception 19"
 "languages": "Undercommon"
 "cr": "6"
 "traits":
-- "desc": "The kuo-toa is a 10th-level spellcaster. Its spellcasting ability is Wisdom\
-    \ (spell save DC 14, +6 to hit with spell attacks). The kuo-toa has the following\
-    \ cleric spells prepared:\n\nCantrips (at will): [guidance](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/guidance.md),\
-    \ [sacred flame](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/sacred-flame.md),\
-    \ [thaumaturgy](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/thaumaturgy.md)\n\
-    \n1st level (4 slots): [detect magic](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/detect-magic.md),\
-    \ [sanctuary](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/sanctuary.md),\
-    \ [shield of faith](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/shield-of-faith.md)\n\
-    \n2nd level (3 slots): [hold person](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/hold-person.md),\
-    \ [spiritual weapon](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/spiritual-weapon.md)\n\
-    \n3rd level (3 slots): [spirit guardians](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/spirit-guardians.md),\
-    \ [tongues](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/tongues.md)\n\
-    \n4th level (3 slots): [control water](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/control-water.md),\
-    \ [divination](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/divination.md)\n\
-    \n5th level (2 slots): [mass cure wounds](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/mass-cure-wounds.md),\
-    \ [scrying](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/scrying.md)"
-  "name": "Spellcasting"
-- "desc": "The kuo-toa can breathe air and water."
-  "name": "Amphibious"
-- "desc": "The kuo-toa can sense the presence of any creature within 30 feet of it\
-    \ that is [invisible](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Invisible)\
-    \ or on the Ethereal Plane. It can pinpoint such a creature that is moving."
-  "name": "Otherworldly Perception"
-- "desc": "The kuo-toa has advantage on ability checks and saving throws made to escape\
-    \ a grapple."
-  "name": "Slippery"
-- "desc": "While in sunlight, the kuo-toa has disadvantage on attack rolls, as well\
-    \ as on Wisdom ([Perception](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/skills.md#Perception))\
-    \ checks that rely on sight."
-  "name": "Sunlight Sensitivity"
+  - "desc": "The kuo-toa is a 10th-level spellcaster. Its spellcasting ability is\
+      \ Wisdom (spell save DC 14, +6 to hit with spell attacks). The kuo-toa has\
+      \ the following cleric spells prepared:\n\nCantrips (at will): [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md),\
+      \ [sacred flame](03.PlayerLog&Handouts/Mechanics/CLI/spells/sacred-flame.md),\
+      \ [thaumaturgy](03.PlayerLog&Handouts/Mechanics/CLI/spells/thaumaturgy.md)\n\
+      \n1st level (4 slots): [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      \ [sanctuary](03.PlayerLog&Handouts/Mechanics/CLI/spells/sanctuary.md), [shield\
+      \ of faith](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield-of-faith.md)\n\
+      \n2nd level (3 slots): [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md),\
+      \ [spiritual weapon](03.PlayerLog&Handouts/Mechanics/CLI/spells/spiritual-weapon.md)\n\
+      \n3rd level (3 slots): [spirit guardians](03.PlayerLog&Handouts/Mechanics/CLI/spells/spirit-guardians.md),\
+      \ [tongues](03.PlayerLog&Handouts/Mechanics/CLI/spells/tongues.md)\n\n4th\
+      \ level (3 slots): [control water](03.PlayerLog&Handouts/Mechanics/CLI/spells/control-water.md),\
+      \ [divination](03.PlayerLog&Handouts/Mechanics/CLI/spells/divination.md)\n\n\
+      5th level (2 slots): [mass cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/mass-cure-wounds.md),\
+      \ [scrying](03.PlayerLog&Handouts/Mechanics/CLI/spells/scrying.md)"
+    "name": "Spellcasting"
+  - "desc": "The kuo-toa can breathe air and water."
+    "name": "Amphibious"
+  - "desc": "The kuo-toa can sense the presence of any creature within 30 feet of\
+      \ it that is [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible)\
+      \ or on the Ethereal Plane. It can pinpoint such a creature that is moving."
+    "name": "Otherworldly Perception"
+  - "desc": "The kuo-toa has advantage on ability checks and saving throws made to\
+      \ escape a grapple."
+    "name": "Slippery"
+  - "desc": "While in sunlight, the kuo-toa has disadvantage on attack rolls, as well\
+      \ as on Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception))\
+      \ checks that rely on sight."
+    "name": "Sunlight Sensitivity"
 "actions":
-- "desc": "The kuo-toa makes two melee attacks."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d6\
-    \ + 3) bludgeoning damage plus 14 (4d6) lightning damage."
-  "name": "Scepter"
-- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5 (1d4\
-    \ + 3) bludgeoning damage."
-  "name": "Unarmed Strike"
+  - "desc": "The kuo-toa makes two melee attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6\
+      \ (1d6 + 3) bludgeoning damage plus 14 (4d6) lightning damage."
+    "name": "Scepter"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5\
+      \ (1d4 + 3) bludgeoning damage."
+    "name": "Unarmed Strike"
 "source":
-- "MM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/humanoid/token/kuo-toa-archpriest.webp"
+  - "MM"
+  - "PotA"
+  - "WDMM"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/kuo-toa-archpriest.webp"
 ```
 ^statblock
 

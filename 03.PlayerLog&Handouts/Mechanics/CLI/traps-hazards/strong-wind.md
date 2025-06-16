@@ -4,7 +4,8 @@ cssclasses: json5e-hazard
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/hazard/wth
-aliases: ["Strong Wind"]
+aliases:
+- Strong Wind
 ---
 # Strong Wind
 *Weather*  

@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
-aliases: ["Examples of Faction Ranks"]
+aliases:
+- Examples of Faction Ranks
 ---
 # Examples of Faction Ranks
 *Source: Dungeon Master's Guide p. 22* 

@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
-aliases: ["Demon Customization Tables; Demon Personality Traits"]
+aliases:
+- Demon Customization Tables; Demon Personality Traits
 ---
 # Demon Customization Tables; Demon Personality Traits
 *Source: Mordenkainen's Tome of Foes p. 33* 

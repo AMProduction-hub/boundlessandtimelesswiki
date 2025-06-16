@@ -3,10 +3,11 @@ obsidianUIMode: preview
 cssclasses: json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
-- ttrpg-cli/race/elf/eladrin/dmg
-aliases: ["Elf (Eladrin) (DMG)"]
+- ttrpg-cli/race/elf/eladrin
+aliases:
+- Elf (Eladrin)
 ---
-# Elf (Eladrin) (DMG)
+# Elf (Eladrin)
 *Source: Dungeon Master's Guide p. 286*  
 
 
@@ -35,7 +36,7 @@ You have proficiency in the [Perception](03.PlayerLog&Handouts/Mechanics/CLI/rul
 
 ### Fey Ancestry
 
-You have advantage on saving throws against being [charmed](conditions.md#Charmed), and magic can't put you to sleep.
+You have advantage on saving throws against being [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), and magic can't put you to sleep.
 
 ### Trance
 
@@ -50,8 +51,8 @@ You can speak, read, and write Common and Elvish. Elvish is fluid, with subtle i
 
 ### Elf Weapon Training
 
-You have proficiency with the [longsword](longsword.md), [shortsword](shortsword.md), [shortbow](shortbow.md), and [longbow](longbow.md).
+You have proficiency with the [longsword](03.PlayerLog&Handouts/Mechanics/CLI/items/longsword.md), [shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md), [shortbow](03.PlayerLog&Handouts/Mechanics/CLI/items/shortbow.md), and [longbow](03.PlayerLog&Handouts/Mechanics/CLI/items/longbow.md).
 
 ### Fey Step
 
-You can cast the [misty step](misty-step.md) spell once using this trait. You regain the ability to do so when you finish a short or long rest.
+You can cast the [misty step](03.PlayerLog&Handouts/Mechanics/CLI/spells/misty-step.md) spell once using this trait. You regain the ability to do so when you finish a short or long rest.

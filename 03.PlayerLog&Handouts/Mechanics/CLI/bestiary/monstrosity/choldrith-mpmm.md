@@ -8,9 +8,11 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/monstrosity/cleric
 statblock: inline
-aliases: ["Choldrith"]
+statblock-link: "#^statblock"
+aliases:
+- Choldrith
 ---
-# [Choldrith](03 - Player Log & Handouts\Mechanics\CLI\bestiary\monstrosity/choldrith-mpmm.md)
+# [Choldrith](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/choldrith-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 77, Volo's Guide to Monsters p. 132*  
 
 Choldriths are monstrous spiderlike creatures originally created to serve Lolth. They rule colonies of chitines (in this book) and lead them into battle in Lolth's war against her enemies.
@@ -31,67 +33,71 @@ Choldriths are born with a mystical connection to Lolth, which gives them divine
 "ac_class": "natural armor"
 "hp": !!int "66"
 "hit_dice": "12d8 + 12"
+"modifier": !!int "3"
 "stats":
-- !!int "12"
-- !!int "16"
-- !!int "12"
-- !!int "11"
-- !!int "14"
-- !!int "10"
+  - !!int "12"
+  - !!int "16"
+  - !!int "12"
+  - !!int "11"
+  - !!int "14"
+  - !!int "10"
 "speed": "30 ft., climb 30 ft."
 "skillsaves":
-  "Athletics": !!int "5"
-  "Stealth": !!int "5"
-  "Religion": !!int "2"
+  - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
+    "desc": "+5"
+  - "name": "[Religion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Religion)"
+    "desc": "+2"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+5"
 "senses": "darkvision 60 ft., passive Perception 12"
 "languages": "Undercommon"
 "cr": "3"
 "traits":
-- "desc": "The choldrith casts one of the following spells, using Wisdom as the spellcasting\
-    \ ability (spell save DC 12):\n\nAt will: [guidance](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/guidance.md),\
-    \ [thaumaturgy](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/thaumaturgy.md)\n\
-    \n1/day each: [bane](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/bane.md),\
-    \ [hold person](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/hold-person.md)"
-  "name": "Spellcasting"
-- "desc": "The choldrith has advantage on saving throws against being [charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
-    \ and magic can't put the choldrith to sleep."
-  "name": "Fey Ancestry"
-- "desc": "The choldrith can climb difficult surfaces, including upside down on ceilings,\
-    \ without needing to make an ability check."
-  "name": "Spider Climb"
-- "desc": "While in sunlight, the choldrith has disadvantage on attack rolls, as well\
-    \ as on Wisdom ([Perception](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/skills.md#Perception))\
-    \ checks that rely on sight."
-  "name": "Sunlight Sensitivity"
-- "desc": "While in contact with a web, the choldrith knows the exact location of\
-    \ any other creature in contact with the same web."
-  "name": "Web Sense"
-- "desc": "The choldrith ignores movement restrictions caused by webbing."
-  "name": "Web Walker"
+  - "desc": "The choldrith has advantage on saving throws against being [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
+      \ and magic can't put the choldrith to sleep."
+    "name": "Fey Ancestry"
+  - "desc": "The choldrith can climb difficult surfaces, including upside down on\
+      \ ceilings, without needing to make an ability check."
+    "name": "Spider Climb"
+  - "desc": "While in sunlight, the choldrith has disadvantage on attack rolls, as\
+      \ well as on Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception))\
+      \ checks that rely on sight."
+    "name": "Sunlight Sensitivity"
+  - "desc": "While in contact with a web, the choldrith knows the exact location of\
+      \ any other creature in contact with the same web."
+    "name": "Web Sense"
+  - "desc": "The choldrith ignores movement restrictions caused by webbing."
+    "name": "Web Walker"
 "actions":
-- "desc": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60\
-    \ ft., one target. Hit: 5 (1d4 + 3) piercing damage plus 10 (3d6) poison\
-    \ damage."
-  "name": "Dagger"
-- "desc": "Ranged Weapon Attack: +5 to hit, range 30/60 ft., one Large or smaller\
-    \ creature. Hit: The target is [restrained](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
-    \ by webbing. As an action, the [restrained](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
-    \ target can make a DC 11 Strength check, bursting the webbing on a success. The\
-    \ webbing can also be attacked and destroyed (AC 10; 5 hit points; vulnerability\
-    \ to fire damage; immunity to bludgeoning, poison, and psychic damage)."
-  "name": "Web (Recharge 5-6)"
+  - "desc": "Melee  or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. Hit: 5 (1d4 + 3) piercing damage plus 10 (3d6) poison\
+      \ damage."
+    "name": "Dagger"
+  - "desc": "Ranged Weapon Attack: +5 to hit, range 30/60 ft., one Large or smaller\
+      \ creature. Hit: The target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
+      \ by webbing. As an action, the [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
+      \ target can make a DC 11 Strength check, bursting the webbing on a success.\
+      \ The webbing can also be attacked and destroyed (AC 10; 5 hit points; vulnerability\
+      \ to fire damage; immunity to bludgeoning, poison, and psychic damage)."
+    "name": "Web (Recharge 5-6)"
+  - "desc": "The choldrith casts one of the following spells, using Wisdom as the\
+      \ spellcasting ability (spell save DC 12):\n\nAt will: [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md),\
+      \ [thaumaturgy](03.PlayerLog&Handouts/Mechanics/CLI/spells/thaumaturgy.md)\n\
+      \n1/day each: [bane](03.PlayerLog&Handouts/Mechanics/CLI/spells/bane.md),\
+      \ [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md)"
+    "name": "Spellcasting"
 "bonus_actions":
-- "desc": "The choldrith conjures a floating, spectral dagger within 60 feet of itself.\
-    \ The choldrith can make a melee spell attack (+4 to hit) against one creature\
-    \ within 5 feet of the dagger. On a hit, the target takes 6 (1d8 + 2) force\
-    \ damage.\n\nThe dagger lasts for 1 minute. As a bonus action on later turns,\
-    \ the choldrith can move the dagger up to 20 feet and repeat the attack against\
-    \ one creature within 5 feet of the dagger."
-  "name": "Spectral Dagger (Recharges after a Short or Long Rest)"
+  - "desc": "The choldrith conjures a floating, spectral dagger within 60 feet of\
+      \ itself. The choldrith can make a melee spell attack (+4 to hit) against\
+      \ one creature within 5 feet of the dagger. On a hit, the target takes 6 (1d8\
+      \ + 2) force damage.\n\nThe dagger lasts for 1 minute. As a bonus action on\
+      \ later turns, the choldrith can move the dagger up to 20 feet and repeat the\
+      \ attack against one creature within 5 feet of the dagger."
+    "name": "Spectral Dagger (Recharges after a Short or Long Rest)"
 "source":
-- "MPMM"
-- "VGM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/monstrosity/token/choldrith-mpmm.webp"
+  - "MPMM"
+  - "VGM"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/token/choldrith-mpmm.webp"
 ```
 ^statblock
 

@@ -8,10 +8,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/fey
 statblock: inline
-aliases: ["Dryad"]
+statblock-link: "#^statblock"
+aliases:
+- Dryad
 ---
-# [Dryad](03 - Player Log & Handouts\Mechanics\CLI\bestiary\fey/dryad.md)
-*Source: Monster Manual p. 121, Baldur's Gate: Descent Into Avernus. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Dryad](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fey/dryad.md)
+*Source: Monster Manual p. 121, Storm King's Thunder, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus, Explorer's Guide to Wildemount, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden, Candlekeep Mysteries, Journeys through the Radiant Citadel, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Travelers entering a forest might catch a glimpse of a feminine form flitting through the trees. Warm laughter hangs on the air, drawing those who hear it deeper into the emerald shadows.
 
@@ -23,7 +25,7 @@ A dryad can emerge from the tree and travel the lands around it, but the tree re
 
 ## Reclusive Fey
 
-Dryads act as guardians of their woodland demesnes. Shy and reclusive, they watch interlopers from the trees. A dryad struck by the beauty of a stranger might investigate more closely, perhaps even try to lure the individual away to be [charmed](conditions.md#Charmed).
+Dryads act as guardians of their woodland demesnes. Shy and reclusive, they watch interlopers from the trees. A dryad struck by the beauty of a stranger might investigate more closely, perhaps even try to lure the individual away to be [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed).
 
 Dryads work with other sylvan creatures to defend their forests. Unicorns, treants, and satyrs live alongside them, in addition to druids that share the dryads' devotion to the woods they call home.
 
@@ -37,67 +39,80 @@ Dryads can speak with plants and animals. They can teleport from one tree to ano
 "type": "fey"
 "alignment": "Neutral"
 "ac": !!int "11"
-"ac_class": "16 with [barkskin](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/barkskin.md)"
+"ac_class": "16 with [barkskin](03.PlayerLog&Handouts/Mechanics/CLI/spells/barkskin.md)"
 "hp": !!int "22"
 "hit_dice": "5d8"
+"modifier": !!int "1"
 "stats":
-- !!int "10"
-- !!int "12"
-- !!int "11"
-- !!int "14"
-- !!int "15"
-- !!int "18"
+  - !!int "10"
+  - !!int "12"
+  - !!int "11"
+  - !!int "14"
+  - !!int "15"
+  - !!int "18"
 "speed": "30 ft."
 "skillsaves":
-  "Stealth": !!int "5"
-  "Perception": !!int "4"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+4"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+5"
 "senses": "darkvision 60 ft., passive Perception 14"
 "languages": "Elvish, Sylvan"
 "cr": "1"
 "traits":
-- "desc": "The dryad's innate spellcasting ability is Charisma (spell save DC 14).\
-    \ The dryad can innately cast the following spells, requiring no material components:\n\
-    \nAt will: [druidcraft](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/druidcraft.md)\n\
-    \n1/day each: [barkskin](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/barkskin.md),\
-    \ [pass without trace](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/pass-without-trace.md),\
-    \ [shillelagh](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/shillelagh.md)\n\
-    \n3/day each: [entangle](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/entangle.md),\
-    \ [goodberry](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/goodberry.md)"
-  "name": "Innate Spellcasting"
-- "desc": "The dryad has advantage on saving throws against spells and other magical\
-    \ effects."
-  "name": "Magic Resistance"
-- "desc": "The dryad can communicate with beasts and plants as if they shared a language."
-  "name": "Speak with Beasts and Plants"
-- "desc": "Once on her turn, the dryad can use 10 feet of her movement to step magically\
-    \ into one living tree within her reach and emerge from a second living tree within\
-    \ 60 feet of the first tree, appearing in an unoccupied space within 5 feet of\
-    \ the second tree. Both trees must be large or bigger."
-  "name": "Tree Stride"
+  - "desc": "The dryad's innate spellcasting ability is Charisma (spell save DC 14).\
+      \ The dryad can innately cast the following spells, requiring no material components:\n\
+      \nAt will: [druidcraft](03.PlayerLog&Handouts/Mechanics/CLI/spells/druidcraft.md)\n\
+      \n3/day each: [entangle](03.PlayerLog&Handouts/Mechanics/CLI/spells/entangle.md),\
+      \ [goodberry](03.PlayerLog&Handouts/Mechanics/CLI/spells/goodberry.md)\n\n1/day\
+      \ each: [barkskin](03.PlayerLog&Handouts/Mechanics/CLI/spells/barkskin.md),\
+      \ [pass without trace](03.PlayerLog&Handouts/Mechanics/CLI/spells/pass-without-trace.md),\
+      \ [shillelagh](03.PlayerLog&Handouts/Mechanics/CLI/spells/shillelagh.md)"
+    "name": "Innate Spellcasting"
+  - "desc": "The dryad has advantage on saving throws against spells and other magical\
+      \ effects."
+    "name": "Magic Resistance"
+  - "desc": "The dryad can communicate with beasts and plants as if they shared a\
+      \ language."
+    "name": "Speak with Beasts and Plants"
+  - "desc": "Once on her turn, the dryad can use 10 feet of her movement to step magically\
+      \ into one living tree within her reach and emerge from a second living tree\
+      \ within 60 feet of the first tree, appearing in an unoccupied space within\
+      \ 5 feet of the second tree. Both trees must be large or bigger."
+    "name": "Tree Stride"
 "actions":
-- "desc": "Melee Weapon Attack: +2 to hit (+6 to hit with shillelagh), reach\
-    \ 5 ft., one target. Hit: 2 (1d4) bludgeoning damage, or 8 (1d8 + 4) bludgeoning\
-    \ damage with shillelagh."
-  "name": "Club"
-- "desc": "The dryad targets one humanoid or beast that she can see within 30 feet\
-    \ of her. If the target can see the dryad, it must succeed on a DC 14 Wisdom saving\
-    \ throw or be magically [charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed).\
-    \ The [charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
-    \ creature regards the dryad as a trusted friend to be heeded and protected. Although\
-    \ the target isn't under the dryad's control, it takes the dryad's requests or\
-    \ actions in the most favorable way it can.\n\nEach time the dryad or its allies\
-    \ do anything harmful to the target, it can repeat the saving throw, ending the\
-    \ effect on itself on a success. Otherwise, the effect lasts 24 hours or until\
-    \ the dryad dies, is on a different plane of existence from the target, or ends\
-    \ the effect as a bonus action. If a target's saving throw is successful, the\
-    \ target is immune to the dryad's Fey Charm for the next 24 hours.\n\nThe dryad\
-    \ can have no more than one humanoid and up to three beasts [charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
-    \ at a time."
-  "name": "Fey Charm"
+  - "desc": "Melee Weapon Attack: +2 to hit (+6 to hit with shillelagh), reach\
+      \ 5 ft., one target. Hit: 2 (d4) bludgeoning damage, or 8 (1d8 + 4) bludgeoning\
+      \ damage with shillelagh."
+    "name": "Club"
+  - "desc": "The dryad targets one humanoid or beast that she can see within 30 feet\
+      \ of her. If the target can see the dryad, it must succeed on a DC 14 Wisdom\
+      \ saving throw or be magically [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed).\
+      \ The [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
+      \ creature regards the dryad as a trusted friend to be heeded and protected.\
+      \ Although the target isn't under the dryad's control, it takes the dryad's\
+      \ requests or actions in the most favorable way it can.\n\nEach time the dryad\
+      \ or its allies do anything harmful to the target, it can repeat the saving\
+      \ throw, ending the effect on itself on a success. Otherwise, the effect lasts\
+      \ 24 hours or until the dryad dies, is on a different plane of existence from\
+      \ the target, or ends the effect as a bonus action. If a target's saving throw\
+      \ is successful, the target is immune to the dryad's Fey Charm for the next\
+      \ 24 hours.\n\nThe dryad can have no more than one humanoid and up to three\
+      \ beasts [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
+      \ at a time."
+    "name": "Fey Charm"
 "source":
-- "MM"
-- "BGDIA"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/fey/token/dryad.webp"
+  - "MM"
+  - "SKT"
+  - "GoS"
+  - "BGDIA"
+  - "EGW"
+  - "MOT"
+  - "IDRotF"
+  - "CM"
+  - "JttRC"
+  - "KftGV"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/token/dryad.webp"
 ```
 ^statblock
 

@@ -10,14 +10,16 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/monstrosity/warlock
 statblock: inline
-aliases: ["Yuan-ti Pit Master"]
+statblock-link: "#^statblock"
+aliases:
+- Yuan-ti Pit Master
 ---
-# [Yuan-ti Pit Master](03 - Player Log & Handouts\Mechanics\CLI\bestiary\monstrosity/yuan-ti-pit-master-mpmm.md)
+# [Yuan-ti Pit Master](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/yuan-ti-pit-master-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 276, Volo's Guide to Monsters p. 206*  
 
 With snakes for arms, pit masters are yuan-ti malison priests who have made a pact with the god Merrshaulk and seek to rouse him from his slumber by sacrificing Humanoids to him. They are the most traditionalist yuan-ti and believe that they are best equipped to achieve the goals of their people.
 
-Pit masters are deeply involved in yuan-ti's longterm plan to take over Humanoid governments, as well as in the ongoing effort to protect their cities from discovery or attacks by hostiles. They oppose reckless behavior and argue for a slow, cautious approach in all matters.
+Pit masters are deeply involved in yuan-ti's long-term plan to take over Humanoid governments, as well as in the ongoing effort to protect their cities from discovery or attacks by hostiles. They oppose reckless behavior and argue for a slow, cautious approach in all matters.
 
 ```statblock
 "name": "Yuan-ti Pit Master (MPMM)"
@@ -29,66 +31,68 @@ Pit masters are deeply involved in yuan-ti's longterm plan to take over Humanoid
 "ac_class": "natural armor"
 "hp": !!int "88"
 "hit_dice": "16d8 + 16"
+"modifier": !!int "2"
 "stats":
-- !!int "16"
-- !!int "14"
-- !!int "13"
-- !!int "14"
-- !!int "12"
-- !!int "16"
+  - !!int "16"
+  - !!int "14"
+  - !!int "13"
+  - !!int "14"
+  - !!int "12"
+  - !!int "16"
 "speed": "30 ft."
 "saves":
-  "Charisma": !!int "6"
-  "Wisdom": !!int "4"
+  - "wisdom": "+4"
+  - "charisma": "+6"
 "skillsaves":
-  "Deception": !!int "6"
-  "Stealth": !!int "5"
+  - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
+    "desc": "+6"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+5"
 "damage_immunities": "poison"
-"condition_immunities": "[poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "darkvision 120 ft., passive Perception 11"
 "languages": "Abyssal, Common, Draconic"
 "cr": "5"
 "traits":
-- "desc": "The yuan-ti casts one of the following spells, requiring no material components\
-    \ and using Charisma as the spellcasting ability (spell save DC 14):\n\nAt will:\
-    \ [animal friendship](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/animal-friendship.md)\
-    \ (snakes only), [guidance](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/guidance.md),\
-    \ [mage hand](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/mage-hand.md),\
-    \ [message](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/message.md)\n\
-    \n2/day each: [hold person](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/hold-person.md),\
-    \ [invisibility](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/invisibility.md)\n\
-    \n3/day: [suggestion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/suggestion.md)"
-  "name": "Spellcasting (Yuan-ti Form Only)"
-- "desc": "Magical darkness doesn't impede the yuan-ti's [darkvision](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/senses.md#Darkvision)."
-  "name": "Devil's Sight"
-- "desc": "The yuan-ti has advantage on saving throws against spells and other magical\
-    \ effects."
-  "name": "Magic Resistance"
+  - "desc": "Magical darkness doesn't impede the yuan-ti's [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)."
+    "name": "Devil's Sight"
+  - "desc": "The yuan-ti has advantage on saving throws against spells and other magical\
+      \ effects."
+    "name": "Magic Resistance"
 "actions":
-- "desc": "The yuan-ti makes three Bite attacks or two Spectral Fangs attacks."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5 (1d4\
-    \ + 3) piercing damage plus 7 (2d6) poison damage."
-  "name": "Bite"
-- "desc": "Ranged Spell Attack: +6 to hit, range 120 ft., one target. Hit: 16\
-    \ (3d8 + 3) poison damage."
-  "name": "Spectral Fangs"
-- "desc": "The yuan-ti targets up to five creatures that it can see within 60 feet\
-    \ of it. Each target must succeed on a DC 13 Constitution saving throw or fall\
-    \ into a magical sleep and be [unconscious](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)\
-    \ for 10 minutes. A sleeping target awakens if it takes damage or if someone uses\
-    \ an action to shake or slap it awake. This magical sleep has no effect on a creature\
-    \ immune to being [charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed)."
-  "name": "Merrshaulk's Slumber (1/Day)"
+  - "desc": "The yuan-ti makes three Bite attacks or two Spectral Fangs attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5\
+      \ (1d4 + 3) piercing damage plus 7 (2d6) poison damage."
+    "name": "Bite"
+  - "desc": "Ranged Spell Attack: +6 to hit, range 120 ft., one target. Hit:\
+      \ 16 (3d8 + 3) poison damage."
+    "name": "Spectral Fangs"
+  - "desc": "The yuan-ti targets up to five creatures that it can see within 60 feet\
+      \ of it. Each target must succeed on a DC 13 Constitution saving throw or fall\
+      \ into a magical sleep and be [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)\
+      \ for 10 minutes. A sleeping target awakens if it takes damage or if someone\
+      \ uses an action to shake or slap it awake. This magical sleep has no effect\
+      \ on a creature immune to being [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)."
+    "name": "Merrshaulk's Slumber (1/Day)"
+  - "desc": "The yuan-ti casts one of the following spells, requiring no material\
+      \ components and using Charisma as the spellcasting ability (spell save DC 14):\n\
+      \nAt will: [animal friendship](03.PlayerLog&Handouts/Mechanics/CLI/spells/animal-friendship.md)\
+      \ (snakes only), [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md),\
+      \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), [message](03.PlayerLog&Handouts/Mechanics/CLI/spells/message.md)\n\
+      \n3/day: [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md)\n\
+      \n2/day each: [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md),\
+      \ [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md)"
+    "name": "Spellcasting (Yuan-ti Form Only)"
 "bonus_actions":
-- "desc": "The yuan-ti transforms into a Medium snake or back into its true form.\
-    \ Its statistics are the same in each form. Any equipment it is wearing or carrying\
-    \ isn't transformed. It doesn't change form if it dies."
-  "name": "Change Shape"
+  - "desc": "The yuan-ti transforms into a Medium snake or back into its true form.\
+      \ Its statistics are the same in each form. Any equipment it is wearing or carrying\
+      \ isn't transformed. It doesn't change form if it dies."
+    "name": "Change Shape"
 "source":
-- "MPMM"
-- "VGM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/monstrosity/token/yuan-ti-pit-master-mpmm.webp"
+  - "MPMM"
+  - "VGM"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/token/yuan-ti-pit-master-mpmm.webp"
 ```
 ^statblock
 

@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
-aliases: ["Chamber Purpose; Dungeon: Maze"]
+aliases:
+- Chamber Purpose; Dungeon: Maze
 ---
 # Chamber Purpose; Dungeon: Maze
 *Source: Dungeon Master's Guide p. 292* 

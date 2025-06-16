@@ -4,10 +4,11 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 - ttrpg-cli/subclass/paladin/conquest
-aliases: ["Oath of Conquest"]
+aliases:
+- Oath of Conquest
 ---
 # Oath of Conquest
-*[Paladin](paladin.md): Sacred Oath*  
+*[Paladin](./paladin.md): Sacred Oath*  
 *Source: Xanathar's Guide to Everything p. 37*  
 
 > [!tldr] Class and Feature Progression
@@ -41,6 +42,10 @@ aliases: ["Oath of Conquest"]
 
 ^class-progression
 
+
+> [!quote] A quote from Xanathar  
+> 
+> Conquest sounds cool. Do you have to leave your house for that? Because I've got a fish named Sylgar, and I can't be away for too long or he gets sad.
 
 ## Class Features
 
@@ -77,11 +82,11 @@ You gain oath spells at the paladin levels listed.
 
 | Paladin Level | Spells |
 |---------------|--------|
-| 3rd | [armor of Agathys](armor-of-agathys.md), [command](command.md) |
-| 5th | [hold person](hold-person.md), [spiritual weapon](spiritual-weapon.md) |
-| 9th | [bestow curse](bestow-curse.md), [fear](fear.md) |
-| 13th | [dominate beast](dominate-beast.md), [stoneskin](stoneskin.md) |
-| 17th | [cloudkill](cloudkill.md), [dominate person](dominate-person.md) |
+| 3rd | [armor of Agathys](03.PlayerLog&Handouts/Mechanics/CLI/spells/armor-of-agathys.md), [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md) |
+| 5th | [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md), [spiritual weapon](03.PlayerLog&Handouts/Mechanics/CLI/spells/spiritual-weapon.md) |
+| 9th | [bestow curse](03.PlayerLog&Handouts/Mechanics/CLI/spells/bestow-curse.md), [fear](03.PlayerLog&Handouts/Mechanics/CLI/spells/fear.md) |
+| 13th | [dominate beast](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-beast.md), [stoneskin](03.PlayerLog&Handouts/Mechanics/CLI/spells/stoneskin.md) |
+| 17th | [cloudkill](03.PlayerLog&Handouts/Mechanics/CLI/spells/cloudkill.md), [dominate person](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-person.md) |
 ^oath-of-conquest-spells
 
 ### Channel Divinity (Level 3)
@@ -90,7 +95,7 @@ When you take this oath at 3rd level, you gain the following two Channel Divinit
 
 ### Conquering Presence (Level 3)
 
-You can use your Channel Divinity to exude a terrifying presence. As an action, you force each creature of your choice that you can see within 30 feet of you to make a Wisdom saving throw. On a failed save, a creature becomes [frightened](conditions.md#Frightened) of you for 1 minute. The [frightened](conditions.md#Frightened) creature can repeat this saving throw at the end of each of its turns, ending the effect on itself on a success.
+You can use your Channel Divinity to exude a terrifying presence. As an action, you force each creature of your choice that you can see within 30 feet of you to make a Wisdom saving throw. On a failed save, a creature becomes [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened) of you for 1 minute. The [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened) creature can repeat this saving throw at the end of each of its turns, ending the effect on itself on a success.
 
 ### Guided Strike (Level 3)
 
@@ -98,22 +103,22 @@ You can use your Channel Divinity to strike with supernatural accuracy. When you
 
 ### Aura of Conquest (Level 7)
 
-Starting at 7th level, you constantly emanate a menacing aura while you're not [incapacitated](conditions.md#Incapacitated). The aura extends 10 feet from you in every direction, but not through total cover.
+Starting at 7th level, you constantly emanate a menacing aura while you're not [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated). The aura extends 10 feet from you in every direction, but not through total cover.
 
-If a creature is [frightened](conditions.md#Frightened) of you, its speed is reduced to 0 while in the aura, and that creature takes psychic damage equal to half your paladin level if it starts its turn there.
+If a creature is [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened) of you, its speed is reduced to 0 while in the aura, and that creature takes psychic damage equal to half your paladin level if it starts its turn there.
 
 At 18th level, the range of this aura increases to 30 feet.
 
 ### Scornful Rebuke (Level 15)
 
-Starting at 15th level, those who dare to strike you are psychically punished for their audacity. Whenever a creature hits you with an attack, that creature takes psychic damage equal to your Charisma modifier (minimum of 1) if you're not [incapacitated](conditions.md#Incapacitated).
+Starting at 15th level, those who dare to strike you are psychically punished for their audacity. Whenever a creature hits you with an attack, that creature takes psychic damage equal to your Charisma modifier (minimum of 1) if you're not [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated).
 
 ### Invincible Conqueror (Level 20)
 
 At 20th level, you gain the ability to harness extraordinary martial prowess. As an action, you can magically become an avatar of conquest, gaining the following benefits for 1 minute:
 
 - You have resistance to all damage.  
-- When you take the [Attack](actions.md#Attack) action on your turn, you can make one additional attack as part of that action.  
+- When you take the [Attack](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Attack) action on your turn, you can make one additional attack as part of that action.  
 - Your melee weapon attacks score a critical hit on a roll of 19 or 20 on the `d20`.  
 
 Once you use this feature, you can't use it again until you finish a long rest.

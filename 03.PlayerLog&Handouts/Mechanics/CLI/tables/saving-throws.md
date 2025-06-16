@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
-aliases: ["Saving Throws"]
+aliases:
+- Saving Throws
 ---
 # Saving Throws
 *Source: Dungeon Master's Guide p. 238* 

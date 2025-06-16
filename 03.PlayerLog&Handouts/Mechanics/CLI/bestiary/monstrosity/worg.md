@@ -10,10 +10,12 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/monstrosity
 statblock: inline
-aliases: ["Worg"]
+statblock-link: "#^statblock"
+aliases:
+- Worg
 ---
-# [Worg](03 - Player Log & Handouts\Mechanics\CLI\bestiary\monstrosity/worg.md)
-*Source: Monster Manual p. 341. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Worg](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/worg.md)
+*Source: Monster Manual p. 341, Princes of the Apocalypse, Storm King's Thunder, Waterdeep: Dungeon of the Mad Mage, Eberron: Rising from the Last War, Icewind Dale: Rime of the Frostmaiden, Candlekeep Mysteries. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 A worg is an evil predator that delights in hunting and devouring creatures weaker than itself. Cunning and malevolent, worgs roam across the remote wilderness or are raised by goblins and hobgoblins. Those creatures use worgs as mounts, but a worg will turn on its rider if it feels mistreated or malnourished. Worgs speak in their own language and Goblin, and a few learn to speak Common as well.
 
@@ -26,31 +28,39 @@ A worg is an evil predator that delights in hunting and devouring creatures weak
 "ac_class": "natural armor"
 "hp": !!int "26"
 "hit_dice": "4d10 + 4"
+"modifier": !!int "1"
 "stats":
-- !!int "16"
-- !!int "13"
-- !!int "13"
-- !!int "7"
-- !!int "11"
-- !!int "8"
+  - !!int "16"
+  - !!int "13"
+  - !!int "13"
+  - !!int "7"
+  - !!int "11"
+  - !!int "8"
 "speed": "50 ft."
 "skillsaves":
-  "Perception": !!int "4"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+4"
 "senses": "darkvision 60 ft., passive Perception 14"
 "languages": "Goblin, Worg"
 "cr": "1/2"
 "traits":
-- "desc": "The worg has advantage on Wisdom ([Perception](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/skills.md#Perception))\
-    \ checks that rely on hearing or smell."
-  "name": "Keen Hearing and Smell"
+  - "desc": "The worg has advantage on Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception))\
+      \ checks that rely on hearing or smell."
+    "name": "Keen Hearing and Smell"
 "actions":
-- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10\
-    \ (2d6 + 3) piercing damage. If the target is a creature, it must succeed on\
-    \ a DC 13 Strength saving throw or be knocked [prone](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
-  "name": "Bite"
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10\
+      \ (2d6 + 3) piercing damage. If the target is a creature, it must succeed\
+      \ on a DC 13 Strength saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
+    "name": "Bite"
 "source":
-- "MM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/monstrosity/token/worg.webp"
+  - "MM"
+  - "PotA"
+  - "SKT"
+  - "WDMM"
+  - "ERLW"
+  - "IDRotF"
+  - "CM"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/token/worg.webp"
 ```
 ^statblock
 

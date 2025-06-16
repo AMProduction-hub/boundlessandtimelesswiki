@@ -8,10 +8,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/humanoid/troglodyte
 statblock: inline
-aliases: ["Troglodyte"]
+statblock-link: "#^statblock"
+aliases:
+- Troglodyte
 ---
-# [Troglodyte](03 - Player Log & Handouts\Mechanics\CLI\bestiary\humanoid/troglodyte.md)
-*Source: Monster Manual p. 290, Sigil and the Outlands*  
+# [Troglodyte](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/troglodyte.md)
+*Source: Monster Manual p. 290, Princes of the Apocalypse, Tales from the Yawning Portal, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Hunt for the Thessalhydra*  
 
 The savage, degenerate troglodytes squat in the shallow depths of the Underdark in a constant state of war against their neighbors and one another. They mark the borders of their territories with cracked bones and skulls, or with pictographs painted in blood or dung.
 
@@ -29,7 +31,7 @@ Some troglodytes venerate Laogzed, a demonic, monstrously fat toad-lizard that s
 
 > [!quote] A quote from Last words of Arlack Hammermantle, dwarf spelunker  
 > 
-> Smells liek an orc's loincloth in here!
+> Smells like an orc's loincloth in here!
 
 
 ```statblock
@@ -42,46 +44,53 @@ Some troglodytes venerate Laogzed, a demonic, monstrously fat toad-lizard that s
 "ac_class": "natural armor"
 "hp": !!int "13"
 "hit_dice": "2d8 + 4"
+"modifier": !!int "0"
 "stats":
-- !!int "14"
-- !!int "10"
-- !!int "14"
-- !!int "6"
-- !!int "10"
-- !!int "6"
+  - !!int "14"
+  - !!int "10"
+  - !!int "14"
+  - !!int "6"
+  - !!int "10"
+  - !!int "6"
 "speed": "30 ft."
 "skillsaves":
-  "Stealth": !!int "2"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+2"
 "senses": "darkvision 60 ft., passive Perception 10"
 "languages": "Troglodyte"
 "cr": "1/4"
 "traits":
-- "desc": "The troglodyte has advantage on Dexterity ([Stealth](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/skills.md#Stealth))\
-    \ checks made to hide."
-  "name": "Chameleon Skin"
-- "desc": "Any creature other than a troglodyte that starts its turn within 5 feet\
-    \ of the troglodyte must succeed on a DC 12 Constitution saving throw or be [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
-    \ until the start of the creature's next turn. On a successful saving throw, the\
-    \ creature is immune to the stench of all troglodytes for 1 hour."
-  "name": "Stench"
-- "desc": "While in sunlight, the troglodyte has disadvantage on attack rolls, as\
-    \ well as on Wisdom ([Perception](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/skills.md#Perception))\
-    \ checks that rely on sight."
-  "name": "Sunlight Sensitivity"
+  - "desc": "The troglodyte has advantage on Dexterity ([Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth))\
+      \ checks made to hide."
+    "name": "Chameleon Skin"
+  - "desc": "Any creature other than a troglodyte that starts its turn within 5 feet\
+      \ of the troglodyte must succeed on a DC 12 Constitution saving throw or be\
+      \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
+      \ until the start of the creature's next turn. On a successful saving throw,\
+      \ the creature is immune to the stench of all troglodytes for 1 hour."
+    "name": "Stench"
+  - "desc": "While in sunlight, the troglodyte has disadvantage on attack rolls, as\
+      \ well as on Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception))\
+      \ checks that rely on sight."
+    "name": "Sunlight Sensitivity"
 "actions":
-- "desc": "The troglodyte makes three attacks: one with its bite and two with its\
-    \ claws."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4\
-    \ + 2) piercing damage."
-  "name": "Bite"
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4\
-    \ + 2) slashing damage."
-  "name": "Claw"
+  - "desc": "The troglodyte makes three attacks: one with its bite and two with its\
+      \ claws."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4\
+      \ (1d4 + 2) piercing damage."
+    "name": "Bite"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4\
+      \ (1d4 + 2) slashing damage."
+    "name": "Claw"
 "source":
-- "MM"
-- "SatO"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/humanoid/token/troglodyte.webp"
+  - "MM"
+  - "PotA"
+  - "TftYP"
+  - "WDH"
+  - "WDMM"
+  - "HftT"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/troglodyte.webp"
 ```
 ^statblock
 

@@ -3,6 +3,7 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
+- ttrpg-cli/spell/background/izzet-engineer
 - ttrpg-cli/spell/class/artificer
 - ttrpg-cli/spell/class/bard
 - ttrpg-cli/spell/class/wizard
@@ -20,7 +21,8 @@ classes:
 - Paladin (Oath of Redemption)
 - Rogue (Arcane Trickster)
 - Wizard
-aliases: ["Otiluke's Resilient Sphere"]
+aliases:
+- Otiluke's Resilient Sphere
 ---
 # Otiluke's Resilient Sphere
 *4th-level, Evocation*  
@@ -37,8 +39,8 @@ Nothing—not physical objects, energy, or other spell effects—can pass throug
 
 The sphere is weightless and just large enough to contain the creature or object inside. An enclosed creature can use its action to push against the sphere's walls and thus roll the sphere at up to half the creature's speed. Similarly, the globe can be picked up and moved by other creatures.
 
-A [disintegrate](disintegrate.md) spell targeting the globe destroys it without harming anything inside it.
+A [disintegrate](03.PlayerLog&Handouts/Mechanics/CLI/spells/disintegrate.md) spell targeting the globe destroys it without harming anything inside it.
 
-**Classes**: [Artificer](list-spells-classes-artificer.md); [Cleric (Peace Domain)](list-spells-classes-cleric-peace-domain-tce.md "subclass=TCE"); [Rogue (Arcane Trickster)](list-spells-classes-rogue-arcane-trickster.md); [Bard](list-spells-classes-bard.md); [Wizard](list-spells-classes-wizard.md); [Fighter (Eldritch Knight)](list-spells-classes-fighter-eldritch-knight.md); [Paladin (Oath of Redemption)](list-spells-classes-paladin-oath-of-redemption-xge.md "subclass=XGE")
+**Classes**: [Artificer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-artificer.md); [Cleric (Peace Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-peace-domain-tce.md "subclass=TCE"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Paladin (Oath of Redemption)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-redemption-xge.md "subclass=XGE"); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md)
 
 *Source: Player's Handbook p. 264. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> (as "Resilient Sphere")*

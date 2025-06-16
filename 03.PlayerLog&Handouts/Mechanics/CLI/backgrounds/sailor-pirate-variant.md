@@ -4,15 +4,16 @@ cssclasses: json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/phb
-aliases: ["Sailor (Pirate) (Variant)"]
+aliases:
+- Sailor (Pirate) (Variant)
 ---
 # Sailor (Pirate) (Variant)
 *Source: Player's Handbook p. 139*  
 
 
 - **Skill Proficiencies.** [Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics), [Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)  
-- **Tool Proficiencies.** [Navigator's tools](navigators-tools.md), vehicles (water)  
-- **Equipment.** A belaying pin ([club](club.md)), [silk rope (50 feet)](silk-rope-50-feet.md), a lucky charm such as a rabbit foot or a small stone with a hole in the center (or you may roll for a random [trinket](trinket.md) on the Trinkets table in chapter 5), a set of [common clothes](common-clothes.md), and a belt [pouch](pouch.md) containing 10 gp  
+- **Tool Proficiencies.** [Navigator's tools](03.PlayerLog&Handouts/Mechanics/CLI/items/navigators-tools.md), vehicles (water)  
+- **Equipment.** A belaying pin ([club](03.PlayerLog&Handouts/Mechanics/CLI/items/club.md)), [silk rope (50 feet)](03.PlayerLog&Handouts/Mechanics/CLI/items/silk-rope-50-feet.md), a lucky charm such as a rabbit foot or a small stone with a hole in the center (or you may roll for a random [trinket](03.PlayerLog&Handouts/Mechanics/CLI/items/trinket.md) on the Trinkets table in chapter 5), a set of [common clothes](03.PlayerLog&Handouts/Mechanics/CLI/items/common-clothes.md), and a belt [pouch](03.PlayerLog&Handouts/Mechanics/CLI/items/pouch.md) containing 10 gp  
 
 You spent your youth under the sway of a dread pirate, a ruthless cutthroat who taught you how to survive in a world of sharks and savages. You've indulged in larceny on the high seas and sent more than one deserving soul to a briny grave. Fear and bloodshed are no strangers to you, and you've garnered a somewhat unsavory reputation in many a port town.
 

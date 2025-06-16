@@ -4,7 +4,8 @@ cssclasses: json5e-deity
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
 - ttrpg-cli/deity/yuan-ti
-aliases: ["Sseth"]
+aliases: 
+- Sseth
 ---
 # Sseth
 *Source: Volo's Guide to Monsters p. 94* 

@@ -4,10 +4,11 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/subclass/barbarian/totem-warrior
-aliases: ["Path of the Totem Warrior"]
+aliases:
+- Path of the Totem Warrior
 ---
 # Path of the Totem Warrior
-*[Barbarian](barbarian.md): Primal Path*  
+*[Barbarian](./barbarian.md): Primal Path*  
 *Source: Player's Handbook p. 50*  
 
 > [!tldr] Class and Feature Progression
@@ -52,7 +53,7 @@ Most barbarian tribes consider a totem animal to be kin to a particular clan. In
 
 ### Spirit Seeker (Level 3)
 
-Yours is a path that seeks attunement with the natural world, giving you a kinship with beasts. At 3rd level when you adopt this path, you gain the ability to cast the [beast sense](beast-sense.md) and [speak with animals](speak-with-animals.md) spells, but only as rituals, as described in "chapter 10".
+Yours is a path that seeks attunement with the natural world, giving you a kinship with beasts. At 3rd level when you adopt this path, you gain the ability to cast the [beast sense](03.PlayerLog&Handouts/Mechanics/CLI/spells/beast-sense.md) and [speak with animals](03.PlayerLog&Handouts/Mechanics/CLI/spells/speak-with-animals.md) spells, but only as rituals, as described in "chapter 10".
 
 ### Totem Spirit (Level 3)
 
@@ -66,7 +67,7 @@ Your totem animal might be an animal related to those listed here but more appro
 
 - **Eagle**  
 
-    While you're raging and aren't wearing heavy armor, other creatures have disadvantage on opportunity attack rolls against you, and you can use the [Dash](actions.md#Dash) action as a bonus action on your turn. The spirit of the eagle makes you into a predator who can weave through the fray with ease.  
+    While you're raging and aren't wearing heavy armor, other creatures have disadvantage on opportunity attack rolls against you, and you can use the [Dash](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Dash) action as a bonus action on your turn. The spirit of the eagle makes you into a predator who can weave through the fray with ease.  
 
 - **Elk**  
     _Source: Sword Coast Adventurer's Guide p. 122_  
@@ -97,7 +98,7 @@ At 6th level, you gain a magical benefit based on the totem animal of your choic
 - **Elk**  
     _Source: Sword Coast Adventurer's Guide p. 122_  
 
-    Whether mounted or on foot, your travel pace is doubled, as is the travel pace of up to ten companions while they're within 60 feet of you and you're not [incapacitated](conditions.md#Incapacitated). The elk spirit helps you roam far and fast.  
+    Whether mounted or on foot, your travel pace is doubled, as is the travel pace of up to ten companions while they're within 60 feet of you and you're not [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated). The elk spirit helps you roam far and fast.  
 
 - **Tiger**  
     _Source: Sword Coast Adventurer's Guide p. 122_  
@@ -110,7 +111,7 @@ At 6th level, you gain a magical benefit based on the totem animal of your choic
 
 ### Spirit Walker (Level 10)
 
-At 10th level, you can cast the [commune with nature](commune-with-nature.md) spell, but only as a ritual. When you do so, a spiritual version of one of the animals you chose for Totem Spirit or Aspect of the Beast appears to you to convey the information you seek.
+At 10th level, you can cast the [commune with nature](03.PlayerLog&Handouts/Mechanics/CLI/spells/commune-with-nature.md) spell, but only as a ritual. When you do so, a spiritual version of one of the animals you chose for Totem Spirit or Aspect of the Beast appears to you to convey the information you seek.
 
 ### Totemic Attunement (Level 14)
 
@@ -118,7 +119,7 @@ At 14th level, you gain a magical benefit based on a totem animal of your choice
 
 - **Bear**  
 
-    While you're raging, any creature within 5 feet of you that's hostile to you has disadvantage on attack rolls against targets other than you or another character with this feature. An enemy is immune to this effect if it can't see or hear you or if it can't be [frightened](conditions.md#Frightened).  
+    While you're raging, any creature within 5 feet of you that's hostile to you has disadvantage on attack rolls against targets other than you or another character with this feature. An enemy is immune to this effect if it can't see or hear you or if it can't be [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened).  
 
 - **Eagle**  
 
@@ -127,7 +128,7 @@ At 14th level, you gain a magical benefit based on a totem animal of your choice
 - **Elk**  
     _Source: Sword Coast Adventurer's Guide p. 122_  
 
-    While raging, you can use a bonus action during your move to pass through the space of a Large or smaller creature. That creature must succeed on a Strength saving throw (DC 8 + your Strength bonus + your proficiency bonus) or be knocked [prone](conditions.md#Prone) and take bludgeoning damage equal to `1d12` + your Strength modifier.  
+    While raging, you can use a bonus action during your move to pass through the space of a Large or smaller creature. That creature must succeed on a Strength saving throw (DC 8 + your Strength bonus + your proficiency bonus) or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone) and take bludgeoning damage equal to `d12` + your Strength modifier.  
 
 - **Tiger**  
     _Source: Sword Coast Adventurer's Guide p. 122_  
@@ -136,4 +137,4 @@ At 14th level, you gain a magical benefit based on a totem animal of your choice
 
 - **Wolf**  
 
-    While you're raging, you can use a bonus action on your turn to knock a Large or smaller creature [prone](conditions.md#Prone) when you hit it with melee weapon attack.
+    While you're raging, you can use a bonus action on your turn to knock a Large or smaller creature [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone) when you hit it with melee weapon attack.

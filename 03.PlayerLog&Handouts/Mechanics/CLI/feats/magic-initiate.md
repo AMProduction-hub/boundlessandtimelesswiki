@@ -4,7 +4,8 @@ cssclasses: json5e-feat
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/feat
-aliases: ["Magic Initiate"]
+aliases:
+- Magic Initiate
 ---
 # Magic Initiate
 *Source: Player's Handbook p. 168*  

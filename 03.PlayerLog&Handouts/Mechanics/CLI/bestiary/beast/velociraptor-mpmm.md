@@ -9,9 +9,11 @@ tags:
 - ttrpg-cli/monster/size/tiny
 - ttrpg-cli/monster/type/beast/dinosaur
 statblock: inline
-aliases: ["Velociraptor"]
+statblock-link: "#^statblock"
+aliases:
+- Velociraptor
 ---
-# [Velociraptor](03 - Player Log & Handouts\Mechanics\CLI\bestiary\beast/velociraptor-mpmm.md)
+# [Velociraptor](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/velociraptor-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 96, Volo's Guide to Monsters p. 140*  
 
 This feathered dinosaur is about the size of a large turkey. It is an aggressive predator and often hunts in packs to bring down larger prey.
@@ -26,37 +28,39 @@ This feathered dinosaur is about the size of a large turkey. It is an aggressive
 "ac_class": "natural armor"
 "hp": !!int "10"
 "hit_dice": "3d4 + 3"
+"modifier": !!int "2"
 "stats":
-- !!int "6"
-- !!int "14"
-- !!int "13"
-- !!int "4"
-- !!int "12"
-- !!int "6"
+  - !!int "6"
+  - !!int "14"
+  - !!int "13"
+  - !!int "4"
+  - !!int "12"
+  - !!int "6"
 "speed": "30 ft."
 "skillsaves":
-  "Perception": !!int "3"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+3"
 "senses": "passive Perception 13"
 "languages": ""
 "cr": "1/4"
 "traits":
-- "desc": "The velociraptor has advantage on an attack roll against a creature if\
-    \ at least one of the velociraptor's allies is within 5 feet of the creature and\
-    \ the ally isn't [incapacitated](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)."
-  "name": "Pack Tactics"
+  - "desc": "The velociraptor has advantage on an attack roll against a creature if\
+      \ at least one of the velociraptor's allies is within 5 feet of the creature\
+      \ and the ally isn't [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)."
+    "name": "Pack Tactics"
 "actions":
-- "desc": "The velociraptor makes one Bite attack and one Claw attack."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5\
-    \ (1d6 + 2) piercing damage."
-  "name": "Bite"
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4\
-    \ + 2) slashing damage."
-  "name": "Claw"
+  - "desc": "The velociraptor makes one Bite attack and one Claw attack."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit:\
+      \ 5 (1d6 + 2) piercing damage."
+    "name": "Bite"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4\
+      \ (1d4 + 2) slashing damage."
+    "name": "Claw"
 "source":
-- "MPMM"
-- "VGM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/beast/token/velociraptor-mpmm.webp"
+  - "MPMM"
+  - "VGM"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/velociraptor-mpmm.webp"
 ```
 ^statblock
 

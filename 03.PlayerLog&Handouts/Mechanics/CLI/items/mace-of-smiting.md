@@ -11,8 +11,8 @@ aliases:
 - "Mace of Smiting"
 ---
 # Mace of Smiting
-*Weapon ([mace](mace.md)), major, rare*  
-![](mace-of-smiting.webp#right)
+*Weapon ([mace](03.PlayerLog&Handouts/Mechanics/CLI/items/mace.md)), major, rare*  
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/mace-of-smiting.webp#right)
 
 - **Damage**: 1d6 bludgeoning
 - **Weight**: 4.0 lbs.

@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
-aliases: ["Identify the Party's Goals; Dungeon Goals"]
+aliases:
+- Identify the Party's Goals; Dungeon Goals
 ---
 # Identify the Party's Goals; Dungeon Goals
 *Source: Dungeon Master's Guide p. 72* 

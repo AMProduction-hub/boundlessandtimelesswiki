@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
-aliases: ["Duergar in the Clan; Duergar Clan Names"]
+aliases:
+- Duergar in the Clan; Duergar Clan Names
 ---
 # Duergar in the Clan; Duergar Clan Names
 *Source: Mordenkainen's Tome of Foes p. 84* 

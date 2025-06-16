@@ -4,16 +4,17 @@ cssclasses: json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/phb
-aliases: ["Guild Artisan (Guild Merchant) (Variant)"]
+aliases:
+- Guild Artisan (Guild Merchant) (Variant)
 ---
 # Guild Artisan (Guild Merchant) (Variant)
 *Source: Player's Handbook p. 133*  
 
 
 - **Skill Proficiencies.** [Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight), [Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion)  
-- **Tool Proficiencies.** One type of artisan's tools, or [navigator's tools](navigators-tools.md), or an additional language  
+- **Tool Proficiencies.** One type of artisan's tools, or [navigator's tools](03.PlayerLog&Handouts/Mechanics/CLI/items/navigators-tools.md), or an additional language  
 - **Languages.** One of your choice  
-- **Equipment.** A set of artisan's tools (one of your choice) or a [mule](03.PlayerLog&Handouts/Mechanics/CLI/items/mule.md) and [cart](cart.md), a letter of introduction from your guild, a set of [traveler's clothes](travelers-clothes.md), and a belt [pouch](pouch.md) containing 15 gp  
+- **Equipment.** A set of artisan's tools (one of your choice) or a [mule](03.PlayerLog&Handouts/Mechanics/CLI/items/mule.md) and [cart](03.PlayerLog&Handouts/Mechanics/CLI/items/cart.md), a letter of introduction from your guild, a set of [traveler's clothes](03.PlayerLog&Handouts/Mechanics/CLI/items/travelers-clothes.md), and a belt [pouch](03.PlayerLog&Handouts/Mechanics/CLI/items/pouch.md) containing 15 gp  
 
 Instead of an artisans' guild, you might belong to a guild of traders, caravan masters, or shopkeepers. You don't craft items yourself but earn a living by buying and selling the works of others (or the raw materials artisans need to practice their craft). Your guild might be a large merchant consortium (or family) with interests across the region. Perhaps you transported goods from one place to another, by ship, wagon, or caravan, or bought them from traveling traders and sold them in your own little shop. In some ways, the traveling merchant's life lends itself to adventure far more than the life of an artisan.
 

@@ -15,19 +15,19 @@ aliases:
 
 **Items in this group:**
 
-- [Ioun Stone, Absorption](ioun-stone-absorption.md)
-- [Ioun Stone, Agility](ioun-stone-agility.md)
-- [Ioun Stone, Awareness](ioun-stone-awareness.md)
-- [Ioun Stone, Fortitude](ioun-stone-fortitude.md)
-- [Ioun Stone, Greater Absorption](ioun-stone-greater-absorption.md)
-- [Ioun Stone, Insight](ioun-stone-insight.md)
-- [Ioun Stone, Intellect](ioun-stone-intellect.md)
-- [Ioun Stone, Leadership](ioun-stone-leadership.md)
-- [Ioun Stone, Mastery](ioun-stone-mastery.md)
-- [Ioun Stone, Protection](ioun-stone-protection.md)
-- [Ioun Stone, Regeneration](ioun-stone-regeneration.md)
-- [Ioun Stone, Reserve](ioun-stone-reserve.md)
-- [Ioun Stone, Strength](ioun-stone-strength.md)
-- [Ioun Stone, Sustenance](ioun-stone-sustenance.md)
+- [Ioun Stone, Absorption](03.PlayerLog&Handouts/Mechanics/CLI/items/ioun-stone-absorption.md)
+- [Ioun Stone, Agility](03.PlayerLog&Handouts/Mechanics/CLI/items/ioun-stone-agility.md)
+- [Ioun Stone, Awareness](03.PlayerLog&Handouts/Mechanics/CLI/items/ioun-stone-awareness.md)
+- [Ioun Stone, Fortitude](03.PlayerLog&Handouts/Mechanics/CLI/items/ioun-stone-fortitude.md)
+- [Ioun Stone, Greater Absorption](03.PlayerLog&Handouts/Mechanics/CLI/items/ioun-stone-greater-absorption.md)
+- [Ioun Stone, Insight](03.PlayerLog&Handouts/Mechanics/CLI/items/ioun-stone-insight.md)
+- [Ioun Stone, Intellect](03.PlayerLog&Handouts/Mechanics/CLI/items/ioun-stone-intellect.md)
+- [Ioun Stone, Leadership](03.PlayerLog&Handouts/Mechanics/CLI/items/ioun-stone-leadership.md)
+- [Ioun Stone, Mastery](03.PlayerLog&Handouts/Mechanics/CLI/items/ioun-stone-mastery.md)
+- [Ioun Stone, Protection](03.PlayerLog&Handouts/Mechanics/CLI/items/ioun-stone-protection.md)
+- [Ioun Stone, Regeneration](03.PlayerLog&Handouts/Mechanics/CLI/items/ioun-stone-regeneration.md)
+- [Ioun Stone, Reserve](03.PlayerLog&Handouts/Mechanics/CLI/items/ioun-stone-reserve.md)
+- [Ioun Stone, Strength](03.PlayerLog&Handouts/Mechanics/CLI/items/ioun-stone-strength.md)
+- [Ioun Stone, Sustenance](03.PlayerLog&Handouts/Mechanics/CLI/items/ioun-stone-sustenance.md)
 
 *Source: Dungeon Master's Guide p. 176*

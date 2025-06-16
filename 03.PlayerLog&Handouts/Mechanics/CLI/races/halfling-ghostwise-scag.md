@@ -4,11 +4,12 @@ cssclasses: json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/scag
 - ttrpg-cli/race/halfling/ghostwise
-aliases: ["Halfling (Ghostwise)"]
+aliases:
+- Halfling (Ghostwise)
 ---
 # Halfling (Ghostwise)
 *Source: Sword Coast Adventurer's Guide p. 110*  
-![](halfling.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/races/img/halfling.webp#right)
 
 - **Ability Scores**: Wisdom +1
 - **Size**: Small
@@ -30,7 +31,7 @@ When you roll a 1 on an attack roll, ability check, or saving throw, you can rer
 
 ### Brave
 
-You have advantage on saving throws against being [frightened](conditions.md#Frightened).
+You have advantage on saving throws against being [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened).
 
 ### Halfling Nimbleness
 

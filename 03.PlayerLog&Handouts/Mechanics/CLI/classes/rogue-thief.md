@@ -4,10 +4,11 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/subclass/rogue/thief
-aliases: ["Thief"]
+aliases:
+- Thief
 ---
 # Thief
-*[Rogue](03.PlayerLog&Handouts/Mechanics/CLI/classes/rogue.md): Roguish Archetype*  
+*[Rogue](./rogue.md): Roguish Archetype*  
 *Source: Player's Handbook p. 97. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 > [!tldr] Class and Feature Progression
@@ -50,7 +51,7 @@ You hone your skills in the larcenous arts. Burglars, bandits, cutpurses, and ot
 
 ### Fast Hands (Level 3)
 
-Starting at 3rd level, you can use the bonus action granted by your Cunning Action to make a Dexterity ([Sleight of Hand](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Sleight%20of%20Hand)) check, use your [thieves' tools](thieves-tools.md) to disarm a trap or open a lock, or take the [Use an Object](actions.md#Use%20an%20Object) action.
+Starting at 3rd level, you can use the bonus action granted by your Cunning Action to make a Dexterity ([Sleight of Hand](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Sleight%20of%20Hand)) check, use your [thieves' tools](03.PlayerLog&Handouts/Mechanics/CLI/items/thieves-tools.md) to disarm a trap or open a lock, or take the [Use an Object](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Use%20an%20Object) action.
 
 ### Second-Story Work (Level 3)
 
@@ -68,4 +69,4 @@ By 13th level, you have learned enough about the workings of magic that you can 
 
 ### Thief's Reflexes (Level 17)
 
-When you reach 17th level, you have become adept at laying ambushes and quickly escaping danger. You can take two turns during the first round of any combat. You take your first turn at your normal initiative and your second turn at your initiative minus 10. You can't use this feature when you are [surprised](conditions.md#Surprised).
+When you reach 17th level, you have become adept at laying ambushes and quickly escaping danger. You can take two turns during the first round of any combat. You take your first turn at your normal initiative and your second turn at your initiative minus 10. You can't use this feature when you are [surprised](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Surprised).

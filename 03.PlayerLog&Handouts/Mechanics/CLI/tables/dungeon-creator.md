@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
-aliases: ["Dungeon Creator"]
+aliases:
+- Dungeon Creator
 ---
 # Dungeon Creator
 *Source: Dungeon Master's Guide p. 99* 

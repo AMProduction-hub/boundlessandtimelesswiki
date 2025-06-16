@@ -5,11 +5,15 @@ tags:
 - ttrpg-cli/compendium/src/5e/scag
 - ttrpg-cli/deity/faerunian
 - ttrpg-cli/domain/war
-aliases: ["The Red Knight", "The Lady of Strategy", "The Crimson General", "The Grandmaster of the Lanceboard"]
+aliases: 
+- The Red Knight
+- The Lady of Strategy
+- The Crimson General
+- The Grandmaster of the Lanceboard
 ---
 # The Red Knight
 *Source: Sword Coast Adventurer's Guide p. 21* 
-![](scag-symbol-of-the-red-knight.webp#symbol)
+![](03.PlayerLog&Handouts/Mechanics/CLI/deities/img/scag-symbol-of-the-red-knight.webp#symbol)
 
 - **Alternate Names**: The Lady of Strategy, The Crimson General, The Grandmaster of the Lanceboard
 - **Alignment**: Lawful Neutral

@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-deck
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
-aliases: ["Deck of Illusions"]
+aliases:
+- Deck of Illusions
 ---
 # Deck of Illusions
 *Source: Dungeon Master's Guide p. 161. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
@@ -20,38 +21,38 @@ The illusion lasts until its card is moved or the illusion is dispelled. When th
 
 | dice: 1d34 | Playing Card | Illusion |
 |------------|--------------|----------|
-| 1 | Ace of hearts | [Red dragon](adult-red-dragon.md) |
-| 2 | King of hearts | [Knight](knight.md) and four [guards](guard.md) |
-| 3 | Queen of hearts | [Succubus/Incubus](succubus.md) |
+| 1 | Ace of hearts | [Red dragon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/adult-red-dragon.md) |
+| 2 | King of hearts | [Knight](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/knight.md) and four [guards](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/guard.md) |
+| 3 | Queen of hearts | [Succubus/Incubus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/succubus.md) |
 | 4 | Jack of hearts | [Druid](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/druid.md) |
-| 5 | Ten of hearts | [Cloud giant](cloud-giant.md) |
-| 6 | Nine of hearts | [Ettin](ettin.md) |
-| 7 | Eight of hearts | [Bugbear](bugbear.md) |
-| 8 | Two of hearts | [Goblin](goblin.md) |
+| 5 | Ten of hearts | [Cloud giant](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/cloud-giant.md) |
+| 6 | Nine of hearts | [Ettin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/ettin.md) |
+| 7 | Eight of hearts | [Bugbear](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bugbear.md) |
+| 8 | Two of hearts | [Goblin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/goblin.md) |
 | 9 | Ace of diamonds | [Beholder](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/beholder.md) |
-| 10 | King of diamonds | [Archmage](archmage.md) and [mage](mage.md) apprentice |
+| 10 | King of diamonds | [Archmage](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/archmage.md) and [mage](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/mage.md) apprentice |
 | 11 | Queen of diamonds | [Night hag](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/night-hag.md) |
-| 12 | Jack of diamonds | [Assassin](assassin.md) |
-| 13 | Ten of diamonds | [Fire giant](fire-giant.md) |
-| 14 | Nine of diamonds | [Ogre mage](oni.md) |
-| 15 | Eight of diamonds | [Gnoll](gnoll.md) |
-| 16 | Two of diamonds | [Kobold](kobold.md) |
+| 12 | Jack of diamonds | [Assassin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/assassin.md) |
+| 13 | Ten of diamonds | [Fire giant](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/fire-giant.md) |
+| 14 | Nine of diamonds | [Ogre mage](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/oni.md) |
+| 15 | Eight of diamonds | [Gnoll](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/gnoll.md) |
+| 16 | Two of diamonds | [Kobold](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/kobold.md) |
 | 17 | Ace of spades | [Lich](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/lich.md) |
-| 18 | King of spades | [Priest](priest.md) and two [acolytes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/acolyte.md) |
-| 19 | Queen of spades | [Medusa](medusa.md) |
-| 20 | Jack of spades | [Veteran](veteran.md) |
-| 21 | Ten of spades | [Frost giant](frost-giant.md) |
-| 22 | Nine of spades | [Troll](troll.md) |
-| 23 | Eight of spades | [Hobgoblin](hobgoblin.md) |
-| 24 | Two of spades | [Goblin](goblin.md) |
-| 25 | Ace of clubs | [Iron golem](iron-golem.md) |
-| 26 | King of clubs | [Bandit captain](bandit-captain.md) and three [bandits](bandit.md) |
-| 27 | Queen of clubs | [Erinyes](erinyes.md) |
-| 28 | Jack of clubs | [Berserker](berserker.md) |
-| 29 | Ten of clubs | [Hill giant](hill-giant.md) |
-| 30 | Nine of clubs | [Ogre](ogre.md) |
-| 31 | Eight of clubs | [Orc](orc.md) |
-| 32 | Two of clubs | [Kobold](kobold.md) |
+| 18 | King of spades | [Priest](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/priest.md) and two [acolytes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/acolyte.md) |
+| 19 | Queen of spades | [Medusa](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/medusa.md) |
+| 20 | Jack of spades | [Veteran](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/veteran.md) |
+| 21 | Ten of spades | [Frost giant](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/frost-giant.md) |
+| 22 | Nine of spades | [Troll](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/troll.md) |
+| 23 | Eight of spades | [Hobgoblin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/hobgoblin.md) |
+| 24 | Two of spades | [Goblin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/goblin.md) |
+| 25 | Ace of clubs | [Iron golem](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/iron-golem.md) |
+| 26 | King of clubs | [Bandit captain](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bandit-captain.md) and three [bandits](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bandit.md) |
+| 27 | Queen of clubs | [Erinyes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/erinyes.md) |
+| 28 | Jack of clubs | [Berserker](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/berserker.md) |
+| 29 | Ten of clubs | [Hill giant](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/hill-giant.md) |
+| 30 | Nine of clubs | [Ogre](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/ogre.md) |
+| 31 | Eight of clubs | [Orc](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/orc.md) |
+| 32 | Two of clubs | [Kobold](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/kobold.md) |
 | 33-34 | jokers (2) | You (the deck's owner) |
 ^1-playing-card-illusion
 

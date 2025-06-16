@@ -4,11 +4,12 @@ cssclasses: json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/scag
 - ttrpg-cli/race/tiefling/winged
-aliases: ["Tiefling (Winged)"]
+aliases:
+- Tiefling (Winged)
 ---
 # Tiefling (Winged)
 *Source: Sword Coast Adventurer's Guide p. 118*  
-![](feral-tiefling.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/races/img/feral-tiefling.webp#right)
 
 - **Ability Scores**: Intelligence +1; Apply +1 to one of Dexterity or Charisma.
 - **Size**: Medium
@@ -72,4 +73,4 @@ Tiefling names fall into three broad categories. Tieflings born into another cul
 ^mutual-mistrust
 
 
-![](tiefling.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/races/img/tiefling.webp#center)

@@ -4,7 +4,8 @@ cssclasses: json5e-reward
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/reward/boon
-aliases: ["Boon of Spell Recall"]
+aliases:
+- Boon of Spell Recall
 ---
 # Boon of Spell Recall
 

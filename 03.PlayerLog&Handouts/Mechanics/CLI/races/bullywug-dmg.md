@@ -3,10 +3,11 @@ obsidianUIMode: preview
 cssclasses: json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
-- ttrpg-cli/race/bullywug/dmg
-aliases: ["Bullywug (DMG)"]
+- ttrpg-cli/race/bullywug
+aliases:
+- Bullywug
 ---
-# Bullywug (DMG)
+# Bullywug
 *Source: Dungeon Master's Guide p. 282*  
 
 

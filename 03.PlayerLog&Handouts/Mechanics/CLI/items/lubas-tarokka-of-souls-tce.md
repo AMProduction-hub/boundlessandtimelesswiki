@@ -10,29 +10,29 @@ aliases:
 ---
 # Luba's Tarokka of Souls
 *Wondrous item, artifact (requires attunement)*  
-![](lubas-tarokka-of-souls.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/lubas-tarokka-of-souls.webp#right)
 
 
 Not all lingering spirits are tragic souls, lost on their way to the hereafter. Some languish as prisoners, souls so wicked mortals dare not free them upon an unsuspecting afterlife.
 
-Created by a figure of Vistani legend, Luba's Tarokka of Souls shaped the destiny of countless heroes. The prophecies of this deck of cards also revealed great evils and guided its creator into the path of nefarious forces. Untold times the deck's creator, Mother Luba, narrowly escaped doom, spared only by her keen insights. But even for her, not all wickedness could be escaped. In the most dire cases, Mother Luba managed to ensnare beings of pure evil amid the strands of fate, imprisoning them within her tarokka deck. There these foul spirits dwell still, trapped within a nether-realm hidden amid shuffling cards, waiting for fate to turn foul—as it inevitably will.
+Created by a figure of Vistani legend, Luba's Tarokka of Souls shaped the destiny of countless heroes. The prophecies of this deck of cards also revealed great evils and guided its creator into the path of nefarious forces. Untold times the deck's creator, Mother Luba, narrowly escaped doom, spared only by her keen insights. But even for her, not all wickedness could be escaped. In the most dire cases, Mother Luba managed to ensnare beings of pure evil amid the strands of fate, imprisoning them within her [tarokka deck](03.PlayerLog&Handouts/Mechanics/CLI/decks/tarokka-deck-cos.md). There these foul spirits dwell still, trapped within a nether-realm hidden amid shuffling cards, waiting for fate to turn foul—as it inevitably will.
 
-Like all tarokka decks, the *Tarokka of Souls* is a lavishly illustrated collection of fifty-four cards, comprising the fourteen cards of the high deck and forty other cards divided into four suits: coins, glyphs, stars, and swords.
+Like all [tarokka decks](03.PlayerLog&Handouts/Mechanics/CLI/decks/tarokka-deck-cos.md), the *Tarokka of Souls* is a lavishly illustrated collection of fifty-four cards, comprising the fourteen cards of the high deck and forty other cards divided into four suits: coins, glyphs, stars, and swords.
 
 ## Random Properties
 
 The artifact has the following random properties, which you can determine by rolling on the tables in the "Artifacts" section of the "Dungeon Master's Guide":
 
-- 2 [minor detrimental](artifact-properties-minor-detrimental-properties.md) properties  
-- 2 [minor beneficial](artifact-properties-minor-beneficial-properties.md) properties  
+- 2 [minor detrimental](03.PlayerLog&Handouts/Mechanics/CLI/tables/artifact-properties-minor-detrimental-properties.md) properties  
+- 2 [minor beneficial](03.PlayerLog&Handouts/Mechanics/CLI/tables/artifact-properties-minor-beneficial-properties.md) properties  
 
 ## Spells
 
-While holding the deck, you can use an action to cast one of the following spells (save DC 18) from it: [comprehend languages](comprehend-languages.md), [detect evil and good](detect-evil-and-good.md), [detect magic](detect-magic.md), [detect poison and disease](detect-poison-and-disease.md), [locate object](locate-object.md), or [scrying](scrying.md). Once you use the deck to cast a spell, you can't cast that spell again from it until the next dawn.
+While holding the deck, you can use an action to cast one of the following spells (save DC 18) from it: [comprehend languages](03.PlayerLog&Handouts/Mechanics/CLI/spells/comprehend-languages.md), [detect evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-evil-and-good.md), [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md), [detect poison and disease](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-poison-and-disease.md), [locate object](03.PlayerLog&Handouts/Mechanics/CLI/spells/locate-object.md), or [scrying](03.PlayerLog&Handouts/Mechanics/CLI/spells/scrying.md). Once you use the deck to cast a spell, you can't cast that spell again from it until the next dawn.
 
 ## Enduring Vision
 
-While holding the deck, you automatically succeed on Constitution saving throws made to maintain your [concentration](conditions.md#Concentration) on divination spells.
+While holding the deck, you automatically succeed on Constitution saving throws made to maintain your [concentration](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Concentration) on divination spells.
 
 ## Twist of Fate
 
@@ -53,20 +53,20 @@ Whenever you use the Twist of Fate property, there is a chance that one of the s
 
 | dice: d100 | Card | Soul |
 |------------|------|------|
-| 1 | Artifact | [Flameskull](flameskull.md) |
-| 2 | Beast | [Wraith](wraith.md) |
-| 3 | Broken | [Banshee](banshee.md) |
+| 1 | Artifact | [Flameskull](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/flameskull.md) |
+| 2 | Beast | [Wraith](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/wraith.md) |
+| 3 | Broken | [Banshee](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/banshee.md) |
 | 4 | Darklord | [Vampire](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/vampire.md) |
-| 5 | Donjon | [Mummy](mummy.md) |
-| 6 | Executioner | [Death knight](death-knight.md) |
-| 7 | Ghost | [Ghost](ghost.md) |
+| 5 | Donjon | [Mummy](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/mummy.md) |
+| 6 | Executioner | [Death knight](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/death-knight.md) |
+| 7 | Ghost | [Ghost](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/ghost.md) |
 | 8 | Horseman | [Mummy lord](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/mummy-lord.md) |
-| 9 | Innocent | [Ghost](ghost.md) |
-| 10 | Marionette | [Mummy](mummy.md) |
-| 11 | Mists | [Wraith](wraith.md) |
-| 12 | Raven | [Vampire spawn](vampire-spawn.md) |
+| 9 | Innocent | [Ghost](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/ghost.md) |
+| 10 | Marionette | [Mummy](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/mummy.md) |
+| 11 | Mists | [Wraith](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/wraith.md) |
+| 12 | Raven | [Vampire spawn](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/vampire-spawn.md) |
 | 13 | Seer | [Vampire](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/vampire.md) |
-| 14 | Tempter | [Vampire spawn](vampire-spawn.md) |
+| 14 | Tempter | [Vampire spawn](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/vampire-spawn.md) |
 | 15-100 | — | — |
 ^souls-of-the-tarokka
 
@@ -78,7 +78,7 @@ If you go 7 days without using the Twist of Fate property, your attunement to Lu
 
 ## Destroying the Deck
 
-Luba's Tarokka of Souls can be destroyed only if all fourteen souls within are released and destroyed. This reveals a fifteenth soul, a [lich](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/lich.md), that inhabits the Nether card, which appears only when the fourteen souls are defeated. If this ancient entity is destroyed, the Nether card vanishes and the deck becomes a normal tarokka deck, with no special properties, but it includes a new card of the DM's design.
+Luba's Tarokka of Souls can be destroyed only if all fourteen souls within are released and destroyed. This reveals a fifteenth soul, a [lich](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/lich.md), that inhabits the Nether card, which appears only when the fourteen souls are defeated. If this ancient entity is destroyed, the Nether card vanishes and the deck becomes a normal [tarokka deck](03.PlayerLog&Handouts/Mechanics/CLI/decks/tarokka-deck-cos.md), with no special properties, but it includes a new card of the DM's design.
 
 ### Mother Luba and the Vistani
 

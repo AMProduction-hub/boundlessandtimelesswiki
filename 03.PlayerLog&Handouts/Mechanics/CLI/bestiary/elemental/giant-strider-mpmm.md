@@ -10,9 +10,11 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/elemental
 statblock: inline
-aliases: ["Giant Strider"]
+statblock-link: "#^statblock"
+aliases:
+- Giant Strider
 ---
-# [Giant Strider](03 - Player Log & Handouts\Mechanics\CLI\bestiary\elemental/giant-strider-mpmm.md)
+# [Giant Strider](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\elemental/giant-strider-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 137, Volo's Guide to Monsters p. 143*  
 
 > [!quote] A quote from Mordenkainen  
@@ -36,37 +38,38 @@ Firenewts prize giant striders and seek to adopt them whenever possible. They pr
 "ac_class": "natural armor"
 "hp": !!int "22"
 "hit_dice": "3d10 + 6"
+"modifier": !!int "1"
 "stats":
-- !!int "18"
-- !!int "13"
-- !!int "14"
-- !!int "4"
-- !!int "12"
-- !!int "6"
+  - !!int "18"
+  - !!int "13"
+  - !!int "14"
+  - !!int "4"
+  - !!int "12"
+  - !!int "6"
 "speed": "50 ft."
 "damage_immunities": "fire"
 "senses": "passive Perception 11"
 "languages": ""
 "cr": "1"
 "traits":
-- "desc": "Whenever the giant strider is subjected to fire damage, it takes no damage\
-    \ and regains a number of hit points equal to half the fire damage dealt."
-  "name": "Fire Absorption"
+  - "desc": "Whenever the giant strider is subjected to fire damage, it takes no damage\
+      \ and regains a number of hit points equal to half the fire damage dealt."
+    "name": "Fire Absorption"
 "actions":
-- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8\
-    \ + 4) piercing damage."
-  "name": "Bite"
-- "desc": "The giant strider hurls a gout of flame at a point it can see within 60\
-    \ feet of it. Each creature in a 10-foot-radius sphere centered on that point\
-    \ must make a DC 12 Dexterity saving throw, taking 14 (4d6) fire damage on a\
-    \ failed save, or half as much damage on a successful one. The fire spreads around\
-    \ corners, and it ignites flammable objects in that area that aren't being worn\
-    \ or carried"
-  "name": "Fire Burst (Recharge 5-6)"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8\
+      \ (1d8 + 4) piercing damage."
+    "name": "Bite"
+  - "desc": "The giant strider hurls a gout of flame at a point it can see within\
+      \ 60 feet of it. Each creature in a 10-foot-radius sphere centered on that point\
+      \ must make a DC 12 Dexterity saving throw, taking 14 (4d6) fire damage on\
+      \ a failed save, or half as much damage on a successful one. The fire spreads\
+      \ around corners, and it ignites flammable objects in that area that aren't\
+      \ being worn or carried"
+    "name": "Fire Burst (Recharge 5-6)"
 "source":
-- "MPMM"
-- "VGM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/elemental/token/giant-strider-mpmm.webp"
+  - "MPMM"
+  - "VGM"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/token/giant-strider-mpmm.webp"
 ```
 ^statblock
 

@@ -4,11 +4,12 @@ cssclasses: json5e-feat
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/feat
-aliases: ["Mounted Combatant"]
+aliases:
+- Mounted Combatant
 ---
 # Mounted Combatant
 *Source: Player's Handbook p. 168*  
-You are a dangerous foe to face while "mounted". While you are mounted and aren't [incapacitated](conditions.md#Incapacitated), you gain the following benefits:
+You are a dangerous foe to face while "mounted". While you are mounted and aren't [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated), you gain the following benefits:
 
 - You have advantage on melee attack rolls against any unmounted creature that is smaller than your mount.  
 - You can force an attack targeted at your mount to target you instead.  

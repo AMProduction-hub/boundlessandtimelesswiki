@@ -6,7 +6,8 @@ tags:
 - ttrpg-cli/deity/drow
 - ttrpg-cli/domain/nature
 - ttrpg-cli/domain/trickery
-aliases: ["Keptolo"]
+aliases: 
+- Keptolo
 ---
 # Keptolo
 *Source: Mordenkainen's Tome of Foes p. 54* 

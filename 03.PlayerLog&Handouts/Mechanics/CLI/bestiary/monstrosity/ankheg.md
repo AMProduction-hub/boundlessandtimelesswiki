@@ -9,10 +9,12 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/monstrosity
 statblock: inline
-aliases: ["Ankheg"]
+statblock-link: "#^statblock"
+aliases:
+- Ankheg
 ---
-# [Ankheg](03 - Player Log & Handouts\Mechanics\CLI\bestiary\monstrosity/ankheg.md)
-*Source: Monster Manual p. 21, Baldur's Gate: Descent Into Avernus. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Ankheg](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/ankheg.md)
+*Source: Monster Manual p. 21, Princes of the Apocalypse, Waterdeep: Dragon Heist, Ghosts of Saltmarsh, Dragon of Icespire Peak, Baldur's Gate: Descent Into Avernus, Journeys through the Radiant Citadel, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 An ankheg resembles an enormous many-legged insect, its long antennae twitching in response to any movement around it. Its legs end in sharp hooks adapted for burrowing and grasping its prey, and its powerful mandibles can snap a small tree in half.
 
@@ -37,34 +39,41 @@ As it burrows through earth, the ankheg leaves a narrow, partially collapsed tun
 "ac_class": "natural armor; 11 while prone"
 "hp": !!int "39"
 "hit_dice": "6d10 + 6"
+"modifier": !!int "0"
 "stats":
-- !!int "17"
-- !!int "11"
-- !!int "13"
-- !!int "1"
-- !!int "13"
-- !!int "6"
+  - !!int "17"
+  - !!int "11"
+  - !!int "13"
+  - !!int "1"
+  - !!int "13"
+  - !!int "6"
 "speed": "30 ft., burrow 10 ft."
 "senses": "darkvision 60 ft., tremorsense 60 ft., passive Perception 11"
 "languages": ""
 "cr": "2"
 "actions":
-- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10\
-    \ (2d6 + 3) slashing damage plus 3 (1d6) acid damage. If the target is a Large\
-    \ or smaller creature, it is [grappled](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
-    \ (escape DC 13). Until this grapple ends, the ankheg can bite only the [grappled](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
-    \ creature and has advantage on attack rolls to do so."
-  "name": "Bite"
-- "desc": "The ankheg spits acid in a line that is 30 feet long and 5 feet wide, provided\
-    \ that it has no creature [grappled](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Grappled).\
-    \ Each creature in that line must make a DC 13 Dexterity saving throw, taking\
-    \ 10 (3d6) acid damage on a failed save, or half as much damage on a successful\
-    \ one."
-  "name": "Acid Spray (Recharge 6)"
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10\
+      \ (2d6 + 3) slashing damage plus 3 (d6) acid damage. If the target is a\
+      \ Large or smaller creature, it is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
+      \ (escape DC 13). Until this grapple ends, the ankheg can bite only the [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
+      \ creature and has advantage on attack rolls to do so."
+    "name": "Bite"
+  - "desc": "The ankheg spits acid in a line that is 30 feet long and 5 feet wide,\
+      \ provided that it has no creature [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled).\
+      \ Each creature in that line must make a DC 13 Dexterity saving throw, taking\
+      \ 10 (3d6) acid damage on a failed save, or half as much damage on a successful\
+      \ one."
+    "name": "Acid Spray (Recharge 6)"
 "source":
-- "MM"
-- "BGDIA"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/monstrosity/token/ankheg.webp"
+  - "MM"
+  - "PotA"
+  - "WDH"
+  - "GoS"
+  - "DIP"
+  - "BGDIA"
+  - "JttRC"
+  - "KftGV"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/token/ankheg.webp"
 ```
 ^statblock
 

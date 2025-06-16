@@ -19,11 +19,11 @@ While wearing this ring, you have advantage on attack rolls against elementals f
 
 The ring has 5 charges. It regains `1d4 + 1` expended charges daily at dawn. Spells cast from the ring have a save DC of 17.
 
-You can expend 2 of the ring's charges to cast [dominate monster](dominate-monster.md) on a [fire elemental](fire-elemental.md). In addition, you have resistance to fire damage. You can also speak and understand Ignan.
+You can expend 2 of the ring's charges to cast [dominate monster](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-monster.md) on a [fire elemental](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/fire-elemental.md). In addition, you have resistance to fire damage. You can also speak and understand Ignan.
 
-If you help slay a [fire elemental](fire-elemental.md) while attuned to the ring, you gain access to the following additional properties:
+If you help slay a [fire elemental](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/fire-elemental.md) while attuned to the ring, you gain access to the following additional properties:
 
 - You are immune to fire damage.  
-- You can cast the following spells from the ring, expending the necessary number of charges: [burning hands](burning-hands.md) (1 charge), [fireball](fireball.md) (2 charges), and [wall of fire](wall-of-fire.md) (3 charges).  
+- You can cast the following spells from the ring, expending the necessary number of charges: [burning hands](03.PlayerLog&Handouts/Mechanics/CLI/spells/burning-hands.md) (1 charge), [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md) (2 charges), and [wall of fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-fire.md) (3 charges).  
 
 *Source: Dungeon Master's Guide p. 190. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

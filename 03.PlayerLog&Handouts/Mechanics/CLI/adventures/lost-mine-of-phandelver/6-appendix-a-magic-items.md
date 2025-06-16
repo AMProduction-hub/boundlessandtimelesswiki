@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/lmop
-aliases: ["Appendix A: Magic Items"]
+aliases:
+- Appendix A: Magic Items
 ---
 # Appendix A: Magic Items
 *Source: Lost Mine of Phandelver, p. 52* 
@@ -12,7 +13,7 @@ A magic item is a wondrous treasure that adventurers find in a monster's hoard, 
 
 ## Using a Magic Item
 
-A magic item's description explains how the item works. Handling a magic item is enough to give a character a sense that something is extraordinary about the item. Casting the [identify](identify.md) spell on the item then reveals its properties. Alternatively, a character can concentrate on the item during a short rest, while being in physical contact with the item. At the end of the rest, the character learns the item's properties. Potions are an exception; a little taste is enough to tell the taster what the potion does.
+A magic item's description explains how the item works. Handling a magic item is enough to give a character a sense that something is extraordinary about the item. Casting the [identify](03.PlayerLog&Handouts/Mechanics/CLI/spells/identify.md) spell on the item then reveals its properties. Alternatively, a character can concentrate on the item during a short rest, while being in physical contact with the item. At the end of the rest, the character learns the item's properties. Potions are an exception; a little taste is enough to tell the taster what the potion does.
 
 Certain magic items require a user to **attune** to them before their magical properties can be used. Attuning to a magic item requires that you spend a short rest concentrating on it (this can't be the same short rest used to learn an item's properties). Depending on the nature of the item, this concentration can take the form of prayers, weapon practice, or meditation. In any case, the concentration period must be uninterrupted. Once you are attuned to an item, you can use its magical properties.
 
@@ -22,16 +23,16 @@ Your attunement to an item ends when the item has been more than 100 feet away f
 
 ## Item Descriptions
 
-- [+1 Armor](1-armor.md)  
-- [+1 Weapon](1-weapon.md)  
-- [Boots of Striding and Springing](boots-of-striding-and-springing.md)  
-- [Gauntlets of Ogre Power](gauntlets-of-ogre-power.md)  
-- [Potion of Flying](potion-of-flying.md)  
-- [Potion of Healing](potion-of-healing.md)  
-- [Potion of Invisibility](potion-of-invisibility.md)  
-- [Potion of Vitality](potion-of-vitality.md)  
-- [Ring of Protection](ring-of-protection.md)  
-- [Spell Scroll](spell-scroll.md)  
-- [Spider Staff](spider-staff-lmop.md)  
-- [Staff of Defense](staff-of-defense-lmop.md)  
-- [Wand of Magic Missiles](wand-of-magic-missiles.md)
+- [+1 Armor](03.PlayerLog&Handouts/Mechanics/CLI/items/1-armor.md)  
+- [+1 Weapon](03.PlayerLog&Handouts/Mechanics/CLI/items/1-weapon.md)  
+- [Boots of Striding and Springing](03.PlayerLog&Handouts/Mechanics/CLI/items/boots-of-striding-and-springing.md)  
+- [Gauntlets of Ogre Power](03.PlayerLog&Handouts/Mechanics/CLI/items/gauntlets-of-ogre-power.md)  
+- [Potion of Flying](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-flying.md)  
+- [Potion of Healing](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-healing.md)  
+- [Potion of Invisibility](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-invisibility.md)  
+- [Potion of Vitality](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-vitality.md)  
+- [Ring of Protection](03.PlayerLog&Handouts/Mechanics/CLI/items/ring-of-protection.md)  
+- [Spell Scroll](03.PlayerLog&Handouts/Mechanics/CLI/items/spell-scroll.md)  
+- [Spider Staff](03.PlayerLog&Handouts/Mechanics/CLI/items/spider-staff-lmop.md)  
+- [Staff of Defense](03.PlayerLog&Handouts/Mechanics/CLI/items/staff-of-defense-lmop.md)  
+- [Wand of Magic Missiles](03.PlayerLog&Handouts/Mechanics/CLI/items/wand-of-magic-missiles.md)

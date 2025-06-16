@@ -5,10 +5,11 @@ tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/domain/trickery
 - ttrpg-cli/subclass/cleric/trickery
-aliases: ["Trickery Domain"]
+aliases:
+- Trickery Domain
 ---
 # Trickery Domain
-*[Cleric](cleric.md): Divine Domain*  
+*[Cleric](./cleric.md): Divine Domain*  
 *Source: Player's Handbook p. 62*  
 
 > [!tldr] Class and Feature Progression
@@ -47,7 +48,7 @@ aliases: ["Trickery Domain"]
 
 ### Trickery Domain (Level 1)
 
-Gods of trickery—such as Tymora, Beshaba, Olidammara, the Traveler, Garl Glittergold, and Loki—are mischief-makers and instigators who stand as a constant challenge to the accepted order among both gods and mortals. They're patrons of thieves, scoundrels, gamblers, rebels, and liberators. Their clerics are a disruptive force in the world, puncturing pride, mocking tyrants, stealing from the rich, freeing captives, and flouting hollow traditions. They prefer subterfuge, pranks, deception, and theft rather than direct confrontation.
+Gods of trickery—such as Tymora, Beshaba, [Olidammara](03.PlayerLog&Handouts/Mechanics/CLI/deities/greyhawk-olidammara.md), the Traveler, [Garl Glittergold](03.PlayerLog&Handouts/Mechanics/CLI/deities/nonhuman-garl-glittergold.md), and [Loki](03.PlayerLog&Handouts/Mechanics/CLI/deities/norse-loki.md)—are mischief-makers and instigators who stand as a constant challenge to the accepted order among both gods and mortals. They're patrons of thieves, scoundrels, gamblers, rebels, and liberators. Their clerics are a disruptive force in the world, puncturing pride, mocking tyrants, stealing from the rich, freeing captives, and flouting hollow traditions. They prefer subterfuge, pranks, deception, and theft rather than direct confrontation.
 
 At each indicated cleric level, you add the listed spells to your spells prepared.
 
@@ -55,11 +56,11 @@ At each indicated cleric level, you add the listed spells to your spells prepare
 
 | Cleric Level | Spells |
 |--------------|--------|
-| 1st | [charm person](charm-person.md), [disguise self](disguise-self.md) |
-| 3rd | [mirror image](mirror-image.md), [pass without trace](pass-without-trace.md) |
-| 5th | [blink](blink.md), [dispel magic](dispel-magic.md) |
-| 7th | [dimension door](dimension-door.md), [polymorph](polymorph.md) |
-| 9th | [dominate person](dominate-person.md), [modify memory](modify-memory.md) |
+| 1st | [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md), [disguise self](03.PlayerLog&Handouts/Mechanics/CLI/spells/disguise-self.md) |
+| 3rd | [mirror image](03.PlayerLog&Handouts/Mechanics/CLI/spells/mirror-image.md), [pass without trace](03.PlayerLog&Handouts/Mechanics/CLI/spells/pass-without-trace.md) |
+| 5th | [blink](03.PlayerLog&Handouts/Mechanics/CLI/spells/blink.md), [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md) |
+| 7th | [dimension door](03.PlayerLog&Handouts/Mechanics/CLI/spells/dimension-door.md), [polymorph](03.PlayerLog&Handouts/Mechanics/CLI/spells/polymorph.md) |
+| 9th | [dominate person](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-person.md), [modify memory](03.PlayerLog&Handouts/Mechanics/CLI/spells/modify-memory.md) |
 ^trickery-domain-spells
 
 ### Blessing of the Trickster (Level 1)
@@ -70,7 +71,7 @@ Starting when you choose this domain at 1st level, you can use your action to to
 
 Starting at 2nd level, you can use your Channel Divinity to create an illusory duplicate of yourself.
 
-As an action, you create a perfect illusion of yourself that lasts for 1 minute, or until you lose your [concentration](conditions.md#Concentration) (as if you were [concentrating](conditions.md#Concentration) on a spell). The illusion appears in an unoccupied space that you can see within 30 feet of you. As a bonus action on your turn, you can move the illusion up to 30 feet to a space you can see, but it must remain within 120 feet of you.
+As an action, you create a perfect illusion of yourself that lasts for 1 minute, or until you lose your [concentration](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Concentration) (as if you were [concentrating](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Concentration) on a spell). The illusion appears in an unoccupied space that you can see within 30 feet of you. As a bonus action on your turn, you can move the illusion up to 30 feet to a space you can see, but it must remain within 120 feet of you.
 
 For the duration, you can cast spells as though you were in the illusion's space, but you must use your own senses. Additionally, when both you and your illusion are within 5 feet of a creature that can see the illusion, you have advantage on attack rolls against that creature, given how distracting the illusion is to the target.
 
@@ -78,18 +79,18 @@ For the duration, you can cast spells as though you were in the illusion's space
 
 Starting at 6th level, you can use your Channel Divinity to vanish.
 
-As an action, you become [invisible](conditions.md#Invisible) until the end of your next turn. You become visible if you attack or cast a spell.
+As an action, you become [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible) until the end of your next turn. You become visible if you attack or cast a spell.
 
 ### Divine Strike (Level 8)
 
-At 8th level, you gain the ability to infuse your weapon strikes with poison—a gift from your deity. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra `1d8` poison damage to the target. When you reach 14th level, the extra damage increases to `2d8`.
+At 8th level, you gain the ability to infuse your weapon strikes with poison—a gift from your deity. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra `d8` poison damage to the target. When you reach 14th level, the extra damage increases to `2d8`.
 
 ### Blessed Strikes (Level 8)
 _Source: Tasha's Cauldron of Everything p. 30_
 
-*8th-level cleric [optional feature](optional-class-features-tce.md), which replaces the Divine Strike feature*
+*8th-level cleric [optional feature](03.PlayerLog&Handouts/Mechanics/CLI/rules/variant-rules/optional-class-features-tce.md), which replaces the Divine Strike feature*
 
-You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal `1d8` radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.
+You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal `d8` radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.
 
 ### Improved Duplicity (Level 17)
 

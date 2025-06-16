@@ -18,7 +18,8 @@ classes:
 - Sorcerer
 - Warlock
 - Wizard
-aliases: ["Cloud of Daggers"]
+aliases:
+- Cloud of Daggers
 ---
 # Cloud of Daggers
 *2nd-level, Conjuration*  
@@ -33,6 +34,6 @@ You fill the air with spinning daggers in a cube 5 feet on each side, centered o
 
 **At Higher Levels.** When you cast this spell using a spell slot of 3rd level or higher, the damage increases by `2d4` for each slot level above 2nd.
 
-**Classes**: [Rogue (Arcane Trickster)](list-spells-classes-rogue-arcane-trickster.md); [Bard](list-spells-classes-bard.md); [Wizard](list-spells-classes-wizard.md); [Fighter (Eldritch Knight)](list-spells-classes-fighter-eldritch-knight.md); [Sorcerer](list-spells-classes-sorcerer.md); [Warlock](list-spells-classes-warlock.md)
+**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md)
 
 *Source: Player's Handbook p. 222*

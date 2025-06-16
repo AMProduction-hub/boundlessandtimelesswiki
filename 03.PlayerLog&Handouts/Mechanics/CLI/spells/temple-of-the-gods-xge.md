@@ -12,7 +12,8 @@ classes:
 - Bard
 - Cleric
 - Sorcerer (Divine Soul)
-aliases: ["Temple of the Gods"]
+aliases:
+- Temple of the Gods
 ---
 # Temple of the Gods
 *7th-level, Conjuration*  
@@ -35,10 +36,10 @@ In addition, the sensors created by divination spells can't appear inside the te
 
 Finally, whenever any creature in the temple regains hit points from a spell of 1st level or higher, the creature regains additional hit points equal to your Wisdom modifier (minimum 1 hit point).
 
-The temple is made from opaque magical force that extends into the Ethereal Plane, thus blocking ethereal travel into the temple's interior. Nothing can physically pass through the temple's exterior. It can't be dispelled by [dispel magic](dispel-magic.md), and [antimagic field](antimagic-field.md) has no effect on it. A [disintegrate](disintegrate.md) spell destroys the temple instantly.
+The temple is made from opaque magical force that extends into the Ethereal Plane, thus blocking ethereal travel into the temple's interior. Nothing can physically pass through the temple's exterior. It can't be dispelled by [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md), and [antimagic field](03.PlayerLog&Handouts/Mechanics/CLI/spells/antimagic-field.md) has no effect on it. A [disintegrate](03.PlayerLog&Handouts/Mechanics/CLI/spells/disintegrate.md) spell destroys the temple instantly.
 
 Casting this spell on the same spot every day for a year makes this effect permanent.
 
-**Classes**: [Cleric](list-spells-classes-cleric.md); [Bard](list-spells-classes-bard.md); [Sorcerer (Divine Soul)](list-spells-classes-sorcerer-divine-soul-xge.md "subclass=XGE")
+**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md)
 
 *Source: Xanathar's Guide to Everything p. 167*

@@ -4,11 +4,12 @@ cssclasses: json5e-feat
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 - ttrpg-cli/feat
-aliases: ["Second Chance"]
+aliases:
+- Second Chance
 ---
 # Second Chance
 *Source: Xanathar's Guide to Everything p. 75*  
-**Prerequisite**: [Halfling](halfling.md)
+**Prerequisite**: [Halfling](03.PlayerLog&Handouts/Mechanics/CLI/races/halfling.md)
 **Ability Score Increase**: Increase your Dexterity, Constitution, or Charisma by 1, to a maximum of 20.
 Fortune favors you when someone tries to strike you. You gain the following benefits:
 

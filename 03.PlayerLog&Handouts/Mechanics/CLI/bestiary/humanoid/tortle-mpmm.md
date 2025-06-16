@@ -8,9 +8,11 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/humanoid
 statblock: inline
-aliases: ["Tortle"]
+statblock-link: "#^statblock"
+aliases:
+- Tortle
 ---
-# [Tortle](03 - Player Log & Handouts\Mechanics\CLI\bestiary\humanoid/tortle-mpmm.md)
+# [Tortle](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/tortle-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 244, Mordenkainen's Tome of Foes p. 242*  
 
 The generic tortle stat block here represents a warrior, especially the sort who travels far and wide.
@@ -30,45 +32,48 @@ Most tortles like to see how other folk live. A tortle can spend decades away fr
 "ac_class": "natural armor"
 "hp": !!int "22"
 "hit_dice": "4d8 + 4"
+"modifier": !!int "0"
 "stats":
-- !!int "15"
-- !!int "10"
-- !!int "12"
-- !!int "11"
-- !!int "13"
-- !!int "12"
+  - !!int "15"
+  - !!int "10"
+  - !!int "12"
+  - !!int "11"
+  - !!int "13"
+  - !!int "12"
 "speed": "30 ft."
 "skillsaves":
-  "Athletics": !!int "4"
-  "Survival": !!int "3"
+  - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
+    "desc": "+4"
+  - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
+    "desc": "+3"
 "senses": "passive Perception 11"
 "languages": "Aquan, Common"
 "cr": "1/4"
 "traits":
-- "desc": "The tortle can hold its breath for 1 hour."
-  "name": "Hold Breath"
+  - "desc": "The tortle can hold its breath for 1 hour."
+    "name": "Hold Breath"
 "actions":
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4\
-    \ + 2) slashing damage."
-  "name": "Claw"
-- "desc": "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60\
-    \ ft., one target. Hit: 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing\
-    \ damage if used with two hands in melee."
-  "name": "Spear"
-- "desc": "Ranged Weapon Attack: +2 to hit, range 80/320 ft., one target. Hit:\
-    \ 4 (1d8) piercing damage."
-  "name": "Light Crossbow"
-- "desc": "The tortle withdraws into its shell. Until it emerges, it gains a +4 bonus\
-    \ to AC and has advantage on Strength and Constitution saving throws. While in\
-    \ its shell, the tortle is [prone](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Prone),\
-    \ its speed is 0 and can't increase, it has disadvantage on Dexterity saving throws,\
-    \ it can't take reactions, and the only action it can take is a bonus action to\
-    \ emerge."
-  "name": "Shell Defense"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4\
+      \ (1d4 + 2) slashing damage."
+    "name": "Claw"
+  - "desc": "Melee  or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. Hit: 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing\
+      \ damage if used with two hands in melee."
+    "name": "Spear"
+  - "desc": "Ranged Weapon Attack: +2 to hit, range 80/320 ft., one target. Hit:\
+      \ 4 (d8) piercing damage."
+    "name": "Light Crossbow"
+  - "desc": "The tortle withdraws into its shell. Until it emerges, it gains a +4\
+      \ bonus to AC and has advantage on Strength and Constitution saving throws.\
+      \ While in its shell, the tortle is [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone),\
+      \ its speed is 0 and can't increase, it has disadvantage on Dexterity saving\
+      \ throws, it can't take reactions, and the only action it can take is a bonus\
+      \ action to emerge."
+    "name": "Shell Defense"
 "source":
-- "MPMM"
-- "MTF"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/humanoid/token/tortle-mpmm.webp"
+  - "MPMM"
+  - "MTF"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/tortle-mpmm.webp"
 ```
 ^statblock
 

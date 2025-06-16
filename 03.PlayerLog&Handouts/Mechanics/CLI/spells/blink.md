@@ -8,12 +8,14 @@ tags:
 - ttrpg-cli/spell/class/sorcerer
 - ttrpg-cli/spell/class/wizard
 - ttrpg-cli/spell/level/3rd-level
+- ttrpg-cli/spell/reward/thassas-votary
 - ttrpg-cli/spell/school/transmutation
 - ttrpg-cli/spell/subclass/arcane-trickster
 - ttrpg-cli/spell/subclass/eldritch-knight
 - ttrpg-cli/spell/subclass/the-archfey
 - ttrpg-cli/spell/subclass/the-hexblade
 - ttrpg-cli/spell/subclass/trickery-domain
+- ttrpg-cli/spell/subrace/human-mark-of-passage
 classes:
 - Artificer
 - Bard
@@ -24,7 +26,8 @@ classes:
 - Warlock (The Archfey)
 - Warlock (The Hexblade)
 - Wizard
-aliases: ["Blink"]
+aliases:
+- Blink
 ---
 # Blink
 *3rd-level, Transmutation*  
@@ -39,6 +42,6 @@ Roll a `d20` at the end of each of your turns for the duration of the spell. On 
 
 While on the Ethereal Plane, you can see and hear the plane you originated from, which is cast in shades of gray, and you can't see anything there more than 60 feet away. You can only affect and be affected by other creatures on the Ethereal Plane. Creatures that aren't there can't perceive you or interact with you, unless they have the ability to do so.
 
-**Classes**: [Artificer](list-spells-classes-artificer.md); [Warlock (The Archfey)](list-spells-classes-warlock-the-archfey.md); [Rogue (Arcane Trickster)](list-spells-classes-rogue-arcane-trickster.md); [Bard](list-spells-classes-bard.md); [Wizard](list-spells-classes-wizard.md); [Cleric (Trickery Domain)](list-spells-classes-cleric-trickery-domain.md); [Fighter (Eldritch Knight)](list-spells-classes-fighter-eldritch-knight.md); [Sorcerer](list-spells-classes-sorcerer.md); [Warlock (The Hexblade)](list-spells-classes-warlock-the-hexblade-xge.md "subclass=XGE")
+**Classes**: [Artificer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-artificer.md); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock (The Archfey)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-archfey.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Cleric (Trickery Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-trickery-domain.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Warlock (The Hexblade)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-hexblade-xge.md "subclass=XGE"); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md)
 
 *Source: Player's Handbook p. 219. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

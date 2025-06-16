@@ -3,6 +3,7 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
+- ttrpg-cli/spell/background/selesnya-initiate
 - ttrpg-cli/spell/class/bard
 - ttrpg-cli/spell/class/druid
 - ttrpg-cli/spell/class/ranger
@@ -12,6 +13,8 @@ tags:
 - ttrpg-cli/spell/subclass/circle-of-the-land
 - ttrpg-cli/spell/subclass/oath-of-the-ancients
 - ttrpg-cli/spell/subclass/path-of-the-totem-warrior
+- ttrpg-cli/spell/subrace/half-orc-mark-of-finding
+- ttrpg-cli/spell/subrace/human-mark-of-finding
 classes:
 - Barbarian (Path of the Totem Warrior)
 - Bard
@@ -19,7 +22,8 @@ classes:
 - Druid (Circle of the Land)
 - Paladin (Oath of the Ancients)
 - Ranger
-aliases: ["Commune with Nature"]
+aliases:
+- Commune with Nature
 ---
 # Commune with Nature
 *5th-level, Divination (ritual)*  
@@ -42,6 +46,6 @@ You instantly gain knowledge of up to three facts of your choice about any of th
 
 For example, you could determine the location of powerful undead in the area, the location of major sources of safe drinking water, and the location of any nearby towns.
 
-**Classes**: [Druid](list-spells-classes-druid.md); [Druid (Circle of the Land)](list-spells-classes-druid-circle-of-the-land.md); [Bard](list-spells-classes-bard.md); [Paladin (Oath of the Ancients)](list-spells-classes-paladin-oath-of-the-ancients.md); [Ranger](list-spells-classes-ranger.md); [Barbarian (Path of the Totem Warrior)](list-spells-classes-barbarian-path-of-the-totem-warrior.md)
+**Classes**: [Paladin (Oath of the Ancients)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-the-ancients.md); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Ranger](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-ranger.md); [Druid (Circle of the Land)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-circle-of-the-land.md); [Barbarian (Path of the Totem Warrior)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-path-of-the-totem-warrior.md)
 
 *Source: Player's Handbook p. 224. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

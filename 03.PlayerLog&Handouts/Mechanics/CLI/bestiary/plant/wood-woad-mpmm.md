@@ -8,9 +8,11 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/plant
 statblock: inline
-aliases: ["Wood Woad"]
+statblock-link: "#^statblock"
+aliases:
+- Wood Woad
 ---
-# [Wood Woad](03 - Player Log & Handouts\Mechanics\CLI\bestiary\plant/wood-woad-mpmm.md)
+# [Wood Woad](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\plant/wood-woad-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 266, Volo's Guide to Monsters p. 198*  
 
 A wood woad is a powerful bipedal Plant invested with the soul of someone who gave up life to become an everlasting guardian.
@@ -25,7 +27,7 @@ A wood woad has a hole where its heart would be, just as does the body of its fo
 
 Like trees, wood woads need only sunlight, air, and nutrients from the earth to go on living. Because they are undying, some wood woads outlive their original purpose. The site a wood woad guards might lose its power or significance over time, or those whom it was assigned to guard might die. If it is freed from its specific duties, a wood woad might roam to find another place of natural beauty or fey influence to watch over.
 
-Wood woads are drawn to creatures that have close ties to nature and that protect and respect the land, such as [druids](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/druid.md) and [treants](treant.md). Some treants have wood woad servants by virtue of age-old pacts with druids or Fey that performed the rituals, while others acquire the services of freed wood woads that find renewed purpose in serving a kindred guardian.
+Wood woads are drawn to creatures that have close ties to nature and that protect and respect the land, such as [druids](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/druid.md) and [treants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/treant.md). Some treants have wood woad servants by virtue of age-old pacts with druids or Fey that performed the rituals, while others acquire the services of freed wood woads that find renewed purpose in serving a kindred guardian.
 
 ```statblock
 "name": "Wood Woad (MPMM)"
@@ -33,52 +35,57 @@ Wood woads are drawn to creatures that have close ties to nature and that protec
 "type": "plant"
 "alignment": "Typically  Lawful Neutral"
 "ac": !!int "18"
-"ac_class": "natural armor, [shield](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/items/shield.md)"
+"ac_class": "natural armor, [shield](03.PlayerLog&Handouts/Mechanics/CLI/items/shield.md)"
 "hp": !!int "75"
 "hit_dice": "10d8 + 30"
+"modifier": !!int "1"
 "stats":
-- !!int "18"
-- !!int "12"
-- !!int "16"
-- !!int "10"
-- !!int "13"
-- !!int "8"
+  - !!int "18"
+  - !!int "12"
+  - !!int "16"
+  - !!int "10"
+  - !!int "13"
+  - !!int "8"
 "speed": "30 ft., climb 30 ft."
 "skillsaves":
-  "Athletics": !!int "7"
-  "Stealth": !!int "4"
-  "Perception": !!int "4"
+  - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
+    "desc": "+7"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+4"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+4"
 "damage_vulnerabilities": "fire"
 "damage_resistances": "bludgeoning, piercing"
-"condition_immunities": "[charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
-  \ [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
+"condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
+  \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
 "senses": "darkvision 60 ft., passive Perception 14"
 "languages": "Sylvan"
 "cr": "5"
 "traits":
-- "desc": "The wood woad has advantage on Dexterity ([Stealth](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/skills.md#Stealth))\
-    \ checks it makes in any terrain with ample obscuring vegetation."
-  "name": "Plant Camouflage"
-- "desc": "The wood woad regains 10 hit points at the start of its turn if it is in\
-    \ contact with the ground. If the wood woad takes fire damage, this trait doesn't\
-    \ function at the start of the wood woad's next turn. The wood woad dies only\
-    \ if it starts its turn with 0 hit points and doesn't regenerate."
-  "name": "Regeneration"
-- "desc": "Once on each of its turns, the wood woad can use 10 feet of its movement\
-    \ to step magically into one living tree within 5 feet of it and emerge from a\
-    \ second living tree within 60 feet of it that it can see, appearing in an unoccupied\
-    \ space within 5 feet of the second tree. Both trees must be Large or bigger."
-  "name": "Tree Stride"
+  - "desc": "The wood woad has advantage on Dexterity ([Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth))\
+      \ checks it makes in any terrain with ample obscuring vegetation."
+    "name": "Plant Camouflage"
+  - "desc": "The wood woad regains 10 hit points at the start of its turn if it is\
+      \ in contact with the ground. If the wood woad takes fire damage, this trait\
+      \ doesn't function at the start of the wood woad's next turn. The wood woad\
+      \ dies only if it starts its turn with 0 hit points and doesn't regenerate."
+    "name": "Regeneration"
+  - "desc": "Once on each of its turns, the wood woad can use 10 feet of its movement\
+      \ to step magically into one living tree within 5 feet of it and emerge from\
+      \ a second living tree within 60 feet of it that it can see, appearing in an\
+      \ unoccupied space within 5 feet of the second tree. Both trees must be Large\
+      \ or bigger."
+    "name": "Tree Stride"
 "actions":
-- "desc": "The wood woad makes two Club attacks."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14\
-    \ (4d4 + 4) force damage."
-  "name": "Club"
+  - "desc": "The wood woad makes two Club attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14\
+      \ (4d4 + 4) force damage."
+    "name": "Club"
 "source":
-- "MPMM"
-- "VGM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/plant/token/wood-woad-mpmm.webp"
+  - "MPMM"
+  - "VGM"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/token/wood-woad-mpmm.webp"
 ```
 ^statblock
 

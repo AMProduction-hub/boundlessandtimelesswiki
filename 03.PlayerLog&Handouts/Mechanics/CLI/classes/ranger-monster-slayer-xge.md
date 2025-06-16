@@ -4,10 +4,11 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 - ttrpg-cli/subclass/ranger/monster-slayer
-aliases: ["Monster Slayer"]
+aliases:
+- Monster Slayer
 ---
 # Monster Slayer
-*[Ranger](03.PlayerLog&Handouts/Mechanics/CLI/classes/ranger.md): Ranger Archetype*  
+*[Ranger](./ranger.md): Ranger Archetype*  
 *Source: Xanathar's Guide to Everything p. 43*  
 
 > [!tldr] Class and Feature Progression
@@ -56,11 +57,11 @@ Starting at 3rd level, you learn an additional spell when you reach certain leve
 
 | Ranger Level | Spells |
 |--------------|--------|
-| 3rd | [protection from evil and good](protection-from-evil-and-good.md) |
-| 5th | [zone of truth](zone-of-truth.md) |
-| 9th | [magic circle](magic-circle.md) |
-| 13th | [banishment](banishment.md) |
-| 17th | [hold monster](hold-monster.md) |
+| 3rd | [protection from evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/protection-from-evil-and-good.md) |
+| 5th | [zone of truth](03.PlayerLog&Handouts/Mechanics/CLI/spells/zone-of-truth.md) |
+| 9th | [magic circle](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-circle.md) |
+| 13th | [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md) |
+| 17th | [hold monster](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-monster.md) |
 ^monster-slayer-spells
 
 ### Hunter's Sense (Level 3)
@@ -71,13 +72,13 @@ You can use this feature a number of times equal to your Wisdom modifier (minimu
 
 ### Slayer's Prey (Level 3)
 
-Starting at 3rd level, you can focus your ire on one foe, increasing the harm you inflict on it. As a bonus action, you designate one creature you can see within 60 feet of you as the target of this feature. The first time each turn that you hit that target with a weapon attack, it takes an extra `1d6` damage from the weapon.
+Starting at 3rd level, you can focus your ire on one foe, increasing the harm you inflict on it. As a bonus action, you designate one creature you can see within 60 feet of you as the target of this feature. The first time each turn that you hit that target with a weapon attack, it takes an extra `d6` damage from the weapon.
 
 This benefit lasts until you finish a short or long rest. It ends early if you designate a different creature.
 
 ### Supernatural Defense (Level 7)
 
-At 7th level, you gain extra resilience against your prey's assaults on your mind and body. Whenever the target of your Slayer's Prey forces you to make a saving throw and whenever you make an ability check to escape that target's grapple, add `1d6` to your roll.
+At 7th level, you gain extra resilience against your prey's assaults on your mind and body. Whenever the target of your Slayer's Prey forces you to make a saving throw and whenever you make an ability check to escape that target's grapple, add `d6` to your roll.
 
 ### Magic-User's Nemesis (Level 11)
 

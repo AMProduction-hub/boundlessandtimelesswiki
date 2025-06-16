@@ -4,10 +4,11 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/subclass/rogue/arcane-trickster
-aliases: ["Arcane Trickster"]
+aliases:
+- Arcane Trickster
 ---
 # Arcane Trickster
-*[Rogue](03.PlayerLog&Handouts/Mechanics/CLI/classes/rogue.md): Roguish Archetype*  
+*[Rogue](./rogue.md): Roguish Archetype*  
 *Source: Player's Handbook p. 97*  
 
 > [!tldr] Class and Feature Progression
@@ -54,13 +55,13 @@ When you reach 3rd level, you gain the ability to cast spells. See "chapter 10" 
 
 #### Cantrips
 
-You learn three cantrips: [mage hand](mage-hand.md) and two other cantrips of your choice from the wizard spell list. You learn another wizard cantrip of your choice at 10th level.
+You learn three cantrips: [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md) and two other cantrips of your choice from the wizard spell list. You learn another wizard cantrip of your choice at 10th level.
 
 #### Spell Slots
 
 The Arcane Trickster Spellcasting table shows how many spell slots you have to cast your wizard spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
 
-For example, if you know the 1st-level spell [charm person](charm-person.md) and have a 1st-level and a 2nd-level spell slot available, you can cast [charm person](charm-person.md) using either slot.
+For example, if you know the 1st-level spell [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md) and have a 1st-level and a 2nd-level spell slot available, you can cast [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md) using either slot.
 
 #### Spells Known of 1st-Level and Higher
 
@@ -76,17 +77,17 @@ Whenever you gain a level in this class, you can replace one of the wizard spell
 
 Intelligence is your spellcasting ability for your wizard spells, since you learn your spells through dedicated study and memorization. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.
 
-<span class='abilityDc'>**Spell save DC**: 8 + your proficiency bonus + your Intelligence modifier</span>
+<span class='abilityDc'>**Spell save DC**: your proficiency bonus + your Intelligence</span>
 
-<span class='abilityAttackMod'>**Spell attack modifier**: your proficiency bonus + your Intelligence modifier</span>
+<span class='abilityAttackMod'>**Spell attack modifier**: your proficiency bonus + your Intelligence</span>
 
 ### Mage Hand Legerdemain (Level 3)
 
-Starting at 3rd level, when you cast [mage hand](mage-hand.md), you can make the spectral hand [invisible](conditions.md#Invisible), and you can perform the following additional tasks with it:
+Starting at 3rd level, when you cast [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), you can make the spectral hand [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible), and you can perform the following additional tasks with it:
 
 - You can stow one object the hand is holding in a container worn or carried by another creature.  
 - You can retrieve an object in a container worn or carried by another creature.  
-- You can use [thieves' tools](thieves-tools.md) to pick locks and disarm traps at range.  
+- You can use [thieves' tools](03.PlayerLog&Handouts/Mechanics/CLI/items/thieves-tools.md) to pick locks and disarm traps at range.  
 
 You can perform one of these tasks without being noticed by a creature if you succeed on a Dexterity ([Sleight of Hand](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Sleight%20of%20Hand)) check contested by the creature's Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) check.
 
@@ -98,7 +99,7 @@ Starting at 9th level, if you are hidden from a creature when you cast a spell o
 
 ### Versatile Trickster (Level 13)
 
-At 13th level, you gain the ability to distract targets with your [mage hand](mage-hand.md). As a bonus action on your turn, you can designate a creature within 5 feet of the spectral hand created by the spell. Doing so gives you advantage on attack rolls against that creature until the end of the turn.
+At 13th level, you gain the ability to distract targets with your [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md). As a bonus action on your turn, you can designate a creature within 5 feet of the spectral hand created by the spell. Doing so gives you advantage on attack rolls against that creature until the end of the turn.
 
 ### Spell Thief (Level 17)
 

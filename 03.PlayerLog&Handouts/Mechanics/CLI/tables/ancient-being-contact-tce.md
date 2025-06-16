@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/tce
-aliases: ["Ancient Being Contact"]
+aliases:
+- Ancient Being Contact
 ---
 # Ancient Being Contact
 *Source: Tasha's Cauldron of Everything p. 87* 

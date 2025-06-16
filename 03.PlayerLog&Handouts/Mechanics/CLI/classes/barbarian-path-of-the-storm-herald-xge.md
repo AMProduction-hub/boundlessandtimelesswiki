@@ -4,10 +4,11 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 - ttrpg-cli/subclass/barbarian/storm-herald
-aliases: ["Path of the Storm Herald"]
+aliases:
+- Path of the Storm Herald
 ---
 # Path of the Storm Herald
-*[Barbarian](barbarian.md): Primal Path*  
+*[Barbarian](./barbarian.md): Primal Path*  
 *Source: Xanathar's Guide to Everything p. 10*  
 
 > [!tldr] Class and Feature Progression
@@ -42,6 +43,10 @@ aliases: ["Path of the Storm Herald"]
 ^class-progression
 
 
+> [!quote] A quote from Xanathar  
+> 
+> You know one of the great benefits of living underground? No weather. Don't mess this up for me.
+
 ## Class Features
 
 ### Path of the Storm Herald (Level 3)
@@ -64,7 +69,7 @@ If your aura's effects require a saving throw, the DC equals 8 + your proficienc
 
 - **Sea**  
 
-    When this effect is activated, you can choose one other creature you can see in your aura. The target must make a Dexterity saving throw. The target takes `1d6` lightning damage on a failed save, or half as much damage on a successful one. The damage increases when you reach certain levels in this class, increasing to `2d6` at 10th level, `3d6` at 15th level, and `4d6` at 20th level.  
+    When this effect is activated, you can choose one other creature you can see in your aura. The target must make a Dexterity saving throw. The target takes `d6` lightning damage on a failed save, or half as much damage on a successful one. The damage increases when you reach certain levels in this class, increasing to `2d6` at 10th level, `3d6` at 15th level, and `4d6` at 20th level.  
 
 - **Tundra**  
 
@@ -100,7 +105,7 @@ At 14th level, the power of the storm you channel grows mightier, lashing out at
 
 - **Sea**  
 
-    When you hit a creature in your aura with an attack, you can use your reaction to force that creature to make a Strength saving throw. On a failed save, the creature is knocked [prone](conditions.md#Prone), as if struck by a wave.  
+    When you hit a creature in your aura with an attack, you can use your reaction to force that creature to make a Strength saving throw. On a failed save, the creature is knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), as if struck by a wave.  
 
 - **Tundra**  
 

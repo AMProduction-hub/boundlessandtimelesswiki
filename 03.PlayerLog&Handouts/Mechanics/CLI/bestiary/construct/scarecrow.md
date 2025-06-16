@@ -8,10 +8,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/construct
 statblock: inline
-aliases: ["Scarecrow"]
+statblock-link: "#^statblock"
+aliases:
+- Scarecrow
 ---
-# [Scarecrow](03 - Player Log & Handouts\Mechanics\CLI\bestiary\construct/scarecrow.md)
-*Source: Monster Manual p. 268*  
+# [Scarecrow](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/scarecrow.md)
+*Source: Monster Manual p. 268, Curse of Strahd, Waterdeep: Dragon Heist, Candlekeep Mysteries, Keys from the Golden Vault*  
 
 At harvest time, when death revisits the twilit world and summer's blossoms bow their withered heads, eerie scarecrows loom in silent vigil over empty fields. With immortal patience, these stoic sentinels hold their posts through wind, storm, and flood, bound to their master's command, eager to terrify prey with its sackcloth visage and rend victims with its razor-sharp claws.
 
@@ -27,47 +29,52 @@ A scarecrow is animated by the bound spirit of a slain evil creature, granting i
 "ac": !!int "11"
 "hp": !!int "36"
 "hit_dice": "8d8"
+"modifier": !!int "1"
 "stats":
-- !!int "11"
-- !!int "13"
-- !!int "11"
-- !!int "10"
-- !!int "10"
-- !!int "13"
+  - !!int "11"
+  - !!int "13"
+  - !!int "11"
+  - !!int "10"
+  - !!int "10"
+  - !!int "13"
 "speed": "30 ft."
 "damage_vulnerabilities": "fire"
 "damage_resistances": "bludgeoning, piercing, slashing from nonmagical attacks"
 "damage_immunities": "poison"
-"condition_immunities": "[charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
-  \ [exhaustion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
-  \ [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
-  \ [paralyzed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
-  \ [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
-  \ [unconscious](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)"
+"condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
+  \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
+  \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
+  \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
+  \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
+  \ [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)"
 "senses": "darkvision 60 ft., passive Perception 10"
 "languages": "understands the languages of its creator but can't speak"
 "cr": "1"
 "traits":
-- "desc": "While the scarecrow remains motionless, it is indistinguishable from an\
-    \ ordinary, inanimate scarecrow."
-  "name": "False Appearance"
+  - "desc": "While the scarecrow remains motionless, it is indistinguishable from\
+      \ an ordinary, inanimate scarecrow."
+    "name": "False Appearance"
 "actions":
-- "desc": "The scarecrow makes two claw attacks."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (2d4\
-    \ + 1) slashing damage. If the target is a creature, it must succeed on a DC\
-    \ 11 Wisdom saving throw or be [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened)\
-    \ until the end of the scarecrow's next turn."
-  "name": "Claw"
-- "desc": "The scarecrow targets one creature it can see within 30 feet of it. If\
-    \ the target can see the scarecrow, the target must succeed on a DC 11 Wisdom\
-    \ saving throw or be magically [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened)\
-    \ until the end of the scarecrow's next turn. The [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened)\
-    \ target is [paralyzed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed)."
-  "name": "Terrifying Glare"
+  - "desc": "The scarecrow makes two claw attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6\
+      \ (2d4 + 1) slashing damage. If the target is a creature, it must succeed\
+      \ on a DC 11 Wisdom saving throw or be [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)\
+      \ until the end of the scarecrow's next turn."
+    "name": "Claw"
+  - "desc": "The scarecrow targets one creature it can see within 30 feet of it. If\
+      \ the target can see the scarecrow, the target must succeed on a DC 11 Wisdom\
+      \ saving throw or be magically [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)\
+      \ until the end of the scarecrow's next turn. The [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)\
+      \ target is [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed)."
+    "name": "Terrifying Glare"
 "source":
-- "MM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/construct/token/scarecrow.webp"
+  - "MM"
+  - "CoS"
+  - "WDH"
+  - "CM"
+  - "KftGV"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/token/scarecrow.webp"
 ```
 ^statblock
 

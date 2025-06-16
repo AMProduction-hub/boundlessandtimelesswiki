@@ -4,11 +4,12 @@ cssclasses: json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/race/goliath
-aliases: ["Goliath"]
+aliases:
+- Goliath
 ---
 # Goliath
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 21*  
-![](goliath.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/races/img/goliath.webp#right)
 
 - **Ability Scores**: Choose one of: (a) Choose any +2, choose any other +1; (b) Choose any +1, choose any other +1, choose any other +1
 - **Size**: Medium

@@ -3,17 +3,21 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
+- ttrpg-cli/spell/background/selesnya-initiate
 - ttrpg-cli/spell/class/bard
 - ttrpg-cli/spell/class/druid
 - ttrpg-cli/spell/class/ranger
+- ttrpg-cli/spell/feat/adept-of-the-black-robes
 - ttrpg-cli/spell/level/2nd-level
 - ttrpg-cli/spell/ritual
 - ttrpg-cli/spell/school/enchantment
+- ttrpg-cli/spell/subrace/gnome-mark-of-scribing
 classes:
 - Bard
 - Druid
 - Ranger
-aliases: ["Animal Messenger"]
+aliases:
+- Animal Messenger
 ---
 # Animal Messenger
 *2nd-level, Enchantment (ritual)*  
@@ -30,6 +34,6 @@ When the messenger arrives, it delivers your message to the creature that you de
 
 **At Higher Levels.** If you cast this spell using a spell slot of 3rd level or higher, the duration of the spell increases by 48 hours for each slot level above 2nd.
 
-**Classes**: [Druid](list-spells-classes-druid.md); [Bard](list-spells-classes-bard.md); [Ranger](list-spells-classes-ranger.md)
+**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Ranger](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-ranger.md)
 
 *Source: Player's Handbook p. 212. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

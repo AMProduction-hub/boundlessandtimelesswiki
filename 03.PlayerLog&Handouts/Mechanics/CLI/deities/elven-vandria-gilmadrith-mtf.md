@@ -6,7 +6,8 @@ tags:
 - ttrpg-cli/deity/elven
 - ttrpg-cli/domain/grave
 - ttrpg-cli/domain/war
-aliases: ["Vandria Gilmadrith"]
+aliases: 
+- Vandria Gilmadrith
 ---
 # Vandria Gilmadrith
 *Source: Mordenkainen's Tome of Foes p. 43* 

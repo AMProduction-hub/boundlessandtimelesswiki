@@ -8,10 +8,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/humanoid/quaggoth
 statblock: inline
-aliases: ["Quaggoth"]
+statblock-link: "#^statblock"
+aliases:
+- Quaggoth
 ---
-# [Quaggoth](03 - Player Log & Handouts\Mechanics\CLI\bestiary\humanoid/quaggoth.md)
-*Source: Monster Manual p. 256, Light of Xaryxis*  
+# [Quaggoth](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/quaggoth.md)
+*Source: Monster Manual p. 256, Waterdeep: Dungeon of the Mad Mage, Icewind Dale: Rime of the Frostmaiden, Light of Xaryxis*  
 
 Savage and territorial, quaggoths climb the chasms of the Underdark. They maul their foes in a frenzy, becoming even more murderous in the face of death.
 
@@ -45,36 +47,40 @@ Generations of hunting venomous subterranean creatures and perpetual exposure to
 "ac_class": "natural armor"
 "hp": !!int "45"
 "hit_dice": "6d8 + 18"
+"modifier": !!int "1"
 "stats":
-- !!int "17"
-- !!int "12"
-- !!int "16"
-- !!int "6"
-- !!int "12"
-- !!int "7"
+  - !!int "17"
+  - !!int "12"
+  - !!int "16"
+  - !!int "6"
+  - !!int "12"
+  - !!int "7"
 "speed": "30 ft., climb 30 ft."
 "skillsaves":
-  "Athletics": !!int "5"
+  - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
+    "desc": "+5"
 "damage_immunities": "poison"
-"condition_immunities": "[poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "darkvision 120 ft., passive Perception 11"
 "languages": "Undercommon"
 "cr": "2"
 "traits":
-- "desc": "While it has 10 hit points or fewer, the quaggoth has advantage on attack\
-    \ rolls. In addition, it deals an extra 7 (2d6) damage to any target it hits\
-    \ with a melee attack."
-  "name": "Wounded Fury"
+  - "desc": "While it has 10 hit points or fewer, the quaggoth has advantage on attack\
+      \ rolls. In addition, it deals an extra 7 (2d6) damage to any target it hits\
+      \ with a melee attack."
+    "name": "Wounded Fury"
 "actions":
-- "desc": "The quaggoth makes two claw attacks."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6\
-    \ + 3) slashing damage."
-  "name": "Claw"
+  - "desc": "The quaggoth makes two claw attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+      \ (1d6 + 3) slashing damage."
+    "name": "Claw"
 "source":
-- "MM"
-- "LoX"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/humanoid/token/quaggoth.webp"
+  - "MM"
+  - "WDMM"
+  - "IDRotF"
+  - "LoX"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/quaggoth.webp"
 ```
 ^statblock
 

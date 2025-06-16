@@ -4,10 +4,11 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/subclass/paladin/vengeance
-aliases: ["Oath of Vengeance"]
+aliases:
+- Oath of Vengeance
 ---
 # Oath of Vengeance
-*[Paladin](paladin.md): Sacred Oath*  
+*[Paladin](./paladin.md): Sacred Oath*  
 *Source: Player's Handbook p. 87*  
 
 > [!tldr] Class and Feature Progression
@@ -76,11 +77,11 @@ You gain oath spells at the paladin levels listed.
 
 | Paladin Level | Spells |
 |---------------|--------|
-| 3rd | [bane](bane.md), [hunter's mark](hunters-mark.md) |
-| 5th | [hold person](hold-person.md), [misty step](misty-step.md) |
-| 9th | [haste](haste.md), [protection from energy](protection-from-energy.md) |
-| 13th | [banishment](banishment.md), [dimension door](dimension-door.md) |
-| 17th | [hold monster](hold-monster.md), [scrying](scrying.md) |
+| 3rd | [bane](03.PlayerLog&Handouts/Mechanics/CLI/spells/bane.md), [hunter's mark](03.PlayerLog&Handouts/Mechanics/CLI/spells/hunters-mark.md) |
+| 5th | [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md), [misty step](03.PlayerLog&Handouts/Mechanics/CLI/spells/misty-step.md) |
+| 9th | [haste](03.PlayerLog&Handouts/Mechanics/CLI/spells/haste.md), [protection from energy](03.PlayerLog&Handouts/Mechanics/CLI/spells/protection-from-energy.md) |
+| 13th | [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md), [dimension door](03.PlayerLog&Handouts/Mechanics/CLI/spells/dimension-door.md) |
+| 17th | [hold monster](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-monster.md), [scrying](03.PlayerLog&Handouts/Mechanics/CLI/spells/scrying.md) |
 ^oath-of-vengeance-spells
 
 ### Channel Divinity (Level 3)
@@ -89,15 +90,15 @@ When you take this oath at 3rd level, you gain the following two Channel Divinit
 
 ### Abjure Enemy (Level 3)
 
-As an action, you present your holy symbol and speak a prayer of denunciation, using your Channel Divinity. Choose one creature within 60 feet of you that you can see. That creature must make a Wisdom saving throw, unless it is immune to being [frightened](conditions.md#Frightened). Fiends and undead have disadvantage on this saving throw.
+As an action, you present your holy symbol and speak a prayer of denunciation, using your Channel Divinity. Choose one creature within 60 feet of you that you can see. That creature must make a Wisdom saving throw, unless it is immune to being [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened). Fiends and undead have disadvantage on this saving throw.
 
-On a failed save, the creature is [frightened](conditions.md#Frightened) for 1 minute or until it takes any damage. While [frightened](conditions.md#Frightened), the creature's speed is 0, and it can't benefit from any bonus to its speed.
+On a failed save, the creature is [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened) for 1 minute or until it takes any damage. While [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened), the creature's speed is 0, and it can't benefit from any bonus to its speed.
 
 On a successful save, the creature's speed is halved for 1 minute or until the creature takes any damage.
 
 ### Vow of Enmity (Level 3)
 
-As a bonus action, you can utter a vow of enmity against a creature you can see within 10 feet of you, using your Channel Divinity. You gain advantage on attack rolls against the creature for 1 minute or until it drops to 0 hit points or falls [unconscious](conditions.md#Unconscious).
+As a bonus action, you can utter a vow of enmity against a creature you can see within 10 feet of you, using your Channel Divinity. You gain advantage on attack rolls against the creature for 1 minute or until it drops to 0 hit points or falls [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious).
 
 ### Relentless Avenger (Level 7)
 
@@ -112,6 +113,6 @@ Starting at 15th level, the authority with which you speak your Vow of Enmity gi
 At 20th level, you can assume the form of an angelic avenger. Using your action, you undergo a transformation. For 1 hour, you gain the following benefits:
 
 - Wings sprout from your back and grant you a flying speed of 60 feet.  
-- You emanate an aura of menace in a 30-foot radius. The first time any enemy creature enters the aura or starts its turn there during a battle, the creature must succeed on a Wisdom saving throw or become [frightened](conditions.md#Frightened) of you for 1 minute or until it takes any damage. [Attack](actions.md#Attack) rolls against the [frightened](conditions.md#Frightened) creature have advantage.  
+- You emanate an aura of menace in a 30-foot radius. The first time any enemy creature enters the aura or starts its turn there during a battle, the creature must succeed on a Wisdom saving throw or become [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened) of you for 1 minute or until it takes any damage. [Attack](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Attack) rolls against the [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened) creature have advantage.  
 
 Once you use this feature, you can't use it again until you finish a long rest.

@@ -4,11 +4,12 @@ cssclasses: json5e-feat
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 - ttrpg-cli/optional-feature/ei
-aliases: ["Gift of the Depths"]
+aliases:
+- Gift of the Depths
 ---
 # Gift of the Depths
 *Source: Xanathar's Guide to Everything p. 57*  
 **Prerequisite**: 5th
 You can breathe underwater, and you gain a swimming speed equal to your walking speed.
 
-You can also cast [water breathing](water-breathing.md) once without expending a spell slot. You regain the ability to do so when you finish a long rest.
+You can also cast [water breathing](03.PlayerLog&Handouts/Mechanics/CLI/spells/water-breathing.md) once without expending a spell slot. You regain the ability to do so when you finish a long rest.

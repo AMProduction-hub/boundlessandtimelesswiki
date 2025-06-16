@@ -9,10 +9,12 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/elemental
 statblock: inline
-aliases: ["Air Elemental"]
+statblock-link: "#^statblock"
+aliases:
+- Air Elemental
 ---
-# [Air Elemental](03 - Player Log & Handouts\Mechanics\CLI\bestiary\elemental/air-elemental.md)
-*Source: Monster Manual p. 124, Tasha's Cauldron of Everything. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Air Elemental](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\elemental/air-elemental.md)
+*Source: Monster Manual p. 124, Princes of the Apocalypse, Storm King's Thunder, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Dragon of Icespire Peak, Storm Lord's Wrath, Eberron: Rising from the Last War, Infernal Machine Rebuild, Mythic Odysseys of Theros, Tasha's Cauldron of Everything, Candlekeep Mysteries, Journeys through the Radiant Citadel, Dragonlance: Shadow of the Dragon Queen, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 An air elemental is a funneling cloud of whirling air with a vague semblance of a face. Although it likes to race across the ground, picking up dust and debris as it goes, it can also fly and attack from above.
 
@@ -46,52 +48,68 @@ An elemental doesn't require air, food, drink, or sleep.
 "ac": !!int "15"
 "hp": !!int "90"
 "hit_dice": "12d10 + 24"
+"modifier": !!int "5"
 "stats":
-- !!int "14"
-- !!int "20"
-- !!int "14"
-- !!int "6"
-- !!int "10"
-- !!int "6"
+  - !!int "14"
+  - !!int "20"
+  - !!int "14"
+  - !!int "6"
+  - !!int "10"
+  - !!int "6"
 "speed": "fly 90 ft. (hover)"
 "damage_resistances": "lightning; thunder; bludgeoning, piercing, slashing from nonmagical\
   \ attacks"
 "damage_immunities": "poison"
-"condition_immunities": "[exhaustion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
-  \ [grappled](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Grappled),\
-  \ [paralyzed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
-  \ [petrified](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
-  \ [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
-  \ [prone](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Prone),\
-  \ [restrained](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
-  \ [unconscious](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)"
+"condition_immunities": "[exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
+  \ [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled),\
+  \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
+  \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
+  \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
+  \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
+  \ [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)"
 "senses": "darkvision 60 ft., passive Perception 10"
 "languages": "Auran"
 "cr": "5"
 "traits":
-- "desc": "The elemental can enter a hostile creature's space and stop there. It can\
-    \ move through a space as narrow as 1 inch wide without squeezing."
-  "name": "Air Form"
+  - "desc": "The elemental can enter a hostile creature's space and stop there. It\
+      \ can move through a space as narrow as 1 inch wide without squeezing."
+    "name": "Air Form"
 "actions":
-- "desc": "The elemental makes two slam attacks."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 14\
-    \ (2d8 + 5) bludgeoning damage."
-  "name": "Slam"
-- "desc": "Each creature in the elemental's space must make a DC 13 Strength saving\
-    \ throw. On a failure, a target takes 15 (3d8 + 2) bludgeoning damage and is\
-    \ flung up 20 feet away from the elemental in a random direction and knocked [prone](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Prone).\
-    \ If a thrown target strikes an object, such as a wall or floor, the target takes\
-    \ 3 (1d6) bludgeoning damage for every 10 feet it was thrown. If the target\
-    \ is thrown at another creature, that creature must succeed on a DC 13 Dexterity\
-    \ saving throw or take the same damage and be knocked [prone](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Prone).\n\
-    \nIf the saving throw is successful, the target takes half the bludgeoning damage\
-    \ and isn't flung away or knocked [prone](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
-  "name": "Whirlwind (Recharge 4-6)"
+  - "desc": "The elemental makes two slam attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 14\
+      \ (2d8 + 5) bludgeoning damage."
+    "name": "Slam"
+  - "desc": "Each creature in the elemental's space must make a DC 13 Strength saving\
+      \ throw. On a failure, a target takes 15 (3d8 + 2) bludgeoning damage and\
+      \ is flung up 20 feet away from the elemental in a random direction and knocked\
+      \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone). If\
+      \ a thrown target strikes an object, such as a wall or floor, the target takes\
+      \ 3 (d6) bludgeoning damage for every 10 feet it was thrown. If the target\
+      \ is thrown at another creature, that creature must succeed on a DC 13 Dexterity\
+      \ saving throw or take the same damage and be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone).\n\
+      \nIf the saving throw is successful, the target takes half the bludgeoning damage\
+      \ and isn't flung away or knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
+    "name": "Whirlwind (Recharge 4-6)"
 "source":
-- "MM"
-- "TCE"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/elemental/token/air-elemental.webp"
+  - "MM"
+  - "PotA"
+  - "SKT"
+  - "TftYP"
+  - "ToA"
+  - "WDMM"
+  - "GoS"
+  - "DIP"
+  - "SLW"
+  - "ERLW"
+  - "IMR"
+  - "MOT"
+  - "TCE"
+  - "CM"
+  - "JttRC"
+  - "DSotDQ"
+  - "KftGV"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/token/air-elemental.webp"
 ```
 ^statblock
 

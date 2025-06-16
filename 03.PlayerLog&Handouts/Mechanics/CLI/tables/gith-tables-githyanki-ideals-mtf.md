@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
-aliases: ["Gith Tables; Githyanki Ideals"]
+aliases:
+- Gith Tables; Githyanki Ideals
 ---
 # Gith Tables; Githyanki Ideals
 *Source: Mordenkainen's Tome of Foes p. 97* 

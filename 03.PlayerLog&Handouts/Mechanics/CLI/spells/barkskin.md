@@ -6,6 +6,7 @@ tags:
 - ttrpg-cli/spell/class/bard
 - ttrpg-cli/spell/class/druid
 - ttrpg-cli/spell/class/ranger
+- ttrpg-cli/spell/feat/adept-of-the-red-robes
 - ttrpg-cli/spell/level/2nd-level
 - ttrpg-cli/spell/school/transmutation
 - ttrpg-cli/spell/subclass/circle-of-the-land
@@ -16,11 +17,12 @@ classes:
 - Druid
 - Druid (Circle of the Land)
 - Ranger
-aliases: ["Barkskin"]
+aliases:
+- Barkskin
 ---
 # Barkskin
 *2nd-level, Transmutation*  
-![](barkskin.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/spells/img/barkskin.webp#right)
 
 - **Casting time:** 1 Action
 - **Range:** Touch
@@ -29,6 +31,6 @@ aliases: ["Barkskin"]
 
 You touch a willing creature. Until the spell ends, the target's skin has a rough, bark-like appearance, and the target's AC can't be less than 16, regardless of what kind of armor it is wearing.
 
-**Classes**: [Druid](list-spells-classes-druid.md); [Druid (Circle of the Land)](list-spells-classes-druid-circle-of-the-land.md); [Bard](list-spells-classes-bard.md); [Ranger](list-spells-classes-ranger.md); [Cleric (Nature Domain)](list-spells-classes-cleric-nature-domain.md)
+**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Ranger](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-ranger.md); [Druid (Circle of the Land)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-circle-of-the-land.md); [Cleric (Nature Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-nature-domain.md)
 
 *Source: Player's Handbook p. 217. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

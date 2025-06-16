@@ -13,10 +13,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/humanoid/any-race
 statblock: inline
-aliases: ["Bandit Captain"]
+statblock-link: "#^statblock"
+aliases:
+- Bandit Captain
 ---
-# [Bandit Captain](03 - Player Log & Handouts\Mechanics\CLI\bestiary\humanoid/bandit-captain.md)
-*Source: Monster Manual p. 344, Baldur's Gate: Descent Into Avernus, Light of Xaryxis, Sigil and the Outlands. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Bandit Captain](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/bandit-captain.md)
+*Source: Monster Manual p. 344, Princes of the Apocalypse, Storm King's Thunder, Tomb of Annihilation, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Divine Contention, Dragon of Icespire Peak, Storm Lord's Wrath, Baldur's Gate: Descent Into Avernus, Infernal Machine Rebuild, Explorer's Guide to Wildemount, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden, Candlekeep Mysteries, Curse of Strahd, Light of Xaryxis, Dragonlance: Shadow of the Dragon Queen, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 It takes a strong personality, ruthless cunning, and a silver tongue to keep a gang of bandits in line. The bandit captain has these qualities in spades.
 
@@ -31,47 +33,66 @@ More than treasure, a bandit captain or pirate captain craves infamy. A prisoner
 "subtype": "any race"
 "alignment": "Any Non-Lawful alignment"
 "ac": !!int "15"
-"ac_class": "[studded leather](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/items/studded-leather-armor.md)"
+"ac_class": "[studded leather](03.PlayerLog&Handouts/Mechanics/CLI/items/studded-leather-armor.md)"
 "hp": !!int "65"
 "hit_dice": "10d8 + 20"
+"modifier": !!int "3"
 "stats":
-- !!int "15"
-- !!int "16"
-- !!int "14"
-- !!int "14"
-- !!int "11"
-- !!int "14"
+  - !!int "15"
+  - !!int "16"
+  - !!int "14"
+  - !!int "14"
+  - !!int "11"
+  - !!int "14"
 "speed": "30 ft."
 "saves":
-  "Dexterity": !!int "5"
-  "Wisdom": !!int "2"
-  "Strength": !!int "4"
+  - "strength": "+4"
+  - "dexterity": "+5"
+  - "wisdom": "+2"
 "skillsaves":
-  "Athletics": !!int "4"
-  "Deception": !!int "4"
+  - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
+    "desc": "+4"
+  - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
+    "desc": "+4"
 "senses": "passive Perception 10"
 "languages": "any two languages"
 "cr": "2"
 "actions":
-- "desc": "The captain makes three melee attacks: two with its scimitar and one with\
-    \ its dagger. Or the captain makes two ranged attacks with its daggers."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6\
-    \ + 3) slashing damage."
-  "name": "Scimitar"
-- "desc": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60\
-    \ ft., one target. Hit: 5 (1d4 + 3) piercing damage."
-  "name": "Dagger"
+  - "desc": "The captain makes three melee attacks: two with its scimitar and one\
+      \ with its dagger. Or the captain makes two ranged attacks with its daggers."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+      \ (1d6 + 3) slashing damage."
+    "name": "Scimitar"
+  - "desc": "Melee  or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. Hit: 5 (1d4 + 3) piercing damage."
+    "name": "Dagger"
 "reactions":
-- "desc": "The captain adds 2 to its AC against one melee attack that would hit it.\
-    \ To do so, the captain must see the attacker and be wielding a melee weapon."
-  "name": "Parry"
+  - "desc": "The captain adds 2 to its AC against one melee attack that would hit\
+      \ it. To do so, the captain must see the attacker and be wielding a melee weapon."
+    "name": "Parry"
 "source":
-- "MM"
-- "BGDIA"
-- "LoX"
-- "SatO"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/humanoid/token/bandit-captain.webp"
+  - "MM"
+  - "PotA"
+  - "SKT"
+  - "ToA"
+  - "WDH"
+  - "WDMM"
+  - "GoS"
+  - "DC"
+  - "DIP"
+  - "SLW"
+  - "BGDIA"
+  - "IMR"
+  - "EGW"
+  - "MOT"
+  - "IDRotF"
+  - "CM"
+  - "CoS"
+  - "LoX"
+  - "DSotDQ"
+  - "KftGV"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/bandit-captain.webp"
 ```
 ^statblock
 

@@ -4,10 +4,11 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 - ttrpg-cli/subclass/barbarian/ancestral-guardian
-aliases: ["Path of the Ancestral Guardian"]
+aliases:
+- Path of the Ancestral Guardian
 ---
 # Path of the Ancestral Guardian
-*[Barbarian](barbarian.md): Primal Path*  
+*[Barbarian](./barbarian.md): Primal Path*  
 *Source: Xanathar's Guide to Everything p. 9*  
 
 > [!tldr] Class and Feature Progression
@@ -42,6 +43,14 @@ aliases: ["Path of the Ancestral Guardian"]
 ^class-progression
 
 
+> [!quote] A quote from Xanathar  
+> 
+> So ancestors are people who did the procreation thing to make more people before you were born? Like how many people?
+> 
+> That's a lot of the procreation thing.
+> 
+> Ew. You're disgusting.
+
 ## Class Features
 
 ### Path of the Ancestral Guardian (Level 3)
@@ -62,7 +71,7 @@ When you reach certain levels in this class, you can reduce the damage by more: 
 
 ### Consult the Spirits (Level 10)
 
-At 10th level, you gain the ability to consult with your ancestral spirits. When you do so, you cast the [augury](augury.md) or [clairvoyance](clairvoyance.md) spell, without using a spell slot or material components. Rather than creating a spherical sensor, this use of [clairvoyance](clairvoyance.md) invisibly summons one of your ancestral spirits to the chosen location. Wisdom is your spellcasting ability for these spells.
+At 10th level, you gain the ability to consult with your ancestral spirits. When you do so, you cast the [augury](03.PlayerLog&Handouts/Mechanics/CLI/spells/augury.md) or [clairvoyance](03.PlayerLog&Handouts/Mechanics/CLI/spells/clairvoyance.md) spell, without using a spell slot or material components. Rather than creating a spherical sensor, this use of [clairvoyance](03.PlayerLog&Handouts/Mechanics/CLI/spells/clairvoyance.md) invisibly summons one of your ancestral spirits to the chosen location. Wisdom is your spellcasting ability for these spells.
 
 After you cast either spell in this way, you can't use this feature again until you finish a short or long rest.
 

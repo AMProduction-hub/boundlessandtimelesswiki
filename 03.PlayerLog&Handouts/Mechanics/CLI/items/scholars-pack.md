@@ -17,11 +17,11 @@ aliases:
 
 Includes:
 
-- a [backpack](backpack.md)  
-- a [book](book.md) of lore  
-- a [bottle of ink](ink-1-ounce-bottle.md)  
-- an [ink pen](ink-pen.md)  
-- 10 [sheets of parchment](parchment-one-sheet.md)  
+- a [backpack](03.PlayerLog&Handouts/Mechanics/CLI/items/backpack.md)  
+- a [book](03.PlayerLog&Handouts/Mechanics/CLI/items/book.md) of lore  
+- a [bottle of ink](03.PlayerLog&Handouts/Mechanics/CLI/items/ink-1-ounce-bottle.md)  
+- an [ink pen](03.PlayerLog&Handouts/Mechanics/CLI/items/ink-pen.md)  
+- 10 [sheets of parchment](03.PlayerLog&Handouts/Mechanics/CLI/items/parchment-one-sheet.md)  
 - a little bag of sand  
 - a small knife.  
 

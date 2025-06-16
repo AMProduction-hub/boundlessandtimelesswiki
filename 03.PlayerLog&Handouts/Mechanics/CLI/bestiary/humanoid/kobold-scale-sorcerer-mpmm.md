@@ -12,9 +12,11 @@ tags:
 - ttrpg-cli/monster/size/small
 - ttrpg-cli/monster/type/humanoid
 statblock: inline
-aliases: ["Kobold Scale Sorcerer"]
+statblock-link: "#^statblock"
+aliases:
+- Kobold Scale Sorcerer
 ---
-# [Kobold Scale Sorcerer](03 - Player Log & Handouts\Mechanics\CLI\bestiary\humanoid/kobold-scale-sorcerer-mpmm.md)
+# [Kobold Scale Sorcerer](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/kobold-scale-sorcerer-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 165, Volo's Guide to Monsters p. 167*  
 
 Kobold scale sorcerers have an innate talent for arcane magic, making them highly valuable members of their communities. These sorcerers typically fill the role of advisor, and when threatened, a scale sorcerer lashes out with colorful magic.
@@ -30,52 +32,54 @@ A scale sorcerer who resides in or near a dragon's lair may serve as that dragon
 "ac_class": "natural armor"
 "hp": !!int "27"
 "hit_dice": "5d6 + 10"
+"modifier": !!int "2"
 "stats":
-- !!int "7"
-- !!int "15"
-- !!int "14"
-- !!int "10"
-- !!int "9"
-- !!int "14"
+  - !!int "7"
+  - !!int "15"
+  - !!int "14"
+  - !!int "10"
+  - !!int "9"
+  - !!int "14"
 "speed": "30 ft."
 "skillsaves":
-  "Medicine": !!int "1"
-  "Arcana": !!int "2"
+  - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
+    "desc": "+2"
+  - "name": "[Medicine](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Medicine)"
+    "desc": "+1"
 "senses": "darkvision 60 ft., passive Perception 9"
 "languages": "Common, Draconic"
 "cr": "1"
 "traits":
-- "desc": "The kobold casts one of the following spells, requiring no material components\
-    \ and using Charisma as the spellcasting ability (spell save DC 12):\n\nAt will:\
-    \ [mage hand](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/mage-hand.md),\
-    \ [prestidigitation](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/prestidigitation.md)\n\
-    \n2/day each: [charm person](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/charm-person.md),\
-    \ [fog cloud](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/fog-cloud.md),\
-    \ [levitate](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/levitate.md)"
-  "name": "Spellcasting"
-- "desc": "The kobold has advantage on an attack roll against a creature if at least\
-    \ one of the kobold's allies is within 5 feet of the creature and the ally isn't\
-    \ [incapacitated](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)."
-  "name": "Pack Tactics"
-- "desc": "While in sunlight, the kobold has disadvantage on attack rolls, as well\
-    \ as on Wisdom ([Perception](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/skills.md#Perception))\
-    \ checks that rely on sight."
-  "name": "Sunlight Sensitivity"
+  - "desc": "The kobold has advantage on an attack roll against a creature if at least\
+      \ one of the kobold's allies is within 5 feet of the creature and the ally isn't\
+      \ [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)."
+    "name": "Pack Tactics"
+  - "desc": "While in sunlight, the kobold has disadvantage on attack rolls, as well\
+      \ as on Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception))\
+      \ checks that rely on sight."
+    "name": "Sunlight Sensitivity"
 "actions":
-- "desc": "The kobold makes two Dagger or Chromatic Bolt attacks. It can replace one\
-    \ attack with a use of Spellcasting."
-  "name": "Multiattack"
-- "desc": "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60\
-    \ ft., one target. Hit: 4 (1d4 + 2) piercing damage."
-  "name": "Dagger"
-- "desc": "Ranged Spell Attack: +4 to hit, range 60 feet, one target. Hit: 9\
-    \ (2d6 + 2) of a type of the kobold's choice: acid, cold, fire, lightning, poison,\
-    \ or thunder."
-  "name": "Chromatic Bolt"
+  - "desc": "The kobold makes two Dagger or Chromatic Bolt attacks. It can replace\
+      \ one attack with a use of Spellcasting."
+    "name": "Multiattack"
+  - "desc": "Melee  or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. Hit: 4 (1d4 + 2) piercing damage."
+    "name": "Dagger"
+  - "desc": "Ranged Spell Attack: +4 to hit, range 60 feet, one target. Hit:\
+      \ 9 (2d6 + 2) of a type of the kobold's choice: acid, cold, fire, lightning,\
+      \ poison, or thunder."
+    "name": "Chromatic Bolt"
+  - "desc": "The kobold casts one of the following spells, requiring no material components\
+      \ and using Charisma as the spellcasting ability (spell save DC 12):\n\nAt\
+      \ will: [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
+      \ [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md)\n\
+      \n2/day each: [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md),\
+      \ [fog cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/fog-cloud.md), [levitate](03.PlayerLog&Handouts/Mechanics/CLI/spells/levitate.md)"
+    "name": "Spellcasting"
 "source":
-- "MPMM"
-- "VGM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/humanoid/token/kobold-scale-sorcerer-mpmm.webp"
+  - "MPMM"
+  - "VGM"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/kobold-scale-sorcerer-mpmm.webp"
 ```
 ^statblock
 

@@ -9,10 +9,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/fey
 statblock: inline
-aliases: ["Sea Hag"]
+statblock-link: "#^statblock"
+aliases:
+- Sea Hag
 ---
-# [Sea Hag](03 - Player Log & Handouts\Mechanics\CLI\bestiary\fey/sea-hag.md)
-*Source: Monster Manual p. 179, Sigil and the Outlands. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Sea Hag](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fey/sea-hag.md)
+*Source: Monster Manual p. 179, Princes of the Apocalypse, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Dragon of Icespire Peak, Storm Lord's Wrath, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden, Journeys through the Radiant Citadel. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Sea hags live in dismal and polluted underwater lairs, surrounded by merrow and other aquatic monsters.
 
@@ -74,18 +76,18 @@ Hags dwell in dark and twisted woods, bleak moors, storm-lashed seacoasts, and g
 > 
 > **Shared Spellcasting.** While all three members of a hag coven are within 30 feet of one another, they can each cast the following spells from the wizard's spell list but must share the spell slots among themselves:
 > 
-> 1st level (4 slots): [identify](identify.md), [ray of sickness](ray-of-sickness.md)  
-> 2nd level (3 slots): [hold person](hold-person.md), [locate object](locate-object.md)  
-> 3rd level (3 slots): [bestow curse](bestow-curse.md), [counterspell](03.PlayerLog&Handouts/Mechanics/CLI/spells/counterspell.md), [lightning bolt](lightning-bolt.md)  
-> 4th level (3 slots): [phantasmal killer](phantasmal-killer.md), [polymorph](polymorph.md)  
-> 5th level (2 slots): [contact other plane](contact-other-plane.md), [scrying](scrying.md)  
-> 6th level (1 slot): [eyebite](eyebite.md)  
+> 1st level (4 slots): [identify](03.PlayerLog&Handouts/Mechanics/CLI/spells/identify.md), [ray of sickness](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-sickness.md)  
+> 2nd level (3 slots): [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md), [locate object](03.PlayerLog&Handouts/Mechanics/CLI/spells/locate-object.md)  
+> 3rd level (3 slots): [bestow curse](03.PlayerLog&Handouts/Mechanics/CLI/spells/bestow-curse.md), [counterspell](03.PlayerLog&Handouts/Mechanics/CLI/spells/counterspell.md), [lightning bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/lightning-bolt.md)  
+> 4th level (3 slots): [phantasmal killer](03.PlayerLog&Handouts/Mechanics/CLI/spells/phantasmal-killer.md), [polymorph](03.PlayerLog&Handouts/Mechanics/CLI/spells/polymorph.md)  
+> 5th level (2 slots): [contact other plane](03.PlayerLog&Handouts/Mechanics/CLI/spells/contact-other-plane.md), [scrying](03.PlayerLog&Handouts/Mechanics/CLI/spells/scrying.md)  
+> 6th level (1 slot): [eyebite](03.PlayerLog&Handouts/Mechanics/CLI/spells/eyebite.md)  
 > 
 > For casting these spells, each hag is a 12th-level spellcaster that uses Intelligence as her spellcasting ability. The spell save DC is 12 + the hag's Intelligence modifier, and the spell attack bonus is 4 + the hag's Intelligence modifier.
 > 
-> **Hag Eye.** A hag coven can craft a magic item called a hag eye, which is made from a real eye coated in varnish and often fitted to a pendant or other wearable item. The hag eye is usually entrusted to a minion for safekeeping and transport. A hag in the coven can take an action to see what the hag eye sees if the hag eye is on the same plane of existence. A hag eye has AC 10, 1 hit point, and [darkvision](senses.md#Darkvision) with a radius of 60 feet. If it is destroyed, each coven member takes `3d10` psychic damage and is [blinded](conditions.md#Blinded) for 24 hours.
+> **Hag Eye.** A hag coven can craft a magic item called a hag eye, which is made from a real eye coated in varnish and often fitted to a pendant or other wearable item. The hag eye is usually entrusted to a minion for safekeeping and transport. A hag in the coven can take an action to see what the hag eye sees if the hag eye is on the same plane of existence. A hag eye has AC 10, 1 hit point, and [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision) with a radius of 60 feet. If it is destroyed, each coven member takes `3d10` psychic damage and is [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded) for 24 hours.
 > 
-> A hag coven can have only one hag eye at a time, and creating a new one requires all three members of the coven to perform a ritual. The ritual takes 1 hour, and the hags can't perform it while [blinded](conditions.md#Blinded). During the ritual, if the hags take any action other than performing the ritual, they must start over.
+> A hag coven can have only one hag eye at a time, and creating a new one requires all three members of the coven to perform a ritual. The ritual takes 1 hour, and the hags can't perform it while [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded). During the ritual, if the hags take any action other than performing the ritual, they must start over.
 ^hag-covens
 
 ```statblock
@@ -97,114 +99,125 @@ Hags dwell in dark and twisted woods, bleak moors, storm-lashed seacoasts, and g
 "ac_class": "natural armor"
 "hp": !!int "52"
 "hit_dice": "7d8 + 21"
+"modifier": !!int "1"
 "stats":
-- !!int "16"
-- !!int "13"
-- !!int "16"
-- !!int "12"
-- !!int "12"
-- !!int "13"
+  - !!int "16"
+  - !!int "13"
+  - !!int "16"
+  - !!int "12"
+  - !!int "12"
+  - !!int "13"
 "speed": "30 ft., swim 40 ft."
 "senses": "darkvision 60 ft., passive Perception 11"
 "languages": "Aquan, Common, Giant"
 "cr": "2"
 "traits":
-- "desc": "The hag can breathe air and water."
-  "name": "Amphibious"
-- "desc": "Any humanoid that starts its turn within 30 feet of the hag and can see\
-    \ the hag's true form must make a DC 11 Wisdom saving throw. On a failed save,\
-    \ the creature is [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened)\
-    \ for 1 minute. A creature can repeat the saving throw at the end of each of its\
-    \ turns, with disadvantage if the hag is within line of sight, ending the effect\
-    \ on itself on a success. If a creature's saving throw is successful or the effect\
-    \ ends for it, the creature is immune to the hag's Horrific Appearance for the\
-    \ next 24 hours.\n\nUnless the target is [surprised](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Surprised)\
-    \ or the revelation of the hag's true form is sudden, the target can avert its\
-    \ eyes and avoid making the initial saving throw. Until the start of its next\
-    \ turn, a creature that averts its eyes has disadvantage on attack rolls against\
-    \ the hag."
-  "name": "Horrific Appearance"
+  - "desc": "The hag can breathe air and water."
+    "name": "Amphibious"
+  - "desc": "Any humanoid that starts its turn within 30 feet of the hag and can see\
+      \ the hag's true form must make a DC 11 Wisdom saving throw. On a failed save,\
+      \ the creature is [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)\
+      \ for 1 minute. A creature can repeat the saving throw at the end of each of\
+      \ its turns, with disadvantage if the hag is within line of sight, ending the\
+      \ effect on itself on a success. If a creature's saving throw is successful\
+      \ or the effect ends for it, the creature is immune to the hag's Horrific Appearance\
+      \ for the next 24 hours.\n\nUnless the target is [surprised](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Surprised)\
+      \ or the revelation of the hag's true form is sudden, the target can avert its\
+      \ eyes and avoid making the initial saving throw. Until the start of its next\
+      \ turn, a creature that averts its eyes has disadvantage on attack rolls against\
+      \ the hag."
+    "name": "Horrific Appearance"
 "actions":
-- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10\
-    \ (2d6 + 3) slashing damage."
-  "name": "Claws"
-- "desc": "The hag targets one [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened)\
-    \ creature she can see within 30 feet of her. If the target can see the hag, it\
-    \ must succeed on a DC 11 Wisdom saving throw against this magic or drop to 0\
-    \ hit points."
-  "name": "Death Glare"
-- "desc": "The hag covers herself and anything she is wearing or carrying with a magical\
-    \ illusion that makes her look like an ugly creature of her general size and humanoid\
-    \ shape. The effect ends if the hag takes a bonus action to end it or if she dies.\n\
-    \nThe changes wrought by this effect fail to hold up to physical inspection. For\
-    \ example, the hag could appear to have no claws, but someone touching her hand\
-    \ might feel the claws. Otherwise, a creature must take an action to visually\
-    \ inspect the illusion and succeed on a DC 16 Intelligence ([Investigation](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/skills.md#Investigation))\
-    \ check to discern that the hag is disguised."
-  "name": "Illusory Appearance"
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10\
+      \ (2d6 + 3) slashing damage."
+    "name": "Claws"
+  - "desc": "The hag targets one [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)\
+      \ creature she can see within 30 feet of her. If the target can see the hag,\
+      \ it must succeed on a DC 11 Wisdom saving throw against this magic or drop\
+      \ to 0 hit points."
+    "name": "Death Glare"
+  - "desc": "The hag covers herself and anything she is wearing or carrying with a\
+      \ magical illusion that makes her look like an ugly creature of her general\
+      \ size and humanoid shape. The effect ends if the hag takes a bonus action to\
+      \ end it or if she dies.\n\nThe changes wrought by this effect fail to hold\
+      \ up to physical inspection. For example, the hag could appear to have no claws,\
+      \ but someone touching her hand might feel the claws. Otherwise, a creature\
+      \ must take an action to visually inspect the illusion and succeed on a DC 16\
+      \ Intelligence ([Investigation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Investigation))\
+      \ check to discern that the hag is disguised."
+    "name": "Illusory Appearance"
 "lair_actions":
-- "desc": "The following lair actions are options for grandmothers and powerful aunties.\
-    \ Grandmothers usually have three to five lair actions, aunties usually only one\
-    \ (if they have any at all). Unless otherwise noted, any lair action that requires\
-    \ a creature to make a saving throw uses the save DC of the hag's most powerful\
-    \ ability."
-  "name": ""
-- "desc": "On initiative count 20 (losing initiative ties), the hag can take a lair\
-    \ action to cause one of the following effects, but can't use the same effect\
-    \ two rounds in a row:"
-  "name": ""
-- "desc": "- Until initiative count 20 on the next round, the hag can pass through\
-    \ solid walls, doors, ceilings, and floors as if the surfaces weren't there. \
-    \ \n- The hag targets any number of doors and windows that she can see, causing\
-    \ each one to either open or close as she wishes. Closed doors can be magically\
-    \ locked (requiring a successful DC 20 Strength check to force open) until she\
-    \ chooses to make them unlocked, or until she uses this lair action again to open\
-    \ them.  "
-  "name": ""
-- "desc": "A powerful sea hag might have the following additional lair actions:"
-  "name": ""
-- "desc": "- The hag fills up to four 10-foot cubes of water with ink. The inky areas\
-    \ are heavily obscured for 1 minute, although a steady, strong underwater current\
-    \ disperses the ink on initiative count 10. The hag ignores the obscuring effect\
-    \ of the ink.  \n- The hag chooses one humanoid within the lair and instantly\
-    \ creates a simulacrum of that creature (as if created with the [simulacrum](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/simulacrum.md)\
-    \ spell). This hideous simulacrum is formed out of seaweed, slime, half-eaten\
-    \ fish, and other garbage, but still generally resembles the creature it is imitating.\
-    \ This simulacrum obeys the hag's commands and is destroyed on initiative count\
-    \ 20 on the next round.  "
-  "name": ""
+  - "desc": "The following lair actions are options for grandmothers and powerful\
+      \ aunties. Grandmothers usually have three to five lair actions, aunties usually\
+      \ only one (if they have any at all). Unless otherwise noted, any lair action\
+      \ that requires a creature to make a saving throw uses the save DC of the hag's\
+      \ most powerful ability."
+    "name": ""
+  - "desc": "On initiative count 20 (losing initiative ties), the hag can take a lair\
+      \ action to cause one of the following effects, but can't use the same effect\
+      \ two rounds in a row:"
+    "name": ""
+  - "desc": "- Until initiative count 20 on the next round, the hag can pass through\
+      \ solid walls, doors, ceilings, and floors as if the surfaces weren't there.\
+      \  \n- The hag targets any number of doors and windows that she can see, causing\
+      \ each one to either open or close as she wishes. Closed doors can be magically\
+      \ locked (requiring a successful DC 20 Strength check to force open) until she\
+      \ chooses to make them unlocked, or until she uses this lair action again to\
+      \ open them.  "
+    "name": ""
+  - "desc": "A powerful sea hag might have the following additional lair actions:"
+    "name": ""
+  - "desc": "- The hag fills up to four 10-foot cubes of water with ink. The inky\
+      \ areas are heavily obscured for 1 minute, although a steady, strong underwater\
+      \ current disperses the ink on initiative count 10. The hag ignores the obscuring\
+      \ effect of the ink.  \n- The hag chooses one humanoid within the lair and instantly\
+      \ creates a simulacrum of that creature (as if created with the [simulacrum](03.PlayerLog&Handouts/Mechanics/CLI/spells/simulacrum.md)\
+      \ spell). This hideous simulacrum is formed out of seaweed, slime, half-eaten\
+      \ fish, and other garbage, but still generally resembles the creature it is\
+      \ imitating. This simulacrum obeys the hag's commands and is destroyed on initiative\
+      \ count 20 on the next round.  "
+    "name": ""
 "regional_effects":
-- "desc": "Each hag's lair is the source of three to five regional effects; the home\
-    \ of a grandmother, an auntie, or a coven has more effects than the lair of a\
-    \ single hag, including some that can directly harm intruders. Any regional effect\
-    \ that requires a creature to make a saving throw uses the save DC of the hag's\
-    \ most powerful ability. These effects either end immediately if the hag dies\
-    \ or abandons the lair, or take up to 2d10 days to fade away."
-  "name": ""
-- "desc": "The region within 1 mile of a grandmother hag's lair is warped by the creature's\
-    \ fell magic, which creates one or more of the following effects:"
-  "name": ""
-- "desc": "- Birds, rodents, snakes, spiders, or toads (or some other creatures appropriate\
-    \ to the hag) are found in great profusion.  \n- Beasts that have an Intelligence\
-    \ score of 2 or lower are [charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
-    \ by the hag and directed to be aggressive toward intruders in the area.  \n-\
-    \ Strange carved figurines, twig fetishes, or rag dolls magically appear in trees.\
-    \  "
-  "name": ""
-- "desc": "A powerful sea hag creates one or more of the following additional regional\
-    \ effects within 1 mile of her lair:"
-  "name": ""
-- "desc": "- Most surfaces are covered by a thin film of slime, which is slick and\
-    \ sticks to anything that touches it.  \n- Currents and tides are exceptionally\
-    \ strong and treacherous. Any ability check made to safely navigate or control\
-    \ a vessel moving through these waters has disadvantage.  \n- Shores are littered\
-    \ with dead, rotting fish. The hag can sense when one of the fish is handled and\
-    \ cause it to speak with her voice.  "
-  "name": ""
+  - "desc": "Each hag's lair is the source of three to five regional effects; the\
+      \ home of a grandmother, an auntie, or a coven has more effects than the lair\
+      \ of a single hag, including some that can directly harm intruders. Any regional\
+      \ effect that requires a creature to make a saving throw uses the save DC of\
+      \ the hag's most powerful ability. These effects either end immediately if the\
+      \ hag dies or abandons the lair, or take up to 2d10 days to fade away."
+    "name": ""
+  - "desc": "The region within 1 mile of a grandmother hag's lair is warped by the\
+      \ creature's fell magic, which creates one or more of the following effects:"
+    "name": ""
+  - "desc": "- Birds, rodents, snakes, spiders, or toads (or some other creatures\
+      \ appropriate to the hag) are found in great profusion.  \n- Beasts that have\
+      \ an Intelligence score of 2 or lower are [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
+      \ by the hag and directed to be aggressive toward intruders in the area.  \n\
+      - Strange carved figurines, twig fetishes, or rag dolls magically appear in\
+      \ trees.  "
+    "name": ""
+  - "desc": "A powerful sea hag creates one or more of the following additional regional\
+      \ effects within 1 mile of her lair:"
+    "name": ""
+  - "desc": "- Most surfaces are covered by a thin film of slime, which is slick and\
+      \ sticks to anything that touches it.  \n- Currents and tides are exceptionally\
+      \ strong and treacherous. Any ability check made to safely navigate or control\
+      \ a vessel moving through these waters has disadvantage.  \n- Shores are littered\
+      \ with dead, rotting fish. The hag can sense when one of the fish is handled\
+      \ and cause it to speak with her voice.  "
+    "name": ""
 "source":
-- "MM"
-- "SatO"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/fey/token/sea-hag.webp"
+  - "MM"
+  - "PotA"
+  - "TftYP"
+  - "ToA"
+  - "WDMM"
+  - "GoS"
+  - "DIP"
+  - "SLW"
+  - "MOT"
+  - "IDRotF"
+  - "JttRC"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/token/sea-hag.webp"
 ```
 ^statblock
 

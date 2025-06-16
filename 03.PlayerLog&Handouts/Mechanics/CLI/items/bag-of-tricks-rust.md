@@ -26,14 +26,14 @@ Once three fuzzy objects have been pulled from the bag, the bag can't be used ag
 
 | dice: d8 | Creature |
 |----------|----------|
-| 1 | [Rat](rat.md) |
-| 2 | [Owl](owl.md) |
+| 1 | [Rat](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/rat.md) |
+| 2 | [Owl](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/owl.md) |
 | 3 | [Mastiff](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/mastiff.md) |
 | 4 | [Goat](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/goat.md) |
-| 5 | [Giant goat](giant-goat.md) |
-| 6 | [Giant boar](giant-boar.md) |
-| 7 | [Lion](lion.md) |
-| 8 | [Brown bear](brown-bear.md) |
+| 5 | [Giant goat](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-goat.md) |
+| 6 | [Giant boar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-boar.md) |
+| 7 | [Lion](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/lion.md) |
+| 8 | [Brown bear](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/brown-bear.md) |
 ^creature
 
 *Source: Dungeon Master's Guide p. 154. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

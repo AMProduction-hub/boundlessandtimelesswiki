@@ -8,9 +8,11 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/monstrosity
 statblock: inline
-aliases: ["Male Steeder"]
+statblock-link: "#^statblock"
+aliases:
+- Male Steeder
 ---
-# [Male Steeder](03 - Player Log & Handouts\Mechanics\CLI\bestiary\monstrosity/male-steeder-mpmm.md)
+# [Male Steeder](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/male-steeder-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 231, Mordenkainen's Tome of Foes p. 238*  
 
 ## Steeders
@@ -36,40 +38,43 @@ Rather than spinning webs, steeders excrete a viscous substance from their legs.
 "ac_class": "natural armor"
 "hp": !!int "13"
 "hit_dice": "2d8 + 4"
+"modifier": !!int "1"
 "stats":
-- !!int "15"
-- !!int "12"
-- !!int "14"
-- !!int "2"
-- !!int "10"
-- !!int "3"
+  - !!int "15"
+  - !!int "12"
+  - !!int "14"
+  - !!int "2"
+  - !!int "10"
+  - !!int "3"
 "speed": "30 ft., climb 30 ft."
 "skillsaves":
-  "Stealth": !!int "5"
-  "Perception": !!int "4"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+5"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+4"
 "senses": "darkvision 120 ft., passive Perception 14"
 "languages": ""
 "cr": "1/4"
 "traits":
-- "desc": "The distance of the steeder's long jumps is tripled; every foot of its\
-    \ walking speed that it spends on the jump allows it to jump 3 feet."
-  "name": "Extraordinary Leap"
-- "desc": "The steeder can climb difficult surfaces, including upside down on ceilings,\
-    \ without needing to make an ability check."
-  "name": "Spider Climb"
+  - "desc": "The distance of the steeder's long jumps is tripled; every foot of its\
+      \ walking speed that it spends on the jump allows it to jump 3 feet."
+    "name": "Extraordinary Leap"
+  - "desc": "The steeder can climb difficult surfaces, including upside down on ceilings,\
+      \ without needing to make an ability check."
+    "name": "Spider Climb"
 "actions":
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8\
-    \ + 2) piercing damage plus 4 (1d8) poison damage."
-  "name": "Bite"
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one Small or Tiny creature.\
-    \ Hit: The target is stuck to the steeder's leg and [grappled](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
-    \ (escape DC 12). The steeder can have only one creature [grappled](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
-    \ at a time."
-  "name": "Sticky Leg"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6\
+      \ (1d8 + 2) piercing damage plus 4 (d8) poison damage."
+    "name": "Bite"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one Small or Tiny creature.\
+      \ Hit: The target is stuck to the steeder's leg and [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
+      \ (escape DC 12). The steeder can have only one creature [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
+      \ at a time."
+    "name": "Sticky Leg"
 "source":
-- "MPMM"
-- "MTF"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/monstrosity/token/male-steeder-mpmm.webp"
+  - "MPMM"
+  - "MTF"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/token/male-steeder-mpmm.webp"
 ```
 ^statblock
 

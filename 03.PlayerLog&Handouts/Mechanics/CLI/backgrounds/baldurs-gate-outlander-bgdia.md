@@ -4,7 +4,8 @@ cssclasses: json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/bgdia
-aliases: ["Baldur's Gate Outlander"]
+aliases:
+- Baldur's Gate Outlander
 ---
 # Baldur's Gate Outlander
 *Source: Baldur's Gate: Descent Into Avernus p. 204, Player's Handbook p. 136*  
@@ -13,7 +14,7 @@ aliases: ["Baldur's Gate Outlander"]
 - **Skill Proficiencies.** [Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics), [Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)  
 - **Tool Proficiencies.** One type of musical instrument  
 - **Languages.** One of your choice  
-- **Equipment.** A [staff](staff.md), a [hunting trap](hunting-trap.md), a trophy from an animal you killed, a set of [traveler's clothes](travelers-clothes.md), and a belt [pouch](pouch.md) containing 10 gp  
+- **Equipment.** A [staff](03.PlayerLog&Handouts/Mechanics/CLI/items/staff.md), a [hunting trap](03.PlayerLog&Handouts/Mechanics/CLI/items/hunting-trap.md), a trophy from an animal you killed, a set of [traveler's clothes](03.PlayerLog&Handouts/Mechanics/CLI/items/travelers-clothes.md), and a belt [pouch](03.PlayerLog&Handouts/Mechanics/CLI/items/pouch.md) containing 10 gp  
 
 Coming to Baldur's Gate might seem like a good idea for a spectrum of reasons. Profit, excitement, and cosmopolitan opportunities all present tempting prospects, but rarely does one start on the path to Baldur's Gate fully understanding the complex social morass that awaits. You enter the city an outsider, and it's likely that—no matter how long you spend in the city—you'll leave an outsider, if you leave at all.
 
@@ -74,7 +75,7 @@ Often considered rude and uncouth among civilized folk, outlanders have little r
 
 | dice: d8 | Personality Trait |
 |----------|-------------------|
-| 1 |  I'm driven by a wanderlust that led me away from home. |
+| 1 | I'm driven by a wanderlust that led me away from home. |
 | 2 | I watch over my friends as if they were a litter of newborn pups. |
 | 3 | I once ran twenty-five miles without stopping to warn to my clan of an approaching orc horde. I'd do it again if I had to. |
 | 4 | I have a lesson for every situation, drawn from observing nature. |
@@ -116,6 +117,6 @@ Often considered rude and uncouth among civilized folk, outlanders have little r
 | 2 | There's no room for caution in a life lived to the fullest. |
 | 3 | I remember every insult I've received and nurse a silent resentment toward anyone who's ever wronged me. |
 | 4 | I am slow to trust members of other races, tribes, and societies. |
-| 5 |  Violence is my answer to almost any challenge. |
-| 6 |  Don't expect me to save those who can't save themselves. It is nature's way that the strong thrive and the weak perish. |
+| 5 | Violence is my answer to almost any challenge. |
+| 6 | Don't expect me to save those who can't save themselves. It is nature's way that the strong thrive and the weak perish. |
 ^flaw

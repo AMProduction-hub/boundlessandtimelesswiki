@@ -7,7 +7,8 @@ tags:
 - ttrpg-cli/domain/death
 - ttrpg-cli/domain/grave
 - ttrpg-cli/domain/knowledge
-aliases: ["Urogalan"]
+aliases: 
+- Urogalan
 ---
 # Urogalan
 *Source: Mordenkainen's Tome of Foes p. 104* 

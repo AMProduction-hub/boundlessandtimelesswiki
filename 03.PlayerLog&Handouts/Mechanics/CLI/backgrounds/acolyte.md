@@ -4,7 +4,8 @@ cssclasses: json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/phb
-aliases: ["Acolyte"]
+aliases:
+- Acolyte
 ---
 # Acolyte
 *Source: Player's Handbook p. 127. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
@@ -12,7 +13,7 @@ aliases: ["Acolyte"]
 
 - **Skill Proficiencies.** [Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight), [Religion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Religion)  
 - **Languages.** Two of your choice  
-- **Equipment.** A [holy symbol](holy-symbol.md) (a gift to you when you entered the priesthood), a prayer [book](book.md) or prayer wheel, 5 sticks of incense, vestments, a set of [common clothes](common-clothes.md), and a belt [pouch](pouch.md) containing 15 gp  
+- **Equipment.** A [holy symbol](03.PlayerLog&Handouts/Mechanics/CLI/items/holy-symbol.md) (a gift to you when you entered the priesthood), a prayer [book](03.PlayerLog&Handouts/Mechanics/CLI/items/book.md) or prayer wheel, 5 sticks of incense, vestments, a set of [common clothes](03.PlayerLog&Handouts/Mechanics/CLI/items/common-clothes.md), and a belt [pouch](03.PlayerLog&Handouts/Mechanics/CLI/items/pouch.md) containing 15 gp  
 
 You have spent your life in the service of a temple to a specific god or pantheon of gods. You act as an intermediary between the realm of the holy and the mortal world, performing sacred rites and offering sacrifices in order to conduct worshipers into the presence of the divine. You are not necessarily a cleric—performing sacred rites is not the same thing as channeling divine power.
 

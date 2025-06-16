@@ -3,12 +3,14 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
+- ttrpg-cli/spell/background/prismari-student
 - ttrpg-cli/spell/class/bard
 - ttrpg-cli/spell/class/druid
 - ttrpg-cli/spell/class/sorcerer
 - ttrpg-cli/spell/class/wizard
 - ttrpg-cli/spell/level/5th-level
 - ttrpg-cli/spell/optfeature/breath-of-winter
+- ttrpg-cli/spell/reward/blessing-of-the-frostmaiden
 - ttrpg-cli/spell/school/evocation
 - ttrpg-cli/spell/subclass/artillerist
 - ttrpg-cli/spell/subclass/circle-of-the-land
@@ -25,7 +27,8 @@ classes:
 - Warlock (The Genie)
 - Warlock (The Hexblade)
 - Wizard
-aliases: ["Cone of Cold"]
+aliases:
+- Cone of Cold
 ---
 # Cone of Cold
 *5th-level, Evocation*  
@@ -40,8 +43,8 @@ A blast of cold air erupts from your hands. Each creature in a 60-foot cone must
 
 A creature killed by this spell becomes a frozen statue until it thaws.
 
-**At Higher Levels.** When you cast this spell using a spell slot of 6th level or higher, the damage increases by `1d8` for each slot level above 5th.
+**At Higher Levels.** When you cast this spell using a spell slot of 6th level or higher, the damage increases by `d8` for each slot level above 5th.
 
-**Classes**: [Druid](list-spells-classes-druid.md); [Druid (Circle of the Land)](list-spells-classes-druid-circle-of-the-land.md); [Artificer (Artillerist)](list-spells-classes-artificer-artillerist-tce.md "subclass=TCE;class=TCE"); [Bard](list-spells-classes-bard.md); [Wizard](list-spells-classes-wizard.md); [Sorcerer](list-spells-classes-sorcerer.md); [Warlock (The Fathomless)](list-spells-classes-warlock-the-fathomless-tce.md "subclass=TCE"); [Warlock (The Genie)](list-spells-classes-warlock-the-genie-tce.md "subclass=TCE"); [Warlock (The Hexblade)](list-spells-classes-warlock-the-hexblade-xge.md "subclass=XGE")
+**Classes**: [Artificer (Artillerist)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-artillerist-tce.md "subclass=TCE;class=TCE"); [Warlock (The Genie)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-genie-tce.md "subclass=TCE"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Warlock (The Hexblade)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-hexblade-xge.md "subclass=XGE"); [Druid (Circle of the Land)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-circle-of-the-land.md); [Warlock (The Fathomless)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-fathomless-tce.md "subclass=TCE")
 
 *Source: Player's Handbook p. 224. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*

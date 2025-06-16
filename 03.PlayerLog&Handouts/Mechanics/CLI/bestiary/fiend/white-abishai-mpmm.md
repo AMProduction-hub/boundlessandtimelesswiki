@@ -8,9 +8,11 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/fiend/devil
 statblock: inline
-aliases: ["White Abishai"]
+statblock-link: "#^statblock"
+aliases:
+- White Abishai
 ---
-# [White Abishai](03 - Player Log & Handouts\Mechanics\CLI\bestiary\fiend/white-abishai-mpmm.md)
+# [White Abishai](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/white-abishai-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 41, Mordenkainen's Tome of Foes p. 163*  
 
 White abishais fight with a reckless fury, making them ideally suited for bolstering the ranks of Tiamat's armies. White abishais fight without fear, becoming whirlwinds of destruction on the battlefield.
@@ -33,56 +35,59 @@ Abishais stand outside the normal hierarchy of the Nine Hells, having their own 
 "ac_class": "natural armor"
 "hp": !!int "68"
 "hit_dice": "8d8 + 32"
+"modifier": !!int "0"
 "stats":
-- !!int "16"
-- !!int "11"
-- !!int "18"
-- !!int "11"
-- !!int "12"
-- !!int "13"
+  - !!int "16"
+  - !!int "11"
+  - !!int "18"
+  - !!int "11"
+  - !!int "12"
+  - !!int "13"
 "speed": "30 ft., fly 40 ft."
 "saves":
-  "Strength": !!int "6"
-  "Constitution": !!int "7"
+  - "strength": "+6"
+  - "constitution": "+7"
 "damage_resistances": "bludgeoning, piercing, slashing from nonmagical attacks that\
   \ aren't silvered"
 "damage_immunities": "cold, fire, poison"
-"condition_immunities": "[poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "darkvision 120 ft., passive Perception 11"
 "languages": "Draconic, Infernal, telepathy 120 ft."
 "cr": "6"
 "traits":
-- "desc": "Magical darkness doesn't impede the abishai's [darkvision](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/senses.md#Darkvision)."
-  "name": "Devil's Sight"
-- "desc": "The abishai has advantage on saving throws against spells and other magical\
-    \ effects."
-  "name": "Magic Resistance"
-- "desc": "At the start of its turn, the abishai can gain advantage on all melee weapon\
-    \ attack rolls during that turn, but attack rolls against it have advantage until\
-    \ the start of its next turn."
-  "name": "Reckless"
+  - "desc": "Magical darkness doesn't impede the abishai's [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)."
+    "name": "Devil's Sight"
+  - "desc": "The abishai has advantage on saving throws against spells and other magical\
+      \ effects."
+    "name": "Magic Resistance"
+  - "desc": "At the start of its turn, the abishai can gain advantage on all melee\
+      \ weapon attack rolls during that turn, but attack rolls against it have advantage\
+      \ until the start of its next turn."
+    "name": "Reckless"
 "actions":
-- "desc": "The abishai makes one Bite attack, one Claw attack, and one Longsword attack."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5 (1d4\
-    \ + 3) piercing damage plus 3 (1d6) cold damage."
-  "name": "Bite"
-- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d10\
-    \ + 3) slashing damage."
-  "name": "Claw"
-- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d8\
-    \ + 3) force damage, or 8 (1d10 + 3) force damage if used with two hands."
-  "name": "Longsword"
+  - "desc": "The abishai makes one Bite attack, one Claw attack, and one Longsword\
+      \ attack."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5\
+      \ (1d4 + 3) piercing damage plus 3 (d6) cold damage."
+    "name": "Bite"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8\
+      \ (1d10 + 3) slashing damage."
+    "name": "Claw"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7\
+      \ (1d8 + 3) force damage, or 8 (1d10 + 3) force damage if used with two\
+      \ hands."
+    "name": "Longsword"
 "reactions":
-- "desc": "In response to taking damage, the abishai makes one Bite attack against\
-    \ a random creature within 5 feet of it. If no creature is within reach, the abishai\
-    \ moves up to half its speed toward an enemy it can see, without provoking [opportunity\
-    \ attacks](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/actions.md#Opportunity%20Attack)."
-  "name": "Vicious Reprisal"
+  - "desc": "In response to taking damage, the abishai makes one Bite attack against\
+      \ a random creature within 5 feet of it. If no creature is within reach, the\
+      \ abishai moves up to half its speed toward an enemy it can see, without provoking\
+      \ [opportunity attacks](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Opportunity%20Attack)."
+    "name": "Vicious Reprisal"
 "source":
-- "MPMM"
-- "MTF"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/fiend/token/white-abishai-mpmm.webp"
+  - "MPMM"
+  - "MTF"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/token/white-abishai-mpmm.webp"
 ```
 ^statblock
 

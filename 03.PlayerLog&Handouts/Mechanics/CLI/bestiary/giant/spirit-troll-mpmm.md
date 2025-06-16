@@ -11,9 +11,11 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/giant
 statblock: inline
-aliases: ["Spirit Troll"]
+statblock-link: "#^statblock"
+aliases:
+- Spirit Troll
 ---
-# [Spirit Troll](03 - Player Log & Handouts\Mechanics\CLI\bestiary\giant/spirit-troll-mpmm.md)
+# [Spirit Troll](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\giant/spirit-troll-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 247, Mordenkainen's Tome of Foes p. 244*  
 
 A troll blasted with psychic energy can take a non physical form upon regenerating. The troll's psyche survives, but the body is as insubstantial as shadow. The troll might be unaware of the transition—the creature still moves and attacks with teeth and claws as ever—but now the troll strikes at victims' minds.
@@ -37,55 +39,56 @@ Vaprak's troll worshipers believe this god devours the souls of those who have b
 "ac_class": "natural armor"
 "hp": !!int "130"
 "hit_dice": "20d10 + 20"
+"modifier": !!int "3"
 "stats":
-- !!int "1"
-- !!int "17"
-- !!int "13"
-- !!int "8"
-- !!int "9"
-- !!int "16"
+  - !!int "1"
+  - !!int "17"
+  - !!int "13"
+  - !!int "8"
+  - !!int "9"
+  - !!int "16"
 "speed": "30 ft."
 "skillsaves":
-  "Perception": !!int "3"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+3"
 "damage_resistances": "acid, cold, fire"
 "damage_immunities": "bludgeoning, piercing, slashing from nonmagical attacks"
-"condition_immunities": "[exhaustion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
-  \ [grappled](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Grappled),\
-  \ [paralyzed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
-  \ [petrified](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
-  \ [prone](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Prone),\
-  \ [restrained](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
-  \ [unconscious](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)"
+"condition_immunities": "[exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
+  \ [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled),\
+  \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
+  \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
+  \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
+  \ [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)"
 "senses": "darkvision 60 ft., passive Perception 13"
 "languages": "Giant"
 "cr": "11"
 "traits":
-- "desc": "The troll can move through other creatures and objects as if they were\
-    \ difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside\
-    \ an object."
-  "name": "Incorporeal Movement"
-- "desc": "The troll regains 10 hit points at the start of each of its turns. If the\
-    \ troll takes psychic or force damage, this trait doesn't function at the start\
-    \ of the troll's next turn. The troll dies only if it starts its turn with 0 hit\
-    \ points and doesn't regenerate."
-  "name": "Regeneration"
+  - "desc": "The troll can move through other creatures and objects as if they were\
+      \ difficult terrain. It takes 5 (d10) force damage if it ends its turn inside\
+      \ an object."
+    "name": "Incorporeal Movement"
+  - "desc": "The troll regains 10 hit points at the start of each of its turns. If\
+      \ the troll takes psychic or force damage, this trait doesn't function at the\
+      \ start of the troll's next turn. The troll dies only if it starts its turn\
+      \ with 0 hit points and doesn't regenerate."
+    "name": "Regeneration"
 "actions":
-- "desc": "The troll makes one Bite attack and two Claw attacks."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 19\
-    \ (3d10 + 3) psychic damage, and the target must succeed on a DC 15 Wisdom saving\
-    \ throw or be [stunned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Stunned)\
-    \ for 1 minute. The [stunned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Stunned)\
-    \ target can repeat the saving throw at the end of each of its turns, ending the\
-    \ effect on itself on a success."
-  "name": "Bite"
-- "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 19\
-    \ (3d10 + 3) psychic damage."
-  "name": "Claws"
+  - "desc": "The troll makes one Bite attack and two Claw attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit:\
+      \ 19 (3d10 + 3) psychic damage, and the target must succeed on a DC 15 Wisdom\
+      \ saving throw or be [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)\
+      \ for 1 minute. The [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)\
+      \ target can repeat the saving throw at the end of each of its turns, ending\
+      \ the effect on itself on a success."
+    "name": "Bite"
+  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit:\
+      \ 19 (3d10 + 3) psychic damage."
+    "name": "Claws"
 "source":
-- "MPMM"
-- "MTF"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/giant/token/spirit-troll-mpmm.webp"
+  - "MPMM"
+  - "MTF"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/token/spirit-troll-mpmm.webp"
 ```
 ^statblock
 

@@ -10,7 +10,7 @@ aliases:
 ---
 # Manual of Bodily Health
 *Wondrous item, major, very rare*  
-![](manual-of-bodily-health.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/manual-of-bodily-health.webp#right)
 
 - **Weight**: 5.0 lbs.
 

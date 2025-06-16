@@ -10,9 +10,11 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/fiend/demon
 statblock: inline
-aliases: ["Tanarukk"]
+statblock-link: "#^statblock"
+aliases:
+- Tanarukk
 ---
-# [Tanarukk](03 - Player Log & Handouts\Mechanics\CLI\bestiary\fiend/tanarukk-mpmm.md)
+# [Tanarukk](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/tanarukk-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 240, Volo's Guide to Monsters p. 186*  
 
 > [!quote] A quote from Tasha  
@@ -35,45 +37,48 @@ Although tanarukks are valued as fearsome fighters, they are a threat to their a
 "ac_class": "natural armor"
 "hp": !!int "95"
 "hit_dice": "10d8 + 50"
+"modifier": !!int "1"
 "stats":
-- !!int "18"
-- !!int "13"
-- !!int "20"
-- !!int "9"
-- !!int "9"
-- !!int "9"
+  - !!int "18"
+  - !!int "13"
+  - !!int "20"
+  - !!int "9"
+  - !!int "9"
+  - !!int "9"
 "speed": "30 ft."
 "skillsaves":
-  "Intimidation": !!int "2"
-  "Perception": !!int "2"
+  - "name": "[Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation)"
+    "desc": "+2"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+2"
 "damage_resistances": "fire, poison"
 "senses": "darkvision 60 ft., passive Perception 12"
 "languages": "Abyssal, Common, plus any one language"
 "cr": "5"
 "traits":
-- "desc": "The tanarukk has advantage on saving throws against spells and other magical\
-    \ effects."
-  "name": "Magic Resistance"
+  - "desc": "The tanarukk has advantage on saving throws against spells and other\
+      \ magical effects."
+    "name": "Magic Resistance"
 "actions":
-- "desc": "The tanarukk makes one Bite attack and one Greatsword attack."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d8\
-    \ + 4) piercing damage."
-  "name": "Bite"
-- "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
-    \ (2d6 + 4) slashing damage."
-  "name": "Greatsword"
+  - "desc": "The tanarukk makes one Bite attack and one Greatsword attack."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8\
+      \ (1d8 + 4) piercing damage."
+    "name": "Bite"
+  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
+      \ (2d6 + 4) slashing damage."
+    "name": "Greatsword"
 "bonus_actions":
-- "desc": "The tanarukk moves up to its speed toward an enemy that it can see."
-  "name": "Aggressive"
+  - "desc": "The tanarukk moves up to its speed toward an enemy that it can see."
+    "name": "Aggressive"
 "reactions":
-- "desc": "In response to being hit by a melee attack, the tanarukk can make one Bite\
-    \ or Greatsword attack with advantage against the attacker."
-  "name": "Unbridled Fury"
+  - "desc": "In response to being hit by a melee attack, the tanarukk can make one\
+      \ Bite or Greatsword attack with advantage against the attacker."
+    "name": "Unbridled Fury"
 "source":
-- "MPMM"
-- "VGM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/fiend/token/tanarukk-mpmm.webp"
+  - "MPMM"
+  - "VGM"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/token/tanarukk-mpmm.webp"
 ```
 ^statblock
 

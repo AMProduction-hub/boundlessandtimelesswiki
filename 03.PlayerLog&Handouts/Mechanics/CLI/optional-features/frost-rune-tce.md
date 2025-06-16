@@ -4,7 +4,8 @@ cssclasses: json5e-feat
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/optional-feature/rn
-aliases: ["Frost Rune"]
+aliases:
+- Frost Rune
 ---
 # Frost Rune
 *Source: Tasha's Cauldron of Everything p. 45*  

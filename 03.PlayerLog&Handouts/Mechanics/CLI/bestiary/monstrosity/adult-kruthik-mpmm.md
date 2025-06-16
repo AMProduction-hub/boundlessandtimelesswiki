@@ -10,12 +10,14 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/monstrosity
 statblock: inline
-aliases: ["Adult Kruthik"]
+statblock-link: "#^statblock"
+aliases:
+- Adult Kruthik
 ---
-# [Adult Kruthik](03 - Player Log & Handouts\Mechanics\CLI\bestiary\monstrosity/adult-kruthik-mpmm.md)
+# [Adult Kruthik](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/adult-kruthik-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 169, Mordenkainen's Tome of Foes p. 212*  
 
-It takes six months of steady eating for a [young kruthik](young-kruthik-mpmm.md) to reach adult size. The natural life span of an adult kruthik is roughly seven years.
+It takes six months of steady eating for a [young kruthik](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/young-kruthik-mpmm.md) to reach adult size. The natural life span of an adult kruthik is roughly seven years.
 
 Adult kruthiks grow spiky protrusions on their legs and can fling these dagger-sized spikes at enemies beyond the reach of their claws.
 
@@ -48,40 +50,42 @@ Kruthiks abide the presence of Constructs, Elementals, Oozes, and Undead, and th
 "ac_class": "natural armor"
 "hp": !!int "39"
 "hit_dice": "6d8 + 12"
+"modifier": !!int "3"
 "stats":
-- !!int "15"
-- !!int "16"
-- !!int "15"
-- !!int "7"
-- !!int "12"
-- !!int "8"
+  - !!int "15"
+  - !!int "16"
+  - !!int "15"
+  - !!int "7"
+  - !!int "12"
+  - !!int "8"
 "speed": "40 ft., burrow 20 ft., climb 40 ft."
 "skillsaves":
-  "Perception": !!int "5"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+5"
 "senses": "darkvision 60 ft., tremorsense 60 ft., passive Perception 15"
 "languages": "Kruthik"
 "cr": "2"
 "traits":
-- "desc": "The kruthik has advantage on an attack roll against a creature if at least\
-    \ one of the kruthik's allies is within 5 feet of the creature and the ally isn't\
-    \ [incapacitated](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)."
-  "name": "Pack Tactics"
-- "desc": "The kruthik can burrow through solid rock at half its burrowing speed and\
-    \ leaves a 5-foot-diameter tunnel in its wake."
-  "name": "Tunneler"
+  - "desc": "The kruthik has advantage on an attack roll against a creature if at\
+      \ least one of the kruthik's allies is within 5 feet of the creature and the\
+      \ ally isn't [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)."
+    "name": "Pack Tactics"
+  - "desc": "The kruthik can burrow through solid rock at half its burrowing speed\
+      \ and leaves a 5-foot-diameter tunnel in its wake."
+    "name": "Tunneler"
 "actions":
-- "desc": "The kruthik makes two Stab or Spike attacks."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6\
-    \ + 3) piercing damage."
-  "name": "Stab"
-- "desc": "Ranged Weapon Attack: +5 to hit, range 20/60 ft., one target. Hit:\
-    \ 5 (1d4 + 3) piercing damage."
-  "name": "Spike"
+  - "desc": "The kruthik makes two Stab or Spike attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+      \ (1d6 + 3) piercing damage."
+    "name": "Stab"
+  - "desc": "Ranged Weapon Attack: +5 to hit, range 20/60 ft., one target. Hit:\
+      \ 5 (1d4 + 3) piercing damage."
+    "name": "Spike"
 "source":
-- "MPMM"
-- "MTF"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/monstrosity/token/adult-kruthik-mpmm.webp"
+  - "MPMM"
+  - "MTF"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/token/adult-kruthik-mpmm.webp"
 ```
 ^statblock
 

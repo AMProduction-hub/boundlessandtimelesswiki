@@ -4,7 +4,8 @@ cssclasses: json5e-hazard
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/hazard/est
-aliases: ["Flame Storm"]
+aliases:
+- Flame Storm
 ---
 # Flame Storm
 *Eldritch Storm*  

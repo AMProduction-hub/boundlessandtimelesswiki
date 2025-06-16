@@ -15,11 +15,11 @@ aliases:
 
 **Items in this group:**
 
-- [Potion of Cloud Giant Strength](potion-of-cloud-giant-strength.md)
-- [Potion of Fire Giant Strength](potion-of-fire-giant-strength.md)
-- [Potion of Frost Giant Strength](potion-of-frost-giant-strength.md)
-- [Potion of Hill Giant Strength](potion-of-hill-giant-strength.md)
-- [Potion of Stone Giant Strength](potion-of-stone-giant-strength.md)
-- [Potion of Storm Giant Strength](potion-of-storm-giant-strength.md)
+- [Potion of Cloud Giant Strength](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-cloud-giant-strength.md)
+- [Potion of Fire Giant Strength](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-fire-giant-strength.md)
+- [Potion of Frost Giant Strength](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-frost-giant-strength.md)
+- [Potion of Hill Giant Strength](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-hill-giant-strength.md)
+- [Potion of Stone Giant Strength](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-stone-giant-strength.md)
+- [Potion of Storm Giant Strength](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-storm-giant-strength.md)
 
 *Source: Dungeon Master's Guide p. 187*

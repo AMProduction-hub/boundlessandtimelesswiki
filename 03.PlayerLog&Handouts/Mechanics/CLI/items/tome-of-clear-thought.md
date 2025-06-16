@@ -10,7 +10,7 @@ aliases:
 ---
 # Tome of Clear Thought
 *Wondrous item, major, very rare*  
-![](tome-of-clear-thought.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/tome-of-clear-thought.webp#right)
 
 - **Weight**: 5.0 lbs.
 

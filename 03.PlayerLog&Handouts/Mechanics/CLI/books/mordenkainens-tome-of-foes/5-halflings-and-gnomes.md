@@ -3,12 +3,13 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
-aliases: ["Halflings and Gnomes"]
+aliases:
+- Halflings and Gnomes
 ---
 # Halflings and Gnomes
 *Source: Mordenkainen's Tome of Foes, p. 99* 
 
-![](mtf_chapterstarts_ch5.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/mordenkainens-tome-of-foes/img/mtf_chapterstarts_ch5.webp#center)
 
 Creatures of many races and cultures are embroiled in struggles that flare up across the multiverse. Other folk survive in the face of all this turmoil by keeping a low profile and avoiding the wars and other depredations that keep the outside world in a state of flux.
 
@@ -61,7 +62,7 @@ Throughout recorded history, halflings have never sought to expand their reach b
 
 On the surface, halflings seem to be simple folk, but those who have lived with them or who have had a halfling in their company know that there is much more to the lives of these small folk than meets the eye. The members of a halfling community have a set of shared values and purposes, whether they are tucked away in a hillside burrow or occupying a neighborhood of their own in a city or town dominated by another race.
 
-![](315600_cn_wmask.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/mordenkainens-tome-of-foes/img/315600_cn_wmask.webp#center)
 
 #### Everything Has a Story
 
@@ -172,7 +173,7 @@ The Halfling Deities table lists the members of the halfling pantheon. For each 
 
 #### Halfling Deities
 
-![Halfling Deities](halfling-deities-mtf.md)
+![Halfling Deities](03.PlayerLog&Handouts/Mechanics/CLI/tables/halfling-deities-mtf.md)
 
 #### Yondalla
 
@@ -182,7 +183,7 @@ Yondalla created the first halfling villages and showed the people how to build,
 
 To the halflings, Yondalla is responsible for the spring in their step and the bubbly excitement they feel from knowing that luck is on their side. When a pumpkin grows to enormous size or a garden yields twice as many carrots as usual, credit goes to Yondalla. When a halfling trips, slides down a hillside, and lands on a nugget of gold, that's Yondalla turning bad luck into good.
 
-![](315601_cn_wmask.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/mordenkainens-tome-of-foes/img/315601_cn_wmask.webp#center)
 
 #### Arvoreen
 
@@ -266,7 +267,7 @@ The term refers to the persistent urge to wander beyond the boundaries of the co
 
 Some elders-especially those who once had fancy feet themselves-just shrug, smile, and say it is the way of things. Nevertheless, well-meaning villagers might try to dissuade a youngster from leaving the community. Other villages are much more supportive of one of their members who demonstrates the urge to adventure, likely because some of their elders have gone into the world and returned to tell about it. In one of these places, a youngster about to set out is celebrated with a rousing party that goes far into the night, during which the adventurer-to-be is regaled by tales of other "fancy-footed" heroes of halfling history.
 
-![](315599_cn_wmask.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/mordenkainens-tome-of-foes/img/315599_cn_wmask.webp#center)
 
 #### Legends in the Making
 
@@ -293,15 +294,15 @@ Of course, not every journey into the world involves risking one's life or claim
 
 This section provides a number of tables useful for players and DMs who want to choose or randomly generate details about halfling characters or villages.
 
-![Halfling Tables; Halfling Personality Traits](halfling-tables-halfling-personality-traits-mtf.md)
+![Halfling Tables; Halfling Personality Traits](03.PlayerLog&Handouts/Mechanics/CLI/tables/halfling-tables-halfling-personality-traits-mtf.md)
 
-![Halfling Tables; Halfling Ideals](halfling-tables-halfling-ideals-mtf.md)
+![Halfling Tables; Halfling Ideals](03.PlayerLog&Handouts/Mechanics/CLI/tables/halfling-tables-halfling-ideals-mtf.md)
 
-![Halfling Tables; Halfling Bonds](halfling-tables-halfling-bonds-mtf.md)
+![Halfling Tables; Halfling Bonds](03.PlayerLog&Handouts/Mechanics/CLI/tables/halfling-tables-halfling-bonds-mtf.md)
 
-![Halfling Tables; Halfling Flaws](halfling-tables-halfling-flaws-mtf.md)
+![Halfling Tables; Halfling Flaws](03.PlayerLog&Handouts/Mechanics/CLI/tables/halfling-tables-halfling-flaws-mtf.md)
 
-![Halfling Tables; Reasons for Adventuring](halfling-tables-reasons-for-adventuring-mtf.md)
+![Halfling Tables; Reasons for Adventuring](03.PlayerLog&Handouts/Mechanics/CLI/tables/halfling-tables-reasons-for-adventuring-mtf.md)
 
 ## Gnomes
 
@@ -321,7 +322,7 @@ Though this pursuit of knowledge might compel a gnome to spend long periods in t
 
 Their fun-loving attitude also comes through in the form of jokes that gnomes tell to, or about, their companions, and in the good-spirited pranks that they play on each other-and on other folk (who might not always appreciate being the target of their humor).
 
-![](315602_cn_wmask.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/mordenkainens-tome-of-foes/img/315602_cn_wmask.webp#center)
 
 #### The Journey Is the Destination
 
@@ -345,7 +346,7 @@ These inventors are rarely reluctant to try making devices of exceptional power,
 
 > [!note] Celestial Toymakers
 > 
-> A handful of master artificers exist among the rock gnomes who take the magic of their craft to new heights. These legendary gnomes usually reside in Bytopia and on other planes far from the Material Plane, locales where they can access and harness powerful energies. They have unlocked secrets of the multiverse that enable them to fashion mindboggling creations-their socalled "celestial toys."
+> A handful of master artificers exist among the rock gnomes who take the magic of their craft to new heights. These legendary gnomes usually reside in Bytopia and on other planes far from the Material Plane, locales where they can access and harness powerful energies. They have unlocked secrets of the multiverse that enable them to fashion mind-boggling creations-their socalled "celestial toys."
 > 
 > These master artificers are friendly to those who seek them out. They enjoy showing off their works and take great glee in watching visitors interact with their toys, while they scribble notes on how to refine their creations.
 > 
@@ -358,7 +359,7 @@ Imagination runs wild in the mind of a gnome. Any fresh idea can be the starting
 
 Exploration is a part of invention, as the gnomes see it, so there's nothing wrong with creating machines and artifacts that seem to have no purpose. The gnomes who produce these works of art are using new ideas and new approaches, breaking through old boundaries and advancing the frontier of knowledge. For instance, an artist might create a beautiful articulated sculpture whose pieces can be manipulated in a unique way. Another artisan might take that idea and apply it to a new form of invention-but no one forgets that it was the artist's idea that blazed the trail for that journey.
 
-![](315604_cn_wmask.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/mordenkainens-tome-of-foes/img/315604_cn_wmask.webp#center)
 
 #### Alchemists
 
@@ -398,7 +399,7 @@ Forest gnomes are good at making their homes vanish into the landscape. It helps
 
 Beyond the secret doors into their houses, the homes of forest gnomes are gaily decorated, tidy spaces that take advantage of natural features. A great glass bowl swimming with fish and frogs might serve as a skylight for a gnome burrow, while appearing to the world above as a small pond. The gnarled and tangled roots of a tree might be used for shelves, seats, tables, and bed spaces. Such houses often have many little channels open to the outside, allowing scraps of sunlight to dapple the walls and floors and providing a means of egress for the many animals that live with the gnomes. Similar small openings are used for their cleverly hidden chimneys, disguised as tree branches, which carry smoke from their small fires high into the treetops, reducing it to little more than a haze before it disperses.
 
-![](315603_cn.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/mordenkainens-tome-of-foes/img/315603_cn.webp#center)
 
 #### Animal Helpers
 
@@ -448,7 +449,7 @@ A consensus of sorts emerges from the totality of these beliefs. Most gnomes bel
 
 The Gnome Deities table lists the members of the gnome pantheon. For each god, the table notes alignment, province (the god's main areas of interest and responsibility), suggested domains for clerics who serve the god, and a common symbol of the god. Several of the gods in the table are described below.
 
-![Gnome Gods; Gnome Deities](gnome-gods-gnome-deities-mtf.md)
+![Gnome Gods; Gnome Deities](03.PlayerLog&Handouts/Mechanics/CLI/tables/gnome-gods-gnome-deities-mtf.md)
 
 #### Garl Glittergold
 
@@ -468,7 +469,7 @@ Garl favors trickery and illusion over direct combat, preferring to use his mind
 
 Kobolds and gnomes have been foes for as long as either group can remember, all because of a brilliant prank that Garl Glittergold played on Kurtulmak, the kobold deity.
 
-In a longago age, as one version of the story goes, the kobolds were used as slaves by evil dragons, much as they are today-forced to scrub the scales of their masters, clean their lairs, and stack the gold in their treasure hoards. One kobold, Kurtulmak, was arguably the craftiest of all kobolds. He sought other creatures to do the work in the kobolds' stead, and found a suitable victim in the gnomes. Because they were less aggressive than their tormentors, the gnomes fell under the sway of Kurtulmak's horde of kobolds.
+In a long ago age, as one version of the story goes, the kobolds were used as slaves by evil dragons, much as they are today-forced to scrub the scales of their masters, clean their lairs, and stack the gold in their treasure hoards. One kobold, Kurtulmak, was arguably the craftiest of all kobolds. He sought other creatures to do the work in the kobolds' stead, and found a suitable victim in the gnomes. Because they were less aggressive than their tormentors, the gnomes fell under the sway of Kurtulmak's horde of kobolds.
 
 But Garl Glittergold proved to be a thorn in Kurtulmak's scaly side. The merry prankster irritated, bamboozled, confounded, and exasperated the kobold god while freeing large groups of gnomes from his clutches. When Kurtulmak's patience wore out after several of these embarrassments, he declared an oath to bring death to all gnomes.
 
@@ -593,16 +594,16 @@ A deep gnome, pragmatic and cautious, brings a sense of duty rather than a sense
 
 At the DM's discretion, you can play a deep gnome character. When you choose the subrace of your gnome, you can choose deep gnome, using the following rules to create your character.
 
-- [Gnome (Deep)](deep-gnome-mpmm.md)  
+- [Gnome (Deep)](03.PlayerLog&Handouts/Mechanics/CLI/races/deep-gnome-mpmm.md)  
 
 ## Gnome Tables
 
 This section provides several tables useful for players and DMs who want to create gnome characters.
 
-![Gnome Tables; Gnome Personality Traits](gnome-tables-gnome-personality-traits-mtf.md)
+![Gnome Tables; Gnome Personality Traits](03.PlayerLog&Handouts/Mechanics/CLI/tables/gnome-tables-gnome-personality-traits-mtf.md)
 
-![Gnome Tables; Gnome Ideals](gnome-tables-gnome-ideals-mtf.md)
+![Gnome Tables; Gnome Ideals](03.PlayerLog&Handouts/Mechanics/CLI/tables/gnome-tables-gnome-ideals-mtf.md)
 
-![Gnome Tables; Gnome Bonds](gnome-tables-gnome-bonds-mtf.md)
+![Gnome Tables; Gnome Bonds](03.PlayerLog&Handouts/Mechanics/CLI/tables/gnome-tables-gnome-bonds-mtf.md)
 
-![Gnome Tables; Gnome Flaws](gnome-tables-gnome-flaws-mtf.md)
+![Gnome Tables; Gnome Flaws](03.PlayerLog&Handouts/Mechanics/CLI/tables/gnome-tables-gnome-flaws-mtf.md)

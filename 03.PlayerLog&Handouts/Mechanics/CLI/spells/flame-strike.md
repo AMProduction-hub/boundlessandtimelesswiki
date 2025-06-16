@@ -3,6 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
+- ttrpg-cli/spell/background/boros-legionnaire
+- ttrpg-cli/spell/background/lorehold-student
 - ttrpg-cli/spell/class/bard
 - ttrpg-cli/spell/class/cleric
 - ttrpg-cli/spell/level/5th-level
@@ -28,7 +30,8 @@ classes:
 - Warlock (The Celestial)
 - Warlock (The Fiend)
 - Warlock (The Genie)
-aliases: ["Flame Strike"]
+aliases:
+- Flame Strike
 ---
 # Flame Strike
 *5th-level, Evocation*  
@@ -41,8 +44,8 @@ aliases: ["Flame Strike"]
 
 A vertical column of divine fire roars down from the heavens in a location you specify. Each creature in a 10-foot-radius, 40-foot-high cylinder centered on a point within range must make a Dexterity saving throw. A creature takes `4d6` fire damage and `4d6` radiant damage on a failed save, or half as much damage on a successful one.
 
-**At Higher Levels.** When you cast this spell using a spell slot of 6th level or higher, the fire damage or the radiant damage (your choice) increases by `1d6` for each slot level above 5th.
+**At Higher Levels.** When you cast this spell using a spell slot of 6th level or higher, the fire damage or the radiant damage (your choice) increases by `d6` for each slot level above 5th.
 
-**Classes**: [Cleric](list-spells-classes-cleric.md); [Bard](list-spells-classes-bard.md); [Paladin (Oath of Glory)](list-spells-classes-paladin-oath-of-glory-tce.md "subclass=TCE"); [Warlock (The Celestial)](list-spells-classes-warlock-the-celestial-xge.md "subclass=XGE"); [Druid (Circle of Wildfire)](list-spells-classes-druid-circle-of-wildfire-tce.md "subclass=TCE"); [Warlock (The Genie)](list-spells-classes-warlock-the-genie-tce.md "subclass=TCE"); [Cleric (Light Domain)](list-spells-classes-cleric-light-domain.md); [Warlock (The Fiend)](list-spells-classes-warlock-the-fiend.md); [Sorcerer (Divine Soul)](list-spells-classes-sorcerer-divine-soul-xge.md "subclass=XGE"); [Paladin (Oath of Devotion)](list-spells-classes-paladin-oath-of-devotion.md); [Cleric (War Domain)](list-spells-classes-cleric-war-domain.md)
+**Classes**: [Druid (Circle of Wildfire)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-circle-of-wildfire-tce.md "subclass=TCE"); [Cleric (Light Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-light-domain.md); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Warlock (The Genie)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-genie-tce.md "subclass=TCE"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Paladin (Oath of Devotion)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-devotion.md); [Paladin (Oath of Glory)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-glory-tce.md "subclass=TCE"); [Warlock (The Celestial)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-celestial-xge.md "subclass=XGE"); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Cleric (War Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-war-domain.md); [Warlock (The Fiend)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-fiend.md)
 
 *Source: Player's Handbook p. 242. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*

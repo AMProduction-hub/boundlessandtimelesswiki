@@ -7,9 +7,11 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/undead
 statblock: inline
-aliases: ["Undead Spirit (Putrid)"]
+statblock-link: "#^statblock"
+aliases:
+- Undead Spirit (Putrid)
 ---
-# [Undead Spirit (Putrid)](03 - Player Log & Handouts\Mechanics\CLI\bestiary\undead/undead-spirit-putrid-tce.md)
+# [Undead Spirit (Putrid)](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/undead-spirit-putrid-tce.md)
 *Source: Tasha's Cauldron of Everything p. 114*  
 
 ```statblock
@@ -18,38 +20,40 @@ aliases: ["Undead Spirit (Putrid)"]
 "type": "undead"
 "alignment": "Unaligned"
 "ac_class": "11 + the level of the spell (natural armor)"
+"modifier": !!int "3"
 "stats":
-- !!int "12"
-- !!int "16"
-- !!int "15"
-- !!int "4"
-- !!int "10"
-- !!int "9"
+  - !!int "12"
+  - !!int "16"
+  - !!int "15"
+  - !!int "4"
+  - !!int "10"
+  - !!int "9"
 "speed": "30 ft."
 "damage_immunities": "necrotic, poison"
-"condition_immunities": "[exhaustion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
-  \ [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
-  \ [paralyzed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
-  \ [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
+  \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
+  \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
+  \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "darkvision 60 ft., passive Perception 10"
 "languages": "understands the languages you speak"
 "traits":
-- "desc": "Any creature, other than you, that starts its turn within 5 feet of the\
-    \ spirit must succeed on a Constitution saving throw against your spell save DC\
-    \ or be [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
-    \ until the start of its next turn."
-  "name": "Festering Aura"
+  - "desc": "Any creature, other than you, that starts its turn within 5 feet of the\
+      \ spirit must succeed on a Constitution saving throw against your spell save\
+      \ DC or be [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
+      \ until the start of its next turn."
+    "name": "Festering Aura"
 "actions":
-- "desc": "The spirit makes a number of attacks equal to half this spell's level (rounded\
-    \ down)."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: YourSpellAttack to hit, reach 5 ft., one target.\
-    \ Hit: 1d6 + 3 + the spell's level slashing damage. If the target is [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
-    \ it must succeed on a Constitution saving throw against your spell save DC or\
-    \ be [paralyzed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed)\
-    \ until the end of its next turn."
-  "name": "Rotting Claw"
+  - "desc": "The spirit makes a number of attacks equal to half this spell's level\
+      \ (rounded down)."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft.,\
+      \ one target. Hit: 1d6 + 3 + the spell's level slashing damage. If the target\
+      \ is [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
+      \ it must succeed on a Constitution saving throw against your spell save DC\
+      \ or be [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed)\
+      \ until the end of its next turn."
+    "name": "Rotting Claw"
 "source":
-- "TCE"
+  - "TCE"
 ```
 ^statblock

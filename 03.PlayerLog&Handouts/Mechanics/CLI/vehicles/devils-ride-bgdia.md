@@ -6,7 +6,8 @@ tags:
 - ttrpg-cli/vehicle/size/large
 - ttrpg-cli/vehicle/terrain/land
 - ttrpg-cli/vehicle/type/infernal-war-machine
-aliases: ["Devil's Ride"]
+aliases:
+- Devil's Ride
 ---
 # Devil's Ride
 %%-- Embedded content starts on the next line. --%%
@@ -16,7 +17,7 @@ A Devil's Ride is a two-wheeled infernal war machine that handles like a motorcy
 
 ```ad-statblock
 title: Devil's Ride
-![](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/vehicles/token/devils-ride-bgdia.webp#token)
+![](03.PlayerLog&Handouts/Mechanics/CLI/vehicles/token/devils-ride-bgdia.webp#token)
 *Large vehicle ( 500 lb.); land*
 
 - **Cargo Capacity**  100 lb.
@@ -30,22 +31,22 @@ title: Devil's Ride
 |14 (+2)|18 (+4)|12 (+1)| 0 (-5)| 0 (-5)| 0 (-5)|
 
 - **Damage Immunities** fire, poison, psychic
-- **Condition Immunities** [blinded](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Blinded), [charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed), [deafened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Deafened), [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened), [paralyzed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed), [petrified](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Petrified), [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned), [stunned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Stunned), [unconscious](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)
+- **Condition Immunities** [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded), [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened), [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened), [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed), [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified), [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned), [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned), [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)
 
 ## Traits
 
-**Jump** If the Devil's Ride moves at least 30 feet in a straight line, it can clear a distance of up to 60 feet when jumping over a chasm, ravine, or other gap. Each foot it clears on the jump costs a foot of movement.
+**Jump.** If the Devil's Ride moves at least 30 feet in a straight line, it can clear a distance of up to 60 feet when jumping over a chasm, ravine, or other gap. Each foot it clears on the jump costs a foot of movement.
 
-**Prone Deficiency** If the Devil's Ride falls [prone](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Prone), it can't right itself and is [incapacitated](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated) until pulled upright.
+**Prone Deficiency.** If the Devil's Ride falls [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), it can't right itself and is [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated) until pulled upright.
 
-**Stunt** On its turn, the driver of the Devil's Ride can expend 10 feet of movement to perform one free vehicle stunt, such as a wheelie or a burnout. Before the stunt can be performed, the Devil's Ride must move at least 10 feet in a straight line. If the driver succeeds on a DC 10 Dexterity check using the bike's Dexterity, the stunt is successful. Otherwise, the driver is unable to perform the stunt and can't attempt another stunt until the start of its next turn. If the check fails by 5 or more, the Devil's Ride and all creatures riding it immediately fall [prone](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Prone) as the bike wipes out and comes to a dead stop.
+**Stunt.** On its turn, the driver of the Devil's Ride can expend 10 feet of movement to perform one free vehicle stunt, such as a wheelie or a burnout. Before the stunt can be performed, the Devil's Ride must move at least 10 feet in a straight line. If the driver succeeds on a DC 10 Dexterity check using the bike's Dexterity, the stunt is successful. Otherwise, the driver is unable to perform the stunt and can't attempt another stunt until the start of its next turn. If the check fails by 5 or more, the Devil's Ride and all creatures riding it immediately fall [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone) as the bike wipes out and comes to a dead stop.
 
 ## Action Stations
 
-**Helm (Requires 1 Crew and Grants Half Cover)** Drive and steer the Devil's Ride.
+**Helm (Requires 1 Crew and Grants Half Cover).** Drive and steer the Devil's Ride.
 
 ## Reactions
 
-**Juke** If the Devil's Ride is able to move, the driver can use its reaction to grant the Devil's Ride advantage on a Dexterity saving throw.
+**Juke.** If the Devil's Ride is able to move, the driver can use its reaction to grant the Devil's Ride advantage on a Dexterity saving throw.
 ```
 ^statblock

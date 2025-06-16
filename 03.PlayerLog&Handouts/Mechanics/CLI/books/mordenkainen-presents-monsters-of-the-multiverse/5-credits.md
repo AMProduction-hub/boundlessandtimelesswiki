@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
-aliases: ["Credits"]
+aliases:
+- Credits
 ---
 # Credits
 *Source: Mordenkainen Presents: Monsters of the Multiverse* 
@@ -15,7 +16,7 @@ aliases: ["Credits"]
         - **Editing.** Judy Bauer, Michele Carter, Kim Mohan, Christopher Perkins    
         - **Graphic Designers.** Trystan Falcone, Emi Tanji    
         - **Cover Illustrator.** Grzegorz Rutkowski    
-        - **Interior Illustrators.** Dave Allsop, Tom Babbey, John-Paul Balmet, Thomas M. Baxa, Mark Behm, Eric Belisle, Michael Berube, Mike Bierek, Jared Blando, Zoltan Boros, Christopher Bradley, Alix Branwyn, Aleksi Briclot, IP Dmitry Burmak, Filip Burburan, Christopher Burdett, Sidharth Chaturvedi, Jedd Chevrier, Conceptopolis, Daarken, Nikki Dawes, Eric Deschamps, Simon Dominic, Dave Dorman, Nicholas Elias, Wayne England, Jason Felix, Justin Gerard, Justyna Gil, Lars Grant-West, Jon Hodgson, Ralph Horsley, Tyler Jacobson, Mike Jordana, Vance Kelly, Julian Kok, Michael Komarck, Daniel Landerman, Olly Lawson, Daniel Ljunggren, Valera Lutfullina, Warren Mahy, Lorenzo Mastroianni, Brynn Metheney, Aaron Miller, Francisco Miyara, Caio Monteiro, Scott Murphy, Marta Nael, Marco Nelor, Jim Nelson, Adam Paquette, PINDURSKI, Claudio Pozas, April Prime, Grzegorz Rutkowski, Marc Sasso, Chris Seaman, Ilya Shkipin, Rudy Siswanto, David Sladek, Craig J Spearing, Bryan Sola, Zack Stella, Sarah Stone, Philip Straub, Arnie Swekel, Thom Tenery, David A. Trampier, Cory Trego-Erdner, Beth Trott, Brian Valeza, Randy Vargas, Franz Vohwinkel, Anthony S. Waters, Campbell White, Richard Whitters, Eva Widermann, Sam Wood, Shawn Wood, Ben Wootten, Zuzanna Wuuyk, Min Yum    
+        - **Interior Illustrators.** Dave Allsop, Tom Babbey, John-Paul Balmet, Thomas M. Baxa, Mark Behm, Eric Belisle, Michael Berube, Mike Bierek, Jared Blando, Zoltan Boros, Christopher Bradley, Alix Branwyn, Aleksi Briclot, IP Dmitry Burmak, Filip Burburan, Christopher Burdett, Sidharth Chaturvedi, Jedd Chevrier, Conceptopolis, Daarken, Nikki Dawes, Eric Deschamps, Simon Dominic, Dave Dorman, Nicholas Elias, Wayne England, Jason Felix, Justin Gerard, Justyna Gil, Lars Grant-West, Jon Hodgson, Ralph Horsley, Tyler Jacobson, Mike Jordana, Vance Kelly, Julian Kok, Michael Komarck, Daniel Landerman, Olly Lawson, Daniel Ljunggren, Valera Lutfullina, Warren Mahy, Lorenzo Mastroianni, Brynn Metheney, Aaron Miller, Francisco Miyara, Caio Monteiro, Scott Murphy, Marta Nael, Marco Nelor, Jim Nelson, Adam Paquette, PINDURSKI, Claudio Pozas, April Prime, Grzegorz Rutkowski, Marc Sasso, Chris Seaman, Ilya Shkipin, Rudy Siswanto, David Sladek, Craig J Spearing, Bryan Sola, Zack Stella, Sarah Stone, Philip Straub, Arnie Swekel, Thom Tenery, David A. Trampier, Cory Trego-Erdner, Beth Trott, Brian Valeza, Randy Vargas, Franz Vohwinkel, Anthony S. Waters, Campbell White, Richard Whitters, Eva Widermann, Sam Wood, Shawn Wood, Ben Wootten, Zuzanna Wužyk, Min Yum    
         - **Project Engineer.** Cynda Callaway    
         - **Imaging Technician.** Kevin Yee    
         - **Prepress Specialist.** Jefferson Dunlap    

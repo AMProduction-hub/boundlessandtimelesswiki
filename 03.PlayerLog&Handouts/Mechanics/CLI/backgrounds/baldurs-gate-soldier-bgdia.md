@@ -4,7 +4,8 @@ cssclasses: json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/bgdia
-aliases: ["Baldur's Gate Soldier"]
+aliases:
+- Baldur's Gate Soldier
 ---
 # Baldur's Gate Soldier
 *Source: Baldur's Gate: Descent Into Avernus p. 204, Player's Handbook p. 140*  
@@ -12,7 +13,7 @@ aliases: ["Baldur's Gate Soldier"]
 
 - **Skill Proficiencies.** [Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics), [Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation)  
 - **Tool Proficiencies.** One type of gaming set, vehicles (land)  
-- **Equipment.** An insignia of rank, a trophy taken from a fallen enemy (a [dagger](dagger.md), broken blade, or piece of a banner), a bone [dice set](dice-set.md) or [playing card set](playing-card-set.md), a set of [common clothes](common-clothes.md), and a belt [pouch](pouch.md) containing 10 gp  
+- **Equipment.** An insignia of rank, a trophy taken from a fallen enemy (a [dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md), broken blade, or piece of a banner), a bone [dice set](03.PlayerLog&Handouts/Mechanics/CLI/items/dice-set.md) or [playing card set](03.PlayerLog&Handouts/Mechanics/CLI/items/playing-card-set.md), a set of [common clothes](03.PlayerLog&Handouts/Mechanics/CLI/items/common-clothes.md), and a belt [pouch](03.PlayerLog&Handouts/Mechanics/CLI/items/pouch.md) containing 10 gp  
 
 Mercenaries, private guards, Watch soldiers, and members of the Flaming Fist number among just a few of the many soldiers on the streets of Baldur's Gate.
 

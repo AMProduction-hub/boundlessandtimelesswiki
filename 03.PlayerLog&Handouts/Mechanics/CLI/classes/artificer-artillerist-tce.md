@@ -4,11 +4,12 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/subclass/artificer/artillerist
-aliases: ["Artillerist"]
+aliases:
+- Artillerist
 ---
 # Artillerist
-*[Artificer](artificer-tce.md): Artificer Specialist*  
-*Source: Tasha's Cauldron of Everything p. 17*  
+*[Artificer](./artificer-tce.md): Artificer Specialist*  
+*Source: Tasha's Cauldron of Everything p. 17, Eberron: Rising from the Last War p. 59*  
 
 > [!tldr] Class and Feature Progression
 > 
@@ -52,7 +53,7 @@ The gnome artificer Vi, an unlikely yet key member of House Cannith's warforged 
 
 ### Tool Proficiency (Level 3)
 
-When you adopt this specialization at 3rd level, you gain proficiency with [woodcarver's tools](woodcarvers-tools.md). If you already have this proficiency, you gain proficiency with one other type of [artisan's tools](artisans-tools.md) of your choice.
+When you adopt this specialization at 3rd level, you gain proficiency with [woodcarver's tools](03.PlayerLog&Handouts/Mechanics/CLI/items/woodcarvers-tools.md). If you already have this proficiency, you gain proficiency with one other type of [artisan's tools](03.PlayerLog&Handouts/Mechanics/CLI/items/artisans-tools.md) of your choice.
 
 ### Artillerist Spells (Level 3)
 
@@ -62,20 +63,20 @@ Starting at 3rd level, you always have certain spells prepared after you reach p
 
 | Artificer Level | Spell |
 |-----------------|-------|
-| 3rd | [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md), [thunderwave](thunderwave.md) |
-| 5th | [scorching ray](scorching-ray.md), [shatter](shatter.md) |
-| 9th | [fireball](fireball.md), [wind wall](wind-wall.md) |
-| 13th | [ice storm](ice-storm.md), [wall of fire](wall-of-fire.md) |
-| 17th | [cone of cold](cone-of-cold.md), [wall of force](wall-of-force.md) |
+| 3rd | [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md), [thunderwave](03.PlayerLog&Handouts/Mechanics/CLI/spells/thunderwave.md) |
+| 5th | [scorching ray](03.PlayerLog&Handouts/Mechanics/CLI/spells/scorching-ray.md), [shatter](03.PlayerLog&Handouts/Mechanics/CLI/spells/shatter.md) |
+| 9th | [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md), [wind wall](03.PlayerLog&Handouts/Mechanics/CLI/spells/wind-wall.md) |
+| 13th | [ice storm](03.PlayerLog&Handouts/Mechanics/CLI/spells/ice-storm.md), [wall of fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-fire.md) |
+| 17th | [cone of cold](03.PlayerLog&Handouts/Mechanics/CLI/spells/cone-of-cold.md), [wall of force](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-force.md) |
 ^artillerist-spells
 
 ### Eldritch Cannon (Level 3)
 
-At 3rd level, you learn how to create a magical cannon. Using [woodcarver's tools](woodcarvers-tools.md) or [smith's tools](smiths-tools.md), you can take an action to magically create a Small or Tiny eldritch cannon in an unoccupied space on a horizontal surface within 5 feet of you. A Small eldritch cannon occupies its space, and a Tiny one can be held in one hand.
+At 3rd level, you learn how to create a magical cannon. Using [woodcarver's tools](03.PlayerLog&Handouts/Mechanics/CLI/items/woodcarvers-tools.md) or [smith's tools](03.PlayerLog&Handouts/Mechanics/CLI/items/smiths-tools.md), you can take an action to magically create a Small or Tiny eldritch cannon in an unoccupied space on a horizontal surface within 5 feet of you. A Small eldritch cannon occupies its space, and a Tiny one can be held in one hand.
 
 Once you create a cannon, you can't do so again until you finish a long rest or until you expend a spell slot of 1st level or higher. You can have only one cannon at a time and can't create one while your cannon is present.
 
-The cannon is a magical object. Regardless of size, the cannon has an AC of 18 and a number of hit points equal to five times your artificer level. It is immune to poison damage and psychic damage, and all conditions. If it is forced to make an ability check or a saving throw, treat all its ability scores as 10 (+0). If the [mending](mending.md) spell is cast on it, it regains `2d6` hit points. It disappears if it is reduced to 0 hit points or after 1 hour. You can dismiss it early as an action.
+The cannon is a magical object. Regardless of size, the cannon has an AC of 18 and a number of hit points equal to five times your artificer level. It is immune to poison damage and psychic damage, and all conditions. If it is forced to make an ability check or a saving throw, treat all its ability scores as 10 (+0). If the [mending](03.PlayerLog&Handouts/Mechanics/CLI/spells/mending.md) spell is cast on it, it regains `2d6` hit points. It disappears if it is reduced to 0 hit points or after 1 hour. You can dismiss it early as an action.
 
 When you create the cannon, you determine its appearance and whether it has legs. You also decide which type it is, choosing from the options on the Eldritch Cannons table. On each of your turns, you can take a bonus action to cause the cannon to activate if you are within 60 feet of it. As part of the same bonus action, you can direct the cannon to walk or climb up to 15 feet to an unoccupied space, provided it has legs.
 
@@ -83,14 +84,14 @@ When you create the cannon, you determine its appearance and whether it has legs
 
 | Cannon | Activation |
 |--------|------------|
-| [Flamethrower](eldritch-cannon-flamethrower-tce.md) | The cannon exhales fire in an adjacent 15-foot cone that you designate. Each creature in that area must make a Dexterity saving throw against your spell save DC, taking `2d8` fire damage on a failed save or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren't being worn or carried. |
-| [Force Ballista](eldritch-cannon-force-ballista-tce.md) | Make a ranged spell attack, originating from the cannon, at one creature or object within 120 feet of it. On a hit, the target takes `2d8` force damage, and if the target is a creature, it is pushed up to 5 feet away from the cannon. |
-| [Protector](eldritch-cannon-protector-tce.md) | The cannon emits a burst of positive energy that grants itself and each creature of your choice within 10 feet of it a number of temporary hit points equal to `1d8` + your Intelligence modifier (minimum of +1). |
+| [Flamethrower](03.PlayerLog&Handouts/Mechanics/CLI/objects/eldritch-cannon-flamethrower-tce.md) | The cannon exhales fire in an adjacent 15-foot cone that you designate. Each creature in that area must make a Dexterity saving throw against your spell save DC, taking `2d8` fire damage on a failed save or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren't being worn or carried. |
+| [Force Ballista](03.PlayerLog&Handouts/Mechanics/CLI/objects/eldritch-cannon-force-ballista-tce.md) | Make a ranged spell attack, originating from the cannon, at one creature or object within 120 feet of it. On a hit, the target takes `2d8` force damage, and if the target is a creature, it is pushed up to 5 feet away from the cannon. |
+| [Protector](03.PlayerLog&Handouts/Mechanics/CLI/objects/eldritch-cannon-protector-tce.md) | The cannon emits a burst of positive energy that grants itself and each creature of your choice within 10 feet of it a number of temporary hit points equal to `d8` + your Intelligence modifier (minimum of +1). |
 ^eldritch-cannons
 
 ### Arcane Firearm (Level 5)
 
-At 5th level, you know how to turn a wand, staff, or rod into an arcane firearm, a conduit for your destructive spells. When you finish a long rest, you can use [woodcarver's tools](woodcarvers-tools.md) to carve special sigils into a wand, staff, or rod and thereby turn it into your arcane firearm. The sigils disappear from the object if you later carve them on a different item. The sigils otherwise last indefinitely.
+At 5th level, you know how to turn a wand, staff, or rod into an arcane firearm, a conduit for your destructive spells. When you finish a long rest, you can use [woodcarver's tools](03.PlayerLog&Handouts/Mechanics/CLI/items/woodcarvers-tools.md) to carve special sigils into a wand, staff, or rod and thereby turn it into your arcane firearm. The sigils disappear from the object if you later carve them on a different item. The sigils otherwise last indefinitely.
 
 You can use your arcane firearm as a spellcasting focus for your artificer spells. When you cast an artificer spell through the firearm, roll a `d8`, and you gain a bonus to one of the spell's damage rolls equal to the number rolled.
 
@@ -98,7 +99,7 @@ You can use your arcane firearm as a spellcasting focus for your artificer spell
 
 Starting at 9th level, every eldritch cannon you create is more destructive:
 
-- The cannon's damage rolls all increase by `1d8`.  
+- The cannon's damage rolls all increase by `d8`.  
 - As an action, you can command the cannon to detonate if you are within 60 feet of it. Doing so destroys the cannon and forces each creature within 20 feet of it to make a Dexterity saving throw against your spell save DC, taking `3d8` force damage on a failed save or half as much damage on a successful one.  
 
 ### Fortified Position (Level 15)

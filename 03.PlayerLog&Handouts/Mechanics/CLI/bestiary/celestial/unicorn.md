@@ -8,10 +8,12 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/celestial
 statblock: inline
-aliases: ["Unicorn"]
+statblock-link: "#^statblock"
+aliases:
+- Unicorn
 ---
-# [Unicorn](03 - Player Log & Handouts\Mechanics\CLI\bestiary\celestial/unicorn.md)
-*Source: Monster Manual p. 294, Baldur's Gate: Descent Into Avernus, Tasha's Cauldron of Everything, Sigil and the Outlands. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Unicorn](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\celestial/unicorn.md)
+*Source: Monster Manual p. 294, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus, Infernal Machine Rebuild, Mythic Odysseys of Theros, Tasha's Cauldron of Everything, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Unicorns dwell in enchanted forests. Unrelated to the horses it resembles, a unicorn is a celestial creature that wanders sylvan realms, its white form glimmering like starlight.
 
@@ -59,88 +61,93 @@ A unicorn's lair might be an ancient ruin overgrown with vines, a misty clearing
 "ac": !!int "12"
 "hp": !!int "67"
 "hit_dice": "9d10 + 18"
+"modifier": !!int "2"
 "stats":
-- !!int "18"
-- !!int "14"
-- !!int "15"
-- !!int "11"
-- !!int "17"
-- !!int "16"
+  - !!int "18"
+  - !!int "14"
+  - !!int "15"
+  - !!int "11"
+  - !!int "17"
+  - !!int "16"
 "speed": "50 ft."
 "damage_immunities": "poison"
-"condition_immunities": "[charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
-  \ [paralyzed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
-  \ [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
+  \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
+  \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "darkvision 60 ft., passive Perception 13"
 "languages": "Celestial, Elvish, Sylvan, telepathy 60 ft."
 "cr": "5"
 "traits":
-- "desc": "The unicorn's innate spellcasting ability is Charisma (spell save DC 14).\
-    \ The unicorn can innately cast the following spells, requiring no components:\n\
-    \nAt will: [detect evil and good](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/detect-evil-and-good.md),\
-    \ [druidcraft](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/druidcraft.md),\
-    \ [pass without trace](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/pass-without-trace.md)\n\
-    \n1/day each: [calm emotions](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/calm-emotions.md),\
-    \ [dispel evil and good](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/dispel-evil-and-good.md),\
-    \ [entangle](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/entangle.md)"
-  "name": "Innate Spellcasting"
-- "desc": "If the unicorn moves at least 20 feet straight toward a target and then\
-    \ hits it with a horn attack on the same turn, the target takes an extra 9 (2d8)\
-    \ piercing damage. If the target is a creature, it must succeed on a DC 15 Strength\
-    \ saving throw or be knocked [prone](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
-  "name": "Charge"
-- "desc": "The unicorn has advantage on saving throws against spells and other magical\
-    \ effects."
-  "name": "Magic Resistance"
-- "desc": "The unicorn's weapon attacks are magical."
-  "name": "Magic Weapons"
+  - "desc": "The unicorn's innate spellcasting ability is Charisma (spell save DC\
+      \ 14). The unicorn can innately cast the following spells, requiring no components:\n\
+      \nAt will: [detect evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-evil-and-good.md),\
+      \ [druidcraft](03.PlayerLog&Handouts/Mechanics/CLI/spells/druidcraft.md), [pass\
+      \ without trace](03.PlayerLog&Handouts/Mechanics/CLI/spells/pass-without-trace.md)\n\
+      \n1/day each: [calm emotions](03.PlayerLog&Handouts/Mechanics/CLI/spells/calm-emotions.md),\
+      \ [dispel evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-evil-and-good.md),\
+      \ [entangle](03.PlayerLog&Handouts/Mechanics/CLI/spells/entangle.md)"
+    "name": "Innate Spellcasting"
+  - "desc": "If the unicorn moves at least 20 feet straight toward a target and then\
+      \ hits it with a horn attack on the same turn, the target takes an extra 9 (2d8)\
+      \ piercing damage. If the target is a creature, it must succeed on a DC 15 Strength\
+      \ saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
+    "name": "Charge"
+  - "desc": "The unicorn has advantage on saving throws against spells and other magical\
+      \ effects."
+    "name": "Magic Resistance"
+  - "desc": "The unicorn's weapon attacks are magical."
+    "name": "Magic Weapons"
 "actions":
-- "desc": "The unicorn makes two attacks: one with its hooves and one with its horn."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
-    \ (2d6 + 4) bludgeoning damage."
-  "name": "Hooves"
-- "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d8\
-    \ + 4) piercing damage."
-  "name": "Horn"
-- "desc": "The unicorn touches another creature with its horn. The target magically\
-    \ regains 11 (2d8 + 2) hit points. In addition, the touch removes all diseases\
-    \ and neutralizes all poisons afflicting the target."
-  "name": "Healing Touch (3/Day)"
-- "desc": "The unicorn magically teleports itself and up to three willing creatures\
-    \ it can see within 5 feet of it, along with any equipment they are wearing or\
-    \ carrying, to a location the unicorn is familiar with, up to 1 mile away."
-  "name": "Teleport (1/Day)"
+  - "desc": "The unicorn makes two attacks: one with its hooves and one with its horn."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
+      \ (2d6 + 4) bludgeoning damage."
+    "name": "Hooves"
+  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8\
+      \ (1d8 + 4) piercing damage."
+    "name": "Horn"
+  - "desc": "The unicorn touches another creature with its horn. The target magically\
+      \ regains 11 (2d8 + 2) hit points. In addition, the touch removes all diseases\
+      \ and neutralizes all poisons afflicting the target."
+    "name": "Healing Touch (3/Day)"
+  - "desc": "The unicorn magically teleports itself and up to three willing creatures\
+      \ it can see within 5 feet of it, along with any equipment they are wearing\
+      \ or carrying, to a location the unicorn is familiar with, up to 1 mile away."
+    "name": "Teleport (1/Day)"
 "legendary_actions":
-- "desc": "The unicorn makes one attack with its hooves."
-  "name": "Hooves"
-- "desc": "The unicorn creates a shimmering, magical field around itself or another\
-    \ creature it can see within 60 feet of it. The target gains a +2 bonus to AC\
-    \ until the end of the unicorn's next turn."
-  "name": "Shimmering Shield (Costs 2 Actions)"
-- "desc": "The unicorn magically regains 11 (2d8 + 2) hit points."
-  "name": "Heal Self (Costs 3 Actions)"
+  - "desc": "The unicorn makes one attack with its hooves."
+    "name": "Hooves"
+  - "desc": "The unicorn creates a shimmering, magical field around itself or another\
+      \ creature it can see within 60 feet of it. The target gains a +2 bonus to AC\
+      \ until the end of the unicorn's next turn."
+    "name": "Shimmering Shield (Costs 2 Actions)"
+  - "desc": "The unicorn magically regains 11 (2d8 + 2) hit points."
+    "name": "Heal Self (Costs 3 Actions)"
 "regional_effects":
-- "desc": "Transformed by the creature's celestial presence, the domain of a unicorn\
-    \ might include any of the following magical effects:"
-  "name": ""
-- "desc": "- Open flames of a non magical nature are extinguished within the unicorn's\
-    \ domain. Torches and campfires refuse to burn, but closed lanterns are unaffected.\
-    \  \n- Creatures native to the unicorn's domain have an easier time hiding; they\
-    \ have advantage on all Dexterity ([Stealth](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/skills.md#Stealth))\
-    \ checks made to hide.  \n- When a good-aligned creature casts a spell or uses\
-    \ a magical effect that causes another good-aligned creature to regain hit points,\
-    \ the target regains the maximum number of hit points possible for the spell or\
-    \ effect.  \n- Curses affecting any good-aligned creature are suppressed.  "
-  "name": ""
-- "desc": "If the unicorn dies, these effects end immediately."
-  "name": ""
+  - "desc": "Transformed by the creature's celestial presence, the domain of a unicorn\
+      \ might include any of the following magical effects:"
+    "name": ""
+  - "desc": "- Open flames of a non magical nature are extinguished within the unicorn's\
+      \ domain. Torches and campfires refuse to burn, but closed lanterns are unaffected.\
+      \  \n- Creatures native to the unicorn's domain have an easier time hiding;\
+      \ they have advantage on all Dexterity ([Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth))\
+      \ checks made to hide.  \n- When a good-aligned creature casts a spell or uses\
+      \ a magical effect that causes another good-aligned creature to regain hit points,\
+      \ the target regains the maximum number of hit points possible for the spell\
+      \ or effect.  \n- Curses affecting any good-aligned creature are suppressed.\
+      \  "
+    "name": ""
+  - "desc": "If the unicorn dies, these effects end immediately."
+    "name": ""
 "source":
-- "MM"
-- "BGDIA"
-- "TCE"
-- "SatO"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/celestial/token/unicorn.webp"
+  - "MM"
+  - "GoS"
+  - "BGDIA"
+  - "IMR"
+  - "MOT"
+  - "TCE"
+  - "KftGV"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/token/unicorn.webp"
 ```
 ^statblock
 

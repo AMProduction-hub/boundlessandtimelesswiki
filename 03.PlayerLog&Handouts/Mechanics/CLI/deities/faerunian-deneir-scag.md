@@ -6,11 +6,15 @@ tags:
 - ttrpg-cli/deity/faerunian
 - ttrpg-cli/domain/arcana
 - ttrpg-cli/domain/knowledge
-aliases: ["Deneir", "The Lord of All Glyphs and Images", "The First Scribe", "The Scribe of Oghma"]
+aliases: 
+- Deneir
+- The Lord of All Glyphs and Images
+- The First Scribe
+- The Scribe of Oghma
 ---
 # Deneir
 *Source: Sword Coast Adventurer's Guide p. 21* 
-![](scag-symbol-of-deneir.webp#symbol)
+![](03.PlayerLog&Handouts/Mechanics/CLI/deities/img/scag-symbol-of-deneir.webp#symbol)
 
 - **Alternate Names**: The Lord of All Glyphs and Images, The First Scribe, The Scribe of Oghma
 - **Alignment**: Neutral Good

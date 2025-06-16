@@ -17,15 +17,15 @@ aliases:
 
 Includes:
 
-- a [backpack](backpack.md)  
-- a [blanket](blanket.md)  
-- 10 [candles](candle.md)  
-- a [tinderbox](tinderbox.md)  
+- a [backpack](03.PlayerLog&Handouts/Mechanics/CLI/items/backpack.md)  
+- a [blanket](03.PlayerLog&Handouts/Mechanics/CLI/items/blanket.md)  
+- 10 [candles](03.PlayerLog&Handouts/Mechanics/CLI/items/candle.md)  
+- a [tinderbox](03.PlayerLog&Handouts/Mechanics/CLI/items/tinderbox.md)  
 - an alms box  
 - 2 blocks of incense  
 - a censer  
 - vestments  
-- 2 days of [rations](rations-1-day.md)  
-- a [waterskin](waterskin.md).  
+- 2 days of [rations](03.PlayerLog&Handouts/Mechanics/CLI/items/rations-1-day.md)  
+- a [waterskin](03.PlayerLog&Handouts/Mechanics/CLI/items/waterskin.md).  
 
 *Source: Player's Handbook p. 151. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*

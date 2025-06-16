@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
-aliases: ["Random Settlements; Notable Traits"]
+aliases:
+- Random Settlements; Notable Traits
 ---
 # Random Settlements; Notable Traits
 *Source: Dungeon Master's Guide p. 112* 

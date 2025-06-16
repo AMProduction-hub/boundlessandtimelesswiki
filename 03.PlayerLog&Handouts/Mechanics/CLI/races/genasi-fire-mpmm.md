@@ -4,11 +4,12 @@ cssclasses: json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/race/genasi/fire
-aliases: ["Genasi (Fire)"]
+aliases:
+- Genasi (Fire)
 ---
 # Genasi (Fire)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 17*  
-![](genasi.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/races/img/genasi.webp#right)
 
 - **Ability Scores**: Choose one of: (a) Choose any +2, choose any other +1; (b) Choose any +1, choose any other +1, choose any other +1
 - **Size**: Small or Medium
@@ -35,7 +36,7 @@ You have resistance to fire damage.
 
 ### Reach to the Blaze
 
-You know the [produce flame](produce-flame.md) cantrip. Starting at 3rd level, you can cast the [burning hands](burning-hands.md) spell with this trait. Starting at 5th level, you can also cast the [flame blade](flame-blade.md) spell with this trait, without a material component. Once you cast [burning hands](burning-hands.md) or [flame blade](flame-blade.md) with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.
+You know the [produce flame](03.PlayerLog&Handouts/Mechanics/CLI/spells/produce-flame.md) cantrip. Starting at 3rd level, you can cast the [burning hands](03.PlayerLog&Handouts/Mechanics/CLI/spells/burning-hands.md) spell with this trait. Starting at 5th level, you can also cast the [flame blade](03.PlayerLog&Handouts/Mechanics/CLI/spells/flame-blade.md) spell with this trait, without a material component. Once you cast [burning hands](03.PlayerLog&Handouts/Mechanics/CLI/spells/burning-hands.md) or [flame blade](03.PlayerLog&Handouts/Mechanics/CLI/spells/flame-blade.md) with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.
 
 Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race).
 

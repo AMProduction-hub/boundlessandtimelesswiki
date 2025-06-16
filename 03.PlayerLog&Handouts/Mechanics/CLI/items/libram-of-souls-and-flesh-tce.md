@@ -14,11 +14,11 @@ aliases:
 
 - **Weight**: 3.0 lbs.
 
-With covers made of skin and fittings of bone, this tome is cold to the touch, and it whispers faintly. When found, the book contains the following spells, which are wizard spells for you while you are attuned to the book: [animate dead](animate-dead.md), [circle of death](circle-of-death.md), [false life](false-life.md), [finger of death](finger-of-death.md), [speak with dead](speak-with-dead.md), [summon undead](summon-undead-tce.md), and [vampiric touch](vampiric-touch.md). It functions as a spellbook for you.
+With covers made of skin and fittings of bone, this tome is cold to the touch, and it whispers faintly. When found, the book contains the following spells, which are wizard spells for you while you are attuned to the book: [animate dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-dead.md), [circle of death](03.PlayerLog&Handouts/Mechanics/CLI/spells/circle-of-death.md), [false life](03.PlayerLog&Handouts/Mechanics/CLI/spells/false-life.md), [finger of death](03.PlayerLog&Handouts/Mechanics/CLI/spells/finger-of-death.md), [speak with dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/speak-with-dead.md), [summon undead](03.PlayerLog&Handouts/Mechanics/CLI/spells/summon-undead-tce.md), and [vampiric touch](03.PlayerLog&Handouts/Mechanics/CLI/spells/vampiric-touch.md). It functions as a spellbook for you.
 
 While you are holding the book, you can use it as a spellcasting focus for your wizard spells.
 
-The book has 3 charges, and it regains `1d3` expended charges daily at dawn. You can use the charges in the following ways while holding it:
+The book has 3 charges, and it regains `d3` expended charges daily at dawn. You can use the charges in the following ways while holding it:
 
 - If you spend 1 minute studying the book, you can expend 1 charge to replace one of your prepared wizard spells with a different spell in the book. The new spell must be of the necromancy school.  
 - As an action, you can expend 1 charge to take on a semblance of undeath for 10 minutes. For the duration, you take on a deathly appearance, and undead creatures are indifferent to you, unless you have damaged them. You also appear undead to all outward inspection and to spells used to determine the target's status. The effect ends if you deal damage or force a creature to make a saving throw.  

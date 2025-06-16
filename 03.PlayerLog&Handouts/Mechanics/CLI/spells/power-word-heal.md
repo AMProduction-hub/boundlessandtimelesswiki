@@ -12,7 +12,8 @@ classes:
 - Bard
 - Cleric
 - Sorcerer (Divine Soul)
-aliases: ["Power Word Heal"]
+aliases:
+- Power Word Heal
 ---
 # Power Word Heal
 *9th-level, Evocation*  
@@ -23,8 +24,8 @@ aliases: ["Power Word Heal"]
 - **Components:** V, S
 - **Duration:** Instantaneous
 
-A wave of healing energy washes over the creature you touch. The target regains all its hit points. If the creature is [charmed](conditions.md#Charmed), [frightened](conditions.md#Frightened), [paralyzed](conditions.md#Paralyzed), or [stunned](conditions.md#Stunned), the condition ends. If the creature is [prone](conditions.md#Prone), it can use its reaction to stand up. This spell has no effect on undead or constructs.
+A wave of healing energy washes over the creature you touch. The target regains all its hit points. If the creature is [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened), [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed), or [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned), the condition ends. If the creature is [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), it can use its reaction to stand up. This spell has no effect on undead or constructs.
 
-**Classes**: [Cleric](list-spells-classes-cleric.md); [Bard](list-spells-classes-bard.md); [Sorcerer (Divine Soul)](list-spells-classes-sorcerer-divine-soul-xge.md "subclass=XGE")
+**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md)
 
 *Source: Player's Handbook p. 266*

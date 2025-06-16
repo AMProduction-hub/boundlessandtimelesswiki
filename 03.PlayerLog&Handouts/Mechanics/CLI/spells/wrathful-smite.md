@@ -12,7 +12,8 @@ classes:
 - Bard
 - Paladin
 - Warlock (The Hexblade)
-aliases: ["Wrathful Smite"]
+aliases:
+- Wrathful Smite
 ---
 # Wrathful Smite
 *1st-level, Evocation*  
@@ -23,8 +24,8 @@ aliases: ["Wrathful Smite"]
 - **Components:** V
 - **Duration:** Concentration, up to 1 minute
 
-The next time you hit with a melee weapon attack during this spell's duration, your attack deals an extra `1d6` psychic damage. Additionally, if the target is a creature, it must make a Wisdom saving throw or be [frightened](conditions.md#Frightened) of you until the spell ends. As an action, the creature can make a Wisdom check against your spell save DC to steel its resolve and end this spell.
+The next time you hit with a melee weapon attack during this spell's duration, your attack deals an extra `d6` psychic damage. Additionally, if the target is a creature, it must make a Wisdom saving throw or be [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened) of you until the spell ends. As an action, the creature can make a Wisdom check against your spell save DC to steel its resolve and end this spell.
 
-**Classes**: [Paladin](list-spells-classes-paladin.md); [Bard](list-spells-classes-bard.md); [Warlock (The Hexblade)](list-spells-classes-warlock-the-hexblade-xge.md "subclass=XGE")
+**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock (The Hexblade)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-hexblade-xge.md "subclass=XGE"); [Paladin](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-paladin.md)
 
 *Source: Player's Handbook p. 289*

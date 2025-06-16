@@ -10,9 +10,11 @@ tags:
 - ttrpg-cli/monster/size/huge
 - ttrpg-cli/monster/type/giant
 statblock: inline
-aliases: ["Stone Giant Dreamwalker"]
+statblock-link: "#^statblock"
+aliases:
+- Stone Giant Dreamwalker
 ---
-# [Stone Giant Dreamwalker](03 - Player Log & Handouts\Mechanics\CLI\bestiary\giant/stone-giant-dreamwalker-mpmm.md)
+# [Stone Giant Dreamwalker](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\giant/stone-giant-dreamwalker-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 234, Volo's Guide to Monsters p. 150*  
 
 The surface of the world is an alien realm to stone giants: fluctuating, temporary, exposed to gusting wind and sudden rain. It is as wildly changeable as a dream, and that's how they regard it—as a dream. Nothing there is permanent, so nothing there is real. What happens on the surface doesn't matter. Promises and bargains made there needn't be honored. Life and even art hold less value there.
@@ -32,60 +34,63 @@ Dreamwalkers become divorced from reality by isolation, shame, and their unendin
 "ac_class": "natural armor"
 "hp": !!int "161"
 "hit_dice": "14d12 + 70"
+"modifier": !!int "2"
 "stats":
-- !!int "23"
-- !!int "14"
-- !!int "21"
-- !!int "10"
-- !!int "8"
-- !!int "12"
+  - !!int "23"
+  - !!int "14"
+  - !!int "21"
+  - !!int "10"
+  - !!int "8"
+  - !!int "12"
 "speed": "40 ft."
 "saves":
-  "Dexterity": !!int "6"
-  "Wisdom": !!int "3"
-  "Constitution": !!int "9"
+  - "dexterity": "+6"
+  - "constitution": "+9"
+  - "wisdom": "+3"
 "skillsaves":
-  "Athletics": !!int "14"
-  "Perception": !!int "3"
-"condition_immunities": "[charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
-  \ [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
+  - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
+    "desc": "+14"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+3"
+"condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
+  \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
 "senses": "darkvision 60 ft., passive Perception 13"
 "languages": "Common, Giant"
 "cr": "10"
 "traits":
-- "desc": "An enemy that starts its turn within 30 feet of the giant must make a DC\
-    \ 13 Charisma saving throw, provided that the giant isn't [incapacitated](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated).\
-    \ On a failed save, the creature is [charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
-    \ by the giant. A creature [charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
-    \ in this way can repeat the saving throw at the end of each of its turns, ending\
-    \ the effect on itself on a success. Once it succeeds on the saving throw, the\
-    \ creature is immune to this giant's Dreamwalker's Charm for 24 hours."
-  "name": "Dreamwalker's Charm"
+  - "desc": "An enemy that starts its turn within 30 feet of the giant must make a\
+      \ DC 13 Charisma saving throw, provided that the giant isn't [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated).\
+      \ On a failed save, the creature is [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
+      \ by the giant. A creature [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
+      \ in this way can repeat the saving throw at the end of each of its turns, ending\
+      \ the effect on itself on a success. Once it succeeds on the saving throw, the\
+      \ creature is immune to this giant's Dreamwalker's Charm for 24 hours."
+    "name": "Dreamwalker's Charm"
 "actions":
-- "desc": "The giant makes two Greatclub or Rock attacks."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +10 to hit, reach 15 ft., one target. Hit: 24\
-    \ (4d8 + 6) bludgeoning damage."
-  "name": "Greatclub"
-- "desc": "Ranged Weapon Attack: +10 to hit, range 60/240 ft., one target. Hit:\
-    \ 22 (3d10 + 6) bludgeoning damage. If the target is a creature, it must succeed\
-    \ on a DC 17 Strength saving throw or be knocked [prone](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
-  "name": "Rock"
-- "desc": "The giant touches one Medium or smaller creature within 10 feet of it that\
-    \ is [charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
-    \ by it. The target must make a DC 17 Constitution saving throw. On a failed save,\
-    \ the target becomes [petrified](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
-    \ and the giant can adhere the target to its stony body. [greater restoration](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/greater-restoration.md)\
-    \ spells and other magic that can undo petrification have no effect on a [petrified](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Petrified)\
-    \ creature adhered to the giant unless the giant is dead, in which case the magic\
-    \ works normally, freeing the [petrified](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Petrified)\
-    \ creature as well as ending the [petrified](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Petrified)\
-    \ condition on it."
-  "name": "Petrifying Touch"
+  - "desc": "The giant makes two Greatclub or Rock attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +10 to hit, reach 15 ft., one target. Hit:\
+      \ 24 (4d8 + 6) bludgeoning damage."
+    "name": "Greatclub"
+  - "desc": "Ranged Weapon Attack: +10 to hit, range 60/240 ft., one target. Hit:\
+      \ 22 (3d10 + 6) bludgeoning damage. If the target is a creature, it must succeed\
+      \ on a DC 17 Strength saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
+    "name": "Rock"
+  - "desc": "The giant touches one Medium or smaller creature within 10 feet of it\
+      \ that is [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
+      \ by it. The target must make a DC 17 Constitution saving throw. On a failed\
+      \ save, the target becomes [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
+      \ and the giant can adhere the target to its stony body. [greater restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-restoration.md)\
+      \ spells and other magic that can undo petrification have no effect on a [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified)\
+      \ creature adhered to the giant unless the giant is dead, in which case the\
+      \ magic works normally, freeing the [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified)\
+      \ creature as well as ending the [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified)\
+      \ condition on it."
+    "name": "Petrifying Touch"
 "source":
-- "MPMM"
-- "VGM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/giant/token/stone-giant-dreamwalker-mpmm.webp"
+  - "MPMM"
+  - "VGM"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/token/stone-giant-dreamwalker-mpmm.webp"
 ```
 ^statblock
 

@@ -16,7 +16,8 @@ classes:
 - Druid
 - Paladin (Oath of the Ancients)
 - Paladin (Oath of the Watchers)
-aliases: ["Moonbeam"]
+aliases:
+- Moonbeam
 ---
 # Moonbeam
 *2nd-level, Evocation*  
@@ -35,8 +36,8 @@ A shapechanger makes its saving throw with disadvantage. If it fails, it also in
 
 On each of your turns after you cast this spell, you can use an action to move the beam up to 60 feet in any direction.
 
-**At Higher Levels.** When you cast this spell using a spell slot of 3rd level or higher, the damage increases by `1d10` for each slot level above 2nd.
+**At Higher Levels.** When you cast this spell using a spell slot of 3rd level or higher, the damage increases by `d10` for each slot level above 2nd.
 
-**Classes**: [Druid](list-spells-classes-druid.md); [Cleric (Twilight Domain)](list-spells-classes-cleric-twilight-domain-tce.md "subclass=TCE"); [Paladin (Oath of the Watchers)](list-spells-classes-paladin-oath-of-the-watchers-tce.md "subclass=TCE"); [Bard](list-spells-classes-bard.md); [Paladin (Oath of the Ancients)](list-spells-classes-paladin-oath-of-the-ancients.md)
+**Classes**: [Paladin (Oath of the Ancients)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-the-ancients.md); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Cleric (Twilight Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-twilight-domain-tce.md "subclass=TCE"); [Paladin (Oath of the Watchers)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-the-watchers-tce.md "subclass=TCE")
 
 *Source: Player's Handbook p. 261. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

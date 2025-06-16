@@ -9,9 +9,11 @@ tags:
 - ttrpg-cli/monster/size/small
 - ttrpg-cli/monster/type/aberration
 statblock: inline
-aliases: ["Derro"]
+statblock-link: "#^statblock"
+aliases:
+- Derro
 ---
-# [Derro](03 - Player Log & Handouts\Mechanics\CLI\bestiary\aberration/derro-mpmm.md)
+# [Derro](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\aberration/derro-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 91, Mordenkainen's Tome of Foes p. 158*  
 
 > [!quote] A quote from Mordenkainen  
@@ -34,42 +36,44 @@ Derro tell their own stories of flight and survival in the Underdark, in which m
 "type": "aberration"
 "alignment": "Typically  Chaotic Evil"
 "ac": !!int "13"
-"ac_class": "[leather armor](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/items/leather-armor.md)"
+"ac_class": "[leather armor](03.PlayerLog&Handouts/Mechanics/CLI/items/leather-armor.md)"
 "hp": !!int "13"
 "hit_dice": "3d6 + 3"
+"modifier": !!int "2"
 "stats":
-- !!int "10"
-- !!int "14"
-- !!int "12"
-- !!int "11"
-- !!int "5"
-- !!int "9"
+  - !!int "10"
+  - !!int "14"
+  - !!int "12"
+  - !!int "11"
+  - !!int "5"
+  - !!int "9"
 "speed": "30 ft."
 "skillsaves":
-  "Stealth": !!int "4"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+4"
 "senses": "darkvision 120 ft., passive Perception 7"
 "languages": "Dwarvish, Undercommon"
 "cr": "1/4"
 "traits":
-- "desc": "The derro has advantage on saving throws against spells and other magical\
-    \ effects."
-  "name": "Magic Resistance"
-- "desc": "While in sunlight, the derro has disadvantage on attack rolls, as well\
-    \ as on Wisdom ([Perception](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/skills.md#Perception))\
-    \ checks that rely on sight."
-  "name": "Sunlight Sensitivity"
+  - "desc": "The derro has advantage on saving throws against spells and other magical\
+      \ effects."
+    "name": "Magic Resistance"
+  - "desc": "While in sunlight, the derro has disadvantage on attack rolls, as well\
+      \ as on Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception))\
+      \ checks that rely on sight."
+    "name": "Sunlight Sensitivity"
 "actions":
-- "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 3 (1d6)\
-    \ piercing damage. If the target is Medium or smaller, the derro can choose to\
-    \ deal no damage and knock it [prone](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
-  "name": "Hooked Spear"
-- "desc": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit:\
-    \ 6 (1d8 + 2) piercing damage."
-  "name": "Light Crossbow"
+  - "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 3\
+      \ (d6) piercing damage. If the target is Medium or smaller, the derro can\
+      \ choose to deal no damage and knock it [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
+    "name": "Hooked Spear"
+  - "desc": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit:\
+      \ 6 (1d8 + 2) piercing damage."
+    "name": "Light Crossbow"
 "source":
-- "MPMM"
-- "MTF"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/aberration/token/derro-mpmm.webp"
+  - "MPMM"
+  - "MTF"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/token/derro-mpmm.webp"
 ```
 ^statblock
 

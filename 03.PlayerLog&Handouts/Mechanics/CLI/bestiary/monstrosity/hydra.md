@@ -8,10 +8,12 @@ tags:
 - ttrpg-cli/monster/size/huge
 - ttrpg-cli/monster/type/monstrosity
 statblock: inline
-aliases: ["Hydra"]
+statblock-link: "#^statblock"
+aliases:
+- Hydra
 ---
-# [Hydra](03 - Player Log & Handouts\Mechanics\CLI\bestiary\monstrosity/hydra.md)
-*Source: Monster Manual p. 190, Light of Xaryxis, Sigil and the Outlands. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Hydra](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/hydra.md)
+*Source: Monster Manual p. 190, Princes of the Apocalypse, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Dragon of Icespire Peak, Storm Lord's Wrath, Explorer's Guide to Wildemount, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden, Journeys through the Radiant Citadel, Light of Xaryxis. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 The hydra is a reptilian horror with a crocodilian body and multiple heads on long, serpentine necks. Although its heads can be severed, the hydra magically regrows them in short order. A typical specimen has five heads. At the dawn of time, Tiamat, the Queen of Evil Dragons, slew a rival dragon god named Lernaea and cast her blood across the multiverse. Each drop that fell upon a world spawned a multi-headed hydra consumed by a hunger as great as the fallen god's hatred. Great champions are known to test their mettle against these fearsome creatures.
 
@@ -32,51 +34,63 @@ Hydras are natural swimmers, dwelling in rivers, along lakeshores, in ocean shal
 "ac_class": "natural armor"
 "hp": !!int "172"
 "hit_dice": "15d12 + 75"
+"modifier": !!int "1"
 "stats":
-- !!int "20"
-- !!int "12"
-- !!int "20"
-- !!int "2"
-- !!int "10"
-- !!int "7"
+  - !!int "20"
+  - !!int "12"
+  - !!int "20"
+  - !!int "2"
+  - !!int "10"
+  - !!int "7"
 "speed": "30 ft., swim 30 ft."
 "skillsaves":
-  "Perception": !!int "6"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+6"
 "senses": "darkvision 60 ft., passive Perception 16"
 "languages": ""
 "cr": "8"
 "traits":
-- "desc": "The hydra can hold its breath for 1 hour."
-  "name": "Hold Breath"
-- "desc": "The hydra has five heads. While it has more than one head, the hydra has\
-    \ advantage on saving throws against being [blinded](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Blinded),\
-    \ [charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
-    \ [deafened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Deafened),\
-    \ [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
-    \ [stunned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Stunned),\
-    \ and knocked [unconscious](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Unconscious).\n\
-    \nWhenever the hydra takes 25 or more damage in a single turn, one of its heads\
-    \ dies. If all its heads die, the hydra dies.\n\nAt the end of its turn, it grows\
-    \ two heads for each of its heads that died since its last turn, unless it has\
-    \ taken fire damage since its last turn. The hydra regains 10 hit points for each\
-    \ head regrown in this way."
-  "name": "Multiple Heads"
-- "desc": "For each head the hydra has beyond one, it gets an extra reaction that\
-    \ can be used only for opportunity attacks."
-  "name": "Reactive Heads"
-- "desc": "While the hydra sleeps, at least one of its heads is awake."
-  "name": "Wakeful"
+  - "desc": "The hydra can hold its breath for 1 hour."
+    "name": "Hold Breath"
+  - "desc": "The hydra has five heads. While it has more than one head, the hydra\
+      \ has advantage on saving throws against being [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded),\
+      \ [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
+      \ [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened),\
+      \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
+      \ [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned),\
+      \ and knocked [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious).\n\
+      \nWhenever the hydra takes 25 or more damage in a single turn, one of its heads\
+      \ dies. If all its heads die, the hydra dies.\n\nAt the end of its turn, it\
+      \ grows two heads for each of its heads that died since its last turn, unless\
+      \ it has taken fire damage since its last turn. The hydra regains 10 hit points\
+      \ for each head regrown in this way."
+    "name": "Multiple Heads"
+  - "desc": "For each head the hydra has beyond one, it gets an extra reaction that\
+      \ can be used only for opportunity attacks."
+    "name": "Reactive Heads"
+  - "desc": "While the hydra sleeps, at least one of its heads is awake."
+    "name": "Wakeful"
 "actions":
-- "desc": "The hydra makes as many bite attacks as it has heads."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 10\
-    \ (1d10 + 5) piercing damage."
-  "name": "Bite"
+  - "desc": "The hydra makes as many bite attacks as it has heads."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit:\
+      \ 10 (1d10 + 5) piercing damage."
+    "name": "Bite"
 "source":
-- "MM"
-- "LoX"
-- "SatO"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/monstrosity/token/hydra.webp"
+  - "MM"
+  - "PotA"
+  - "TftYP"
+  - "ToA"
+  - "WDMM"
+  - "GoS"
+  - "DIP"
+  - "SLW"
+  - "EGW"
+  - "MOT"
+  - "IDRotF"
+  - "JttRC"
+  - "LoX"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/token/hydra.webp"
 ```
 ^statblock
 

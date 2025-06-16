@@ -9,10 +9,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/humanoid/lizardfolk
 statblock: inline
-aliases: ["Lizardfolk"]
+statblock-link: "#^statblock"
+aliases:
+- Lizardfolk
 ---
-# [Lizardfolk](03 - Player Log & Handouts\Mechanics\CLI\bestiary\humanoid/lizardfolk.md)
-*Source: Monster Manual p. 204, Tasha's Cauldron of Everything. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Lizardfolk](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/lizardfolk.md)
+*Source: Monster Manual p. 204, Princes of the Apocalypse, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Dragon of Icespire Peak, Storm Lord's Wrath, Infernal Machine Rebuild, Explorer's Guide to Wildemount, Tasha's Cauldron of Everything, Journeys through the Radiant Citadel. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 Lizardfolk are primitive reptilian humanoids that lurk in the swamps and jungles of the world. Their hut villages thrive in forbidding grottos, half-sunken ruins, and watery caverns.
 
@@ -58,46 +60,59 @@ Lizardfolk speak Draconic, which they are thought to have learned from dragons i
 "subtype": "lizardfolk"
 "alignment": "Neutral"
 "ac": !!int "15"
-"ac_class": "natural armor, [shield](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/items/shield.md)"
+"ac_class": "natural armor, [shield](03.PlayerLog&Handouts/Mechanics/CLI/items/shield.md)"
 "hp": !!int "22"
 "hit_dice": "4d8 + 4"
+"modifier": !!int "0"
 "stats":
-- !!int "15"
-- !!int "10"
-- !!int "13"
-- !!int "7"
-- !!int "12"
-- !!int "7"
+  - !!int "15"
+  - !!int "10"
+  - !!int "13"
+  - !!int "7"
+  - !!int "12"
+  - !!int "7"
 "speed": "30 ft., swim 30 ft."
 "skillsaves":
-  "Stealth": !!int "4"
-  "Perception": !!int "3"
-  "Survival": !!int "5"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+3"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+4"
+  - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
+    "desc": "+5"
 "senses": "passive Perception 13"
 "languages": "Draconic"
 "cr": "1/2"
 "traits":
-- "desc": "The lizardfolk can hold its breath for 15 minutes."
-  "name": "Hold Breath"
+  - "desc": "The lizardfolk can hold its breath for 15 minutes."
+    "name": "Hold Breath"
 "actions":
-- "desc": "The lizardfolk makes two melee attacks, each one with a different weapon."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6\
-    \ + 2) piercing damage."
-  "name": "Bite"
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6\
-    \ + 2) bludgeoning damage."
-  "name": "Heavy Club"
-- "desc": "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120\
-    \ ft., one target. Hit: 5 (1d6 + 2) piercing damage."
-  "name": "Javelin"
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6\
-    \ + 2) piercing damage."
-  "name": "Spiked Shield"
+  - "desc": "The lizardfolk makes two melee attacks, each one with a different weapon."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+      \ (1d6 + 2) piercing damage."
+    "name": "Bite"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+      \ (1d6 + 2) bludgeoning damage."
+    "name": "Heavy Club"
+  - "desc": "Melee  or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120\
+      \ ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+    "name": "Javelin"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+      \ (1d6 + 2) piercing damage."
+    "name": "Spiked Shield"
 "source":
-- "MM"
-- "TCE"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/humanoid/token/lizardfolk.webp"
+  - "MM"
+  - "PotA"
+  - "ToA"
+  - "WDMM"
+  - "GoS"
+  - "DIP"
+  - "SLW"
+  - "IMR"
+  - "EGW"
+  - "TCE"
+  - "JttRC"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/lizardfolk.webp"
 ```
 ^statblock
 

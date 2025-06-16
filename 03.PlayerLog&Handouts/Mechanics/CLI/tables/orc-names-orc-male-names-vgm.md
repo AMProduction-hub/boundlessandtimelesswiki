@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
-aliases: ["Orc Names; Orc Male Names"]
+aliases:
+- Orc Names; Orc Male Names
 ---
 # Orc Names; Orc Male Names
 *Source: Volo's Guide to Monsters p. 88* 

@@ -7,9 +7,11 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/humanoid
 statblock: inline
-aliases: ["Astral Elf Honor Guard"]
+statblock-link: "#^statblock"
+aliases:
+- Astral Elf Honor Guard
 ---
-# [Astral Elf Honor Guard](03 - Player Log & Handouts\Mechanics\CLI\bestiary\humanoid/astral-elf-honor-guard-bam.md)
+# [Astral Elf Honor Guard](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/astral-elf-honor-guard-bam.md)
 *Source: Boo's Astral Menagerie p. 12, Light of Xaryxis*  
 
 The safety of important individuals and locations is entrusted to astral elf honor guards, highly trained warriors who are more than capable of holding their own in combat.
@@ -37,46 +39,50 @@ Many astral elves are thousands (in some cases tens of thousands) of years old. 
 "type": "humanoid"
 "alignment": "Any alignment"
 "ac": !!int "17"
-"ac_class": "[half plate](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/items/half-plate-armor.md)"
+"ac_class": "[half plate](03.PlayerLog&Handouts/Mechanics/CLI/items/half-plate-armor.md)"
 "hp": !!int "93"
 "hit_dice": "17d8 + 17"
+"modifier": !!int "2"
 "stats":
-- !!int "14"
-- !!int "15"
-- !!int "12"
-- !!int "17"
-- !!int "16"
-- !!int "16"
+  - !!int "14"
+  - !!int "15"
+  - !!int "12"
+  - !!int "17"
+  - !!int "16"
+  - !!int "16"
 "speed": "30 ft."
 "saves":
-  "Charisma": !!int "6"
-  "Wisdom": !!int "6"
+  - "wisdom": "+6"
+  - "charisma": "+6"
 "skillsaves":
-  "Intimidation": !!int "6"
-  "Perception": !!int "6"
-  "Survival": !!int "6"
+  - "name": "[Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation)"
+    "desc": "+6"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+6"
+  - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
+    "desc": "+6"
 "senses": "darkvision 60 ft., passive Perception 16"
 "languages": "Celestial, Common, Elvish"
 "cr": "5"
 "traits":
-- "desc": "The elf has advantage on saving throws it makes to avoid or end the [charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
-    \ condition on itself, and magic can't put it to sleep."
-  "name": "Fey Ancestry"
-- "desc": "The elf doesn't require sleep."
-  "name": "Unusual Nature"
+  - "desc": "The elf has advantage on saving throws it makes to avoid or end the [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
+      \ condition on itself, and magic can't put it to sleep."
+    "name": "Fey Ancestry"
+  - "desc": "The elf doesn't require sleep."
+    "name": "Unusual Nature"
 "actions":
-- "desc": "The elf makes two Longsword or Radiant Ray attacks."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 11\
-    \ (2d8 + 2) slashing damage, or 13 (2d10 + 2) slashing damage when used with\
-    \ two hands, plus 10 (3d6) radiant damage."
-  "name": "Longsword"
-- "desc": "Ranged Spell Attack: +6 to hit, range 120 ft., one target. Hit: 22\
-    \ (4d10) radiant damage."
-  "name": "Radiant Ray"
+  - "desc": "The elf makes two Longsword or Radiant Ray attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 11\
+      \ (2d8 + 2) slashing damage, or 13 (2d10 + 2) slashing damage when used\
+      \ with two hands, plus 10 (3d6) radiant damage."
+    "name": "Longsword"
+  - "desc": "Ranged Spell Attack: +6 to hit, range 120 ft., one target. Hit:\
+      \ 22 (4d10) radiant damage."
+    "name": "Radiant Ray"
 "source":
-- "BAM"
-- "LoX"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/humanoid/token/astral-elf-honor-guard-bam.webp"
+  - "BAM"
+  - "LoX"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/astral-elf-honor-guard-bam.webp"
 ```
 ^statblock

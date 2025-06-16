@@ -4,11 +4,12 @@ cssclasses: json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/race/gnome/rock
-aliases: ["Gnome (Rock)"]
+aliases:
+- Gnome (Rock)
 ---
 # Gnome (Rock)
 *Source: Player's Handbook p. 37. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
-![](gnome.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/races/img/gnome.webp#right)
 
 - **Ability Scores**: Constitution +1
 - **Size**: Small
@@ -42,7 +43,7 @@ Whenever you make an Intelligence ([History](03.PlayerLog&Handouts/Mechanics/CLI
 
 ### Tinker
 
-You have proficiency with artisan's tools ([tinker's tools](tinkers-tools.md)). Using those tools, you can spend 1 hour and 10 gp worth of materials to construct a Tiny clockwork device (AC 5, 1 hp). The device ceases to function after 24 hours (unless you spend 1 hour repairing it to keep the device functioning), or when you use your action to dismantle it; at that time, you can reclaim the materials used to create it. You can have up to three such devices active at a time.
+You have proficiency with artisan's tools ([tinker's tools](03.PlayerLog&Handouts/Mechanics/CLI/items/tinkers-tools.md)). Using those tools, you can spend 1 hour and 10 gp worth of materials to construct a Tiny clockwork device (AC 5, 1 hp). The device ceases to function after 24 hours (unless you spend 1 hour repairing it to keep the device functioning), or when you use your action to dismantle it; at that time, you can reclaim the materials used to create it. You can have up to three such devices active at a time.
 
 When you create a device, choose one of the following options:
 

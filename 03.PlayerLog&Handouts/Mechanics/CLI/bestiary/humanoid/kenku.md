@@ -9,10 +9,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/humanoid/kenku
 statblock: inline
-aliases: ["Kenku"]
+statblock-link: "#^statblock"
+aliases:
+- Kenku
 ---
-# [Kenku](03 - Player Log & Handouts\Mechanics\CLI\bestiary\humanoid/kenku.md)
-*Source: Monster Manual p. 194, Baldur's Gate: Descent Into Avernus*  
+# [Kenku](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/kenku.md)
+*Source: Monster Manual p. 194, Princes of the Apocalypse, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Baldur's Gate: Descent Into Avernus, Eberron: Rising from the Last War, Candlekeep Mysteries, Journeys through the Radiant Citadel*  
 
 Kenku are feathered humanoids that wander the world as vagabonds, driven by greed. They can perfectly imitate any sound they hear.
 
@@ -46,42 +48,52 @@ All kenku pine for the ability to fly, and thus the punishments they mete out to
 "ac": !!int "13"
 "hp": !!int "13"
 "hit_dice": "3d8"
+"modifier": !!int "3"
 "stats":
-- !!int "10"
-- !!int "16"
-- !!int "10"
-- !!int "11"
-- !!int "10"
-- !!int "10"
+  - !!int "10"
+  - !!int "16"
+  - !!int "10"
+  - !!int "11"
+  - !!int "10"
+  - !!int "10"
 "speed": "30 ft."
 "skillsaves":
-  "Deception": !!int "4"
-  "Stealth": !!int "5"
-  "Perception": !!int "2"
+  - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
+    "desc": "+4"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+2"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+5"
 "senses": "passive Perception 12"
 "languages": "understands Auran and Common but speaks only through the use of its\
   \ Mimicry trait"
 "cr": "1/4"
 "traits":
-- "desc": "In the first round of a combat, the kenku has advantage on attack rolls\
-    \ against any creature it [surprised](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Surprised)."
-  "name": "Ambusher"
-- "desc": "The kenku can mimic any sounds it has heard, including voices. A creature\
-    \ that hears the sounds can tell they are imitations with a successful DC 14 Wisdom\
-    \ ([Insight](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/skills.md#Insight))\
-    \ check."
-  "name": "Mimicry"
+  - "desc": "In the first round of a combat, the kenku has advantage on attack rolls\
+      \ against any creature it [surprised](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Surprised)."
+    "name": "Ambusher"
+  - "desc": "The kenku can mimic any sounds it has heard, including voices. A creature\
+      \ that hears the sounds can tell they are imitations with a successful DC 14\
+      \ Wisdom ([Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight))\
+      \ check."
+    "name": "Mimicry"
 "actions":
-- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6\
-    \ + 3) piercing damage."
-  "name": "Shortsword"
-- "desc": "Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. Hit:\
-    \ 6 (1d6 + 3) piercing damage."
-  "name": "Shortbow"
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+      \ (1d6 + 3) piercing damage."
+    "name": "Shortsword"
+  - "desc": "Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. Hit:\
+      \ 6 (1d6 + 3) piercing damage."
+    "name": "Shortbow"
 "source":
-- "MM"
-- "BGDIA"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/humanoid/token/kenku.webp"
+  - "MM"
+  - "PotA"
+  - "WDH"
+  - "WDMM"
+  - "BGDIA"
+  - "ERLW"
+  - "CM"
+  - "JttRC"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/kenku.webp"
 ```
 ^statblock
 

@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
-aliases: ["250 gp Art Objects"]
+aliases:
+- 250 gp Art Objects
 ---
 # 250 gp Art Objects
 *Source: Dungeon Master's Guide p. 134* 
@@ -14,14 +15,14 @@ aliases: ["250 gp Art Objects"]
 
 | dice: d10 | Object |
 |-----------|--------|
-| 1 | [Gold ring set with bloodstones](gold-ring-set-with-bloodstones.md) |
-| 2 | [Carved ivory statuette](carved-ivory-statuette.md) |
-| 3 | [Large gold bracelet](large-gold-bracelet.md) |
-| 4 | [Silver necklace with a gemstone pendant](silver-necklace-with-a-gemstone-pendant.md) |
-| 5 | [Bronze crown](bronze-crown.md) |
-| 6 | [Silk robe with gold embroidery](silk-robe-with-gold-embroidery.md) |
-| 7 | [Large well-made tapestry](large-well-made-tapestry.md) |
-| 8 | [Brass mug with jade inlay](brass-mug-with-jade-inlay.md) |
-| 9 | [Box of turquoise animal figurines](box-of-turquoise-animal-figurines.md) |
-| 10 | [Gold bird cage with electrum filigree](gold-bird-cage-with-electrum-filigree.md) |
+| 1 | [Gold ring set with bloodstones](03.PlayerLog&Handouts/Mechanics/CLI/items/gold-ring-set-with-bloodstones.md) |
+| 2 | [Carved ivory statuette](03.PlayerLog&Handouts/Mechanics/CLI/items/carved-ivory-statuette.md) |
+| 3 | [Large gold bracelet](03.PlayerLog&Handouts/Mechanics/CLI/items/large-gold-bracelet.md) |
+| 4 | [Silver necklace with a gemstone pendant](03.PlayerLog&Handouts/Mechanics/CLI/items/silver-necklace-with-a-gemstone-pendant.md) |
+| 5 | [Bronze crown](03.PlayerLog&Handouts/Mechanics/CLI/items/bronze-crown.md) |
+| 6 | [Silk robe with gold embroidery](03.PlayerLog&Handouts/Mechanics/CLI/items/silk-robe-with-gold-embroidery.md) |
+| 7 | [Large well-made tapestry](03.PlayerLog&Handouts/Mechanics/CLI/items/large-well-made-tapestry.md) |
+| 8 | [Brass mug with jade inlay](03.PlayerLog&Handouts/Mechanics/CLI/items/brass-mug-with-jade-inlay.md) |
+| 9 | [Box of turquoise animal figurines](03.PlayerLog&Handouts/Mechanics/CLI/items/box-of-turquoise-animal-figurines.md) |
+| 10 | [Gold bird cage with electrum filigree](03.PlayerLog&Handouts/Mechanics/CLI/items/gold-bird-cage-with-electrum-filigree.md) |
 ^250-gp-art-objects

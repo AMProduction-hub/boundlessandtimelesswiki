@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/phb
-aliases: ["Classes"]
+aliases:
+- Classes
 ---
 # Classes
 *Source: Player's Handbook (2014), p. 45* 
@@ -20,6 +21,6 @@ Adventurers sometimes advance in more than one class. A rogue might switch direc
 
 Twelve classes—listed in the Classes table—are found in almost every D&D world and define most typical adventurers.
 
-![](ch3.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/players-handbook-2014/img/ch3.webp#center)
 
-![Classes](classes.md)
+![Classes](03.PlayerLog&Handouts/Mechanics/CLI/tables/classes-phb.md)

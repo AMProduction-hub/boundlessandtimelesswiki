@@ -4,10 +4,11 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/subclass/warlock/genie
-aliases: ["The Genie"]
+aliases:
+- The Genie
 ---
 # The Genie
-*[Warlock](warlock.md): Otherworldly Patron*  
+*[Warlock](./warlock.md): Otherworldly Patron*  
 *Source: Tasha's Cauldron of Everything p. 73*  
 
 > [!tldr] Class and Feature Progression
@@ -56,10 +57,10 @@ You choose your patron's kind or determine it randomly, using the Genie Kind tab
 
 | dice: d4 | Kind | Element |
 |----------|------|---------|
-| 1 | [Dao](dao.md) | Earth |
-| 2 | [Djinni](djinni.md) | Air |
-| 3 | [Efreeti](efreeti.md) | Fire |
-| 4 | [Marid](marid.md) | Water |
+| 1 | [Dao](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/dao.md) | Earth |
+| 2 | [Djinni](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/djinni.md) | Air |
+| 3 | [Efreeti](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/efreeti.md) | Fire |
+| 4 | [Marid](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/marid.md) | Water |
 ^genie-kind
 
 #### Expanded Spell List
@@ -73,11 +74,11 @@ The Genie lets you choose from an expanded list of spells when you learn a warlo
 
 | Spell Level | Genie Spells | Dao Spells | Djinni Spells | Efreeti Spells | Marid Spells |
 |-------------|--------------|------------|---------------|----------------|--------------|
-| 1st | [detect evil and good](detect-evil-and-good.md) | [sanctuary](sanctuary.md) | [thunderwave](thunderwave.md) | [burning hands](burning-hands.md) | [fog cloud](fog-cloud.md) |
-| 2nd | [phantasmal force](phantasmal-force.md) | [spike growth](spike-growth.md) | [gust of wind](gust-of-wind.md) | [scorching ray](scorching-ray.md) | [blur](blur.md) |
-| 3rd | [create food and water](create-food-and-water.md) | [meld into stone](meld-into-stone.md) | [wind wall](wind-wall.md) | [fireball](fireball.md) | [sleet storm](sleet-storm.md) |
-| 4th | [phantasmal killer](phantasmal-killer.md) | [stone shape](stone-shape.md) | [greater invisibility](greater-invisibility.md) | [fire shield](fire-shield.md) | [control water](control-water.md) |
-| 5th | [creation](creation.md) | [wall of stone](wall-of-stone.md) | [seeming](seeming.md) | [flame strike](flame-strike.md) | [cone of cold](cone-of-cold.md) |
+| 1st | [detect evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-evil-and-good.md) | [sanctuary](03.PlayerLog&Handouts/Mechanics/CLI/spells/sanctuary.md) | [thunderwave](03.PlayerLog&Handouts/Mechanics/CLI/spells/thunderwave.md) | [burning hands](03.PlayerLog&Handouts/Mechanics/CLI/spells/burning-hands.md) | [fog cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/fog-cloud.md) |
+| 2nd | [phantasmal force](03.PlayerLog&Handouts/Mechanics/CLI/spells/phantasmal-force.md) | [spike growth](03.PlayerLog&Handouts/Mechanics/CLI/spells/spike-growth.md) | [gust of wind](03.PlayerLog&Handouts/Mechanics/CLI/spells/gust-of-wind.md) | [scorching ray](03.PlayerLog&Handouts/Mechanics/CLI/spells/scorching-ray.md) | [blur](03.PlayerLog&Handouts/Mechanics/CLI/spells/blur.md) |
+| 3rd | [create food and water](03.PlayerLog&Handouts/Mechanics/CLI/spells/create-food-and-water.md) | [meld into stone](03.PlayerLog&Handouts/Mechanics/CLI/spells/meld-into-stone.md) | [wind wall](03.PlayerLog&Handouts/Mechanics/CLI/spells/wind-wall.md) | [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md) | [sleet storm](03.PlayerLog&Handouts/Mechanics/CLI/spells/sleet-storm.md) |
+| 4th | [phantasmal killer](03.PlayerLog&Handouts/Mechanics/CLI/spells/phantasmal-killer.md) | [stone shape](03.PlayerLog&Handouts/Mechanics/CLI/spells/stone-shape.md) | [greater invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-invisibility.md) | [fire shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-shield.md) | [control water](03.PlayerLog&Handouts/Mechanics/CLI/spells/control-water.md) |
+| 5th | [creation](03.PlayerLog&Handouts/Mechanics/CLI/spells/creation.md) | [wall of stone](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-stone.md) | [seeming](03.PlayerLog&Handouts/Mechanics/CLI/spells/seeming.md) | [flame strike](03.PlayerLog&Handouts/Mechanics/CLI/spells/flame-strike.md) | [cone of cold](03.PlayerLog&Handouts/Mechanics/CLI/spells/cone-of-cold.md) |
 | 9th | [wish](03.PlayerLog&Handouts/Mechanics/CLI/spells/wish.md) | — | — | — | — |
 ^genie-expanded-spells
 
@@ -139,4 +140,4 @@ In addition, anyone (including you) who remains within the vessel for at least 1
 
 You entreat your patron to grant you a small wish. As an action, you can speak your desire to your Genie's Vessel, requesting the effect of one spell that is 6th level or lower and has a casting time of 1 action. The spell can be from any class's spell list, and you don't need to meet the requirements in that spell, including costly components; the spell simply takes effect as part of this action.
 
-Once you use this feature, you can't use it again until you finish `1d4` long rests.
+Once you use this feature, you can't use it again until you finish `d4` long rests.

@@ -10,7 +10,7 @@ aliases:
 ---
 # Electrum (ep)
 *Treasure (coinage)*  
-![](electrum-ep.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/electrum-ep.webp#right)
 
 - **Cost**: 5 sp
 - **Weight**: 0.02 lbs.

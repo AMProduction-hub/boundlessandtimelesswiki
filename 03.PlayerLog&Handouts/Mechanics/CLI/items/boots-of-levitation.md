@@ -14,6 +14,6 @@ aliases:
 
 
 
-While you wear these boots, you can use an action to cast the [levitate](levitate.md) spell on yourself at will.
+While you wear these boots, you can use an action to cast the [levitate](03.PlayerLog&Handouts/Mechanics/CLI/spells/levitate.md) spell on yourself at will.
 
 *Source: Dungeon Master's Guide p. 155. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

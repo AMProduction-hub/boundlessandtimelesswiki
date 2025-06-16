@@ -9,10 +9,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/elemental
 statblock: inline
-aliases: ["Galeb Duhr"]
+statblock-link: "#^statblock"
+aliases:
+- Galeb Duhr
 ---
-# [Galeb Duhr](03 - Player Log & Handouts\Mechanics\CLI\bestiary\elemental/galeb-duhr.md)
-*Source: Monster Manual p. 139, Tasha's Cauldron of Everything*  
+# [Galeb Duhr](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\elemental/galeb-duhr.md)
+*Source: Monster Manual p. 139, Princes of the Apocalypse, Waterdeep: Dungeon of the Mad Mage, Tasha's Cauldron of Everything, Keys from the Golden Vault*  
 
 The galeb duhr is a boulder-like creature with stumpy appendages that act as arms and legs. It has the ability to animate the rocks and boulders around it, and is thus usually encountered in rocky terrain.
 
@@ -37,49 +39,53 @@ A galeb duhr can become one with the earth around it, allowing it to imbue nearb
 "ac_class": "natural armor"
 "hp": !!int "85"
 "hit_dice": "9d8 + 45"
+"modifier": !!int "2"
 "stats":
-- !!int "20"
-- !!int "14"
-- !!int "20"
-- !!int "11"
-- !!int "12"
-- !!int "11"
+  - !!int "20"
+  - !!int "14"
+  - !!int "20"
+  - !!int "11"
+  - !!int "12"
+  - !!int "11"
 "speed": "15 ft. (30 ft. when rolling, 60 ft. rolling downhill)"
 "damage_resistances": "bludgeoning, piercing, slashing from nonmagical attacks"
 "damage_immunities": "poison"
-"condition_immunities": "[exhaustion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
-  \ [paralyzed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
-  \ [petrified](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
-  \ [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
+  \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
+  \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
+  \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "darkvision 60 ft., tremorsense 60 ft., passive Perception 11"
 "languages": "Terran"
 "cr": "6"
 "traits":
-- "desc": "While the galeb duhr remains motionless, it is indistinguishable from a\
-    \ normal boulder."
-  "name": "False Appearance"
-- "desc": "If the galeb duhr rolls at least 20 feet straight toward a target and then\
-    \ hits it with a slam attack on the same turn, the target takes an extra 7 (2d6)\
-    \ bludgeoning damage. If the target is a creature, it must succeed on a DC 16\
-    \ Strength saving throw or be knocked [prone](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
-  "name": "Rolling Charge"
+  - "desc": "While the galeb duhr remains motionless, it is indistinguishable from\
+      \ a normal boulder."
+    "name": "False Appearance"
+  - "desc": "If the galeb duhr rolls at least 20 feet straight toward a target and\
+      \ then hits it with a slam attack on the same turn, the target takes an extra\
+      \ 7 (2d6) bludgeoning damage. If the target is a creature, it must succeed\
+      \ on a DC 16 Strength saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
+    "name": "Rolling Charge"
 "actions":
-- "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 12\
-    \ (2d6 + 5) bludgeoning damage."
-  "name": "Slam"
-- "desc": "The galeb duhr magically animates up to two boulders it can see within\
-    \ 60 feet of it. A boulder has statistics like those of a galeb duhr, except it\
-    \ has Intelligence 1 and Charisma 1, it can't be [charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
-    \ or [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
-    \ and it lacks this action option. A boulder remains animated as long as the galeb\
-    \ duhr maintains [concentration](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Concentration),\
-    \ up to 1 minute (as if [concentrating](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Concentration)\
-    \ on a spell)."
-  "name": "Animate Boulders (1/Day)"
+  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 12\
+      \ (2d6 + 5) bludgeoning damage."
+    "name": "Slam"
+  - "desc": "The galeb duhr magically animates up to two boulders it can see within\
+      \ 60 feet of it. A boulder has statistics like those of a galeb duhr, except\
+      \ it has Intelligence 1 and Charisma 1, it can't be [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
+      \ or [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
+      \ and it lacks this action option. A boulder remains animated as long as the\
+      \ galeb duhr maintains [concentration](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Concentration),\
+      \ up to 1 minute (as if [concentrating](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Concentration)\
+      \ on a spell)."
+    "name": "Animate Boulders (1/Day)"
 "source":
-- "MM"
-- "TCE"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/elemental/token/galeb-duhr.webp"
+  - "MM"
+  - "PotA"
+  - "WDMM"
+  - "TCE"
+  - "KftGV"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/token/galeb-duhr.webp"
 ```
 ^statblock
 

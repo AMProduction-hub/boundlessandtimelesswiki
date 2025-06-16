@@ -5,10 +5,11 @@ tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/domain/war
 - ttrpg-cli/subclass/cleric/war
-aliases: ["War Domain"]
+aliases:
+- War Domain
 ---
 # War Domain
-*[Cleric](cleric.md): Divine Domain*  
+*[Cleric](./cleric.md): Divine Domain*  
 *Source: Player's Handbook p. 63*  
 
 > [!tldr] Class and Feature Progression
@@ -47,7 +48,7 @@ aliases: ["War Domain"]
 
 ### War Domain (Level 1)
 
-War has many manifestations. It can make heroes of ordinary people. It can be desperate and horrific, with acts of cruelty and cowardice eclipsing instances of excellence and courage. In either case, the gods of war watch over warriors and reward them for their great deeds. The clerics of such gods excel in battle, inspiring others to fight the good fight or offering acts of violence as prayers. Gods of war include champions of honor and chivalry (such as Torm, Heironeous, and Kiri-Jolith) as well as gods of destruction and pillage (such as Erythnul, the Fury, Gruumsh, and Ares) and gods of conquest and domination (such as Bane, Hextor, and Maglubiyet). Other war gods (such as Tempus, Nike, and Nuada) take a more neutral stance, promoting war in all its manifestations and supporting warriors in any circumstance.
+War has many manifestations. It can make heroes of ordinary people. It can be desperate and horrific, with acts of cruelty and cowardice eclipsing instances of excellence and courage. In either case, the gods of war watch over warriors and reward them for their great deeds. The clerics of such gods excel in battle, inspiring others to fight the good fight or offering acts of violence as prayers. Gods of war include champions of honor and chivalry (such as Torm, [Heironeous](03.PlayerLog&Handouts/Mechanics/CLI/deities/greyhawk-heironeous.md), and Kiri-Jolith) as well as gods of destruction and pillage (such as [Erythnul](03.PlayerLog&Handouts/Mechanics/CLI/deities/greyhawk-erythnul.md), the Fury, [Gruumsh](03.PlayerLog&Handouts/Mechanics/CLI/deities/nonhuman-gruumsh.md), and [Ares](03.PlayerLog&Handouts/Mechanics/CLI/deities/greek-ares.md)) and gods of conquest and domination (such as Bane, [Hextor](03.PlayerLog&Handouts/Mechanics/CLI/deities/greyhawk-hextor.md), and [Maglubiyet](03.PlayerLog&Handouts/Mechanics/CLI/deities/nonhuman-maglubiyet.md)). Other war gods (such as Tempus, [Nike](03.PlayerLog&Handouts/Mechanics/CLI/deities/greek-nike.md), and [Nuada](03.PlayerLog&Handouts/Mechanics/CLI/deities/celtic-nuada.md)) take a more neutral stance, promoting war in all its manifestations and supporting warriors in any circumstance.
 
 At each indicated cleric level, add the listed spells to your spells prepared.
 
@@ -55,11 +56,11 @@ At each indicated cleric level, add the listed spells to your spells prepared.
 
 | Cleric Level | Spells |
 |--------------|--------|
-| 1st | [divine favor](divine-favor.md), [shield of faith](shield-of-faith.md) |
-| 3rd | [magic weapon](magic-weapon.md), [spiritual weapon](spiritual-weapon.md) |
-| 5th | [crusader's mantle](crusaders-mantle.md), [spirit guardians](spirit-guardians.md) |
-| 7th | [freedom of movement](freedom-of-movement.md), [stoneskin](stoneskin.md) |
-| 9th | [flame strike](flame-strike.md), [hold monster](hold-monster.md) |
+| 1st | [divine favor](03.PlayerLog&Handouts/Mechanics/CLI/spells/divine-favor.md), [shield of faith](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield-of-faith.md) |
+| 3rd | [magic weapon](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-weapon.md), [spiritual weapon](03.PlayerLog&Handouts/Mechanics/CLI/spells/spiritual-weapon.md) |
+| 5th | [crusader's mantle](03.PlayerLog&Handouts/Mechanics/CLI/spells/crusaders-mantle.md), [spirit guardians](03.PlayerLog&Handouts/Mechanics/CLI/spells/spirit-guardians.md) |
+| 7th | [freedom of movement](03.PlayerLog&Handouts/Mechanics/CLI/spells/freedom-of-movement.md), [stoneskin](03.PlayerLog&Handouts/Mechanics/CLI/spells/stoneskin.md) |
+| 9th | [flame strike](03.PlayerLog&Handouts/Mechanics/CLI/spells/flame-strike.md), [hold monster](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-monster.md) |
 ^war-domain-spells
 
 ### Bonus Proficiencies (Level 1)
@@ -68,7 +69,7 @@ At 1st level, you gain proficiency with martial weapons and heavy armor.
 
 ### War Priest (Level 1)
 
-From 1st level, your god delivers bolts of inspiration to you while you are engaged in battle. When you use the [Attack](actions.md#Attack) action, you can make one weapon attack as a bonus action. You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest.
+From 1st level, your god delivers bolts of inspiration to you while you are engaged in battle. When you use the [Attack](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Attack) action, you can make one weapon attack as a bonus action. You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest.
 
 ### Channel Divinity: Guided Strike (Level 2)
 
@@ -80,14 +81,14 @@ At 6th level, when a creature within 30 feet of you makes an attack roll, you ca
 
 ### Divine Strike (Level 8)
 
-At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra `1d8` damage of the same type dealt by the weapon to the target. When you reach 14th level, the extra damage increases to `2d8`.
+At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra `d8` damage of the same type dealt by the weapon to the target. When you reach 14th level, the extra damage increases to `2d8`.
 
 ### Blessed Strikes (Level 8)
 _Source: Tasha's Cauldron of Everything p. 30_
 
-*8th-level cleric [optional feature](optional-class-features-tce.md), which replaces the Divine Strike feature*
+*8th-level cleric [optional feature](03.PlayerLog&Handouts/Mechanics/CLI/rules/variant-rules/optional-class-features-tce.md), which replaces the Divine Strike feature*
 
-You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal `1d8` radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.
+You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal `d8` radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.
 
 ### Avatar of Battle (Level 17)
 

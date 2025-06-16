@@ -10,10 +10,12 @@ tags:
 - ttrpg-cli/monster/size/tiny
 - ttrpg-cli/monster/type/undead
 statblock: inline
-aliases: ["Will-o'-Wisp"]
+statblock-link: "#^statblock"
+aliases:
+- Will-o'-Wisp
 ---
-# [Will-o'-Wisp](03 - Player Log & Handouts\Mechanics\CLI\bestiary\undead/will-o-wisp.md)
-*Source: Monster Manual p. 301, Baldur's Gate: Descent Into Avernus, Light of Xaryxis, Sigil and the Outlands. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Will-o'-Wisp](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/will-o-wisp.md)
+*Source: Monster Manual p. 301, Curse of Strahd, Princes of the Apocalypse, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Dragon of Icespire Peak, Baldur's Gate: Descent Into Avernus, Icewind Dale: Rime of the Frostmaiden, Candlekeep Mysteries, Journeys through the Radiant Citadel, Light of Xaryxis. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Will-o'-wisps are malevolent, wispy balls of light that haunt lonely places and battlefields, bound by dark fate or dark magic to feed on fear and despair.
 
@@ -43,58 +45,67 @@ A will-o'-wisp doesn't require air, drink, or sleep.
 "ac": !!int "19"
 "hp": !!int "22"
 "hit_dice": "9d4"
+"modifier": !!int "9"
 "stats":
-- !!int "1"
-- !!int "28"
-- !!int "10"
-- !!int "13"
-- !!int "14"
-- !!int "11"
+  - !!int "1"
+  - !!int "28"
+  - !!int "10"
+  - !!int "13"
+  - !!int "14"
+  - !!int "11"
 "speed": "0 ft., fly 50 ft. (hover)"
 "damage_resistances": "acid; cold; fire; necrotic; thunder; bludgeoning, piercing,\
   \ slashing from nonmagical attacks"
 "damage_immunities": "lightning, poison"
-"condition_immunities": "[exhaustion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
-  \ [grappled](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Grappled),\
-  \ [paralyzed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
-  \ [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
-  \ [prone](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Prone),\
-  \ [restrained](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
-  \ [unconscious](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)"
+"condition_immunities": "[exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
+  \ [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled),\
+  \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
+  \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
+  \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
+  \ [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)"
 "senses": "darkvision 120 ft., passive Perception 12"
 "languages": "the languages it knew in life"
 "cr": "2"
 "traits":
-- "desc": "As a bonus action, the will-o'-wisp can target one creature it can see\
-    \ within 5 feet of it that has 0 hit points and is still alive. The target must\
-    \ succeed on a DC 10 Constitution saving throw against this magic or die. If the\
-    \ target dies, the will-o'-wisp regains 10 (3d6) hit points."
-  "name": "Consume Life"
-- "desc": "The will-o'-wisp can't wear or carry anything."
-  "name": "Ephemeral"
-- "desc": "The will-o'-wisp can move through other creatures and objects as if they\
-    \ were difficult terrain. It takes 5 (1d10) force damage if it ends its turn\
-    \ inside an object."
-  "name": "Incorporeal Movement"
-- "desc": "The will-o'-wisp sheds bright light in a 5 to 20-foot radius and dim light\
-    \ for an additional number of ft. equal to the chosen radius. The will-o'-wisp\
-    \ can alter the radius as a bonus action."
-  "name": "Variable Illumination"
+  - "desc": "As a bonus action, the will-o'-wisp can target one creature it can see\
+      \ within 5 feet of it that has 0 hit points and is still alive. The target must\
+      \ succeed on a DC 10 Constitution saving throw against this magic or die. If\
+      \ the target dies, the will-o'-wisp regains 10 (3d6) hit points."
+    "name": "Consume Life"
+  - "desc": "The will-o'-wisp can't wear or carry anything."
+    "name": "Ephemeral"
+  - "desc": "The will-o'-wisp can move through other creatures and objects as if they\
+      \ were difficult terrain. It takes 5 (d10) force damage if it ends its turn\
+      \ inside an object."
+    "name": "Incorporeal Movement"
+  - "desc": "The will-o'-wisp sheds bright light in a 5 to 20-foot radius and dim\
+      \ light for an additional number of ft. equal to the chosen radius. The will-o'-wisp\
+      \ can alter the radius as a bonus action."
+    "name": "Variable Illumination"
 "actions":
-- "desc": "Melee Spell Attack: +4 to hit, reach 5 ft., one creature. Hit: 9\
-    \ (2d8) lightning damage."
-  "name": "Shock"
-- "desc": "The will-o'-wisp and its light magically become [invisible](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Invisible)\
-    \ until it attacks or uses its Consume Life, or until its [concentration](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Concentration)\
-    \ ends (as if [concentrating](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Concentration)\
-    \ on a spell)."
-  "name": "Invisibility"
+  - "desc": "Melee Spell Attack: +4 to hit, reach 5 ft., one creature. Hit:\
+      \ 9 (2d8) lightning damage."
+    "name": "Shock"
+  - "desc": "The will-o'-wisp and its light magically become [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible)\
+      \ until it attacks or uses its Consume Life, or until its [concentration](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Concentration)\
+      \ ends (as if [concentrating](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Concentration)\
+      \ on a spell)."
+    "name": "Invisibility"
 "source":
-- "MM"
-- "BGDIA"
-- "LoX"
-- "SatO"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/undead/token/will-o-wisp.webp"
+  - "MM"
+  - "CoS"
+  - "PotA"
+  - "TftYP"
+  - "ToA"
+  - "WDMM"
+  - "GoS"
+  - "DIP"
+  - "BGDIA"
+  - "IDRotF"
+  - "CM"
+  - "JttRC"
+  - "LoX"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/token/will-o-wisp.webp"
 ```
 ^statblock
 

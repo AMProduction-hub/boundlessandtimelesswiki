@@ -5,7 +5,8 @@ tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/object/size/large
 - ttrpg-cli/object/type/siege-weapon
-aliases: ["Cannon"]
+aliases:
+- Cannon
 ---
 # Cannon
 %%-- Embedded content starts on the next line. --%%
@@ -17,7 +18,7 @@ A cannon is usually supported in a wooden frame with wheels. Before it can be fi
 
 ```ad-statblock
 title: Cannon
-![](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/objects/token/cannon.webp#token)
+![](03.PlayerLog&Handouts/Mechanics/CLI/objects/token/cannon.webp#token)
 *Large Siege weapon*
 
 - **Armor Class** 19

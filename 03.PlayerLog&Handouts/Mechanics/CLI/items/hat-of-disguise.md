@@ -14,6 +14,6 @@ aliases:
 
 
 
-While wearing this hat, you can use an action to cast the [disguise self](disguise-self.md) spell from it at will. The spell ends if the hat is removed.
+While wearing this hat, you can use an action to cast the [disguise self](03.PlayerLog&Handouts/Mechanics/CLI/spells/disguise-self.md) spell from it at will. The spell ends if the hat is removed.
 
 *Source: Dungeon Master's Guide p. 173. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

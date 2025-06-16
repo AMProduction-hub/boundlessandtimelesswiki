@@ -4,7 +4,8 @@ cssclasses: json5e-reward
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
 - ttrpg-cli/reward/other
-aliases: ["The Blessed of Corellon"]
+aliases:
+- The Blessed of Corellon
 ---
 # The Blessed of Corellon
 *Other*  

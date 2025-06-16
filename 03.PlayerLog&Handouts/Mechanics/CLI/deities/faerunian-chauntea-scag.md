@@ -5,11 +5,14 @@ tags:
 - ttrpg-cli/compendium/src/5e/scag
 - ttrpg-cli/deity/faerunian
 - ttrpg-cli/domain/life
-aliases: ["Chauntea", "The Great Mother", "The Grain Goddess"]
+aliases: 
+- Chauntea
+- The Great Mother
+- The Grain Goddess
 ---
 # Chauntea
 *Source: Sword Coast Adventurer's Guide p. 21* 
-![](scag-symbol-of-chauntea.webp#symbol)
+![](03.PlayerLog&Handouts/Mechanics/CLI/deities/img/scag-symbol-of-chauntea.webp#symbol)
 
 - **Alternate Names**: The Great Mother, The Grain Goddess
 - **Alignment**: Neutral Good

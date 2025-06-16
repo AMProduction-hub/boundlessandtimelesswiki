@@ -4,7 +4,8 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/class/spellcaster-sidekick
 - ttrpg-cli/compendium/src/5e/tce
-aliases: ["Spellcaster Sidekick"]
+aliases:
+- Spellcaster Sidekick
 ---
 # Spellcaster Sidekick
 *Source: Tasha's Cauldron of Everything p. 144*  
@@ -66,7 +67,7 @@ A sidekick who becomes a Spellcaster walks the paths of magic. The sidekick migh
 To gain the Spellcaster class, a creature must have at least one language in its stat block that it can speak.
 
 > [!note]
-> Note: this class is intended for NPC [sidekicks](sidekicks-tce.md).
+> Note: this class is intended for NPC [sidekicks](03.PlayerLog&Handouts/Mechanics/CLI/rules/variant-rules/sidekicks-tce.md).
 
 ### Bonus Proficiencies (Level 1)
 
@@ -101,9 +102,9 @@ The Spellcaster table shows how many spell slots the sidekick has to cast its Sp
 
 The sidekick knows two cantrips and one 1st-level spell of your choice from its spell list. Here are recommendations for a 1st-level spellcaster of each role:
 
-- **Mage.** [mage hand](mage-hand.md), [ray of frost](ray-of-frost.md), [thunderwave](thunderwave.md)  
-- **Healer.** [cure wounds](cure-wounds.md), [guidance](guidance.md), [sacred flame](sacred-flame.md)  
-- **Prodigy.** [eldritch blast](eldritch-blast.md), [healing word](healing-word.md), [light](light.md)  
+- **Mage.** [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), [ray of frost](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-frost.md), [thunderwave](03.PlayerLog&Handouts/Mechanics/CLI/spells/thunderwave.md)  
+- **Healer.** [cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/cure-wounds.md), [guidance](03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md), [sacred flame](03.PlayerLog&Handouts/Mechanics/CLI/spells/sacred-flame.md)  
+- **Prodigy.** [eldritch blast](03.PlayerLog&Handouts/Mechanics/CLI/spells/eldritch-blast.md), [healing word](03.PlayerLog&Handouts/Mechanics/CLI/spells/healing-word.md), [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md)  
 - The Cantrips Known and Spells Known columns of the Spellcaster table shows when the sidekick learns more spells of your choice. Each of the spells in the Spells Known column must be of a level for which the sidekick has spell slots, as shown on the table. For instance, when the sidekick reaches 5th level in this class, it can learn one new spell of 1st or 2nd level.  
 - Additionally, when the sidekick gains a level in this class, you can choose one of the spells it knows from this class and replace it with another spell from its spell list. The new spell must be a cantrip or of a level for which the sidekick has spell slots.  
 
@@ -113,13 +114,13 @@ The sidekick's spellcasting ability for these spells depends on the choice you m
 
 The sidekick uses its spellcasting ability whenever a spell refers to that ability. In addition, it uses its spellcasting ability modifier when setting the saving throw DC for a spell it casts and when making an attack roll with one.
 
-<span class='abilityDc'>**Spell save DC**: 8 + your proficiency bonus + your Spellcasting modifier</span>
+<span class='abilityDc'>**Spell save DC**: your proficiency bonus + your Spellcasting</span>
 
-<span class='abilityAttackMod'>**Spell attack modifier**: your proficiency bonus + your Spellcasting modifier</span>
+<span class='abilityAttackMod'>**Spell attack modifier**: your proficiency bonus + your Spellcasting</span>
 
 #### Spellcasting Focus
 
-The sidekick can use a focus for its spells depending on the choice you made on the Spellcasting table. A Mage can use an arcane focus, a Healer can use a holy symbol, and a Prodigy can use an arcane focus or a [musical instrument](musical-instrument.md).
+The sidekick can use a focus for its spells depending on the choice you made on the Spellcasting table. A Mage can use an arcane focus, a Healer can use a holy symbol, and a Prodigy can use an arcane focus or a [musical instrument](03.PlayerLog&Handouts/Mechanics/CLI/items/musical-instrument.md).
 
 ### Ability Score Improvement (Level 4)
 
@@ -177,4 +178,4 @@ If your DM allows the use of feats, the sidekick may instead take a feat.
 
 *20th-level Spellcaster feature*
 
-Taking damage can't break the sidekick's [concentration](conditions.md#Concentration) on a spell.
+Taking damage can't break the sidekick's [concentration](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Concentration) on a spell.

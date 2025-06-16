@@ -7,7 +7,8 @@ tags:
 - ttrpg-cli/domain/knowledge
 - ttrpg-cli/domain/order
 - ttrpg-cli/domain/war
-aliases: ["Tyr"]
+aliases: 
+- Tyr
 ---
 # Tyr
 *Source: Player's Handbook p. 299* 

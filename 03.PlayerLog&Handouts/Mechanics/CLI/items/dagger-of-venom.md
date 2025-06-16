@@ -11,16 +11,16 @@ aliases:
 - "Dagger of Venom"
 ---
 # Dagger of Venom
-*Weapon ([dagger](dagger.md)), major, rare*  
-![](dagger-of-venom.webp#right)
+*Weapon ([dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md)), major, rare*  
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/dagger-of-venom.webp#right)
 
 - **Damage**: 1d4 piercing
 - **Range**: 20/60
-- **Properties**: [Finesse](item-properties.md#Finesse), [Light](item-properties.md#Light), [Thrown](item-properties.md#Thrown)
+- **Properties**: [Finesse](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Finesse), [Light](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Light), [Thrown](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Thrown)
 - **Weight**: 1.0 lbs.
 
 You gain a +1 bonus to attack and damage rolls made with this magic weapon.
 
-You can use an action to cause thick, black poison to coat the blade. The poison remains for 1 minute or until an attack using this weapon hits a creature. That creature must succeed on a DC 15 Constitution saving throw or take `2d10` poison damage and become [poisoned](conditions.md#Poisoned) for 1 minute. The dagger can't be used this way again until the next dawn.
+You can use an action to cause thick, black poison to coat the blade. The poison remains for 1 minute or until an attack using this weapon hits a creature. That creature must succeed on a DC 15 Constitution saving throw or take `2d10` poison damage and become [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned) for 1 minute. The dagger can't be used this way again until the next dawn.
 
 *Source: Dungeon Master's Guide p. 161. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

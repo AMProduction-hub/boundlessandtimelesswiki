@@ -4,10 +4,11 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/subclass/paladin/watchers
-aliases: ["Oath of the Watchers"]
+aliases:
+- Oath of the Watchers
 ---
 # Oath of the Watchers
-*[Paladin](paladin.md): Sacred Oath*  
+*[Paladin](./paladin.md): Sacred Oath*  
 *Source: Tasha's Cauldron of Everything p. 54*  
 
 > [!tldr] Class and Feature Progression
@@ -79,11 +80,11 @@ You gain oath spells at the paladin levels listed in the Oath of the Watchers ta
 
 | Paladin Level | Spells |
 |---------------|--------|
-| 3rd | [alarm](alarm.md), [detect magic](detect-magic.md) |
-| 5th | [moonbeam](moonbeam.md), [see invisibility](see-invisibility.md) |
-| 9th | [counterspell](03.PlayerLog&Handouts/Mechanics/CLI/spells/counterspell.md), [nondetection](nondetection.md) |
-| 13th | [aura of purity](aura-of-purity.md), [banishment](banishment.md) |
-| 17th | [hold monster](hold-monster.md), [scrying](scrying.md) |
+| 3rd | [alarm](03.PlayerLog&Handouts/Mechanics/CLI/spells/alarm.md), [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md) |
+| 5th | [moonbeam](03.PlayerLog&Handouts/Mechanics/CLI/spells/moonbeam.md), [see invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/see-invisibility.md) |
+| 9th | [counterspell](03.PlayerLog&Handouts/Mechanics/CLI/spells/counterspell.md), [nondetection](03.PlayerLog&Handouts/Mechanics/CLI/spells/nondetection.md) |
+| 13th | [aura of purity](03.PlayerLog&Handouts/Mechanics/CLI/spells/aura-of-purity.md), [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md) |
+| 17th | [hold monster](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-monster.md), [scrying](03.PlayerLog&Handouts/Mechanics/CLI/spells/scrying.md) |
 ^oath-of-the-watchers-spells
 
 ### Channel Divinity (Level 3)
@@ -100,13 +101,13 @@ You can use your Channel Divinity to invest your presence with the warding power
 
 You can use your Channel Divinity to castigate unworldly beings. As an action, you present your holy symbol and each aberration, celestial, elemental, fey, or fiend within 30 feet of you that can hear you must make a Wisdom saving throw. On a failed save, the creature is turned for 1 minute or until it takes damage.
 
-A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly end its move in a space within 30 feet of you. For its action, it can use only the [Dash](actions.md#Dash) action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can take the [Dodge](actions.md#Dodge) action.
+A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly end its move in a space within 30 feet of you. For its action, it can use only the [Dash](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Dash) action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can take the [Dodge](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Dodge) action.
 
 ### Aura of the Sentinel (Level 7)
 
 *7th-level Oath of the Watchers feature*
 
-You emit an aura of alertness while you aren't [incapacitated](conditions.md#Incapacitated). When you and any creatures of your choice within 10 feet of you roll initiative, you all gain a bonus to initiative equal to your proficiency bonus.
+You emit an aura of alertness while you aren't [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated). When you and any creatures of your choice within 10 feet of you roll initiative, you all gain a bonus to initiative equal to your proficiency bonus.
 
 At 18th level, the range of this aura increases to 30 feet.
 
@@ -122,7 +123,7 @@ You've learned how to chastise anyone who dares wield beguilements against you a
 
 You manifest a spark of divine power in defense of the mortal realms. As a bonus action, you gain the following benefits for 1 minute:
 
-- You gain [truesight](senses.md#Truesight) with a range of 120 feet.  
+- You gain [truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight) with a range of 120 feet.  
 - You have advantage on attack rolls against aberrations, celestials, elementals, fey, and fiends.  
 - When you hit a creature with an attack roll and deal damage to it, you can also force it to make a Charisma saving throw against your spell save DC. On a failed save, the creature is magically banished to its native plane of existence if it's currently not there. On a successful save, the creature can't be banished by this feature for 24 hours.  
 

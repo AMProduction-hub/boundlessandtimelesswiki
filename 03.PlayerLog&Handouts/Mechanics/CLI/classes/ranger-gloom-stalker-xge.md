@@ -4,10 +4,11 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 - ttrpg-cli/subclass/ranger/gloom-stalker
-aliases: ["Gloom Stalker"]
+aliases:
+- Gloom Stalker
 ---
 # Gloom Stalker
-*[Ranger](03.PlayerLog&Handouts/Mechanics/CLI/classes/ranger.md): Ranger Archetype*  
+*[Ranger](./ranger.md): Ranger Archetype*  
 *Source: Xanathar's Guide to Everything p. 41*  
 
 > [!tldr] Class and Feature Progression
@@ -42,6 +43,10 @@ aliases: ["Gloom Stalker"]
 ^class-progression
 
 
+> [!quote] A quote from Xanathar  
+> 
+> So you sneak around in the dark? You know most everything but humans can see in the dark, right? We all see you. Tiptoeing doesn't turn you [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible).
+
 ## Class Features
 
 ### Gloom Stalker (Level 3)
@@ -56,24 +61,24 @@ Starting at 3rd level, you learn an additional spell when you reach certain leve
 
 | Ranger Level | Spells |
 |--------------|--------|
-| 3rd | [disguise self](disguise-self.md) |
-| 5th | [rope trick](rope-trick.md) |
-| 9th | [fear](fear.md) |
-| 13th | [greater invisibility](greater-invisibility.md) |
-| 17th | [seeming](seeming.md) |
+| 3rd | [disguise self](03.PlayerLog&Handouts/Mechanics/CLI/spells/disguise-self.md) |
+| 5th | [rope trick](03.PlayerLog&Handouts/Mechanics/CLI/spells/rope-trick.md) |
+| 9th | [fear](03.PlayerLog&Handouts/Mechanics/CLI/spells/fear.md) |
+| 13th | [greater invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-invisibility.md) |
+| 17th | [seeming](03.PlayerLog&Handouts/Mechanics/CLI/spells/seeming.md) |
 ^gloom-stalker-spells
 
 ### Dread Ambusher (Level 3)
 
 At 3rd level, you master the art of the ambush. You can give yourself a bonus to your initiative rolls equal to your Wisdom modifier.
 
-At the start of your first turn of each combat, your walking speed increases by 10 feet, which lasts until the end of that turn. If you take the [Attack](actions.md#Attack) action on that turn, you can make one additional weapon attack as part of that action. If that attack hits, the target takes an extra `1d8` damage of the weapon's damage type.
+At the start of your first turn of each combat, your walking speed increases by 10 feet, which lasts until the end of that turn. If you take the [Attack](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Attack) action on that turn, you can make one additional weapon attack as part of that action. If that attack hits, the target takes an extra `d8` damage of the weapon's damage type.
 
 ### Umbral Sight (Level 3)
 
-At 3rd level, you gain [darkvision](senses.md#Darkvision) out to a range of 60 feet. If you already have [darkvision](senses.md#Darkvision) from your race, its range increases by 30 feet.
+At 3rd level, you gain [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision) out to a range of 60 feet. If you already have [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision) from your race, its range increases by 30 feet.
 
-You are also adept at evading creatures that rely on [darkvision](senses.md#Darkvision). While in darkness, you are [invisible](conditions.md#Invisible) to any creature that relies on [darkvision](senses.md#Darkvision) to see you in that darkness.
+You are also adept at evading creatures that rely on [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision). While in darkness, you are [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible) to any creature that relies on [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision) to see you in that darkness.
 
 ### Iron Mind (Level 7)
 

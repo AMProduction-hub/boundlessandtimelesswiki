@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xge
-aliases: ["Character Options"]
+aliases:
+- Character Options
 ---
 # Character Options
 *Source: Xanathar's Guide to Everything, p. 7* 
@@ -18,7 +19,7 @@ Following the subclasses, the section called "this is your life" presents a seri
 
 The chapter concludes with a selection of feats for the races in the player's handbook, offering ways to delve deeper into a character's racial identity.
 
-![Character Options; Subclasses](character-options-subclasses-xge.md)
+![Character Options; Subclasses](03.PlayerLog&Handouts/Mechanics/CLI/tables/character-options-subclasses-xge.md)
 
 ## This is Your Life
 
@@ -37,7 +38,7 @@ Even though these pages are full of tables and die rolls, they don't make up a r
 
 For instance, you might not want these tables to help you decide who your parents and siblings are, because that's among the information you've already come up with. But you can still use other parts, such as the section on life events, to provide added depth and detail.
 
-![](c1039.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/xanathars-guide-to-everything/img/c1039.webp#center)
 
 #### How and When to Use the Tables
 
@@ -77,19 +78,19 @@ You had parents, of course, even if they didn't raise you. To determine what you
 
 If your character is a half-elf, a half-orc, or a tiefling, you can use one of the tables below to determine the race of each of your parents. When you have a result, randomly determine which part of the result refers to your father and which to your mother.
 
-![Parents](parents-xge.md)
+![Parents](03.PlayerLog&Handouts/Mechanics/CLI/tables/parents-xge.md)
 
-![Half-Elf Parents](half-elf-parents-xge.md)
+![Half-Elf Parents](03.PlayerLog&Handouts/Mechanics/CLI/tables/half-elf-parents-xge.md)
 
-![Half-Orc Parents](half-orc-parents-xge.md)
+![Half-Orc Parents](03.PlayerLog&Handouts/Mechanics/CLI/tables/half-orc-parents-xge.md)
 
-![Tiefling Parents](tiefling-parents-xge.md)
+![Tiefling Parents](03.PlayerLog&Handouts/Mechanics/CLI/tables/tiefling-parents-xge.md)
 
 #### Birthplace
 
 After establishing your parentage, you can determine where you were born by using the Birthplace table. (Modify the result or roll again if you get a result that's inconsistent with what you know about your parents.) Once you have a result, roll percentile dice. On a roll of 00, a strange event coincided with your birth: the moon briefly turning red, all the milk within a mile spoiling, the water in the area freezing solid in midsummer, all the iron in the home rusting or turning to silver, or some other unusual event of your choice.
 
-![Birthplace](birthplace-xge.md)
+![Birthplace](03.PlayerLog&Handouts/Mechanics/CLI/tables/birthplace-xge.md)
 
 #### Siblings
 
@@ -115,9 +116,9 @@ You can roll on the Relationship supplemental table to determine how your siblin
 
 You can decide any other details you like about each sibling, including gender, personality, and place in the world.
 
-![Number of Siblings](number-of-siblings-xge.md)
+![Number of Siblings](03.PlayerLog&Handouts/Mechanics/CLI/tables/number-of-siblings-xge.md)
 
-![Other Details; Birth Order](other-details-birth-order-xge.md)
+![Other Details; Birth Order](03.PlayerLog&Handouts/Mechanics/CLI/tables/other-details-birth-order-xge.md)
 
 #### Family and Friends
 
@@ -127,27 +128,27 @@ Use the Family table to determine who raised you. If you know who your parents a
 
 Next, refer to the Family Lifestyle table to determine the general circumstances of your upbringing. (Chapter 5 of the player's handbook has more information about lifestyles.) The result on that table includes a number that is applied to your roll on the Childhood Home table, which tells you where you spent your early years. Wrap up this section by using the Childhood Memories table, which tells you how you were treated by other youngsters as you were growing up.
 
-![](c1040.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/xanathars-guide-to-everything/img/c1040.webp#center)
 
 ##### Supplemental Tables
 
 You can roll on the Relationship table to determine how your family members or other important figures in your life feel about you. You can also use the Race, Occupation, and Alignment tables to learn more about the family members or guardians who raised you. **Developer's Note:** Below you will find a link to a **Story Template** which uses the tables in this and the sections below to randomly determine your back story. Instructions on how to use the template are given in the template itself.
 
-![Supplemental Tables; Family](supplemental-tables-family-xge.md)
+![Supplemental Tables; Family](03.PlayerLog&Handouts/Mechanics/CLI/tables/supplemental-tables-family-xge.md)
 
-![Supplemental Tables; Absent Parent](supplemental-tables-absent-parent-xge.md)
+![Supplemental Tables; Absent Parent](03.PlayerLog&Handouts/Mechanics/CLI/tables/supplemental-tables-absent-parent-xge.md)
 
-![Supplemental Tables; Family Lifestyle](supplemental-tables-family-lifestyle-xge.md)
+![Supplemental Tables; Family Lifestyle](03.PlayerLog&Handouts/Mechanics/CLI/tables/supplemental-tables-family-lifestyle-xge.md)
 
-![Supplemental Tables; Childhood Home](supplemental-tables-childhood-home-xge.md)
+![Supplemental Tables; Childhood Home](03.PlayerLog&Handouts/Mechanics/CLI/tables/supplemental-tables-childhood-home-xge.md)
 
-![Supplemental Tables; Childhood Memories](supplemental-tables-childhood-memories-xge.md)
+![Supplemental Tables; Childhood Memories](03.PlayerLog&Handouts/Mechanics/CLI/tables/supplemental-tables-childhood-memories-xge.md)
 
 ### Personal Decisions
 
 Your character's life takes a particular course depending on the choices you make for the character's background and class.
 
-![](c1041.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/xanathars-guide-to-everything/img/c1041.webp#center)
 
 #### Background
 
@@ -343,7 +344,7 @@ If you haven't chosen your class yet, do so now, keeping in mind your background
 
 The class sections earlier in this chapter have further story suggestions, which you can use in concert with the material here.
 
-![](c1042.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/xanathars-guide-to-everything/img/c1042.webp#center)
 
 ##### I became...
 
@@ -521,55 +522,55 @@ No matter how long you've been alive, you have experienced at least one signatur
 
 The older a character is, the greater the chance for multiple life events, as shown on the Life Events by Age table. If you have already chosen your character's starting age, see the entry in the Life Events column that corresponds to how old you are. Otherwise, you can roll dice to determine your current age and number of life events randomly.
 
-![](c1043.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/xanathars-guide-to-everything/img/c1043.webp#center)
 
 After you know the number of life events your character has experienced, roll once on the Life Events table for each of them. Many of the results on that table direct you to one of the secondary tables that follow. Once you have determined all of your character's life events, you can arrange them in any chronological order you see fit.
 
-![Life Events by Age](life-events-by-age-xge.md)
+![Life Events by Age](03.PlayerLog&Handouts/Mechanics/CLI/tables/life-events-by-age-xge.md)
 
-![Life Events](life-events-xge.md)
+![Life Events](03.PlayerLog&Handouts/Mechanics/CLI/tables/life-events-xge.md)
 
 #### Secondary Tables
 
 These tables add detail to many of the results on the Life Events table. The tables are in alphabetical order.
 
-![Secondary Tables; Adventures](secondary-tables-adventures-xge.md)
+![Secondary Tables; Adventures](03.PlayerLog&Handouts/Mechanics/CLI/tables/secondary-tables-adventures-xge.md)
 
-![Secondary Tables; Arcane Matters](secondary-tables-arcane-matters-xge.md)
+![Secondary Tables; Arcane Matters](03.PlayerLog&Handouts/Mechanics/CLI/tables/secondary-tables-arcane-matters-xge.md)
 
-![Secondary Tables; Boons](secondary-tables-boons-xge.md)
+![Secondary Tables; Boons](03.PlayerLog&Handouts/Mechanics/CLI/tables/secondary-tables-boons-xge.md)
 
-![Secondary Tables; Crime](secondary-tables-crime-xge.md)
+![Secondary Tables; Crime](03.PlayerLog&Handouts/Mechanics/CLI/tables/secondary-tables-crime-xge.md)
 
-![Secondary Tables; Punishment](secondary-tables-punishment-xge.md)
+![Secondary Tables; Punishment](03.PlayerLog&Handouts/Mechanics/CLI/tables/secondary-tables-punishment-xge.md)
 
-![Secondary Tables; Supernatural Events](secondary-tables-supernatural-events-xge.md)
+![Secondary Tables; Supernatural Events](03.PlayerLog&Handouts/Mechanics/CLI/tables/secondary-tables-supernatural-events-xge.md)
 
-![Secondary Tables; Tragedies](secondary-tables-tragedies-xge.md)
+![Secondary Tables; Tragedies](03.PlayerLog&Handouts/Mechanics/CLI/tables/secondary-tables-tragedies-xge.md)
 
-![Secondary Tables; War](secondary-tables-war-xge.md)
+![Secondary Tables; War](03.PlayerLog&Handouts/Mechanics/CLI/tables/secondary-tables-war-xge.md)
 
-![Secondary Tables; Weird Stuff](secondary-tables-weird-stuff-xge.md)
+![Secondary Tables; Weird Stuff](03.PlayerLog&Handouts/Mechanics/CLI/tables/secondary-tables-weird-stuff-xge.md)
 
 ### Supplemental Tables
 
 The supplemental tables below give you a way to randomly determine characteristics and other facts about individuals who are part of your character's life. Use these tables when directed to do so by another table, or when you simply want to come up with a piece of information quickly. The tables are in alphabetical order.
 
-![](c1044.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/xanathars-guide-to-everything/img/c1044.webp#center)
 
-![Supplemental Tables; Alignment](supplemental-tables-alignment-xge.md)
+![Supplemental Tables; Alignment](03.PlayerLog&Handouts/Mechanics/CLI/tables/supplemental-tables-alignment-xge.md)
 
-![Supplemental Tables; Cause of Death](supplemental-tables-cause-of-death-xge.md)
+![Supplemental Tables; Cause of Death](03.PlayerLog&Handouts/Mechanics/CLI/tables/supplemental-tables-cause-of-death-xge.md)
 
-![Supplemental Tables; Class](supplemental-tables-class-xge.md)
+![Supplemental Tables; Class](03.PlayerLog&Handouts/Mechanics/CLI/tables/supplemental-tables-class-xge.md)
 
-![Supplemental Tables; Occupation](supplemental-tables-occupation-xge.md)
+![Supplemental Tables; Occupation](03.PlayerLog&Handouts/Mechanics/CLI/tables/supplemental-tables-occupation-xge.md)
 
-![Supplemental Tables; Race](supplemental-tables-race-xge.md)
+![Supplemental Tables; Race](03.PlayerLog&Handouts/Mechanics/CLI/tables/supplemental-tables-race-xge.md)
 
-![Supplemental Tables; Relationship](supplemental-tables-relationship-xge.md)
+![Supplemental Tables; Relationship](03.PlayerLog&Handouts/Mechanics/CLI/tables/supplemental-tables-relationship-xge.md)
 
-![Supplemental Tables; Status](supplemental-tables-status-xge.md)
+![Supplemental Tables; Status](03.PlayerLog&Handouts/Mechanics/CLI/tables/supplemental-tables-status-xge.md)
 
 ### What's Next?
 
@@ -589,6 +590,6 @@ This section introduces a collection of special feats that allow you to explore 
 
 The cause of a particular transformation is up to you and your DM. A transformational feat can symbolize a latent quality that has emerged as you age, or a transformation might be the result of an event in the campaign, such as exposure to powerful magic or visiting a place of ancient significance to your race. Transformations are a fundamental motif of fantasy literature and folklore. Figuring out why your character has changed can be a rich addition to your campaign's story.
 
-![Racial Feats](racial-feats-xge.md)
+![Racial Feats](03.PlayerLog&Handouts/Mechanics/CLI/tables/racial-feats-xge.md)
 
-![](c1045.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/xanathars-guide-to-everything/img/c1045.webp#center)

@@ -4,11 +4,12 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/subclass/artificer/battle-smith
-aliases: ["Battle Smith"]
+aliases:
+- Battle Smith
 ---
 # Battle Smith
-*[Artificer](artificer-tce.md): Artificer Specialist*  
-*Source: Tasha's Cauldron of Everything p. 18*  
+*[Artificer](./artificer-tce.md): Artificer Specialist*  
+*Source: Tasha's Cauldron of Everything p. 18, Eberron: Rising from the Last War p. 60*  
 
 > [!tldr] Class and Feature Progression
 > 
@@ -52,7 +53,7 @@ Battle Smiths played a key role in House Cannith's work on battle constructs and
 
 ### Tool Proficiency (Level 3)
 
-When you adopt this specialization at 3rd level, you gain proficiency with [smith's tools](smiths-tools.md). If you already have this proficiency, you gain proficiency with one other type of [artisan's tools](artisans-tools.md) of your choice.
+When you adopt this specialization at 3rd level, you gain proficiency with [smith's tools](03.PlayerLog&Handouts/Mechanics/CLI/items/smiths-tools.md). If you already have this proficiency, you gain proficiency with one other type of [artisan's tools](03.PlayerLog&Handouts/Mechanics/CLI/items/artisans-tools.md) of your choice.
 
 ### Battle Smith Spells (Level 3)
 
@@ -62,11 +63,11 @@ Starting at 3rd level, you always have certain spells prepared after you reach p
 
 | Artificer Level | Spell |
 |-----------------|-------|
-| 3rd | [heroism](heroism.md), [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md) |
-| 5th | [branding smite](branding-smite.md), [warding bond](warding-bond.md) |
-| 9th | [aura of vitality](aura-of-vitality.md), [conjure barrage](conjure-barrage.md) |
-| 13th | [aura of purity](aura-of-purity.md), [fire shield](fire-shield.md) |
-| 17th | [banishing smite](banishing-smite.md), [mass cure wounds](mass-cure-wounds.md) |
+| 3rd | [heroism](03.PlayerLog&Handouts/Mechanics/CLI/spells/heroism.md), [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md) |
+| 5th | [branding smite](03.PlayerLog&Handouts/Mechanics/CLI/spells/branding-smite.md), [warding bond](03.PlayerLog&Handouts/Mechanics/CLI/spells/warding-bond.md) |
+| 9th | [aura of vitality](03.PlayerLog&Handouts/Mechanics/CLI/spells/aura-of-vitality.md), [conjure barrage](03.PlayerLog&Handouts/Mechanics/CLI/spells/conjure-barrage.md) |
+| 13th | [aura of purity](03.PlayerLog&Handouts/Mechanics/CLI/spells/aura-of-purity.md), [fire shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/fire-shield.md) |
+| 17th | [banishing smite](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishing-smite.md), [mass cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/mass-cure-wounds.md) |
 ^battle-smith-spells
 
 ### Battle Ready (Level 3)
@@ -78,17 +79,17 @@ When you reach 3rd level, your combat training and your experiments with magic h
 
 ### Steel Defender (Level 3)
 
-By 3rd level, your tinkering has borne you a faithful companion, a [steel defender](steel-defender-tce.md). It is friendly to you and your companions, and it obeys your commands. See this creature's game statistics in the steel defender stat block, which uses your proficiency bonus (PB) in several places. You determine the creature's appearance and whether it has two legs or four; your choice has no effect on its game statistics.
+By 3rd level, your tinkering has borne you a faithful companion, a [steel defender](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/steel-defender-tce.md). It is friendly to you and your companions, and it obeys your commands. See this creature's game statistics in the steel defender stat block, which uses your proficiency bonus (PB) in several places. You determine the creature's appearance and whether it has two legs or four; your choice has no effect on its game statistics.
 
-In combat, the defender shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the [Dodge](actions.md#Dodge) action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are [incapacitated](conditions.md#Incapacitated), the defender can take any action of its choice, not just [Dodge](actions.md#Dodge).
+In combat, the defender shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the [Dodge](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Dodge) action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated), the defender can take any action of its choice, not just [Dodge](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Dodge).
 
-If the [mending](mending.md) spell is cast on it, it regains `2d6` hit points. If it has died within the last hour, you can use your [smith's tools](smiths-tools.md) as an action to revive it, provided you are within 5 feet of it and you expend a spell slot of 1st level or higher. The steel defender returns to life after 1 minute with all its hit points restored.
+If the [mending](03.PlayerLog&Handouts/Mechanics/CLI/spells/mending.md) spell is cast on it, it regains `2d6` hit points. If it has died within the last hour, you can use your [smith's tools](03.PlayerLog&Handouts/Mechanics/CLI/items/smiths-tools.md) as an action to revive it, provided you are within 5 feet of it and you expend a spell slot of 1st level or higher. The steel defender returns to life after 1 minute with all its hit points restored.
 
-At the end of a long rest, you can create a new steel defender if you have your [smith's tools](smiths-tools.md) with you. If you already have a steel defender from this feature, the first one immediately perishes. The defender also perishes if you die.
+At the end of a long rest, you can create a new steel defender if you have your [smith's tools](03.PlayerLog&Handouts/Mechanics/CLI/items/smiths-tools.md) with you. If you already have a steel defender from this feature, the first one immediately perishes. The defender also perishes if you die.
 
 ### Extra Attack (Level 5)
 
-Starting at 5th level, you can attack twice, rather than once, whenever you take the [Attack](actions.md#Attack) action on your turn.
+Starting at 5th level, you can attack twice, rather than once, whenever you take the [Attack](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Attack) action on your turn.
 
 ### Arcane Jolt (Level 9)
 
@@ -105,4 +106,4 @@ At 15th level, your Arcane Jolt and steel defender become more powerful:
 
 - The extra damage and the healing of your Arcane Jolt both increase to `4d6`.  
 - Your steel defender gains a +2 bonus to Armor Class.  
-- Whenever your steel defender uses its Deflect Attack, the attacker takes force damage equal to `1d4` + your Intelligence modifier.
+- Whenever your steel defender uses its Deflect Attack, the attacker takes force damage equal to `d4` + your Intelligence modifier.

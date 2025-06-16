@@ -4,7 +4,8 @@ cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
 - ttrpg-cli/monster/legendary-group
-aliases: ["Illithilich"]
+aliases:
+- Illithilich
 ---
 # Illithilich
 

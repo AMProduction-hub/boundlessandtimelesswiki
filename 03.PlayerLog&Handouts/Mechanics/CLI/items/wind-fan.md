@@ -10,9 +10,9 @@ aliases:
 ---
 # Wind Fan
 *Wondrous item, major, uncommon*  
-![](wind-fan.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/wind-fan.webp#right)
 
 
-While holding this fan, you can use an action to cast the [gust of wind](gust-of-wind.md) spell (save DC 13) from it. Once used, the fan shouldn't be used again until the next dawn. Each time it is used again before then, it has a cumulative 20 percent chance of not working and tearing into useless, nonmagical tatters.
+While holding this fan, you can use an action to cast the [gust of wind](03.PlayerLog&Handouts/Mechanics/CLI/spells/gust-of-wind.md) spell (save DC 13) from it. Once used, the fan shouldn't be used again until the next dawn. Each time it is used again before then, it has a cumulative 20 percent chance of not working and tearing into useless, nonmagical tatters.
 
 *Source: Dungeon Master's Guide p. 213. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

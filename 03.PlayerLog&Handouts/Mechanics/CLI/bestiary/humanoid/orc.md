@@ -14,10 +14,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/humanoid/orc
 statblock: inline
-aliases: ["Orc"]
+statblock-link: "#^statblock"
+aliases:
+- Orc
 ---
-# [Orc](03 - Player Log & Handouts\Mechanics\CLI\bestiary\humanoid/orc.md)
-*Source: Monster Manual p. 246, Lost Mine of Phandelver. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Orc](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/orc.md)
+*Source: Monster Manual p. 246, Lost Mine of Phandelver, Princes of the Apocalypse, Storm King's Thunder, Tales from the Yawning Portal, Tomb of Annihilation, Ghosts of Saltmarsh, Dragon of Icespire Peak, Eberron: Rising from the Last War, Explorer's Guide to Wildemount, Icewind Dale: Rime of the Frostmaiden, Hunt for the Thessalhydra. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 Orcs are savage raiders and pillagers with stooped postures, low foreheads, and piggish faces with prominent lower canines that resemble tusks.
 
@@ -56,37 +58,49 @@ Luthic, the orc goddess of fertility and wife of Gruumsh, demands that orcs proc
 "subtype": "orc"
 "alignment": "Chaotic Evil"
 "ac": !!int "13"
-"ac_class": "[hide armor](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/items/hide-armor.md)"
+"ac_class": "[hide armor](03.PlayerLog&Handouts/Mechanics/CLI/items/hide-armor.md)"
 "hp": !!int "15"
 "hit_dice": "2d8 + 6"
+"modifier": !!int "1"
 "stats":
-- !!int "16"
-- !!int "12"
-- !!int "16"
-- !!int "7"
-- !!int "11"
-- !!int "10"
+  - !!int "16"
+  - !!int "12"
+  - !!int "16"
+  - !!int "7"
+  - !!int "11"
+  - !!int "10"
 "speed": "30 ft."
 "skillsaves":
-  "Intimidation": !!int "2"
+  - "name": "[Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation)"
+    "desc": "+2"
 "senses": "darkvision 60 ft., passive Perception 10"
 "languages": "Common, Orc"
 "cr": "1/2"
 "traits":
-- "desc": "As a bonus action, the orc can move up to its speed toward a hostile creature\
-    \ that it can see."
-  "name": "Aggressive"
+  - "desc": "As a bonus action, the orc can move up to its speed toward a hostile\
+      \ creature that it can see."
+    "name": "Aggressive"
 "actions":
-- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 9 (1d12\
-    \ + 3) slashing damage."
-  "name": "Greataxe"
-- "desc": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/120\
-    \ ft., one target. Hit: 6 (1d6 + 3) piercing damage."
-  "name": "Javelin"
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 9\
+      \ (1d12 + 3) slashing damage."
+    "name": "Greataxe"
+  - "desc": "Melee  or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/120\
+      \ ft., one target. Hit: 6 (1d6 + 3) piercing damage."
+    "name": "Javelin"
 "source":
-- "MM"
-- "LMoP"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/humanoid/token/orc.webp"
+  - "MM"
+  - "LMoP"
+  - "PotA"
+  - "SKT"
+  - "TftYP"
+  - "ToA"
+  - "GoS"
+  - "DIP"
+  - "ERLW"
+  - "EGW"
+  - "IDRotF"
+  - "HftT"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/orc.webp"
 ```
 ^statblock
 

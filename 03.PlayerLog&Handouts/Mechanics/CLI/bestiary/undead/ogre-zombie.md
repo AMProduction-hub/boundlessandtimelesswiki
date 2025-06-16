@@ -7,10 +7,12 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/undead
 statblock: inline
-aliases: ["Ogre Zombie"]
+statblock-link: "#^statblock"
+aliases:
+- Ogre Zombie
 ---
-# [Ogre Zombie](03 - Player Log & Handouts\Mechanics\CLI\bestiary\undead/ogre-zombie.md)
-*Source: Monster Manual p. 316, Light of Xaryxis. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Ogre Zombie](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/ogre-zombie.md)
+*Source: Monster Manual p. 316, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Dragon of Icespire Peak, Sleeping Dragon's Wake, Icewind Dale: Rime of the Frostmaiden, Light of Xaryxis. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 From somewhere in the darkness, a gurgling moan is heard. A form lurches into view, dragging one foot as it raises bloated arms and broken hands. The zombie advances, driven to kill anyone too slow to escape its grasp.
 
@@ -18,7 +20,7 @@ From somewhere in the darkness, a gurgling moan is heard. A form lurches into vi
 
 Sinister necromantic magic infuses the remains of the dead, causing them to rise as zombies that do their creator's bidding without fear or hesitation. They move with a jerky, uneven gait, clad in the moldering apparel they wore when put to rest, and carrying the stench of decay.
 
-Most zombies are made from humanoid remains, though the flesh and bones of any formerly living creature can be imbued with a semblance of life. Necromantic magic, usually from spells, animates a zombie. Some zombies rise spontaneously when dark magic saturates an area. Once turned into a zombie, a creature can't be restored to life except by powerful magic, such as a [resurrection](resurrection.md) spell.
+Most zombies are made from humanoid remains, though the flesh and bones of any formerly living creature can be imbued with a semblance of life. Necromantic magic, usually from spells, animates a zombie. Some zombies rise spontaneously when dark magic saturates an area. Once turned into a zombie, a creature can't be restored to life except by powerful magic, such as a [resurrection](03.PlayerLog&Handouts/Mechanics/CLI/spells/resurrection.md) spell.
 
 A zombie retains no vestiges of its former self, its mind devoid of thought and imagination. A zombie left without orders simply stands in place and rots unless something comes along that it can kill. The magic animating a zombie imbues it with evil, so left without purpose, it attacks any living creature it encounters.
 
@@ -38,7 +40,7 @@ A zombie doesn't require air, food, drink, or sleep.
 
 > [!quote] A quote from Fonkin Hoodypeak  
 > 
-> After Beek died, we cast an [animate dead](animate-dead.md) spell on his corpse. It was fun for a while, but the zombie started to smell real bad, so we doused it in oil and set it on fire. Beek would've found that hilarious.
+> After Beek died, we cast an [animate dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-dead.md) spell on his corpse. It was fun for a while, but the zombie started to smell real bad, so we doused it in oil and set it on fire. Beek would've found that hilarious.
 
 
 ```statblock
@@ -49,33 +51,41 @@ A zombie doesn't require air, food, drink, or sleep.
 "ac": !!int "8"
 "hp": !!int "85"
 "hit_dice": "9d10 + 36"
+"modifier": !!int "-2"
 "stats":
-- !!int "19"
-- !!int "6"
-- !!int "18"
-- !!int "3"
-- !!int "6"
-- !!int "5"
+  - !!int "19"
+  - !!int "6"
+  - !!int "18"
+  - !!int "3"
+  - !!int "6"
+  - !!int "5"
 "speed": "30 ft."
 "saves":
-  "Wisdom": !!int "0"
+  - "wisdom": "+0"
 "damage_immunities": "poison"
-"condition_immunities": "[poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "darkvision 60 ft., passive Perception 8"
 "languages": "understands Common and Giant but can't speak"
 "cr": "2"
 "traits":
-- "desc": "If damage reduces the zombie to 0 hit points, it must make a Constitution\
-    \ saving throw with a DC of 5 + the damage taken, unless the damage is radiant\
-    \ or from a critical hit. On a success, the zombie drops to 1 hit point instead."
-  "name": "Undead Fortitude"
+  - "desc": "If damage reduces the zombie to 0 hit points, it must make a Constitution\
+      \ saving throw with a DC of 5 + the damage taken, unless the damage is radiant\
+      \ or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+    "name": "Undead Fortitude"
 "actions":
-- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13\
-    \ (2d8 + 4) bludgeoning damage."
-  "name": "Morningstar"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13\
+      \ (2d8 + 4) bludgeoning damage."
+    "name": "Morningstar"
 "source":
-- "MM"
-- "LoX"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/undead/token/ogre-zombie.webp"
+  - "MM"
+  - "TftYP"
+  - "ToA"
+  - "WDMM"
+  - "GoS"
+  - "DIP"
+  - "SDW"
+  - "IDRotF"
+  - "LoX"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/token/ogre-zombie.webp"
 ```
 ^statblock

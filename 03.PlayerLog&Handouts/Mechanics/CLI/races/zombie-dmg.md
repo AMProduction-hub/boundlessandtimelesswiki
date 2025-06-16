@@ -3,10 +3,11 @@ obsidianUIMode: preview
 cssclasses: json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
-- ttrpg-cli/race/zombie/dmg
-aliases: ["Zombie (DMG)"]
+- ttrpg-cli/race/zombie
+aliases:
+- Zombie
 ---
-# Zombie (DMG)
+# Zombie
 *Source: Dungeon Master's Guide p. 282*  
 
 
@@ -27,7 +28,7 @@ If damage reduces you to 0 hit points, you must make a Constitution saving throw
 
 ### Undead Nature
 
-You are immune to poison damage, and you can't be [poisoned](conditions.md#Poisoned). You don't require air, food, drink, or sleep.
+You are immune to poison damage, and you can't be [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned). You don't require air, food, drink, or sleep.
 
 ### Darkvision
 

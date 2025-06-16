@@ -10,10 +10,12 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/celestial
 statblock: inline
-aliases: ["Pegasus"]
+statblock-link: "#^statblock"
+aliases:
+- Pegasus
 ---
-# [Pegasus](03 - Player Log & Handouts\Mechanics\CLI\bestiary\celestial/pegasus.md)
-*Source: Monster Manual p. 250, Sigil and the Outlands. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Pegasus](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\celestial/pegasus.md)
+*Source: Monster Manual p. 250, Eberron: Rising from the Last War, Mythic Odysseys of Theros, Journeys through the Radiant Citadel. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 The white winged horses known as pegasi soar through the skies, a vision of grace and majesty. When they touch down on solid ground, they linger only for a moment, drinking from mountain springs and pristine lakes. Any sound or sign of another creature startles them, sending them off to fly once more among the clouds.
 
@@ -42,31 +44,35 @@ Pegasi mate for life, build their nests in hard-to-reach locations, and give bir
 "ac": !!int "12"
 "hp": !!int "59"
 "hit_dice": "7d10 + 21"
+"modifier": !!int "2"
 "stats":
-- !!int "18"
-- !!int "15"
-- !!int "16"
-- !!int "10"
-- !!int "15"
-- !!int "13"
+  - !!int "18"
+  - !!int "15"
+  - !!int "16"
+  - !!int "10"
+  - !!int "15"
+  - !!int "13"
 "speed": "60 ft., fly 90 ft."
 "saves":
-  "Charisma": !!int "3"
-  "Dexterity": !!int "4"
-  "Wisdom": !!int "4"
+  - "dexterity": "+4"
+  - "wisdom": "+4"
+  - "charisma": "+3"
 "skillsaves":
-  "Perception": !!int "6"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+6"
 "senses": "passive Perception 16"
 "languages": "understands Celestial, Common, Elvish, and Sylvan but can't speak"
 "cr": "2"
 "actions":
-- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11\
-    \ (2d6 + 4) bludgeoning damage."
-  "name": "Hooves"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11\
+      \ (2d6 + 4) bludgeoning damage."
+    "name": "Hooves"
 "source":
-- "MM"
-- "SatO"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/celestial/token/pegasus.webp"
+  - "MM"
+  - "ERLW"
+  - "MOT"
+  - "JttRC"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/token/pegasus.webp"
 ```
 ^statblock
 

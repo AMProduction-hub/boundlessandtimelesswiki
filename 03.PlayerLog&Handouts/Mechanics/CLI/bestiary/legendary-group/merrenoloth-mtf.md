@@ -4,7 +4,8 @@ cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
 - ttrpg-cli/monster/legendary-group
-aliases: ["Merrenoloth"]
+aliases:
+- Merrenoloth
 ---
 # Merrenoloth
 
@@ -15,7 +16,7 @@ Any ship a merrenoloth is contracted to captain becomes the creature's lair. Whe
 
 - The ship regains 22 (`4d10`) hit points.  
 - A strong wind propels the ship, increasing its speed by 30 feet until initiative count 20 on the next round.  
-- The air within 60 feet of the ship is filled with howling wind. Until initiative count 20 on the next round, that area is difficult terrain, and when a Medium or smaller creature flies into that area or starts its turn flying there, it must succeed on a DC 13 Strength saving throw or be knocked [prone](conditions.md#Prone).  
+- The air within 60 feet of the ship is filled with howling wind. Until initiative count 20 on the next round, that area is difficult terrain, and when a Medium or smaller creature flies into that area or starts its turn flying there, it must succeed on a DC 13 Strength saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone).  
 
 ## Regional effects
 _Source: Mordenkainen's Tome of Foes_
@@ -26,4 +27,4 @@ A merrenoloth imbues its vessel with powerful magic that creates one or more of 
 - The ship always stays on course to the destination the merrenoloth names.  
 - Creatures the merrenoloth chooses to take on the ship aren't discomfited by wind or weather, though this effect doesn't protect against damage.  
 
-If the merrenoloth dies, these effects fade over the course of `1d6` hours.
+If the merrenoloth dies, these effects fade over the course of `d6` hours.

@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
-aliases: ["Roleplaying a Hag; Hag Personality Traits"]
+aliases:
+- Roleplaying a Hag; Hag Personality Traits
 ---
 # Roleplaying a Hag; Hag Personality Traits
 *Source: Volo's Guide to Monsters p. 54* 

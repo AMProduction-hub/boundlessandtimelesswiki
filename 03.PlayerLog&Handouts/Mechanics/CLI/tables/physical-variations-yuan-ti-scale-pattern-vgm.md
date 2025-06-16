@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
-aliases: ["Physical Variations; Yuan-ti Scale Pattern"]
+aliases:
+- Physical Variations; Yuan-ti Scale Pattern
 ---
 # Physical Variations; Yuan-ti Scale Pattern
 *Source: Volo's Guide to Monsters p. 97* 

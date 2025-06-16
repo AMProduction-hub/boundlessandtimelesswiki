@@ -7,10 +7,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/humanoid/gith
 statblock: inline
-aliases: ["Githyanki Warrior"]
+statblock-link: "#^statblock"
+aliases:
+- Githyanki Warrior
 ---
-# [Githyanki Warrior](03 - Player Log & Handouts\Mechanics\CLI\bestiary\humanoid/githyanki-warrior.md)
-*Source: Monster Manual p. 160, Spelljammer Academy, Light of Xaryxis, Sigil and the Outlands*  
+# [Githyanki Warrior](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/githyanki-warrior.md)
+*Source: Monster Manual p. 160, Waterdeep: Dungeon of the Mad Mage, Light of Xaryxis*  
 
 The githyanki plunder countless worlds from the decks of their astral vessels and the backs of red dragons. Feathers, beads, gems, and precious metals decorate their armor and weapons-the legendary silver swords with which they cut through their foes. Since winning their freedom from the mind flayers, the githyanki have become ruthless conquerors under the rulership of their dread lich-queen, Vlaakith.
 
@@ -28,13 +30,13 @@ Of all their enemies, the githyanki most hate their former masters, the mind fla
 
 In ancient times, gith knights created special weapons to combat their mind flayer masters.
 
-These silver swords channel the force of the wielder's will, dealing psychic as well as physical damage. A githyanki can't become a knight until it masters the singular discipline needed to will such a blade into existence. A silver sword is equivalent to a [greatsword](greatsword.md), and takes on the properties of a [+3 greatsword](3-weapon.md) in the hands of its creator.
+These silver swords channel the force of the wielder's will, dealing psychic as well as physical damage. A githyanki can't become a knight until it masters the singular discipline needed to will such a blade into existence. A silver sword is equivalent to a [greatsword](03.PlayerLog&Handouts/Mechanics/CLI/items/greatsword.md), and takes on the properties of a [+3 greatsword](03.PlayerLog&Handouts/Mechanics/CLI/items/3-weapon.md) in the hands of its creator.
 
 In the eyes of the githyanki, each silver sword is a priceless relic and a work of art. Githyanki knights will hunt down and destroy any non-githyanki that dares to carry or wield a silver sword, reclaiming it for their people.
 
 ## Red Dragon Riders
 
-In the uprising against the illithids, Gith sought allies. Her adviser Vlaakith appealed to Tiamat, the goddess of evil dragonkind, and Gith ventured into the Nine Hells to meet with her. Only Tiamat now knows what passed between them, but Vlaakith returned to the Astral Plane with the Dragon Queen's red dragon consort Ephelomon, who proclaimed that his kind would forever act as allies to the githyanki. Not all red dragons honor the alliance kindled so long ago, but most at least don't consider the githyanki their enemies.
+In the uprising against the illithids, Gith sought allies. Her adviser Vlaakith appealed to [Tiamat](03.PlayerLog&Handouts/Mechanics/CLI/deities/dawn-war-tiamat-dmg.md), the goddess of evil dragonkind, and Gith ventured into the Nine Hells to meet with her. Only Tiamat now knows what passed between them, but Vlaakith returned to the Astral Plane with the Dragon Queen's red dragon consort Ephelomon, who proclaimed that his kind would forever act as allies to the githyanki. Not all red dragons honor the alliance kindled so long ago, but most at least don't consider the githyanki their enemies.
 
 ### Outposts in the Mortal Realm
 
@@ -42,13 +44,13 @@ Since creatures that dwell on the Astral Plane don't age, the githyanki establis
 
 ## Gith
 
-The warlike githyanki and the contemplative githzerai are a sundered people-two cultures that utterly despise one another. Before there were githyanki or githzerai, these creatures were a single race enslaved by the [mind flayers](mind-flayer.md). Although they attempted to overthrow their masters many times, their rebellions were repeatedly crushed until a great leader named Gith arose.
+The warlike githyanki and the contemplative githzerai are a sundered people-two cultures that utterly despise one another. Before there were githyanki or githzerai, these creatures were a single race enslaved by the [mind flayers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/mind-flayer.md). Although they attempted to overthrow their masters many times, their rebellions were repeatedly crushed until a great leader named Gith arose.
 
 After much bloodshed, Gith and her followers threw off the yoke of their illithid masters, but another leader named Zerthimon emerged in the aftermath of battle.
 
 Zerthimon challenged Gith's motives, claiming that her strict martial leadership and desire for vengeance amounted to little more than another form of slavery for her people. A rift erupted between followers of each leader, and they eventually became the two races whose enmity endures to this day.
 
-Whether these tall, gaunt creatures were peaceful or savage, cultured or primitive before the [mind flayers](mind-flayer.md) enslaved and changed them, none can say. Not even the original name of their race remains from that distant time.
+Whether these tall, gaunt creatures were peaceful or savage, cultured or primitive before the [mind flayers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/mind-flayer.md) enslaved and changed them, none can say. Not even the original name of their race remains from that distant time.
 
 > [!quote] A quote from Aristul the Yellow, master of planar lore  
 > 
@@ -62,43 +64,43 @@ Whether these tall, gaunt creatures were peaceful or savage, cultured or primiti
 "subtype": "gith"
 "alignment": "Lawful Evil"
 "ac": !!int "17"
-"ac_class": "[half plate armor](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/items/half-plate-armor.md)"
+"ac_class": "[half plate armor](03.PlayerLog&Handouts/Mechanics/CLI/items/half-plate-armor.md)"
 "hp": !!int "49"
 "hit_dice": "9d8 + 9"
+"modifier": !!int "2"
 "stats":
-- !!int "15"
-- !!int "14"
-- !!int "12"
-- !!int "13"
-- !!int "13"
-- !!int "10"
+  - !!int "15"
+  - !!int "14"
+  - !!int "12"
+  - !!int "13"
+  - !!int "13"
+  - !!int "10"
 "speed": "30 ft."
 "saves":
-  "Wisdom": !!int "3"
-  "Intelligence": !!int "3"
-  "Constitution": !!int "3"
+  - "constitution": "+3"
+  - "intelligence": "+3"
+  - "wisdom": "+3"
 "senses": "passive Perception 11"
 "languages": "Gith"
 "cr": "3"
 "traits":
-- "desc": "The githyanki's innate spellcasting ability is Intelligence. It can innately\
-    \ cast the following spells, requiring no components:\n\nAt will: [mage hand](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/mage-hand.md)\
-    \ (the hand is invisible)\n\n3/day each: [jump](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/jump.md),\
-    \ [misty step](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/misty-step.md),\
-    \ [nondetection](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/nondetection.md)\
-    \ (self only)"
-  "name": "Innate Spellcasting (Psionics)"
+  - "desc": "The githyanki's innate spellcasting ability is Intelligence. It can innately\
+      \ cast the following spells, requiring no components:\n\nAt will: [mage\
+      \ hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md) (the hand is\
+      \ invisible)\n\n3/day each: [jump](03.PlayerLog&Handouts/Mechanics/CLI/spells/jump.md),\
+      \ [misty step](03.PlayerLog&Handouts/Mechanics/CLI/spells/misty-step.md), [nondetection](03.PlayerLog&Handouts/Mechanics/CLI/spells/nondetection.md)\
+      \ (self only)"
+    "name": "Innate Spellcasting (Psionics)"
 "actions":
-- "desc": "The githyanki makes two greatsword attacks."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6\
-    \ + 2) slashing damage plus 7 (2d6) psychic damage."
-  "name": "Greatsword"
+  - "desc": "The githyanki makes two greatsword attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9\
+      \ (2d6 + 2) slashing damage plus 7 (2d6) psychic damage."
+    "name": "Greatsword"
 "source":
-- "MM"
-- "SjA"
-- "LoX"
-- "SatO"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/humanoid/token/githyanki-warrior.webp"
+  - "MM"
+  - "WDMM"
+  - "LoX"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/githyanki-warrior.webp"
 ```
 ^statblock

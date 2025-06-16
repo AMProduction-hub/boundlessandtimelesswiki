@@ -3,6 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
+- ttrpg-cli/spell/background/rakdos-cultist
+- ttrpg-cli/spell/background/silverquill-student
 - ttrpg-cli/spell/class/bard
 - ttrpg-cli/spell/class/druid
 - ttrpg-cli/spell/class/sorcerer
@@ -14,18 +16,22 @@ tags:
 - ttrpg-cli/spell/subclass/circle-of-spores
 - ttrpg-cli/spell/subclass/eldritch-knight
 - ttrpg-cli/spell/subclass/knowledge-domain
-- ttrpg-cli/spell/subclass/oathbreaker-dmg
+- ttrpg-cli/spell/subclass/lunar-sorcery
+- ttrpg-cli/spell/subclass/oathbreaker
+- ttrpg-cli/spell/subrace/gnome-mark-of-scribing
 classes:
 - Bard
 - Cleric (Knowledge Domain)
 - Druid
 - Druid (Circle of Spores)
 - Fighter (Eldritch Knight)
-- Paladin (Oathbreaker (DMG))
+- Paladin (Oathbreaker)
 - Rogue (Arcane Trickster)
 - Sorcerer
+- Sorcerer (Lunar Sorcery)
 - Wizard
-aliases: ["Confusion"]
+aliases:
+- Confusion
 ---
 # Confusion
 *4th-level, Enchantment*  
@@ -56,6 +62,6 @@ At the end of each of its turns, an affected target can make a Wisdom saving thr
 
 **At Higher Levels.** When you cast this spell using a spell slot of 5th level or higher, the radius of the sphere increases by 5 feet for each slot level above 4th.
 
-**Classes**: [Druid](list-spells-classes-druid.md); [Cleric (Knowledge Domain)](list-spells-classes-cleric-knowledge-domain.md); [Rogue (Arcane Trickster)](list-spells-classes-rogue-arcane-trickster.md); [Paladin (Oathbreaker (DMG))](list-spells-classes-paladin-oathbreaker-dmg.md "subclass=DMG"); [Bard](list-spells-classes-bard.md); [Wizard](list-spells-classes-wizard.md); [Druid (Circle of Spores)](list-spells-classes-druid-circle-of-spores-tce.md "subclass=TCE"); [Fighter (Eldritch Knight)](list-spells-classes-fighter-eldritch-knight.md); [Sorcerer](list-spells-classes-sorcerer.md)
+**Classes**: [Cleric (Knowledge Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-knowledge-domain.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Sorcerer (Lunar Sorcery)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-lunar-sorcery-dsotdq.md "subclass=DSotDQ"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Druid (Circle of Spores)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-circle-of-spores-tce.md "subclass=TCE"); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Paladin (Oathbreaker)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oathbreaker-dmg.md "subclass=DMG")
 
 *Source: Player's Handbook p. 224. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

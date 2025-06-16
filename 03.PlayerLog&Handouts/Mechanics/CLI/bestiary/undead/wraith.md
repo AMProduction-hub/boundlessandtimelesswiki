@@ -8,10 +8,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/undead
 statblock: inline
-aliases: ["Wraith"]
+statblock-link: "#^statblock"
+aliases:
+- Wraith
 ---
-# [Wraith](03 - Player Log & Handouts\Mechanics\CLI\bestiary\undead/wraith.md)
-*Source: Monster Manual p. 302, Baldur's Gate: Descent Into Avernus, Tasha's Cauldron of Everything, Sigil and the Outlands. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Wraith](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/wraith.md)
+*Source: Monster Manual p. 302, Curse of Strahd, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Divine Contention, Dragon of Icespire Peak, Storm Lord's Wrath, Sleeping Dragon's Wake, Baldur's Gate: Descent Into Avernus, Explorer's Guide to Wildemount, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden, Tasha's Cauldron of Everything, Candlekeep Mysteries, Journeys through the Radiant Citadel, Dragonlance: Shadow of the Dragon Queen, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 A wraith is malice incarnate, concentrated into an incorporeal form that seeks to quench all life. The creature is suffused with negative energy, and its mere passage through the world leaves nearby plants blackened and withered. Animals flee from its presence. Even small fires can be extinguished by the sucking oblivion of the wraith's horrifying existence.
 
@@ -43,56 +45,72 @@ A wraith doesn't require air, food, drink, or sleep.
 "ac": !!int "13"
 "hp": !!int "67"
 "hit_dice": "9d8 + 27"
+"modifier": !!int "3"
 "stats":
-- !!int "6"
-- !!int "16"
-- !!int "16"
-- !!int "12"
-- !!int "14"
-- !!int "15"
+  - !!int "6"
+  - !!int "16"
+  - !!int "16"
+  - !!int "12"
+  - !!int "14"
+  - !!int "15"
 "speed": "0 ft., fly 60 ft. (hover)"
 "damage_resistances": "acid; cold; fire; lightning; thunder; bludgeoning, piercing,\
   \ slashing from nonmagical attacks that aren't silvered"
 "damage_immunities": "necrotic, poison"
-"condition_immunities": "[charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
-  \ [exhaustion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
-  \ [grappled](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Grappled),\
-  \ [paralyzed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
-  \ [petrified](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
-  \ [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
-  \ [prone](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Prone),\
-  \ [restrained](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Restrained)"
+"condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
+  \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
+  \ [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled),\
+  \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
+  \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
+  \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
+  \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)"
 "senses": "darkvision 60 ft., passive Perception 12"
 "languages": "the languages it knew in life"
 "cr": "5"
 "traits":
-- "desc": "The wraith can move through other creatures and objects as if they were\
-    \ difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside\
-    \ an object."
-  "name": "Incorporeal Movement"
-- "desc": "While in sunlight, the wraith has disadvantage on attack rolls, as well\
-    \ as on Wisdom ([Perception](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/skills.md#Perception))\
-    \ checks that rely on sight."
-  "name": "Sunlight Sensitivity"
+  - "desc": "The wraith can move through other creatures and objects as if they were\
+      \ difficult terrain. It takes 5 (d10) force damage if it ends its turn inside\
+      \ an object."
+    "name": "Incorporeal Movement"
+  - "desc": "While in sunlight, the wraith has disadvantage on attack rolls, as well\
+      \ as on Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception))\
+      \ checks that rely on sight."
+    "name": "Sunlight Sensitivity"
 "actions":
-- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 21\
-    \ (4d8 + 3) necrotic damage. The target must succeed on a DC 14 Constitution\
-    \ saving throw or its hit point maximum is reduced by an amount equal to the damage\
-    \ taken. This reduction lasts until the target finishes a long rest. The target\
-    \ dies if this effect reduces its hit point maximum to 0."
-  "name": "Life Drain"
-- "desc": "The wraith targets a humanoid within 10 feet of it that has been dead for\
-    \ no longer than 1 minute and died violently. The target's spirit rises as a [specter](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/undead/specter.md)\
-    \ in the space of its corpse or in the nearest unoccupied space. The [specter](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/undead/specter.md)\
-    \ is under the wraith's control. The wraith can have no more than seven specters\
-    \ under its control at one time."
-  "name": "Create Specter"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit:\
+      \ 21 (4d8 + 3) necrotic damage. The target must succeed on a DC 14 Constitution\
+      \ saving throw or its hit point maximum is reduced by an amount equal to the\
+      \ damage taken. This reduction lasts until the target finishes a long rest.\
+      \ The target dies if this effect reduces its hit point maximum to 0."
+    "name": "Life Drain"
+  - "desc": "The wraith targets a humanoid within 10 feet of it that has been dead\
+      \ for no longer than 1 minute and died violently. The target's spirit rises\
+      \ as a [specter](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/specter.md)\
+      \ in the space of its corpse or in the nearest unoccupied space. The [specter](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/specter.md)\
+      \ is under the wraith's control. The wraith can have no more than seven specters\
+      \ under its control at one time."
+    "name": "Create Specter"
 "source":
-- "MM"
-- "BGDIA"
-- "TCE"
-- "SatO"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/undead/token/wraith.webp"
+  - "MM"
+  - "CoS"
+  - "TftYP"
+  - "ToA"
+  - "WDMM"
+  - "GoS"
+  - "DC"
+  - "DIP"
+  - "SLW"
+  - "SDW"
+  - "BGDIA"
+  - "EGW"
+  - "MOT"
+  - "IDRotF"
+  - "TCE"
+  - "CM"
+  - "JttRC"
+  - "DSotDQ"
+  - "KftGV"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/token/wraith.webp"
 ```
 ^statblock
 

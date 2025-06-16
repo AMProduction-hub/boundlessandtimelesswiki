@@ -15,7 +15,9 @@ tags:
 - ttrpg-cli/spell/subclass/gloom-stalker
 - ttrpg-cli/spell/subclass/the-archfey
 - ttrpg-cli/spell/subclass/the-genie
+- ttrpg-cli/spell/subclass/the-undead
 - ttrpg-cli/spell/subclass/twilight-domain
+- ttrpg-cli/spell/subrace/elf-mark-of-shadow
 classes:
 - Artificer (Armorer)
 - Bard
@@ -27,8 +29,10 @@ classes:
 - Sorcerer
 - Warlock (The Archfey)
 - Warlock (The Genie)
+- Warlock (The Undead)
 - Wizard
-aliases: ["Greater Invisibility"]
+aliases:
+- Greater Invisibility
 ---
 # Greater Invisibility
 *4th-level, Illusion*  
@@ -39,8 +43,8 @@ aliases: ["Greater Invisibility"]
 - **Components:** V, S
 - **Duration:** Concentration, up to 1 minute
 
-You or a creature you touch becomes [invisible](conditions.md#Invisible) until the spell ends. Anything the target is wearing or carrying is [invisible](conditions.md#Invisible) as long as it is on the target's person.
+You or a creature you touch becomes [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible) until the spell ends. Anything the target is wearing or carrying is [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible) as long as it is on the target's person.
 
-**Classes**: [Warlock (The Archfey)](list-spells-classes-warlock-the-archfey.md); [Cleric (Twilight Domain)](list-spells-classes-cleric-twilight-domain-tce.md "subclass=TCE"); [Artificer (Armorer)](list-spells-classes-artificer-armorer-tce.md "subclass=TCE;class=TCE"); [Druid (Circle of the Land)](list-spells-classes-druid-circle-of-the-land.md); [Rogue (Arcane Trickster)](list-spells-classes-rogue-arcane-trickster.md); [Bard](list-spells-classes-bard.md); [Wizard](list-spells-classes-wizard.md); [Fighter (Eldritch Knight)](list-spells-classes-fighter-eldritch-knight.md); [Sorcerer](list-spells-classes-sorcerer.md); [Ranger (Gloom Stalker)](list-spells-classes-ranger-gloom-stalker-xge.md "subclass=XGE"); [Warlock (The Genie)](list-spells-classes-warlock-the-genie-tce.md "subclass=TCE")
+**Classes**: [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Cleric (Twilight Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-twilight-domain-tce.md "subclass=TCE"); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md); [Warlock (The Undead)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-undead-vrgr.md "subclass=VRGR"); [Ranger (Gloom Stalker)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-gloom-stalker-xge.md "subclass=XGE"); [Warlock (The Genie)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-genie-tce.md "subclass=TCE"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock (The Archfey)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-archfey.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Artificer (Armorer)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-armorer-tce.md "subclass=TCE;class=TCE"); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Druid (Circle of the Land)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-circle-of-the-land.md)
 
 *Source: Player's Handbook p. 246. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*

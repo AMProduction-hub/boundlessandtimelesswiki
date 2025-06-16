@@ -8,9 +8,11 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/monstrosity
 statblock: inline
-aliases: ["Girallon"]
+statblock-link: "#^statblock"
+aliases:
+- Girallon
 ---
-# [Girallon](03 - Player Log & Handouts\Mechanics\CLI\bestiary\monstrosity/girallon-mpmm.md)
+# [Girallon](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/girallon-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 139, Volo's Guide to Monsters p. 152*  
 
 A girallon looks like an oversized, four-armed ape with grayish-tan skin and white fur. Its vicious fangs and claws reveal it to be a monstrous predator.
@@ -35,37 +37,40 @@ Girallons that are well treated might be willing to serve as guards, though they
 "ac": !!int "13"
 "hp": !!int "59"
 "hit_dice": "7d10 + 21"
+"modifier": !!int "3"
 "stats":
-- !!int "18"
-- !!int "16"
-- !!int "16"
-- !!int "5"
-- !!int "12"
-- !!int "7"
+  - !!int "18"
+  - !!int "16"
+  - !!int "16"
+  - !!int "5"
+  - !!int "12"
+  - !!int "7"
 "speed": "40 ft., climb 40 ft."
 "skillsaves":
-  "Stealth": !!int "5"
-  "Perception": !!int "5"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+5"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+5"
 "senses": "darkvision 60 ft., passive Perception 15"
 "languages": ""
 "cr": "4"
 "actions":
-- "desc": "The girallon makes one Bite attack and four Claw attacks."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 7\
-    \ (1d6 + 4) piercing damage."
-  "name": "Bite"
-- "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 7\
-    \ (1d6 + 4) slashing damage."
-  "name": "Claw"
+  - "desc": "The girallon makes one Bite attack and four Claw attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit:\
+      \ 7 (1d6 + 4) piercing damage."
+    "name": "Bite"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit:\
+      \ 7 (1d6 + 4) slashing damage."
+    "name": "Claw"
 "bonus_actions":
-- "desc": "The girallon moves up to its speed toward a hostile creature that it can\
-    \ see."
-  "name": "Aggressive"
+  - "desc": "The girallon moves up to its speed toward a hostile creature that it\
+      \ can see."
+    "name": "Aggressive"
 "source":
-- "MPMM"
-- "VGM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/monstrosity/token/girallon-mpmm.webp"
+  - "MPMM"
+  - "VGM"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/token/girallon-mpmm.webp"
 ```
 ^statblock
 

@@ -3,10 +3,11 @@ obsidianUIMode: preview
 cssclasses: json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
-- ttrpg-cli/race/gnoll/dmg
-aliases: ["Gnoll (DMG)"]
+- ttrpg-cli/race/gnoll
+aliases:
+- Gnoll
 ---
-# Gnoll (DMG)
+# Gnoll
 *Source: Dungeon Master's Guide p. 282*  
 
 
@@ -18,7 +19,7 @@ aliases: ["Gnoll (DMG)"]
 
 ### Bite
 
-Your fanged maw is a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing damage equal to `1d4` + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.
+Your fanged maw is a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing damage equal to `d4` + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.
 
 ### Darkvision
 

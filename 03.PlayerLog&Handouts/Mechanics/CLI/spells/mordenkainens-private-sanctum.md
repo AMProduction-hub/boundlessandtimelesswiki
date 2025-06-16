@@ -7,16 +7,19 @@ tags:
 - ttrpg-cli/spell/class/bard
 - ttrpg-cli/spell/class/wizard
 - ttrpg-cli/spell/level/4th-level
+- ttrpg-cli/spell/reward/epharas-disciple
 - ttrpg-cli/spell/school/abjuration
 - ttrpg-cli/spell/subclass/arcane-trickster
 - ttrpg-cli/spell/subclass/eldritch-knight
+- ttrpg-cli/spell/subrace/halfling-mark-of-hospitality
 classes:
 - Artificer
 - Bard
 - Fighter (Eldritch Knight)
 - Rogue (Arcane Trickster)
 - Wizard
-aliases: ["Mordenkainen's Private Sanctum"]
+aliases:
+- Mordenkainen's Private Sanctum
 ---
 # Mordenkainen's Private Sanctum
 *4th-level, Abjuration*  
@@ -32,7 +35,7 @@ You make an area within range magically secure. The area is a cube that can be a
 When you cast the spell, you decide what sort of security the spell provides, choosing any or all of the following properties:
 
 - Sound can't pass through the barrier at the edge of the warded area.  
-- The barrier of the warded area appears dark and foggy, preventing vision (including [darkvision](senses.md#Darkvision)) through it.  
+- The barrier of the warded area appears dark and foggy, preventing vision (including [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision)) through it.  
 - Sensors created by divination spells can't appear inside the protected area or pass through the barrier at its perimeter.  
 - Creatures in the area can't be targeted by divination spells.  
 - Nothing can teleport into or out of the warded area.  
@@ -42,6 +45,6 @@ Casting this spell on the same spot every day for a year makes this effect perma
 
 **At Higher Levels.** When you cast this spell using a spell slot of 5th level or higher, you can increase the size of the cube by 100 feet for each slot level beyond 4th. Thus you could protect a cube that can be up to 200 feet on one side by using a spell slot of 5th level.
 
-**Classes**: [Artificer](list-spells-classes-artificer.md); [Rogue (Arcane Trickster)](list-spells-classes-rogue-arcane-trickster.md); [Bard](list-spells-classes-bard.md); [Wizard](list-spells-classes-wizard.md); [Fighter (Eldritch Knight)](list-spells-classes-fighter-eldritch-knight.md)
+**Classes**: [Artificer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-artificer.md); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-eldritch-knight.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcane-trickster.md)
 
 *Source: Player's Handbook p. 262. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> (as "Private Sanctum")*

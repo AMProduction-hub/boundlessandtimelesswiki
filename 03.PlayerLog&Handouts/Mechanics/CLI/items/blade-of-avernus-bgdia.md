@@ -11,13 +11,13 @@ aliases:
 - "Blade of Avernus"
 ---
 # Blade of Avernus
-*Weapon ([longsword](longsword.md)), artifact (requires attunement)*  
+*Weapon ([longsword](03.PlayerLog&Handouts/Mechanics/CLI/items/longsword.md)), artifact (requires attunement)*  
 
 
 - **Damage**:
   - One-handed: 1d8 slashing
   - Two-handed: 1d10 slashing
-- **Properties**: [Versatile](item-properties.md#Versatile)
+- **Properties**: [Versatile](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Versatile)
 - **Weight**: 3.0 lbs.
 
 You gain a +3 bonus to attack and damage rolls made with this magic weapon. In addition, the weapon ignores resistance to slashing damage.
@@ -28,17 +28,17 @@ When you attack a creature that has at least one head with this weapon and roll 
 
 The sword has the following randomly determined properties, as described in chapter 7 of the Dungeon Master's Guide:
 
-- 2 [minor beneficial properties](artifact-properties-minor-beneficial-properties.md)  
-- 1 [major beneficial property](artifact-properties-major-beneficial-properties.md)  
-- 1 [major detrimental property](artifact-properties-major-detrimental-properties.md), which is suppressed while the sword is attuned to an archdevil  
+- 2 [minor beneficial properties](03.PlayerLog&Handouts/Mechanics/CLI/tables/artifact-properties-minor-beneficial-properties.md)  
+- 1 [major beneficial property](03.PlayerLog&Handouts/Mechanics/CLI/tables/artifact-properties-major-beneficial-properties.md)  
+- 1 [major detrimental property](03.PlayerLog&Handouts/Mechanics/CLI/tables/artifact-properties-major-detrimental-properties.md), which is suppressed while the sword is attuned to an archdevil  
 
 ## Ruler of Avernus
 
-As an action, you can point this sword at one devil you can see within 60 feet of you. That devil must succeed on a DC 22 Charisma saving throw or be [charmed](conditions.md#Charmed) by you for 1 hour. While [charmed](conditions.md#Charmed) in this way, the devil follows your orders to the best of its ability. If you command the devil to do something it perceives as suicidal, the effect ends and you can no longer use this power of the sword against that devil.
+As an action, you can point this sword at one devil you can see within 60 feet of you. That devil must succeed on a DC 22 Charisma saving throw or be [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed) by you for 1 hour. While [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed) in this way, the devil follows your orders to the best of its ability. If you command the devil to do something it perceives as suicidal, the effect ends and you can no longer use this power of the sword against that devil.
 
 ## Infernal Recall
 
-As an action, you can use the sword to cast [word of recall](word-of-recall.md). Creatures transported by this spell appear in an unoccupied space within 30 feet of the current ruler of Avernus, or a sanctuary you designate if you rule Avernus.
+As an action, you can use the sword to cast [word of recall](03.PlayerLog&Handouts/Mechanics/CLI/spells/word-of-recall.md). Creatures transported by this spell appear in an unoccupied space within 30 feet of the current ruler of Avernus, or a sanctuary you designate if you rule Avernus.
 
 ## Destroying the Sword
 

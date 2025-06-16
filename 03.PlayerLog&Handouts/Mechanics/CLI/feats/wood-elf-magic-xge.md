@@ -4,9 +4,10 @@ cssclasses: json5e-feat
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 - ttrpg-cli/feat
-aliases: ["Wood Elf Magic"]
+aliases:
+- Wood Elf Magic
 ---
 # Wood Elf Magic
 *Source: Xanathar's Guide to Everything p. 75*  
-**Prerequisite**: [Elf (Wood)](elf-wood.md)
-You learn the magic of the primeval woods, which are revered and protected by your people. You learn one druid cantrip of your choice. You also learn the [longstrider](longstrider.md) and [pass without trace](pass-without-trace.md) spells, each of which you can cast once without expending a spell slot. You regain the ability to cast these two spells in this way when you finish a long rest. Wisdom is your spellcasting ability for all three spells.
+**Prerequisite**: [Elf (Wood)](03.PlayerLog&Handouts/Mechanics/CLI/races/elf-wood.md)
+You learn the magic of the primeval woods, which are revered and protected by your people. You learn one druid cantrip of your choice. You also learn the [longstrider](03.PlayerLog&Handouts/Mechanics/CLI/spells/longstrider.md) and [pass without trace](03.PlayerLog&Handouts/Mechanics/CLI/spells/pass-without-trace.md) spells, each of which you can cast once without expending a spell slot. You regain the ability to cast these two spells in this way when you finish a long rest. Wisdom is your spellcasting ability for all three spells.

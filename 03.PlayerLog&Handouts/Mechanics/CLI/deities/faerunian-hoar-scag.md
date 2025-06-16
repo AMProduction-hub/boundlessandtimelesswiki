@@ -5,11 +5,14 @@ tags:
 - ttrpg-cli/compendium/src/5e/scag
 - ttrpg-cli/deity/faerunian
 - ttrpg-cli/domain/war
-aliases: ["Hoar", "The Doombringer", "Poet of Justice"]
+aliases: 
+- Hoar
+- The Doombringer
+- Poet of Justice
 ---
 # Hoar
 *Source: Sword Coast Adventurer's Guide p. 21* 
-![](scag-symbol-of-hoar.webp#symbol)
+![](03.PlayerLog&Handouts/Mechanics/CLI/deities/img/scag-symbol-of-hoar.webp#symbol)
 
 - **Alternate Names**: The Doombringer, Poet of Justice
 - **Alignment**: Lawful Neutral

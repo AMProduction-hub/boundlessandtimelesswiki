@@ -4,10 +4,11 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/scag
 - ttrpg-cli/subclass/paladin/crown
-aliases: ["Oath of the Crown"]
+aliases:
+- Oath of the Crown
 ---
 # Oath of the Crown
-*[Paladin](paladin.md): Sacred Oath*  
+*[Paladin](./paladin.md): Sacred Oath*  
 *Source: Sword Coast Adventurer's Guide p. 132*  
 
 > [!tldr] Class and Feature Progression
@@ -80,11 +81,11 @@ You gain oath spells at the paladin levels listed.
 
 | Paladin Level | Spells |
 |---------------|--------|
-| 3rd | [command](command.md), [compelled duel](compelled-duel.md) |
-| 5th | [warding bond](warding-bond.md), [zone of truth](zone-of-truth.md) |
-| 9th | [aura of vitality](aura-of-vitality.md), [spirit guardians](spirit-guardians.md) |
-| 13th | [banishment](banishment.md), [guardian of faith](guardian-of-faith.md) |
-| 17th | [circle of power](circle-of-power.md), [geas](geas.md) |
+| 3rd | [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md), [compelled duel](03.PlayerLog&Handouts/Mechanics/CLI/spells/compelled-duel.md) |
+| 5th | [warding bond](03.PlayerLog&Handouts/Mechanics/CLI/spells/warding-bond.md), [zone of truth](03.PlayerLog&Handouts/Mechanics/CLI/spells/zone-of-truth.md) |
+| 9th | [aura of vitality](03.PlayerLog&Handouts/Mechanics/CLI/spells/aura-of-vitality.md), [spirit guardians](03.PlayerLog&Handouts/Mechanics/CLI/spells/spirit-guardians.md) |
+| 13th | [banishment](03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md), [guardian of faith](03.PlayerLog&Handouts/Mechanics/CLI/spells/guardian-of-faith.md) |
+| 17th | [circle of power](03.PlayerLog&Handouts/Mechanics/CLI/spells/circle-of-power.md), [geas](03.PlayerLog&Handouts/Mechanics/CLI/spells/geas.md) |
 ^oath-of-the-crown-spells
 
 ### Channel Divinity (Level 3)
@@ -93,11 +94,11 @@ When you take this oath at 3rd level, you gain the following two Channel Divinit
 
 ### Champion Challenge (Level 3)
 
-As a bonus action, you issue a challenge that compels other creatures to do battle with you. Each creature of your choice that you can see within 30 feet of you must make a Wisdom saving throw. On a failed save, a creature can't willingly move more than 30 feet away from you. This effect ends on the creature if you are [incapacitated](conditions.md#Incapacitated) or die or if the creature is more than 30 feet away from you.
+As a bonus action, you issue a challenge that compels other creatures to do battle with you. Each creature of your choice that you can see within 30 feet of you must make a Wisdom saving throw. On a failed save, a creature can't willingly move more than 30 feet away from you. This effect ends on the creature if you are [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated) or die or if the creature is more than 30 feet away from you.
 
 ### Turn the Tide (Level 3)
 
-As a bonus action, you can bolster injured creatures with your Channel Divinity. Each creature of your choice that can hear you within 30 feet of you regains hit points equal to `1d6` + your Charisma modifier (minimum of 1) if it has no more than half of its hit points.
+As a bonus action, you can bolster injured creatures with your Channel Divinity. Each creature of your choice that can hear you within 30 feet of you regains hit points equal to `d6` + your Charisma modifier (minimum of 1) if it has no more than half of its hit points.
 
 ### Divine Allegiance (Level 7)
 
@@ -105,7 +106,7 @@ Starting at 7th level, when a creature within 5 feet of you takes damage, you ca
 
 ### Unyielding Spirit (Level 15)
 
-Starting at 15th level, you have advantage on saving throws to avoid becoming [paralyzed](conditions.md#Paralyzed) or [stunned](conditions.md#Stunned).
+Starting at 15th level, you have advantage on saving throws to avoid becoming [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed) or [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned).
 
 ### Exalted Champion (Level 20)
 
@@ -115,4 +116,4 @@ At 20th level, your presence on the field of battle is an inspiration to those d
 - Your allies have advantage on death saving throws while within 30 feet of you.  
 - You have advantage on Wisdom saving throws, as do your allies within 30 feet of you.  
 
-This effect ends early if you are [incapacitated](conditions.md#Incapacitated) or die. Once you use this feature, you can't use it again until you finish a long rest.
+This effect ends early if you are [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated) or die. Once you use this feature, you can't use it again until you finish a long rest.

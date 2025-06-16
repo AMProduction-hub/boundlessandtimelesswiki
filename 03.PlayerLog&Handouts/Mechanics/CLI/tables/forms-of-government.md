@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
-aliases: ["Forms of Government"]
+aliases:
+- Forms of Government
 ---
 # Forms of Government
 *Source: Dungeon Master's Guide p. 18* 

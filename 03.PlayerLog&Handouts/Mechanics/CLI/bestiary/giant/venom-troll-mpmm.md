@@ -10,9 +10,11 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/giant
 statblock: inline
-aliases: ["Venom Troll"]
+statblock-link: "#^statblock"
+aliases:
+- Venom Troll
 ---
-# [Venom Troll](03 - Player Log & Handouts\Mechanics\CLI\bestiary\giant/venom-troll-mpmm.md)
+# [Venom Troll](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\giant/venom-troll-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 248, Mordenkainen's Tome of Foes p. 245*  
 
 A troll that survives massive doses of poison might transform into a venom troll. Lingering poison infuses the troll's blood and tissue, and poison leaks from the pores to coat the troll's fangs and claws. These creatures are especially dangerous in close combat because poison drips off their flesh and sprays out from every wound they receive.
@@ -36,54 +38,58 @@ Vaprak's troll worshipers believe this god devours the souls of those who have b
 "ac_class": "natural armor"
 "hp": !!int "94"
 "hit_dice": "9d10 + 45"
+"modifier": !!int "1"
 "stats":
-- !!int "18"
-- !!int "13"
-- !!int "20"
-- !!int "7"
-- !!int "9"
-- !!int "7"
+  - !!int "18"
+  - !!int "13"
+  - !!int "20"
+  - !!int "7"
+  - !!int "9"
+  - !!int "7"
 "speed": "30 ft."
 "skillsaves":
-  "Perception": !!int "2"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+2"
 "damage_immunities": "poison"
-"condition_immunities": "[poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "darkvision 60 ft., passive Perception 12"
 "languages": "Giant"
 "cr": "7"
 "traits":
-- "desc": "When the troll takes damage of any type but psychic, each creature within\
-    \ 5 feet of the troll takes 9 (2d8) poison damage."
-  "name": "Poison Splash"
-- "desc": "The troll regains 10 hit points at the start of each of its turns. If the\
-    \ troll takes acid or fire damage, this trait doesn't function at the start of\
-    \ the troll's next turn. The troll dies only if it starts its turn with 0 hit\
-    \ points and doesn't regenerate."
-  "name": "Regeneration"
+  - "desc": "When the troll takes damage of any type but psychic, each creature within\
+      \ 5 feet of the troll takes 9 (2d8) poison damage."
+    "name": "Poison Splash"
+  - "desc": "The troll regains 10 hit points at the start of each of its turns. If\
+      \ the troll takes acid or fire damage, this trait doesn't function at the start\
+      \ of the troll's next turn. The troll dies only if it starts its turn with 0\
+      \ hit points and doesn't regenerate."
+    "name": "Regeneration"
 "actions":
-- "desc": "The troll makes one Bite attack and two Claw attacks."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6\
-    \ + 4) piercing damage plus 4 (1d8) poison damage, and the creature is [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
-    \ until the start of the troll's next turn."
-  "name": "Bite"
-- "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
-    \ (2d6 + 4) slashing damage plus 4 (1d8) poison damage."
-  "name": "Claws"
-- "desc": "The troll slices itself with a claw, releasing a spray of poison in a 15-foot\
-    \ cube. The troll takes 7 (2d6) slashing damage (this damage can't be reduced\
-    \ in any way). Each creature in the area must make a DC 16 Constitution saving\
-    \ throw. On a failed save, a creature takes 18 (4d8) poison damage and is [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
-    \ for 1 minute. On a successful save, the creature takes half as much damage and\
-    \ isn't [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned).\
-    \ A [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
-    \ creature can repeat the saving throw at the end of each of its turns, ending\
-    \ the effect on itself on a success."
-  "name": "Venom Spray (Recharge 6)"
+  - "desc": "The troll makes one Bite attack and two Claw attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7\
+      \ (1d6 + 4) piercing damage plus 4 (d8) poison damage, and the creature\
+      \ is [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
+      \ until the start of the troll's next turn."
+    "name": "Bite"
+  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
+      \ (2d6 + 4) slashing damage plus 4 (d8) poison damage."
+    "name": "Claws"
+  - "desc": "The troll slices itself with a claw, releasing a spray of poison in a\
+      \ 15-foot cube. The troll takes 7 (2d6) slashing damage (this damage can't\
+      \ be reduced in any way). Each creature in the area must make a DC 16 Constitution\
+      \ saving throw. On a failed save, a creature takes 18 (4d8) poison damage\
+      \ and is [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
+      \ for 1 minute. On a successful save, the creature takes half as much damage\
+      \ and isn't [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned).\
+      \ A [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
+      \ creature can repeat the saving throw at the end of each of its turns, ending\
+      \ the effect on itself on a success."
+    "name": "Venom Spray (Recharge 6)"
 "source":
-- "MPMM"
-- "MTF"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/giant/token/venom-troll-mpmm.webp"
+  - "MPMM"
+  - "MTF"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/token/venom-troll-mpmm.webp"
 ```
 ^statblock
 

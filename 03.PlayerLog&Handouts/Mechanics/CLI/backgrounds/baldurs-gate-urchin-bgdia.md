@@ -4,15 +4,16 @@ cssclasses: json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/bgdia
-aliases: ["Baldur's Gate Urchin"]
+aliases:
+- Baldur's Gate Urchin
 ---
 # Baldur's Gate Urchin
 *Source: Baldur's Gate: Descent Into Avernus p. 204, Player's Handbook p. 141*  
 
 
 - **Skill Proficiencies.** [Sleight of Hand](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Sleight%20of%20Hand), [Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)  
-- **Tool Proficiencies.** [Disguise kit](disguise-kit.md), [Thieves' tools](thieves-tools.md)  
-- **Equipment.** A small knife, a map of the city you grew up in, a pet mouse, a token to remember your parents by, a set of [common clothes](common-clothes.md), and a belt [pouch](pouch.md) containing 10 gp  
+- **Tool Proficiencies.** [Disguise kit](03.PlayerLog&Handouts/Mechanics/CLI/items/disguise-kit.md), [Thieves' tools](03.PlayerLog&Handouts/Mechanics/CLI/items/thieves-tools.md)  
+- **Equipment.** A small knife, a map of the city you grew up in, a pet mouse, a token to remember your parents by, a set of [common clothes](03.PlayerLog&Handouts/Mechanics/CLI/items/common-clothes.md), and a belt [pouch](03.PlayerLog&Handouts/Mechanics/CLI/items/pouch.md) containing 10 gp  
 
 Bands of orphans and runaways band together in the Outer City, running after passersby in ragged throngs to plead for scraps. In the Lower City, urchins are often recruited into the lowest echelons of the Guild or pressed into dirty and dangerous work by unscrupulous masters.
 

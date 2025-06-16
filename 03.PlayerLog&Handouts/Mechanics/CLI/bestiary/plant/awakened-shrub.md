@@ -8,12 +8,14 @@ tags:
 - ttrpg-cli/monster/size/small
 - ttrpg-cli/monster/type/plant
 statblock: inline
-aliases: ["Awakened Shrub"]
+statblock-link: "#^statblock"
+aliases:
+- Awakened Shrub
 ---
-# [Awakened Shrub](03 - Player Log & Handouts\Mechanics\CLI\bestiary\plant/awakened-shrub.md)
-*Source: Monster Manual p. 317. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Awakened Shrub](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\plant/awakened-shrub.md)
+*Source: Monster Manual p. 317, Storm King's Thunder, Waterdeep: Dungeon of the Mad Mage, Infernal Machine Rebuild, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
-An awakened shrub is an ordinary shrub given sentience and mobility by the [awaken](awaken.md) spell or similar magic.
+An awakened shrub is an ordinary shrub given sentience and mobility by the [awaken](03.PlayerLog&Handouts/Mechanics/CLI/spells/awaken.md) spell or similar magic.
 
 ```statblock
 "name": "Awakened Shrub"
@@ -23,13 +25,14 @@ An awakened shrub is an ordinary shrub given sentience and mobility by the [awak
 "ac": !!int "9"
 "hp": !!int "10"
 "hit_dice": "3d6"
+"modifier": !!int "-1"
 "stats":
-- !!int "3"
-- !!int "8"
-- !!int "11"
-- !!int "10"
-- !!int "10"
-- !!int "6"
+  - !!int "3"
+  - !!int "8"
+  - !!int "11"
+  - !!int "10"
+  - !!int "10"
+  - !!int "6"
 "speed": "20 ft."
 "damage_vulnerabilities": "fire"
 "damage_resistances": "piercing"
@@ -37,16 +40,21 @@ An awakened shrub is an ordinary shrub given sentience and mobility by the [awak
 "languages": "one language known by its creator"
 "cr": "0"
 "traits":
-- "desc": "While the shrub remains motionless, it is indistinguishable from a normal\
-    \ shrub."
-  "name": "False Appearance"
+  - "desc": "While the shrub remains motionless, it is indistinguishable from a normal\
+      \ shrub."
+    "name": "False Appearance"
 "actions":
-- "desc": "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1 (1d4\
-    \ - 1) slashing damage."
-  "name": "Rake"
+  - "desc": "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1\
+      \ (1d4 - 1) slashing damage."
+    "name": "Rake"
 "source":
-- "MM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/plant/token/awakened-shrub.webp"
+  - "MM"
+  - "SKT"
+  - "WDMM"
+  - "IMR"
+  - "MOT"
+  - "IDRotF"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/token/awakened-shrub.webp"
 ```
 ^statblock
 

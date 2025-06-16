@@ -7,9 +7,11 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/aberration
 statblock: inline
-aliases: ["Star Spawn Mangler"]
+statblock-link: "#^statblock"
+aliases:
+- Star Spawn Mangler
 ---
-# [Star Spawn Mangler](03 - Player Log & Handouts\Mechanics\CLI\bestiary\aberration/star-spawn-mangler-mpmm.md)
+# [Star Spawn Mangler](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\aberration/star-spawn-mangler-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 229, Mordenkainen's Tome of Foes p. 236*  
 
 > [!quote] A quote from Mordenkainen  
@@ -52,47 +54,49 @@ Disciples of certain Elder Evils can bestow supernatural gifts on those who serv
 "ac": !!int "14"
 "hp": !!int "71"
 "hit_dice": "13d8 + 13"
+"modifier": !!int "4"
 "stats":
-- !!int "8"
-- !!int "18"
-- !!int "12"
-- !!int "11"
-- !!int "12"
-- !!int "7"
+  - !!int "8"
+  - !!int "18"
+  - !!int "12"
+  - !!int "11"
+  - !!int "12"
+  - !!int "7"
 "speed": "40 ft., climb 40 ft."
 "saves":
-  "Dexterity": !!int "7"
-  "Constitution": !!int "4"
+  - "dexterity": "+7"
+  - "constitution": "+4"
 "skillsaves":
-  "Stealth": !!int "7"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+7"
 "damage_resistances": "cold"
 "damage_immunities": "psychic"
-"condition_immunities": "[charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
-  \ [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
-  \ [prone](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Prone)"
+"condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
+  \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
+  \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)"
 "senses": "darkvision 60 ft., passive Perception 11"
 "languages": "Deep Speech"
 "cr": "5"
 "traits":
-- "desc": "The mangler has advantage on initiative rolls."
-  "name": "Ambusher"
+  - "desc": "The mangler has advantage on initiative rolls."
+    "name": "Ambusher"
 "actions":
-- "desc": "The mangler makes two Claw attacks."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d8\
-    \ + 4) slashing damage. If the attack roll has advantage, the target also takes\
-    \ 7 (2d6) psychic damage."
-  "name": "Claw"
-- "desc": "The mangler makes six Claw attacks. Either before or after these attacks,\
-    \ it can move up to its speed without provoking [opportunity attacks](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/actions.md#Opportunity%20Attack)."
-  "name": "Flurry of Claws (Recharge 5-6)"
+  - "desc": "The mangler makes two Claw attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8\
+      \ (1d8 + 4) slashing damage. If the attack roll has advantage, the target\
+      \ also takes 7 (2d6) psychic damage."
+    "name": "Claw"
+  - "desc": "The mangler makes six Claw attacks. Either before or after these attacks,\
+      \ it can move up to its speed without provoking [opportunity attacks](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Opportunity%20Attack)."
+    "name": "Flurry of Claws (Recharge 5-6)"
 "bonus_actions":
-- "desc": "While in dim light or darkness, the mangler takes the [Hide](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/actions.md#Hide)\
-    \ action."
-  "name": "Shadow Stealth"
+  - "desc": "While in dim light or darkness, the mangler takes the [Hide](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Hide)\
+      \ action."
+    "name": "Shadow Stealth"
 "source":
-- "MPMM"
-- "MTF"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/aberration/token/star-spawn-mangler-mpmm.webp"
+  - "MPMM"
+  - "MTF"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/token/star-spawn-mangler-mpmm.webp"
 ```
 ^statblock

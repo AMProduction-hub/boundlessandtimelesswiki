@@ -4,11 +4,12 @@ cssclasses: json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
 - ttrpg-cli/race/tiefling/dispater
-aliases: ["Tiefling (Dispater)"]
+aliases:
+- Tiefling (Dispater)
 ---
 # Tiefling (Dispater)
 *Source: Mordenkainen's Tome of Foes p. 21*  
-![](tiefling.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/races/img/tiefling.webp#right)
 
 - **Ability Scores**: Charisma +2; Dexterity +1
 - **Size**: Medium
@@ -35,7 +36,7 @@ You have resistance to fire damage.
 
 ### Legacy of Dis
 
-You know the [thaumaturgy](thaumaturgy.md) cantrip. When you reach 3rd level, you can cast the [disguise self](disguise-self.md) spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the [detect thoughts](detect-thoughts.md) spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.
+You know the [thaumaturgy](03.PlayerLog&Handouts/Mechanics/CLI/spells/thaumaturgy.md) cantrip. When you reach 3rd level, you can cast the [disguise self](03.PlayerLog&Handouts/Mechanics/CLI/spells/disguise-self.md) spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md) spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.
 
 ### Languages
 

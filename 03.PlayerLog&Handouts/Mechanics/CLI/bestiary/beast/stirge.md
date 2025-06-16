@@ -16,10 +16,12 @@ tags:
 - ttrpg-cli/monster/size/tiny
 - ttrpg-cli/monster/type/beast
 statblock: inline
-aliases: ["Stirge"]
+statblock-link: "#^statblock"
+aliases:
+- Stirge
 ---
-# [Stirge](03 - Player Log & Handouts\Mechanics\CLI\bestiary\beast/stirge.md)
-*Source: Monster Manual p. 284, Lost Mine of Phandelver, Baldur's Gate: Descent Into Avernus. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Stirge](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/stirge.md)
+*Source: Monster Manual p. 284, Lost Mine of Phandelver, Princes of the Apocalypse, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Dragon of Icespire Peak, Baldur's Gate: Descent Into Avernus, Infernal Machine Rebuild, Explorer's Guide to Wildemount, Keys from the Golden Vault, Hunt for the Thessalhydra. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 This horrid flying creature looks like a cross between a large bat and an oversized mosquito. Its legs end in sharp pincers, and its long, needle-like proboscis slashes the air as it seeks its next meal.
 
@@ -38,31 +40,43 @@ A stirge attacks by landing on a victim, finding a vulnerable spot, and plunging
 "ac_class": "natural armor"
 "hp": !!int "2"
 "hit_dice": "1d4"
+"modifier": !!int "3"
 "stats":
-- !!int "4"
-- !!int "16"
-- !!int "11"
-- !!int "2"
-- !!int "8"
-- !!int "6"
+  - !!int "4"
+  - !!int "16"
+  - !!int "11"
+  - !!int "2"
+  - !!int "8"
+  - !!int "6"
 "speed": "10 ft., fly 40 ft."
 "senses": "darkvision 60 ft., passive Perception 9"
 "languages": ""
 "cr": "1/8"
 "actions":
-- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 5\
-    \ (1d4 + 3) piercing damage, and the stirge attaches to the target. While attached,\
-    \ the stirge doesn't attack. Instead, at the start of each of the stirge's turns,\
-    \ the target loses 5 (1d4 + 3) hit points due to blood loss.\n\nThe stirge can\
-    \ detach itself by spending 5 feet of its movement. It does so after it drains\
-    \ 10 hit points of blood from the target or the target dies. A creature, including\
-    \ the target, can use its action to detach the stirge."
-  "name": "Blood Drain"
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit:\
+      \ 5 (1d4 + 3) piercing damage, and the stirge attaches to the target. While\
+      \ attached, the stirge doesn't attack. Instead, at the start of each of the\
+      \ stirge's turns, the target loses 5 (1d4 + 3) hit points due to blood loss.\n\
+      \nThe stirge can detach itself by spending 5 feet of its movement. It does so\
+      \ after it drains 10 hit points of blood from the target or the target dies.\
+      \ A creature, including the target, can use its action to detach the stirge."
+    "name": "Blood Drain"
 "source":
-- "MM"
-- "LMoP"
-- "BGDIA"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/beast/token/stirge.webp"
+  - "MM"
+  - "LMoP"
+  - "PotA"
+  - "TftYP"
+  - "ToA"
+  - "WDH"
+  - "WDMM"
+  - "GoS"
+  - "DIP"
+  - "BGDIA"
+  - "IMR"
+  - "EGW"
+  - "KftGV"
+  - "HftT"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/stirge.webp"
 ```
 ^statblock
 

@@ -8,10 +8,12 @@ tags:
 - ttrpg-cli/monster/size/huge
 - ttrpg-cli/monster/type/beast
 statblock: inline
-aliases: ["Tyrannosaurus Rex"]
+statblock-link: "#^statblock"
+aliases:
+- Tyrannosaurus Rex
 ---
-# [Tyrannosaurus Rex](03 - Player Log & Handouts\Mechanics\CLI\bestiary\beast/tyrannosaurus-rex.md)
-*Source: Monster Manual p. 80, Sigil and the Outlands. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Tyrannosaurus Rex](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/tyrannosaurus-rex.md)
+*Source: Monster Manual p. 80, Tomb of Annihilation, Explorer's Guide to Wildemount. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 This enormous predator terrorizes all other creatures in its territory. Despite its size and weight, a tyrannosaurus is a swift runner. It chases anything it thinks it can eat, and there are few creatures it won't try to devour whole. While prowling for substantial prey, a tyrannosaurus subsists on carrion, and on any smaller creatures that try to dart in to steal its meal.
 
@@ -30,36 +32,39 @@ Dinosaurs come in many sizes and shapes. Larger varieties often have drab colora
 "ac_class": "natural armor"
 "hp": !!int "136"
 "hit_dice": "13d12 + 52"
+"modifier": !!int "0"
 "stats":
-- !!int "25"
-- !!int "10"
-- !!int "19"
-- !!int "2"
-- !!int "12"
-- !!int "9"
+  - !!int "25"
+  - !!int "10"
+  - !!int "19"
+  - !!int "2"
+  - !!int "12"
+  - !!int "9"
 "speed": "50 ft."
 "skillsaves":
-  "Perception": !!int "4"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+4"
 "senses": "passive Perception 14"
 "languages": ""
 "cr": "8"
 "actions":
-- "desc": "The tyrannosaurus makes two attacks: one with its bite and one with its\
-    \ tail. It can't make both attacks against the same target."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 33\
-    \ (4d12 + 7) piercing damage. If the target is a Medium or smaller creature,\
-    \ it is [grappled](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
-    \ (escape DC 17). Until this grapple ends, the target is [restrained](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
-    \ and the tyrannosaurus can't bite another target."
-  "name": "Bite"
-- "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 20\
-    \ (3d8 + 7) bludgeoning damage."
-  "name": "Tail"
+  - "desc": "The tyrannosaurus makes two attacks: one with its bite and one with its\
+      \ tail. It can't make both attacks against the same target."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit:\
+      \ 33 (4d12 + 7) piercing damage. If the target is a Medium or smaller creature,\
+      \ it is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
+      \ (escape DC 17). Until this grapple ends, the target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
+      \ and the tyrannosaurus can't bite another target."
+    "name": "Bite"
+  - "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit:\
+      \ 20 (3d8 + 7) bludgeoning damage."
+    "name": "Tail"
 "source":
-- "MM"
-- "SatO"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/beast/token/tyrannosaurus-rex.webp"
+  - "MM"
+  - "ToA"
+  - "EGW"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/tyrannosaurus-rex.webp"
 ```
 ^statblock
 

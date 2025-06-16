@@ -16,7 +16,8 @@ classes:
 - Sorcerer
 - Warlock
 - Wizard
-aliases: ["Finger of Death"]
+aliases:
+- Finger of Death
 ---
 # Finger of Death
 *7th-level, Necromancy*  
@@ -29,8 +30,8 @@ aliases: ["Finger of Death"]
 
 You send negative energy coursing through a creature that you can see within range, causing it searing pain. The target must make a Constitution saving throw. It takes `7d8 + 30` necrotic damage on a failed save, or half as much damage on a successful one.
 
-A humanoid killed by this spell rises at the start of your next turn as a [zombie](zombie.md) that is permanently under your command, following your verbal orders to the best of its ability.
+A humanoid killed by this spell rises at the start of your next turn as a [zombie](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/zombie.md) that is permanently under your command, following your verbal orders to the best of its ability.
 
-**Classes**: [Bard](list-spells-classes-bard.md); [Wizard](list-spells-classes-wizard.md); [Sorcerer](list-spells-classes-sorcerer.md); [Cleric (Arcana Domain)](list-spells-classes-cleric-arcana-domain-scag.md "subclass=SCAG"); [Warlock](list-spells-classes-warlock.md)
+**Classes**: [Cleric (Arcana Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcana-domain-scag.md "subclass=SCAG"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook p. 241. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*

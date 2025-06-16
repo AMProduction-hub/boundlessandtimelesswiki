@@ -4,15 +4,16 @@ cssclasses: json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/phb
-aliases: ["Entertainer"]
+aliases:
+- Entertainer
 ---
 # Entertainer
 *Source: Player's Handbook p. 130*  
 
 
 - **Skill Proficiencies.** [Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics), [Performance](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Performance)  
-- **Tool Proficiencies.** [Disguise kit](disguise-kit.md), one type of musical instrument  
-- **Equipment.** A musical instrument (one of your choice), the favor of an admirer (love letter, lock of hair, or trinket), [costume clothes](costume-clothes.md), and a belt [pouch](pouch.md) containing 15 gp  
+- **Tool Proficiencies.** [Disguise kit](03.PlayerLog&Handouts/Mechanics/CLI/items/disguise-kit.md), one type of musical instrument  
+- **Equipment.** A musical instrument (one of your choice), the favor of an admirer (love letter, lock of hair, or trinket), [costume clothes](03.PlayerLog&Handouts/Mechanics/CLI/items/costume-clothes.md), and a belt [pouch](03.PlayerLog&Handouts/Mechanics/CLI/items/pouch.md) containing 15 gp  
 
 You thrive in front of an audience. You know how to entrance them, entertain them, and even inspire them. Your poetics can stir the hearts of those who hear you, awakening grief or joy, laughter or anger. Your music raises their spirits or captures their sorrow. Your dance steps captivate, your humor cuts to the quick. Whatever techniques you use, your art is your life.
 

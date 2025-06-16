@@ -6,18 +6,23 @@ tags:
 - ttrpg-cli/spell/class/bard
 - ttrpg-cli/spell/class/cleric
 - ttrpg-cli/spell/class/paladin
+- ttrpg-cli/spell/feat/divinely-favored
 - ttrpg-cli/spell/feat/magic-initiate
+- ttrpg-cli/spell/feat/strixhaven-initiate
 - ttrpg-cli/spell/level/1st-level
+- ttrpg-cli/spell/reward/purphoross-devotee
 - ttrpg-cli/spell/school/abjuration
 - ttrpg-cli/spell/subclass/divine-soul
 - ttrpg-cli/spell/subclass/war-domain
+- ttrpg-cli/spell/subrace/human-mark-of-sentinel
 classes:
 - Bard
 - Cleric
 - Cleric (War Domain)
 - Paladin
 - Sorcerer (Divine Soul)
-aliases: ["Shield of Faith"]
+aliases:
+- Shield of Faith
 ---
 # Shield of Faith
 *1st-level, Abjuration*  
@@ -30,6 +35,6 @@ aliases: ["Shield of Faith"]
 
 A shimmering field appears and surrounds a creature of your choice within range, granting it a +2 bonus to AC for the duration.
 
-**Classes**: [Paladin](list-spells-classes-paladin.md); [Cleric](list-spells-classes-cleric.md); [Bard](list-spells-classes-bard.md); [Sorcerer (Divine Soul)](list-spells-classes-sorcerer-divine-soul-xge.md "subclass=XGE"); [Cleric (War Domain)](list-spells-classes-cleric-war-domain.md)
+**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Cleric (War Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-war-domain.md); [Paladin](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-paladin.md)
 
 *Source: Player's Handbook p. 275. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*

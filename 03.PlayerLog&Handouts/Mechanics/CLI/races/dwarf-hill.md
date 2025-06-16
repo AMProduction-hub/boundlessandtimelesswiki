@@ -4,11 +4,12 @@ cssclasses: json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/race/dwarf/hill
-aliases: ["Dwarf (Hill)"]
+aliases:
+- Dwarf (Hill)
 ---
 # Dwarf (Hill)
 *Source: Player's Handbook p. 20. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
-![](dwarf.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/races/img/dwarf.webp#right)
 
 - **Ability Scores**: Wisdom +1
 - **Size**: Medium
@@ -38,11 +39,11 @@ You have advantage on saving throws against poison, and you have resistance agai
 
 ### Dwarven Combat Training
 
-You have proficiency with the [battleaxe](battleaxe.md), [handaxe](handaxe.md), [light hammer](light-hammer.md), and [warhammer](warhammer.md).
+You have proficiency with the [battleaxe](03.PlayerLog&Handouts/Mechanics/CLI/items/battleaxe.md), [handaxe](03.PlayerLog&Handouts/Mechanics/CLI/items/handaxe.md), [light hammer](03.PlayerLog&Handouts/Mechanics/CLI/items/light-hammer.md), and [warhammer](03.PlayerLog&Handouts/Mechanics/CLI/items/warhammer.md).
 
 ### Tool Proficiency
 
-You gain proficiency with the artisan's tools of your choice: [Smith's tools](smiths-tools.md), [brewer's supplies](brewers-supplies.md), or [mason's tools](masons-tools.md).
+You gain proficiency with the artisan's tools of your choice: [Smith's tools](03.PlayerLog&Handouts/Mechanics/CLI/items/smiths-tools.md), [brewer's supplies](03.PlayerLog&Handouts/Mechanics/CLI/items/brewers-supplies.md), or [mason's tools](03.PlayerLog&Handouts/Mechanics/CLI/items/masons-tools.md).
 
 ### Stonecunning
 
@@ -58,7 +59,7 @@ Your hit point maximum increases by 1, and it increases by 1 every time you gain
 
 ## Description
 
-As a hill dwarf, you have keen senses, deep intuition, and remarkable resilience. The gold dwarves of Faerun in their mighty southern kingdom are hill dwarves, as are the exiled Neidar and the debased Klar of Krynn in the Dragonlance setting.
+As a hill dwarf, you have keen senses, deep intuition, and remarkable resilience. The gold dwarves of Faerûn in their mighty southern kingdom are hill dwarves, as are the exiled Neidar and the debased Klar of Krynn in the Dragonlance setting.
 
 Kingdoms rich in ancient grandeur, halls carved into the roots of mountains, the echoing of picks and hammers in deep mines and blazing forges, a commitment to clan and tradition, and a burning hatred of goblins and orcs-these common threads unite all dwarves.
 

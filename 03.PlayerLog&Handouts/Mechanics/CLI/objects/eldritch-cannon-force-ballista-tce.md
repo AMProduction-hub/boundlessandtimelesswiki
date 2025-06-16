@@ -5,14 +5,15 @@ tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/object/size/unknown
 - ttrpg-cli/object/type/unknown
-aliases: ["Eldritch Cannon, Force Ballista"]
+aliases:
+- Eldritch Cannon, Force Ballista
 ---
 # Eldritch Cannon, Force Ballista
 %%-- Embedded content starts on the next line. --%%
 *Source: Tasha's Cauldron of Everything p. 17*  
 
 > [!note]
-> Created by the [Eldritch Cannon](artificer-artillerist-tce.md#Eldritch%20Cannon%20(Level%203)) subclass feature.
+> Created by the [Eldritch Cannon](03.PlayerLog&Handouts/Mechanics/CLI/classes/artificer-artillerist-tce.md#Eldritch%20Cannon%20(Level%203)) subclass feature.
 
 ```ad-statblock
 title: Eldritch Cannon, Force Ballista
@@ -26,7 +27,7 @@ title: Eldritch Cannon, Force Ballista
 |10 (+0)|10 (+0)|10 (+0)|10 (+0)|10 (+0)|10 (+0)|
 
 - **Damage Immunities** poison, psychic
-- **Condition Immunities** [blinded](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Blinded), [charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed), [deafened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Deafened), [exhaustion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion), [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened), [grappled](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Grappled), [incapacitated](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated), [invisible](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Invisible), [paralyzed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed), [petrified](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Petrified), [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned), [prone](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Restrained), [stunned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Stunned), [unconscious](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)
+- **Condition Immunities** [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded), [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened), [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion), [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened), [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled), [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated), [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible), [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed), [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified), [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned), [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained), [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned), [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)
 
 ## Actions
 

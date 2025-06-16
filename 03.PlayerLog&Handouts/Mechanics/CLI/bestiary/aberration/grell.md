@@ -8,10 +8,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/aberration
 statblock: inline
-aliases: ["Grell"]
+statblock-link: "#^statblock"
+aliases:
+- Grell
 ---
-# [Grell](03 - Player Log & Handouts\Mechanics\CLI\bestiary\aberration/grell.md)
-*Source: Monster Manual p. 172*  
+# [Grell](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\aberration/grell.md)
+*Source: Monster Manual p. 172, Princes of the Apocalypse, Tales from the Yawning Portal, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Infernal Machine Rebuild, Icewind Dale: Rime of the Frostmaiden, Candlekeep Mysteries, Keys from the Golden Vault*  
 
 A grell resembles a bulbous floating brain with a wide, sharp beak. Its ten long tentacles are made of hundreds of ring-shaped muscles sheathed in tough fibrous hide. Sharp barbs line the tip each tentacle and inject paralytic venom. The grell can partially retract its barbs into its tentacles to handle or manipulate objects it doesn't want to pierce or tear.
 
@@ -21,7 +23,7 @@ Although solitary by nature, grells sometimes gather in small groups called cove
 
 ## Floating Ambushers
 
-A grell prefers to ambush lone creatures or stragglers, hovering silently near the ceiling of a passage or cavern until a suitable target passes below, whereupon it descends quickly and wraps its tentacles around its prey. It then floats away to its lair with the [paralyzed](conditions.md#Paralyzed) creature in its clutches.
+A grell prefers to ambush lone creatures or stragglers, hovering silently near the ceiling of a passage or cavern until a suitable target passes below, whereupon it descends quickly and wraps its tentacles around its prey. It then floats away to its lair with the [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed) creature in its clutches.
 
 ## Alien Devourers
 
@@ -42,45 +44,57 @@ A grell will sometimes allow adventurers to wage war on the other monstrous inha
 "ac": !!int "12"
 "hp": !!int "55"
 "hit_dice": "10d8 + 10"
+"modifier": !!int "2"
 "stats":
-- !!int "15"
-- !!int "14"
-- !!int "13"
-- !!int "12"
-- !!int "11"
-- !!int "9"
+  - !!int "15"
+  - !!int "14"
+  - !!int "13"
+  - !!int "12"
+  - !!int "11"
+  - !!int "9"
 "speed": "10 ft., fly 30 ft. (hover)"
 "skillsaves":
-  "Stealth": !!int "6"
-  "Perception": !!int "4"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+4"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+6"
 "damage_immunities": "lightning"
-"condition_immunities": "[blinded](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Blinded),\
-  \ [prone](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Prone)"
+"condition_immunities": "[blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded),\
+  \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)"
 "senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 14"
 "languages": "Grell"
 "cr": "3"
 "actions":
-- "desc": "The grell makes two attacks: one with its tentacles and one with its beak."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +4 to hit, reach 10 ft., one creature. Hit:\
-    \ 7 (1d10 + 2) piercing damage, and the target must succeed on a DC 11 Constitution\
-    \ saving throw or be [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
-    \ for 1 minute. The [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
-    \ target is [paralyzed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
-    \ and it can repeat the saving throw at the end of each of its turns, ending the\
-    \ effect on a success.\n\nThe target is also [grappled](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
-    \ (escape DC 15). If the target is Medium or smaller, it is also [restrained](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
-    \ until this grapple ends. While grappling the target, the grell has advantage\
-    \ on attack rolls against it and can 't use this attack against other targets.\
-    \ When the grell moves, any Medium or smaller target it is grappling moves with\
-    \ it."
-  "name": "Tentacles"
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4\
-    \ + 2) piercing damage."
-  "name": "Beak"
+  - "desc": "The grell makes two attacks: one with its tentacles and one with its\
+      \ beak."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 10 ft., one creature. Hit:\
+      \ 7 (1d10 + 2) piercing damage, and the target must succeed on a DC 11 Constitution\
+      \ saving throw or be [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
+      \ for 1 minute. The [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
+      \ target is [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
+      \ and it can repeat the saving throw at the end of each of its turns, ending\
+      \ the effect on a success.\n\nThe target is also [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
+      \ (escape DC 15). If the target is Medium or smaller, it is also [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)\
+      \ until this grapple ends. While grappling the target, the grell has advantage\
+      \ on attack rolls against it and can 't use this attack against other targets.\
+      \ When the grell moves, any Medium or smaller target it is grappling moves with\
+      \ it."
+    "name": "Tentacles"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7\
+      \ (2d4 + 2) piercing damage."
+    "name": "Beak"
 "source":
-- "MM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/aberration/token/grell.webp"
+  - "MM"
+  - "PotA"
+  - "TftYP"
+  - "WDH"
+  - "WDMM"
+  - "IMR"
+  - "IDRotF"
+  - "CM"
+  - "KftGV"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/token/grell.webp"
 ```
 ^statblock
 

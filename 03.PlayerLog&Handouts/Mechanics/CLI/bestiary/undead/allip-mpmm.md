@@ -9,9 +9,11 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/undead
 statblock: inline
-aliases: ["Allip"]
+statblock-link: "#^statblock"
+aliases:
+- Allip
 ---
-# [Allip](03 - Player Log & Handouts\Mechanics\CLI\bestiary\undead/allip-mpmm.md)
+# [Allip](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/allip-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 45, Mordenkainen's Tome of Foes p. 116*  
 
 When a creature uncovers a secret that a powerful being has protected with a mighty curse, the result is often the creation of an allip. Secrets protected in this manner range in scope from a demon lord's true name to the hidden truths of the cosmic order. The creature acquires the secret, but the curse annihilates its body and leaves behind a spectral being composed of fragments from the victim's psyche and overwhelming psychic agony.
@@ -30,63 +32,65 @@ An allip might attempt to share its lore to escape its curse and enter the after
 "ac": !!int "13"
 "hp": !!int "40"
 "hit_dice": "9d8"
+"modifier": !!int "3"
 "stats":
-- !!int "6"
-- !!int "17"
-- !!int "10"
-- !!int "17"
-- !!int "15"
-- !!int "16"
+  - !!int "6"
+  - !!int "17"
+  - !!int "10"
+  - !!int "17"
+  - !!int "15"
+  - !!int "16"
 "speed": "0 ft., fly 40 ft. (hover)"
 "saves":
-  "Wisdom": !!int "5"
-  "Intelligence": !!int "6"
+  - "intelligence": "+6"
+  - "wisdom": "+5"
 "skillsaves":
-  "Stealth": !!int "6"
-  "Perception": !!int "5"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+5"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+6"
 "damage_resistances": "acid; fire; lightning; thunder; bludgeoning, piercing, slashing\
   \ from nonmagical attacks"
 "damage_immunities": "cold, necrotic, poison"
-"condition_immunities": "[charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
-  \ [exhaustion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
-  \ [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
-  \ [grappled](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Grappled),\
-  \ [paralyzed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
-  \ [petrified](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
-  \ [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
-  \ [prone](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Prone),\
-  \ [restrained](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Restrained)"
+"condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
+  \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
+  \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
+  \ [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled),\
+  \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
+  \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
+  \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
+  \ [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained)"
 "senses": "darkvision 60 ft., passive Perception 15"
 "languages": "the languages it knew in life"
 "cr": "5"
 "traits":
-- "desc": "The allip can move through other creatures and objects as if they were\
-    \ difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside\
-    \ an object."
-  "name": "Incorporeal Movement"
-- "desc": "The allip doesn't require air, food, drink, or sleep."
-  "name": "Unusual Nature"
+  - "desc": "The allip can move through other creatures and objects as if they were\
+      \ difficult terrain. It takes 5 (d10) force damage if it ends its turn inside\
+      \ an object."
+    "name": "Incorporeal Movement"
+  - "desc": "The allip doesn't require air, food, drink, or sleep."
+    "name": "Unusual Nature"
 "actions":
-- "desc": "Melee Spell Attack: +6 to hit, reach 5 ft., one target. Hit: 17 (4d6\
-    \ + 3) psychic damage."
-  "name": "Maddening Touch"
-- "desc": "Each creature within 30 feet of the allip that can hear it must make a\
-    \ DC 14 Wisdom saving throw. On a failed save, a target takes 12 (2d8 + 3) psychic\
-    \ damage, and it is [stunned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Stunned)\
-    \ until the end of its next turn. On a successful save, it takes half as much\
-    \ damage and isn't [stunned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Stunned).\
-    \ Constructs and Undead are immune to this effect."
-  "name": "Howling Babble (Recharge 6)"
-- "desc": "The allip chooses up to three creatures it can see within 60 feet of it.\
-    \ Each target must succeed on a DC 14 Wisdom saving throw, or it takes 12 (2d8\
-    \ + 3) psychic damage and must use its reaction to make a melee weapon attack\
-    \ against one creature of the allip's choice that the allip can see. Constructs\
-    \ and Undead are immune to this effect."
-  "name": "Whispers of Compulsion"
+  - "desc": "Melee Spell Attack: +6 to hit, reach 5 ft., one target. Hit: 17\
+      \ (4d6 + 3) psychic damage."
+    "name": "Maddening Touch"
+  - "desc": "Each creature within 30 feet of the allip that can hear it must make\
+      \ a DC 14 Wisdom saving throw. On a failed save, a target takes 12 (2d8 + 3)\
+      \ psychic damage, and it is [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)\
+      \ until the end of its next turn. On a successful save, it takes half as much\
+      \ damage and isn't [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned).\
+      \ Constructs and Undead are immune to this effect."
+    "name": "Howling Babble (Recharge 6)"
+  - "desc": "The allip chooses up to three creatures it can see within 60 feet of\
+      \ it. Each target must succeed on a DC 14 Wisdom saving throw, or it takes 12\
+      \ (2d8 + 3) psychic damage and must use its reaction to make a melee weapon\
+      \ attack against one creature of the allip's choice that the allip can see.\
+      \ Constructs and Undead are immune to this effect."
+    "name": "Whispers of Compulsion"
 "source":
-- "MPMM"
-- "MTF"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/undead/token/allip-mpmm.webp"
+  - "MPMM"
+  - "MTF"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/token/allip-mpmm.webp"
 ```
 ^statblock
 

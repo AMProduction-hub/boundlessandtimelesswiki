@@ -8,9 +8,11 @@ tags:
 - ttrpg-cli/monster/size/small
 - ttrpg-cli/monster/type/aberration/sorcerer
 statblock: inline
-aliases: ["Derro Savant"]
+statblock-link: "#^statblock"
+aliases:
+- Derro Savant
 ---
-# [Derro Savant](03 - Player Log & Handouts\Mechanics\CLI\bestiary\aberration/derro-savant-mpmm.md)
+# [Derro Savant](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\aberration/derro-savant-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 92, Mordenkainen's Tome of Foes p. 159*  
 
 > [!quote] A quote from Mordenkainen  
@@ -34,51 +36,51 @@ Derro tell their own stories of flight and survival in the Underdark, in which m
 "subtype": "sorcerer"
 "alignment": "Typically  Chaotic Evil"
 "ac": !!int "13"
-"ac_class": "[leather armor](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/items/leather-armor.md)"
+"ac_class": "[leather armor](03.PlayerLog&Handouts/Mechanics/CLI/items/leather-armor.md)"
 "hp": !!int "36"
 "hit_dice": "8d6 + 8"
+"modifier": !!int "2"
 "stats":
-- !!int "9"
-- !!int "14"
-- !!int "12"
-- !!int "11"
-- !!int "5"
-- !!int "14"
+  - !!int "9"
+  - !!int "14"
+  - !!int "12"
+  - !!int "11"
+  - !!int "5"
+  - !!int "14"
 "speed": "30 ft."
 "skillsaves":
-  "Stealth": !!int "4"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+4"
 "senses": "darkvision 120 ft., passive Perception 7"
 "languages": "Dwarvish, Undercommon"
 "cr": "3"
 "traits":
-- "desc": "The derro casts one of the following spells, using Charisma as the spellcasting\
-    \ ability (spell save DC 12):\n\nAt will: [mage hand](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/mage-hand.md),\
-    \ [message](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/message.md),\
-    \ [prestidigitation](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/prestidigitation.md)\n\
-    \n1/day each: [invisibility](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/invisibility.md),\
-    \ [sleep](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/sleep.md),\
-    \ [spider climb](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/spider-climb.md)"
-  "name": "Spellcasting"
-- "desc": "The derro has advantage on saving throws against spells and other magical\
-    \ effects."
-  "name": "Magic Resistance"
-- "desc": "While in sunlight, the derro has disadvantage on attack rolls, as well\
-    \ as on Wisdom ([Perception](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/skills.md#Perception))\
-    \ checks that rely on sight."
-  "name": "Sunlight Sensitivity"
+  - "desc": "The derro has advantage on saving throws against spells and other magical\
+      \ effects."
+    "name": "Magic Resistance"
+  - "desc": "While in sunlight, the derro has disadvantage on attack rolls, as well\
+      \ as on Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception))\
+      \ checks that rely on sight."
+    "name": "Sunlight Sensitivity"
 "actions":
-- "desc": "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 2 (1d6\
-    \ - 1) bludgeoning damage."
-  "name": "Quarterstaff"
-- "desc": "The derro launches a brilliant beam of magical energy in a 5-foot-wide\
-    \ line that is 60 feet long. Each creature in the line must make a DC 12 Dexterity\
-    \ saving throw, taking 21 (6d6) radiant damage on a failed save, or half as\
-    \ much damage on a successful one."
-  "name": "Chromatic Beam"
+  - "desc": "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 2\
+      \ (1d6 - 1) bludgeoning damage."
+    "name": "Quarterstaff"
+  - "desc": "The derro launches a brilliant beam of magical energy in a 5-foot-wide\
+      \ line that is 60 feet long. Each creature in the line must make a DC 12 Dexterity\
+      \ saving throw, taking 21 (6d6) radiant damage on a failed save, or half as\
+      \ much damage on a successful one."
+    "name": "Chromatic Beam"
+  - "desc": "The derro casts one of the following spells, using Charisma as the spellcasting\
+      \ ability (spell save DC 12):\n\nAt will: [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
+      \ [message](03.PlayerLog&Handouts/Mechanics/CLI/spells/message.md), [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md)\n\
+      \n1/day each: [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md),\
+      \ [sleep](03.PlayerLog&Handouts/Mechanics/CLI/spells/sleep.md), [spider climb](03.PlayerLog&Handouts/Mechanics/CLI/spells/spider-climb.md)"
+    "name": "Spellcasting"
 "source":
-- "MPMM"
-- "MTF"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/aberration/token/derro-savant-mpmm.webp"
+  - "MPMM"
+  - "MTF"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/token/derro-savant-mpmm.webp"
 ```
 ^statblock
 

@@ -10,7 +10,7 @@ aliases:
 ---
 # Tome of Leadership and Influence
 *Wondrous item, major, very rare*  
-![](tome-of-leadership-and-influence.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/tome-of-leadership-and-influence.webp#right)
 
 - **Weight**: 5.0 lbs.
 

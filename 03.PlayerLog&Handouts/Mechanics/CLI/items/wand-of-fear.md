@@ -12,7 +12,7 @@ aliases:
 ---
 # Wand of Fear
 *Wand, major, rare (requires attunement)*  
-![](wand-of-fear.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/wand-of-fear.webp#right)
 
 - **Weight**: 1.0 lbs.
 
@@ -20,10 +20,10 @@ This wand has 7 charges for the following properties. It regains `1d6 + 1` expen
 
 ## Command
 
-While holding the wand, you can use an action to expend 1 charge and command another creature to flee or grovel, as with the [command](command.md) spell (save DC 15).
+While holding the wand, you can use an action to expend 1 charge and command another creature to flee or grovel, as with the [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md) spell (save DC 15).
 
 ## Cone of Fear
 
-While holding the wand, you can use an action to expend 2 charges, causing the wand's tip to emit a 60-foot cone of amber light. Each creature in the cone must succeed on a DC 15 Wisdom saving throw or become [frightened](conditions.md#Frightened) of you for 1 minute. While it is [frightened](conditions.md#Frightened) in this way, a creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the [Dash](actions.md#Dash) action or try to escape from an effect that prevent it from moving. If it has nowhere it can move, the creature can use the [Dodge](actions.md#Dodge) action. At the end of each of its turns, a creature can repeat the saving throw, ending the effect on itself on a success.
+While holding the wand, you can use an action to expend 2 charges, causing the wand's tip to emit a 60-foot cone of amber light. Each creature in the cone must succeed on a DC 15 Wisdom saving throw or become [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened) of you for 1 minute. While it is [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened) in this way, a creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the [Dash](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Dash) action or try to escape from an effect that prevent it from moving. If it has nowhere it can move, the creature can use the [Dodge](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Dodge) action. At the end of each of its turns, a creature can repeat the saving throw, ending the effect on itself on a success.
 
 *Source: Dungeon Master's Guide p. 210. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

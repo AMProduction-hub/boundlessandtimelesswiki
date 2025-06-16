@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
-aliases: ["Creating a Gnoll War Band; Gnoll War Band Special Creatures"]
+aliases:
+- Creating a Gnoll War Band; Gnoll War Band Special Creatures
 ---
 # Creating a Gnoll War Band; Gnoll War Band Special Creatures
 *Source: Volo's Guide to Monsters p. 39* 
@@ -14,14 +15,14 @@ aliases: ["Creating a Gnoll War Band; Gnoll War Band Special Creatures"]
 
 | dice: d20 | Special Creatures |
 |-----------|-------------------|
-| 1 | 1 [Barlgura](barlgura.md) |
-| 2-5 | `3d6` [Dretches](dretch.md) |
-| 6-8 | `2d6` [Ghouls](ghoul.md) |
-| 9-10 | `2d6` [Gnoll Witherlings](gnoll-witherling-mpmm.md) |
-| 11 | 1 [Hezrou](hezrou.md) |
-| 12-13 | `1d4` [Leucrottas](leucrotta-mpmm.md) |
-| 14-16 | `2d6` [Manes](manes.md) |
-| 17-18 | `2d4` [Maw Demons](maw-demon-mpmm.md) |
-| 19 | 1 [Shoosuva](shoosuva-mpmm.md) |
-| 20 | `1d3` [Trolls](troll.md) |
+| 1 | 1 [Barlgura](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/barlgura.md) |
+| 2-5 | `3d6` [Dretches](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/dretch.md) |
+| 6-8 | `2d6` [Ghouls](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/ghoul.md) |
+| 9-10 | `2d6` [Gnoll Witherlings](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/gnoll-witherling-mpmm.md) |
+| 11 | 1 [Hezrou](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/hezrou.md) |
+| 12-13 | `d4` [Leucrottas](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/leucrotta-mpmm.md) |
+| 14-16 | `2d6` [Manes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/manes.md) |
+| 17-18 | `2d4` [Maw Demons](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/maw-demon-mpmm.md) |
+| 19 | 1 [Shoosuva](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/shoosuva-mpmm.md) |
+| 20 | `d3` [Trolls](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/troll.md) |
 ^gnoll-war-band-special-creatures

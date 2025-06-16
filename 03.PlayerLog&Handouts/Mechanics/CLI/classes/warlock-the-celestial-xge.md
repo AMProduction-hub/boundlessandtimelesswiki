@@ -4,10 +4,11 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 - ttrpg-cli/subclass/warlock/celestial
-aliases: ["The Celestial"]
+aliases:
+- The Celestial
 ---
 # The Celestial
-*[Warlock](warlock.md): Otherworldly Patron*  
+*[Warlock](./warlock.md): Otherworldly Patron*  
 *Source: Xanathar's Guide to Everything p. 54*  
 
 > [!tldr] Class and Feature Progression
@@ -59,16 +60,16 @@ The Celestial lets you choose from an expanded list of spells when you learn a w
 
 | Spell Level | Spells |
 |-------------|--------|
-| 1st | [cure wounds](cure-wounds.md), [guiding bolt](guiding-bolt.md) |
-| 2nd | [flaming sphere](flaming-sphere.md), [lesser restoration](lesser-restoration.md) |
-| 3rd | [daylight](daylight.md), [revivify](revivify.md) |
-| 4th | [guardian of faith](guardian-of-faith.md), [wall of fire](wall-of-fire.md) |
-| 5th | [flame strike](flame-strike.md), [greater restoration](greater-restoration.md) |
+| 1st | [cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/cure-wounds.md), [guiding bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/guiding-bolt.md) |
+| 2nd | [flaming sphere](03.PlayerLog&Handouts/Mechanics/CLI/spells/flaming-sphere.md), [lesser restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/lesser-restoration.md) |
+| 3rd | [daylight](03.PlayerLog&Handouts/Mechanics/CLI/spells/daylight.md), [revivify](03.PlayerLog&Handouts/Mechanics/CLI/spells/revivify.md) |
+| 4th | [guardian of faith](03.PlayerLog&Handouts/Mechanics/CLI/spells/guardian-of-faith.md), [wall of fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-fire.md) |
+| 5th | [flame strike](03.PlayerLog&Handouts/Mechanics/CLI/spells/flame-strike.md), [greater restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-restoration.md) |
 ^celestial-expanded-spells
 
 ### Bonus Cantrips (Level 1)
 
-At 1st level, you learn the [sacred flame](sacred-flame.md) and [light](light.md) cantrips. They count as warlock cantrips for you, but they don't count against your number of cantrips known.
+At 1st level, you learn the [sacred flame](03.PlayerLog&Handouts/Mechanics/CLI/spells/sacred-flame.md) and [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md) cantrips. They count as warlock cantrips for you, but they don't count against your number of cantrips known.
 
 ### Healing Light (Level 1)
 
@@ -88,6 +89,6 @@ Starting at 10th level, you gain temporary hit points whenever you finish a shor
 
 ### Searing Vengeance (Level 14)
 
-Starting at 14th level, the radiant energy you channel allows you to resist death. When you have to make a death saving throw at the start of your turn, you can instead spring back to your feet with a burst of radiant energy. You regain hit points equal to half your hit point maximum, and then you stand up if you so choose. Each creature of your choice that is within 30 feet of you takes radiant damage equal to `2d8` + your Charisma modifier, and it is [blinded](conditions.md#Blinded) until the end of the current turn.
+Starting at 14th level, the radiant energy you channel allows you to resist death. When you have to make a death saving throw at the start of your turn, you can instead spring back to your feet with a burst of radiant energy. You regain hit points equal to half your hit point maximum, and then you stand up if you so choose. Each creature of your choice that is within 30 feet of you takes radiant damage equal to `2d8` + your Charisma modifier, and it is [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded) until the end of the current turn.
 
 Once you use this feature, you can't use it again until you finish a long rest.

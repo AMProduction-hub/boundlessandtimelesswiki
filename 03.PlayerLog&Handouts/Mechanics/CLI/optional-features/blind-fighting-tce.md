@@ -6,8 +6,9 @@ tags:
 - ttrpg-cli/optional-feature/fs-f
 - ttrpg-cli/optional-feature/fs-p
 - ttrpg-cli/optional-feature/fs-r
-aliases: ["Blind Fighting"]
+aliases:
+- Blind Fighting
 ---
 # Blind Fighting
 *Source: Tasha's Cauldron of Everything p. 41*  
-You have [blindsight](senses.md#Blindsight) with a range of 10 feet. Within that range, you can effectively see anything that isn't behind total cover, even if you're [blinded](conditions.md#Blinded) or in darkness. Moreover, you can see an [invisible](conditions.md#Invisible) creature within that range, unless the creature successfully hides from you.
+You have [blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight) with a range of 10 feet. Within that range, you can effectively see anything that isn't behind total cover, even if you're [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded) or in darkness. Moreover, you can see an [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible) creature within that range, unless the creature successfully hides from you.

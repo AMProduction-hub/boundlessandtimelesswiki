@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
-aliases: ["Roleplaying a Beholder; Beholder Flaws"]
+aliases:
+- Roleplaying a Beholder; Beholder Flaws
 ---
 # Roleplaying a Beholder; Beholder Flaws
 *Source: Volo's Guide to Monsters p. 8* 

@@ -4,7 +4,8 @@ cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mm
 - ttrpg-cli/monster/legendary-group
-aliases: ["White Dragon"]
+aliases:
+- White Dragon
 ---
 # White Dragon
 
@@ -19,9 +20,9 @@ On initiative count 20 (losing initiative ties), the dragon takes a lair action 
 
 ### Additional Lair Actions
 
-At your discretion, a legendary ([adult](adult-white-dragon.md) or [ancient](ancient-white-dragon.md)) white dragon can use one or both of the following additional lair actions while in its lair:
+At your discretion, a legendary ([adult](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/adult-white-dragon.md) or [ancient](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/ancient-white-dragon.md)) white dragon can use one or both of the following additional lair actions while in its lair:
 
-- **Blinding Sleet.** Driving sleet falls in a 40-foot-high, 20-foot-radius cylinder centered on a point the dragon can see within 120 feet of it. Each creature in that area must succeed on a DC 15 Constitution saving throw or be [blinded](conditions.md#Blinded) until initiative count 20 on the next round.  
+- **Blinding Sleet.** Driving sleet falls in a 40-foot-high, 20-foot-radius cylinder centered on a point the dragon can see within 120 feet of it. Each creature in that area must succeed on a DC 15 Constitution saving throw or be [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded) until initiative count 20 on the next round.  
 - **Whirling Wind.** A strong wind blows in a 30-foot-radius sphere centered on the dragon (see the "Dungeon Master's Guide" for rules on "strong wind"). The dragon's flying is not affected by this wind, which lasts until the next time the dragon uses a lair action or until the dragon dies.  
 
 ## Regional effects
@@ -34,7 +35,7 @@ The region containing a legendary white dragon's lair is warped by the dragon's 
 - Icy walls block off areas in the dragon's lair. Each wall is 6 inches thick, and a 10-foot section has AC 5, 15 hit points, vulnerability to fire damage, and immunity to acid, cold, necrotic, poison, and psychic damage.  
 - If the dragon wishes to move through a wall, it can do so without slowing down. The portion of the wall the dragon moves through is destroyed, however.  
 
-If the dragon dies, the fog and precipitation fade within 1 day. The ice walls melt over the course of `1d10` days.
+If the dragon dies, the fog and precipitation fade within 1 day. The ice walls melt over the course of `d10` days.
 
 ### Additional Regional Effects
 

@@ -10,10 +10,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/humanoid/goblinoid
 statblock: inline
-aliases: ["Bugbear Chief"]
+statblock-link: "#^statblock"
+aliases:
+- Bugbear Chief
 ---
-# [Bugbear Chief](03 - Player Log & Handouts\Mechanics\CLI\bestiary\humanoid/bugbear-chief.md)
-*Source: Monster Manual p. 33*  
+# [Bugbear Chief](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/bugbear-chief.md)
+*Source: Monster Manual p. 33, Tales from the Yawning Portal*  
 
 Bugbears are born for battle and mayhem. Surviving by raiding and hunting, they bully the weak and despise being bossed around, but their love of carnage means they will fight for powerful masters if bloodshed and treasure are assured.
 
@@ -36,52 +38,58 @@ Despite their intimidating builds, bugbears move with surprising stealth. They a
 "subtype": "goblinoid"
 "alignment": "Chaotic Evil"
 "ac": !!int "17"
-"ac_class": "[chain shirt](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/items/chain-shirt.md),\
-  \ [shield](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/items/shield.md)"
+"ac_class": "[chain shirt](03.PlayerLog&Handouts/Mechanics/CLI/items/chain-shirt.md),\
+  \ [shield](03.PlayerLog&Handouts/Mechanics/CLI/items/shield.md)"
 "hp": !!int "65"
 "hit_dice": "10d8 + 20"
+"modifier": !!int "2"
 "stats":
-- !!int "17"
-- !!int "14"
-- !!int "14"
-- !!int "11"
-- !!int "12"
-- !!int "11"
+  - !!int "17"
+  - !!int "14"
+  - !!int "14"
+  - !!int "11"
+  - !!int "12"
+  - !!int "11"
 "speed": "30 ft."
 "skillsaves":
-  "Intimidation": !!int "2"
-  "Stealth": !!int "6"
-  "Survival": !!int "3"
+  - "name": "[Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation)"
+    "desc": "+2"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+6"
+  - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
+    "desc": "+3"
 "senses": "darkvision 60 ft., passive Perception 11"
 "languages": "Common, Goblin"
 "cr": "3"
 "traits":
-- "desc": "A melee weapon deals one extra die of its damage when the bugbear hits\
-    \ with it (included in the attack)."
-  "name": "Brute"
-- "desc": "If the bugbear surprises a creature and hits it with an attack during the\
-    \ first round of combat, the target takes an extra 7 (2d6) damage from the attack."
-  "name": "Surprise Attack"
-- "desc": "The bugbear has advantage on saving throws against being [charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
-    \ [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
-    \ [paralyzed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
-    \ [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
-    \ [stunned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Stunned),\
-    \ or put to sleep."
-  "name": "Heart of Hruggek"
+  - "desc": "A melee weapon deals one extra die of its damage when the bugbear hits\
+      \ with it (included in the attack)."
+    "name": "Brute"
+  - "desc": "If the bugbear surprises a creature and hits it with an attack during\
+      \ the first round of combat, the target takes an extra 7 (2d6) damage from\
+      \ the attack."
+    "name": "Surprise Attack"
+  - "desc": "The bugbear has advantage on saving throws against being [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
+      \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
+      \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
+      \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
+      \ [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned),\
+      \ or put to sleep."
+    "name": "Heart of Hruggek"
 "actions":
-- "desc": "The bugbear makes two melee attacks."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 11\
-    \ (2d8 + 3) piercing damage."
-  "name": "Morningstar"
-- "desc": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/120\
-    \ ft., one target. Hit: 9 (2d6 + 3) piercing damage in melee or 5 (1d6 +\
-    \ 3) piercing damage at range."
-  "name": "Javelin"
+  - "desc": "The bugbear makes two melee attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 11\
+      \ (2d8 + 3) piercing damage."
+    "name": "Morningstar"
+  - "desc": "Melee  or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/120\
+      \ ft., one target. Hit: 9 (2d6 + 3) piercing damage in melee or 5 (1d6\
+      \ + 3) piercing damage at range."
+    "name": "Javelin"
 "source":
-- "MM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/humanoid/token/bugbear-chief.webp"
+  - "MM"
+  - "TftYP"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/bugbear-chief.webp"
 ```
 ^statblock
 

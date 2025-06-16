@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
-aliases: ["Gnome Tables; Gnome Flaws"]
+aliases:
+- Gnome Tables; Gnome Flaws
 ---
 # Gnome Tables; Gnome Flaws
 *Source: Mordenkainen's Tome of Foes p. 114* 

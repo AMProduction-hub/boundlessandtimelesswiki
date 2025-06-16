@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
-aliases: ["Healing"]
+aliases:
+- Healing
 ---
 # Healing
 *Source: Dungeon Master's Guide p. 266* 

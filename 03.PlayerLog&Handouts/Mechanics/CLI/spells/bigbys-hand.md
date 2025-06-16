@@ -10,13 +10,15 @@ tags:
 - ttrpg-cli/spell/level/5th-level
 - ttrpg-cli/spell/school/evocation
 - ttrpg-cli/spell/subclass/the-fathomless
+- ttrpg-cli/spell/subrace/human-mark-of-sentinel
 classes:
 - Artificer
 - Bard
 - Sorcerer
 - Warlock (The Fathomless)
 - Wizard
-aliases: ["Bigby's Hand"]
+aliases:
+- Bigby's Hand
 ---
 # Bigby's Hand
 *5th-level, Evocation*  
@@ -55,6 +57,6 @@ When you cast this spell using a spell slot of 6th level or higher, the damage f
 
 ## Summary
 
-**Classes**: [Artificer](list-spells-classes-artificer.md); [Bard](list-spells-classes-bard.md); [Wizard](list-spells-classes-wizard.md); [Sorcerer](list-spells-classes-sorcerer.md); [Warlock (The Fathomless)](list-spells-classes-warlock-the-fathomless-tce.md "subclass=TCE")
+**Classes**: [Artificer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-artificer.md); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Warlock (The Fathomless)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-fathomless-tce.md "subclass=TCE")
 
 *Source: Player's Handbook p. 218. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> (as "Arcane Hand")*

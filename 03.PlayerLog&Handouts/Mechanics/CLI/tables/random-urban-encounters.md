@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
-aliases: ["Random Urban Encounters"]
+aliases:
+- Random Urban Encounters
 ---
 # Random Urban Encounters
 *Source: Dungeon Master's Guide p. 114* 

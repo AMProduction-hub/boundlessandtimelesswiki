@@ -7,7 +7,9 @@ tags:
 - ttrpg-cli/spell/class/bard
 - ttrpg-cli/spell/class/druid
 - ttrpg-cli/spell/feat/artificer-initiate
+- ttrpg-cli/spell/feat/divinely-favored
 - ttrpg-cli/spell/feat/magic-initiate
+- ttrpg-cli/spell/feat/strixhaven-initiate
 - ttrpg-cli/spell/level/1st-level
 - ttrpg-cli/spell/race/fairy
 - ttrpg-cli/spell/school/evocation
@@ -17,6 +19,8 @@ tags:
 - ttrpg-cli/spell/subclass/twilight-domain
 - ttrpg-cli/spell/subrace/elf-drow
 - ttrpg-cli/spell/subrace/half-elf-drow-descent
+- ttrpg-cli/spell/subrace/half-orc-mark-of-finding
+- ttrpg-cli/spell/subrace/human-mark-of-finding
 classes:
 - Artificer
 - Bard
@@ -25,7 +29,8 @@ classes:
 - Druid
 - Ranger (Swarmkeeper)
 - Warlock (The Archfey)
-aliases: ["Faerie Fire"]
+aliases:
+- Faerie Fire
 ---
 # Faerie Fire
 *1st-level, Evocation*  
@@ -38,8 +43,8 @@ aliases: ["Faerie Fire"]
 
 Each object in a 20-foot cube within range is outlined in blue, green, or violet light (your choice). Any creature in the area when the spell is cast is also outlined in light if it fails a Dexterity saving throw. For the duration, objects and affected creatures shed dim light in a 10-foot radius.
 
-Any attack roll against an affected creature or object has advantage if the attacker can see it, and the affected creature or object can't benefit from being [invisible](conditions.md#Invisible).
+Any attack roll against an affected creature or object has advantage if the attacker can see it, and the affected creature or object can't benefit from being [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible).
 
-**Classes**: [Druid](list-spells-classes-druid.md); [Artificer](list-spells-classes-artificer.md); [Warlock (The Archfey)](list-spells-classes-warlock-the-archfey.md); [Cleric (Twilight Domain)](list-spells-classes-cleric-twilight-domain-tce.md "subclass=TCE"); [Ranger (Swarmkeeper)](list-spells-classes-ranger-swarmkeeper-tce.md "subclass=TCE"); [Bard](list-spells-classes-bard.md); [Cleric (Light Domain)](list-spells-classes-cleric-light-domain.md)
+**Classes**: [Artificer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-artificer.md); [Cleric (Light Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-light-domain.md); [Cleric (Twilight Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-twilight-domain-tce.md "subclass=TCE"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock (The Archfey)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-archfey.md); [Ranger (Swarmkeeper)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-swarmkeeper-tce.md "subclass=TCE"); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md)
 
 *Source: Player's Handbook p. 239. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*

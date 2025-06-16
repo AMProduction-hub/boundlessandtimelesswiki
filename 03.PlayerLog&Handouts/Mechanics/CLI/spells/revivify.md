@@ -3,6 +3,7 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
+- ttrpg-cli/spell/background/witherbloom-student
 - ttrpg-cli/spell/class/artificer
 - ttrpg-cli/spell/class/bard
 - ttrpg-cli/spell/class/cleric
@@ -28,7 +29,8 @@ classes:
 - Ranger
 - Sorcerer (Divine Soul)
 - Warlock (The Celestial)
-aliases: ["Revivify"]
+aliases:
+- Revivify
 ---
 # Revivify
 *3rd-level, Necromancy*  
@@ -41,6 +43,6 @@ aliases: ["Revivify"]
 
 You touch a creature that has died within the last minute. That creature returns to life with 1 hit point. This spell can't return to life a creature that has died of old age, nor can it restore any missing body parts.
 
-**Classes**: [Druid](list-spells-classes-druid.md); [Cleric (Life Domain)](list-spells-classes-cleric-life-domain.md); [Artificer](list-spells-classes-artificer.md); [Paladin](list-spells-classes-paladin.md); [Cleric](list-spells-classes-cleric.md); [Bard](list-spells-classes-bard.md); [Warlock (The Celestial)](list-spells-classes-warlock-the-celestial-xge.md "subclass=XGE"); [Cleric (Grave Domain)](list-spells-classes-cleric-grave-domain-xge.md "subclass=XGE"); [Ranger](list-spells-classes-ranger.md); [Druid (Circle of Wildfire)](list-spells-classes-druid-circle-of-wildfire-tce.md "subclass=TCE"); [Sorcerer (Divine Soul)](list-spells-classes-sorcerer-divine-soul-xge.md "subclass=XGE")
+**Classes**: [Artificer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-artificer.md); [Druid (Circle of Wildfire)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-circle-of-wildfire-tce.md "subclass=TCE"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock (The Celestial)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-celestial-xge.md "subclass=XGE"); [Cleric (Grave Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-grave-domain-xge.md "subclass=XGE"); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Ranger](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-ranger.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Cleric (Life Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-life-domain.md); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Paladin](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-paladin.md)
 
 *Source: Player's Handbook p. 272. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*

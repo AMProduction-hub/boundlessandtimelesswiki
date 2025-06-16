@@ -9,9 +9,11 @@ tags:
 - ttrpg-cli/monster/size/small
 - ttrpg-cli/monster/type/aberration
 statblock: inline
-aliases: ["Star Spawn Grue"]
+statblock-link: "#^statblock"
+aliases:
+- Star Spawn Grue
 ---
-# [Star Spawn Grue](03 - Player Log & Handouts\Mechanics\CLI\bestiary\aberration/star-spawn-grue-mpmm.md)
+# [Star Spawn Grue](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\aberration/star-spawn-grue-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 227, Mordenkainen's Tome of Foes p. 234*  
 
 Fanged and lipless, the ever-grinning, eerily staring grue lopes about on spindly legs and long arms. Bristles and spines project from odd patches of its grayish skin, and its long fingers end in broken and dirty nails. Grues are the weakest of the star spawn. A host of writhing, scrambling grues typically accompanies more powerful star spawn. Their constant chittering and shrieking produce discordant psychic energy that disrupts thought patterns in other creatures, which experience flashing colors, hallucinations, disorientation, and waves of hopelessness.
@@ -48,33 +50,34 @@ Disciples of certain Elder Evils can bestow supernatural gifts on those who serv
 "ac": !!int "11"
 "hp": !!int "17"
 "hit_dice": "5d6"
+"modifier": !!int "1"
 "stats":
-- !!int "6"
-- !!int "13"
-- !!int "10"
-- !!int "9"
-- !!int "11"
-- !!int "6"
+  - !!int "6"
+  - !!int "13"
+  - !!int "10"
+  - !!int "9"
+  - !!int "11"
+  - !!int "6"
 "speed": "30 ft."
 "damage_immunities": "psychic"
 "senses": "darkvision 60 ft., passive Perception 10"
 "languages": "Deep Speech"
 "cr": "1/4"
 "traits":
-- "desc": "Creatures within 20 feet of the grue that aren't Aberrations have disadvantage\
-    \ on saving throws, as well as on attack rolls against creatures other than a\
-    \ star spawn grue."
-  "name": "Aura of Shrieks"
+  - "desc": "Creatures within 20 feet of the grue that aren't Aberrations have disadvantage\
+      \ on saving throws, as well as on attack rolls against creatures other than\
+      \ a star spawn grue."
+    "name": "Aura of Shrieks"
 "actions":
-- "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (2d4\
-    \ + 1) piercing damage, and the target must succeed on a DC 10 Wisdom saving\
-    \ throw or attack rolls against it have advantage until the start of the grue's\
-    \ next turn."
-  "name": "Confounding Bite"
+  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6\
+      \ (2d4 + 1) piercing damage, and the target must succeed on a DC 10 Wisdom\
+      \ saving throw or attack rolls against it have advantage until the start of\
+      \ the grue's next turn."
+    "name": "Confounding Bite"
 "source":
-- "MPMM"
-- "MTF"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/aberration/token/star-spawn-grue-mpmm.webp"
+  - "MPMM"
+  - "MTF"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/token/star-spawn-grue-mpmm.webp"
 ```
 ^statblock
 

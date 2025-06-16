@@ -3,6 +3,7 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
+- ttrpg-cli/spell/background/azorius-functionary
 - ttrpg-cli/spell/class/bard
 - ttrpg-cli/spell/class/ranger
 - ttrpg-cli/spell/level/1st-level
@@ -12,7 +13,8 @@ classes:
 - Bard
 - Paladin (Oath of the Ancients)
 - Ranger
-aliases: ["Ensnaring Strike"]
+aliases:
+- Ensnaring Strike
 ---
 # Ensnaring Strike
 *1st-level, Conjuration*  
@@ -23,12 +25,12 @@ aliases: ["Ensnaring Strike"]
 - **Components:** V
 - **Duration:** Concentration, up to 1 minute
 
-The next time you hit a creature with a weapon attack before this spell ends, a writhing mass of thorny vines appears at the point of impact, and the target must succeed on a Strength saving throw or be [restrained](conditions.md#Restrained) by the magical vines until the spell ends. A Large or larger creature has advantage on this saving throw. If the target succeeds on the save, the vines shrivel away.
+The next time you hit a creature with a weapon attack before this spell ends, a writhing mass of thorny vines appears at the point of impact, and the target must succeed on a Strength saving throw or be [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained) by the magical vines until the spell ends. A Large or larger creature has advantage on this saving throw. If the target succeeds on the save, the vines shrivel away.
 
-While [restrained](conditions.md#Restrained) by this spell, the target takes `1d6` piercing damage at the start of each of its turns. A creature [restrained](conditions.md#Restrained) by the vines or one that can touch the creature can use its action to make a Strength check against your spell save DC. On a success, the target is freed.
+While [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained) by this spell, the target takes `d6` piercing damage at the start of each of its turns. A creature [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained) by the vines or one that can touch the creature can use its action to make a Strength check against your spell save DC. On a success, the target is freed.
 
-**At Higher Levels.** If you cast this spell using a spell slot of 2nd level or higher, the damage increases by `1d6` for each slot level above 1st.
+**At Higher Levels.** If you cast this spell using a spell slot of 2nd level or higher, the damage increases by `d6` for each slot level above 1st.
 
-**Classes**: [Bard](list-spells-classes-bard.md); [Paladin (Oath of the Ancients)](list-spells-classes-paladin-oath-of-the-ancients.md); [Ranger](list-spells-classes-ranger.md)
+**Classes**: [Paladin (Oath of the Ancients)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-the-ancients.md); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Ranger](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-ranger.md)
 
 *Source: Player's Handbook p. 237*

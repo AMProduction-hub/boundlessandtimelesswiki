@@ -2,11 +2,12 @@
 obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
-- ttrpg-cli/spell/list/subrace/elf-eladrin-dmg
-aliases: ["Spells for Elf (Eladrin) (DMG)"]
+- ttrpg-cli/spell/list/subrace/elf-eladrin
+aliases:
+- Spells for Elf (Eladrin)
 ---
-# Spells for Elf (Eladrin) (DMG)
+# Spells for Elf (Eladrin)
 
 ## 2nd Level
 
-- [Misty Step](misty-step.md "PHB")
+- [Misty Step](03.PlayerLog&Handouts/Mechanics/CLI/spells/misty-step.md "PHB")

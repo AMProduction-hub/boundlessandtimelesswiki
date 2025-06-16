@@ -11,9 +11,11 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/fiend
 statblock: inline
-aliases: ["Howler"]
+statblock-link: "#^statblock"
+aliases:
+- Howler
 ---
-# [Howler](03 - Player Log & Handouts\Mechanics\CLI\bestiary\fiend/howler-mpmm.md)
+# [Howler](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/howler-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 155, Mordenkainen's Tome of Foes p. 210*  
 
 > [!quote] A quote from Mordenkainen  
@@ -35,46 +37,49 @@ Howlers rely on speed, numbers, and their mind-numbing howling to corner prey be
 "ac_class": "natural armor"
 "hp": !!int "90"
 "hit_dice": "12d10 + 24"
+"modifier": !!int "3"
 "stats":
-- !!int "17"
-- !!int "16"
-- !!int "15"
-- !!int "5"
-- !!int "14"
-- !!int "6"
+  - !!int "17"
+  - !!int "16"
+  - !!int "15"
+  - !!int "5"
+  - !!int "14"
+  - !!int "6"
 "speed": "40 ft."
 "skillsaves":
-  "Perception": !!int "5"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+5"
 "damage_resistances": "cold; fire; lightning; bludgeoning, piercing, slashing from\
   \ nonmagical attacks"
-"condition_immunities": "[frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
+"condition_immunities": "[frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
 "senses": "darkvision 60 ft., passive Perception 15"
 "languages": "understands Abyssal but can't speak"
 "cr": "8"
 "traits":
-- "desc": "A howler has advantage on attack rolls against a creature if at least one\
-    \ of the howler's allies is within 5 feet of the creature and the ally isn't [incapacitated](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)."
-  "name": "Pack Tactics"
+  - "desc": "A howler has advantage on attack rolls against a creature if at least\
+      \ one of the howler's allies is within 5 feet of the creature and the ally isn't\
+      \ [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)."
+    "name": "Pack Tactics"
 "actions":
-- "desc": "The howler makes two Rending Bite attacks."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10\
-    \ (2d6 + 3) piercing damage, plus 22 (4d10) psychic damage if the target is\
-    \ [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened).\
-    \ This attack ignores damage resistance."
-  "name": "Rending Bite"
-- "desc": "The howler emits a keening howl in a 60-foot cone. Each creature in that\
-    \ area must succeed on a DC 13 Wisdom saving throw or take 16 (3d10) psychic\
-    \ damage and be [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened)\
-    \ until the end of the howler's next turn. While a creature is [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened)\
-    \ in this way, its speed is halved, and it is [incapacitated](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated).\
-    \ A target that successfully saves is immune to the Mind-Breaking Howl of all\
-    \ howlers for the next 24 hours."
-  "name": "Mind-Breaking Howl (Recharge 4-6)"
+  - "desc": "The howler makes two Rending Bite attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10\
+      \ (2d6 + 3) piercing damage, plus 22 (4d10) psychic damage if the target\
+      \ is [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened).\
+      \ This attack ignores damage resistance."
+    "name": "Rending Bite"
+  - "desc": "The howler emits a keening howl in a 60-foot cone. Each creature in that\
+      \ area must succeed on a DC 13 Wisdom saving throw or take 16 (3d10) psychic\
+      \ damage and be [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)\
+      \ until the end of the howler's next turn. While a creature is [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)\
+      \ in this way, its speed is halved, and it is [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated).\
+      \ A target that successfully saves is immune to the Mind-Breaking Howl of all\
+      \ howlers for the next 24 hours."
+    "name": "Mind-Breaking Howl (Recharge 4-6)"
 "source":
-- "MPMM"
-- "MTF"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/fiend/token/howler-mpmm.webp"
+  - "MPMM"
+  - "MTF"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/token/howler-mpmm.webp"
 ```
 ^statblock
 

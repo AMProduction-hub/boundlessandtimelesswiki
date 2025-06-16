@@ -8,10 +8,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/fey
 statblock: inline
-aliases: ["Satyr"]
+statblock-link: "#^statblock"
+aliases:
+- Satyr
 ---
-# [Satyr](03 - Player Log & Handouts\Mechanics\CLI\bestiary\fey/satyr.md)
-*Source: Monster Manual p. 267, Sigil and the Outlands. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Satyr](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fey/satyr.md)
+*Source: Monster Manual p. 267, Storm King's Thunder, Infernal Machine Rebuild, Candlekeep Mysteries, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 Satyrs are raucous fey that frolic in wild forests, driven by curiosity and hedonism in equal measure.
 
@@ -60,42 +62,49 @@ Inebriated on drink and pleasure, satyrs give no thought to the consequences of 
 "type": "fey"
 "alignment": "Chaotic Neutral"
 "ac": !!int "14"
-"ac_class": "[leather armor](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/items/leather-armor.md)"
+"ac_class": "[leather armor](03.PlayerLog&Handouts/Mechanics/CLI/items/leather-armor.md)"
 "hp": !!int "31"
 "hit_dice": "7d8"
+"modifier": !!int "3"
 "stats":
-- !!int "12"
-- !!int "16"
-- !!int "11"
-- !!int "12"
-- !!int "10"
-- !!int "14"
+  - !!int "12"
+  - !!int "16"
+  - !!int "11"
+  - !!int "12"
+  - !!int "10"
+  - !!int "14"
 "speed": "40 ft."
 "skillsaves":
-  "Stealth": !!int "5"
-  "Perception": !!int "2"
-  "Performance": !!int "6"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+2"
+  - "name": "[Performance](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Performance)"
+    "desc": "+6"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+5"
 "senses": "passive Perception 12"
 "languages": "Common, Elvish, Sylvan"
 "cr": "1/2"
 "traits":
-- "desc": "The satyr has advantage on saving throws against spells and other magical\
-    \ effects."
-  "name": "Magic Resistance"
+  - "desc": "The satyr has advantage on saving throws against spells and other magical\
+      \ effects."
+    "name": "Magic Resistance"
 "actions":
-- "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (2d4\
-    \ + 1) bludgeoning damage."
-  "name": "Ram"
-- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6\
-    \ + 3) piercing damage."
-  "name": "Shortsword"
-- "desc": "Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. Hit:\
-    \ 6 (1d6 + 3) piercing damage."
-  "name": "Shortbow"
+  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6\
+      \ (2d4 + 1) bludgeoning damage."
+    "name": "Ram"
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+      \ (1d6 + 3) piercing damage."
+    "name": "Shortsword"
+  - "desc": "Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. Hit:\
+      \ 6 (1d6 + 3) piercing damage."
+    "name": "Shortbow"
 "source":
-- "MM"
-- "SatO"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/fey/token/satyr.webp"
+  - "MM"
+  - "SKT"
+  - "IMR"
+  - "CM"
+  - "KftGV"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/token/satyr.webp"
 ```
 ^statblock
 

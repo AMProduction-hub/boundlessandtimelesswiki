@@ -4,10 +4,11 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/subclass/warlock/archfey
-aliases: ["The Archfey"]
+aliases:
+- The Archfey
 ---
 # The Archfey
-*[Warlock](warlock.md): Otherworldly Patron*  
+*[Warlock](./warlock.md): Otherworldly Patron*  
 *Source: Player's Handbook p. 108*  
 
 > [!tldr] Class and Feature Progression
@@ -56,32 +57,32 @@ The Archfey lets you choose from an expanded list of spells when you learn a war
 
 | Spell Level | Spells |
 |-------------|--------|
-| 1st | [faerie fire](faerie-fire.md), [sleep](sleep.md) |
-| 2nd | [calm emotions](calm-emotions.md), [phantasmal force](phantasmal-force.md) |
-| 3rd | [blink](blink.md), [plant growth](plant-growth.md) |
-| 4th | [dominate beast](dominate-beast.md), [greater invisibility](greater-invisibility.md) |
-| 5th | [dominate person](dominate-person.md), [seeming](seeming.md) |
+| 1st | [faerie fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/faerie-fire.md), [sleep](03.PlayerLog&Handouts/Mechanics/CLI/spells/sleep.md) |
+| 2nd | [calm emotions](03.PlayerLog&Handouts/Mechanics/CLI/spells/calm-emotions.md), [phantasmal force](03.PlayerLog&Handouts/Mechanics/CLI/spells/phantasmal-force.md) |
+| 3rd | [blink](03.PlayerLog&Handouts/Mechanics/CLI/spells/blink.md), [plant growth](03.PlayerLog&Handouts/Mechanics/CLI/spells/plant-growth.md) |
+| 4th | [dominate beast](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-beast.md), [greater invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-invisibility.md) |
+| 5th | [dominate person](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-person.md), [seeming](03.PlayerLog&Handouts/Mechanics/CLI/spells/seeming.md) |
 ^archfey-expanded-spells
 
 ### Fey Presence (Level 1)
 
-Starting at 1st level, your patron bestows upon you the ability to project the beguiling and fearsome presence of the fey. As an action, you can cause each creature in a 10-foot cube originating from you to make a Wisdom saving throw against your warlock spell save DC. The creatures that fail their saving throws are all [charmed](conditions.md#Charmed) or [frightened](conditions.md#Frightened) by you (your choice) until the end of your next turn.
+Starting at 1st level, your patron bestows upon you the ability to project the beguiling and fearsome presence of the fey. As an action, you can cause each creature in a 10-foot cube originating from you to make a Wisdom saving throw against your warlock spell save DC. The creatures that fail their saving throws are all [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed) or [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened) by you (your choice) until the end of your next turn.
 
 Once you use this feature, you can't use it again until you finish a short or long rest.
 
 ### Misty Escape (Level 6)
 
-Starting at 6th level, you can vanish in a puff of mist in response to harm. When you take damage, you can use your reaction to turn [invisible](conditions.md#Invisible) and teleport up to 60 feet to an unoccupied space you can see. You remain [invisible](conditions.md#Invisible) until the start of your next turn or until you attack or cast a spell.
+Starting at 6th level, you can vanish in a puff of mist in response to harm. When you take damage, you can use your reaction to turn [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible) and teleport up to 60 feet to an unoccupied space you can see. You remain [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible) until the start of your next turn or until you attack or cast a spell.
 
 Once you use this feature, you can't use it again until you finish a short or long rest.
 
 ### Beguiling Defenses (Level 10)
 
-Beginning at 10th level, your patron teaches you how to turn the mind-affecting magic of your enemies against them. You are immune to being [charmed](conditions.md#Charmed), and when another creature attempts to charm you, you can use your reaction to attempt to turn the charm back on that creature. The creature must succeed on a Wisdom saving throw against your warlock spell save DC or be [charmed](conditions.md#Charmed) by you for 1 minute or until the creature takes any damage.
+Beginning at 10th level, your patron teaches you how to turn the mind-affecting magic of your enemies against them. You are immune to being [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), and when another creature attempts to charm you, you can use your reaction to attempt to turn the charm back on that creature. The creature must succeed on a Wisdom saving throw against your warlock spell save DC or be [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed) by you for 1 minute or until the creature takes any damage.
 
 ### Dark Delirium (Level 14)
 
-Starting at 14th level, you can plunge a creature into an illusory realm. As an action, choose a creature that you can see within 60 feet of you. It must make a Wisdom saving throw against your warlock spell save DC. On a failed save, it is [charmed](conditions.md#Charmed) or [frightened](conditions.md#Frightened) by you (your choice) for 1 minute or until your [concentration](conditions.md#Concentration) is broken (as if you are [concentrating](conditions.md#Concentration) on a spell). This effect ends early if the creature takes any damage.
+Starting at 14th level, you can plunge a creature into an illusory realm. As an action, choose a creature that you can see within 60 feet of you. It must make a Wisdom saving throw against your warlock spell save DC. On a failed save, it is [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed) or [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened) by you (your choice) for 1 minute or until your [concentration](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Concentration) is broken (as if you are [concentrating](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Concentration) on a spell). This effect ends early if the creature takes any damage.
 
 Until this illusion ends, the creature thinks it is lost in a misty realm, the appearance of which you choose. The creature can see and hear only itself, you, and the illusion.
 

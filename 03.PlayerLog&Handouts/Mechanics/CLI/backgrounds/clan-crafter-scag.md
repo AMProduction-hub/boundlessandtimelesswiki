@@ -4,7 +4,8 @@ cssclasses: json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/scag
-aliases: ["Clan Crafter"]
+aliases:
+- Clan Crafter
 ---
 # Clan Crafter
 *Source: Sword Coast Adventurer's Guide p. 145*  
@@ -13,11 +14,11 @@ aliases: ["Clan Crafter"]
 - **Skill Proficiencies.** [History](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#History), [Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight)  
 - **Tool Proficiencies.** One type of artisan's tools  
 - **Languages.** Dwarvish or one of your choice if you already speak Dwarvish  
-- **Equipment.** A set of artisan's tools with which you are proficient, a maker's mark chisel used to mark your handiwork with the symbol of the clan of crafters you learned your skill from, a set of [traveler's clothes](travelers-clothes.md), and a [pouch](pouch.md) containing 5 gp and a gem worth 10 gp  
+- **Equipment.** A set of artisan's tools with which you are proficient, a maker's mark chisel used to mark your handiwork with the symbol of the clan of crafters you learned your skill from, a set of [traveler's clothes](03.PlayerLog&Handouts/Mechanics/CLI/items/travelers-clothes.md), and a [pouch](03.PlayerLog&Handouts/Mechanics/CLI/items/pouch.md) containing 5 gp and a gem worth 10 gp  
 
 The Stout Folk are well known for their artisanship and the worth of their handiworks, and you have been trained in that ancient tradition. For years you labored under a dwarf master of the craft, enduring long hours and dismissive, sour-tempered treatment in order to gain the fine skills you possess today.
 
-You are most likely a dwarf, but not necessarily—particularly in the North, the shield dwarf clans learned long ago that only proud fools who are more concerned for their egos than their craft turn away promising apprentices, even those of other races. If you aren't a dwarf, however, you have taken a solemn oath never to take on an apprentice in the craft: it is not for nondwarves to pass on the skills of Moradin's favored children. You would have no difficulty, however, finding a dwarf master who was willing to receive potential apprentices who came with your recommendation.
+You are most likely a dwarf, but not necessarily—particularly in the North, the shield dwarf clans learned long ago that only proud fools who are more concerned for their egos than their craft turn away promising apprentices, even those of other races. If you aren't a dwarf, however, you have taken a solemn oath never to take on an apprentice in the craft: it is not for non-dwarves to pass on the skills of Moradin's favored children. You would have no difficulty, however, finding a dwarf master who was willing to receive potential apprentices who came with your recommendation.
 
 ## Feature: Respect of the Stout Folk
 
@@ -25,6 +26,6 @@ As well respected as clan crafters are among outsiders, no one esteems them quit
 
 ## Suggested Characteristics
 
-Use the tables for the [guild artisan](guild-artisan.md) background in the Player's Handbook as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as a clan crafter. (For instance, consider the words "guild" and "clan" to be interchangeable.)
+Use the tables for the [guild artisan](03.PlayerLog&Handouts/Mechanics/CLI/backgrounds/guild-artisan.md) background in the Player's Handbook as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as a clan crafter. (For instance, consider the words "guild" and "clan" to be interchangeable.)
 
 Your bond is almost certainly related to the master or the clan that taught you, or else to the work that you produce. Your ideal might have to do with maintaining the high quality of your work or preserving the dwarven traditions of craftsmanship.

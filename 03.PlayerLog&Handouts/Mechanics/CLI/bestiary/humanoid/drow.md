@@ -8,10 +8,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/humanoid/elf
 statblock: inline
-aliases: ["Drow"]
+statblock-link: "#^statblock"
+aliases:
+- Drow
 ---
-# [Drow](03 - Player Log & Handouts\Mechanics\CLI\bestiary\humanoid/drow.md)
-*Source: Monster Manual p. 128, Baldur's Gate: Descent Into Avernus. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Drow](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/drow.md)
+*Source: Monster Manual p. 128, Tales from the Yawning Portal, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Divine Contention, Dragon of Icespire Peak, Baldur's Gate: Descent Into Avernus, Explorer's Guide to Wildemount, Candlekeep Mysteries. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 ## Drow
 
@@ -51,7 +53,7 @@ In drow society, males are subservient to females. A male drow might lead an Und
 
 ### Poison Predilection
 
-Distilled from spider venom and the flora of the Underdark, poison can be found in abundance among the drow, and it plays an important part in their culture and politics. Drow mages concoct a viscid toxin that leaves enemies [unconscious](conditions.md#Unconscious). Drow warriors coat their blades and crossbow bolts with this venom, looking forward to the interrogation and torture that follows combat.
+Distilled from spider venom and the flora of the Underdark, poison can be found in abundance among the drow, and it plays an important part in their culture and politics. Drow mages concoct a viscid toxin that leaves enemies [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious). Drow warriors coat their blades and crossbow bolts with this venom, looking forward to the interrogation and torture that follows combat.
 
 > [!note] Variant: Drow Magic Armor and Weapons
 > 
@@ -74,53 +76,63 @@ Distilled from spider venom and the flora of the Underdark, poison can be found 
 "subtype": "elf"
 "alignment": "Neutral Evil"
 "ac": !!int "15"
-"ac_class": "[chain shirt](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/items/chain-shirt.md)"
+"ac_class": "[chain shirt](03.PlayerLog&Handouts/Mechanics/CLI/items/chain-shirt.md)"
 "hp": !!int "13"
 "hit_dice": "3d8"
+"modifier": !!int "2"
 "stats":
-- !!int "10"
-- !!int "14"
-- !!int "10"
-- !!int "11"
-- !!int "11"
-- !!int "12"
+  - !!int "10"
+  - !!int "14"
+  - !!int "10"
+  - !!int "11"
+  - !!int "11"
+  - !!int "12"
 "speed": "30 ft."
 "skillsaves":
-  "Stealth": !!int "4"
-  "Perception": !!int "2"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+2"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+4"
 "senses": "darkvision 120 ft., passive Perception 12"
 "languages": "Elvish, Undercommon"
 "cr": "1/4"
 "traits":
-- "desc": "The drow's spellcasting ability is Charisma (spell save DC 11). It can\
-    \ innately cast the following spells, requiring no material components:\n\nAt\
-    \ will: [dancing lights](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/dancing-lights.md)\n\
-    \n1/day each: [darkness](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/darkness.md),\
-    \ [faerie fire](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/faerie-fire.md)"
-  "name": "Innate Spellcasting"
-- "desc": "The drow has advantage on saving throws against being [charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
-    \ and magic can't put the drow to sleep."
-  "name": "Fey Ancestry"
-- "desc": "While in sunlight, the drow has disadvantage on attack rolls, as well as\
-    \ on Wisdom ([Perception](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/skills.md#Perception))\
-    \ checks that rely on sight."
-  "name": "Sunlight Sensitivity"
+  - "desc": "The drow's spellcasting ability is Charisma (spell save DC 11). It can\
+      \ innately cast the following spells, requiring no material components:\n\n\
+      At will: [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md)\n\
+      \n1/day each: [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
+      \ [faerie fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/faerie-fire.md)"
+    "name": "Innate Spellcasting"
+  - "desc": "The drow has advantage on saving throws against being [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
+      \ and magic can't put the drow to sleep."
+    "name": "Fey Ancestry"
+  - "desc": "While in sunlight, the drow has disadvantage on attack rolls, as well\
+      \ as on Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception))\
+      \ checks that rely on sight."
+    "name": "Sunlight Sensitivity"
 "actions":
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6\
-    \ + 2) piercing damage."
-  "name": "Shortsword"
-- "desc": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit:\
-    \ 5 (1d6 + 2) piercing damage, and the target must succeed on a DC 13 Constitution\
-    \ saving throw or be [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
-    \ for 1 hour. If the saving throw fails by 5 or more, the target is also [unconscious](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)\
-    \ while [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
-    \ in this way. The target wakes up if it takes damage or if another creature takes\
-    \ an action to shake it awake."
-  "name": "Hand Crossbow"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+      \ (1d6 + 2) piercing damage."
+    "name": "Shortsword"
+  - "desc": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit:\
+      \ 5 (1d6 + 2) piercing damage, and the target must succeed on a DC 13 Constitution\
+      \ saving throw or be [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
+      \ for 1 hour. If the saving throw fails by 5 or more, the target is also [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious)\
+      \ while [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
+      \ in this way. The target wakes up if it takes damage or if another creature\
+      \ takes an action to shake it awake."
+    "name": "Hand Crossbow"
 "source":
-- "MM"
-- "BGDIA"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/humanoid/token/drow.webp"
+  - "MM"
+  - "TftYP"
+  - "WDH"
+  - "WDMM"
+  - "DC"
+  - "DIP"
+  - "BGDIA"
+  - "EGW"
+  - "CM"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/drow.webp"
 ```
 ^statblock
 

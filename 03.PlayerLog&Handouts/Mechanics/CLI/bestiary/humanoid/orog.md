@@ -13,10 +13,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/humanoid/orc
 statblock: inline
-aliases: ["Orog"]
+statblock-link: "#^statblock"
+aliases:
+- Orog
 ---
-# [Orog](03 - Player Log & Handouts\Mechanics\CLI\bestiary\humanoid/orog.md)
-*Source: Monster Manual p. 247*  
+# [Orog](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/orog.md)
+*Source: Monster Manual p. 247, Princes of the Apocalypse, Storm King's Thunder, Tales from the Yawning Portal, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Explorer's Guide to Wildemount*  
 
 Orcs are savage raiders and pillagers with stooped postures, low foreheads, and piggish faces with prominent lower canines that resemble tusks.
 
@@ -75,39 +77,49 @@ Mistrusted by orcs, some orogs form independent mercenary war bands that sell th
 "subtype": "orc"
 "alignment": "Chaotic Evil"
 "ac": !!int "18"
-"ac_class": "[plate armor](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/items/plate-armor.md)"
+"ac_class": "[plate armor](03.PlayerLog&Handouts/Mechanics/CLI/items/plate-armor.md)"
 "hp": !!int "42"
 "hit_dice": "5d8 + 20"
+"modifier": !!int "1"
 "stats":
-- !!int "18"
-- !!int "12"
-- !!int "18"
-- !!int "12"
-- !!int "11"
-- !!int "12"
+  - !!int "18"
+  - !!int "12"
+  - !!int "18"
+  - !!int "12"
+  - !!int "11"
+  - !!int "12"
 "speed": "30 ft."
 "skillsaves":
-  "Intimidation": !!int "5"
-  "Survival": !!int "2"
+  - "name": "[Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation)"
+    "desc": "+5"
+  - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
+    "desc": "+2"
 "senses": "darkvision 60 ft., passive Perception 10"
 "languages": "Common, Orc"
 "cr": "2"
 "traits":
-- "desc": "As a bonus action, the orog can move up to its speed toward a hostile creature\
-    \ that it can see."
-  "name": "Aggressive"
+  - "desc": "As a bonus action, the orog can move up to its speed toward a hostile\
+      \ creature that it can see."
+    "name": "Aggressive"
 "actions":
-- "desc": "The orog makes two greataxe attacks."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10\
-    \ (1d12 + 4) slashing damage."
-  "name": "Greataxe"
-- "desc": "Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 30/120\
-    \ ft., one target. Hit: 7 (1d6 + 4) piercing damage."
-  "name": "Javelin"
+  - "desc": "The orog makes two greataxe attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10\
+      \ (1d12 + 4) slashing damage."
+    "name": "Greataxe"
+  - "desc": "Melee  or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 30/120\
+      \ ft., one target. Hit: 7 (1d6 + 4) piercing damage."
+    "name": "Javelin"
 "source":
-- "MM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/humanoid/token/orog.webp"
+  - "MM"
+  - "PotA"
+  - "SKT"
+  - "TftYP"
+  - "WDH"
+  - "WDMM"
+  - "GoS"
+  - "EGW"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/orog.webp"
 ```
 ^statblock
 

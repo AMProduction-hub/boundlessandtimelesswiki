@@ -3,10 +3,11 @@ obsidianUIMode: preview
 cssclasses: json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
-- ttrpg-cli/race/lizardfolk/dmg
-aliases: ["Lizardfolk (DMG)"]
+- ttrpg-cli/race/lizardfolk
+aliases:
+- Lizardfolk
 ---
-# Lizardfolk (DMG)
+# Lizardfolk
 *Source: Dungeon Master's Guide p. 282*  
 
 

@@ -15,7 +15,7 @@ aliases:
 
 - **Damage**: 1d10 piercing
 - **Range**: 100/400
-- **Properties**: [Ammunition](item-properties.md#Ammunition), [Heavy](item-properties.md#Heavy), [Loading](item-properties.md#Loading), [Two-Handed](item-properties.md#Two-Handed)
+- **Properties**: [Ammunition](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Ammunition), [Heavy](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Heavy), [Loading](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Loading), [Two-Handed](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Two-Handed)
 - **Cost**: 50 gp
 - **Weight**: 18.0 lbs.
 

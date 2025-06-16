@@ -7,9 +7,11 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/humanoid/gith
 statblock: inline
-aliases: ["Githyanki Buccaneer"]
+statblock-link: "#^statblock"
+aliases:
+- Githyanki Buccaneer
 ---
-# [Githyanki Buccaneer](03 - Player Log & Handouts\Mechanics\CLI\bestiary\humanoid/githyanki-buccaneer-bam.md)
+# [Githyanki Buccaneer](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/githyanki-buccaneer-bam.md)
 *Source: Boo's Astral Menagerie p. 27, Light of Xaryxis*  
 
 Githyanki buccaneers ply the Astral Plane for riches, which they haul back to their hidden fortresses in the Deep Astral. Many of them are warriors who lost the will to serve the Lich-Queen Vlaakith; they prefer to live by their own code or revel in their unbridled freedom.
@@ -21,53 +23,57 @@ Githyanki buccaneers ply the Astral Plane for riches, which they haul back to th
 "subtype": "gith"
 "alignment": "Any alignment"
 "ac": !!int "16"
-"ac_class": "[breastplate](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/items/breastplate.md)"
+"ac_class": "[breastplate](03.PlayerLog&Handouts/Mechanics/CLI/items/breastplate.md)"
 "hp": !!int "58"
 "hit_dice": "9d8 + 18"
+"modifier": !!int "2"
 "stats":
-- !!int "16"
-- !!int "14"
-- !!int "14"
-- !!int "16"
-- !!int "13"
-- !!int "13"
+  - !!int "16"
+  - !!int "14"
+  - !!int "14"
+  - !!int "16"
+  - !!int "13"
+  - !!int "13"
 "speed": "30 ft."
 "saves":
-  "Wisdom": !!int "3"
-  "Intelligence": !!int "5"
-  "Constitution": !!int "4"
+  - "constitution": "+4"
+  - "intelligence": "+5"
+  - "wisdom": "+3"
 "skillsaves":
-  "Athletics": !!int "5"
-  "Deception": !!int "3"
-  "Perception": !!int "3"
-  "Survival": !!int "3"
+  - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
+    "desc": "+5"
+  - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
+    "desc": "+3"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+3"
+  - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
+    "desc": "+3"
 "senses": "passive Perception 13"
 "languages": "Common, Gith"
 "cr": "3"
-"traits":
-- "desc": "The githyanki casts one of the following spells, requiring no spell components\
-    \ and using Intelligence as the spellcasting ability (spell save DC 13):\n\nAt\
-    \ will: [light](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/light.md),\
-    \ [mage hand](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/mage-hand.md)\
-    \ (the hand is invisible)\n\n1/day each: [plane shift](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/plane-shift.md),\
-    \ [telekinesis](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/telekinesis.md)"
-  "name": "Spellcasting (Psionics)"
 "actions":
-- "desc": "The githyanki makes two Greatsword or Telekinetic Bolt attacks."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10\
-    \ (2d6 + 3) slashing damage plus 3 (1d6) psychic damage."
-  "name": "Greatsword"
-- "desc": "Ranged Spell Attack: +5 to hit, range 60 ft., one target. Hit: 13\
-    \ (3d6 + 3) force damage."
-  "name": "Telekinetic Bolt"
+  - "desc": "The githyanki makes two Greatsword or Telekinetic Bolt attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10\
+      \ (2d6 + 3) slashing damage plus 3 (d6) psychic damage."
+    "name": "Greatsword"
+  - "desc": "Ranged Spell Attack: +5 to hit, range 60 ft., one target. Hit:\
+      \ 13 (3d6 + 3) force damage."
+    "name": "Telekinetic Bolt"
+  - "desc": "The githyanki casts one of the following spells, requiring no spell components\
+      \ and using Intelligence as the spellcasting ability (spell save DC 13):\n\n\
+      At will: [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md), [mage\
+      \ hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md) (the hand is\
+      \ invisible)\n\n1/day each: [plane shift](03.PlayerLog&Handouts/Mechanics/CLI/spells/plane-shift.md),\
+      \ [telekinesis](03.PlayerLog&Handouts/Mechanics/CLI/spells/telekinesis.md)"
+    "name": "Spellcasting (Psionics)"
 "bonus_actions":
-- "desc": "The githyanki teleports, along with any equipment it is wearing or carrying,\
-    \ up to 30 feet to an unoccupied space it can see."
-  "name": "Astral Step (Recharge 4-6)"
+  - "desc": "The githyanki teleports, along with any equipment it is wearing or carrying,\
+      \ up to 30 feet to an unoccupied space it can see."
+    "name": "Astral Step (Recharge 4-6)"
 "source":
-- "BAM"
-- "LoX"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/humanoid/token/githyanki-buccaneer-bam.webp"
+  - "BAM"
+  - "LoX"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/githyanki-buccaneer-bam.webp"
 ```
 ^statblock

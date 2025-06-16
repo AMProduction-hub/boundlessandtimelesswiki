@@ -5,11 +5,12 @@ tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/domain/order
 - ttrpg-cli/subclass/cleric/order
-aliases: ["Order Domain"]
+aliases:
+- Order Domain
 ---
 # Order Domain
-*[Cleric](cleric.md): Divine Domain*  
-*Source: Tasha's Cauldron of Everything p. 31*  
+*[Cleric](./cleric.md): Divine Domain*  
+*Source: Tasha's Cauldron of Everything p. 31, Guildmasters' Guide to Ravnica p. 25*  
 
 > [!tldr] Class and Feature Progression
 > 
@@ -47,7 +48,7 @@ aliases: ["Order Domain"]
 
 ### Order Domain (Level 1)
 
-The Order Domain represents discipline, as well as devotion to a society or an institution and strict obedience to the laws governing it. On Ravnica, the domain is favored by clerics of the Azorius Senate, who use it to maintain and enforce the law, and of the Orzhov Syndicate, who exploit law and order for their personal gain. On other worlds, gods who grant access to this domain include Bane, Tyr, Majere, Erathis, Pholtus, Wee Jas, Aureon, Maglubiyet, Nuada, Athena, Anubis, Forseti, and Asmodeus.
+The Order Domain represents discipline, as well as devotion to a society or an institution and strict obedience to the laws governing it. On Ravnica, the domain is favored by clerics of the Azorius Senate, who use it to maintain and enforce the law, and of the Orzhov Syndicate, who exploit law and order for their personal gain. On other worlds, gods who grant access to this domain include Bane, Tyr, Majere, [Erathis](03.PlayerLog&Handouts/Mechanics/CLI/deities/dawn-war-erathis-dmg.md), [Pholtus](03.PlayerLog&Handouts/Mechanics/CLI/deities/greyhawk-pholtus.md), [Wee Jas](03.PlayerLog&Handouts/Mechanics/CLI/deities/greyhawk-wee-jas.md), Aureon, [Maglubiyet](03.PlayerLog&Handouts/Mechanics/CLI/deities/nonhuman-maglubiyet.md), [Nuada](03.PlayerLog&Handouts/Mechanics/CLI/deities/celtic-nuada.md), [Athena](03.PlayerLog&Handouts/Mechanics/CLI/deities/greek-athena.md), [Anubis](03.PlayerLog&Handouts/Mechanics/CLI/deities/egyptian-anubis.md), [Forseti](03.PlayerLog&Handouts/Mechanics/CLI/deities/norse-forseti.md), and [Asmodeus](03.PlayerLog&Handouts/Mechanics/CLI/deities/dawn-war-asmodeus-dmg.md).
 
 The ideal of order is obedience to the law above all else, rather than to a specific individual or the passing influence of emotion or popular rule. Clerics of order are typically concerned with how things are done, rather than whether an action's results are just. Following the law and obeying its edicts is critical, especially when it benefits these clerics and their guilds or deities.
 
@@ -59,11 +60,11 @@ At each indicated cleric level, you add the listed spells to your spells prepare
 
 | Cleric Level | Spells |
 |--------------|--------|
-| 1st | [command](command.md), [heroism](heroism.md) |
-| 3rd | [hold person](hold-person.md), [zone of truth](zone-of-truth.md) |
-| 5th | [mass healing word](mass-healing-word.md), [slow](slow.md) |
-| 7th | [compulsion](compulsion.md), [locate creature](locate-creature.md) |
-| 9th | [commune](commune.md), [dominate person](dominate-person.md) |
+| 1st | [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md), [heroism](03.PlayerLog&Handouts/Mechanics/CLI/spells/heroism.md) |
+| 3rd | [hold person](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md), [zone of truth](03.PlayerLog&Handouts/Mechanics/CLI/spells/zone-of-truth.md) |
+| 5th | [mass healing word](03.PlayerLog&Handouts/Mechanics/CLI/spells/mass-healing-word.md), [slow](03.PlayerLog&Handouts/Mechanics/CLI/spells/slow.md) |
+| 7th | [compulsion](03.PlayerLog&Handouts/Mechanics/CLI/spells/compulsion.md), [locate creature](03.PlayerLog&Handouts/Mechanics/CLI/spells/locate-creature.md) |
+| 9th | [commune](03.PlayerLog&Handouts/Mechanics/CLI/spells/commune.md), [dominate person](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-person.md) |
 ^order-domain-spells
 
 ### Bonus Proficiencies (Level 1)
@@ -80,7 +81,7 @@ If the spell targets more than one ally, you choose the ally who can make the at
 
 Starting at 2nd level, you can use your Channel Divinity to exert an intimidating presence over others.
 
-As an action, you present your holy symbol, and each creature of your choice that can see or hear you within 30 feet of you must succeed on a Wisdom saving throw or be [charmed](conditions.md#Charmed) by you until the end of your next turn or until the [charmed](conditions.md#Charmed) creature takes any damage. You can also cause any of the [charmed](conditions.md#Charmed) creatures to drop what they are holding when they fail the saving throw.
+As an action, you present your holy symbol, and each creature of your choice that can see or hear you within 30 feet of you must succeed on a Wisdom saving throw or be [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed) by you until the end of your next turn or until the [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed) creature takes any damage. You can also cause any of the [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed) creatures to drop what they are holding when they fail the saving throw.
 
 ### Embodiment of the Law (Level 6)
 
@@ -92,13 +93,13 @@ You can use this feature a number of times equal to your Wisdom modifier (minimu
 
 ### Divine Strike (Level 8)
 
-At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra `1d8` psychic damage to the target. When you reach 14th level, the extra damage increases to `2d8`.
+At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra `d8` psychic damage to the target. When you reach 14th level, the extra damage increases to `2d8`.
 
 ### Blessed Strikes (Level 8)
 
-*8th-level cleric [optional feature](optional-class-features-tce.md), which replaces the Divine Strike feature*
+*8th-level cleric [optional feature](03.PlayerLog&Handouts/Mechanics/CLI/rules/variant-rules/optional-class-features-tce.md), which replaces the Divine Strike feature*
 
-You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal `1d8` radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.
+You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal `d8` radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.
 
 ### Order's Wrath (Level 17)
 

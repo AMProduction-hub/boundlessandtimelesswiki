@@ -5,10 +5,11 @@ tags:
 - ttrpg-cli/compendium/src/5e/xge
 - ttrpg-cli/domain/forge
 - ttrpg-cli/subclass/cleric/forge
-aliases: ["Forge Domain"]
+aliases:
+- Forge Domain
 ---
 # Forge Domain
-*[Cleric](cleric.md): Divine Domain*  
+*[Cleric](./cleric.md): Divine Domain*  
 *Source: Xanathar's Guide to Everything p. 18*  
 
 > [!tldr] Class and Feature Progression
@@ -43,11 +44,15 @@ aliases: ["Forge Domain"]
 ^class-progression
 
 
+> [!quote] A quote from Xanathar  
+> 
+> I've got a minion that forges things. An ink-stained little twerp with excellent penmanship. So how do the hammers and fire help the process? Wouldn't the paper get burned? Oh, the fire must be for the wax seals!
+
 ## Class Features
 
 ### Forge Domain (Level 1)
 
-The gods of the forge are patrons of artisans who work with metal, from a humble blacksmith who keeps a village in horseshoes and plow blades to the mighty elf artisan whose diamond-tipped arrows of mithral have felled demon lords. The gods of the forge teach that, with patience and hard work, even the most intractable metal can be transformed from a lump of ore to a beautifully wrought object. Clerics of these deities search for objects lost to the forces of darkness, liberate mines overrun by orcs, and uncover rare and wondrous materials necessary to create potent magic items. Followers of these gods take great pride in their work, and they are willing to craft and use heavy armor and powerful weapons to protect them. Deities of this domain include Gond, Reorx, Onatar, Moradin, Hephaestus, and Goibhniu.
+The gods of the forge are patrons of artisans who work with metal, from a humble blacksmith who keeps a village in horseshoes and plow blades to the mighty elf artisan whose diamond-tipped arrows of mithral have felled demon lords. The gods of the forge teach that, with patience and hard work, even the most intractable metal can be transformed from a lump of ore to a beautifully wrought object. Clerics of these deities search for objects lost to the forces of darkness, liberate mines overrun by orcs, and uncover rare and wondrous materials necessary to create potent magic items. Followers of these gods take great pride in their work, and they are willing to craft and use heavy armor and powerful weapons to protect them. Deities of this domain include Gond, Reorx, Onatar, [Moradin](03.PlayerLog&Handouts/Mechanics/CLI/deities/nonhuman-moradin.md), [Hephaestus](03.PlayerLog&Handouts/Mechanics/CLI/deities/greek-hephaestus.md), and [Goibhniu](03.PlayerLog&Handouts/Mechanics/CLI/deities/celtic-goibhniu.md).
 
 At each indicated cleric level, add the listed spells to your spells prepared.
 
@@ -55,16 +60,16 @@ At each indicated cleric level, add the listed spells to your spells prepared.
 
 | Cleric Level | Spells |
 |--------------|--------|
-| 1st | [identify](identify.md), [searing smite](searing-smite.md) |
-| 3rd | [heat metal](heat-metal.md), [magic weapon](magic-weapon.md) |
-| 5th | [elemental weapon](elemental-weapon.md), [protection from energy](protection-from-energy.md) |
-| 7th | [fabricate](fabricate.md), [wall of fire](wall-of-fire.md) |
-| 9th | [animate objects](animate-objects.md), [creation](creation.md) |
+| 1st | [identify](03.PlayerLog&Handouts/Mechanics/CLI/spells/identify.md), [searing smite](03.PlayerLog&Handouts/Mechanics/CLI/spells/searing-smite.md) |
+| 3rd | [heat metal](03.PlayerLog&Handouts/Mechanics/CLI/spells/heat-metal.md), [magic weapon](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-weapon.md) |
+| 5th | [elemental weapon](03.PlayerLog&Handouts/Mechanics/CLI/spells/elemental-weapon.md), [protection from energy](03.PlayerLog&Handouts/Mechanics/CLI/spells/protection-from-energy.md) |
+| 7th | [fabricate](03.PlayerLog&Handouts/Mechanics/CLI/spells/fabricate.md), [wall of fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-fire.md) |
+| 9th | [animate objects](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-objects.md), [creation](03.PlayerLog&Handouts/Mechanics/CLI/spells/creation.md) |
 ^forge-domain-spells
 
 ### Bonus Proficiency (Level 1)
 
-When you choose this domain at 1st level, you gain proficiency with heavy armor and [smith's tools](smiths-tools.md).
+When you choose this domain at 1st level, you gain proficiency with heavy armor and [smith's tools](03.PlayerLog&Handouts/Mechanics/CLI/items/smiths-tools.md).
 
 ### Blessing of the Forge (Level 1)
 
@@ -89,14 +94,14 @@ Starting at 6th level, your mastery of the forge grants you special abilities:
 
 ### Divine Strike (Level 8)
 
-At 8th level, you gain the ability to infuse your weapon strikes with the fiery power of the forge. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra `1d8` fire damage to the target. When you reach 14th level, the extra damage increases to `2d8`.
+At 8th level, you gain the ability to infuse your weapon strikes with the fiery power of the forge. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra `d8` fire damage to the target. When you reach 14th level, the extra damage increases to `2d8`.
 
 ### Blessed Strikes (Level 8)
 _Source: Tasha's Cauldron of Everything p. 30_
 
-*8th-level cleric [optional feature](optional-class-features-tce.md), which replaces the Divine Strike feature*
+*8th-level cleric [optional feature](03.PlayerLog&Handouts/Mechanics/CLI/rules/variant-rules/optional-class-features-tce.md), which replaces the Divine Strike feature*
 
-You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal `1d8` radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.
+You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal `d8` radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.
 
 ### Saint of Forge and Fire (Level 17)
 

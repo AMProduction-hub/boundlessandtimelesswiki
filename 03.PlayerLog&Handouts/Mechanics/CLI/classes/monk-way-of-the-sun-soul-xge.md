@@ -4,10 +4,11 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 - ttrpg-cli/subclass/monk/sun-soul
-aliases: ["Way of the Sun Soul"]
+aliases:
+- Way of the Sun Soul
 ---
 # Way of the Sun Soul
-*[Monk](monk.md): Monastic Tradition*  
+*[Monk](./monk.md): Monastic Tradition*  
 *Source: Xanathar's Guide to Everything p. 35, Sword Coast Adventurer's Guide p. 131*  
 
 > [!tldr] Class and Feature Progression
@@ -42,6 +43,10 @@ aliases: ["Way of the Sun Soul"]
 ^class-progression
 
 
+> [!quote] A quote from Xanathar  
+> 
+> So you have this soul, but you can't see it or touch it. And when you die, this invisible thing leaves your body and goes to a place you can't see. And you people think I'm crazy?
+
 ## Class Features
 
 ### Way of the Sun Soul (Level 3)
@@ -52,15 +57,15 @@ Monks of the Way of the Sun Soul learn to channel their life energy into searing
 
 Starting when you choose this tradition at 3rd level, you can hurl searing bolts of magical radiance.
 
-You gain a new attack option that you can use with the [Attack](actions.md#Attack) action. The special attack is a ranged spell attack with a range of 30 feet. You are proficient with it, and you add your Dexterity modifier to its attack and damage rolls. Its damage is radiant, and its damage die is a `d4`. This die changes as you gain monk levels, as shown in the Martial Arts column of the Monk table.
+You gain a new attack option that you can use with the [Attack](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Attack) action. The special attack is a ranged spell attack with a range of 30 feet. You are proficient with it, and you add your Dexterity modifier to its attack and damage rolls. Its damage is radiant, and its damage die is a `d4`. This die changes as you gain monk levels, as shown in the Martial Arts column of the Monk table.
 
-When you take the [Attack](actions.md#Attack) action on your turn and use this special attack as part of it, you can spend 1 ki point to make the special attack twice as a bonus action. When you gain the Extra Attack feature, this special attack can be used for any of the attacks you make as part of the [Attack](actions.md#Attack) action.
+When you take the [Attack](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Attack) action on your turn and use this special attack as part of it, you can spend 1 ki point to make the special attack twice as a bonus action. When you gain the Extra Attack feature, this special attack can be used for any of the attacks you make as part of the [Attack](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Attack) action.
 
 ### Searing Arc Strike (Level 6)
 
-At 6th level, you gain the ability to channel your ki into searing waves of energy. Immediately after you take the [Attack](actions.md#Attack) action on your turn, you can spend 2 ki points to cast the [burning hands](burning-hands.md) spell as a bonus action.
+At 6th level, you gain the ability to channel your ki into searing waves of energy. Immediately after you take the [Attack](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Attack) action on your turn, you can spend 2 ki points to cast the [burning hands](03.PlayerLog&Handouts/Mechanics/CLI/spells/burning-hands.md) spell as a bonus action.
 
-You can spend additional ki points to cast [burning hands](burning-hands.md) as a higher-level spell. Each additional ki point you spend increases the spell's level by 1. The maximum number of ki points (2 plus any additional points) that you can spend on the spell equals half your monk level.
+You can spend additional ki points to cast [burning hands](03.PlayerLog&Handouts/Mechanics/CLI/spells/burning-hands.md) as a higher-level spell. Each additional ki point you spend increases the spell's level by 1. The maximum number of ki points (2 plus any additional points) that you can spend on the spell equals half your monk level.
 
 ### Searing Sunburst (Level 11)
 

@@ -8,10 +8,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/aberration
 statblock: inline
-aliases: ["Mind Flayer"]
+statblock-link: "#^statblock"
+aliases:
+- Mind Flayer
 ---
-# [Mind Flayer](03 - Player Log & Handouts\Mechanics\CLI\bestiary\aberration/mind-flayer.md)
-*Source: Monster Manual p. 222, Tasha's Cauldron of Everything, Spelljammer Academy, Light of Xaryxis, Sigil and the Outlands*  
+# [Mind Flayer](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\aberration/mind-flayer.md)
+*Source: Monster Manual p. 222, Tales from the Yawning Portal, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Eberron: Rising from the Last War, Infernal Machine Rebuild, Icewind Dale: Rime of the Frostmaiden, Tasha's Cauldron of Everything, Light of Xaryxis, Keys from the Golden Vault*  
 
 Mind flayers, also called illithids, are the scourge of sentient creatures across countless worlds. Psionic tyrants, slavers, and interdimensional voyagers, they are insidious masterminds that harvest entire races for their own twisted ends. Four tentacles snake from their octopus-like heads, flexing in hungry anticipation when sentient creatures come near.
 
@@ -46,68 +48,82 @@ An illithid experiences euphoria as it devours the brain of a humanoid, along wi
 "type": "aberration"
 "alignment": "Lawful Evil"
 "ac": !!int "15"
-"ac_class": "[breastplate](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/items/breastplate.md)"
+"ac_class": "[breastplate](03.PlayerLog&Handouts/Mechanics/CLI/items/breastplate.md)"
 "hp": !!int "71"
 "hit_dice": "13d8 + 13"
+"modifier": !!int "1"
 "stats":
-- !!int "11"
-- !!int "12"
-- !!int "12"
-- !!int "19"
-- !!int "17"
-- !!int "17"
+  - !!int "11"
+  - !!int "12"
+  - !!int "12"
+  - !!int "19"
+  - !!int "17"
+  - !!int "17"
 "speed": "30 ft."
 "saves":
-  "Charisma": !!int "6"
-  "Wisdom": !!int "6"
-  "Intelligence": !!int "7"
+  - "intelligence": "+7"
+  - "wisdom": "+6"
+  - "charisma": "+6"
 "skillsaves":
-  "Deception": !!int "6"
-  "Stealth": !!int "4"
-  "Insight": !!int "6"
-  "Perception": !!int "6"
-  "Arcana": !!int "7"
-  "Persuasion": !!int "6"
+  - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
+    "desc": "+7"
+  - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
+    "desc": "+6"
+  - "name": "[Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight)"
+    "desc": "+6"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+6"
+  - "name": "[Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion)"
+    "desc": "+6"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+4"
 "senses": "darkvision 120 ft., passive Perception 16"
 "languages": "Deep Speech, Undercommon, telepathy 120 ft."
 "cr": "7"
 "traits":
-- "desc": "The mind flayer's innate spellcasting ability is Intelligence (spell save\
-    \ DC 15). It can innately cast the following spells, requiring no components:\n\
-    \nAt will: [detect thoughts](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
-    \ [levitate](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/levitate.md)\n\
-    \n1/day each: [dominate monster](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/dominate-monster.md),\
-    \ [plane shift](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/plane-shift.md)\
-    \ (self only)"
-  "name": "Innate Spellcasting (Psionics)"
-- "desc": "The mind flayer has advantage on saving throws against spells and other\
-    \ magical effects."
-  "name": "Magic Resistance"
+  - "desc": "The mind flayer's innate spellcasting ability is Intelligence (spell\
+      \ save DC 15). It can innately cast the following spells, requiring no components:\n\
+      \nAt will: [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
+      \ [levitate](03.PlayerLog&Handouts/Mechanics/CLI/spells/levitate.md)\n\n1/day\
+      \ each: [dominate monster](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-monster.md),\
+      \ [plane shift](03.PlayerLog&Handouts/Mechanics/CLI/spells/plane-shift.md) (self\
+      \ only)"
+    "name": "Innate Spellcasting (Psionics)"
+  - "desc": "The mind flayer has advantage on saving throws against spells and other\
+      \ magical effects."
+    "name": "Magic Resistance"
 "actions":
-- "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 15\
-    \ (2d10 + 4) psychic damage. If the target is Medium or smaller, it is [grappled](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
-    \ (escape DC 15) and must succeed on a DC 15 Intelligence saving throw or be [stunned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Stunned)\
-    \ until this grapple ends."
-  "name": "Tentacles"
-- "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one [incapacitated](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)\
-    \ humanoid [grappled](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
-    \ by the mind flayer. Hit: The target takes 55 (10d10) piercing damage. If\
-    \ this damage reduces the target to 0 hit points, the mind flayer kills the target\
-    \ by extracting and devouring its brain."
-  "name": "Extract Brain"
-- "desc": "The mind flayer magically emits psychic energy in a 60-foot cone. Each\
-    \ creature in that area must succeed on a DC 15 Intelligence saving throw or take\
-    \ 22 (4d8 + 4) psychic damage and be [stunned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Stunned)\
-    \ for 1 minute. A creature can repeat the saving throw at the end of each of its\
-    \ turns, ending the effect on itself on a success."
-  "name": "Mind Blast (Recharge 5-6)"
+  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit:\
+      \ 15 (2d10 + 4) psychic damage. If the target is Medium or smaller, it is\
+      \ [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
+      \ (escape DC 15) and must succeed on a DC 15 Intelligence saving throw or be\
+      \ [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)\
+      \ until this grapple ends."
+    "name": "Tentacles"
+  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)\
+      \ humanoid [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
+      \ by the mind flayer. Hit: The target takes 55 (10d10) piercing damage.\
+      \ If this damage reduces the target to 0 hit points, the mind flayer kills the\
+      \ target by extracting and devouring its brain."
+    "name": "Extract Brain"
+  - "desc": "The mind flayer magically emits psychic energy in a 60-foot cone. Each\
+      \ creature in that area must succeed on a DC 15 Intelligence saving throw or\
+      \ take 22 (4d8 + 4) psychic damage and be [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)\
+      \ for 1 minute. A creature can repeat the saving throw at the end of each of\
+      \ its turns, ending the effect on itself on a success."
+    "name": "Mind Blast (Recharge 5-6)"
 "source":
-- "MM"
-- "TCE"
-- "SjA"
-- "LoX"
-- "SatO"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/aberration/token/mind-flayer.webp"
+  - "MM"
+  - "TftYP"
+  - "WDH"
+  - "WDMM"
+  - "ERLW"
+  - "IMR"
+  - "IDRotF"
+  - "TCE"
+  - "LoX"
+  - "KftGV"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/token/mind-flayer.webp"
 ```
 ^statblock
 

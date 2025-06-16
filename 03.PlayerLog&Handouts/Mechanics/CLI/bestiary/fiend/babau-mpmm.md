@@ -9,9 +9,11 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/fiend/demon
 statblock: inline
-aliases: ["Babau"]
+statblock-link: "#^statblock"
+aliases:
+- Babau
 ---
-# [Babau](03 - Player Log & Handouts\Mechanics\CLI\bestiary\fiend/babau-mpmm.md)
+# [Babau](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/babau-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 52, Volo's Guide to Monsters p. 136*  
 
 > [!quote] A quote from Mordenkainen  
@@ -32,50 +34,50 @@ A babau demon has the cunning of a devil and the bloodthirstiness of a demon. It
 "ac_class": "natural armor"
 "hp": !!int "82"
 "hit_dice": "11d8 + 33"
+"modifier": !!int "3"
 "stats":
-- !!int "19"
-- !!int "16"
-- !!int "16"
-- !!int "11"
-- !!int "12"
-- !!int "13"
+  - !!int "19"
+  - !!int "16"
+  - !!int "16"
+  - !!int "11"
+  - !!int "12"
+  - !!int "13"
 "speed": "40 ft."
 "skillsaves":
-  "Stealth": !!int "5"
-  "Perception": !!int "5"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+5"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+5"
 "damage_resistances": "cold; fire; lightning; bludgeoning, piercing, slashing from\
   \ nonmagical attacks"
 "damage_immunities": "poison"
-"condition_immunities": "[poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "darkvision 120 ft., passive Perception 15"
 "languages": "Abyssal"
 "cr": "4"
-"traits":
-- "desc": "The babau casts one of the following spells, requiring no material components\
-    \ and using Wisdom as the spellcasting ability (spell save DC 11):\n\nAt will:\
-    \ [darkness](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/darkness.md),\
-    \ [dispel magic](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/dispel-magic.md),\
-    \ [fear](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/fear.md), [heat\
-    \ metal](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/heat-metal.md),\
-    \ [levitate](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/levitate.md)"
-  "name": "Spellcasting"
 "actions":
-- "desc": "The babau makes two Claw attacks. It can replace one attack with a use\
-    \ of Spellcasting or Weakening Gaze."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d4\
-    \ + 4) slashing damage plus 2 (1d4) acid damage."
-  "name": "Claw"
-- "desc": "The babau targets one creature that it can see within 20 feet of it. The\
-    \ target must make a DC 13 Constitution saving throw. On a failed save, the target\
-    \ deals only half damage with weapon attacks that use Strength for 1 minute. The\
-    \ target can repeat the saving throw at the end of each of its turns, ending the\
-    \ effect on itself on a success."
-  "name": "Weakening Gaze"
+  - "desc": "The babau makes two Claw attacks. It can replace one attack with a use\
+      \ of Spellcasting or Weakening Gaze."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6\
+      \ (1d4 + 4) slashing damage plus 2 (d4) acid damage."
+    "name": "Claw"
+  - "desc": "The babau targets one creature that it can see within 20 feet of it.\
+      \ The target must make a DC 13 Constitution saving throw. On a failed save,\
+      \ the target deals only half damage with weapon attacks that use Strength for\
+      \ 1 minute. The target can repeat the saving throw at the end of each of its\
+      \ turns, ending the effect on itself on a success."
+    "name": "Weakening Gaze"
+  - "desc": "The babau casts one of the following spells, requiring no material components\
+      \ and using Wisdom as the spellcasting ability (spell save DC 11):\n\nAt will:\
+      \ [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md), [dispel\
+      \ magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md), [fear](03.PlayerLog&Handouts/Mechanics/CLI/spells/fear.md),\
+      \ [heat metal](03.PlayerLog&Handouts/Mechanics/CLI/spells/heat-metal.md), [levitate](03.PlayerLog&Handouts/Mechanics/CLI/spells/levitate.md)"
+    "name": "Spellcasting"
 "source":
-- "MPMM"
-- "VGM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/fiend/token/babau-mpmm.webp"
+  - "MPMM"
+  - "VGM"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/token/babau-mpmm.webp"
 ```
 ^statblock
 

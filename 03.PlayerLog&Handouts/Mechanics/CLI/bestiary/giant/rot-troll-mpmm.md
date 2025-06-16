@@ -11,9 +11,11 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/giant
 statblock: inline
-aliases: ["Rot Troll"]
+statblock-link: "#^statblock"
+aliases:
+- Rot Troll
 ---
-# [Rot Troll](03 - Player Log & Handouts\Mechanics\CLI\bestiary\giant/rot-troll-mpmm.md)
+# [Rot Troll](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\giant/rot-troll-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 247, Mordenkainen's Tome of Foes p. 244*  
 
 A troll infused with waves of necrotic energy as it regenerates can develop a symbiotic relationship with that deathly power. The troll's body wither and the flesh falls away from the body as quickly, as it forms. Eventually a rot troll becomes unable to regenerate, though the troll still heals normally. The creature courses with necrotic energy; simply standing near a rot troll exposes other creatures to lethal emanations.
@@ -37,38 +39,40 @@ Vaprak's troll worshipers believe this god devours the souls of those who have b
 "ac_class": "natural armor"
 "hp": !!int "138"
 "hit_dice": "12d10 + 72"
+"modifier": !!int "1"
 "stats":
-- !!int "18"
-- !!int "13"
-- !!int "22"
-- !!int "5"
-- !!int "8"
-- !!int "4"
+  - !!int "18"
+  - !!int "13"
+  - !!int "22"
+  - !!int "5"
+  - !!int "8"
+  - !!int "4"
 "speed": "30 ft."
 "skillsaves":
-  "Perception": !!int "3"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+3"
 "damage_immunities": "necrotic"
 "senses": "darkvision 60 ft., passive Perception 13"
 "languages": "Giant"
 "cr": "9"
 "traits":
-- "desc": "At the end of each of the troll's turns, each creature within 5 feet of\
-    \ it takes 11 (2d10) necrotic damage, unless the troll has taken acid or fire\
-    \ damage since the end of its last turn."
-  "name": "Rancid Degeneration"
+  - "desc": "At the end of each of the troll's turns, each creature within 5 feet\
+      \ of it takes 11 (2d10) necrotic damage, unless the troll has taken acid or\
+      \ fire damage since the end of its last turn."
+    "name": "Rancid Degeneration"
 "actions":
-- "desc": "The troll makes one Bite attack and two Claw attacks."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 9 (1d10\
-    \ + 4) piercing damage plus 16 (3d10) necrotic damage."
-  "name": "Bite"
-- "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 11\
-    \ (2d6 + 4) slashing damage plus 7 (2d6) necrotic damage."
-  "name": "Claws"
+  - "desc": "The troll makes one Bite attack and two Claw attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 9\
+      \ (1d10 + 4) piercing damage plus 16 (3d10) necrotic damage."
+    "name": "Bite"
+  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 11\
+      \ (2d6 + 4) slashing damage plus 7 (2d6) necrotic damage."
+    "name": "Claws"
 "source":
-- "MPMM"
-- "MTF"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/giant/token/rot-troll-mpmm.webp"
+  - "MPMM"
+  - "MTF"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/token/rot-troll-mpmm.webp"
 ```
 ^statblock
 

@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
-aliases: ["Character Races"]
+aliases:
+- Character Races
 ---
 # Character Races
 *Source: Volo's Guide to Monsters, p. 103* 
@@ -20,24 +21,24 @@ At the end of the chapter is a section that you can use to determine the height 
 
 If you're the DM, including any of these races in your campaign is a storytelling opportunity, a chance for you to decide the roles that different peoples play in the tales you weave. You might decide that a race in this chapter is common in your world, that only a few members of it still live, or that it doesn't exist at all. Whatever you decide about the races, consider how they can enhance your stories.
 
-- [Aasimar (Fallen)](aasimar-mpmm.md)  
-- [Aasimar (Protector)](aasimar-mpmm.md)  
-- [Aasimar (Scourge)](aasimar-mpmm.md)  
-- [Bugbear](bugbear-mpmm.md)  
-- [Firbolg](firbolg-mpmm.md)  
-- [Goblin](goblin-mpmm.md)  
-- [Goliath](goliath-mpmm.md)  
-- [Hobgoblin](hobgoblin-mpmm.md)  
-- [Kenku](kenku-mpmm.md)  
-- [Kobold](kobold-mpmm.md)  
-- [Lizardfolk](lizardfolk-mpmm.md)  
-- [Orc](orc-mpmm.md)  
-- [Tabaxi](tabaxi-mpmm.md)  
-- [Triton](triton-mpmm.md)  
-- [Yuan-ti Pureblood](yuan-ti-mpmm.md)  
+- [Aasimar (Fallen)](03.PlayerLog&Handouts/Mechanics/CLI/races/aasimar-mpmm.md)  
+- [Aasimar (Protector)](03.PlayerLog&Handouts/Mechanics/CLI/races/aasimar-mpmm.md)  
+- [Aasimar (Scourge)](03.PlayerLog&Handouts/Mechanics/CLI/races/aasimar-mpmm.md)  
+- [Bugbear](03.PlayerLog&Handouts/Mechanics/CLI/races/bugbear-mpmm.md)  
+- [Firbolg](03.PlayerLog&Handouts/Mechanics/CLI/races/firbolg-mpmm.md)  
+- [Goblin](03.PlayerLog&Handouts/Mechanics/CLI/races/goblin-mpmm.md)  
+- [Goliath](03.PlayerLog&Handouts/Mechanics/CLI/races/goliath-mpmm.md)  
+- [Hobgoblin](03.PlayerLog&Handouts/Mechanics/CLI/races/hobgoblin-mpmm.md)  
+- [Kenku](03.PlayerLog&Handouts/Mechanics/CLI/races/kenku-mpmm.md)  
+- [Kobold](03.PlayerLog&Handouts/Mechanics/CLI/races/kobold-mpmm.md)  
+- [Lizardfolk](03.PlayerLog&Handouts/Mechanics/CLI/races/lizardfolk-mpmm.md)  
+- [Orc](03.PlayerLog&Handouts/Mechanics/CLI/races/orc-mpmm.md)  
+- [Tabaxi](03.PlayerLog&Handouts/Mechanics/CLI/races/tabaxi-mpmm.md)  
+- [Triton](03.PlayerLog&Handouts/Mechanics/CLI/races/triton-mpmm.md)  
+- [Yuan-ti Pureblood](03.PlayerLog&Handouts/Mechanics/CLI/races/yuan-ti-mpmm.md)  
 
 ## Height and Weight
 
 You may roll for your character's height and weight on the Random Height and Weight table. The roll in the Height Modifier column adds a number (in inches) to the character's base height. To get a weight, multiply the number you rolled for height by the roll in the Weight Modifier column and add the result (in pounds) to the base weight.
 
-![Height and Weight](height-and-weight-vgm.md)
+![Height and Weight](03.PlayerLog&Handouts/Mechanics/CLI/tables/height-and-weight-vgm.md)

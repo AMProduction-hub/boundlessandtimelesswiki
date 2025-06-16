@@ -14,6 +14,6 @@ aliases:
 
 
 
-This potion's container looks empty but feels as though it holds liquid. When you drink it, you become [invisible](conditions.md#Invisible) for 1 hour. Anything you wear or carry is [invisible](conditions.md#Invisible) with you. The effect ends early if you attack or cast a spell.
+This potion's container looks empty but feels as though it holds liquid. When you drink it, you become [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible) for 1 hour. Anything you wear or carry is [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible) with you. The effect ends early if you attack or cast a spell.
 
 *Source: Dungeon Master's Guide p. 188. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*

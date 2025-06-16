@@ -4,10 +4,11 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/subclass/wizard/conjuration
-aliases: ["School of Conjuration"]
+aliases:
+- School of Conjuration
 ---
 # School of Conjuration
-*[Wizard](wizard.md): Arcane Tradition*  
+*[Wizard](./wizard.md): Arcane Tradition*  
 *Source: Player's Handbook p. 116*  
 
 > [!tldr] Class and Feature Progression
@@ -66,7 +67,7 @@ Once you use this feature, you can't use it again until you finish a long rest o
 
 ### Focused Conjuration (Level 10)
 
-Beginning at 10th level, while you are [concentrating](conditions.md#Concentration) on a conjuration spell, your [concentration](conditions.md#Concentration) can't be broken as a result of taking damage.
+Beginning at 10th level, while you are [concentrating](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Concentration) on a conjuration spell, your [concentration](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Concentration) can't be broken as a result of taking damage.
 
 ### Durable Summons (Level 14)
 

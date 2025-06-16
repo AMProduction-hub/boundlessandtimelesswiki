@@ -14,7 +14,7 @@ aliases:
 
 
 - **Damage**: 1d10 piercing
-- **Properties**: [Heavy](item-properties.md#Heavy), [Reach](item-properties.md#Reach), [Two-Handed](item-properties.md#Two-Handed)
+- **Properties**: [Heavy](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Heavy), [Reach](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Reach), [Two-Handed](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Two-Handed)
 - **Cost**: 5 gp
 - **Weight**: 18.0 lbs.
 

@@ -7,9 +7,11 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/humanoid/human
 statblock: inline
-aliases: ["Iron Consul"]
+statblock-link: "#^statblock"
+aliases:
+- Iron Consul
 ---
-# [Iron Consul](03 - Player Log & Handouts\Mechanics\CLI\bestiary\humanoid/iron-consul-bgdia.md)
+# [Iron Consul](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/iron-consul-bgdia.md)
 *Source: Baldur's Gate: Descent Into Avernus p. 232*  
 
 Bane's devoted followers are warriors who seek to rule through martial strength and intimidation, cruel tyrants who use threats and gifts as needed to ensure loyalty. They enslave those too weak to resist them and shower the strong with gifts and promises of power to turn them into loyal vassals.
@@ -33,44 +35,47 @@ Bane's cultists operate according to strict military hierarchies. The lowest ran
 "subtype": "human"
 "alignment": "Lawful Evil"
 "ac": !!int "16"
-"ac_class": "[chain mail](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/items/chain-mail.md)"
+"ac_class": "[chain mail](03.PlayerLog&Handouts/Mechanics/CLI/items/chain-mail.md)"
 "hp": !!int "45"
 "hit_dice": "6d8 + 18"
+"modifier": !!int "0"
 "stats":
-- !!int "17"
-- !!int "11"
-- !!int "16"
-- !!int "12"
-- !!int "15"
-- !!int "16"
+  - !!int "17"
+  - !!int "11"
+  - !!int "16"
+  - !!int "12"
+  - !!int "15"
+  - !!int "16"
 "speed": "30 ft."
 "saves":
-  "Wisdom": !!int "4"
+  - "wisdom": "+4"
 "skillsaves":
-  "Intimidation": !!int "5"
-  "Perception": !!int "4"
-"condition_immunities": "[frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
+  - "name": "[Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation)"
+    "desc": "+5"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+4"
+"condition_immunities": "[frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
 "senses": "passive Perception 14"
 "languages": "Common"
 "cr": "2"
 "traits":
-- "desc": "The iron consul has advantage on all ability checks and saving throws made\
-    \ during combat."
-  "name": "Tactical Discipline"
+  - "desc": "The iron consul has advantage on all ability checks and saving throws\
+      \ made during combat."
+    "name": "Tactical Discipline"
 "actions":
-- "desc": "The iron consul makes one attack with its spear and can use its Voice of\
-    \ Command ability."
-  "name": "Multiattack"
-- "desc": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60\
-    \ ft., one target. Hit: 6 (1d6 + 3) piercing damage, or 7 (1d8 + 3) piercing\
-    \ damage when used with two hands to make a melee attack."
-  "name": "Spear"
-- "desc": "The iron consul selects up to two allies within 90 feet of it that can\
-    \ hear its commands. Each ally can immediately use its reaction to make one melee\
-    \ attack."
-  "name": "Voice of Command"
+  - "desc": "The iron consul makes one attack with its spear and can use its Voice\
+      \ of Command ability."
+    "name": "Multiattack"
+  - "desc": "Melee  or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. Hit: 6 (1d6 + 3) piercing damage, or 7 (1d8 + 3) piercing\
+      \ damage when used with two hands to make a melee attack."
+    "name": "Spear"
+  - "desc": "The iron consul selects up to two allies within 90 feet of it that can\
+      \ hear its commands. Each ally can immediately use its reaction to make one\
+      \ melee attack."
+    "name": "Voice of Command"
 "source":
-- "BGDIA"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/humanoid/token/iron-consul-bgdia.webp"
+  - "BGDIA"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/iron-consul-bgdia.webp"
 ```
 ^statblock

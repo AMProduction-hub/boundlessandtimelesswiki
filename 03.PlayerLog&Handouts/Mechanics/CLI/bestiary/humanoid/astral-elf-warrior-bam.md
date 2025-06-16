@@ -7,9 +7,11 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/humanoid
 statblock: inline
-aliases: ["Astral Elf Warrior"]
+statblock-link: "#^statblock"
+aliases:
+- Astral Elf Warrior
 ---
-# [Astral Elf Warrior](03 - Player Log & Handouts\Mechanics\CLI\bestiary\humanoid/astral-elf-warrior-bam.md)
+# [Astral Elf Warrior](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/astral-elf-warrior-bam.md)
 *Source: Boo's Astral Menagerie p. 13, Light of Xaryxis*  
 
 Astral elf warriors operate elven spelljamming ships and defend elven strongholds throughout the Astral Plane.
@@ -37,45 +39,48 @@ Many astral elves are thousands (in some cases tens of thousands) of years old. 
 "type": "humanoid"
 "alignment": "Any alignment"
 "ac": !!int "16"
-"ac_class": "[breastplate](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/items/breastplate.md)"
+"ac_class": "[breastplate](03.PlayerLog&Handouts/Mechanics/CLI/items/breastplate.md)"
 "hp": !!int "58"
 "hit_dice": "13d8"
+"modifier": !!int "2"
 "stats":
-- !!int "12"
-- !!int "15"
-- !!int "10"
-- !!int "16"
-- !!int "16"
-- !!int "15"
+  - !!int "12"
+  - !!int "15"
+  - !!int "10"
+  - !!int "16"
+  - !!int "16"
+  - !!int "15"
 "speed": "30 ft."
 "saves":
-  "Dexterity": !!int "4"
-  "Wisdom": !!int "5"
+  - "dexterity": "+4"
+  - "wisdom": "+5"
 "skillsaves":
-  "Intimidation": !!int "4"
-  "Survival": !!int "5"
+  - "name": "[Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation)"
+    "desc": "+4"
+  - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
+    "desc": "+5"
 "senses": "darkvision 60 ft., passive Perception 13"
 "languages": "Celestial, Common, Elvish"
 "cr": "3"
 "traits":
-- "desc": "The elf has advantage on saving throws it makes to avoid or end the [charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
-    \ condition on itself, and magic can't put it to sleep."
-  "name": "Fey Ancestry"
-- "desc": "The elf doesn't require sleep."
-  "name": "Unusual Nature"
+  - "desc": "The elf has advantage on saving throws it makes to avoid or end the [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)\
+      \ condition on itself, and magic can't put it to sleep."
+    "name": "Fey Ancestry"
+  - "desc": "The elf doesn't require sleep."
+    "name": "Unusual Nature"
 "actions":
-- "desc": "The elf makes two Longsword or Longbow attacks."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d8\
-    \ + 1) slashing damage, or 6 (1d10 + 1) slashing damage when used with two\
-    \ hands, plus 10 (3d6) radiant damage."
-  "name": "Longsword"
-- "desc": "Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit:\
-    \ 6 (1d8 + 2) piercing damage plus 10 (3d6) radiant damage."
-  "name": "Longbow"
+  - "desc": "The elf makes two Longsword or Longbow attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5\
+      \ (1d8 + 1) slashing damage, or 6 (1d10 + 1) slashing damage when used with\
+      \ two hands, plus 10 (3d6) radiant damage."
+    "name": "Longsword"
+  - "desc": "Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit:\
+      \ 6 (1d8 + 2) piercing damage plus 10 (3d6) radiant damage."
+    "name": "Longbow"
 "source":
-- "BAM"
-- "LoX"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/humanoid/token/astral-elf-warrior-bam.webp"
+  - "BAM"
+  - "LoX"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/astral-elf-warrior-bam.webp"
 ```
 ^statblock

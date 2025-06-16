@@ -4,7 +4,8 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/class/warlock
 - ttrpg-cli/compendium/src/5e/phb
-aliases: ["Warlock"]
+aliases:
+- Warlock
 ---
 # Warlock
 *Source: Player's Handbook p. 105. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
@@ -14,7 +15,7 @@ aliases: ["Warlock"]
 > <table class="class-progression">
 > <thead>
 > <tr><th colspan='8'></th></tr>
-> <tr class="class-progression"><th class"level">Level</th><th class"pb">PB</th><th class"feature">Features</th><th class="value">Cantrips Known</th><th class="value">Spells Known</th><th class="value">Spell Slots</th><th class="value">Slot Level</th><th class="value"><a href="03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/lists/list-optfeaturetype-ei.md">Invocations Known</a></th></tr>
+> <tr class="class-progression"><th class"level">Level</th><th class"pb">PB</th><th class"feature">Features</th><th class="value">Cantrips Known</th><th class="value">Spells Known</th><th class="value">Spell Slots</th><th class="value">Slot Level</th><th class="value"><a href="03.PlayerLog&Handouts/Mechanics/CLI/lists/list-optfeaturetype-ei.md">Invocations Known</a></th></tr>
 > </thead><tbody>
 > <tr class="class-progression"><td class"level">1st</td><td class"pb">+2</td><td class"feature"><a href='#Pact Magic (Level 1)' class='internal-link'>Pact Magic</a>, <a href='#Otherworldly Patron (Level 1)' class='internal-link'>Otherworldly Patron</a></td><td class="value">2</td><td class="value">2</td><td class="value">1</td><td class="value">1st</td><td class="value">⏤</td></tr>
 > <tr class="class-progression"><td class"level">2nd</td><td class"pb">+2</td><td class"feature"><a href='#Eldritch Invocations (Level 2)' class='internal-link'>Eldritch Invocations</a></td><td class="value">2</td><td class="value">3</td><td class="value">2</td><td class="value">1st</td><td class="value">2</td></tr>
@@ -49,17 +50,17 @@ aliases: ["Warlock"]
 ## Starting Warlock
 
 - **Saving Throws**: Charisma, Wisdom
-- **Armor**: [light armor](item-types.md#Light%20Armor)
+- **Armor**: [light armor](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-types.md#Light%20Armor)
 - **Weapons**: simple weapons
 - **Tools**: none
 - **Skills**: choose 2 from [Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana), [Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception), [History](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#History), [Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation), [Investigation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Investigation), [Nature](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Nature), and [Religion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Religion)
 
 You start with the following items, plus anything provided by your background.
 
-- (a) a [light crossbow](light-crossbow.md) and [20 bolts](crossbow-bolts-20.md) or (b) any simple weapon
-- (a) a [component pouch](component-pouch.md) or (b) an [arcane focus](arcane-focus.md)
-- (a) a [scholar's pack](scholars-pack.md) or (b) a [dungeoneer's pack](dungeoneers-pack.md)
-- [Leather armor](leather-armor.md), any simple weapon, and two [daggers](dagger.md)
+- (a) a [light crossbow](03.PlayerLog&Handouts/Mechanics/CLI/items/light-crossbow.md) and [20 bolts](03.PlayerLog&Handouts/Mechanics/CLI/items/crossbow-bolts-20.md) or (b) any simple weapon
+- (a) a [component pouch](03.PlayerLog&Handouts/Mechanics/CLI/items/component-pouch.md) or (b) an [arcane focus](03.PlayerLog&Handouts/Mechanics/CLI/items/arcane-focus.md)
+- (a) a [scholar's pack](03.PlayerLog&Handouts/Mechanics/CLI/items/scholars-pack.md) or (b) a [dungeoneer's pack](03.PlayerLog&Handouts/Mechanics/CLI/items/dungeoneers-pack.md)
+- [Leather armor](03.PlayerLog&Handouts/Mechanics/CLI/items/leather-armor.md), any simple weapon, and two [daggers](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md)
 
 Alternatively, you may start with 4d4 × 10 gp to buy your own equipment.
 
@@ -69,7 +70,7 @@ Alternatively, you may start with 4d4 × 10 gp to buy your own equipment.
 
 When you gain a level in a class other than your first, you gain only some of that class's starting proficiencies.
 
-- **Armor**: [light armor](item-types.md#Light%20Armor)
+- **Armor**: [light armor](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-types.md#Light%20Armor)
 - **Weapons**: simple weapons
 
 ## Warlock
@@ -108,7 +109,7 @@ How does your patron communicate with you? If you have a familiar, it might occa
 
 #### Quick Build
 
-You can make a warlock quickly by following these suggestions. First, Charisma should be your highest ability score, followed by Constitution. Second, choose the [charlatan](charlatan.md) background. Third, choose the [eldritch blast](eldritch-blast.md) and [chill touch](chill-touch.md) cantrips, along with the 1st-level spells [charm person](charm-person.md) and [witch bolt](witch-bolt.md).
+You can make a warlock quickly by following these suggestions. First, Charisma should be your highest ability score, followed by Constitution. Second, choose the [charlatan](03.PlayerLog&Handouts/Mechanics/CLI/backgrounds/charlatan.md) background. Third, choose the [eldritch blast](03.PlayerLog&Handouts/Mechanics/CLI/spells/eldritch-blast.md) and [chill touch](03.PlayerLog&Handouts/Mechanics/CLI/spells/chill-touch.md) cantrips, along with the 1st-level spells [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md) and [witch bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/witch-bolt.md).
 
 > [!quote] A quote from Xarren, herald of Acamar  
 > 
@@ -119,6 +120,10 @@ Warlocks are finders and keepers of secrets. They push at the edge of our unders
 Warlocks are defined by two elements that work in concert to forge their path into this class. The first element is the event or circumstances that led to a warlock's entering into a pact with a planar entity. The second one is the nature of the entity a warlock is bound to. Unlike clerics, who typically embrace a deity and that god's ethos, a warlock might have no love for a patron, or vice versa.
 
 The sections that follow provide ways to embellish a warlock character that could generate some intriguing story and roleplaying opportunities.
+
+> [!quote] A quote from Xanathar  
+> 
+> So you got your powers by making a contract with something? Is it in writing, perchance? Well, never mind. Just tell me this: Can I get your powers by eating you?
 
 ## Patron's Attitude
 _Source: Xanathar's Guide to Everything_
@@ -197,7 +202,7 @@ You know two cantrips of your choice from the warlock spell list. You learn addi
 
 The Warlock table shows how many spell slots you have to cast your warlock spells of 1st through 5th level. The table also shows what the level of those slots is; all of your spell slots are the same level. To cast one of your warlock spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.
 
-For example, when you are 5th level, you have two 3rd-level spell slots. To cast the 1st-level spell [witch bolt](witch-bolt.md), you must spend one of those slots, and you cast it as a 3rd-level spell.
+For example, when you are 5th level, you have two 3rd-level spell slots. To cast the 1st-level spell [witch bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/witch-bolt.md), you must spend one of those slots, and you cast it as a 3rd-level spell.
 
 #### Spells Known of 1st Level and Higher
 
@@ -211,13 +216,13 @@ Additionally, when you gain a level in this class, you can choose one of the war
 
 Charisma is your spellcasting ability for your warlock spells, so you use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a warlock spell you cast and when making an attack roll with one.
 
-<span class='abilityDc'>**Spell save DC**: 8 + your proficiency bonus + your Charisma modifier</span>
+<span class='abilityDc'>**Spell save DC**: your proficiency bonus + your Charisma</span>
 
-<span class='abilityAttackMod'>**Spell attack modifier**: your proficiency bonus + your Charisma modifier</span>
+<span class='abilityAttackMod'>**Spell attack modifier**: your proficiency bonus + your Charisma</span>
 
 #### Spellcasting Focus
 
-You can use an [arcane focus](arcane-focus.md) as a spellcasting focus for your warlock spells.
+You can use an [arcane focus](03.PlayerLog&Handouts/Mechanics/CLI/items/arcane-focus.md) as a spellcasting focus for your warlock spells.
 
 ### Otherworldly Patron (Level 1)
 
@@ -227,7 +232,7 @@ At 1st level, you have struck a bargain with an otherworldly being chosen from t
 
 In your study of occult lore, you have unearthed eldritch invocations, fragments of forbidden knowledge that imbue you with an abiding magical ability.
 
-At 2nd level, you gain two eldritch invocations of your choice. A list of the available options can be found on the [Optional Features](list-optfeaturetype-ei.md) page. When you gain certain warlock levels, you gain additional invocations of your choice, as shown in the Invocations Known column of the Warlock table.
+At 2nd level, you gain two eldritch invocations of your choice. A list of the available options can be found on the [Optional Features](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-optfeaturetype-ei.md) page. When you gain certain warlock levels, you gain additional invocations of your choice, as shown in the Invocations Known column of the Warlock table.
 
 Additionally, when you gain a level in this class, you can choose one of the invocations you know and replace it with another invocation that you could learn at that level.
 
@@ -237,9 +242,9 @@ If an eldritch invocation has prerequisites, you must meet them to learn it. You
 
 At 3rd level, your otherworldly patron bestows a gift upon you for your loyal service. You gain one of the following features of your choice.
 
-- [Pact of the Chain](pact-of-the-chain.md)  
-- [Pact of the Blade](pact-of-the-blade.md)  
-- [Pact of the Tome](pact-of-the-tome.md)  
+- [Pact of the Chain](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/pact-of-the-chain.md)  
+- [Pact of the Blade](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/pact-of-the-blade.md)  
+- [Pact of the Tome](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/pact-of-the-tome.md)  
 
 ### Ability Score Improvement (Level 4)
 
@@ -250,7 +255,7 @@ If your DM allows the use of feats, you may instead take a feat.
 ### Eldritch Versatility (Level 4)
 _Source: Tasha's Cauldron of Everything p. 70_
 
-*4th-level warlock [optional feature](optional-class-features-tce.md)*
+*4th-level warlock [optional feature](03.PlayerLog&Handouts/Mechanics/CLI/rules/variant-rules/optional-class-features-tce.md)*
 
 Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, representing a change of focus in your occult studies:
 
@@ -329,9 +334,9 @@ At 20th level, you can draw on your inner reserve of mystical power while entrea
 ## Optional Features
 
 > [!example]- Optional Features: Eldritch Invocation
-> ![Eldritch Invocation](list-optfeaturetype-ei.md#Eldritch%20Invocation)
+> ![Eldritch Invocation](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-optfeaturetype-ei.md#Eldritch%20Invocation)
 ^list-optfeature-ei
 
 > [!example]- Optional Features: Pact Boon
-> ![Pact Boon](list-optfeaturetype-pb.md#Pact%20Boon)
+> ![Pact Boon](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-optfeaturetype-pb.md#Pact%20Boon)
 ^list-optfeature-pb

@@ -3,12 +3,13 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
-aliases: ["Bestiary"]
+aliases:
+- Bestiary
 ---
 # Bestiary
 *Source: Mordenkainen Presents: Monsters of the Multiverse, p. 37* 
 
-![](02-001-ch2-splash.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/mordenkainen-presents-monsters-of-the-multiverse/img/02-001-ch2-splash.webp#center)
 
 This bestiary provides game statistics and lore for more than 250 monsters, which are suitable for any D&D campaign. The chapter includes old favorites from past editions of the game as well as creatures created for the current edition.
 
@@ -24,523 +25,523 @@ Finally, if a stat block contains the name of a class in the monster's name or i
 > 
 > My friend Mordenkainen constantly fights monsters and makes notes about them. I love notes as much as the next wizard, but fighting gets old. Why not sit down and have a drink with the monster? I've learned the most delicious secrets from my monstrous drinking companions. The other monsters? I disintegrated them.
 
-[Black Abishai](black-abishai-mpmm.md)
+[Black Abishai](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/black-abishai-mpmm.md)
 
-[Blue Abishai](blue-abishai-mpmm.md)
+[Blue Abishai](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/blue-abishai-mpmm.md)
 
-[Green Abishai](green-abishai-mpmm.md)
+[Green Abishai](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/green-abishai-mpmm.md)
 
-[Red Abishai](red-abishai-mpmm.md)
+[Red Abishai](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/red-abishai-mpmm.md)
 
-[White Abishai](white-abishai-mpmm.md)
+[White Abishai](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/white-abishai-mpmm.md)
 
-[Alhoon](alhoon-mpmm.md)
+[Alhoon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/alhoon-mpmm.md)
 
-[Alkilith](alkilith-mpmm.md)
+[Alkilith](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/alkilith-mpmm.md)
 
-[Allip](allip-mpmm.md)
+[Allip](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/allip-mpmm.md)
 
-[Amnizu](amnizu-mpmm.md)
+[Amnizu](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/amnizu-mpmm.md)
 
-[Annis Hag](annis-hag-mpmm.md)
+[Annis Hag](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/annis-hag-mpmm.md)
 
-[Archdruid](archdruid-mpmm.md)
+[Archdruid](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/archdruid-mpmm.md)
 
-[Archer](archer-mpmm.md)
+[Archer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/archer-mpmm.md)
 
-[Armanite](armanite-mpmm.md)
+[Armanite](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/armanite-mpmm.md)
 
-[Astral Dreadnought](astral-dreadnought-mpmm.md)
+[Astral Dreadnought](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/astral-dreadnought-mpmm.md)
 
-[Babau](babau-mpmm.md)
+[Babau](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/babau-mpmm.md)
 
-[Bael](bael-mpmm.md)
+[Bael](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/bael-mpmm.md)
 
 [Balhannoth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/balhannoth-mpmm.md)
 
-[Banderhobb](banderhobb-mpmm.md)
+[Banderhobb](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/banderhobb-mpmm.md)
 
 [Baphomet](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/baphomet-mpmm.md)
 
-[Bard](bard-mpmm.md)
+[Bard](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bard-mpmm.md)
 
-[Barghest](barghest-mpmm.md)
+[Barghest](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/barghest-mpmm.md)
 
-[Berbalang](berbalang-mpmm.md)
+[Berbalang](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/berbalang-mpmm.md)
 
-[Bheur Hag](bheur-hag-mpmm.md)
+[Bheur Hag](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/bheur-hag-mpmm.md)
 
-[Blackguard](blackguard-mpmm.md)
+[Blackguard](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/blackguard-mpmm.md)
 
-[Bodak](bodak-mpmm.md)
+[Bodak](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/bodak-mpmm.md)
 
-[Boggle](boggle-mpmm.md)
+[Boggle](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/boggle-mpmm.md)
 
-[Boneclaw](boneclaw-mpmm.md)
+[Boneclaw](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/boneclaw-mpmm.md)
 
-[Bulezau](bulezau-mpmm.md)
+[Bulezau](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/bulezau-mpmm.md)
 
-[Cadaver Collector](cadaver-collector-mpmm.md)
+[Cadaver Collector](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/cadaver-collector-mpmm.md)
 
-[Canoloth](canoloth-mpmm.md)
+[Canoloth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/canoloth-mpmm.md)
 
-[Catoblepas](catoblepas-mpmm.md)
+[Catoblepas](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/catoblepas-mpmm.md)
 
-[Aurochs](aurochs-mpmm.md)
+[Aurochs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/aurochs-mpmm.md)
 
-[Deep Rothé](deep-rothe-mpmm.md)
+[Deep Rothé](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/deep-rothe-mpmm.md)
 
-[Ox](ox-mpmm.md)
+[Ox](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/ox-mpmm.md)
 
-[Stench Kow](stench-kow-mpmm.md)
+[Stench Kow](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/stench-kow-mpmm.md)
 
-[Cave Fisher](cave-fisher-mpmm.md)
+[Cave Fisher](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/cave-fisher-mpmm.md)
 
-[Champion](champion-mpmm.md)
+[Champion](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/champion-mpmm.md)
 
-[Chitine](chitine-mpmm.md)
+[Chitine](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/chitine-mpmm.md)
 
-[Choker](choker-mpmm.md)
+[Choker](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/choker-mpmm.md)
 
-[Choldrith](choldrith-mpmm.md)
+[Choldrith](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/choldrith-mpmm.md)
 
-[Clockwork Bronze Scout](clockwork-bronze-scout-mpmm.md)
+[Clockwork Bronze Scout](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/clockwork-bronze-scout-mpmm.md)
 
-[Clockwork Iron Cobra](clockwork-iron-cobra-mpmm.md)
+[Clockwork Iron Cobra](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/clockwork-iron-cobra-mpmm.md)
 
-[Clockwork Oaken Bolter](clockwork-oaken-bolter-mpmm.md)
+[Clockwork Oaken Bolter](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/clockwork-oaken-bolter-mpmm.md)
 
-[Clockwork Stone Defender](clockwork-stone-defender-mpmm.md)
+[Clockwork Stone Defender](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/clockwork-stone-defender-mpmm.md)
 
-[Cloud Giant Smiling One](cloud-giant-smiling-one-mpmm.md)
+[Cloud Giant Smiling One](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/cloud-giant-smiling-one-mpmm.md)
 
-[Corpse Flower](corpse-flower-mpmm.md)
+[Corpse Flower](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/corpse-flower-mpmm.md)
 
-[Cranium Rat](cranium-rat-mpmm.md)
+[Cranium Rat](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/cranium-rat-mpmm.md)
 
-[Swarm of Cranium Rats](swarm-of-cranium-rats-mpmm.md)
+[Swarm of Cranium Rats](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/swarm-of-cranium-rats-mpmm.md)
 
-[Darkling](darkling-mpmm.md)
+[Darkling](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/darkling-mpmm.md)
 
-[Darkling Elder](darkling-elder-mpmm.md)
+[Darkling Elder](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/darkling-elder-mpmm.md)
 
-[Death Kiss](death-kiss-mpmm.md)
+[Death Kiss](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/death-kiss-mpmm.md)
 
-[Deathlock](deathlock-mpmm.md)
+[Deathlock](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/deathlock-mpmm.md)
 
-[Deathlock Mastermind](deathlock-mastermind-mpmm.md)
+[Deathlock Mastermind](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/deathlock-mastermind-mpmm.md)
 
-[Deathlock Wight](deathlock-wight-mpmm.md)
+[Deathlock Wight](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/deathlock-wight-mpmm.md)
 
-[Deep Scion](deep-scion-mpmm.md)
+[Deep Scion](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/deep-scion-mpmm.md)
 
 [Demogorgon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/demogorgon-mpmm.md)
 
-[Derro](derro-mpmm.md)
+[Derro](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/derro-mpmm.md)
 
-[Derro Savant](derro-savant-mpmm.md)
+[Derro Savant](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/derro-savant-mpmm.md)
 
-[Devourer](devourer-mpmm.md)
+[Devourer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/devourer-mpmm.md)
 
-[Dhergoloth](dhergoloth-mpmm.md)
+[Dhergoloth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/dhergoloth-mpmm.md)
 
-[Brontosaurus](brontosaurus-mpmm.md)
+[Brontosaurus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/brontosaurus-mpmm.md)
 
-[Deinonychus](deinonychus-mpmm.md)
+[Deinonychus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/deinonychus-mpmm.md)
 
-[Dimetrodon](dimetrodon-mpmm.md)
+[Dimetrodon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/dimetrodon-mpmm.md)
 
-[Hadrosaurus](hadrosaurus-mpmm.md)
+[Hadrosaurus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/hadrosaurus-mpmm.md)
 
-[Quetzalcoatlus](quetzalcoatlus-mpmm.md)
+[Quetzalcoatlus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/quetzalcoatlus-mpmm.md)
 
-[Stegosaurus](stegosaurus-mpmm.md)
+[Stegosaurus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/stegosaurus-mpmm.md)
 
-[Velociraptor](velociraptor-mpmm.md)
+[Velociraptor](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/velociraptor-mpmm.md)
 
-[Dolphin](dolphin-mpmm.md)
+[Dolphin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/dolphin-mpmm.md)
 
-[Dolphin Delighter](dolphin-delighter-mpmm.md)
+[Dolphin Delighter](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/dolphin-delighter-mpmm.md)
 
-[Draegloth](draegloth-mpmm.md)
+[Draegloth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/draegloth-mpmm.md)
 
-[Drow Arachnomancer](drow-arachnomancer-mpmm.md)
+[Drow Arachnomancer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/drow-arachnomancer-mpmm.md)
 
-[Drow Favored Consort](drow-favored-consort-mpmm.md)
+[Drow Favored Consort](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/drow-favored-consort-mpmm.md)
 
-[Drow House Captain](drow-house-captain-mpmm.md)
+[Drow House Captain](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/drow-house-captain-mpmm.md)
 
-[Drow Inquisitor](drow-inquisitor-mpmm.md)
+[Drow Inquisitor](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/drow-inquisitor-mpmm.md)
 
 [Drow Matron Mother](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/drow-matron-mother-mpmm.md)
 
-[Drow Shadowblade](drow-shadowblade-mpmm.md)
+[Drow Shadowblade](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/drow-shadowblade-mpmm.md)
 
-[Duergar Despot](duergar-despot-mpmm.md)
+[Duergar Despot](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/duergar-despot-mpmm.md)
 
-[Duergar Kavalrachni](duergar-kavalrachni-mpmm.md)
+[Duergar Kavalrachni](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/duergar-kavalrachni-mpmm.md)
 
-[Duergar Mind Master](duergar-mind-master-mpmm.md)
+[Duergar Mind Master](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/duergar-mind-master-mpmm.md)
 
-[Duergar Soulblade](duergar-soulblade-mpmm.md)
+[Duergar Soulblade](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/duergar-soulblade-mpmm.md)
 
-[Duergar Stone Guard](duergar-stone-guard-mpmm.md)
+[Duergar Stone Guard](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/duergar-stone-guard-mpmm.md)
 
-[Duergar Screamer](duergar-screamer-mpmm.md)
+[Duergar Screamer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/duergar-screamer-mpmm.md)
 
-[Duergar Warlord](duergar-warlord-mpmm.md)
+[Duergar Warlord](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/duergar-warlord-mpmm.md)
 
-[Duergar Xarrorn](duergar-xarrorn-mpmm.md)
+[Duergar Xarrorn](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/duergar-xarrorn-mpmm.md)
 
-[Duergar Hammerer](duergar-hammerer-mpmm.md)
+[Duergar Hammerer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/duergar-hammerer-mpmm.md)
 
-[Dybbuk](dybbuk-mpmm.md)
+[Dybbuk](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/dybbuk-mpmm.md)
 
-[Eidolon](eidolon-mpmm.md)
+[Eidolon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/eidolon-mpmm.md)
 
-[Sacred Statue](sacred-statue-mpmm.md)
+[Sacred Statue](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/sacred-statue-mpmm.md)
 
-[Autumn Eladrin](autumn-eladrin-mpmm.md)
+[Autumn Eladrin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/autumn-eladrin-mpmm.md)
 
-[Spring Eladrin](spring-eladrin-mpmm.md)
+[Spring Eladrin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/spring-eladrin-mpmm.md)
 
-[Summer Eladrin](summer-eladrin-mpmm.md)
+[Summer Eladrin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/summer-eladrin-mpmm.md)
 
-[Winter Eladrin](winter-eladrin-mpmm.md)
+[Winter Eladrin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/winter-eladrin-mpmm.md)
 
 [Elder Brain](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/elder-brain-mpmm.md)
 
-[Elder Tempest](elder-tempest-mpmm.md)
+[Elder Tempest](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/elder-tempest-mpmm.md)
 
-[Air Elemental Myrmidon](air-elemental-myrmidon-mpmm.md)
+[Air Elemental Myrmidon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/air-elemental-myrmidon-mpmm.md)
 
-[Earth Elemental Myrmidon](earth-elemental-myrmidon-mpmm.md)
+[Earth Elemental Myrmidon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/earth-elemental-myrmidon-mpmm.md)
 
-[Fire Elemental Myrmidon](fire-elemental-myrmidon-mpmm.md)
+[Fire Elemental Myrmidon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/fire-elemental-myrmidon-mpmm.md)
 
-[Water Elemental Myrmidon](water-elemental-myrmidon-mpmm.md)
+[Water Elemental Myrmidon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/water-elemental-myrmidon-mpmm.md)
 
-[Fire Giant Dreadnought](fire-giant-dreadnought-mpmm.md)
+[Fire Giant Dreadnought](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/fire-giant-dreadnought-mpmm.md)
 
-[Firenewt Warlock of Imix](firenewt-warlock-of-imix-mpmm.md)
+[Firenewt Warlock of Imix](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/firenewt-warlock-of-imix-mpmm.md)
 
-[Firenewt Warrior](firenewt-warrior-mpmm.md)
+[Firenewt Warrior](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/firenewt-warrior-mpmm.md)
 
-[Flail Snail](flail-snail-mpmm.md)
+[Flail Snail](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/flail-snail-mpmm.md)
 
-[Flind](flind-mpmm.md)
+[Flind](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/flind-mpmm.md)
 
 [Fraz-Urb'luu](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/fraz-urbluu-mpmm.md)
 
-[Froghemoth](froghemoth-mpmm.md)
+[Froghemoth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/froghemoth-mpmm.md)
 
-[Frost Giant Everlasting One](frost-giant-everlasting-one-mpmm.md)
+[Frost Giant Everlasting One](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/frost-giant-everlasting-one-mpmm.md)
 
-[Frost Salamander](frost-salamander-mpmm.md)
+[Frost Salamander](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/frost-salamander-mpmm.md)
 
-[Gauth](gauth-mpmm.md)
+[Gauth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/gauth-mpmm.md)
 
-[Gazer](gazer-mpmm.md)
+[Gazer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/gazer-mpmm.md)
 
 [Geryon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/geryon-mpmm.md)
 
-[Giant Strider](giant-strider-mpmm.md)
+[Giant Strider](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/giant-strider-mpmm.md)
 
-[Giff](giff-mpmm.md)
+[Giff](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/giff-mpmm.md)
 
-[Girallon](girallon-mpmm.md)
+[Girallon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/girallon-mpmm.md)
 
-[Githyanki Gish](githyanki-gish-mpmm.md)
+[Githyanki Gish](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/githyanki-gish-mpmm.md)
 
-[Githyanki Kith'rak](githyanki-kithrak-mpmm.md)
+[Githyanki Kith'rak](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/githyanki-kithrak-mpmm.md)
 
-[Githyanki Supreme Commander](githyanki-supreme-commander-mpmm.md)
+[Githyanki Supreme Commander](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/githyanki-supreme-commander-mpmm.md)
 
 [Githzerai Anarch](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/githzerai-anarch-mpmm.md)
 
-[Githzerai Enlightened](githzerai-enlightened-mpmm.md)
+[Githzerai Enlightened](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/githzerai-enlightened-mpmm.md)
 
-[Gnoll Flesh Gnawer](gnoll-flesh-gnawer-mpmm.md)
+[Gnoll Flesh Gnawer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/gnoll-flesh-gnawer-mpmm.md)
 
-[Gnoll Hunter](gnoll-hunter-mpmm.md)
+[Gnoll Hunter](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/gnoll-hunter-mpmm.md)
 
-[Gnoll Witherling](gnoll-witherling-mpmm.md)
+[Gnoll Witherling](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/gnoll-witherling-mpmm.md)
 
-[Gray Render](gray-render-mpmm.md)
+[Gray Render](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/gray-render-mpmm.md)
 
 [Graz'zt](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/grazzt-mpmm.md)
 
-[Grung](grung-mpmm.md)
+[Grung](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/grung-mpmm.md)
 
-[Grung Elite Warrior](grung-elite-warrior-mpmm.md)
+[Grung Elite Warrior](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/grung-elite-warrior-mpmm.md)
 
-[Grung Wildling](grung-wildling-mpmm.md)
+[Grung Wildling](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/grung-wildling-mpmm.md)
 
-[Guard Drake](guard-drake-mpmm.md)
+[Guard Drake](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/guard-drake-mpmm.md)
 
-[Hellfire Engine](hellfire-engine-mpmm.md)
+[Hellfire Engine](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/hellfire-engine-mpmm.md)
 
-[Hobgoblin Devastator](hobgoblin-devastator-mpmm.md)
+[Hobgoblin Devastator](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/hobgoblin-devastator-mpmm.md)
 
-[Hobgoblin Iron Shadow](hobgoblin-iron-shadow-mpmm.md)
+[Hobgoblin Iron Shadow](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/hobgoblin-iron-shadow-mpmm.md)
 
-[Howler](howler-mpmm.md)
+[Howler](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/howler-mpmm.md)
 
-[Hutijin](hutijin-mpmm.md)
+[Hutijin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/hutijin-mpmm.md)
 
-[Hydroloth](hydroloth-mpmm.md)
+[Hydroloth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/hydroloth-mpmm.md)
 
 [Juiblex](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/juiblex-mpmm.md)
 
 [Ki-rin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/ki-rin-mpmm.md)
 
-[Kobold Dragonshield](kobold-dragonshield-mpmm.md)
+[Kobold Dragonshield](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/kobold-dragonshield-mpmm.md)
 
-[Kobold Inventor](kobold-inventor-mpmm.md)
+[Kobold Inventor](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/kobold-inventor-mpmm.md)
 
-[Kobold Scale Sorcerer](kobold-scale-sorcerer-mpmm.md)
+[Kobold Scale Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/kobold-scale-sorcerer-mpmm.md)
 
-[Korred](korred-mpmm.md)
+[Korred](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/korred-mpmm.md)
 
-[Kraken Priest](kraken-priest-mpmm.md)
+[Kraken Priest](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/kraken-priest-mpmm.md)
 
-[Young Kruthik](young-kruthik-mpmm.md)
+[Young Kruthik](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/young-kruthik-mpmm.md)
 
-[Adult Kruthik](adult-kruthik-mpmm.md)
+[Adult Kruthik](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/adult-kruthik-mpmm.md)
 
-[Kruthik Hive Lord](kruthik-hive-lord-mpmm.md)
+[Kruthik Hive Lord](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/kruthik-hive-lord-mpmm.md)
 
-[Leucrotta](leucrotta-mpmm.md)
+[Leucrotta](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/leucrotta-mpmm.md)
 
-[Leviathan](leviathan-mpmm.md)
+[Leviathan](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/leviathan-mpmm.md)
 
-[Martial Arts Adept](martial-arts-adept-mpmm.md)
+[Martial Arts Adept](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/martial-arts-adept-mpmm.md)
 
-[Marut](marut-mpmm.md)
+[Marut](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/marut-mpmm.md)
 
-[Master Thief](master-thief-mpmm.md)
+[Master Thief](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/master-thief-mpmm.md)
 
-[Maurezhi](maurezhi-mpmm.md)
+[Maurezhi](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/maurezhi-mpmm.md)
 
-[Maw Demon](maw-demon-mpmm.md)
+[Maw Demon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/maw-demon-mpmm.md)
 
-[Meazel](meazel-mpmm.md)
+[Meazel](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/meazel-mpmm.md)
 
-[Meenlock](meenlock-mpmm.md)
+[Meenlock](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/meenlock-mpmm.md)
 
-[Merregon](merregon-mpmm.md)
+[Merregon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/merregon-mpmm.md)
 
 [Merrenoloth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/merrenoloth-mpmm.md)
 
-[Mindwitness](mindwitness-mpmm.md)
+[Mindwitness](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/mindwitness-mpmm.md)
 
-[Moloch](moloch-mpmm.md)
+[Moloch](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/moloch-mpmm.md)
 
-[Molydeus](molydeus-mpmm.md)
+[Molydeus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/molydeus-mpmm.md)
 
 [Morkoth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/morkoth-mpmm.md)
 
-[Mouth of Grolantor](mouth-of-grolantor-mpmm.md)
+[Mouth of Grolantor](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/mouth-of-grolantor-mpmm.md)
 
-[Nabassu](nabassu-mpmm.md)
+[Nabassu](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/nabassu-mpmm.md)
 
-[Nagpa](nagpa-mpmm.md)
+[Nagpa](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/nagpa-mpmm.md)
 
-[Narzugon](narzugon-mpmm.md)
+[Narzugon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/narzugon-mpmm.md)
 
-[Neogi Hatchling](neogi-hatchling-mpmm.md)
+[Neogi Hatchling](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/neogi-hatchling-mpmm.md)
 
-[Neogi](neogi-mpmm.md)
+[Neogi](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/neogi-mpmm.md)
 
-[Neogi Master](neogi-master-mpmm.md)
+[Neogi Master](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/neogi-master-mpmm.md)
 
-[Neothelid](neothelid-mpmm.md)
+[Neothelid](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/neothelid-mpmm.md)
 
-[Nightwalker](nightwalker-mpmm.md)
+[Nightwalker](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/nightwalker-mpmm.md)
 
-[Nilbog](nilbog-mpmm.md)
+[Nilbog](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/nilbog-mpmm.md)
 
-[Nupperibo](nupperibo-mpmm.md)
+[Nupperibo](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/nupperibo-mpmm.md)
 
-[Oblex Spawn](oblex-spawn-mpmm.md)
+[Oblex Spawn](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/ooze/oblex-spawn-mpmm.md)
 
-[Adult Oblex](adult-oblex-mpmm.md)
+[Adult Oblex](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/ooze/adult-oblex-mpmm.md)
 
-[Elder Oblex](elder-oblex-mpmm.md)
+[Elder Oblex](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/ooze/elder-oblex-mpmm.md)
 
-[Ogre Battering Ram](ogre-battering-ram-mpmm.md)
+[Ogre Battering Ram](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/ogre-battering-ram-mpmm.md)
 
-[Ogre Bolt Launcher](ogre-bolt-launcher-mpmm.md)
+[Ogre Bolt Launcher](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/ogre-bolt-launcher-mpmm.md)
 
-[Ogre Chain Brute](ogre-chain-brute-mpmm.md)
+[Ogre Chain Brute](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/ogre-chain-brute-mpmm.md)
 
-[Ogre Howdah](ogre-howdah-mpmm.md)
+[Ogre Howdah](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/ogre-howdah-mpmm.md)
 
-[Oinoloth](oinoloth-mpmm.md)
+[Oinoloth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/oinoloth-mpmm.md)
 
 [Orcus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/orcus-mpmm.md)
 
-[Orthon](orthon-mpmm.md)
+[Orthon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/orthon-mpmm.md)
 
-[Phoenix](phoenix-mpmm.md)
+[Phoenix](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/phoenix-mpmm.md)
 
-[Quickling](quickling-mpmm.md)
+[Quickling](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/quickling-mpmm.md)
 
-[Redcap](redcap-mpmm.md)
+[Redcap](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/redcap-mpmm.md)
 
-[Retriever](retriever-mpmm.md)
+[Retriever](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/retriever-mpmm.md)
 
-[Rutterkin](rutterkin-mpmm.md)
+[Rutterkin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/rutterkin-mpmm.md)
 
-[Sea Spawn](sea-spawn-mpmm.md)
+[Sea Spawn](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/sea-spawn-mpmm.md)
 
-[Shadar-kai Gloom Weaver](shadar-kai-gloom-weaver-mpmm.md)
+[Shadar-kai Gloom Weaver](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/shadar-kai-gloom-weaver-mpmm.md)
 
-[Shadar-kai Shadow Dancer](shadar-kai-shadow-dancer-mpmm.md)
+[Shadar-kai Shadow Dancer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/shadar-kai-shadow-dancer-mpmm.md)
 
-[Shadar-kai Soul Monger](shadar-kai-soul-monger-mpmm.md)
+[Shadar-kai Soul Monger](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/shadar-kai-soul-monger-mpmm.md)
 
-[Shadow Mastiff](shadow-mastiff-mpmm.md)
+[Shadow Mastiff](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/shadow-mastiff-mpmm.md)
 
-[Shadow Mastiff Alpha](shadow-mastiff-alpha-mpmm.md)
+[Shadow Mastiff Alpha](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/shadow-mastiff-alpha-mpmm.md)
 
-[Shoosuva](shoosuva-mpmm.md)
+[Shoosuva](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/shoosuva-mpmm.md)
 
-[Sibriex](sibriex-mpmm.md)
+[Sibriex](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/sibriex-mpmm.md)
 
-[Skulk](skulk-mpmm.md)
+[Skulk](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/skulk-mpmm.md)
 
-[Skull Lord](skull-lord-mpmm.md)
+[Skull Lord](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/skull-lord-mpmm.md)
 
-[Slithering Tracker](slithering-tracker-mpmm.md)
+[Slithering Tracker](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/ooze/slithering-tracker-mpmm.md)
 
-[Angry Sorrowsworn](angry-sorrowsworn-mpmm.md)
+[Angry Sorrowsworn](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/angry-sorrowsworn-mpmm.md)
 
-[Hungry Sorrowsworn](hungry-sorrowsworn-mpmm.md)
+[Hungry Sorrowsworn](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/hungry-sorrowsworn-mpmm.md)
 
-[Lonely Sorrowsworn](lonely-sorrowsworn-mpmm.md)
+[Lonely Sorrowsworn](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/lonely-sorrowsworn-mpmm.md)
 
-[Lost Sorrowsworn](lost-sorrowsworn-mpmm.md)
+[Lost Sorrowsworn](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/lost-sorrowsworn-mpmm.md)
 
-[Wretched Sorrowsworn](wretched-sorrowsworn-mpmm.md)
+[Wretched Sorrowsworn](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/wretched-sorrowsworn-mpmm.md)
 
-[Spawn of Kyuss](spawn-of-kyuss-mpmm.md)
+[Spawn of Kyuss](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/spawn-of-kyuss-mpmm.md)
 
-[Star Spawn Grue](star-spawn-grue-mpmm.md)
+[Star Spawn Grue](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/star-spawn-grue-mpmm.md)
 
-[Star Spawn Hulk](star-spawn-hulk-mpmm.md)
+[Star Spawn Hulk](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/star-spawn-hulk-mpmm.md)
 
-[Star Spawn Larva Mage](star-spawn-larva-mage-mpmm.md)
+[Star Spawn Larva Mage](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/star-spawn-larva-mage-mpmm.md)
 
-[Star Spawn Mangler](star-spawn-mangler-mpmm.md)
+[Star Spawn Mangler](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/star-spawn-mangler-mpmm.md)
 
-[Star Spawn Seer](star-spawn-seer-mpmm.md)
+[Star Spawn Seer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/star-spawn-seer-mpmm.md)
 
-[Female Steeder](female-steeder-mpmm.md)
+[Female Steeder](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/female-steeder-mpmm.md)
 
-[Male Steeder](male-steeder-mpmm.md)
+[Male Steeder](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/male-steeder-mpmm.md)
 
-[Steel Predator](steel-predator-mpmm.md)
+[Steel Predator](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/steel-predator-mpmm.md)
 
-[Stone Cursed](stone-cursed-mpmm.md)
+[Stone Cursed](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/stone-cursed-mpmm.md)
 
-[Stone Giant Dreamwalker](stone-giant-dreamwalker-mpmm.md)
+[Stone Giant Dreamwalker](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/stone-giant-dreamwalker-mpmm.md)
 
 [Storm Giant Quintessent](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/storm-giant-quintessent-mpmm.md)
 
-[Swarm of Rot Grubs](swarm-of-rot-grubs-mpmm.md)
+[Swarm of Rot Grubs](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/swarm-of-rot-grubs-mpmm.md)
 
-[Swashbuckler](swashbuckler-mpmm.md)
+[Swashbuckler](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/swashbuckler-mpmm.md)
 
-[Sword Wraith Commander](sword-wraith-commander-mpmm.md)
+[Sword Wraith Commander](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/sword-wraith-commander-mpmm.md)
 
-[Sword Wraith Warrior](sword-wraith-warrior-mpmm.md)
+[Sword Wraith Warrior](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/sword-wraith-warrior-mpmm.md)
 
-[Tanarukk](tanarukk-mpmm.md)
+[Tanarukk](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/tanarukk-mpmm.md)
 
-[Titivilus](titivilus-mpmm.md)
+[Titivilus](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/titivilus-mpmm.md)
 
-[Tlincalli](tlincalli-mpmm.md)
+[Tlincalli](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/tlincalli-mpmm.md)
 
 [Tortle](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/tortle-mpmm.md)
 
-[Tortle Druid](tortle-druid-mpmm.md)
+[Tortle Druid](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/tortle-druid-mpmm.md)
 
-[Trapper](trapper-mpmm.md)
+[Trapper](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/trapper-mpmm.md)
 
-[Dire Troll](dire-troll-mpmm.md)
+[Dire Troll](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/dire-troll-mpmm.md)
 
-[Rot Troll](rot-troll-mpmm.md)
+[Rot Troll](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/rot-troll-mpmm.md)
 
-[Spirit Troll](spirit-troll-mpmm.md)
+[Spirit Troll](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/spirit-troll-mpmm.md)
 
-[Venom Troll](venom-troll-mpmm.md)
+[Venom Troll](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/venom-troll-mpmm.md)
 
-[Ulitharid](ulitharid-mpmm.md)
+[Ulitharid](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/ulitharid-mpmm.md)
 
-[Vampiric Mist](vampiric-mist-mpmm.md)
+[Vampiric Mist](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/vampiric-mist-mpmm.md)
 
-[Vargouille](vargouille-mpmm.md)
+[Vargouille](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/vargouille-mpmm.md)
 
-[Vegepygmy](vegepygmy-mpmm.md)
+[Vegepygmy](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/vegepygmy-mpmm.md)
 
-[Thorny Vegepygmy](thorny-vegepygmy-mpmm.md)
+[Thorny Vegepygmy](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/thorny-vegepygmy-mpmm.md)
 
-[Vegepygmy Chief](vegepygmy-chief-mpmm.md)
+[Vegepygmy Chief](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/vegepygmy-chief-mpmm.md)
 
-[War Priest](war-priest-mpmm.md)
+[War Priest](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/war-priest-mpmm.md)
 
-[Warlock of the Archfey](warlock-of-the-archfey-mpmm.md)
+[Warlock of the Archfey](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/warlock-of-the-archfey-mpmm.md)
 
-[Warlock of the Fiend](warlock-of-the-fiend-mpmm.md)
+[Warlock of the Fiend](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/warlock-of-the-fiend-mpmm.md)
 
-[Warlock of the Great Old One](warlock-of-the-great-old-one-mpmm.md)
+[Warlock of the Great Old One](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/warlock-of-the-great-old-one-mpmm.md)
 
-[Warlord](warlord-mpmm.md)
+[Warlord](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/warlord-mpmm.md)
 
-[Wastrilith](wastrilith-mpmm.md)
+[Wastrilith](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/wastrilith-mpmm.md)
 
-[Apprentice Wizard](apprentice-wizard-mpmm.md)
+[Apprentice Wizard](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/apprentice-wizard-mpmm.md)
 
-[Abjurer Wizard](abjurer-wizard-mpmm.md)
+[Abjurer Wizard](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/abjurer-wizard-mpmm.md)
 
-[Conjurer Wizard](conjurer-wizard-mpmm.md)
+[Conjurer Wizard](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/conjurer-wizard-mpmm.md)
 
-[Diviner Wizard](diviner-wizard-mpmm.md)
+[Diviner Wizard](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/diviner-wizard-mpmm.md)
 
-[Enchanter Wizard](enchanter-wizard-mpmm.md)
+[Enchanter Wizard](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/enchanter-wizard-mpmm.md)
 
-[Evoker Wizard](evoker-wizard-mpmm.md)
+[Evoker Wizard](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/evoker-wizard-mpmm.md)
 
-[Illusionist Wizard](illusionist-wizard-mpmm.md)
+[Illusionist Wizard](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/illusionist-wizard-mpmm.md)
 
-[Necromancer Wizard](necromancer-wizard-mpmm.md)
+[Necromancer Wizard](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/necromancer-wizard-mpmm.md)
 
-[Transmuter Wizard](transmuter-wizard-mpmm.md)
+[Transmuter Wizard](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/transmuter-wizard-mpmm.md)
 
-[Wood Woad](wood-woad-mpmm.md)
+[Wood Woad](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/wood-woad-mpmm.md)
 
-[Xvart](xvart-mpmm.md)
+[Xvart](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/xvart-mpmm.md)
 
-[Xvart Warlock of Raxivort](xvart-warlock-of-raxivort-mpmm.md)
+[Xvart Warlock of Raxivort](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/xvart-warlock-of-raxivort-mpmm.md)
 
-[Yagnoloth](yagnoloth-mpmm.md)
+[Yagnoloth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/yagnoloth-mpmm.md)
 
 [Yeenoghu](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/yeenoghu-mpmm.md)
 
-[Yeth Hound](yeth-hound-mpmm.md)
+[Yeth Hound](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/yeth-hound-mpmm.md)
 
-[Yuan-ti Anathema](yuan-ti-anathema-mpmm.md)
+[Yuan-ti Anathema](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/yuan-ti-anathema-mpmm.md)
 
-[Yuan-ti Broodguard](yuan-ti-broodguard-mpmm.md)
+[Yuan-ti Broodguard](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/yuan-ti-broodguard-mpmm.md)
 
-[Yuan-ti Mind Whisperer](yuan-ti-mind-whisperer-mpmm.md)
+[Yuan-ti Mind Whisperer](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/yuan-ti-mind-whisperer-mpmm.md)
 
-[Yuan-ti Nightmare Speaker](yuan-ti-nightmare-speaker-mpmm.md)
+[Yuan-ti Nightmare Speaker](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/yuan-ti-nightmare-speaker-mpmm.md)
 
-[Yuan-ti Pit Master](yuan-ti-pit-master-mpmm.md)
+[Yuan-ti Pit Master](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/yuan-ti-pit-master-mpmm.md)
 
-[Zaratan](zaratan-mpmm.md)
+[Zaratan](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/zaratan-mpmm.md)
 
 [Zariel](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/zariel-mpmm.md)
 

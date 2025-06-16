@@ -7,11 +7,12 @@ tags:
 - ttrpg-cli/domain/life
 - ttrpg-cli/domain/peace
 - ttrpg-cli/domain/twilight
-aliases: ["Boldrei"]
+aliases: 
+- Boldrei
 ---
 # Boldrei
 *Source: Eberron: Rising from the Last War p. 141, Tasha's Cauldron of Everything* 
-![The Sovereign Host](erlw-the-sovereign-host.webp#symbol)
+![The Sovereign Host](03.PlayerLog&Handouts/Mechanics/CLI/deities/img/erlw-the-sovereign-host.webp#symbol)
 
 - **Alignment**: Unaligned
 - **Category**: The Sovereign Host

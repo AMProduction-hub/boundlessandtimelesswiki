@@ -8,10 +8,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/beast
 statblock: inline
-aliases: ["Reef Shark"]
+statblock-link: "#^statblock"
+aliases:
+- Reef Shark
 ---
-# [Reef Shark](03 - Player Log & Handouts\Mechanics\CLI\bestiary\beast/reef-shark.md)
-*Source: Monster Manual p. 336. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Reef Shark](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/reef-shark.md)
+*Source: Monster Manual p. 336, Tomb of Annihilation, Ghosts of Saltmarsh, Explorer's Guide to Wildemount, Journeys through the Radiant Citadel. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 Smaller than giant sharks and hunter sharks, reef sharks inhabit shallow waters and coral reefs, gathering in small packs to hunt. A full-grown specimen measures 6 to 10 feet long.
 
@@ -24,33 +26,39 @@ Smaller than giant sharks and hunter sharks, reef sharks inhabit shallow waters 
 "ac_class": "natural armor"
 "hp": !!int "22"
 "hit_dice": "4d8 + 4"
+"modifier": !!int "1"
 "stats":
-- !!int "14"
-- !!int "13"
-- !!int "13"
-- !!int "1"
-- !!int "10"
-- !!int "4"
+  - !!int "14"
+  - !!int "13"
+  - !!int "13"
+  - !!int "1"
+  - !!int "10"
+  - !!int "4"
 "speed": "swim 40 ft."
 "skillsaves":
-  "Perception": !!int "2"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+2"
 "senses": "blindsight 30 ft., passive Perception 12"
 "languages": ""
 "cr": "1/2"
 "traits":
-- "desc": "The shark has advantage on an attack roll against a creature if at least\
-    \ one of the shark's allies is within 5 feet of the creature and the ally isn't\
-    \ [incapacitated](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)."
-  "name": "Pack Tactics"
-- "desc": "The shark can breathe only underwater."
-  "name": "Water Breathing"
+  - "desc": "The shark has advantage on an attack roll against a creature if at least\
+      \ one of the shark's allies is within 5 feet of the creature and the ally isn't\
+      \ [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated)."
+    "name": "Pack Tactics"
+  - "desc": "The shark can breathe only underwater."
+    "name": "Water Breathing"
 "actions":
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8\
-    \ + 2) piercing damage."
-  "name": "Bite"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6\
+      \ (1d8 + 2) piercing damage."
+    "name": "Bite"
 "source":
-- "MM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/beast/token/reef-shark.webp"
+  - "MM"
+  - "ToA"
+  - "GoS"
+  - "EGW"
+  - "JttRC"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/reef-shark.webp"
 ```
 ^statblock
 

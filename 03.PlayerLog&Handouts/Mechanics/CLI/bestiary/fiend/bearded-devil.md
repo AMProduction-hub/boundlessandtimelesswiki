@@ -7,10 +7,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/fiend/devil
 statblock: inline
-aliases: ["Bearded Devil"]
+statblock-link: "#^statblock"
+aliases:
+- Bearded Devil
 ---
-# [Bearded Devil](03 - Player Log & Handouts\Mechanics\CLI\bestiary\fiend/bearded-devil.md)
-*Source: Monster Manual p. 70, Baldur's Gate: Descent Into Avernus. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Bearded Devil](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/bearded-devil.md)
+*Source: Monster Manual p. 70, Tomb of Annihilation, Waterdeep: Dragon Heist, Baldur's Gate: Descent Into Avernus, Explorer's Guide to Wildemount, Icewind Dale: Rime of the Frostmaiden. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Bearded devils serve archdevils as shock troops, fighting shoulder-to-shoulder and reveling in the glory of battle. They respond with violence to any slight, real or imagined, gorging themselves on violence as their infernal saw-toothed glaives carve a path through their foes.
 
@@ -112,7 +114,7 @@ The Nine Hells are a single plane comprising nine separate layers (see the Layer
 
 > [!note] Devil True Names and Talismans
 > 
-> Though devils all have common names, every devil above a lemure in station also has a true name that it keeps secret. A devil can be forced to disclose its true name if [charmed](conditions.md#Charmed), and ancient scrolls and tomes are said to exist that list the true names of certain devils.
+> Though devils all have common names, every devil above a lemure in station also has a true name that it keeps secret. A devil can be forced to disclose its true name if [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), and ancient scrolls and tomes are said to exist that list the true names of certain devils.
 > 
 > A mortal who learns a devil's true name can use powerful summoning magic to call the devil from the Nine Hells and bind it into service. Binding can also be accomplished with the help of a devil talisman. Each of these ancient relics is inscribed with the true name of a devil it controls, and was bathed in the blood of a worthy sacrifice-typically someone the creator loved-when crafted.
 > 
@@ -128,10 +130,10 @@ The Nine Hells are a single plane comprising nine separate layers (see the Layer
 > - A barbed devil has a 30 percent chance of summoning one barbed devil.  
 > - A bearded devil has a 30 percent chance of summoning one bearded devil.  
 > - A bone devil has a 40 percent chance of summoning `2d6` spined devils or one bone devil.  
-> - An erinyes has a 50 percent chance of summoning `3d6` spined devils, `1d6` bearded devils, or one erinyes.  
+> - An erinyes has a 50 percent chance of summoning `3d6` spined devils, `d6` bearded devils, or one erinyes.  
 > - A horned devil has a 30 percent chance of summoning one horned devil.  
 > - An ice devil has a 60 percent chance of summoning one ice devil.  
-> - A pit fiend summons `2d4` bearded devils, `1d4` barbed devils, or one erinyes with no chance of failure.  
+> - A pit fiend summons `2d4` bearded devils, `d4` barbed devils, or one erinyes with no chance of failure.  
 > 
 > A summoned devil appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other devils. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.
 ^variant-devil-summoning
@@ -146,56 +148,62 @@ The Nine Hells are a single plane comprising nine separate layers (see the Layer
 "ac_class": "natural armor"
 "hp": !!int "52"
 "hit_dice": "8d8 + 16"
+"modifier": !!int "2"
 "stats":
-- !!int "16"
-- !!int "15"
-- !!int "15"
-- !!int "9"
-- !!int "11"
-- !!int "11"
+  - !!int "16"
+  - !!int "15"
+  - !!int "15"
+  - !!int "9"
+  - !!int "11"
+  - !!int "11"
 "speed": "30 ft."
 "saves":
-  "Wisdom": !!int "2"
-  "Strength": !!int "5"
-  "Constitution": !!int "4"
+  - "strength": "+5"
+  - "constitution": "+4"
+  - "wisdom": "+2"
 "damage_resistances": "cold; bludgeoning, piercing, slashing from nonmagical attacks\
   \ that aren't silvered"
 "damage_immunities": "fire, poison"
-"condition_immunities": "[poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "darkvision 120 ft., passive Perception 10"
 "languages": "Infernal, telepathy 120 ft."
 "cr": "3"
 "traits":
-- "desc": "Magical darkness doesn't impede the devil's darkvision."
-  "name": "Devil's Sight"
-- "desc": "The devil has advantage on saving throws against spells and other magical\
-    \ effects."
-  "name": "Magic Resistance"
-- "desc": "The devil can't be [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened)\
-    \ while it can see an allied creature within 30 feet of it."
-  "name": "Steadfast"
+  - "desc": "Magical darkness doesn't impede the devil's darkvision."
+    "name": "Devil's Sight"
+  - "desc": "The devil has advantage on saving throws against spells and other magical\
+      \ effects."
+    "name": "Magic Resistance"
+  - "desc": "The devil can't be [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)\
+      \ while it can see an allied creature within 30 feet of it."
+    "name": "Steadfast"
 "actions":
-- "desc": "The devil makes two attacks: one with its beard and one with its glaive."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 6\
-    \ (1d8 + 2) piercing damage, and the target must succeed on a DC 12 Constitution\
-    \ saving throw or be [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
-    \ for 1 minute. While [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
-    \ in this way, the target can't regain hit points. The target can repeat the saving\
-    \ throw at the end of each of its turns, ending the effect on itself on a success."
-  "name": "Beard"
-- "desc": "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 8\
-    \ (1d10 + 3) slashing damage. If the target is a creature other than an undead\
-    \ or a construct, it must succeed on a DC 12 Constitution saving throw or lose\
-    \ 5 (1d10) hit points at the start of each of its turns due to an infernal wound.\
-    \ Each time the devil hits the wounded target with this attack, the damage dealt\
-    \ by the wound increases by 5 (1d10). Any creature can take an action to stanch\
-    \ the wound with a successful DC 12 Wisdom ([Medicine](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/skills.md#Medicine))\
-    \ check. The wound also closes if the target receives magical healing."
-  "name": "Glaive"
+  - "desc": "The devil makes two attacks: one with its beard and one with its glaive."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit:\
+      \ 6 (1d8 + 2) piercing damage, and the target must succeed on a DC 12 Constitution\
+      \ saving throw or be [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
+      \ for 1 minute. While [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
+      \ in this way, the target can't regain hit points. The target can repeat the\
+      \ saving throw at the end of each of its turns, ending the effect on itself\
+      \ on a success."
+    "name": "Beard"
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit:\
+      \ 8 (1d10 + 3) slashing damage. If the target is a creature other than an\
+      \ undead or a construct, it must succeed on a DC 12 Constitution saving throw\
+      \ or lose 5 (d10) hit points at the start of each of its turns due to an infernal\
+      \ wound. Each time the devil hits the wounded target with this attack, the damage\
+      \ dealt by the wound increases by 5 (d10). Any creature can take an action\
+      \ to stanch the wound with a successful DC 12 Wisdom ([Medicine](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Medicine))\
+      \ check. The wound also closes if the target receives magical healing."
+    "name": "Glaive"
 "source":
-- "MM"
-- "BGDIA"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/fiend/token/bearded-devil.webp"
+  - "MM"
+  - "ToA"
+  - "WDH"
+  - "BGDIA"
+  - "EGW"
+  - "IDRotF"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/token/bearded-devil.webp"
 ```
 ^statblock

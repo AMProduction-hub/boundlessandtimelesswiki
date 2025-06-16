@@ -4,7 +4,8 @@ cssclasses: json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/scag
-aliases: ["Knight of the Order"]
+aliases:
+- Knight of the Order
 ---
 # Knight of the Order
 *Source: Sword Coast Adventurer's Guide p. 151*  
@@ -13,7 +14,7 @@ aliases: ["Knight of the Order"]
 - **Skill Proficiencies.** [Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion), plus one from among [Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana), [History](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#History), [Nature](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Nature), and [Religion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Religion), as appropriate for your order  
 - **Tool Proficiencies.** Your choice of a gaming set or a musical instrument  
 - **Languages.** Any one of your choice  
-- **Equipment.** One set of [traveler's clothes](travelers-clothes.md), a signet, banner, or seal representing your place or rank in the order, and a [pouch](pouch.md) containing 10 gp  
+- **Equipment.** One set of [traveler's clothes](03.PlayerLog&Handouts/Mechanics/CLI/items/travelers-clothes.md), a signet, banner, or seal representing your place or rank in the order, and a [pouch](03.PlayerLog&Handouts/Mechanics/CLI/items/pouch.md) containing 10 gp  
 
 You belong to an order of knights who have sworn oaths to achieve a certain goal. The nature of this goal depends on the order you serve, but in your eyes it is without question a vital and honorable endeavor. Faerûn has a wide variety of knightly orders, all of which have a similar outlook concerning their actions and responsibilities.
 
@@ -40,6 +41,6 @@ This help comes in the form of shelter and meals, and healing when appropriate, 
 
 ## Suggested Characteristics
 
-Use the tables for the [soldier](soldier.md) background in the Player's Handbook as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as a knight of your order.
+Use the tables for the [soldier](03.PlayerLog&Handouts/Mechanics/CLI/backgrounds/soldier.md) background in the Player's Handbook as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as a knight of your order.
 
 Your bond almost always involves the order to which you belong (or at least key members of it), and it is highly unusual for a knight's ideal not to reflect the agenda, sentiment, or philosophy of one's order.

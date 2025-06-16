@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
-aliases: ["Shadowfell Despair"]
+aliases:
+- Shadowfell Despair
 ---
 # Shadowfell Despair
 *Source: Dungeon Master's Guide p. 52* 

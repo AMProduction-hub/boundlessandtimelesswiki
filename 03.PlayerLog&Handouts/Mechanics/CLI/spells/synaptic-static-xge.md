@@ -14,7 +14,8 @@ classes:
 - Sorcerer
 - Warlock
 - Wizard
-aliases: ["Synaptic Static"]
+aliases:
+- Synaptic Static
 ---
 # Synaptic Static
 *5th-level, Enchantment*  
@@ -27,8 +28,8 @@ aliases: ["Synaptic Static"]
 
 You choose a point within range and cause psychic energy to explode there. Each creature in a 20-foot-radius sphere centered on that point must make an Intelligence saving throw. A creature with an Intelligence score of 2 or lower can't be affected by this spell. A target takes `8d6` psychic damage on a failed save, or half as much damage on a successful one.
 
-After a failed save, a target has muddled thoughts for 1 minute. During that time, it rolls a `d6` and subtracts the number rolled from all its attack rolls and ability checks, as well as its Constitution saving throws to maintain [concentration](conditions.md#Concentration). The target can make an Intelligence saving throw at the end of each of its turns, ending the effect on itself on a success.
+After a failed save, a target has muddled thoughts for 1 minute. During that time, it rolls a `d6` and subtracts the number rolled from all its attack rolls and ability checks, as well as its Constitution saving throws to maintain [concentration](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Concentration). The target can make an Intelligence saving throw at the end of each of its turns, ending the effect on itself on a success.
 
-**Classes**: [Bard](list-spells-classes-bard.md); [Wizard](list-spells-classes-wizard.md); [Sorcerer](list-spells-classes-sorcerer.md); [Warlock](list-spells-classes-warlock.md)
+**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Xanathar's Guide to Everything p. 167*

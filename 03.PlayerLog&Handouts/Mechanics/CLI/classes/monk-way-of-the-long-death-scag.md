@@ -4,10 +4,11 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/scag
 - ttrpg-cli/subclass/monk/long-death
-aliases: ["Way of the Long Death"]
+aliases:
+- Way of the Long Death
 ---
 # Way of the Long Death
-*[Monk](monk.md): Monastic Tradition*  
+*[Monk](./monk.md): Monastic Tradition*  
 *Source: Sword Coast Adventurer's Guide p. 130*  
 
 > [!tldr] Class and Feature Progression
@@ -54,7 +55,7 @@ Starting when you choose this tradition at 3rd level, your study of death allows
 
 ### Hour of Reaping (Level 6)
 
-At 6th level, you gain the ability to unsettle or terrify those around you as an action, for your soul has been touched by the shadow of death. When you take this action, each creature within 30 feet of you that can see you must succeed on a Wisdom saving throw or be [frightened](conditions.md#Frightened) of you until the end of your next turn.
+At 6th level, you gain the ability to unsettle or terrify those around you as an action, for your soul has been touched by the shadow of death. When you take this action, each creature within 30 feet of you that can see you must succeed on a Wisdom saving throw or be [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened) of you until the end of your next turn.
 
 ### Mastery of Death (Level 11)
 

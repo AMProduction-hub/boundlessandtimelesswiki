@@ -4,7 +4,8 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/class/wizard
 - ttrpg-cli/compendium/src/5e/phb
-aliases: ["Wizard"]
+aliases:
+- Wizard
 ---
 # Wizard
 *Source: Player's Handbook p. 112. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
@@ -50,16 +51,16 @@ aliases: ["Wizard"]
 
 - **Saving Throws**: Intelligence, Wisdom
 - **Armor**: none
-- **Weapons**: [daggers](dagger.md), [darts](dart.md), [slings](sling.md), [quarterstaffs](quarterstaff.md), [light crossbows](light-crossbow.md)
+- **Weapons**: [daggers](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md), [darts](03.PlayerLog&Handouts/Mechanics/CLI/items/dart.md), [slings](03.PlayerLog&Handouts/Mechanics/CLI/items/sling.md), [quarterstaffs](03.PlayerLog&Handouts/Mechanics/CLI/items/quarterstaff.md), [light crossbows](03.PlayerLog&Handouts/Mechanics/CLI/items/light-crossbow.md)
 - **Tools**: none
 - **Skills**: choose 2 from [Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana), [History](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#History), [Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight), [Investigation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Investigation), [Medicine](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Medicine), and [Religion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Religion)
 
 You start with the following items, plus anything provided by your background.
 
-- (a) a [quarterstaff](quarterstaff.md) or (b) a [dagger](dagger.md)
-- (a) a [component pouch](component-pouch.md) or (b) an [arcane focus](arcane-focus.md)
-- (a) a [scholar's pack](scholars-pack.md) or (b) an [explorer's pack](explorers-pack.md)
-- A [spellbook](spellbook.md)
+- (a) a [quarterstaff](03.PlayerLog&Handouts/Mechanics/CLI/items/quarterstaff.md) or (b) a [dagger](03.PlayerLog&Handouts/Mechanics/CLI/items/dagger.md)
+- (a) a [component pouch](03.PlayerLog&Handouts/Mechanics/CLI/items/component-pouch.md) or (b) an [arcane focus](03.PlayerLog&Handouts/Mechanics/CLI/items/arcane-focus.md)
+- (a) a [scholar's pack](03.PlayerLog&Handouts/Mechanics/CLI/items/scholars-pack.md) or (b) an [explorer's pack](03.PlayerLog&Handouts/Mechanics/CLI/items/explorers-pack.md)
+- A [spellbook](03.PlayerLog&Handouts/Mechanics/CLI/items/spellbook.md)
 
 Alternatively, you may start with 4d4 × 10 gp to buy your own equipment.
 
@@ -97,7 +98,7 @@ What drew you forth from your life of study? Did your first taste of magical kno
 
 #### Quick Build
 
-You can make a wizard quickly by following these suggestions. First, Intelligence should be your highest ability score, followed by Constitution or Dexterity. If you plan to join the School of Enchantment, make Charisma your next-best score. Second, choose the [sage](sage.md) background. Third, choose the [mage hand](mage-hand.md), [light](light.md), and [ray of frost](ray-of-frost.md) cantrips, along with the following 1st-level spells for your spellbook: [burning hands](burning-hands.md), [charm person](charm-person.md), [feather fall](feather-fall.md), [mage armor](mage-armor.md), [magic missile](magic-missile.md), and [sleep](sleep.md).
+You can make a wizard quickly by following these suggestions. First, Intelligence should be your highest ability score, followed by Constitution or Dexterity. If you plan to join the School of Enchantment, make Charisma your next-best score. Second, choose the [sage](03.PlayerLog&Handouts/Mechanics/CLI/backgrounds/sage.md) background. Third, choose the [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md), and [ray of frost](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-frost.md) cantrips, along with the following 1st-level spells for your spellbook: [burning hands](03.PlayerLog&Handouts/Mechanics/CLI/spells/burning-hands.md), [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md), [feather fall](03.PlayerLog&Handouts/Mechanics/CLI/spells/feather-fall.md), [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md), [magic missile](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-missile.md), and [sleep](03.PlayerLog&Handouts/Mechanics/CLI/spells/sleep.md).
 
 > [!quote] A quote from Gimble the illusionist  
 > 
@@ -108,6 +109,12 @@ Only a select few people in the world are wielders of magic. Of all those, wizar
 The price that wizards pay for their mastery is that most valuable of commodities: time. It takes years of study, instruction, and experimentation to learn how to harness magical energy and carry spells around in one's own mind. For adventuring wizards and other spellcasters who aspire to the highest echelons of the profession, the studying never ends, nor does the quest for knowledge and power.
 
 If you're playing a wizard, take advantage of the opportunity to make your character more than just a stereotypical spell-slinger. Use the advice that follows to add some intriguing details to how your wizard interacts with the world.
+
+> [!quote] A quote from Xanathar  
+> 
+> Watch. I love this trick.
+> 
+> Hey, wizard! You can't do magic. Oops, now you can. Oops, now you can't anymore. Ha ha ha!
 
 ## Spellbook
 _Source: Xanathar's Guide to Everything_
@@ -196,7 +203,7 @@ The Wizard table shows how many spell slots you have to cast your wizard spells 
 
 You prepare the list of wizard spells that are available for you to cast. To do so, choose a number of wizard spells from your spellbook equal to your Intelligence modifier + your wizard level (minimum of one spell). The spells must be of a level for which you have spell slots.
 
-For example, if you're a 3rd-level wizard, you have four 1st-level and two 2nd-level spell slots. With an Intelligence of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination, chosen from your spellbook. If you prepare the 1st-level spell [magic missile](magic-missile.md), you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.
+For example, if you're a 3rd-level wizard, you have four 1st-level and two 2nd-level spell slots. With an Intelligence of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination, chosen from your spellbook. If you prepare the 1st-level spell [magic missile](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-missile.md), you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.
 
 You can change your list of prepared spells when you finish a long rest. Preparing a new list of wizard spells requires time spent studying your spellbook and memorizing the incantations and gestures you must make to cast the spell: at least 1 minute per spell level for each spell on your list.
 
@@ -204,9 +211,9 @@ You can change your list of prepared spells when you finish a long rest. Prepari
 
 Intelligence is your spellcasting ability for your wizard spells, since you learn your wizard spells through dedicated study and memorization. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.
 
-<span class='abilityDc'>**Spell save DC**: 8 + your proficiency bonus + your Intelligence modifier</span>
+<span class='abilityDc'>**Spell save DC**: your proficiency bonus + your Intelligence</span>
 
-<span class='abilityAttackMod'>**Spell attack modifier**: your proficiency bonus + your Intelligence modifier</span>
+<span class='abilityAttackMod'>**Spell attack modifier**: your proficiency bonus + your Intelligence</span>
 
 #### Ritual Casting
 
@@ -214,7 +221,7 @@ You can cast a wizard spell as a ritual if that spell has the ritual tag and you
 
 #### Spellcasting Focus
 
-You can use an [arcane focus](arcane-focus.md) as a spellcasting focus for your wizard spells.
+You can use an [arcane focus](03.PlayerLog&Handouts/Mechanics/CLI/items/arcane-focus.md) as a spellcasting focus for your wizard spells.
 
 #### Learning Spells of 1st Level and Higher
 
@@ -248,7 +255,7 @@ When you reach 2nd level, you choose an arcane tradition from the list of availa
 ### Cantrip Formulas (Level 3)
 _Source: Tasha's Cauldron of Everything p. 75_
 
-*3rd-level wizard [optional feature](optional-class-features-tce.md)*
+*3rd-level wizard [optional feature](03.PlayerLog&Handouts/Mechanics/CLI/rules/variant-rules/optional-class-features-tce.md)*
 
 You have scribed a set of arcane formulas in your spellbook that you can use to formulate a cantrip in your mind. Whenever you finish a long rest and consult those formulas in your spellbook, you can replace one wizard cantrip you know with another cantrip from the wizard spell list.
 

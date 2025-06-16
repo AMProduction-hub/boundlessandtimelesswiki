@@ -5,10 +5,11 @@ tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/domain/knowledge
 - ttrpg-cli/subclass/cleric/knowledge
-aliases: ["Knowledge Domain"]
+aliases:
+- Knowledge Domain
 ---
 # Knowledge Domain
-*[Cleric](cleric.md): Divine Domain*  
+*[Cleric](./cleric.md): Divine Domain*  
 *Source: Player's Handbook p. 59*  
 
 > [!tldr] Class and Feature Progression
@@ -47,7 +48,7 @@ aliases: ["Knowledge Domain"]
 
 ### Knowledge Domain (Level 1)
 
-The gods of knowledge—including Oghma, Boccob, Gilean, Aureon, and Thoth—value learning and understanding above all. Some teach that knowledge is to be gathered and shared in libraries and universities, or promote the practical knowledge of craft and invention. Some deities hoard knowledge and keep its secrets to themselves. And some promise their followers that they will gain tremendous power if they unlock the secrets of the multiverse. Followers of these gods study esoteric lore, collect old tomes, delve into the secret places of the earth, and learn all they can. Some gods of knowledge promote the practical knowledge of craft and invention, including smith deities like Gond, Reorx, Onatar, Moradin, Hephaestus, and Goibhniu.
+The gods of knowledge—including Oghma, [Boccob](03.PlayerLog&Handouts/Mechanics/CLI/deities/greyhawk-boccob.md), Gilean, Aureon, and [Thoth](03.PlayerLog&Handouts/Mechanics/CLI/deities/egyptian-thoth.md)—value learning and understanding above all. Some teach that knowledge is to be gathered and shared in libraries and universities, or promote the practical knowledge of craft and invention. Some deities hoard knowledge and keep its secrets to themselves. And some promise their followers that they will gain tremendous power if they unlock the secrets of the multiverse. Followers of these gods study esoteric lore, collect old tomes, delve into the secret places of the earth, and learn all they can. Some gods of knowledge promote the practical knowledge of craft and invention, including smith deities like Gond, Reorx, Onatar, [Moradin](03.PlayerLog&Handouts/Mechanics/CLI/deities/nonhuman-moradin.md), [Hephaestus](03.PlayerLog&Handouts/Mechanics/CLI/deities/greek-hephaestus.md), and [Goibhniu](03.PlayerLog&Handouts/Mechanics/CLI/deities/celtic-goibhniu.md).
 
 At each indicated cleric level, you add the listed spells to your spells prepared.
 
@@ -55,11 +56,11 @@ At each indicated cleric level, you add the listed spells to your spells prepare
 
 | Cleric Level | Spells |
 |--------------|--------|
-| 1st | [command](command.md), [identify](identify.md) |
-| 3rd | [augury](augury.md), [suggestion](suggestion.md) |
-| 5th | [nondetection](nondetection.md), [speak with dead](speak-with-dead.md) |
-| 7th | [arcane eye](arcane-eye.md), [confusion](confusion.md) |
-| 9th | [legend lore](legend-lore.md), [scrying](scrying.md) |
+| 1st | [command](03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md), [identify](03.PlayerLog&Handouts/Mechanics/CLI/spells/identify.md) |
+| 3rd | [augury](03.PlayerLog&Handouts/Mechanics/CLI/spells/augury.md), [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md) |
+| 5th | [nondetection](03.PlayerLog&Handouts/Mechanics/CLI/spells/nondetection.md), [speak with dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/speak-with-dead.md) |
+| 7th | [arcane eye](03.PlayerLog&Handouts/Mechanics/CLI/spells/arcane-eye.md), [confusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/confusion.md) |
+| 9th | [legend lore](03.PlayerLog&Handouts/Mechanics/CLI/spells/legend-lore.md), [scrying](03.PlayerLog&Handouts/Mechanics/CLI/spells/scrying.md) |
 ^knowledge-domain-spells
 
 ### Blessings of Knowledge (Level 1)
@@ -80,7 +81,7 @@ As an action, choose one creature that you can see within 60 feet of you. That c
 
 If the creature fails its save, you can read its surface thoughts (those foremost in its mind, reflecting its current emotions and what it is actively thinking about) when it is within 60 feet of you. This effect lasts for 1 minute.
 
-During that time, you can use your action to end this effect and cast the [suggestion](suggestion.md) spell on the creature without expending a spell slot. The target automatically fails its saving throw against the spell.
+During that time, you can use your action to end this effect and cast the [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md) spell on the creature without expending a spell slot. The target automatically fails its saving throw against the spell.
 
 ### Potent Spellcasting (Level 8)
 
@@ -89,13 +90,13 @@ Starting at 8th level, you add your Wisdom modifier to the damage you deal with 
 ### Blessed Strikes (Level 8)
 _Source: Tasha's Cauldron of Everything p. 30_
 
-*8th-level cleric [optional feature](optional-class-features-tce.md), which replaces the Potent Spellcasting feature*
+*8th-level cleric [optional feature](03.PlayerLog&Handouts/Mechanics/CLI/rules/variant-rules/optional-class-features-tce.md), which replaces the Potent Spellcasting feature*
 
-You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal `1d8` radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.
+You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal `d8` radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.
 
 ### Visions of the Past (Level 17)
 
-Starting at 17th level, you can call up visions of the past that relate to an object you hold or your immediate surroundings. You spend at least 1 minute in meditation and prayer, then receive dreamlike, shadowy glimpses of recent events. You can meditate in this way for a number of minutes equal to your Wisdom score and must maintain [concentration](conditions.md#Concentration) during that time, as if you were casting a spell.
+Starting at 17th level, you can call up visions of the past that relate to an object you hold or your immediate surroundings. You spend at least 1 minute in meditation and prayer, then receive dreamlike, shadowy glimpses of recent events. You can meditate in this way for a number of minutes equal to your Wisdom score and must maintain [concentration](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Concentration) during that time, as if you were casting a spell.
 
 Once you use this feature, you can't use it again until you finish a short or long rest.
 

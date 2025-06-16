@@ -3,9 +3,11 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
+- ttrpg-cli/spell/background/orzhov-representative
 - ttrpg-cli/spell/class/bard
 - ttrpg-cli/spell/class/cleric
 - ttrpg-cli/spell/class/paladin
+- ttrpg-cli/spell/feat/adept-of-the-black-robes
 - ttrpg-cli/spell/level/2nd-level
 - ttrpg-cli/spell/school/enchantment
 - ttrpg-cli/spell/subclass/divine-soul
@@ -13,6 +15,7 @@ tags:
 - ttrpg-cli/spell/subclass/oath-of-devotion
 - ttrpg-cli/spell/subclass/oath-of-the-crown
 - ttrpg-cli/spell/subclass/order-domain
+- ttrpg-cli/spell/subrace/human-mark-of-sentinel
 classes:
 - Bard
 - Cleric
@@ -22,7 +25,8 @@ classes:
 - Paladin (Oath of the Crown)
 - Ranger (Monster Slayer)
 - Sorcerer (Divine Soul)
-aliases: ["Zone of Truth"]
+aliases:
+- Zone of Truth
 ---
 # Zone of Truth
 *2nd-level, Enchantment*  
@@ -37,6 +41,6 @@ You create a magical zone that guards against deception in a 15-foot-radius sphe
 
 An affected creature is aware of the spell and can thus avoid answering questions to which it would normally respond with a lie. Such creatures can be evasive in its answers as long as it remains within the boundaries of the truth.
 
-**Classes**: [Ranger (Monster Slayer)](list-spells-classes-ranger-monster-slayer-xge.md "subclass=XGE"); [Paladin](list-spells-classes-paladin.md); [Cleric (Order Domain)](list-spells-classes-cleric-order-domain-tce.md "subclass=TCE"); [Cleric](list-spells-classes-cleric.md); [Bard](list-spells-classes-bard.md); [Paladin (Oath of the Crown)](list-spells-classes-paladin-oath-of-the-crown-scag.md "subclass=SCAG"); [Sorcerer (Divine Soul)](list-spells-classes-sorcerer-divine-soul-xge.md "subclass=XGE"); [Paladin (Oath of Devotion)](list-spells-classes-paladin-oath-of-devotion.md)
+**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Paladin (Oath of Devotion)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-devotion.md); [Paladin (Oath of the Crown)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-the-crown-scag.md "subclass=SCAG"); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Cleric (Order Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-order-domain-tce.md "subclass=TCE"); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Ranger (Monster Slayer)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-monster-slayer-xge.md "subclass=XGE"); [Paladin](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-paladin.md)
 
 *Source: Player's Handbook p. 289. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

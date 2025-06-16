@@ -7,9 +7,11 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/humanoid/human
 statblock: inline
-aliases: ["Fist of Bane"]
+statblock-link: "#^statblock"
+aliases:
+- Fist of Bane
 ---
-# [Fist of Bane](03 - Player Log & Handouts\Mechanics\CLI\bestiary\humanoid/fist-of-bane-bgdia.md)
+# [Fist of Bane](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/fist-of-bane-bgdia.md)
 *Source: Baldur's Gate: Descent Into Avernus p. 232*  
 
 Bane's devoted followers are warriors who seek to rule through martial strength and intimidation, cruel tyrants who use threats and gifts as needed to ensure loyalty. They enslave those too weak to resist them and shower the strong with gifts and promises of power to turn them into loyal vassals.
@@ -33,35 +35,36 @@ Bane's cultists operate according to strict military hierarchies. The lowest ran
 "subtype": "human"
 "alignment": "Lawful Evil"
 "ac": !!int "18"
-"ac_class": "[chain mail](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/items/chain-mail.md),\
-  \ [shield](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/items/shield.md)"
+"ac_class": "[chain mail](03.PlayerLog&Handouts/Mechanics/CLI/items/chain-mail.md),\
+  \ [shield](03.PlayerLog&Handouts/Mechanics/CLI/items/shield.md)"
 "hp": !!int "22"
 "hit_dice": "4d8 + 4"
+"modifier": !!int "0"
 "stats":
-- !!int "16"
-- !!int "11"
-- !!int "13"
-- !!int "10"
-- !!int "12"
-- !!int "11"
+  - !!int "16"
+  - !!int "11"
+  - !!int "13"
+  - !!int "10"
+  - !!int "12"
+  - !!int "11"
 "speed": "30 ft."
-"condition_immunities": "[frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
+"condition_immunities": "[frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)"
 "senses": "passive Perception 11"
 "languages": "Common"
 "cr": "1/2"
 "traits":
-- "desc": "The fist of Bane has advantage on all ability checks and saving throws\
-    \ made during combat."
-  "name": "Tactical Discipline"
+  - "desc": "The fist of Bane has advantage on all ability checks and saving throws\
+      \ made during combat."
+    "name": "Tactical Discipline"
 "actions":
-- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6\
-    \ + 3) bludgeoning damage."
-  "name": "Mace"
-- "desc": "Ranged Weapon Attack: +2 to hit, range 150/600 ft., one target. Hit:\
-    \ 4 (1d8) piercing damage."
-  "name": "Longbow"
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+      \ (1d6 + 3) bludgeoning damage."
+    "name": "Mace"
+  - "desc": "Ranged Weapon Attack: +2 to hit, range 150/600 ft., one target. Hit:\
+      \ 4 (d8) piercing damage."
+    "name": "Longbow"
 "source":
-- "BGDIA"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/humanoid/token/fist-of-bane-bgdia.webp"
+  - "BGDIA"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/fist-of-bane-bgdia.webp"
 ```
 ^statblock

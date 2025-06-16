@@ -4,7 +4,8 @@ cssclasses: json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/scag
-aliases: ["Inheritor"]
+aliases:
+- Inheritor
 ---
 # Inheritor
 *Source: Sword Coast Adventurer's Guide p. 150*  
@@ -13,7 +14,7 @@ aliases: ["Inheritor"]
 - **Skill Proficiencies.** [Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival), plus one from among [Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana), [History](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#History), and [Religion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Religion)  
 - **Languages.** Any one of your choice  
 - **Tool Proficiencies.** Your choice of a gaming set or a musical instrument  
-- **Equipment.** Your inheritance, a set of [traveler's clothes](travelers-clothes.md), the tool you choose for this background's tool proficiency (gaming set or musical instrument), and a [pouch](pouch.md) containing 15 gp  
+- **Equipment.** Your inheritance, a set of [traveler's clothes](03.PlayerLog&Handouts/Mechanics/CLI/items/travelers-clothes.md), the tool you choose for this background's tool proficiency (gaming set or musical instrument), and a [pouch](03.PlayerLog&Handouts/Mechanics/CLI/items/pouch.md) containing 15 gp  
 
 You are the heir to something of great value—not mere coin or wealth, but an object that has been entrusted to you and you alone. Your inheritance might have come directly to you from a member of your family, by right of birth, or it could have been left to you by a friend, a mentor, a teacher, or someone else important in your life. The revelation of your inheritance changed your life, and might have set you on the path to adventure, but it could also come with many dangers, including those who covet your gift and want to take it from you—by force, if need be.
 
@@ -40,6 +41,6 @@ When you begin your adventuring career, you can decide whether to tell your comp
 
 ## Suggested Characteristics
 
-Use the tables for the [folk hero](folk-hero.md) background in the Player's Handbook as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as an inheritor.
+Use the tables for the [folk hero](03.PlayerLog&Handouts/Mechanics/CLI/backgrounds/folk-hero.md) background in the Player's Handbook as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as an inheritor.
 
 Your bond might be directly related to your inheritance, or to the person from whom you received it. Your ideal might be influenced by what you know about your inheritance, or by what you intend to do with your gift once you realize what it is capable of.

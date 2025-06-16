@@ -10,7 +10,7 @@ aliases:
 ---
 # Orb of Dragonkind
 *Wondrous item, artifact (requires attunement)*  
-![](orb-of-dragonkind.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/orb-of-dragonkind.webp#right)
 
 - **Weight**: 3.0 lbs.
 
@@ -22,28 +22,28 @@ Each orb contains the essence of an evil dragon, a presence that resents any att
 
 An orb is an etched crystal globe about 10 inches in diameter. When used, it grows to about 20 inches in diameter, and mist swirls inside it.
 
-While attuned to an orb, you can use an action to peer into the orb's depths and speak its command word. You must then make a DC 15 Charisma check. On a successful check, you control the orb for as long as you remain attuned to it. On a failed check, you become [charmed](conditions.md#Charmed) by the orb for as long as you remain attuned to it.
+While attuned to an orb, you can use an action to peer into the orb's depths and speak its command word. You must then make a DC 15 Charisma check. On a successful check, you control the orb for as long as you remain attuned to it. On a failed check, you become [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed) by the orb for as long as you remain attuned to it.
 
-While you are [charmed](conditions.md#Charmed) by the orb, you can't voluntarily end your attunement to it, and the orb casts [suggestion](suggestion.md) on you at will (save DC 18), urging you to work toward the evil ends it desires. The dragon essence within the orb might want many things: the annihilation of a particular people, freedom from the orb, to spread suffering in the world, to advance the worship of Takhisis ([Tiamat's](tiamat-rot.md) name on Krynn), or something else the DM decides.
+While you are [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed) by the orb, you can't voluntarily end your attunement to it, and the orb casts [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md) on you at will (save DC 18), urging you to work toward the evil ends it desires. The dragon essence within the orb might want many things: the annihilation of a particular people, freedom from the orb, to spread suffering in the world, to advance the worship of Takhisis ([Tiamat's](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/tiamat-rot.md) name on Krynn), or something else the DM decides.
 
 ## Random Properties
 
 An Orb of Dragonkind has the following random properties:
 
-- 2 [minor beneficial properties](artifact-properties-minor-beneficial-properties.md)  
-- 1 [minor detrimental property](artifact-properties-minor-detrimental-properties.md)  
-- 1 [major detrimental property](artifact-properties-major-detrimental-properties.md)  
+- 2 [minor beneficial properties](03.PlayerLog&Handouts/Mechanics/CLI/tables/artifact-properties-minor-beneficial-properties.md)  
+- 1 [minor detrimental property](03.PlayerLog&Handouts/Mechanics/CLI/tables/artifact-properties-minor-detrimental-properties.md)  
+- 1 [major detrimental property](03.PlayerLog&Handouts/Mechanics/CLI/tables/artifact-properties-major-detrimental-properties.md)  
 
 ## Spells
 
-The orb has 7 charges and regains `1d4 + 3` expended charges daily at dawn. If you control the orb, you can use an action and expend 1 or more charges to cast one of the following spells (save DC 18) from it: [cure wounds](cure-wounds.md) (5th-level version, 3 charges), [daylight](daylight.md) (1 charge), [death ward](death-ward.md) (2 charges), or [scrying](scrying.md) (3 charges). You can also use an action to cast the [detect magic](detect-magic.md) spell from the orb without using any charges.
+The orb has 7 charges and regains `1d4 + 3` expended charges daily at dawn. If you control the orb, you can use an action and expend 1 or more charges to cast one of the following spells (save DC 18) from it: [cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/cure-wounds.md) (5th-level version, 3 charges), [daylight](03.PlayerLog&Handouts/Mechanics/CLI/spells/daylight.md) (1 charge), [death ward](03.PlayerLog&Handouts/Mechanics/CLI/spells/death-ward.md) (2 charges), or [scrying](03.PlayerLog&Handouts/Mechanics/CLI/spells/scrying.md) (3 charges). You can also use an action to cast the [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md) spell from the orb without using any charges.
 
 ## Call Dragons
 
-While you control the orb, you can use an action to cause the artifact to issue a telepathic call that extends in all directions for 40 miles. Evil dragons in range feel compelled to come to the orb as soon as possible by the most direct route. Dragon deities such as [Tiamat](tiamat-rot.md) are unaffected by this call. Dragons drawn to the orb might be hostile toward you for compelling them against their will. Once you have used this property, it can't be used again for 1 hour.
+While you control the orb, you can use an action to cause the artifact to issue a telepathic call that extends in all directions for 40 miles. Evil dragons in range feel compelled to come to the orb as soon as possible by the most direct route. Dragon deities such as [Tiamat](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/tiamat-rot.md) are unaffected by this call. Dragons drawn to the orb might be hostile toward you for compelling them against their will. Once you have used this property, it can't be used again for 1 hour.
 
 ## Destroying an Orb
 
-An Orb of Dragonkind appears fragile but is impervious to most damage, including the attacks and breath weapons of dragons. A [disintegrate](disintegrate.md) spell or one good hit from a +3 magic weapon is sufficient to destroy an orb, however.
+An Orb of Dragonkind appears fragile but is impervious to most damage, including the attacks and breath weapons of dragons. A [disintegrate](03.PlayerLog&Handouts/Mechanics/CLI/spells/disintegrate.md) spell or one good hit from a +3 magic weapon is sufficient to destroy an orb, however.
 
 *Source: Dungeon Master's Guide p. 225. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

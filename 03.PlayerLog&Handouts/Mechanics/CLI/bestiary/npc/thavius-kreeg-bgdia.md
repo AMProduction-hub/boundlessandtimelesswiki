@@ -7,9 +7,11 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/humanoid/human
 statblock: inline
-aliases: ["Thavius Kreeg"]
+statblock-link: "#^statblock"
+aliases:
+- Thavius Kreeg
 ---
-# [Thavius Kreeg](03 - Player Log & Handouts\Mechanics\CLI\bestiary\npc/thavius-kreeg-bgdia.md)
+# [Thavius Kreeg](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/thavius-kreeg-bgdia.md)
 *Source: Baldur's Gate: Descent Into Avernus p. 42*  
 
 ```statblock
@@ -21,31 +23,36 @@ aliases: ["Thavius Kreeg"]
 "ac": !!int "10"
 "hp": !!int "40"
 "hit_dice": "9d8"
+"modifier": !!int "0"
 "stats":
-- !!int "12"
-- !!int "10"
-- !!int "11"
-- !!int "15"
-- !!int "18"
-- !!int "16"
+  - !!int "12"
+  - !!int "10"
+  - !!int "11"
+  - !!int "15"
+  - !!int "18"
+  - !!int "16"
 "speed": "30 ft."
 "skillsaves":
-  "Medicine": !!int "6"
-  "Deception": !!int "5"
-  "Religion": !!int "4"
-  "Persuasion": !!int "5"
+  - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
+    "desc": "+5"
+  - "name": "[Medicine](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Medicine)"
+    "desc": "+6"
+  - "name": "[Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion)"
+    "desc": "+5"
+  - "name": "[Religion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Religion)"
+    "desc": "+4"
 "senses": "passive Perception 14"
 "languages": "Abyssal, Common, Infernal"
 "cr": "1/2"
 "traits":
-- "desc": "Thavius's shadow is that of a pudgy, horned devil with small wings."
-  "name": "Shadow of Guilt"
+  - "desc": "Thavius's shadow is that of a pudgy, horned devil with small wings."
+    "name": "Shadow of Guilt"
 "actions":
-- "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6\
-    \ + 1) bludgeoning damage."
-  "name": "Mace"
+  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4\
+      \ (1d6 + 1) bludgeoning damage."
+    "name": "Mace"
 "source":
-- "BGDIA"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/npc/token/thavius-kreeg-bgdia.webp"
+  - "BGDIA"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/token/thavius-kreeg-bgdia.webp"
 ```
 ^statblock

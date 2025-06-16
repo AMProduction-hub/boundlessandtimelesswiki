@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
-aliases: ["Random Tricks; Tricks"]
+aliases:
+- Random Tricks; Tricks
 ---
 # Random Tricks; Tricks
 *Source: Dungeon Master's Guide p. 297* 
@@ -24,24 +25,24 @@ aliases: ["Random Tricks; Tricks"]
 | 23-26 | Creates an illusion |
 | 27-29 | Suppresses magic items for a time |
 | 30-32 | Enlarges or reduces characters |
-| 33-35 | [Magic mouth](magic-mouth.md) speaks a riddle |
-| 36-38 | [Confusion](confusion.md) (targets all creatures within 10 ft.) |
+| 33-35 | [Magic mouth](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-mouth.md) speaks a riddle |
+| 36-38 | [Confusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/confusion.md) (targets all creatures within 10 ft.) |
 | 39-41 | Gives directions (true or false) |
 | 42-44 | Grants a wish |
 | 45-47 | Flies about to avoid being touched |
-| 48-50 | Casts [geas](geas.md) on the characters |
+| 48-50 | Casts [geas](03.PlayerLog&Handouts/Mechanics/CLI/spells/geas.md) on the characters |
 | 51-53 | Increases, reduces, negates, or reverses gravity |
 | 54-56 | Induces greed |
 | 57-59 | Contains an imprisoned creature |
 | 60-62 | Locks or unlocks exits |
 | 63-65 | Offers a game of chance, with the promise of a reward or valuable information |
 | 66-68 | Helps or harms certain types of creatures |
-| 69-71 | Casts [polymorph](polymorph.md) on the characters (lasts 1 hour) |
+| 69-71 | Casts [polymorph](03.PlayerLog&Handouts/Mechanics/CLI/spells/polymorph.md) on the characters (lasts 1 hour) |
 | 72-75 | Presents a puzzle or riddle |
 | 76-78 | Prevents movement |
 | 79-81 | Releases coins, false coins, gems, false gems, a magic item, or a map |
 | 82-84 | Releases, summons, or turns into a monster |
-| 85-87 | Casts [suggestion](suggestion.md) on the characters |
+| 85-87 | Casts [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md) on the characters |
 | 88-90 | Wails loudly when touched |
 | 91-93 | Talks (normal speech, nonsense, poetry and rhymes, singing, spellcasting, or screaming) |
 | 94-97 | Teleports characters to another place |

@@ -4,10 +4,11 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/scag
 - ttrpg-cli/subclass/fighter/purple-dragon-knight-banneret
-aliases: ["Purple Dragon Knight (Banneret)"]
+aliases:
+- Purple Dragon Knight (Banneret)
 ---
 # Purple Dragon Knight (Banneret)
-*[Fighter](03.PlayerLog&Handouts/Mechanics/CLI/classes/fighter.md): Martial Archetype*  
+*[Fighter](./fighter.md): Martial Archetype*  
 *Source: Sword Coast Adventurer's Guide p. 128*  
 
 > [!tldr] Class and Feature Progression
@@ -80,7 +81,7 @@ Starting at 18th level, you can choose two allies within 60 feet of you, rather 
 
 ### Bulwark (Level 15)
 
-Beginning at 15th level, you can extend the benefit of your Indomitable feature to an ally. When you decide to use Indomitable to reroll an Intelligence, a Wisdom, or a Charisma saving throw and you aren't [incapacitated](conditions.md#Incapacitated), you can choose one ally within 60 feet of you that also failed its saving throw against the same effect. If that creature can see or hear you, it can reroll its saving throw and must use the new roll.
+Beginning at 15th level, you can extend the benefit of your Indomitable feature to an ally. When you decide to use Indomitable to reroll an Intelligence, a Wisdom, or a Charisma saving throw and you aren't [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated), you can choose one ally within 60 feet of you that also failed its saving throw against the same effect. If that creature can see or hear you, it can reroll its saving throw and must use the new roll.
 
 ### Inspiring Surge (Level 18)
 

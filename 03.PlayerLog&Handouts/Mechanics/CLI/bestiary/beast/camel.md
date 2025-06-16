@@ -8,10 +8,12 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/beast
 statblock: inline
-aliases: ["Camel"]
+statblock-link: "#^statblock"
+aliases:
+- Camel
 ---
-# [Camel](03 - Player Log & Handouts\Mechanics\CLI\bestiary\beast/camel.md)
-*Source: Monster Manual p. 320. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Camel](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/camel.md)
+*Source: Monster Manual p. 320, Ghosts of Saltmarsh, Candlekeep Mysteries. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 ```statblock
 "name": "Camel"
@@ -21,24 +23,27 @@ aliases: ["Camel"]
 "ac": !!int "9"
 "hp": !!int "15"
 "hit_dice": "2d10 + 4"
+"modifier": !!int "-1"
 "stats":
-- !!int "16"
-- !!int "8"
-- !!int "14"
-- !!int "2"
-- !!int "8"
-- !!int "5"
+  - !!int "16"
+  - !!int "8"
+  - !!int "14"
+  - !!int "2"
+  - !!int "8"
+  - !!int "5"
 "speed": "50 ft."
 "senses": "passive Perception 9"
 "languages": ""
 "cr": "1/8"
 "actions":
-- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 2 (1d4)\
-    \ bludgeoning damage."
-  "name": "Bite"
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 2\
+      \ (d4) bludgeoning damage."
+    "name": "Bite"
 "source":
-- "MM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/beast/token/camel.webp"
+  - "MM"
+  - "GoS"
+  - "CM"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/camel.webp"
 ```
 ^statblock
 

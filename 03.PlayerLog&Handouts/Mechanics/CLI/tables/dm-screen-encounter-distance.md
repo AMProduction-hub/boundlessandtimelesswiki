@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/screen
-aliases: ["DM Screen; Encounter Distance"]
+aliases:
+- DM Screen; Encounter Distance
 ---
 # DM Screen; Encounter Distance
 *Source: Dungeon Master's Screen* 

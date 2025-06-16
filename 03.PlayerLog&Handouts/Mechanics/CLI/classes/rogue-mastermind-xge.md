@@ -4,10 +4,11 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 - ttrpg-cli/subclass/rogue/mastermind
-aliases: ["Mastermind"]
+aliases:
+- Mastermind
 ---
 # Mastermind
-*[Rogue](03.PlayerLog&Handouts/Mechanics/CLI/classes/rogue.md): Roguish Archetype*  
+*[Rogue](./rogue.md): Roguish Archetype*  
 *Source: Xanathar's Guide to Everything p. 46, Sword Coast Adventurer's Guide p. 135*  
 
 > [!tldr] Class and Feature Progression
@@ -42,6 +43,10 @@ aliases: ["Mastermind"]
 ^class-progression
 
 
+> [!quote] A quote from Xanathar  
+> 
+> Oh, please. If anyone is a mastermind around here, it's me. You're like a master doofus or a master dummy. No, you are!
+
 ## Class Features
 
 ### Mastermind (Level 3)
@@ -50,13 +55,13 @@ Your focus is on people and on the influence and secrets they have. Many spies, 
 
 ### Master of Intrigue (Level 3)
 
-When you choose this archetype at 3rd level, you gain proficiency with the [disguise kit](disguise-kit.md), the [forgery kit](forgery-kit.md), and one [gaming set](gaming-set.md) of your choice. You also learn two languages of your choice.
+When you choose this archetype at 3rd level, you gain proficiency with the [disguise kit](03.PlayerLog&Handouts/Mechanics/CLI/items/disguise-kit.md), the [forgery kit](03.PlayerLog&Handouts/Mechanics/CLI/items/forgery-kit.md), and one [gaming set](03.PlayerLog&Handouts/Mechanics/CLI/items/gaming-set.md) of your choice. You also learn two languages of your choice.
 
 Additionally, you can unerringly mimic the speech patterns and accent of a creature that you hear speak for at least 1 minute, enabling you to pass yourself off as a native speaker of a particular land, provided that you know the language.
 
 ### Master of Tactics (Level 3)
 
-Starting at 3rd level, you can use the [Help](actions.md#Help) action as a bonus action. Additionally, when you use the [Help](actions.md#Help) action to aid an ally in attacking a creature, the target of that attack can be within 30 feet of you, rather than within 5 feet of you, if the target can see or hear you.
+Starting at 3rd level, you can use the [Help](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Help) action as a bonus action. Additionally, when you use the [Help](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Help) action to aid an ally in attacking a creature, the target of that attack can be within 30 feet of you, rather than within 5 feet of you, if the target can see or hear you.
 
 ### Insightful Manipulator (Level 9)
 

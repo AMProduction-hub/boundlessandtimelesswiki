@@ -12,12 +12,12 @@ aliases:
 ---
 # Staff of the Woodlands
 *Staff, weapon, major, rare (requires attunement by a druid)*  
-![](staff-of-the-woodlands.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/staff-of-the-woodlands.webp#right)
 
 - **Damage**:
   - One-handed: 1d6 bludgeoning
   - Two-handed: 1d8 bludgeoning
-- **Properties**: [Versatile](item-properties.md#Versatile)
+- **Properties**: [Versatile](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Versatile)
 - **Weight**: 4.0 lbs.
 
 This staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls made with it. While holding it, you have a +2 bonus to spell attack rolls.
@@ -26,12 +26,12 @@ The staff has 10 charges for the following properties. It regains `1d6 + 4` expe
 
 ## Spells
 
-You can use an action to expend 1 or more of the staff's charges to cast one of the following spells from it, using your spell save DC: [animal friendship](animal-friendship.md) (1 charge), [awaken](awaken.md) (5 charges), [barkskin](barkskin.md) (2 charges), [locate animals or plants](locate-animals-or-plants.md) (2 charges), [speak with animals](speak-with-animals.md) (1 charge), [speak with plants](speak-with-plants.md) (3 charges), or [wall of thorns](wall-of-thorns.md) (6 charges).
+You can use an action to expend 1 or more of the staff's charges to cast one of the following spells from it, using your spell save DC: [animal friendship](03.PlayerLog&Handouts/Mechanics/CLI/spells/animal-friendship.md) (1 charge), [awaken](03.PlayerLog&Handouts/Mechanics/CLI/spells/awaken.md) (5 charges), [barkskin](03.PlayerLog&Handouts/Mechanics/CLI/spells/barkskin.md) (2 charges), [locate animals or plants](03.PlayerLog&Handouts/Mechanics/CLI/spells/locate-animals-or-plants.md) (2 charges), [speak with animals](03.PlayerLog&Handouts/Mechanics/CLI/spells/speak-with-animals.md) (1 charge), [speak with plants](03.PlayerLog&Handouts/Mechanics/CLI/spells/speak-with-plants.md) (3 charges), or [wall of thorns](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-thorns.md) (6 charges).
 
-You can also use an action to cast the [pass without trace](pass-without-trace.md) spell from the staff without using any charges.
+You can also use an action to cast the [pass without trace](03.PlayerLog&Handouts/Mechanics/CLI/spells/pass-without-trace.md) spell from the staff without using any charges.
 
 ## Tree Form
 
-You can use an action to plant one end of the staff in fertile earth and expend 1 charge to transform the staff into a healthy tree. The tree is 60 feet tall and has a 5-foot-diameter trunk, and its branches at the top spread out in a 20-foot radius. The tree appears ordinary but radiates a faint aura of transmutation magic if targeted by [detect magic](detect-magic.md). While touching the tree and using another action to speak its command word, you return the staff to its normal form. Any creature in the tree falls when it reverts to a staff.
+You can use an action to plant one end of the staff in fertile earth and expend 1 charge to transform the staff into a healthy tree. The tree is 60 feet tall and has a 5-foot-diameter trunk, and its branches at the top spread out in a 20-foot radius. The tree appears ordinary but radiates a faint aura of transmutation magic if targeted by [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md). While touching the tree and using another action to speak its command word, you return the staff to its normal form. Any creature in the tree falls when it reverts to a staff.
 
 *Source: Dungeon Master's Guide p. 204. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

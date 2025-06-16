@@ -5,10 +5,11 @@ tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/domain/light
 - ttrpg-cli/subclass/cleric/light
-aliases: ["Light Domain"]
+aliases:
+- Light Domain
 ---
 # Light Domain
-*[Cleric](cleric.md): Divine Domain*  
+*[Cleric](./cleric.md): Divine Domain*  
 *Source: Player's Handbook p. 60*  
 
 > [!tldr] Class and Feature Progression
@@ -47,7 +48,7 @@ aliases: ["Light Domain"]
 
 ### Light Domain (Level 1)
 
-Gods of light—including Helm, Lathander, Pholtus, Branchala, the Silver Flame, Belenus, Apollo, and Re-Horakhty—promote the ideals of rebirth and renewal, truth, vigilance, and beauty, often using the symbol of the sun. Some of these gods are portrayed as the sun itself or as a charioteer who guides the sun across the sky. Others are tireless sentinels whose eyes pierce every shadow and see through every deception. Some are deities of beauty and artistry, who teach that art is a vehicle for the soul's improvement. Clerics of a god of light are enlightened souls infused with radiance and the power of their gods' discerning vision, charged with chasing away lies and burning away darkness.
+Gods of light—including Helm, Lathander, [Pholtus](03.PlayerLog&Handouts/Mechanics/CLI/deities/greyhawk-pholtus.md), Branchala, the Silver Flame, [Belenus](03.PlayerLog&Handouts/Mechanics/CLI/deities/celtic-belenus.md), [Apollo](03.PlayerLog&Handouts/Mechanics/CLI/deities/greek-apollo.md), and [Re-Horakhty](03.PlayerLog&Handouts/Mechanics/CLI/deities/egyptian-re-horakhty.md)—promote the ideals of rebirth and renewal, truth, vigilance, and beauty, often using the symbol of the sun. Some of these gods are portrayed as the sun itself or as a charioteer who guides the sun across the sky. Others are tireless sentinels whose eyes pierce every shadow and see through every deception. Some are deities of beauty and artistry, who teach that art is a vehicle for the soul's improvement. Clerics of a god of light are enlightened souls infused with radiance and the power of their gods' discerning vision, charged with chasing away lies and burning away darkness.
 
 At each indicated cleric level, you add the listed spells to your spells prepared.
 
@@ -55,20 +56,20 @@ At each indicated cleric level, you add the listed spells to your spells prepare
 
 | Cleric Level | Spells |
 |--------------|--------|
-| 1st | [burning hands](burning-hands.md), [faerie fire](faerie-fire.md) |
-| 3rd | [flaming sphere](flaming-sphere.md), [scorching ray](scorching-ray.md) |
-| 5th | [daylight](daylight.md), [fireball](fireball.md) |
-| 7th | [guardian of faith](guardian-of-faith.md), [wall of fire](wall-of-fire.md) |
-| 9th | [flame strike](flame-strike.md), [scrying](scrying.md) |
+| 1st | [burning hands](03.PlayerLog&Handouts/Mechanics/CLI/spells/burning-hands.md), [faerie fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/faerie-fire.md) |
+| 3rd | [flaming sphere](03.PlayerLog&Handouts/Mechanics/CLI/spells/flaming-sphere.md), [scorching ray](03.PlayerLog&Handouts/Mechanics/CLI/spells/scorching-ray.md) |
+| 5th | [daylight](03.PlayerLog&Handouts/Mechanics/CLI/spells/daylight.md), [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md) |
+| 7th | [guardian of faith](03.PlayerLog&Handouts/Mechanics/CLI/spells/guardian-of-faith.md), [wall of fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-fire.md) |
+| 9th | [flame strike](03.PlayerLog&Handouts/Mechanics/CLI/spells/flame-strike.md), [scrying](03.PlayerLog&Handouts/Mechanics/CLI/spells/scrying.md) |
 ^light-domain-spells
 
 ### Bonus Cantrip (Level 1)
 
-When you choose this domain at 1st level, you gain the [light](light.md) cantrip if you don't already know it. This cantrip doesn't count against the number of cleric cantrips you know.
+When you choose this domain at 1st level, you gain the [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md) cantrip if you don't already know it. This cantrip doesn't count against the number of cleric cantrips you know.
 
 ### Warding Flare (Level 1)
 
-Also at 1st level, you can interpose divine light between yourself and an attacking enemy. When you are attacked by a creature within 30 feet of you that you can see, you can use your reaction to impose disadvantage on the attack roll, causing light to flare before the attacker before it hits or misses. An attacker that can't be [blinded](conditions.md#Blinded) is immune to this feature.
+Also at 1st level, you can interpose divine light between yourself and an attacking enemy. When you are attacked by a creature within 30 feet of you that you can see, you can use your reaction to impose disadvantage on the attack roll, causing light to flare before the attacker before it hits or misses. An attacker that can't be [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded) is immune to this feature.
 
 You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest.
 
@@ -89,9 +90,9 @@ Starting at 8th level, you add your Wisdom modifier to the damage you deal with 
 ### Blessed Strikes (Level 8)
 _Source: Tasha's Cauldron of Everything p. 30_
 
-*8th-level cleric [optional feature](optional-class-features-tce.md), which replaces the Potent Spellcasting feature*
+*8th-level cleric [optional feature](03.PlayerLog&Handouts/Mechanics/CLI/rules/variant-rules/optional-class-features-tce.md), which replaces the Potent Spellcasting feature*
 
-You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal `1d8` radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.
+You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal `d8` radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.
 
 ### Corona of Light (Level 17)
 

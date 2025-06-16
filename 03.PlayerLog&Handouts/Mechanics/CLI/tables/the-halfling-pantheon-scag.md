@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/scag
-aliases: ["The Halfling Pantheon"]
+aliases:
+- The Halfling Pantheon
 ---
 # The Halfling Pantheon
 *Source: Sword Coast Adventurer's Guide p. 23* 

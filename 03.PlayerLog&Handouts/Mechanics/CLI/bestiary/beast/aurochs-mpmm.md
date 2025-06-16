@@ -10,9 +10,11 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/beast/cattle
 statblock: inline
-aliases: ["Aurochs"]
+statblock-link: "#^statblock"
+aliases:
+- Aurochs
 ---
-# [Aurochs](03 - Player Log & Handouts\Mechanics\CLI\bestiary\beast/aurochs-mpmm.md)
+# [Aurochs](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/aurochs-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 71, Volo's Guide to Monsters p. 207*  
 
 An aurochs is a large, fierce bovine with jutting horns. In many lands, herds of aurochs roam free, while elsewhere orcs and humans train them from an early age to carry riders into combat.
@@ -31,29 +33,30 @@ Many kinds of cattle roam the multiverse, some of them domesticated and others f
 "ac_class": "natural armor"
 "hp": !!int "38"
 "hit_dice": "4d10 + 16"
+"modifier": !!int "0"
 "stats":
-- !!int "20"
-- !!int "10"
-- !!int "19"
-- !!int "2"
-- !!int "12"
-- !!int "5"
+  - !!int "20"
+  - !!int "10"
+  - !!int "19"
+  - !!int "2"
+  - !!int "12"
+  - !!int "5"
 "speed": "50 ft."
 "senses": "passive Perception 11"
 "languages": ""
 "cr": "2"
 "actions":
-- "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14\
-    \ (2d8 + 5) piercing damage. If the aurochs moved at least 20 feet straight\
-    \ toward the target immediately before the hit, the target takes an extra 9 (2d8)\
-    \ piercing damage, and the target must succeed on a DC 15 Strength saving throw\
-    \ or be knocked [prone](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Prone)\
-    \ if it is a creature."
-  "name": "Gore"
+  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14\
+      \ (2d8 + 5) piercing damage. If the aurochs moved at least 20 feet straight\
+      \ toward the target immediately before the hit, the target takes an extra 9\
+      \ (2d8) piercing damage, and the target must succeed on a DC 15 Strength saving\
+      \ throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)\
+      \ if it is a creature."
+    "name": "Gore"
 "source":
-- "MPMM"
-- "VGM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/beast/token/aurochs-mpmm.webp"
+  - "MPMM"
+  - "VGM"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/aurochs-mpmm.webp"
 ```
 ^statblock
 

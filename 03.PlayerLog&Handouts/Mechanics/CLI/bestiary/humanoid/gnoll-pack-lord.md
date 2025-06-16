@@ -11,10 +11,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/humanoid/gnoll
 statblock: inline
-aliases: ["Gnoll Pack Lord"]
+statblock-link: "#^statblock"
+aliases:
+- Gnoll Pack Lord
 ---
-# [Gnoll Pack Lord](03 - Player Log & Handouts\Mechanics\CLI\bestiary\humanoid/gnoll-pack-lord.md)
-*Source: Monster Manual p. 163, Baldur's Gate: Descent Into Avernus*  
+# [Gnoll Pack Lord](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/gnoll-pack-lord.md)
+*Source: Monster Manual p. 163, Princes of the Apocalypse, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus*  
 
 The alpha of a gnoll pack is the pack lord, ruling by might and cunning. A pack lord earns the best of a gnoll pack's spoils, food, valuable trinkets, and magic items. It ornaments its body with brutal piercings and grotesque trophies, dyeing its fur with demonic sigils, hoping Yeenoghu will make it invulnerable.
 
@@ -43,45 +45,48 @@ No goodness or compassion resides in the heart of a gnoll. Like a demon, it lack
 "subtype": "gnoll"
 "alignment": "Chaotic Evil"
 "ac": !!int "15"
-"ac_class": "[chain shirt](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/items/chain-shirt.md)"
+"ac_class": "[chain shirt](03.PlayerLog&Handouts/Mechanics/CLI/items/chain-shirt.md)"
 "hp": !!int "49"
 "hit_dice": "9d8 + 9"
+"modifier": !!int "2"
 "stats":
-- !!int "16"
-- !!int "14"
-- !!int "13"
-- !!int "8"
-- !!int "11"
-- !!int "9"
+  - !!int "16"
+  - !!int "14"
+  - !!int "13"
+  - !!int "8"
+  - !!int "11"
+  - !!int "9"
 "speed": "30 ft."
 "senses": "darkvision 60 ft., passive Perception 10"
 "languages": "Gnoll"
 "cr": "2"
 "traits":
-- "desc": "When the gnoll reduces a creature to 0 hit points with a melee attack on\
-    \ its turn, the gnoll can take a bonus action to move up to half its speed and\
-    \ make a bite attack."
-  "name": "Rampage"
+  - "desc": "When the gnoll reduces a creature to 0 hit points with a melee attack\
+      \ on its turn, the gnoll can take a bonus action to move up to half its speed\
+      \ and make a bite attack."
+    "name": "Rampage"
 "actions":
-- "desc": "The gnoll makes two attacks, either with its glaive or its longbow, and\
-    \ uses its Incite Rampage if it can."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 5\
-    \ (1d4 + 3) piercing damage."
-  "name": "Bite"
-- "desc": "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 8\
-    \ (1d10 + 3) slashing damage."
-  "name": "Glaive"
-- "desc": "Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit:\
-    \ 6 (1d8 + 2) piercing damage."
-  "name": "Longbow"
-- "desc": "One creature the gnoll can see within 30 feet of it can use its reaction\
-    \ to make a melee attack if it can hear the gnoll and has the Rampage trait."
-  "name": "Incite Rampage (Recharge 5-6)"
+  - "desc": "The gnoll makes two attacks, either with its glaive or its longbow, and\
+      \ uses its Incite Rampage if it can."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit:\
+      \ 5 (1d4 + 3) piercing damage."
+    "name": "Bite"
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit:\
+      \ 8 (1d10 + 3) slashing damage."
+    "name": "Glaive"
+  - "desc": "Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit:\
+      \ 6 (1d8 + 2) piercing damage."
+    "name": "Longbow"
+  - "desc": "One creature the gnoll can see within 30 feet of it can use its reaction\
+      \ to make a melee attack if it can hear the gnoll and has the Rampage trait."
+    "name": "Incite Rampage (Recharge 5-6)"
 "source":
-- "MM"
-- "BGDIA"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/humanoid/token/gnoll-pack-lord.webp"
+  - "MM"
+  - "PotA"
+  - "GoS"
+  - "BGDIA"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/gnoll-pack-lord.webp"
 ```
 ^statblock
 

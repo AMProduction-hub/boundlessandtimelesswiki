@@ -7,10 +7,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/fiend/devil
 statblock: inline
-aliases: ["Erinyes"]
+statblock-link: "#^statblock"
+aliases:
+- Erinyes
 ---
-# [Erinyes](03 - Player Log & Handouts\Mechanics\CLI\bestiary\fiend/erinyes.md)
-*Source: Monster Manual p. 73, Baldur's Gate: Descent Into Avernus, Sigil and the Outlands. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Erinyes](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/erinyes.md)
+*Source: Monster Manual p. 73, Tomb of Annihilation, Baldur's Gate: Descent Into Avernus, Explorer's Guide to Wildemount, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 The most beautiful and striking of all lesser and greater devils, the erinyes are fierce and disciplined warriors. Sweeping down from the skies, they bring swift death to creatures that have wronged their masters or defied the edicts of Asmodeus. The erinyes appear as male or female humanoids with statuesque builds and large feathery wings. Most wear stylized armor and horned helms, and carry exquisite swords and bows. A few also use ropes of entanglement to ensnare powerful foes.
 
@@ -22,7 +24,7 @@ Legends tell that the first erinyes were angels that fell from the Upper Planes 
 
 > [!note] Variant: Rope of Entanglement
 > 
-> Some erinyes carry a [rope of entanglement](rope-of-entanglement.md) (detailed in the Dungeon Master's Guide). When such an erinyes uses its Multiattack, the erinyes can use the rope in place of two of the attacks.
+> Some erinyes carry a [rope of entanglement](03.PlayerLog&Handouts/Mechanics/CLI/items/rope-of-entanglement.md) (detailed in the Dungeon Master's Guide). When such an erinyes uses its Multiattack, the erinyes can use the rope in place of two of the attacks.
 ^variant-rope-of-entanglement
 
 ## Devils
@@ -121,7 +123,7 @@ The Nine Hells are a single plane comprising nine separate layers (see the Layer
 
 > [!note] Devil True Names and Talismans
 > 
-> Though devils all have common names, every devil above a lemure in station also has a true name that it keeps secret. A devil can be forced to disclose its true name if [charmed](conditions.md#Charmed), and ancient scrolls and tomes are said to exist that list the true names of certain devils.
+> Though devils all have common names, every devil above a lemure in station also has a true name that it keeps secret. A devil can be forced to disclose its true name if [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), and ancient scrolls and tomes are said to exist that list the true names of certain devils.
 > 
 > A mortal who learns a devil's true name can use powerful summoning magic to call the devil from the Nine Hells and bind it into service. Binding can also be accomplished with the help of a devil talisman. Each of these ancient relics is inscribed with the true name of a devil it controls, and was bathed in the blood of a worthy sacrifice-typically someone the creator loved-when crafted.
 > 
@@ -137,10 +139,10 @@ The Nine Hells are a single plane comprising nine separate layers (see the Layer
 > - A barbed devil has a 30 percent chance of summoning one barbed devil.  
 > - A bearded devil has a 30 percent chance of summoning one bearded devil.  
 > - A bone devil has a 40 percent chance of summoning `2d6` spined devils or one bone devil.  
-> - An erinyes has a 50 percent chance of summoning `3d6` spined devils, `1d6` bearded devils, or one erinyes.  
+> - An erinyes has a 50 percent chance of summoning `3d6` spined devils, `d6` bearded devils, or one erinyes.  
 > - A horned devil has a 30 percent chance of summoning one horned devil.  
 > - An ice devil has a 60 percent chance of summoning one ice devil.  
-> - A pit fiend summons `2d4` bearded devils, `1d4` barbed devils, or one erinyes with no chance of failure.  
+> - A pit fiend summons `2d4` bearded devils, `d4` barbed devils, or one erinyes with no chance of failure.  
 > 
 > A summoned devil appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other devils. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.
 ^variant-devil-summoning
@@ -152,57 +154,60 @@ The Nine Hells are a single plane comprising nine separate layers (see the Layer
 "subtype": "devil"
 "alignment": "Lawful Evil"
 "ac": !!int "18"
-"ac_class": "[plate armor](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/items/plate-armor.md)"
+"ac_class": "[plate armor](03.PlayerLog&Handouts/Mechanics/CLI/items/plate-armor.md)"
 "hp": !!int "153"
 "hit_dice": "18d8 + 72"
+"modifier": !!int "3"
 "stats":
-- !!int "18"
-- !!int "16"
-- !!int "18"
-- !!int "14"
-- !!int "14"
-- !!int "18"
+  - !!int "18"
+  - !!int "16"
+  - !!int "18"
+  - !!int "14"
+  - !!int "14"
+  - !!int "18"
 "speed": "30 ft., fly 60 ft."
 "saves":
-  "Charisma": !!int "8"
-  "Dexterity": !!int "7"
-  "Wisdom": !!int "6"
-  "Constitution": !!int "8"
+  - "dexterity": "+7"
+  - "constitution": "+8"
+  - "wisdom": "+6"
+  - "charisma": "+8"
 "damage_resistances": "cold; bludgeoning, piercing, slashing from nonmagical attacks\
   \ that aren't silvered"
 "damage_immunities": "fire, poison"
-"condition_immunities": "[poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "truesight 120 ft., passive Perception 12"
 "languages": "Infernal, telepathy 120 ft."
 "cr": "12"
 "traits":
-- "desc": "The erinyes's weapon attacks are magical and deal an extra 13 (3d8) poison\
-    \ damage on a hit (included in the attacks)."
-  "name": "Hellish Weapons"
-- "desc": "The erinyes has advantage on saving throws against spells and other magical\
-    \ effects."
-  "name": "Magic Resistance"
+  - "desc": "The erinyes's weapon attacks are magical and deal an extra 13 (3d8)\
+      \ poison damage on a hit (included in the attacks)."
+    "name": "Hellish Weapons"
+  - "desc": "The erinyes has advantage on saving throws against spells and other magical\
+      \ effects."
+    "name": "Magic Resistance"
 "actions":
-- "desc": "The erinyes makes three attacks."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 8 (1d8\
-    \ + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with two hands,\
-    \ plus 13 (3d8) poison damage."
-  "name": "Longsword"
-- "desc": "Ranged Weapon Attack: +7 to hit, range 150/600 ft., one target. Hit:\
-    \ 7 (1d8 + 3) piercing damage plus 13 (3d8) poison damage, and the target\
-    \ must succeed on a DC 14 Constitution saving throw or be [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned).\
-    \ The poison lasts until it is removed by the [lesser restoration](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/lesser-restoration.md)\
-    \ spell or similar magic."
-  "name": "Longbow"
+  - "desc": "The erinyes makes three attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 8\
+      \ (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with\
+      \ two hands, plus 13 (3d8) poison damage."
+    "name": "Longsword"
+  - "desc": "Ranged Weapon Attack: +7 to hit, range 150/600 ft., one target. Hit:\
+      \ 7 (1d8 + 3) piercing damage plus 13 (3d8) poison damage, and the target\
+      \ must succeed on a DC 14 Constitution saving throw or be [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned).\
+      \ The poison lasts until it is removed by the [lesser restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/lesser-restoration.md)\
+      \ spell or similar magic."
+    "name": "Longbow"
 "reactions":
-- "desc": "The erinyes adds 4 to its AC against one melee attack that would hit it.\
-    \ To do so, the erinyes must see the attacker and be wielding a melee weapon."
-  "name": "Parry"
+  - "desc": "The erinyes adds 4 to its AC against one melee attack that would hit\
+      \ it. To do so, the erinyes must see the attacker and be wielding a melee weapon."
+    "name": "Parry"
 "source":
-- "MM"
-- "BGDIA"
-- "SatO"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/fiend/token/erinyes.webp"
+  - "MM"
+  - "ToA"
+  - "BGDIA"
+  - "EGW"
+  - "KftGV"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/token/erinyes.webp"
 ```
 ^statblock

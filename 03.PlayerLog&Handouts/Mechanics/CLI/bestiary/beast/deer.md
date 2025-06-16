@@ -9,10 +9,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/beast
 statblock: inline
-aliases: ["Deer"]
+statblock-link: "#^statblock"
+aliases:
+- Deer
 ---
-# [Deer](03 - Player Log & Handouts\Mechanics\CLI\bestiary\beast/deer.md)
-*Source: Monster Manual p. 321. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Deer](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/deer.md)
+*Source: Monster Manual p. 321, Dragon of Icespire Peak. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 ```statblock
 "name": "Deer"
@@ -22,24 +24,26 @@ aliases: ["Deer"]
 "ac": !!int "13"
 "hp": !!int "4"
 "hit_dice": "1d8"
+"modifier": !!int "3"
 "stats":
-- !!int "11"
-- !!int "16"
-- !!int "11"
-- !!int "2"
-- !!int "14"
-- !!int "5"
+  - !!int "11"
+  - !!int "16"
+  - !!int "11"
+  - !!int "2"
+  - !!int "14"
+  - !!int "5"
 "speed": "50 ft."
 "senses": "passive Perception 12"
 "languages": ""
 "cr": "0"
 "actions":
-- "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4)\
-    \ piercing damage."
-  "name": "Bite"
+  - "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2\
+      \ (d4) piercing damage."
+    "name": "Bite"
 "source":
-- "MM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/beast/token/deer.webp"
+  - "MM"
+  - "DIP"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/deer.webp"
 ```
 ^statblock
 

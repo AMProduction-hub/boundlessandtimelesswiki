@@ -9,14 +9,14 @@ aliases:
 ---
 # Horn of Valhalla
 *Wondrous item*  
-![](horn-of-valhalla.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/horn-of-valhalla.webp#right)
 
 
 **Items in this group:**
 
-- [Horn of Valhalla, Brass](horn-of-valhalla-brass.md)
-- [Horn of Valhalla, Bronze](horn-of-valhalla-bronze.md)
-- [Horn of Valhalla, Iron](horn-of-valhalla-iron.md)
-- [Horn of Valhalla, Silver](horn-of-valhalla-silver.md)
+- [Horn of Valhalla, Brass](03.PlayerLog&Handouts/Mechanics/CLI/items/horn-of-valhalla-brass.md)
+- [Horn of Valhalla, Bronze](03.PlayerLog&Handouts/Mechanics/CLI/items/horn-of-valhalla-bronze.md)
+- [Horn of Valhalla, Iron](03.PlayerLog&Handouts/Mechanics/CLI/items/horn-of-valhalla-iron.md)
+- [Horn of Valhalla, Silver](03.PlayerLog&Handouts/Mechanics/CLI/items/horn-of-valhalla-silver.md)
 
 *Source: Dungeon Master's Guide p. 175*

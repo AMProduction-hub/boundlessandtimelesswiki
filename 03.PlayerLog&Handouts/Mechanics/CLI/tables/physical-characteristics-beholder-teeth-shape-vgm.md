@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
-aliases: ["Physical Characteristics; Beholder Teeth Shape"]
+aliases:
+- Physical Characteristics; Beholder Teeth Shape
 ---
 # Physical Characteristics; Beholder Teeth Shape
 *Source: Volo's Guide to Monsters p. 8* 

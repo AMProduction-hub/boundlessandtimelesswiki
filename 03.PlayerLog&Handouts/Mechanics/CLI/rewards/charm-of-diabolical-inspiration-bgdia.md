@@ -4,7 +4,8 @@ cssclasses: json5e-reward
 tags:
 - ttrpg-cli/compendium/src/5e/bgdia
 - ttrpg-cli/reward/charm
-aliases: ["Charm of Diabolical Inspiration"]
+aliases:
+- Charm of Diabolical Inspiration
 ---
 # Charm of Diabolical Inspiration
 

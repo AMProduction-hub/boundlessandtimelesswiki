@@ -4,10 +4,11 @@ cssclasses: json5e-reward
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/reward/charm
-aliases: ["Charm of Restoration"]
+aliases:
+- Charm of Restoration
 ---
 # Charm of Restoration
 
-This charm has 6 charges. You can use an action to expend some of its charges to cast one of the following spells: [greater restoration](greater-restoration.md) (4 charges) or [lesser restoration](lesser-restoration.md) (2 charges). Once all its charges have been expended, the charm vanishes from you.
+This charm has 6 charges. You can use an action to expend some of its charges to cast one of the following spells: [greater restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-restoration.md) (4 charges) or [lesser restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/lesser-restoration.md) (2 charges). Once all its charges have been expended, the charm vanishes from you.
 
-*Source: Dungeon Master's Guide p. 228*
+*Source: Dungeon Master's Guide p. 228, Icewind Dale: Rime of the Frostmaiden p. 228*

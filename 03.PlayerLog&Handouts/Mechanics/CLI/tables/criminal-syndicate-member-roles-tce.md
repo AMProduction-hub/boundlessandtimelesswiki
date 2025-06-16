@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/tce
-aliases: ["Criminal Syndicate Member Roles"]
+aliases:
+- Criminal Syndicate Member Roles
 ---
 # Criminal Syndicate Member Roles
 *Source: Tasha's Cauldron of Everything p. 92* 
@@ -12,10 +13,10 @@ aliases: ["Criminal Syndicate Member Roles"]
 
 | Role | Backgrounds |
 |------|-------------|
-| Burglar | [Criminal](criminal.md), [Folk Hero](folk-hero.md), [Noble](03.PlayerLog&Handouts/Mechanics/CLI/backgrounds/noble.md), [Outlander](outlander.md), [Urchin](urchin.md) |
-| Muscle | [Criminal](criminal.md), [Entertainer](entertainer.md), [Outlander](outlander.md), [Sailor](sailor.md), [Soldier](soldier.md) |
-| Con Artist | [Acolyte](03.PlayerLog&Handouts/Mechanics/CLI/backgrounds/acolyte.md), [Charlatan](charlatan.md), [Criminal](criminal.md), [Entertainer](entertainer.md), [Noble](03.PlayerLog&Handouts/Mechanics/CLI/backgrounds/noble.md), [Urchin](urchin.md) |
-| Cleaner | [Acolyte](03.PlayerLog&Handouts/Mechanics/CLI/backgrounds/acolyte.md), [Charlatan](charlatan.md), [Guild Artisan](guild-artisan.md), [Noble](03.PlayerLog&Handouts/Mechanics/CLI/backgrounds/noble.md), [Soldier](soldier.md) |
-| Mastermind | [Acolyte](03.PlayerLog&Handouts/Mechanics/CLI/backgrounds/acolyte.md), [Criminal](criminal.md), [Folk Hero](folk-hero.md), [Noble](03.PlayerLog&Handouts/Mechanics/CLI/backgrounds/noble.md), [Sage](sage.md) |
+| Burglar | [Criminal](03.PlayerLog&Handouts/Mechanics/CLI/backgrounds/criminal.md), [Folk Hero](03.PlayerLog&Handouts/Mechanics/CLI/backgrounds/folk-hero.md), [Noble](03.PlayerLog&Handouts/Mechanics/CLI/backgrounds/noble.md), [Outlander](03.PlayerLog&Handouts/Mechanics/CLI/backgrounds/outlander.md), [Urchin](03.PlayerLog&Handouts/Mechanics/CLI/backgrounds/urchin.md) |
+| Muscle | [Criminal](03.PlayerLog&Handouts/Mechanics/CLI/backgrounds/criminal.md), [Entertainer](03.PlayerLog&Handouts/Mechanics/CLI/backgrounds/entertainer.md), [Outlander](03.PlayerLog&Handouts/Mechanics/CLI/backgrounds/outlander.md), [Sailor](03.PlayerLog&Handouts/Mechanics/CLI/backgrounds/sailor.md), [Soldier](03.PlayerLog&Handouts/Mechanics/CLI/backgrounds/soldier.md) |
+| Con Artist | [Acolyte](03.PlayerLog&Handouts/Mechanics/CLI/backgrounds/acolyte.md), [Charlatan](03.PlayerLog&Handouts/Mechanics/CLI/backgrounds/charlatan.md), [Criminal](03.PlayerLog&Handouts/Mechanics/CLI/backgrounds/criminal.md), [Entertainer](03.PlayerLog&Handouts/Mechanics/CLI/backgrounds/entertainer.md), [Noble](03.PlayerLog&Handouts/Mechanics/CLI/backgrounds/noble.md), [Urchin](03.PlayerLog&Handouts/Mechanics/CLI/backgrounds/urchin.md) |
+| Cleaner | [Acolyte](03.PlayerLog&Handouts/Mechanics/CLI/backgrounds/acolyte.md), [Charlatan](03.PlayerLog&Handouts/Mechanics/CLI/backgrounds/charlatan.md), [Guild Artisan](03.PlayerLog&Handouts/Mechanics/CLI/backgrounds/guild-artisan.md), [Noble](03.PlayerLog&Handouts/Mechanics/CLI/backgrounds/noble.md), [Soldier](03.PlayerLog&Handouts/Mechanics/CLI/backgrounds/soldier.md) |
+| Mastermind | [Acolyte](03.PlayerLog&Handouts/Mechanics/CLI/backgrounds/acolyte.md), [Criminal](03.PlayerLog&Handouts/Mechanics/CLI/backgrounds/criminal.md), [Folk Hero](03.PlayerLog&Handouts/Mechanics/CLI/backgrounds/folk-hero.md), [Noble](03.PlayerLog&Handouts/Mechanics/CLI/backgrounds/noble.md), [Sage](03.PlayerLog&Handouts/Mechanics/CLI/backgrounds/sage.md) |
 | Mole | Any |
 ^criminal-syndicate-member-roles

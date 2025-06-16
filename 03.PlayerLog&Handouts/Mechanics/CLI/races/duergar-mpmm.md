@@ -4,7 +4,8 @@ cssclasses: json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/race/duergar
-aliases: ["Duergar"]
+aliases:
+- Duergar
 ---
 # Duergar
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 12*  
@@ -28,17 +29,17 @@ You can see in dim light within 120 feet of you as if it were bright light and i
 
 ### Duergar Magic
 
-Starting at 3rd level, you can cast the [enlarge/reduce](enlarge-reduce.md) spell on yourself with this trait, without requiring a material component. Starting at 5th level, you can also cast the [invisibility](invisibility.md) spell on yourself with this trait, without requiring a material component. Once you cast either of these spells with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level.
+Starting at 3rd level, you can cast the [enlarge/reduce](03.PlayerLog&Handouts/Mechanics/CLI/spells/enlarge-reduce.md) spell on yourself with this trait, without requiring a material component. Starting at 5th level, you can also cast the [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md) spell on yourself with this trait, without requiring a material component. Once you cast either of these spells with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level.
 
 Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race).
 
 ### Dwarven Resilience
 
-You have advantage on saving throws you make to avoid or end the [poisoned](conditions.md#Poisoned) condition on yourself. You also have resistance to poison damage.
+You have advantage on saving throws you make to avoid or end the [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned) condition on yourself. You also have resistance to poison damage.
 
 ### Psionic Fortitude
 
-You have advantage on saving throws you make to avoid or end the [charmed](conditions.md#Charmed) or [stunned](conditions.md#Stunned) condition on yourself.
+You have advantage on saving throws you make to avoid or end the [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed) or [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned) condition on yourself.
 
 ## Description
 

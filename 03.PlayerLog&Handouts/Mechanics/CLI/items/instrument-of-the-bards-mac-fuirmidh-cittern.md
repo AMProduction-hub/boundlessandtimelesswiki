@@ -12,7 +12,7 @@ aliases:
 ---
 # Instrument of the Bards, Mac-Fuirmidh Cittern
 *Wondrous item, instrument, major, uncommon (requires attunement by a bard)*  
-![](instrument-of-the-bards-mac-fuirmidh-cittern.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/instrument-of-the-bards-mac-fuirmidh-cittern.webp#right)
 
 - **Weight**: 2.0 lbs.
 
@@ -20,10 +20,10 @@ An instrument of the bards is an exquisite example of its kind, superior to an o
 
 You can use an action to play the instrument and cast one of its spells. Once the instrument has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.
 
-You can play the instrument while casting a spell that causes any of its targets to be [charmed](conditions.md#Charmed) on a failed saving throw, thereby imposing disadvantage on the save. This effect applies only if the spell has a somatic or a material component.
+You can play the instrument while casting a spell that causes any of its targets to be [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed) on a failed saving throw, thereby imposing disadvantage on the save. This effect applies only if the spell has a somatic or a material component.
 
-All instruments of the bards can be used to cast the following spells: [fly](fly.md), [invisibility](invisibility.md), [levitate](levitate.md), and [protection from evil and good](protection-from-evil-and-good.md).
+All instruments of the bards can be used to cast the following spells: [fly](03.PlayerLog&Handouts/Mechanics/CLI/spells/fly.md), [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md), [levitate](03.PlayerLog&Handouts/Mechanics/CLI/spells/levitate.md), and [protection from evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/protection-from-evil-and-good.md).
 
-In addition, the Mac-Fuirmidh cittern can be used to cast [barkskin](barkskin.md), [cure wounds](cure-wounds.md), and [fog cloud](fog-cloud.md).
+In addition, the Mac-Fuirmidh cittern can be used to cast [barkskin](03.PlayerLog&Handouts/Mechanics/CLI/spells/barkskin.md), [cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/cure-wounds.md), and [fog cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/fog-cloud.md).
 
 *Source: Dungeon Master's Guide p. 176*

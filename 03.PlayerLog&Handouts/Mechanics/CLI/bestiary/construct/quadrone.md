@@ -7,10 +7,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/construct
 statblock: inline
-aliases: ["Quadrone"]
+statblock-link: "#^statblock"
+aliases:
+- Quadrone
 ---
-# [Quadrone](03 - Player Log & Handouts\Mechanics\CLI\bestiary\construct/quadrone.md)
-*Source: Monster Manual p. 226, Sigil and the Outlands*  
+# [Quadrone](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/quadrone.md)
+*Source: Monster Manual p. 226, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Keys from the Golden Vault*  
 
 Astute combatants, quadrones serve as artillery and field officers in the regiments of modron armies.
 
@@ -55,38 +57,42 @@ When the gears of Mechanus complete seventeen cycles once every 289 years, Primu
 "ac_class": "natural armor"
 "hp": !!int "22"
 "hit_dice": "4d8 + 4"
+"modifier": !!int "2"
 "stats":
-- !!int "12"
-- !!int "14"
-- !!int "12"
-- !!int "10"
-- !!int "10"
-- !!int "11"
+  - !!int "12"
+  - !!int "14"
+  - !!int "12"
+  - !!int "10"
+  - !!int "10"
+  - !!int "11"
 "speed": "30 ft., fly 30 ft."
 "skillsaves":
-  "Perception": !!int "2"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+2"
 "senses": "truesight 120 ft., passive Perception 12"
 "languages": "Modron"
 "cr": "1"
 "traits":
-- "desc": "The quadrone can't be compelled to act in a manner contrary to its nature\
-    \ or its instructions."
-  "name": "Axiomatic Mind"
-- "desc": "If the quadrone dies, its body disintegrates into dust, leaving behind\
-    \ its weapons and anything else it was carrying."
-  "name": "Disintegration"
+  - "desc": "The quadrone can't be compelled to act in a manner contrary to its nature\
+      \ or its instructions."
+    "name": "Axiomatic Mind"
+  - "desc": "If the quadrone dies, its body disintegrates into dust, leaving behind\
+      \ its weapons and anything else it was carrying."
+    "name": "Disintegration"
 "actions":
-- "desc": "The quadrone makes two fist attacks or four shortbow attacks."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4\
-    \ + 1) bludgeoning damage."
-  "name": "Fist"
-- "desc": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit:\
-    \ 5 (1d6 + 2) piercing damage."
-  "name": "Shortbow"
+  - "desc": "The quadrone makes two fist attacks or four shortbow attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3\
+      \ (1d4 + 1) bludgeoning damage."
+    "name": "Fist"
+  - "desc": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit:\
+      \ 5 (1d6 + 2) piercing damage."
+    "name": "Shortbow"
 "source":
-- "MM"
-- "SatO"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/construct/token/quadrone.webp"
+  - "MM"
+  - "ToA"
+  - "WDMM"
+  - "KftGV"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/token/quadrone.webp"
 ```
 ^statblock

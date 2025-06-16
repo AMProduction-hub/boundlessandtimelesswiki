@@ -4,7 +4,8 @@ cssclasses: json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/scag
 - ttrpg-cli/race/half-elf/moon-elf-or-sun-elf-descent
-aliases: ["Half-Elf (Moon Elf or Sun Elf Descent)"]
+aliases:
+- Half-Elf (Moon Elf or Sun Elf Descent)
 ---
 # Half-Elf (Moon Elf or Sun Elf Descent)
 *Source: Sword Coast Adventurer's Guide p. 116*  
@@ -31,13 +32,13 @@ Thanks to your elf blood, you have superior vision in dark and dim conditions. Y
 
 ### Fey Ancestry
 
-You have advantage on saving throws against being [charmed](conditions.md#Charmed), and magic can't put you to sleep.
+You have advantage on saving throws against being [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), and magic can't put you to sleep.
 
 > [!note] Variant Feature (Choose 1)
 > 
 > **Skill Versatility.** You gain proficiency in two skills of your choice.
 > 
-> **Elf Weapon Training.** You have proficiency with the [longsword](longsword.md), [shortsword](shortsword.md), [shortbow](shortbow.md), and [longbow](longbow.md).
+> **Elf Weapon Training.** You have proficiency with the [longsword](03.PlayerLog&Handouts/Mechanics/CLI/items/longsword.md), [shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md), [shortbow](03.PlayerLog&Handouts/Mechanics/CLI/items/shortbow.md), and [longbow](03.PlayerLog&Handouts/Mechanics/CLI/items/longbow.md).
 > 
 > **Cantrip.** You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it.
 ^variant-feature-choose-1

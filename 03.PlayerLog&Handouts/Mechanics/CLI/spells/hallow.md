@@ -9,12 +9,14 @@ tags:
 - ttrpg-cli/spell/school/evocation
 - ttrpg-cli/spell/subclass/divine-soul
 - ttrpg-cli/spell/subclass/the-fiend
+- ttrpg-cli/spell/subrace/halfling-mark-of-hospitality
 classes:
 - Bard
 - Cleric
 - Sorcerer (Divine Soul)
 - Warlock (The Fiend)
-aliases: ["Hallow"]
+aliases:
+- Hallow
 ---
 # Hallow
 *5th-level, Evocation*  
@@ -27,13 +29,13 @@ aliases: ["Hallow"]
 
 You touch a point and infuse an area around it with holy (or unholy) power. The area can have a radius up to 60 feet, and the spell fails if the radius includes an area already under the effect a hallow spell. The affected area is subject to the following effects.
 
-First, celestials, elementals, fey, fiends, and undead can't enter the area, nor can such creatures charm, frighten, or possess creatures within it. Any creature [charmed](conditions.md#Charmed), [frightened](conditions.md#Frightened), or possessed by such a creature is no longer [charmed](conditions.md#Charmed), [frightened](conditions.md#Frightened), or possessed upon entering the area. You can exclude one or more of those types of creatures from this effect.
+First, celestials, elementals, fey, fiends, and undead can't enter the area, nor can such creatures charm, frighten, or possess creatures within it. Any creature [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened), or possessed by such a creature is no longer [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened), or possessed upon entering the area. You can exclude one or more of those types of creatures from this effect.
 
 Second, you can bind an extra effect to the area. Choose the effect from the following list, or choose an effect offered by the DM. Some of these effects apply to creatures in the area; you can designate whether the effect applies to all creatures, creatures that follow a specific deity or leader, or creatures of a specific sort, such as orcs or trolls. When a creature that would be affected enters the spell's area for the first time on a turn or starts its turn there, it can make a Charisma saving throw. On a success, the creature ignores the extra effect until it leaves the area.
 
 ## Courage
 
-Affected creatures can't be [frightened](conditions.md#Frightened) while in the area.
+Affected creatures can't be [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened) while in the area.
 
 ## Darkness
 
@@ -61,7 +63,7 @@ Affected creatures can't move or travel using teleportation or by extradimension
 
 ## Fear
 
-Affected creatures are [frightened](conditions.md#Frightened) while in the area.
+Affected creatures are [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened) while in the area.
 
 ## Silence
 
@@ -73,6 +75,6 @@ Affected creatures can communicate with any other creature in the area, even if 
 
 ## Summary
 
-**Classes**: [Cleric](list-spells-classes-cleric.md); [Bard](list-spells-classes-bard.md); [Warlock (The Fiend)](list-spells-classes-warlock-the-fiend.md); [Sorcerer (Divine Soul)](list-spells-classes-sorcerer-divine-soul-xge.md "subclass=XGE")
+**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Warlock (The Fiend)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-fiend.md)
 
 *Source: Player's Handbook p. 249. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

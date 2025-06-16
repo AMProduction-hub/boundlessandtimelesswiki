@@ -4,7 +4,8 @@ cssclasses: json5e-feat
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/optional-feature/mm
-aliases: ["Seeking Spell"]
+aliases:
+- Seeking Spell
 ---
 # Seeking Spell
 *Source: Tasha's Cauldron of Everything p. 66*  

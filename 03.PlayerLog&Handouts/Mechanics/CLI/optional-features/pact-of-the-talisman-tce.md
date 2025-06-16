@@ -4,7 +4,8 @@ cssclasses: json5e-feat
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/optional-feature/pb
-aliases: ["Pact of the Talisman"]
+aliases:
+- Pact of the Talisman
 ---
 # Pact of the Talisman
 *Source: Tasha's Cauldron of Everything p. 71*  

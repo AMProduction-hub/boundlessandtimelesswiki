@@ -15,8 +15,8 @@ aliases:
 
 - **Weight**: 3.0 lbs.
 
-While holding this [drum](drum.md), you gain a +3 bonus to spell attack rolls and to the saving throw DCs of your bard spells.
+While holding this [drum](03.PlayerLog&Handouts/Mechanics/CLI/items/drum.md), you gain a +3 bonus to spell attack rolls and to the saving throw DCs of your bard spells.
 
-As an action, you can play the [drum](drum.md) to regain one use of your Bardic Inspiration feature. This property of the [drum](drum.md) can't be used again until the next dawn.
+As an action, you can play the [drum](03.PlayerLog&Handouts/Mechanics/CLI/items/drum.md) to regain one use of your Bardic Inspiration feature. This property of the [drum](03.PlayerLog&Handouts/Mechanics/CLI/items/drum.md) can't be used again until the next dawn.
 
 *Source: Tasha's Cauldron of Everything p. 134*

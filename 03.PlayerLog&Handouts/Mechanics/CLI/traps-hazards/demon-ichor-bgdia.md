@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-hazard
 tags:
 - ttrpg-cli/compendium/src/5e/bgdia
-aliases: ["Demon Ichor"]
+aliases:
+- Demon Ichor
 ---
 # Demon Ichor
 *Generic Hazard*  
@@ -30,20 +31,20 @@ Demon ichor is sticky enough to adhere to most weapons. A creature in Avernus th
 | 16–20 | One of the target's legs grows longer than the other, reducing its walking speed by 10 feet. |
 | 21–25 | The target's eyes become beacons, filling a 15-foot cone with dim light when they are open. |
 | 26–30 | A pair of wings, either feathered or leathery, sprout from the target's back, granting it a flying speed of 30 feet. |
-| 31–35 | The target's ears tear free from its head and scurry away; the target is [deafened](conditions.md#Deafened). |
+| 31–35 | The target's ears tear free from its head and scurry away; the target is [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened). |
 | 36–40 | Two of the target's teeth turn into tusks. |
 | 41–45 | The target's skin becomes scabby, granting it a +1 bonus to AC but reducing its Charisma by 2 (to a minimum of 1). |
 | 46–50 | The target's arms and legs switch places, preventing the target from moving unless it crawls. |
 | 51–55 | The target's arms become tentacles with fingers on the ends, increasing its reach by 5 feet. |
 | 56–60 | The target's legs grow incredibly long and springy, increasing its walking speed by 10 feet. |
 | 61–65 | The target grows a whiplike tail, which it can use as a whip. |
-| 66–70 | The target's eyes turn black, and it gains [darkvision](senses.md#Darkvision) out to a range of 120 feet. |
+| 66–70 | The target's eyes turn black, and it gains [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision) out to a range of 120 feet. |
 | 71–75 | The target swells, tripling its weight. |
 | 76–80 | The target becomes thin and skeletal, halving its weight. |
 | 81–85 | The target's head doubles in size. |
 | 86–90 | The target's ears become wings, giving it a flying speed of 5 feet. |
 | 91–95 | The target's body becomes unusually brittle, causing the target to gain vulnerability to bludgeoning, piercing, and slashing damage. |
-| 96–00 | The target grows another head, causing it to have advantage on saving throws against being [charmed](conditions.md#Charmed), [frightened](conditions.md#Frightened), or [stunned](conditions.md#Stunned). |
+| 96–00 | The target grows another head, causing it to have advantage on saving throws against being [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened), or [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned). |
 ^flesh-warping
 
 *Source: Baldur's Gate: Descent Into Avernus p. 78*

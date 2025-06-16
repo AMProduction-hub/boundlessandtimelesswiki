@@ -3,10 +3,11 @@ obsidianUIMode: preview
 cssclasses: json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
-- ttrpg-cli/race/goblin/dmg
-aliases: ["Goblin (DMG)"]
+- ttrpg-cli/race/goblin
+aliases:
+- Goblin
 ---
-# Goblin (DMG)
+# Goblin
 *Source: Dungeon Master's Guide p. 282*  
 
 
@@ -18,7 +19,7 @@ aliases: ["Goblin (DMG)"]
 
 ### Nimble Escape
 
-You can take the [Disengage](actions.md#Disengage) or [Hide](actions.md#Hide) action as a bonus action on each of your turns.
+You can take the [Disengage](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Disengage) or [Hide](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Hide) action as a bonus action on each of your turns.
 
 ### Darkvision
 

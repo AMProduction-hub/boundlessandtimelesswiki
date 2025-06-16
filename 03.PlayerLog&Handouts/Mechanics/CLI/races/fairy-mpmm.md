@@ -4,11 +4,12 @@ cssclasses: json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/race/fairy
-aliases: ["Fairy"]
+aliases:
+- Fairy
 ---
 # Fairy
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 14*  
-![](fairy.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/races/img/fairy.webp#right)
 
 - **Ability Scores**: Choose one of: (a) Choose any +2, choose any other +1; (b) Choose any +1, choose any other +1, choose any other +1
 - **Type**: fey
@@ -24,7 +25,7 @@ You are a Fey.
 
 ### Fairy Magic
 
-You know the [druidcraft](druidcraft.md) cantrip. Starting at 3rd level, you can cast the [faerie fire](faerie-fire.md) spell with this trait. Starting at 5th level, you can also cast the [enlarge/reduce](enlarge-reduce.md) spell with this trait. Once you cast [faerie fire](faerie-fire.md) or [enlarge/reduce](enlarge-reduce.md) with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.
+You know the [druidcraft](03.PlayerLog&Handouts/Mechanics/CLI/spells/druidcraft.md) cantrip. Starting at 3rd level, you can cast the [faerie fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/faerie-fire.md) spell with this trait. Starting at 5th level, you can also cast the [enlarge/reduce](03.PlayerLog&Handouts/Mechanics/CLI/spells/enlarge-reduce.md) spell with this trait. Once you cast [faerie fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/faerie-fire.md) or [enlarge/reduce](03.PlayerLog&Handouts/Mechanics/CLI/spells/enlarge-reduce.md) with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.
 
 Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race).
 

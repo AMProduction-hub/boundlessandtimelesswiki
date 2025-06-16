@@ -14,7 +14,8 @@ classes:
 - Cleric (Arcana Domain)
 - Warlock
 - Wizard
-aliases: ["Soul Cage"]
+aliases:
+- Soul Cage
 ---
 # Soul Cage
 *6th-level, Necromancy*  
@@ -41,12 +42,12 @@ You can use a bonus action to bolster yourself with the soul's life experience, 
 
 ## Eyes of the Dead
 
-You can use an action to name a place the humanoid saw in life, which creates an invisible sensor somewhere in that place if it is on the plane of existence you're currently on. The sensor remains for as long as you concentrate, up to 10 minutes (as if you were [concentrating](conditions.md#Concentration) on a spell). You receive visual and auditory information from the sensor as if you were in its space using your senses.
+You can use an action to name a place the humanoid saw in life, which creates an invisible sensor somewhere in that place if it is on the plane of existence you're currently on. The sensor remains for as long as you concentrate, up to 10 minutes (as if you were [concentrating](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Concentration) on a spell). You receive visual and auditory information from the sensor as if you were in its space using your senses.
 
-A creature that can see the sensor (such as one using [see invisibility](see-invisibility.md) or [truesight](senses.md#Truesight)) sees a translucent image of the tormented humanoid whose soul you caged.
+A creature that can see the sensor (such as one using [see invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/see-invisibility.md) or [truesight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Truesight)) sees a translucent image of the tormented humanoid whose soul you caged.
 
 ## Summary
 
-**Classes**: [Bard](list-spells-classes-bard.md); [Wizard](list-spells-classes-wizard.md); [Cleric (Arcana Domain)](list-spells-classes-cleric-arcana-domain-scag.md "subclass=SCAG"); [Warlock](list-spells-classes-warlock.md)
+**Classes**: [Cleric (Arcana Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcana-domain-scag.md "subclass=SCAG"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Xanathar's Guide to Everything p. 165*

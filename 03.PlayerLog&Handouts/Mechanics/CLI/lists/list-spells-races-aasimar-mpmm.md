@@ -3,10 +3,11 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/spell/list/race/aasimar
-aliases: ["Spells for Aasimar"]
+aliases:
+- Spells for Aasimar
 ---
 # Spells for Aasimar
 
 ## Cantrip
 
-- [Light](light.md "PHB") as cantrip
+- [Light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md "PHB") as cantrip

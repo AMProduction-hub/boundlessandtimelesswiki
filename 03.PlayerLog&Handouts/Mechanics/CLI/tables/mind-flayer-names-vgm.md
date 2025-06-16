@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
-aliases: ["Mind Flayer Names"]
+aliases:
+- Mind Flayer Names
 ---
 # Mind Flayer Names
 *Source: Volo's Guide to Monsters p. 75* 

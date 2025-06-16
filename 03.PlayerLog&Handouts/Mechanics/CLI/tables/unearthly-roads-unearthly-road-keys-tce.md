@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/tce
-aliases: ["Unearthly Roads; Unearthly Road Keys"]
+aliases:
+- Unearthly Roads; Unearthly Road Keys
 ---
 # Unearthly Roads; Unearthly Road Keys
 *Source: Tasha's Cauldron of Everything p. 169* 

@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/tce
-aliases: ["Aristocrat Contact"]
+aliases:
+- Aristocrat Contact
 ---
 # Aristocrat Contact
 *Source: Tasha's Cauldron of Everything p. 90* 

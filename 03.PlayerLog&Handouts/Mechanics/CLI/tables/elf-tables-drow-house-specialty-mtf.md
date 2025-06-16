@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
-aliases: ["Elf Tables; Drow House Specialty"]
+aliases:
+- Elf Tables; Drow House Specialty
 ---
 # Elf Tables; Drow House Specialty
 *Source: Mordenkainen's Tome of Foes p. 64* 

@@ -5,7 +5,8 @@ tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/object/size/large
 - ttrpg-cli/object/type/siege-weapon
-aliases: ["Mangonel"]
+aliases:
+- Mangonel
 ---
 # Mangonel
 %%-- Embedded content starts on the next line. --%%
@@ -17,7 +18,7 @@ A mangonel typically hurls a heavy stone, although it can hurl other kinds of pr
 
 ```ad-statblock
 title: Mangonel
-![](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/objects/token/mangonel.webp#token)
+![](03.PlayerLog&Handouts/Mechanics/CLI/objects/token/mangonel.webp#token)
 *Large Siege weapon*
 
 - **Armor Class** 15

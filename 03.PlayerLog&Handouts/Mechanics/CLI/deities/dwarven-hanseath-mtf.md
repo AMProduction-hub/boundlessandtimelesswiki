@@ -6,7 +6,8 @@ tags:
 - ttrpg-cli/deity/dwarven
 - ttrpg-cli/domain/trickery
 - ttrpg-cli/domain/war
-aliases: ["Hanseath"]
+aliases: 
+- Hanseath
 ---
 # Hanseath
 *Source: Mordenkainen's Tome of Foes p. 73* 

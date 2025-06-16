@@ -4,7 +4,8 @@ cssclasses: json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/race/elf/drow
-aliases: ["Elf (Drow)"]
+aliases:
+- Elf (Drow)
 ---
 # Elf (Drow)
 *Source: Player's Handbook p. 24*  
@@ -35,7 +36,7 @@ You have proficiency in the [Perception](03.PlayerLog&Handouts/Mechanics/CLI/rul
 
 ### Fey Ancestry
 
-You have advantage on saving throws against being [charmed](conditions.md#Charmed), and magic can't put you to sleep.
+You have advantage on saving throws against being [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), and magic can't put you to sleep.
 
 ### Trance
 
@@ -54,11 +55,11 @@ You have disadvantage on attack rolls and on Wisdom ([Perception](03.PlayerLog&H
 
 ### Drow Magic
 
-You know the [dancing lights](dancing-lights.md) cantrip. When you reach 3rd level, you can cast the [faerie fire](faerie-fire.md) spell once with this trait; you regain the ability to cast it when you finish a long rest. When you reach 5th level, you can also cast the [darkness](darkness.md) spell once per day with this trait; you regain the ability to cast it when you finish a long rest. Charisma is your spellcasting ability for these spells.
+You know the [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md) cantrip. When you reach 3rd level, you can cast the [faerie fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/faerie-fire.md) spell once with this trait; you regain the ability to cast it when you finish a long rest. When you reach 5th level, you can also cast the [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md) spell once per day with this trait; you regain the ability to cast it when you finish a long rest. Charisma is your spellcasting ability for these spells.
 
 ### Drow Weapon Training
 
-You have proficiency with [rapiers](rapier.md), [shortswords](shortsword.md), and [hand crossbows](hand-crossbow.md).
+You have proficiency with [rapiers](03.PlayerLog&Handouts/Mechanics/CLI/items/rapier.md), [shortswords](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md), and [hand crossbows](03.PlayerLog&Handouts/Mechanics/CLI/items/hand-crossbow.md).
 
 ## Description
 

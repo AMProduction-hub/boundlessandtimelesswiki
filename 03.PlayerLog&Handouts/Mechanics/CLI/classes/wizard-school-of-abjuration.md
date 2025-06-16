@@ -4,10 +4,11 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/subclass/wizard/abjuration
-aliases: ["School of Abjuration"]
+aliases:
+- School of Abjuration
 ---
 # School of Abjuration
-*[Wizard](wizard.md): Arcane Tradition*  
+*[Wizard](./wizard.md): Arcane Tradition*  
 *Source: Player's Handbook p. 115*  
 
 > [!tldr] Class and Feature Progression
@@ -68,7 +69,7 @@ Starting at 6th level, when a creature that you can see within 30 feet of you ta
 
 ### Improved Abjuration (Level 10)
 
-Beginning at 10th level, when you cast an abjuration spell that requires you to make an ability check as a part of casting that spell (as in [counterspell](03.PlayerLog&Handouts/Mechanics/CLI/spells/counterspell.md) and [dispel magic](dispel-magic.md)), you add your proficiency bonus to that ability check.
+Beginning at 10th level, when you cast an abjuration spell that requires you to make an ability check as a part of casting that spell (as in [counterspell](03.PlayerLog&Handouts/Mechanics/CLI/spells/counterspell.md) and [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md)), you add your proficiency bonus to that ability check.
 
 ### Spell Resistance (Level 14)
 

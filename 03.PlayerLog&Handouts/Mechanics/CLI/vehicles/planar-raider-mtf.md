@@ -6,7 +6,8 @@ tags:
 - ttrpg-cli/vehicle/size/huge
 - ttrpg-cli/vehicle/terrain/air
 - ttrpg-cli/vehicle/type/ship
-aliases: ["Planar Raider"]
+aliases:
+- Planar Raider
 ---
 # Planar Raider
 %%-- Embedded content starts on the next line. --%%
@@ -16,7 +17,7 @@ The largest of the githyanki ships, the planar raider serves as a mobile headqua
 
 ```ad-statblock
 title: Planar Raider
-![](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/vehicles/token/planar-raider-mtf.webp#token)
+![](03.PlayerLog&Handouts/Mechanics/CLI/vehicles/token/planar-raider-mtf.webp#token)
 *Huge vehicle (120 ft. by 40 ft.); air*
 
 - **Creature Capacity** 10 crew, 100 passengers

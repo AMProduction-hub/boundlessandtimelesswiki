@@ -4,10 +4,11 @@ cssclasses: json5e-reward
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/reward/charm
-aliases: ["Charm of Vitality"]
+aliases:
+- Charm of Vitality
 ---
 # Charm of Vitality
 
-This charm allows you to give yourself the benefit of a [potion of vitality](potion-of-vitality.md) as an action. Once you do so, the charm vanishes from you.
+This charm allows you to give yourself the benefit of a [potion of vitality](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-vitality.md) as an action. Once you do so, the charm vanishes from you.
 
 *Source: Dungeon Master's Guide p. 228*

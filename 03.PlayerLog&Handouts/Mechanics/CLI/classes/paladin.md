@@ -4,7 +4,8 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/class/paladin
 - ttrpg-cli/compendium/src/5e/phb
-aliases: ["Paladin"]
+aliases:
+- Paladin
 ---
 # Paladin
 *Source: Player's Handbook p. 82. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
@@ -49,7 +50,7 @@ aliases: ["Paladin"]
 ## Starting Paladin
 
 - **Saving Throws**: Charisma, Wisdom
-- **Armor**: [light armor](item-types.md#Light%20Armor), [medium armor](item-types.md#Medium%20Armor), [heavy armor](item-types.md#Heavy%20Armor), [shields](03.PlayerLog&Handouts/Mechanics/CLI/items/shield.md)
+- **Armor**: [light armor](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-types.md#Light%20Armor), [medium armor](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-types.md#Medium%20Armor), [heavy armor](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-types.md#Heavy%20Armor), [shields](03.PlayerLog&Handouts/Mechanics/CLI/items/shield.md)
 - **Weapons**: simple weapons, martial weapons
 - **Tools**: none
 - **Skills**: choose 2 from [Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics), [Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight), [Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation), [Medicine](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Medicine), [Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion), and [Religion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Religion)
@@ -57,9 +58,9 @@ aliases: ["Paladin"]
 You start with the following items, plus anything provided by your background.
 
 - (a) a martial weapon and a [shield](03.PlayerLog&Handouts/Mechanics/CLI/items/shield.md) or (b) two martial weapons
-- (a) five [javelins](javelin.md) or (b) any simple melee weapon
-- (a) a [priest's pack](priests-pack.md) or (b) an [explorer's pack](explorers-pack.md)
-- [Chain mail](chain-mail.md) and a [holy symbol](holy-symbol.md)
+- (a) five [javelins](03.PlayerLog&Handouts/Mechanics/CLI/items/javelin.md) or (b) any simple melee weapon
+- (a) a [priest's pack](03.PlayerLog&Handouts/Mechanics/CLI/items/priests-pack.md) or (b) an [explorer's pack](03.PlayerLog&Handouts/Mechanics/CLI/items/explorers-pack.md)
+- [Chain mail](03.PlayerLog&Handouts/Mechanics/CLI/items/chain-mail.md) and a [holy symbol](03.PlayerLog&Handouts/Mechanics/CLI/items/holy-symbol.md)
 
 Alternatively, you may start with 5d4 × 10 gp to buy your own equipment.
 
@@ -69,7 +70,7 @@ Alternatively, you may start with 5d4 × 10 gp to buy your own equipment.
 
 When you gain a level in a class other than your first, you gain only some of that class's starting proficiencies.
 
-- **Armor**: [light armor](item-types.md#Light%20Armor), [medium armor](item-types.md#Medium%20Armor), [shields](03.PlayerLog&Handouts/Mechanics/CLI/items/shield.md)
+- **Armor**: [light armor](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-types.md#Light%20Armor), [medium armor](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-types.md#Medium%20Armor), [shields](03.PlayerLog&Handouts/Mechanics/CLI/items/shield.md)
 - **Weapons**: simple weapons, martial weapons
 
 ## Paladin
@@ -115,6 +116,10 @@ A paladin is a living embodiment of an oath—a promise or a vow made manifest i
 Although no paladin in the world could be described as typical, a number of them are narrow-minded do-gooders who refuse to tolerate even the smallest deviation from their own outlook. Paladins who take up the adventuring life, however, rarely remain so rigid in their attitudes—if only to keep from alienating their companions.
 
 You can flesh out your paladin character by using the suggestions below. It's important to keep in mind that most paladins aren't robots. They have doubts and prejudices and harbor contradictory thoughts just as any other character does. Some are compelled by an internal motivation that might sometimes be at odds with the principles of their oaths.
+
+> [!quote] A quote from Xanathar  
+> 
+> Living up to an oath? That sounds ridiculous. Why would anyone ever do that? There's nothing wrong with making promises, but only suckers keep them.
 
 ## Personal Goal
 _Source: Xanathar's Guide to Everything_
@@ -204,7 +209,7 @@ What is the temptation that your character succumbs to or finds it difficult to 
 
 ### Divine Sense (Level 1)
 
-The presence of strong evil registers on your senses like a noxious odor, and powerful good rings like heavenly music in your ears. As an action, you can open your awareness to detect such forces. Until the end of your next turn, you know the location of any celestial, fiend, or undead within 60 feet of you that is not behind total cover. You know the type (celestial, fiend, or undead) of any being whose presence you sense, but not its identity (the vampire Count Strahd von Zarovich, for instance). Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated, as with the [hallow](hallow.md) spell.
+The presence of strong evil registers on your senses like a noxious odor, and powerful good rings like heavenly music in your ears. As an action, you can open your awareness to detect such forces. Until the end of your next turn, you know the location of any celestial, fiend, or undead within 60 feet of you that is not behind total cover. You know the type (celestial, fiend, or undead) of any being whose presence you sense, but not its identity (the vampire Count Strahd von Zarovich, for instance). Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated, as with the [hallow](03.PlayerLog&Handouts/Mechanics/CLI/spells/hallow.md) spell.
 
 You can use this feature a number of times equal to 1 + your Charisma modifier. When you finish a long rest, you regain all expended uses.
 
@@ -220,16 +225,16 @@ This feature has no effect on undead and constructs.
 
 ### Divine Smite (Level 2)
 
-Starting at 2nd level, when you hit a creature with a melee weapon attack, you can expend one spell slot to deal radiant damage to the target, in addition to the weapon's damage. The extra damage is `2d8` for a 1st-level spell slot, plus `1d8` for each spell level higher than 1st, to a maximum of `5d8`. The damage increases by `1d8` if the target is an undead or a fiend, to a maximum of `6d8`.
+Starting at 2nd level, when you hit a creature with a melee weapon attack, you can expend one spell slot to deal radiant damage to the target, in addition to the weapon's damage. The extra damage is `2d8` for a 1st-level spell slot, plus `d8` for each spell level higher than 1st, to a maximum of `5d8`. The damage increases by `d8` if the target is an undead or a fiend, to a maximum of `6d8`.
 
 ### Fighting Style (Level 2)
 
 At 2nd level, you adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take the same Fighting Style option more than once, even if you get to choose again.
 
-- [Defense](defense.md)  
-- [Dueling](dueling.md)  
-- [Great Weapon Fighting](great-weapon-fighting.md)  
-- [Protection](protection.md)  
+- [Defense](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/defense.md)  
+- [Dueling](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/dueling.md)  
+- [Great Weapon Fighting](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/great-weapon-fighting.md)  
+- [Protection](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/protection.md)  
 
 ### Spellcasting (Level 2)
 
@@ -241,7 +246,7 @@ The Paladin table shows how many spell slots you have to cast your paladin spell
 
 You prepare the list of paladin spells that are available for you to cast, choosing from the paladin spell list. When you do so, choose a number of paladin spells equal to your Charisma modifier + half your paladin level, rounded down (minimum of one spell). The spells must be of a level for which you have spell slots.
 
-For example, if you are a 5th-level paladin, you have four 1st-level and two 2nd-level spell slots. With a Charisma of 14, your list of prepared spells can include four spells of 1st or 2nd-level, in any combination. If you prepare the 1st-level spell [cure wounds](cure-wounds.md), you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.
+For example, if you are a 5th-level paladin, you have four 1st-level and two 2nd-level spell slots. With a Charisma of 14, your list of prepared spells can include four spells of 1st or 2nd-level, in any combination. If you prepare the 1st-level spell [cure wounds](03.PlayerLog&Handouts/Mechanics/CLI/spells/cure-wounds.md), you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.
 
 You can change your list of prepared spells when you finish a long rest. Preparing a new list of paladin spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list.
 
@@ -249,13 +254,13 @@ You can change your list of prepared spells when you finish a long rest. Prepari
 
 Charisma is your spellcasting ability for your paladin spells, since their power derives from the strength of your convictions. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a paladin spell you cast and when making an attack roll with one.
 
-<span class='abilityDc'>**Spell save DC**: 8 + your proficiency bonus + your Charisma modifier</span>
+<span class='abilityDc'>**Spell save DC**: your proficiency bonus + your Charisma</span>
 
-<span class='abilityAttackMod'>**Spell attack modifier**: your proficiency bonus + your Charisma modifier</span>
+<span class='abilityAttackMod'>**Spell attack modifier**: your proficiency bonus + your Charisma</span>
 
 #### Spellcasting Focus
 
-You can use a [holy symbol](holy-symbol.md) as a spellcasting focus for your paladin spells.
+You can use a [holy symbol](03.PlayerLog&Handouts/Mechanics/CLI/items/holy-symbol.md) as a spellcasting focus for your paladin spells.
 
 ### Divine Health (Level 3)
 
@@ -284,7 +289,7 @@ Some Channel Divinity effects require saving throws. When you use such an effect
 ### Channel Divinity: Harness Divine Power (Level 3)
 _Source: Tasha's Cauldron of Everything p. 52_
 
-*3rd-level paladin [optional feature](optional-class-features-tce.md)*
+*3rd-level paladin [optional feature](03.PlayerLog&Handouts/Mechanics/CLI/rules/variant-rules/optional-class-features-tce.md)*
 
 You can expend a use of your Channel Divinity to fuel your spells. As a bonus action, you touch your holy symbol, utter a prayer, and regain one expended spell slot, the level of which can be no higher than half your proficiency bonus (rounded up). The number of times you can use this feature is based on the level you've reached in this class: 3rd level, once; 7th level, twice; and 15th level, thrice. You regain all expended uses when you finish a long rest.
 
@@ -306,13 +311,13 @@ If your DM allows the use of feats, you may instead take a feat.
 ### Martial Versatility (Level 4)
 _Source: Tasha's Cauldron of Everything p. 52_
 
-*4th-level paladin [optional feature](optional-class-features-tce.md)*
+*4th-level paladin [optional feature](03.PlayerLog&Handouts/Mechanics/CLI/rules/variant-rules/optional-class-features-tce.md)*
 
-Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace a [fighting style](list-optfeaturetype-fs-p.md) you know with another fighting style available to paladins. This replacement represents a shift of focus in your martial practice.
+Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace a [fighting style](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-optfeaturetype-fs-p.md) you know with another fighting style available to paladins. This replacement represents a shift of focus in your martial practice.
 
 ### Extra Attack (Level 5)
 
-Beginning at 5th level, you can attack twice, instead of once, whenever you take the [Attack](actions.md#Attack) action on your turn.
+Beginning at 5th level, you can attack twice, instead of once, whenever you take the [Attack](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Attack) action on your turn.
 
 ### Aura of Protection (Level 6)
 
@@ -332,13 +337,13 @@ If your DM allows the use of feats, you may instead take a feat.
 
 ### Aura of Courage (Level 10)
 
-Starting at 10th level, you and friendly creatures within 10 feet of you can't be [frightened](conditions.md#Frightened) while you are conscious.
+Starting at 10th level, you and friendly creatures within 10 feet of you can't be [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened) while you are conscious.
 
 At 18th level, the range of this aura increases to 30 feet.
 
 ### Improved Divine Smite (Level 11)
 
-By 11th level, you are so suffused with righteous might that all your melee weapon strikes carry divine power with them. Whenever you hit a creature with a melee weapon, the creature takes an extra `1d8` radiant damage.
+By 11th level, you are so suffused with righteous might that all your melee weapon strikes carry divine power with them. Whenever you hit a creature with a melee weapon, the creature takes an extra `d8` radiant damage.
 
 ### Ability Score Improvement (Level 12)
 
@@ -379,5 +384,5 @@ At 20th level, you gain a feature granted to you by your Sacred Oath.
 ## Optional Features
 
 > [!example]- Optional Features: Fighting Style, Paladin
-> ![Fighting Style, Paladin](list-optfeaturetype-fs-p.md#Fighting%20Style,%20Paladin)
+> ![Fighting Style, Paladin](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-optfeaturetype-fs-p.md#Fighting%20Style,%20Paladin)
 ^list-optfeature-fs-p

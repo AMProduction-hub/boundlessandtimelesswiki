@@ -4,7 +4,8 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/class/barbarian
 - ttrpg-cli/compendium/src/5e/phb
-aliases: ["Barbarian"]
+aliases:
+- Barbarian
 ---
 # Barbarian
 *Source: Player's Handbook p. 46. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
@@ -49,16 +50,16 @@ aliases: ["Barbarian"]
 ## Starting Barbarian
 
 - **Saving Throws**: Constitution, Strength
-- **Armor**: [light armor](item-types.md#Light%20Armor), [medium armor](item-types.md#Medium%20Armor), [shields](03.PlayerLog&Handouts/Mechanics/CLI/items/shield.md)
+- **Armor**: [light armor](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-types.md#Light%20Armor), [medium armor](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-types.md#Medium%20Armor), [shields](03.PlayerLog&Handouts/Mechanics/CLI/items/shield.md)
 - **Weapons**: simple weapons, martial weapons
 - **Tools**: none
 - **Skills**: choose 2 from [Animal Handling](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Animal%20Handling), [Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics), [Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation), [Nature](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Nature), [Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception), and [Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)
 
 You start with the following items, plus anything provided by your background.
 
-- (a) a [greataxe](greataxe.md) or (b) any martial melee weapon
-- (a) two [handaxes](handaxe.md) or (b) any simple weapon
-- An [explorer's pack](explorers-pack.md), and four [javelins](javelin.md)
+- (a) a [greataxe](03.PlayerLog&Handouts/Mechanics/CLI/items/greataxe.md) or (b) any martial melee weapon
+- (a) two [handaxes](03.PlayerLog&Handouts/Mechanics/CLI/items/handaxe.md) or (b) any simple weapon
+- An [explorer's pack](03.PlayerLog&Handouts/Mechanics/CLI/items/explorers-pack.md), and four [javelins](03.PlayerLog&Handouts/Mechanics/CLI/items/javelin.md)
 
 Alternatively, you may start with 2d4 × 10 gp to buy your own equipment.
 
@@ -103,7 +104,7 @@ What led you to take up the adventuring life? Were you lured to settled lands by
 
 #### Quick Build
 
-You can make a barbarian quickly by following these suggestions. First, put your highest ability score in Strength, followed by Constitution. Second, choose the [outlander](outlander.md) background.
+You can make a barbarian quickly by following these suggestions. First, put your highest ability score in Strength, followed by Constitution. Second, choose the [outlander](03.PlayerLog&Handouts/Mechanics/CLI/backgrounds/outlander.md) background.
 
 > [!quote] A quote from Seret, archwizard  
 > 
@@ -112,6 +113,10 @@ You can make a barbarian quickly by following these suggestions. First, put your
 The anger felt by a normal person resembles the rage of a barbarian in the same way that a gentle breeze is akin to a furious thunderstorm. The barbarian's driving force comes from a place that transcends mere emotion, making its manifestation all the more terrible. Whether the impetus for the fury comes entirely from within or from forging a link with a spirit animal, a raging barbarian becomes able to perform supernatural feats of strength and endurance. The outburst is temporary, but while it lasts, it takes over body and mind, driving the barbarian on despite peril and injury, until the last enemy falls.
 
 It can be tempting to play a barbarian character that is a straightforward application of the classic archetype—a brute, and usually a dimwitted one at that, who rushes in where others fear to tread. But not all the barbarians in the world are cut from that cloth, so you can certainly put your own spin on things. Either way, consider adding some flourishes to make your barbarian stand out from all others; see the following sections for some ideas.
+
+> [!quote] A quote from Xanathar  
+> 
+> Rawr! I'm really angry! Funny, I don't feel any stronger. Maybe because I'm always angry, I'm always in top condition. Stands to reason.
 
 ## Personal Totems
 _Source: Xanathar's Guide to Everything_
@@ -196,7 +201,7 @@ While raging, you gain the following benefits if you aren't wearing heavy armor:
 
 If you are able to cast spells, you can't cast them or concentrate on them while raging.
 
-Your rage lasts for 1 minute. It ends early if you are knocked [unconscious](conditions.md#Unconscious) or if your turn ends and you haven't attacked a hostile creature since your last turn or taken damage since then. You can also end your rage on your turn as a bonus action.
+Your rage lasts for 1 minute. It ends early if you are knocked [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious) or if your turn ends and you haven't attacked a hostile creature since your last turn or taken damage since then. You can also end your rage on your turn as a bonus action.
 
 Once you have raged the maximum number of times for your barbarian level, you must finish a long rest before you can rage again. You may rage 2 times at 1st level, 3 at 3rd, 4 at 6th, 5 at 12th, and 6 at 17th.
 
@@ -206,7 +211,7 @@ While you are not wearing any armor, your Armor Class equals 10 + your Dexterity
 
 ### Danger Sense (Level 2)
 
-At 2nd level, you gain an uncanny sense of when things nearby aren't as they should be, giving you an edge when you dodge away from danger. You have advantage on Dexterity saving throws against effects that you can see, such as traps and spells. To gain this benefit, you can't be [blinded](conditions.md#Blinded), [deafened](conditions.md#Deafened), or [incapacitated](conditions.md#Incapacitated).
+At 2nd level, you gain an uncanny sense of when things nearby aren't as they should be, giving you an edge when you dodge away from danger. You have advantage on Dexterity saving throws against effects that you can see, such as traps and spells. To gain this benefit, you can't be [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded), [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened), or [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated).
 
 ### Reckless Attack (Level 2)
 
@@ -219,7 +224,7 @@ At 3rd level, you choose a path that shapes the nature of your rage from the lis
 ### Primal Knowledge (Level 3)
 _Source: Tasha's Cauldron of Everything p. 24_
 
-*3rd-level barbarian [optional feature](optional-class-features-tce.md)*
+*3rd-level barbarian [optional feature](03.PlayerLog&Handouts/Mechanics/CLI/rules/variant-rules/optional-class-features-tce.md)*
 
 When you reach 3rd level and again at 10th level, you gain proficiency in one skill of your choice from the list of skills available to barbarians at 1st level.
 
@@ -231,7 +236,7 @@ If your DM allows the use of feats, you may instead take a feat.
 
 ### Extra Attack (Level 5)
 
-Beginning at 5th level, you can attack twice, instead of once, whenever you take the [Attack](actions.md#Attack) action on your turn.
+Beginning at 5th level, you can attack twice, instead of once, whenever you take the [Attack](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Attack) action on your turn.
 
 ### Fast Movement (Level 5)
 
@@ -245,12 +250,12 @@ At 6th level, you gain a feature from your Primal Path.
 
 By 7th level, your instincts are so honed that you have advantage on initiative rolls.
 
-Additionally, if you are [surprised](conditions.md#Surprised) at the beginning of combat and aren't [incapacitated](conditions.md#Incapacitated), you can act normally on your first turn, but only if you enter your rage before doing anything else on that turn.
+Additionally, if you are [surprised](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Surprised) at the beginning of combat and aren't [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated), you can act normally on your first turn, but only if you enter your rage before doing anything else on that turn.
 
 ### Instinctive Pounce (Level 7)
 _Source: Tasha's Cauldron of Everything p. 24_
 
-*7th-level barbarian [optional feature](optional-class-features-tce.md)*
+*7th-level barbarian [optional feature](03.PlayerLog&Handouts/Mechanics/CLI/rules/variant-rules/optional-class-features-tce.md)*
 
 As part of the bonus action you take to enter your rage, you can move up to half your speed.
 
@@ -294,7 +299,7 @@ At 14th level, you gain a feature from your Primal Path.
 
 ### Persistent Rage (Level 15)
 
-Beginning at 15th level, your rage is so fierce that it ends early only if you fall [unconscious](conditions.md#Unconscious) or if you choose to end it.
+Beginning at 15th level, your rage is so fierce that it ends early only if you fall [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious) or if you choose to end it.
 
 ### Ability Score Improvement (Level 16)
 

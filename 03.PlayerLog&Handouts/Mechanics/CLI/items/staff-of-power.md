@@ -12,12 +12,12 @@ aliases:
 ---
 # Staff of Power
 *Staff, weapon, major, very rare (requires attunement by a sorcerer, warlock, or wizard)*  
-![](staff-of-power.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/staff-of-power.webp#right)
 
 - **Damage**:
   - One-handed: 1d6 bludgeoning
   - Two-handed: 1d8 bludgeoning
-- **Properties**: [Versatile](item-properties.md#Versatile)
+- **Properties**: [Versatile](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Versatile)
 - **Weight**: 4.0 lbs.
 
 This staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls made with it. While holding it, you gain a +2 bonus to Armor Class, saving throws, and spell attack rolls.
@@ -26,11 +26,11 @@ The staff has 20 charges for the following properties. The staff regains `2d8 + 
 
 ## Power Strike
 
-When you hit with a melee attack using the staff, you can expend 1 charge to deal an extra `1d6` force damage to the target.
+When you hit with a melee attack using the staff, you can expend 1 charge to deal an extra `d6` force damage to the target.
 
 ## Spells
 
-While holding this staff, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC and spell attack bonus: [cone of cold](cone-of-cold.md) (5 charges), [fireball](fireball.md) (5th-level version, 5 charges), [globe of invulnerability](globe-of-invulnerability.md) (6 charges), [hold monster](hold-monster.md) (5 charges), [levitate](levitate.md) (2 charges), [lightning bolt](lightning-bolt.md) (5th-level version, 5 charges), [magic missile](magic-missile.md) (1 charge), [ray of enfeeblement](ray-of-enfeeblement.md) (1 charge), or [wall of force](wall-of-force.md) (5 charges).
+While holding this staff, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC and spell attack bonus: [cone of cold](03.PlayerLog&Handouts/Mechanics/CLI/spells/cone-of-cold.md) (5 charges), [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md) (5th-level version, 5 charges), [globe of invulnerability](03.PlayerLog&Handouts/Mechanics/CLI/spells/globe-of-invulnerability.md) (6 charges), [hold monster](03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-monster.md) (5 charges), [levitate](03.PlayerLog&Handouts/Mechanics/CLI/spells/levitate.md) (2 charges), [lightning bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/lightning-bolt.md) (5th-level version, 5 charges), [magic missile](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-missile.md) (1 charge), [ray of enfeeblement](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-enfeeblement.md) (1 charge), or [wall of force](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-force.md) (5 charges).
 
 ## Retributive Strike
 

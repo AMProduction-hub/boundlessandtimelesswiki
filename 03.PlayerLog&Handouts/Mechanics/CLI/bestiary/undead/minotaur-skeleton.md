@@ -8,10 +8,12 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/undead
 statblock: inline
-aliases: ["Minotaur Skeleton"]
+statblock-link: "#^statblock"
+aliases:
+- Minotaur Skeleton
 ---
-# [Minotaur Skeleton](03 - Player Log & Handouts\Mechanics\CLI\bestiary\undead/minotaur-skeleton.md)
-*Source: Monster Manual p. 273, Baldur's Gate: Descent Into Avernus. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Minotaur Skeleton](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/minotaur-skeleton.md)
+*Source: Monster Manual p. 273, Tomb of Annihilation, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Dragon of Icespire Peak, Sleeping Dragon's Wake, Baldur's Gate: Descent Into Avernus, Infernal Machine Rebuild, Dragonlance: Shadow of the Dragon Queen, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Skeletons arise when animated by dark magic. They heed the summons of spellcasters who call them from their stony tombs and ancient battlefields, or rise of their own accord in places saturated with death and loss, awakened by stirrings of necromantic energy or the presence of corrupting evil.
 
@@ -48,38 +50,48 @@ A skeleton doesn't require air, food, drink, or sleep.
 "ac_class": "natural armor"
 "hp": !!int "67"
 "hit_dice": "9d10 + 18"
+"modifier": !!int "0"
 "stats":
-- !!int "18"
-- !!int "11"
-- !!int "15"
-- !!int "6"
-- !!int "8"
-- !!int "5"
+  - !!int "18"
+  - !!int "11"
+  - !!int "15"
+  - !!int "6"
+  - !!int "8"
+  - !!int "5"
 "speed": "40 ft."
 "damage_vulnerabilities": "bludgeoning"
 "damage_immunities": "poison"
-"condition_immunities": "[exhaustion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
-  \ [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
+  \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "darkvision 60 ft., passive Perception 9"
 "languages": "understands Abyssal but can't speak"
 "cr": "2"
 "traits":
-- "desc": "If the skeleton moves at least 10 feet straight toward a target and then\
-    \ hits it with a gore attack on the same turn, the target takes an extra 9 (2d8)\
-    \ piercing damage. If the target is a creature, it must succeed on a DC 14 Strength\
-    \ saving throw or be pushed up to 10 feet away and knocked [prone](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
-  "name": "Charge"
+  - "desc": "If the skeleton moves at least 10 feet straight toward a target and then\
+      \ hits it with a gore attack on the same turn, the target takes an extra 9 (2d8)\
+      \ piercing damage. If the target is a creature, it must succeed on a DC 14 Strength\
+      \ saving throw or be pushed up to 10 feet away and knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
+    "name": "Charge"
 "actions":
-- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 17\
-    \ (2d12 + 4) slashing damage."
-  "name": "Greataxe"
-- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13\
-    \ (2d8 + 4) piercing damage."
-  "name": "Gore"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 17\
+      \ (2d12 + 4) slashing damage."
+    "name": "Greataxe"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13\
+      \ (2d8 + 4) piercing damage."
+    "name": "Gore"
 "source":
-- "MM"
-- "BGDIA"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/undead/token/minotaur-skeleton.webp"
+  - "MM"
+  - "ToA"
+  - "WDH"
+  - "WDMM"
+  - "GoS"
+  - "DIP"
+  - "SDW"
+  - "BGDIA"
+  - "IMR"
+  - "DSotDQ"
+  - "KftGV"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/token/minotaur-skeleton.webp"
 ```
 ^statblock
 

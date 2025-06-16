@@ -8,10 +8,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/humanoid/bullywug
 statblock: inline
-aliases: ["Bullywug"]
+statblock-link: "#^statblock"
+aliases:
+- Bullywug
 ---
-# [Bullywug](03 - Player Log & Handouts\Mechanics\CLI\bestiary\humanoid/bullywug.md)
-*Source: Monster Manual p. 35*  
+# [Bullywug](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/bullywug.md)
+*Source: Monster Manual p. 35, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Explorer's Guide to Wildemount*  
 
 Life as a bullywug is nasty, brutish, and wet. These frog-headed amphibious humanoids must stay constantly moist, dwelling in rainy forests, marshes, and damp caves. Always hungry and thoroughly evil, bullywugs overwhelm opponents with superior numbers when they can, but they flee from serious threats to search for easier prey.
 
@@ -42,49 +44,54 @@ Simple concepts in the language are understandable to frogs and toads. Bullywugs
 "subtype": "bullywug"
 "alignment": "Neutral Evil"
 "ac": !!int "15"
-"ac_class": "[hide armor](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/items/hide-armor.md),\
-  \ [shield](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/items/shield.md)"
+"ac_class": "[hide armor](03.PlayerLog&Handouts/Mechanics/CLI/items/hide-armor.md),\
+  \ [shield](03.PlayerLog&Handouts/Mechanics/CLI/items/shield.md)"
 "hp": !!int "11"
 "hit_dice": "2d8 + 2"
+"modifier": !!int "1"
 "stats":
-- !!int "12"
-- !!int "12"
-- !!int "13"
-- !!int "7"
-- !!int "10"
-- !!int "7"
+  - !!int "12"
+  - !!int "12"
+  - !!int "13"
+  - !!int "7"
+  - !!int "10"
+  - !!int "7"
 "speed": "20 ft., swim 40 ft."
 "skillsaves":
-  "Stealth": !!int "3"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+3"
 "senses": "passive Perception 10"
 "languages": "Bullywug"
 "cr": "1/4"
 "traits":
-- "desc": "The bullywug can breathe air and water."
-  "name": "Amphibious"
-- "desc": "The bullywug can communicate simple concepts to frogs and toads when it\
-    \ speaks in Bullywug."
-  "name": "Speak with Frogs and Toads"
-- "desc": "The bullywug has advantage on Dexterity ([Stealth](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/skills.md#Stealth))\
-    \ checks made to hide in swampy terrain."
-  "name": "Swamp Camouflage"
-- "desc": "The bullywug's long jump is up to 20 feet and its high jump is up to 10\
-    \ feet, with or without a running start."
-  "name": "Standing Leap"
+  - "desc": "The bullywug can breathe air and water."
+    "name": "Amphibious"
+  - "desc": "The bullywug can communicate simple concepts to frogs and toads when\
+      \ it speaks in Bullywug."
+    "name": "Speak with Frogs and Toads"
+  - "desc": "The bullywug has advantage on Dexterity ([Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth))\
+      \ checks made to hide in swampy terrain."
+    "name": "Swamp Camouflage"
+  - "desc": "The bullywug's long jump is up to 20 feet and its high jump is up to\
+      \ 10 feet, with or without a running start."
+    "name": "Standing Leap"
 "actions":
-- "desc": "The bullywug makes two melee attacks: one with its bite and one with its\
-    \ spear."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4\
-    \ + 1) bludgeoning damage."
-  "name": "Bite"
-- "desc": "Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60\
-    \ ft., one target. Hit: 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing\
-    \ damage if used with two hands to make a melee attack."
-  "name": "Spear"
+  - "desc": "The bullywug makes two melee attacks: one with its bite and one with\
+      \ its spear."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3\
+      \ (1d4 + 1) bludgeoning damage."
+    "name": "Bite"
+  - "desc": "Melee  or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. Hit: 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing\
+      \ damage if used with two hands to make a melee attack."
+    "name": "Spear"
 "source":
-- "MM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/humanoid/token/bullywug.webp"
+  - "MM"
+  - "WDMM"
+  - "GoS"
+  - "EGW"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/bullywug.webp"
 ```
 ^statblock
 

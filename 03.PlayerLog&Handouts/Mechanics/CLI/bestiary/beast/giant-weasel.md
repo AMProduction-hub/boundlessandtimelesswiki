@@ -10,10 +10,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/beast
 statblock: inline
-aliases: ["Giant Weasel"]
+statblock-link: "#^statblock"
+aliases:
+- Giant Weasel
 ---
-# [Giant Weasel](03 - Player Log & Handouts\Mechanics\CLI\bestiary\beast/giant-weasel.md)
-*Source: Monster Manual p. 329. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Giant Weasel](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/giant-weasel.md)
+*Source: Monster Manual p. 329, Tales from the Yawning Portal, Ghosts of Saltmarsh. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 ```statblock
 "name": "Giant Weasel"
@@ -23,31 +25,36 @@ aliases: ["Giant Weasel"]
 "ac": !!int "13"
 "hp": !!int "9"
 "hit_dice": "2d8"
+"modifier": !!int "3"
 "stats":
-- !!int "11"
-- !!int "16"
-- !!int "10"
-- !!int "4"
-- !!int "12"
-- !!int "5"
+  - !!int "11"
+  - !!int "16"
+  - !!int "10"
+  - !!int "4"
+  - !!int "12"
+  - !!int "5"
 "speed": "40 ft."
 "skillsaves":
-  "Stealth": !!int "5"
-  "Perception": !!int "3"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+3"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+5"
 "senses": "darkvision 60 ft., passive Perception 13"
 "languages": ""
 "cr": "1/8"
 "traits":
-- "desc": "The weasel has advantage on Wisdom ([Perception](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/skills.md#Perception))\
-    \ checks that rely on hearing or smell."
-  "name": "Keen Hearing and Smell"
+  - "desc": "The weasel has advantage on Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception))\
+      \ checks that rely on hearing or smell."
+    "name": "Keen Hearing and Smell"
 "actions":
-- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4\
-    \ + 3) piercing damage."
-  "name": "Bite"
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5\
+      \ (1d4 + 3) piercing damage."
+    "name": "Bite"
 "source":
-- "MM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/beast/token/giant-weasel.webp"
+  - "MM"
+  - "TftYP"
+  - "GoS"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/giant-weasel.webp"
 ```
 ^statblock
 

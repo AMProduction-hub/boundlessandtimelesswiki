@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/tce
-aliases: ["Criminal Syndicate Quests"]
+aliases:
+- Criminal Syndicate Quests
 ---
 # Criminal Syndicate Quests
 *Source: Tasha's Cauldron of Everything p. 93* 

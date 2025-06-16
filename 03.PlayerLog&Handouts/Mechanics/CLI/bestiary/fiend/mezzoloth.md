@@ -7,10 +7,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/fiend/yugoloth
 statblock: inline
-aliases: ["Mezzoloth"]
+statblock-link: "#^statblock"
+aliases:
+- Mezzoloth
 ---
-# [Mezzoloth](03 - Player Log & Handouts\Mechanics\CLI\bestiary\fiend/mezzoloth.md)
-*Source: Monster Manual p. 313, Baldur's Gate: Descent Into Avernus*  
+# [Mezzoloth](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/mezzoloth.md)
+*Source: Monster Manual p. 313, Princes of the Apocalypse, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Baldur's Gate: Descent Into Avernus*  
 
 The bulk of the yugoloth population is made up of mezzoloths, which are human-sized insect creatures covered in dense chitinous plates. Mezzoloths serve as foot soldiers in yugoloth armies, their wide-set eyes glowing red as the mezzoloths bear down on their foes.
 
@@ -56,8 +58,8 @@ Whatever the case, no fiend finds the General unless the General desires it. His
 > 
 > - An arcanaloth has a 40 percent chance of summoning one arcanaloth.  
 > - A mezzoloth has a 30 percent chance of summoning one mezzoloth.  
-> - A nycaloth has a 50 percent chance of summoning `1d4` mezzoloths or one nycaloth.  
-> - An ultroloth has a 50 percent chance of summoning `1d6` mezzoloths, `1d4` nycaloths, or one ultroloth.  
+> - A nycaloth has a 50 percent chance of summoning `d4` mezzoloths or one nycaloth.  
+> - An ultroloth has a 50 percent chance of summoning `d6` mezzoloths, `d4` nycaloths, or one ultroloth.  
 > 
 > A summoned yugoloth appears in an unoccupied space within 60 feet of its summoner, does as it pleases (unless its summoner is an ultroloth, in which case it acts as an ally of its summoner), and can't summon other yugoloths. The summoned yugoloth remains for l minute, until it or its summoner dies, or until its summoner takes a bonus action to dismiss it
 ^variant-yugoloth-summoning
@@ -77,51 +79,57 @@ Whatever the case, no fiend finds the General unless the General desires it. His
 "ac_class": "natural armor"
 "hp": !!int "75"
 "hit_dice": "10d8 + 30"
+"modifier": !!int "0"
 "stats":
-- !!int "18"
-- !!int "11"
-- !!int "16"
-- !!int "7"
-- !!int "10"
-- !!int "11"
+  - !!int "18"
+  - !!int "11"
+  - !!int "16"
+  - !!int "7"
+  - !!int "10"
+  - !!int "11"
 "speed": "40 ft."
 "skillsaves":
-  "Perception": !!int "3"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+3"
 "damage_resistances": "cold; fire; lightning; bludgeoning, piercing, slashing from\
   \ nonmagical attacks"
 "damage_immunities": "acid, poison"
-"condition_immunities": "[poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "blindsight 60 ft., darkvision 60 ft., passive Perception 13"
 "languages": "Abyssal, Infernal, telepathy 60 ft."
 "cr": "5"
 "traits":
-- "desc": "The mezzoloth's innate spellcasting ability is Charisma (spell save DC\
-    \ 11). The mezzoloth can innately cast the following spells, requiring no material\
-    \ components:\n\n1/day: [cloudkill](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/cloudkill.md)\n\
-    \n2/day each: [darkness](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/darkness.md),\
-    \ [dispel magic](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/dispel-magic.md)"
-  "name": "Innate Spellcasting"
-- "desc": "The mezzoloth has advantage on saving throws against spells and other magical\
-    \ effects."
-  "name": "Magic Resistance"
-- "desc": "The mezzoloth's weapon attacks are magical."
-  "name": "Magic Weapons"
+  - "desc": "The mezzoloth's innate spellcasting ability is Charisma (spell save DC\
+      \ 11). The mezzoloth can innately cast the following spells, requiring no material\
+      \ components:\n\n2/day each: [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
+      \ [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md)\n\
+      \n1/day: [cloudkill](03.PlayerLog&Handouts/Mechanics/CLI/spells/cloudkill.md)"
+    "name": "Innate Spellcasting"
+  - "desc": "The mezzoloth has advantage on saving throws against spells and other\
+      \ magical effects."
+    "name": "Magic Resistance"
+  - "desc": "The mezzoloth's weapon attacks are magical."
+    "name": "Magic Weapons"
 "actions":
-- "desc": "The mezzoloth makes two attacks: one with its claws and one with its trident."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9 (2d4\
-    \ + 4) slashing damage."
-  "name": "Claws"
-- "desc": "Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60\
-    \ ft., one target. Hit: 7 (1d6 + 4) piercing damage, or 8 (1d8 + 4) piercing\
-    \ damage when held with two claws and used to make a melee attack."
-  "name": "Trident"
-- "desc": "The mezzoloth magically teleports, along with any equipment it is wearing\
-    \ or carrying, up to 60 feet to an unoccupied space it can see."
-  "name": "Teleport"
+  - "desc": "The mezzoloth makes two attacks: one with its claws and one with its\
+      \ trident."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9\
+      \ (2d4 + 4) slashing damage."
+    "name": "Claws"
+  - "desc": "Melee  or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. Hit: 7 (1d6 + 4) piercing damage, or 8 (1d8 + 4) piercing\
+      \ damage when held with two claws and used to make a melee attack."
+    "name": "Trident"
+  - "desc": "The mezzoloth magically teleports, along with any equipment it is wearing\
+      \ or carrying, up to 60 feet to an unoccupied space it can see."
+    "name": "Teleport"
 "source":
-- "MM"
-- "BGDIA"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/fiend/token/mezzoloth.webp"
+  - "MM"
+  - "PotA"
+  - "ToA"
+  - "WDMM"
+  - "BGDIA"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/token/mezzoloth.webp"
 ```
 ^statblock

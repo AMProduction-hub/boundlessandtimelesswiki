@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
-aliases: ["Physical Variations; Yuan-ti Snake Head Shape"]
+aliases:
+- Physical Variations; Yuan-ti Snake Head Shape
 ---
 # Physical Variations; Yuan-ti Snake Head Shape
 *Source: Volo's Guide to Monsters p. 97* 

@@ -8,10 +8,12 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/monstrosity
 statblock: inline
-aliases: ["Young Remorhaz"]
+statblock-link: "#^statblock"
+aliases:
+- Young Remorhaz
 ---
-# [Young Remorhaz](03 - Player Log & Handouts\Mechanics\CLI\bestiary\monstrosity/young-remorhaz.md)
-*Source: Monster Manual p. 258*  
+# [Young Remorhaz](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/young-remorhaz.md)
+*Source: Monster Manual p. 258, Storm King's Thunder, Explorer's Guide to Wildemount, Icewind Dale: Rime of the Frostmaiden*  
 
 From beneath the snow and ice bursts a remorhaz in a cloud of steam, its body pulsing with internal fire. Wing like fins flare from the back of the creature's head, and its wide mouth brims with jagged teeth.
 
@@ -32,29 +34,33 @@ Frost giant hunters scour the icy wastes for remorhaz nests and eggs. The giants
 "ac_class": "natural armor"
 "hp": !!int "93"
 "hit_dice": "11d10 + 33"
+"modifier": !!int "1"
 "stats":
-- !!int "18"
-- !!int "13"
-- !!int "17"
-- !!int "3"
-- !!int "10"
-- !!int "4"
+  - !!int "18"
+  - !!int "13"
+  - !!int "17"
+  - !!int "3"
+  - !!int "10"
+  - !!int "4"
 "speed": "30 ft., burrow 30 ft."
 "damage_immunities": "cold, fire"
 "senses": "darkvision 60 ft., tremorsense 60 ft., passive Perception 10"
 "languages": ""
 "cr": "5"
 "traits":
-- "desc": "A creature that touches the remorhaz or hits it with a melee attack while\
-    \ within 5 feet of it takes 7 (2d6) fire damage."
-  "name": "Heated Body"
+  - "desc": "A creature that touches the remorhaz or hits it with a melee attack while\
+      \ within 5 feet of it takes 7 (2d6) fire damage."
+    "name": "Heated Body"
 "actions":
-- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 20\
-    \ (3d10 + 4) piercing damage plus 7 (2d6) fire damage."
-  "name": "Bite"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 20\
+      \ (3d10 + 4) piercing damage plus 7 (2d6) fire damage."
+    "name": "Bite"
 "source":
-- "MM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/monstrosity/token/young-remorhaz.webp"
+  - "MM"
+  - "SKT"
+  - "EGW"
+  - "IDRotF"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/token/young-remorhaz.webp"
 ```
 ^statblock
 

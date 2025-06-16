@@ -9,10 +9,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/monstrosity
 statblock: inline
-aliases: ["Grick"]
+statblock-link: "#^statblock"
+aliases:
+- Grick
 ---
-# [Grick](03 - Player Log & Handouts\Mechanics\CLI\bestiary\monstrosity/grick.md)
-*Source: Monster Manual p. 173, Lost Mine of Phandelver. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Grick](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/grick.md)
+*Source: Monster Manual p. 173, Curse of Strahd, Lost Mine of Phandelver, Princes of the Apocalypse, Tales from the Yawning Portal, Waterdeep: Dungeon of the Mad Mage, Candlekeep Mysteries, Dragonlance: Shadow of the Dragon Queen, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 The wormlike grick waits unseen, blending in with the rock of the caves and caverns it haunts. Only when prey comes near does it rear up, its four barbed tentacles unfurling to reveal its hungry, snapping beak.
 
@@ -37,36 +39,44 @@ Over time, grick lairs accumulate the cast-off possessions of intelligent prey, 
 "ac_class": "natural armor"
 "hp": !!int "27"
 "hit_dice": "6d8"
+"modifier": !!int "2"
 "stats":
-- !!int "14"
-- !!int "14"
-- !!int "11"
-- !!int "3"
-- !!int "14"
-- !!int "5"
+  - !!int "14"
+  - !!int "14"
+  - !!int "11"
+  - !!int "3"
+  - !!int "14"
+  - !!int "5"
 "speed": "30 ft., climb 30 ft."
 "damage_resistances": "bludgeoning, piercing, slashing from nonmagical attacks"
 "senses": "darkvision 60 ft., passive Perception 12"
 "languages": ""
 "cr": "2"
 "traits":
-- "desc": "The grick has advantage on Dexterity ([Stealth](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/skills.md#Stealth))\
-    \ checks made to hide in rocky terrain."
-  "name": "Stone Camouflage"
+  - "desc": "The grick has advantage on Dexterity ([Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth))\
+      \ checks made to hide in rocky terrain."
+    "name": "Stone Camouflage"
 "actions":
-- "desc": "The grick makes one attack with its tentacles. If that attack hits, the\
-    \ grick can make one beak attack against the same target."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6\
-    \ + 2) slashing damage."
-  "name": "Tentacles"
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6\
-    \ + 2) piercing damage."
-  "name": "Beak"
+  - "desc": "The grick makes one attack with its tentacles. If that attack hits, the\
+      \ grick can make one beak attack against the same target."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9\
+      \ (2d6 + 2) slashing damage."
+    "name": "Tentacles"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5\
+      \ (1d6 + 2) piercing damage."
+    "name": "Beak"
 "source":
-- "MM"
-- "LMoP"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/monstrosity/token/grick.webp"
+  - "MM"
+  - "CoS"
+  - "LMoP"
+  - "PotA"
+  - "TftYP"
+  - "WDMM"
+  - "CM"
+  - "DSotDQ"
+  - "KftGV"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/token/grick.webp"
 ```
 ^statblock
 

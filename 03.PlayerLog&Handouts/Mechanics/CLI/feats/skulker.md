@@ -4,7 +4,8 @@ cssclasses: json5e-feat
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/feat
-aliases: ["Skulker"]
+aliases:
+- Skulker
 ---
 # Skulker
 *Source: Player's Handbook p. 170*  

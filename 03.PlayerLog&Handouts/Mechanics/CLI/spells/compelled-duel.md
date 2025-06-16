@@ -3,17 +3,21 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
+- ttrpg-cli/spell/background/gruul-anarch
 - ttrpg-cli/spell/class/bard
 - ttrpg-cli/spell/class/paladin
 - ttrpg-cli/spell/feat/fey-touched
 - ttrpg-cli/spell/level/1st-level
+- ttrpg-cli/spell/reward/iroass-devotee
 - ttrpg-cli/spell/school/enchantment
 - ttrpg-cli/spell/subclass/oath-of-the-crown
+- ttrpg-cli/spell/subrace/human-mark-of-sentinel
 classes:
 - Bard
 - Paladin
 - Paladin (Oath of the Crown)
-aliases: ["Compelled Duel"]
+aliases:
+- Compelled Duel
 ---
 # Compelled Duel
 *1st-level, Enchantment*  
@@ -28,6 +32,6 @@ You attempt to compel a creature into a duel. One creature that you can see with
 
 The spell ends if you attack any other creature, if you cast a spell that targets a hostile creature other than the target, if a creature friendly to you damages the target or casts a harmful spell on it, or if you end your turn more than 30 feet away from the target.
 
-**Classes**: [Paladin](list-spells-classes-paladin.md); [Bard](list-spells-classes-bard.md); [Paladin (Oath of the Crown)](list-spells-classes-paladin-oath-of-the-crown-scag.md "subclass=SCAG")
+**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Paladin (Oath of the Crown)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-the-crown-scag.md "subclass=SCAG"); [Paladin](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-paladin.md)
 
 *Source: Player's Handbook p. 224*

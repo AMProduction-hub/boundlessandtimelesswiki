@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
-aliases: ["Doors; Door Type"]
+aliases:
+- Doors; Door Type
 ---
 # Doors; Door Type
 *Source: Dungeon Master's Guide p. 291* 

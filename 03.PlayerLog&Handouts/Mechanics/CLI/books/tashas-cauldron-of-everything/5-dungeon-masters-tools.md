@@ -3,16 +3,17 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/tce
-aliases: ["Dungeon Master's Tools"]
+aliases:
+- Dungeon Master's Tools
 ---
 # Dungeon Master's Tools
 *Source: Tasha's Cauldron of Everything, p. 139* 
 
 The Dungeon Master employs many tools when preparing and running a D&D campaign. As a DM, your tools include your imagination, your ability to discern what entertains your players, your storytelling acumen, your sense of humor, your ability to listen well, your facility with the game's rules, and more. This chapter adds to your toolbox with guidance and optional rules for a variety of situations. The chapter also includes a selection of ready-to-use puzzles, which you can drop into any campaign.
 
- The tools herein build on the material in the "Dungeon Master's Guide" and the "Monster Manual". You may use some, all, or none of these tools, and feel free to customize how they work. Your group's enjoyment is paramount, so make these rules your own, aiming to match your group's tastes.
+The tools herein build on the material in the "Dungeon Master's Guide" and the "Monster Manual". You may use some, all, or none of these tools, and feel free to customize how they work. Your group's enjoyment is paramount, so make these rules your own, aiming to match your group's tastes.
 
-![Tasha prepares to win anot...](090-04-001.webp#center "Tasha prepares to win another game of wizardly chess against her rival Mordenkainen.")
+![Tasha prepares to win anot...](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/090-04-001.webp#center "Tasha prepares to win another game of wizardly chess against her rival Mordenkainen.")
 
 ## Session Zero
 
@@ -22,7 +23,7 @@ The Dungeon Master employs many tools when preparing and running a D&D campaign.
 
 Before making characters or playing the game, the DM and players can run a special session—colloquially called session zero—to establish expectations, outline the terms of a social contract, and share house rules. Making and sticking to these rules can help ensure that the game is a fun experience for everyone involved.
 
- Often a session zero includes building characters together. As the DM, you can help players during the character creation process by advising them to select options that will serve the adventure or campaign that awaits.
+Often a session zero includes building characters together. As the DM, you can help players during the character creation process by advising them to select options that will serve the adventure or campaign that awaits.
 
 ### Character and Party Creation
 
@@ -37,33 +38,33 @@ During session zero, your role is to let the players build the characters they w
 - What does each character like most about every other member of the adventuring party?  
 - Does the group have a patron? See chapter 2, ""Group Patrons"" for patron examples.  
 
- If the players are having trouble coming up with a story for how their characters met, they may choose an option from the Party Origin table or let a `d6` roll choose it for them. You should spend part of session zero helping the players flesh out the details. For example, if the characters came together to overcome a common foe, the identity of this enemy needs to be determined. If a funeral gathered the group, the identity of the deceased and each character's relationship to them will need to be fleshed out.
+If the players are having trouble coming up with a story for how their characters met, they may choose an option from the Party Origin table or let a `d6` roll choose it for them. You should spend part of session zero helping the players flesh out the details. For example, if the characters came together to overcome a common foe, the identity of this enemy needs to be determined. If a funeral gathered the group, the identity of the deceased and each character's relationship to them will need to be fleshed out.
 
-![Party Formation; Party Origin](party-formation-party-origin-tce.md)
+![Party Formation; Party Origin](03.PlayerLog&Handouts/Mechanics/CLI/tables/party-formation-party-origin-tce.md)
 
 #### Running a Game for One Player
 
 A DM running a game for one player should spend part of session zero working with that player to come up with their character's backstory, then let the player decide if they want the character to have a sidekick (see the "Sidekicks" section in this chapter).
 
- You might need to help the player run the sidekick for the first few sessions and should make sure the player understands the functions and limitations of sidekicks:
+You might need to help the player run the sidekick for the first few sessions and should make sure the player understands the functions and limitations of sidekicks:
 
 - Sidekicks are stalwart companions who can perform tasks both in and out of combat, including things such as setting up camp and carrying gear.  
 - Ideally, a sidekick's abilities should complement those of the main character. For example, a spellcaster makes a good sidekick for a fighter or rogue.  
 
-![During a festival below on...](091-04-002.webp#center "During a festival below one of the walking statues of Waterdeep, young friends dream of embarking on adventures together.")
+![During a festival below on...](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/091-04-002.webp#center "During a festival below one of the walking statues of Waterdeep, young friends dream of embarking on adventures together.")
 
 ### Social Contract
 
 D&D is first and foremost meant to be a fun-for-all experience. If one or more participants aren't having fun, the game won't last long. Session zero is the perfect time for you and the players to discuss the experience they're hoping for, as well as topics, themes, and behavior they deem inappropriate. Out of this discussion, a social contract begins to form.
 
- Sometimes a social contract takes shape organically, but it's good practice to have a direct conversation during session zero to establish boundaries and expectations. A typical social contract in a D&D group includes implicit or explicit commitments to the following points:
+Sometimes a social contract takes shape organically, but it's good practice to have a direct conversation during session zero to establish boundaries and expectations. A typical social contract in a D&D group includes implicit or explicit commitments to the following points:
 
 - You will respect the players by running a game that is fun, fair, and tailored for them. You will allow every player to contribute to the ongoing story and give every character moments to shine. When a player is talking, you are listening.  
 - The players will respect you and the effort it takes to create a fun game for everyone. The players will allow you to direct the campaign, arbitrate the rules, and settle arguments. When you are talking, the players are listening.  
 - The players will respect one another, listen to one another, support one another, and do their utmost to preserve the cohesion of the adventuring party.  
 - Should you or a player disrespect each other or violate the social contract in some other way, the group may dismiss that person from the table.   
 
- This social contract covers the basics, but individual groups might require additional agreed-upon terms to guarantee a fun play experience for all. And a social contract typically evolves as a group's members learn more about one another.
+This social contract covers the basics, but individual groups might require additional agreed-upon terms to guarantee a fun play experience for all. And a social contract typically evolves as a group's members learn more about one another.
 
 #### Hard and Soft Limits
 
@@ -95,7 +96,7 @@ In addition to shaping the game around the characters in the adventuring party, 
 
 House rules include optional rules, such as those presented in "chapter 9" of the "Dungeon Master's Guide", and rules you create. If you plan to use any house rules, session zero is a good time to discuss those rules with the players and solicit their input.
 
- House rules are best presented as experiments, and time will tell if they're good for your game. If you introduce a house rule in session zero that turns out to have an adverse effect on people's enjoyment of the game, you may jettison or revise the house rule to create a better gaming experience for everyone. Don't feel bad if a house rule doesn't end up working as well as you expected it to. Remember: the goal is to ensure everyone is having fun.
+House rules are best presented as experiments, and time will tell if they're good for your game. If you introduce a house rule in session zero that turns out to have an adverse effect on people's enjoyment of the game, you may jettison or revise the house rule to create a better gaming experience for everyone. Don't feel bad if a house rule doesn't end up working as well as you expected it to. Remember: the goal is to ensure everyone is having fun.
 
 ## Sidekicks
 
@@ -105,24 +106,24 @@ House rules include optional rules, such as those presented in "chapter 9" of th
 
 This section provides a straightforward way to add a special NPC—called a sidekick—to the group of adventurers. These rules take a creature with a low challenge rating and give it levels in one of three simple classes: Expert, Spellcaster, or Warrior.
 
- A sidekick can be incorporated into a group at the party's inception, or a sidekick might join them during the campaign. For example, the characters might meet a villager, an animal, or another creature, forge a friendship, and invite the creature to join them on their adventures.
+A sidekick can be incorporated into a group at the party's inception, or a sidekick might join them during the campaign. For example, the characters might meet a villager, an animal, or another creature, forge a friendship, and invite the creature to join them on their adventures.
 
- You can also use these rules to customize a monster for your own use as DM.
+You can also use these rules to customize a monster for your own use as DM.
 
 ### Creating a Sidekick
 
 A sidekick can be any type of creature with a stat block in the "Monster Manual" or another D&D book, but the challenge rating in its stat block must be 1/2 or lower. You take that stat block and add to it, as explained in the "Gaining a Sidekick Class" section.
 
- To join the adventurers, the sidekick must be the friend of at least one of them. This friendship might be connected to a character's backstory or to events that have transpired in play. For example, a sidekick could be a childhood friend or pet, or it might be a creature the adventurers saved. As DM, you determine whether there is sufficient trust established for the creature to join the group.
+To join the adventurers, the sidekick must be the friend of at least one of them. This friendship might be connected to a character's backstory or to events that have transpired in play. For example, a sidekick could be a childhood friend or pet, or it might be a creature the adventurers saved. As DM, you determine whether there is sufficient trust established for the creature to join the group.
 
- You decide who plays the sidekick. Here are some options:
+You decide who plays the sidekick. Here are some options:
 
 - A player plays the sidekick as their second character—ideal when you have only one or two players.  
 - A player plays the sidekick as their only character—ideal for a player who wants a character who's simpler than a typical player character.  
 - The players jointly play the sidekick.  
 - You play the sidekick.  
 
- There's no limit on the number of sidekicks in a group, but having more than one per player character can noticeably slow down the game. And when estimating the difficulty of an upcoming encounter, count each sidekick as a character.
+There's no limit on the number of sidekicks in a group, but having more than one per player character can noticeably slow down the game. And when estimating the difficulty of an upcoming encounter, count each sidekick as a character.
 
 ### Gaining a Sidekick Class
 
@@ -140,28 +141,28 @@ Whenever a group's average level goes up, the sidekick gains a level. It doesn't
 
 Whenever the sidekick gains a level, it gains one Hit Die, and its hit point maximum increases. To determine the amount of the increase, roll the Hit Die (the type of die appears in the sidekick's stat block), and add its Constitution modifier. It gains a minimum of 1 hit point per level.
 
- If the sidekick drops to 0 hit points and isn't killed outright, it falls [unconscious](conditions.md#Unconscious) and subsequently makes death saving throws, just like a player character.
+If the sidekick drops to 0 hit points and isn't killed outright, it falls [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious) and subsequently makes death saving throws, just like a player character.
 
 #### Proficiency Bonus
 
 The sidekick's proficiency bonus is determined by its level in its class, as shown in the class's table.
 
- Whenever the sidekick's proficiency bonus increases by 1, add 1 to the to-hit modifier of all the attacks in its stat block, and increase the DCs in its stat block by 1.
+Whenever the sidekick's proficiency bonus increases by 1, add 1 to the to-hit modifier of all the attacks in its stat block, and increase the DCs in its stat block by 1.
 
 #### Ability Score Increases
 
 Whenever the sidekick gains the Ability Score Improvement feature, adjust anything in its stat block that relies on an ability modifier that you increase. For example, if the sidekick has an attack that uses its Strength modifier, increase the attack's modifiers to hit and damage if the Strength modifier increases.
 
- If it's unclear whether a melee attack in the stat block uses Strength or Dexterity, the attack can use either.
+If it's unclear whether a melee attack in the stat block uses Strength or Dexterity, the attack can use either.
 
-- [Expert Sidekick](expert-sidekick-tce.md)  
-- [Spellcaster Sidekick](spellcaster-sidekick-tce.md)  
-- [Warrior Sidekick](warrior-sidekick-tce.md)  
+- [Expert Sidekick](03.PlayerLog&Handouts/Mechanics/CLI/classes/expert-sidekick-tce.md)  
+- [Spellcaster Sidekick](03.PlayerLog&Handouts/Mechanics/CLI/classes/spellcaster-sidekick-tce.md)  
+- [Warrior Sidekick](03.PlayerLog&Handouts/Mechanics/CLI/classes/warrior-sidekick-tce.md)  
 
 > [!gallery]
-> ![Experts, Left to Right: a ...](092-04-003.webp#gallery "Experts, Left to Right: a Tortle, a Winged Kobold, and a Kenku")
-> ![Spellcasters, Left to Righ...](093-04-004.webp#gallery "Spellcasters, Left to Right: a Bullywug, a Goblin, and a Tabaxi")
-> ![Warriors, Left to Right: a...](094-04-005.webp#gallery "Warriors, Left to Right: an Aasimar, a Firbolg, and a Wolf")
+> ![Experts, Left to Right: a ...](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/092-04-003.webp#gallery "Experts, Left to Right: a Tortle, a Winged Kobold, and a Kenku")
+> ![Spellcasters, Left to Righ...](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/093-04-004.webp#gallery "Spellcasters, Left to Right: a Bullywug, a Goblin, and a Tabaxi")
+> ![Warriors, Left to Right: a...](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/094-04-005.webp#gallery "Warriors, Left to Right: an Aasimar, a Firbolg, and a Wolf")
 
 ## Parleying with Monsters
 
@@ -171,43 +172,43 @@ Whenever the sidekick gains the Ability Score Improvement feature, adjust anythi
 
 Meeting a monster doesn't have to spark a fight. An offering, like food, can calm some hostile monsters, and sapient creatures often prefer to talk than to draw weapons. If the adventurers try to parley with a monster, you may improvise the encounter or use the "social interaction rules" in the "Dungeon Master's Guide". Consider granting the characters advantage on any ability check they make to communicate with a creature if they offer something it wants. The "Monsters' Desires" section below suggest things that a creature might like, depending on its type.
 
-![Adventurers offer meat to an owlbear.](095-04-006.webp#center)
+![Adventurers offer meat to an owlbear.](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/095-04-006.webp#center)
 
 ### Monster Research
 
 Adventurers can research what a creature is likely to desire. The Monster Research table suggests which skills can be used to learn about a creature of a particular type. The DC for a relevant ability check equals 10 + the creature's challenge rating.
 
-![Monster Research](monster-research-tce.md)
+![Monster Research](03.PlayerLog&Handouts/Mechanics/CLI/tables/monster-research-tce.md)
 
 ### Monsters' Desires
 
-![Monsters' Desires; Aberrations](monsters-desires-aberrations-tce.md)
+![Monsters' Desires; Aberrations](03.PlayerLog&Handouts/Mechanics/CLI/tables/monsters-desires-aberrations-tce.md)
 
-![Monsters' Desires; Beasts](monsters-desires-beasts-tce.md)
+![Monsters' Desires; Beasts](03.PlayerLog&Handouts/Mechanics/CLI/tables/monsters-desires-beasts-tce.md)
 
-![Monsters' Desires; Celestials](monsters-desires-celestials-tce.md)
+![Monsters' Desires; Celestials](03.PlayerLog&Handouts/Mechanics/CLI/tables/monsters-desires-celestials-tce.md)
 
-![Monsters' Desires; Constructs](monsters-desires-constructs-tce.md)
+![Monsters' Desires; Constructs](03.PlayerLog&Handouts/Mechanics/CLI/tables/monsters-desires-constructs-tce.md)
 
-![Monsters' Desires; Dragons](monsters-desires-dragons-tce.md)
+![Monsters' Desires; Dragons](03.PlayerLog&Handouts/Mechanics/CLI/tables/monsters-desires-dragons-tce.md)
 
-![Monsters' Desires; Elementals](monsters-desires-elementals-tce.md)
+![Monsters' Desires; Elementals](03.PlayerLog&Handouts/Mechanics/CLI/tables/monsters-desires-elementals-tce.md)
 
-![Monsters' Desires; Fey](monsters-desires-fey-tce.md)
+![Monsters' Desires; Fey](03.PlayerLog&Handouts/Mechanics/CLI/tables/monsters-desires-fey-tce.md)
 
-![Monsters' Desires; Fiends](monsters-desires-fiends-tce.md)
+![Monsters' Desires; Fiends](03.PlayerLog&Handouts/Mechanics/CLI/tables/monsters-desires-fiends-tce.md)
 
-![Monsters' Desires; Giants](monsters-desires-giants-tce.md)
+![Monsters' Desires; Giants](03.PlayerLog&Handouts/Mechanics/CLI/tables/monsters-desires-giants-tce.md)
 
-![Monsters' Desires; Humanoids](monsters-desires-humanoids-tce.md)
+![Monsters' Desires; Humanoids](03.PlayerLog&Handouts/Mechanics/CLI/tables/monsters-desires-humanoids-tce.md)
 
-![Monsters' Desires; Monstrosities](monsters-desires-monstrosities-tce.md)
+![Monsters' Desires; Monstrosities](03.PlayerLog&Handouts/Mechanics/CLI/tables/monsters-desires-monstrosities-tce.md)
 
-![Monsters' Desires; Oozes](monsters-desires-oozes-tce.md)
+![Monsters' Desires; Oozes](03.PlayerLog&Handouts/Mechanics/CLI/tables/monsters-desires-oozes-tce.md)
 
-![Monsters' Desires; Plants](monsters-desires-plants-tce.md)
+![Monsters' Desires; Plants](03.PlayerLog&Handouts/Mechanics/CLI/tables/monsters-desires-plants-tce.md)
 
-![Monsters' Desires; Undead](monsters-desires-undead-tce.md)
+![Monsters' Desires; Undead](03.PlayerLog&Handouts/Mechanics/CLI/tables/monsters-desires-undead-tce.md)
 
 ## Environmental Hazards
 
@@ -217,17 +218,17 @@ Adventurers can research what a creature is likely to desire. The Monster Resear
 
 This section explores how to add fantastical challenges to any locale and ways to further bring an adventure's setting to life.
 
- When a creature's name appears in bold in a table herein, that indicates that you can find the creature's stat block in the "Monster Manual".
+When a creature's name appears in bold in a table herein, that indicates that you can find the creature's stat block in the "Monster Manual".
 
 ### Supernatural Regions
 
 Not all lands thrive as nature intended. Magical forces, strange interlopers, or tragic events can alter an area's destiny, fundamentally changing the land. While the flora, fauna, structures, and inhabitants might remain unaffected, the land's innate character takes on new qualities.
 
- A supernatural region is permeated by a preternatural force in an area as large or small as you wish. In the affected area, certain effects and brief encounters reinforce an underlying theme. These effects occur as characters traverse an influenced region or add interest to a specific affected location.
+A supernatural region is permeated by a preternatural force in an area as large or small as you wish. In the affected area, certain effects and brief encounters reinforce an underlying theme. These effects occur as characters traverse an influenced region or add interest to a specific affected location.
 
- The descriptions of the following supernatural regions summarize the region, present a table of potential effects within the affected area, and note triggers for a random effect. Feel free to customize the effects of each region to suit any adventure.
+The descriptions of the following supernatural regions summarize the region, present a table of potential effects within the affected area, and note triggers for a random effect. Feel free to customize the effects of each region to suit any adventure.
 
- The effects of a region occur whenever you please, at the time each description suggests, or under one or more of the following circumstances:
+The effects of a region occur whenever you please, at the time each description suggests, or under one or more of the following circumstances:
 
 - Soon after the party first enters the region  
 - When a creature loses more than half its hit points  
@@ -245,127 +246,127 @@ The grace of the Upper Planes touches this region. Consider rolling on the Bless
 - A creature scores a critical hit against a fiend or an undead  
 - A creature experiences an epiphany or inspiring triumph in the service of righteousness or in defiance of wickedness  
 
-![A Blessed Ki-rin Shrine](096-04-007.webp#center)
+![A Blessed Ki-rin Shrine](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/096-04-007.webp#center)
 
-![Blessed Radiance Effects](blessed-radiance-effects-tce.md)
+![Blessed Radiance Effects](03.PlayerLog&Handouts/Mechanics/CLI/tables/blessed-radiance-effects-tce.md)
 
 #### Far Realm
 
 As souls travel away from the Material Plane after death, they either dwell in the Astral Plane as spirits or are pulled toward one of the Outer Planes to continue their journey. But some entities find ways to travel beyond the Outer Planes to dwell in the Far Realm. There they transform over eons into abominations or elder evils, seething in a reality with its own laws. All who stay in the Far Realm are eventually twisted into alien shapes by the realm's eldritch forces.
 
- The Far Realm's pernicious influence is often subtle, leaking into the Material Plane through thin places in reality or as invasive thoughts that inspire life to propagate along alien paths.
+The Far Realm's pernicious influence is often subtle, leaking into the Material Plane through thin places in reality or as invasive thoughts that inspire life to propagate along alien paths.
 
- Consider rolling on the Far Realm Effects table when the following circumstances occur in a region touched by the Far Realm:
+Consider rolling on the Far Realm Effects table when the following circumstances occur in a region touched by the Far Realm:
 
 - A warlock whose Otherworldly Patron is a Great Old One rolls a 1 or 20 on the `d20` for an ability check, an attack roll, or a saving throw.  
 - The characters take a short or long rest in the region.  
 - A creature spends more than an hour reading an eldritch tome written by those who have seen or otherwise interacted with the Far Realm.  
 
-![A Far Realm Incursion with Mind Flayer Nautiloids](097-04-008.webp#center)
+![A Far Realm Incursion with Mind Flayer Nautiloids](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/097-04-008.webp#center)
 
-![Far Realm Effects](far-realm-effects-tce.md)
+![Far Realm Effects](03.PlayerLog&Handouts/Mechanics/CLI/tables/far-realm-effects-tce.md)
 
 #### Haunted
 
 Haunted environs include homes burdened by dark deeds, the sites of mass killings, and locations where individuals died while experiencing powerful fear, sorrow, or hatred. Haunted places bear echoes of the past and, like ghosts, harass visitors even as they seek respite from age-old traumas. Few places are meaninglessly haunted, and you can easily customize the general results on the following table to suit all manner of macabre tales.
 
- Consider rolling on the Haunted Effects table when the following circumstances occur in the region:
+Consider rolling on the Haunted Effects table when the following circumstances occur in the region:
 
-- A creature gains the [frightened](conditions.md#Frightened) condition.  
+- A creature gains the [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened) condition.  
 - Multiple creatures are unable to see.  
 - A creature is alone.  
 - Midnight or another ominous hour arrives.  
 - A ghost or other creature tied to the region's grim history menaces the party.  
 
-![A Haunted Manor](098-04-009.webp#center)
+![A Haunted Manor](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/098-04-009.webp#center)
 
-![Haunted Effects](haunted-effects-tce.md)
+![Haunted Effects](03.PlayerLog&Handouts/Mechanics/CLI/tables/haunted-effects-tce.md)
 
 #### Infested
 
 On many worlds, the biomass of insects radically outweighs that of higher organisms. Mass migrations and deadly insect species can imperil larger creatures, but most insects remain nothing more than an annoyance. However, through wild population booms, magical manipulation, supernatural growth, interbreeding with otherworldly species, or stranger circumstances, insects can overrun an entire region. Swarms of insects become the dominant species in an area, consuming plants and animals, creating elaborate hives or tunnels, and infesting structures and the earth.
 
- The following effects represent a region overrun by insects or hives of similar creatures, likely manipulated by magic, otherworldly intelligence, or environmental factors to infest an area in countless numbers and drive out all competing life.
+The following effects represent a region overrun by insects or hives of similar creatures, likely manipulated by magic, otherworldly intelligence, or environmental factors to infest an area in countless numbers and drive out all competing life.
 
- Consider rolling on the Infested Effects table when the following circumstances occur in the region:
+Consider rolling on the Infested Effects table when the following circumstances occur in the region:
 
 - Webs, cocoons, hives, anthills, or other insect dwellings are disturbed.  
-- A creature attacks an insect swarm or a Small or larger insect, such as a [giant centipede](giant-centipede.md) or [giant spider](giant-spider.md), in the region.  
+- A creature attacks an insect swarm or a Small or larger insect, such as a [giant centipede](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-centipede.md) or [giant spider](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-spider.md), in the region.  
 - A creature begins a short or long rest.  
 
-![An Infested City](099-04-010.webp#center)
+![An Infested City](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/099-04-010.webp#center)
 
-![Infested Effects](infested-effects-tce.md)
+![Infested Effects](03.PlayerLog&Handouts/Mechanics/CLI/tables/infested-effects-tce.md)
 
 #### Mirror Zone
 
 A mirror zone occurs where planar and magical energies converge and create a place of reflections. Creatures, objects, and energy reflect, refract, duplicate, or are transported elsewhere. Such locations arise from the intrusion of a theorized Plane of Mirrors upon the Material Plane, or where powerful magic governing transition, protection, or divination had unexpected results.
 
- Consider rolling on the Mirror Zone Effects table when the following circumstances occur in the region:
+Consider rolling on the Mirror Zone Effects table when the following circumstances occur in the region:
 
 - A creature shatters a mirror.  
 - A creature uses any teleportation magic.  
 - An illusion appears.  
 - A creature impersonates another creature.  
 
-![A Tailor Shop in a Mirror Zone](100-04-011.webp#center)
+![A Tailor Shop in a Mirror Zone](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/100-04-011.webp#center)
 
-![Mirror Zone Effects](mirror-zone-effects-tce.md)
+![Mirror Zone Effects](03.PlayerLog&Handouts/Mechanics/CLI/tables/mirror-zone-effects-tce.md)
 
 #### Psychic Resonance
 
 In an area of psychic resonance, magic imposes strange effects on creatures and objects. These manifestations stem from strong emotions combined with magic use or from the presence of psionic creatures.
 
- Consider rolling on the Psychic Resonance Effects table when the following circumstances occur in the region:
+Consider rolling on the Psychic Resonance Effects table when the following circumstances occur in the region:
 
 - A creature endures a powerful emotional experience.  
 - A creature takes an amount of psychic damage greater than its Constitution score.  
-- A creature becomes [charmed](conditions.md#Charmed) or [frightened](conditions.md#Frightened).  
+- A creature becomes [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed) or [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened).  
 - A creature experiences telepathic communication.  
 
-![Animals converse after gai...](101-04-012.webp#center "Animals converse after gaining sapience from ambient psychic energy.")
+![Animals converse after gai...](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/101-04-012.webp#center "Animals converse after gaining sapience from ambient psychic energy.")
 
-![Psychic Resonance Effects](psychic-resonance-effects-tce.md)
+![Psychic Resonance Effects](03.PlayerLog&Handouts/Mechanics/CLI/tables/psychic-resonance-effects-tce.md)
 
 > [!note] Awaken Anything
 > 
-> Legends are filled with natural forces and mundane objects that take on humanoid characteristics to guide or confound heroes: statues that sing, animals that whisper secrets, clouds that speak their mind. While monsters like elementals, [galeb duhr](galeb-duhr.md), and [treants](treant.md) represent natural forces brought to life, not every chatty rock or sagacious stream needs a stat block. Perhaps your adventures take a party to a land where plants speak freely or a cursed realm where petrified souls beg for help. Don't feel restricted by the options in the "Monster Manual" or by the limitations of the [animate object](animate-objects.md) spell should you want to breathe extra life into your story. Filling a witch's redoubt with murmuring relics, a fey forest with eavesdropping vegetation, or a sky god's temple with avian choirs makes a place especially memorable. Spells such as [animate objects](animate-objects.md), [awaken](awaken.md), [speak with animals](speak-with-animals.md), [speak with plants](speak-with-plants.md), and the like provide guidance on how to bring commonplace creatures and objects to life.
+> Legends are filled with natural forces and mundane objects that take on humanoid characteristics to guide or confound heroes: statues that sing, animals that whisper secrets, clouds that speak their mind. While monsters like elementals, [galeb duhr](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/galeb-duhr.md), and [treants](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/treant.md) represent natural forces brought to life, not every chatty rock or sagacious stream needs a stat block. Perhaps your adventures take a party to a land where plants speak freely or a cursed realm where petrified souls beg for help. Don't feel restricted by the options in the "Monster Manual" or by the limitations of the [animate object](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-objects.md) spell should you want to breathe extra life into your story. Filling a witch's redoubt with murmuring relics, a fey forest with eavesdropping vegetation, or a sky god's temple with avian choirs makes a place especially memorable. Spells such as [animate objects](03.PlayerLog&Handouts/Mechanics/CLI/spells/animate-objects.md), [awaken](03.PlayerLog&Handouts/Mechanics/CLI/spells/awaken.md), [speak with animals](03.PlayerLog&Handouts/Mechanics/CLI/spells/speak-with-animals.md), [speak with plants](03.PlayerLog&Handouts/Mechanics/CLI/spells/speak-with-plants.md), and the like provide guidance on how to bring commonplace creatures and objects to life.
 ^awaken-anything
 
 #### Unraveling Magic
 
 The source of magic is damaged or corrupted in this region. Magic is unpredictable, and strange results occur when a creature casts a spell. Such regions come into being when potent rituals go awry (or if they succeed, in the case of dangerous and destructive undertakings), in the aftermath of cataclysmic magical battles, or where an artifact was destroyed.
 
- Consider rolling on the Unraveling Magic Effects table when the following circumstances occur in the region:
+Consider rolling on the Unraveling Magic Effects table when the following circumstances occur in the region:
 
 - Any charges are expended in a magic item.  
 - A spell slot of 1st level or higher is expended.  
 - A dragon, a fey, or an elemental of challenge rating 5 or higher dies.  
 
-![A wood elf child reaches for unraveling magic.](102-04-013.webp#center)
+![A wood elf child reaches for unraveling magic.](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/102-04-013.webp#center)
 
-![Unraveling Magic Effects](unraveling-magic-effects-tce.md)
+![Unraveling Magic Effects](03.PlayerLog&Handouts/Mechanics/CLI/tables/unraveling-magic-effects-tce.md)
 
 ### Magical Phenomena
 
 Magic has the ability to make even the most serene natural settings unpredictable. Whether the result of magical calamities, otherworldly influences, or nexuses of inexplicable forces, the subsequent effects range from whimsical to deadly.
 
-![Eldritch Storm](103-04-014.webp#center)
+![Eldritch Storm](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/103-04-014.webp#center)
 
 #### Eldritch Storms
 
 When magical currents become trapped amid winds and clouds, eldritch storms can result.
 
-- [Flaywind](flaywind-tce.md)  
-- [Flame Storm](flame-storm-tce.md)  
-- [Necrotic Tempest](necrotic-tempest-tce.md)  
-- [Thrym's Howl](thryms-howl-tce.md)  
+- [Flaywind](03.PlayerLog&Handouts/Mechanics/CLI/traps-hazards/flaywind-tce.md)  
+- [Flame Storm](03.PlayerLog&Handouts/Mechanics/CLI/traps-hazards/flame-storm-tce.md)  
+- [Necrotic Tempest](03.PlayerLog&Handouts/Mechanics/CLI/traps-hazards/necrotic-tempest-tce.md)  
+- [Thrym's Howl](03.PlayerLog&Handouts/Mechanics/CLI/traps-hazards/thryms-howl-tce.md)  
 
 #### Emotional Echoes
 
-Occasionally a place becomes infused with the powerful emotions of those who once dwelt, worked, celebrated, or suffered there. Areas with emotional echoes are typically associated with one common emotion, such as joy or sorrow. Such an area might be as small as a room in a house or as large as a forest. Once per day, if a creature within the area expresses even the faintest hint of the prevailing emotion, the land seeks to hold onto that creature and inspire it to produce more of the feeling tied to the emotional echo. The creature is targeted by a [suggestion](suggestion.md) spell (DC 16), with the intent of making it linger in the area and perform an act related to its associated emotion. The effect lasts 24 hours.
+Occasionally a place becomes infused with the powerful emotions of those who once dwelt, worked, celebrated, or suffered there. Areas with emotional echoes are typically associated with one common emotion, such as joy or sorrow. Such an area might be as small as a room in a house or as large as a forest. Once per day, if a creature within the area expresses even the faintest hint of the prevailing emotion, the land seeks to hold onto that creature and inspire it to produce more of the feeling tied to the emotional echo. The creature is targeted by a [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md) spell (DC 16), with the intent of making it linger in the area and perform an act related to its associated emotion. The effect lasts 24 hours.
 
- The following list notes some of the most common emotional echoes, where they tend to appear, and how they typically influence creatures:
+The following list notes some of the most common emotional echoes, where they tend to appear, and how they typically influence creatures:
 
 ##### Boldness
 
@@ -403,17 +404,17 @@ Appears in ruins and swamps, particularly around quicksand, and overwhelms creat
 
 Enchanted springs brim with miraculous waters, whether they tap into magical sources hidden beneath the earth or they're blessed by eldritch beings. Those who find these mystical sites might bathe or drink from the pools and temporarily gain a measure of the waters' magic. All manner of protectors or covetous guardians might lurk around these springs, driving off strangers or demanding a worthy price for access to the mystical waters.
 
- While many enchanted springs bear the blessings of wild gods or fey beings, some are tainted. These might be waters that were long ago polluted by the ichor of an evil entity. As with pristine enchanted springs, folk seek out such defiled places, whether to purify them or claim their foul powers.
+While many enchanted springs bear the blessings of wild gods or fey beings, some are tainted. These might be waters that were long ago polluted by the ichor of an evil entity. As with pristine enchanted springs, folk seek out such defiled places, whether to purify them or claim their foul powers.
 
- Regardless of whether a spring is pure or tainted, creatures might need to drink the water to experience the spring's effects, simply touch the water, or bathe in it for a minute to trigger an effect.
+Regardless of whether a spring is pure or tainted, creatures might need to drink the water to experience the spring's effects, simply touch the water, or bathe in it for a minute to trigger an effect.
 
- Bottling an enchanted spring's water removes its magical properties, unless the bottle is a specially prepared vial blessed by whatever being enchanted the spring in the first place.
+Bottling an enchanted spring's water removes its magical properties, unless the bottle is a specially prepared vial blessed by whatever being enchanted the spring in the first place.
 
-![Enchanted Spring](104-04-015.webp#center)
+![Enchanted Spring](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/104-04-015.webp#center)
 
-![Enchanted Springs; Enchanted Spring Effects](enchanted-springs-enchanted-spring-effects-tce.md)
+![Enchanted Springs; Enchanted Spring Effects](03.PlayerLog&Handouts/Mechanics/CLI/tables/enchanted-springs-enchanted-spring-effects-tce.md)
 
-![Magic Mushrooms](105-04-016.webp#center)
+![Magic Mushrooms](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/105-04-016.webp#center)
 
 #### Magic Mushrooms
 
@@ -423,7 +424,7 @@ Creatures proficient in the [Medicine](03.PlayerLog&Handouts/Mechanics/CLI/rules
 
 To determine the effects of eating such fungus, roll on the Magic Mushroom Effects table.
 
-![Magic Mushrooms; Magic Mushroom Effects](magic-mushrooms-magic-mushroom-effects-tce.md)
+![Magic Mushrooms; Magic Mushroom Effects](03.PlayerLog&Handouts/Mechanics/CLI/tables/magic-mushrooms-magic-mushroom-effects-tce.md)
 
 #### Mimic Colonies
 
@@ -431,7 +432,7 @@ Mimics imitate terrain and dungeon dressing to hunt for food. Rare specimens dev
 
 ##### Mimic Communication
 
-Members of the colony develop telepathy and the ability to speak. While within 10 miles of the colony, any mimic can communicate telepathically with other creatures within 120 feet of it and can speak Common and Undercommon fluently (or two other languages of the DM's choice). The colony's offspring gain these abilities innately and can use them even away from the colony, as shown in the [Juvenile Mimic](juvenile-mimic-tce.md) stat block.
+Members of the colony develop telepathy and the ability to speak. While within 10 miles of the colony, any mimic can communicate telepathically with other creatures within 120 feet of it and can speak Common and Undercommon fluently (or two other languages of the DM's choice). The colony's offspring gain these abilities innately and can use them even away from the colony, as shown in the [Juvenile Mimic](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/juvenile-mimic-tce.md) stat block.
 
 ##### Confronting a Colony
 
@@ -439,26 +440,26 @@ A mimic colony's primary goal is survival. If threatened by a force the mimics c
 
 If the colony's survival is threatened and it thinks it has a chance of surviving a fight, it can leverage its combined might using special lair actions. On initiative count 20 (losing all ties), the mimic colony takes a lair action, causing one of the following effects; it can't use the same effect two rounds in a row:
 
-- The mimic colony chooses up to three creatures within 300 feet of it. Each target must succeed on a DC 15 Strength saving throw or have its speed reduced to 0 until initiative count 20 on the following round, as pieces of the environment grasp the target. If a target fails the save by 5 or more, it is [restrained](conditions.md#Restrained) instead for that duration.  
-- The mimic colony uses the [Help](actions.md#Help) action, aiding a creature of its choice within 300 feet of it.  
+- The mimic colony chooses up to three creatures within 300 feet of it. Each target must succeed on a DC 15 Strength saving throw or have its speed reduced to 0 until initiative count 20 on the following round, as pieces of the environment grasp the target. If a target fails the save by 5 or more, it is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained) instead for that duration.  
+- The mimic colony uses the [Help](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Help) action, aiding a creature of its choice within 300 feet of it.  
 - The mimic colony chooses up to three creatures within 300 feet of it. Each target must succeed on a DC 15 Dexterity saving throw or take 13 (`3d8`) acid damage, as orifices appear on surfaces in the environment and launch caustic spittle.  
 - The mimic colony chooses a cube of nonmagical, inanimate material in physical contact with it. The cube can be up to 15 feet on a side. The colony reshapes that material however it likes. This transformation lasts for 1 hour.  
 
 When determining the difficulty of an encounter with a hostile mimic colony, consider the colony to be one additional creature of challenge rating 2.
 
-![Mimic Colony](106-04-017.webp#center)
+![Mimic Colony](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/106-04-017.webp#center)
 
 #### Primal Fruit
 
 In wild places brimming with nature's power, gardens meticulously tended by eccentric wizards, and blessed groves touched by divine providence, plants can sometimes produce fruit bursting with primal magic. Not every fruit-bearing plant holds this stored magic, but those that do bear obvious signs: their colors are more vibrant or shift randomly, their skin sparkles in the light or glows in the dark, soft hums emanate from them, or they feel peculiar to the touch.
 
- A fruit-bearing plant that is suffused with magic might produce `1d6` pieces of primal fruit every week. Primal fruit remains potent for 1 week, after which it loses its magical properties but remains edible.
+A fruit-bearing plant that is suffused with magic might produce `d6` pieces of primal fruit every week. Primal fruit remains potent for 1 week, after which it loses its magical properties but remains edible.
 
- As an action, a creature can eat a piece of primal fruit to gain its effects. This fruit can be squeezed into juice or cooked into a dish and retains its magic. Choose an effect or roll on the Primal Fruit Effects table to determine what happens when a piece of the fruit is consumed. An [identify](identify.md) spell or similar magic reveals the beneficial effect of a piece of fruit before it is eaten, but it doesn't reveal a curse or side effect.
+As an action, a creature can eat a piece of primal fruit to gain its effects. This fruit can be squeezed into juice or cooked into a dish and retains its magic. Choose an effect or roll on the Primal Fruit Effects table to determine what happens when a piece of the fruit is consumed. An [identify](03.PlayerLog&Handouts/Mechanics/CLI/spells/identify.md) spell or similar magic reveals the beneficial effect of a piece of fruit before it is eaten, but it doesn't reveal a curse or side effect.
 
-![Tressym fly around a primal tree](107-04-018.webp#center)
+![Tressym fly around a primal tree](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/107-04-018.webp#center)
 
-![Primal Fruit Effects](primal-fruit-effects-tce.md)
+![Primal Fruit Effects](03.PlayerLog&Handouts/Mechanics/CLI/tables/primal-fruit-effects-tce.md)
 
 #### Unearthly Roads
 
@@ -466,23 +467,23 @@ Currents of magic run through the world—invisible, artery-like networks that e
 
 Some unearthly roads serve as trade routes or secret connections between distant lands. Others shift locations at noteworthy times or in response to external phenomena, like on specific anniversaries or in response to the phases of the moon. Some might also require a particular item, ritual, or action to open their gates. The Unearthly Road Keys table offers suggestions on how to enter an unearthly road.
 
-![Unearthly Roads; Unearthly Road Keys](unearthly-roads-unearthly-road-keys-tce.md)
+![Unearthly Roads; Unearthly Road Keys](03.PlayerLog&Handouts/Mechanics/CLI/tables/unearthly-roads-unearthly-road-keys-tce.md)
 
 ### Natural Hazards
 
 Even without the threats of supernatural environments, the world is a dangerous place. The following natural hazards expand on those presented in the "Dungeon Master's Guide".
 
-- [Avalanche](avalanche-tce.md)  
-- [Falling into Water](falling-into-water-tce.md)  
-- [Falling onto a Creature](falling-onto-a-creature-tce.md)  
+- [Avalanche](03.PlayerLog&Handouts/Mechanics/CLI/traps-hazards/avalanche-tce.md)  
+- [Falling into Water](03.PlayerLog&Handouts/Mechanics/CLI/traps-hazards/falling-into-water-tce.md)  
+- [Falling onto a Creature](03.PlayerLog&Handouts/Mechanics/CLI/traps-hazards/falling-onto-a-creature-tce.md)  
 
-![Falling into Water](108-04-019.webp#center)
+![Falling into Water](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/108-04-019.webp#center)
 
 #### Spell Equivalents of Natural Hazards
 
 Numerous spells emulate the wrath of nature, and you can use spell effects to represent a variety of natural hazards. The Spells as Natural Hazards table presents some common environmental dangers and the spells you may use to approximate them.
 
-![Spells as Natural Hazards](spells-as-natural-hazards-tce.md)
+![Spells as Natural Hazards](03.PlayerLog&Handouts/Mechanics/CLI/tables/spells-as-natural-hazards-tce.md)
 
 ## Puzzles
 
@@ -537,7 +538,7 @@ After presenting a puzzle, encourage the party to solve it together, to pool hin
 
 ### Creature Paintings
 
-![](109-04-020.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/109-04-020.webp#center)
 
 *Difficulty: Easy*
 
@@ -549,7 +550,7 @@ Fit this into your campaign by making the name of the creature the first item on
 > 
 > This gallery is decorated with seven framed paintings of creatures. A few chairs and benches have been placed in front of the art for viewing.
 > 
->  A plaque mounted on one of the walls bears the following dedication: "In order to gain all knowledge, one must know where to start. Count on your enemies to reveal the source of the secret. This room is dedicated to the defeat of all monsters within." 
+> A plaque mounted on one of the walls bears the following dedication: "In order to gain all knowledge, one must know where to start. Count on your enemies to reveal the source of the secret. This room is dedicated to the defeat of all monsters within." 
 ^3a3
 
 Characters should be free to explore the gallery and inspect the paintings and dedication to discover the parts of the puzzle.
@@ -562,7 +563,7 @@ There are seven paintings on the walls. The paintings feature a gruesome werewol
 
 Each painting features a number of creatures of a particular kind, as summarized in the Creature Paintings table. Counting into each creature's name by the number of creatures in the painting reveals a letter. When unscrambled, the letters spell out "owlbear." Characters are likely to reveal these letters in random order. Arranging them in the correct order is part of the puzzle.
 
-![Creature Paintings](creature-paintings-tce.md)
+![Creature Paintings](03.PlayerLog&Handouts/Mechanics/CLI/tables/creature-paintings-tce.md)
 
 ##### Significance of "Owlbear"
 
@@ -601,7 +602,7 @@ This puzzle features a word search on floor tiles, which might present a barrier
 
 The tiles covering the floor of this room each bear a single letter written in the Common alphabet, making the room a giant word search. Traps beneath many of the tiles threaten those who move through the room heedless of the hidden words.
 
-![](110-04-021.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/110-04-021.webp#center)
 
 #### Puzzle Features
 
@@ -621,7 +622,7 @@ Characters can attempt to jump over trapped tiles, using the "jump rules" in the
 
 The only safe tiles for characters to step on are the ones with the faded black letters in "diagram 4.1". Red letters spell out either "magic" or one of the schools of magic: abjuration, conjuration, divination, enchantment, evocation, illusion, necromancy, and transmutation. Stepping on one of these tiles triggers a poison trap, as described earlier.
 
-![Diagram 4.1: Reckless Steps Puzzle Solution](111-04-022.webp#center)
+![Diagram 4.1: Reckless Steps Puzzle Solution](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/111-04-022.webp#center)
 
 #### Hint Checks
 
@@ -648,14 +649,14 @@ You can also increase the difficulty by introducing trap variants, as described 
 Rather than have the same poison gas trap on every trapped tile, each word can have a distinct trap associated with it, as described below:
 
 - **Magic.** The trap triggers normally, as described in this puzzle's "Traps" section.  
-- **Abjuration.** The trap casts [dispel magic](dispel-magic.md) on each creature in the room, using a 9th-level spell slot.  
+- **Abjuration.** The trap casts [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md) on each creature in the room, using a 9th-level spell slot.  
 - **Conjuration.** The trap teleports the creature that triggered it back to the entrance of the room. That creature must also make a DC 15 Constitution saving throw, taking 11 (`2d10`) force damage on a failed save, or half as much damage on a successful one.  
 - **Divination.** The creature that triggered the trap must succeed on a DC 15 Intelligence saving throw or be unable to perceive any of the letters on the tiles by sight or touch. Any magic that ends a curse ends this effect on the character. A player whose character is affected by this trap should not be allowed to reference the accompanying player handout until the effect on that character ends.  
-- **Enchantment.** The trap casts [suggestion](suggestion.md) (save DC 15) on the creature that triggered it. On a failed save, a gentle voice only the creature can hear tells it to move 5 feet in a random direction. This movement might cause it to trigger another trap.  
+- **Enchantment.** The trap casts [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md) (save DC 15) on the creature that triggered it. On a failed save, a gentle voice only the creature can hear tells it to move 5 feet in a random direction. This movement might cause it to trigger another trap.  
 - **Evocation.** Magical fire erupts from the trapped tile. The creature that triggered this trap must succeed on a DC 15 Dexterity saving throw, taking 11 (`2d10`) fire damage on a failed save, or half as much damage on a successful one.  
-- **Illusion.** A suit of [animated armor](animated-armor.md) appears in an unoccupied space within 5 feet of the creature that set off this trap. The armor attacks only the creature that summoned it and can't leave the room. It doesn't set off any of the room's traps and disappears if it takes any damage. Otherwise, it lasts for 1 minute.  
+- **Illusion.** A suit of [animated armor](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/animated-armor.md) appears in an unoccupied space within 5 feet of the creature that set off this trap. The armor attacks only the creature that summoned it and can't leave the room. It doesn't set off any of the room's traps and disappears if it takes any damage. Otherwise, it lasts for 1 minute.  
 - **Necromancy.** Any creature that triggers this trap hears a banshee's wail in its mind. Unless the creature is a construct or undead, it must succeed on a DC 13 Constitution saving throw. On a failure, the creature drops to 0 hit points. On a success, it takes 10 (`3d6`) psychic damage.  
-- **Transmutation.** The trap casts [polymorph](polymorph.md) (save DC 15) on the creature that triggered it. On a failed save, the creature turns into a [giant frog](giant-frog.md).  
+- **Transmutation.** The trap casts [polymorph](03.PlayerLog&Handouts/Mechanics/CLI/spells/polymorph.md) (save DC 15) on the creature that triggered it. On a failed save, the creature turns into a [giant frog](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-frog.md).  
 
 ### Skeleton Keys
 
@@ -669,28 +670,28 @@ This puzzle presents a quick encounter useful for providing treasure or informat
 > 
 > *The spells on these locks are all the same.*
 > 
->  *Though each possesses a unique name.*
+> *Though each possesses a unique name.*
 > 
 > *Count on your answer to unlock the way,*
 > 
->  *But use the wrong key to your dismay.*
+> *But use the wrong key to your dismay.*
 ^3b3
 
 All four locks must be opened before the box's contents (whatever they might be) can be accessed.
 
 #### Puzzle Features
 
-![](112-04-023.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/112-04-023.webp#center)
 
 Show the players puzzle handout 2 (see the end of this chapter) when their characters examine the keys. Each key has a different number of teeth: six, five, four, and three, respectively.
 
-Each lock has a creature molded in iron above it: a bat, snake, spider, or wolf, respectively. These locks can't be picked. If anything other than the correct key is placed inside a lock, creatures corresponding to the image above the lock (`1d4` [giant bats](giant-bat.md), `1d4` [giant poisonous snakes](giant-poisonous-snake.md), `1d4` [giant wolf spiders](giant-wolf-spider.md), or `1d4` [wolves](wolf.md)) are summoned into the room. Each summoned creature is hostile and disappears after 10 minutes or when reduced to 0 hit points. These beasts can't be [charmed](conditions.md#Charmed) or [frightened](conditions.md#Frightened).
+Each lock has a creature molded in iron above it: a bat, snake, spider, or wolf, respectively. These locks can't be picked. If anything other than the correct key is placed inside a lock, creatures corresponding to the image above the lock (`d4` [giant bats](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-bat.md), `d4` [giant poisonous snakes](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-poisonous-snake.md), `d4` [giant wolf spiders](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-wolf-spider.md), or `d4` [wolves](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/wolf.md)) are summoned into the room. Each summoned creature is hostile and disappears after 10 minutes or when reduced to 0 hit points. These beasts can't be [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed) or [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened).
 
 #### Solution
 
 Once the characters identify the creature depicted above each lock, they should count the letters in each creature's name. The number of letters in a creature's name corresponds to the number of teeth on the correct key, as shown in the Skeleton Keys Solution table.
 
-![Skeleton Keys Solution](skeleton-keys-solution-tce.md)
+![Skeleton Keys Solution](03.PlayerLog&Handouts/Mechanics/CLI/tables/skeleton-keys-solution-tce.md)
 
 #### Hint Checks
 
@@ -727,7 +728,7 @@ This gem-filled room can be placed in any dungeon, estate, or building with mult
 
 #### Puzzle Features
 
-![A spirit escapes a gemstone](113-04-024.webp#center)
+![A spirit escapes a gemstone](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/113-04-024.webp#center)
 
 The statue, which is impervious to damage, depicts Ioun or some other god of knowledge or order. Any character who succeeds on a DC 10 Intelligence ([Religion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Religion)) check can identify the figure being depicted.
 
@@ -739,7 +740,7 @@ Between the palms of the statue's clasped hands is a diamond, which can only be 
 
 An inventory of the room reveals the following gemstones scattered across the floor: eighteen pieces of jade, sixteen onyxes, fourteen amethysts, thirteen sapphires, twelve rubies, nine pieces of amber, eight citrines, five garnets, and one piece of quartz.
 
-If a creature attempts to leave the room with any of these stones, the gem disappears and an angry spirit trapped inside it is released. The spirit manifests as a hostile undead creature of your choice, such as a [ghost](ghost.md), [specter](specter.md), or [skeleton](skeleton.md). When this creature is reduced to 0 hit points, its form dissipates, leaving no trace of itself behind.
+If a creature attempts to leave the room with any of these stones, the gem disappears and an angry spirit trapped inside it is released. The spirit manifests as a hostile undead creature of your choice, such as a [ghost](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/ghost.md), [specter](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/specter.md), or [skeleton](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/skeleton.md). When this creature is reduced to 0 hit points, its form dissipates, leaving no trace of itself behind.
 
 ##### Named Spirits
 
@@ -763,7 +764,7 @@ An inventory of the room reveals gemstones in the amounts shown in the Gem Inven
 
 Each type of gem is associated with a letter of the alphabet, and each gem's letter is revealed by counting into the alphabet by a number of letters equal to the number of gems of its type. For example, there is one piece of quartz, so "quartz" corresponds to the first letter of the alphabet (A), while there are fourteen amethysts, so "amethyst" corresponds to the fourteenth letter of the alphabet (N).
 
-![Solution; Gem Inventory](solution-gem-inventory-tce.md)
+![Solution; Gem Inventory](03.PlayerLog&Handouts/Mechanics/CLI/tables/solution-gem-inventory-tce.md)
 
 Once the gems are sorted by type and alphabetized, characters can count into the alphabet by how many of each are in the room to reveal the words "in her palm." When a character speaks this phrase aloud, the statue's folded hands open, revealing the previously hidden diamond.
 
@@ -805,18 +806,18 @@ This map puzzle is designed to lead a party through a dungeon where a roaming be
 > 
 > A disorienting wave sweeps over you. Suddenly, your surroundings are unfamiliar and shrouded in shadows.
 > 
->  Out of the gloom appears a hooded goblin carrying a lantern.
+> Out of the gloom appears a hooded goblin carrying a lantern.
 > 
->  "Hello, friends!" the goblin says. "I can help you through these parts—if you can figure out my riddles. You don't want to make a wrong turn in here, as there are eyes everywhere. Solve the riddles and follow my directions to the letter." 
+> "Hello, friends!" the goblin says. "I can help you through these parts—if you can figure out my riddles. You don't want to make a wrong turn in here, as there are eyes everywhere. Solve the riddles and follow my directions to the letter." 
 ^3cc
 
-The [goblin](goblin.md) is friendly, and its offer is genuine. It's name is Igor (pronounced *eye*-gor), which it reveals only if asked. The characters find themselves in a maze that emits magical darkness that can't be dispelled. No vision can penetrate this darkness, and only the goblin's lantern can illuminate it. Igor's lantern emits light in a 5-foot radius, but only so long as the goblin holds it. The lantern goes dark if any other creature takes custody of it.
+The [goblin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/goblin.md) is friendly, and its offer is genuine. It's name is Igor (pronounced *eye*-gor), which it reveals only if asked. The characters find themselves in a maze that emits magical darkness that can't be dispelled. No vision can penetrate this darkness, and only the goblin's lantern can illuminate it. Igor's lantern emits light in a 5-foot radius, but only so long as the goblin holds it. The lantern goes dark if any other creature takes custody of it.
 
 #### Puzzle Features
 
 The magical maze the characters find themselves in is comprised of an endless series of identical chambers. Each chamber has four passages, one at each cardinal direction. The goblin guide poses riddles that can lead the party along the path that ultimately exits the maze. Each time the party moves through the correct passage and enters a new room, the goblin provides them with a new riddle that hints which direction to travel in next. If they make an error, the characters encounter a monster of your choice and then must backtrack from their last correct turn. After three wrong turns, the party encounters the [beholder](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/beholder.md).
 
-![](114-04-025.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/114-04-025.webp#center)
 
 ##### Hallways
 
@@ -864,7 +865,7 @@ The characters can easily persuade the goblin to join their party. What other se
 
 ### Four by Four
 
-![](115-04-026.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/115-04-026.webp#center)
 
 *Difficulty: Medium*
 
@@ -876,11 +877,11 @@ This puzzle is easily situated in a dungeon, a dusty mausoleum, or an abandoned 
 > 
 > *Brave warriors met their demise foretold.*
 > 
->  *Their secret kept shall yet unfold.*
+> *Their secret kept shall yet unfold.*
 > 
 > *If crowns placed correctly on the shrine,*
 > 
->  *Celestial beds for four of nine.*
+> *Celestial beds for four of nine.*
 ^3d8
 
 Solving this puzzle causes a secret compartment in the altar to open, revealing treasure hidden within. The compartment can't be opened in any other way.
@@ -889,7 +890,7 @@ Solving this puzzle causes a secret compartment in the altar to open, revealing 
 
 Nine dwarf skulls rest near a grid of 1-foot-square tiles, as shown in puzzle handout 3 (see the end of this chapter). Columns and rows in the grid are labeled with the markings I, II, or III.
 
-![Diagram 4.2: Four by Four Puzzle Solution](116-04-027.webp#center)
+![Diagram 4.2: Four by Four Puzzle Solution](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/116-04-027.webp#center)
 
 #### Solution
 
@@ -944,7 +945,7 @@ The directions are written on a single sheet of parchment and recount the route 
 
 Characters who follow the directions and trace their paths on the map reveal three numbers: 3, 4, and 8 (see diagram 4.3). Turning the dials to these numbers in the same order opens the locked object.
 
-![Diagram 4.3: Illusive Island Puzzle Solution](117-04-028.webp#center)
+![Diagram 4.3: Illusive Island Puzzle Solution](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/117-04-028.webp#center)
 
 #### Hint Checks
 
@@ -991,7 +992,7 @@ Give the players a copy of puzzle handout 5 (see the end of this chapter).
 
 The wizard's study is filled with spell components, books, potions, and various odds and ends. While the various supplies might help characters solve the puzzle, the only item the characters need is the parchment. If the puzzle is giving them grief, they can take the parchment with them and find others who can help them solve it.
 
-![](118-04-030.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/118-04-030.webp#center)
 
 ##### Bookcases
 
@@ -1005,9 +1006,9 @@ Wizards and other spellcasters can identify the correct spell components for any
 
 #### Solution
 
-Drawing a line from a spell to its material component crosses out letters that fall between the columns, as shown in diagram 4.4. Once all spells are connected to components, the untouched letters spell out "presto," which, when said aloud with the paper in hand, causes one or more [spell scrolls](spell-scroll.md) (or some other treasure of your choice) to magically appear.
+Drawing a line from a spell to its material component crosses out letters that fall between the columns, as shown in diagram 4.4. Once all spells are connected to components, the untouched letters spell out "presto," which, when said aloud with the paper in hand, causes one or more [spell scrolls](03.PlayerLog&Handouts/Mechanics/CLI/items/spell-scroll.md) (or some other treasure of your choice) to magically appear.
 
-![Diagram 4.4: Material Components Puzzle Solution](119-04-029.webp#center)
+![Diagram 4.4: Material Components Puzzle Solution](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/119-04-029.webp#center)
 
 #### Hint Checks
 
@@ -1060,7 +1061,7 @@ The door is made of oak reinforced with 3-inch-wide iron bars. Three deadbolts s
 
 ##### Guard
 
-A guard stands on the other side of the door around the clock, and the only way to speak with the guard is through the door's slide window. The guard can be any sort of talking creature, such as an [assassin](assassin.md), a [cult fanatic](cult-fanatic.md), or a [thug](thug.md). More monstrous options include a [bugbear](bugbear.md), [wereboar](wereboar.md), or [nycaloth](nycaloth.md).
+A guard stands on the other side of the door around the clock, and the only way to speak with the guard is through the door's slide window. The guard can be any sort of talking creature, such as an [assassin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/assassin.md), a [cult fanatic](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/cult-fanatic.md), or a [thug](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/thug.md). More monstrous options include a [bugbear](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bugbear.md), [wereboar](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/wereboar.md), or [nycaloth](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/nycaloth.md).
 
 If a character knocks on the door, the guard slides open the window and gruffly gives a number, expecting the proper response. The guard gives a different number each time someone knocks. Any proper response grants a single character entry, and the guard only allows one member to enter at a time.
 
@@ -1081,7 +1082,7 @@ Each member that approaches the door is given a number by the guard. There is no
 
 For example, one member was given the number "six." There are three letters in the word "six," so the password for that member is "three." More potential answers are provided in the Potential Passwords table.
 
-![Solution; Potential Passwords](solution-potential-passwords-tce.md)
+![Solution; Potential Passwords](03.PlayerLog&Handouts/Mechanics/CLI/tables/solution-potential-passwords-tce.md)
 
 #### Hint Checks
 
@@ -1134,7 +1135,7 @@ Diagram 4.5 shows how to divide the forty-five coins so that every square has a 
 
 The verse explains that the door requires the amount of coins shown in the center square. Upon inserting exactly five coins, the locked door opens.
 
-![Diagram 4.5: Exact Change Puzzle Solution](120-04-031.webp#center)
+![Diagram 4.5: Exact Change Puzzle Solution](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/120-04-031.webp#center)
 
 #### Hint Checks
 
@@ -1173,7 +1174,7 @@ This puzzle might appear anywhere elementals of earth, air, fire, and water serv
 
 Once the characters enter this room, the door behind them slams shut. It can be opened only by completing this puzzle, and there are no other exits.
 
-![](121-04-032.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/121-04-032.webp#center)
 
 #### Puzzle Features
 
@@ -1200,16 +1201,16 @@ Puzzle handout 6 (see the end of this chapter) illustrates the row of tiles set 
 
 If a tile is placed in the wrong place in the row, the corresponding elemental is freed from its stone prison and attacks. Only one of each elemental appears:
 
-- If the improperly placed tile has an open triangle pointing downward, the [water elemental](water-elemental.md) is freed.  
-- If the improperly placed tile has an open triangle pointing upward, the [fire elemental](fire-elemental.md) is freed.  
-- If the improperly placed tile has a triangle pointing upward with a horizontal line running through it, the [air elemental](air-elemental.md) is freed.  
-- If the improperly placed tile has a triangle pointing downward with a horizontal line running through it, the [earth elemental](earth-elemental.md) is freed.  
+- If the improperly placed tile has an open triangle pointing downward, the [water elemental](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/water-elemental.md) is freed.  
+- If the improperly placed tile has an open triangle pointing upward, the [fire elemental](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/fire-elemental.md) is freed.  
+- If the improperly placed tile has a triangle pointing upward with a horizontal line running through it, the [air elemental](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/air-elemental.md) is freed.  
+- If the improperly placed tile has a triangle pointing downward with a horizontal line running through it, the [earth elemental](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/earth-elemental.md) is freed.  
 
 #### Solution
 
 The correct, complete pattern is shown here:
 
-![](122-04-033.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/122-04-033.webp#center)
 
 The odd-numbered tiles form a recurring pattern of open triangles that alternate between pointing up and down. Tiles 1, 5, 9, and 13 are upward-pointing triangles, while tiles 3, 7, and 11 are downward-pointing triangles.
 
@@ -1239,7 +1240,7 @@ When an elemental is defeated, it might leave behind a valuable gemstone, a map 
 
 To increase the difficulty of this puzzle, enforce a time factor: perhaps one elemental breaks free at the end of every five minutes of real time that pass until the puzzle is solved.
 
-You can also raise the difficulty by having statues depict genies instead of elementals. In this case, replace the four elementals with a [dao](dao.md), a [djinni](djinni.md), an [efreeti](efreeti.md), and a [marid](marid.md). These genies are compelled to attack the characters and can't be reasoned with.
+You can also raise the difficulty by having statues depict genies instead of elementals. In this case, replace the four elementals with a [dao](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/dao.md), a [djinni](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/djinni.md), an [efreeti](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/efreeti.md), and a [marid](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/marid.md). These genies are compelled to attack the characters and can't be reasoned with.
 
 ### Haunted Hallway
 
@@ -1254,7 +1255,7 @@ Many unquiet spirits linger in the world because they can't bare to leave someth
 > From the hall's far end drifts a low moan. There, barely visible, sobs the apparition of a small girl hovering over a discarded rag doll. "Names, names," she cries. "I can remember them all except the one I need."
 ^41f
 
-![](123-04-034.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/123-04-034.webp#center)
 
 The spirit, Dolora, is a harmless apparition who won't engage the party in combat. If threatened, she vanishes and reappears at the opposite end of the hall, sobbing anew.
 
@@ -1296,7 +1297,7 @@ If the characters examine the rag doll or ask Dolora about it, she imparts the f
 
 Once the characters learn all six names, they must extract one letter from each name, as noted in the Remembered Names table. An alcove's number determines which letter to extract; for example, "Alexia" is the name connected to the verse in alcove 6, and the sixth letter in that name is A.
 
-![Solution; Remembered Names](solution-remembered-names-tce.md)
+![Solution; Remembered Names](03.PlayerLog&Handouts/Mechanics/CLI/tables/solution-remembered-names-tce.md)
 
 The doll's name is Sefina. Once Dolora is told this, she picks up the doll, speaks its name, and disappears with it, her spirit having been laid to rest. If there's some piece of information you wish to have the spirit reveal to the party, such as the location of a nearby treasure or the secret of a more dangerous spirit, Dolora whispers this as she fades away.
 
@@ -1318,7 +1319,7 @@ The character interprets Dolora's cryptic clue about the doll as follows: "all s
 
 ### What's on the Menu
 
-![](124-04-035.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/124-04-035.webp#center)
 
 *Difficulty: Hard*
 
@@ -1343,13 +1344,13 @@ A sign at the bar declares that a meal costs 1 sp, a mug of ale costs 4 cp, a gl
 
 Characters who peruse the menu see the items listed in the Menu Items table, in the order given.
 
-![Menu Items](menu-items-tce.md)
+![Menu Items](03.PlayerLog&Handouts/Mechanics/CLI/tables/menu-items-tce.md)
 
 #### Solution
 
 Arrange the menu items in alphabetical order, then count into each item by the number of letters indicated in its price, as shown in the What's On the Menu Solution table. Stringing the seven letters together forms the password: chimera.
 
-![What's on the Menu Solution](whats-on-the-menu-solution-tce.md)
+![What's on the Menu Solution](03.PlayerLog&Handouts/Mechanics/CLI/tables/whats-on-the-menu-solution-tce.md)
 
 The characters can figure out the password without putting the menu items in alphabetical order. Once they get all seven letters, they must solve the anagram to get the password.
 
@@ -1394,24 +1395,24 @@ A too-helpful barmaid might take pity on the struggling characters and walk them
 
 #### Puzzle Handout 1: Reckless Steps
 
-![](125-04-036.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/125-04-036.webp#center)
 
 #### Puzzle Handout 2: Skeleton Keys
 
-![](126-04-037.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/126-04-037.webp#center)
 
 #### Puzzle Handout 3: Four by Four
 
-![](127-04-038.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/127-04-038.webp#center)
 
 #### Puzzle Handout 4: Illusive Island
 
-![](128-04-039.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/128-04-039.webp#center)
 
 #### Puzzle Handout 5: Material Components
 
-![](129-04-040.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/129-04-040.webp#center)
 
 #### Puzzle Handout 6: Four Elements
 
-![](130-04-041.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/tashas-cauldron-of-everything/img/130-04-041.webp#center)

@@ -3,10 +3,11 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/spell/list/subrace/gnome-forest
-aliases: ["Spells for Gnome (Forest)"]
+aliases:
+- Spells for Gnome (Forest)
 ---
 # Spells for Gnome (Forest)
 
 ## Cantrip
 
-- [Minor Illusion](minor-illusion.md "PHB") as cantrip
+- [Minor Illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md "PHB") as cantrip

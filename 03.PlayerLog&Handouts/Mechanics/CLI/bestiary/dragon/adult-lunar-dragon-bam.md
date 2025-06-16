@@ -7,9 +7,11 @@ tags:
 - ttrpg-cli/monster/size/huge
 - ttrpg-cli/monster/type/dragon
 statblock: inline
-aliases: ["Adult Lunar Dragon"]
+statblock-link: "#^statblock"
+aliases:
+- Adult Lunar Dragon
 ---
-# [Adult Lunar Dragon](03 - Player Log & Handouts\Mechanics\CLI\bestiary\dragon/adult-lunar-dragon-bam.md)
+# [Adult Lunar Dragon](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\dragon/adult-lunar-dragon-bam.md)
 *Source: Boo's Astral Menagerie p. 34, Light of Xaryxis*  
 
 Lunar dragons (also known as moon dragons or phase dragons) are capricious, xenophobic creatures that make their lairs inside desolate moons by burrowing through the rock.
@@ -33,67 +35,71 @@ The cave complex where a lunar dragon makes its lair contains ample space for fo
 "ac_class": "natural armor"
 "hp": !!int "172"
 "hit_dice": "15d12 + 75"
+"modifier": !!int "1"
 "stats":
-- !!int "23"
-- !!int "12"
-- !!int "20"
-- !!int "10"
-- !!int "13"
-- !!int "15"
+  - !!int "23"
+  - !!int "12"
+  - !!int "20"
+  - !!int "10"
+  - !!int "13"
+  - !!int "15"
 "speed": "40 ft., burrow 20 ft., fly 80 ft."
 "saves":
-  "Wisdom": !!int "6"
-  "Constitution": !!int "10"
+  - "constitution": "+10"
+  - "wisdom": "+6"
 "skillsaves":
-  "Stealth": !!int "11"
-  "Perception": !!int "11"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+11"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+11"
 "damage_immunities": "cold"
 "senses": "darkvision 240 ft., passive Perception 21"
 "languages": "Draconic"
 "cr": "13"
 "traits":
-- "desc": "If the dragon fails a saving throw, it can choose to succeed instead."
-  "name": "Legendary Resistance (2/Day)"
-- "desc": "The dragon can burrow through solid rock at half its burrowing speed and\
-    \ leaves a 15-foot-diameter tunnel in its wake."
-  "name": "Tunneler"
-- "desc": "The dragon doesn't require air."
-  "name": "Unusual Nature"
+  - "desc": "If the dragon fails a saving throw, it can choose to succeed instead."
+    "name": "Legendary Resistance (2/Day)"
+  - "desc": "The dragon can burrow through solid rock at half its burrowing speed\
+      \ and leaves a 15-foot-diameter tunnel in its wake."
+    "name": "Tunneler"
+  - "desc": "The dragon doesn't require air."
+    "name": "Unusual Nature"
 "actions":
-- "desc": "The dragon makes one Bite attack and two Claw attacks."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 13\
-    \ (2d6 + 6) piercing damage plus 3 (1d6) cold damage."
-  "name": "Bite"
-- "desc": "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 13\
-    \ (2d6 + 6) slashing damage."
-  "name": "Claw"
-- "desc": "Melee Weapon Attack: +11 to hit, reach 15 ft., one target. Hit: 13\
-    \ (2d6 + 6) bludgeoning damage."
-  "name": "Tail"
-- "desc": "The dragon exhales a blast of frost in a 60-foot cone. Each creature in\
-    \ the cone must make a DC 18 Constitution saving throw. On a failed save, the\
-    \ creature takes 36 (8d8) cold damage, and its speed is reduced to 0 until the\
-    \ end of its next turn. On a successful save, the creature takes half as much\
-    \ damage, and its speed isn't reduced."
-  "name": "Cold Breath (Recharge 5-6)"
+  - "desc": "The dragon makes one Bite attack and two Claw attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit:\
+      \ 13 (2d6 + 6) piercing damage plus 3 (d6) cold damage."
+    "name": "Bite"
+  - "desc": "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit:\
+      \ 13 (2d6 + 6) slashing damage."
+    "name": "Claw"
+  - "desc": "Melee Weapon Attack: +11 to hit, reach 15 ft., one target. Hit:\
+      \ 13 (2d6 + 6) bludgeoning damage."
+    "name": "Tail"
+  - "desc": "The dragon exhales a blast of frost in a 60-foot cone. Each creature\
+      \ in the cone must make a DC 18 Constitution saving throw. On a failed save,\
+      \ the creature takes 36 (8d8) cold damage, and its speed is reduced to 0 until\
+      \ the end of its next turn. On a successful save, the creature takes half as\
+      \ much damage, and its speed isn't reduced."
+    "name": "Cold Breath (Recharge 5-6)"
 "bonus_actions":
-- "desc": "The dragon becomes partially incorporeal for as long as it maintains [concentration](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Concentration)\
-    \ on the effect (as if [concentrating](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Concentration)\
-    \ on a spell). While partially incorporeal, the dragon has resistance to bludgeoning,\
-    \ piercing, and slashing damage."
-  "name": "Phase (3/Day)"
+  - "desc": "The dragon becomes partially incorporeal for as long as it maintains\
+      \ [concentration](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Concentration)\
+      \ on the effect (as if [concentrating](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Concentration)\
+      \ on a spell). While partially incorporeal, the dragon has resistance to bludgeoning,\
+      \ piercing, and slashing damage."
+    "name": "Phase (3/Day)"
 "legendary_actions":
-- "desc": "The dragon makes one Tail attack."
-  "name": "Tail Attack"
-- "desc": "Magical ice covers the ground in a 20-foot radius centered on a point the\
-    \ dragon can see within 120 feet of itself. The ice, which is difficult terrain\
-    \ for all creatures except lunar dragons, lasts for 10 minutes or until the dragon\
-    \ uses this legendary action again."
-  "name": "Treacherous Ice"
+  - "desc": "The dragon makes one Tail attack."
+    "name": "Tail Attack"
+  - "desc": "Magical ice covers the ground in a 20-foot radius centered on a point\
+      \ the dragon can see within 120 feet of itself. The ice, which is difficult\
+      \ terrain for all creatures except lunar dragons, lasts for 10 minutes or until\
+      \ the dragon uses this legendary action again."
+    "name": "Treacherous Ice"
 "source":
-- "BAM"
-- "LoX"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/dragon/token/adult-lunar-dragon-bam.webp"
+  - "BAM"
+  - "LoX"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/token/adult-lunar-dragon-bam.webp"
 ```
 ^statblock

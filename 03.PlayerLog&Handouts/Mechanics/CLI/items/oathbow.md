@@ -12,12 +12,12 @@ aliases:
 - "Oathbow"
 ---
 # Oathbow
-*Weapon ([longbow](longbow.md)), major, very rare (requires attunement)*  
-![](oathbow.webp#right)
+*Weapon ([longbow](03.PlayerLog&Handouts/Mechanics/CLI/items/longbow.md)), major, very rare (requires attunement)*  
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/oathbow.webp#right)
 
 - **Damage**: 1d8 piercing
 - **Range**: 150/600
-- **Properties**: [Ammunition](item-properties.md#Ammunition), [Heavy](item-properties.md#Heavy), [Two-Handed](item-properties.md#Two-Handed)
+- **Properties**: [Ammunition](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Ammunition), [Heavy](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Heavy), [Two-Handed](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Two-Handed)
 - **Weight**: 2.0 lbs.
 
 When you nock an arrow on this bow, it whispers in Elvish, "Swift defeat to my enemies." When you use this weapon to make a ranged attack, you can, as a command phrase, say, "Swift death to you who have wronged me." The target of your attack becomes your sworn enemy until it dies or until dawn seven days later. You can have only one such sworn enemy at a time. When your sworn enemy dies, you can choose a new one after the next dawn.

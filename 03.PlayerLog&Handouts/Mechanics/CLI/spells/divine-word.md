@@ -12,7 +12,8 @@ classes:
 - Bard
 - Cleric
 - Sorcerer (Divine Soul)
-aliases: ["Divine Word"]
+aliases:
+- Divine Word
 ---
 # Divine Word
 *7th-level, Evocation*  
@@ -25,13 +26,13 @@ aliases: ["Divine Word"]
 
 You utter a divine word, imbued with the power that shaped the world at the dawn of creation. Choose any number of creatures you can see within range. Each creature that can hear you must make a Charisma saving throw. On a failed save, a creature suffers an effect based on its current hit points:
 
-- 50 hit points or fewer: [deafened](conditions.md#Deafened) for 1 minute  
-- 40 hit points or fewer: [deafened](conditions.md#Deafened) and [blinded](conditions.md#Blinded) for 10 minutes  
-- 30 hit points or fewer: [blinded](conditions.md#Blinded), [deafened](conditions.md#Deafened), and [stunned](conditions.md#Stunned) for 1 hour  
+- 50 hit points or fewer: [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened) for 1 minute  
+- 40 hit points or fewer: [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened) and [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded) for 10 minutes  
+- 30 hit points or fewer: [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded), [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened), and [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned) for 1 hour  
 - 20 hit points or fewer: killed instantly  
 
 Regardless of its current hit points, a celestial, an elemental, a fey, or a fiend that fails its save is forced back to its plane of origin (if it isn't there already) and can't return to your current plane for 24 hours by any means short of a [wish](03.PlayerLog&Handouts/Mechanics/CLI/spells/wish.md) spell.
 
-**Classes**: [Cleric](list-spells-classes-cleric.md); [Bard](list-spells-classes-bard.md); [Sorcerer (Divine Soul)](list-spells-classes-sorcerer-divine-soul-xge.md "subclass=XGE")
+**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md)
 
 *Source: Player's Handbook p. 234. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

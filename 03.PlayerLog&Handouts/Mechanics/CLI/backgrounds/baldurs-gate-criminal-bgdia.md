@@ -4,15 +4,16 @@ cssclasses: json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/bgdia
-aliases: ["Baldur's Gate Criminal"]
+aliases:
+- Baldur's Gate Criminal
 ---
 # Baldur's Gate Criminal
 *Source: Baldur's Gate: Descent Into Avernus p. 202, Player's Handbook p. 129*  
-![](baldurs-gate-criminal.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/backgrounds/img/baldurs-gate-criminal.webp#right)
 
 - **Skill Proficiencies.** [Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception), [Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)  
-- **Tool Proficiencies.** One type of gaming set, [thieves' tools](thieves-tools.md)  
-- **Equipment.** A [crowbar](crowbar.md), a set of dark [common clothes](common-clothes.md) including a hood, and a belt [pouch](pouch.md) containing 15 gp  
+- **Tool Proficiencies.** One type of gaming set, [thieves' tools](03.PlayerLog&Handouts/Mechanics/CLI/items/thieves-tools.md)  
+- **Equipment.** A [crowbar](03.PlayerLog&Handouts/Mechanics/CLI/items/crowbar.md), a set of dark [common clothes](03.PlayerLog&Handouts/Mechanics/CLI/items/common-clothes.md) including a hood, and a belt [pouch](03.PlayerLog&Handouts/Mechanics/CLI/items/pouch.md) containing 15 gp  
 
 No career criminal in Baldur's Gate operates without being aware of the Guild. Some studiously keep a low profile, carrying just the occasional smuggled load in with legitimate merchandise, or only breaking knees when it can plausibly be claimed as an act of personal revenge. Others join up with crews for protection, or with the Guild itself. A few former Guild members have been cast out of the organization due to incompetence or after offending a more powerful member, and now shuffle for scraps to survive.
 

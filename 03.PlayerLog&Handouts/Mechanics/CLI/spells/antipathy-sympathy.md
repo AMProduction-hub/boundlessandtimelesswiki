@@ -14,7 +14,8 @@ classes:
 - Cleric (Arcana Domain)
 - Druid
 - Wizard
-aliases: ["Antipathy/Sympathy"]
+aliases:
+- Antipathy/Sympathy
 ---
 # Antipathy/Sympathy
 *8th-level, Enchantment*  
@@ -29,7 +30,7 @@ This spell attracts or repels creatures of your choice. You target something wit
 
 ## Antipathy
 
-The enchantment causes creatures of the kind you designated to feel an intense urge to leave the area and avoid the target. When such a creature can see the target or comes within 60 feet of it, the creature must succeed on a Wisdom saving throw or become [frightened](conditions.md#Frightened). The creature remains [frightened](conditions.md#Frightened) while it can see the target or is within 60 feet of it. While [frightened](conditions.md#Frightened) by the target, the creature must use its movement to move to the nearest safe spot from which it can't see the target. If the creature moves more than 60 feet from the target and can't see it, the creature is no longer [frightened](conditions.md#Frightened), but the creature becomes [frightened](conditions.md#Frightened) again if it regains sight of the target or moves within 60 feet of it.
+The enchantment causes creatures of the kind you designated to feel an intense urge to leave the area and avoid the target. When such a creature can see the target or comes within 60 feet of it, the creature must succeed on a Wisdom saving throw or become [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened). The creature remains [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened) while it can see the target or is within 60 feet of it. While [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened) by the target, the creature must use its movement to move to the nearest safe spot from which it can't see the target. If the creature moves more than 60 feet from the target and can't see it, the creature is no longer [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened), but the creature becomes [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened) again if it regains sight of the target or moves within 60 feet of it.
 
 ## Sympathy
 
@@ -45,6 +46,6 @@ A creature that successfully saves against this effect is immune to it for 1 min
 
 ## Summary
 
-**Classes**: [Druid](list-spells-classes-druid.md); [Bard](list-spells-classes-bard.md); [Wizard](list-spells-classes-wizard.md); [Cleric (Arcana Domain)](list-spells-classes-cleric-arcana-domain-scag.md "subclass=SCAG")
+**Classes**: [Cleric (Arcana Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcana-domain-scag.md "subclass=SCAG"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook p. 214. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

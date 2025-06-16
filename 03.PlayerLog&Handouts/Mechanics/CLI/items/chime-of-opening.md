@@ -10,7 +10,7 @@ aliases:
 ---
 # Chime of Opening
 *Wondrous item, minor, rare*  
-![](chime-of-opening.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/chime-of-opening.webp#right)
 
 - **Weight**: 1.0 lbs.
 

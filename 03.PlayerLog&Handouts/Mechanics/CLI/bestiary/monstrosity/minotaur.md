@@ -8,10 +8,12 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/monstrosity
 statblock: inline
-aliases: ["Minotaur"]
+statblock-link: "#^statblock"
+aliases:
+- Minotaur
 ---
-# [Minotaur](03 - Player Log & Handouts\Mechanics\CLI\bestiary\monstrosity/minotaur.md)
-*Source: Monster Manual p. 223, Baldur's Gate: Descent Into Avernus, Sigil and the Outlands. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Minotaur](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/minotaur.md)
+*Source: Monster Manual p. 223, Princes of the Apocalypse, Tomb of Annihilation, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Baldur's Gate: Descent Into Avernus, Eberron: Rising from the Last War, Explorer's Guide to Wildemount, Mythic Odysseys of Theros. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 A minotaur's roar is a savage battle cry that most civilized creatures fear. Born into the mortal realm by demonic rites, minotaurs are savage conquerors and carnivores that live for the hunt. Their brown or black fur is stained with the blood of fallen foes, and they carry the stench of death.
 
@@ -42,43 +44,51 @@ Although they begin as creations of the Horned King, minotaurs can breed true wi
 "ac_class": "natural armor"
 "hp": !!int "76"
 "hit_dice": "9d10 + 27"
+"modifier": !!int "0"
 "stats":
-- !!int "18"
-- !!int "11"
-- !!int "16"
-- !!int "6"
-- !!int "16"
-- !!int "9"
+  - !!int "18"
+  - !!int "11"
+  - !!int "16"
+  - !!int "6"
+  - !!int "16"
+  - !!int "9"
 "speed": "40 ft."
 "skillsaves":
-  "Perception": !!int "7"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+7"
 "senses": "darkvision 60 ft., passive Perception 17"
 "languages": "Abyssal"
 "cr": "3"
 "traits":
-- "desc": "If the minotaur moves at least 10 feet straight toward a target and then\
-    \ hits it with a gore attack on the same turn, the target takes an extra 9 (2d8)\
-    \ piercing damage. If the target is a creature, it must succeed on a DC 14 Strength\
-    \ saving throw or be pushed up to 10 feet away and knocked [prone](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
-  "name": "Charge"
-- "desc": "The minotaur can perfectly recall any path it has traveled."
-  "name": "Labyrinthine Recall"
-- "desc": "At the start of its turn, the minotaur can gain advantage on all melee\
-    \ weapon attack rolls it makes during that turn, but attack rolls against it have\
-    \ advantage until the start of its next turn."
-  "name": "Reckless"
+  - "desc": "If the minotaur moves at least 10 feet straight toward a target and then\
+      \ hits it with a gore attack on the same turn, the target takes an extra 9 (2d8)\
+      \ piercing damage. If the target is a creature, it must succeed on a DC 14 Strength\
+      \ saving throw or be pushed up to 10 feet away and knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone)."
+    "name": "Charge"
+  - "desc": "The minotaur can perfectly recall any path it has traveled."
+    "name": "Labyrinthine Recall"
+  - "desc": "At the start of its turn, the minotaur can gain advantage on all melee\
+      \ weapon attack rolls it makes during that turn, but attack rolls against it\
+      \ have advantage until the start of its next turn."
+    "name": "Reckless"
 "actions":
-- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 17\
-    \ (2d12 + 4) slashing damage."
-  "name": "Greataxe"
-- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13\
-    \ (2d8 + 4) piercing damage."
-  "name": "Gore"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 17\
+      \ (2d12 + 4) slashing damage."
+    "name": "Greataxe"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13\
+      \ (2d8 + 4) piercing damage."
+    "name": "Gore"
 "source":
-- "MM"
-- "BGDIA"
-- "SatO"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/monstrosity/token/minotaur.webp"
+  - "MM"
+  - "PotA"
+  - "ToA"
+  - "WDH"
+  - "WDMM"
+  - "BGDIA"
+  - "ERLW"
+  - "EGW"
+  - "MOT"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/token/minotaur.webp"
 ```
 ^statblock
 

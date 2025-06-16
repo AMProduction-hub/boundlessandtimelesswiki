@@ -12,7 +12,8 @@ classes:
 - Bard
 - Cleric
 - Sorcerer (Divine Soul)
-aliases: ["Conjure Celestial"]
+aliases:
+- Conjure Celestial
 ---
 # Conjure Celestial
 *7th-level, Conjuration*  
@@ -27,10 +28,10 @@ You summon a celestial of challenge rating 4 or lower, which appears in an unocc
 
 The celestial is friendly to you and your companions for the duration. Roll initiative for the celestial, which has its own turns. It obeys any verbal commands that you issue to it (no action required by you), as long as they don't violate its alignment. If you don't issue any commands to the celestial, it defends itself from hostile creatures but otherwise takes no actions.
 
-The DM has [the celestial](couatl.md)'s statistics.
+The DM has [the celestial](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/couatl.md)'s statistics.
 
 **At Higher Levels.** When you cast this spell using a 9th-level spell slot, you summon a celestial of challenge rating 5 or lower.
 
-**Classes**: [Cleric](list-spells-classes-cleric.md); [Bard](list-spells-classes-bard.md); [Sorcerer (Divine Soul)](list-spells-classes-sorcerer-divine-soul-xge.md "subclass=XGE")
+**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md)
 
 *Source: Player's Handbook p. 225. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

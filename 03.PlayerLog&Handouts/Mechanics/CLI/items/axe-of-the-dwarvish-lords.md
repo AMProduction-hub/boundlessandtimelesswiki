@@ -11,14 +11,14 @@ aliases:
 - "Axe of the Dwarvish Lords"
 ---
 # Axe of the Dwarvish Lords
-*Weapon ([battleaxe](battleaxe.md)), cursed item, artifact (requires attunement)*  
-![](axe-of-the-dwarvish-lords.webp#right)
+*Weapon ([battleaxe](03.PlayerLog&Handouts/Mechanics/CLI/items/battleaxe.md)), cursed item, artifact (requires attunement)*  
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/axe-of-the-dwarvish-lords.webp#right)
 
 - **Damage**:
   - One-handed: 1d8 slashing
   - Two-handed: 1d10 slashing
 - **Range**: 20/60
-- **Properties**: [Cursed](item-properties.md#Cursed%20Items), [Thrown](item-properties.md#Thrown), [Versatile](item-properties.md#Versatile)
+- **Properties**: [Cursed](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Cursed%20Items), [Thrown](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Thrown), [Versatile](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Versatile)
 - **Weight**: 4.0 lbs.
 
 Seeing the peril his people faced, a young dwarf prince came to believe that his people needed something to unite them. Thus, he set out to forge a weapon that would be such a symbol.
@@ -31,35 +31,35 @@ Later, in a dark era marked by treachery and wickedness, the axe was lost in a b
 
 ## Magic Weapon
 
-The *Axe of the Dwarvish Lords* is a magic weapon that grants a +3 bonus to attack and damage rolls made with it. The axe also functions as a [belt of dwarvenkind](belt-of-dwarvenkind.md), a [dwarven thrower](dwarven-thrower.md), and a [sword of sharpness](sword-of-sharpness.md).
+The *Axe of the Dwarvish Lords* is a magic weapon that grants a +3 bonus to attack and damage rolls made with it. The axe also functions as a [belt of dwarvenkind](03.PlayerLog&Handouts/Mechanics/CLI/items/belt-of-dwarvenkind.md), a [dwarven thrower](03.PlayerLog&Handouts/Mechanics/CLI/items/dwarven-thrower.md), and a [sword of sharpness](03.PlayerLog&Handouts/Mechanics/CLI/items/sword-of-sharpness.md).
 
 ## Random Properties
 
 The axe has the following randomly determined properties:
 
-- 2 [minor beneficial properties](artifact-properties-minor-beneficial-properties.md)  
-- 1 [major beneficial property](artifact-properties-major-beneficial-properties.md)  
-- 2 [minor detrimental properties](artifact-properties-minor-detrimental-properties.md)  
+- 2 [minor beneficial properties](03.PlayerLog&Handouts/Mechanics/CLI/tables/artifact-properties-minor-beneficial-properties.md)  
+- 1 [major beneficial property](03.PlayerLog&Handouts/Mechanics/CLI/tables/artifact-properties-major-beneficial-properties.md)  
+- 2 [minor detrimental properties](03.PlayerLog&Handouts/Mechanics/CLI/tables/artifact-properties-minor-detrimental-properties.md)  
 
 ## Blessings of Moradin
 
 If you are a dwarf attuned to the axe, you gain the following benefits:
 
 - You have immunity to poison damage.  
-- The range of your [darkvision](senses.md#Darkvision) increases by 60 feet.  
-- You gain proficiency with [artisan's tools](artisans-tools.md) related to blacksmithing, brewing, and stonemasonry.  
+- The range of your [darkvision](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Darkvision) increases by 60 feet.  
+- You gain proficiency with [artisan's tools](03.PlayerLog&Handouts/Mechanics/CLI/items/artisans-tools.md) related to blacksmithing, brewing, and stonemasonry.  
 
 ## Conjure Earth Elemental
 
-If you are holding the axe, you can use your action to cast the [conjure elemental](conjure-elemental.md) spell from it, summoning an [earth elemental](earth-elemental.md). You can't use this property again until the next dawn.
+If you are holding the axe, you can use your action to cast the [conjure elemental](03.PlayerLog&Handouts/Mechanics/CLI/spells/conjure-elemental.md) spell from it, summoning an [earth elemental](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/earth-elemental.md). You can't use this property again until the next dawn.
 
 ## Travel the Depths
 
-You can use an action to touch the axe to a fixed piece of dwarven stonework and cast the [teleport](teleport.md) spell from the axe. If your intended destination is underground, there is no chance of a mishap or arriving somewhere unexpected. You can't use this property again until 3 days have passed.
+You can use an action to touch the axe to a fixed piece of dwarven stonework and cast the [teleport](03.PlayerLog&Handouts/Mechanics/CLI/spells/teleport.md) spell from the axe. If your intended destination is underground, there is no chance of a mishap or arriving somewhere unexpected. You can't use this property again until 3 days have passed.
 
 ## Curse
 
-The axe bears a curse that affects any non-dwarf that becomes attuned to it. Even if the attunement ends, the curse remains. With each passing day, the creature's physical appearance and stature become more dwarflike. After seven days, the creature looks like a typical dwarf, but the creature neither loses its racial traits nor gains the racial traits of a dwarf. The physical changes wrought by the axe aren't considered magical in nature (and therefore can't be dispelled), but they can be undone by any effect that removes a curse, such as a [greater restoration](greater-restoration.md) or [remove curse](remove-curse.md) spell.
+The axe bears a curse that affects any non-dwarf that becomes attuned to it. Even if the attunement ends, the curse remains. With each passing day, the creature's physical appearance and stature become more dwarflike. After seven days, the creature looks like a typical dwarf, but the creature neither loses its racial traits nor gains the racial traits of a dwarf. The physical changes wrought by the axe aren't considered magical in nature (and therefore can't be dispelled), but they can be undone by any effect that removes a curse, such as a [greater restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-restoration.md) or [remove curse](03.PlayerLog&Handouts/Mechanics/CLI/spells/remove-curse.md) spell.
 
 ## Destroying the Axe
 

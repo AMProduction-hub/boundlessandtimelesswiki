@@ -7,10 +7,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/undead
 statblock: inline
-aliases: ["Eye of Fear and Flame"]
+statblock-link: "#^statblock"
+aliases:
+- Eye of Fear and Flame
 ---
-# [Eye of Fear and Flame](03 - Player Log & Handouts\Mechanics\CLI\bestiary\undead/eye-of-fear-and-flame-mff.md)
-*Source: Mordenkainen's Fiendish Folio p. 8*  
+# [Eye of Fear and Flame](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/eye-of-fear-and-flame-mff.md)
+*Source: Mordenkainen's Fiendish Folio p. 8, Infernal Machine Rebuild*  
 
 An eye of fear and flame stalks the world of the living, commanding individuals to perform evil deeds of the undead's choosing or be destroyed. If its commands are not obeyed, an eye of fear and flame throws back its hood to reveal its skull—set with gems of red and black in each eye socket—then attacks.
 
@@ -35,65 +37,68 @@ An eye of fear and flame casts its magic powers through its gemstone eyes. In co
 "ac_class": "natural armor"
 "hp": !!int "136"
 "hit_dice": "16d8 + 64"
+"modifier": !!int "2"
 "stats":
-- !!int "16"
-- !!int "14"
-- !!int "18"
-- !!int "18"
-- !!int "17"
-- !!int "18"
+  - !!int "16"
+  - !!int "14"
+  - !!int "18"
+  - !!int "18"
+  - !!int "17"
+  - !!int "18"
 "speed": "30 ft."
 "saves":
-  "Charisma": !!int "8"
-  "Wisdom": !!int "7"
-  "Strength": !!int "7"
-  "Constitution": !!int "8"
+  - "strength": "+7"
+  - "constitution": "+8"
+  - "wisdom": "+7"
+  - "charisma": "+8"
 "skillsaves":
-  "Perception": !!int "7"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+7"
 "damage_resistances": "necrotic, psychic"
 "damage_immunities": "poison"
-"condition_immunities": "[blinded](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Blinded),\
-  \ [charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
-  \ [exhaustion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
-  \ [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
-  \ [paralyzed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
-  \ [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
-  \ [stunned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Stunned)"
+"condition_immunities": "[blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded),\
+  \ [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
+  \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
+  \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
+  \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned),\
+  \ [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)"
 "senses": "darkvision 60 ft., passive Perception 17"
 "languages": "Common, all languages known by any creature within 30 feet of it"
 "cr": "9"
 "traits":
-- "desc": "The eye of fear and flame's innate spellcasting ability is Intelligence\
-    \ (spell save DC 16). It can innately cast the following spells, requiring no\
-    \ components:\n\nAt will: [detect evil and good](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/detect-evil-and-good.md),\
-    \ [detect thoughts](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/detect-thoughts.md)\n\
-    \n1/day each: [etherealness](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/etherealness.md),\
-    \ [true seeing](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/true-seeing.md)"
-  "name": "Innate Spellcasting"
-- "desc": "The eye of fear and flame is immune to effects that turn undead."
-  "name": "Turn Immunity"
+  - "desc": "The eye of fear and flame's innate spellcasting ability is Intelligence\
+      \ (spell save DC 16). It can innately cast the following spells, requiring no\
+      \ components:\n\nAt will: [detect evil and good](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-evil-and-good.md),\
+      \ [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md)\n\
+      \n1/day each: [etherealness](03.PlayerLog&Handouts/Mechanics/CLI/spells/etherealness.md),\
+      \ [true seeing](03.PlayerLog&Handouts/Mechanics/CLI/spells/true-seeing.md)"
+    "name": "Innate Spellcasting"
+  - "desc": "The eye of fear and flame is immune to effects that turn undead."
+    "name": "Turn Immunity"
 "actions":
-- "desc": "The eye of fear and flame makes two claw attacks and uses its Gemstone\
-    \ Eyes."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9 (1d12\
-    \ + 3) slashing damage."
-  "name": "Claw"
-- "desc": "The eye of fear and flame shoots one of the following magical eye rays,\
-    \ choosing one target it can see within 90 feet of it.\n\n- Eye of Fear. The\
-    \ target and up to four other creatures of the eye of fear and flame's choice\
-    \ within 10 feet of the target must each succeed on a DC 16 Wisdom saving throw\
-    \ or be [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened)\
-    \ for 1 minute. An affected creature can repeat the saving throw at the end of\
-    \ each of its turns, ending the effect on itself on a success.  \n- Eye of Flame.\
-    \ The target must make a DC 16 Dexterity saving throw. On a failed save, the target\
-    \ takes 44 (8d10) fire damage, and if it is a creature or a flammable object,\
-    \ it ignites. On a successful save, the target takes half as much damage and does\
-    \ not ignite. A target that ignites takes 5 (1d10) fire damage at the start\
-    \ of each of its turns until a creature takes an action to douse the fire.  "
-  "name": "Gemstone Eyes"
+  - "desc": "The eye of fear and flame makes two claw attacks and uses its Gemstone\
+      \ Eyes."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9\
+      \ (1d12 + 3) slashing damage."
+    "name": "Claw"
+  - "desc": "The eye of fear and flame shoots one of the following magical eye rays,\
+      \ choosing one target it can see within 90 feet of it.\n\n- Eye of Fear.\
+      \ The target and up to four other creatures of the eye of fear and flame's choice\
+      \ within 10 feet of the target must each succeed on a DC 16 Wisdom saving throw\
+      \ or be [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened)\
+      \ for 1 minute. An affected creature can repeat the saving throw at the end\
+      \ of each of its turns, ending the effect on itself on a success.  \n- Eye\
+      \ of Flame. The target must make a DC 16 Dexterity saving throw. On a failed\
+      \ save, the target takes 44 (8d10) fire damage, and if it is a creature or\
+      \ a flammable object, it ignites. On a successful save, the target takes half\
+      \ as much damage and does not ignite. A target that ignites takes 5 (d10)\
+      \ fire damage at the start of each of its turns until a creature takes an action\
+      \ to douse the fire.  "
+    "name": "Gemstone Eyes"
 "source":
-- "MFF"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/undead/token/eye-of-fear-and-flame-mff.webp"
+  - "MFF"
+  - "IMR"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/token/eye-of-fear-and-flame-mff.webp"
 ```
 ^statblock

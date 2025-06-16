@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/phb
-aliases: ["Adventuring"]
+aliases:
+- Adventuring
 ---
 # Adventuring
 *Source: Player's Handbook (2014), p. 181* 
@@ -22,7 +23,7 @@ Typically, the DM uses a map as an outline of the adventure, tracking the charac
 
 The DM's notes, including a key to the map, describe what the adventurers find as they enter each new area. Sometimes, the passage of time and the adventurers' actions determine what happens, so the DM might use a time line or a flowchart to track their progress instead of a map.
 
-![](ch8.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/players-handbook-2014/img/ch8.webp#center)
 
 ## Time
 
@@ -52,9 +53,9 @@ While traveling, a group of adventurers can move at a normal, fast, or slow pace
 
 ##### Forced March
 
-The Travel Pace table assumes that characters travel for 8 hours in day. They can push on beyond that limit, at the risk of [exhaustion](conditions.md#Exhaustion).
+The Travel Pace table assumes that characters travel for 8 hours in day. They can push on beyond that limit, at the risk of [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion).
 
-For each additional hour of travel beyond 8 hours, the characters cover the distance shown in the Hour column for their pace, and each character must make a Constitution saving throw at the end of the hour. The DC is 10 + 1 for each hour past 8 hours. On a failed saving throw, a character suffers one level of [exhaustion](conditions.md#Exhaustion) (see the appendix).
+For each additional hour of travel beyond 8 hours, the characters cover the distance shown in the Hour column for their pace, and each character must make a Constitution saving throw at the end of the hour. The DC is 10 + 1 for each hour past 8 hours. On a failed saving throw, a character suffers one level of [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion) (see the appendix).
 
 ##### Mounts and Vehicles
 
@@ -64,7 +65,7 @@ Characters in wagons, carriages, or other land vehicles choose a pace as normal.
 
 Certain special mounts, such as a pegasus or griffon, or special vehicles, such as a carpet of flying, allow you to travel more swiftly. The Dungeon Master's Guide contains more information on special methods of travel.
 
-![Travel Pace](travel-pace.md)
+![Travel Pace](03.PlayerLog&Handouts/Mechanics/CLI/tables/travel-pace-phb.md)
 
 #### Difficult Terrain
 
@@ -90,7 +91,7 @@ When you make a long jump, you cover a number of feet up to your Strength score 
 
 This rule assumes that the height of your jump doesn't matter, such as a jump across a stream or chasm. At your DM's option, you must succeed on a DC 10 Strength ([Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)) check to clear a low obstacle (no taller than a quarter of the jump's distance), such as a hedge or low wall. Otherwise, you hit it.
 
-When you land in difficult terrain, you must succeed on a DC 10 Dexterity ([Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics)) check to land on your feet. Otherwise, you land [prone](conditions.md#Prone).
+When you land in difficult terrain, you must succeed on a DC 10 Dexterity ([Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics)) check to land on your feet. Otherwise, you land [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone).
 
 ##### High Jump
 
@@ -130,7 +131,7 @@ If the DM determines that the adventurers encounter other creatures while they'r
 
 ##### Surprising Foes
 
-If the adventurers encounter a hostile creature or group, the DM determines whether the adventurers or their foes might be [surprised](conditions.md#Surprised) when combat erupts. See chapter 9 for more about surprise.
+If the adventurers encounter a hostile creature or group, the DM determines whether the adventurers or their foes might be [surprised](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Surprised) when combat erupts. See chapter 9 for more about surprise.
 
 #### Other Activities
 
@@ -169,7 +170,7 @@ By its nature, adventuring involves delving into places that are dark, dangerous
 
 A fall from a great height is one of the most common hazards facing an adventurer.
 
-At the end of a fall, a creature takes `1d6` bludgeoning damage for every 10 feet it fell, to a maximum of `20d6`. The creature lands [prone](conditions.md#Prone), unless it avoids taking damage from the fall.
+At the end of a fall, a creature takes `d6` bludgeoning damage for every 10 feet it fell, to a maximum of `20d6`. The creature lands [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), unless it avoids taking damage from the fall.
 
 #### Suffocating
 
@@ -185,7 +186,7 @@ The most fundamental tasks of adventuring—noticing danger, finding hidden obje
 
 A given area might be lightly or heavily obscured. In a **lightly obscured** area, such as dim light, patchy fog, or moderate foliage, creatures have disadvantage on Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)) checks that rely on sight.
 
-A **heavily obscured** area—such as darkness, opaque fog, or dense foliage—blocks vision entirely. A creature effectively suffers from the [blinded](conditions.md#Blinded) condition when trying to see something in that area.
+A **heavily obscured** area—such as darkness, opaque fog, or dense foliage—blocks vision entirely. A creature effectively suffers from the [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded) condition when trying to see something in that area.
 
 The presence or absence of light in an environment creates three categories of illumination: bright light, dim light, and darkness.
 
@@ -205,27 +206,27 @@ Many creatures in fantasy gaming worlds, especially those that dwell underground
 
 ##### Truesight
 
-A creature with truesight can, out to a specific range, see in normal and magical darkness, see [invisible](conditions.md#Invisible) creatures and objects, automatically detect visual illusions and succeed on saving throws against them, and perceives the original form of a shapechanger or a creature that is transformed by magic. Furthermore, the creature can see into the Ethereal Plane.
+A creature with truesight can, out to a specific range, see in normal and magical darkness, see [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible) creatures and objects, automatically detect visual illusions and succeed on saving throws against them, and perceives the original form of a shapechanger or a creature that is transformed by magic. Furthermore, the creature can see into the Ethereal Plane.
 
-![](c81.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/players-handbook-2014/img/c81.webp#center)
 
 #### Food and Water
 
-Characters who don't eat or drink suffer the effects of [exhaustion](conditions.md#Exhaustion) (see the appendix). Exhaustion caused by lack of food or water can't be removed until the character eats and drinks the full required amount.
+Characters who don't eat or drink suffer the effects of [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion) (see the appendix). Exhaustion caused by lack of food or water can't be removed until the character eats and drinks the full required amount.
 
 ##### Food
 
 A character needs one pound of food per day and can make food last longer by subsisting on half rations. Eating half a pound of food in a day counts as half a day without food.
 
-A character can go without food for a number of days equal to 3 + his or her Constitution modifier (minimum 1). At the end of each day beyond that limit, a character automatically suffers one level of [exhaustion](conditions.md#Exhaustion).
+A character can go without food for a number of days equal to 3 + his or her Constitution modifier (minimum 1). At the end of each day beyond that limit, a character automatically suffers one level of [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion).
 
 A normal day of eating resets the count of days without food to zero.
 
 ##### Water
 
-A character needs one gallon of water per day, or two gallons per day if the weather is hot. A character who drinks only half that much water must succeed on a DC 15 Constitution saving throw or suffer one level of [exhaustion](conditions.md#Exhaustion) at the end of the day. A character with access to even less water automatically suffers one level of [exhaustion](conditions.md#Exhaustion) at the end of the day.
+A character needs one gallon of water per day, or two gallons per day if the weather is hot. A character who drinks only half that much water must succeed on a DC 15 Constitution saving throw or suffer one level of [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion) at the end of the day. A character with access to even less water automatically suffers one level of [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion) at the end of the day.
 
-If the character already has one or more levels of [exhaustion](conditions.md#Exhaustion), the character takes two levels in either case.
+If the character already has one or more levels of [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion), the character takes two levels in either case.
 
 #### Interacting with Objects
 
@@ -340,7 +341,7 @@ Downtime activities other than the ones presented below are possible. If you wan
 
 ##### Crafting
 
-You can craft nonmagical objects, including adventuring equipment and works of art. You must be proficient with tools related to the object you are trying to create (typically artisan's tools). You might also need access to special materials or locations necessary to create it. For example, someone proficient with [smith's tools](smiths-tools.md) needs a forge in order to craft a sword or suit of armor.
+You can craft nonmagical objects, including adventuring equipment and works of art. You must be proficient with tools related to the object you are trying to create (typically artisan's tools). You might also need access to special materials or locations necessary to create it. For example, someone proficient with [smith's tools](03.PlayerLog&Handouts/Mechanics/CLI/items/smiths-tools.md) needs a forge in order to craft a sword or suit of armor.
 
 For every day of downtime you spend crafting, you can craft one or more items with a total market value not exceeding 5 gp, and you must expend raw materials worth half the total market value. If something you want to craft has a market value greater than 5 gp, you make progress every day in 5-gp increments until you reach the market value of the item. For example, a suit of plate armor (market value 1,500 gp) takes 300 days to craft by yourself.
 

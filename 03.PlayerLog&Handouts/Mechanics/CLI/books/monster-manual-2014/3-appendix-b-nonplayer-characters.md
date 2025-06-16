@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mm
-aliases: ["Appendix B: Nonplayer Characters"]
+aliases:
+- Appendix B: Nonplayer Characters
 ---
 # Appendix B: Nonplayer Characters
 *Source: Monster Manual (2014), p. 342* 
@@ -31,23 +32,23 @@ You can upgrade or downgrade an NPC's armor, or add or switch weapons. Adjustmen
 The more powerful an NPC, the more likely it has one or more magic items in its possession. An archmage, for example, might have a magic staff or wand, as well as one or more potions and scrolls. Giving an NPC a potent damage-dealing magic item could alter its challenge rating. Magic items, as well as adjusting a creature's challenge rating, are described in the Dungeon Master's Guide.
 
 - [Acolyte](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/acolyte.md)  
-- [Archmage](archmage.md)  
-- [Assassin](assassin.md)  
-- [Bandit](bandit.md)  
-- [Bandit Captain](bandit-captain.md)  
-- [Berserker](berserker.md)  
-- [Commoner](commoner.md)  
-- [Cultist](cultist.md)  
-- [Cult Fanatic](cult-fanatic.md)  
+- [Archmage](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/archmage.md)  
+- [Assassin](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/assassin.md)  
+- [Bandit](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bandit.md)  
+- [Bandit Captain](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bandit-captain.md)  
+- [Berserker](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/berserker.md)  
+- [Commoner](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/commoner.md)  
+- [Cultist](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/cultist.md)  
+- [Cult Fanatic](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/cult-fanatic.md)  
 - [Druid](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/druid.md)  
-- [Gladiator](gladiator.md)  
-- [Guard](guard.md)  
-- [Knight](knight.md)  
-- [Mage](mage.md)  
+- [Gladiator](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/gladiator.md)  
+- [Guard](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/guard.md)  
+- [Knight](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/knight.md)  
+- [Mage](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/mage.md)  
 - [Noble](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/noble.md)  
-- [Priest](priest.md)  
-- [Scout](scout.md)  
-- [Spy](spy.md)  
-- [Thug](thug.md)  
-- [Tribal Warrior](tribal-warrior.md)  
-- [Veteran](veteran.md)
+- [Priest](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/priest.md)  
+- [Scout](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/scout.md)  
+- [Spy](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/spy.md)  
+- [Thug](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/thug.md)  
+- [Tribal Warrior](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/tribal-warrior.md)  
+- [Veteran](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/veteran.md)

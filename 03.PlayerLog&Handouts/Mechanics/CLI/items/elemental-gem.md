@@ -10,14 +10,14 @@ aliases:
 ---
 # Elemental Gem
 *Wondrous item, minor, uncommon*  
-![](elemental-gem.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/elemental-gem.webp#right)
 
 
 **Items in this group:**
 
-- [Elemental Gem, Blue Sapphire](elemental-gem-blue-sapphire.md)
-- [Elemental Gem, Emerald](elemental-gem-emerald.md)
-- [Elemental Gem, Red Corundum](elemental-gem-red-corundum.md)
-- [Elemental Gem, Yellow Diamond](elemental-gem-yellow-diamond.md)
+- [Elemental Gem, Blue Sapphire](03.PlayerLog&Handouts/Mechanics/CLI/items/elemental-gem-blue-sapphire.md)
+- [Elemental Gem, Emerald](03.PlayerLog&Handouts/Mechanics/CLI/items/elemental-gem-emerald.md)
+- [Elemental Gem, Red Corundum](03.PlayerLog&Handouts/Mechanics/CLI/items/elemental-gem-red-corundum.md)
+- [Elemental Gem, Yellow Diamond](03.PlayerLog&Handouts/Mechanics/CLI/items/elemental-gem-yellow-diamond.md)
 
 *Source: Dungeon Master's Guide p. 167*

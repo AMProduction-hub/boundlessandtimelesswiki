@@ -12,7 +12,7 @@ aliases:
 ---
 # Spellguard Shield
 *Armor ([shield](03.PlayerLog&Handouts/Mechanics/CLI/items/shield.md)), major, very rare (requires attunement)*  
-![](spellguard-shield.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/spellguard-shield.webp#right)
 
 - **Armor Class**: 2
 - **Weight**: 6.0 lbs.

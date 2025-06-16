@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
-aliases: ["Dungeon Master's Workshop"]
+aliases:
+- Dungeon Master's Workshop
 ---
 # Dungeon Master's Workshop
 *Source: Dungeon Master's Guide (2014), p. 263* 
@@ -45,7 +46,7 @@ You can dispense with skills and use one of the following variants. Choose which
 
 With this variant rule, characters don't have skill proficiencies. Instead, each character has proficiency in two abilities: one tied to the character's class and one tied to the character's background. The Ability Proficiencies by Class table suggests a proficiency for each class, and you choose which ability is tied to a given background. Starting at 1st level, a character adds his or her proficiency bonus to any ability check tied to one or the other of these two abilities.
 
-![Ability Check Proficiency by Class](ability-check-proficiency-by-class.md)
+![Ability Check Proficiency by Class](03.PlayerLog&Handouts/Mechanics/CLI/tables/ability-check-proficiency-by-class.md)
 
 The Expertise feature works differently than normal under this rule. At 1st level, instead of choosing two skill proficiencies, a character with the Expertise class feature chooses one of the abilities in which he or she has proficiency. Selecting an ability counts as two of the character's Expertise choices. If the character would gain an additional skill proficiency, that character instead selects another ability check in which to gain proficiency.
 
@@ -125,7 +126,7 @@ An Honor saving throw comes into play when you want to determine whether a chara
 
 #### Sanity Score
 
-Consider using the [Sanity score](new-ability-scores-honor-and-sanity.md) if your campaign revolves around entities of an utterly alien and unspeakable nature, such as Great Cthulhu, whose powers and minions can shatter a character's mind.
+Consider using the [Sanity score](03.PlayerLog&Handouts/Mechanics/CLI/rules/variant-rules/new-ability-scores-honor-and-sanity.md) if your campaign revolves around entities of an utterly alien and unspeakable nature, such as Great Cthulhu, whose powers and minions can shatter a character's mind.
 
 A character with a high Sanity is level-headed even in the face of insane circumstances, while a character with low Sanity is unsteady, breaking easily when confronted by eldritch horrors that are beyond normal reason.
 
@@ -159,7 +160,7 @@ The rules for fear and horror can help you sustain an atmosphere of dread in a d
 
 #### Fear
 
-When adventurers confront threats they have no hope of overcoming, you can call for them to make a Wisdom saving throw. Set the DC according to the circumstances. A character who fails the save becomes [frightened](conditions.md#Frightened) for 1 minute. The character can repeat the saving throw at the end of each of his or her turns, ending the effect on the character on a successful save.
+When adventurers confront threats they have no hope of overcoming, you can call for them to make a Wisdom saving throw. Set the DC according to the circumstances. A character who fails the save becomes [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened) for 1 minute. The character can repeat the saving throw at the end of each of his or her turns, ending the effect on the character on a successful save.
 
 #### Horror
 
@@ -249,7 +250,7 @@ Setting fire to a container full of gunpowder can cause it to explode, dealing f
 
 As an action, a creature can light a stick of dynamite and throw it at a point up to 60 feet away. Each creature within 5 feet of that point must make a DC 12 Dexterity saving throw, taking `3d6` bludgeoning damage on a failed save, or half as much damage on a successful one.
 
-A character can bind sticks of dynamite together so they explode at the same time. Each additional stick increases the damage by `1d6` (to a maximum of `10d6`) and the burst radius by 5 feet (to a maximum of 20 feet).
+A character can bind sticks of dynamite together so they explode at the same time. Each additional stick increases the damage by `d6` (to a maximum of `10d6`) and the burst radius by 5 feet (to a maximum of 20 feet).
 
 Dynamite can be rigged with a longer fuse to explode after a set amount of time, usually 1 to 6 rounds. Roll initiative for the dynamite. After the set number of rounds goes by, the dynamite explodes on that initiative.
 
@@ -271,7 +272,7 @@ To determine how the technology works, a character must succeed on a number of I
 
 A character who has seen an item used or has operated a similar item has advantage on Intelligence checks made to figure out its use.
 
-![Figuring Out Alien Technology](figuring-out-alien-technology.md)
+![Figuring Out Alien Technology](03.PlayerLog&Handouts/Mechanics/CLI/tables/figuring-out-alien-technology.md)
 
 ### Firearms
 
@@ -280,32 +281,32 @@ A character who has seen an item used or has operated a similar item has advanta
 | Renaissance Item | Cost | Damage | Weight | Properties |
 |------------------|------|--------|--------|------------|
 | *Martial Ranged Weapons* |  |  |  |  |
-| Pistol | 250 gp | `1d10` piercing | 3 lb. | Ammunition (range 30/90), loading |
-| Musket | 500 gp | `1d12` piercing | 10 lb. | Ammunition (range 40/120), loading, two-handed |
+| &emsp;Pistol | 250 gp | `d10` piercing | 3 lb. | Ammunition (range 30/90), loading |
+| &emsp;Musket | 500 gp | `d12` piercing | 10 lb. | Ammunition (range 40/120), loading, two-handed |
 | *Ammunition* |  |  |  |  |
-| Bullets (10) | 3 gp | — | 2 lb. | — |
+| &emsp;Bullets (10) | 3 gp | — | 2 lb. | — |
 ^firearms
 
 | Modern Item | Cost | Damage | Weight | Properties |
 |-------------|------|--------|--------|------------|
 | *Martial Ranged Weapons* |  |  |  |  |
-| Pistol, automatic | — | `2d6` piercing | 3 lb. | Ammunition (range 50/150), reload (15 shots) |
-| Revolver | — | `2d8` piercing | 3 lb. | Ammunition (range 40/120), reload (6 shots) |
-| Rifle, hunting | — | `2d10` piercing | 8 lb. | Ammunition (range 80/240), reload (5 shots), two-handed |
-| Rifle, automatic | — | `2d8` piercing | 8 lb. | Ammunition (range 80/240), burst fire, reload (30 shots), two-handed |
-| Shotgun | — | `2d8` piercing | 7 lb. | Ammunition (range 30/90), reload (2 shots), two-handed |
+| &emsp;Pistol, automatic | — | `2d6` piercing | 3 lb. | Ammunition (range 50/150), reload (15 shots) |
+| &emsp;Revolver | — | `2d8` piercing | 3 lb. | Ammunition (range 40/120), reload (6 shots) |
+| &emsp;Rifle, hunting | — | `2d10` piercing | 8 lb. | Ammunition (range 80/240), reload (5 shots), two-handed |
+| &emsp;Rifle, automatic | — | `2d8` piercing | 8 lb. | Ammunition (range 80/240), burst fire, reload (30 shots), two-handed |
+| &emsp;Shotgun | — | `2d8` piercing | 7 lb. | Ammunition (range 30/90), reload (2 shots), two-handed |
 | *Ammunition* |  |  |  |  |
-| Bullets (10) | — | — | 1 lb. | — |
+| &emsp;Bullets (10) | — | — | 1 lb. | — |
 ^modern-item-cost-damage-weight-properties
 
 | Futuristic Item | Cost | Damage | Weight | Properties |
 |-----------------|------|--------|--------|------------|
 | *Martial Ranged Weapons* |  |  |  |  |
-| Laser pistol | — | `3d6` radiant | 2 lb. | Ammunition (range 40/120), reload (50 shots) |
-| Antimatter rifle | — | `6d8` necrotic | 10 lb. | Ammunition (range 120/360), reload (2 shots), two-handed |
-| Laser rifle | — | `3d8` radiant | 7 lb. | Ammunition (range 100/300), reload (30 shots), two-handed |
+| &emsp;Laser pistol | — | `3d6` radiant | 2 lb. | Ammunition (range 40/120), reload (50 shots) |
+| &emsp;Antimatter rifle | — | `6d8` necrotic | 10 lb. | Ammunition (range 120/360), reload (2 shots), two-handed |
+| &emsp;Laser rifle | — | `3d8` radiant | 7 lb. | Ammunition (range 100/300), reload (30 shots), two-handed |
 | *Ammunition* |  |  |  |  |
-| Energy cell | — | — | 5 oz. | — |
+| &emsp;Energy cell | — | — | 5 oz. | — |
 ^futuristic-item-cost-damage-weight-properties
 
 ### Plot Points
@@ -376,7 +377,7 @@ Speed factor is an option for initiative that introduces more uncertainty into c
 
 Modifiers might apply to a creature's initiative depending on its size and the action it takes. For example, a creature that fights with a light weapon or casts a simple spell is more likely to act before a creature armed with a heavy or slow weapon. See the Speed Factor Initiative Modifiers table for details. If an action has no modifier listed, the action has no effect on initiative. If more than one modifier applies such as wielding a two-handed, heavy melee weapon, apply them all to the initiative roll.
 
-![Speed Factor Initiative Modifiers](speed-factor-initiative-modifiers.md)
+![Speed Factor Initiative Modifiers](03.PlayerLog&Handouts/Mechanics/CLI/tables/speed-factor-initiative-modifiers.md)
 
 Don't apply the same modifier more than once on a creature's turn. For example, a rogue fighting with two daggers gains the +2 bonus for using a light or finesse weapon only once. In the case of spellcasting, apply only the modifier from the highest-level spell.
 
@@ -400,12 +401,12 @@ Once everyone has acted, the process repeats. Everyone in the battle selects an 
 
 This section provides new action options for combat. They can be added as a group or individually to your game.
 
-- [Climb onto a Bigger Creature](actions.md#Climb%20onto%20a%20Bigger%20Creature)  
-- [Disarm](actions.md#Disarm)  
-- [Mark](actions.md#Mark)  
-- [Overrun](actions.md#Overrun)  
-- [Shove Aside](actions.md#Shove%20Aside)  
-- [Tumble](actions.md#Tumble)  
+- [Climb onto a Bigger Creature](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Climb%20onto%20a%20Bigger%20Creature)  
+- [Disarm](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Disarm)  
+- [Mark](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Mark)  
+- [Overrun](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Overrun)  
+- [Shove Aside](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Shove%20Aside)  
+- [Tumble](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Tumble)  
 
 ### Hitting Cover
 
@@ -431,7 +432,7 @@ It's up to you to decide when to check for a lingering injury. A creature might 
 
 To determine the nature of the injury, roll on the Lingering Injuries table. This table assumes a typical humanoid physiology, but you can adapt the results for creatures with different body types.
 
-![Lingering Injuries](lingering-injuries.md)
+![Lingering Injuries](03.PlayerLog&Handouts/Mechanics/CLI/tables/lingering-injuries.md)
 
 Instead of using the effect described in the table, you can put the responsibility of representing a character's lingering injury in the hands of the player. Roll on the Lingering Injuries table as usual, but instead of suffering the effect described for that result, that character gains a new flaw with the same name. It's up to the player to express the lingering injury during play, just like any other flaw, with the potential to gain inspiration when the injury affects the character in a meaningful way.
 
@@ -441,7 +442,7 @@ This optional rule makes it easier for a creature to be felled by massive damage
 
 When a creature takes damage from a single source equal to or greater than half its hit point maximum, it must succeed on a DC 15 Constitution saving throw or suffer a random effect determined by a roll on the System Shock table. For example, a creature that has a hit point maximum of 30 must make that Constitution save if it takes 15 damage or more from a single source.
 
-![Massive Damage; System Shock](massive-damage-system-shock.md)
+![Massive Damage; System Shock](03.PlayerLog&Handouts/Mechanics/CLI/tables/massive-damage-system-shock.md)
 
 ### Morale
 
@@ -449,14 +450,14 @@ Some combatants might run away when a fight turns against them. You can use this
 
 A creature might flee under any of the following circumstances:
 
-- The creature is [surprised](conditions.md#Surprised).  
+- The creature is [surprised](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Surprised).  
 - The creature is reduced to half its hit points or fewer for the first time in the battle.  
 - The creature has no way to harm the opposing side on its turn.  
 
 A group of creatures might flee under any of the following circumstances:
 
-- All the creatures in the group are [surprised](conditions.md#Surprised).  
-- The group's leader is reduced to 0 hit points, [incapacitated](conditions.md#Incapacitated), taken prisoner, or removed from battle.  
+- All the creatures in the group are [surprised](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Surprised).  
+- The group's leader is reduced to 0 hit points, [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated), taken prisoner, or removed from battle.  
 - The group is reduced to half its original size with no losses on the opposing side.  
 
 To determine whether a creature or group of creatures flees, make a DC 10 Wisdom saving throw for the creature or the group's leader. If the opposition is overwhelming, the saving throw is made with disadvantage, or you can decide that the save fails automatically. If a group's leader can't make the saving throw for whatever reason, have the creature in the group with the next highest Charisma score make the saving throw instead.
@@ -493,7 +494,7 @@ Another simple way to customize a monster is to add a special trait. You can add
 
 If all you need are simple stats for a monster of a particular challenge rating, follow the steps here. If you want to create something more akin to the monster stat blocks in the Monster Manual, skip ahead to the "Creating a Monster Stat Block" section.
 
-![Creating Quick Monster Stats; Monster Statistics by Challenge Rating](creating-quick-monster-stats-monster-statistics-by-challenge-rating.md)
+![Creating Quick Monster Stats; Monster Statistics by Challenge Rating](03.PlayerLog&Handouts/Mechanics/CLI/tables/creating-quick-monster-stats-monster-statistics-by-challenge-rating.md)
 
 #### Step 1. Expected Challenge Rating
 
@@ -541,7 +542,7 @@ With the final challenge rating, you can determine the monster's proficiency bon
 
 Creating a monster isn't just a number-crunching exercise. The guidelines in this chapter can help you create monsters, but the only way to know whether a monster is fun is to playtest it. After seeing your monster in action, you might want to adjust the challenge rating up or down based on your experiences.
 
-![Final Challenge Rating; Experience Points by Challenge Rating](final-challenge-rating-experience-points-by-challenge-rating.md)
+![Final Challenge Rating; Experience Points by Challenge Rating](03.PlayerLog&Handouts/Mechanics/CLI/tables/final-challenge-rating-experience-points-by-challenge-rating.md)
 
 ### Creating a Monster Stat Block
 
@@ -615,7 +616,7 @@ A monster can have as many Hit Dice as you want, but the size of the die used to
 
 A monster typically has average hit points based on its Hit Dice. For example, a creature with `5d8 + 5` hit points has an average of 27 hit points (5 × 4.5 + 5).
 
-![Assign Hit Dice; Hit Dice by Size](assign-hit-dice-hit-dice-by-size.md)
+![Assign Hit Dice; Hit Dice by Size](03.PlayerLog&Handouts/Mechanics/CLI/tables/assign-hit-dice-hit-dice-by-size.md)
 
 #### Step 9. Damage Vulnerabilities, Resistances, and Immunities
 
@@ -631,7 +632,7 @@ For example, a monster with an expected challenge rating of 6, 150 hit points, a
 
 Monsters don't normally have vulnerability to more than one or two types of damage. Vulnerabilities don't significantly affect a monster's challenge rating, unless a monster has vulnerabilities to multiple damage types that are prevalent, especially bludgeoning, piercing, and slashing. For such a strange monster, reduce its effective hit points by half. Or even better, eliminate the vulnerabilities and give the brittle monster fewer hit points.
 
-![Damage Vulnerabilities, Resistances, and Immunities; Effective Hit Points Based on Resistances and Immunities](damage-vulnerabilities-resistances-and-immunities-effective-hit-points-based-on-resistances-and-immunities.md)
+![Damage Vulnerabilities, Resistances, and Immunities; Effective Hit Points Based on Resistances and Immunities](03.PlayerLog&Handouts/Mechanics/CLI/tables/damage-vulnerabilities-resistances-and-immunities-effective-hit-points-based-on-resistances-and-immunities.md)
 
 #### Step 10. Attack Bonuses
 
@@ -673,9 +674,9 @@ Some monsters use natural weapons, such as claws or tail spikes. Others wield ma
 
 If a monster has natural weapons, you decide how much damage it deals with those attacks, as well as the type of damage. See the Monster Manual for examples.
 
-If a monster wields a manufactured weapon, it deals damage appropriate to the weapon. For example, a greataxe in the hands of a Medium monster deals `1d12` slashing damage plus the monster's Strength modifier, as is normal for that weapon.
+If a monster wields a manufactured weapon, it deals damage appropriate to the weapon. For example, a greataxe in the hands of a Medium monster deals `d12` slashing damage plus the monster's Strength modifier, as is normal for that weapon.
 
-Big monsters typically wield oversized weapons that deal extra dice of damage on a hit. Double the weapon dice if the creature is Large, triple the weapon dice if it's Huge, and quadruple the weapon dice if it's Gargantuan. For example, a Huge giant wielding an appropriately sized greataxe deals `3d12` slashing damage (plus its Strength bonus), instead of the normal `1d12`.
+Big monsters typically wield oversized weapons that deal extra dice of damage on a hit. Double the weapon dice if the creature is Large, triple the weapon dice if it's Huge, and quadruple the weapon dice if it's Gargantuan. For example, a Huge giant wielding an appropriately sized greataxe deals `3d12` slashing damage (plus its Strength bonus), instead of the normal `d12`.
 
 A creature has disadvantage on attack rolls with a weapon that is sized for a larger attacker. You can rule that a weapon sized for an attacker two or more sizes larger is too big for the creature to use at all.
 
@@ -779,7 +780,7 @@ A monster can master as many spoken languages as you want, although few monsters
 
 Whether or not a monster has telepathy has no bearing on its challenge rating. For more information on telepathy, see the Monster Manual.
 
-![Creating a Monster Stat Block; Monster Features](creating-a-monster-stat-block-monster-features.md)
+![Creating a Monster Stat Block; Monster Features](03.PlayerLog&Handouts/Mechanics/CLI/tables/creating-a-monster-stat-block-monster-features.md)
 
 ### NPC Stat Blocks
 
@@ -800,7 +801,7 @@ The NPC Features table summarizes the ability modifiers and features of various 
 
 If the monster you want to use isn't listed on the table, use the process described below under "Monsters with Classes."
 
-![Creating NPCs from Scratch; NPC Features](creating-npcs-from-scratch-npc-features.md)
+![Creating NPCs from Scratch; NPC Features](03.PlayerLog&Handouts/Mechanics/CLI/tables/creating-npcs-from-scratch-npc-features.md)
 
 ### Monsters with Classes
 
@@ -829,9 +830,9 @@ When creating a new spell, use existing spells as guidelines. Here are some thin
 
 For any spell that deals damage, use the Spell Damage table to determine approximately how much damage is appropriate given the spell's level. The table assumes the spell deals half damage on a successful saving throw or a missed attack. If your spell doesn't deal damage on a successful save, you can increase the damage by 25 percent.
 
-You can use different damage dice than the ones in the table, provided that the average result is about the same. Doing so can add a little variety to the spell. For example, you could change a cantrip's damage from `1d10` (average 5.5) to `2d4` (average 5), reducing the maximum damage and making an average result more likely.
+You can use different damage dice than the ones in the table, provided that the average result is about the same. Doing so can add a little variety to the spell. For example, you could change a cantrip's damage from `d10` (average 5.5) to `2d4` (average 5), reducing the maximum damage and making an average result more likely.
 
-![Spell Damage](spell-damage.md)
+![Spell Damage](03.PlayerLog&Handouts/Mechanics/CLI/tables/spell-damage.md)
 
 ### Healing Spells
 
@@ -865,7 +866,7 @@ If you make an item that lets a character kill whatever he or she hits with it, 
 
 Use the Magic Item Power by Rarity table as a guide to help you determine how powerful an item should be, based on its rarity.
 
-![Power Level; Magic Item Power by Rarity](power-level-magic-item-power-by-rarity.md)
+![Power Level; Magic Item Power by Rarity](03.PlayerLog&Handouts/Mechanics/CLI/tables/power-level-magic-item-power-by-rarity.md)
 
 ###### Maximum Spell Level
 
@@ -919,7 +920,7 @@ Creatures of magic with strong ties to nature, eladrin live in the twilight real
 
 The elf subraces in the Player's Handbook include an ability score increase, a weapon training feature, and two or three additional traits. Given the story of the eladrin and their magical nature, an increase to an eladrin character's Intelligence is appropriate. There's no need to alter the basic weapon training shared by high elves and wood elves.
 
-An ability that sets the eladrin apart from other elves is their ability to step through the boundary between the planes, disappearing for a moment before reappearing somewhere else. In the game, this is reflected in a limited use of the misty step spell. Since misty step is a 2nd-level spell, this ability is potent enough that the subrace doesn't need additional traits. This leaves us with the following [features for the eladrin subrace](elf-eladrin-dmg.md).
+An ability that sets the eladrin apart from other elves is their ability to step through the boundary between the planes, disappearing for a moment before reappearing somewhere else. In the game, this is reflected in a limited use of the misty step spell. Since misty step is a 2nd-level spell, this ability is potent enough that the subrace doesn't need additional traits. This leaves us with the following [features for the eladrin subrace](03.PlayerLog&Handouts/Mechanics/CLI/races/elf-eladrin-dmg.md).
 
 #### Creating a New Race
 
@@ -942,7 +943,7 @@ Like tieflings, aasimar have darkvision. Instead of resistance to fire damage, w
 
 The tiefling's Infernal Legacy trait is a good model for a similar trait to reflect a magical, celestial heritage, replacing the tiefling's spells with spells of similar levels that more closely match the aasimar's celestial ancestry. However, the aasimar's expanded resistance might require limiting this trait to basic utility spells.
 
-Filling in the remaining details, we end up with the following [racial traits for the aasimar](aasimar-dmg.md).
+Filling in the remaining details, we end up with the following [racial traits for the aasimar](03.PlayerLog&Handouts/Mechanics/CLI/races/aasimar-dmg.md).
 
 ### Modifying a Class
 
@@ -1009,13 +1010,13 @@ Spells of 6th level and higher are particularly taxing to cast. You can use spel
 
 The number of spell points you have to spend is based on your level as a spellcaster, as shown in the Spell Points by Level table. Your level also determines the maximum-level spell slot you can create. Even though you might have enough points to create a slot above this maximum, you can't do so.
 
-The Spell Points by Level table applies to [bards](bard.md), [clerics](cleric.md), [druids](03.PlayerLog&Handouts/Mechanics/CLI/classes/druid.md), [sorcerers](sorcerer.md), and [wizards](wizard.md). For a [paladin](paladin.md) or [ranger](03.PlayerLog&Handouts/Mechanics/CLI/classes/ranger.md), halve the character's level in that class and then consult the table. For a [fighter (Eldritch Knight)](fighter-eldritch-knight.md) or [rogue (Arcane Trickster)](rogue-arcane-trickster.md), divide the character's level in that class by three.
+The Spell Points by Level table applies to [bards](03.PlayerLog&Handouts/Mechanics/CLI/classes/bard.md), [clerics](03.PlayerLog&Handouts/Mechanics/CLI/classes/cleric.md), [druids](03.PlayerLog&Handouts/Mechanics/CLI/classes/druid.md), [sorcerers](03.PlayerLog&Handouts/Mechanics/CLI/classes/sorcerer.md), and [wizards](03.PlayerLog&Handouts/Mechanics/CLI/classes/wizard.md). For a [paladin](03.PlayerLog&Handouts/Mechanics/CLI/classes/paladin.md) or [ranger](03.PlayerLog&Handouts/Mechanics/CLI/classes/ranger.md), halve the character's level in that class and then consult the table. For a [fighter (Eldritch Knight)](03.PlayerLog&Handouts/Mechanics/CLI/classes/fighter.md) or [rogue (Arcane Trickster)](03.PlayerLog&Handouts/Mechanics/CLI/classes/rogue.md), divide the character's level in that class by three.
 
 This system can be applied to monsters that cast spells using spell slots, but it isn't recommended that you do so. Tracking spell point expenditures for a monster can be a hassle.
 
-![Variant: Spell Points; Spell Point Cost](variant-spell-points-spell-point-cost.md)
+![Variant: Spell Points; Spell Point Cost](03.PlayerLog&Handouts/Mechanics/CLI/tables/variant-spell-points-spell-point-cost.md)
 
-![Variant: Spell Points; Spell Points by Level](variant-spell-points-spell-points-by-level.md)
+![Variant: Spell Points; Spell Points by Level](03.PlayerLog&Handouts/Mechanics/CLI/tables/variant-spell-points-spell-points-by-level.md)
 
 ### Creating a Background
 

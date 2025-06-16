@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/screen
-aliases: ["DM Screen; Light"]
+aliases:
+- DM Screen; Light
 ---
 # DM Screen; Light
 *Source: Dungeon Master's Screen* 
@@ -12,10 +13,10 @@ aliases: ["DM Screen; Light"]
 
 | Source | Bright Light | Dim Light | Duration |
 |--------|--------------|-----------|----------|
-| [Candle](candle.md) | 5 ft. | + 5 ft. | 1 hour |
-| [Lamp](lamp.md) | 15 ft. | + 30 ft. | 6 hours |
-| [Lantern, bullseye](bullseye-lantern.md) | 60 ft. cone | + 60 ft. | 6 hours |
-| [Lantern, hooded](hooded-lantern.md) | 30 ft. | + 30 ft. | 6 hours |
-| Lowered hood | — | + 5 ft. | — |
-| [Torch](torch.md) | 20 ft. | + 20 ft. | 1 hour |
+| [Candle](03.PlayerLog&Handouts/Mechanics/CLI/items/candle.md) | 5 ft. | + 5 ft. | 1 hour |
+| [Lamp](03.PlayerLog&Handouts/Mechanics/CLI/items/lamp.md) | 15 ft. | + 30 ft. | 6 hours |
+| [Lantern, bullseye](03.PlayerLog&Handouts/Mechanics/CLI/items/bullseye-lantern.md) | 60 ft. cone | + 60 ft. | 6 hours |
+| [Lantern, hooded](03.PlayerLog&Handouts/Mechanics/CLI/items/hooded-lantern.md) | 30 ft. | + 30 ft. | 6 hours |
+| &emsp;Lowered hood | — | + 5 ft. | — |
+| [Torch](03.PlayerLog&Handouts/Mechanics/CLI/items/torch.md) | 20 ft. | + 20 ft. | 1 hour |
 ^light

@@ -15,7 +15,7 @@ aliases:
 
 - **Damage**: 1d6 slashing
 - **Range**: 20/60
-- **Properties**: [Light](item-properties.md#Light), [Thrown](item-properties.md#Thrown)
+- **Properties**: [Light](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Light), [Thrown](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Thrown)
 - **Cost**: 5 gp
 - **Weight**: 2.0 lbs.
 

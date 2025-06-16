@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
-aliases: ["Gith Names – Githzerai, Female"]
+aliases:
+- Gith Names – Githzerai, Female
 ---
 # Gith Names – Githzerai, Female
 *Source: Mordenkainen's Tome of Foes p. 97* 

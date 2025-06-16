@@ -16,7 +16,8 @@ classes:
 - Cleric (Arcana Domain)
 - Sorcerer (Divine Soul)
 - Wizard
-aliases: ["Antimagic Field"]
+aliases:
+- Antimagic Field
 ---
 # Antimagic Field
 *8th-level, Abjuration*  
@@ -33,11 +34,11 @@ Spells and other magical effects, except those created by an artifact or a deity
 
 ## Targeted Effects
 
-Spells and other magical effects, such as [magic missile](magic-missile.md) and [charm person](charm-person.md), that target a creature or an object in the sphere have no effect on that target.
+Spells and other magical effects, such as [magic missile](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-missile.md) and [charm person](03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md), that target a creature or an object in the sphere have no effect on that target.
 
 ## Areas of Magic
 
-The area of another spell or magical effect, such as [fireball](fireball.md), can't extend into the sphere. If the sphere overlaps an area of magic, the part of the area that is covered by the sphere is suppressed. For example, the flames created by a wall of fire are suppressed within the sphere, creating a gap in the wall if the overlap is large enough.
+The area of another spell or magical effect, such as [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md), can't extend into the sphere. If the sphere overlaps an area of magic, the part of the area that is covered by the sphere is suppressed. For example, the flames created by a wall of fire are suppressed within the sphere, creating a gap in the wall if the overlap is large enough.
 
 ## Spells
 
@@ -59,10 +60,10 @@ A creature or object summoned or created by magic temporarily winks out of exist
 
 ## Dispel Magic
 
-Spells and magical effects such as [dispel magic](dispel-magic.md) have no effect on the sphere. Likewise, the spheres created by different [antimagic field](antimagic-field.md) spells don't nullify each other.
+Spells and magical effects such as [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md) have no effect on the sphere. Likewise, the spheres created by different [antimagic field](03.PlayerLog&Handouts/Mechanics/CLI/spells/antimagic-field.md) spells don't nullify each other.
 
 ## Summary
 
-**Classes**: [Cleric](list-spells-classes-cleric.md); [Bard](list-spells-classes-bard.md); [Wizard](list-spells-classes-wizard.md); [Cleric (Arcana Domain)](list-spells-classes-cleric-arcana-domain-scag.md "subclass=SCAG"); [Sorcerer (Divine Soul)](list-spells-classes-sorcerer-divine-soul-xge.md "subclass=XGE")
+**Classes**: [Cleric (Arcana Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcana-domain-scag.md "subclass=SCAG"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md)
 
 *Source: Player's Handbook p. 213. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*

@@ -13,10 +13,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/humanoid/any-race
 statblock: inline
-aliases: ["Bandit"]
+statblock-link: "#^statblock"
+aliases:
+- Bandit
 ---
-# [Bandit](03 - Player Log & Handouts\Mechanics\CLI\bestiary\humanoid/bandit.md)
-*Source: Monster Manual p. 343, Baldur's Gate: Descent Into Avernus, Spelljammer Academy, Light of Xaryxis, Sigil and the Outlands. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Bandit](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/bandit.md)
+*Source: Monster Manual p. 343, Princes of the Apocalypse, Storm King's Thunder, Tomb of Annihilation, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Divine Contention, Dragon of Icespire Peak, Storm Lord's Wrath, Baldur's Gate: Descent Into Avernus, Eberron: Rising from the Last War, Explorer's Guide to Wildemount, Icewind Dale: Rime of the Frostmaiden, Candlekeep Mysteries, Curse of Strahd, Journeys through the Radiant Citadel, Light of Xaryxis, Dragonlance: Shadow of the Dragon Queen, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 Bandits rove in gangs and are sometimes led by thugs, veterans, or spellcasters. Not all bandits are evil. Oppression, drought, disease, or famine can often drive otherwise honest folk to a life of banditry.
 
@@ -29,34 +31,50 @@ Pirates are bandits of the high seas. They might be freebooters interested only 
 "subtype": "any race"
 "alignment": "Any Non-Lawful alignment"
 "ac": !!int "12"
-"ac_class": "[leather armor](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/items/leather-armor.md)"
+"ac_class": "[leather armor](03.PlayerLog&Handouts/Mechanics/CLI/items/leather-armor.md)"
 "hp": !!int "11"
 "hit_dice": "2d8 + 2"
+"modifier": !!int "1"
 "stats":
-- !!int "11"
-- !!int "12"
-- !!int "12"
-- !!int "10"
-- !!int "10"
-- !!int "10"
+  - !!int "11"
+  - !!int "12"
+  - !!int "12"
+  - !!int "10"
+  - !!int "10"
+  - !!int "10"
 "speed": "30 ft."
 "senses": "passive Perception 10"
 "languages": "any one language (usually Common)"
 "cr": "1/8"
 "actions":
-- "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6\
-    \ + 1) slashing damage."
-  "name": "Scimitar"
-- "desc": "Ranged Weapon Attack: +3 to hit, range 80/320 ft., one target. Hit:\
-    \ 5 (1d8 + 1) piercing damage."
-  "name": "Light Crossbow"
+  - "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4\
+      \ (1d6 + 1) slashing damage."
+    "name": "Scimitar"
+  - "desc": "Ranged Weapon Attack: +3 to hit, range 80/320 ft., one target. Hit:\
+      \ 5 (1d8 + 1) piercing damage."
+    "name": "Light Crossbow"
 "source":
-- "MM"
-- "BGDIA"
-- "SjA"
-- "LoX"
-- "SatO"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/humanoid/token/bandit.webp"
+  - "MM"
+  - "PotA"
+  - "SKT"
+  - "ToA"
+  - "WDH"
+  - "WDMM"
+  - "GoS"
+  - "DC"
+  - "DIP"
+  - "SLW"
+  - "BGDIA"
+  - "ERLW"
+  - "EGW"
+  - "IDRotF"
+  - "CM"
+  - "CoS"
+  - "JttRC"
+  - "LoX"
+  - "DSotDQ"
+  - "KftGV"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/bandit.webp"
 ```
 ^statblock
 

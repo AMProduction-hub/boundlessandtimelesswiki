@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
-aliases: ["Identify Important NPCs; Adventure Allies"]
+aliases:
+- Identify Important NPCs; Adventure Allies
 ---
 # Identify Important NPCs; Adventure Allies
 *Source: Dungeon Master's Guide p. 74* 

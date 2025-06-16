@@ -10,7 +10,7 @@ aliases:
 ---
 # Broom of Flying
 *Wondrous item, major, uncommon*  
-![](broom-of-flying.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/broom-of-flying.webp#right)
 
 - **Weight**: 3.0 lbs.
 

@@ -3,10 +3,11 @@ obsidianUIMode: preview
 cssclasses: json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
-- ttrpg-cli/race/orc/dmg
-aliases: ["Orc (DMG)"]
+- ttrpg-cli/race/orc
+aliases:
+- Orc
 ---
-# Orc (DMG)
+# Orc
 *Source: Dungeon Master's Guide p. 282*  
 
 

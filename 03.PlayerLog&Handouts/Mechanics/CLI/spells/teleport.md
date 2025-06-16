@@ -14,7 +14,8 @@ classes:
 - Cleric (Arcana Domain)
 - Sorcerer
 - Wizard
-aliases: ["Teleport"]
+aliases:
+- Teleport
 ---
 # Teleport
 *7th-level, Conjuration*  
@@ -68,6 +69,6 @@ The spell's unpredictable magic results in a difficult journey. Each teleporting
 
 ## Summary
 
-**Classes**: [Bard](list-spells-classes-bard.md); [Wizard](list-spells-classes-wizard.md); [Sorcerer](list-spells-classes-sorcerer.md); [Cleric (Arcana Domain)](list-spells-classes-cleric-arcana-domain-scag.md "subclass=SCAG")
+**Classes**: [Cleric (Arcana Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcana-domain-scag.md "subclass=SCAG"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook p. 281. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*

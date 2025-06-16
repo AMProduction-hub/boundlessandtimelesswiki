@@ -4,10 +4,11 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/subclass/monk/astral-self
-aliases: ["Way of the Astral Self"]
+aliases:
+- Way of the Astral Self
 ---
 # Way of the Astral Self
-*[Monk](monk.md): Monastic Tradition*  
+*[Monk](./monk.md): Monastic Tradition*  
 *Source: Tasha's Cauldron of Everything p. 50*  
 
 > [!tldr] Class and Feature Progression
@@ -60,7 +61,7 @@ When choosing this path, consider the quirks that define your monk. Are you obse
 
 Your mastery of your ki allows you to summon a portion of your astral self. As a bonus action, you can spend 1 ki point to summon the arms of your astral self. When you do so, each creature of your choice that you can see within 10 feet of you must succeed on a Dexterity saving throw or take force damage equal to two rolls of your Martial Arts die.
 
-For 10 minutes, these spectral arms hover near your shoulders or surround your arms (your choice). You determine the arms' appearance, and they vanish early if you are [incapacitated](conditions.md#Incapacitated) or die.
+For 10 minutes, these spectral arms hover near your shoulders or surround your arms (your choice). You determine the arms' appearance, and they vanish early if you are [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated) or die.
 
 While the spectral arms are present, you gain the following benefits:
 
@@ -73,7 +74,7 @@ While the spectral arms are present, you gain the following benefits:
 
 *6th-level Way of the Astral Self feature*
 
-You can summon the visage of your astral self. As a bonus action, or as part of the bonus action you take to activate Arms of the Astral Self, you can spend 1 ki point to summon this visage for 10 minutes. It vanishes early if you are [incapacitated](conditions.md#Incapacitated) or die.
+You can summon the visage of your astral self. As a bonus action, or as part of the bonus action you take to activate Arms of the Astral Self, you can spend 1 ki point to summon this visage for 10 minutes. It vanishes early if you are [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated) or die.
 
 The spectral visage covers your face like a helmet or mask. You determine its appearance.
 
@@ -105,7 +106,7 @@ While the spectral body is present, you gain the following benefits.
 #### Deflect Energy
 _Source: Tasha's Cauldron of Everything_
 
-When you take acid, cold, fire, force, lightning, or thunder damage, you can use your reaction to deflect it. When you do so, the damage you take is reduced by `1d10` + your Wisdom modifier (minimum reduction of 1).
+When you take acid, cold, fire, force, lightning, or thunder damage, you can use your reaction to deflect it. When you do so, the damage you take is reduced by `d10` + your Wisdom modifier (minimum reduction of 1).
 
 #### Empowered Arms
 _Source: Tasha's Cauldron of Everything_
@@ -116,7 +117,7 @@ Once on each of your turns when you hit a target with the Arms of the Astral Sel
 
 *17th-level Way of the Astral Self feature*
 
-Your connection to your astral self is complete, allowing you to unleash its full potential. As a bonus action, you can spend 5 ki points to summon the arms, visage, and body of your astral self and awaken it for 10 minutes. This awakening ends early if you are [incapacitated](conditions.md#Incapacitated) or die.
+Your connection to your astral self is complete, allowing you to unleash its full potential. As a bonus action, you can spend 5 ki points to summon the arms, visage, and body of your astral self and awaken it for 10 minutes. This awakening ends early if you are [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated) or die.
 
 While your astral self is awakened, you gain the following benefits.
 

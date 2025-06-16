@@ -3,24 +3,25 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/tce
-aliases: ["Artificer Infusion"]
+aliases:
+- Artificer Infusion
 ---
 # Artificer Infusion
-*Source: Tasha's Cauldron of Everything* 
+*Source: Tasha's Cauldron of Everything, Eberron: Rising from the Last War* 
 
-- [Arcane Propulsion Armor](arcane-propulsion-armor-tce.md)
-- [Armor of Magical Strength](armor-of-magical-strength-tce.md)
-- [Boots of the Winding Path](boots-of-the-winding-path-tce.md)
-- [Enhanced Arcane Focus](enhanced-arcane-focus-tce.md)
-- [Enhanced Defense](enhanced-defense-tce.md)
-- [Enhanced Weapon](enhanced-weapon-tce.md)
-- [Helm of Awareness](helm-of-awareness-tce.md)
+- [Arcane Propulsion Armor](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/arcane-propulsion-armor-tce.md)
+- [Armor of Magical Strength](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/armor-of-magical-strength-tce.md)
+- [Boots of the Winding Path](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/boots-of-the-winding-path-tce.md)
+- [Enhanced Arcane Focus](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/enhanced-arcane-focus-tce.md)
+- [Enhanced Defense](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/enhanced-defense-tce.md)
+- [Enhanced Weapon](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/enhanced-weapon-tce.md)
+- [Helm of Awareness](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/helm-of-awareness-tce.md)
 - [Homunculus Servant](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/homunculus-servant-tce.md)
-- [Mind Sharpener](mind-sharpener-tce.md)
-- [Radiant Weapon](radiant-weapon-tce.md)
-- [Repeating Shot](repeating-shot-tce.md)
-- [Replicate Magic Item](replicate-magic-item-tce.md)
-- [Repulsion Shield](repulsion-shield-tce.md)
-- [Resistant Armor](resistant-armor-tce.md)
-- [Returning Weapon](returning-weapon-tce.md)
-- [Spell-Refueling Ring](spell-refueling-ring-tce.md)
+- [Mind Sharpener](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/mind-sharpener-tce.md)
+- [Radiant Weapon](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/radiant-weapon-tce.md)
+- [Repeating Shot](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/repeating-shot-tce.md)
+- [Replicate Magic Item](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/replicate-magic-item-tce.md)
+- [Repulsion Shield](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/repulsion-shield-tce.md)
+- [Resistant Armor](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/resistant-armor-tce.md)
+- [Returning Weapon](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/returning-weapon-tce.md)
+- [Spell-Refueling Ring](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/spell-refueling-ring-tce.md)

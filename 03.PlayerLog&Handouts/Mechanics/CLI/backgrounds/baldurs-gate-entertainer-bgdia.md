@@ -4,15 +4,16 @@ cssclasses: json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/bgdia
-aliases: ["Baldur's Gate Entertainer"]
+aliases:
+- Baldur's Gate Entertainer
 ---
 # Baldur's Gate Entertainer
 *Source: Baldur's Gate: Descent Into Avernus p. 202, Player's Handbook p. 130*  
 
 
 - **Skill Proficiencies.** [Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics), [Performance](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Performance)  
-- **Tool Proficiencies.** [Disguise kit](disguise-kit.md), one type of musical instrument  
-- **Equipment.** A musical instrument (one of your choice), the favor of an admirer (love letter, lock of hair, or trinket), [costume clothes](costume-clothes.md), and a belt [pouch](pouch.md) containing 15 gp  
+- **Tool Proficiencies.** [Disguise kit](03.PlayerLog&Handouts/Mechanics/CLI/items/disguise-kit.md), one type of musical instrument  
+- **Equipment.** A musical instrument (one of your choice), the favor of an admirer (love letter, lock of hair, or trinket), [costume clothes](03.PlayerLog&Handouts/Mechanics/CLI/items/costume-clothes.md), and a belt [pouch](03.PlayerLog&Handouts/Mechanics/CLI/items/pouch.md) containing 15 gp  
 
 From the Oasis Theater's spectacular singers and acrobats to the pantomimes and shadow puppeteers of the Wide, Baldur's Gate hosts a colorful array of performers. Good acts can always find ready audiences, and the constant flow of travelers means that both new spectators and new spectacles are always passing through.
 

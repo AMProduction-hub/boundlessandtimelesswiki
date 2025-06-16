@@ -4,10 +4,11 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 - ttrpg-cli/subclass/rogue/swashbuckler
-aliases: ["Swashbuckler"]
+aliases:
+- Swashbuckler
 ---
 # Swashbuckler
-*[Rogue](03.PlayerLog&Handouts/Mechanics/CLI/classes/rogue.md): Roguish Archetype*  
+*[Rogue](./rogue.md): Roguish Archetype*  
 *Source: Xanathar's Guide to Everything p. 48, Sword Coast Adventurer's Guide p. 135*  
 
 > [!tldr] Class and Feature Progression
@@ -42,6 +43,10 @@ aliases: ["Swashbuckler"]
 ^class-progression
 
 
+> [!quote] A quote from Xanathar  
+> 
+> What's a swashbuckler? Do you swash buckles or buckle swashes? You can't tell me you don't think that word is funny.
+
 ## Class Features
 
 ### Swashbuckler (Level 3)
@@ -66,7 +71,7 @@ At 9th level, your charm becomes extraordinarily beguiling. As an action, you ca
 
 If you succeed on the check and the creature is hostile to you, it has disadvantage on attack rolls against targets other than you and can't make opportunity attacks against targets other than you. This effect lasts for 1 minute, until one of your companions attacks the target or affects it with a spell, or until you and the target are more than 60 feet apart.
 
-If you succeed on the check and the creature isn't hostile to you, it is [charmed](conditions.md#Charmed) by you for 1 minute. While [charmed](conditions.md#Charmed), it regards you as a friendly acquaintance. This effect ends immediately if you or your companions do anything harmful to it.
+If you succeed on the check and the creature isn't hostile to you, it is [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed) by you for 1 minute. While [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), it regards you as a friendly acquaintance. This effect ends immediately if you or your companions do anything harmful to it.
 
 ### Elegant Maneuver (Level 13)
 

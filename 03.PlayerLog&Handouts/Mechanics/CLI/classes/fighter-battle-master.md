@@ -4,10 +4,11 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/subclass/fighter/battle-master
-aliases: ["Battle Master"]
+aliases:
+- Battle Master
 ---
 # Battle Master
-*[Fighter](03.PlayerLog&Handouts/Mechanics/CLI/classes/fighter.md): Martial Archetype*  
+*[Fighter](./fighter.md): Martial Archetype*  
 *Source: Player's Handbook p. 73*  
 
 > [!tldr] Class and Feature Progression
@@ -72,35 +73,35 @@ You gain another superiority die at 7th level and one more at 15th level.
 
 Some of your maneuvers require your target to make a saving throw to resist the maneuver's effects. The saving throw DC is calculated as follows:
 
-<span class='abilityDc'>**Spell save DC**: 8 + your proficiency bonus + your Strength or Dexterity modifier</span>
+<span class='abilityDc'>**Maneuver save DC**: your proficiency bonus + your Strength or Dexterity</span>
 
 ### Maneuvers (Level 3)
 
 The maneuvers are presented in alphabetical order.
 
-- [Commander's Strike](commanders-strike.md)  
-- [Disarming Attack](disarming-attack.md)  
-- [Distracting Strike](distracting-strike.md)  
-- [Evasive Footwork](evasive-footwork.md)  
-- [Feinting Attack](feinting-attack.md)  
-- [Goading Attack](goading-attack.md)  
-- [Lunging Attack](lunging-attack.md)  
-- [Maneuvering Attack](maneuvering-attack.md)  
-- [Menacing Attack](menacing-attack.md)  
-- [Parry](parry.md)  
-- [Precision Attack](precision-attack.md)  
-- [Pushing Attack](pushing-attack.md)  
-- [Rally](rally.md)  
-- [Riposte](riposte.md)  
-- [Sweeping Attack](sweeping-attack.md)  
-- [Trip Attack](trip-attack.md)  
+- [Commander's Strike](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/commanders-strike.md)  
+- [Disarming Attack](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/disarming-attack.md)  
+- [Distracting Strike](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/distracting-strike.md)  
+- [Evasive Footwork](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/evasive-footwork.md)  
+- [Feinting Attack](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/feinting-attack.md)  
+- [Goading Attack](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/goading-attack.md)  
+- [Lunging Attack](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/lunging-attack.md)  
+- [Maneuvering Attack](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/maneuvering-attack.md)  
+- [Menacing Attack](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/menacing-attack.md)  
+- [Parry](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/parry.md)  
+- [Precision Attack](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/precision-attack.md)  
+- [Pushing Attack](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/pushing-attack.md)  
+- [Rally](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/rally.md)  
+- [Riposte](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/riposte.md)  
+- [Sweeping Attack](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/sweeping-attack.md)  
+- [Trip Attack](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/trip-attack.md)  
 
 ### Maneuver Options (Level 3)
 _Source: Tasha's Cauldron of Everything p. 41_
 
-*3rd-level fighter [optional feature](optional-class-features-tce.md)*
+*3rd-level fighter [optional feature](03.PlayerLog&Handouts/Mechanics/CLI/rules/variant-rules/optional-class-features-tce.md)*
 
-If you have access to maneuvers, the following maneuvers are added to the list of options available to you. Maneuvers are available to Battle Masters but also to characters who have a special feature like the [Superior Technique](superior-technique-tce.md) fighting style or the [Martial Adept](martial-adept.md) feat.
+If you have access to maneuvers, the following maneuvers are added to the list of options available to you. Maneuvers are available to Battle Masters but also to characters who have a special feature like the [Superior Technique](03.PlayerLog&Handouts/Mechanics/CLI/optional-features/superior-technique-tce.md) fighting style or the [Martial Adept](03.PlayerLog&Handouts/Mechanics/CLI/feats/martial-adept.md) feat.
 
 ### Additional Maneuvers (Level 7)
 
@@ -149,5 +150,5 @@ At 18th level, your superiority dice turn into `d12`s.
 ## Optional Features
 
 > [!example]- Optional Features: Maneuver, Battle Master
-> ![Maneuver, Battle Master](list-optfeaturetype-mv-b.md#Maneuver,%20Battle%20Master)
+> ![Maneuver, Battle Master](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-optfeaturetype-mv-b.md#Maneuver,%20Battle%20Master)
 ^list-optfeature-mv-b

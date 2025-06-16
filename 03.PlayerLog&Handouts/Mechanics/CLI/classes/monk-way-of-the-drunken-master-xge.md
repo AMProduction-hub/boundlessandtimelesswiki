@@ -4,10 +4,11 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 - ttrpg-cli/subclass/monk/drunken-master
-aliases: ["Way of the Drunken Master"]
+aliases:
+- Way of the Drunken Master
 ---
 # Way of the Drunken Master
-*[Monk](monk.md): Monastic Tradition*  
+*[Monk](./monk.md): Monastic Tradition*  
 *Source: Xanathar's Guide to Everything p. 33*  
 
 > [!tldr] Class and Feature Progression
@@ -52,11 +53,11 @@ A drunken master often enjoys playing the fool to bring gladness to the desponde
 
 ### Bonus Proficiencies (Level 3)
 
-When you choose this tradition at 3rd level, you gain proficiency in the [Performance](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Performance) skill if you don't already have it. Your martial arts technique mixes combat training with the precision of a dancer and the antics of a jester. You also gain proficiency with [brewer's supplies](brewers-supplies.md) if you don't already have it.
+When you choose this tradition at 3rd level, you gain proficiency in the [Performance](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Performance) skill if you don't already have it. Your martial arts technique mixes combat training with the precision of a dancer and the antics of a jester. You also gain proficiency with [brewer's supplies](03.PlayerLog&Handouts/Mechanics/CLI/items/brewers-supplies.md) if you don't already have it.
 
 ### Drunken Technique (Level 3)
 
-At 3rd level, you learn how to twist and turn quickly as part of your Flurry of Blows. Whenever you use Flurry of Blows, you gain the benefit of the [Disengage](actions.md#Disengage) action, and your walking speed increases by 10 feet until the end of the current turn.
+At 3rd level, you learn how to twist and turn quickly as part of your Flurry of Blows. Whenever you use Flurry of Blows, you gain the benefit of the [Disengage](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Disengage) action, and your walking speed increases by 10 feet until the end of the current turn.
 
 ### Tipsy Sway (Level 6)
 
@@ -64,7 +65,7 @@ Starting at 6th level, you can move in sudden, swaying ways. You gain the follow
 
 - **Leap to Your Feet**  
 
-    When you're [prone](conditions.md#Prone), you can stand up by spending 5 feet of movement, rather than half your speed.  
+    When you're [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone), you can stand up by spending 5 feet of movement, rather than half your speed.  
 
 - **Redirect Attack**  
 

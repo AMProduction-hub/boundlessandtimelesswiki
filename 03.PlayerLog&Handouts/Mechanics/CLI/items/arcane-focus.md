@@ -15,10 +15,10 @@ aliases:
 
 **Items in this group:**
 
-- [Crystal](crystal.md)
-- [Orb](orb.md)
-- [Rod](rod.md)
-- [Staff](staff.md)
-- [Wand](wand.md)
+- [Crystal](03.PlayerLog&Handouts/Mechanics/CLI/items/crystal.md)
+- [Orb](03.PlayerLog&Handouts/Mechanics/CLI/items/orb.md)
+- [Rod](03.PlayerLog&Handouts/Mechanics/CLI/items/rod.md)
+- [Staff](03.PlayerLog&Handouts/Mechanics/CLI/items/staff.md)
+- [Wand](03.PlayerLog&Handouts/Mechanics/CLI/items/wand.md)
 
 *Source: Player's Handbook p. 151*

@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
-aliases: ["Githzerai Groups; Githzerai Mission Purpose"]
+aliases:
+- Githzerai Groups; Githzerai Mission Purpose
 ---
 # Githzerai Groups; Githzerai Mission Purpose
 *Source: Mordenkainen's Tome of Foes p. 98* 

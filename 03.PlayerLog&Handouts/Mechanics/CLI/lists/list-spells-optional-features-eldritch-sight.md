@@ -3,10 +3,11 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/spell/list/optfeature/eldritch-sight
-aliases: ["Spells for Eldritch Sight"]
+aliases:
+- Spells for Eldritch Sight
 ---
 # Spells for Eldritch Sight
 
 ## 1st Level
 
-- [Detect Magic](detect-magic.md "PHB")
+- [Detect Magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md "PHB")

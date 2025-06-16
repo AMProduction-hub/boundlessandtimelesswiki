@@ -8,12 +8,14 @@ tags:
 - ttrpg-cli/monster/size/small
 - ttrpg-cli/monster/type/beast
 statblock: inline
-aliases: ["Giant Fire Beetle"]
+statblock-link: "#^statblock"
+aliases:
+- Giant Fire Beetle
 ---
-# [Giant Fire Beetle](03 - Player Log & Handouts\Mechanics\CLI\bestiary\beast/giant-fire-beetle.md)
-*Source: Monster Manual p. 325. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Giant Fire Beetle](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/giant-fire-beetle.md)
+*Source: Monster Manual p. 325, Tales from the Yawning Portal, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
-A giant fire beetle is a nocturnal creature that takes its name from a pair of glowing glands that give off light. Miners and adventurers prize these creatures, for a giant fire beetle's glands continue to shed light for `1d6` days after the beetle dies. Giant fire beetles are most commonly found underground and in dark forests.
+A giant fire beetle is a nocturnal creature that takes its name from a pair of glowing glands that give off light. Miners and adventurers prize these creatures, for a giant fire beetle's glands continue to shed light for `d6` days after the beetle dies. Giant fire beetles are most commonly found underground and in dark forests.
 
 ```statblock
 "name": "Giant Fire Beetle"
@@ -24,28 +26,32 @@ A giant fire beetle is a nocturnal creature that takes its name from a pair of g
 "ac_class": "natural armor"
 "hp": !!int "4"
 "hit_dice": "1d6 + 1"
+"modifier": !!int "0"
 "stats":
-- !!int "8"
-- !!int "10"
-- !!int "12"
-- !!int "1"
-- !!int "7"
-- !!int "3"
+  - !!int "8"
+  - !!int "10"
+  - !!int "12"
+  - !!int "1"
+  - !!int "7"
+  - !!int "3"
 "speed": "30 ft."
 "senses": "blindsight 30 ft., passive Perception 8"
 "languages": ""
 "cr": "0"
 "traits":
-- "desc": "The beetle sheds bright light in a 10-foot radius and dim light for an\
-    \ additional 10 ft.."
-  "name": "Illumination"
+  - "desc": "The beetle sheds bright light in a 10-foot radius and dim light for an\
+      \ additional 10 ft.."
+    "name": "Illumination"
 "actions":
-- "desc": "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 2 (1d6\
-    \ - 1) slashing damage."
-  "name": "Bite"
+  - "desc": "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 2\
+      \ (1d6 - 1) slashing damage."
+    "name": "Bite"
 "source":
-- "MM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/beast/token/giant-fire-beetle.webp"
+  - "MM"
+  - "TftYP"
+  - "WDH"
+  - "WDMM"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/giant-fire-beetle.webp"
 ```
 ^statblock
 

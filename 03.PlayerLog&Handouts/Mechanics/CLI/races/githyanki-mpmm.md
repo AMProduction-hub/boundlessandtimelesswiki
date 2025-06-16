@@ -4,7 +4,8 @@ cssclasses: json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/mpmm
 - ttrpg-cli/race/githyanki
-aliases: ["Githyanki"]
+aliases:
+- Githyanki
 ---
 # Githyanki
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 18*  
@@ -23,9 +24,9 @@ You can mystically access a reservoir of experiences of entities connected to th
 
 ### Githyanki Psionics
 
-You know the [mage hand](mage-hand.md) cantrip, and the hand is [invisible](conditions.md#Invisible) when you cast the cantrip with this trait.
+You know the [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md) cantrip, and the hand is [invisible](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Invisible) when you cast the cantrip with this trait.
 
-Starting at 3rd level, you can cast the [jump](jump.md) spell with this trait. Starting at 5th level, you can also cast [misty step](misty-step.md) with it. Once you cast [jump](jump.md) or [misty step](misty-step.md) with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.
+Starting at 3rd level, you can cast the [jump](03.PlayerLog&Handouts/Mechanics/CLI/spells/jump.md) spell with this trait. Starting at 5th level, you can also cast [misty step](03.PlayerLog&Handouts/Mechanics/CLI/spells/misty-step.md) with it. Once you cast [jump](03.PlayerLog&Handouts/Mechanics/CLI/spells/jump.md) or [misty step](03.PlayerLog&Handouts/Mechanics/CLI/spells/misty-step.md) with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.
 
 Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race). None of these spells require spell components when you cast them with this trait.
 

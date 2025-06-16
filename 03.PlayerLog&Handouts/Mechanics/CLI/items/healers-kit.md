@@ -10,7 +10,7 @@ aliases:
 ---
 # Healer's Kit
 *Adventuring gear*  
-![](healers-kit.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/healers-kit.webp#right)
 
 - **Cost**: 5 gp
 - **Weight**: 3.0 lbs.

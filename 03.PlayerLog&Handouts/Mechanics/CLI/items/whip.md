@@ -14,7 +14,7 @@ aliases:
 
 
 - **Damage**: 1d4 slashing
-- **Properties**: [Finesse](item-properties.md#Finesse), [Reach](item-properties.md#Reach)
+- **Properties**: [Finesse](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Finesse), [Reach](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Reach)
 - **Cost**: 2 gp
 - **Weight**: 3.0 lbs.
 

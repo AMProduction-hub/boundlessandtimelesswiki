@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
-aliases: ["Magic Item Table B"]
+aliases:
+- Magic Item Table B
 ---
 # Magic Item Table B
 *Source: Dungeon Master's Guide p. 144* 
@@ -14,39 +15,39 @@ aliases: ["Magic Item Table B"]
 
 | dice: d100 | Magic Item |
 |------------|------------|
-| 01-15 | [Potion of greater healing](potion-of-greater-healing.md) |
-| 16-22 | [Potion of fire breath](potion-of-fire-breath.md) |
-| 23-29 | [Potion of resistance](potion-of-resistance.md) |
-| 30-34 | [+1 ammunition](1-ammunition.md) |
-| 35-39 | [Potion of animal friendship](potion-of-animal-friendship.md) |
-| 40-44 | [Potion of hill giant strength](potion-of-hill-giant-strength.md) |
-| 45-49 | [Potion of growth](potion-of-growth.md) |
-| 50-54 | [Potion of water breathing](potion-of-water-breathing.md) |
-| 55-59 | [Spell scroll (2nd level)](spell-scroll-2nd-level.md) |
-| 60-64 | [Spell scroll (3rd level)](spell-scroll-3rd-level.md) |
-| 65-67 | [Bag of holding](bag-of-holding.md) |
-| 68-70 | [Keoghtom's ointment](keoghtoms-ointment.md) |
-| 71-73 | [Oil of slipperiness](oil-of-slipperiness.md) |
-| 74-75 | [Dust of disappearance](dust-of-disappearance.md) |
-| 76-77 | [Dust of dryness](dust-of-dryness.md) |
-| 78-79 | [Dust of sneezing and choking](dust-of-sneezing-and-choking.md) |
-| 80-81 | [Elemental gem](elemental-gem.md) |
-| 82-83 | [Philter of love](philter-of-love.md) |
-| 84 | [Alchemy jug](alchemy-jug.md) |
-| 85 | [Cap of water breathing](cap-of-water-breathing.md) |
-| 86 | [Cloak of the manta ray](cloak-of-the-manta-ray.md) |
-| 87 | [Driftglobe](driftglobe.md) |
-| 88 | [Goggles of night](goggles-of-night.md) |
-| 89 | [Helm of comprehending languages](helm-of-comprehending-languages.md) |
-| 90 | [Immovable rod](immovable-rod.md) |
-| 91 | [Lantern of revealing](lantern-of-revealing.md) |
-| 92 | [Mariner's armor](mariners-armor.md) |
-| 93 | [Mithral armor](mithral-armor.md) |
-| 94 | [Potion of poison](potion-of-poison.md) |
-| 95 | [Ring of swimming](ring-of-swimming.md) |
-| 96 | [Robe of useful items](robe-of-useful-items.md) |
-| 97 | [Rope of climbing](rope-of-climbing.md) |
-| 98 | [Saddle of the cavalier](saddle-of-the-cavalier.md) |
-| 99 | [Wand of magic detection](wand-of-magic-detection.md) |
-| 00 | [Wand of secrets](wand-of-secrets.md) |
+| 01-15 | [Potion of greater healing](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-greater-healing.md) |
+| 16-22 | [Potion of fire breath](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-fire-breath.md) |
+| 23-29 | [Potion of resistance](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-resistance.md) |
+| 30-34 | [+1 ammunition](03.PlayerLog&Handouts/Mechanics/CLI/items/1-ammunition.md) |
+| 35-39 | [Potion of animal friendship](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-animal-friendship.md) |
+| 40-44 | [Potion of hill giant strength](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-hill-giant-strength.md) |
+| 45-49 | [Potion of growth](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-growth.md) |
+| 50-54 | [Potion of water breathing](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-water-breathing.md) |
+| 55-59 | [Spell scroll (2nd level)](03.PlayerLog&Handouts/Mechanics/CLI/items/spell-scroll-2nd-level.md) |
+| 60-64 | [Spell scroll (3rd level)](03.PlayerLog&Handouts/Mechanics/CLI/items/spell-scroll-3rd-level.md) |
+| 65-67 | [Bag of holding](03.PlayerLog&Handouts/Mechanics/CLI/items/bag-of-holding.md) |
+| 68-70 | [Keoghtom's ointment](03.PlayerLog&Handouts/Mechanics/CLI/items/keoghtoms-ointment.md) |
+| 71-73 | [Oil of slipperiness](03.PlayerLog&Handouts/Mechanics/CLI/items/oil-of-slipperiness.md) |
+| 74-75 | [Dust of disappearance](03.PlayerLog&Handouts/Mechanics/CLI/items/dust-of-disappearance.md) |
+| 76-77 | [Dust of dryness](03.PlayerLog&Handouts/Mechanics/CLI/items/dust-of-dryness.md) |
+| 78-79 | [Dust of sneezing and choking](03.PlayerLog&Handouts/Mechanics/CLI/items/dust-of-sneezing-and-choking.md) |
+| 80-81 | [Elemental gem](03.PlayerLog&Handouts/Mechanics/CLI/items/elemental-gem.md) |
+| 82-83 | [Philter of love](03.PlayerLog&Handouts/Mechanics/CLI/items/philter-of-love.md) |
+| 84 | [Alchemy jug](03.PlayerLog&Handouts/Mechanics/CLI/items/alchemy-jug.md) |
+| 85 | [Cap of water breathing](03.PlayerLog&Handouts/Mechanics/CLI/items/cap-of-water-breathing.md) |
+| 86 | [Cloak of the manta ray](03.PlayerLog&Handouts/Mechanics/CLI/items/cloak-of-the-manta-ray.md) |
+| 87 | [Driftglobe](03.PlayerLog&Handouts/Mechanics/CLI/items/driftglobe.md) |
+| 88 | [Goggles of night](03.PlayerLog&Handouts/Mechanics/CLI/items/goggles-of-night.md) |
+| 89 | [Helm of comprehending languages](03.PlayerLog&Handouts/Mechanics/CLI/items/helm-of-comprehending-languages.md) |
+| 90 | [Immovable rod](03.PlayerLog&Handouts/Mechanics/CLI/items/immovable-rod.md) |
+| 91 | [Lantern of revealing](03.PlayerLog&Handouts/Mechanics/CLI/items/lantern-of-revealing.md) |
+| 92 | [Mariner's armor](03.PlayerLog&Handouts/Mechanics/CLI/items/mariners-armor.md) |
+| 93 | [Mithral armor](03.PlayerLog&Handouts/Mechanics/CLI/items/mithral-armor.md) |
+| 94 | [Potion of poison](03.PlayerLog&Handouts/Mechanics/CLI/items/potion-of-poison.md) |
+| 95 | [Ring of swimming](03.PlayerLog&Handouts/Mechanics/CLI/items/ring-of-swimming.md) |
+| 96 | [Robe of useful items](03.PlayerLog&Handouts/Mechanics/CLI/items/robe-of-useful-items.md) |
+| 97 | [Rope of climbing](03.PlayerLog&Handouts/Mechanics/CLI/items/rope-of-climbing.md) |
+| 98 | [Saddle of the cavalier](03.PlayerLog&Handouts/Mechanics/CLI/items/saddle-of-the-cavalier.md) |
+| 99 | [Wand of magic detection](03.PlayerLog&Handouts/Mechanics/CLI/items/wand-of-magic-detection.md) |
+| 00 | [Wand of secrets](03.PlayerLog&Handouts/Mechanics/CLI/items/wand-of-secrets.md) |
 ^magic-item-table-b

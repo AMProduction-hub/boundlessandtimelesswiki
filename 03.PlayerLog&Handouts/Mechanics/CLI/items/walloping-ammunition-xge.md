@@ -26,7 +26,7 @@ aliases:
 
 
 
- This ammunition packs a wallop. A creature hit by the ammunition must succeed on a DC 10 Strength saving throw or be knocked [prone](conditions.md#Prone).
+This ammunition packs a wallop. A creature hit by the ammunition must succeed on a DC 10 Strength saving throw or be knocked [prone](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Prone).
 
 **Variants**:
 - [Walloping Arrow](#Walloping%20Arrow)

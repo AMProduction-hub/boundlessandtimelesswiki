@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
-aliases: ["Dungeon Chamber Contents"]
+aliases:
+- Dungeon Chamber Contents
 ---
 # Dungeon Chamber Contents
 *Source: Dungeon Master's Guide p. 296* 

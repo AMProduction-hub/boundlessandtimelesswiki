@@ -10,7 +10,7 @@ aliases:
 ---
 # Thieves' Tools
 *Tool*  
-![](thieves-tools.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/thieves-tools.webp#right)
 
 - **Cost**: 25 gp
 - **Weight**: 1.0 lbs.

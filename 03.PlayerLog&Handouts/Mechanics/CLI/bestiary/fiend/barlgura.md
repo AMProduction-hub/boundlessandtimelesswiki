@@ -7,10 +7,12 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/fiend/demon
 statblock: inline
-aliases: ["Barlgura"]
+statblock-link: "#^statblock"
+aliases:
+- Barlgura
 ---
-# [Barlgura](03 - Player Log & Handouts\Mechanics\CLI\bestiary\fiend/barlgura.md)
-*Source: Monster Manual p. 56, Baldur's Gate: Descent Into Avernus, Sigil and the Outlands*  
+# [Barlgura](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/barlgura.md)
+*Source: Monster Manual p. 56, Princes of the Apocalypse, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Baldur's Gate: Descent Into Avernus, Infernal Machine Rebuild, Keys from the Golden Vault*  
 
 The barlgura represents the savagery and brutality of the Abyss. Barlguras gather in packs to take down tougher foes, keep gruesome trophies from their victories, and decorate their territory with such objects.
 
@@ -156,7 +158,7 @@ Demonologists organize the chaotic distribution of demons into broad categories 
 
 > [!note] Demon True Names
 > 
-> Though demons all have common names, every demon lord and every demon of type 1 through 6 has a true name that it keeps secret. A demon can be forced to disclose its true name if [charmed](conditions.md#Charmed), and ancient scrolls and tomes are said to exist that list the true names of the most powerful demons.
+> Though demons all have common names, every demon lord and every demon of type 1 through 6 has a true name that it keeps secret. A demon can be forced to disclose its true name if [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), and ancient scrolls and tomes are said to exist that list the true names of the most powerful demons.
 > 
 > A mortal who learns a demon's true name can use powerful summoning magic to call the demon from the Abyss and exercise some measure of control over it. However, most demons brought to the Material Plane in this manner do everything in their power to wreak havoc or sow discord and strife.
 ^demon-true-names
@@ -165,13 +167,13 @@ Demonologists organize the chaotic distribution of demons into broad categories 
 > 
 > Some demons can have an action option that allows them to summon other demons. Summon Demon (1/Day). The demon chooses what to summon and attempts a magical summoning.
 > 
-> - A balor has a 50 percent chance of summoning `1d8` vrocks, `1d6` hezrous, `1d4` glabrezus, `1d3` nalfeshnees, `1d2` mariliths, or one goristro.  
+> - A balor has a 50 percent chance of summoning `d8` vrocks, `d6` hezrous, `d4` glabrezus, `d3` nalfeshnees, `d2` mariliths, or one goristro.  
 > - A barlgura has a 30 percent chance of summoning one barlgura.  
 > - A chasme has a 30 percent chance of summoning one chasme.  
-> - A glabrezu has a 30 percent chance of summoning `1d3` vrocks, `1d2` hezrous, or one glabrezu.  
+> - A glabrezu has a 30 percent chance of summoning `d3` vrocks, `d2` hezrous, or one glabrezu.  
 > - A hezrou has a 30 percent chance of summoning `2d6` dretches or one hezrou.  
-> - A marilith has a 50 percent chance of summoning `1d6` vrocks, `1d4` hezrous, `1d3` glabrezus, `1d2` nalfeshnees, or one marilith.  
-> - A nalfeshnee has a 50 percent chance of summoning `1d4` vrocks, `1d3` hezrous, `1d2` glabrezus, or one nalfeshnee.  
+> - A marilith has a 50 percent chance of summoning `d6` vrocks, `d4` hezrous, `d3` glabrezus, `d2` nalfeshnees, or one marilith.  
+> - A nalfeshnee has a 50 percent chance of summoning `d4` vrocks, `d3` hezrous, `d2` glabrezus, or one nalfeshnee.  
 > - A vrock has a 30 percent chance of summoning `2d4` dretches or one vrock.  
 > - A yochlol has a 50 percent chance of summoning one yochlol.  
 > 
@@ -193,55 +195,62 @@ Demonologists organize the chaotic distribution of demons into broad categories 
 "ac_class": "natural armor"
 "hp": !!int "68"
 "hit_dice": "8d10 + 24"
+"modifier": !!int "2"
 "stats":
-- !!int "18"
-- !!int "15"
-- !!int "16"
-- !!int "7"
-- !!int "14"
-- !!int "9"
+  - !!int "18"
+  - !!int "15"
+  - !!int "16"
+  - !!int "7"
+  - !!int "14"
+  - !!int "9"
 "speed": "40 ft., climb 40 ft."
 "saves":
-  "Dexterity": !!int "5"
-  "Constitution": !!int "6"
+  - "dexterity": "+5"
+  - "constitution": "+6"
 "skillsaves":
-  "Stealth": !!int "5"
-  "Perception": !!int "5"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+5"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+5"
 "damage_resistances": "cold, fire, lightning"
 "damage_immunities": "poison"
-"condition_immunities": "[poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 15"
 "languages": "Abyssal, telepathy 120 ft."
 "cr": "5"
 "traits":
-- "desc": "The barlgura's spellcasting ability is Wisdom (spell save DC 13). The barlgura\
-    \ can innately cast the following spells, requiring no material components:\n\n\
-    1/day each: [entangle](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/entangle.md),\
-    \ [phantasmal force](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/phantasmal-force.md)\n\
-    \n2/day each: [disguise self](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/disguise-self.md),\
-    \ [invisibility](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/invisibility.md)\
-    \ (self only)"
-  "name": "Innate Spellcasting"
-- "desc": "At the start of its turn, the barlgura can gain advantage on all melee\
-    \ weapon attack rolls it makes during that turn, but attack rolls against it have\
-    \ advantage until the start of its next turn."
-  "name": "Reckless"
-- "desc": "The barlgura's long jump is up to 40 feet and its high jump is up to 20\
-    \ feet when it has a running start."
-  "name": "Running Leap"
+  - "desc": "The barlgura's spellcasting ability is Wisdom (spell save DC 13). The\
+      \ barlgura can innately cast the following spells, requiring no material components:\n\
+      \n2/day each: [disguise self](03.PlayerLog&Handouts/Mechanics/CLI/spells/disguise-self.md),\
+      \ [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md)\
+      \ (self only)\n\n1/day each: [entangle](03.PlayerLog&Handouts/Mechanics/CLI/spells/entangle.md),\
+      \ [phantasmal force](03.PlayerLog&Handouts/Mechanics/CLI/spells/phantasmal-force.md)"
+    "name": "Innate Spellcasting"
+  - "desc": "At the start of its turn, the barlgura can gain advantage on all melee\
+      \ weapon attack rolls it makes during that turn, but attack rolls against it\
+      \ have advantage until the start of its next turn."
+    "name": "Reckless"
+  - "desc": "The barlgura's long jump is up to 40 feet and its high jump is up to\
+      \ 20 feet when it has a running start."
+    "name": "Running Leap"
 "actions":
-- "desc": "The barlgura makes three attacks: one with its bite and two with its fists."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
-    \ (2d6 + 4) piercing damage."
-  "name": "Bite"
-- "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9 (1d10\
-    \ + 4) bludgeoning damage."
-  "name": "Fist"
+  - "desc": "The barlgura makes three attacks: one with its bite and two with its\
+      \ fists."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
+      \ (2d6 + 4) piercing damage."
+    "name": "Bite"
+  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9\
+      \ (1d10 + 4) bludgeoning damage."
+    "name": "Fist"
 "source":
-- "MM"
-- "BGDIA"
-- "SatO"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/fiend/token/barlgura.webp"
+  - "MM"
+  - "PotA"
+  - "WDH"
+  - "WDMM"
+  - "BGDIA"
+  - "IMR"
+  - "KftGV"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/token/barlgura.webp"
 ```
 ^statblock

@@ -20,7 +20,8 @@ classes:
 - Sorcerer
 - Sorcerer (Divine Soul)
 - Wizard
-aliases: ["Sunburst"]
+aliases:
+- Sunburst
 ---
 # Sunburst
 *8th-level, Evocation*  
@@ -31,12 +32,12 @@ aliases: ["Sunburst"]
 - **Components:** V, S, M (fire and a piece of sunstone)
 - **Duration:** Instantaneous
 
-Brilliant sunlight flashes in a 60-foot radius centered on a point you choose within range. Each creature in that light must make a Constitution saving throw. On a failed save, a creature takes `12d6` radiant damage and is [blinded](conditions.md#Blinded) for 1 minute. On a successful save, it takes half as much damage and isn't [blinded](conditions.md#Blinded) by this spell. Undead and oozes have disadvantage on this saving throw.
+Brilliant sunlight flashes in a 60-foot radius centered on a point you choose within range. Each creature in that light must make a Constitution saving throw. On a failed save, a creature takes `12d6` radiant damage and is [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded) for 1 minute. On a successful save, it takes half as much damage and isn't [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded) by this spell. Undead and oozes have disadvantage on this saving throw.
 
-A creature [blinded](conditions.md#Blinded) by this spell makes another Constitution saving throw at the end of each of its turns. On a successful save, it is no longer [blinded](conditions.md#Blinded).
+A creature [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded) by this spell makes another Constitution saving throw at the end of each of its turns. On a successful save, it is no longer [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded).
 
 This spell dispels any darkness in its area that was created by a spell.
 
-**Classes**: [Druid](list-spells-classes-druid.md); [Cleric](list-spells-classes-cleric.md); [Bard](list-spells-classes-bard.md); [Wizard](list-spells-classes-wizard.md); [Sorcerer](list-spells-classes-sorcerer.md); [Cleric (Arcana Domain)](list-spells-classes-cleric-arcana-domain-scag.md "subclass=SCAG"); [Sorcerer (Divine Soul)](list-spells-classes-sorcerer-divine-soul-xge.md "subclass=XGE")
+**Classes**: [Cleric (Arcana Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcana-domain-scag.md "subclass=SCAG"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md)
 
 *Source: Player's Handbook p. 279. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*

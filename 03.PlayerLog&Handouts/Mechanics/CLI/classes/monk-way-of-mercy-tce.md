@@ -4,10 +4,11 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/subclass/monk/mercy
-aliases: ["Way of Mercy"]
+aliases:
+- Way of Mercy
 ---
 # Way of Mercy
-*[Monk](monk.md): Monastic Tradition*  
+*[Monk](./monk.md): Monastic Tradition*  
 *Source: Tasha's Cauldron of Everything p. 49*  
 
 > [!tldr] Class and Feature Progression
@@ -56,7 +57,7 @@ The walkers of this way usually don robes with deep cowls, and they often concea
 
 *3rd-level Way of Mercy feature*
 
-You gain proficiency in the [Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight) and [Medicine](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Medicine) skills, and you gain proficiency with the [herbalism kit](herbalism-kit.md).
+You gain proficiency in the [Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight) and [Medicine](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Medicine) skills, and you gain proficiency with the [herbalism kit](03.PlayerLog&Handouts/Mechanics/CLI/items/herbalism-kit.md).
 
 You also gain a special mask, which you often wear when using the features of this subclass. You determine its appearance, or generate it randomly by rolling on the Merciful Mask table.
 
@@ -94,9 +95,9 @@ You use your ki to inflict wounds. When you hit a creature with an unarmed strik
 
 You can administer even greater cures with a touch, and if you feel it's necessary, you can use your knowledge to cause harm.
 
-When you use Hand of Healing on a creature, you can also end one disease or one of the following conditions affecting the creature: [blinded](conditions.md#Blinded), [deafened](conditions.md#Deafened), [paralyzed](conditions.md#Paralyzed), [poisoned](conditions.md#Poisoned), or [stunned](conditions.md#Stunned).
+When you use Hand of Healing on a creature, you can also end one disease or one of the following conditions affecting the creature: [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded), [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened), [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed), [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned), or [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned).
 
-When you use Hand of Harm on a creature, you can subject that creature to the [poisoned](conditions.md#Poisoned) condition until the end of your next turn.
+When you use Hand of Harm on a creature, you can subject that creature to the [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned) condition until the end of your next turn.
 
 ### Flurry of Healing and Harm (Level 11)
 
@@ -110,6 +111,6 @@ In addition, when you make an unarmed strike with Flurry of Blows, you can use H
 
 *17th-level Way of Mercy feature*
 
-Your mastery of life energy opens the door to the ultimate mercy. As an action, you can touch the corpse of a creature that died within the past 24 hours and expend 5 ki points. The creature then returns to life, regaining a number of hit points equal to `4d10` + your Wisdom modifier. If the creature died while subject to any of the following conditions, it revives with them removed: [blinded](conditions.md#Blinded), [deafened](conditions.md#Deafened), [paralyzed](conditions.md#Paralyzed), [poisoned](conditions.md#Poisoned), and [stunned](conditions.md#Stunned).
+Your mastery of life energy opens the door to the ultimate mercy. As an action, you can touch the corpse of a creature that died within the past 24 hours and expend 5 ki points. The creature then returns to life, regaining a number of hit points equal to `4d10` + your Wisdom modifier. If the creature died while subject to any of the following conditions, it revives with them removed: [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded), [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened), [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed), [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned), and [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned).
 
 Once you use this feature, you can't use it again until you finish a long rest.

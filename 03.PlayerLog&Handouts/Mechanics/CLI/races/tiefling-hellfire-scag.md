@@ -4,11 +4,12 @@ cssclasses: json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/scag
 - ttrpg-cli/race/tiefling/hellfire
-aliases: ["Tiefling (Hellfire)"]
+aliases:
+- Tiefling (Hellfire)
 ---
 # Tiefling (Hellfire)
 *Source: Sword Coast Adventurer's Guide p. 118*  
-![](feral-tiefling.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/races/img/feral-tiefling.webp#right)
 
 - **Ability Scores**: Intelligence +1; Apply +1 to one of Dexterity or Charisma.
 - **Size**: Medium
@@ -35,7 +36,7 @@ You have resistance to fire damage.
 
 ### Hellfire
 
-You know the [thaumaturgy](thaumaturgy.md) cantrip. Once you reach 3rd level, you can cast the [burning hands](burning-hands.md) spell once per day as a 2nd-level spell; you must finish a long rest in order to cast the spell again using this trait. Once you reach 5th level, you can also cast the [darkness](darkness.md) spell; you must finish a long rest in order to cast the spell again using this trait. Charisma is your spellcasting ability for these spells.
+You know the [thaumaturgy](03.PlayerLog&Handouts/Mechanics/CLI/spells/thaumaturgy.md) cantrip. Once you reach 3rd level, you can cast the [burning hands](03.PlayerLog&Handouts/Mechanics/CLI/spells/burning-hands.md) spell once per day as a 2nd-level spell; you must finish a long rest in order to cast the spell again using this trait. Once you reach 5th level, you can also cast the [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md) spell; you must finish a long rest in order to cast the spell again using this trait. Charisma is your spellcasting ability for these spells.
 
 ### Languages
 
@@ -73,4 +74,4 @@ Tiefling names fall into three broad categories. Tieflings born into another cul
 ^mutual-mistrust
 
 
-![](tiefling.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/races/img/tiefling.webp#center)

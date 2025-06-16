@@ -8,10 +8,12 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/dragon
 statblock: inline
-aliases: ["Young Black Dragon"]
+statblock-link: "#^statblock"
+aliases:
+- Young Black Dragon
 ---
-# [Young Black Dragon](03 - Player Log & Handouts\Mechanics\CLI\bestiary\dragon/young-black-dragon.md)
-*Source: Monster Manual p. 88, Baldur's Gate: Descent Into Avernus. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Young Black Dragon](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\dragon/young-black-dragon.md)
+*Source: Monster Manual p. 88, Tales from the Yawning Portal, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 The most evil-tempered and vile of the chromatic dragons, black dragons collect the wreckage and treasures of fallen peoples. These dragons loathe seeing the weak prosper and revel in the collapse of humanoid kingdoms. They make their homes in fetid swamps and crumbling ruins where kingdoms once stood.
 
@@ -98,46 +100,51 @@ True dragons pass through four distinct stages of life, from lowly wyrmlings to 
 "ac_class": "natural armor"
 "hp": !!int "127"
 "hit_dice": "15d10 + 45"
+"modifier": !!int "2"
 "stats":
-- !!int "19"
-- !!int "14"
-- !!int "17"
-- !!int "12"
-- !!int "11"
-- !!int "15"
+  - !!int "19"
+  - !!int "14"
+  - !!int "17"
+  - !!int "12"
+  - !!int "11"
+  - !!int "15"
 "speed": "40 ft., fly 80 ft., swim 40 ft."
 "saves":
-  "Charisma": !!int "5"
-  "Dexterity": !!int "5"
-  "Wisdom": !!int "3"
-  "Constitution": !!int "6"
+  - "dexterity": "+5"
+  - "constitution": "+6"
+  - "wisdom": "+3"
+  - "charisma": "+5"
 "skillsaves":
-  "Stealth": !!int "5"
-  "Perception": !!int "6"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+6"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+5"
 "damage_immunities": "acid"
 "senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 16"
 "languages": "Common, Draconic"
 "cr": "7"
 "traits":
-- "desc": "The dragon can breathe air and water."
-  "name": "Amphibious"
+  - "desc": "The dragon can breathe air and water."
+    "name": "Amphibious"
 "actions":
-- "desc": "The dragon makes three attacks: one with its bite and two with its claws."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 15\
-    \ (2d10 + 4) piercing damage plus 4 (1d8) acid damage."
-  "name": "Bite"
-- "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
-    \ (2d6 + 4) slashing damage."
-  "name": "Claw"
-- "desc": "The dragon exhales acid in a 30-foot line that is 5 feet wide. Each creature\
-    \ in that line must make a DC 14 Dexterity saving throw, taking 49 (11d8) acid\
-    \ damage on a failed save, or half as much damage on a successful one."
-  "name": "Acid Breath (Recharge 5-6)"
+  - "desc": "The dragon makes three attacks: one with its bite and two with its claws."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit:\
+      \ 15 (2d10 + 4) piercing damage plus 4 (d8) acid damage."
+    "name": "Bite"
+  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
+      \ (2d6 + 4) slashing damage."
+    "name": "Claw"
+  - "desc": "The dragon exhales acid in a 30-foot line that is 5 feet wide. Each creature\
+      \ in that line must make a DC 14 Dexterity saving throw, taking 49 (11d8)\
+      \ acid damage on a failed save, or half as much damage on a successful one."
+    "name": "Acid Breath (Recharge 5-6)"
 "source":
-- "MM"
-- "BGDIA"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/dragon/token/young-black-dragon.webp"
+  - "MM"
+  - "TftYP"
+  - "GoS"
+  - "BGDIA"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/token/young-black-dragon.webp"
 ```
 ^statblock
 

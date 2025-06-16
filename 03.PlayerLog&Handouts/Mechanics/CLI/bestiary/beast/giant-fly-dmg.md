@@ -7,31 +7,34 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/beast
 statblock: inline
-aliases: ["Giant Fly (DMG)"]
+statblock-link: "#^statblock"
+aliases:
+- Giant Fly
 ---
-# [Giant Fly (DMG)](03 - Player Log & Handouts\Mechanics\CLI\bestiary\beast/giant-fly-dmg.md)
+# [Giant Fly](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/giant-fly-dmg.md)
 *Source: Dungeon Master's Guide p. 169*  
 
 ```statblock
-"name": "Giant Fly (DMG) (DMG)"
+"name": "Giant Fly (DMG)"
 "size": "Large"
 "type": "beast"
 "alignment": "Unaligned"
 "ac": !!int "11"
 "hp": !!int "19"
 "hit_dice": "3d10 + 3"
+"modifier": !!int "1"
 "stats":
-- !!int "14"
-- !!int "13"
-- !!int "13"
-- !!int "2"
-- !!int "10"
-- !!int "3"
+  - !!int "14"
+  - !!int "13"
+  - !!int "13"
+  - !!int "2"
+  - !!int "10"
+  - !!int "3"
 "speed": "30 ft., fly 60 ft."
 "senses": "darkvision 60 ft., passive Perception 10"
 "languages": ""
 "source":
-- "DMG"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/beast/token/giant-fly.webp"
+  - "DMG"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/giant-fly-dmg.webp"
 ```
 ^statblock

@@ -7,10 +7,12 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/fiend/demon
 statblock: inline
-aliases: ["Marilith"]
+statblock-link: "#^statblock"
+aliases:
+- Marilith
 ---
-# [Marilith](03 - Player Log & Handouts\Mechanics\CLI\bestiary\fiend/marilith.md)
-*Source: Monster Manual p. 61, Baldur's Gate: Descent Into Avernus, Tasha's Cauldron of Everything. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Marilith](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/marilith.md)
+*Source: Monster Manual p. 61, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus, Explorer's Guide to Wildemount, Tasha's Cauldron of Everything. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Terrible to behold, a marilith has the lower body of a great serpent and the upper torso of a humanoid female with six arms. Wielding a wicked blade in each of its six hands, a marilith is a devastating foe that few can match in battle.
 
@@ -160,7 +162,7 @@ Demonologists organize the chaotic distribution of demons into broad categories 
 
 > [!note] Demon True Names
 > 
-> Though demons all have common names, every demon lord and every demon of type 1 through 6 has a true name that it keeps secret. A demon can be forced to disclose its true name if [charmed](conditions.md#Charmed), and ancient scrolls and tomes are said to exist that list the true names of the most powerful demons.
+> Though demons all have common names, every demon lord and every demon of type 1 through 6 has a true name that it keeps secret. A demon can be forced to disclose its true name if [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), and ancient scrolls and tomes are said to exist that list the true names of the most powerful demons.
 > 
 > A mortal who learns a demon's true name can use powerful summoning magic to call the demon from the Abyss and exercise some measure of control over it. However, most demons brought to the Material Plane in this manner do everything in their power to wreak havoc or sow discord and strife.
 ^demon-true-names
@@ -169,13 +171,13 @@ Demonologists organize the chaotic distribution of demons into broad categories 
 > 
 > Some demons can have an action option that allows them to summon other demons. Summon Demon (1/Day). The demon chooses what to summon and attempts a magical summoning.
 > 
-> - A balor has a 50 percent chance of summoning `1d8` vrocks, `1d6` hezrous, `1d4` glabrezus, `1d3` nalfeshnees, `1d2` mariliths, or one goristro.  
+> - A balor has a 50 percent chance of summoning `d8` vrocks, `d6` hezrous, `d4` glabrezus, `d3` nalfeshnees, `d2` mariliths, or one goristro.  
 > - A barlgura has a 30 percent chance of summoning one barlgura.  
 > - A chasme has a 30 percent chance of summoning one chasme.  
-> - A glabrezu has a 30 percent chance of summoning `1d3` vrocks, `1d2` hezrous, or one glabrezu.  
+> - A glabrezu has a 30 percent chance of summoning `d3` vrocks, `d2` hezrous, or one glabrezu.  
 > - A hezrou has a 30 percent chance of summoning `2d6` dretches or one hezrou.  
-> - A marilith has a 50 percent chance of summoning `1d6` vrocks, `1d4` hezrous, `1d3` glabrezus, `1d2` nalfeshnees, or one marilith.  
-> - A nalfeshnee has a 50 percent chance of summoning `1d4` vrocks, `1d3` hezrous, `1d2` glabrezus, or one nalfeshnee.  
+> - A marilith has a 50 percent chance of summoning `d6` vrocks, `d4` hezrous, `d3` glabrezus, `d2` nalfeshnees, or one marilith.  
+> - A nalfeshnee has a 50 percent chance of summoning `d4` vrocks, `d3` hezrous, `d2` glabrezus, or one nalfeshnee.  
 > - A vrock has a 30 percent chance of summoning `2d4` dretches or one vrock.  
 > - A yochlol has a 50 percent chance of summoning one yochlol.  
 > 
@@ -197,59 +199,63 @@ Demonologists organize the chaotic distribution of demons into broad categories 
 "ac_class": "natural armor"
 "hp": !!int "189"
 "hit_dice": "18d10 + 90"
+"modifier": !!int "5"
 "stats":
-- !!int "18"
-- !!int "20"
-- !!int "20"
-- !!int "18"
-- !!int "16"
-- !!int "20"
+  - !!int "18"
+  - !!int "20"
+  - !!int "20"
+  - !!int "18"
+  - !!int "16"
+  - !!int "20"
 "speed": "40 ft."
 "saves":
-  "Charisma": !!int "10"
-  "Wisdom": !!int "8"
-  "Strength": !!int "9"
-  "Constitution": !!int "10"
+  - "strength": "+9"
+  - "constitution": "+10"
+  - "wisdom": "+8"
+  - "charisma": "+10"
 "damage_resistances": "cold; fire; lightning; bludgeoning, piercing, slashing from\
   \ nonmagical attacks"
 "damage_immunities": "poison"
-"condition_immunities": "[poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "truesight 120 ft., passive Perception 13"
 "languages": "Abyssal, telepathy 120 ft."
 "cr": "16"
 "traits":
-- "desc": "The marilith has advantage on saving throws against spells and other magical\
-    \ effects."
-  "name": "Magic Resistance"
-- "desc": "The marilith's weapon attacks are magical."
-  "name": "Magic Weapons"
-- "desc": "The marilith can take one reaction on every turn in combat."
-  "name": "Reactive"
+  - "desc": "The marilith has advantage on saving throws against spells and other\
+      \ magical effects."
+    "name": "Magic Resistance"
+  - "desc": "The marilith's weapon attacks are magical."
+    "name": "Magic Weapons"
+  - "desc": "The marilith can take one reaction on every turn in combat."
+    "name": "Reactive"
 "actions":
-- "desc": "The marilith can make seven attacks: six with its longswords and one with\
-    \ its tail."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 13\
-    \ (2d8 + 4) slashing damage."
-  "name": "Longsword"
-- "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one creature. Hit:\
-    \ 15 (2d10 + 4) bludgeoning damage. If the target is Medium or smaller, it is\
-    \ [grappled](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
-    \ (escape DC 19). Until this grapple ends, the target is [restrained](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
-    \ the marilith can automatically hit the target with its tail, and the marilith\
-    \ can't make tail attacks against other targets."
-  "name": "Tail"
-- "desc": "The marilith magically teleports, along with any equipment it is wearing\
-    \ or carrying, up to 120 feet to an unoccupied space it can see."
-  "name": "Teleport"
+  - "desc": "The marilith can make seven attacks: six with its longswords and one\
+      \ with its tail."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 13\
+      \ (2d8 + 4) slashing damage."
+    "name": "Longsword"
+  - "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one creature. Hit:\
+      \ 15 (2d10 + 4) bludgeoning damage. If the target is Medium or smaller, it\
+      \ is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
+      \ (escape DC 19). Until this grapple ends, the target is [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
+      \ the marilith can automatically hit the target with its tail, and the marilith\
+      \ can't make tail attacks against other targets."
+    "name": "Tail"
+  - "desc": "The marilith magically teleports, along with any equipment it is wearing\
+      \ or carrying, up to 120 feet to an unoccupied space it can see."
+    "name": "Teleport"
 "reactions":
-- "desc": "The marilith adds 5 to its AC against one melee attack that would hit it.\
-    \ To do so, the marilith must see the attacker and be wielding a melee weapon."
-  "name": "Parry"
+  - "desc": "The marilith adds 5 to its AC against one melee attack that would hit\
+      \ it. To do so, the marilith must see the attacker and be wielding a melee weapon."
+    "name": "Parry"
 "source":
-- "MM"
-- "BGDIA"
-- "TCE"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/fiend/token/marilith.webp"
+  - "MM"
+  - "WDMM"
+  - "GoS"
+  - "BGDIA"
+  - "EGW"
+  - "TCE"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/token/marilith.webp"
 ```
 ^statblock

@@ -8,10 +8,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/humanoid/grimlock
 statblock: inline
-aliases: ["Grimlock"]
+statblock-link: "#^statblock"
+aliases:
+- Grimlock
 ---
-# [Grimlock](03 - Player Log & Handouts\Mechanics\CLI\bestiary\humanoid/grimlock.md)
-*Source: Monster Manual p. 175. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Grimlock](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/grimlock.md)
+*Source: Monster Manual p. 175, Waterdeep: Dungeon of the Mad Mage. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 The degenerate subterranean grimlocks were once human, but their worship of the mind flayers over generations of prowling the Underdark transformed them into blind, monstrous cannibals long ago.
 
@@ -42,40 +44,45 @@ Grimlocks still venerate the mind flayers, serving them whenever possible. Griml
 "ac": !!int "11"
 "hp": !!int "11"
 "hit_dice": "2d8 + 2"
+"modifier": !!int "1"
 "stats":
-- !!int "16"
-- !!int "12"
-- !!int "12"
-- !!int "9"
-- !!int "8"
-- !!int "6"
+  - !!int "16"
+  - !!int "12"
+  - !!int "12"
+  - !!int "9"
+  - !!int "8"
+  - !!int "6"
 "speed": "30 ft."
 "skillsaves":
-  "Athletics": !!int "5"
-  "Stealth": !!int "3"
-  "Perception": !!int "3"
-"condition_immunities": "[blinded](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Blinded)"
+  - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
+    "desc": "+5"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+3"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+3"
+"condition_immunities": "[blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded)"
 "senses": "blindsight 30 ft. or 10 ft. while deafened (blind beyond this radius),\
   \ passive Perception 13"
 "languages": "Undercommon"
 "cr": "1/4"
 "traits":
-- "desc": "The grimlock can't use its blindsight while [deafened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Deafened)\
-    \ and unable to smell."
-  "name": "Blind Senses"
-- "desc": "The grimlock has advantage on Wisdom ([Perception](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/skills.md#Perception))\
-    \ checks that rely on hearing or smell."
-  "name": "Keen Hearing and Smell"
-- "desc": "The grimlock has advantage on Dexterity ([Stealth](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/skills.md#Stealth))\
-    \ checks made to hide in rocky terrain."
-  "name": "Stone Camouflage"
+  - "desc": "The grimlock can't use its blindsight while [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened)\
+      \ and unable to smell."
+    "name": "Blind Senses"
+  - "desc": "The grimlock has advantage on Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception))\
+      \ checks that rely on hearing or smell."
+    "name": "Keen Hearing and Smell"
+  - "desc": "The grimlock has advantage on Dexterity ([Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth))\
+      \ checks made to hide in rocky terrain."
+    "name": "Stone Camouflage"
 "actions":
-- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4\
-    \ + 3) bludgeoning damage plus 2 (1d4) piercing damage."
-  "name": "Spiked Bone Club"
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5\
+      \ (1d4 + 3) bludgeoning damage plus 2 (d4) piercing damage."
+    "name": "Spiked Bone Club"
 "source":
-- "MM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/humanoid/token/grimlock.webp"
+  - "MM"
+  - "WDMM"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/grimlock.webp"
 ```
 ^statblock
 

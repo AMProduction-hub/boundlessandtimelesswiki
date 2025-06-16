@@ -8,10 +8,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/elemental
 statblock: inline
-aliases: ["Xorn"]
+statblock-link: "#^statblock"
+aliases:
+- Xorn
 ---
-# [Xorn](03 - Player Log & Handouts\Mechanics\CLI\bestiary\elemental/xorn.md)
-*Source: Monster Manual p. 304, Sigil and the Outlands. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Xorn](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\elemental/xorn.md)
+*Source: Monster Manual p. 304, Princes of the Apocalypse, Waterdeep: Dungeon of the Mad Mage. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Bizarre creatures native to the Elemental Plane of Earth, xorn sniff out gemstones and precious metals, then tunnel through earth and rock to consume those treasures. On the Material Plane, xorn must range far and wide through the Underdark to sustain themselves, becoming aggressive toward miners and treasure hunters when the valuable minerals of their diet are scarce.
 
@@ -35,44 +37,48 @@ Possessed of the power of elemental earth, a xorn glides through stone and dirt 
 "ac_class": "natural armor"
 "hp": !!int "73"
 "hit_dice": "7d8 + 42"
+"modifier": !!int "0"
 "stats":
-- !!int "17"
-- !!int "10"
-- !!int "22"
-- !!int "11"
-- !!int "10"
-- !!int "11"
+  - !!int "17"
+  - !!int "10"
+  - !!int "22"
+  - !!int "11"
+  - !!int "10"
+  - !!int "11"
 "speed": "20 ft., burrow 20 ft."
 "skillsaves":
-  "Stealth": !!int "3"
-  "Perception": !!int "6"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+6"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+3"
 "damage_resistances": "piercing, slashing from nonmagical attacks that aren't adamantine"
 "senses": "darkvision 60 ft., tremorsense 60 ft., passive Perception 16"
 "languages": "Terran"
 "cr": "5"
 "traits":
-- "desc": "The xorn can burrow through nonmagical, unworked earth and stone. While\
-    \ doing so, the xorn doesn't disturb the material it moves through."
-  "name": "Earth Glide"
-- "desc": "The xorn has advantage on Dexterity ([Stealth](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/skills.md#Stealth))\
-    \ checks made to hide in rocky terrain."
-  "name": "Stone Camouflage"
-- "desc": "The xorn can pinpoint, by scent, the location of precious metals and stones,\
-    \ such as coins and gems, within 60 feet of it."
-  "name": "Treasure Sense"
+  - "desc": "The xorn can burrow through nonmagical, unworked earth and stone. While\
+      \ doing so, the xorn doesn't disturb the material it moves through."
+    "name": "Earth Glide"
+  - "desc": "The xorn has advantage on Dexterity ([Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth))\
+      \ checks made to hide in rocky terrain."
+    "name": "Stone Camouflage"
+  - "desc": "The xorn can pinpoint, by scent, the location of precious metals and\
+      \ stones, such as coins and gems, within 60 feet of it."
+    "name": "Treasure Sense"
 "actions":
-- "desc": "The xorn makes three claw attacks and one bite attack."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13\
-    \ (3d6 + 3) piercing damage."
-  "name": "Bite"
-- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d6\
-    \ + 3) slashing damage."
-  "name": "Claw"
+  - "desc": "The xorn makes three claw attacks and one bite attack."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13\
+      \ (3d6 + 3) piercing damage."
+    "name": "Bite"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6\
+      \ (1d6 + 3) slashing damage."
+    "name": "Claw"
 "source":
-- "MM"
-- "SatO"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/elemental/token/xorn.webp"
+  - "MM"
+  - "PotA"
+  - "WDMM"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/token/xorn.webp"
 ```
 ^statblock
 

@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
-aliases: ["Random Hag Minions; Brutes"]
+aliases:
+- Random Hag Minions; Brutes
 ---
 # Random Hag Minions; Brutes
 *Source: Volo's Guide to Monsters p. 61* 
@@ -14,16 +15,16 @@ aliases: ["Random Hag Minions; Brutes"]
 
 | dice: d12 | Brute(s) |
 |-----------|----------|
-| 1 | [Bugbears](bugbear.md) |
-| 2 | [Doppelgangers](doppelganger.md) |
-| 3 | [Ettercaps](ettercap.md) |
-| 4 | [Gargoyles](gargoyle.md) |
-| 5 | [Jackalweres](jackalwere.md) |
-| 6 | [Kenku](kenku.md) |
-| 7 | [Meenlocks](meenlock-mpmm.md) |
-| 8 | [Oni](oni.md) |
-| 9 | [Quicklings](quickling-mpmm.md) |
-| 10 | [Redcaps](redcap-mpmm.md) |
-| 11 | [Wererats](wererat.md) |
-| 12 | [Werewolves](werewolf.md) |
+| 1 | [Bugbears](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/bugbear.md) |
+| 2 | [Doppelgangers](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/doppelganger.md) |
+| 3 | [Ettercaps](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/ettercap.md) |
+| 4 | [Gargoyles](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/gargoyle.md) |
+| 5 | [Jackalweres](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/jackalwere.md) |
+| 6 | [Kenku](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/kenku.md) |
+| 7 | [Meenlocks](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/meenlock-mpmm.md) |
+| 8 | [Oni](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/oni.md) |
+| 9 | [Quicklings](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/quickling-mpmm.md) |
+| 10 | [Redcaps](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fey/redcap-mpmm.md) |
+| 11 | [Wererats](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/wererat.md) |
+| 12 | [Werewolves](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/werewolf.md) |
 ^brutes

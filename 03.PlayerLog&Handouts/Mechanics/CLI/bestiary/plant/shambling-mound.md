@@ -9,10 +9,12 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/plant
 statblock: inline
-aliases: ["Shambling Mound"]
+statblock-link: "#^statblock"
+aliases:
+- Shambling Mound
 ---
-# [Shambling Mound](03 - Player Log & Handouts\Mechanics\CLI\bestiary\plant/shambling-mound.md)
-*Source: Monster Manual p. 270, Baldur's Gate: Descent Into Avernus. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Shambling Mound](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\plant/shambling-mound.md)
+*Source: Monster Manual p. 270, Curse of Strahd, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus, Mythic Odysseys of Theros, Candlekeep Mysteries, Journeys through the Radiant Citadel, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 A shambling mound, sometimes called a shambler, trudges ponderously through bleak swamps, dismal marshes, and rain forests, consuming any organic matter in its path. This rotting heap of animated vegetation looms up half again as tall as a human, tapering into a faceless "head" at its top.
 
@@ -49,48 +51,60 @@ If a shambling mound faces defeat before an overwhelming foe, the root-stem can 
 "ac_class": "natural armor"
 "hp": !!int "136"
 "hit_dice": "16d10 + 48"
+"modifier": !!int "-1"
 "stats":
-- !!int "18"
-- !!int "8"
-- !!int "16"
-- !!int "5"
-- !!int "10"
-- !!int "5"
+  - !!int "18"
+  - !!int "8"
+  - !!int "16"
+  - !!int "5"
+  - !!int "10"
+  - !!int "5"
 "speed": "20 ft., swim 20 ft."
 "skillsaves":
-  "Stealth": !!int "2"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+2"
 "damage_resistances": "cold, fire"
 "damage_immunities": "lightning"
-"condition_immunities": "[blinded](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Blinded),\
-  \ [deafened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Deafened),\
-  \ [exhaustion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion)"
+"condition_immunities": "[blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded),\
+  \ [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened),\
+  \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion)"
 "senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 10"
 "languages": ""
 "cr": "5"
 "traits":
-- "desc": "Whenever the shambling mound is subjected to lightning damage, it takes\
-    \ no damage and regains a number of hit points equal to the lightning damage dealt."
-  "name": "Lightning Absorption"
+  - "desc": "Whenever the shambling mound is subjected to lightning damage, it takes\
+      \ no damage and regains a number of hit points equal to the lightning damage\
+      \ dealt."
+    "name": "Lightning Absorption"
 "actions":
-- "desc": "The shambling mound makes two slam attacks. If both attacks hit a Medium\
-    \ or smaller target, the target is [grappled](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
-    \ (escape DC 14), and the shambling mound uses its Engulf on it."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13\
-    \ (2d8 + 4) bludgeoning damage."
-  "name": "Slam"
-- "desc": "The shambling mound engulfs a Medium or smaller creature [grappled](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
-    \ by it. The engulfed target is [blinded](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Blinded),\
-    \ [restrained](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
-    \ and unable to breathe, and it must succeed on a DC 14 Constitution saving throw\
-    \ at the start of each of the mound's turns or take 13 (2d8 + 4) bludgeoning\
-    \ damage. If the mound moves, the engulfed target moves with it. The mound can\
-    \ have only one creature engulfed at a time."
-  "name": "Engulf"
+  - "desc": "The shambling mound makes two slam attacks. If both attacks hit a Medium\
+      \ or smaller target, the target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
+      \ (escape DC 14), and the shambling mound uses its Engulf on it."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13\
+      \ (2d8 + 4) bludgeoning damage."
+    "name": "Slam"
+  - "desc": "The shambling mound engulfs a Medium or smaller creature [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
+      \ by it. The engulfed target is [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded),\
+      \ [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained),\
+      \ and unable to breathe, and it must succeed on a DC 14 Constitution saving\
+      \ throw at the start of each of the mound's turns or take 13 (2d8 + 4) bludgeoning\
+      \ damage. If the mound moves, the engulfed target moves with it. The mound can\
+      \ have only one creature engulfed at a time."
+    "name": "Engulf"
 "source":
-- "MM"
-- "BGDIA"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/plant/token/shambling-mound.webp"
+  - "MM"
+  - "CoS"
+  - "TftYP"
+  - "ToA"
+  - "WDMM"
+  - "GoS"
+  - "BGDIA"
+  - "MOT"
+  - "CM"
+  - "JttRC"
+  - "KftGV"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/token/shambling-mound.webp"
 ```
 ^statblock
 

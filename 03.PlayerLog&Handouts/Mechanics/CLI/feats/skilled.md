@@ -4,8 +4,9 @@ cssclasses: json5e-feat
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/feat
-aliases: ["Skilled"]
+aliases:
+- Skilled
 ---
 # Skilled
 *Source: Player's Handbook p. 170*  
-You gain proficiency in any combination of three [skills](03.PlayerLog&Handouts/Mechanics/CLI/tables/skills.md) or tools of your choice.
+You gain proficiency in any combination of three [skills](03.PlayerLog&Handouts/Mechanics/CLI/tables/skills-phb.md) or tools of your choice.

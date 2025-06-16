@@ -9,10 +9,12 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/monstrosity
 statblock: inline
-aliases: ["Grick Alpha"]
+statblock-link: "#^statblock"
+aliases:
+- Grick Alpha
 ---
-# [Grick Alpha](03 - Player Log & Handouts\Mechanics\CLI\bestiary\monstrosity/grick-alpha.md)
-*Source: Monster Manual p. 173*  
+# [Grick Alpha](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/grick-alpha.md)
+*Source: Monster Manual p. 173, Waterdeep: Dungeon of the Mad Mage, Candlekeep Mysteries, Dragonlance: Shadow of the Dragon Queen*  
 
 The wormlike grick waits unseen, blending in with the rock of the caves and caverns it haunts. Only when prey comes near does it rear up, its four barbed tentacles unfurling to reveal its hungry, snapping beak.
 
@@ -37,39 +39,43 @@ Over time, grick lairs accumulate the cast-off possessions of intelligent prey, 
 "ac_class": "natural armor"
 "hp": !!int "75"
 "hit_dice": "10d10 + 20"
+"modifier": !!int "3"
 "stats":
-- !!int "18"
-- !!int "16"
-- !!int "15"
-- !!int "4"
-- !!int "14"
-- !!int "9"
+  - !!int "18"
+  - !!int "16"
+  - !!int "15"
+  - !!int "4"
+  - !!int "14"
+  - !!int "9"
 "speed": "30 ft., climb 30 ft."
 "damage_resistances": "bludgeoning, piercing, slashing from nonmagical attacks"
 "senses": "darkvision 60 ft., passive Perception 12"
 "languages": ""
 "cr": "7"
 "traits":
-- "desc": "The grick has advantage on Dexterity ([Stealth](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/skills.md#Stealth))\
-    \ checks made to hide in rocky terrain."
-  "name": "Stone Camouflage"
+  - "desc": "The grick has advantage on Dexterity ([Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth))\
+      \ checks made to hide in rocky terrain."
+    "name": "Stone Camouflage"
 "actions":
-- "desc": "The grick makes two attacks: one with its tail and one with its tentacles.\
-    \ If it hits with its tentacles, the grick can make one beak attack against the\
-    \ same target."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 11\
-    \ (2d6 + 4) bludgeoning damage."
-  "name": "Tail"
-- "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 22\
-    \ (4d8 + 4) slashing damage."
-  "name": "Tentacles"
-- "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 13\
-    \ (2d8 + 4) piercing damage."
-  "name": "Beak"
+  - "desc": "The grick makes two attacks: one with its tail and one with its tentacles.\
+      \ If it hits with its tentacles, the grick can make one beak attack against\
+      \ the same target."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit:\
+      \ 11 (2d6 + 4) bludgeoning damage."
+    "name": "Tail"
+  - "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit:\
+      \ 22 (4d8 + 4) slashing damage."
+    "name": "Tentacles"
+  - "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit:\
+      \ 13 (2d8 + 4) piercing damage."
+    "name": "Beak"
 "source":
-- "MM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/monstrosity/token/grick-alpha.webp"
+  - "MM"
+  - "WDMM"
+  - "CM"
+  - "DSotDQ"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/token/grick-alpha.webp"
 ```
 ^statblock
 

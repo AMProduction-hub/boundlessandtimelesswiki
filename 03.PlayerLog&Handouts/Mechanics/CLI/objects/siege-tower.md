@@ -5,7 +5,8 @@ tags:
 - ttrpg-cli/compendium/src/5e/dmg
 - ttrpg-cli/object/size/gargantuan
 - ttrpg-cli/object/type/siege-weapon
-aliases: ["Siege Tower"]
+aliases:
+- Siege Tower
 ---
 # Siege Tower
 %%-- Embedded content starts on the next line. --%%
@@ -15,7 +16,7 @@ A siege tower is a mobile wooden structure with a beam frame and slats in its wa
 
 ```ad-statblock
 title: Siege Tower
-![](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/objects/token/siege-tower.webp#token)
+![](03.PlayerLog&Handouts/Mechanics/CLI/objects/token/siege-tower.webp#token)
 *Gargantuan Siege weapon*
 
 - **Armor Class** 15

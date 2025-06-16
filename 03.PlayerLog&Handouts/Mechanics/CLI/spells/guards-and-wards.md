@@ -12,7 +12,8 @@ classes:
 - Bard
 - Cleric (Arcana Domain)
 - Wizard
-aliases: ["Guards and Wards"]
+aliases:
+- Guards and Wards
 ---
 # Guards and Wards
 *6th-level, Abjuration*  
@@ -35,28 +36,28 @@ Fog fills all the warded corridors, making them heavily obscured. In addition, a
 
 ## Doors
 
-All doors in the warded area are magically locked, as if sealed by an [arcane lock](arcane-lock.md) spell. In addition, you can cover up to ten doors with an illusion (equivalent to the illusory object function of the [minor illusion](minor-illusion.md) spell) to make them appear as plain sections of wall.
+All doors in the warded area are magically locked, as if sealed by an [arcane lock](03.PlayerLog&Handouts/Mechanics/CLI/spells/arcane-lock.md) spell. In addition, you can cover up to ten doors with an illusion (equivalent to the illusory object function of the [minor illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md) spell) to make them appear as plain sections of wall.
 
 ## Stairs
 
-Webs fill all stairs in the warded area from top to bottom, as the [web](web.md) spell. These strands regrow in 10 minutes if they are burned or torn away while guards and wards lasts.
+Webs fill all stairs in the warded area from top to bottom, as the [web](03.PlayerLog&Handouts/Mechanics/CLI/spells/web.md) spell. These strands regrow in 10 minutes if they are burned or torn away while guards and wards lasts.
 
 ## Other Spell Effect
 
 You can place your choice of one of the following magical effects within the warded area of the stronghold.
 
-- Place [dancing lights](dancing-lights.md) in four corridors. You can designate a simple program that the lights repeat as long as guards and wards lasts.  
-- Place [magic mouth](magic-mouth.md) in two locations.  
-- Place [stinking cloud](stinking-cloud.md) in two locations. The vapors appear in the places you designate; they return within 10 minutes if dispersed by wind while guards and wards lasts.  
-- Place a constant [gust of wind](gust-of-wind.md) in one corridor or room.  
-- Place a [suggestion](suggestion.md) in one location. You select an area of up to 5 feet square, and any creature that enters or passes through the area receives the suggestion mentally.  
+- Place [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md) in four corridors. You can designate a simple program that the lights repeat as long as guards and wards lasts.  
+- Place [magic mouth](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-mouth.md) in two locations.  
+- Place [stinking cloud](03.PlayerLog&Handouts/Mechanics/CLI/spells/stinking-cloud.md) in two locations. The vapors appear in the places you designate; they return within 10 minutes if dispersed by wind while guards and wards lasts.  
+- Place a constant [gust of wind](03.PlayerLog&Handouts/Mechanics/CLI/spells/gust-of-wind.md) in one corridor or room.  
+- Place a [suggestion](03.PlayerLog&Handouts/Mechanics/CLI/spells/suggestion.md) in one location. You select an area of up to 5 feet square, and any creature that enters or passes through the area receives the suggestion mentally.  
 
-The whole warded area radiates magic. A [dispel magic](dispel-magic.md) cast on a specific effect, if successful, removes only that effect.
+The whole warded area radiates magic. A [dispel magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md) cast on a specific effect, if successful, removes only that effect.
 
 You can create a permanently guarded and warded structure by casting this spell there every day for one year.
 
 ## Summary
 
-**Classes**: [Bard](list-spells-classes-bard.md); [Wizard](list-spells-classes-wizard.md); [Cleric (Arcana Domain)](list-spells-classes-cleric-arcana-domain-scag.md "subclass=SCAG")
+**Classes**: [Cleric (Arcana Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcana-domain-scag.md "subclass=SCAG"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook p. 248. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

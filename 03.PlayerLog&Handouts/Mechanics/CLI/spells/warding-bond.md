@@ -3,15 +3,18 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - ttrpg-cli/compendium/src/5e/phb
+- ttrpg-cli/spell/background/selesnya-initiate
 - ttrpg-cli/spell/class/bard
 - ttrpg-cli/spell/class/cleric
 - ttrpg-cli/spell/class/paladin
+- ttrpg-cli/spell/feat/adept-of-the-white-robes
 - ttrpg-cli/spell/level/2nd-level
 - ttrpg-cli/spell/school/abjuration
 - ttrpg-cli/spell/subclass/battle-smith
 - ttrpg-cli/spell/subclass/divine-soul
 - ttrpg-cli/spell/subclass/oath-of-the-crown
 - ttrpg-cli/spell/subclass/peace-domain
+- ttrpg-cli/spell/subrace/human-mark-of-sentinel
 classes:
 - Artificer (Battle Smith)
 - Bard
@@ -20,7 +23,8 @@ classes:
 - Paladin
 - Paladin (Oath of the Crown)
 - Sorcerer (Divine Soul)
-aliases: ["Warding Bond"]
+aliases:
+- Warding Bond
 ---
 # Warding Bond
 *2nd-level, Abjuration*  
@@ -35,6 +39,6 @@ This spell wards a willing creature you touch and creates a mystic connection be
 
 The spell ends if you drop to 0 hit points or if you and the target become separated by more than 60 feet. It also ends if the spell is cast again on either of the connected creatures. You can also dismiss the spell as an action.
 
-**Classes**: [Paladin](list-spells-classes-paladin.md); [Cleric (Peace Domain)](list-spells-classes-cleric-peace-domain-tce.md "subclass=TCE"); [Cleric](list-spells-classes-cleric.md); [Artificer (Battle Smith)](list-spells-classes-artificer-battle-smith-tce.md "subclass=TCE;class=TCE"); [Bard](list-spells-classes-bard.md); [Paladin (Oath of the Crown)](list-spells-classes-paladin-oath-of-the-crown-scag.md "subclass=SCAG"); [Sorcerer (Divine Soul)](list-spells-classes-sorcerer-divine-soul-xge.md "subclass=XGE")
+**Classes**: [Cleric (Peace Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-peace-domain-tce.md "subclass=TCE"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Paladin (Oath of the Crown)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oath-of-the-crown-scag.md "subclass=SCAG"); [Artificer (Battle Smith)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-battle-smith-tce.md "subclass=TCE;class=TCE"); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Paladin](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-paladin.md)
 
 *Source: Player's Handbook p. 287. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*

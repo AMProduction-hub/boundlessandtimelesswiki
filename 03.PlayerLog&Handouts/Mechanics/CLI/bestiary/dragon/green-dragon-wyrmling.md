@@ -7,9 +7,11 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/dragon
 statblock: inline
-aliases: ["Green Dragon Wyrmling"]
+statblock-link: "#^statblock"
+aliases:
+- Green Dragon Wyrmling
 ---
-# [Green Dragon Wyrmling](03 - Player Log & Handouts\Mechanics\CLI\bestiary\dragon/green-dragon-wyrmling.md)
+# [Green Dragon Wyrmling](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\dragon/green-dragon-wyrmling.md)
 *Source: Monster Manual p. 95. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 The most cunning and treacherous of true dragons, green dragons use misdirection and trickery to get the upper hand against their enemies. Nasty tempered and thoroughly evil, they take special pleasure in subverting and corrupting the good-hearted. In the ancient forests they roam, green dragons demonstrate an aggression that is often less about territory than it is about gaining power and wealth with as little effort as possible.
@@ -111,40 +113,43 @@ True dragons pass through four distinct stages of life, from lowly wyrmlings to 
 "ac_class": "natural armor"
 "hp": !!int "38"
 "hit_dice": "7d8 + 7"
+"modifier": !!int "1"
 "stats":
-- !!int "15"
-- !!int "12"
-- !!int "13"
-- !!int "14"
-- !!int "11"
-- !!int "13"
+  - !!int "15"
+  - !!int "12"
+  - !!int "13"
+  - !!int "14"
+  - !!int "11"
+  - !!int "13"
 "speed": "30 ft., fly 60 ft., swim 30 ft."
 "saves":
-  "Charisma": !!int "3"
-  "Dexterity": !!int "3"
-  "Wisdom": !!int "2"
-  "Constitution": !!int "3"
+  - "dexterity": "+3"
+  - "constitution": "+3"
+  - "wisdom": "+2"
+  - "charisma": "+3"
 "skillsaves":
-  "Stealth": !!int "3"
-  "Perception": !!int "4"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+4"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+3"
 "damage_immunities": "poison"
-"condition_immunities": "[poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 14"
 "languages": "Draconic"
 "cr": "2"
 "traits":
-- "desc": "The dragon can breathe air and water."
-  "name": "Amphibious"
+  - "desc": "The dragon can breathe air and water."
+    "name": "Amphibious"
 "actions":
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10\
-    \ + 2) piercing damage plus 3 (1d6) poison damage."
-  "name": "Bite"
-- "desc": "The dragon exhales poisonous gas in a 15-foot cone. Each creature in that\
-    \ area must make a DC 11 Constitution saving throw, taking 21 (6d6) poison damage\
-    \ on a failed save, or half as much damage on a successful one."
-  "name": "Poison Breath (Recharge 5-6)"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7\
+      \ (1d10 + 2) piercing damage plus 3 (d6) poison damage."
+    "name": "Bite"
+  - "desc": "The dragon exhales poisonous gas in a 15-foot cone. Each creature in\
+      \ that area must make a DC 11 Constitution saving throw, taking 21 (6d6) poison\
+      \ damage on a failed save, or half as much damage on a successful one."
+    "name": "Poison Breath (Recharge 5-6)"
 "source":
-- "MM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/dragon/token/green-dragon-wyrmling.webp"
+  - "MM"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/token/green-dragon-wyrmling.webp"
 ```
 ^statblock

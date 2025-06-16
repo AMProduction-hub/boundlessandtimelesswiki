@@ -12,11 +12,11 @@ aliases:
 - "Scimitar of Speed"
 ---
 # Scimitar of Speed
-*Weapon ([scimitar](scimitar.md)), major, very rare (requires attunement)*  
+*Weapon ([scimitar](03.PlayerLog&Handouts/Mechanics/CLI/items/scimitar.md)), major, very rare (requires attunement)*  
 
 
 - **Damage**: 1d6 slashing
-- **Properties**: [Finesse](item-properties.md#Finesse), [Light](item-properties.md#Light)
+- **Properties**: [Finesse](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Finesse), [Light](03.PlayerLog&Handouts/Mechanics/CLI/rules/item-properties.md#Light)
 - **Weight**: 3.0 lbs.
 
 You gain a +2 bonus to attack and damage rolls made with this magic weapon. In addition, you can make one attack with it as a bonus action on each of your turns.

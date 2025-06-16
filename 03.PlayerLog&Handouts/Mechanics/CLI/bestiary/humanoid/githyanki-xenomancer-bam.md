@@ -8,9 +8,11 @@ tags:
 - ttrpg-cli/monster/type/humanoid/druid
 - ttrpg-cli/monster/type/humanoid/gith
 statblock: inline
-aliases: ["Githyanki Xenomancer"]
+statblock-link: "#^statblock"
+aliases:
+- Githyanki Xenomancer
 ---
-# [Githyanki Xenomancer](03 - Player Log & Handouts\Mechanics\CLI\bestiary\humanoid/githyanki-xenomancer-bam.md)
+# [Githyanki Xenomancer](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/githyanki-xenomancer-bam.md)
 *Source: Boo's Astral Menagerie p. 27, Light of Xaryxis*  
 
 A githyanki xenomancer travels to the farthest reaches of Wildspace and the Astral Sea, even visiting worlds of the Material Plane from time to time, to study and catalog creatures it has never encountered before. Friendly contact with sapient creatures can bring the xenomancer's diplomatic skills to the forefront, while hostile contact becomes a test of the xenomancer's survival skills.
@@ -26,58 +28,59 @@ Sometimes a xenomancer's research requires that a specimen be captured and impri
 "ac": !!int "14"
 "hp": !!int "157"
 "hit_dice": "21d8 + 63"
+"modifier": !!int "4"
 "stats":
-- !!int "14"
-- !!int "18"
-- !!int "17"
-- !!int "15"
-- !!int "18"
-- !!int "13"
+  - !!int "14"
+  - !!int "18"
+  - !!int "17"
+  - !!int "15"
+  - !!int "18"
+  - !!int "13"
 "speed": "30 ft."
 "saves":
-  "Dexterity": !!int "8"
-  "Wisdom": !!int "8"
-  "Constitution": !!int "7"
+  - "dexterity": "+8"
+  - "constitution": "+7"
+  - "wisdom": "+8"
 "skillsaves":
-  "Nature": !!int "6"
-  "Animal Handling": !!int "8"
-  "Perception": !!int "8"
-  "Survival": !!int "8"
+  - "name": "[Animal Handling](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Animal%20Handling)"
+    "desc": "+8"
+  - "name": "[Nature](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Nature)"
+    "desc": "+6"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+8"
+  - "name": "[Survival](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Survival)"
+    "desc": "+8"
 "senses": "passive Perception 18"
 "languages": "Gith plus any four languages"
 "cr": "9"
-"traits":
-- "desc": "The githyanki casts one of the following spells, requiring no spell components\
-    \ and using Wisdom as the spellcasting ability (spell save DC 16):\n\nAt will:\
-    \ [druidcraft](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/druidcraft.md),\
-    \ [light](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/light.md),\
-    \ [mage hand](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/mage-hand.md)\
-    \ (the hand is invisible)\n\n1/day each: [dominate monster](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/dominate-monster.md),\
-    \ [forcecage](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/forcecage.md),\
-    \ [plane shift](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/plane-shift.md),\
-    \ [telekinesis](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/telekinesis.md)\n\
-    \n2/day each: [invisibility](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/invisibility.md)\
-    \ (self only), [pass without trace](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/pass-without-trace.md)\
-    \ (self only)"
-  "name": "Spellcasting (Psionics)"
 "actions":
-- "desc": "The githyanki makes three Staff attacks, three Telekinetic Bolt attacks,\
-    \ or a combination thereof."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5 (1d6\
-    \ + 2) bludgeoning damage, or 6 (1d8 + 2) bludgeoning damage when used with\
-    \ two hands, plus 14 (4d6) psychic damage."
-  "name": "Staff"
-- "desc": "Ranged Spell Attack: +8 to hit, range 60 ft., one target. Hit: 20\
-    \ (3d10 + 4) force damage."
-  "name": "Telekinetic Bolt"
+  - "desc": "The githyanki makes three Staff attacks, three Telekinetic Bolt attacks,\
+      \ or a combination thereof."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5\
+      \ (1d6 + 2) bludgeoning damage, or 6 (1d8 + 2) bludgeoning damage when used\
+      \ with two hands, plus 14 (4d6) psychic damage."
+    "name": "Staff"
+  - "desc": "Ranged Spell Attack: +8 to hit, range 60 ft., one target. Hit:\
+      \ 20 (3d10 + 4) force damage."
+    "name": "Telekinetic Bolt"
+  - "desc": "The githyanki casts one of the following spells, requiring no spell components\
+      \ and using Wisdom as the spellcasting ability (spell save DC 16):\n\nAt will:\
+      \ [druidcraft](03.PlayerLog&Handouts/Mechanics/CLI/spells/druidcraft.md), [light](03.PlayerLog&Handouts/Mechanics/CLI/spells/light.md),\
+      \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md) (the\
+      \ hand is invisible)\n\n2/day each: [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md)\
+      \ (self only), [pass without trace](03.PlayerLog&Handouts/Mechanics/CLI/spells/pass-without-trace.md)\
+      \ (self only)\n\n1/day each: [dominate monster](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-monster.md),\
+      \ [forcecage](03.PlayerLog&Handouts/Mechanics/CLI/spells/forcecage.md), [plane\
+      \ shift](03.PlayerLog&Handouts/Mechanics/CLI/spells/plane-shift.md), [telekinesis](03.PlayerLog&Handouts/Mechanics/CLI/spells/telekinesis.md)"
+    "name": "Spellcasting (Psionics)"
 "bonus_actions":
-- "desc": "The githyanki teleports, along with any equipment it is wearing or carrying,\
-    \ up to 30 feet to an unoccupied space it can see."
-  "name": "Astral Step (Recharge 4-6)"
+  - "desc": "The githyanki teleports, along with any equipment it is wearing or carrying,\
+      \ up to 30 feet to an unoccupied space it can see."
+    "name": "Astral Step (Recharge 4-6)"
 "source":
-- "BAM"
-- "LoX"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/humanoid/token/githyanki-xenomancer-bam.webp"
+  - "BAM"
+  - "LoX"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/githyanki-xenomancer-bam.webp"
 ```
 ^statblock

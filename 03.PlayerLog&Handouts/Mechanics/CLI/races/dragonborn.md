@@ -4,11 +4,12 @@ cssclasses: json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/race/dragonborn
-aliases: ["Dragonborn"]
+aliases:
+- Dragonborn
 ---
 # Dragonborn
 *Source: Player's Handbook p. 32. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
-![](dragonborn.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/races/img/dragonborn.webp#right)
 
 - **Ability Scores**: Strength +2; Charisma +1
 - **Size**: Medium

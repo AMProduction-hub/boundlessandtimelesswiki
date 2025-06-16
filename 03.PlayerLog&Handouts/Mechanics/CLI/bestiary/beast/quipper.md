@@ -8,10 +8,12 @@ tags:
 - ttrpg-cli/monster/size/tiny
 - ttrpg-cli/monster/type/beast
 statblock: inline
-aliases: ["Quipper"]
+statblock-link: "#^statblock"
+aliases:
+- Quipper
 ---
-# [Quipper](03 - Player Log & Handouts\Mechanics\CLI\bestiary\beast/quipper.md)
-*Source: Monster Manual p. 335. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Quipper](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/quipper.md)
+*Source: Monster Manual p. 335, Princes of the Apocalypse, Tomb of Annihilation, Ghosts of Saltmarsh, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 A quipper is a carnivorous fish with sharp teeth.
 
@@ -25,30 +27,36 @@ Quippers can adapt to any aquatic environment, including cold subterranean lakes
 "ac": !!int "13"
 "hp": !!int "1"
 "hit_dice": "1d4 - 1"
+"modifier": !!int "3"
 "stats":
-- !!int "2"
-- !!int "16"
-- !!int "9"
-- !!int "1"
-- !!int "7"
-- !!int "2"
+  - !!int "2"
+  - !!int "16"
+  - !!int "9"
+  - !!int "1"
+  - !!int "7"
+  - !!int "2"
 "speed": "swim 40 ft."
 "senses": "darkvision 60 ft., passive Perception 8"
 "languages": ""
 "cr": "0"
 "traits":
-- "desc": "The quipper has advantage on melee attack rolls against any creature that\
-    \ doesn't have all its hit points."
-  "name": "Blood Frenzy"
-- "desc": "The quipper can breathe only underwater."
-  "name": "Water Breathing"
+  - "desc": "The quipper has advantage on melee attack rolls against any creature\
+      \ that doesn't have all its hit points."
+    "name": "Blood Frenzy"
+  - "desc": "The quipper can breathe only underwater."
+    "name": "Water Breathing"
 "actions":
-- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 piercing\
-    \ damage."
-  "name": "Bite"
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1\
+      \ piercing damage."
+    "name": "Bite"
 "source":
-- "MM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/beast/token/quipper.webp"
+  - "MM"
+  - "PotA"
+  - "ToA"
+  - "GoS"
+  - "MOT"
+  - "IDRotF"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/quipper.webp"
 ```
 ^statblock
 

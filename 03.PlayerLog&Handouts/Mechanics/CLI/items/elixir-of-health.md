@@ -14,6 +14,6 @@ aliases:
 
 
 
-When you drink this potion, it cures any disease afflicting you, and it removes the [blinded](conditions.md#Blinded), [deafened](conditions.md#Deafened), [paralyzed](conditions.md#Paralyzed), and [poisoned](conditions.md#Poisoned) conditions. The clear red liquid has tiny bubbles of light in it.
+When you drink this potion, it cures any disease afflicting you, and it removes the [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded), [deafened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Deafened), [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed), and [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned) conditions. The clear red liquid has tiny bubbles of light in it.
 
 *Source: Dungeon Master's Guide p. 168*

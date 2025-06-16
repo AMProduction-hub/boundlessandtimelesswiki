@@ -4,10 +4,11 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 - ttrpg-cli/subclass/rogue/scout
-aliases: ["Scout"]
+aliases:
+- Scout
 ---
 # Scout
-*[Rogue](03.PlayerLog&Handouts/Mechanics/CLI/classes/rogue.md): Roguish Archetype*  
+*[Rogue](./rogue.md): Roguish Archetype*  
 *Source: Xanathar's Guide to Everything p. 47*  
 
 > [!tldr] Class and Feature Progression
@@ -68,4 +69,4 @@ You have advantage on initiative rolls. In addition, the first creature you hit 
 
 ### Sudden Strike (Level 17)
 
-Starting at 17th level, you can strike with deadly speed. If you take the [Attack](actions.md#Attack) action on your turn, you can make one additional attack as a bonus action. This attack can benefit from your Sneak Attack even if you have already used it this turn, but you can't use your Sneak Attack against the same target more than once in a turn.
+Starting at 17th level, you can strike with deadly speed. If you take the [Attack](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Attack) action on your turn, you can make one additional attack as a bonus action. This attack can benefit from your Sneak Attack even if you have already used it this turn, but you can't use your Sneak Attack against the same target more than once in a turn.

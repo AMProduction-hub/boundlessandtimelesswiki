@@ -7,9 +7,11 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/plant
 statblock: inline
-aliases: ["Aartuk Weedling"]
+statblock-link: "#^statblock"
+aliases:
+- Aartuk Weedling
 ---
-# [Aartuk Weedling](03 - Player Log & Handouts\Mechanics\CLI\bestiary\plant/aartuk-weedling-bam.md)
+# [Aartuk Weedling](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\plant/aartuk-weedling-bam.md)
 *Source: Boo's Astral Menagerie p. 9, Light of Xaryxis*  
 
 Aartuks are intelligent plant creatures that live to wage war. Beholders destroyed their original home world and scattered the survivors across the Material Plane. These survivors formed small nomadic cells.
@@ -33,41 +35,42 @@ The Aartuk language is made up of rustling sounds, snaps, pops, and hisses. It h
 "ac_class": "natural armor"
 "hp": !!int "38"
 "hit_dice": "7d8 + 7"
+"modifier": !!int "1"
 "stats":
-- !!int "14"
-- !!int "12"
-- !!int "13"
-- !!int "10"
-- !!int "13"
-- !!int "10"
+  - !!int "14"
+  - !!int "12"
+  - !!int "13"
+  - !!int "10"
+  - !!int "13"
+  - !!int "10"
 "speed": "20 ft., climb 20 ft."
 "senses": "darkvision 60 ft., passive Perception 11"
 "languages": "Aartuk"
 "cr": "2"
 "traits":
-- "desc": "The aartuk can climb difficult surfaces, including upside down on ceilings,\
-    \ without needing to make an ability check."
-  "name": "Spider Climb"
+  - "desc": "The aartuk can climb difficult surfaces, including upside down on ceilings,\
+      \ without needing to make an ability check."
+    "name": "Spider Climb"
 "actions":
-- "desc": "The aartuk makes two Branch attacks, two Radiant Pellet attacks, or one\
-    \ of each."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +4 to hit, reach 10 ft., one target. Hit: 8\
-    \ (2d6 + 2) bludgeoning damage."
-  "name": "Branch"
-- "desc": "Ranged Spell Attack: +3 to hit, range 60 ft., one target. Hit: 7\
-    \ (3d4 + 1) radiant damage."
-  "name": "Radiant Pellet"
+  - "desc": "The aartuk makes two Branch attacks, two Radiant Pellet attacks, or one\
+      \ of each."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 10 ft., one target. Hit:\
+      \ 8 (2d6 + 2) bludgeoning damage."
+    "name": "Branch"
+  - "desc": "Ranged Spell Attack: +3 to hit, range 60 ft., one target. Hit:\
+      \ 7 (3d4 + 1) radiant damage."
+    "name": "Radiant Pellet"
 "bonus_actions":
-- "desc": "The aartuk tries to use its gooey tongue to snare one Medium or smaller\
-    \ creature it can see within 30 feet of itself. The target must make a DC 11 Dexterity\
-    \ saving throw. On a failed save, the target is [grappled](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
-    \ by the tongue (escape DC 12) and pulled up to 25 feet toward the aartuk. The\
-    \ tongue can grapple one creature at a time."
-  "name": "Tongue (Recharge 6)"
+  - "desc": "The aartuk tries to use its gooey tongue to snare one Medium or smaller\
+      \ creature it can see within 30 feet of itself. The target must make a DC 11\
+      \ Dexterity saving throw. On a failed save, the target is [grappled](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Grappled)\
+      \ by the tongue (escape DC 12) and pulled up to 25 feet toward the aartuk. The\
+      \ tongue can grapple one creature at a time."
+    "name": "Tongue (Recharge 6)"
 "source":
-- "BAM"
-- "LoX"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/plant/token/aartuk-weedling-bam.webp"
+  - "BAM"
+  - "LoX"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/token/aartuk-weedling-bam.webp"
 ```
 ^statblock

@@ -8,10 +8,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/monstrosity
 statblock: inline
-aliases: ["Piercer"]
+statblock-link: "#^statblock"
+aliases:
+- Piercer
 ---
-# [Piercer](03 - Player Log & Handouts\Mechanics\CLI\bestiary\monstrosity/piercer.md)
-*Source: Monster Manual p. 252*  
+# [Piercer](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/piercer.md)
+*Source: Monster Manual p. 252, Princes of the Apocalypse, Storm King's Thunder, Tales from the Yawning Portal, Waterdeep: Dungeon of the Mad Mage, Icewind Dale: Rime of the Frostmaiden*  
 
 Clinging to the ceilings of caverns and large subterranean passages, piercers blend in perfectly with natural rock, dropping in silence to impale unsuspecting foes on the ground below.
 
@@ -32,34 +34,42 @@ Piercers gather in colonies to maximize the effectiveness of their attacks, drop
 "ac_class": "natural armor"
 "hp": !!int "22"
 "hit_dice": "3d8 + 9"
+"modifier": !!int "1"
 "stats":
-- !!int "10"
-- !!int "13"
-- !!int "16"
-- !!int "1"
-- !!int "7"
-- !!int "3"
+  - !!int "10"
+  - !!int "13"
+  - !!int "16"
+  - !!int "1"
+  - !!int "7"
+  - !!int "3"
 "speed": "5 ft., climb 5 ft."
 "skillsaves":
-  "Stealth": !!int "5"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+5"
 "senses": "blindsight 30 ft., darkvision 60 ft., passive Perception 8"
 "languages": ""
 "cr": "1/2"
 "traits":
-- "desc": "While the piercer remains motionless on the ceiling, it is indistinguishable\
-    \ from a normal stalactite."
-  "name": "False Appearance"
-- "desc": "The piercer can climb difficult surfaces, including upside down on ceilings,\
-    \ without needing to make an ability check."
-  "name": "Spider Climb"
+  - "desc": "While the piercer remains motionless on the ceiling, it is indistinguishable\
+      \ from a normal stalactite."
+    "name": "False Appearance"
+  - "desc": "The piercer can climb difficult surfaces, including upside down on ceilings,\
+      \ without needing to make an ability check."
+    "name": "Spider Climb"
 "actions":
-- "desc": "Melee Weapon Attack: +3 to hit, one creature directly underneath the\
-    \ piercer. Hit: 3 (1d6) piercing damage per 10 feet fallen, up to 21 (6d6).\
-    \ Miss: The piercer takes half the normal falling damage for the distance fallen."
-  "name": "Drop"
+  - "desc": "Melee Weapon Attack: +3 to hit, one creature directly underneath\
+      \ the piercer. Hit: 3 (d6) piercing damage per 10 feet fallen, up to 21\
+      \ (6d6). Miss: The piercer takes half the normal falling damage for the distance\
+      \ fallen."
+    "name": "Drop"
 "source":
-- "MM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/monstrosity/token/piercer.webp"
+  - "MM"
+  - "PotA"
+  - "SKT"
+  - "TftYP"
+  - "WDMM"
+  - "IDRotF"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/token/piercer.webp"
 ```
 ^statblock
 

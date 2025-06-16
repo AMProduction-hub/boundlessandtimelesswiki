@@ -12,7 +12,7 @@ aliases:
 ---
 # Dragon Scale Mail
 *Medium armor, major, very rare (requires attunement)*  
-![](dragon-scale-mail.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/dragon-scale-mail.webp#right)
 
 - **Armor Class**: 14 + Dex modifier (max of +2)
 - **Stealth**: The wearer has disadvantage on Stealth (DEX) checks.
@@ -20,15 +20,15 @@ aliases:
 
 **Items in this group:**
 
-- [Black Dragon Scale Mail](black-dragon-scale-mail.md)
-- [Blue Dragon Scale Mail](blue-dragon-scale-mail.md)
-- [Brass Dragon Scale Mail](brass-dragon-scale-mail.md)
-- [Bronze Dragon Scale Mail](bronze-dragon-scale-mail.md)
-- [Copper Dragon Scale Mail](copper-dragon-scale-mail.md)
-- [Gold Dragon Scale Mail](gold-dragon-scale-mail.md)
-- [Green Dragon Scale Mail](green-dragon-scale-mail.md)
-- [Red Dragon Scale Mail](red-dragon-scale-mail.md)
-- [Silver Dragon Scale Mail](silver-dragon-scale-mail.md)
-- [White Dragon Scale Mail](white-dragon-scale-mail.md)
+- [Black Dragon Scale Mail](03.PlayerLog&Handouts/Mechanics/CLI/items/black-dragon-scale-mail.md)
+- [Blue Dragon Scale Mail](03.PlayerLog&Handouts/Mechanics/CLI/items/blue-dragon-scale-mail.md)
+- [Brass Dragon Scale Mail](03.PlayerLog&Handouts/Mechanics/CLI/items/brass-dragon-scale-mail.md)
+- [Bronze Dragon Scale Mail](03.PlayerLog&Handouts/Mechanics/CLI/items/bronze-dragon-scale-mail.md)
+- [Copper Dragon Scale Mail](03.PlayerLog&Handouts/Mechanics/CLI/items/copper-dragon-scale-mail.md)
+- [Gold Dragon Scale Mail](03.PlayerLog&Handouts/Mechanics/CLI/items/gold-dragon-scale-mail.md)
+- [Green Dragon Scale Mail](03.PlayerLog&Handouts/Mechanics/CLI/items/green-dragon-scale-mail.md)
+- [Red Dragon Scale Mail](03.PlayerLog&Handouts/Mechanics/CLI/items/red-dragon-scale-mail.md)
+- [Silver Dragon Scale Mail](03.PlayerLog&Handouts/Mechanics/CLI/items/silver-dragon-scale-mail.md)
+- [White Dragon Scale Mail](03.PlayerLog&Handouts/Mechanics/CLI/items/white-dragon-scale-mail.md)
 
 *Source: Dungeon Master's Guide p. 165. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

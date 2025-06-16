@@ -18,7 +18,8 @@ classes:
 - Sorcerer (Divine Soul)
 - Warlock
 - Wizard
-aliases: ["Create Undead"]
+aliases:
+- Create Undead
 ---
 # Create Undead
 *6th-level, Necromancy*  
@@ -29,14 +30,14 @@ aliases: ["Create Undead"]
 - **Components:** V, S, M (one clay pot filled with grave dirt, one clay pot filled with brackish water, and one 150 gp black onyx stone for each corpse)
 - **Duration:** Instantaneous
 
-You can cast this spell only at night. Choose up to three corpses of Medium or Small humanoids within range. Each corpse becomes a [ghoul](ghoul.md) under your control. (The DM has game statistics for these creatures.)
+You can cast this spell only at night. Choose up to three corpses of Medium or Small humanoids within range. Each corpse becomes a [ghoul](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/ghoul.md) under your control. (The DM has game statistics for these creatures.)
 
 As a bonus action on each of your turns, you can mentally command any creature you animated with this spell if the creature is within 120 feet of you (if you control multiple creatures, you can command any or all of them at the same time, issuing the same command to each one). You decide what action the creature will take and where it will move during its next turn, or you can issue a general command, such as to guard a particular chamber or corridor. If you issue no commands, the creature only defends itself against hostile creatures. Once given an order, the creature continues to follow it until its task is complete.
 
 The creature is under your control for 24 hours, after which it stops obeying any command you have given it. To maintain control of the creature for another 24 hours, you must cast this spell on the creature before the current 24-hour period ends. This use of the spell reasserts your control over up to three creatures you have animated with this spell, rather than animating new ones.
 
-**At Higher Levels.** When you cast this spell using a 7th-level spell slot, you can animate or reassert control over four [ghouls](ghoul.md). When you cast this spell using an 8th-level spell slot, you can animate or reassert control over five [ghouls](ghoul.md) or two [ghasts](ghast.md) or [wights](wight.md). When you cast this spell using a 9th-level spell slot, you can animate or reassert control over six [ghouls](ghoul.md), three [ghasts](ghast.md) or [wights](wight.md), or two [mummies](mummy.md).
+**At Higher Levels.** When you cast this spell using a 7th-level spell slot, you can animate or reassert control over four [ghouls](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/ghoul.md). When you cast this spell using an 8th-level spell slot, you can animate or reassert control over five [ghouls](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/ghoul.md) or two [ghasts](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/ghast.md) or [wights](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/wight.md). When you cast this spell using a 9th-level spell slot, you can animate or reassert control over six [ghouls](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/ghoul.md), three [ghasts](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/ghast.md) or [wights](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/wight.md), or two [mummies](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/mummy.md).
 
-**Classes**: [Cleric](list-spells-classes-cleric.md); [Bard](list-spells-classes-bard.md); [Wizard](list-spells-classes-wizard.md); [Cleric (Arcana Domain)](list-spells-classes-cleric-arcana-domain-scag.md "subclass=SCAG"); [Warlock](list-spells-classes-warlock.md); [Sorcerer (Divine Soul)](list-spells-classes-sorcerer-divine-soul-xge.md "subclass=XGE")
+**Classes**: [Cleric (Arcana Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcana-domain-scag.md "subclass=SCAG"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md)
 
 *Source: Player's Handbook p. 229. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

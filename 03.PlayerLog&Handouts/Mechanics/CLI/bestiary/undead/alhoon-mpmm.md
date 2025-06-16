@@ -9,16 +9,18 @@ tags:
 - ttrpg-cli/monster/type/undead/mind-flayer
 - ttrpg-cli/monster/type/undead/wizard
 statblock: inline
-aliases: ["Alhoon"]
+statblock-link: "#^statblock"
+aliases:
+- Alhoon
 ---
-# [Alhoon](03 - Player Log & Handouts\Mechanics\CLI\bestiary\undead/alhoon-mpmm.md)
+# [Alhoon](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/alhoon-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 43, Volo's Guide to Monsters p. 172*  
 
 > [!quote] A quote from Mordenkainen  
 > 
 > There are many reasons to avoid the way of the lich. An impermanent solution is paradoxical. Take alhoons. They require souls to keep from shriveling. I fail to see the appeal.
 
-Mind flayers that pursue arcane magic are exiled as deviants, and for them no everlasting communion with an elder brain is possible. The road to lichdom offers an alternative way to escape the permanency of death, but that path is long and fraught with barriers. Alhoons are mind flayers who have used a shortcut to attain a lichlike state.
+Mind flayers that pursue arcane magic are exiled as deviants, and for them no everlasting communion with an elder brain is possible. The road to lichdom offers an alternative way to escape the permanency of death, but that path is long and fraught with barriers. Alhoons are mind flayers who have used a shortcut to attain a lich-like state.
 
 Elder brains forbid mind flayers from pursuing magic power aside from psionics, but it isn't an interdiction they must often enforce. Illithids brook no masters but members of their own kind, so it isn't in their nature to bow to any god or otherworldly patron. However, wizardry remains a temptation. In the pages of a spellbook, an illithid sees a system to acquire authority. Through the writings of the wizard who penned it, the illithid perceives the workings of a highly intelligent mind. Most mind flayers who find a spellbook react with abhorrence or indifference, but for some, a spellbook is a gateway to a new way of thinking.
 
@@ -50,82 +52,88 @@ Destroying a periapt of mind trapping consigns those trapped within it to oblivi
 "ac_class": "natural armor"
 "hp": !!int "150"
 "hit_dice": "20d8 + 60"
+"modifier": !!int "1"
 "stats":
-- !!int "11"
-- !!int "12"
-- !!int "16"
-- !!int "19"
-- !!int "17"
-- !!int "17"
+  - !!int "11"
+  - !!int "12"
+  - !!int "16"
+  - !!int "19"
+  - !!int "17"
+  - !!int "17"
 "speed": "30 ft., fly 15 ft. (hover)"
 "saves":
-  "Charisma": !!int "7"
-  "Wisdom": !!int "7"
-  "Intelligence": !!int "8"
-  "Constitution": !!int "7"
+  - "constitution": "+7"
+  - "intelligence": "+8"
+  - "wisdom": "+7"
+  - "charisma": "+7"
 "skillsaves":
-  "Deception": !!int "7"
-  "Stealth": !!int "5"
-  "Insight": !!int "7"
-  "Perception": !!int "7"
-  "History": !!int "8"
-  "Arcana": !!int "8"
+  - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
+    "desc": "+8"
+  - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
+    "desc": "+7"
+  - "name": "[History](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#History)"
+    "desc": "+8"
+  - "name": "[Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight)"
+    "desc": "+7"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+7"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+5"
 "damage_resistances": "cold, lightning, necrotic"
 "damage_immunities": "poison"
-"condition_immunities": "[charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
-  \ [exhaustion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
-  \ [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
-  \ [paralyzed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
-  \ [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
+  \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
+  \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
+  \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
+  \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "truesight 120 ft., passive Perception 17"
 "languages": "Deep Speech, Undercommon, telepathy 120 ft."
 "cr": "10"
 "traits":
-- "desc": "The alhoon casts one of the following spells, requiring no material components\
-    \ and using Intelligence as the spellcasting ability (spell save DC 16):\n\nAt\
-    \ will: [dancing lights](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/dancing-lights.md),\
-    \ [detect magic](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/detect-magic.md),\
-    \ [detect thoughts](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
-    \ [disguise self](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/disguise-self.md),\
-    \ [mage hand](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/mage-hand.md),\
-    \ [prestidigitation](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/prestidigitation.md)\n\
-    \n1/day each: [dominate monster](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/dominate-monster.md),\
-    \ [globe of invulnerability](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/globe-of-invulnerability.md),\
-    \ [invisibility](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/invisibility.md),\
-    \ [modify memory](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/modify-memory.md),\
-    \ [plane shift](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/plane-shift.md)\
-    \ (self only), [wall of force](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/wall-of-force.md)"
-  "name": "Spellcasting"
-- "desc": "The alhoon has advantage on saving throws against spells and other magical\
-    \ effects."
-  "name": "Magic Resistance"
-- "desc": "The alhoon has advantage on saving throws against any effect that turns\
-    \ Undead."
-  "name": "Turn Resistance"
+  - "desc": "The alhoon has advantage on saving throws against spells and other magical\
+      \ effects."
+    "name": "Magic Resistance"
+  - "desc": "The alhoon has advantage on saving throws against any effect that turns\
+      \ Undead."
+    "name": "Turn Resistance"
 "actions":
-- "desc": "The alhoon makes two Chilling Grasp or Arcane Bolt attacks."
-  "name": "Multiattack"
-- "desc": "Melee Spell Attack: +8 to hit, reach 5 ft., one target. Hit: 14 (4d6)\
-    \ cold damage, and the alhoon regains 14 hit points."
-  "name": "Chilling Grasp"
-- "desc": "Ranged Spell Attack: +8 to hit, range 120 ft., one target. Hit: 28\
-    \ (8d6) force damage."
-  "name": "Arcane Bolt"
-- "desc": "The alhoon magically emits psychic energy in a 60-foot cone. Each creature\
-    \ in that area must succeed on a DC 16 Intelligence saving throw or take 22 (4d8\
-    \ + 4) psychic damage and be [stunned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Stunned)\
-    \ for 1 minute. A target can repeat the saving throw at the end of each of its\
-    \ turns, ending the effect on itself on a success."
-  "name": "Mind Blast (Recharge 5-6)"
+  - "desc": "The alhoon makes two Chilling Grasp or Arcane Bolt attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Spell Attack: +8 to hit, reach 5 ft., one target. Hit: 14\
+      \ (4d6) cold damage, and the alhoon regains 14 hit points."
+    "name": "Chilling Grasp"
+  - "desc": "Ranged Spell Attack: +8 to hit, range 120 ft., one target. Hit:\
+      \ 28 (8d6) force damage."
+    "name": "Arcane Bolt"
+  - "desc": "The alhoon magically emits psychic energy in a 60-foot cone. Each creature\
+      \ in that area must succeed on a DC 16 Intelligence saving throw or take 22\
+      \ (4d8 + 4) psychic damage and be [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned)\
+      \ for 1 minute. A target can repeat the saving throw at the end of each of its\
+      \ turns, ending the effect on itself on a success."
+    "name": "Mind Blast (Recharge 5-6)"
+  - "desc": "The alhoon casts one of the following spells, requiring no material components\
+      \ and using Intelligence as the spellcasting ability (spell save DC 16):\n\n\
+      At will: [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md),\
+      \ [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      \ [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
+      \ [disguise self](03.PlayerLog&Handouts/Mechanics/CLI/spells/disguise-self.md),\
+      \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md), [prestidigitation](03.PlayerLog&Handouts/Mechanics/CLI/spells/prestidigitation.md)\n\
+      \n1/day each: [dominate monster](03.PlayerLog&Handouts/Mechanics/CLI/spells/dominate-monster.md),\
+      \ [globe of invulnerability](03.PlayerLog&Handouts/Mechanics/CLI/spells/globe-of-invulnerability.md),\
+      \ [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md),\
+      \ [modify memory](03.PlayerLog&Handouts/Mechanics/CLI/spells/modify-memory.md),\
+      \ [plane shift](03.PlayerLog&Handouts/Mechanics/CLI/spells/plane-shift.md) (self\
+      \ only), [wall of force](03.PlayerLog&Handouts/Mechanics/CLI/spells/wall-of-force.md)"
+    "name": "Spellcasting"
 "reactions":
-- "desc": "The alhoon targets one creature it can see within 60 feet of it that is\
-    \ casting a spell. If the spell is 3rd level or lower, the spell fails, but any\
-    \ spell slots or charges are not wasted."
-  "name": "Negate Spell (3/Day)"
+  - "desc": "The alhoon targets one creature it can see within 60 feet of it that\
+      \ is casting a spell. If the spell is 3rd level or lower, the spell fails, but\
+      \ any spell slots or charges are not wasted."
+    "name": "Negate Spell (3/Day)"
 "source":
-- "MPMM"
-- "VGM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/undead/token/alhoon-mpmm.webp"
+  - "MPMM"
+  - "VGM"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/token/alhoon-mpmm.webp"
 ```
 ^statblock
 

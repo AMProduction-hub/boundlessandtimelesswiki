@@ -4,7 +4,8 @@ cssclasses: json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/phb
-aliases: ["Sage"]
+aliases:
+- Sage
 ---
 # Sage
 *Source: Player's Handbook p. 137. Available in the Basic Rules (2014)*  
@@ -12,7 +13,7 @@ aliases: ["Sage"]
 
 - **Skill Proficiencies.** [Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana), [History](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#History)  
 - **Languages.** Two of your choice  
-- **Equipment.** A [bottle of black ink](ink-1-ounce-bottle.md), a quill, a small knife, a letter from a dead colleague posing a question you have not yet been able to answer, a set of [common clothes](common-clothes.md), and a belt [pouch](pouch.md) containing 10 gp  
+- **Equipment.** A [bottle of black ink](03.PlayerLog&Handouts/Mechanics/CLI/items/ink-1-ounce-bottle.md), a quill, a small knife, a letter from a dead colleague posing a question you have not yet been able to answer, a set of [common clothes](03.PlayerLog&Handouts/Mechanics/CLI/items/common-clothes.md), and a belt [pouch](03.PlayerLog&Handouts/Mechanics/CLI/items/pouch.md) containing 10 gp  
 
 You spent years learning the lore of the multiverse. You scoured manuscripts, studied scrolls, and listened to the greatest experts on the subjects that interest you. Your efforts have made you a master in your fields of study.
 

@@ -13,10 +13,12 @@ tags:
 - ttrpg-cli/monster/size/huge
 - ttrpg-cli/monster/type/giant
 statblock: inline
-aliases: ["Cyclops"]
+statblock-link: "#^statblock"
+aliases:
+- Cyclops
 ---
-# [Cyclops](03 - Player Log & Handouts\Mechanics\CLI\bestiary\giant/cyclops.md)
-*Source: Monster Manual p. 45, Sigil and the Outlands. Available in the Basic Rules (2014)*  
+# [Cyclops](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\giant/cyclops.md)
+*Source: Monster Manual p. 45, Tomb of Annihilation, Ghosts of Saltmarsh, Explorer's Guide to Wildemount, Mythic Odysseys of Theros, Candlekeep Mysteries, Dragonlance: Shadow of the Dragon Queen. Available in the Basic Rules (2014)*  
 
 Cyclopes are one-eyed giants that eke out a meager existence in wild lands. Isolationists by nature, they avoid contact with other races and try to drive away strangers in their territory.
 
@@ -43,34 +45,40 @@ Cyclopes aren't great thinkers or strategists. Slow to learn and bound to their 
 "ac_class": "natural armor"
 "hp": !!int "138"
 "hit_dice": "12d12 + 60"
+"modifier": !!int "0"
 "stats":
-- !!int "22"
-- !!int "11"
-- !!int "20"
-- !!int "8"
-- !!int "6"
-- !!int "10"
+  - !!int "22"
+  - !!int "11"
+  - !!int "20"
+  - !!int "8"
+  - !!int "6"
+  - !!int "10"
 "speed": "30 ft."
 "senses": "passive Perception 8"
 "languages": "Giant"
 "cr": "6"
 "traits":
-- "desc": "The cyclops has disadvantage on any attack roll against a target more than\
-    \ 30 feet away."
-  "name": "Poor Depth Perception"
+  - "desc": "The cyclops has disadvantage on any attack roll against a target more\
+      \ than 30 feet away."
+    "name": "Poor Depth Perception"
 "actions":
-- "desc": "The cyclops makes two greatclub attacks."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 19\
-    \ (3d8 + 6) bludgeoning damage."
-  "name": "Greatclub"
-- "desc": "Ranged Weapon Attack: +9 to hit, range 30/120 ft., one target. Hit:\
-    \ 28 (4d10 + 6) bludgeoning damage."
-  "name": "Rock"
+  - "desc": "The cyclops makes two greatclub attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit:\
+      \ 19 (3d8 + 6) bludgeoning damage."
+    "name": "Greatclub"
+  - "desc": "Ranged Weapon Attack: +9 to hit, range 30/120 ft., one target. Hit:\
+      \ 28 (4d10 + 6) bludgeoning damage."
+    "name": "Rock"
 "source":
-- "MM"
-- "SatO"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/giant/token/cyclops.webp"
+  - "MM"
+  - "ToA"
+  - "GoS"
+  - "EGW"
+  - "MOT"
+  - "CM"
+  - "DSotDQ"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/giant/token/cyclops.webp"
 ```
 ^statblock
 

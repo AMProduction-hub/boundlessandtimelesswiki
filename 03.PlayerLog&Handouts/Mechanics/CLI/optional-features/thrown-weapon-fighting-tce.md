@@ -5,7 +5,8 @@ tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/optional-feature/fs-f
 - ttrpg-cli/optional-feature/fs-r
-aliases: ["Thrown Weapon Fighting"]
+aliases:
+- Thrown Weapon Fighting
 ---
 # Thrown Weapon Fighting
 *Source: Tasha's Cauldron of Everything p. 42*  

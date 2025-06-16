@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
-aliases: ["Hag Names"]
+aliases:
+- Hag Names
 ---
 # Hag Names
 *Source: Volo's Guide to Monsters p. 55* 

@@ -4,15 +4,16 @@ cssclasses: json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/bgdia
-aliases: ["Baldur's Gate Charlatan"]
+aliases:
+- Baldur's Gate Charlatan
 ---
 # Baldur's Gate Charlatan
 *Source: Baldur's Gate: Descent Into Avernus p. 202, Player's Handbook p. 128*  
 
 
 - **Skill Proficiencies.** [Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception), [Sleight of Hand](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Sleight%20of%20Hand)  
-- **Tool Proficiencies.** [Disguise kit](disguise-kit.md), [Forgery kit](forgery-kit.md)  
-- **Equipment.** A set of [fine clothes](fine-clothes.md), a [disguise kit](disguise-kit.md), tools of the con of your choice (ten stoppered bottles filled with colored liquid, a set of weighted dice, a deck of marked cards, or a signet ring of an imaginary duke), and a belt [pouch](pouch.md) containing 15 gp  
+- **Tool Proficiencies.** [Disguise kit](03.PlayerLog&Handouts/Mechanics/CLI/items/disguise-kit.md), [Forgery kit](03.PlayerLog&Handouts/Mechanics/CLI/items/forgery-kit.md)  
+- **Equipment.** A set of [fine clothes](03.PlayerLog&Handouts/Mechanics/CLI/items/fine-clothes.md), a [disguise kit](03.PlayerLog&Handouts/Mechanics/CLI/items/disguise-kit.md), tools of the con of your choice (ten stoppered bottles filled with colored liquid, a set of weighted dice, a deck of marked cards, or a signet ring of an imaginary duke), and a belt [pouch](03.PlayerLog&Handouts/Mechanics/CLI/items/pouch.md) containing 15 gp  
 
 Everybody's always trying to get a leg up on somebody in Baldur's Gate. One group's con artist might be another's revolutionary. Or maybe you're just in it for yourself. In any case, characters with this background have a plan to hit the big time; all they need is audacity and a little time.
 

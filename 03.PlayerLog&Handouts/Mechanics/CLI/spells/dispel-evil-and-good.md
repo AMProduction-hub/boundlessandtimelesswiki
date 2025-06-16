@@ -14,7 +14,8 @@ classes:
 - Cleric
 - Paladin
 - Sorcerer (Divine Soul)
-aliases: ["Dispel Evil and Good"]
+aliases:
+- Dispel Evil and Good
 ---
 # Dispel Evil and Good
 *5th-level, Abjuration*  
@@ -31,7 +32,7 @@ You can end the spell early by using either of the following special functions.
 
 ## Break Enchantment
 
-As your action, you touch a creature you can reach that is [charmed](conditions.md#Charmed), [frightened](conditions.md#Frightened), or possessed by a celestial, an elemental, a fey, a fiend, or an undead. The creature you touch is no longer [charmed](conditions.md#Charmed), [frightened](conditions.md#Frightened), or possessed by such creatures.
+As your action, you touch a creature you can reach that is [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened), or possessed by a celestial, an elemental, a fey, a fiend, or an undead. The creature you touch is no longer [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened), or possessed by such creatures.
 
 ## Dismissal
 
@@ -39,6 +40,6 @@ As your action, make a melee spell attack against a celestial, an elemental, a f
 
 ## Summary
 
-**Classes**: [Paladin](list-spells-classes-paladin.md); [Cleric](list-spells-classes-cleric.md); [Bard](list-spells-classes-bard.md); [Sorcerer (Divine Soul)](list-spells-classes-sorcerer-divine-soul-xge.md "subclass=XGE")
+**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Paladin](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-paladin.md)
 
 *Source: Player's Handbook p. 233. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

@@ -24,10 +24,10 @@ Roll a `d4` and consult the Outer Essence Shards table to determine the shard's 
 
 | dice: d4 | Property | Shard |
 |----------|----------|-------|
-| 1 | Lawful | [Outer Essence Shard (Lawful)](outer-essence-shard-lawful-tce.md) |
-| 2 | Chaotic | [Outer Essence Shard (Chaotic)](outer-essence-shard-chaotic-tce.md) |
-| 3 | Good | [Outer Essence Shard (Good)](outer-essence-shard-good-tce.md) |
-| 4 | Evil | [Outer Essence Shard (Evil)](outer-essence-shard-evil-tce.md) |
+| 1 | Lawful | [Outer Essence Shard (Lawful)](03.PlayerLog&Handouts/Mechanics/CLI/items/outer-essence-shard-lawful-tce.md) |
+| 2 | Chaotic | [Outer Essence Shard (Chaotic)](03.PlayerLog&Handouts/Mechanics/CLI/items/outer-essence-shard-chaotic-tce.md) |
+| 3 | Good | [Outer Essence Shard (Good)](03.PlayerLog&Handouts/Mechanics/CLI/items/outer-essence-shard-good-tce.md) |
+| 4 | Evil | [Outer Essence Shard (Evil)](03.PlayerLog&Handouts/Mechanics/CLI/items/outer-essence-shard-evil-tce.md) |
 ^outer-essence-shards
 
 *Source: Tasha's Cauldron of Everything p. 133*

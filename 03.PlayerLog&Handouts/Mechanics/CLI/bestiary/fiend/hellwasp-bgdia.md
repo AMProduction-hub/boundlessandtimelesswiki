@@ -7,9 +7,11 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/fiend
 statblock: inline
-aliases: ["Hellwasp"]
+statblock-link: "#^statblock"
+aliases:
+- Hellwasp
 ---
-# [Hellwasp](03 - Player Log & Handouts\Mechanics\CLI\bestiary\fiend/hellwasp-bgdia.md)
+# [Hellwasp](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\fiend/hellwasp-bgdia.md)
 *Source: Baldur's Gate: Descent Into Avernus p. 236*  
 
 A hellwasp is an intelligent, malevolent insect native to the Nine Hells. It has a thick protective carapace, thin metallic wings, and strong legs ending in swordlike talons. It uses its stinger to inject a chemical admixture similar to alchemist's fire into its victims. This same solution carries a paralytic enzyme that renders the victim helpless long enough for the hellwasp to grab its prey and flee.
@@ -33,42 +35,43 @@ Hellwasps communicate with one another via a form of telepathy perceptible only 
 "ac_class": "natural armor"
 "hp": !!int "52"
 "hit_dice": "8d10 + 8"
+"modifier": !!int "2"
 "stats":
-- !!int "18"
-- !!int "15"
-- !!int "12"
-- !!int "10"
-- !!int "10"
-- !!int "7"
+  - !!int "18"
+  - !!int "15"
+  - !!int "12"
+  - !!int "10"
+  - !!int "10"
+  - !!int "7"
 "speed": "10 ft., fly 60 ft. (hover)"
 "saves":
-  "Dexterity": !!int "5"
-  "Wisdom": !!int "3"
+  - "dexterity": "+5"
+  - "wisdom": "+3"
 "damage_vulnerabilities": "cold"
 "damage_immunities": "fire"
 "senses": "darkvision 60 ft., passive Perception 10"
 "languages": "Infernal, telepathy 300 ft. (with other hellwasps only)"
 "cr": "5"
 "traits":
-- "desc": "The hellwasp's weapon attacks are magical."
-  "name": "Magic Weapons"
+  - "desc": "The hellwasp's weapon attacks are magical."
+    "name": "Magic Weapons"
 "actions":
-- "desc": "The hellwasp makes two attacks: one with its sting and one with its sword\
-    \ talons."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 8\
-    \ (1d8 + 4) piercing damage plus 7 (2d6) fire damage, and the target must\
-    \ succeed on a DC 12 Constitution saving throw or be [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
-    \ for 1 minute. While [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
-    \ in this way, the target is also [paralyzed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed).\
-    \ The target can repeat the saving throw at the end of each of its turns, ending\
-    \ the effect on itself on a success."
-  "name": "Sting"
-- "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
-    \ (2d6 + 4) piercing damage."
-  "name": "Sword Talons"
+  - "desc": "The hellwasp makes two attacks: one with its sting and one with its sword\
+      \ talons."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit:\
+      \ 8 (1d8 + 4) piercing damage plus 7 (2d6) fire damage, and the target must\
+      \ succeed on a DC 12 Constitution saving throw or be [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
+      \ for 1 minute. While [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)\
+      \ in this way, the target is also [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed).\
+      \ The target can repeat the saving throw at the end of each of its turns, ending\
+      \ the effect on itself on a success."
+    "name": "Sting"
+  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
+      \ (2d6 + 4) piercing damage."
+    "name": "Sword Talons"
 "source":
-- "BGDIA"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/fiend/token/hellwasp-bgdia.webp"
+  - "BGDIA"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/token/hellwasp-bgdia.webp"
 ```
 ^statblock

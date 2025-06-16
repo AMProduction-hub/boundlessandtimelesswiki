@@ -6,7 +6,8 @@ tags:
 - ttrpg-cli/deity/halfling
 - ttrpg-cli/domain/life
 - ttrpg-cli/domain/twilight
-aliases: ["Yondalla"]
+aliases: 
+- Yondalla
 ---
 # Yondalla
 *Source: Mordenkainen's Tome of Foes p. 102, Tasha's Cauldron of Everything p. 34* 

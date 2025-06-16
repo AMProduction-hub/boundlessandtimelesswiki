@@ -10,17 +10,18 @@ tags:
 - ttrpg-cli/spell/school/necromancy
 - ttrpg-cli/spell/subclass/circle-of-spores
 - ttrpg-cli/spell/subclass/divine-soul
-- ttrpg-cli/spell/subclass/oathbreaker-dmg
+- ttrpg-cli/spell/subclass/oathbreaker
 - ttrpg-cli/spell/subclass/the-undying
 classes:
 - Bard
 - Cleric
 - Druid
 - Druid (Circle of Spores)
-- Paladin (Oathbreaker (DMG))
+- Paladin (Oathbreaker)
 - Sorcerer (Divine Soul)
 - Warlock (The Undying)
-aliases: ["Contagion"]
+aliases:
+- Contagion
 ---
 # Contagion
 *5th-level, Necromancy*  
@@ -31,15 +32,15 @@ aliases: ["Contagion"]
 - **Components:** V, S
 - **Duration:** 7 days
 
-Your touch inflicts disease. Make a melee spell attack against a creature within your reach. On a hit, the target is [poisoned](conditions.md#Poisoned).
+Your touch inflicts disease. Make a melee spell attack against a creature within your reach. On a hit, the target is [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned).
 
-At the end of each of the [poisoned](conditions.md#Poisoned) target's turns, the target must make a Constitution saving throw. If the target succeeds on three of these saves, it is no longer [poisoned](conditions.md#Poisoned), and the spell ends. If the target fails three of these saves, the target is no longer [poisoned](conditions.md#Poisoned), but choose one of the diseases below. The target is subjected to the chosen disease for the spell's duration.
+At the end of each of the [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned) target's turns, the target must make a Constitution saving throw. If the target succeeds on three of these saves, it is no longer [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned), and the spell ends. If the target fails three of these saves, the target is no longer [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned), but choose one of the diseases below. The target is subjected to the chosen disease for the spell's duration.
 
 Since this spell induces a natural disease in its target, any effect that removes a disease or otherwise ameliorates a disease's effects apply to it.
 
 ## Blinding Sickness
 
-Pain grips the creature's mind, and its eyes turn milky white. The creature has disadvantage on Wisdom checks and Wisdom saving throws and is [blinded](conditions.md#Blinded).
+Pain grips the creature's mind, and its eyes turn milky white. The creature has disadvantage on Wisdom checks and Wisdom saving throws and is [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded).
 
 ## Filth Fever
 
@@ -51,7 +52,7 @@ The creature's flesh decays. The creature has disadvantage on Charisma checks an
 
 ## Mindfire
 
-The creature's mind becomes feverish. The creature has disadvantage on Intelligence checks and Intelligence saving throws, and the creature behaves as if under the effects of the [confusion](confusion.md) spell during combat.
+The creature's mind becomes feverish. The creature has disadvantage on Intelligence checks and Intelligence saving throws, and the creature behaves as if under the effects of the [confusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/confusion.md) spell during combat.
 
 ## Seizure
 
@@ -59,10 +60,10 @@ The creature is overcome with shaking. The creature has disadvantage on Dexterit
 
 ## Slimy Doom
 
-The creature begins to bleed uncontrollably. The creature has disadvantage on Constitution checks and Constitution saving throws. In addition, whenever the creature takes damage, it is [stunned](conditions.md#Stunned) until the end of its next turn.
+The creature begins to bleed uncontrollably. The creature has disadvantage on Constitution checks and Constitution saving throws. In addition, whenever the creature takes damage, it is [stunned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Stunned) until the end of its next turn.
 
 ## Summary
 
-**Classes**: [Druid](list-spells-classes-druid.md); [Cleric](list-spells-classes-cleric.md); [Paladin (Oathbreaker (DMG))](list-spells-classes-paladin-oathbreaker-dmg.md "subclass=DMG"); [Bard](list-spells-classes-bard.md); [Warlock (The Undying)](list-spells-classes-warlock-the-undying-scag.md "subclass=SCAG"); [Druid (Circle of Spores)](list-spells-classes-druid-circle-of-spores-tce.md "subclass=TCE"); [Sorcerer (Divine Soul)](list-spells-classes-sorcerer-divine-soul-xge.md "subclass=XGE")
+**Classes**: [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Druid (Circle of Spores)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-circle-of-spores-tce.md "subclass=TCE"); [Warlock (The Undying)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-the-undying-scag.md "subclass=SCAG"); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Sorcerer (Divine Soul)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-divine-soul-xge.md "subclass=XGE"); [Cleric](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-cleric.md); [Paladin (Oathbreaker)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-oathbreaker-dmg.md "subclass=DMG")
 
 *Source: Player's Handbook p. 227. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

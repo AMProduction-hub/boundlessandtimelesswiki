@@ -4,11 +4,12 @@ cssclasses: json5e-feat
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 - ttrpg-cli/feat
-aliases: ["Elven Accuracy"]
+aliases:
+- Elven Accuracy
 ---
 # Elven Accuracy
 *Source: Xanathar's Guide to Everything p. 74*  
-**Prerequisite**: [Elf](elf.md) or [Half-Elf](half-elf.md)
+**Prerequisite**: [Elf](03.PlayerLog&Handouts/Mechanics/CLI/races/elf.md) or [Half-Elf](03.PlayerLog&Handouts/Mechanics/CLI/races/half-elf.md)
 **Ability Score Increase**: Increase your Dexterity, Intelligence, Wisdom, or Charisma by 1, to a maximum of 20.
 The accuracy of elves is legendary, especially that of elf archers and spellcasters. You have uncanny aim with attacks that rely on precision rather than brute force. You gain the following benefits:
 

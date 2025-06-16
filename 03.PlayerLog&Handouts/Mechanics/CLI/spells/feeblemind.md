@@ -16,7 +16,8 @@ classes:
 - Druid
 - Warlock
 - Wizard
-aliases: ["Feeblemind"]
+aliases:
+- Feeblemind
 ---
 # Feeblemind
 *8th-level, Enchantment*  
@@ -33,8 +34,8 @@ On a failed save, the creature's Intelligence and Charisma scores become 1. The 
 
 At the end of every 30 days, the creature can repeat its saving throw against this spell. If it succeeds on its saving throw, the spell ends.
 
-The spell can also be ended by [greater restoration](greater-restoration.md), [heal](heal.md), or [wish](03.PlayerLog&Handouts/Mechanics/CLI/spells/wish.md).
+The spell can also be ended by [greater restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-restoration.md), [heal](03.PlayerLog&Handouts/Mechanics/CLI/spells/heal.md), or [wish](03.PlayerLog&Handouts/Mechanics/CLI/spells/wish.md).
 
-**Classes**: [Druid](list-spells-classes-druid.md); [Bard](list-spells-classes-bard.md); [Wizard](list-spells-classes-wizard.md); [Cleric (Arcana Domain)](list-spells-classes-cleric-arcana-domain-scag.md "subclass=SCAG"); [Warlock](list-spells-classes-warlock.md)
+**Classes**: [Cleric (Arcana Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcana-domain-scag.md "subclass=SCAG"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Druid](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-druid.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook p. 239. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

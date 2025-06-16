@@ -7,9 +7,11 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/humanoid/human
 statblock: inline
-aliases: ["Mortlock Vanthampur"]
+statblock-link: "#^statblock"
+aliases:
+- Mortlock Vanthampur
 ---
-# [Mortlock Vanthampur](03 - Player Log & Handouts\Mechanics\CLI\bestiary\npc/mortlock-vanthampur-bgdia.md)
+# [Mortlock Vanthampur](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\npc/mortlock-vanthampur-bgdia.md)
 *Source: Baldur's Gate: Descent Into Avernus p. 26*  
 
 Mortlock is tolerated by his mother, Duke Thalamra Vanthampur, and despised by his older brothers, Thurstwell and Amrik, who view him as a simpleton and an abomination. Half of Mortlock's face was scarred by fire when he was a child, and his disfigurement gives him a fearsome countenance.
@@ -23,35 +25,39 @@ Mortlock is tolerated by his mother, Duke Thalamra Vanthampur, and despised by h
 "ac": !!int "12"
 "hp": !!int "90"
 "hit_dice": "12d8 + 36"
+"modifier": !!int "2"
 "stats":
-- !!int "18"
-- !!int "14"
-- !!int "17"
-- !!int "10"
-- !!int "12"
-- !!int "13"
+  - !!int "18"
+  - !!int "14"
+  - !!int "17"
+  - !!int "10"
+  - !!int "12"
+  - !!int "13"
 "speed": "30 ft."
 "skillsaves":
-  "Intimidation": !!int "5"
-  "Athletics": !!int "6"
+  - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
+    "desc": "+6"
+  - "name": "[Intimidation](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation)"
+    "desc": "+5"
 "senses": "passive Perception 11"
 "languages": "Common"
 "cr": "3"
 "traits":
-- "desc": "Mortlock can reroll a saving throw that he fails. He must use the new roll."
-  "name": "Indomitable (2/Day)"
+  - "desc": "Mortlock can reroll a saving throw that he fails. He must use the new\
+      \ roll."
+    "name": "Indomitable (2/Day)"
 "actions":
-- "desc": "Mortlock makes two attacks with his greatclub."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (2d4\
-    \ + 4) bludgeoning damage, plus 5 (2d4) bludgeoning damage if Mortlock has\
-    \ taken any damage since his last turn."
-  "name": "Greatclub"
-- "desc": "Ranged Weapon Attack: +4 to hit, range 100/400 ft., one target. Hit:\
-    \ 7 (1d10 + 2) piercing damage."
-  "name": "Heavy Crossbow"
+  - "desc": "Mortlock makes two attacks with his greatclub."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9\
+      \ (2d4 + 4) bludgeoning damage, plus 5 (2d4) bludgeoning damage if Mortlock\
+      \ has taken any damage since his last turn."
+    "name": "Greatclub"
+  - "desc": "Ranged Weapon Attack: +4 to hit, range 100/400 ft., one target. Hit:\
+      \ 7 (1d10 + 2) piercing damage."
+    "name": "Heavy Crossbow"
 "source":
-- "BGDIA"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/npc/token/mortlock-vanthampur-bgdia.webp"
+  - "BGDIA"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/token/mortlock-vanthampur-bgdia.webp"
 ```
 ^statblock

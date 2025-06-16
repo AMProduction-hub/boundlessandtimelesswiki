@@ -7,10 +7,12 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/construct
 statblock: inline
-aliases: ["Stone Golem"]
+statblock-link: "#^statblock"
+aliases:
+- Stone Golem
 ---
-# [Stone Golem](03 - Player Log & Handouts\Mechanics\CLI\bestiary\construct/stone-golem.md)
-*Source: Monster Manual p. 170, Baldur's Gate: Descent Into Avernus, Sigil and the Outlands. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Stone Golem](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\construct/stone-golem.md)
+*Source: Monster Manual p. 170, Princes of the Apocalypse, Storm King's Thunder, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Ghosts of Saltmarsh, Dragon of Icespire Peak, Storm Lord's Wrath, Baldur's Gate: Descent Into Avernus, Infernal Machine Rebuild, Candlekeep Mysteries, Curse of Strahd, Journeys through the Radiant Citadel, Dragonlance: Shadow of the Dragon Queen, Keys from the Golden Vault. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 Stone golems display great variety in shape and form, cut and chiseled from stone to appear as tall, impressive statues. Though most bear humanoid features, stone golems can be carved in any form the sculptor can imagine. Ancient stone golems found in sealed tombs or flanking the gates of lost cities sometimes take the forms of giant beasts.
 
@@ -20,7 +22,7 @@ Like other golems, stone golems are nearly impervious to spells and ordinary wea
 
 Golems are made from humble materials-clay, flesh and bones, iron, or stone-but they possess astonishing power and durability. A golem has no ambitions, needs no sustenance, feels no pain, and knows no remorse. An unstoppable juggernaut, it exists to follow its creator's orders, and it protects or attacks as that creator demands.
 
-To create a golem, one requires a [manual of golems](manual-of-golems.md). The comprehensive illustrations and instructions in a manual detail the process for creating a golem of a particular type.
+To create a golem, one requires a [manual of golems](03.PlayerLog&Handouts/Mechanics/CLI/items/manual-of-golems.md). The comprehensive illustrations and instructions in a manual detail the process for creating a golem of a particular type.
 
 ### Elemental Spirit in Material Form
 
@@ -38,7 +40,7 @@ Golems can guard sacred sites, tombs, and treasure vaults long after the deaths 
 
 ### Blind Obedience
 
-When its creator or possessor is on hand to command it, a golem performs flawlessly. If the golem is left without instructions or is [incapacitated](conditions.md#Incapacitated), it continues to follow its last orders to the best of its ability. When it can't fulfill its orders, a golem might react violently-or stand and do nothing. A golem that has been given conflicting orders sometimes alternates between them.
+When its creator or possessor is on hand to command it, a golem performs flawlessly. If the golem is left without instructions or is [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated), it continues to follow its last orders to the best of its ability. When it can't fulfill its orders, a golem might react violently-or stand and do nothing. A golem that has been given conflicting orders sometimes alternates between them.
 
 ### Constructed Nature
 
@@ -53,51 +55,64 @@ A golem doesn't require air, food, drink, or sleep.
 "ac_class": "natural armor"
 "hp": !!int "178"
 "hit_dice": "17d10 + 85"
+"modifier": !!int "-1"
 "stats":
-- !!int "22"
-- !!int "9"
-- !!int "20"
-- !!int "3"
-- !!int "11"
-- !!int "1"
+  - !!int "22"
+  - !!int "9"
+  - !!int "20"
+  - !!int "3"
+  - !!int "11"
+  - !!int "1"
 "speed": "30 ft."
 "damage_immunities": "poison; psychic; bludgeoning, piercing, slashing from nonmagical\
   \ attacks that aren't adamantine"
-"condition_immunities": "[charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
-  \ [exhaustion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
-  \ [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
-  \ [paralyzed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
-  \ [petrified](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
-  \ [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
+  \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
+  \ [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
+  \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
+  \ [petrified](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Petrified),\
+  \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "darkvision 120 ft., passive Perception 10"
 "languages": "understands the languages of its creator but can't speak"
 "cr": "10"
 "traits":
-- "desc": "The golem is immune to any spell or effect that would alter its form."
-  "name": "Immutable Form"
-- "desc": "The golem has advantage on saving throws against spells and other magical\
-    \ effects."
-  "name": "Magic Resistance"
-- "desc": "The golem's weapon attacks are magical."
-  "name": "Magic Weapons"
+  - "desc": "The golem is immune to any spell or effect that would alter its form."
+    "name": "Immutable Form"
+  - "desc": "The golem has advantage on saving throws against spells and other magical\
+      \ effects."
+    "name": "Magic Resistance"
+  - "desc": "The golem's weapon attacks are magical."
+    "name": "Magic Weapons"
 "actions":
-- "desc": "The golem makes two slam attacks."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 19\
-    \ (3d8 + 6) bludgeoning damage."
-  "name": "Slam"
-- "desc": "The golem targets one or more creatures it can see within 10 feet of it.\
-    \ Each target must make a DC 17 Wisdom saving throw against this magic. On a failed\
-    \ save, a target can't use reactions, its speed is halved, and it can't make more\
-    \ than one attack on its turn. In addition, the target can take either an action\
-    \ or a bonus action on its turn, not both. These effects last for 1 minute. A\
-    \ target can repeat the saving throw at the end of each of its turns, ending the\
-    \ effect on itself on a success."
-  "name": "Slow (Recharge 5-6)"
+  - "desc": "The golem makes two slam attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit:\
+      \ 19 (3d8 + 6) bludgeoning damage."
+    "name": "Slam"
+  - "desc": "The golem targets one or more creatures it can see within 10 feet of\
+      \ it. Each target must make a DC 17 Wisdom saving throw against this magic.\
+      \ On a failed save, a target can't use reactions, its speed is halved, and it\
+      \ can't make more than one attack on its turn. In addition, the target can take\
+      \ either an action or a bonus action on its turn, not both. These effects last\
+      \ for 1 minute. A target can repeat the saving throw at the end of each of its\
+      \ turns, ending the effect on itself on a success."
+    "name": "Slow (Recharge 5-6)"
 "source":
-- "MM"
-- "BGDIA"
-- "SatO"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/construct/token/stone-golem.webp"
+  - "MM"
+  - "PotA"
+  - "SKT"
+  - "ToA"
+  - "WDMM"
+  - "GoS"
+  - "DIP"
+  - "SLW"
+  - "BGDIA"
+  - "IMR"
+  - "CM"
+  - "CoS"
+  - "JttRC"
+  - "DSotDQ"
+  - "KftGV"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/construct/token/stone-golem.webp"
 ```
 ^statblock

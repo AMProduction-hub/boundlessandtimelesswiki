@@ -8,10 +8,12 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/beast
 statblock: inline
-aliases: ["Hunter Shark"]
+statblock-link: "#^statblock"
+aliases:
+- Hunter Shark
 ---
-# [Hunter Shark](03 - Player Log & Handouts\Mechanics\CLI\bestiary\beast/hunter-shark.md)
-*Source: Monster Manual p. 330, Sigil and the Outlands. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Hunter Shark](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/hunter-shark.md)
+*Source: Monster Manual p. 330, Princes of the Apocalypse, Storm King's Thunder, Tales from the Yawning Portal, Tomb of Annihilation, Ghosts of Saltmarsh, Dragon of Icespire Peak, Explorer's Guide to Wildemount. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 Smaller than a giant shark but larger and fiercer than a reef shark, a hunter shark haunts deep waters. It usually hunts alone, but multiple hunter sharks might feed in the same area. A fully grown hunter shark is 15 to 20 feet long.
 
@@ -24,33 +26,41 @@ Smaller than a giant shark but larger and fiercer than a reef shark, a hunter sh
 "ac_class": "natural armor"
 "hp": !!int "45"
 "hit_dice": "6d10 + 12"
+"modifier": !!int "1"
 "stats":
-- !!int "18"
-- !!int "13"
-- !!int "15"
-- !!int "1"
-- !!int "10"
-- !!int "4"
+  - !!int "18"
+  - !!int "13"
+  - !!int "15"
+  - !!int "1"
+  - !!int "10"
+  - !!int "4"
 "speed": "swim 40 ft."
 "skillsaves":
-  "Perception": !!int "2"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+2"
 "senses": "blindsight 30 ft., passive Perception 12"
 "languages": ""
 "cr": "2"
 "traits":
-- "desc": "The shark has advantage on melee attack rolls against any creature that\
-    \ doesn't have all its hit points."
-  "name": "Blood Frenzy"
-- "desc": "The shark can breathe only underwater."
-  "name": "Water Breathing"
+  - "desc": "The shark has advantage on melee attack rolls against any creature that\
+      \ doesn't have all its hit points."
+    "name": "Blood Frenzy"
+  - "desc": "The shark can breathe only underwater."
+    "name": "Water Breathing"
 "actions":
-- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13\
-    \ (2d8 + 4) piercing damage."
-  "name": "Bite"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13\
+      \ (2d8 + 4) piercing damage."
+    "name": "Bite"
 "source":
-- "MM"
-- "SatO"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/beast/token/hunter-shark.webp"
+  - "MM"
+  - "PotA"
+  - "SKT"
+  - "TftYP"
+  - "ToA"
+  - "GoS"
+  - "DIP"
+  - "EGW"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/hunter-shark.webp"
 ```
 ^statblock
 

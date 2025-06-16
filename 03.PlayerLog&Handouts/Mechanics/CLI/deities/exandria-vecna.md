@@ -8,11 +8,12 @@ tags:
 - ttrpg-cli/domain/death
 - ttrpg-cli/domain/grave
 - ttrpg-cli/domain/knowledge
-aliases: ["Vecna"]
+aliases: 
+- Vecna
 ---
 # Vecna
 *Source: Explorer's Guide to Wildemount p. 29, Sword Coast Adventurer's Guide p. 125* 
-![](egw-symbol-of-vecna.webp#symbol)
+![](03.PlayerLog&Handouts/Mechanics/CLI/deities/img/egw-symbol-of-vecna.webp#symbol)
 
 - **Alignment**: Neutral Evil
 - **Category**: Betrayer Gods

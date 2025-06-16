@@ -21,7 +21,7 @@ The sphere is stationary until someone controls it. If you are within 60 feet of
 
 If you attempt to control a sphere that is under another creature's control, you make an Intelligence ([Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)) check contested by the other creature's Intelligence ([Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)) check. The winner of the contest gains control of the sphere and can levitate it as normal.
 
-If the sphere comes into contact with a planar portal, such as that created by the [gate](gate.md) spell, or an extradimensional space, such as that within a [portable hole](portable-hole.md), the DM determines randomly what happens, using the following table.
+If the sphere comes into contact with a planar portal, such as that created by the [gate](03.PlayerLog&Handouts/Mechanics/CLI/spells/gate.md) spell, or an extradimensional space, such as that within a [portable hole](03.PlayerLog&Handouts/Mechanics/CLI/items/portable-hole.md), the DM determines randomly what happens, using the following table.
 
 `dice: [](sphere-of-annihilation.md#^result)`
 

@@ -8,10 +8,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/aberration
 statblock: inline
-aliases: ["Nothic"]
+statblock-link: "#^statblock"
+aliases:
+- Nothic
 ---
-# [Nothic](03 - Player Log & Handouts\Mechanics\CLI\bestiary\aberration/nothic.md)
-*Source: Monster Manual p. 236, Lost Mine of Phandelver, Baldur's Gate: Descent Into Avernus. Available in the Basic Rules (2014)*  
+# [Nothic](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\aberration/nothic.md)
+*Source: Monster Manual p. 236, Curse of Strahd, Lost Mine of Phandelver, Princes of the Apocalypse, Tomb of Annihilation, Waterdeep: Dungeon of the Mad Mage, Baldur's Gate: Descent Into Avernus, Explorer's Guide to Wildemount, Mythic Odysseys of Theros, Icewind Dale: Rime of the Frostmaiden, Journeys through the Radiant Citadel, Keys from the Golden Vault. Available in the Basic Rules (2014)*  
 
 A baleful eye peers out from the darkness, its gleam hinting at a weird intelligence and unnerving malevolence. Most times, a nothic is content to watch, weighing and assessing the creatures it encounters. When driven to violence, it uses its horrific gaze to rot the flesh from its enemies' bones.
 
@@ -36,47 +38,61 @@ Nothics are notorious for infiltrating arcane academies and other places rich in
 "ac_class": "natural armor"
 "hp": !!int "45"
 "hit_dice": "6d8 + 18"
+"modifier": !!int "3"
 "stats":
-- !!int "14"
-- !!int "16"
-- !!int "16"
-- !!int "13"
-- !!int "10"
-- !!int "8"
+  - !!int "14"
+  - !!int "16"
+  - !!int "16"
+  - !!int "13"
+  - !!int "10"
+  - !!int "8"
 "speed": "30 ft."
 "skillsaves":
-  "Stealth": !!int "5"
-  "Insight": !!int "4"
-  "Perception": !!int "2"
-  "Arcana": !!int "3"
+  - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
+    "desc": "+3"
+  - "name": "[Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight)"
+    "desc": "+4"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+2"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+5"
 "senses": "truesight 120 ft., passive Perception 12"
 "languages": "Undercommon"
 "cr": "2"
 "traits":
-- "desc": "The nothic has advantage on Wisdom ([Perception](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/skills.md#Perception))\
-    \ checks that rely on sight."
-  "name": "Keen Sight"
+  - "desc": "The nothic has advantage on Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception))\
+      \ checks that rely on sight."
+    "name": "Keen Sight"
 "actions":
-- "desc": "The nothic makes two claw attacks."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d6\
-    \ + 3) slashing damage."
-  "name": "Claw"
-- "desc": "The nothic targets one creature it can see within 30 feet of it. The target\
-    \ must succeed on a DC 12 Constitution saving throw against this magic or take\
-    \ 10 (3d6) necrotic damage."
-  "name": "Rotting Gaze"
-- "desc": "The nothic targets one creature it can see within 30 feet of it. The target\
-    \ must contest its Charisma ([Deception](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/skills.md#Deception))\
-    \ check against the nothic's Wisdom ([Insight](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/skills.md#Insight))\
-    \ check. If the nothic wins, it magically learns one fact or secret about the\
-    \ target. The target automatically wins if it is immune to being [charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed)."
-  "name": "Weird Insight"
+  - "desc": "The nothic makes two claw attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6\
+      \ (1d6 + 3) slashing damage."
+    "name": "Claw"
+  - "desc": "The nothic targets one creature it can see within 30 feet of it. The\
+      \ target must succeed on a DC 12 Constitution saving throw against this magic\
+      \ or take 10 (3d6) necrotic damage."
+    "name": "Rotting Gaze"
+  - "desc": "The nothic targets one creature it can see within 30 feet of it. The\
+      \ target must contest its Charisma ([Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception))\
+      \ check against the nothic's Wisdom ([Insight](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Insight))\
+      \ check. If the nothic wins, it magically learns one fact or secret about the\
+      \ target. The target automatically wins if it is immune to being [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed)."
+    "name": "Weird Insight"
 "source":
-- "MM"
-- "LMoP"
-- "BGDIA"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/aberration/token/nothic.webp"
+  - "MM"
+  - "CoS"
+  - "LMoP"
+  - "PotA"
+  - "ToA"
+  - "WDMM"
+  - "BGDIA"
+  - "EGW"
+  - "MOT"
+  - "IDRotF"
+  - "JttRC"
+  - "KftGV"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/token/nothic.webp"
 ```
 ^statblock
 

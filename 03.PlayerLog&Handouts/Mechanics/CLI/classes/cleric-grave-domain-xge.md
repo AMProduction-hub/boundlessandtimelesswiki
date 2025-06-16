@@ -5,10 +5,11 @@ tags:
 - ttrpg-cli/compendium/src/5e/xge
 - ttrpg-cli/domain/grave
 - ttrpg-cli/subclass/cleric/grave
-aliases: ["Grave Domain"]
+aliases:
+- Grave Domain
 ---
 # Grave Domain
-*[Cleric](cleric.md): Divine Domain*  
+*[Cleric](./cleric.md): Divine Domain*  
 *Source: Xanathar's Guide to Everything p. 19*  
 
 > [!tldr] Class and Feature Progression
@@ -43,28 +44,32 @@ aliases: ["Grave Domain"]
 ^class-progression
 
 
+> [!quote] A quote from Xanathar  
+> 
+> I guess if you can't disintegrate them or eat them, burying dead bodies makes as much sense as anything else.
+
 ## Class Features
 
 ### Grave Domain (Level 1)
 
-Gods of the grave watch over the line between life and death. To these deities, death and the afterlife are a foundational part of the multiverse. To desecrate the peace of the dead is an abomination. Deities of the grave include Kelemvor, Wee Jas, the ancestral spirits of the Undying Court, Hades, Anubis, and Osiris. Followers of these deities seek to put wandering spirits to rest, destroy the undead, and ease the suffering of the dying. Their magic also allows them to stave off death for a time, particularly for a person who still has some great work to accomplish in the world. This is a delay of death, not a denial of it, for death will eventually get its due.
+Gods of the grave watch over the line between life and death. To these deities, death and the afterlife are a foundational part of the multiverse. To desecrate the peace of the dead is an abomination. Deities of the grave include Kelemvor, [Wee Jas](03.PlayerLog&Handouts/Mechanics/CLI/deities/greyhawk-wee-jas.md), the ancestral spirits of the Undying Court, [Hades](03.PlayerLog&Handouts/Mechanics/CLI/deities/greek-hades.md), [Anubis](03.PlayerLog&Handouts/Mechanics/CLI/deities/egyptian-anubis.md), and [Osiris](03.PlayerLog&Handouts/Mechanics/CLI/deities/egyptian-osiris.md). Followers of these deities seek to put wandering spirits to rest, destroy the undead, and ease the suffering of the dying. Their magic also allows them to stave off death for a time, particularly for a person who still has some great work to accomplish in the world. This is a delay of death, not a denial of it, for death will eventually get its due.
 
 **Grave Domain Spells**
 
 | Cleric Level | Spells |
 |--------------|--------|
-| 1st | [bane](bane.md), [false life](false-life.md) |
-| 3rd | [gentle repose](gentle-repose.md), [ray of enfeeblement](ray-of-enfeeblement.md) |
-| 5th | [revivify](revivify.md), [vampiric touch](vampiric-touch.md) |
-| 7th | [blight](blight.md), [death ward](death-ward.md) |
-| 9th | [antilife shell](antilife-shell.md), [raise dead](raise-dead.md) |
+| 1st | [bane](03.PlayerLog&Handouts/Mechanics/CLI/spells/bane.md), [false life](03.PlayerLog&Handouts/Mechanics/CLI/spells/false-life.md) |
+| 3rd | [gentle repose](03.PlayerLog&Handouts/Mechanics/CLI/spells/gentle-repose.md), [ray of enfeeblement](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-enfeeblement.md) |
+| 5th | [revivify](03.PlayerLog&Handouts/Mechanics/CLI/spells/revivify.md), [vampiric touch](03.PlayerLog&Handouts/Mechanics/CLI/spells/vampiric-touch.md) |
+| 7th | [blight](03.PlayerLog&Handouts/Mechanics/CLI/spells/blight.md), [death ward](03.PlayerLog&Handouts/Mechanics/CLI/spells/death-ward.md) |
+| 9th | [antilife shell](03.PlayerLog&Handouts/Mechanics/CLI/spells/antilife-shell.md), [raise dead](03.PlayerLog&Handouts/Mechanics/CLI/spells/raise-dead.md) |
 ^grave-domain-spells
 
 ### Circle of Mortality (Level 1)
 
 At 1st level, you gain the ability to manipulate the line between life and death. When you would normally roll one or more dice to restore hit points with a spell to a creature at 0 hit points, you instead use the highest number possible for each die.
 
-In addition, you learn the [spare the dying](spare-the-dying.md) cantrip, which doesn't count against the number of cleric cantrips you know. For you, it has a range of 30 feet, and you can cast it as a bonus action.
+In addition, you learn the [spare the dying](03.PlayerLog&Handouts/Mechanics/CLI/spells/spare-the-dying.md) cantrip, which doesn't count against the number of cleric cantrips you know. For you, it has a range of 30 feet, and you can cast it as a bonus action.
 
 ### Eyes of the Grave (Level 1)
 
@@ -91,10 +96,10 @@ Starting at 8th level, you add your Wisdom modifier to the damage you deal with 
 ### Blessed Strikes (Level 8)
 _Source: Tasha's Cauldron of Everything p. 30_
 
-*8th-level cleric [optional feature](optional-class-features-tce.md), which replaces the Potent Spellcasting feature*
+*8th-level cleric [optional feature](03.PlayerLog&Handouts/Mechanics/CLI/rules/variant-rules/optional-class-features-tce.md), which replaces the Potent Spellcasting feature*
 
-You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal `1d8` radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.
+You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal `d8` radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.
 
 ### Keeper of Souls (Level 17)
 
-Starting at 17th level, you can seize a trace of vitality from a parting soul and use it to heal the living. When an enemy you can see dies within 60 feet of you, you or one creature of your choice that is within 60 feet of you regains hit points equal to the enemy's number of Hit Dice. You can use this feature only if you aren't [incapacitated](conditions.md#Incapacitated). Once you use it, you can't do so again until the start of your next turn.
+Starting at 17th level, you can seize a trace of vitality from a parting soul and use it to heal the living. When an enemy you can see dies within 60 feet of you, you or one creature of your choice that is within 60 feet of you regains hit points equal to the enemy's number of Hit Dice. You can use this feature only if you aren't [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated). Once you use it, you can't do so again until the start of your next turn.

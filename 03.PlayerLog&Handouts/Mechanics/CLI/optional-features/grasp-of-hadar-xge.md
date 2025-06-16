@@ -4,9 +4,10 @@ cssclasses: json5e-feat
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 - ttrpg-cli/optional-feature/ei
-aliases: ["Grasp of Hadar"]
+aliases:
+- Grasp of Hadar
 ---
 # Grasp of Hadar
 *Source: Xanathar's Guide to Everything p. 57*  
-**Prerequisite**: [eldritch blast](eldritch-blast.md) cantrip
-Once on each of your turns when you hit a creature with your [eldritch blast](eldritch-blast.md), you can move that creature in a straight line 10 feet closer to you.
+**Prerequisite**: [eldritch blast](03.PlayerLog&Handouts/Mechanics/CLI/spells/eldritch-blast.md) cantrip
+Once on each of your turns when you hit a creature with your [eldritch blast](03.PlayerLog&Handouts/Mechanics/CLI/spells/eldritch-blast.md), you can move that creature in a straight line 10 feet closer to you.

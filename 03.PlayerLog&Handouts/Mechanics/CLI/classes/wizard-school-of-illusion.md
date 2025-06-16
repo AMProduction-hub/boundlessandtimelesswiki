@@ -4,10 +4,11 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/subclass/wizard/illusion
-aliases: ["School of Illusion"]
+aliases:
+- School of Illusion
 ---
 # School of Illusion
-*[Wizard](wizard.md): Arcane Tradition*  
+*[Wizard](./wizard.md): Arcane Tradition*  
 *Source: Player's Handbook p. 118*  
 
 > [!tldr] Class and Feature Progression
@@ -54,9 +55,9 @@ Beginning when you select this school at 2nd level, the gold and time you must s
 
 ### Improved Minor Illusion (Level 2)
 
-When you choose this school at 2nd level, you learn the [minor illusion](minor-illusion.md) cantrip. If you already know this cantrip, you learn a different wizard cantrip of your choice. The cantrip doesn't count against your number of cantrips known.
+When you choose this school at 2nd level, you learn the [minor illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md) cantrip. If you already know this cantrip, you learn a different wizard cantrip of your choice. The cantrip doesn't count against your number of cantrips known.
 
-When you cast [minor illusion](minor-illusion.md), you can create both a sound and an image with a single casting of the spell.
+When you cast [minor illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md), you can create both a sound and an image with a single casting of the spell.
 
 ### Malleable Illusions (Level 6)
 

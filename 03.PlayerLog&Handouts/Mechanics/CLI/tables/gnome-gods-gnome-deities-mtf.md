@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mtf
-aliases: ["Gnome Gods; Gnome Deities"]
+aliases:
+- Gnome Gods; Gnome Deities
 ---
 # Gnome Gods; Gnome Deities
 *Source: Mordenkainen's Tome of Foes p. 110* 
@@ -12,19 +13,19 @@ aliases: ["Gnome Gods; Gnome Deities"]
 
 | Deity | Alignment | Province | Suggested Domains | Common Symbol |
 |-------|-----------|----------|-------------------|---------------|
-| Baervan Wildwanderer | NG | Woodlands | Nature | Face of a raccoon |
-| Baravar Cloakshadow | NG | Illusion, deception | Arcana,** Trickery | Dagger against a hooded cloak |
-| Bleredd | N | Labor, craft | Forge,* Light | Iron mule |
-| Callarduran Smoothhands | N | Mining, stone carving | Knowledge, Nature | Golden signet ring with six pointed star |
-| Flandal Steelskin | NG | Metalwork Forge,* | Knowledge | Flaming hammer |
-| Gaerdal Ironhand | LG | Protection | War | Iron band |
-| Garl Glittergold | LG | Primary god of gnomes | Trickery | Gold nugget |
-| Gelf Darkhearth | CN | Frustration, destruction | War | Broken anvil |
-| Nebelun | CG | Invention, luck | Forge,* Knowledge, Trickery | Bellows and lizard tail |
-| Rill Cleverthrush | LN | Law, thought | Knowledge | Interlocking gears |
-| Segojan Earthcaller | NG | Earth, the dead | Grave,* Light | Glowing gemstone |
-| Sheyanna Flaxenstrand | CG | Love, beauty, passion | Light | Two silver goblets |
-| Urdlen | CE | Greed, murder | Death, War | Whiteclawed mole emerging from ground |
+| [Baervan Wildwanderer](03.PlayerLog&Handouts/Mechanics/CLI/deities/gnome-baervan-wildwanderer-mtf.md) | NG | Woodlands | Nature | Face of a raccoon |
+| [Baravar Cloakshadow](03.PlayerLog&Handouts/Mechanics/CLI/deities/gnome-baravar-cloakshadow-mtf.md) | NG | Illusion, deception | Arcana,** Trickery | Dagger against a hooded cloak |
+| [Bleredd](03.PlayerLog&Handouts/Mechanics/CLI/deities/gnome-bleredd-mtf.md) | N | Labor, craft | Forge,* Light | Iron mule |
+| [Callarduran Smoothhands](03.PlayerLog&Handouts/Mechanics/CLI/deities/gnome-callarduran-smoothhands-mtf.md) | N | Mining, stone carving | Knowledge, Nature | Golden signet ring with six pointed star |
+| [Flandal Steelskin](03.PlayerLog&Handouts/Mechanics/CLI/deities/gnome-flandal-steelskin-mtf.md) | NG | Metalwork Forge,* | Knowledge | Flaming hammer |
+| [Gaerdal Ironhand](03.PlayerLog&Handouts/Mechanics/CLI/deities/gnome-gaerdal-ironhand-mtf.md) | LG | Protection | War | Iron band |
+| [Garl Glittergold](03.PlayerLog&Handouts/Mechanics/CLI/deities/gnome-garl-glittergold-mtf.md) | LG | Primary god of gnomes | Trickery | Gold nugget |
+| [Gelf Darkhearth](03.PlayerLog&Handouts/Mechanics/CLI/deities/gnome-gelf-darkhearth-mtf.md) | CN | Frustration, destruction | War | Broken anvil |
+| [Nebelun](03.PlayerLog&Handouts/Mechanics/CLI/deities/gnome-nebelun-mtf.md) | CG | Invention, luck | Forge,* Knowledge, Trickery | Bellows and lizard tail |
+| [Rill Cleverthrush](03.PlayerLog&Handouts/Mechanics/CLI/deities/gnome-rill-cleverthrush-mtf.md) | LN | Law, thought | Knowledge | Interlocking gears |
+| [Segojan Earthcaller](03.PlayerLog&Handouts/Mechanics/CLI/deities/gnome-segojan-earthcaller-mtf.md) | NG | Earth, the dead | Grave,* Light | Glowing gemstone |
+| [Sheyanna Flaxenstrand](03.PlayerLog&Handouts/Mechanics/CLI/deities/gnome-sheyanna-flaxenstrand-mtf.md) | CG | Love, beauty, passion | Light | Two silver goblets |
+| [Urdlen](03.PlayerLog&Handouts/Mechanics/CLI/deities/gnome-urdlen-mtf.md) | CE | Greed, murder | Death, War | Whiteclawed mole emerging from ground |
 ^gnome-deities
 
 *Appears in *Xanathar's Guide to Everything*

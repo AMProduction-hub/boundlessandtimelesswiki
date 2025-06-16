@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/mm
-aliases: ["Credits"]
+aliases:
+- Credits
 ---
 # Credits
 *Source: Monster Manual (2014)* 
@@ -29,4 +30,4 @@ aliases: ["Credits"]
 - **Playtesting provided by.** over 175,000 fans of D&D. Thank you!  
 - **Additional feedback provided by.** Robert Alaniz, Anthony Caroselli, Josh Dillard, Curt Duval, Sam E. Simpson Jr., Adam Hennebeck, Sterling Hershey, Paul Hughes, Doug Irwin, Ken J. Breese, Yan Lacharité, Tom Lommel, Jonathan Longstaff, Rory Madden, Matt Maranda, Paul Melamed, Mike Mihalas, David Milman, Daren Mitchell, Claudio Pozas, John Proudfoot, Karl Resch, M. Sean Molley, Sam Sherry, Pieter Sleijpen, David "Oak" Stark, Vincent Venturella, Fredrick Wheeler, Arthur Wright  
 
-![On the Cover: Raymond Swan...](mmcover.webp#center "On the Cover: Raymond Swanland illustrates the Xanathar ambushing explorers in the darkest depths of Undermountain, proving that the beholder crime lord's interests run deep beneath the city of Waterdeep.")
+![On the Cover: Raymond Swan...](03.PlayerLog&Handouts/Mechanics/CLI/books/monster-manual-2014/img/mmcover.webp#center "On the Cover: Raymond Swanland illustrates the Xanathar ambushing explorers in the darkest depths of Undermountain, proving that the beholder crime lord's interests run deep beneath the city of Waterdeep.")

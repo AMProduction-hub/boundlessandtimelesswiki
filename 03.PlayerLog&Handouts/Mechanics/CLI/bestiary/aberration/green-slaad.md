@@ -7,10 +7,12 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/aberration/shapechanger
 statblock: inline
-aliases: ["Green Slaad"]
+statblock-link: "#^statblock"
+aliases:
+- Green Slaad
 ---
-# [Green Slaad](03 - Player Log & Handouts\Mechanics\CLI\bestiary\aberration/green-slaad.md)
-*Source: Monster Manual p. 277, Sigil and the Outlands*  
+# [Green Slaad](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\aberration/green-slaad.md)
+*Source: Monster Manual p. 277, Waterdeep: Dungeon of the Mad Mage, Icewind Dale: Rime of the Frostmaiden, Dragonlance: Shadow of the Dragon Queen*  
 
 Green slaadi are surprisingly intelligent and possess innate spellcasting ability. A green slaad can change its shape to appear as a humanoid. If it was born of a humanoid host, the slaad usually adopts its host's form.
 
@@ -40,13 +42,13 @@ Some slaadi can transform into the humanoid creatures from which they were origi
 > 
 > A slaad born from something other than the Spawning Stone has no gem in its brain, but it gains one if it ever comes into contact with the Spawning Stone. Slaadi on Limbo are attracted to the Spawning Stone, so most end up with a gem. A slaad with a control gem in its brain has the following additional trait.
 > 
-> **Control Gem.** Implanted in the slaad's brain is a magic control gem. The slaad must obey whoever possesses the gem and is immune to being [charmed](conditions.md#Charmed) while so controlled.
+> **Control Gem.** Implanted in the slaad's brain is a magic control gem. The slaad must obey whoever possesses the gem and is immune to being [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed) while so controlled.
 > 
 > Certain spells can be used to acquire the gem. If the slaad fails its saving throw against imprisonment, the spell can transfer the gem to the spellcaster's open hand, instead of imprisoning the slaad. A [wish](03.PlayerLog&Handouts/Mechanics/CLI/spells/wish.md) spell, if cast in the slaad's presence, can be worded to acquire the gem.
 > 
-> A [greater restoration](greater-restoration.md) spell cast on the slaad destroys the gem without harming the slaad.
+> A [greater restoration](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-restoration.md) spell cast on the slaad destroys the gem without harming the slaad.
 > 
-> Someone who is proficient in Wisdom ([Medicine](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Medicine)) can remove the gem from an [incapacitated](conditions.md#Incapacitated) slaad. Each try requires 1 minute of uninterrupted work and a successful DC 20 Wisdom ([Medicine](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Medicine)) check. Each failed attempt deals 22 (`4d10`) psychic damage to the slaad.
+> Someone who is proficient in Wisdom ([Medicine](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Medicine)) can remove the gem from an [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated) slaad. Each try requires 1 minute of uninterrupted work and a successful DC 20 Wisdom ([Medicine](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Medicine)) check. Each failed attempt deals 22 (`4d10`) psychic damage to the slaad.
 ^variant-slaad-control-gems
 
 > [!quote]  
@@ -64,63 +66,66 @@ Some slaadi can transform into the humanoid creatures from which they were origi
 "ac_class": "natural armor"
 "hp": !!int "127"
 "hit_dice": "15d10 + 45"
+"modifier": !!int "2"
 "stats":
-- !!int "18"
-- !!int "15"
-- !!int "16"
-- !!int "11"
-- !!int "8"
-- !!int "12"
+  - !!int "18"
+  - !!int "15"
+  - !!int "16"
+  - !!int "11"
+  - !!int "8"
+  - !!int "12"
 "speed": "30 ft."
 "skillsaves":
-  "Perception": !!int "2"
-  "Arcana": !!int "3"
+  - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
+    "desc": "+3"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+2"
 "damage_resistances": "acid, cold, fire, lightning, thunder"
 "senses": "blindsight 30 ft., darkvision 60 ft., passive Perception 12"
 "languages": "Slaad, telepathy 60 ft."
 "cr": "8"
 "traits":
-- "desc": "The slaad's innate spellcasting ability is Charisma (spell save DC 12).\
-    \ The slaad can innately cast the following spells, requiring no material components:\n\
-    \nAt will: [detect magic](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/detect-magic.md),\
-    \ [detect thoughts](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
-    \ [mage hand](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/mage-hand.md)\n\
-    \n1/day: [fireball](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/fireball.md)\n\
-    \n2/day each: [fear](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/fear.md),\
-    \ [invisibility](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/invisibility.md)\
-    \ (self only)"
-  "name": "Innate Spellcasting"
-- "desc": "The slaad can use its action to polymorph into a Small or Medium humanoid,\
-    \ or back into its true form. Its statistics, other than its size, are the same\
-    \ in each form. Any equipment it is wearing or carrying isn't transformed. It\
-    \ reverts to its true form if it dies."
-  "name": "Shapechanger"
-- "desc": "The slaad has advantage on saving throws against spells and other magical\
-    \ effects."
-  "name": "Magic Resistance"
-- "desc": "The slaad regains 10 hit points at the start of its turn if it has at least\
-    \ 1 hit point."
-  "name": "Regeneration"
+  - "desc": "The slaad's innate spellcasting ability is Charisma (spell save DC 12).\
+      \ The slaad can innately cast the following spells, requiring no material components:\n\
+      \nAt will: [detect magic](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-magic.md),\
+      \ [detect thoughts](03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md),\
+      \ [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md)\n\n2/day\
+      \ each: [fear](03.PlayerLog&Handouts/Mechanics/CLI/spells/fear.md), [invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md)\
+      \ (self only)\n\n1/day: [fireball](03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md)"
+    "name": "Innate Spellcasting"
+  - "desc": "The slaad can use its action to polymorph into a Small or Medium humanoid,\
+      \ or back into its true form. Its statistics, other than its size, are the same\
+      \ in each form. Any equipment it is wearing or carrying isn't transformed. It\
+      \ reverts to its true form if it dies."
+    "name": "Shapechanger"
+  - "desc": "The slaad has advantage on saving throws against spells and other magical\
+      \ effects."
+    "name": "Magic Resistance"
+  - "desc": "The slaad regains 10 hit points at the start of its turn if it has at\
+      \ least 1 hit point."
+    "name": "Regeneration"
 "actions":
-- "desc": "The slaad makes three attacks: one with its bite and two with its claws\
-    \ or staff. Alternatively, it uses its Hurl Flame twice."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
-    \ (2d6 + 4) piercing damage."
-  "name": "Bite (Slaad Form Only)"
-- "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6\
-    \ + 4) slashing damage."
-  "name": "Claw (Slaad Form Only)"
-- "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
-    \ (2d6 + 4) bludgeoning damage."
-  "name": "Staff"
-- "desc": "Ranged Spell Attack: +4 to hit, range 60 ft., one target. Hit: 10\
-    \ (3d6) fire damage. The fire ignites flammable objects that aren't being worn\
-    \ or carried."
-  "name": "Hurl Flame"
+  - "desc": "The slaad makes three attacks: one with its bite and two with its claws\
+      \ or staff. Alternatively, it uses its Hurl Flame twice."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
+      \ (2d6 + 4) piercing damage."
+    "name": "Bite (Slaad Form Only)"
+  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7\
+      \ (1d6 + 4) slashing damage."
+    "name": "Claw (Slaad Form Only)"
+  - "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11\
+      \ (2d6 + 4) bludgeoning damage."
+    "name": "Staff"
+  - "desc": "Ranged Spell Attack: +4 to hit, range 60 ft., one target. Hit:\
+      \ 10 (3d6) fire damage. The fire ignites flammable objects that aren't being\
+      \ worn or carried."
+    "name": "Hurl Flame"
 "source":
-- "MM"
-- "SatO"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/aberration/token/green-slaad.webp"
+  - "MM"
+  - "WDMM"
+  - "IDRotF"
+  - "DSotDQ"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/aberration/token/green-slaad.webp"
 ```
 ^statblock

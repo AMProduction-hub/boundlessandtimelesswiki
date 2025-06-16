@@ -8,10 +8,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/humanoid/elf
 statblock: inline
-aliases: ["Drow Mage"]
+statblock-link: "#^statblock"
+aliases:
+- Drow Mage
 ---
-# [Drow Mage](03 - Player Log & Handouts\Mechanics\CLI\bestiary\humanoid/drow-mage.md)
-*Source: Monster Manual p. 129*  
+# [Drow Mage](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/drow-mage.md)
+*Source: Monster Manual p. 129, Princes of the Apocalypse, Storm King's Thunder, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dragon Heist, Waterdeep: Dungeon of the Mad Mage, Divine Contention, Dragon of Icespire Peak, Icewind Dale: Rime of the Frostmaiden, Candlekeep Mysteries*  
 
 ## Drow
 
@@ -51,7 +53,7 @@ In drow society, males are subservient to females. A male drow might lead an Und
 
 ### Poison Predilection
 
-Distilled from spider venom and the flora of the Underdark, poison can be found in abundance among the drow, and it plays an important part in their culture and politics. Drow mages concoct a viscid toxin that leaves enemies [unconscious](conditions.md#Unconscious). Drow warriors coat their blades and crossbow bolts with this venom, looking forward to the interrogation and torture that follows combat.
+Distilled from spider venom and the flora of the Underdark, poison can be found in abundance among the drow, and it plays an important part in their culture and politics. Drow mages concoct a viscid toxin that leaves enemies [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious). Drow warriors coat their blades and crossbow bolts with this venom, looking forward to the interrogation and torture that follows combat.
 
 > [!note] Variant: Drow Magic Armor and Weapons
 > 
@@ -74,75 +76,87 @@ Distilled from spider venom and the flora of the Underdark, poison can be found 
 "subtype": "elf"
 "alignment": "Neutral Evil"
 "ac": !!int "12"
-"ac_class": "15 with [mage armor](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/mage-armor.md)"
+"ac_class": "15 with [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md)"
 "hp": !!int "45"
 "hit_dice": "10d8"
+"modifier": !!int "2"
 "stats":
-- !!int "9"
-- !!int "14"
-- !!int "10"
-- !!int "17"
-- !!int "13"
-- !!int "12"
+  - !!int "9"
+  - !!int "14"
+  - !!int "10"
+  - !!int "17"
+  - !!int "13"
+  - !!int "12"
 "speed": "30 ft."
 "skillsaves":
-  "Deception": !!int "4"
-  "Stealth": !!int "5"
-  "Perception": !!int "4"
-  "Arcana": !!int "6"
+  - "name": "[Arcana](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Arcana)"
+    "desc": "+6"
+  - "name": "[Deception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Deception)"
+    "desc": "+4"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+4"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+5"
 "senses": "darkvision 120 ft., passive Perception 14"
 "languages": "Elvish, Undercommon"
 "cr": "7"
 "traits":
-- "desc": "The drow's spellcasting ability is Charisma (spell save DC 12). It can\
-    \ innately cast the following spells, requiring no material components:\n\nAt\
-    \ will: [dancing lights](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/dancing-lights.md)\n\
-    \n1/day each: [darkness](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/darkness.md),\
-    \ [faerie fire](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/faerie-fire.md),\
-    \ [levitate](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/levitate.md)\
-    \ (self only)"
-  "name": "Innate Spellcasting"
-- "desc": "The drow is a 10th-level spellcaster. Its spellcasting ability is Intelligence\
-    \ (spell save DC 14, +6 to hit with spell attacks). The drow has the following\
-    \ wizard spells prepared:\n\nCantrips (at will): [mage hand](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/mage-hand.md),\
-    \ [minor illusion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/minor-illusion.md),\
-    \ [poison spray](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/poison-spray.md),\
-    \ [ray of frost](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/ray-of-frost.md)\n\
-    \n1st level (4 slots): [mage armor](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/mage-armor.md),\
-    \ [magic missile](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/magic-missile.md),\
-    \ [shield](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/shield.md),\
-    \ [witch bolt](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/witch-bolt.md)\n\
-    \n2nd level (3 slots): [alter self](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/alter-self.md),\
-    \ [misty step](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/misty-step.md),\
-    \ [web](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/web.md)\n\n\
-    3rd level (3 slots): [fly](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/fly.md),\
-    \ [lightning bolt](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/lightning-bolt.md)\n\
-    \n4th level (3 slots): [Evard's black tentacles](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/evards-black-tentacles.md),\
-    \ [greater invisibility](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/greater-invisibility.md)\n\
-    \n5th level (2 slots): [cloudkill](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/spells/cloudkill.md)"
-  "name": "Spellcasting"
-- "desc": "The drow has advantage on saving throws against being [charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
-    \ and magic can't put the drow to sleep."
-  "name": "Fey Ancestry"
-- "desc": "While in sunlight, the drow has disadvantage on attack rolls, as well as\
-    \ on Wisdom ([Perception](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/skills.md#Perception))\
-    \ checks that rely on sight."
-  "name": "Sunlight Sensitivity"
+  - "desc": "The drow is a 10th-level spellcaster. Its spellcasting ability is Intelligence\
+      \ (spell save DC 14, +6 to hit with spell attacks). The drow has the following\
+      \ wizard spells prepared:\n\nCantrips (at will): [mage hand](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-hand.md),\
+      \ [minor illusion](03.PlayerLog&Handouts/Mechanics/CLI/spells/minor-illusion.md),\
+      \ [poison spray](03.PlayerLog&Handouts/Mechanics/CLI/spells/poison-spray.md),\
+      \ [ray of frost](03.PlayerLog&Handouts/Mechanics/CLI/spells/ray-of-frost.md)\n\
+      \n1st level (4 slots): [mage armor](03.PlayerLog&Handouts/Mechanics/CLI/spells/mage-armor.md),\
+      \ [magic missile](03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-missile.md),\
+      \ [shield](03.PlayerLog&Handouts/Mechanics/CLI/spells/shield.md), [witch bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/witch-bolt.md)\n\
+      \n2nd level (3 slots): [alter self](03.PlayerLog&Handouts/Mechanics/CLI/spells/alter-self.md),\
+      \ [misty step](03.PlayerLog&Handouts/Mechanics/CLI/spells/misty-step.md), [web](03.PlayerLog&Handouts/Mechanics/CLI/spells/web.md)\n\
+      \n3rd level (3 slots): [fly](03.PlayerLog&Handouts/Mechanics/CLI/spells/fly.md),\
+      \ [lightning bolt](03.PlayerLog&Handouts/Mechanics/CLI/spells/lightning-bolt.md)\n\
+      \n4th level (3 slots): [Evard's black tentacles](03.PlayerLog&Handouts/Mechanics/CLI/spells/evards-black-tentacles.md),\
+      \ [greater invisibility](03.PlayerLog&Handouts/Mechanics/CLI/spells/greater-invisibility.md)\n\
+      \n5th level (2 slots): [cloudkill](03.PlayerLog&Handouts/Mechanics/CLI/spells/cloudkill.md)"
+    "name": "Spellcasting"
+  - "desc": "The drow's spellcasting ability is Charisma (spell save DC 12). It can\
+      \ innately cast the following spells, requiring no material components:\n\n\
+      At will: [dancing lights](03.PlayerLog&Handouts/Mechanics/CLI/spells/dancing-lights.md)\n\
+      \n1/day each: [darkness](03.PlayerLog&Handouts/Mechanics/CLI/spells/darkness.md),\
+      \ [faerie fire](03.PlayerLog&Handouts/Mechanics/CLI/spells/faerie-fire.md),\
+      \ [levitate](03.PlayerLog&Handouts/Mechanics/CLI/spells/levitate.md) (self only)"
+    "name": "Innate Spellcasting"
+  - "desc": "The drow has advantage on saving throws against being [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
+      \ and magic can't put the drow to sleep."
+    "name": "Fey Ancestry"
+  - "desc": "While in sunlight, the drow has disadvantage on attack rolls, as well\
+      \ as on Wisdom ([Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception))\
+      \ checks that rely on sight."
+    "name": "Sunlight Sensitivity"
 "actions":
-- "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d6\
-    \ - 1) bludgeoning damage, or 3 (1d8 - 1) bludgeoning damage if used with two\
-    \ hands, plus 3 (1d6) poison damage."
-  "name": "Staff"
-- "desc": "The drow magically summons a [quasit](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/fiend/quasit.md),\
-    \ or attempts to summon a [shadow demon](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/fiend/shadow-demon.md)\
-    \ with a 50 percent chance of success. The summoned demon appears in an unoccupied\
-    \ space within 60 feet of its summoner, acts as an ally of its summoner, and can't\
-    \ summon other demons. It remains for 10 minutes, until it or its summoner dies,\
-    \ or until its summoner dismisses it as an action."
-  "name": "Summon Demon (1/Day)"
+  - "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2\
+      \ (1d6 - 1) bludgeoning damage, or 3 (1d8 - 1) bludgeoning damage if used\
+      \ with two hands, plus 3 (d6) poison damage."
+    "name": "Staff"
+  - "desc": "The drow magically summons a [quasit](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/quasit.md),\
+      \ or attempts to summon a [shadow demon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/shadow-demon.md)\
+      \ with a 50 percent chance of success. The summoned demon appears in an unoccupied\
+      \ space within 60 feet of its summoner, acts as an ally of its summoner, and\
+      \ can't summon other demons. It remains for 10 minutes, until it or its summoner\
+      \ dies, or until its summoner dismisses it as an action."
+    "name": "Summon Demon (1/Day)"
 "source":
-- "MM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/humanoid/token/drow-mage.webp"
+  - "MM"
+  - "PotA"
+  - "SKT"
+  - "TftYP"
+  - "ToA"
+  - "WDH"
+  - "WDMM"
+  - "DC"
+  - "DIP"
+  - "IDRotF"
+  - "CM"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/drow-mage.webp"
 ```
 ^statblock
 

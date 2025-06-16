@@ -10,7 +10,7 @@ aliases:
 ---
 # Deck of Many Things
 *Wondrous item, major, legendary*  
-![](deck-of-many-things.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/deck-of-many-things.webp#right)
 
 
 Usually found in a box or pouch, this deck contains a number of cards made of ivory or vellum. Most (75 percent) of these decks have only thirteen cards, but the rest have twenty-two.
@@ -65,7 +65,7 @@ You gain 50,000 XP, and a wondrous item (which the DM determines randomly) appea
 
 ## Moon
 
-You are granted the ability to cast the [wish](03.PlayerLog&Handouts/Mechanics/CLI/spells/wish.md) spell `1d3` times.
+You are granted the ability to cast the [wish](03.PlayerLog&Handouts/Mechanics/CLI/spells/wish.md) spell `d3` times.
 
 ## Star
 
@@ -101,7 +101,7 @@ Every magic item you wear or carry disintegrates. Artifacts in your possession a
 
 ## The Void
 
-This black card spells disaster. Your soul is drawn from your body and contained in an object in a place of the DM's choice. One or more powerful beings guard the place. While your soul is trapped in this way, your body is [incapacitated](conditions.md#Incapacitated). A [wish](03.PlayerLog&Handouts/Mechanics/CLI/spells/wish.md) spell can't restore your soul, but the spell reveals the location of the object that holds it. You draw no more cards.
+This black card spells disaster. Your soul is drawn from your body and contained in an object in a place of the DM's choice. One or more powerful beings guard the place. While your soul is trapped in this way, your body is [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated). A [wish](03.PlayerLog&Handouts/Mechanics/CLI/spells/wish.md) spell can't restore your soul, but the spell reveals the location of the object that holds it. You draw no more cards.
 
 ## Flames
 
@@ -109,7 +109,7 @@ A powerful devil becomes your enemy. The devil seeks your ruin and plagues your 
 
 ## Skull
 
-You summon an [avatar of death](avatar-of-death-dmg.md)—a ghostly humanoid skeleton clad in a tattered black robe and carrying a spectral scythe. It appears in a space of the DM's choice within 10 feet of you and attacks you, warning all others that you must win the battle alone. The avatar fights until you die or it drops to 0 hit points, whereupon it disappears. If anyone tries to help you, the helper summons its own [avatar of death](avatar-of-death-dmg.md). A creature slain by an [avatar of death](avatar-of-death-dmg.md) can't be restored to life.
+You summon an [avatar of death](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/avatar-of-death-dmg.md)—a ghostly humanoid skeleton clad in a tattered black robe and carrying a spectral scythe. It appears in a space of the DM's choice within 10 feet of you and attacks you, warning all others that you must win the battle alone. The avatar fights until you die or it drops to 0 hit points, whereupon it disappears. If anyone tries to help you, the helper summons its own [avatar of death](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/avatar-of-death-dmg.md). A creature slain by an [avatar of death](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/avatar-of-death-dmg.md) can't be restored to life.
 
 ## Idiot
 
@@ -125,7 +125,7 @@ All forms of wealth that you carry or own, other than magic items, are lost to y
 
 ## Euryale
 
-The card's [medusa](medusa.md)-like visage curses you. You take a −2 penalty on saving throws while cursed in this way. Only a god or the magic of [The Fates](03.PlayerLog&Handouts/Mechanics/CLI/decks/deck-of-many-things.md#The%20Fates) card can end this curse.
+The card's [medusa](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/medusa.md)-like visage curses you. You take a −2 penalty on saving throws while cursed in this way. Only a god or the magic of [The Fates](03.PlayerLog&Handouts/Mechanics/CLI/decks/deck-of-many-things.md#The%20Fates) card can end this curse.
 
 ## Rogue
 

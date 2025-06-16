@@ -8,10 +8,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/beast
 statblock: inline
-aliases: ["Ape"]
+statblock-link: "#^statblock"
+aliases:
+- Ape
 ---
-# [Ape](03 - Player Log & Handouts\Mechanics\CLI\bestiary\beast/ape.md)
-*Source: Monster Manual p. 317. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
+# [Ape](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/ape.md)
+*Source: Monster Manual p. 317, Tales from the Yawning Portal, Tomb of Annihilation, Waterdeep: Dragon Heist, Ghosts of Saltmarsh, Candlekeep Mysteries. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
 
 ```statblock
 "name": "Ape"
@@ -21,32 +23,40 @@ aliases: ["Ape"]
 "ac": !!int "12"
 "hp": !!int "19"
 "hit_dice": "3d8 + 6"
+"modifier": !!int "2"
 "stats":
-- !!int "16"
-- !!int "14"
-- !!int "14"
-- !!int "6"
-- !!int "12"
-- !!int "7"
+  - !!int "16"
+  - !!int "14"
+  - !!int "14"
+  - !!int "6"
+  - !!int "12"
+  - !!int "7"
 "speed": "30 ft., climb 30 ft."
 "skillsaves":
-  "Athletics": !!int "5"
-  "Perception": !!int "3"
+  - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
+    "desc": "+5"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+3"
 "senses": "passive Perception 13"
 "languages": ""
 "cr": "1/2"
 "actions":
-- "desc": "The ape makes two fist attacks."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6\
-    \ + 3) bludgeoning damage."
-  "name": "Fist"
-- "desc": "Ranged Weapon Attack: +5 to hit, range 25/50 ft., one target. Hit:\
-    \ 6 (1d6 + 3) bludgeoning damage."
-  "name": "Rock"
+  - "desc": "The ape makes two fist attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+      \ (1d6 + 3) bludgeoning damage."
+    "name": "Fist"
+  - "desc": "Ranged Weapon Attack: +5 to hit, range 25/50 ft., one target. Hit:\
+      \ 6 (1d6 + 3) bludgeoning damage."
+    "name": "Rock"
 "source":
-- "MM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/beast/token/ape.webp"
+  - "MM"
+  - "TftYP"
+  - "ToA"
+  - "WDH"
+  - "GoS"
+  - "CM"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/ape.webp"
 ```
 ^statblock
 

@@ -7,10 +7,12 @@ tags:
 - ttrpg-cli/monster/size/small
 - ttrpg-cli/monster/type/elemental
 statblock: inline
-aliases: ["Magmin"]
+statblock-link: "#^statblock"
+aliases:
+- Magmin
 ---
-# [Magmin](03 - Player Log & Handouts\Mechanics\CLI\bestiary\elemental/magmin.md)
-*Source: Monster Manual p. 212, Baldur's Gate: Descent Into Avernus, Sigil and the Outlands. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Magmin](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\elemental/magmin.md)
+*Source: Monster Manual p. 212, Princes of the Apocalypse, Storm King's Thunder, Tomb of Annihilation, Baldur's Gate: Descent Into Avernus. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 A grinning, mischievous magmin resembles a stumpy humanoid sculpted from a black shell of magma. Even when it isn't ablaze and radiating heat like a bonfire, small jets of flame erupt from its porous skin.
 
@@ -33,13 +35,14 @@ If it has the opportunity while in service to its master, a magmin seeks out are
 "ac_class": "natural armor"
 "hp": !!int "9"
 "hit_dice": "2d6 + 2"
+"modifier": !!int "2"
 "stats":
-- !!int "7"
-- !!int "15"
-- !!int "12"
-- !!int "8"
-- !!int "11"
-- !!int "10"
+  - !!int "7"
+  - !!int "15"
+  - !!int "12"
+  - !!int "8"
+  - !!int "11"
+  - !!int "10"
 "speed": "30 ft."
 "damage_resistances": "bludgeoning, piercing, slashing from nonmagical attacks"
 "damage_immunities": "fire"
@@ -47,25 +50,28 @@ If it has the opportunity while in service to its master, a magmin seeks out are
 "languages": "Ignan"
 "cr": "1/2"
 "traits":
-- "desc": "When the magmin dies, it explodes in a burst of fire and magma. Each creature\
-    \ within 10 feet of it must make a DC 11 Dexterity saving throw, taking 7 (2d6)\
-    \ fire damage on a failed save, or half as much damage on a successful one. Flammable\
-    \ objects that aren't being worn or carried in that area are ignited."
-  "name": "Death Burst"
-- "desc": "As a bonus action, the magmin can set itself ablaze or extinguish its flames.\
-    \ While ablaze, the magmin sheds bright light in a 10-foot radius and dim light\
-    \ for an additional 10 feet."
-  "name": "Ignited Illumination"
+  - "desc": "When the magmin dies, it explodes in a burst of fire and magma. Each\
+      \ creature within 10 feet of it must make a DC 11 Dexterity saving throw, taking\
+      \ 7 (2d6) fire damage on a failed save, or half as much damage on a successful\
+      \ one. Flammable objects that aren't being worn or carried in that area are\
+      \ ignited."
+    "name": "Death Burst"
+  - "desc": "As a bonus action, the magmin can set itself ablaze or extinguish its\
+      \ flames. While ablaze, the magmin sheds bright light in a 10-foot radius and\
+      \ dim light for an additional 10 feet."
+    "name": "Ignited Illumination"
 "actions":
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d6)\
-    \ fire damage. If the target is a creature or a flammable object, it ignites.\
-    \ Until a creature takes an action to douse the fire, the target takes 3 (1d6)\
-    \ fire damage at the end of each of its turns."
-  "name": "Touch"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7\
+      \ (2d6) fire damage. If the target is a creature or a flammable object, it\
+      \ ignites. Until a creature takes an action to douse the fire, the target takes\
+      \ 3 (d6) fire damage at the end of each of its turns."
+    "name": "Touch"
 "source":
-- "MM"
-- "BGDIA"
-- "SatO"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/elemental/token/magmin.webp"
+  - "MM"
+  - "PotA"
+  - "SKT"
+  - "ToA"
+  - "BGDIA"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/elemental/token/magmin.webp"
 ```
 ^statblock

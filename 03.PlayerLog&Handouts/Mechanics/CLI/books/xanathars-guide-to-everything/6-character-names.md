@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/xge
-aliases: ["Character Names"]
+aliases:
+- Character Names
 ---
 # Character Names
 *Source: Xanathar's Guide to Everything, p. 173* 
@@ -16,4 +17,4 @@ Even though names are associated with races in this  appendix, a character might
 
 See the names page for the full collection of name tables.
 
-![](ab001.webp#center)
+![](03.PlayerLog&Handouts/Mechanics/CLI/books/xanathars-guide-to-everything/img/ab001.webp#center)

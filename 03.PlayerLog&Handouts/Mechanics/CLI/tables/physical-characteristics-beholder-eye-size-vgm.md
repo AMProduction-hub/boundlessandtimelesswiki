@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
-aliases: ["Physical Characteristics; Beholder Eye Size"]
+aliases:
+- Physical Characteristics; Beholder Eye Size
 ---
 # Physical Characteristics; Beholder Eye Size
 *Source: Volo's Guide to Monsters p. 8* 

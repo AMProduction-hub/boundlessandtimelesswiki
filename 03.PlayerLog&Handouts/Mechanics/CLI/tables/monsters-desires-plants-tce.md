@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/tce
-aliases: ["Monsters' Desires; Plants"]
+aliases:
+- Monsters' Desires; Plants
 ---
 # Monsters' Desires; Plants
 *Source: Tasha's Cauldron of Everything p. 148* 

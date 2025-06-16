@@ -7,9 +7,11 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/undead
 statblock: inline
-aliases: ["Vampirate"]
+statblock-link: "#^statblock"
+aliases:
+- Vampirate
 ---
-# [Vampirate](03 - Player Log & Handouts\Mechanics\CLI\bestiary\undead/vampirate-bam.md)
+# [Vampirate](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\undead/vampirate-bam.md)
 *Source: Boo's Astral Menagerie p. 62, Light of Xaryxis*  
 
 Vampirates are the walking, talking husks of dead pirates who refused to go quietly into the afterlife. They ply the void in their ships, plundering unsuspecting vessels and feeding on the life energy of those unlucky enough to cross their path.
@@ -29,44 +31,45 @@ A ship crewed by vampirates usually has one or more shadows aboard—the Undead 
 "ac_class": "natural armor"
 "hp": !!int "42"
 "hit_dice": "5d8 + 20"
+"modifier": !!int "2"
 "stats":
-- !!int "12"
-- !!int "14"
-- !!int "18"
-- !!int "10"
-- !!int "11"
-- !!int "12"
+  - !!int "12"
+  - !!int "14"
+  - !!int "18"
+  - !!int "10"
+  - !!int "11"
+  - !!int "12"
 "speed": "30 ft."
 "damage_vulnerabilities": "radiant"
 "damage_immunities": "cold, necrotic, poison"
-"condition_immunities": "[charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
-  \ [exhaustion](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
-  \ [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
+  \ [exhaustion](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion),\
+  \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "darkvision 120 ft., passive Perception 10"
 "languages": "the languages it knew in life"
 "cr": "2"
 "traits":
-- "desc": "When the vampirate is reduced to 0 hit points, it explodes in a cloud of\
-    \ ash. Any creature within 5 feet of it must succeed on a DC 14 Constitution saving\
-    \ throw or take 5 (1d10) necrotic damage."
-  "name": "Explode"
-- "desc": "The vampirate can climb difficult surfaces, including upside down on ceilings,\
-    \ without needing to make an ability check."
-  "name": "Spider Climb"
-- "desc": "The vampirate doesn't require air or drink."
-  "name": "Unusual Nature"
+  - "desc": "When the vampirate is reduced to 0 hit points, it explodes in a cloud\
+      \ of ash. Any creature within 5 feet of it must succeed on a DC 14 Constitution\
+      \ saving throw or take 5 (d10) necrotic damage."
+    "name": "Explode"
+  - "desc": "The vampirate can climb difficult surfaces, including upside down on\
+      \ ceilings, without needing to make an ability check."
+    "name": "Spider Climb"
+  - "desc": "The vampirate doesn't require air or drink."
+    "name": "Unusual Nature"
 "actions":
-- "desc": "Melee or Ranged Spell Attack: +4 to hit, reach 5 ft. or range 30 ft.,\
-    \ one creature. Hit: 11 (2d10) necrotic damage. A Humanoid reduced to 0 hit\
-    \ points by this attack dies and instantly transforms into a free-willed shadow\
-    \ under the DM's control."
-  "name": "Energy Drain"
-- "desc": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit:\
-    \ 11 (2d8 + 2) piercing damage."
-  "name": "Light Crossbow"
+  - "desc": "Melee  or Ranged Spell Attack: +4 to hit, reach 5 ft. or range 30\
+      \ ft., one creature. Hit: 11 (2d10) necrotic damage. A Humanoid reduced\
+      \ to 0 hit points by this attack dies and instantly transforms into a free-willed\
+      \ shadow under the DM's control."
+    "name": "Energy Drain"
+  - "desc": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit:\
+      \ 11 (2d8 + 2) piercing damage."
+    "name": "Light Crossbow"
 "source":
-- "BAM"
-- "LoX"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/undead/token/vampirate-bam.webp"
+  - "BAM"
+  - "LoX"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/token/vampirate-bam.webp"
 ```
 ^statblock

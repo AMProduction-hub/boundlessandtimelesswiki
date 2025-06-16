@@ -16,7 +16,8 @@ classes:
 - Sorcerer
 - Warlock
 - Wizard
-aliases: ["Eyebite"]
+aliases:
+- Eyebite
 ---
 # Eyebite
 *6th-level, Necromancy*  
@@ -31,11 +32,11 @@ For the spell's duration, your eyes become an inky void imbued with dread power.
 
 ## Asleep
 
-The target falls [unconscious](conditions.md#Unconscious). It wakes up if it takes any damage or if another creature uses its action to shake the sleeper awake.
+The target falls [unconscious](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Unconscious). It wakes up if it takes any damage or if another creature uses its action to shake the sleeper awake.
 
 ## Panicked
 
-The target is [frightened](conditions.md#Frightened) of you. On each of its turns, the [frightened](conditions.md#Frightened) creature must take the [Dash](actions.md#Dash) action and move away from you by the safest and shortest available route, unless there is nowhere to move. If the target moves to a place at least 60 feet away from you where it can no longer see you, this effect ends.
+The target is [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened) of you. On each of its turns, the [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened) creature must take the [Dash](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Dash) action and move away from you by the safest and shortest available route, unless there is nowhere to move. If the target moves to a place at least 60 feet away from you where it can no longer see you, this effect ends.
 
 ## Sickened
 
@@ -43,6 +44,6 @@ The target has disadvantage on attack rolls and ability checks. At the end of ea
 
 ## Summary
 
-**Classes**: [Bard](list-spells-classes-bard.md); [Wizard](list-spells-classes-wizard.md); [Sorcerer](list-spells-classes-sorcerer.md); [Cleric (Arcana Domain)](list-spells-classes-cleric-arcana-domain-scag.md "subclass=SCAG"); [Warlock](list-spells-classes-warlock.md)
+**Classes**: [Cleric (Arcana Domain)](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-arcana-domain-scag.md "subclass=SCAG"); [Bard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-bard.md); [Warlock](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-warlock.md); [Sorcerer](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-sorcerer.md); [Wizard](03.PlayerLog&Handouts/Mechanics/CLI/lists/list-spells-classes-wizard.md)
 
 *Source: Player's Handbook p. 238. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

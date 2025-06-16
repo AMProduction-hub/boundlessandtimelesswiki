@@ -4,10 +4,11 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 - ttrpg-cli/subclass/druid/shepherd
-aliases: ["Circle of the Shepherd"]
+aliases:
+- Circle of the Shepherd
 ---
 # Circle of the Shepherd
-*[Druid](03.PlayerLog&Handouts/Mechanics/CLI/classes/druid.md): Druid Circle*  
+*[Druid](./druid.md): Druid Circle*  
 *Source: Xanathar's Guide to Everything p. 23*  
 
 > [!tldr] Class and Feature Progression
@@ -62,7 +63,7 @@ Starting at 2nd level, you can call forth nature spirits to influence the world 
 
 As a bonus action, you can move the spirit up to 60 feet to a point you can see.
 
-The spirit persists for 1 minute or until you're [incapacitated](conditions.md#Incapacitated). Once you use this feature, you can't use it again until you finish a short or long rest.
+The spirit persists for 1 minute or until you're [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated). Once you use this feature, you can't use it again until you finish a short or long rest.
 
 The effect of the spirit's aura depends on the type of spirit you summon from the options below.
 
@@ -94,6 +95,6 @@ Beginning at 10th level, your Spirit Totem safeguards the beasts and fey that yo
 
 ### Faithful Summons (Level 14)
 
-Starting at 14th level, the nature spirits you commune with protect you when you are the most defenseless. If you are reduced to 0 hit points or are [incapacitated](conditions.md#Incapacitated) against your will, you can immediately gain the benefits of [conjure animals](conjure-animals.md) as if it were cast using a 9th-level spell slot. It summons four beasts of your choice that are challenge rating 2 or lower. The conjured beasts appear within 20 feet of you. If they receive no commands from you, they protect you from harm and attack your foes. The spell lasts for 1 hour, requiring no [concentration](conditions.md#Concentration), or until you dismiss it (no action required).
+Starting at 14th level, the nature spirits you commune with protect you when you are the most defenseless. If you are reduced to 0 hit points or are [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated) against your will, you can immediately gain the benefits of [conjure animals](03.PlayerLog&Handouts/Mechanics/CLI/spells/conjure-animals.md) as if it were cast using a 9th-level spell slot. It summons four beasts of your choice that are challenge rating 2 or lower. The conjured beasts appear within 20 feet of you. If they receive no commands from you, they protect you from harm and attack your foes. The spell lasts for 1 hour, requiring no [concentration](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Concentration), or until you dismiss it (no action required).
 
 Once you use this feature, you can't use it again until you finish a long rest.

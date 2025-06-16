@@ -17,12 +17,12 @@ aliases:
 
 Includes:
 
-- a [backpack](backpack.md)  
-- a [bedroll](bedroll.md)  
-- 2 [costumes](costume-clothes.md)  
-- 5 [candles](candle.md)  
-- 5 days of [rations](rations-1-day.md)  
-- a [waterskin](waterskin.md)  
-- a [disguise kit](disguise-kit.md)  
+- a [backpack](03.PlayerLog&Handouts/Mechanics/CLI/items/backpack.md)  
+- a [bedroll](03.PlayerLog&Handouts/Mechanics/CLI/items/bedroll.md)  
+- 2 [costumes](03.PlayerLog&Handouts/Mechanics/CLI/items/costume-clothes.md)  
+- 5 [candles](03.PlayerLog&Handouts/Mechanics/CLI/items/candle.md)  
+- 5 days of [rations](03.PlayerLog&Handouts/Mechanics/CLI/items/rations-1-day.md)  
+- a [waterskin](03.PlayerLog&Handouts/Mechanics/CLI/items/waterskin.md)  
+- a [disguise kit](03.PlayerLog&Handouts/Mechanics/CLI/items/disguise-kit.md)  
 
 *Source: Player's Handbook p. 151. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*

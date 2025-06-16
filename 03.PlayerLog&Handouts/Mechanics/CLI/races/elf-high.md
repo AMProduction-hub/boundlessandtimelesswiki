@@ -4,11 +4,12 @@ cssclasses: json5e-race
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/race/elf/high
-aliases: ["Elf (High)"]
+aliases:
+- Elf (High)
 ---
 # Elf (High)
 *Source: Player's Handbook p. 23. Available in the <span title='Systems Reference Document (5.1)'>SRD</span> and the Basic Rules (2014)*  
-![](elf.webp#right)
+![](03.PlayerLog&Handouts/Mechanics/CLI/races/img/elf.webp#right)
 
 - **Ability Scores**: Intelligence +1
 - **Size**: Medium
@@ -35,7 +36,7 @@ You have proficiency in the [Perception](03.PlayerLog&Handouts/Mechanics/CLI/rul
 
 ### Fey Ancestry
 
-You have advantage on saving throws against being [charmed](conditions.md#Charmed), and magic can't put you to sleep.
+You have advantage on saving throws against being [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), and magic can't put you to sleep.
 
 ### Trance
 
@@ -50,7 +51,7 @@ You can speak, read, and write Common and Elvish. Elvish is fluid, with subtle i
 
 ### Elf Weapon Training
 
-You have proficiency with the [longsword](longsword.md), [shortsword](shortsword.md), [shortbow](shortbow.md), and [longbow](longbow.md).
+You have proficiency with the [longsword](03.PlayerLog&Handouts/Mechanics/CLI/items/longsword.md), [shortsword](03.PlayerLog&Handouts/Mechanics/CLI/items/shortsword.md), [shortbow](03.PlayerLog&Handouts/Mechanics/CLI/items/shortbow.md), and [longbow](03.PlayerLog&Handouts/Mechanics/CLI/items/longbow.md).
 
 ### Cantrip
 
@@ -64,7 +65,7 @@ You can speak, read, and write one extra language of your choosing.
 
 As a high elf, you have a keen mind and a mastery of at least the basics of magic. In many of the worlds of D&D, there are two kinds of high elves. One type (which includes the gray elves and valley elves of Greyhawk, the Silvanesti of Dragonlance, and the sun elves of the Forgotten Realms) is haughty and reclusive, believing themselves to be superior to non-elves and even other elves. The other type (including the high elves of Greyhawk, the Qualinesti of Dragonlance, and the moon elves of the Forgotten Realms) are more common and more friendly, and often encountered among humans and other races.
 
-The sun elves of Faerun (also called gold elves or sunrise elves) have bronze skin and hair of copper, black, or golden blond. Their eyes are golden, silver, or black. Moon elves (also called silver elves or gray elves) are much paler, with alabaster skin sometimes tinged with blue. They often have hair of silver-white, black, or blue, but various shades of blond, brown, and red are not uncommon. Their eyes are blue or green and flecked with gold.
+The sun elves of Faerûn (also called gold elves or sunrise elves) have bronze skin and hair of copper, black, or golden blond. Their eyes are golden, silver, or black. Moon elves (also called silver elves or gray elves) are much paler, with alabaster skin sometimes tinged with blue. They often have hair of silver-white, black, or blue, but various shades of blond, brown, and red are not uncommon. Their eyes are blue or green and flecked with gold.
 
 Elves are a magical people of otherworldly grace, living in the world but not entirely part of it. They live in places of ethereal beauty, in the midst of ancient forests or in silvery spires glittering with faerie light, where soft music drifts through the air and gentle fragrances waft on the breeze. Elves love nature and magic, art and artistry, music and poetry, and the good things of the world.
 

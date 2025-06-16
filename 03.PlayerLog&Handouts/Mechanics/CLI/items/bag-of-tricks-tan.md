@@ -26,14 +26,14 @@ Once three fuzzy objects have been pulled from the bag, the bag can't be used ag
 
 | dice: d8 | Creature |
 |----------|----------|
-| 1 | [Jackal](jackal.md) |
-| 2 | [Ape](ape.md) |
-| 3 | [Baboon](baboon.md) |
-| 4 | [Axe beak](axe-beak.md) |
-| 5 | [Black bear](black-bear.md) |
-| 6 | [Giant weasel](giant-weasel.md) |
-| 7 | [Giant hyena](giant-hyena.md) |
-| 8 | [Tiger](tiger.md) |
+| 1 | [Jackal](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/jackal.md) |
+| 2 | [Ape](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/ape.md) |
+| 3 | [Baboon](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/baboon.md) |
+| 4 | [Axe beak](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/axe-beak.md) |
+| 5 | [Black bear](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/black-bear.md) |
+| 6 | [Giant weasel](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-weasel.md) |
+| 7 | [Giant hyena](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/giant-hyena.md) |
+| 8 | [Tiger](03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/tiger.md) |
 ^creature
 
 *Source: Dungeon Master's Guide p. 154. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*

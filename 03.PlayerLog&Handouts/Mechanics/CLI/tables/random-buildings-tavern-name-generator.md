@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
-aliases: ["Random Buildings; Tavern Name Generator"]
+aliases:
+- Random Buildings; Tavern Name Generator
 ---
 # Random Buildings; Tavern Name Generator
 *Source: Dungeon Master's Guide p. 113* 

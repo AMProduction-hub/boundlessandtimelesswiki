@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/dmg
-aliases: ["Framing Events"]
+aliases:
+- Framing Events
 ---
 # Framing Events
 *Source: Dungeon Master's Guide p. 79* 

@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/tce
-aliases: ["Guild Types"]
+aliases:
+- Guild Types
 ---
 # Guild Types
 *Source: Tasha's Cauldron of Everything p. 93* 

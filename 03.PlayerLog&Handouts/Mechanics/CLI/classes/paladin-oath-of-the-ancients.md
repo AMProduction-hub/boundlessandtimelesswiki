@@ -4,10 +4,11 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/phb
 - ttrpg-cli/subclass/paladin/ancients
-aliases: ["Oath of the Ancients"]
+aliases:
+- Oath of the Ancients
 ---
 # Oath of the Ancients
-*[Paladin](paladin.md): Sacred Oath*  
+*[Paladin](./paladin.md): Sacred Oath*  
 *Source: Player's Handbook p. 86*  
 
 > [!tldr] Class and Feature Progression
@@ -76,11 +77,11 @@ You gain oath spells at the paladin levels listed.
 
 | Paladin Level | Spells |
 |---------------|--------|
-| 3rd | [ensnaring strike](ensnaring-strike.md), [speak with animals](speak-with-animals.md) |
-| 5th | [moonbeam](moonbeam.md), [misty step](misty-step.md) |
-| 9th | [plant growth](plant-growth.md), [protection from energy](protection-from-energy.md) |
-| 13th | [ice storm](ice-storm.md), [stoneskin](stoneskin.md) |
-| 17th | [commune with nature](commune-with-nature.md), [tree stride](tree-stride.md) |
+| 3rd | [ensnaring strike](03.PlayerLog&Handouts/Mechanics/CLI/spells/ensnaring-strike.md), [speak with animals](03.PlayerLog&Handouts/Mechanics/CLI/spells/speak-with-animals.md) |
+| 5th | [moonbeam](03.PlayerLog&Handouts/Mechanics/CLI/spells/moonbeam.md), [misty step](03.PlayerLog&Handouts/Mechanics/CLI/spells/misty-step.md) |
+| 9th | [plant growth](03.PlayerLog&Handouts/Mechanics/CLI/spells/plant-growth.md), [protection from energy](03.PlayerLog&Handouts/Mechanics/CLI/spells/protection-from-energy.md) |
+| 13th | [ice storm](03.PlayerLog&Handouts/Mechanics/CLI/spells/ice-storm.md), [stoneskin](03.PlayerLog&Handouts/Mechanics/CLI/spells/stoneskin.md) |
+| 17th | [commune with nature](03.PlayerLog&Handouts/Mechanics/CLI/spells/commune-with-nature.md), [tree stride](03.PlayerLog&Handouts/Mechanics/CLI/spells/tree-stride.md) |
 ^oath-of-the-ancients-spells
 
 ### Channel Divinity (Level 3)
@@ -89,13 +90,13 @@ When you take this oath at 3rd level, you gain the following two Channel Divinit
 
 ### Nature's Wrath (Level 3)
 
-You can use your Channel Divinity to invoke primeval forces to ensnare a foe. As an action, you can cause spectral vines to spring up and reach for a creature within 10 feet of you that you can see. The creature must succeed on a Strength or Dexterity saving throw (its choice) or be [restrained](conditions.md#Restrained). While [restrained](conditions.md#Restrained) by the vines, the creature repeats the saving throw at the end of each of its turns. On a success, it frees itself and the vines vanish.
+You can use your Channel Divinity to invoke primeval forces to ensnare a foe. As an action, you can cause spectral vines to spring up and reach for a creature within 10 feet of you that you can see. The creature must succeed on a Strength or Dexterity saving throw (its choice) or be [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained). While [restrained](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Restrained) by the vines, the creature repeats the saving throw at the end of each of its turns. On a success, it frees itself and the vines vanish.
 
 ### Turn the Faithless (Level 3)
 
 You can use your Channel Divinity to utter ancient words that are painful for fey and fiends to hear. As an action, you present your holy symbol, and each fey or fiend within 30 feet of you that can hear you must make a Wisdom saving throw. On a failed save, the creature is turned for 1 minute or until it takes damage.
 
-A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the [Dash](actions.md#Dash) action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the [Dodge](actions.md#Dodge) action.
+A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the [Dash](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Dash) action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the [Dodge](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Dodge) action.
 
 If the creature's true form is concealed by an illusion, shapeshifting, or other effect, that form is revealed while it is turned.
 
@@ -113,7 +114,7 @@ Additionally, you suffer none of the drawbacks of old age, and you can't be aged
 
 ### Elder Champion (Level 20)
 
-At 20th level, you can assume the form of an ancient force of nature, taking on an appearance you choose. For example, your skin might turn green or take on a bark-like texture, your hair might become leafy or mosslike, or you might sprout antlers or a lion-like mane.
+At 20th level, you can assume the form of an ancient force of nature, taking on an appearance you choose. For example, your skin might turn green or take on a bark-like texture, your hair might become leafy or moss-like, or you might sprout antlers or a lion-like mane.
 
 Using your action, you undergo a transformation. For 1 minute, you gain the following benefits:
 

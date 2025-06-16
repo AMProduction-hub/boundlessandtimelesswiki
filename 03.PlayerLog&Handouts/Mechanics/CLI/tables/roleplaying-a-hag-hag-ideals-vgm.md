@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/vgm
-aliases: ["Roleplaying a Hag; Hag Ideals"]
+aliases:
+- Roleplaying a Hag; Hag Ideals
 ---
 # Roleplaying a Hag; Hag Ideals
 *Source: Volo's Guide to Monsters p. 54* 

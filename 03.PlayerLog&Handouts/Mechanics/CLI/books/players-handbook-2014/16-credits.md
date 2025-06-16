@@ -3,7 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-note
 tags:
 - ttrpg-cli/compendium/src/5e/phb
-aliases: ["Credits"]
+aliases:
+- Credits
 ---
 # Credits
 *Source: Player's Handbook (2014)* 
@@ -26,4 +27,4 @@ aliases: ["Credits"]
 - **Drawing from further development by.** J. Eric Holmes, Tom Moldvay, Frank Mentzer, Aaron Allston, Harold Johnson, Roger E. Moore, David "Zeb" Cook, Ed Greenwood, Tracy Hickman, Margaret Weis, Douglas Niles, Jeff Grubb, Jonathan Tweet, Monte Cook, Skip Williams, Richard Baker, Peter Adkison, Keith Baker, Bill Slavicsek, Andy Collins, and Rob Heinsoo  
 - **Playtesting provided by.** over 175,000 fans of D&D. Thank you!  
 
-![On the Cover: In this fier...](phbcover.webp#center "On the Cover: In this fiery scene illustrated by Tyler Jacobson, the fire giant King Snurre, suffering no fools to live, calls his hell hounds to join him in confronting unwelcome guests in his home.")
+![On the Cover: In this fier...](03.PlayerLog&Handouts/Mechanics/CLI/books/players-handbook-2014/img/phbcover.webp#center "On the Cover: In this fiery scene illustrated by Tyler Jacobson, the fire giant King Snurre, suffering no fools to live, calls his hell hounds to join him in confronting unwelcome guests in his home.")

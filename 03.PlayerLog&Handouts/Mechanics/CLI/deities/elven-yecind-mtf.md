@@ -6,7 +6,8 @@ tags:
 - ttrpg-cli/deity/elven
 - ttrpg-cli/domain/life
 - ttrpg-cli/domain/trickery
-aliases: ["Ye'Cind"]
+aliases: 
+- Ye'Cind
 ---
 # Ye'Cind
 *Source: Mordenkainen's Tome of Foes p. 43* 

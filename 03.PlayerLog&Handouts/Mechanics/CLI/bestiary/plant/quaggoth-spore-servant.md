@@ -8,10 +8,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/plant
 statblock: inline
-aliases: ["Quaggoth Spore Servant"]
+statblock-link: "#^statblock"
+aliases:
+- Quaggoth Spore Servant
 ---
-# [Quaggoth Spore Servant](03 - Player Log & Handouts\Mechanics\CLI\bestiary\plant/quaggoth-spore-servant.md)
-*Source: Monster Manual p. 230*  
+# [Quaggoth Spore Servant](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\plant/quaggoth-spore-servant.md)
+*Source: Monster Manual p. 230, Waterdeep: Dungeon of the Mad Mage, Icewind Dale: Rime of the Frostmaiden*  
 
 A spore servant is any Large or smaller creature brought back to life by the animating spores of a myconid sovereign. A creature that was never flesh and blood to begin with (such as a construct, elemental, ooze, plant, or undead) can't be turned into a spore servant.
 
@@ -41,11 +43,11 @@ The servant's ability scores change as follows: Int 2 (-4), Wis 6 (-2), Cha 1 (-
 
 ## Senses
 
-The servant has [blindsight](senses.md#Blindsight) with a radius of 30 feet, and it is blind beyond this radius.
+The servant has [blindsight](03.PlayerLog&Handouts/Mechanics/CLI/rules/senses.md#Blindsight) with a radius of 30 feet, and it is blind beyond this radius.
 
 ## Condition Immunities
 
-The servant can't be [blinded](conditions.md#Blinded), [charmed](conditions.md#Charmed), [frightened](conditions.md#Frightened), or [paralyzed](conditions.md#Paralyzed).
+The servant can't be [blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded), [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened), or [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed).
 
 ## Languages
 
@@ -53,7 +55,7 @@ The servant loses all known languages, but it responds to orders given to it by 
 
 ## Attacks
 
-If the servant has no other means of dealing damage, it can use its fists or limbs to make unarmed strikes. On a hit, an unarmed strike deals bludgeoning damage equal to `1d4` + the servant's Strength modifier, or, if the servant is Large, `2d4` + its Strength modifier.
+If the servant has no other means of dealing damage, it can use its fists or limbs to make unarmed strikes. On a hit, an unarmed strike deals bludgeoning damage equal to `d4` + the servant's Strength modifier, or, if the servant is Large, `2d4` + its Strength modifier.
 
 ```statblock
 "name": "Quaggoth Spore Servant"
@@ -64,32 +66,34 @@ If the servant has no other means of dealing damage, it can use its fists or lim
 "ac_class": "natural armor"
 "hp": !!int "45"
 "hit_dice": "6d8 + 18"
+"modifier": !!int "1"
 "stats":
-- !!int "17"
-- !!int "12"
-- !!int "16"
-- !!int "2"
-- !!int "6"
-- !!int "1"
+  - !!int "17"
+  - !!int "12"
+  - !!int "16"
+  - !!int "2"
+  - !!int "6"
+  - !!int "1"
 "speed": "20 ft., climb 20 ft."
 "damage_immunities": "poison"
-"condition_immunities": "[blinded](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Blinded),\
-  \ [charmed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Charmed),\
-  \ [frightened](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
-  \ [paralyzed](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
-  \ [poisoned](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
+"condition_immunities": "[blinded](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded),\
+  \ [charmed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed), [frightened](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened),\
+  \ [paralyzed](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Paralyzed),\
+  \ [poisoned](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned)"
 "senses": "blindsight 30 ft. (blind beyond this radius), passive Perception 8"
 "languages": ""
 "cr": "1"
 "actions":
-- "desc": "The spore servant makes two claw attacks."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6\
-    \ + 3) slashing damage."
-  "name": "Claw"
+  - "desc": "The spore servant makes two claw attacks."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6\
+      \ (1d6 + 3) slashing damage."
+    "name": "Claw"
 "source":
-- "MM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/plant/token/quaggoth-spore-servant.webp"
+  - "MM"
+  - "WDMM"
+  - "IDRotF"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/plant/token/quaggoth-spore-servant.webp"
 ```
 ^statblock
 

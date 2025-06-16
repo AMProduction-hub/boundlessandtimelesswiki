@@ -10,9 +10,11 @@ tags:
 - ttrpg-cli/monster/size/huge
 - ttrpg-cli/monster/type/beast/dinosaur
 statblock: inline
-aliases: ["Quetzalcoatlus"]
+statblock-link: "#^statblock"
+aliases:
+- Quetzalcoatlus
 ---
-# [Quetzalcoatlus](03 - Player Log & Handouts\Mechanics\CLI\bestiary\beast/quetzalcoatlus-mpmm.md)
+# [Quetzalcoatlus](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\beast/quetzalcoatlus-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 96, Volo's Guide to Monsters p. 140*  
 
 This giant relative of the pteranodon has a wingspan exceeding 30 feet. Although it can walk like a quadruped, it is more comfortable in the air.
@@ -27,33 +29,35 @@ This giant relative of the pteranodon has a wingspan exceeding 30 feet. Although
 "ac_class": "natural armor"
 "hp": !!int "30"
 "hit_dice": "4d12 + 4"
+"modifier": !!int "1"
 "stats":
-- !!int "15"
-- !!int "13"
-- !!int "13"
-- !!int "2"
-- !!int "10"
-- !!int "5"
+  - !!int "15"
+  - !!int "13"
+  - !!int "13"
+  - !!int "2"
+  - !!int "10"
+  - !!int "5"
 "speed": "10 ft., fly 80 ft."
 "skillsaves":
-  "Perception": !!int "2"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+2"
 "senses": "passive Perception 12"
 "languages": ""
 "cr": "2"
 "traits":
-- "desc": "The quetzalcoatlus doesn't provoke an [opportunity attack](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/actions.md#Opportunity%20Attack)\
-    \ when it flies out of an enemy's reach."
-  "name": "Flyby"
+  - "desc": "The quetzalcoatlus doesn't provoke an [opportunity attack](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Opportunity%20Attack)\
+      \ when it flies out of an enemy's reach."
+    "name": "Flyby"
 "actions":
-- "desc": "Melee Weapon Attack: +4 to hit, reach 10 ft., one creature. Hit:\
-    \ 12 (3d6 + 2) piercing damage. If the quetzalcoatlus flew least 30 feet toward\
-    \ the target immediately before the hit, the target takes an extra 10 (3d6)\
-    \ piercing damage."
-  "name": "Bite"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 10 ft., one creature. Hit:\
+      \ 12 (3d6 + 2) piercing damage. If the quetzalcoatlus flew least 30 feet toward\
+      \ the target immediately before the hit, the target takes an extra 10 (3d6)\
+      \ piercing damage."
+    "name": "Bite"
 "source":
-- "MPMM"
-- "VGM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/beast/token/quetzalcoatlus-mpmm.webp"
+  - "MPMM"
+  - "VGM"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/quetzalcoatlus-mpmm.webp"
 ```
 ^statblock
 

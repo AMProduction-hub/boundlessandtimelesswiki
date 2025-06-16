@@ -4,7 +4,8 @@ cssclasses: json5e-feat
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/feat
-aliases: ["Artificer Initiate"]
+aliases:
+- Artificer Initiate
 ---
 # Artificer Initiate
 *Source: Tasha's Cauldron of Everything p. 79*  

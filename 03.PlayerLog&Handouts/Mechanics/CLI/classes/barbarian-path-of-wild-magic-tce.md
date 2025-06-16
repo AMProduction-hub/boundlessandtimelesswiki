@@ -4,10 +4,11 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/tce
 - ttrpg-cli/subclass/barbarian/wild-magic
-aliases: ["Path of Wild Magic"]
+aliases:
+- Path of Wild Magic
 ---
 # Path of Wild Magic
-*[Barbarian](barbarian.md): Primal Path*  
+*[Barbarian](./barbarian.md): Primal Path*  
 *Source: Tasha's Cauldron of Everything p. 25*  
 
 > [!tldr] Class and Feature Progression
@@ -64,7 +65,7 @@ The magical energy roiling inside you sometimes erupts from you. When you enter 
 
 If the effect requires a saving throw, the DC equals 8 + your proficiency bonus + your Constitution modifier.
 
-![Wild Magic](wild-magic-tce.md)
+![Wild Magic](03.PlayerLog&Handouts/Mechanics/CLI/tables/wild-magic-tce.md)
 
 ### Bolstering Magic (Level 6)
 

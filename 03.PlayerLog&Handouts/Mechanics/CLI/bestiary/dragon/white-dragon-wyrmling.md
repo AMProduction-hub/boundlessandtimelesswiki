@@ -7,10 +7,12 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/dragon
 statblock: inline
-aliases: ["White Dragon Wyrmling"]
+statblock-link: "#^statblock"
+aliases:
+- White Dragon Wyrmling
 ---
-# [White Dragon Wyrmling](03 - Player Log & Handouts\Mechanics\CLI\bestiary\dragon/white-dragon-wyrmling.md)
-*Source: Monster Manual p. 102. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [White Dragon Wyrmling](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\dragon/white-dragon-wyrmling.md)
+*Source: Monster Manual p. 102, Storm King's Thunder, Explorer's Guide to Wildemount, Icewind Dale: Rime of the Frostmaiden. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 The smallest, least intelligent, and most animalistic of the chromatic dragons, white dragons dwell in frigid climes, favoring arctic areas or icy mountains. They are vicious, cruel reptiles driven by hunger and greed.
 
@@ -103,36 +105,42 @@ True dragons pass through four distinct stages of life, from lowly wyrmlings to 
 "ac_class": "natural armor"
 "hp": !!int "32"
 "hit_dice": "5d8 + 10"
+"modifier": !!int "0"
 "stats":
-- !!int "14"
-- !!int "10"
-- !!int "14"
-- !!int "5"
-- !!int "10"
-- !!int "11"
+  - !!int "14"
+  - !!int "10"
+  - !!int "14"
+  - !!int "5"
+  - !!int "10"
+  - !!int "11"
 "speed": "30 ft., burrow 15 ft., fly 60 ft., swim 30 ft."
 "saves":
-  "Charisma": !!int "2"
-  "Dexterity": !!int "2"
-  "Wisdom": !!int "2"
-  "Constitution": !!int "4"
+  - "dexterity": "+2"
+  - "constitution": "+4"
+  - "wisdom": "+2"
+  - "charisma": "+2"
 "skillsaves":
-  "Stealth": !!int "2"
-  "Perception": !!int "4"
+  - "name": "[Perception](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception)"
+    "desc": "+4"
+  - "name": "[Stealth](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Stealth)"
+    "desc": "+2"
 "damage_immunities": "cold"
 "senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 14"
 "languages": "Draconic"
 "cr": "2"
 "actions":
-- "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10\
-    \ + 2) piercing damage plus 2 (1d4) cold damage."
-  "name": "Bite"
-- "desc": "The dragon exhales an icy blast of hail in a 15-foot cone. Each creature\
-    \ in that area must make a DC 12 Constitution saving throw, taking 22 (5d8)\
-    \ cold damage on a failed save, or half as much damage on a successful one."
-  "name": "Cold Breath (Recharge 5-6)"
+  - "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7\
+      \ (1d10 + 2) piercing damage plus 2 (d4) cold damage."
+    "name": "Bite"
+  - "desc": "The dragon exhales an icy blast of hail in a 15-foot cone. Each creature\
+      \ in that area must make a DC 12 Constitution saving throw, taking 22 (5d8)\
+      \ cold damage on a failed save, or half as much damage on a successful one."
+    "name": "Cold Breath (Recharge 5-6)"
 "source":
-- "MM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/dragon/token/white-dragon-wyrmling.webp"
+  - "MM"
+  - "SKT"
+  - "EGW"
+  - "IDRotF"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/token/white-dragon-wyrmling.webp"
 ```
 ^statblock

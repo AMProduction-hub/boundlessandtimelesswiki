@@ -4,7 +4,8 @@ cssclasses: json5e-background
 tags:
 - ttrpg-cli/background
 - ttrpg-cli/compendium/src/5e/scag
-aliases: ["Mercenary Veteran"]
+aliases:
+- Mercenary Veteran
 ---
 # Mercenary Veteran
 *Source: Sword Coast Adventurer's Guide p. 152*  
@@ -12,7 +13,7 @@ aliases: ["Mercenary Veteran"]
 
 - **Skill Proficiencies.** [Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics), [Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion)  
 - **Tool Proficiencies.** One type of gaming set, vehicles (land)  
-- **Equipment.** A uniform of your company ([traveler's clothes](travelers-clothes.md) in quality), an insignia of your rank, a gaming set of your choice, and a [pouch](pouch.md) containing the remainder of your last wages (10 gp).  
+- **Equipment.** A uniform of your company ([traveler's clothes](03.PlayerLog&Handouts/Mechanics/CLI/items/travelers-clothes.md) in quality), an insignia of your rank, a gaming set of your choice, and a [pouch](03.PlayerLog&Handouts/Mechanics/CLI/items/pouch.md) containing the remainder of your last wages (10 gp).  
 
 As a sell-sword who fought battles for coin, you're well acquainted with risking life and limb for a chance at a share of treasure. Now, you look forward to fighting foes and reaping even greater rewards as an adventurer. Your experience makes you familiar with the ins and outs of mercenary life, and you likely have harrowing stories of events on the battlefield. You might have served with a large outfit such as the Zhentarim or the soldiers of Mintarn, or a smaller band of sell-swords, maybe even more than one. (See the "Mercenaries of the North" sidebar for a collection of possibilities.)
 
@@ -22,7 +23,7 @@ Now you're looking for something else, perhaps greater reward for the risks you 
 > 
 > Countless mercenary companies operate up and down the Sword Coast and throughout the North. Most are smallscale operations that employ a dozen to a hundred folk who offer security services, hunt monsters and brigands, or go to war in exchange for gold. Some organizations, such as the Zhentarim, Flaming Fist, and the nation of Mintarn have hundreds or thousands of members and can provide private armies to those with enough funds. A few organizations operating in the North are described below.
 > 
-> **The Chill.** The cold and mysterious Lurkwood serves as the home of numerous groups of goblinoids that have banded together into one tribe called the Chill. Unlike most of their kind, the Chill refrains from raiding the people of the North and maintains relatively good relations so that they can hire themselves out as warriors. Few citystates in the North are willing to field an army alongside the Chill, but several are happy to quietly pay the Chill to battle the Uthgardt, orcs, trolls of the Evermoors, and other threats to civilization.
+> **The Chill.** The cold and mysterious Lurkwood serves as the home of numerous groups of goblinoids that have banded together into one tribe called the Chill. Unlike most of their kind, the Chill refrains from raiding the people of the North and maintains relatively good relations so that they can hire themselves out as warriors. Few city-states in the North are willing to field an army alongside the Chill, but several are happy to quietly pay the Chill to battle the Uthgardt, orcs, trolls of the Evermoors, and other threats to civilization.
 > 
 > **Silent Rain.** Consisting solely of elves, Silent Rain is a legendary mercenary company operating out of Evereska. Caring little for gold or fame, Silent Rain agrees only to jobs that either promote elven causes or involve destroying orcs, gnolls, and the like. Prospective employers must leave written word (in Elvish) near Evereska, and the Silent Rain sends a representative if interested.
 > 
@@ -35,6 +36,6 @@ You know the mercenary life as only someone who has experienced it can. You are 
 
 ## Suggested Characteristics
 
-Use the tables for the [soldier](soldier.md) background in the Player's Handbook as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as a mercenary.
+Use the tables for the [soldier](03.PlayerLog&Handouts/Mechanics/CLI/backgrounds/soldier.md) background in the Player's Handbook as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as a mercenary.
 
 Your bond could be associated with the company you traveled with previously, or with some of the comrades you served with. The ideal you embrace largely depends on your worldview and your motivation for fighting.

@@ -4,10 +4,11 @@ cssclasses: json5e-class
 tags:
 - ttrpg-cli/compendium/src/5e/xge
 - ttrpg-cli/subclass/monk/kensei
-aliases: ["Way of the Kensei"]
+aliases:
+- Way of the Kensei
 ---
 # Way of the Kensei
-*[Monk](monk.md): Monastic Tradition*  
+*[Monk](./monk.md): Monastic Tradition*  
 *Source: Xanathar's Guide to Everything p. 34*  
 
 > [!tldr] Class and Feature Progression
@@ -42,6 +43,10 @@ aliases: ["Way of the Kensei"]
 ^class-progression
 
 
+> [!quote] A quote from Xanathar  
+> 
+> Why did the samurai cross the road?... Now you say "Why?"... Okay, here's the joke part: I kensei. Get it? What? Why aren't you laughing? The joke is solid gold, and my delivery was perfect. Maybe you didn't get it because you're stupid.
+
 ## Class Features
 
 ### Way of the Kensei (Level 3)
@@ -61,16 +66,16 @@ Choose two types of weapons to be your kensei weapons: one melee weapon and one 
 
 - **Agile Parry**  
 
-    If you make an unarmed strike as part of the [Attack](actions.md#Attack) action on your turn and are holding a kensei weapon, you can use it to defend yourself if it is a melee weapon. You gain a +2 bonus to AC until the start of your next turn, while the weapon is in your hand and you aren't [incapacitated](conditions.md#Incapacitated).  
+    If you make an unarmed strike as part of the [Attack](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Attack) action on your turn and are holding a kensei weapon, you can use it to defend yourself if it is a melee weapon. You gain a +2 bonus to AC until the start of your next turn, while the weapon is in your hand and you aren't [incapacitated](03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Incapacitated).  
 
 - **Kensei's Shot**  
 
-    You can use a bonus action on your turn to make your ranged attacks with a kensei weapon more deadly. When you do so, any target you hit with a ranged attack using a kensei weapon takes an extra `1d4` damage of the weapon's type. You retain this benefit until the end of the current turn.  
+    You can use a bonus action on your turn to make your ranged attacks with a kensei weapon more deadly. When you do so, any target you hit with a ranged attack using a kensei weapon takes an extra `d4` damage of the weapon's type. You retain this benefit until the end of the current turn.  
 
 #### Way of the Brush
 _Source: Xanathar's Guide to Everything_
 
-You gain proficiency with your choice of [calligrapher's supplies](calligraphers-supplies.md) or [painter's supplies](painters-supplies.md).
+You gain proficiency with your choice of [calligrapher's supplies](03.PlayerLog&Handouts/Mechanics/CLI/items/calligraphers-supplies.md) or [painter's supplies](03.PlayerLog&Handouts/Mechanics/CLI/items/painters-supplies.md).
 
 ### One with the Blade (Level 6)
 

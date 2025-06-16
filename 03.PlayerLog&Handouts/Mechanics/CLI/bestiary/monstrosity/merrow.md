@@ -9,10 +9,12 @@ tags:
 - ttrpg-cli/monster/size/large
 - ttrpg-cli/monster/type/monstrosity
 statblock: inline
-aliases: ["Merrow"]
+statblock-link: "#^statblock"
+aliases:
+- Merrow
 ---
-# [Merrow](03 - Player Log & Handouts\Mechanics\CLI\bestiary\monstrosity/merrow.md)
-*Source: Monster Manual p. 219. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
+# [Merrow](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\monstrosity/merrow.md)
+*Source: Monster Manual p. 219, Princes of the Apocalypse, Storm King's Thunder, Tales from the Yawning Portal, Waterdeep: Dragon Heist, Ghosts of Saltmarsh, Icewind Dale: Rime of the Frostmaiden, Dragonlance: Shadow of the Dragon Queen. Available in the <span title='Systems Reference Document (5.1)'>SRD</span>*  
 
 Merrow haunt coastal waters, preying on fisherfolk, merfolk, and any other edible creature that crosses their path. These savage monsters snatch and devour unwary prey, hauling drowned corpses back to their underwater grottoes to feed.
 
@@ -37,38 +39,46 @@ Merrow dwell in undersea caves filled with treasures and trophies, taken from th
 "ac_class": "natural armor"
 "hp": !!int "45"
 "hit_dice": "6d10 + 12"
+"modifier": !!int "0"
 "stats":
-- !!int "18"
-- !!int "10"
-- !!int "15"
-- !!int "8"
-- !!int "10"
-- !!int "9"
+  - !!int "18"
+  - !!int "10"
+  - !!int "15"
+  - !!int "8"
+  - !!int "10"
+  - !!int "9"
 "speed": "10 ft., swim 40 ft."
 "senses": "darkvision 60 ft., passive Perception 10"
 "languages": "Abyssal, Aquan"
 "cr": "2"
 "traits":
-- "desc": "The merrow can breathe air and water."
-  "name": "Amphibious"
+  - "desc": "The merrow can breathe air and water."
+    "name": "Amphibious"
 "actions":
-- "desc": "The merrow makes two attacks: one with its bite and one with its claws\
-    \ or harpoon."
-  "name": "Multiattack"
-- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8\
-    \ + 4) piercing damage."
-  "name": "Bite"
-- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (2d4\
-    \ + 4) slashing damage."
-  "name": "Claws"
-- "desc": "Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60\
-    \ ft., one target. Hit: 11 (2d6 + 4) piercing damage. If the target is a Huge\
-    \ or smaller creature, it must succeed on a Strength contest against the merrow\
-    \ or be pulled up to 20 feet toward the merrow."
-  "name": "Harpoon"
+  - "desc": "The merrow makes two attacks: one with its bite and one with its claws\
+      \ or harpoon."
+    "name": "Multiattack"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8\
+      \ (1d8 + 4) piercing damage."
+    "name": "Bite"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9\
+      \ (2d4 + 4) slashing damage."
+    "name": "Claws"
+  - "desc": "Melee  or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. Hit: 11 (2d6 + 4) piercing damage. If the target is a\
+      \ Huge or smaller creature, it must succeed on a Strength contest against the\
+      \ merrow or be pulled up to 20 feet toward the merrow."
+    "name": "Harpoon"
 "source":
-- "MM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/monstrosity/token/merrow.webp"
+  - "MM"
+  - "PotA"
+  - "SKT"
+  - "TftYP"
+  - "WDH"
+  - "GoS"
+  - "IDRotF"
+  - "DSotDQ"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/monstrosity/token/merrow.webp"
 ```
 ^statblock
 

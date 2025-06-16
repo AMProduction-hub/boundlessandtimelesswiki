@@ -11,8 +11,8 @@ aliases:
 - "Efreeti Chain"
 ---
 # Efreeti Chain
-*Heavy armor ([chain mail](chain-mail.md)), major, legendary (requires attunement)*  
-![](efreeti-chain.webp#right)
+*Heavy armor ([chain mail](03.PlayerLog&Handouts/Mechanics/CLI/items/chain-mail.md)), major, legendary (requires attunement)*  
+![](03.PlayerLog&Handouts/Mechanics/CLI/items/img/efreeti-chain.webp#right)
 
 - **Armor Class**: 16
 - **Strength**: Requires 13 STR.

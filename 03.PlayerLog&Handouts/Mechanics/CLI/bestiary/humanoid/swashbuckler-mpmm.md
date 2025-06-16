@@ -9,9 +9,11 @@ tags:
 - ttrpg-cli/monster/size/medium
 - ttrpg-cli/monster/type/humanoid
 statblock: inline
-aliases: ["Swashbuckler"]
+statblock-link: "#^statblock"
+aliases:
+- Swashbuckler
 ---
-# [Swashbuckler](03 - Player Log & Handouts\Mechanics\CLI\bestiary\humanoid/swashbuckler-mpmm.md)
+# [Swashbuckler](03.PlayerLog&Handouts\Mechanics\CLI\bestiary\humanoid/swashbuckler-mpmm.md)
 *Source: Mordenkainen Presents: Monsters of the Multiverse p. 238, Volo's Guide to Monsters p. 217*  
 
 Swashbucklers are charming ne'er-do-wells who live by their own codes of honor. They crave notoriety, often indulge in romantic trysts, and eke out livings as pirates and corsairs, rarely staying in one place for too long.
@@ -40,47 +42,51 @@ Many swashbucklers have a signature flourish with which they embellish their act
 "type": "humanoid"
 "alignment": "Any alignment"
 "ac": !!int "17"
-"ac_class": "[leather armor](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/items/leather-armor.md),\
+"ac_class": "[leather armor](03.PlayerLog&Handouts/Mechanics/CLI/items/leather-armor.md),\
   \ suave defense"
 "hp": !!int "66"
 "hit_dice": "12d8 + 12"
+"modifier": !!int "4"
 "stats":
-- !!int "12"
-- !!int "18"
-- !!int "12"
-- !!int "14"
-- !!int "11"
-- !!int "15"
+  - !!int "12"
+  - !!int "18"
+  - !!int "12"
+  - !!int "14"
+  - !!int "11"
+  - !!int "15"
 "speed": "30 ft."
 "skillsaves":
-  "Athletics": !!int "5"
-  "Acrobatics": !!int "8"
-  "Persuasion": !!int "6"
+  - "name": "[Acrobatics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Acrobatics)"
+    "desc": "+8"
+  - "name": "[Athletics](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Athletics)"
+    "desc": "+5"
+  - "name": "[Persuasion](03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Persuasion)"
+    "desc": "+6"
 "senses": "passive Perception 10"
 "languages": "any one language (usually Common)"
 "cr": "3"
 "traits":
-- "desc": "While the swashbuckler is wearing light or no armor and wielding no [shield](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/items/shield.md),\
-    \ its AC includes its Charisma modifier."
-  "name": "Suave Defense"
+  - "desc": "While the swashbuckler is wearing light or no armor and wielding no [shield](03.PlayerLog&Handouts/Mechanics/CLI/items/shield.md),\
+      \ its AC includes its Charisma modifier."
+    "name": "Suave Defense"
 "actions":
-- "desc": "The swashbuckler makes one Dagger attack and two Rapier attacks."
-  "name": "Multiattack"
-- "desc": "Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60\
-    \ ft., one target. Hit: 6 (1d4 + 4) piercing damage."
-  "name": "Dagger"
-- "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8\
-    \ + 4) piercing damage."
-  "name": "Rapier"
+  - "desc": "The swashbuckler makes one Dagger attack and two Rapier attacks."
+    "name": "Multiattack"
+  - "desc": "Melee  or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60\
+      \ ft., one target. Hit: 6 (1d4 + 4) piercing damage."
+    "name": "Dagger"
+  - "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8\
+      \ (1d8 + 4) piercing damage."
+    "name": "Rapier"
 "bonus_actions":
-- "desc": "The swashbuckler takes the [Dash](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/actions.md#Dash)\
-    \ or [Disengage](03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/rules/actions.md#Disengage)\
-    \ action."
-  "name": "Lightfooted"
+  - "desc": "The swashbuckler takes the [Dash](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Dash)\
+      \ or [Disengage](03.PlayerLog&Handouts/Mechanics/CLI/rules/actions.md#Disengage)\
+      \ action."
+    "name": "Lightfooted"
 "source":
-- "MPMM"
-- "VGM"
-"image": "03%20-%20Player%20Log%20&%20Handouts/Mechanics/CLI/bestiary/humanoid/token/swashbuckler-mpmm.webp"
+  - "MPMM"
+  - "VGM"
+"image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/humanoid/token/swashbuckler-mpmm.webp"
 ```
 ^statblock
 

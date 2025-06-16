@@ -18,8 +18,8 @@ aliases:
 
 **Items in this group:**
 
-- [+1 Rod of the Pact Keeper](1-rod-of-the-pact-keeper.md)
-- [+2 Rod of the Pact Keeper](2-rod-of-the-pact-keeper.md)
-- [+3 Rod of the Pact Keeper](3-rod-of-the-pact-keeper.md)
+- [+1 Rod of the Pact Keeper](03.PlayerLog&Handouts/Mechanics/CLI/items/1-rod-of-the-pact-keeper.md)
+- [+2 Rod of the Pact Keeper](03.PlayerLog&Handouts/Mechanics/CLI/items/2-rod-of-the-pact-keeper.md)
+- [+3 Rod of the Pact Keeper](03.PlayerLog&Handouts/Mechanics/CLI/items/3-rod-of-the-pact-keeper.md)
 
 *Source: Dungeon Master's Guide p. 197*
