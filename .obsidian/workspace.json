@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Introduction/02.Players/Ellenlyf Party/_index.md",
+                "file": "00.Introduction/02.Players/Cest La Vie Party/Party Session Notes/04 - Fate of Aruendel Pt. 1 - Bureau Saga.md",
                 "mode": "source",
-                "source": true,
+                "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "_index"
+              "title": "04 - Fate of Aruendel Pt. 1 - Bureau Saga"
             }
           },
           {
@@ -275,9 +275,13 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "b2f31480e2605bd2",
+  "active": "9f54d66b8838b5ac",
   "lastOpenFiles": [
     "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/05 - Life and Death of Ellenlyf Party - Bureau Saga.md",
+    "00.Introduction/02.Players/Cest La Vie Party/Party Session Notes/04 - Fate of Aruendel Pt. 1 - Bureau Saga.md",
+    "z_Assets/Worlds/Shops/DnD_Shop.pdf",
+    "00.Introduction/02.Players/Cest La Vie Party/Party Session Notes/Untitled.md",
+    "00.Introduction/02.Players/Ellenlyf Party/_index.md",
     "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/undead/accursed-defiler-tob1-2023.md",
     "03.PlayerLog&Handouts/Mechanics/CLI/items/_index.md",
     "03.PlayerLog&Handouts/Mechanics/CLI/rewards/_index.md",
@@ -309,11 +313,7 @@
     "03.PlayerLog&Handouts/Mechanics/CLI/vehicles/sailing-ship.md",
     "03.PlayerLog&Handouts/Mechanics/CLI/vehicles/rowboat.md",
     "03.PlayerLog&Handouts/Mechanics/CLI/vehicles/longship.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/vehicles/keelboat.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/vehicles/galley.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/vehicles/apparatus-of-kwalish-dmg.md",
     "03.PlayerLog&Handouts/Mechanics/CLI/traps-hazards/img",
-    "03.PlayerLog&Handouts/Mechanics/CLI/traps-hazards/traps-hazards.md",
     "03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img",
     "03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft",
     "03.PlayerLog&Handouts/Mechanics/CLI/books/strixhaven-a-curriculum-of-chaos/img",
@@ -322,7 +322,6 @@
     "03.PlayerLog&Handouts/Mechanics/CLI/books/mythic-odysseys-of-theros",
     "03.PlayerLog&Handouts/Mechanics/CLI/books/guildmasters-guide-to-ravnica/img",
     "03.PlayerLog&Handouts/Mechanics/CLI/books/guildmasters-guide-to-ravnica",
-    "03.PlayerLog&Handouts/Mechanics/CLI/books/fizbans-treasury-of-dragons/img",
     "02 - NPCs & Factions/Forgotten Realms Pantheon/Faeurinian Pantheon/Faeurinian Pantheon.canvas",
     "00 - Introduction/02 - Players/02 - Players.canvas",
     "Untitled.canvas"
