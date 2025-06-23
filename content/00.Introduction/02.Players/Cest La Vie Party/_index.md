@@ -9,3 +9,4 @@ title: Cest La Vie Party
 | [[01 - Fire in Highfalls - Neverwinter Saga\|01]]   | Fire in Highfalls        | Neverwinter |
 | [[02 - The Danger of The Maws - Bureau Saga\|02]]   | The Danger of The Maws   | Bureau      |
 | [[03 - The Breadway of Aruendel - Bureau Saga\|03]] | The Breadway of Aruendel | Bureau      |
+| [[04 - Fate of Aruendel Pt. 1 - Bureau Saga\|04]]   | Fate of Aruendel Pt. 1   | Bureau      |
