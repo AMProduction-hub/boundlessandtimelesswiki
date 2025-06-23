@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Introduction/02.Players/Cest La Vie Party/Party Session Notes/04 - Fate of Aruendel Pt. 1 - Bureau Saga.md",
+                "file": "00.Introduction/02.Players/Cest La Vie Party/_index.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "04 - Fate of Aruendel Pt. 1 - Bureau Saga"
+              "title": "_index"
             }
           },
           {
@@ -275,10 +275,10 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "9f54d66b8838b5ac",
+  "active": "b2f31480e2605bd2",
   "lastOpenFiles": [
-    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/05 - Life and Death of Ellenlyf Party - Bureau Saga.md",
     "00.Introduction/02.Players/Cest La Vie Party/Party Session Notes/04 - Fate of Aruendel Pt. 1 - Bureau Saga.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/05 - Life and Death of Ellenlyf Party - Bureau Saga.md",
     "z_Assets/Worlds/Shops/DnD_Shop.pdf",
     "00.Introduction/02.Players/Cest La Vie Party/Party Session Notes/Untitled.md",
     "00.Introduction/02.Players/Ellenlyf Party/_index.md",
