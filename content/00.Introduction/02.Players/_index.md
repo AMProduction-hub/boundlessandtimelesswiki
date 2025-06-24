@@ -3,7 +3,7 @@ title: Players
 ---
 # **Players List**
 
-## **Ellenlyf Party**
+## **[[00.Introduction/02.Players/Ellenlyf Party/_index|Ellenlyf Party]]**
 
 | Character Name      | Class                                                                                 | Race                           |
 | ------------------- | ------------------------------------------------------------------------------------- | ------------------------------ |
@@ -14,7 +14,7 @@ title: Players
 | [[Kairos]]          | [[rogue-soulknife-tce\|Rogue - Soulknife]]                                            | [[astral-elf-aag\|Astral Elf]] |
 | [[Verdian Suyanti]] | [[bard-college-of-glamour-xge\|Bard - College of Glamour]]                            | [[half-elf\|Half-Elf]]         |
 
-## Grup B
+## **[[00.Introduction/02.Players/Cest La Vie Party/_index|C'est La Vie Party]]**
 
 | Character Name                | Class                                                               | Race                            |
 | ----------------------------- | ------------------------------------------------------------------- | ------------------------------- |
