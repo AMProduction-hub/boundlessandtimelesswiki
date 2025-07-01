@@ -13,31 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Introduction/02.Players/_index.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "_index"
-            }
-          },
-          {
-            "id": "1baf9107862b260d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00.Introduction/02.Players/_index.md",
+                "file": "00.Introduction/02.Players/Ellenlyf Party/_index.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -277,10 +253,15 @@
   },
   "active": "b2f31480e2605bd2",
   "lastOpenFiles": [
-    "00.Introduction/02.Players/Ellenlyf Party/_index.md",
-    "00.Introduction/02.Players/_index.md",
-    "00.Introduction/02.Players/Cest La Vie Party/Party Session Notes/04 - Fate of Aruendel Pt. 1 - Bureau Saga.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/06 - The Final Stretch of Mages in Aruendel Pt.1 - Bureau Saga.md",
     "00.Introduction/02.Players/Cest La Vie Party/_index.md",
+    "00.Introduction/02.Players/Ellenlyf Party/_index.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Character/The Paladin.md",
+    "00.Introduction/02.Players/Cest La Vie Party/Party Session Notes/05 - Fate of Aruendel Pt. 2 - Bureau Saga.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/spells/gate.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Character/The Daughter.md",
+    "00.Introduction/02.Players/Cest La Vie Party/Party Session Notes/04 - Fate of Aruendel Pt. 1 - Bureau Saga.md",
+    "00.Introduction/02.Players/_index.md",
     "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/05 - Life and Death of Ellenlyf Party - Bureau Saga.md",
     "z_Assets/Worlds/Shops/DnD_Shop.pdf",
     "00.Introduction/02.Players/Cest La Vie Party/Party Session Notes/Untitled.md",
@@ -301,7 +282,6 @@
     "03.PlayerLog&Handouts/Mechanics/CLI/deities/faerunian-kelemvor-scag.md",
     "03.PlayerLog&Handouts/Mechanics/CLI/deities/faerunian-jergal-scag.md",
     "03.PlayerLog&Handouts/Mechanics/CLI/deities/forgotten-realms-kelemvor.md",
-    "03.PlayerLog&Handouts/World Events/The Blood War.md",
     "03.PlayerLog&Handouts/Mechanics/CLI/vehicles/token/warship.webp",
     "03.PlayerLog&Handouts/Mechanics/CLI/vehicles/token/sailing-ship.webp",
     "03.PlayerLog&Handouts/Mechanics/CLI/vehicles/token/rowboat.webp",
@@ -310,10 +290,6 @@
     "03.PlayerLog&Handouts/Mechanics/CLI/vehicles/token/galley.webp",
     "03.PlayerLog&Handouts/Mechanics/CLI/vehicles/token/apparatus-of-kwalish-dmg.webp",
     "03.PlayerLog&Handouts/Mechanics/CLI/vehicles/img/warship.webp",
-    "03.PlayerLog&Handouts/Mechanics/CLI/vehicles/warship.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/vehicles/vehicles.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/vehicles/sailing-ship.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/vehicles/rowboat.md",
     "03.PlayerLog&Handouts/Mechanics/CLI/traps-hazards/img",
     "03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img",
     "03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft",
