@@ -1,89 +1,43 @@
-# 🌍 Shattar-Kai – The War-Torn Ideal  
-_"Steel grinds on ideals and blood stains every flag. This is a land where conviction outlives reason."_  
+# 🌍 Shattar-Kai - War-Torn Plane of Fractured Ideals  
+_"In lands where peace once reigned, only flags of war remain. The soil remembers every oath broken, every brother lost."_  
 
 ## **🌟 Introduction**  
-- **Tone & Theme:** Tragic idealism, wartime paranoia, and the slow erosion of hope. A grim plane locked in endless war between two sides who’ve forgotten how to stop.  
-- **Artifact Location:** Shards of the Pact-Stone (Embedded in a ceremonial vault at the Broken Line Citadel, hidden under a ceasefire monument).  
-- **Primary Conflict:**  
-  A long-standing civil war where no side is truly evil, just irreconcilable. One side ("The Stalwarts") has traditions, structure, and deep political history. The other ("The Freemen") are veterans and idealists who rejected that system long ago.  
-- **Moral Dilemma:**  
-  No side offers peace. Players must decide if they’ll try to end the war, pick a side to favor, or simply claim the artifact and leave. Their actions shift the final outcome—and the horror it awakens.  
+- **Tone & Theme:** A battlefield frozen in ideology. Two factions—one hardened by time, the other dream-worn and raw—clash endlessly.  
+- **Artifact Location:** Purple Stones (Hidden beneath the ruins in No Man’s Land, sealed inside a forgotten chapel of the Raven Queen)  
+- **Primary Conflict:** The Freemen, a coalition of idealistic rebels, fight to establish a new order. The Stalwart Kingdom defends a crumbling status quo.  
+- **Moral Dilemma:** Players must choose whom to support—idealistic rebels who risk chaos, or a lawful but stagnating kingdom. Each decision shifts the power on the battlefield.  
 
 ## **📜 Poetic Introduction (Read to Players on Arrival)**  
-> _“The banners hang like funeral shrouds in the windless sky. The mud is churned with blood that remembers yesterday. And every face you see is older than it should be.”_  
-> *Bendera-bendera menggantung seperti kain kafan pemakaman di langit yang tak berangin. Tanah bergolak dengan darah yang mengingat masa lampau. Dan setiap wajah yang engkau lihat terlihat lebih tua dari yang seharusnya*
+_"We are born to bury our fathers' wars, and yet we dig new graves in old trenches."_  
+— Inspired by Wilfred Owen & Siegfried Sassoon  
 
-📖 *Inspired by Wilfred Owen’s "Futility" and W. B. Yeats’ “The Second Coming.”*
-
----
+Pequod slows to a halt. Ashen skies loom over the sea, and the coastline reeks of smoke and dried blood. Ahead lies **Port of Stalwart**, where the Queen’s banner still flutters, tattered but defiant. Behind enemy lines, drums beat from the **Freemen Camp**, echoing over the trenches of **No Man’s Land**. A storm brews not only in the sky—but in the soul of this plane.
 
 ## **🗺️ Major Locations**  
+- **⚔️ Bastion of Stalwart** – Fortified city of stone and doctrine. Home to the old guard, ruled by General Valtan, weary of war but unwilling to bend.  
+- **🏕️ Freemen Camp** – A camp of outcasts, dreamers, and survivors led by Nikael, a former Stalwart captain turned rebel.  
+- **⚰️ No Man’s Land** – Scarred land riddled with broken siege engines, trenches, and cursed spirits. Holds the hidden chapel where the **Tears of Ymir** lie.  
+- **🏚️ House of Silence** – A neutral asylum for deserters and seers. Whispers of prophecy and madness echo here.  
+- **🏛️ House of Fisher** – Merchant guild who feeds both sides, secretly dealing in war relics and old magic.  
+- **🛶 Port of Stalwart** – Bureau’s chosen entry point. Technically neutral but heavily watched.  
 
-- **🛡️ Bastion of Stalwarts**  
-  - White marble towers scorched black by decades of siege fire.  
-  - NPCs: Commander Kalbreen (half-elf diplomat-general), Lord Gysar (paranoid noble).  
-  - Secrets: They want peace only if they can keep their rule. Have secret dealings to offer safe passage in exchange for help in negotiating a last pact.  
+## **🦠 Major NPCs**  
+- **Damian (Cambion)** – Disguised as a diplomat for the Bureau, he arrives “coincidentally” after players land. His silver tongue influences all sides—intentionally or not.  
+- **General Valtan (Human, Lawful Neutral)** – Proud leader of Bastion. Believes in order, law, and lineage. Desperate to preserve the realm without yielding.  
+- **Nikael of the Fire Banner (Half-Elf, Chaotic Good)** – Wounded idealist, believes peace must be earned by shattering corrupt thrones.  
+- **Father Malen (Tiefling Seer)** – Keeper of the House of Silence. Cryptic, feared. Knows what the **Tears of Ymir** truly are.  
 
-- **🔥 Camp of the Freemen**  
-  - Tattered tents surrounded by makeshift watchfires. Full of idealists, veterans, and those who lost everything.  
-  - NPCs: Sera Vann (orcish field medic), Captain Jarn (scarred warrior-poet), child messengers delivering truth and morale.  
-  - Secrets: They don’t know their leaders plan a final charge—even at the cost of their people’s survival.  
+## **🎭 Encounters & Challenges**  
+- **Negotiation Acts** – Players can join military meetings, protect diplomats, or lead skirmishes. Each action gives favor to one side.  
+- **No Man’s Land Crawl** – Dangerous trench warfare across spirit-infested zones. Undead of both factions haunt the ground.  
+- **Eldritch Surge (Final Act)** – When one faction loses too many player favors, their zealots summon an **Eldritch Horror** in desperation. The summoner dies as the **Tears of Ymir** are consumed to awaken the creature.  
+- **Damian’s Offer** – In secret, Damian offers a shortcut to recover the artifact early, but with mysterious costs.  
+- **Stage Mini-Bosses:**  
+  - **Ash Revenant** – CR 5 undead soldier bound to battlefield oath.  
+  - **Void Howler** – CR 6 aberration that warps memory. Introduces horror tone before the final boss.  
 
-- **🕊️ Ceasefire Monument / Vault of Silence**  
-  - Hidden vault beneath a neutral memorial, where the artifact rests.  
-  - The location is neutral ground, but unstable. Guarded by spirits of those who once believed peace was possible.  
-  - Hints of past Bureau involvement—symbols from Time And Plane scratched into the base of the stone.
-
----
-
-## **🦠 Major NPCs**
-
-- **Damian**  
-  - Assigned to negotiate, but his true role is manipulative observer. Speaks like Ocelot—maddeningly cryptic, always two steps ahead.  
-  - Says things like:  
-    - _“A truce is only a pause in the next betrayal.”_  
-    - _“What do you *think* you’re saving?”_  
-  - Watch out: The longer players listen to him, the more he bends their logic. Bureau warns: **“Do not speak with him unless necessary.”**
-
-- **Shatterling** *(Post-Summoning NPC)*  
-  - A former priest of peace who summons the eldritch horror in despair.  
-  - Role: The Herald of Collapse.  
-  - Dialogue (final words):  
-    > _“All of this was for *ideals*. And they rot in silence. Let the void swallow your justice.”_
-
----
-
-## **🎭 Encounters & Challenges**
-
-- **✴️ Factional Influence Puzzle:**  
-  - Over 3 key acts (missions, negotiations, moral choices), players tilt the balance of war.  
-  - Winning a side’s favor grants support to reach the artifact vault.  
-  - The side losing favor becomes desperate—leading to a tragic surrender or final suicidal charge.
-
-- **🗡️ Ceasefire Vault Trial:**  
-  - Artifact is behind a psychic memory trial: players experience scenes of peace negotiations failing again and again.  
-  - Puzzle: Reconstruct one historical peace using three provided scenes. Success opens the vault. Failure awakens wrathful spirits.
-
-- **🌌 Eldritch Minion Encounter (Plane’s Collapse):**  
-  - Triggered after the final event when the horror is summoned.
-  - **See separate encounter file**: “Run from the Howling Root”  
-  - Goal: Survive & retreat to the ship. Damage or deaths during escape add narrative weight at the Bureau.
-
----
-
-## **📜 Conclusion & Next Steps**
-
-- **If Players Flee Successfully:**  
-  - Shaperite teleports in with the Four Musicians of Time.  
-  - He holds off the horror, sacrifices greatly. (Loses his eye.)  
-  - Players bring the shards back to the Bureau, now marked with corruption.  
-
-- **At the Bureau:**  
-  - Grand Library is silent. Pustakawan watches over Shaperite.  
-  - She says only:  
-    > _“We give so much to hold the line. You saw what happens when the line breaks.”_
-
-- **Effect on the Blood War:**  
-  - The horror’s brief emergence causes a planar ripple. Devils and demons grow agitated. Sigil factions grow concerned.  
-  - Bureau accelerates its efforts to retrieve the remaining artifacts.
+## **📜 Conclusion & Next Steps**  
+- **Players Retreat** – The horror grows. The **Musicians of Time** arrive with Shaperite to delay its advance. A theatrical rock opera battle ensues as players rush to the Pequod.  
+- **Aftermath** – Back at the Grand Library, Shaperite lies unconscious, missing his left eye. Pustakawan watches over him, and the Bureau is shaken by the horror’s awakening.  
+- **Effect on Bureau:** Trust in the Bureau fractures. Whispers of their manipulation begin to circulate. Damian, once considered an agent, is now a wildcard.  
 
