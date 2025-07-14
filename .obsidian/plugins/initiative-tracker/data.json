@@ -30,12 +30,13 @@
     },
     {
       "note": "Jeno",
-      "path": "00.Introduction/02.Players/A-Team/Jeno.md",
+      "path": "00.Introduction/02.Players/Cest La Vie Party/Jeno.md",
       "name": "Jeno",
-      "level": 3,
+      "level": 5,
       "player": true,
-      "ac": "12",
-      "hp": "18"
+      "ac": 18,
+      "hp": 20,
+      "modifier": 0
     },
     {
       "note": "Kairos",
@@ -88,12 +89,13 @@
     },
     {
       "note": "Meows Whiskerpop (Whisky)",
-      "path": "00.Introduction/02.Players/B-Team/Meows Whiskerpop (Whisky).md",
+      "path": "00.Introduction/02.Players/Cest La Vie Party/Meows Whiskerpop (Whisky).md",
       "name": "Meows Whiskerpop Whisky",
       "level": 3,
       "player": true,
-      "ac": "13",
-      "hp": "25"
+      "ac": 13,
+      "hp": 25,
+      "modifier": 0
     },
     {
       "note": "Minerva",
@@ -112,14 +114,23 @@
       "hp": "27",
       "level": 3,
       "player": true
+    },
+    {
+      "note": "Klir",
+      "path": "00.Introduction/02.Players/Cest La Vie Party/Klir.md",
+      "name": "Klir",
+      "ac": 18,
+      "hp": 20,
+      "level": 5,
+      "modifier": 0,
+      "player": true
     }
   ],
   "parties": [
     {
-      "name": "Grup A",
+      "name": "Ellenlyf Party",
       "players": [
         "Froggo",
-        "Gomu Gomu No",
         "Kairos",
         "Verdian Suyanti",
         "Minerva",
@@ -127,12 +138,14 @@
       ]
     },
     {
-      "name": "Grup B",
+      "name": "C'est La Vie Party",
       "players": [
         "Alizar Valts",
         "Ashenka Roïs",
         "Gwyn",
-        "Meows Whiskerpop (Whisky)"
+        "Meows Whiskerpop (Whisky)",
+        "Jeno",
+        "Klir"
       ]
     }
   ],
@@ -236,7 +249,7 @@
     "creatures": [
       {
         "name": "Froggo",
-        "initiative": 10,
+        "initiative": 20,
         "static": false,
         "modifier": 0,
         "hp": 34,
@@ -245,7 +258,7 @@
         "currentAC": "16",
         "note": "Froggo",
         "path": "00.Introduction/02.Players/A-Team/Froggo.md",
-        "id": "ID_79780b68cbb9",
+        "id": "ID_2a38bbc898eb",
         "currentHP": 42,
         "tempHP": 0,
         "status": [],
@@ -267,7 +280,7 @@
         "currentAC": "17",
         "note": "GomuGomuNo",
         "path": "00.Introduction/02.Players/A-Team/GomuGomuNo.md",
-        "id": "ID_5b2b9b1a382b",
+        "id": "ID_bbdbeadab81a",
         "currentHP": 33,
         "tempHP": 0,
         "status": [],
@@ -280,7 +293,7 @@
       },
       {
         "name": "Kairos",
-        "initiative": 17,
+        "initiative": 20,
         "static": false,
         "modifier": 0,
         "hp": 18,
@@ -289,8 +302,8 @@
         "currentAC": "18",
         "note": "Kairos",
         "path": "00.Introduction/02.Players/A-Team/Kairos.md",
-        "id": "ID_297aab9a6879",
-        "currentHP": 15,
+        "id": "ID_9abb3b7bd8fa",
+        "currentHP": 23,
         "tempHP": 0,
         "status": [],
         "enabled": true,
@@ -302,7 +315,7 @@
       },
       {
         "name": "Verdian Suyanti",
-        "initiative": 8,
+        "initiative": 5,
         "static": false,
         "modifier": 0,
         "hp": 18,
@@ -311,7 +324,7 @@
         "currentAC": "12",
         "note": "Verdian Suyanti",
         "path": "00.Introduction/02.Players/A-Team/Verdian Suyanti.md",
-        "id": "ID_384a7aaacaea",
+        "id": "ID_0a5ad9097939",
         "currentHP": 18,
         "tempHP": 0,
         "status": [],
@@ -324,7 +337,7 @@
       },
       {
         "name": "Minerva",
-        "initiative": 7,
+        "initiative": 9,
         "static": false,
         "modifier": 0,
         "hp": 27,
@@ -333,7 +346,7 @@
         "currentAC": "20",
         "note": "Minerva",
         "path": "00.Introduction/02.Players/A-Team/Minerva.md",
-        "id": "ID_5a9b39296b78",
+        "id": "ID_4b1949e83a38",
         "currentHP": 36,
         "tempHP": 0,
         "status": [],
@@ -346,7 +359,7 @@
       },
       {
         "name": "Sephire",
-        "initiative": 12,
+        "initiative": 3,
         "static": false,
         "modifier": 0,
         "hp": 27,
@@ -355,8 +368,8 @@
         "currentAC": "21",
         "note": "Sephire",
         "path": "00.Introduction/02.Players/A-Team/Sephire.md",
-        "id": "ID_a92a9b68ba1a",
-        "currentHP": 23,
+        "id": "ID_78da2a793a19",
+        "currentHP": 46,
         "tempHP": 0,
         "status": [],
         "enabled": true,
@@ -390,12 +403,12 @@
   },
   "hpOverflow": "ignore",
   "additiveTemp": false,
-  "rpgSystem": "dnd5e-lazygm",
+  "rpgSystem": "dnd5e-cr2-simple",
   "logging": true,
   "logFolder": "03.PlayerLog&Handouts/Session",
   "resolveTies": "playerFirst",
   "useLegacy": false,
-  "diplayPlayerHPValues": false,
+  "diplayPlayerHPValues": true,
   "rollHP": false,
   "descending": true,
   "builder": {

@@ -12,6 +12,7 @@ title: Ellenlyf Party
 | [[04 - The Bread Way - Bureau Saga\|04]]                               | The Breadway of Aruendel                     | Aruendel (Bureau)      |
 | [[05 - Life and Death of Ellenlyf Party - Bureau Saga\|05]]            | Life and Death of Ellenlyf Party             | Aruendel (Bureau)      |
 | [[06 - The Final Stretch of Mages in Aruendel Pt.1 - Bureau Saga\|06]] | The Final Stretch of Mages in Aruendel Pt. 1 | Aruendel (Bureau)      |
+| [[07 - The Final Stretch of Mages in Aruendel Pt.2 - Bureau Saga\|07]] | The Final Stretch of Mages in Aruendel Pt. 2 | Aruendel (Bureau)      |
 # DM Notes
 ## Grup's Line & Veils
 - Prefer Family Friendly ? *Need more context*

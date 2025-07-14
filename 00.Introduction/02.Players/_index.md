@@ -16,12 +16,14 @@ title: Players
 
 ## **[[00.Introduction/02.Players/Cest La Vie Party/_index|C'est La Vie Party]]**
 
-| Character Name                | Class                                                               | Race                            |
-| ----------------------------- | ------------------------------------------------------------------- | ------------------------------- |
-| [[Alizar Valts]]              | [[fighter-battle-master\|Fighter - Battle Master]]                  | [[elf-high\|Elf (High)]]        |
-| [[Ashenka Roïs]]              | [[monk-way-of-the-long-death-scag\|Monk - Way of the Long Death]]   | [[shadar-kai-mpmm\|Shadar-Kai]] |
-| [[Gwyn]]                      | [[paladin-oath-of-the-ancients \| Paladin - Oath of Ancient]]       | [[human\|Human]]                |
-| [[Meows Whiskerpop (Whisky)]] | [[warlock-of-the-great-old-one-mpmm\|Warlock of the Great Old One]] | [[tabaxi-mpmm \| Tabaxi]]       |
+| Character Name                | Class                                                               | Race                                                              |
+| ----------------------------- | ------------------------------------------------------------------- | ----------------------------------------------------------------- |
+| [[Alizar Valts]]              | [[fighter-battle-master\|Fighter - Battle Master]]                  | [[elf-high\|Elf (High)]]                                          |
+| [[Ashenka Roïs]]              | [[monk-way-of-the-long-death-scag\|Monk - Way of the Long Death]]   | [[shadar-kai-mpmm\|Shadar-Kai]]                                   |
+| [[Gwyn]]                      | [[paladin-oath-of-the-ancients \| Paladin - Oath of Ancient]]       | [[human\|Human]]                                                  |
+| [[Meows Whiskerpop (Whisky)]] | [[warlock-of-the-great-old-one-mpmm\|Warlock of the Great Old One]] | [[tabaxi-mpmm \| Tabaxi]]                                         |
+| [[Jeno]]                      | [[wizard\|Wizard]]                                                  | [[tabaxi-mpmm\|Tabaxi]]                                           |
+| [[Klir]]                      | [[03.PlayerLog&Handouts/Mechanics/CLI/classes/rogue\|Rogue]]        | [[03.PlayerLog&Handouts/Mechanics/CLI/races/tortle-mpmm\|Tortle]] |
 
 # **Quick Character Maker Guide**
 Berikut adalah quick character maker guide yang akan membantu kalian dalam menentukan karakter yang akan kalian buat
