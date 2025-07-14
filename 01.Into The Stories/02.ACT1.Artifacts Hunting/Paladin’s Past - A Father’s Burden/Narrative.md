@@ -1,3 +1,4 @@
+
 ## 🛡️ Act 1 Subplot: A Father's Oath (The Paladin’s Past)
 
 ```admonition
