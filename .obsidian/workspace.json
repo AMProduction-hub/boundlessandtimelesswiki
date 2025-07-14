@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Character/The Mother.md",
-                "mode": "preview",
+                "file": "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/07 - The Final Stretch of Mages in Aruendel Pt.2 - Bureau Saga.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "The Mother"
+              "title": "07 - The Final Stretch of Mages in Aruendel Pt.2 - Bureau Saga"
+            }
+          },
+          {
+            "id": "918b020b57dacd00",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/_index.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "_index"
             }
           }
         ]
@@ -63,11 +87,11 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#ttrpg-cli/monster  shadow assassin",
+                "query": "path:03.PlayerLog&Handouts/Mechanics/CLI/classes file:rogue",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
-                "extraContext": false,
+                "extraContext": true,
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
@@ -112,7 +136,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 291.5
+    "width": 275.5
   },
   "right": {
     "id": "cf7b2befd3e5b8fb",
@@ -227,26 +251,10 @@
           }
         ],
         "currentTab": 4
-      },
-      {
-        "id": "6956db13eda2c01a",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "14eda32869a5719b",
-            "type": "leaf",
-            "state": {
-              "type": "initiative-tracker-creature-view",
-              "state": {},
-              "icon": "initiative-tracker-creature-view",
-              "title": "Combatant"
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
-    "width": 484.5
+    "width": 391.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -267,49 +275,49 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "e9ad397d83e48c4e",
+  "active": "b2f31480e2605bd2",
   "lastOpenFiles": [
+    "00.Introduction/02.Players/Cest La Vie Party/Party Session Notes/06 - The Stalemate of Shattar-Kai - Bureau Saga.md",
+    "00.Introduction/02.Players/Cest La Vie Party/Party Session Notes/06 - End of Aruendel- Bureau Saga.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/07 - The Final Stretch of Mages in Aruendel Pt.2 - Bureau Saga.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/celestial.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/celestial/archon-of-falling-stars-mot.md",
+    "00.Introduction/02.Players/Cest La Vie Party/_index.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/06 - The Final Stretch of Mages in Aruendel Pt.1 - Bureau Saga.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/_index.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Party Progression Notes & Faction Status.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/classes/rogue.md",
+    "00.Introduction/02.Players/Cest La Vie Party/Party Progression Notes & Faction Status.md",
+    "00.Introduction/02.Players/Cest La Vie Party/Klir.md",
+    "00.Introduction/02.Players/Cest La Vie Party/Jeno.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/classes/img/rogue.webp",
+    "03.PlayerLog&Handouts/Mechanics/CLI/classes/wizard.md",
+    "00.Introduction/02.Players/Cest La Vie Party/Party Session Notes/05 - Fate of Aruendel Pt. 2 - Bureau Saga.md",
     "03 - Player Log & Handouts/Mechanics/CLI/spells/cloudkill.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Character/The Mother.md",
     "03 - Player Log & Handouts/Mechanics/CLI/spells",
     "03 - Player Log & Handouts/Mechanics/CLI",
     "03 - Player Log & Handouts/Mechanics",
     "03 - Player Log & Handouts",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Character/The Paladin.md",
-    "z_Assets/Characters/SirAldric_PaladinMode.png",
-    "z_Assets/Characters/themothers.png",
-    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/06 - The Final Stretch of Mages in Aruendel Pt.1 - Bureau Saga.md",
-    "00.Introduction/02.Players/Cest La Vie Party/Party Session Notes/06 - The Stalemate of Shattar-Kai - Bureau Saga.md",
-    "00.Introduction/02.Players/Cest La Vie Party/Klir.md",
-    "00.Introduction/02.Players/Cest La Vie Party/Jeno.md",
-    "00.Introduction/02.Players/Cest La Vie Party/Ashenka Roïs.md",
-    "00.Introduction/02.Players/Cest La Vie Party/Gwyn.md",
-    "00.Introduction/02.Players/Cest La Vie Party/Alizar Valts.md",
-    "00.Introduction/02.Players/Cest La Vie Party/Party Session Notes/06 - End of Aruendel- Bureau Saga.md",
-    "00.Introduction/02.Players/Cest La Vie Party/_index.md",
-    "02.NPCs&Factions/Bureau of Time and Plane/Grand Library.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/_index.md",
-    "02.NPCs&Factions/Bureau of Time and Plane/Damian - The Squeeky Devils.md",
-    "z_Assets/Bureau of Time and Plane/Character Potrait/Damian.png",
-    "z_Assets/Bureau of Time and Plane/Character Potrait/Pustakawan.png",
-    "02.NPCs&Factions/Bureau of Time and Plane/Pustakawan - Second-in-Command.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Narrative.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Plane of Greed - Smaug's Challenge/Report.md",
-    "01.Into The Stories/01.Prologue/00.DM Only/Session 1 - Fire on the Falls.md",
+    "00.Introduction/02.Players/Cest La Vie Party/Party Session Notes/06 - End Of Aruendel - Bureau Saga.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Maps.md",
-    "03.PlayerLog&Handouts/Session/1748183860825 - Combat.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Maps.md",
+    "_index.md",
+    "Readme.md",
+    "18-05-2025.md",
+    "Pasted image 20250602085324.png",
     "z_Assets/Worlds/ACT 1/Maps/Shattar_Kai.png",
-    "00.Introduction/02.Players/Cest La Vie Party/Party Session Notes/05 - Fate of Aruendel Pt. 2 - Bureau Saga.md",
-    "00.Introduction/02.Players/_index.md",
-    "03.PlayerLog&Handouts/Session/1751109089142 - Combat.md",
-    "00.Introduction/01.Houses Rules/Armor Class.md",
-    "00.Introduction/01.Houses Rules/Team Party Killed (TPK).md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Narrative.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/_index.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Plane of Greed - Smaug's Challenge/_index.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/_index.md",
     "z_Assets/Worlds/Shops/DnD_Shop.pdf",
     "z_Assets/DMScreen/CheckTitleBar.png",
     "z_Assets/DMScreen/AbilitiesTitleBar.png",
     "03.PlayerLog&Handouts/Mechanics/CLI/vehicles/token/warship.webp",
     "03.PlayerLog&Handouts/Mechanics/CLI/vehicles/token/sailing-ship.webp",
     "03.PlayerLog&Handouts/Mechanics/CLI/vehicles/token/rowboat.webp",
+    "03.PlayerLog&Handouts/Mechanics/CLI/vehicles/token/longship.webp",
+    "03.PlayerLog&Handouts/Mechanics/CLI/vehicles/token/keelboat.webp",
     "03.PlayerLog&Handouts/Mechanics/CLI/traps-hazards/img",
     "03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/img",
     "03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft",

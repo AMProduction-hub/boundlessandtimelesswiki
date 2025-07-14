@@ -23,7 +23,7 @@ Party sudah mendapatkan Artifact yang dicari oleh Bureau dan melanjutkan perjala
  
 ## Items Of Importance
  
-- 
+- Artifact Bureau
 
 ## What Worked 
  

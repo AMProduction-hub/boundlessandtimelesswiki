@@ -12,26 +12,28 @@ tags: [timeline, SessionJournals]
  
 ## Session Overview 
  
-Party mendapatkan tugas untuk menuju Shattar-Kai mencari Artifact bersama [[Damian - The Squeeky Devils]] sebagai diplomat untuk Shattar-Kai. 
+Party mendapatkan tugas dari [[Pustakawan - Second-in-Command]] untuk menuju Shattar-Kai mencari Artifact bersama [[Damian - The Squeeky Devils]] yang memiliki tugas lain dari Bureau sebagai diplomat untuk para kubu di Shattar-Kai.
 
 ## Key Learnings
 
-- Praktisi Sihir sudah mulai berkumpul di Nyx's Ring.
-- Pasukan [[The Paladin|Aldric]] sudah berada di bagian Aruendel dimana Party berada untuk melakukan penyerangan ke para praktisi Sihir.
-- Party sudah mendapatkan amulet yang [[The Mother|Selaveth]] katakan tempat penyimpanan Artifact yang Bureau cari.
-- [[The Daughter|Elira]] dan [[The Don Quixote|Elian]] masih mengikuti Party menuju Danau Estara.
+- Party diminta mencari tahu lokasi Artifact dengan menanyakannya kepada orang yang kira-kira terlihat penting.
+- Sedang terjadi perang antar kubu Stalwart dan Fremen yang terjadi di Shattar-Kai dimulai 5 tahun yang lalu ketika Nikael (pemimpin Fremen) melawan kebijakan yang kubu Stalwart.
+- Nikael sebelum menjadi pemimpin Fremen dikenal sebagai penjahit yang terkenal, dia didik oleh Father Malen yang sekarang menjaga House of Silence.
+- Tunnel of Grim dijaga ketat oleh pasukan Stalwart karena merupakan sumber mineral dan emas yang dimana yang menggali adalah tawanan Stalwart.
+- Stalwart di Shattar-Kai menguasai; 1. Pelabuhan, 2. Tambang, 3. Jalan.  *Ideals Stalwart*; **Progress**.
+- Fremen di Shattar-Kai menguasai; 1. Perikanan, 2. Perhutanan, 3. Hewan-hewan di hutan. *Ideals Fremen; **Maintain at all cost**. 
  
 ## Who Did They Meet?
  
-- Beberapa praktisi sihir di Nyx's Ring
-- [[Damian - The Squeeky Devils]]
-- [[The Daughter|Elira]]
-- [[The Don Quixote|Elian]]
+- [[Damian - The Squeeky Devils]].
+- Port of Stalwart's Innkeeper.
+- Pemilik rumah yang terdapat notice board nya.
  
 ## Items Of Importance
  
-- Amulet milik [[The Daughter|Elira]] yang menunjukkan logo Bureau.
+- Pacul Leluhur (1d4) dengan property +Haste ketika menggali tanah.
+- Cincin dengan ruby biru muda. Property; +1 Strength Ability, -1 all Saves Throws.
 
 ## What Worked 
  
-- Mencoba mengendap-endap memasuki camp musuh sepertinya cara yang bijak.
+- Menjual teman lagi ?
