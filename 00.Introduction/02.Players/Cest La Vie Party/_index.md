@@ -13,6 +13,7 @@ title: Cest La Vie Party
 | [[05 - Fate of Aruendel Pt. 2 - Bureau Saga\|05]]                | Fate of Aruendel Pt. 2       | Aruendel (Bureau)      |
 | [[06 - End of Aruendel- Bureau Saga\|06 - Part 1]]               | End of Aruendel              | Aruendel (Bureau)      |
 | [[06 - The Stalemate of Shattar-Kai - Bureau Saga\|06 - Part 2]] | The Stalemate of Shattar Kai | Shattar-Kai (Bureau)   |
+| [[07 - Fin - Bureau Saga\|07]]                                   | Fin                          | Shattar-Kai (Bureau)   |
 
 # DM Notes
 

@@ -41,7 +41,7 @@ NoteIcon: npc
 > Character Role | `=this.character-role` |
 # Nikael of Fire Banner
 ## Overview
-Born as Nikael Fyrwurd he reborn as Nikael of Fire Banner the leader of opposite group of Stalwart called Fremen. Nikael start the Fremen groups after hearing the High Council of Stalwart want to expand and use many of the lands resources especially forest resources, this makes Nikael want to oppose this and use whatever skills he had while he still a Stalwart citizen to make this not happens. Until at some point the Council exiled Nikael and people who follows from Stalwart in there Nikael make a promises to the Council, that he will defeat Stalwart. There he created a group called "Fremen" a freedom-fighter that wants to maintain all the resources not exploiting it by any means necessary.
+Born as Nikael Fyrwurd he reborn as Nikael of Fire Banner the leader of opposite group of Stalwart called Fremen. Nikael start the Fremen groups after hearing the High Council of Stalwart want to expand and use many of the lands resources especially forest resources, this makes Nikael want to oppose this and use whatever skills he had while he still a Stalwart citizen to make this not happens. Until at some point the Council exiled Nikael and people who follows from Stalwart in there Nikael make a promises to the Council, that he will defeat Stalwart. There he created a group called "Fremen" a freedom-fighter that wants to maintain all the resources.
 
 ## Plot Web
 - Nikael was a Famous Tailor before creating Fremen.
