@@ -13,3 +13,4 @@ title: Ellenlyf Party
 | [[05 - Life and Death of Ellenlyf Party - Bureau Saga\|05]]            | Life and Death of Ellenlyf Party             | Aruendel (Bureau)      |
 | [[06 - The Final Stretch of Mages in Aruendel Pt.1 - Bureau Saga\|06]] | The Final Stretch of Mages in Aruendel Pt. 1 | Aruendel (Bureau)      |
 | [[07 - The Final Stretch of Mages in Aruendel Pt.2 - Bureau Saga\|07]] | The Final Stretch of Mages in Aruendel Pt. 2 | Aruendel (Bureau)      |
+| [[08 - Into Shattar-Kai - Bureau Saga\|08]]                            | Into Shattar-Kai                             | Shattar-Kai (Bureau)   |
