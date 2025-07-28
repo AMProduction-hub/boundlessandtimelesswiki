@@ -23,7 +23,7 @@ RWtopicId: Topic_16
 
 **Government Role**: Economic, Military
 
-**Government Organization**: Council
+**Government Organization**: Council Oligarch
 
 ### Placeholder Iconography
 ![[z_Assets/Misc/ImagePlaceholder.png|Placeholder Iconography]]
