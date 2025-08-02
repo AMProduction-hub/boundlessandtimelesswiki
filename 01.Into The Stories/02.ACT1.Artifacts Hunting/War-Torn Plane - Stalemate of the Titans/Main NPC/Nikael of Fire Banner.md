@@ -1,6 +1,7 @@
 ---
 ImportedOn: Saturday, 18 December 2021 8:41:47 PM
-Tags: Category/General-Characters-Article
+tags:
+  - Category/General-Characters-Article
 parent:
   - General Characters Article
 up:
@@ -12,8 +13,8 @@ next:
 RWtopicId: Topic_50
 AssociatedGroup: Fremen
 Gender: Male
-Race: Half-Elf 
-Age: Young Adult
+Race: Half-Elf
+Age: Adult
 Class: Rogue (Mastermind)
 Alignment: Chaotic Neutral
 Character-Role: Quest Related

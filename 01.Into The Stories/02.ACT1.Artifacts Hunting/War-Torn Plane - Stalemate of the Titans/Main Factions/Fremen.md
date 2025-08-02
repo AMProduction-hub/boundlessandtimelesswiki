@@ -17,7 +17,7 @@ RWtopicId: Topic_14
 ## Overview
 **Type**: Ethnic
 
-**Ethnic Identity**: Homeland, Traditions, Language, Culture, Beliefs, Other
+**Ethnic Identity**: Beliefs
 
 ### Placeholder Iconography
 ![[z_Assets/Misc/ImagePlaceholder.png|Placeholder Iconography]]
