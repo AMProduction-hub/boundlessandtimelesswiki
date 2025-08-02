@@ -28,7 +28,7 @@ Party kemudian mencoba mendatangi [[Damian - The Squeeky Devils]] yang menunggu 
  
 - Envoy Valtan (Adik [[General Valtan]])
 - Envoy Meier of [[Fremen]] the Firebanner 
-- [[Father Malen]]
+- [[Father Malen]] 
 - [[Damian - The Squeeky Devils]]
 - Ishmael.
 - Messenger dari Envoy Valtan
