@@ -21,6 +21,7 @@ Party memulai hari di kapal Pequod kemudian membuat pentas di kota Port of Stalw
 - Steve adalah anak dari korban kebakaran di Port of Stalwart yaitu Aline & Cedric. Menurut informasi yang player terima mereka biasa berkomunikasi dengan warga yang tinggal di House of Fisher.
 - House of Fisher ditempati oleh [[half-orc|Half-Orc]]. Mereka di "paksa" me-supply hasil laut kepada [[Fremen]] & [[Stalwart]] dengan janji mereka akan di naturalisasi jadi bagian mereka. Maka dari itu para penduduk di House of Fisher menjarah kapal-kapal kemudian menjual barang yang terlihat berharga.
 - [[Sofia Fyrwurd|Sofia]] di Freemen Camp mengaku sebagai adik dari [[Nikael of Fire Banner]].
+- Gencatan Senjata memasuki: 2 hari, 2 malam saat sesi ini.
  
 ## Who Did They Meet?
  
