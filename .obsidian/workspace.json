@@ -37,9 +37,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Introduction/02.Players/Cest La Vie Party/Party Session Notes/09 - Day 1 of the Cease Fire - Bureau Saga.md",
+                "file": "00.Introduction/02.Players/Cest La Vie Party/_index.md",
                 "mode": "source",
-                "source": false,
+                "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "09 - Day 1 of the Cease Fire - Bureau Saga"
+              "title": "_index"
             }
           }
         ],
@@ -276,8 +276,9 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "9f54d66b8838b5ac",
+  "active": "918b020b57dacd00",
   "lastOpenFiles": [
+    "00.Introduction/02.Players/Cest La Vie Party/Party Session Notes/09 - Day 1 of the Cease Fire - Bureau Saga.md",
     "00.Introduction/02.Players/Ellenlyf Party/GomuGomuNo.md",
     "00.Introduction/02.Players/Ellenlyf Party/_index.md",
     "00.Introduction/02.Players/Cest La Vie Party/Alizar Valts.md",
@@ -286,7 +287,6 @@
     "00.Introduction/02.Players/Cest La Vie Party/Gwyn.md",
     "00.Introduction/02.Players/Cest La Vie Party/Ashenka Roïs.md",
     "00.Introduction/02.Players/Cest La Vie Party/_index.md",
-    "00.Introduction/02.Players/Cest La Vie Party/Party Session Notes/09 - Day 1 of the Cease Fire - Bureau Saga.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Main NPC/Sofia Fyrwurd.md",
     "conflict-files-obsidian-git.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Progression Party/Ellenlyf.md",
