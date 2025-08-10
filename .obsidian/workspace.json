@@ -37,9 +37,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Introduction/02.Players/Cest La Vie Party/_index.md",
-                "mode": "source",
-                "source": true,
+                "file": "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Main Factions/Stalwart.md",
+                "mode": "preview",
+                "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,
@@ -52,11 +52,59 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "_index"
+              "title": "Stalwart"
+            }
+          },
+          {
+            "id": "a42b327d3e302335",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00.Introduction/02.Players/Cest La Vie Party/Party Session Notes/09 - Day 1 of the Cease Fire - Bureau Saga.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "09 - Day 1 of the Cease Fire - Bureau Saga"
+            }
+          },
+          {
+            "id": "ae545147bc255750",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/10 - Negative 1 Day of Cease Fire - Bureau Saga.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "10 - Negative 1 Day of Cease Fire - Bureau Saga"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -88,7 +136,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path:03.PlayerLog&Handouts/Mechanics/CLI/classes file:rogue",
+                "query": "thief",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -276,9 +324,27 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "918b020b57dacd00",
+  "active": "ae545147bc255750",
   "lastOpenFiles": [
+    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/09 - Cease of Hostility - Bureau Saga.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/10 - Negative 1 Day of Cease Fire - Bureau Saga.md",
+    "00.Introduction/02.Players/Cest La Vie Party/Party Session Notes/10 - Cease Fire Would last huh - Bureau Saga 1.md",
+    "00.Introduction/02.Players/Cest La Vie Party/Party Session Notes/Untitled Kanban.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/spells/geas.md",
     "00.Introduction/02.Players/Cest La Vie Party/Party Session Notes/09 - Day 1 of the Cease Fire - Bureau Saga.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Main NPC/Eric Valtan.md",
+    "z_Assets/Worlds/ACT 1/Characters/EricValtan.png",
+    "03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/spells/_index.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Main Factions/Stalwart.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Main NPC/Nikael of Fire Banner.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Plot Narrative.md",
+    "z_Assets/Characters/Nikael.png",
+    "03.PlayerLog&Handouts/Mechanics/CLI/spells/detect-thoughts.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Main NPC/Sofia Fyrwurd.md",
+    "z_Assets/Worlds/ACT 1/Characters/SofiaFyrwurd.png",
+    "00.Introduction/02.Players/Cest La Vie Party/_index.md",
     "00.Introduction/02.Players/Ellenlyf Party/GomuGomuNo.md",
     "00.Introduction/02.Players/Ellenlyf Party/_index.md",
     "00.Introduction/02.Players/Cest La Vie Party/Alizar Valts.md",
@@ -286,31 +352,13 @@
     "00.Introduction/02.Players/Cest La Vie Party/Jeno.md",
     "00.Introduction/02.Players/Cest La Vie Party/Gwyn.md",
     "00.Introduction/02.Players/Cest La Vie Party/Ashenka Roïs.md",
-    "00.Introduction/02.Players/Cest La Vie Party/_index.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Main NPC/Sofia Fyrwurd.md",
     "conflict-files-obsidian-git.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Progression Party/Ellenlyf.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Progression Party",
-    "z_Assets/Worlds/ACT 1/Characters/SofiaFyrwurd.png",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Main NPC/Eric Valtan.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Main NPC/Nikael of Fire Banner.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Main NPC/Father Malen.md",
-    "z_Assets/Worlds/ACT 1/Characters/EricValtan.png",
-    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/09 - Cease of Hostility - Bureau Saga.md",
-    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/08 - Into Shattar-Kai - Bureau Saga.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Main Factions/Fremen.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/_index.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Main Factions/Stalwart.md",
-    "00.Introduction/02.Players/Cest La Vie Party/Party Session Notes/07 - Fin - Bureau Saga.md",
-    "00.Introduction/02.Players/Cest La Vie Party/Party Session Notes/08 - Ceasefire of Shattar-Kai - Bureau Saga.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/spells/geas.md",
-    "00.Introduction/02.Players/Cest La Vie Party/Meows Whiskerpop (Whisky).md",
     "z_Assets/Misc/fin.webp",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Maps.md",
-    "00.Introduction/02.Players/Cest La Vie Party/Party Progression Notes & Faction Status.md",
     "z_Assets/Misc/Tidak dipastikan 642529.crdownload",
     "z_Assets/Characters/GeneralValtan.png",
-    "z_Assets/Characters/Nikael.png",
     "z_Assets/Characters/FatherMalen.png",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Main Factions",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Main NPC",
