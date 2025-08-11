@@ -16,7 +16,7 @@ title: Cest La Vie Party
 | [[07 - Fin - Bureau Saga\|07]]                                   | Fin                          | Shattar-Kai (Bureau)   |
 | [[08 - Ceasefire of Shattar-Kai - Bureau Saga\|08]]              | Ceasefire of Shattar-Kai     | Shattar-Kai (Bureau)   |
 | [[09 - Day 1 of the Cease Fire - Bureau Saga\|09]]               | Day 1 of the Ceasefire       | Shattar-Kai (Bureau)   |
-| [[10 - Hearing about Ball - Bureau Saga 1\|10]]                  | Hearing about Ball           | Shattar-Kai (Bureau)   |
+| [[10 - Hearing about Ball - Bureau Saga\|10]]                  | Hearing about Ball           | Shattar-Kai (Bureau)   |
 
 # DM Notes
 
