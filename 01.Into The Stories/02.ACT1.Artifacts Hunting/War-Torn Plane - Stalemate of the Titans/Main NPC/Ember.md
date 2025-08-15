@@ -11,20 +11,20 @@ prev:
 next:
   - Template - Race
 RWtopicId: Topic_50
-AssociatedGroup: Fremen
+AssociatedGroup: Thieves Guild
 Gender: Female
-Race: Half-Elf
+Race: Human
 Age: Adult
-Class: Cleric
-Alignment: Chaotic Good
+Class: Rogue
+Alignment: Chaotic Neutral
 Character-Role: Quest Related
 Location: Shattar Kai
 NoteIcon: npc
 ---
 > [!infobox]
 > # `=this.file.name`
-> ![[SofiaFyrwurd.png|cover hmedium]]
-> [[SofiaFyrwurd.png|Show To Players]]
+> ![[Ember.png|cover hmedium]]
+> [[Ember.png|Show To Players]]
 > ###### Basic Information
 > Type |  Stat |
 > ---|---|
@@ -40,9 +40,9 @@ NoteIcon: npc
 > Alignment | `=this.alignment` |
 > Class | `=this.class` |
 > Character Role | `=this.character-role` |
-# Sofia Fyrwurd
+# Ember
 ## Overview
-Sofia Fyrwurd is [[Nikael of Fire Banner]]'s sister. She follows where Nikael goes even though most of the time question his leads. She often helps around the camps like cooking foods, managing rations, and heals the wounded.
+Ember is the leader of Thieves Guild in Stalwart. Her interest is always to make her rich rather than saving lives.
 
 ## Plot Web
 
