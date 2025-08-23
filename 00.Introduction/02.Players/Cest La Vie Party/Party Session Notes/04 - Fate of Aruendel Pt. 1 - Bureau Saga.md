@@ -5,14 +5,14 @@ tags: [timeline, SessionJournals]
  
 - **[[Gwyn]]**. The Paladin 
 - **[[Ashenka Roïs]].** The Monk.
-- **[[Meows Whiskerpop (Whisky)]].** The Warlock.
+- **[[Whisky]].** The Warlock.
 
 Away:
 **[[Alizar Valts]].** The Fighter. 
  
 ## Session Overview 
  
-Party diminta oleh [[The Paladin|Aldric]] untuk menjaga putrinya selama 4 hari, ketika mereka ingin memberikan cincin ruby kepada [[The Daughter|Elira]]  berusaha mengembalikan cincin yang mereka temukan di Moondel Valley. Ketika [[Ashenka Roïs]] dan [[Meows Whiskerpop (Whisky)]] mengembalikan cincin di Moondel Valley, mereka dihampiri oleh [[The Mother|Selaveth]] yang baru saja mengetahui bahwa Party dikirim oleh Bureau of Time and Plane untuk mengambil artefak di Aruendel. [[The Mother|Selaveth]] memberi penawaran kepada Party dengan membawa kembali cincin itu dan diberikan kepada [[The Daughter|Elira]] mereka akan diberitahu posisi artefak itu berada. Party akhirnya mencoba mengembalikan cincin itu dengan memasukannya kedalam kantong celana [[The Daughter|Elira]]. Party berhasil mengetahui lokasi artefak dimana dari [[The Mother|Selaveth]] ketika party meminta [[The Daughter|Elira]] memakai cincin dan memanggil [[The Mother|Selaveth]] yang mengaku bahwa ibu dari [[The Daughter|Elira]], disana [[The Mother|Selaveth]] mengatakan bahwa artefak yang Party cari ada dibalik amulet yang dipakai oleh [[The Daughter|Elira]] tetapi mereka di ingatkan kalau artefak tersebut yang menahan sisa-sisa sihir yang masih ada sejak 33 tahun yang lalu, jika langsung diambil tanpa mengatasi sisa-sisa sihir tersebut maka akan terjadi tragedi besar di Aruendel. Party memutuskan untuk menunggu kedatangan [[The Paladin|Aldric]] yang dikatakan oleh [[The Don Quixote|Elian]] bahwa membawa pasukan untuk menghentikan para penyihir di Aruendel.
+Party diminta oleh [[The Paladin|Aldric]] untuk menjaga putrinya selama 4 hari, ketika mereka ingin memberikan cincin ruby kepada [[The Daughter|Elira]]  berusaha mengembalikan cincin yang mereka temukan di Moondel Valley. Ketika [[Ashenka Roïs]] dan [[Whisky]] mengembalikan cincin di Moondel Valley, mereka dihampiri oleh [[The Mother|Selaveth]] yang baru saja mengetahui bahwa Party dikirim oleh Bureau of Time and Plane untuk mengambil artefak di Aruendel. [[The Mother|Selaveth]] memberi penawaran kepada Party dengan membawa kembali cincin itu dan diberikan kepada [[The Daughter|Elira]] mereka akan diberitahu posisi artefak itu berada. Party akhirnya mencoba mengembalikan cincin itu dengan memasukannya kedalam kantong celana [[The Daughter|Elira]]. Party berhasil mengetahui lokasi artefak dimana dari [[The Mother|Selaveth]] ketika party meminta [[The Daughter|Elira]] memakai cincin dan memanggil [[The Mother|Selaveth]] yang mengaku bahwa ibu dari [[The Daughter|Elira]], disana [[The Mother|Selaveth]] mengatakan bahwa artefak yang Party cari ada dibalik amulet yang dipakai oleh [[The Daughter|Elira]] tetapi mereka di ingatkan kalau artefak tersebut yang menahan sisa-sisa sihir yang masih ada sejak 33 tahun yang lalu, jika langsung diambil tanpa mengatasi sisa-sisa sihir tersebut maka akan terjadi tragedi besar di Aruendel. Party memutuskan untuk menunggu kedatangan [[The Paladin|Aldric]] yang dikatakan oleh [[The Don Quixote|Elian]] bahwa membawa pasukan untuk menghentikan para penyihir di Aruendel.
 
 ## Key Learnings
 
@@ -25,7 +25,7 @@ Party diminta oleh [[The Paladin|Aldric]] untuk menjaga putrinya selama 4 hari, 
  
 ## Who Did They Meet?
  
-- [[The Mother|Selaveth]]. Bertemu di Moondel Valley ketika akan mengembalikan cincin oleh [[Ashenka Roïs]] & [[Meows Whiskerpop (Whisky)]].
+- [[The Mother|Selaveth]]. Bertemu di Moondel Valley ketika akan mengembalikan cincin oleh [[Ashenka Roïs]] & [[Whisky]].
 - [[The Don Quixote|Ser Elian]]. Party melihat dia sedang memantau party tetapi berhasil mereka kejar dan tangkap.
  
 ## Items Of Importance
@@ -35,4 +35,4 @@ Party diminta oleh [[The Paladin|Aldric]] untuk menjaga putrinya selama 4 hari, 
 ## What Worked 
  
 - Mengeluarkan air mata buaya kepada penjual barang dapat membuat kegaduhan dan bisa digunakan untuk menawar harga.
-- Mencoba memanggil Patron ([[Meows Whiskerpop (Whisky)]]) untuk membantu mencari jawaban sepertinya jalan bisa digunakan.
+- Mencoba memanggil Patron ([[Whisky]]) untuk membantu mencari jawaban sepertinya jalan bisa digunakan.

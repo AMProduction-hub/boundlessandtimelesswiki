@@ -3,7 +3,7 @@ tags: [timeline, SessionJournals]
 ---
 ## Characters 
  
-- **[[Meows Whiskerpop (Whisky)]].** The Warlock. 
+- **[[Whisky]].** The Warlock. 
 - **[[Ashenka Roïs]].** The Monk.
 - [[Jeno]]. The Wizard
 - [[Klir]]. The Rogue.
@@ -14,9 +14,9 @@ Away:
 
 ## Session Overview 
  
-Party segera membeli baju pesta dengan uang party dan uang yang diberikan oleh [[Eric Valtan]] untuk datang ke pesta yang akan dilaksanakan di [[Stalwart]] Administration Building's Ballroom. Party mulai memasuki pesta yang mulai penuh dengan orang berdansa di lantai dansa. [[Jeno]] & [[Ashenka Roïs]] berdansa di lantai dansa, [[Klir]] dan [[Alizar Valts]] coba merasakan sajian yang telah dihidangkan, [[Meows Whiskerpop (Whisky)]] tiba-tiba didatangi oleh [[Damian - The Squeeky Devils]] yang mengatakan bahwa akan ada hal yang terjadi di pesta ini yang bisa menentukan hasil akhir dari perdamaian yang akan terjadi di Stalwart. [[Damian - The Squeeky Devils]] memberikan informasi kalau [[Sofia Fyrwurd]] adik [[Nikael of Fire Banner]] datang di pesta ini.
+Party segera membeli baju pesta dengan uang party dan uang yang diberikan oleh [[Eric Valtan]] untuk datang ke pesta yang akan dilaksanakan di [[Stalwart]] Administration Building's Ballroom. Party mulai memasuki pesta yang mulai penuh dengan orang berdansa di lantai dansa. [[Jeno]] & [[Ashenka Roïs]] berdansa di lantai dansa, [[Klir]] dan [[Alizar Valts]] coba merasakan sajian yang telah dihidangkan, [[Whisky]] tiba-tiba didatangi oleh [[Damian - The Squeeky Devils]] yang mengatakan bahwa akan ada hal yang terjadi di pesta ini yang bisa menentukan hasil akhir dari perdamaian yang akan terjadi di Stalwart. [[Damian - The Squeeky Devils]] memberikan informasi kalau [[Sofia Fyrwurd]] adik [[Nikael of Fire Banner]] datang di pesta ini.
 
-Ketika [[Jeno]] sedang mendengarkan pembicaraan [[Damian - The Squeeky Devils]] dengan [[Meows Whiskerpop (Whisky)]] dan terkejut dengan apa yang dikatakan [[Damian - The Squeeky Devils]], tiba-tiba [[Sofia Fyrwurd]] menarik [[Jeno]] untuk berdansa dan meminta [[Jeno]] untuk tenang dan mencoba mencari tahu sekitar.
+Ketika [[Jeno]] sedang mendengarkan pembicaraan [[Damian - The Squeeky Devils]] dengan [[Whisky]] dan terkejut dengan apa yang dikatakan [[Damian - The Squeeky Devils]], tiba-tiba [[Sofia Fyrwurd]] menarik [[Jeno]] untuk berdansa dan meminta [[Jeno]] untuk tenang dan mencoba mencari tahu sekitar.
 
 Pada sesaat kemudian Envoy Valtan mengambil perhatian para pengunjung pesta untuk menyambut kedatangan [[General Valtan]].
 

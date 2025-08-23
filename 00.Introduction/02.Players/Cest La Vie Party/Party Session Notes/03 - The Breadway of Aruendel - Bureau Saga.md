@@ -20,7 +20,7 @@ tags: [timeline, SessionJournals]
  
 **[[Alizar Valts]].** The Fighter. 
 
-**[[Meows Whiskerpop (Whisky)]].** The Warlock.
+**[[Whisky]].** The Warlock.
  
 ## Session Overview 
  
@@ -36,7 +36,7 @@ Party menuju Plane Aruendel yang jauh di Far Realm untuk mencari Sir Aldric yang
  
 ## Who Did They Meet?
  
-**[[Damian - The Squeeky Devils]].** Bertemu di desa Brindlewatch. Ditemui oleh [[Alizar Valts]] & [[Meows Whiskerpop (Whisky)]] 
+**[[Damian - The Squeeky Devils]].** Bertemu di desa Brindlewatch. Ditemui oleh [[Alizar Valts]] & [[Whisky]] 
  
 **Seorang Pria Tua di Inn Brindlewatch**. Dia menyeritakan kejadian yang terjadi 30 tahun yang lalu dan mengenali siapa yang mengutus party. Dia juga menjelaskan 
  

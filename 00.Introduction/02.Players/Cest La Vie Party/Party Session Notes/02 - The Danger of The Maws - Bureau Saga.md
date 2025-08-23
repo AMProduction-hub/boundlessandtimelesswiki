@@ -21,7 +21,7 @@ tags: [timeline, SessionJournals]
 **[[Alizar Valts]].** The Fighter. 
 
 Away:
-**[[Meows Whiskerpop (Whisky)]].** The Warlock. 
+**[[Whisky]].** The Warlock. 
  
 ## Session Overview 
  

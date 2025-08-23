@@ -1,11 +1,12 @@
 ---
 name: Whisky
-class: Warlock - The Great Old One
+class: Warlock
 race: Tabaxi
-level: 3
+level: 5
 players: Dipta
-hp: "25"
-ac: "13"
+ac: "16"
+hp: 40
+modifier: 0
 ---
 # Meows Whiskerpop (Whisky)
 ## Overview

@@ -20,7 +20,7 @@ tags: [timeline, SessionJournals]
  
 **[[Gwyn]].** Description. 
  
-**[[Meows Whiskerpop (Whisky)]].** Description. 
+**[[Whisky]].** Description. 
  
 ## Session Overview 
  

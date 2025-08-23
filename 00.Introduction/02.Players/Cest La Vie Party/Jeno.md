@@ -4,8 +4,8 @@ class: Wizard
 race: Tabaxi
 level: 5
 players: Arya
-ac: "18"
-hp: 20
+ac: "13"
+hp: 33
 modifier: 0
 ---
 # Jeno

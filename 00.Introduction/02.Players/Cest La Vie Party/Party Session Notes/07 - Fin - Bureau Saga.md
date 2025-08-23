@@ -7,7 +7,7 @@ tags: [timeline, SessionJournals]
 ## Characters 
  
 - **[[Gwyn]]**. The Paladin 
-- **[[Meows Whiskerpop (Whisky)]].** The Warlock.
+- **[[Whisky]].** The Warlock.
 - **[[Alizar Valts]].** The Fighter. 
 - **[[Ashenka Roïs]].** The Monk.
 - [[Jeno]]. The Wizard

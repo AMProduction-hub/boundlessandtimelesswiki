@@ -4,7 +4,7 @@ tags: [timeline, SessionJournals]
 ## Characters 
  
 - **[[Gwyn]]**. The Paladin 
-- **[[Meows Whiskerpop (Whisky)]].** The Warlock.
+- **[[Whisky]].** The Warlock.
 - **[[Alizar Valts]].** The Fighter. 
 - **[[Ashenka Roïs]].** The Monk.
 - [[Jeno]]. The Wizard
@@ -35,9 +35,9 @@ Party kemudian mencoba mendatangi [[Damian - The Squeeky Devils]] yang menunggu 
  
 ## Items Of Importance
  
-- Identify Item; Amulet Kelemvor = +1 Wisdom Saves ([[Meows Whiskerpop (Whisky)]]).
+- Identify Item; Amulet Kelemvor = +1 Wisdom Saves ([[Whisky]]).
 - Stalwart Pass.
-- Sobekan baju milik [[Damian - The Squeeky Devils]] yang disobek oleh [[Meows Whiskerpop (Whisky)]].
+- Sobekan baju milik [[Damian - The Squeeky Devils]] yang disobek oleh [[Whisky]].
 
 ## What Worked 
  - Mencoba untuk mengajak pihak [[Stalwart]] & [[Fremen]] untuk gencatan senjata.

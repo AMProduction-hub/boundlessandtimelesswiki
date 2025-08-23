@@ -2,10 +2,10 @@
 name: Alizar Valts
 class: Fighter - Battle Master
 race: Elf (High)
-level: 3
+level: 5
 players: Joz
 ac: "18"
-hp: 27
+hp: 32
 modifier: 0
 ---
 # Alizar Valts

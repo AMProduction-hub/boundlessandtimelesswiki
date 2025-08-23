@@ -3,7 +3,7 @@ tags: [timeline, SessionJournals]
 ---
 ## Characters 
  
-- **[[Meows Whiskerpop (Whisky)]].** The Warlock. 
+- **[[Whisky]].** The Warlock. 
 - **[[Ashenka Roïs]].** The Monk.
 - [[Jeno]]. The Wizard
 - [[Klir]]. The Rogue.
@@ -29,7 +29,7 @@ Party memulai petualangan di Fremen Camp. Party bertemu dengan [[Sofia Fyrwurd]]
 - [[Sofia Fyrwurd]]
 - [[Eric Valtan]]
 - [[Nikael of Fire Banner]]
-- Orang dari Thieves Guild yang [[Meows Whiskerpop (Whisky)]] suruh lari.
+- Orang dari Thieves Guild yang [[Whisky]] suruh lari.
  
 ## Items Of Importance
  
