@@ -11,24 +11,14 @@
             "id": "b2f31480e2605bd2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/11 - The Jailbreak - Bureau Saga.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "aFile": "00.Introduction/02.Players/Cest La Vie Party/Jeno.md",
+                "bFile": "00.Introduction/02.Players/Cest La Vie Party/Jeno.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "11 - The Jailbreak - Bureau Saga"
+              "icon": "diff",
+              "title": "Diff: Jeno"
             }
           }
         ]
@@ -254,12 +244,13 @@
   },
   "active": "b2f31480e2605bd2",
   "lastOpenFiles": [
-    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/09 - Cease of Hostility - Bureau Saga.md",
-    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/10 - Negative 1 Day of Cease Fire - Bureau Saga.md",
-    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/11 - The Jailbreak - Bureau Saga.md",
-    "00.Introduction/02.Players/Cest La Vie Party/Party Session Notes/12 - Ball of the End of The World - Bureau Saga.md",
     "00.Introduction/02.Players/Ellenlyf Party/_index.md",
     "00.Introduction/02.Players/Cest La Vie Party/_index.md",
+    "00.Introduction/02.Players/Cest La Vie Party/Jeno.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/11 - The Jailbreak - Bureau Saga.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/09 - Cease of Hostility - Bureau Saga.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/10 - Negative 1 Day of Cease Fire - Bureau Saga.md",
+    "00.Introduction/02.Players/Cest La Vie Party/Party Session Notes/12 - Ball of the End of The World - Bureau Saga.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Main NPC/Sofia Fyrwurd.md",
     "00.Introduction/02.Players/Cest La Vie Party/Party Session Notes/11 - Party at Stalwart Ballroom - Bureau Saga.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Plot Items/Father Malen's Letter to Party.md",
@@ -281,7 +272,6 @@
     "00.Introduction/02.Players/Ellenlyf Party/GomuGomuNo.md",
     "00.Introduction/02.Players/Cest La Vie Party/Alizar Valts.md",
     "00.Introduction/02.Players/Cest La Vie Party/Klir.md",
-    "00.Introduction/02.Players/Cest La Vie Party/Jeno.md",
     "00.Introduction/02.Players/Cest La Vie Party/Gwyn.md",
     "00.Introduction/02.Players/Cest La Vie Party/Ashenka Roïs.md",
     "conflict-files-obsidian-git.md",
