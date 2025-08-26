@@ -18,3 +18,4 @@ title: Cest La Vie Party
 | [[09 - Day 1 of the Cease Fire - Bureau Saga\|09]]               | Day 1 of the Ceasefire       | Shattar-Kai (Bureau)   |
 | [[10 - Hearing about Ball - Bureau Saga\|10]]                    | Hearing about Ball           | Shattar-Kai (Bureau)   |
 | [[11 - Party at Stalwart Ballroom - Bureau Saga\|11]]            | Party at Stalwart Ballroom   | Shattar-Kai (Bureau)   |
+| [[12 - Ball of the End of The World - Bureau Saga\|12]]          | Ball of the End of The World | Shattar-Kai (Bureau)   |
