@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "ebd738e2b18389a8",
+        "id": "1a522ff64dd2d8bd",
         "type": "tabs",
         "children": [
           {
-            "id": "eefcdceada24badc",
+            "id": "b2f31480e2605bd2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03.PlayerLog&Handouts/Mechanics/CLI/spells/ice-storm.md",
-                "mode": "preview",
+                "file": "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/11 - The Jailbreak - Bureau Saga.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,35 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ice-storm"
-            }
-          },
-          {
-            "id": "8b28e6e9ac8d0890",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00.Introduction/02.Players/Cest La Vie Party/Whisky.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Whisky"
+              "title": "11 - The Jailbreak - Bureau Saga"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -88,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "precision strike",
+                "query": "path:03.PlayerLog&Handouts/Mechanics/CLI/classes file:rogue",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -252,29 +227,14 @@
           }
         ],
         "currentTab": 4
-      },
-      {
-        "id": "d0024182fd2747e6",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "6313605646dfd49c",
-            "type": "leaf",
-            "state": {
-              "type": "initiative-tracker-creature-view",
-              "state": {},
-              "icon": "initiative-tracker-creature-view",
-              "title": "Combatant"
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
-    "width": 486.5
+    "width": 391.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -292,54 +252,54 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "e9ad397d83e48c4e",
+  "active": "b2f31480e2605bd2",
   "lastOpenFiles": [
-    "00.Introduction/02.Players/Cest La Vie Party/Klir.md",
-    "00.Introduction/02.Players/Cest La Vie Party/Whisky.md",
-    "02.NPCs&Factions/Bureau of Time and Plane/Shaperite - The Agent.md",
-    "z_Assets/Bureau of Time and Plane/Character Potrait/Shaperite.png",
+    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/09 - Cease of Hostility - Bureau Saga.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/10 - Negative 1 Day of Cease Fire - Bureau Saga.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/11 - The Jailbreak - Bureau Saga.md",
+    "00.Introduction/02.Players/Cest La Vie Party/Party Session Notes/12 - Ball of the End of The World - Bureau Saga.md",
+    "00.Introduction/02.Players/Ellenlyf Party/_index.md",
+    "00.Introduction/02.Players/Cest La Vie Party/_index.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Main NPC/Sofia Fyrwurd.md",
+    "00.Introduction/02.Players/Cest La Vie Party/Party Session Notes/11 - Party at Stalwart Ballroom - Bureau Saga.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Plot Items/Father Malen's Letter to Party.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Plot Narrative.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/optional-features/precision-attack.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/optional-features/_index.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/spells/sleep.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/spells/ice-storm.md",
-    "00.Introduction/02.Players/Cest La Vie Party/Jeno.md",
-    "00.Introduction/02.Players/Cest La Vie Party/Gwyn.md",
-    "00.Introduction/02.Players/Cest La Vie Party/Alizar Valts.md",
+    "00.Introduction/02.Players/Cest La Vie Party/Whisky.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Plot Items",
+    "00.Introduction/02.Players/Cest La Vie Party/Party Session Notes/10 - Hearing about Ball - Bureau Saga.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Scene/Party in Stalwart/_index.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Scene/Party in Stalwart/Gossips.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/spells/_index.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/spells/charm-person.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Scene/Tunnel of Grim Jailbreak",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Scene/Party in Stalwart",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/_index.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Scene",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Main NPC/Ember.md",
     "z_Assets/Characters/Ember.png",
-    "00.Introduction/02.Players/Cest La Vie Party/Party Session Notes/11 - Party at Stalwart Ballroom - Bureau Saga.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Main NPC/General Valtan.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Plot Items",
-    "z_Assets/Characters/GeneralValtan.png",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Scene/Party in Stalwart/_index.md",
-    "00.Introduction/02.Players/Cest La Vie Party/Party Session Notes/10 - Hearing about Ball - Bureau Saga.md",
-    "00.Introduction/02.Players/Cest La Vie Party/_index.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Progression Party/Ellenlyf.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Scene/Party in Stalwart",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Scene",
-    "00.Introduction/02.Players/Cest La Vie Party/Party Session Notes/10 - Cease Fire Would last huh - Bureau Saga 1.md",
-    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/10 - Negative 1 Day of Cease Fire - Bureau Saga.md",
-    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/09 - Cease of Hostility - Bureau Saga.md",
     "00.Introduction/02.Players/Cest La Vie Party/Party Session Notes/Untitled Kanban.md",
-    "z_Assets/Worlds/ACT 1/Characters/EricValtan.png",
-    "z_Assets/Characters/Nikael.png",
-    "z_Assets/Worlds/ACT 1/Characters/SofiaFyrwurd.png",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Main NPC/Eric Valtan.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Plot Narrative.md",
+    "00.Introduction/02.Players/Cest La Vie Party/Party Session Notes/09 - Day 1 of the Cease Fire - Bureau Saga.md",
+    "00.Introduction/02.Players/Ellenlyf Party/GomuGomuNo.md",
+    "00.Introduction/02.Players/Cest La Vie Party/Alizar Valts.md",
+    "00.Introduction/02.Players/Cest La Vie Party/Klir.md",
+    "00.Introduction/02.Players/Cest La Vie Party/Jeno.md",
+    "00.Introduction/02.Players/Cest La Vie Party/Gwyn.md",
+    "00.Introduction/02.Players/Cest La Vie Party/Ashenka Roïs.md",
+    "conflict-files-obsidian-git.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Progression Party",
+    "z_Assets/Worlds/ACT 1/Characters/SofiaFyrwurd.png",
+    "z_Assets/Worlds/ACT 1/Characters/EricValtan.png",
     "z_Assets/Misc/fin.webp",
     "z_Assets/Misc/Tidak dipastikan 642529.crdownload",
+    "z_Assets/Characters/GeneralValtan.png",
+    "z_Assets/Characters/Nikael.png",
     "z_Assets/Characters/FatherMalen.png",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Main Factions",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Main NPC",
     "03.PlayerLog&Handouts/Mechanics/CLI/classes/img/rogue.webp",
     "03 - Player Log & Handouts/Mechanics/CLI/spells",
     "03 - Player Log & Handouts/Mechanics/CLI",
-    "03 - Player Log & Handouts/Mechanics",
     "Pasted image 20250602085324.png",
+    "z_Assets/Worlds/ACT 1/Maps/Shattar_Kai.png",
     "02 - NPCs & Factions/Forgotten Realms Pantheon/Faeurinian Pantheon/Faeurinian Pantheon.canvas",
     "00 - Introduction/02 - Players/02 - Players.canvas",
     "Untitled.canvas"

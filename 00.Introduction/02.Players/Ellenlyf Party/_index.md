@@ -16,6 +16,7 @@ title: Ellenlyf Party
 | [[08 - Into Shattar-Kai - Bureau Saga\|08]]                            | Into Shattar-Kai                             | Shattar-Kai (Bureau)   |
 | [[09 - Cease of Hostility - Bureau Saga\|09]]                          | Cease of Hostility                           | Shattar-Kai (Bureau)   |
 | [[10 - Negative 1 Day of Cease Fire - Bureau Saga\|10]]                | Negative 1 Day of Cease Fire                 | Shattar-Kai (Bureau)   |
+| [[11 - The Jailbreak - Bureau Saga\|11]]                               | The Jailbreak                                | Shattar-Kai (Bureau)   |
 # DM Notes
 ## Grup's Line & Veils
 - Prefer Family Friendly ? *Need more context*
