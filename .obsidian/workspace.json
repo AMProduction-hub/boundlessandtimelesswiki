@@ -4,21 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "1a522ff64dd2d8bd",
+        "id": "5159c5614b135cad",
         "type": "tabs",
         "children": [
           {
-            "id": "b2f31480e2605bd2",
+            "id": "b6625b2d553f91c9",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "00.Introduction/02.Players/Cest La Vie Party/Jeno.md",
-                "bFile": "00.Introduction/02.Players/Cest La Vie Party/Jeno.md",
-                "aRef": ""
+                "file": "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/12 - How Far is Too Far - Bureau Saga.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "diff",
-              "title": "Diff: Jeno"
+              "icon": "lucide-file",
+              "title": "12 - How Far is Too Far - Bureau Saga"
             }
           }
         ]
@@ -242,8 +252,9 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "b2f31480e2605bd2",
+  "active": "b6625b2d553f91c9",
   "lastOpenFiles": [
+    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/12 - How Far is Too Far - Bureau Saga.md",
     "00.Introduction/02.Players/Ellenlyf Party/_index.md",
     "00.Introduction/02.Players/Cest La Vie Party/_index.md",
     "00.Introduction/02.Players/Cest La Vie Party/Jeno.md",
@@ -274,7 +285,6 @@
     "00.Introduction/02.Players/Cest La Vie Party/Klir.md",
     "00.Introduction/02.Players/Cest La Vie Party/Gwyn.md",
     "00.Introduction/02.Players/Cest La Vie Party/Ashenka Roïs.md",
-    "conflict-files-obsidian-git.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Progression Party",
     "z_Assets/Worlds/ACT 1/Characters/SofiaFyrwurd.png",
     "z_Assets/Worlds/ACT 1/Characters/EricValtan.png",
