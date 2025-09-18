@@ -17,3 +17,5 @@ title: Ellenlyf Party
 | [[09 - Cease of Hostility - Bureau Saga\|09]]                          | Cease of Hostility                           | Shattar-Kai (Bureau)   |
 | [[10 - Negative 1 Day of Cease Fire - Bureau Saga\|10]]                | Negative 1 Day of Cease Fire                 | Shattar-Kai (Bureau)   |
 | [[11 - The Jailbreak - Bureau Saga\|11]]                               | The Jailbreak                                | Shattar-Kai (Bureau)   |
+| [[12 - How Far is Too Far - Bureau Saga\|12]]                          | How Far is Too Far                           | Shattar-Kai (Bureau)   |
+| [[13 - Far is Too Far - Bureau Saga\|13]]                              | Far is Too Far                               | Shattar-Kai (Bureau)   |
