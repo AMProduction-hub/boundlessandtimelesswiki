@@ -1,20 +1,22 @@
 {
   "ITS@@accent-color": false,
   "ITS@@s-d": false,
-  "ITS@@t-d": true,
+  "ITS@@t-d": false,
   "ITS@@drwn": false,
-  "ITS@@nord": false,
   "ITS@@its-d": false,
   "ITS@@writing-document": false,
   "ITS@@slrvb-b": false,
-  "ITS@@select": "pathfinder-remaster",
   "ITS@@mini": false,
   "ITS@@breadcrumbs-block": true,
   "ITS@@notion": false,
   "ITS@@dataview-regular-table": true,
   "ITS@@slrvb-g": false,
   "ITS@@default-statblock": false,
-  "ITS@@dataview-table-auto": false,
+  "ITS@@dataview-table-auto": true,
   "ITS@@kanban-minimal": false,
-  "ITS@@kanban-boxed": false
+  "ITS@@kanban-boxed": false,
+  "ITS@@ITS-Sizes": "sizing-readable",
+  "ITS@@paper": true,
+  "ITS@@writing": false,
+  "ITS@@select": "wotc-beyond"
 }

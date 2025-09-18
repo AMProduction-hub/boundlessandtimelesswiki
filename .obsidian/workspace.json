@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/12 - How Far is Too Far - Bureau Saga.md",
+                "file": "00.Introduction/02.Players/Ellenlyf Party/_index.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "12 - How Far is Too Far - Bureau Saga"
+              "title": "_index"
             }
           }
         ]
@@ -254,14 +254,25 @@
   },
   "active": "b6625b2d553f91c9",
   "lastOpenFiles": [
+    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/13 - Far is Too Far - Bureau Saga.md",
     "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/12 - How Far is Too Far - Bureau Saga.md",
+    "03.PlayerLog&Handouts/World Events/The Time of Troubles.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/tables/karametras-quests-mot.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/spells/bane.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/books/mythic-odysseys-of-theros/3-gods-of-theros.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Main Factions/Fremen.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/items/plate-armor.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Verdian Suyanti.md",
+    "00.Introduction/02.Players/Cest La Vie Party/Party Session Notes/12 - Ball of the End of The World - Bureau Saga.md",
+    "00.DM Screen/_index.md",
+    "Untitled.md",
+    "00.Introduction/_index.md",
     "00.Introduction/02.Players/Ellenlyf Party/_index.md",
     "00.Introduction/02.Players/Cest La Vie Party/_index.md",
     "00.Introduction/02.Players/Cest La Vie Party/Jeno.md",
     "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/11 - The Jailbreak - Bureau Saga.md",
     "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/09 - Cease of Hostility - Bureau Saga.md",
     "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/10 - Negative 1 Day of Cease Fire - Bureau Saga.md",
-    "00.Introduction/02.Players/Cest La Vie Party/Party Session Notes/12 - Ball of the End of The World - Bureau Saga.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Main NPC/Sofia Fyrwurd.md",
     "00.Introduction/02.Players/Cest La Vie Party/Party Session Notes/11 - Party at Stalwart Ballroom - Bureau Saga.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Plot Items/Father Malen's Letter to Party.md",
@@ -272,19 +283,8 @@
     "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Scene/Party in Stalwart/Gossips.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Scene/Tunnel of Grim Jailbreak",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Scene/Party in Stalwart",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/_index.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Scene",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Main NPC/Ember.md",
     "z_Assets/Characters/Ember.png",
-    "00.Introduction/02.Players/Cest La Vie Party/Party Session Notes/Untitled Kanban.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Main NPC/Eric Valtan.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Plot Narrative.md",
-    "00.Introduction/02.Players/Cest La Vie Party/Party Session Notes/09 - Day 1 of the Cease Fire - Bureau Saga.md",
-    "00.Introduction/02.Players/Ellenlyf Party/GomuGomuNo.md",
-    "00.Introduction/02.Players/Cest La Vie Party/Alizar Valts.md",
-    "00.Introduction/02.Players/Cest La Vie Party/Klir.md",
-    "00.Introduction/02.Players/Cest La Vie Party/Gwyn.md",
-    "00.Introduction/02.Players/Cest La Vie Party/Ashenka Roïs.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Progression Party",
     "z_Assets/Worlds/ACT 1/Characters/SofiaFyrwurd.png",
     "z_Assets/Worlds/ACT 1/Characters/EricValtan.png",

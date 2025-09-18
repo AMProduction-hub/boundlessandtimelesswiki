@@ -6,12 +6,14 @@ tags: [timeline, SessionJournals]
 - **[[Sephire]]**. The Paladin / Warlock
 - **[[Kairos]].** Soulknife Rogue. 
 - **[[Minerva]].** Circle of Stars Druid / Life Cleric. 
-- [[Froggo]]. Gloomstalker Ranger.
-- [[Verdian Suyanti]]. The Bard.
+- **[[Froggo]]**. Gloomstalker Ranger.
+- **[[Verdian Suyanti]]**. The Bard.
 
 ## Session Overview 
  
-Session dimulai ketika [[Kairos]] yang sedang ada didalam ruang rapat (War Room) [[Stalwart]] dan mendengarkan bagaimana mereka akan 
+Session dimulai ketika [[Kairos]] yang sedang ada didalam ruang rapat (War Room) [[Stalwart]] dan mendengarkan bagaimana mereka akan mengakhiri perang ini, dirapat tersebutkan kalau [[Stalwart]] tengah membuat senjata baru yang akan digunakan saat perang bernama Dragon's Fire. Setelah mengetahui itu dan mencari tahu sekitar tentang artifact yang Bureau of Time and Plane cari, pencarian mereka menunjuk kepada perpustakaan House of Silence dan party pun menuju kesana dengan segera.
+[[Minerva]], [[Sephire]], dan [[Verdian Suyanti]] yang ada di Fremen Camp bertemu dengan [[Nikael of Fire Banner]] dan ingin bergabung dengan [[Fremen]]. Setelah party bergabung mereka ditugaskan untuk ke House of Fisher bersama seorang [[drow|Drow]] bernama Calyan. Sesampainya di House of Fisher Calyan dan Party membakar habis House of Fisher karena; 1. Mereka melanggar perjanjian mereka dengan [[Fremen]] 2. Dilakukan pembakaran ini untuk melindungi sumber daya alam. Kemudian mereka pun melanjutkan perjalanan ke No Man's Land dimana disana ada Secret Base milik [[Fremen]].
+Sementara itu [[Kairos]] & [[Froggo]] yang sudah sampai di House of Silence mereka bergegas mencari informasi tentang batu artifact dan menemukan buku yang menuliskan sejarah Shattar-Kai yang dimulai dari kumpulan koloni-koloni dan menunjukkan kalau kapal pemimpin koloni yang membawa artifact terjatuh dan membuat yang sekarang dinamai Tunnel of Grim. Party pun bergegas menuju Tunnel of Grim setelah mengetahui informasi tersebut.
 
 ## Key Learnings
 
@@ -33,8 +35,9 @@ Session dimulai ketika [[Kairos]] yang sedang ada didalam ruang rapat (War Room)
 - [[Father Malen]]
 
 ## Items Of Importance
- 
-- 
+- Surat Rekomendasi [[General Valtan]] untuk bergabung dengan [[Stalwart]].
+- Terdapat sebuah relic yang ada di dungeon tertulis di buku yang [[Kairos]] temukan di perpustakaan House of Silence.
+- Pakaian House of Silence yang diberikan kepada [[Froggo]] & [[Kairos]]
 
 ## What Worked 
 -
