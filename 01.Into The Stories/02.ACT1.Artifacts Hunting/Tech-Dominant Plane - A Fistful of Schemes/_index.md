@@ -22,10 +22,11 @@ its echo carrying both promise… and doom."*
 ---
 
 ## **🗺️ Major Locations**  
-- **⛪ The Broken Saloon Town**  
-  - A half-deserted cowboy settlement warped by time glitches. Locals complain of déjà vu, repeated days, and “ghost riders” appearing at night.  
-  - Serves as the starting hub after the teleport mishap.  
-  - Encounters: suspicious locals, glitching objects, outlaw scouts.  
+![[theFrontierMaps.png|hmedium]]
+
+- **⛪ Ye Olde Town
+  - Main Hub of The Frontier
+  - Places where the saloon be.
 
 - **🔬 The Gnome’s Workshop**  
   - Bureau Agent **Professor Tinkwhistle**, eccentric artificer. Ramshackle lab stuffed with broken gears, glowing coils, and chalkboards filled with nonsense math.  

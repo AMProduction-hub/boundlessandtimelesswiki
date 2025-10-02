@@ -13,15 +13,15 @@
   "formulas": {},
   "defaultRoll": 1,
   "defaultFace": 100,
-  "renderer": false,
+  "renderer": true,
   "renderAllDice": false,
   "addToView": false,
   "renderTime": 2000,
-  "colorfulDice": false,
-  "scaler": 1,
-  "diceColor": "#202020",
-  "textColor": "#ffffff",
-  "textFont": "Arial",
+  "colorfulDice": true,
+  "scaler": 1.5,
+  "diceColor": "#bb00ff",
+  "textColor": "#000000",
+  "textFont": "Arial Rounded MT",
   "showLeafOnStartup": true,
   "narrativeSymbolSet": "SWRPG",
   "displayAsSymbols": false,
@@ -78,11 +78,25 @@
   "version": "11.4.2",
   "viewResults": [
     {
-      "result": "84",
-      "original": "12d12",
-      "resultText": "12d12\n[2, 9, 4, 10, 4, 11, 1, 9, 7, 12, 11, 4]",
-      "timestamp": 1749017624987,
-      "id": "O6EBleDBa6yh"
+      "result": "13",
+      "original": "4d6dl",
+      "resultText": "4d6dl\n[3, 1d, 6, 4]",
+      "timestamp": 1759424672590,
+      "id": "fb3fAZqpb86v"
+    },
+    {
+      "result": "17",
+      "original": "1d20",
+      "resultText": "1d20\n[17]",
+      "timestamp": 1759424707492,
+      "id": "_Rj4RUZDYSBI"
+    },
+    {
+      "result": "43",
+      "original": "1d%",
+      "resultText": "1d%\n[43]",
+      "timestamp": 1759424714387,
+      "id": "OAgKbX-ejgIV"
     }
   ]
 }

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01.Into The Stories/02.ACT1.Artifacts Hunting/Tech-Dominant Plane - A Fistful of Schemes/Main NPC/Baron Blackthorn.md",
+                "file": "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/15 - Next Session - Bureau Saga.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Baron Blackthorn"
+              "title": "15 - Next Session - Bureau Saga"
             }
           },
           {
@@ -200,13 +200,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Character/The Mother.md",
+                "file": "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/15 - Next Session - Bureau Saga.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of The Mother"
+              "title": "Outline of 15 - Next Session - Bureau Saga"
             }
           },
           {
@@ -276,9 +276,20 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "b6625b2d553f91c9",
+  "active": "e9ad397d83e48c4e",
   "lastOpenFiles": [
+    "00.Introduction/02.Players/Cest La Vie Party/DM Sessions Notes/14 - Next Session - Bureau Saga.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Tech-Dominant Plane - A Fistful of Schemes/_index.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Maps.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Plot Narrative.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Plane of Greed - Smaug's Challenge/Report.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Plane of Greed - Smaug's Challenge/Maps/The Heart Of The Hoard.webp",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Plane of Greed - Smaug's Challenge/Maps/The Golden Hall.webp",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/_index.md",
+    "z_Assets/Worlds/ACT 1/Maps/theFrontierMaps.png",
+    "00.Introduction/02.Players/Ellenlyf Party/_index.md",
+    "00.Introduction/02.Players/Cest La Vie Party/_index.md",
+    "00.Introduction/02.Players/Cest La Vie Party/Party Progression Notes & Faction Status.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Tech-Dominant Plane - A Fistful of Schemes/Main NPC/Baron Blackthorn.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Tech-Dominant Plane - A Fistful of Schemes/Main NPC/Professor Tinkwhistle.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Tech-Dominant Plane - A Fistful of Schemes/Main Factions/The Cinder Snakes.md",
@@ -290,7 +301,6 @@
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Tech-Dominant Plane - A Fistful of Schemes/Gameplay Mechanic.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Tech-Dominant Plane - A Fistful of Schemes/Houses Items.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Tech-Dominant Plane - A Fistful of Schemes/Main Factions",
-    "00.Introduction/02.Players/Cest La Vie Party/DM Sessions Notes/14 - Next Session - Bureau Saga.md",
     "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/15 - Next Session - Bureau Saga.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Character/The Mother.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Character/The Paladin.md",
@@ -301,15 +311,8 @@
     "03.PlayerLog&Handouts/Mechanics/CLI/tables/cleric-ggr.md",
     "z_Assets/Characters/FatherMalen.png",
     "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/zariel-mpmm.md",
-    "00.Introduction/02.Players/Ellenlyf Party/_index.md",
     "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes",
-    "00.Introduction/02.Players/Cest La Vie Party/_index.md",
     "00.Introduction/02.Players/Cest La Vie Party/DM Sessions Notes",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/_index.md",
-    "00.Introduction/02.Players/Cest La Vie Party/Jeno.md",
-    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/14 - Too Far - Bureau Saga.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/barbatos-imr.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/spells/teleportation-circle.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Plot Items",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Scene/Tunnel of Grim Jailbreak",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Scene/Party in Stalwart",
@@ -321,9 +324,6 @@
     "z_Assets/Misc/fin.webp",
     "z_Assets/Characters/GeneralValtan.png",
     "z_Assets/Characters/Nikael.png",
-    "03.PlayerLog&Handouts/Mechanics/CLI/classes/img/rogue.webp",
-    "Pasted image 20250602085324.png",
-    "z_Assets/Worlds/ACT 1/Maps/Shattar_Kai.png",
     "02 - NPCs & Factions/Forgotten Realms Pantheon/Faeurinian Pantheon/Faeurinian Pantheon.canvas",
     "00 - Introduction/02 - Players/02 - Players.canvas",
     "Untitled.canvas"
