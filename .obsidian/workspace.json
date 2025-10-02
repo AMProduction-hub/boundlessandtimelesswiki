@@ -11,24 +11,14 @@
             "id": "b6625b2d553f91c9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/15 - Next Session - Bureau Saga.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "aFile": "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/15 - Next Session - Bureau Saga.md",
+                "bFile": "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/15 - Next Session - Bureau Saga.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "15 - Next Session - Bureau Saga"
+              "icon": "diff",
+              "title": "Diff: 15 - Next Session - Bureau Saga"
             }
           },
           {
@@ -38,7 +28,7 @@
               "type": "markdown",
               "state": {
                 "file": "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Character/The Mother.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -55,7 +45,8 @@
               "title": "The Mother"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -152,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00 - Introduction/03 - Houses Rules/Spells/Spells.md",
+                "file": "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Character/The Mother.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -162,7 +153,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Spells"
+              "title": "Backlinks for The Mother"
             }
           },
           {
@@ -171,12 +162,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Factions/Bureau of Time and Plane.md",
+                "file": "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Character/The Mother.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Bureau of Time and Plane"
+              "title": "Outgoing links from The Mother"
             }
           },
           {
@@ -200,13 +191,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/15 - Next Session - Bureau Saga.md",
+                "file": "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Character/The Mother.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 15 - Next Session - Bureau Saga"
+              "title": "Outline of The Mother"
             }
           },
           {
@@ -276,16 +267,24 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "e9ad397d83e48c4e",
+  "active": "47a0d460f8b1cc6e",
   "lastOpenFiles": [
-    "00.Introduction/02.Players/Cest La Vie Party/DM Sessions Notes/14 - Next Session - Bureau Saga.md",
+    "00.DM Screen/DC Check House Rules Difficulty List.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/_index.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/The Show! - Orwellian Reality Bending Game Show/_index.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Tech-Dominant Plane - A Fistful of Schemes/_index.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/_index.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Plane of Greed - Smaug's Challenge/_index.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/_index.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/_index.md",
+    "00.Introduction/02.Players/Cest La Vie Party/Jeno.md",
+    "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/15 - Next Session - Bureau Saga.md",
+    "00.Introduction/02.Players/Cest La Vie Party/DM Sessions Notes/14 - Next Session - Bureau Saga.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Maps.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Plot Narrative.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Plane of Greed - Smaug's Challenge/Report.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Plane of Greed - Smaug's Challenge/Maps/The Heart Of The Hoard.webp",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Plane of Greed - Smaug's Challenge/Maps/The Golden Hall.webp",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/_index.md",
     "z_Assets/Worlds/ACT 1/Maps/theFrontierMaps.png",
     "00.Introduction/02.Players/Ellenlyf Party/_index.md",
     "00.Introduction/02.Players/Cest La Vie Party/_index.md",
@@ -301,16 +300,8 @@
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Tech-Dominant Plane - A Fistful of Schemes/Gameplay Mechanic.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Tech-Dominant Plane - A Fistful of Schemes/Houses Items.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Tech-Dominant Plane - A Fistful of Schemes/Main Factions",
-    "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/15 - Next Session - Bureau Saga.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Character/The Mother.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Character/The Paladin.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Character/The Daughter.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/_index.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/The Show! - Orwellian Reality Bending Game Show/_index.md",
-    "01.Into The Stories/03.ACT2.Planescape Conflict/_index.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/tables/cleric-ggr.md",
     "z_Assets/Characters/FatherMalen.png",
-    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/zariel-mpmm.md",
     "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes",
     "00.Introduction/02.Players/Cest La Vie Party/DM Sessions Notes",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Plot Items",

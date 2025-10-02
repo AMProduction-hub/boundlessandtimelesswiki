@@ -24,7 +24,7 @@ its echo carrying both promise… and doom."*
 ## **🗺️ Major Locations**  
 ![[theFrontierMaps.png|hmedium]]
 
-- **⛪ Ye Olde Town
+- **⛪ Ye Olde Town**
   - Main Hub of The Frontier
   - Places where the saloon be.
 

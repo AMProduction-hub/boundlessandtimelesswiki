@@ -22,7 +22,6 @@ maps:
   - “CampMap”
 notes: []
 ---
-
 ## 🎯 Narrative Hook / Scene Opening  
 The skies above flicker with infernal light. The armies of Stalwart launch their teleport-wizard assault on the Freemen camps even as the Freemen assault the Bastion’s outer walls.  
 Damian’s voice cuts through the clamor: *“You must choose one side — we don’t have the hours for both.”*  
