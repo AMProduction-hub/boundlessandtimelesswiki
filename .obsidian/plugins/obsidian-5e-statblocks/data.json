@@ -374,7 +374,7 @@
   "version": {
     "major": 4,
     "minor": 10,
-    "patch": 1
+    "patch": 2
   },
   "paths": [
     "03.PlayerLog&Handouts/Mechanics/CLI",
@@ -389,5 +389,5 @@
   "hideConditionHelp": false,
   "alwaysImport": false,
   "defaultLayoutsIntegrated": true,
-  "atomicWrite": false
+  "atomicWrite": true
 }

@@ -2,7 +2,7 @@
 name: Sephire
 class: Paladin / Warlock
 race: Half-Orc
-level: 3
+level: 6
 players: Evan
 hp: "27"
 ac: "19"

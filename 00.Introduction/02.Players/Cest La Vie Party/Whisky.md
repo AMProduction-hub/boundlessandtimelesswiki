@@ -8,7 +8,7 @@ ac: "16"
 hp: 40
 modifier: 0
 ---
-# Meows Whiskerpop (Whisky)
+# Whisky
 ## Overview
 ### Basic Background
 - **Who are you?** (Name, race, class, and a defining trait)

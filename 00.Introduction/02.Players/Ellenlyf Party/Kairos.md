@@ -1,8 +1,8 @@
 ---
 name: Kairos
-class: Rogue - Soulknife
+class: Rogue - Soulknife / Fighter
 race: Astral Elf
-level: 3
+level: 6
 players: Rafi
 hp: "18"
 ac: "14"

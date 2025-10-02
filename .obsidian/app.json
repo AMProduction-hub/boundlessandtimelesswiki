@@ -12,6 +12,6 @@
   "showUnsupportedFiles": true,
   "strictLineBreaks": false,
   "rightToLeft": false,
-  "tabSize": 4,
+  "tabSize": 5,
   "readableLineLength": false
 }
