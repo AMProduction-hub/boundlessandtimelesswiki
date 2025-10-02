@@ -19,3 +19,4 @@ title: Cest La Vie Party
 | [[10 - Hearing about Ball - Bureau Saga\|10]]                    | Hearing about Ball           | Shattar-Kai (Bureau)   |
 | [[11 - Party at Stalwart Ballroom - Bureau Saga\|11]]            | Party at Stalwart Ballroom   | Shattar-Kai (Bureau)   |
 | [[12 - Ball of the End of The World - Bureau Saga\|12]]          | Ball of the End of The World | Shattar-Kai (Bureau)   |
+| [[13 - For The Ages and The New Beginning - Bureau Saga\|13]]    | For The Ages and The New Beginning | Shattar-Kai (Bureau)   |

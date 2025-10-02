@@ -19,3 +19,4 @@ title: Ellenlyf Party
 | [[11 - The Jailbreak - Bureau Saga\|11]]                               | The Jailbreak                                | Shattar-Kai (Bureau)   |
 | [[12 - How Far is Too Far - Bureau Saga\|12]]                          | How Far is Too Far                           | Shattar-Kai (Bureau)   |
 | [[13 - Far is Too Far - Bureau Saga\|13]]                              | Far is Too Far                               | Shattar-Kai (Bureau)   |
+| [[14 - Too Far - Bureau Saga\|14]]                                     | Too Far                                      | Shattar-Kai (Bureau)   |
