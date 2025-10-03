@@ -362,6 +362,100 @@
         "image": "<STATBLOCK-WIKI-LINK>themothers.png<STATBLOCK-WIKI-LINK>",
         "layout": "Basic 5e Layout"
       }
+    ],
+    [
+      "Red Jack Rorke, The Showman",
+      {
+        "name": "Red Jack Rorke, The Showman",
+        "size": "Medium",
+        "type": "humanoid (human)",
+        "alignment": "Chaotic Neutral",
+        "ac": 16,
+        "ac_class": "duster coat, quick reflexes",
+        "hp": 110,
+        "hit_dice": "13d8 + 39",
+        "stats": [
+          12,
+          18,
+          14,
+          13,
+          14,
+          20
+        ],
+        "speed": "30 ft.",
+        "saves": [],
+        "Dexterity": 8,
+        "Charisma": 9,
+        "skillsaves": [
+          {
+            "Deception": 11
+          },
+          {
+            "Performance": 11
+          },
+          {
+            "Persuasion": 11
+          },
+          {
+            "Insight": 7
+          },
+          {
+            "Sleight of Hand": 8
+          },
+          {
+            "senses": "passive Perception 12"
+          },
+          {
+            "languages": "Common, Thieves’ Cant"
+          }
+        ],
+        "cr": "8",
+        "traits": [
+          {
+            "name": "Master of Intrigue",
+            "desc": "Jack can mimic speech, writing, and behavior after observing for 1 minute. He can unerringly adopt disguises, imitating mannerisms to fool most."
+          },
+          {
+            "name": "Master of Tactics",
+            "desc": "Jack can use the Help action as a bonus action, and do so from 30 ft. away if his ally can see or hear him."
+          },
+          {
+            "name": "Cunning Action",
+            "desc": "He can Dash, Disengage, or Hide as a bonus action."
+          },
+          {
+            "name": "Sneak Attack (4d6)",
+            "desc": "Once per turn, Jack deals 14 (4d6) extra damage when he has advantage on the attack roll or when an ally is within 5 ft. of the target."
+          },
+          {
+            "name": "Silver-Tongued Devil",
+            "desc": "Jack has advantage on Persuasion and Deception checks made in front of an audience or crowd."
+          },
+          {
+            "name": "Flair for the Dramatic",
+            "desc": "Whenever Jack rolls initiative, he may draw a card and dramatically toss it into the air. He gains advantage on his first attack roll of that combat."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Twin Revolvers",
+            "desc": "Ranged Weapon Attack: +8 to hit, range 60/150 ft., one target. Hit: 10 (2d6+4) piercing damage. Jack makes two attacks."
+          },
+          {
+            "name": "Disarming Flourish",
+            "desc": "Jack targets one creature within 30 ft. The target must succeed on a DC 15 Strength saving throw or drop one held item of Jack’s choice."
+          },
+          {
+            "name": "Distracting Gambit (Recharge 5–6)",
+            "desc": "Jack theatrically flips cards, twirls pistols, or spins into the spotlight. Each enemy within 20 ft. that can see him must succeed on a DC 15 Wisdom saving throw or be distracted, granting advantage to Jack’s allies against them until the start of his next turn."
+          }
+        ],
+        "source": [
+          "Homebrew"
+        ],
+        "image": "<STATBLOCK-WIKI-LINK>RedJackTheShowman.png<STATBLOCK-WIKI-LINK>",
+        "layout": "Basic 5e Layout"
+      }
     ]
   ],
   "defaultLayouts": {},
