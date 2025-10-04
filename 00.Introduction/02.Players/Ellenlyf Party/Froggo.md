@@ -4,7 +4,7 @@ class: Ranger - Gloomstalker
 race: Grung
 level: 6
 players: Yudha
-hp: "34"
+hp: "60"
 ac: "16"
 ---
 # Froggo

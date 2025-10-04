@@ -28,6 +28,9 @@ Damian’s voice cuts through the clamor: *“You must choose one side — we do
 Eric and Sofia glare at each other, their love torn by war.  
 A rift pulses at the center; you see Father Malen chanting, artifact glowing with wiring of infernal energy.
 
+[[Shaperite - The Agent]] joined with The Four Musician of Time:
+![[fourmusicianoftime.png|cover hsmall]]
+
 ## 🧭 Goals & Stakes  
 | Player Goals | Villain Goal | Battlefield Threats / Hazards |
 |--------------|--------------|-------------------------------|
@@ -62,12 +65,68 @@ A rift pulses at the center; you see Father Malen chanting, artifact glowing wit
 - Shaperite & Musicians interfere: reduce progress by half  
 - If PCs fail checks, ritual surges more strongly → environmental backlash  
 
+#### Phase 1 - Outer Walls of House of Silence
+```encounter
+title: Outer Walls of House of Silence
+creatures:
+  - 4: "Cult Fanatic" 
+  - 2: "Bone Naga (Guardian)"
+  - 1: "Barbed Devil"
+```
+- **Synergy:**
+    - Bone Naga casts _Hold Person_ on frontliners → Barbed Devil uses **Hurl Flame** or **Teleport** to exploit paralyzed targets.
+    - Cult Fanatics use _Hold Person_ to chain-paralyze if the first fails, punishing poor positioning.
+    - Environment: _Broken Bells_ ring every 2 rounds (DC 15 Con save or deafened for 1 min).
+
+- **Faction Impact:**
+    - **Stalwart:** +2 to all PCs’ saving throws while within the temple perimeter (their morale banner).
+    - **Fremen:** Provide _Suppressive Fire_ — once per round, a PC can reroll a missed ranged attack (representing sniper support).
+
+#### Phase 2 - Ritual Surge
+```encounter
+title: Ritual Begins
+creatures:
+  - 1: "Father Malen"
+  - 2: "Veteran"
+  - 1: "Cult Fanatic"
+  - 1: "Nalfeshnee"
+```
+- **Mechanics:**
+    - The **ritual** requires **3 successful Arcana/Religion checks (DC 18)** to interrupt before round 5.
+    - Every failed check triggers an _Infernal Pulse_ (20 ft radius, 4d8 fire + 4d8 necrotic, Dex save DC 15 half).
+    - Malen can use _Mass Healing Word_ and _Spirit Guardians_ simultaneously — forcing players to decide between disrupting him or surviving.
+
+- **Faction Impact:**
+    - **Shaperite & Musicians of Time:** once per combat round, they can use _Temporal Dissonance_ (players choose one):
+        - Force an enemy to act at initiative 0 next round (delay).
+        - Allow one PC to immediately take a **reaction** (off-turn reposition, item use, or attack).
+    - **Pequod (Ahab & Ishmael):**
+        - Every 3 rounds, _Arcane Mortar Strike_ lands (Dex save DC 16, 10d6 force, half on success).
+        - Targeted by Ishmael (so he avoids friendly fire).
+
 ### 3. **Avatar of Zariel Battle (Weakened)**  
 - **Statblock** → (see below)  
 - Each round: Musicians' temporal pulses act as “lair effects”  
 - Faction support grants buffs / suppression support  
 - If both factions present → allow “Hammer & Anvil” combo (Stalwart pins + Freemen flank → stun one major foe)  
 - Curious moment: Zariel whispers to Sephire — temptation check  
+
+```encounter
+name: Final Countdown
+creatures:
+ - 1: Avatar of Zariel
+ - 2: Barbed Devil
+ - 1: Chained Devil
+```
+- **Synergy:**
+    - **Zariel** marks a PC each round (Fiendish Brand) → if that PC takes damage, all other fiends gain advantage against them until end of next round.
+    - **Chain Devil** uses _Unnerving Mask_ to frighten low-Wis PCs, breaking formation.
+    - **Barbed Devils** use _Reckless_ when within 10 ft of Zariel, gaining advantage on attacks while feeding her passive _Flame Dominion_ (extra 1d6 fire to all fiend allies).
+    - Every 3rd round: “Temporal Pulse” from musicians → the battlefield rewinds 6 seconds. PCs can redo their **last movement only**, but Zariel retains memory (she adjusts tactics).
+
+- **Faction Impact:**
+    - **If both Stalwart & Fremen are alive:** trigger **“Hammer & Anvil” combo** once — the devils are stunned for 1 round as combined forces strike from both flanks.
+    - **If either side absent:** Zariel’s flame aura expands by +10 ft, increasing pressure.
 
 ### 4. **Aftermath & Fallout**  
 - Avatar banished, rift collapses  
@@ -78,8 +137,9 @@ A rift pulses at the center; you see Father Malen chanting, artifact glowing wit
 
 ## 🧱 NPCs & Monster Statblocks  
 
+[!info] Statblock
 ```statblock
-"name": "Father Malen, High Cleric of Kelemvor"
+"name": "Father Malen"
 "size": "Medium"
 "type": "humanoid (human)"
 "alignment": "Lawful Neutral"

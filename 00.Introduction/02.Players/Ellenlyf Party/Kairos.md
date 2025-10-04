@@ -4,7 +4,7 @@ class: Rogue - Soulknife / Fighter
 race: Astral Elf
 level: 6
 players: Rafi
-hp: "18"
+hp: "48"
 ac: "14"
 modifier: 0
 ---

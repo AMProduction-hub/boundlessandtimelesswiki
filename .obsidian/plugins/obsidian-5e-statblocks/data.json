@@ -456,6 +456,315 @@
         "image": "<STATBLOCK-WIKI-LINK>RedJackTheShowman.png<STATBLOCK-WIKI-LINK>",
         "layout": "Basic 5e Layout"
       }
+    ],
+    [
+      "Father Malen, High Cleric of Kelemvor",
+      {
+        "name": "Father Malen, High Cleric of Kelemvor",
+        "size": "Medium",
+        "type": "humanoid (human)",
+        "alignment": "Lawful Neutral",
+        "ac": 18,
+        "ac_class": "blessed plate",
+        "hp": 225,
+        "hit_dice": "30d8 + 90",
+        "stats": [
+          16,
+          12,
+          16,
+          14,
+          22,
+          18
+        ],
+        "speed": "30 ft.",
+        "saves": [
+          {
+            "Wisdom": 11
+          },
+          {
+            "Charisma": 8
+          },
+          {
+            "Constitution": 8
+          }
+        ],
+        "skillsaves": [
+          {
+            "Religion": 10
+          },
+          {
+            "Insight": 11
+          },
+          {
+            "Persuasion": 8
+          }
+        ],
+        "damage_resistances": "necrotic, radiant",
+        "condition_immunities": "<STATBLOCK-MARKDOWN-LINK>03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed|charmed<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened|frightened<STATBLOCK-MARKDOWN-LINK>",
+        "senses": "passive Perception 21",
+        "languages": "Common, Celestial, Infernal",
+        "cr": "15",
+        "traits": [
+          {
+            "name": "Spellcasting",
+            "desc": "Father Malen is a 17th-level spellcaster. His spellcasting ability is Wisdom (spell save DC 19, +11 to hit with spell attacks). He has the following cleric spells prepared:\n\n**Cantrips (at will):** <STATBLOCK-MARKDOWN-LINK>03.PlayerLog&Handouts/Mechanics/CLI/spells/toll-the-dead.md|toll the dead<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md|guidance<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>03.PlayerLog&Handouts/Mechanics/CLI/spells/sacred-flame.md|sacred flame<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>03.PlayerLog&Handouts/Mechanics/CLI/spells/thaumaturgy.md|thaumaturgy<STATBLOCK-MARKDOWN-LINK>\n\n**1st level (4 slots):** <STATBLOCK-MARKDOWN-LINK>03.PlayerLog&Handouts/Mechanics/CLI/spells/bless.md|bless<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md|command<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>03.PlayerLog&Handouts/Mechanics/CLI/spells/protection-from-evil-and-good.md|protection from evil and good<STATBLOCK-MARKDOWN-LINK>\n\n**2nd level (3 slots):** <STATBLOCK-MARKDOWN-LINK>03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md|hold person<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>03.PlayerLog&Handouts/Mechanics/CLI/spells/lesser-restoration.md|lesser restoration<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>03.PlayerLog&Handouts/Mechanics/CLI/spells/spiritual-weapon.md|spiritual weapon<STATBLOCK-MARKDOWN-LINK>\n\n**3rd level (3 slots):** <STATBLOCK-MARKDOWN-LINK>03.PlayerLog&Handouts/Mechanics/CLI/spells/spirit-guardians.md|spirit guardians<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>03.PlayerLog&Handouts/Mechanics/CLI/spells/revivify.md|revivify<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md|dispel magic<STATBLOCK-MARKDOWN-LINK>\n\n**4th level (3 slots):** <STATBLOCK-MARKDOWN-LINK>03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md|banishment<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>03.PlayerLog&Handouts/Mechanics/CLI/spells/death-ward.md|death ward<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>03.PlayerLog&Handouts/Mechanics/CLI/spells/guardian-of-faith.md|guardian of faith<STATBLOCK-MARKDOWN-LINK>\n\n**5th level (2 slots):** <STATBLOCK-MARKDOWN-LINK>03.PlayerLog&Handouts/Mechanics/CLI/spells/flame-strike.md|flame strike<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>03.PlayerLog&Handouts/Mechanics/CLI/spells/raise-dead.md|raise dead<STATBLOCK-MARKDOWN-LINK>\n\n**6th level (1 slot):** <STATBLOCK-MARKDOWN-LINK>03.PlayerLog&Handouts/Mechanics/CLI/spells/blade-barrier.md|blade barrier<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>03.PlayerLog&Handouts/Mechanics/CLI/spells/harm.md|harm<STATBLOCK-MARKDOWN-LINK>\n\n**7th level (1 slot):** <STATBLOCK-MARKDOWN-LINK>03.PlayerLog&Handouts/Mechanics/CLI/spells/resurrection.md|resurrection<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>03.PlayerLog&Handouts/Mechanics/CLI/spells/finger-of-death.md|finger of death<STATBLOCK-MARKDOWN-LINK>\n\n**8th level (1 slot):** <STATBLOCK-MARKDOWN-LINK>03.PlayerLog&Handouts/Mechanics/CLI/spells/earthquake.md|earthquake<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>03.PlayerLog&Handouts/Mechanics/CLI/spells/power-word-stun.md|power word stun<STATBLOCK-MARKDOWN-LINK>\n\n**9th level (1 slot):** <STATBLOCK-MARKDOWN-LINK>03.PlayerLog&Handouts/Mechanics/CLI/spells/mass-heal.md|mass heal<STATBLOCK-MARKDOWN-LINK>"
+          },
+          {
+            "name": "Artifact Conduit",
+            "desc": "While attuned to the Artifact of Kelemvor, Malen can channel destructive power. When concentrating on a spell, he can also unleash a pulse of necrotic energy: each enemy within 20 ft. takes 10 (3d6) necrotic damage."
+          },
+          {
+            "name": "Legendary Resistance (1/Day)",
+            "desc": "If Malen fails a saving throw, he can choose to succeed instead."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Mace of Judgment",
+            "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 9 (1d8+5) bludgeoning damage plus 13 (3d8) radiant damage."
+          },
+          {
+            "name": "Channel Divinity (2/Day)",
+            "desc": "Malen can use one of the following options:  \n- **Turn Undead.** Undead within 30 ft. must succeed on a DC 19 Wisdom save or be turned.  \n- **Path to the Grave.** As a bonus action, Malen curses one creature within 30 ft. The next time one of Malen’s allies hits that creature, the target becomes vulnerable to all of that attack’s damage."
+          }
+        ],
+        "bonus_actions": [
+          {
+            "name": "Spiritual Weapon",
+            "desc": "Malen summons a spectral scythe (2d8+5 force damage, +11 to hit, range 60 ft.)."
+          }
+        ],
+        "reactions": [
+          {
+            "name": "Kelemvor’s Judgment",
+            "desc": "When Malen or an ally within 30 ft. would be reduced to 0 hp, Malen can instead have them drop to 1 hp (1/long rest)."
+          }
+        ],
+        "legendary_actions": [
+          {
+            "name": "Cantrip",
+            "desc": "Malen casts a cleric cantrip."
+          },
+          {
+            "name": "Grave Pulse (Costs 2 Actions)",
+            "desc": "Malen forces one creature he can see within 30 ft. to make a DC 19 Constitution saving throw or take 18 (4d8) necrotic damage and gain disadvantage on saving throws until the start of its next turn."
+          }
+        ],
+        "image": "z_Assets/Characters/FatherMalen.png",
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Father Malen",
+      {
+        "name": "Father Malen",
+        "size": "Medium",
+        "type": "humanoid (human)",
+        "alignment": "Lawful Neutral",
+        "ac": 18,
+        "ac_class": "blessed plate",
+        "hp": 225,
+        "hit_dice": "30d8 + 90",
+        "stats": [
+          16,
+          12,
+          16,
+          14,
+          22,
+          18
+        ],
+        "speed": "30 ft.",
+        "saves": [
+          {
+            "Wisdom": 11
+          },
+          {
+            "Charisma": 8
+          },
+          {
+            "Constitution": 8
+          }
+        ],
+        "skillsaves": [
+          {
+            "Religion": 10
+          },
+          {
+            "Insight": 11
+          },
+          {
+            "Persuasion": 8
+          }
+        ],
+        "damage_resistances": "necrotic, radiant",
+        "condition_immunities": "<STATBLOCK-MARKDOWN-LINK>03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed|charmed<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened|frightened<STATBLOCK-MARKDOWN-LINK>",
+        "senses": "passive Perception 21",
+        "languages": "Common, Celestial, Infernal",
+        "cr": "15",
+        "traits": [
+          {
+            "name": "Spellcasting",
+            "desc": "Father Malen is a 17th-level spellcaster. His spellcasting ability is Wisdom (spell save DC 19, +11 to hit with spell attacks). He has the following cleric spells prepared:\n\n**Cantrips (at will):** <STATBLOCK-MARKDOWN-LINK>03.PlayerLog&Handouts/Mechanics/CLI/spells/toll-the-dead.md|toll the dead<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>03.PlayerLog&Handouts/Mechanics/CLI/spells/guidance.md|guidance<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>03.PlayerLog&Handouts/Mechanics/CLI/spells/sacred-flame.md|sacred flame<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>03.PlayerLog&Handouts/Mechanics/CLI/spells/thaumaturgy.md|thaumaturgy<STATBLOCK-MARKDOWN-LINK>\n\n**1st level (4 slots):** <STATBLOCK-MARKDOWN-LINK>03.PlayerLog&Handouts/Mechanics/CLI/spells/bless.md|bless<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md|command<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>03.PlayerLog&Handouts/Mechanics/CLI/spells/protection-from-evil-and-good.md|protection from evil and good<STATBLOCK-MARKDOWN-LINK>\n\n**2nd level (3 slots):** <STATBLOCK-MARKDOWN-LINK>03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md|hold person<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>03.PlayerLog&Handouts/Mechanics/CLI/spells/lesser-restoration.md|lesser restoration<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>03.PlayerLog&Handouts/Mechanics/CLI/spells/spiritual-weapon.md|spiritual weapon<STATBLOCK-MARKDOWN-LINK>\n\n**3rd level (3 slots):** <STATBLOCK-MARKDOWN-LINK>03.PlayerLog&Handouts/Mechanics/CLI/spells/spirit-guardians.md|spirit guardians<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>03.PlayerLog&Handouts/Mechanics/CLI/spells/revivify.md|revivify<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>03.PlayerLog&Handouts/Mechanics/CLI/spells/dispel-magic.md|dispel magic<STATBLOCK-MARKDOWN-LINK>\n\n**4th level (3 slots):** <STATBLOCK-MARKDOWN-LINK>03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md|banishment<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>03.PlayerLog&Handouts/Mechanics/CLI/spells/death-ward.md|death ward<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>03.PlayerLog&Handouts/Mechanics/CLI/spells/guardian-of-faith.md|guardian of faith<STATBLOCK-MARKDOWN-LINK>\n\n**5th level (2 slots):** <STATBLOCK-MARKDOWN-LINK>03.PlayerLog&Handouts/Mechanics/CLI/spells/flame-strike.md|flame strike<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>03.PlayerLog&Handouts/Mechanics/CLI/spells/raise-dead.md|raise dead<STATBLOCK-MARKDOWN-LINK>\n\n**6th level (1 slot):** <STATBLOCK-MARKDOWN-LINK>03.PlayerLog&Handouts/Mechanics/CLI/spells/blade-barrier.md|blade barrier<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>03.PlayerLog&Handouts/Mechanics/CLI/spells/harm.md|harm<STATBLOCK-MARKDOWN-LINK>\n\n**7th level (1 slot):** <STATBLOCK-MARKDOWN-LINK>03.PlayerLog&Handouts/Mechanics/CLI/spells/resurrection.md|resurrection<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>03.PlayerLog&Handouts/Mechanics/CLI/spells/finger-of-death.md|finger of death<STATBLOCK-MARKDOWN-LINK>\n\n**8th level (1 slot):** <STATBLOCK-MARKDOWN-LINK>03.PlayerLog&Handouts/Mechanics/CLI/spells/earthquake.md|earthquake<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>03.PlayerLog&Handouts/Mechanics/CLI/spells/power-word-stun.md|power word stun<STATBLOCK-MARKDOWN-LINK>\n\n**9th level (1 slot):** <STATBLOCK-MARKDOWN-LINK>03.PlayerLog&Handouts/Mechanics/CLI/spells/mass-heal.md|mass heal<STATBLOCK-MARKDOWN-LINK>"
+          },
+          {
+            "name": "Artifact Conduit",
+            "desc": "While attuned to the Artifact of Kelemvor, Malen can channel destructive power. When concentrating on a spell, he can also unleash a pulse of necrotic energy: each enemy within 20 ft. takes 10 (3d6) necrotic damage."
+          },
+          {
+            "name": "Legendary Resistance (1/Day)",
+            "desc": "If Malen fails a saving throw, he can choose to succeed instead."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Mace of Judgment",
+            "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 9 (1d8+5) bludgeoning damage plus 13 (3d8) radiant damage."
+          },
+          {
+            "name": "Channel Divinity (2/Day)",
+            "desc": "Malen can use one of the following options:  \n- **Turn Undead.** Undead within 30 ft. must succeed on a DC 19 Wisdom save or be turned.  \n- **Path to the Grave.** As a bonus action, Malen curses one creature within 30 ft. The next time one of Malen’s allies hits that creature, the target becomes vulnerable to all of that attack’s damage."
+          }
+        ],
+        "bonus_actions": [
+          {
+            "name": "Spiritual Weapon",
+            "desc": "Malen summons a spectral scythe (2d8+5 force damage, +11 to hit, range 60 ft.)."
+          }
+        ],
+        "reactions": [
+          {
+            "name": "Kelemvor’s Judgment",
+            "desc": "When Malen or an ally within 30 ft. would be reduced to 0 hp, Malen can instead have them drop to 1 hp (1/long rest)."
+          }
+        ],
+        "legendary_actions": [
+          {
+            "name": "Cantrip",
+            "desc": "Malen casts a cleric cantrip."
+          },
+          {
+            "name": "Grave Pulse (Costs 2 Actions)",
+            "desc": "Malen forces one creature he can see within 30 ft. to make a DC 19 Constitution saving throw or take 18 (4d8) necrotic damage and gain disadvantage on saving throws until the start of its next turn."
+          }
+        ],
+        "image": "z_Assets/Characters/FatherMalen.png",
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Avatar of Zariel",
+      {
+        "name": "Avatar of Zariel",
+        "size": "Large",
+        "type": "fiend",
+        "subtype": "devil",
+        "alignment": "Lawful Evil",
+        "ac": 19,
+        "ac_class": "corrupted celestial armor",
+        "hp": 310,
+        "hit_dice": "25d10 + 175",
+        "modifier": 6,
+        "stats": [
+          24,
+          18,
+          24,
+          20,
+          22,
+          26
+        ],
+        "speed": "40 ft., fly 90 ft.",
+        "saves": [
+          {
+            "strength": "+12"
+          },
+          {
+            "constitution": "+12"
+          },
+          {
+            "wisdom": "+11"
+          },
+          {
+            "charisma": "+14"
+          }
+        ],
+        "skillsaves": [
+          {
+            "name": "<STATBLOCK-MARKDOWN-LINK>03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Intimidation|Intimidation<STATBLOCK-MARKDOWN-LINK>",
+            "desc": "+14"
+          },
+          {
+            "name": "<STATBLOCK-MARKDOWN-LINK>03.PlayerLog&Handouts/Mechanics/CLI/rules/skills.md#Perception|Perception<STATBLOCK-MARKDOWN-LINK>",
+            "desc": "+11"
+          }
+        ],
+        "damage_resistances": "cold; fire; radiant; bludgeoning, piercing, slashing from nonmagical weapons",
+        "damage_immunities": "necrotic, poison",
+        "condition_immunities": "<STATBLOCK-MARKDOWN-LINK>03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Charmed|charmed<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Exhaustion|exhaustion<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened|frightened<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Poisoned|poisoned<STATBLOCK-MARKDOWN-LINK>",
+        "senses": "darkvision 120 ft., passive Perception 21",
+        "languages": "all, telepathy 120 ft.",
+        "cr": "19",
+        "traits": [
+          {
+            "name": "Weakened Manifestation",
+            "desc": "This avatar represents only a fraction of Zariel’s true power. Her hit points, AC, and saving throw DCs are reduced compared to her true form."
+          },
+          {
+            "name": "Legendary Resistance (2/Day)",
+            "desc": "If the Avatar fails a saving throw, it can choose to succeed instead."
+          },
+          {
+            "name": "Hellfire Aura",
+            "desc": "At the start of each of the Avatar’s turns, each creature within 10 feet takes 7 (2d6) fire damage."
+          },
+          {
+            "name": "Magic Resistance",
+            "desc": "The Avatar has advantage on saving throws against spells and other magical effects."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "The Avatar makes two attacks with Hellfire Blade or one Hellfire Blade and one Infernal Grasp."
+          },
+          {
+            "name": "Hellfire Blade",
+            "desc": "Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 15 (2d8+6) slashing damage plus 21 (6d6) fire damage."
+          },
+          {
+            "name": "Infernal Grasp (Recharge 5–6)",
+            "desc": "Melee Spell Attack: +12 to hit, reach 10 ft., one target. On a hit, the target takes 27 (6d8) necrotic damage and must succeed on a DC 20 Constitution save or be <STATBLOCK-MARKDOWN-LINK>03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Blinded|blinded<STATBLOCK-MARKDOWN-LINK> until the end of its next turn."
+          },
+          {
+            "name": "Wings of Cinders (Recharge 6)",
+            "desc": "The Avatar beats her burning wings. Each creature of her choice within 30 feet must succeed on a DC 20 Dexterity saving throw or take 26 (6d8) fire damage and be knocked prone."
+          }
+        ],
+        "legendary_actions": [
+          {
+            "name": "Attack",
+            "desc": "The Avatar makes one Hellfire Blade attack."
+          },
+          {
+            "name": "Teleport",
+            "desc": "The Avatar magically teleports up to 60 feet to an unoccupied space she can see."
+          },
+          {
+            "name": "Burning Gaze (Costs 2 Actions)",
+            "desc": "The Avatar targets one creature it can see within 60 feet. The target must succeed on a DC 20 Wisdom saving throw or take 18 (4d8) fire damage and become <STATBLOCK-MARKDOWN-LINK>03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md#Frightened|frightened<STATBLOCK-MARKDOWN-LINK> until the end of its next turn."
+          }
+        ],
+        "lair_actions": [
+          {
+            "desc": "- Flames of Avernus: Fire erupts in a 20-ft radius at a point the Avatar can see within 120 ft. Each creature in the area must succeed on a DC 20 Dexterity saving throw or take 14 (4d6) fire damage.  \n- Hellish Chains: Fiery chains erupt from the ground in a 15-ft square. Each creature in the area must succeed on a DC 20 Strength saving throw or be restrained until the end of its next turn.",
+            "name": ""
+          }
+        ],
+        "image": "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/token/zariel-mpmm.webp",
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
     ]
   ],
   "defaultLayouts": {},
