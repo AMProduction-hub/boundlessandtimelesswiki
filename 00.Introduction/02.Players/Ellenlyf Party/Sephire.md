@@ -4,7 +4,7 @@ class: Paladin / Warlock
 race: Half-Orc
 level: 6
 players: Evan
-hp: "58"
+hp: "69"
 ac: "21"
 ---
 # Sephire
