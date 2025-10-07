@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/15 - Next Session - Bureau Saga.md",
+                "file": "00.Introduction/01.Houses Rules/Characters Specific Rules/Ability Scores, Feats & Skills Progression.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "15 - Next Session - Bureau Saga"
+              "title": "Ability Scores, Feats & Skills Progression"
             }
           },
           {
@@ -152,13 +152,13 @@
             }
           },
           {
-            "id": "ec836d9444bed73e",
+            "id": "6827da8a81b3fc46",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03.PlayerLog&Handouts/Mechanics/CLI/spells/find-steed.md",
-                "mode": "preview",
+                "file": "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/15 - Next Session - Bureau Saga.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -172,35 +172,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "find-steed"
-            }
-          },
-          {
-            "id": "d8458e79c4ff75da",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03.PlayerLog&Handouts/Mechanics/CLI/spells/toll-the-dead-xge.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "toll-the-dead-xge"
+              "title": "15 - Next Session - Bureau Saga"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -413,13 +389,16 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "e9ad397d83e48c4e",
+  "active": "6827da8a81b3fc46",
   "lastOpenFiles": [
+    "00.Introduction/01.Houses Rules/Characters Specific Rules/Ability Scores, Feats & Skills Progression.md",
+    "00.Introduction/01.Houses Rules/Characters Specific Rules/_index.md",
+    "00.Introduction/01.Houses Rules/_index.md",
+    "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/15 - Next Session - Bureau Saga.md",
     "03.PlayerLog&Handouts/Mechanics/CLI/spells/toll-the-dead-xge.md",
     "03.PlayerLog&Handouts/Mechanics/CLI/spells/_index.md",
     "03.PlayerLog&Handouts/Mechanics/CLI/spells/true-seeing.md",
     "03.PlayerLog&Handouts/Mechanics/CLI/spells/spike-growth.md",
-    "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/15 - Next Session - Bureau Saga.md",
     "03.PlayerLog&Handouts/Mechanics/CLI/spells/shocking-grasp.md",
     "03.PlayerLog&Handouts/Mechanics/CLI/spells/fireball.md",
     "00.Introduction/02.Players/Ellenlyf Party/Kairos.md",
@@ -440,9 +419,6 @@
     "00.Introduction/01.Houses Rules/Spells/_index.md",
     "00.Introduction/_index.md",
     "01.Into The Stories/01.Prologue/00.DM Only/Session 1 - Fire on the Falls.md",
-    "00.Introduction/02.Players/Ellenlyf Party/Froggo.md",
-    "00.Introduction/02.Players/Ellenlyf Party/Sephire.md",
-    "00.Introduction/02.Players/Cest La Vie Party/DM Sessions Notes/14 - Next Session - Bureau Saga.md",
     "z_Assets/Worlds/ACT 1/Characters/MarshalEliza.png",
     "z_Assets/Worlds/ACT 1/Characters/RedJackTheShowman.png",
     "z_Assets/Worlds/ACT 1/Characters/ProfessorThinkwistle.png",
