@@ -4,7 +4,7 @@ class: Life Cleric / Druid Circle of Stars
 race: Satyr
 level: 6
 players: Evan
-hp: "43"
+hp: "50"
 ac: "20"
 touch ac: "9"
 ---
