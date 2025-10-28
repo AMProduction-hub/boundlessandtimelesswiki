@@ -1,6 +1,7 @@
 ---
 tags: [timeline, SessionJournals]
 ---
+![[ellenlyf_1.png|cover hmedium]]
 ## Characters 
  
 - **[[Sephire]]** — [[paladin-oath-of-vengeance|Oath of Vengeance]] [[paladin|Paladin]] | [[warlock-the-fiend|The Fiend]] [[warlock|Warlock]]  
