@@ -20,3 +20,4 @@ title: Ellenlyf Party
 | [[12 - How Far is Too Far - Bureau Saga\|12]]                          | How Far is Too Far                           | Shattar-Kai (Bureau)   |
 | [[13 - Far is Too Far - Bureau Saga\|13]]                              | Far is Too Far                               | Shattar-Kai (Bureau)   |
 | [[14 - Too Far - Bureau Saga\|14]]                                     | Too Far                                      | Shattar-Kai (Bureau)   |
+| [[15 - New Ages and Endless Wars - Bureau Saga\|15]]                   | New Ages and Endless Wars Part Pt.1 & Pt. 2  | Shattar-Kai (Bureau)   |
