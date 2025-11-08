@@ -4,40 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "37fa54dd639c4e58",
+        "id": "b79ba01f1b609b6b",
         "type": "tabs",
         "children": [
           {
-            "id": "ae1dc238994d7410",
+            "id": "ec5858f8b1c43552",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Introduction/02.Players/Ellenlyf Party/Kairos.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Kairos"
-            }
-          },
-          {
-            "id": "08479754344cdd6d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00.Introduction/02.Players/Ellenlyf Party/Kairos.md",
+                "file": "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/16 - Next Session - Bureau Saga.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,227 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Kairos"
-            }
-          },
-          {
-            "id": "fb779b9d02cb6205",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/15 - Next Session - Bureau Saga.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "15 - Next Session - Bureau Saga"
-            }
-          },
-          {
-            "id": "46b1351a0f1200e8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/14 - Too Far - Bureau Saga.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "14 - Too Far - Bureau Saga"
-            }
-          },
-          {
-            "id": "88c59dbae9a1d426",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00.DM Screen/DC Check House Rules Difficulty List.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "DC Check House Rules Difficulty List"
-            }
-          },
-          {
-            "id": "bbf526505270f10f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02.NPCs&Factions/Bureau of Time and Plane/Shaperite - The Agent.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Shaperite - The Agent"
-            }
-          },
-          {
-            "id": "ec836d9444bed73e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03.PlayerLog&Handouts/Mechanics/CLI/spells/find-steed.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "find-steed"
-            }
-          },
-          {
-            "id": "419de2991b005626",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Main NPC/Eric Valtan.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Eric Valtan"
-            }
-          },
-          {
-            "id": "6ade07238cabdda7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Main NPC/Father Malen.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Father Malen"
-            }
-          },
-          {
-            "id": "9603115b06b2f134",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02.NPCs&Factions/Bureau of Time and Plane/Damian - The Squeeky Devils.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Damian - The Squeeky Devils"
-            }
-          },
-          {
-            "id": "74790bfb910fa83c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Main NPC/Sofia Fyrwurd.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Sofia Fyrwurd"
+              "title": "16 - Next Session - Bureau Saga"
             }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -304,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "absor",
+                "query": "fireball",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -446,11 +205,11 @@
         "currentTab": 4
       },
       {
-        "id": "4b130245c6d84a7d",
+        "id": "24195a1954bfce1b",
         "type": "tabs",
         "children": [
           {
-            "id": "3d8d3da6b7c94670",
+            "id": "3853d535f770bb5c",
             "type": "leaf",
             "state": {
               "type": "initiative-tracker-creature-view",
@@ -485,43 +244,43 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "e9ad397d83e48c4e",
+  "active": "ec5858f8b1c43552",
   "lastOpenFiles": [
-    "z_Assets/Worlds/ACT 1/Characters/EricValtan.png",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Main NPC/Eric Valtan.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Main NPC/Sofia Fyrwurd.md",
-    "z_Assets/Worlds/ACT 1/Characters/SofiaFyrwurd.png",
-    "02.NPCs&Factions/Bureau of Time and Plane/Damian - The Squeeky Devils.md",
-    "z_Assets/Bureau of Time and Plane/Character Potrait/Damian.png",
-    "z_Assets/Bureau of Time and Plane/Character Potrait/Damian_humanform.png",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Main NPC/Father Malen.md",
-    "z_Assets/Characters/FatherMalen.png",
-    "03.PlayerLog&Handouts/Mechanics/CLI/spells/absorb-elements-xge.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/spells/_index.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/spells/zephyr-strike-xge.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/rules/conditions.md",
-    "00.DM Screen/_index.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/items/shortbow.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/items/_index.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/spells/sleep.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/spells/booming-blade-tce.md",
-    "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/15 - Next Session - Bureau Saga.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/token/zariel-mpmm.webp",
-    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/14 - Too Far - Bureau Saga.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/spells/magic-missile.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/spells/hold-person.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/fiend/token/nalfeshnee.webp",
+    "00.Introduction/02.Players/Cest La Vie Party/DM Sessions Notes/14 - Next Session - Bureau Saga.md",
+    "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/16 - Next Session - Bureau Saga.md",
+    "z_Assets/Worlds/ACT 1/Characters/Lliira.webp",
+    "z_Assets/Worlds/ACT 1/Characters/ventidreams.png",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Tech-Dominant Plane - A Fistful of Schemes/_index.md",
     "02.NPCs&Factions/Bureau of Time and Plane/Shaperite - The Agent.md",
-    "z_Assets/Bureau of Time and Plane/Character Potrait/Shaperite.png",
-    "02.NPCs&Factions/Bureau of Time and Plane/Awanama - Leader of Bureau.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/spells/banishment.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/spells/command.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/spells/sacred-flame.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/spells/earthquake.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/spells/power-word-stun.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/spells/harm.md",
+    "00.DM Screen/DC Check House Rules Difficulty List.md",
+    "z_Assets/Worlds/ACT 1/Characters/rhea.png",
+    "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/15 - Next Session - Bureau Saga.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/15 - New Ages and Endless Wars - Bureau Saga.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Character/The Daughter.md",
+    "z_Assets/Misc/ellenlyf_1.png",
+    "00.Introduction/02.Players/Ellenlyf Party/_index.md",
+    "00.Introduction/02.Players/Cest La Vie Party/_index.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/deities/faerunian-mystra-scag.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/deities/forgotten-realms-mystra.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/items/arcane-cannon-egw.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Kairos.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/classes/paladin-oath-of-vengeance.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/legendary-group/zariel-mpmm.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/zariel-mpmm.md",
+    "00.Introduction/01.Houses Rules/Characters Specific Rules/Ability Scores, Feats & Skills Progression.md",
+    "00.Introduction/01.Houses Rules/Characters Specific Rules/_index.md",
+    "00.Introduction/01.Houses Rules/_index.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/spells/toll-the-dead-xge.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/spells/_index.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/spells/true-seeing.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/spells/spike-growth.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/spells/shocking-grasp.md",
     "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/mastiff.webp",
     "z_Assets/Worlds/ACT 1/Characters/fourmusicianoftime.png",
+    "z_Assets/Worlds/ACT 1/Characters/MarshalEliza.png",
+    "z_Assets/Worlds/ACT 1/Characters/RedJackTheShowman.png",
+    "z_Assets/Worlds/ACT 1/Characters/ProfessorThinkwistle.png",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Plane of Greed - Smaug's Challenge/Maps/The Heart Of The Hoard.webp",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Tech-Dominant Plane - A Fistful of Schemes/Scene",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Tech-Dominant Plane - A Fistful of Schemes/Main NPC",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Tech-Dominant Plane - A Fistful of Schemes/Main Factions",
