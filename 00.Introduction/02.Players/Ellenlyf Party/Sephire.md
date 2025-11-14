@@ -4,8 +4,9 @@ class: Paladin / Warlock
 race: Half-Orc
 level: 7
 players: Nanda
-hp: "85"
-ac: "21"
+hp: 85
+ac: 21
+modifier: 0
 ---
 # Sephire
 ## Overview

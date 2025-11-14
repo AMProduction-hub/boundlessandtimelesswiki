@@ -4,9 +4,10 @@ class: Life Cleric / Druid Circle of Stars
 race: Satyr
 level: 6
 players: Evan
-hp: "50"
-ac: "20"
+hp: 50
+ac: 20
 touch ac: "9"
+modifier: 0
 ---
 # Minerva
 ## Overview

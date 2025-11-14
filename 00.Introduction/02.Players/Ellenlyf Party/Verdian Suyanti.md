@@ -4,8 +4,9 @@ class: Bard - College of Glamour
 race: Half-Elf
 level: 7
 players: Bakator
-ac: "13"
-hp: "59"
+ac: 13
+hp: 39
+modifier: 0
 ---
 # Verdian Suyanti
 ## Overview

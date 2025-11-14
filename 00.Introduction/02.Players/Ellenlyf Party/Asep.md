@@ -4,9 +4,10 @@ class: Artificier / Wizard
 race: Orc
 level: 7
 players: Edgar
-hp: "36"
-ac: "18"
+hp: 36
+ac: 18
 touch ac: "14"
+modifier: 0
 ---
 # Asep
 ## Overview

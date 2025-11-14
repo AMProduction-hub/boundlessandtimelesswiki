@@ -153,6 +153,13 @@
       "resultText": "4d6dl\n[1d, 5, 6, 2]",
       "timestamp": 1761285888858,
       "id": "Vtw_psuGM5vo"
+    },
+    {
+      "result": "4",
+      "original": "1d20",
+      "resultText": "1d20\n[4]",
+      "timestamp": 1763123983787,
+      "id": "dPHznW1IMmFV"
     }
   ]
 }
