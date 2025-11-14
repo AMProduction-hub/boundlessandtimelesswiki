@@ -54,9 +54,9 @@
       "note": "Kairos",
       "path": "00.Introduction/02.Players/Ellenlyf Party/Kairos.md",
       "name": "Kairos",
-      "ac": "18",
-      "hp": "31",
-      "level": 6,
+      "ac": 19,
+      "hp": 87,
+      "level": 7,
       "modifier": 0,
       "player": true
     },
@@ -64,36 +64,50 @@
       "note": "Froggo",
       "path": "00.Introduction/02.Players/Ellenlyf Party/Froggo.md",
       "name": "Froggo",
-      "ac": "16",
-      "hp": "57",
-      "level": 6,
-      "player": true
+      "ac": 16,
+      "hp": 57,
+      "level": 7,
+      "player": true,
+      "modifier": 0
     },
     {
       "note": "Verdian Suyanti",
       "path": "00.Introduction/02.Players/Ellenlyf Party/Verdian Suyanti.md",
       "name": "Verdian Suyanti",
-      "ac": "13",
-      "hp": "39",
-      "level": 6,
-      "player": true
+      "ac": 13,
+      "hp": 59,
+      "level": 7,
+      "player": true,
+      "modifier": 0
     },
     {
       "note": "Sephire",
       "path": "00.Introduction/02.Players/Ellenlyf Party/Sephire.md",
       "name": "Sephire",
-      "ac": "21",
-      "hp": "69",
-      "level": 6,
-      "player": true
+      "ac": 21,
+      "hp": 85,
+      "level": 7,
+      "player": true,
+      "modifier": 0
     },
     {
       "note": "Minerva",
       "path": "00.Introduction/02.Players/Ellenlyf Party/Minerva.md",
       "name": "Minerva",
-      "ac": "20",
-      "hp": "50",
+      "ac": 20,
+      "hp": 50,
       "level": 6,
+      "player": true,
+      "modifier": 0
+    },
+    {
+      "note": "Asep",
+      "path": "00.Introduction/02.Players/Ellenlyf Party/Asep.md",
+      "name": "Asep",
+      "ac": 18,
+      "hp": 36,
+      "level": 7,
+      "modifier": 0,
       "player": true
     }
   ],
@@ -115,7 +129,8 @@
         "Minerva",
         "Froggo",
         "Kairos",
-        "Verdian Suyanti"
+        "Verdian Suyanti",
+        "Asep"
       ]
     }
   ],

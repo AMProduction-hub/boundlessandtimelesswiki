@@ -2,9 +2,9 @@
 name: Sephire
 class: Paladin / Warlock
 race: Half-Orc
-level: 6
-players: Evan
-hp: "69"
+level: 7
+players: Nanda
+hp: "85"
 ac: "21"
 ---
 # Sephire

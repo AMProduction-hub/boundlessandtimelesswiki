@@ -1,7 +1,8 @@
 {
-  "cssTheme": "ITS Theme",
+  "cssTheme": "Things",
   "baseFontSizeAction": true,
-  "accentColor": "#0a3b8a",
+  "accentColor": "#0033ff",
   "theme": "obsidian",
-  "interfaceFontFamily": ""
+  "interfaceFontFamily": "",
+  "nativeMenus": false
 }

@@ -2,10 +2,10 @@
 name: Verdian Suyanti
 class: Bard - College of Glamour
 race: Half-Elf
-level: 6
+level: 7
 players: Bakator
 ac: "13"
-hp: "39"
+hp: "59"
 ---
 # Verdian Suyanti
 ## Overview
