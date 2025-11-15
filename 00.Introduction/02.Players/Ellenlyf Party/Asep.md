@@ -4,7 +4,7 @@ class: Artificier / Wizard
 race: Orc
 level: 7
 players: Edgar
-hp: 36
+hp: 41
 ac: 18
 touch ac: "14"
 modifier: 0
