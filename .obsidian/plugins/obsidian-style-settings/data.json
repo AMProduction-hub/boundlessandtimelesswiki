@@ -20,5 +20,7 @@
   "ITS@@writing": false,
   "ITS@@select": "wotc-beyond",
   "ITS@@disable-source-styling": false,
-  "ITS@@lp-img-float": false
+  "ITS@@lp-img-float": false,
+  "ITS@@file-explorer-flat": false,
+  "ITS@@ITS-folder-arrows": "folder-arrow-display"
 }

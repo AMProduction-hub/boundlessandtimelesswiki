@@ -21,6 +21,8 @@ title: Ellenlyf Party
 | [[13 - Far is Too Far - Bureau Saga\|13]]                              | Far is Too Far                               | Shattar-Kai (Bureau)   |
 | [[14 - Too Far - Bureau Saga\|14]]                                     | Too Far                                      | Shattar-Kai (Bureau)   |
 | [[15 - New Ages and Endless Wars - Bureau Saga\|15]]                   | New Ages and Endless Wars Part Pt.1 & Pt. 2  | Shattar-Kai (Bureau)   |
+| [[16 - The Divines Will - Bureau Saga\|16]]                            | The Divine Wars                              | Pequod (Bureau)        |
+| [[17 - A New Land - Bureau Saga\|17]]                                  | A New Land                                   | The Frontier (Bureau)  |
 # DM Notes
 ## Grup's Line & Veils
 - Prefer Family Friendly ? *Need more context*

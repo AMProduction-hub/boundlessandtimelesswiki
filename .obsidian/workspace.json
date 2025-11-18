@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Introduction/02.Players/Ellenlyf Party/Asep.md",
-                "mode": "preview",
+                "file": "00.Introduction/02.Players/Ellenlyf Party/_index.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Asep"
+              "title": "_index"
             }
           }
         ]
@@ -244,8 +244,22 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "e9ad397d83e48c4e",
+  "active": "a11bb28eb0d41988",
   "lastOpenFiles": [
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Tech-Dominant Plane - A Fistful of Schemes/Main NPC/Angel Eye.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/17 - A New Land - Bureau Saga.md",
+    "z_Assets/Characters/angel_eye.jpg",
+    "03.PlayerLog&Handouts/Mechanics/CLI/items/shotgun.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Tech-Dominant Plane - A Fistful of Schemes/_index.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/items/revolver.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/16 - The Divines Will - Bureau Saga.md",
+    "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/16 - Next Session - Bureau Saga.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Character/The Daughter.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/deities/halfling-sheela-peryroyl-mtf.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/15 - New Ages and Endless Wars - Bureau Saga.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/14 - Too Far - Bureau Saga.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Asep.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/Untitled.md",
     "00.Introduction/02.Players/Ellenlyf Party/Minerva.md",
     "00.Introduction/02.Players/Ellenlyf Party/Party Progression Notes & Faction Status.md",
     "00.Introduction/02.Players/Ellenlyf Party/Sephire.md",
@@ -255,33 +269,18 @@
     "03.PlayerLog&Handouts/Mechanics/CLI/classes/_index.md",
     "03.PlayerLog&Handouts/Mechanics/CLI/classes/wizard-bladesinging-tce.md",
     "00.Introduction/02.Players/Ellenlyf Party/GomuGomuNo.md",
-    "00.Introduction/02.Players/Ellenlyf Party/Asep.md",
     "03.PlayerLog&Handouts/Mechanics/CLI/classes/artificer-tce.md",
     "03.PlayerLog&Handouts/Mechanics/CLI/classes/img/battle-smith-artificer.webp",
     "00.Introduction/02.Players/Ellenlyf Party/Froggo.md",
     "00.Introduction/02.Players/Ellenlyf Party/_index.md",
-    "z_Templates/2_Mechanics Gallery/_index.md",
-    "00.Introduction/02.Players/Cest La Vie Party/Ashenka Roïs.md",
-    "00.Introduction/02.Players/Cest La Vie Party/Jeno.md",
-    "00.Introduction/02.Players/Cest La Vie Party/Alizar Valts.md",
-    "00.Introduction/02.Players/Cest La Vie Party/_index.md",
-    "00.Introduction/02.Players/_index.md",
-    "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/16 - Next Session - Bureau Saga.md",
-    "00.Introduction/02.Players/Cest La Vie Party/DM Sessions Notes/14 - Next Session - Bureau Saga.md",
     "z_Assets/Worlds/ACT 1/Characters/Lliira.webp",
     "z_Assets/Worlds/ACT 1/Characters/ventidreams.png",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Tech-Dominant Plane - A Fistful of Schemes/_index.md",
-    "02.NPCs&Factions/Bureau of Time and Plane/Shaperite - The Agent.md",
-    "00.DM Screen/DC Check House Rules Difficulty List.md",
     "z_Assets/Worlds/ACT 1/Characters/rhea.png",
-    "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/15 - Next Session - Bureau Saga.md",
-    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/15 - New Ages and Endless Wars - Bureau Saga.md",
     "z_Assets/Misc/ellenlyf_1.png",
     "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/token/mastiff.webp",
     "z_Assets/Worlds/ACT 1/Characters/fourmusicianoftime.png",
     "z_Assets/Worlds/ACT 1/Characters/MarshalEliza.png",
     "z_Assets/Worlds/ACT 1/Characters/RedJackTheShowman.png",
-    "z_Assets/Worlds/ACT 1/Characters/ProfessorThinkwistle.png",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Tech-Dominant Plane - A Fistful of Schemes/Scene",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Tech-Dominant Plane - A Fistful of Schemes/Main NPC",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Tech-Dominant Plane - A Fistful of Schemes/Main Factions",
