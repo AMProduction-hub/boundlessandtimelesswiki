@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Introduction/02.Players/Ellenlyf Party/_index.md",
+                "file": "00.Introduction/02.Players/_index.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -244,8 +244,12 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "a11bb28eb0d41988",
+  "active": "e9ad397d83e48c4e",
   "lastOpenFiles": [
+    "03.PlayerLog&Handouts/Mechanics/CLI/races/orc-mpmm.md",
+    "00.Introduction/02.Players/_index.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/races/orc-egw.md",
+    "00.Introduction/02.Players/Ellenlyf Party/_index.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Tech-Dominant Plane - A Fistful of Schemes/Main NPC/Angel Eye.md",
     "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/17 - A New Land - Bureau Saga.md",
     "z_Assets/Characters/angel_eye.jpg",
@@ -269,10 +273,7 @@
     "03.PlayerLog&Handouts/Mechanics/CLI/classes/_index.md",
     "03.PlayerLog&Handouts/Mechanics/CLI/classes/wizard-bladesinging-tce.md",
     "00.Introduction/02.Players/Ellenlyf Party/GomuGomuNo.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/classes/artificer-tce.md",
     "03.PlayerLog&Handouts/Mechanics/CLI/classes/img/battle-smith-artificer.webp",
-    "00.Introduction/02.Players/Ellenlyf Party/Froggo.md",
-    "00.Introduction/02.Players/Ellenlyf Party/_index.md",
     "z_Assets/Worlds/ACT 1/Characters/Lliira.webp",
     "z_Assets/Worlds/ACT 1/Characters/ventidreams.png",
     "z_Assets/Worlds/ACT 1/Characters/rhea.png",

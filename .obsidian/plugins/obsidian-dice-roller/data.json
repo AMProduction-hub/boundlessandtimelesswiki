@@ -160,6 +160,20 @@
       "resultText": "1d20\n[4]",
       "timestamp": 1763123983787,
       "id": "dPHznW1IMmFV"
+    },
+    {
+      "result": "16",
+      "original": "1d20",
+      "resultText": "1d20\n[16]",
+      "timestamp": 1763488171594,
+      "id": "u23PSXVazOhT"
+    },
+    {
+      "result": "82",
+      "original": "1d%",
+      "resultText": "1d%\n[82]",
+      "timestamp": 1763489147979,
+      "id": "LX2VF1TTiqcM"
     }
   ]
 }
