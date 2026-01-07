@@ -1,4 +1,4 @@
-baseURL = "https://boundlessandtimelesswiki.pages.dev/"
+baseURL = "https://wiki.amproduction.my.id/"
 languageCode = "en-us"
 title = "GM Malik's Table"
 theme = "book"
@@ -37,8 +37,8 @@ enableGitInfo = false
   BookEditPath = false
   
   # Repository configuration (optional)
-  # BookRepo = 'https://github.com/yourusername/your-repo'
-  # BookRepoBranch = 'main'
+  # BookRepo = 'https://github.com/AMProduction-hub/boundlessandtimelesswiki.git'
+  # BookRepoBranch = 'edit/prod-hugo/conten'
   
   # Date format
   BookDateFormat = "January 2, 2006"
