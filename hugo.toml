@@ -1,0 +1,72 @@
+baseURL = "https://boundlessandtimelesswiki.pages.dev/"
+languageCode = "en-us"
+title = "GM Malik's Table"
+theme = "book"
+
+contentDir = "content"
+
+enableRobotsTXT = true
+enableGitInfo = false
+
+# Taxonomies
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[params]
+  # General settings
+  description = "GM Malik's Campaign Wiki and Resource Hub"
+  author = "GM Malik"
+  
+  # Book theme specific settings
+  BookSection = "*"
+  
+  # Expand/collapse sections by default
+  BookCollapseSection = true
+  
+  # Show table of contents
+  BookToC = true
+  
+  # Enable search
+  BookSearch = true
+  
+  # Theme selector (auto, light, dark)
+  BookTheme = "auto"
+  
+  # Show "Edit this page" links
+  BookEditPath = false
+  
+  # Repository configuration (optional)
+  # BookRepo = 'https://github.com/yourusername/your-repo'
+  # BookRepoBranch = 'main'
+  
+  # Date format
+  BookDateFormat = "January 2, 2006"
+  
+  # Enable comments (optional)
+  BookComments = false
+  
+  # Logo (optional - place in static/logo.png)
+  # BookLogo = '/logo.png'
+
+# Markup configuration
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      # Allow raw HTML in markdown
+      unsafe = true
+  
+  [markup.tableOfContents]
+    endLevel = 4
+    ordered = false
+    startLevel = 2
+
+# Output formats
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+  
+# Site params for SEO
+[params.metadata]
+  description = "D&D 5e campaign wiki, house rules, and session notes for GM Malik's table"
+  keywords = ["D&D", "D&D 5e", "Campaign", "Planescape", "Boundless and Timeless", "TTRPG", "Session Notes"]

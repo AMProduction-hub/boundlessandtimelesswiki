@@ -1,0 +1,2437 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Migration Guide: Obsidian/Quartz to Hugo#Quick Migration Steps#1. Backup Your Current Setup ✅## Backup your current content directory cp -r content content-backup-$(date &#43;%Y%m%d) # Backup your hugo.toml cp hugo.toml hugo.toml.backup2. Apply New Structure## Remove old content rm -rf content # Move restructured content in place mv restructured-content content # Update configuration cp content/hugo.toml hugo.toml3. Test Locally## Start Hugo development server hugo server -D # Visit http://localhost:1313 to preview4. Deploy## Build site hugo --minify # Deploy to your hosting (Cloudflare Pages, GitHub Pages, etc.) git add . git commit -m &#34;Restructure site for better navigation&#34; git pushWhat Changed?#File Organization#Before:
+">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/migration/">
+  <meta property="og:site_name" content="GM Malik&#39;s Table">
+  <meta property="og:title" content="GM Malik&#39;s Table">
+  <meta property="og:description" content="Migration Guide: Obsidian/Quartz to Hugo#Quick Migration Steps#1. Backup Your Current Setup ✅## Backup your current content directory cp -r content content-backup-$(date &#43;%Y%m%d) # Backup your hugo.toml cp hugo.toml hugo.toml.backup2. Apply New Structure## Remove old content rm -rf content # Move restructured content in place mv restructured-content content # Update configuration cp content/hugo.toml hugo.toml3. Test Locally## Start Hugo development server hugo server -D # Visit http://localhost:1313 to preview4. Deploy## Build site hugo --minify # Deploy to your hosting (Cloudflare Pages, GitHub Pages, etc.) git add . git commit -m &#34;Restructure site for better navigation&#34; git pushWhat Changed?#File Organization#Before:">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+
+
+  <meta itemprop="name" content="GM Malik&#39;s Table">
+  <meta itemprop="description" content="Migration Guide: Obsidian/Quartz to Hugo#Quick Migration Steps#1. Backup Your Current Setup ✅## Backup your current content directory cp -r content content-backup-$(date &#43;%Y%m%d) # Backup your hugo.toml cp hugo.toml hugo.toml.backup2. Apply New Structure## Remove old content rm -rf content # Move restructured content in place mv restructured-content content # Update configuration cp content/hugo.toml hugo.toml3. Test Locally## Start Hugo development server hugo server -D # Visit http://localhost:1313 to preview4. Deploy## Build site hugo --minify # Deploy to your hosting (Cloudflare Pages, GitHub Pages, etc.) git add . git commit -m &#34;Restructure site for better navigation&#34; git pushWhat Changed?#File Organization#Before:">
+  <meta itemprop="wordCount" content="716">
+
+<title>Migration | GM Malik&#39;s Table</title>
+<link rel="icon" href="/favicon.png" >
+<link rel="manifest" href="/manifest.json">
+<link rel="canonical" href="http://localhost:1313/migration/">
+<link rel="stylesheet" href="/book.min.6970156cec683193d93c9c4edaf0d56574e4361df2e0c1be4f697ae81c3ba55f.css" integrity="sha256-aXAVbOxoMZPZPJxO2vDVZXTkNh3y4MG&#43;T2l66Bw7pV8=" crossorigin="anonymous">
+
+
+  <script defer src="/fuse.min.js"></script>
+  <script defer src="/en.search.min.d811ca3b89451b33a1c926f8256a71490e12fb3daa867b3ee799da373124b064.js" integrity="sha256-2BHKO4lFGzOhySb4JWpxSQ4S&#43;z2qhns&#43;55naNzEksGQ=" crossorigin="anonymous"></script>
+
+
+
+  
+</head>
+<body dir="ltr" class="book-kind-page book-type-page">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    
+<aside class="book-menu">
+  <div class="book-menu-content">
+    
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>GM Malik&#39;s Table</span>
+  </a>
+</h2>
+
+
+<div class="book-search hidden">
+  <input id="book-search-input" type="text" 
+    placeholder="Search"
+    aria-label="Search"
+    maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+
+
+
+<ul><li><a href="/">Home</a></li><li><a href="/campaigns/">Campaigns</a></li><li><a href="/house-rules/">House Rules</a></li><li><a href="/resources/">Resources</a></li></ul>
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-808f7b62ae6dad147cc58ab0a065643c" class="toggle"  />
+    <label for="section-808f7b62ae6dad147cc58ab0a065643c" class="flex">
+      <a href="/campaigns/" class="">
+        Campaigns</a>
+      <img src="/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-8acb7bb39665c8601f4281daf1003ded" class="toggle"  />
+    <label for="section-8acb7bb39665c8601f4281daf1003ded" class="flex">
+      <a href="/campaigns/boundless-and-timeless/" class="">
+        Boundless and Timeless</a>
+      <img src="/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-a55b6bc520c6336793bd8e0783dfbc8f" class="toggle"  />
+    <label for="section-a55b6bc520c6336793bd8e0783dfbc8f" class="flex">
+      <a href="/campaigns/boundless-and-timeless/player-characters/" class="">
+        Player Characters</a>
+      <img src="/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/campaigns/" class="">
+      Alizar Valts</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/campaigns/" class="">
+      Ashenka Rois</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/campaigns/" class="">
+      Froggo</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/campaigns/" class="">
+      Gwyn</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/campaigns/" class="">
+      Jeno</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/campaigns/" class="">
+      Kairos</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/campaigns/" class="">
+      Klir</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/campaigns/" class="">
+      Minerva</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/campaigns/" class="">
+      Sephire</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/campaigns/" class="">
+      Verdian Suyanti</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/campaigns/" class="">
+      Whisky</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-554b69d0b0b09000633bdffa45ba08d8" class="toggle"  />
+    <label for="section-554b69d0b0b09000633bdffa45ba08d8" class="flex">
+      <a href="/campaigns/boundless-and-timeless/session-notes/" class="">
+        Session Notes</a>
+      <img src="/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/campaigns/boundless-and-timeless/session-notes/cestlavie-party/" class="">
+      C&#39;est La Vie Party Sessions</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/campaigns/" class="">
+      Session 01 Fire in Highfalls</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/campaigns/" class="">
+      Session 02 Danger of the Maws</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/campaigns/" class="">
+      Session 03 Breadway of Aruendel</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/campaigns/" class="">
+      Session 04 Fate of Aruendel 1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/campaigns/" class="">
+      Session 05 Fate of Aruendel 2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/campaigns/" class="">
+      Session 06 End of Aruendel</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/campaigns/" class="">
+      Session 06 Stalemate Shattar Kai</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/campaigns/" class="">
+      Session 07 Fin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/campaigns/" class="">
+      Session 08 Ceasefire Shattar Kai</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/campaigns/" class="">
+      Session 09 Day 1 Ceasefire</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/campaigns/" class="">
+      Session 10 Hearing About Ball</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/campaigns/" class="">
+      Session 11 Party Stalwart Ballroom</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/campaigns/" class="">
+      Session 12 Ball End World</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/campaigns/" class="">
+      Session 13 for the Ages</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-76e7979c00bda5086e2290a401414119" class="toggle"  />
+    <label for="section-76e7979c00bda5086e2290a401414119" class="flex">
+      <a role="button" class="">
+        Ellenlyf Party Sessions Notes</a>
+      <img src="/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/campaigns/" class="">
+      01 Fire in Highfalls Neverwinter Saga 1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/campaigns/" class="">
+      02 Fire in Highfalls Pt. 2 Neverwinter Saga</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/campaigns/" class="">
+      03 the Danger of the Maws Bureau Saga</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/campaigns/" class="">
+      04 the Bread Way Bureau Saga</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/campaigns/" class="">
+      05 Life and Death of Ellenlyf Party Bureau Saga</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/campaigns/" class="">
+      06 the Final Stretch of Mages in Aruendel Pt.1 Bureau Saga</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/campaigns/" class="">
+      07 the Final Stretch of Mages in Aruendel Pt.2 Bureau Saga</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/campaigns/" class="">
+      08 Into Shattar Kai Bureau Saga</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/campaigns/" class="">
+      09 Cease of Hostility Bureau Saga</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/campaigns/" class="">
+      10 Negative 1 Day of Cease Fire Bureau Saga</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/campaigns/" class="">
+      11 the Jailbreak Bureau Saga</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/campaigns/" class="">
+      12 How Far Is Too Far Bureau Saga</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/campaigns/" class="">
+      13 Far Is Too Far Bureau Saga</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/campaigns/" class="">
+      14 Too Far Bureau Saga</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/campaigns/" class="">
+      15 New Ages and Endless Wars Bureau Saga</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/campaigns/" class="">
+      16 the Divines Will Bureau Saga</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/campaigns/" class="">
+      17 a New Land Bureau Saga</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/campaigns/" class="">
+      18 the Long Ride to Stormwood</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/campaigns/" class="">
+      19 the Standoff of Centuries</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/campaigns/" class="">
+      20 the Aftermath</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-1d2f354ada7a4e3d0728ed3dab3fb161" class="toggle"  />
+    <label for="section-1d2f354ada7a4e3d0728ed3dab3fb161" class="flex">
+      <a href="/campaigns/boundless-and-timeless/npcs/" class="">
+        NPCs</a>
+      <img src="/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/campaigns/heroes-of-the-borderlands/" class="">
+      Heroes of the Borderlands</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/campaigns/ye-cometh-arent-ye/" class="">
+      Ye Cometh Aren&#39;t Ye</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/campaigns/jungle-of-jyggalag/" class="">
+      Jungle of Jyggalag</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/house-rules/" class="">
+      GM 5e House Rules</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-081fcce17d6734d49f0b4cf768e282fa" class="toggle"  />
+    <label for="section-081fcce17d6734d49f0b4cf768e282fa" class="flex">
+      <a href="/house-rules/table-manners/" class="">
+        Table Manners</a>
+      <img src="/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/house-rules/character-advancement/" class="">
+      Character Advancement</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/house-rules/skills-system/" class="">
+      Skills System</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/house-rules/combat-rules/" class="">
+      Combat Rules</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/house-rules/spell-scaling/" class="">
+      Spell Scaling &amp; Tiers</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-5c9a50e7966f57af4a8def41aee25030" class="toggle"  />
+    <label for="section-5c9a50e7966f57af4a8def41aee25030" class="flex">
+      <a href="/resources/" class="">
+        Resources</a>
+      <img src="/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/migration/" class="active">
+      Migration</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/readme/" class="">
+      Readme</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a>
+      Wikis</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-38f0e80fb33156ec9cdd1679cbd27612" class="toggle"  />
+    <label for="section-38f0e80fb33156ec9cdd1679cbd27612" class="flex">
+      <a href="/wiki/houserules/" class="">
+        GM 5e House Rules</a>
+      <img src="/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wiki/houserules/tablemanner/" class="">
+      Table Manners</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wiki/houserules/character-advancement/" class="">
+      Character Advancement</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wiki/houserules/skills-system/" class="">
+      Skills System</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wiki/houserules/combat-rules/" class="">
+      Combat Rules</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wiki/houserules/spell-scaling/" class="">
+      Spell Scaling &amp; Tiers</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-63e7f40ce95b0f1f364c3cea68e3d0a0" class="toggle"  />
+    <label for="section-63e7f40ce95b0f1f364c3cea68e3d0a0" class="flex">
+      <a href="/wiki/campaigns/" class="">
+        Campaign List</a>
+      <img src="/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-ac3f86b04fb97ae90ccd082237509ef9" class="toggle"  />
+    <label for="section-ac3f86b04fb97ae90ccd082237509ef9" class="flex">
+      <a href="/wiki/campaigns/boundlessandtimeless/" class="">
+        Boundless and Timeless</a>
+      <img src="/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-c5e5c74b11486be45f49c3cde0f59553" class="toggle"  />
+    <label for="section-c5e5c74b11486be45f49c3cde0f59553" class="flex">
+      <a href="/wiki/campaigns/boundlessandtimeless/players/" class="">
+        Players List</a>
+      <img src="/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wiki/campaigns/boundlessandtimeless/players/alizar-valts/" class="">
+      Alizar Valts</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wiki/campaigns/boundlessandtimeless/players/ashenka-ro%C3%AFs/" class="">
+      Ashenka Roïs</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wiki/campaigns/boundlessandtimeless/players/froggo/" class="">
+      Froggo</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wiki/campaigns/boundlessandtimeless/players/gwyn/" class="">
+      Gwyn</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wiki/campaigns/boundlessandtimeless/players/jeno/" class="">
+      Jeno</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wiki/campaigns/boundlessandtimeless/players/kairos/" class="">
+      Kairos</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wiki/campaigns/boundlessandtimeless/players/klir/" class="">
+      Klir</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wiki/campaigns/boundlessandtimeless/players/meows-whiskerpop-whisky/" class="">
+      Meows Whiskerpop ( Whisky)</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wiki/campaigns/boundlessandtimeless/players/minerva/" class="">
+      Minerva</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wiki/campaigns/boundlessandtimeless/players/sephire/" class="">
+      Sephire</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wiki/campaigns/boundlessandtimeless/players/verdian-suyanti/" class="">
+      Verdian Suyanti</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-b3bc0ee58f80781a3d2783fc70ffb57e" class="toggle"  />
+    <label for="section-b3bc0ee58f80781a3d2783fc70ffb57e" class="flex">
+      <a role="button" class="">
+        Characters</a>
+      <img src="/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wiki/campaigns/boundlessandtimeless/sessions/" class="">
+      Campaign Sessions Notes List</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-47336ea9b644679f736e3c42ba5b528d" class="toggle"  />
+    <label for="section-47336ea9b644679f736e3c42ba5b528d" class="flex">
+      <a role="button" class="">
+        Ellenlyf Party Sessions Notes</a>
+      <img src="/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wiki/campaigns/boundlessandtimeless/sessions/ellenlyf/01---fire-in-highfalls---neverwinter-saga-1/" class="">
+      01 Fire in Highfalls Neverwinter Saga 1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wiki/campaigns/boundlessandtimeless/sessions/ellenlyf/02---fire-in-highfalls-pt.-2---neverwinter-saga/" class="">
+      02 Fire in Highfalls Pt. 2 Neverwinter Saga</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wiki/campaigns/boundlessandtimeless/sessions/ellenlyf/03---the-danger-of-the-maws---bureau-saga/" class="">
+      03 the Danger of the Maws Bureau Saga</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wiki/campaigns/boundlessandtimeless/sessions/ellenlyf/04---the-bread-way---bureau-saga/" class="">
+      04 the Bread Way Bureau Saga</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wiki/campaigns/boundlessandtimeless/sessions/ellenlyf/05---life-and-death-of-ellenlyf-party---bureau-saga/" class="">
+      05 Life and Death of Ellenlyf Party Bureau Saga</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wiki/campaigns/boundlessandtimeless/sessions/ellenlyf/06---the-final-stretch-of-mages-in-aruendel-pt.1---bureau-saga/" class="">
+      06 the Final Stretch of Mages in Aruendel Pt.1 Bureau Saga</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wiki/campaigns/boundlessandtimeless/sessions/ellenlyf/07---the-final-stretch-of-mages-in-aruendel-pt.2---bureau-saga/" class="">
+      07 the Final Stretch of Mages in Aruendel Pt.2 Bureau Saga</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wiki/campaigns/boundlessandtimeless/sessions/ellenlyf/08---into-shattar-kai---bureau-saga/" class="">
+      08 Into Shattar Kai Bureau Saga</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wiki/campaigns/boundlessandtimeless/sessions/ellenlyf/09---cease-of-hostility---bureau-saga/" class="">
+      09 Cease of Hostility Bureau Saga</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wiki/campaigns/boundlessandtimeless/sessions/ellenlyf/10---negative-1-day-of-cease-fire---bureau-saga/" class="">
+      10 Negative 1 Day of Cease Fire Bureau Saga</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wiki/campaigns/boundlessandtimeless/sessions/ellenlyf/11---the-jailbreak---bureau-saga/" class="">
+      11 the Jailbreak Bureau Saga</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wiki/campaigns/boundlessandtimeless/sessions/ellenlyf/12---how-far-is-too-far---bureau-saga/" class="">
+      12 How Far Is Too Far Bureau Saga</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wiki/campaigns/boundlessandtimeless/sessions/ellenlyf/13---far-is-too-far---bureau-saga/" class="">
+      13 Far Is Too Far Bureau Saga</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wiki/campaigns/boundlessandtimeless/sessions/ellenlyf/14---too-far---bureau-saga/" class="">
+      14 Too Far Bureau Saga</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wiki/campaigns/boundlessandtimeless/sessions/ellenlyf/15---new-ages-and-endless-wars---bureau-saga/" class="">
+      15 New Ages and Endless Wars Bureau Saga</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wiki/campaigns/boundlessandtimeless/sessions/ellenlyf/16---the-divines-will---bureau-saga/" class="">
+      16 the Divines Will Bureau Saga</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wiki/campaigns/boundlessandtimeless/sessions/ellenlyf/17---a-new-land---bureau-saga/" class="">
+      17 a New Land Bureau Saga</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wiki/campaigns/boundlessandtimeless/sessions/ellenlyf/18---the-long-ride-to-stormwood/" class="">
+      18 the Long Ride to Stormwood</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wiki/campaigns/boundlessandtimeless/sessions/ellenlyf/19---the-standoff-of-centuries/" class="">
+      19 the Standoff of Centuries</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wiki/campaigns/boundlessandtimeless/sessions/ellenlyf/20---the-aftermath/" class="">
+      20 the Aftermath</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-93e34c26cb94b6e2e4f3d55b9c282055" class="toggle"  />
+    <label for="section-93e34c26cb94b6e2e4f3d55b9c282055" class="flex">
+      <a role="button" class="">
+        C&#39;est La Vie Party</a>
+      <img src="/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wiki/campaigns/boundlessandtimeless/sessions/cestlavie/01---fire-in-highfalls---neverwinter-saga/" class="">
+      01 Fire in Highfalls Neverwinter Saga</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wiki/campaigns/boundlessandtimeless/sessions/cestlavie/02---the-danger-of-the-maws---bureau-saga/" class="">
+      02 the Danger of the Maws Bureau Saga</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wiki/campaigns/boundlessandtimeless/sessions/cestlavie/03---the-breadway-of-aruendel---bureau-saga/" class="">
+      03 the Breadway of Aruendel Bureau Saga</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wiki/campaigns/boundlessandtimeless/sessions/cestlavie/04---fate-of-aruendel-pt.-1---bureau-saga/" class="">
+      04 Fate of Aruendel Pt. 1 Bureau Saga</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wiki/campaigns/boundlessandtimeless/sessions/cestlavie/05---fate-of-aruendel-pt.-2---bureau-saga/" class="">
+      05 Fate of Aruendel Pt. 2 Bureau Saga</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wiki/campaigns/boundlessandtimeless/sessions/cestlavie/06---end-of-aruendel--bureau-saga/" class="">
+      06 End of Aruendel Bureau Saga</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wiki/campaigns/boundlessandtimeless/sessions/cestlavie/06---the-stalemate-of-shattar-kai---bureau-saga/" class="">
+      06 the Stalemate of Shattar Kai Bureau Saga</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wiki/campaigns/boundlessandtimeless/sessions/cestlavie/07---fin---bureau-saga/" class="">
+      07 Fin Bureau Saga</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wiki/campaigns/boundlessandtimeless/sessions/cestlavie/08---ceasefire-of-shattar-kai---bureau-saga/" class="">
+      08 Ceasefire of Shattar Kai Bureau Saga</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wiki/campaigns/boundlessandtimeless/sessions/cestlavie/09---day-1-of-the-cease-fire---bureau-saga/" class="">
+      09 Day 1 of the Cease Fire Bureau Saga</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wiki/campaigns/boundlessandtimeless/sessions/cestlavie/10---hearing-about-ball---bureau-saga/" class="">
+      10 Hearing About Ball Bureau Saga</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wiki/campaigns/boundlessandtimeless/sessions/cestlavie/11---party-at-stalwart-ballroom---bureau-saga/" class="">
+      11 Party at Stalwart Ballroom Bureau Saga</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wiki/campaigns/boundlessandtimeless/sessions/cestlavie/12---ball-of-the-end-of-the-world---bureau-saga/" class="">
+      12 Ball of the End of the World Bureau Saga</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/wiki/campaigns/boundlessandtimeless/sessions/cestlavie/13---for-the-ages-and-the-new-beginning---bureau-saga/" class="">
+      13 for the Ages and the New Beginning Bureau Saga</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+
+  </div>
+</aside>
+ 
+
+    <div class="book-page">
+      <header class="book-header hidden">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/icons/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <h3>Migration</h3>
+
+  <label for="toc-control">
+    
+    <img src="/icons/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#quick-migration-steps">Quick Migration Steps</a>
+      <ul>
+        <li><a href="#1-backup-your-current-setup-">1. Backup Your Current Setup ✅</a></li>
+        <li><a href="#2-apply-new-structure">2. Apply New Structure</a></li>
+        <li><a href="#3-test-locally">3. Test Locally</a></li>
+        <li><a href="#4-deploy">4. Deploy</a></li>
+      </ul>
+    </li>
+    <li><a href="#what-changed">What Changed?</a>
+      <ul>
+        <li><a href="#file-organization">File Organization</a></li>
+        <li><a href="#file-naming">File Naming</a></li>
+        <li><a href="#content-structure">Content Structure</a></li>
+      </ul>
+    </li>
+    <li><a href="#key-files-to-review">Key Files to Review</a>
+      <ul>
+        <li><a href="#homepage">Homepage</a></li>
+        <li><a href="#campaign-page">Campaign Page</a></li>
+        <li><a href="#house-rules">House Rules</a></li>
+        <li><a href="#configuration">Configuration</a></li>
+      </ul>
+    </li>
+    <li><a href="#obsidianquartz-features-removed">Obsidian/Quartz Features Removed</a>
+      <ul>
+        <li><a href="#timeline-tags">Timeline Tags</a></li>
+        <li><a href="#wiki-style-links">Wiki-Style Links</a></li>
+      </ul>
+    </li>
+    <li><a href="#things-to-update-manually">Things to Update Manually</a>
+      <ul>
+        <li><a href="#1-session-notes-content">1. Session Notes Content</a></li>
+        <li><a href="#2-player-character-pages">2. Player Character Pages</a></li>
+        <li><a href="#3-npc-pages">3. NPC Pages</a></li>
+        <li><a href="#4-images">4. Images</a></li>
+      </ul>
+    </li>
+    <li><a href="#maintaining-the-site">Maintaining the Site</a>
+      <ul>
+        <li><a href="#adding-new-sessions">Adding New Sessions</a></li>
+        <li><a href="#updating-characters">Updating Characters</a></li>
+        <li><a href="#adding-house-rules">Adding House Rules</a></li>
+      </ul>
+    </li>
+    <li><a href="#troubleshooting">Troubleshooting</a>
+      <ul>
+        <li><a href="#page-not-found">&ldquo;Page not found&rdquo;</a></li>
+        <li><a href="#links-broken">&ldquo;Links broken&rdquo;</a></li>
+        <li><a href="#navigation-looks-wrong">&ldquo;Navigation looks wrong&rdquo;</a></li>
+        <li><a href="#theme-not-loading">&ldquo;Theme not loading&rdquo;</a></li>
+      </ul>
+    </li>
+    <li><a href="#benefits-of-new-structure">Benefits of New Structure</a>
+      <ul>
+        <li><a href="#for-players">For Players</a></li>
+        <li><a href="#for-gm-you">For GM (You)</a></li>
+        <li><a href="#for-future">For Future</a></li>
+      </ul>
+    </li>
+    <li><a href="#need-help">Need Help?</a></li>
+    <li><a href="#recommended-next-steps">Recommended Next Steps</a></li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown book-article"><h1 id="migration-guide-obsidianquartz-to-hugo">Migration Guide: Obsidian/Quartz to Hugo<a class="anchor" href="#migration-guide-obsidianquartz-to-hugo">#</a></h1>
+<h2 id="quick-migration-steps">Quick Migration Steps<a class="anchor" href="#quick-migration-steps">#</a></h2>
+<h3 id="1-backup-your-current-setup-">1. Backup Your Current Setup ✅<a class="anchor" href="#1-backup-your-current-setup-">#</a></h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># Backup your current content directory</span>
+</span></span><span style="display:flex;"><span>cp -r content content-backup-<span style="color:#66d9ef">$(</span>date +%Y%m%d<span style="color:#66d9ef">)</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Backup your hugo.toml</span>
+</span></span><span style="display:flex;"><span>cp hugo.toml hugo.toml.backup</span></span></code></pre></div><h3 id="2-apply-new-structure">2. Apply New Structure<a class="anchor" href="#2-apply-new-structure">#</a></h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># Remove old content</span>
+</span></span><span style="display:flex;"><span>rm -rf content
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Move restructured content in place</span>
+</span></span><span style="display:flex;"><span>mv restructured-content content
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Update configuration</span>
+</span></span><span style="display:flex;"><span>cp content/hugo.toml hugo.toml</span></span></code></pre></div><h3 id="3-test-locally">3. Test Locally<a class="anchor" href="#3-test-locally">#</a></h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># Start Hugo development server</span>
+</span></span><span style="display:flex;"><span>hugo server -D
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Visit http://localhost:1313 to preview</span></span></span></code></pre></div><h3 id="4-deploy">4. Deploy<a class="anchor" href="#4-deploy">#</a></h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># Build site</span>
+</span></span><span style="display:flex;"><span>hugo --minify
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Deploy to your hosting (Cloudflare Pages, GitHub Pages, etc.)</span>
+</span></span><span style="display:flex;"><span>git add .
+</span></span><span style="display:flex;"><span>git commit -m <span style="color:#e6db74">&#34;Restructure site for better navigation&#34;</span>
+</span></span><span style="display:flex;"><span>git push</span></span></code></pre></div><h2 id="what-changed">What Changed?<a class="anchor" href="#what-changed">#</a></h2>
+<h3 id="file-organization">File Organization<a class="anchor" href="#file-organization">#</a></h3>
+<p><strong>Before:</strong></p>
+<pre tabindex="0"><code>content/
+└── wiki/
+    ├── campaigns/
+    ├── houserules/
+    └── sources/</code></pre><p><strong>After:</strong></p>
+<pre tabindex="0"><code>content/
+├── campaigns/
+├── house-rules/
+└── resources/</code></pre><h3 id="file-naming">File Naming<a class="anchor" href="#file-naming">#</a></h3>
+<p><strong>Before:</strong></p>
+<ul>
+<li><code>Alizar Valts.md</code></li>
+<li><code>Ashenka Ro#U00efs.md</code></li>
+<li><code>01 - Fire in Highfalls - Neverwinter Saga.md</code></li>
+</ul>
+<p><strong>After:</strong></p>
+<ul>
+<li><code>alizar-valts.md</code></li>
+<li><code>ashenka-rois.md</code></li>
+<li><code>session-01-fire-in-highfalls.md</code></li>
+</ul>
+<h3 id="content-structure">Content Structure<a class="anchor" href="#content-structure">#</a></h3>
+<ul>
+<li>Added comprehensive index pages for navigation</li>
+<li>Separated active and archived campaigns</li>
+<li>Organized sessions by party</li>
+<li>Created player-friendly house rules sections</li>
+<li>Added resources hub</li>
+</ul>
+<h2 id="key-files-to-review">Key Files to Review<a class="anchor" href="#key-files-to-review">#</a></h2>
+<h3 id="homepage">Homepage<a class="anchor" href="#homepage">#</a></h3>
+<p><code>content/_index.md</code> - Your new GM portfolio landing page</p>
+<h3 id="campaign-page">Campaign Page<a class="anchor" href="#campaign-page">#</a></h3>
+<p><code>content/campaigns/boundless-and-timeless/_index.md</code> - Main campaign overview</p>
+<h3 id="house-rules">House Rules<a class="anchor" href="#house-rules">#</a></h3>
+<p>All files in <code>content/house-rules/</code> - Now split into logical sections</p>
+<h3 id="configuration">Configuration<a class="anchor" href="#configuration">#</a></h3>
+<p><code>hugo.toml</code> - Updated with better navigation and SEO settings</p>
+<h2 id="obsidianquartz-features-removed">Obsidian/Quartz Features Removed<a class="anchor" href="#obsidianquartz-features-removed">#</a></h2>
+<h3 id="timeline-tags">Timeline Tags<a class="anchor" href="#timeline-tags">#</a></h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>&lt;div class=&#39;ob-timelines&#39; ...&gt;</span></span></code></pre></div><p>These were Obsidian/Quartz specific and don&rsquo;t render in Hugo. Consider replacing with date front matter:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span>date: 2024-01-07
+</span></span><span style="display:flex;"><span>---</span></span></code></pre></div><h3 id="wiki-style-links">Wiki-Style Links<a class="anchor" href="#wiki-style-links">#</a></h3>
+<p><strong>Before:</strong> <code>[[Character Name]]</code><br>
+<strong>After:</strong> <code>[Character Name]()</code></p>
+<p>Hugo uses different internal linking syntax.</p>
+<h2 id="things-to-update-manually">Things to Update Manually<a class="anchor" href="#things-to-update-manually">#</a></h2>
+<h3 id="1-session-notes-content">1. Session Notes Content<a class="anchor" href="#1-session-notes-content">#</a></h3>
+<ul>
+<li>Convert Obsidian-style links to Hugo relref</li>
+<li>Remove timeline divs (already done for sample files)</li>
+<li>Translate Indonesian text to English if desired</li>
+</ul>
+<h3 id="2-player-character-pages">2. Player Character Pages<a class="anchor" href="#2-player-character-pages">#</a></h3>
+<ul>
+<li>Some have complex HTML tables (class progression)</li>
+<li>These work in Hugo but may need styling adjustments</li>
+<li>Consider simplifying for web viewing</li>
+</ul>
+<h3 id="3-npc-pages">3. NPC Pages<a class="anchor" href="#3-npc-pages">#</a></h3>
+<ul>
+<li>The NPC directory was empty in your old structure</li>
+<li>Populate <code>content/campaigns/boundless-and-timeless/npcs/</code> as needed</li>
+</ul>
+<h3 id="4-images">4. Images<a class="anchor" href="#4-images">#</a></h3>
+<ul>
+<li>Obsidian image syntax: <code>![[image.png]]</code></li>
+<li>Hugo image syntax: <code>![Alt text](image.png)</code></li>
+<li>Place images in <code>static/images/</code> directory</li>
+</ul>
+<h2 id="maintaining-the-site">Maintaining the Site<a class="anchor" href="#maintaining-the-site">#</a></h2>
+<h3 id="adding-new-sessions">Adding New Sessions<a class="anchor" href="#adding-new-sessions">#</a></h3>
+<ol>
+<li>Create file in appropriate party folder</li>
+<li>Follow naming convention: <code>session-XX-title.md</code></li>
+<li>Update party index file with new session link</li>
+</ol>
+<h3 id="updating-characters">Updating Characters<a class="anchor" href="#updating-characters">#</a></h3>
+<ol>
+<li>Edit character file in <code>player-characters/</code></li>
+<li>Keep front matter updated</li>
+<li>Use Hugo/Markdown syntax</li>
+</ol>
+<h3 id="adding-house-rules">Adding House Rules<a class="anchor" href="#adding-house-rules">#</a></h3>
+<ol>
+<li>Create new .md file in <code>house-rules/</code></li>
+<li>Add link in house rules index</li>
+<li>Use hint boxes for important notes</li>
+</ol>
+<h2 id="troubleshooting">Troubleshooting<a class="anchor" href="#troubleshooting">#</a></h2>
+<h3 id="page-not-found">&ldquo;Page not found&rdquo;<a class="anchor" href="#page-not-found">#</a></h3>
+<ul>
+<li>Check file names (lowercase, hyphens only)</li>
+<li>Verify file path in links</li>
+<li>Ensure front matter is valid</li>
+</ul>
+<h3 id="links-broken">&ldquo;Links broken&rdquo;<a class="anchor" href="#links-broken">#</a></h3>
+<ul>
+<li>Use <code>relref</code> shortcode for internal links</li>
+<li>Path should be relative to content/</li>
+<li>Don&rsquo;t include file extension in relref</li>
+</ul>
+<h3 id="navigation-looks-wrong">&ldquo;Navigation looks wrong&rdquo;<a class="anchor" href="#navigation-looks-wrong">#</a></h3>
+<ul>
+<li>Check <code>weight</code> parameter in front matter</li>
+<li>Lower numbers appear first</li>
+<li>Default weight is 0</li>
+</ul>
+<h3 id="theme-not-loading">&ldquo;Theme not loading&rdquo;<a class="anchor" href="#theme-not-loading">#</a></h3>
+<ul>
+<li>Verify Hugo Book theme is installed</li>
+<li>Check <code>theme = &quot;book&quot;</code> in hugo.toml</li>
+<li>Run <code>hugo mod get -u</code> to update</li>
+</ul>
+<h2 id="benefits-of-new-structure">Benefits of New Structure<a class="anchor" href="#benefits-of-new-structure">#</a></h2>
+<h3 id="for-players">For Players<a class="anchor" href="#for-players">#</a></h3>
+<p>✅ Easier to find specific sessions<br>
+✅ Clear campaign information<br>
+✅ Better mobile experience<br>
+✅ Search functionality<br>
+✅ Organized house rules reference</p>
+<h3 id="for-gm-you">For GM (You)<a class="anchor" href="#for-gm-you">#</a></h3>
+<p>✅ Logical file organization<br>
+✅ Easy to add new content<br>
+✅ Scalable structure for future campaigns<br>
+✅ Better SEO and discoverability<br>
+✅ Professional appearance<br>
+✅ Faster site performance</p>
+<h3 id="for-future">For Future<a class="anchor" href="#for-future">#</a></h3>
+<p>✅ Can add more campaigns easily<br>
+✅ Template for new content<br>
+✅ Consistent formatting<br>
+✅ Easy for new players to onboard<br>
+✅ Archive past campaigns cleanly</p>
+<h2 id="need-help">Need Help?<a class="anchor" href="#need-help">#</a></h2>
+<p>Common questions:</p>
+<p><strong>Q: Can I keep my old structure?</strong><br>
+A: Yes, but the new structure is more scalable and player-friendly.</p>
+<p><strong>Q: Will old links break?</strong><br>
+A: Yes, but you can set up redirects or update links systematically.</p>
+<p><strong>Q: Can I customize the appearance?</strong><br>
+A: Absolutely! Hugo Book theme is highly customizable. Add custom CSS in <code>static/custom.css</code>.</p>
+<p><strong>Q: How do I translate session notes?</strong><br>
+A: Session notes are still in Indonesian. You can gradually translate them or keep them as-is for Indonesian players.</p>
+<p><strong>Q: What about images from Obsidian?</strong><br>
+A: Place images in <code>static/images/</code> and update links to <code>/images/filename.png</code></p>
+<h2 id="recommended-next-steps">Recommended Next Steps<a class="anchor" href="#recommended-next-steps">#</a></h2>
+<ol>
+<li><strong>Week 1</strong>: Review all pages, fix any broken links</li>
+<li><strong>Week 2</strong>: Translate key session notes if needed</li>
+<li><strong>Week 3</strong>: Add more NPC information</li>
+<li><strong>Week 4</strong>: Customize appearance (logo, colors)</li>
+<li><strong>Ongoing</strong>: Update regularly with new sessions</li>
+</ol>
+<hr>
+<p><strong>Remember:</strong> The old structure is backed up! You can always reference it if needed.</p>
+<p>Good luck with your new Hugo site! 🎲</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+<div>
+
+</div>
+
+<div>
+
+</div>
+
+</div>
+
+
+
+  
+
+
+
+  
+  
+  
+  <div class="flex flex-wrap justify-between">
+    <span>
+    
+      <a href="/resources/" class="flex align-center">
+        <img src="/icons/backward.svg" class="book-icon" alt="Backward" />
+        <span>Resources</span>
+      </a>
+    
+    </span>
+    <span>
+    
+      <a href="/readme/" class="flex align-center">
+        <span>Readme</span>
+        <img src="/icons/forward.svg" class="book-icon" alt="Forward" />
+      </a>
+    
+    </span>
+  </div>
+  
+
+
+ 
+        
+  
+ 
+        
+        
+  
+ 
+        
+  
+  
+    <script>(function(){document.querySelectorAll("pre:has(code)").forEach(e=>{e.addEventListener("click",e.focus),e.addEventListener("copy",function(t){if(t.preventDefault(),navigator.clipboard){const t=window.getSelection().toString()||e.textContent;navigator.clipboard.writeText(t)}})})})()</script>
+  
+
+      </footer>
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+  
+  <aside class="book-toc">
+    <div class="book-toc-content">
+      
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#quick-migration-steps">Quick Migration Steps</a>
+      <ul>
+        <li><a href="#1-backup-your-current-setup-">1. Backup Your Current Setup ✅</a></li>
+        <li><a href="#2-apply-new-structure">2. Apply New Structure</a></li>
+        <li><a href="#3-test-locally">3. Test Locally</a></li>
+        <li><a href="#4-deploy">4. Deploy</a></li>
+      </ul>
+    </li>
+    <li><a href="#what-changed">What Changed?</a>
+      <ul>
+        <li><a href="#file-organization">File Organization</a></li>
+        <li><a href="#file-naming">File Naming</a></li>
+        <li><a href="#content-structure">Content Structure</a></li>
+      </ul>
+    </li>
+    <li><a href="#key-files-to-review">Key Files to Review</a>
+      <ul>
+        <li><a href="#homepage">Homepage</a></li>
+        <li><a href="#campaign-page">Campaign Page</a></li>
+        <li><a href="#house-rules">House Rules</a></li>
+        <li><a href="#configuration">Configuration</a></li>
+      </ul>
+    </li>
+    <li><a href="#obsidianquartz-features-removed">Obsidian/Quartz Features Removed</a>
+      <ul>
+        <li><a href="#timeline-tags">Timeline Tags</a></li>
+        <li><a href="#wiki-style-links">Wiki-Style Links</a></li>
+      </ul>
+    </li>
+    <li><a href="#things-to-update-manually">Things to Update Manually</a>
+      <ul>
+        <li><a href="#1-session-notes-content">1. Session Notes Content</a></li>
+        <li><a href="#2-player-character-pages">2. Player Character Pages</a></li>
+        <li><a href="#3-npc-pages">3. NPC Pages</a></li>
+        <li><a href="#4-images">4. Images</a></li>
+      </ul>
+    </li>
+    <li><a href="#maintaining-the-site">Maintaining the Site</a>
+      <ul>
+        <li><a href="#adding-new-sessions">Adding New Sessions</a></li>
+        <li><a href="#updating-characters">Updating Characters</a></li>
+        <li><a href="#adding-house-rules">Adding House Rules</a></li>
+      </ul>
+    </li>
+    <li><a href="#troubleshooting">Troubleshooting</a>
+      <ul>
+        <li><a href="#page-not-found">&ldquo;Page not found&rdquo;</a></li>
+        <li><a href="#links-broken">&ldquo;Links broken&rdquo;</a></li>
+        <li><a href="#navigation-looks-wrong">&ldquo;Navigation looks wrong&rdquo;</a></li>
+        <li><a href="#theme-not-loading">&ldquo;Theme not loading&rdquo;</a></li>
+      </ul>
+    </li>
+    <li><a href="#benefits-of-new-structure">Benefits of New Structure</a>
+      <ul>
+        <li><a href="#for-players">For Players</a></li>
+        <li><a href="#for-gm-you">For GM (You)</a></li>
+        <li><a href="#for-future">For Future</a></li>
+      </ul>
+    </li>
+    <li><a href="#need-help">Need Help?</a></li>
+    <li><a href="#recommended-next-steps">Recommended Next Steps</a></li>
+  </ul>
+</nav>
+
+
+
+    </div>
+  </aside>
+  
+ 
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

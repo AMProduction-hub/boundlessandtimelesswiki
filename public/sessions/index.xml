@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Campaign Sessions Notes List on Grand Manipulators Wiki</title>
+    <link>http://localhost:1313/sessions/</link>
+    <description>Recent content in Campaign Sessions Notes List on Grand Manipulators Wiki</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/sessions/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
