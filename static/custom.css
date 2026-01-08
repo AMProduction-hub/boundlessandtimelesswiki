@@ -1,0 +1,182 @@
+/* ==========================================================================
+   GM Malik's Campaign Wiki - D&D Fantasy Theme
+   Custom CSS for Hugo Book Theme
+   ========================================================================== */
+
+/* Import Fantasy Fonts from Google */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap');
+
+/* ==========================================================================
+   ROOT VARIABLES - D&D Color Palette
+   ========================================================================== */
+
+/* Color Palette - Easy to customize! */
+:root {
+  --parchment: #f4e8d0;
+  --parchment-dark: #e8dcc4;
+  --ink-dark: #2c1810;
+  --ink-brown: #5c3d2e;
+  --gold: #c9a961;
+  --leather: #5c3d2e;
+  --border: #8b6f47;
+}
+
+/* ==========================================
+   BACKGROUND - Parchment Paper
+   ========================================== */
+
+body {
+  background: linear-gradient(to bottom, var(--parchment-dark), var(--parchment));
+  background-attachment: fixed;
+  color: var(--ink-dark);
+}
+
+.book-page {
+  background: var(--parchment);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* ==========================================
+   HEADERS - Ornate Fantasy Style
+   ========================================== */
+
+h1, h2, h3 {
+  font-family: 'Cinzel', serif;
+  color: var(--ink-dark);
+  letter-spacing: 0.05em;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 2.5rem;
+  border-bottom: 3px double var(--border);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: var(--ink-brown);
+  border-bottom: 2px solid var(--border);
+  padding-bottom: 0.3rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1.4rem;
+  color: var(--ink-brown);
+  margin-top: 1.5rem;
+}
+
+/* ==========================================
+   BODY TEXT - Readable but Fantasy
+   ========================================== */
+
+p, li, td {
+  font-family: 'Crimson Text', serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--ink-dark);
+}
+
+/* ==========================================
+   SIDEBAR - Leather Book Spine
+   ========================================== */
+
+.book-menu {
+  background: linear-gradient(to right, #4a3528, var(--leather));
+  border-right: 3px solid var(--gold);
+  box-shadow: inset -5px 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.book-menu a {
+  color: var(--parchment) !important;
+  text-decoration: none;
+  font-family: 'Crimson Text', serif;
+  transition: all 0.2s ease;
+}
+
+.book-menu a:hover {
+  background: rgba(201, 169, 97, 0.2);
+  border-left: 3px solid var(--gold);
+  padding-left: 1rem;
+  color: var(--gold) !important;
+}
+
+/* ==========================================
+   TABLES - D&D Stat Block Style
+   ========================================== */
+
+table {
+  border: 2px solid var(--border);
+  background: var(--parchment-dark);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1.5rem 0;
+}
+
+thead {
+  background: linear-gradient(to bottom, #8b6f47, #6b5437);
+  color: var(--parchment);
+}
+
+th {
+  padding: 0.8rem;
+  font-family: 'Cinzel', serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-bottom: 2px solid var(--gold);
+  font-size: 0.95rem;
+}
+
+td {
+  padding: 0.7rem;
+  border-bottom: 1px solid rgba(139, 111, 71, 0.3);
+}
+
+tr:nth-child(even) {
+  background: rgba(139, 111, 71, 0.05);
+}
+
+tr:hover {
+  background: rgba(201, 169, 97, 0.15);
+  transition: background 0.2s ease;
+}
+
+td:first-child {
+  font-weight: 600;
+  color: var(--ink-brown);
+}
+
+/* ==========================================
+   LINKS - Wavy Underline
+   ========================================== */
+
+a {
+  color: #2c4f6f;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: var(--gold);
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: #8b1a1a;
+  text-decoration-color: #8b1a1a;
+}
+
+/* ==========================================
+   BLOCKQUOTES - Flavor Text
+   ========================================== */
+
+blockquote {
+  border-left: 4px solid var(--gold);
+  padding: 1rem 1.5rem;
+  margin: 1.5rem 0;
+  background: linear-gradient(to right, rgba(201, 169, 97, 0.1), transparent);
+  font-style: italic;
+  font-family: 'Crimson Text', serif;
+  color: var(--ink-brown);
+}

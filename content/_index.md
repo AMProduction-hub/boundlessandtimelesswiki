@@ -1,12 +1,12 @@
 ---
-title: "GM Malik's Table"
+title: "GM MalQ Table"
 type: docs
 ---
 
 # Welcome to GM Malik's Table
 
 {{< hint info >}}
-**Current Campaign**: [Boundless and Timeless]({{< relref "campaigns/boundless-and-timeless" >}}) - *A High-Stakes Planescape Adventure*
+**Current Campaign**: [Boundless and Timeless]({{< relref "campaigns/boundless-and-timeless/_index" >}}) - *A High-Stakes Planescape Adventure*
 {{< /hint >}}
 
 ---

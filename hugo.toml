@@ -1,6 +1,6 @@
 baseURL = "https://wiki.amproduction.my.id/"
 languageCode = "en-us"
-title = "GM Malik's Table"
+title = "GM MalQ Table"
 theme = "book"
 
 contentDir = "content"
@@ -14,6 +14,7 @@ enableGitInfo = false
   category = "categories"
 
 [params]
+
   # General settings
   description = "GM Malik's Campaign Wiki and Resource Hub"
   author = "GM Malik"
@@ -31,7 +32,7 @@ enableGitInfo = false
   BookSearch = true
   
   # Theme selector (auto, light, dark)
-  BookTheme = "auto"
+  BookTheme = ""
   
   # Show "Edit this page" links
   BookEditPath = false
@@ -40,6 +41,9 @@ enableGitInfo = false
   # BookRepo = 'https://github.com/AMProduction-hub/boundlessandtimelesswiki.git'
   # BookRepoBranch = 'edit/prod-hugo/content'
   
+  #Custom CSS
+  BookCustomCSS = ["/custom.css"]
+
   # Date format
   BookDateFormat = "January 2, 2006"
   
@@ -48,7 +52,9 @@ enableGitInfo = false
   
   # Logo (optional - place in static/logo.png)
   # BookLogo = '/logo.png'
-
+  
+  
+  
 # Markup configuration
 [markup]
   [markup.goldmark]
