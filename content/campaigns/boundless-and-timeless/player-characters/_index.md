@@ -7,98 +7,84 @@ bookCollapseSection: true
 
 Meet the heroes answering The Bureau's call.
 
+## Ellenlyf Party ( Active)
+
+### **[Kairos]({{< relref "kairos" >}})**
+**Class**: 8 Rogue - Soul Knife  
+**Race**: Elf - Astral  
+
+---
+
+### **[Froggo]({{< relref "froggo" >}})**
+**Class**: 6 Ranger - Gloom Stalker | 2 Rogue  
+**Race**: Grung (Custom Lineage)  
+
+---
+
+### **[Minerva]({{< relref "minerva" >}})**
+**Class**: 7 Druid - Circle of Stars | 1 Cleric - Life Domain  
+**Race**: Satyr (Custom Lineage)  
+
+---
+
+### **[Sephire]({{< relref "sephire" >}})**
+**Class**: 6 Paladin - Oath of Vengeance | 2 Warlock - The Fiend  
+**Race**: Half-Orc  
+
+---
+
+### **[Asep]({{< relref "asep">}})**
+**Class**: 5 Wizard - Bladesinging | 3 Artificier - Battlesmith  
+**Race**: Orc (MPMM)  
+
+
+---
+
+### **[Verdian Suyanti]({{< relref "verdian-suyanti" >}})**
+**Class**: 8 Bard - College of Glamour  
+**Race**: Half-Elf  
+
+---
+
 ---
 
 ## C'est La Vie Party (✅ Completed)
 
-### [Gwyn]({{< relref "gwyn" >}})
-**Class**: [To be updated]  
-**Race**: [To be updated]  
-**Player**: [To be updated]
+### **[Gwyn]({{< relref "gwyn" >}})**
+**Class**: 6 Paladin - Oath of The Ancient  
+**Race**: Human (Variant)  
 
 ---
 
-### [Ashenka Roïs]({{< relref "ashenka-rois" >}})
-**Class**: [To be updated]  
-**Race**: [To be updated]  
-**Player**: [To be updated]
+### **[Ashenka Roïs]({{< relref "ashenka-rois" >}})**
+**Class**: 6 Monk - Way of The Long Death  
+**Race**: Elf Shaddar-Kai
 
 ---
 
-### [Meows Whiskerpop (Whisky)]({{< relref "whisky" >}})
-**Class**: [To be updated]  
-**Race**: [To be updated]  
-**Player**: [To be updated]
+### **[Meows Whiskerpop (Whisky)]({{< relref "whisky" >}})**
+**Class**: 6 Warlock - The Great Old One  
+**Race**: Tabaxi
 
 ---
 
-### [Jeno]({{< relref "jeno" >}})
-**Class**: [To be updated]  
-**Race**: [To be updated]  
-**Player**: [To be updated]
+### **[Jeno]({{< relref "jeno" >}})**
+**Class**: 6 Wizard - Evocation  
+**Race**: Tabaxi  
 
 ---
 
-### [Klir]({{< relref "klir" >}})
-**Class**: [To be updated]  
-**Race**: [To be updated]  
-**Player**: [To be updated]
-
----
-
-## Ellenlyf Party (🟢 Active)
-
-### [Kairos]({{< relref "kairos" >}})
-**Class**: [To be updated]  
-**Race**: [To be updated]  
-**Player**: [To be updated]
-
----
-
-### [Froggo]({{< relref "froggo" >}})
-**Class**: [To be updated]  
-**Race**: [To be updated]  
-**Player**: [To be updated]
-
----
-
-### [Minerva]({{< relref "minerva" >}})
-**Class**: [To be updated]  
-**Race**: [To be updated]  
-**Player**: [To be updated]
-
----
-
-### [Sephire]({{< relref "sephire" >}})
-**Class**: [To be updated]  
-**Race**: [To be updated]  
-**Player**: [To be updated]
-
----
-
-### Asep
-**Class**: [To be updated]  
-**Race**: [To be updated]  
-**Player**: [To be updated]
-
-*Character page to be created*
-
----
-
-### [Verdian Suyanti]({{< relref "verdian-suyanti" >}})
-**Class**: [To be updated]  
-**Race**: [To be updated]  
-**Player**: [To be updated]
+### **[Klir]({{< relref "klir" >}})**
+**Class**: Rogue - Assassin   
+**Race**: Tortle  
 
 ---
 
 ## Former Members
 
-### [Alizar Valts]({{< relref "alizar-valts" >}})
-**Class**: Fighter (Battle Master)  
+### **[Alizar Valts]({{< relref "alizar-valts" >}})**
+**Class**: 5 Fighter (Battle Master)  
 **Race**: High Elf  
-**Player**: Joz  
-**Level**: 3
 
 Elven two-weapon fighter seeking truth about his destroyed village while honoring his parents' lessons.
 

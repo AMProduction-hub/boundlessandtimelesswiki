@@ -60,10 +60,10 @@ Click on any section below to learn more:
 |:----------:|:-------------|
 | **2** | +2 ASI |
 | **3** | +1 Skill, 2 Maneuvers |
-| **4** | +2 ASI, 1 Feat |
+| **4** | 1 Feat |
 | **5** | +1 Skill, 3 Maneuvers, Enter Tier 2 |
 | **6** | +2 ASI |
-| **8** | +2 ASI, 1 Feat |
+| **8** | 1 Feat |
 | **10** | +2 ASI |
 | **11** | Enter Tier 3 |
 | **12** | +2 ASI, 1 Feat |
