@@ -14,8 +14,8 @@
               "type": "markdown",
               "state": {
                 "file": "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/21 - Enter The Den of Vamp.md",
-                "mode": "preview",
-                "source": true,
+                "mode": "source",
+                "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Main NPC/Father Malen.md",
+                "file": "01.Into The Stories/02.ACT1.Artifacts Hunting/Tech-Dominant Plane - A Fistful of Schemes/Main NPC/Red Jack The Showman.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Father Malen"
+              "title": "Red Jack The Showman"
             }
           }
         ]
@@ -270,6 +270,15 @@
   },
   "active": "f9c070360133936e",
   "lastOpenFiles": [
+    "02.NPCs&Factions/Bureau of Time and Plane/Damian - The Squeeky Devils.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Tech-Dominant Plane - A Fistful of Schemes/Main NPC/Red Jack The Showman.md",
+    "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/21 - Enter The Den of Vamp.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Main NPC/Father Malen.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Tech-Dominant Plane - A Fistful of Schemes/Main NPC/Marshal Eliza Kane.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Tech-Dominant Plane - A Fistful of Schemes/Main NPC/Baron Blackthorn.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Tech-Dominant Plane - A Fistful of Schemes/Main NPC/Angel Eye.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Tech-Dominant Plane - A Fistful of Schemes/Main Factions/The Cinder Snakes.md",
+    "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/20 - Intermissions.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/_index.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Maps/Untitled.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Plot Items/Deep Purple Netherstone.md",
@@ -280,12 +289,9 @@
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Maps",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Plot Items",
     "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/strahd-von-zarovich-cos.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Main NPC/Father Malen.md",
     "z_Assets/Characters/hawa.png",
     "z_Assets/Characters/adam.png",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Tech-Dominant Plane - A Fistful of Schemes/Main NPC/Red Jack The Showman.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Tech-Dominant Plane - A Fistful of Schemes/Main NPC/Professor Thinkwistle.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Tech-Dominant Plane - A Fistful of Schemes/Main NPC/Angel Eye.md",
     "02.NPCs&Factions/Forgotten Realms Pantheon/_index.md",
     "02.NPCs&Factions/Forgotten Realms Pantheon/Faerunian Pantheon/_index.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Main NPC",
@@ -295,12 +301,6 @@
     "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Main NPC/Sofia Fyrwurd.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Main NPC/General Valtan.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Main NPC/Ember.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Main NPC/Eric Valtan.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/_index.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Tech-Dominant Plane - A Fistful of Schemes/Main NPC/Baron Blackthorn.md",
-    "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/21 - Enter The Den of Vamp.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/beast/allosaurus.md",
-    "02.NPCs&Factions/Bureau of Time and Plane/Damian - The Squeeky Devils.md",
     "z_Assets/Bureau of Time and Plane/Character Potrait/Damian.png",
     "z_Assets/Bureau of Time and Plane/Character Potrait/Damian_humanform.png",
     "z_Assets/Worlds/ACT 1/Maps/Shattar_Kai.png",
