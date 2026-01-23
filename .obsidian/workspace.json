@@ -32,16 +32,55 @@
             }
           },
           {
-            "id": "2600c01a3fc09aa7",
+            "id": "8cd73253caffaac6",
             "type": "leaf",
             "state": {
-              "type": "intiative-tracker-encounter-builder",
-              "state": [],
-              "icon": "intiative-tracker-encounter-builder",
-              "title": "Encounter Builder"
+              "type": "markdown",
+              "state": {
+                "file": "00.Introduction/02.Players/Ellenlyf Party/_index.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "_index"
+            }
+          },
+          {
+            "id": "fe896ac936bcc63b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Character/The Daughter.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "The Daughter"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -73,7 +112,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "black dragon",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -107,6 +146,7 @@
       {
         "id": "db99f528ef87e573",
         "type": "tabs",
+        "dimension": 55.10406342913776,
         "children": [
           {
             "id": "c906c79932c05f38",
@@ -217,6 +257,7 @@
       {
         "id": "24195a1954bfce1b",
         "type": "tabs",
+        "dimension": 44.89593657086224,
         "children": [
           {
             "id": "3853d535f770bb5c",
@@ -254,8 +295,21 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "e9ad397d83e48c4e",
+  "active": "fe896ac936bcc63b",
   "lastOpenFiles": [
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/_index.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Plane of Greed - Smaug's Challenge/_index.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/adult-black-dragon.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/_index.md",
+    "00.Introduction/02.Players/Ellenlyf Party/_index.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Verdian Suyanti.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Sephire.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Minerva.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Kairos.md",
+    "00.Introduction/02.Players/Ellenlyf Party/GomuGomuNo.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Froggo.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Asep.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/21 - Barovia's Welcoming Party.md",
     "z_Assets/Characters/adam.png",
     "z_Assets/Characters/SirAldric.png",
     "z_Assets/Characters/ChatGPT Image Apr 3, 2025, 10_21_16 AM.png",
@@ -264,11 +318,8 @@
     "02.NPCs&Factions/Bureau of Time and Plane/_index.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/_index.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Tech-Dominant Plane - A Fistful of Schemes/_index.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/_index.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Plane of Greed - Smaug's Challenge/_index.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Narrative.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Character/The Daughter.md",
-    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/21 - Barovia's Welcoming Party.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Maps/Untitled.md",
     "02.NPCs&Factions/Bureau of Time and Plane/Awanama - Leader of Bureau.md",
     "02.NPCs&Factions/Bureau of Time and Plane/Damian - The Squeeky Devils.md",
@@ -282,16 +333,6 @@
     "z_Assets/Characters/ChatGPT Image Apr 3, 2025, 10_21_07 AM.png",
     "01.Into The Stories/_index.md",
     "z_Assets/Worlds/ACT 1/Maps/theFrontierMaps.png",
-    "z_Assets/Worlds/ACT 1/Maps/Shattar_Kai.png",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Tech-Dominant Plane - A Fistful of Schemes/Main NPC/Red Jack The Showman.md",
-    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/18 - The Long Ride to Stormwood.md",
-    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/19 - The Standoff of Centuries.md",
-    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/20 - The Aftermath.md",
-    "00.Introduction/01.Houses Rules/Characters Specific Rules/Ability Scores, Feats & Skills Progression.md",
-    "00.Introduction/01.Houses Rules/Characters Specific Rules/_index.md",
-    "00.Introduction/01.Houses Rules/_index.md",
-    "00.Introduction/01.Houses Rules/Characters Specific Rules/Classes/Caster/_index.md",
-    "00.Introduction/01.Houses Rules/Characters Specific Rules/Classes/_index.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Maps",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Plot Items",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Main NPC",

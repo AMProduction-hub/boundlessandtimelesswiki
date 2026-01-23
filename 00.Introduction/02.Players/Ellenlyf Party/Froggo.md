@@ -2,7 +2,7 @@
 name: Froggo
 class: Ranger - Gloomstalker / Rogue
 race: Grung
-level: 7
+level: 8
 players: Yudha
 hp: 57
 ac: 16

@@ -2,7 +2,7 @@
 name: Asep
 class: Artificier / Wizard
 race: Orc
-level: 7
+level: 8
 players: Edgar
 hp: 41
 ac: 18

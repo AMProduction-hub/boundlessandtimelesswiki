@@ -2,7 +2,7 @@
 name: Minerva
 class: Life Cleric / Druid Circle of Stars
 race: Satyr
-level: 6
+level: 8
 players: Evan
 hp: 50
 ac: 20

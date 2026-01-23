@@ -2,7 +2,7 @@
 name: Sephire
 class: Paladin / Warlock
 race: Half-Orc
-level: 7
+level: 8
 players: Nanda
 hp: 85
 ac: 21
