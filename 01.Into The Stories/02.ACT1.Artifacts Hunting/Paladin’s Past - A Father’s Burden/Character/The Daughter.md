@@ -11,8 +11,8 @@ NoteIcon: npc
 ---
 > [!infobox]
 > # `=this.file.name`
-> ![[Elira_2.png| cover hmedium]]
-> [[Elira_2.png|Show To Players]]
+> ![[z_Assets/Characters/Elira.png| cover hmedium]]
+> [[z_Assets/Characters/Elira.png|Show To Players]]
 > ###### Basic Information
 > Type |  Stat |
 > ---|---|
