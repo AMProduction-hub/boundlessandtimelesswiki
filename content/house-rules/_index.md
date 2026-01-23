@@ -59,19 +59,22 @@ Click on any section below to learn more:
 | Your Level | What You Get |
 |:----------:|:-------------|
 | **2** | +2 ASI |
-| **3** | +1 Skill, 2 Maneuvers |
-| **4** | 1 Feat |
-| **5** | +1 Skill, 3 Maneuvers, Enter Tier 2 |
+| **3** | +1 Skill, +2 Maneuvers (Martial Class Only!) |
+| **4** | +1 Feat |
+| **5** | +1 Skill, +1 Maneuvers, Enter Tier 2 |
 | **6** | +2 ASI |
-| **8** | 1 Feat |
+| **7** | +1 Skill, +1 Manuevers |
+| **8** | +1 Feat |
+| **9** | +1 Skill, +1 Manuevers |
 | **10** | +2 ASI |
-| **11** | Enter Tier 3 |
-| **12** | +2 ASI, 1 Feat |
+| **11** | +1 Skill, +1 Manuevers, Enter Tier 3 |
+| **12** | +1 Feat |
+| **13** | +1 Skill,  |
 | **14** | +2 ASI |
-| **16** | +2 ASI, 1 Feat |
+| **16** | +1 Feat |
 | **17** | Enter Tier 4 |
 | **18** | +2 ASI |
-| **20** | +2 ASI, 1 Feat |
+| **20** | 1 Feat |
 
 {{< hint warning >}}
 **Remember**: These rules apply to all players equally. If you have questions or concerns about any rule, talk to your GM!

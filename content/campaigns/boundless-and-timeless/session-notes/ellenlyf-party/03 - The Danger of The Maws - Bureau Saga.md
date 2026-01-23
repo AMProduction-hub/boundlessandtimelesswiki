@@ -3,18 +3,18 @@ tags: [timeline, SessionJournals]
 ---
 ## Characters 
  
-**[[Sephire]]**. The Paladin 
+**[Sephire]({{< relref "sephire" >}})**. The Paladin 
  
-**[[Kairos]].** Soulknife Rogue. 
+**[Kairos]({{< relref "kairos" >}}).** Soulknife Rogue. 
  
-**[[Minerva]].** Circle of Stars Druid / Life Cleric. 
+**[Minerva]({{< relref "minerva" >}}).** Circle of Stars Druid / Life Cleric. 
 
-[[Froggo]]. Gloomstalker Ranger
+[Froggo]({{< relref "froggo" >}}). Gloomstalker Ranger
 
-[[Verdian Suyanti]]. The Bard
+[Verdian Suyanti]({{< relref "verdian-suyanti" >}}). The Bard
 
 Away:
-**[[GomuGomuNo]].** The Warlock. 
+****GomuGomuNo**.** The Warlock. 
  
 ## Session Overview 
  
@@ -28,22 +28,22 @@ Party menuju Plane Earth pada lokasi Verdant Maw dan menghadap penjaga yang seda
  
 ## Who Did They Meet?
  
-**[[Damian - The Squeeky Devils]].** Bertemu di depan Verdant's Maw. 
+****Damian - The Squeeky Devils**.** Bertemu di depan Verdant's Maw. 
  
-**[[Shaperite - The Agent]].** Membawa ke Grand Library. 
+****Shaperite - The Agent**.** Membawa ke Grand Library. 
  
-**[[Pustakawan - Second-in-Command]].** Description 
+****Pustakawan - Second-in-Command**.** Description 
  
 **Professor Rumba.** Description 
 
 **Ishmael**. Communicator Pekerja Kontrak #777 dengan Bureau
 
-**Captain Ahab**. Nahkoda kapal Pequod ([[03.PlayerLog&Handouts/Mechanics/CLI/vehicles/space-galleon-aag|Space Galleon]])
+**Captain Ahab**. Nahkoda kapal Pequod (**Space Galleon**)
  
 ## Items Of Importance
  
 - Setiap player dapet magic item (+1).
-- Player mendapatkan [[03.PlayerLog&Handouts/Mechanics/CLI/vehicles/space-galleon-aag|Space Galleon]] bernama Pequod.
+- Player mendapatkan **Space Galleon** bernama Pequod.
 - Terdapat item-item relic historis Forgotten Realms yang ada pada Verdant Maw. Jika diambil sepertinya memberi kekuatan kepada penjaga Verdant Maw.
 
 ## What Worked 

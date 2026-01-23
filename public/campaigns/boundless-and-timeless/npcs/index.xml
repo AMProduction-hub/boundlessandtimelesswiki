@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>NPCs on GM MalQ Table</title>
+    <title>NPCs &amp; Locations on GM MalQ Table</title>
     <link>http://localhost:1313/campaigns/boundless-and-timeless/npcs/</link>
-    <description>Recent content in NPCs on GM MalQ Table</description>
+    <description>Recent content in NPCs &amp; Locations on GM MalQ Table</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/campaigns/boundless-and-timeless/npcs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Barovia</title>
+      <link>http://localhost:1313/campaigns/boundless-and-timeless/npcs/barovia/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/campaigns/boundless-and-timeless/npcs/barovia/</guid>
+      <description>&lt;h1 id=&#34;barovia&#34;&gt;Barovia&lt;a class=&#34;anchor&#34; href=&#34;#barovia&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xD;&#xA;&lt;h2 id=&#34;the-land-of-mists-and-sorrow&#34;&gt;&lt;em&gt;The Land of Mists and Sorrow&lt;/em&gt;&lt;a class=&#34;anchor&#34; href=&#34;#the-land-of-mists-and-sorrow&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xD;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-about-this-location&#34;&gt;🌫️ About This Location&lt;a class=&#34;anchor&#34; href=&#34;#-about-this-location&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;&lt;strong&gt;Barovia&lt;/strong&gt; is a demiplane of dread—a gothic horror realm trapped in eternal twilight, ruled by darkness, and sealed by supernatural mists. Here, hope is a flickering candle in overwhelming shadow, and the very land conspires against those who dare disturb its cursed slumber.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Type&lt;/strong&gt;: Demiplane (Domain of Dread)&lt;br&gt;&#xA;&lt;strong&gt;Region&lt;/strong&gt;: Outside Normal Reality&lt;br&gt;&#xA;&lt;strong&gt;Status&lt;/strong&gt;: Cursed&lt;br&gt;&#xA;&lt;strong&gt;Known For&lt;/strong&gt;: Perpetual gloom, vampire lords, tragic histories, mists that trap travelers, despair that seeps into souls&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

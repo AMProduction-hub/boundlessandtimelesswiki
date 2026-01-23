@@ -12,7 +12,7 @@ Welcome to the campaign archive! This section contains information about all cam
 
 ## 🟢 Active Campaigns
 
-### ***[Boundless and Timeless]({{< relref "boundless-and-timeless" >}})***
+### *****Boundless and Timeless*****
 **System**: D&D 5e (2014) with House Rules  
 **Status**: Active  
 **Started**: May 2025
@@ -21,12 +21,12 @@ Welcome to the campaign archive! This section contains information about all cam
 The multiverse is fracturing. Ancient enemies unite. Reality bends. The Bureau of Time and Plane needs heroes—and you answered the call.
 
 **Active Parties**:
-- **[Ellenlyf]({{< relref "boundless-and-timeless/session-notes/ellenlyf-party" >}})** - Investigating information about Ravenloft in the Grand Library
+- ****Ellenlyf**** - Investigating information about Ravenloft in the Grand Library
 
 **Non-Active Parties**:
-- **[C'est La Vie]({{< relref "boundless-and-timeless/session-notes/cestlavie-party" >}})** - Currently in the Astral Sea.
+- ****C'est La Vie**** - Currently in the Astral Sea.
 
-[📖 View Campaign Details →]({{< relref "boundless-and-timeless" >}})
+**📖 View Campaign Details →**
 
 ---
 
@@ -37,7 +37,7 @@ Completed campaigns and their stories.
 ### [Heroes of the Borderlands]({{< relref "archived/heroes-of-borderlands" >}})
 A remastered adventure combining Borderlands' chaos with D&D mechanics.
 
-### [Ye Cometh Aren't Ye]({{< relref "archived/ye-cometh-arent-ye" >}})
+### **Ye Cometh Aren't Ye**
 An unexpected comedic adventure where nothing went as planned—in the best way.
 
 ### [Jungle of Jyggalag]({{< relref "archived/jungle-of-jyggalag" >}})

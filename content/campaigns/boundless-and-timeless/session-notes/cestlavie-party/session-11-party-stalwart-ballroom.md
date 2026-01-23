@@ -3,22 +3,22 @@ tags: [timeline, SessionJournals]
 ---
 ## Characters 
  
-- **[[Meows Whiskerpop (Whisky)]].** The Warlock. 
-- **[[Ashenka Roïs]].** The Monk.
-- [[Jeno]]. The Wizard
-- [[Klir]]. The Rogue.
-- **[[Alizar Valts]].** The Fighter.
+- ****Meows Whiskerpop (Whisky)**.** The Warlock. 
+- ****Ashenka Roïs**.** The Monk.
+- [Jeno]({{< relref "jeno" >}}). The Wizard
+- [Klir]({{< relref "klir" >}}). The Rogue.
+- **[Alizar Valts]({{< relref "alizar-valts" >}}).** The Fighter.
 
 Away:
-- **[[Gwyn]]**. The Paladin.
+- **[Gwyn]({{< relref "gwyn" >}})**. The Paladin.
 
 ## Session Overview 
  
-Party segera membeli baju pesta dengan uang party dan uang yang diberikan oleh [[Eric Valtan]] untuk datang ke pesta yang akan dilaksanakan di [[Stalwart]] Administration Building's Ballroom. Party mulai memasuki pesta yang mulai penuh dengan orang berdansa di lantai dansa. [[Jeno]] & [[Ashenka Roïs]] berdansa di lantai dansa, [[Klir]] dan [[Alizar Valts]] coba merasakan sajian yang telah dihidangkan, [[Meows Whiskerpop (Whisky)]] tiba-tiba didatangi oleh [[Damian - The Squeeky Devils]] yang mengatakan bahwa akan ada hal yang terjadi di pesta ini yang bisa menentukan hasil akhir dari perdamaian yang akan terjadi di Stalwart. [[Damian - The Squeeky Devils]] memberikan informasi kalau [[Sofia Fyrwurd]] adik [[Nikael of Fire Banner]] datang di pesta ini.
+Party segera membeli baju pesta dengan uang party dan uang yang diberikan oleh [Eric Valtan]({{< relref "eric-valtan" >}}) untuk datang ke pesta yang akan dilaksanakan di **Stalwart** Administration Building's Ballroom. Party mulai memasuki pesta yang mulai penuh dengan orang berdansa di lantai dansa. [Jeno]({{< relref "jeno" >}}) & **Ashenka Roïs** berdansa di lantai dansa, [Klir]({{< relref "klir" >}}) dan [Alizar Valts]({{< relref "alizar-valts" >}}) coba merasakan sajian yang telah dihidangkan, **Meows Whiskerpop (Whisky)** tiba-tiba didatangi oleh **Damian - The Squeeky Devils** yang mengatakan bahwa akan ada hal yang terjadi di pesta ini yang bisa menentukan hasil akhir dari perdamaian yang akan terjadi di Stalwart. **Damian - The Squeeky Devils** memberikan informasi kalau [Sofia Fyrwurd]({{< relref "sofia-fyrwurd" >}}) adik [Nikael of Fire Banner]({{< relref "nikael-of-fire-banner" >}}) datang di pesta ini.
 
-Ketika [[Jeno]] sedang mendengarkan pembicaraan [[Damian - The Squeeky Devils]] dengan [[Meows Whiskerpop (Whisky)]] dan terkejut dengan apa yang dikatakan [[Damian - The Squeeky Devils]], tiba-tiba [[Sofia Fyrwurd]] menarik [[Jeno]] untuk berdansa dan meminta [[Jeno]] untuk tenang dan mencoba mencari tahu sekitar.
+Ketika [Jeno]({{< relref "jeno" >}}) sedang mendengarkan pembicaraan **Damian - The Squeeky Devils** dengan **Meows Whiskerpop (Whisky)** dan terkejut dengan apa yang dikatakan **Damian - The Squeeky Devils**, tiba-tiba [Sofia Fyrwurd]({{< relref "sofia-fyrwurd" >}}) menarik [Jeno]({{< relref "jeno" >}}) untuk berdansa dan meminta [Jeno]({{< relref "jeno" >}}) untuk tenang dan mencoba mencari tahu sekitar.
 
-Pada sesaat kemudian Envoy Valtan mengambil perhatian para pengunjung pesta untuk menyambut kedatangan [[General Valtan]].
+Pada sesaat kemudian Envoy Valtan mengambil perhatian para pengunjung pesta untuk menyambut kedatangan [General Valtan]({{< relref "general-valtan" >}}).
 
 ## Key Learnings
 
@@ -32,13 +32,13 @@ Pada sesaat kemudian Envoy Valtan mengambil perhatian para pengunjung pesta untu
 
 ## Who Did They Meet?
  
-- Penjaga yang memukul [[Klir]] di sumur tengah kota [[Stalwart]].
-- [[Damian - The Squeeky Devils]].
-- [[Sofia Fyrwurd]].
+- Penjaga yang memukul [Klir]({{< relref "klir" >}}) di sumur tengah kota **Stalwart**.
+- **Damian - The Squeeky Devils**.
+- [Sofia Fyrwurd]({{< relref "sofia-fyrwurd" >}}).
 - Envoy Valtan.
-- [[General Valtan]].
+- [General Valtan]({{< relref "general-valtan" >}}).
  
 ## Items Of Importance
 - Legendary Greataxe di Thrift Shop di Stalwart milik Dwarf pemilik Thrift Shop.
 
-## What Worked 
+## What Worked

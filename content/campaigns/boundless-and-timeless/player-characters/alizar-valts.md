@@ -1,4 +1,5 @@
 ---
+title: "Alizar Valts"
 name: Alizar Valts
 class: Fighter - Battle Master
 race: Elf (High)
@@ -46,4 +47,3 @@ Alizar Vaelthorn, an elven fighter specialize in two weapon fighting from a dist
 > </tbody></table>
 
 ^class-progression
-

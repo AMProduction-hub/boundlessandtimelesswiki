@@ -1,4 +1,5 @@
 ---
+title: "Kairos"
 name: Kairos
 class: Rogue - Soulknife
 race: Astral Elf

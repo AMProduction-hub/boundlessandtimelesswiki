@@ -2,6 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/campaigns/boundless-and-timeless/npcs/aruendel/</loc>
+  </url><url>
     <loc>http://localhost:1313/campaigns/</loc>
   </url><url>
     <loc>http://localhost:1313/house-rules/</loc>
@@ -12,6 +14,8 @@
   </url><url>
     <loc>http://localhost:1313/campaigns/boundless-and-timeless/</loc>
   </url><url>
+    <loc>http://localhost:1313/campaigns/boundless-and-timeless/npcs/bureauoftimeandplane/</loc>
+  </url><url>
     <loc>http://localhost:1313/house-rules/character-advancement/</loc>
   </url><url>
     <loc>http://localhost:1313/campaigns/boundless-and-timeless/session-notes/</loc>
@@ -19,6 +23,8 @@
     <loc>http://localhost:1313/campaigns/boundless-and-timeless/session-notes/ellenlyf-party/</loc>
   </url><url>
     <loc>http://localhost:1313/campaigns/boundless-and-timeless/npcs/</loc>
+  </url><url>
+    <loc>http://localhost:1313/campaigns/boundless-and-timeless/npcs/shattar-kai/</loc>
   </url><url>
     <loc>http://localhost:1313/house-rules/skills-system/</loc>
   </url><url>
@@ -28,43 +34,25 @@
   </url><url>
     <loc>http://localhost:1313/resources/</loc>
   </url><url>
+    <loc>http://localhost:1313/campaigns/boundless-and-timeless/npcs/thefrontier/</loc>
+  </url><url>
     <loc>http://localhost:1313/campaigns/archived/heroes-of-borderlands/</loc>
   </url><url>
     <loc>http://localhost:1313/house-rules/spell-scaling/</loc>
+  </url><url>
+    <loc>http://localhost:1313/campaigns/boundless-and-timeless/npcs/verdant-maw/</loc>
   </url><url>
     <loc>http://localhost:1313/campaigns/archived/ye-cometh-arent-ye/</loc>
   </url><url>
     <loc>http://localhost:1313/campaigns/archived/jungle-of-jyggalag/</loc>
   </url><url>
-    <loc>http://localhost:1313/campaigns/boundless-and-timeless/player-characters/alizar-valts/</loc>
+    <loc>http://localhost:1313/campaigns/boundless-and-timeless/npcs/barovia/</loc>
   </url><url>
-    <loc>http://localhost:1313/campaigns/boundless-and-timeless/player-characters/asep/</loc>
-  </url><url>
-    <loc>http://localhost:1313/campaigns/boundless-and-timeless/player-characters/ashenka-rois/</loc>
-  </url><url>
-    <loc>http://localhost:1313/campaigns/boundless-and-timeless/player-characters/froggo/</loc>
-  </url><url>
-    <loc>http://localhost:1313/campaigns/boundless-and-timeless/player-characters/gwyn/</loc>
-  </url><url>
-    <loc>http://localhost:1313/campaigns/boundless-and-timeless/player-characters/jeno/</loc>
-  </url><url>
-    <loc>http://localhost:1313/campaigns/boundless-and-timeless/player-characters/kairos/</loc>
-  </url><url>
-    <loc>http://localhost:1313/campaigns/boundless-and-timeless/player-characters/klir/</loc>
-  </url><url>
-    <loc>http://localhost:1313/campaigns/boundless-and-timeless/player-characters/minerva/</loc>
-  </url><url>
-    <loc>http://localhost:1313/campaigns/boundless-and-timeless/player-characters/sephire/</loc>
-  </url><url>
-    <loc>http://localhost:1313/campaigns/boundless-and-timeless/player-characters/verdian-suyanti/</loc>
-  </url><url>
-    <loc>http://localhost:1313/campaigns/boundless-and-timeless/player-characters/whisky/</loc>
+    <loc>http://localhost:1313/campaigns/boundless-and-timeless/npcs/verdant-maw/guardian/</loc>
   </url><url>
     <loc>http://localhost:1313/campaigns/boundless-and-timeless/session-notes/cestlavie-party/session-01-fire-in-highfalls/</loc>
   </url><url>
     <loc>http://localhost:1313/campaigns/boundless-and-timeless/session-notes/cestlavie-party/session-02-danger-of-the-maws/</loc>
-  </url><url>
-    <loc>http://localhost:1313/campaigns/boundless-and-timeless/session-notes/cestlavie-party/session-03-breadway-of-aruendel/</loc>
   </url><url>
     <loc>http://localhost:1313/campaigns/boundless-and-timeless/session-notes/cestlavie-party/session-04-fate-of-aruendel-1/</loc>
   </url><url>
@@ -128,16 +116,90 @@
   </url><url>
     <loc>http://localhost:1313/campaigns/boundless-and-timeless/session-notes/ellenlyf-party/20---the-aftermath/</loc>
   </url><url>
+    <loc>http://localhost:1313/campaigns/boundless-and-timeless/session-notes/ellenlyf-party/21---barovias-welcoming-party/</loc>
+  </url><url>
+    <loc>http://localhost:1313/campaigns/boundless-and-timeless/session-notes/cestlavie-party/session-03-breadway-of-aruendel/</loc>
+  </url><url>
+    <loc>http://localhost:1313/campaigns/boundless-and-timeless/npcs/thefrontier/angel-eye/</loc>
+  </url><url>
+    <loc>http://localhost:1313/campaigns/boundless-and-timeless/player-characters/alizar-valts/</loc>
+  </url><url>
+    <loc>http://localhost:1313/campaigns/boundless-and-timeless/player-characters/asep/</loc>
+  </url><url>
+    <loc>http://localhost:1313/campaigns/boundless-and-timeless/player-characters/ashenka-rois/</loc>
+  </url><url>
+    <loc>http://localhost:1313/campaigns/boundless-and-timeless/npcs/bureauoftimeandplane/awanama/</loc>
+  </url><url>
+    <loc>http://localhost:1313/campaigns/boundless-and-timeless/npcs/thefrontier/baron-blackthorn/</loc>
+  </url><url>
     <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/category/general-characters-article/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/category/location/</loc>
+  </url><url>
+    <loc>http://localhost:1313/campaigns/boundless-and-timeless/npcs/bureauoftimeandplane/damian---the-squeeky-devils/</loc>
+  </url><url>
+    <loc>http://localhost:1313/campaigns/boundless-and-timeless/npcs/aruendel/the-mother/</loc>
+  </url><url>
+    <loc>http://localhost:1313/campaigns/boundless-and-timeless/npcs/shattar-kai/ember/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/factions/bureauoftimeandplane/</loc>
+  </url><url>
+    <loc>http://localhost:1313/campaigns/boundless-and-timeless/npcs/shattar-kai/father-malen/</loc>
+  </url><url>
+    <loc>http://localhost:1313/campaigns/boundless-and-timeless/player-characters/froggo/</loc>
+  </url><url>
+    <loc>http://localhost:1313/campaigns/boundless-and-timeless/npcs/shattar-kai/eric-valtan/</loc>
+  </url><url>
+    <loc>http://localhost:1313/campaigns/boundless-and-timeless/npcs/shattar-kai/general-valtan/</loc>
   </url><url>
     <loc>http://localhost:1313/</loc>
   </url><url>
+    <loc>http://localhost:1313/campaigns/boundless-and-timeless/npcs/bureauoftimeandplane/grand-library/</loc>
+  </url><url>
+    <loc>http://localhost:1313/campaigns/boundless-and-timeless/player-characters/gwyn/</loc>
+  </url><url>
+    <loc>http://localhost:1313/campaigns/boundless-and-timeless/player-characters/jeno/</loc>
+  </url><url>
+    <loc>http://localhost:1313/campaigns/boundless-and-timeless/player-characters/kairos/</loc>
+  </url><url>
+    <loc>http://localhost:1313/campaigns/boundless-and-timeless/player-characters/klir/</loc>
+  </url><url>
+    <loc>http://localhost:1313/campaigns/boundless-and-timeless/npcs/thefrontier/marshal-eliza-kane/</loc>
+  </url><url>
+    <loc>http://localhost:1313/campaigns/boundless-and-timeless/player-characters/whisky/</loc>
+  </url><url>
+    <loc>http://localhost:1313/campaigns/boundless-and-timeless/player-characters/minerva/</loc>
+  </url><url>
+    <loc>http://localhost:1313/campaigns/boundless-and-timeless/npcs/shattar-kai/nikael-of-fire-banner/</loc>
+  </url><url>
     <loc>http://localhost:1313/campaigns/boundless-and-timeless/player-characters/</loc>
+  </url><url>
+    <loc>http://localhost:1313/campaigns/boundless-and-timeless/npcs/thefrontier/professor-thinkwistle/</loc>
+  </url><url>
+    <loc>http://localhost:1313/campaigns/boundless-and-timeless/npcs/bureauoftimeandplane/pustakawan/</loc>
+  </url><url>
+    <loc>http://localhost:1313/campaigns/boundless-and-timeless/npcs/thefrontier/red-jack-the-showman/</loc>
+  </url><url>
+    <loc>http://localhost:1313/campaigns/boundless-and-timeless/player-characters/sephire/</loc>
+  </url><url>
+    <loc>http://localhost:1313/campaigns/boundless-and-timeless/npcs/aruendel/the-paladin/</loc>
+  </url><url>
+    <loc>http://localhost:1313/campaigns/boundless-and-timeless/npcs/aruendel/the-don-quixote/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/sessionjournals/</loc>
   </url><url>
+    <loc>http://localhost:1313/campaigns/boundless-and-timeless/npcs/bureauoftimeandplane/shaperite/</loc>
+  </url><url>
+    <loc>http://localhost:1313/campaigns/boundless-and-timeless/npcs/shattar-kai/sofia-fyrwurd/</loc>
+  </url><url>
     <loc>http://localhost:1313/tags/</loc>
   </url><url>
+    <loc>http://localhost:1313/campaigns/boundless-and-timeless/npcs/aruendel/the-daughter/</loc>
+  </url><url>
     <loc>http://localhost:1313/tags/timeline/</loc>
+  </url><url>
+    <loc>http://localhost:1313/campaigns/boundless-and-timeless/player-characters/verdian-suyanti/</loc>
   </url>
 </urlset>

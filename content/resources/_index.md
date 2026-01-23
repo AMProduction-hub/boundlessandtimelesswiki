@@ -53,10 +53,10 @@ Quick links to our custom rules:
 ## Campaign-Specific Resources
 
 ### Boundless and Timeless
-- [Campaign Overview]({{< relref "/campaigns/boundless-and-timeless" >}})
-- [Session Notes]({{< relref "/campaigns/boundless-and-timeless/session-notes" >}})
-- [Player Characters]({{< relref "/campaigns/boundless-and-timeless/player-characters" >}})
-- [NPCs]({{< relref "/campaigns/boundless-and-timeless/npcs" >}})
+- **Campaign Overview**
+- **Session Notes**
+- **Player Characters**
+- **NPCs**
 
 ---
 

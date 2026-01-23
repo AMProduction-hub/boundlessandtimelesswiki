@@ -3,16 +3,16 @@ tags: [timeline, SessionJournals]
 ---
 ## Characters 
  
-- **[[Gwyn]]**. The Paladin 
-- **[[Meows Whiskerpop (Whisky)]].** The Warlock.
-- **[[Alizar Valts]].** The Fighter. 
-- **[[Ashenka Roïs]].** The Monk.
-- [[Jeno]]. The Wizard
-- [[Klir]]. The Rogue.
+- **[Gwyn]({{< relref "gwyn" >}})**. The Paladin 
+- ****Meows Whiskerpop (Whisky)**.** The Warlock.
+- **[Alizar Valts]({{< relref "alizar-valts" >}}).** The Fighter. 
+- ****Ashenka Roïs**.** The Monk.
+- [Jeno]({{< relref "jeno" >}}). The Wizard
+- [Klir]({{< relref "klir" >}}). The Rogue.
  
 ## Session Overview 
  
-Party mendapatkan tugas dari [[Pustakawan - Second-in-Command]] untuk menuju Shattar-Kai mencari Artifact bersama [[Damian - The Squeeky Devils]] yang memiliki tugas lain dari Bureau sebagai diplomat untuk para kubu di Shattar-Kai.
+Party mendapatkan tugas dari **Pustakawan - Second-in-Command** untuk menuju Shattar-Kai mencari Artifact bersama **Damian - The Squeeky Devils** yang memiliki tugas lain dari Bureau sebagai diplomat untuk para kubu di Shattar-Kai.
 
 ## Key Learnings
 
@@ -25,7 +25,7 @@ Party mendapatkan tugas dari [[Pustakawan - Second-in-Command]] untuk menuju Sha
  
 ## Who Did They Meet?
  
-- [[Damian - The Squeeky Devils]].
+- **Damian - The Squeeky Devils**.
 - Port of Stalwart's Innkeeper.
 - Pemilik rumah yang terdapat notice board nya.
  

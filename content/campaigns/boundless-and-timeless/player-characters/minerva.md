@@ -1,4 +1,5 @@
 ---
+title: "Minerva"
 name: Minerva
 class: Life Cleric / Druid Circle of Stars
 race: Satyr
@@ -81,45 +82,4 @@ She believes that by healing every injured or broken thing she encounters, she c
 > <tr class="class-progression"><td class"level">20th</td><td class"pb">+6</td><td class"feature"><a href='#Archdruid (Level 20)' class='internal-link'>Archdruid</a></td><td class="value">4</td><td class="spellSlot">4</td><td class="spellSlot">3</td><td class="spellSlot">3</td><td class="spellSlot">3</td><td class="spellSlot">3</td><td class="spellSlot">2</td><td class="spellSlot">2</td><td class="spellSlot">1</td><td class="spellSlot">1</td></tr>
 > </tbody></table>
 
-
-
 ## Statblock
-```statblock  
-name: Froggo  
-size: Medium  
-type: Grung  
-subtype: Grung  
-alignment: Chaotic Neutral  
-ac: 16  
-hp: 34  
-hit_dice: "3d10"  
-speed: "30 ft."  
-stats: [number, number, number, number, number, number]  
-fage_stats: [number, number, number, number, number, number, number, number, number]  
-saves:  
-- <ability-score>: number  
-skillsaves:  
-- <skill-name>: number  
-damage_vulnerabilities: string  
-damage_resistances: string  
-damage_immunities: string  
-condition_immunities: string  
-senses: string  
-languages: string  
-cr: number  
-spells:  
-- <description>  
-- <spell level>: <spell-list>  
-traits:  
-- [<trait-name>, <trait-description>]  
-- ...  
-actions:  
-- [<trait-name>, <trait-description>]  
-- ...  
-legendary_actions:  
-- [<legendary_actions-name>, <legendary_actions-description>]  
-- ...  
-reactions:  
-- [<reaction-name>, <reaction-description>]  
-- ...  
-```

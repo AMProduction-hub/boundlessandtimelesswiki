@@ -1,4 +1,5 @@
 ---
+title: "Verdian Suyanti"
 name: Verdian Suyanti
 class: Bard - College of Glamour
 race: Half-Elf
@@ -45,4 +46,3 @@ Venti adalah seorang bard yang memikat hati dengan pesona dan penampilannya yang
 > </tbody></table>
 
 ^class-progression
-

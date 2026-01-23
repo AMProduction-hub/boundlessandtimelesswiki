@@ -3,18 +3,18 @@ tags: [timeline, SessionJournals]
 ---
 ## Characters 
  
-**[[Sephire]]**. The Paladin 
+**[Sephire]({{< relref "sephire" >}})**. The Paladin 
  
-**[[Kairos]].** Soulknife Rogue. 
+**[Kairos]({{< relref "kairos" >}}).** Soulknife Rogue. 
  
-**[[Minerva]].** Circle of Stars Druid / Life Cleric. 
+**[Minerva]({{< relref "minerva" >}}).** Circle of Stars Druid / Life Cleric. 
 
-[[Froggo]]. Gloomstalker Ranger
+[Froggo]({{< relref "froggo" >}}). Gloomstalker Ranger
 
-[[Verdian Suyanti]]. The Bard
+[Verdian Suyanti]({{< relref "verdian-suyanti" >}}). The Bard
 
 Away:
-**[[GomuGomuNo]].** The Warlock. 
+****GomuGomuNo**.** The Warlock. 
  
 ## Session Overview 
  

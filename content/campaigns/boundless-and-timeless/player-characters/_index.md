@@ -37,7 +37,6 @@ Meet the heroes answering The Bureau's call.
 **Class**: 5 Wizard - Bladesinging | 3 Artificier - Battlesmith  
 **Race**: Orc (MPMM)  
 
-
 ---
 
 ### **[Verdian Suyanti]({{< relref "verdian-suyanti" >}})**

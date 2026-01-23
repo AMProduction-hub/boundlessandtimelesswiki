@@ -1,4 +1,5 @@
 ---
+title: "Jeno"
 name: Jeno
 class: Wizard
 race: Tabaxi
@@ -47,4 +48,3 @@ Jeno is a Tabaxi
 > </tbody></table>
 
 ^class-progression
-

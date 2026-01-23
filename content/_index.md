@@ -17,12 +17,12 @@ Welcome to my GM portfolio and campaign resource hub! This site contains everyth
 
 ### What You'll Find Here
 
-📖 **[Campaigns]({{< relref "campaigns" >}})** - Active and archived campaign information
+📖 ****Campaigns**** - Active and archived campaign information
 - Session notes and recaps
 - Player character information
 - NPCs and world lore
 
-🎯 **[House Rules]({{< relref "house-rules" >}})** - Custom rules for D&D 5e
+🎯 ****House Rules**** - Custom rules for D&D 5e
 - Character advancement (ASI & Feats)
 - Enhanced skills system
 - Combat modifications
@@ -33,7 +33,7 @@ Welcome to my GM portfolio and campaign resource hub! This site contains everyth
 - Safety tools (Lines & Veils)
 - Respectful play
 
-🔧 **[Resources]({{< relref "resources" >}})** - Useful tools and references
+🔧 ****Resources**** - Useful tools and references
 - Character creation guides
 - Campaign-specific resources
 - Reference materials
@@ -42,7 +42,7 @@ Welcome to my GM portfolio and campaign resource hub! This site contains everyth
 
 ## 🌟 Currently Active Campaign
 
-### [Boundless and Timeless]({{< relref "campaigns/boundless-and-timeless" >}})
+### **Boundless and Timeless**
 **Status**: 🟢 Active (Ellenlyf Party)  
 **System**: D&D 5e (2014) with House Rules  
 **Theme**: Planescape, Multiverse, High Stakes
@@ -53,7 +53,7 @@ The fabric of the multiverse is unraveling. The Great Wheel Cosmology, long thou
 - **Ellenlyf Party** - 🟢 Active (17 sessions completed)
 - **C'est La Vie Party** - ✅ Completed (13 sessions)
 
-[Read More →]({{< relref "campaigns/boundless-and-timeless" >}})
+**Read More →**
 
 ---
 
@@ -64,7 +64,7 @@ Past adventures that have concluded their stories:
 ### [Heroes of the Borderlands]({{< relref "campaigns/archived/heroes-of-borderlands" >}})
 A remastered wild and wacky adventure filled with chaos and laughter!
 
-### [Ye Cometh Aren't Ye]({{< relref "campaigns/archived/ye-cometh-arent-ye" >}})
+### **Ye Cometh Aren't Ye**
 An unexpected wacky adventure with surprising twists!
 
 ### [Jungle of Jyggalag]({{< relref "campaigns/archived/jungle-of-jyggalag" >}})
@@ -90,8 +90,8 @@ A short Daggerheart system adventure exploring new mechanics!
 
 ### For New Players
 1. Read the [Table Manners]({{< relref "house-rules/table-manners" >}}) to understand expectations
-2. Review the [House Rules]({{< relref "house-rules" >}}) for rule modifications
-3. Check out the current [Campaign Overview]({{< relref "campaigns/boundless-and-timeless" >}})
+2. Review the **House Rules** for rule modifications
+3. Check out the current **Campaign Overview**
 4. Reach out to me with questions or for character creation help
 
 ### For Current Players

@@ -1,4 +1,5 @@
 ---
+title: "Asep"
 name: Asep
 class: Artificier / Wizard
 race: Orc
@@ -21,7 +22,6 @@ Tragedi itu datang ketika Felix, yang sudah lama kecewa pada mortal, dalam kemar
 What is your greatest accomplishment?
 Bertahan hidup setelah kejatuhan bangsa war-seraph adalah keajaiban tersendiri. Asep bangkit dari reruntuhan, kehilangan sayap dan tujuannya, namun memilih untuk hidup — tidak lagi sebagai malaikat perang, tetapi sebagai pengrajin dan penyembuh. Dengan tubuh yang dipenuhi bekas luka logam dan sihir, ia sekarang menggunakan ilmu artificer dan wizardry untuk memperbaiki dunia, bukan menghancurkannya.
 
-
 ---
 Character Motivation (Why You Adventure)
 
@@ -33,7 +33,6 @@ Asep melarikan diri dari bayang-bayang masa lalunya — dari keputusasaan, dari 
 
 Who or what do you hold dear?
 Yang paling ia jaga adalah kehidupan itu sendiri — entah itu manusia, elf, atau makhluk buatan. Ia juga masih menyimpan potongan sayap logam Felix, yang dia temukan di reruntuhan perang, sebagai pengingat: bahwa kasih dan kekerasan seringkali lahir dari tempat yang sama. Bagi Asep, itu adalah simbol harapan — harapan bahwa saudara yang hilang masih bisa diselamatkan.
-
 
 ---
 Do you have any allies or enemies?
@@ -50,7 +49,6 @@ Rem, ibu angkat sekaligus ilmuwan yang dahulu menciptakan dan membesarkan Asep s
 Asep juga diburu oleh The Order of the Broken Halo, sekte rahasia yang memuja sisa-sisa War-Seraph sebagai utusan dewa baru.
 Bagi mereka, Asep adalah “yang tersisa dari langit,” sosok yang harus dipuja — sedangkan bagi Asep sendiri, mereka hanyalah cerminan gila dari perang lama yang ingin ia lupakan.
 
-
 ---
 What is your relationship with the Bureau of Time and Plane?
 
@@ -63,7 +61,6 @@ Sejak saat itu, Asep diizinkan beroperasi bersama agen-agen Bureau untuk menanga
 
 Meski begitu, Bureau tidak tahu kebenaran: bahwa Asep adalah makhluk ilahi buatan yang seharusnya sudah punah.
 Di mata mereka, dia hanyalah orc penyendiri dengan senyum konyol dan kemampuan mekanik yang luar biasa.
-
 
 ---
 What do you think of the gods?
@@ -148,45 +145,4 @@ Dalam percakapan santai, Asep sering berkata sambil tersenyum getir:
 
 ^class-progression
 
-
-
 ## Statblock
-```statblock  
-name: Froggo  
-size: Medium  
-type: Grung  
-subtype: Grung  
-alignment: Chaotic Neutral  
-ac: 16  
-hp: 34  
-hit_dice: "3d10"  
-speed: "30 ft."  
-stats: [number, number, number, number, number, number]  
-fage_stats: [number, number, number, number, number, number, number, number, number]  
-saves:  
-- <ability-score>: number  
-skillsaves:  
-- <skill-name>: number  
-damage_vulnerabilities: string  
-damage_resistances: string  
-damage_immunities: string  
-condition_immunities: string  
-senses: string  
-languages: string  
-cr: number  
-spells:  
-- <description>  
-- <spell level>: <spell-list>  
-traits:  
-- [<trait-name>, <trait-description>]  
-- ...  
-actions:  
-- [<trait-name>, <trait-description>]  
-- ...  
-legendary_actions:  
-- [<legendary_actions-name>, <legendary_actions-description>]  
-- ...  
-reactions:  
-- [<reaction-name>, <reaction-description>]  
-- ...  
-```

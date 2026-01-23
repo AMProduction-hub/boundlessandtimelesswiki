@@ -1,4 +1,5 @@
 ---
+title: "Gwyn"
 name: Gwyn
 class: Paladin
 race: Human (Variant)

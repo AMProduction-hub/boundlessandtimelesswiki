@@ -6,12 +6,12 @@ tags:
 
 ## Characters 
  
-- **[[Sephire]]** — [[paladin-oath-of-vengeance|Oath of Vengeance]] [[paladin|Paladin]] | [[warlock-the-fiend|The Fiend]] [[warlock|Warlock]]  
-- **[[Minerva]]** — [[druid-circle-of-stars-tce|Circle of Stars]] [[03.PlayerLog&Handouts/Mechanics/CLI/classes/druid|Druid]] | [[cleric-life-domain|Life Domain]] [[cleric|Cleric]]
-- **[[Froggo]]** — [[ranger-gloom-stalker-xge|Gloom Stalker]] [[03.PlayerLog&Handouts/Mechanics/CLI/classes/ranger|Ranger]]  | [[03.PlayerLog&Handouts/Mechanics/CLI/classes/rogue|Rogue]]
-- **[[Verdian Suyanti]]** — [[bard-college-of-glamour-xge|College of Glamour]] [[bard|Bard]] 
-- **[[Kairos]]** — [[rogue-soulknife-tce|Soulknife]] [[03.PlayerLog&Handouts/Mechanics/CLI/classes/rogue|Rogue]] *(Absent)*
-- **[[Asep]]** — [[artificer-battle-smith-tce|Battle Smith]] [[artificer-tce|Artificer]] | [[wizard-bladesinging-tce|Bladesinging]] [[wizard|Wizard]]
+- **[Sephire]({{< relref "sephire" >}})** — **Oath of Vengeance** **Paladin** | **The Fiend** **Warlock**  
+- **[Minerva]({{< relref "minerva" >}})** — **Circle of Stars** **Druid** | **Life Domain** **Cleric**
+- **[Froggo]({{< relref "froggo" >}})** — **Gloom Stalker** **Ranger**  | **Rogue**
+- **[Verdian Suyanti]({{< relref "verdian-suyanti" >}})** — **College of Glamour** **Bard** 
+- **[Kairos]({{< relref "kairos" >}})** — **Soulknife** **Rogue** *(Absent)*
+- **[Asep]({{< relref "asep" >}})** — **Battle Smith** **Artificer** | **Bladesinging** **Wizard**
 
 ## Session Overview
 
@@ -19,7 +19,7 @@ The party returned to the **Grand Library Space Port**.
 
 At a small container-shaped bar, a familiar **Dwarven Bartender** noted the unusual increase in field deployments and whispered rumors of Bureau interest in **Netherese artifacts**.
 
-The party encountered **[[Elira]]**, the Paladin’s daughter from the second artifact plane, now working junior requisitions.  
+The party encountered ****Elira****, the Paladin’s daughter from the second artifact plane, now working junior requisitions.  
 An awkward moment unfolded between Sephire, Asep, and Elira — unresolved, quietly human.
 
 Attempted eavesdropping outside **Pustakawan’s office** ended abruptly when Verdian fell through the door.

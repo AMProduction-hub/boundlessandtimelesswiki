@@ -3,12 +3,12 @@ tags: [timeline, SessionJournals]
 ---
 ## Characters 
  
-- **[[Sephire]]** — [[paladin-oath-of-vengeance|Oath of Vengeance]] [[paladin|Paladin]] | [[warlock-the-fiend|The Fiend]] [[warlock|Warlock]]  
-- **[[Minerva]]** — [[druid-circle-of-stars-tce|Circle of Stars]] [[03.PlayerLog&Handouts/Mechanics/CLI/classes/druid|Druid]] | [[cleric-life-domain|Life Domain]] [[cleric|Cleric]]
-- **[[Froggo]]** — [[ranger-gloom-stalker-xge|Gloom Stalker]] [[03.PlayerLog&Handouts/Mechanics/CLI/classes/ranger|Ranger]]  | [[03.PlayerLog&Handouts/Mechanics/CLI/classes/rogue|Rogue]]
-- **[[Verdian Suyanti]]** — [[bard-college-of-glamour-xge|College of Glamour]] [[bard|Bard]] 
-- **[[Kairos]]** — [[rogue-soulknife-tce|Soulknife]] [[03.PlayerLog&Handouts/Mechanics/CLI/classes/rogue|Rogue]]
-- [[Asep]] — [[artificer-battle-smith-tce|Battle Smith]] [[artificer-tce|Artificer]] | [[wizard-bladesinging-tce|Bladesinging]] [[wizard|Wizard]]
+- **[Sephire]({{< relref "sephire" >}})** — **Oath of Vengeance** **Paladin** | **The Fiend** **Warlock**  
+- **[Minerva]({{< relref "minerva" >}})** — **Circle of Stars** **Druid** | **Life Domain** **Cleric**
+- **[Froggo]({{< relref "froggo" >}})** — **Gloom Stalker** **Ranger**  | **Rogue**
+- **[Verdian Suyanti]({{< relref "verdian-suyanti" >}})** — **College of Glamour** **Bard** 
+- **[Kairos]({{< relref "kairos" >}})** — **Soulknife** **Rogue**
+- [Asep]({{< relref "asep" >}}) — **Battle Smith** **Artificer** | **Bladesinging** **Wizard**
 
 ## Session Overview
 
@@ -40,46 +40,46 @@ Avatar Zariel tumbang... Damian berkata bahwa akan ada perang hebat antar divine
 
 Kalian bermimpi dan didalam mimpi kalian didatangi oleh deity mu... doa-doa yang kau minta kepada mereka dan mereka datang kedalam mimpi mu... Atau mimpi tentang dunia mu yang sudah berbeda dari sekarang atau juga memimpikan dunia mu yang hancur dimasa itu dan di dalam mimpi itu kalian mendapatkan sebuah hadiah dan mereka yang mendatangi mimpimu meminta kalian melakukan sesuatu.
 
-Di usai mimpi kalian, kalian melihat ada bayang bayang cahaya berwarna biru toska seperti artifact yang kalian ambil dan seketika kalian melihat dunia dari pandangan orang lain... pada waktu itu kalian melihat dari sudut pandang [[Shaperite - The Agent]] yang tengah sekarat di ruang rawat di [[Grand Library]] of Bureau of Time and Plane. Disana [[Shaperite - The Agent]] kedatangan tamu yang kalian kenal yaitu [[Damian - The Squeeky Devils]].
+Di usai mimpi kalian, kalian melihat ada bayang bayang cahaya berwarna biru toska seperti artifact yang kalian ambil dan seketika kalian melihat dunia dari pandangan orang lain... pada waktu itu kalian melihat dari sudut pandang **Shaperite - The Agent** yang tengah sekarat di ruang rawat di [Grand Library]({{< relref "grand-library" >}}) of Bureau of Time and Plane. Disana **Shaperite - The Agent** kedatangan tamu yang kalian kenal yaitu **Damian - The Squeeky Devils**.
 
 > _"Dan kau… Kau kehilangan mata, lengan, hidupmu. Semua demi Biro. Balasannya? Sunyi. Bagi mereka, kau hanyalah alat sekali pakai."_
-> - [[Damian - The Squeeky Devils]] kepada [[Shaperite - The Agent]].
+> - **Damian - The Squeeky Devils** kepada **Shaperite - The Agent**.
 
-Setelah kalian terlelap dalam tidur kapal kalian tiba di [[Grand Library]], dan situasi disana yang waktu itu huru-hara sekarang menjadi lebih tegang dari sebelumnya. Party akhirnya bergegas melaporkan tugas mereka menuju [[Pustakawan - Second-in-Command]].
+Setelah kalian terlelap dalam tidur kapal kalian tiba di [Grand Library]({{< relref "grand-library" >}}), dan situasi disana yang waktu itu huru-hara sekarang menjadi lebih tegang dari sebelumnya. Party akhirnya bergegas melaporkan tugas mereka menuju **Pustakawan - Second-in-Command**.
 
-Ketika memasuki ruang, [[Pustakawan - Second-in-Command]] terlihat sehabis bersedih dan suaranya masih terdengar sehabis bersedih. Disana ia menekankan bahwa ada salah satu yang orang yang dikirim memberi tahu kepada [[faerunian-mystra-scag|Mystra]] sehingga [[Shaperite - The Agent]] terserang langsung oleh [[faerunian-mystra-scag|Mystra]], [[Pustakawan - Second-in-Command]] menetapkan bahwa Party, [[Shaperite - The Agent]], Four Musician of Time, [[Damian - The Squeeky Devils]], Ahab, dan Ishmael dalam pengawasan penuh karena sedang ada penyelidikan internal di Bureau. Selanjutnya party ditugaskan untuk menuju plane bernama 'The Frontier' dimana sihir tidak bisa berguna disana, dan party harus mengandalkan wit mereka masing-masing. Party akhirnya berangkat menuju the Frontier.
+Ketika memasuki ruang, **Pustakawan - Second-in-Command** terlihat sehabis bersedih dan suaranya masih terdengar sehabis bersedih. Disana ia menekankan bahwa ada salah satu yang orang yang dikirim memberi tahu kepada **Mystra** sehingga **Shaperite - The Agent** terserang langsung oleh **Mystra**, **Pustakawan - Second-in-Command** menetapkan bahwa Party, **Shaperite - The Agent**, Four Musician of Time, **Damian - The Squeeky Devils**, Ahab, dan Ishmael dalam pengawasan penuh karena sedang ada penyelidikan internal di Bureau. Selanjutnya party ditugaskan untuk menuju plane bernama 'The Frontier' dimana sihir tidak bisa berguna disana, dan party harus mengandalkan wit mereka masing-masing. Party akhirnya berangkat menuju the Frontier.
 
 ## Key Learnings
 
-- Rhea dan [[03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/zariel-mpmm|Zariel]] mendatangi mimpi [[Sephire]]. Rhea memberikan Shield kepada [[Sephire]]
-- Tasha datang di mimpi [[Froggo]]. Disana Tasha mengerjai [[Froggo]], tetapi pada akhir [[Froggo]] diberi sebuah panah.
-- Seldarine, mendatangi mimpi [[Verdian Suyanti]], disana ia diberi Cloak dan sebuah Boon.
-- [[halfling-sheela-peryroyl-mtf|Sheela Peryroyl]] mendatangi mimpi [[Minerva]], disana [[halfling-sheela-peryroyl-mtf|Sheela Peryroyl]] memberikan sebuah amulet kepada [[Minerva]].
-- [[Kairos]] mengingat kehancuran plane nya, ia mengingat kembali cara mengendalikan percikan api.
-- [[Asep]] sebuah divine machine, didalam istirahatnya dia mengingat kembali saudara-nya dan juga kegagalannya di-waktu lampau. Dari itu ia mengingat kembali sedikit kemampuannya.
+- Rhea dan **Zariel** mendatangi mimpi [Sephire]({{< relref "sephire" >}}). Rhea memberikan Shield kepada [Sephire]({{< relref "sephire" >}})
+- Tasha datang di mimpi [Froggo]({{< relref "froggo" >}}). Disana Tasha mengerjai [Froggo]({{< relref "froggo" >}}), tetapi pada akhir [Froggo]({{< relref "froggo" >}}) diberi sebuah panah.
+- Seldarine, mendatangi mimpi [Verdian Suyanti]({{< relref "verdian-suyanti" >}}), disana ia diberi Cloak dan sebuah Boon.
+- **Sheela Peryroyl** mendatangi mimpi [Minerva]({{< relref "minerva" >}}), disana **Sheela Peryroyl** memberikan sebuah amulet kepada [Minerva]({{< relref "minerva" >}}).
+- [Kairos]({{< relref "kairos" >}}) mengingat kehancuran plane nya, ia mengingat kembali cara mengendalikan percikan api.
+- [Asep]({{< relref "asep" >}}) sebuah divine machine, didalam istirahatnya dia mengingat kembali saudara-nya dan juga kegagalannya di-waktu lampau. Dari itu ia mengingat kembali sedikit kemampuannya.
 
 ## Who Did They Meet?
 
-- Rhea dan [[03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/zariel-mpmm|Zariel]] dari POV [[Sephire]]
-- Tasha dari POV [[Froggo]]
-- Seldarine dari POV [[Verdian Suyanti]]
-- [[halfling-sheela-peryroyl-mtf|Sheela Peryroyl]] dari POV [[Minerva]]
-- [[Damian - The Squeeky Devils]] melalui POV [[Shaperite - The Agent]] dari efek Artifact Biru Toska.
-- [[Pustakawan - Second-in-Command]]
-- Bartender [[Grand Library]] of Bureau of Time and Plane.
-- [[The Daughter|Elira]] yang bekerja di Requisition [[Grand Library]].
+- Rhea dan **Zariel** dari POV [Sephire]({{< relref "sephire" >}})
+- Tasha dari POV [Froggo]({{< relref "froggo" >}})
+- Seldarine dari POV [Verdian Suyanti]({{< relref "verdian-suyanti" >}})
+- **Sheela Peryroyl** dari POV [Minerva]({{< relref "minerva" >}})
+- **Damian - The Squeeky Devils** melalui POV **Shaperite - The Agent** dari efek Artifact Biru Toska.
+- **Pustakawan - Second-in-Command**
+- Bartender [Grand Library]({{< relref "grand-library" >}}) of Bureau of Time and Plane.
+- [Elira]({{< relref "the-daughter" >}}) yang bekerja di Requisition [Grand Library]({{< relref "grand-library" >}}).
 
 ## Items Of Importance
 
 - Artifact Bureau berwarna Biru Toska.
-- Shield of Rhea (+2 AC, +1 Saves Throws) milik [[Sephire]].
-- Tasha's Bow of Laughter (+1, DC Caster vs WIS Saves Target kalau gagal terkena disadvantage untuk attack roll pada serangan pertama) milik [[Froggo]].
-- Amulet of [[Minerva]] dari [[halfling-sheela-peryroyl-mtf|Sheela Peryroyl]] (2 Mass Healing Word + Blade Ward / Long Rest) milik [[Minerva]].
-- Cloak of Arvandor ( +1 AC, +1 Saves Throws) dari Seldarine milik [[Verdian Suyanti]].
-- Boon of Seldarine (Reroll WIS Save Throws 1x / Long Rest) diberikan oleh Seldarine kepada [[Verdian Suyanti]].
-- Echo of Sol Prominence (1x +1d6 fire damage / long rest) oleh [[Kairos]].
-- Core of Understanding (Free Cost & Action [[detect-magic|Detect Magic]] & [[identify|Identify]] | +1 DC Untuk Spell Pertama / Long Rest) untuk [[Asep]]
+- Shield of Rhea (+2 AC, +1 Saves Throws) milik [Sephire]({{< relref "sephire" >}}).
+- Tasha's Bow of Laughter (+1, DC Caster vs WIS Saves Target kalau gagal terkena disadvantage untuk attack roll pada serangan pertama) milik [Froggo]({{< relref "froggo" >}}).
+- Amulet of [Minerva]({{< relref "minerva" >}}) dari **Sheela Peryroyl** (2 Mass Healing Word + Blade Ward / Long Rest) milik [Minerva]({{< relref "minerva" >}}).
+- Cloak of Arvandor ( +1 AC, +1 Saves Throws) dari Seldarine milik [Verdian Suyanti]({{< relref "verdian-suyanti" >}}).
+- Boon of Seldarine (Reroll WIS Save Throws 1x / Long Rest) diberikan oleh Seldarine kepada [Verdian Suyanti]({{< relref "verdian-suyanti" >}}).
+- Echo of Sol Prominence (1x +1d6 fire damage / long rest) oleh [Kairos]({{< relref "kairos" >}}).
+- Core of Understanding (Free Cost & Action **Detect Magic** & **Identify** | +1 DC Untuk Spell Pertama / Long Rest) untuk [Asep]({{< relref "asep" >}})
 
 ## What Worked
 
-- 
+-

@@ -9,7 +9,7 @@ weight: 20
 
 {{< hint danger >}}
 **Campaign Status**: 🟢 Active  
-**System**: D&D 5e (2014) + [House Rules]({{< relref "/house-rules" >}})  
+**System**: D&D 5e (2014) + **House Rules**  
 **Setting**: Forgotten Realms (Planescape)  
 **Parties**: Two groups exploring different aspects of the crisis
 {{< /hint >}}
@@ -119,7 +119,7 @@ Now, ask yourself: **What have you done to attract The Bureau's attention?**
 
 This campaign follows two distinct parties experiencing different aspects of the multiversal crisis:
 
-#### [C'est La Vie Party]({{< relref "session-notes/cestlavie-party" >}}) - ✅ Completed
+#### **C'est La Vie Party** - ✅ Completed
 **Sessions**: 13 completed  
 **Status**: Campaign Concluded  
 **Focus**: Bureau operations and planar investigations
@@ -131,7 +131,7 @@ This campaign follows two distinct parties experiencing different aspects of the
 - [Jeno]({{< relref "player-characters/jeno" >}})
 - [Klir]({{< relref "player-characters/klir" >}})
 
-#### [Ellenlyf Party]({{< relref "session-notes/ellenlyf-party" >}}) - 🟢 Active
+#### **Ellenlyf Party** - 🟢 Active
 **Sessions**: 17 completed  
 **Current Arc**: The Frontier (Bureau)  
 **Status**: Active
@@ -162,15 +162,15 @@ This campaign follows two distinct parties experiencing different aspects of the
 
 ## Resources
 
-- **[Session Notes]({{< relref "session-notes" >}})** - Recaps and summaries by party
-- **[Player Characters]({{< relref "player-characters" >}})** - Character sheets and backgrounds
-- **[NPCs]({{< relref "npcs" >}})** - Important characters you've met
-- **[House Rules]({{< relref "/house-rules" >}})** - Custom rules for this campaign
+- ****Session Notes**** - Recaps and summaries by party
+- ****Player Characters**** - Character sheets and backgrounds
+- ****NPCs**** - Important characters you've met
+- ****House Rules**** - Custom rules for this campaign
 
 ---
 
 {{< hint warning >}}
-**For Players**: This campaign uses modified 5e rules. Make sure to review the [House Rules]({{< relref "/house-rules" >}}) for character creation and progression!
+**For Players**: This campaign uses modified 5e rules. Make sure to review the **House Rules** for character creation and progression!
 {{< /hint >}}
 
 ---

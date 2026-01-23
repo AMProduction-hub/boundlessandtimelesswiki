@@ -1,4 +1,5 @@
 ---
+title: "Ashenka Roïs"
 name: Ashenka Roïs
 class: Monk - Way of The Long Death
 race: Shadar-Kai
@@ -46,4 +47,3 @@ An orphaned girl dedicating her life for the Monastery—until she finds out, on
 > </tbody></table>
 
 ^class-progression
-

@@ -12,8 +12,8 @@ Chronicle of adventures across the multiverse.
 
 ## Parties
 
-### [Ellenlyf Party]({{< relref "ellenlyf-party" >}}) - 🟢 Active
-**Sessions**: 20 completed  
+### **Ellenlyf Party** - 🟢 Active
+**Sessions**: 21 completed  
 **Current Arc**: The Frontier (Bureau)  
 **Status**: Active
 
@@ -28,11 +28,11 @@ The Ellenlyf party continues their investigations into the multiversal crisis, c
 - The Frontier Saga (Session 17-19)
 - The Ravenloft (Session 20+)
 
-[📖 View All Sessions →]({{< relref "ellenlyf-party" >}})
+**📖 View All Sessions →**
 
 ---
 
-### [C'est La Vie Party]({{< relref "cestlavie-party" >}}) - ✅ Completed
+### **C'est La Vie Party** - ✅ Completed
 **Sessions**: 13 completed  
 **Status**: Campaign Concluded  
 **Last Session**: For The Ages and The New Beginning
@@ -43,7 +43,7 @@ The C'est La Vie party operated primarily in the Northern Sword Coast, investiga
 - Neverwinter Saga (Session 1)
 - Bureau Saga (Sessions 2-13)
 
-[📖 View All Sessions →]({{< relref "cestlavie-party" >}})
+**📖 View All Sessions →**
 
 ---
 

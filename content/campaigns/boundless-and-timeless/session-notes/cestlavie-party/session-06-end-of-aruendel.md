@@ -3,14 +3,14 @@ tags: [timeline, SessionJournals]
 ---
 ## Characters 
  
-- **[[Gwyn]]**. The Paladin 
-- **[[Meows Whiskerpop (Whisky)]].** The Warlock.
-- **[[Alizar Valts]].** The Fighter. 
-- **[[Ashenka Roïs]].** The Monk.
+- **[Gwyn]({{< relref "gwyn" >}})**. The Paladin 
+- ****Meows Whiskerpop (Whisky)**.** The Warlock.
+- **[Alizar Valts]({{< relref "alizar-valts" >}}).** The Fighter. 
+- ****Ashenka Roïs**.** The Monk.
  
 ## Session Overview 
 
-Party sudah mendapatkan Artifact yang dicari oleh Bureau dan melanjutkan perjalanan menuju Danau Estara tempat dimana kapal Pequod berada bersama [[The Daughter|Elira]] & [[The Don Quixote|Elian]] dan meninggalkan Aruendel yang mulai hancur karena sisa-sisa sihir yang meluap. Akhirnya party meninggalkan Aruendel dan ketika mereka pergi melihat plane Aruendel yang awalnya penuh dengan warna sekarang gelap gulita dan hanya ada cahaya-cahaya aneh yang menyelimuti plane Aruendel.
+Party sudah mendapatkan Artifact yang dicari oleh Bureau dan melanjutkan perjalanan menuju Danau Estara tempat dimana kapal Pequod berada bersama [Elira]({{< relref "the-daughter" >}}) & [Elian]({{< relref "the-don-quixote" >}}) dan meninggalkan Aruendel yang mulai hancur karena sisa-sisa sihir yang meluap. Akhirnya party meninggalkan Aruendel dan ketika mereka pergi melihat plane Aruendel yang awalnya penuh dengan warna sekarang gelap gulita dan hanya ada cahaya-cahaya aneh yang menyelimuti plane Aruendel.
 
 ## Key Learnings
 
@@ -18,8 +18,8 @@ Party sudah mendapatkan Artifact yang dicari oleh Bureau dan melanjutkan perjala
  
 ## Who Did They Meet?
  
-- [[The Daughter|Elira]]
-- [[The Don Quixote|Elian]]
+- [Elira]({{< relref "the-daughter" >}})
+- [Elian]({{< relref "the-don-quixote" >}})
  
 ## Items Of Importance
  
@@ -27,4 +27,4 @@ Party sudah mendapatkan Artifact yang dicari oleh Bureau dan melanjutkan perjala
 
 ## What Worked 
  
-- 
+-

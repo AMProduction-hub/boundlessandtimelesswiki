@@ -1,4 +1,5 @@
 ---
+title: "Klir"
 name: Klir
 class: Rogue
 race: Tortle
@@ -47,4 +48,3 @@ Klir is a Tortle who is a Rogue
 > </tbody></table>
 
 ^class-progression
-
