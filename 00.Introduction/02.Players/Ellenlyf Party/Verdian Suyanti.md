@@ -5,7 +5,7 @@ race: Half-Elf
 level: 8
 players: Bakator
 ac: 13
-hp: 39
+hp: 67
 modifier: 0
 ---
 # Verdian Suyanti

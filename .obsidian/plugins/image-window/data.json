@@ -20,6 +20,14 @@
           "height": 800,
           "fullscreen": false,
           "maximized": false
+        },
+        "fikar-ThinkPad-T480": {
+          "x": 256,
+          "y": 9,
+          "width": 1024,
+          "height": 800,
+          "fullscreen": false,
+          "maximized": false
         }
       }
     }
