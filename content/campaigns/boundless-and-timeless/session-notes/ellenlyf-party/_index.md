@@ -23,7 +23,7 @@ weight: 30
 
 ## Campaign Progress
 
-**Sessions Completed**: 21  
+**Sessions Completed**: 22  
 **Current Arc**: The Ravenloft (Bureau)  
 **Campaign Status**: Active
 
@@ -33,13 +33,19 @@ weight: 30
 
 ### The Barovia Saga (Bureau)
 
-#### **[Session 21: Barovia's Welcoming Party]({{<relref "21 - Barovia's Welcoming Party">}})**
+#### **[Session 22: Welcome To Vallaki]({{<relref "22.md">}})**
 **Saga**: The Ravenloft (Bureau)
 *Latest session* - Researching information about Ravenloft in Grand Library
 
 ---
 
-#### **[Session 20: The Aftermath]({{<relref "20 - The Aftermath">}})**
+#### **[Session 21: Barovia's Welcoming Party]({{<relref "21.md">}})**
+**Saga**: The Ravenloft (Bureau)
+*Latest session* - Researching information about Ravenloft in Grand Library
+
+---
+
+#### **[Session 20: The Aftermath]({{<relref "20.md">}})**
 **Saga**: The Ravenloft (Bureau)
 *Latest session* - Researching information about Ravenloft in Grand Library
 
@@ -47,19 +53,19 @@ weight: 30
 
 ### The Frontier Saga (Bureau)
 
-#### **[Session 19: The Standoff of Centuries]({{<relref "19 - The Standoff of Centuries">}})**
+#### **[Session 19: The Standoff of Centuries]({{<relref "19.md">}})**
 **Saga**: The Frontier (Bureau)  
 *Latest session* - Exploring new territories in the frontier.
 
 ---
 
-#### **[Session 18: The Long Ride to Stormwood]({{<relref "18 - The Long Ride to Stormwood">}})**
+#### **[Session 18: The Long Ride to Stormwood]({{<relref "18.md">}})**
 **Saga**: The Frontier (Bureau)  
 *Latest session* - Exploring new territories in the frontier.
 
 ---
 
-#### **[Session 17: A New Land]({{<relref "17 - A New Land - Bureau Saga">}})**
+#### **[Session 17: A New Land]({{<relref "17.md">}})**
 **Saga**: The Frontier (Bureau)  
 *Latest session* - Exploring new territories in the frontier.
 
@@ -67,7 +73,7 @@ weight: 30
 
 ### Pequod Saga (Bureau)
 
-#### **[Session 16: The Divine Wars]({{<relref "16 - The Divines Will - Bureau Saga">}})**
+#### **[Session 16: The Divine Wars]({{<relref "16.md">}})**
 **Saga**: Pequod (Bureau)  
 The Divine Will and the wars that followed.
 
@@ -75,7 +81,7 @@ The Divine Will and the wars that followed.
 
 ### Shattar-Kai Saga (Bureau)
 
-#### **[Session 15: New Ages and Endless Wars]({{<relref "15 - New Ages and Endless Wars - Bureau Saga">}})**
+#### **[Session 15: New Ages and Endless Wars]({{<relref "15.md">}})**
 **Saga**: Shattar-Kai (Bureau)  
 New Ages and Endless Wars Part 1 & Part 2 - A pivotal moment in the campaign.
 

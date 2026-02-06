@@ -1,6 +1,6 @@
 ---
 title: "Table Manners"
-bookCollapseSection: true
+bookCollapseSection: false
 weight: 11
 ---
 

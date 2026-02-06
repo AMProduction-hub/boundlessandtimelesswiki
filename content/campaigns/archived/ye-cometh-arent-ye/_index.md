@@ -1,5 +1,6 @@
 ---
 title: "Ye Cometh Aren't Ye"
+bookCollapseSection: true
 weight: 51
 ---
 

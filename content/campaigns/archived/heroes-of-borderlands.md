@@ -7,18 +7,14 @@ weight: 50
 ## A Remastered Wild and Wacky Adventure
 
 **Status**: ✅ Completed  
-**System**: D&D 5e (Modified)  
-**Theme**: Comedy, Chaos, Borderlands-inspired
+**System**: D&D 5e
+**Theme**: Comedy, Chaos
 
 ---
 
 ## Campaign Overview
 
-A remastered adventure that combined the chaotic energy of Borderlands video games with D&D mechanics. Players experienced a wild ride filled with:
-- Over-the-top action and humor
-- Unique weapons and loot
-- Memorable NPCs inspired by Borderlands characters
-- High-octane combat and ridiculous situations
+A remastered adventure of the old AD&D adventures books that I ran online which now the remastered is 5e 2024 supported.
 
 ---
 

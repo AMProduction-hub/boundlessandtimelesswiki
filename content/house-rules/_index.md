@@ -1,6 +1,6 @@
 ---
 title: "GM 5e House Rules"
-bookCollapseSection: false
+bookCollapseSection: true
 weight: 10
 ---
 

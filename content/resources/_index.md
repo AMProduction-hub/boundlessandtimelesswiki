@@ -46,7 +46,7 @@ Quick links to our custom rules:
 - [Skills System]({{< relref "/house-rules/skills-system" >}}) - Skill improvements and expertise
 - [Combat Rules]({{< relref "/house-rules/combat-rules" >}}) - Critical hits, AC variants, maneuvers
 - [Spell Scaling]({{< relref "/house-rules/spell-scaling" >}}) - Tier-based spell system
-- [Table Manners]({{< relref "/house-rules/table-manners" >}}) - Expectations and etiquette
+- [Table Manners]({{< relref "tablemanners" >}}) - Expectations and etiquette
 
 ---
 

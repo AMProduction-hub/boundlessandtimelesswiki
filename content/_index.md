@@ -28,7 +28,7 @@ Welcome to my GM portfolio and campaign resource hub! This site contains everyth
 - Combat modifications
 - Spell scaling & tier system
 
-📋 **[Table Manners]({{< relref "house-rules/table-manners" >}})** - Expectations and etiquette
+📋 **[Table Manners]({{< relref "tablemanners" >}})** - Expectations and etiquette
 - Session guidelines
 - Safety tools (Lines & Veils)
 - Respectful play
@@ -50,7 +50,7 @@ Welcome to my GM portfolio and campaign resource hub! This site contains everyth
 The fabric of the multiverse is unraveling. The Great Wheel Cosmology, long thought eternal, shows signs of instability. Devils and demons, ancient enemies, now fight side by side. The Bureau of Time and Plane has called upon heroes to investigate these cosmic disturbances before reality itself collapses.
 
 **Parties**:
-- **Ellenlyf Party** - 🟢 Active (17 sessions completed)
+- **Ellenlyf Party** - 🟢 Active (22 sessions completed)
 - **C'est La Vie Party** - ✅ Completed (13 sessions)
 
 **Read More →**
@@ -64,7 +64,7 @@ Past adventures that have concluded their stories:
 ### [Heroes of the Borderlands]({{< relref "campaigns/archived/heroes-of-borderlands" >}})
 A remastered wild and wacky adventure filled with chaos and laughter!
 
-### **Ye Cometh Aren't Ye**
+### [Ye Cometh Aren't Ye]({{<relref "campaigns/archived/ye-cometh-arent-ye/">}})
 An unexpected wacky adventure with surprising twists!
 
 ### [Jungle of Jyggalag]({{< relref "campaigns/archived/jungle-of-jyggalag" >}})
@@ -89,7 +89,7 @@ A short Daggerheart system adventure exploring new mechanics!
 ## 📬 Getting Started
 
 ### For New Players
-1. Read the [Table Manners]({{< relref "house-rules/table-manners" >}}) to understand expectations
+1. Read the [Table Manners]({{< relref "tablemanners" >}}) to understand expectations
 2. Review the **House Rules** for rule modifications
 3. Check out the current **Campaign Overview**
 4. Reach out to me with questions or for character creation help
