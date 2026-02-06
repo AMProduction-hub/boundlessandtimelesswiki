@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f9c070360133936e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/21 - Barovia's Welcoming Party.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "21 - Barovia's Welcoming Party"
-            }
-          },
-          {
             "id": "8cd73253caffaac6",
             "type": "leaf",
             "state": {
@@ -56,18 +32,6 @@
             }
           },
           {
-            "id": "fe896ac936bcc63b",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "z_Assets/Bureau of Time and Plane/Character Potrait/Pustakawan.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pustakawan"
-            }
-          },
-          {
             "id": "f196618d0f6c5675",
             "type": "leaf",
             "state": {
@@ -83,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/Session 22.md",
+                "file": "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/22 - Welcome to Vallaki.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -98,11 +62,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Session 22"
+              "title": "22 - Welcome to Vallaki"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -317,12 +281,29 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "152074276b2b9ae0",
+  "active": "e9ad397d83e48c4e",
   "lastOpenFiles": [
-    "00.Introduction/02.Players/Ellenlyf Party/Party Progression Notes & Faction Status.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Main NPC/HAWA.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/22 - Welcome to Vallaki.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/tables/ideals.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Sephire.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Verdian Suyanti.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Minerva.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Kairos.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Froggo.md",
+    "00.Introduction/02.Players/Ellenlyf Party/GomuGomuNo.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Asep.md",
+    "z_Assets/Characters/venti.webp",
+    "z_Assets/Characters/minerva.jpg",
+    "z_Assets/Characters/Froggo.png",
+    "z_Assets/Characters/sephire.jpg",
+    "z_Assets/Characters/asep.jpg",
     "00.Introduction/02.Players/Ellenlyf Party/_index.md",
-    "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/Session 22.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/21 - Barovia's Welcoming Party.md",
     "z_Assets/Bureau of Time and Plane/Character Potrait/Pustakawan.png",
+    "03.PlayerLog&Handouts/Mechanics/CLI/spells/catnap-xge.md",
+    "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/Session 22.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Party Progression Notes & Faction Status.md",
     "_index.md",
     "00.Introduction/_index.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Character/The Daughter.md",
@@ -330,14 +311,6 @@
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Plane of Greed - Smaug's Challenge/_index.md",
     "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/adult-black-dragon.md",
     "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/_index.md",
-    "00.Introduction/02.Players/Ellenlyf Party/Verdian Suyanti.md",
-    "00.Introduction/02.Players/Ellenlyf Party/Sephire.md",
-    "00.Introduction/02.Players/Ellenlyf Party/Minerva.md",
-    "00.Introduction/02.Players/Ellenlyf Party/Kairos.md",
-    "00.Introduction/02.Players/Ellenlyf Party/GomuGomuNo.md",
-    "00.Introduction/02.Players/Ellenlyf Party/Froggo.md",
-    "00.Introduction/02.Players/Ellenlyf Party/Asep.md",
-    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/21 - Barovia's Welcoming Party.md",
     "z_Assets/Characters/adam.png",
     "z_Assets/Characters/SirAldric.png",
     "z_Assets/Characters/ChatGPT Image Apr 3, 2025, 10_21_16 AM.png",
@@ -346,15 +319,6 @@
     "02.NPCs&Factions/Bureau of Time and Plane/_index.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/_index.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Tech-Dominant Plane - A Fistful of Schemes/_index.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Narrative.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Maps/Untitled.md",
-    "02.NPCs&Factions/Bureau of Time and Plane/Awanama - Leader of Bureau.md",
-    "02.NPCs&Factions/Bureau of Time and Plane/Damian - The Squeeky Devils.md",
-    "z_Assets/Bureau of Time and Plane/Character Potrait/Shaperite.png",
-    "z_Assets/Bureau of Time and Plane/Character Potrait/Shaperite.png",
-    "z_Assets/Characters/Damian.png",
-    "z_Assets/Characters/Damian_humanform.png",
-    "z_Assets/Characters/ChatGPT Image Apr 3, 2025, 10_21_07 AM.png",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Maps",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Plot Items",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Main NPC",

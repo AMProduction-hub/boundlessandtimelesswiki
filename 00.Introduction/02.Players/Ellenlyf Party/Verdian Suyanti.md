@@ -8,6 +8,7 @@ ac: 13
 hp: 39
 modifier: 0
 ---
+![[venti.webp|hmed]]
 # Verdian Suyanti
 ## Overview
 ### Basic Background

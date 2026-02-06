@@ -9,6 +9,7 @@ ac: 18
 touch ac: "14"
 modifier: 0
 ---
+![[asep.jpg|hmedium]]
 # Asep
 ## Overview
 ### Basic Background

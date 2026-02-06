@@ -8,6 +8,7 @@ hp: 85
 ac: 21
 modifier: 0
 ---
+![[sephire.jpg|hmedium]]
 # Sephire
 ## Overview
 ### Basic Background
