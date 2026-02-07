@@ -47,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/22 - Welcome to Vallaki.md",
+                "file": "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/23 - Board of Truths.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -62,7 +62,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "22 - Welcome to Vallaki"
+              "title": "23 - Board of Truths"
             }
           }
         ],
@@ -281,10 +281,13 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "9f54d66b8838b5ac",
+  "active": "152074276b2b9ae0",
   "lastOpenFiles": [
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Main NPC/HAWA.md",
+    "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/22 - Vallaki Entrance.md",
+    "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/23 - Board of Truths.md",
+    "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/21 - Enter The Den of Vamp.md",
     "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/22 - Welcome to Vallaki.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Main NPC/HAWA.md",
     "03.PlayerLog&Handouts/Mechanics/CLI/tables/ideals.md",
     "00.Introduction/02.Players/Ellenlyf Party/Sephire.md",
     "00.Introduction/02.Players/Ellenlyf Party/Verdian Suyanti.md",
@@ -302,7 +305,6 @@
     "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/21 - Barovia's Welcoming Party.md",
     "z_Assets/Bureau of Time and Plane/Character Potrait/Pustakawan.png",
     "03.PlayerLog&Handouts/Mechanics/CLI/spells/catnap-xge.md",
-    "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/22 - Vallaki Entrance.md",
     "00.Introduction/02.Players/Ellenlyf Party/Party Progression Notes & Faction Status.md",
     "_index.md",
     "00.Introduction/_index.md",
@@ -317,8 +319,6 @@
     "z_Assets/Bureau of Time and Plane/Character Potrait/Damian.png",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/_index.md",
     "02.NPCs&Factions/Bureau of Time and Plane/_index.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/_index.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Tech-Dominant Plane - A Fistful of Schemes/_index.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Maps",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Plot Items",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Main NPC",
