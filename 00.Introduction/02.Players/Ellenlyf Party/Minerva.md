@@ -9,6 +9,7 @@ ac: 20
 touch ac: "9"
 modifier: 0
 ---
+![[minerva.jpg|hmed]]
 # Minerva
 ## Overview
 ### Basic Background

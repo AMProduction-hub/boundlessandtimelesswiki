@@ -9,6 +9,7 @@ ac: 16
 touch ac: "14"
 modifier: 0
 ---
+![[Froggo.png|hmedium]]
 # Froggo
 ## Overview
 ### Basic Background

@@ -153,14 +153,28 @@
             "id": "3fb699590bc0107a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "conflict-files-obsidian-git"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -376,10 +390,19 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "e9ad397d83e48c4e",
+  "active": "3fb699590bc0107a",
   "lastOpenFiles": [
-    "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/Session 22.md",
     "00.DM Screen/DC Check House Rules Difficulty List.md",
+    "conflict-files-obsidian-git.md",
+    "z_Assets/Characters/venti.webp",
+    "z_Assets/Characters/sephire.jpg",
+    "z_Assets/Characters/minerva.jpg",
+    "z_Assets/Characters/asep.jpg",
+    "z_Assets/Characters/Froggo.png",
+    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/22 - Welcome to Vallaki.md",
+    "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/23 - Board of Truths.md",
+    "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/22 - Vallaki Entrance.md",
+    "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/Session 22.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Main NPC/HAWA.md",
     "z_Assets/Characters/hawa.png",
     "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/21 - Barovia's Welcoming Party.md",
@@ -403,16 +426,8 @@
     "z_Assets/Characters/adam.png",
     "z_Assets/Characters/SirAldric.png",
     "z_Assets/Characters/ChatGPT Image Apr 3, 2025, 10_21_16 AM.png",
-    "z_Assets/Bureau of Time and Plane/Character Potrait/Damian.png",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/_index.md",
     "02.NPCs&Factions/Bureau of Time and Plane/_index.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/_index.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Tech-Dominant Plane - A Fistful of Schemes/_index.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Narrative.md",
-    "z_Assets/Bureau of Time and Plane/Character Potrait/Shaperite.png",
-    "z_Assets/Bureau of Time and Plane/Character Potrait/Shaperite.png",
-    "z_Assets/Characters/Damian.png",
-    "z_Assets/Characters/Damian_humanform.png",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Maps",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Plot Items",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Main NPC",

@@ -243,7 +243,11 @@
         "currentAC": 21,
         "note": "Sephire",
         "path": "00.Introduction/02.Players/Ellenlyf Party/Sephire.md",
+<<<<<<< HEAD
         "id": "ID_1af928d8895a",
+=======
+        "id": "ID_0b282beb4a68",
+>>>>>>> origin/master
         "currentHP": 85,
         "tempHP": 0,
         "status": [],
@@ -265,7 +269,11 @@
         "currentAC": 20,
         "note": "Minerva",
         "path": "00.Introduction/02.Players/Ellenlyf Party/Minerva.md",
+<<<<<<< HEAD
         "id": "ID_0bab78990bfb",
+=======
+        "id": "ID_1a0998b8caab",
+>>>>>>> origin/master
         "currentHP": 50,
         "tempHP": 0,
         "status": [],
@@ -287,7 +295,11 @@
         "currentAC": 16,
         "note": "Froggo",
         "path": "00.Introduction/02.Players/Ellenlyf Party/Froggo.md",
+<<<<<<< HEAD
         "id": "ID_7b6bfa6b182b",
+=======
+        "id": "ID_a8781b497b1b",
+>>>>>>> origin/master
         "currentHP": 57,
         "tempHP": 0,
         "status": [],
@@ -309,8 +321,13 @@
         "currentAC": 13,
         "note": "Verdian Suyanti",
         "path": "00.Introduction/02.Players/Ellenlyf Party/Verdian Suyanti.md",
+<<<<<<< HEAD
         "id": "ID_0888ba58d959",
         "currentHP": 67,
+=======
+        "id": "ID_0af9788b68eb",
+        "currentHP": 39,
+>>>>>>> origin/master
         "tempHP": 0,
         "status": [],
         "enabled": true,
@@ -331,7 +348,11 @@
         "currentAC": 18,
         "note": "Asep",
         "path": "00.Introduction/02.Players/Ellenlyf Party/Asep.md",
+<<<<<<< HEAD
         "id": "ID_c83aa979fb29",
+=======
+        "id": "ID_db484a78da0a",
+>>>>>>> origin/master
         "currentHP": 41,
         "tempHP": 0,
         "status": [],
@@ -353,7 +374,11 @@
         "currentAC": 19,
         "note": "Kairos",
         "path": "00.Introduction/02.Players/Ellenlyf Party/Kairos.md",
+<<<<<<< HEAD
         "id": "ID_f94a19ca7b69",
+=======
+        "id": "ID_4bb88bbb6a8a",
+>>>>>>> origin/master
         "currentHP": 99,
         "tempHP": 0,
         "status": [],
