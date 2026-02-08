@@ -21,7 +21,7 @@ Character-Role: Quest Related
 Location: Barovia
 NoteIcon: npc
 ---
-> [!infobox]
+b> [!infobox]
 > # `=this.file.name`
 > ![[hawa.png|cover hmedium]]
 > [[hawa.png|Show To Players]]

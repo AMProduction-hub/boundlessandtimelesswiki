@@ -131,7 +131,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.DM Screen/DC Check House Rules Difficulty List.md",
+                "file": "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/23 - How Would You Act.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -146,35 +146,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "DC Check House Rules Difficulty List"
-            }
-          },
-          {
-            "id": "3fb699590bc0107a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "23 - How Would You Act"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -227,8 +203,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -390,8 +365,15 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "3fb699590bc0107a",
+  "active": "18a110072de65201",
   "lastOpenFiles": [
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Main NPC/HAWA.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/23 - How Would You Act.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/items/longbow.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/rules/variant-rules/inspiration.md",
+    "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/23 - Board of Truths.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/23 - How Would You Act ???.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/01 - Fire in Highfalls - Neverwinter Saga 1.md",
     "00.DM Screen/DC Check House Rules Difficulty List.md",
     "conflict-files-obsidian-git.md",
     "z_Assets/Characters/venti.webp",
@@ -400,10 +382,8 @@
     "z_Assets/Characters/asep.jpg",
     "z_Assets/Characters/Froggo.png",
     "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/22 - Welcome to Vallaki.md",
-    "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/23 - Board of Truths.md",
     "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/22 - Vallaki Entrance.md",
     "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/Session 22.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Main NPC/HAWA.md",
     "z_Assets/Characters/hawa.png",
     "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/21 - Barovia's Welcoming Party.md",
     "00.Introduction/02.Players/Ellenlyf Party/Froggo.md",
@@ -420,14 +400,9 @@
     "00.Introduction/02.Players/Ellenlyf Party/Verdian Suyanti.md",
     "00.Introduction/02.Players/Ellenlyf Party/Sephire.md",
     "00.Introduction/02.Players/Ellenlyf Party/Minerva.md",
-    "00.Introduction/02.Players/Ellenlyf Party/Kairos.md",
-    "00.Introduction/02.Players/Ellenlyf Party/GomuGomuNo.md",
-    "00.Introduction/02.Players/Ellenlyf Party/Asep.md",
     "z_Assets/Characters/adam.png",
     "z_Assets/Characters/SirAldric.png",
     "z_Assets/Characters/ChatGPT Image Apr 3, 2025, 10_21_16 AM.png",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/_index.md",
-    "02.NPCs&Factions/Bureau of Time and Plane/_index.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Maps",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Plot Items",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Main NPC",
