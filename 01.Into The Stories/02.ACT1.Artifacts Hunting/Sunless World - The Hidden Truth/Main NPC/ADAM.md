@@ -15,11 +15,12 @@ AssociatedGroup: Barovia
 Gender: Male
 Race: Dhampir
 Age: Adult
-Class: Fighter (Echo Knight) / Rogue (Inquisitive)
+Class: Rogue (Arcane Trickster)
 Alignment: Lawful Neutral
 Character-Role: Quest Related / Enforcer
 Location: Barovia
 NoteIcon: npc
+obsidianUIMode: preview
 ---
 > [!infobox]
 > # `=this.file.name`
@@ -117,6 +118,77 @@ ADAM never gives speeches. His words land because they are few.
 > “Decisions don’t need witnesses.”
 
 ---
+
+## Statblock 
+```statblock
+name: ADAM, the Local  
+size: medium  
+type: humanoid  
+subtype: dhampir  
+alignment: True Neutral  
+ac: 20  
+hp: 168  
+hit_dice: 16d8 + 96  
+speed: 40 ft, climb 40 ft  
+stats: [12, 22, 18, 16, 14, 12]  
+saves:  
+- dex: 11  
+- con: 9  
+- int: 8  
+- wis: 7  
+skillsaves:  
+- acrobatics: 11  
+- stealth: 17  
+- sleight of hand: 11  
+- perception: 7  
+- insight: 7  
+- investigation: 8  
+damage_resistances: necrotic; bludgeoning, piercing, slashing from nonmagical attacks  
+damage_immunities: charm  
+condition_immunities: frightened  
+senses: darkvision 120 ft, blindsense 30 ft, passive Perception 17  
+languages: Common, Infernal, Thieves’ Cant  
+cr: 13  
+  
+traits:  
+- [Sneak Attack, Once per turn deals extra 7d6 damage when he has advantage or ally adjacent.]  
+- [Evasion, Takes no damage on successful Dex saves, half on fail.]  
+- [Uncanny Dodge, Reaction halves damage from one attack.]  
+- [Spider Climb, Can move on walls and ceilings.]  
+- [Mist Step, When reduced below 40 HP, transforms into mist until end of next turn (immune to all damage, can move 40 ft). 1/Day.]  
+- [Tactical Observer, ADAM cannot be surprised and adds +5 to initiative.]  
+  
+spellcasting:  
+- Spellcasting Ability: Intelligence (save DC 16, +8 to hit)  
+- At Will: mage hand, minor illusion, message  
+- 1st (4 slots): shield, disguise self, silent image  
+- 2nd (3 slots): invisibility, mirror image  
+- 3rd (3 slots): hypnotic pattern, counterspell  
+- 4th (2 slots): greater invisibility, dimension door  
+  
+actions:  
+- [Multiattack, ADAM makes two Shadow Rapier attacks.]  
+- [Shadow Rapier, +11 to hit, reach 5 ft, 1 target. Hit: 1d8+6 piercing + 4d6 necrotic.]  
+- [Vampiric Bite, +11 to hit, 1d6+6 piercing + 3d6 necrotic. ADAM heals equal to necrotic dealt.]  
+- [Command Mark (Recharge 5–6), One creature ADAM can see must succeed DC 16 Wis save or become Marked for 1 minute. Marked targets grant advantage to ADAM and take +10 damage from his attacks.]  
+  
+bonus_actions:  
+- [Cunning Action, Dash, Disengage, or Hide.]  
+- [Shadow Slip, Teleport 30 ft between dim light or darkness.]  
+  
+reactions:  
+- [Uncanny Dodge, Halve damage from an attack.]  
+- [Counterspell, As spell.]  
+  
+legendary_actions:  
+- ADAM can take 2 legendary actions per round.  
+- [Move, Move up to speed without provoking opportunity attacks.]  
+- [Cantrip, Cast a cantrip.]  
+- [Analyze (Costs 2), ADAM learns one creature’s lowest saving throw.]
+image: [[adam.png]]
+```
+
+
 
 ## GM Notes (Hidden)
 

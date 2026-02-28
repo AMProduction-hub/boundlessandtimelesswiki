@@ -667,6 +667,169 @@
         "source": "Homebrew",
         "layout": "Basic 5e Layout"
       }
+    ],
+    [
+      "ADAM, the Local",
+      {
+        "name": "ADAM, the Local",
+        "size": "medium",
+        "type": "humanoid",
+        "subtype": "dhampir",
+        "alignment": "True Neutral",
+        "ac": 20,
+        "hp": 168,
+        "hit_dice": "16d8 + 96",
+        "speed": "40 ft, climb 40 ft",
+        "stats": [
+          12,
+          22,
+          18,
+          16,
+          14,
+          12
+        ],
+        "saves": [
+          {
+            "dex": 11
+          },
+          {
+            "con": 9
+          },
+          {
+            "int": 8
+          },
+          {
+            "wis": 7
+          }
+        ],
+        "skillsaves": [
+          {
+            "acrobatics": 11
+          },
+          {
+            "stealth": 17
+          },
+          {
+            "sleight of hand": 11
+          },
+          {
+            "perception": 7
+          },
+          {
+            "insight": 7
+          },
+          {
+            "investigation": 8
+          }
+        ],
+        "damage_resistances": "necrotic; bludgeoning, piercing, slashing from nonmagical attacks",
+        "damage_immunities": "charm",
+        "condition_immunities": "frightened",
+        "senses": "darkvision 120 ft, blindsense 30 ft, passive Perception 17",
+        "languages": "Common, Infernal, Thieves’ Cant",
+        "cr": 13,
+        "traits": [
+          {
+            "name": "Sneak Attack",
+            "desc": "Once per turn deals extra 7d6 damage when he has advantage or ally adjacent."
+          },
+          {
+            "name": "Evasion",
+            "desc": "Takes no damage on successful Dex saveshalf on fail."
+          },
+          {
+            "name": "Uncanny Dodge",
+            "desc": "Reaction halves damage from one attack."
+          },
+          {
+            "name": "Spider Climb",
+            "desc": "Can move on walls and ceilings."
+          },
+          {
+            "name": "Mist Step",
+            "desc": "When reduced below 40 HPtransforms into mist until end of next turn (immune to all damagecan move 40 ft). 1/Day."
+          },
+          {
+            "name": "Tactical Observer",
+            "desc": "ADAM cannot be surprised and adds +5 to initiative."
+          }
+        ],
+        "spellcasting": [
+          {
+            "Spellcasting Ability": "Intelligence (save DC 16, +8 to hit)"
+          },
+          {
+            "At Will": "mage hand, minor illusion, message"
+          },
+          {
+            "1st (4 slots)": "shield, disguise self, silent image"
+          },
+          {
+            "2nd (3 slots)": "invisibility, mirror image"
+          },
+          {
+            "3rd (3 slots)": "hypnotic pattern, counterspell"
+          },
+          {
+            "4th (2 slots)": "greater invisibility, dimension door"
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "ADAM makes two Shadow Rapier attacks."
+          },
+          {
+            "name": "Shadow Rapier",
+            "desc": "+11 to hitreach 5 ft[object Object]"
+          },
+          {
+            "name": "Vampiric Bite",
+            "desc": "+11 to hit1d6+6 piercing + 3d6 necrotic. ADAM heals equal to necrotic dealt."
+          },
+          {
+            "name": "Command Mark (Recharge 5–6)",
+            "desc": "One creature ADAM can see must succeed DC 16 Wis save or become Marked for 1 minute. Marked targets grant advantage to ADAM and take +10 damage from his attacks."
+          }
+        ],
+        "bonus_actions": [
+          {
+            "name": "Cunning Action",
+            "desc": "DashDisengageor Hide."
+          },
+          {
+            "name": "Shadow Slip",
+            "desc": "Teleport 30 ft between dim light or darkness."
+          }
+        ],
+        "reactions": [
+          {
+            "name": "Uncanny Dodge",
+            "desc": "Halve damage from an attack."
+          },
+          {
+            "name": "Counterspell",
+            "desc": "As spell."
+          }
+        ],
+        "legendary_actions": [
+          {
+            "name": "Move",
+            "desc": "Move up to speed without provoking opportunity attacks."
+          },
+          {
+            "name": "Cantrip",
+            "desc": "Cast a cantrip."
+          },
+          {
+            "name": "Analyze (Costs 2)",
+            "desc": "ADAM learns one creature’s lowest saving throw."
+          }
+        ],
+        "image": "<STATBLOCK-WIKI-LINK>adam.png<STATBLOCK-WIKI-LINK>",
+        "source": "Homebrew",
+        "layout": "Basic 5e Layout"
+      }
     ]
   ],
   "defaultLayouts": {},
@@ -679,7 +842,7 @@
   "version": {
     "major": 4,
     "minor": 10,
-    "patch": 2
+    "patch": 3
   },
   "paths": [
     "03.PlayerLog&Handouts/Mechanics/CLI",

@@ -4,5 +4,24 @@
   "accentColor": "#0033ff",
   "theme": "obsidian",
   "interfaceFontFamily": "",
-  "nativeMenus": false
+  "nativeMenus": false,
+  "enabledCssSnippets": [
+    "S - Encoded Fonts",
+    "S - Encoded Icons",
+    "SailKite - chassis_callouts",
+    "SailKite - TabsInObsidian",
+    "supercharged-links-gen",
+    "Tab_Icons",
+    "TabsInObsidian - MaxH",
+    "TabsInObsidian - MaxH480",
+    "Mermaid_Fix_Text_Clipping",
+    "HoverProperties_-_Columns",
+    "HoverProperties_w-Columns",
+    "FantasyFonts",
+    "hide-markdown-link-url",
+    "fade_header",
+    "dnd5e-compendium",
+    "Bases_DataviewStyle",
+    "Bases - Hide UI"
+  ]
 }

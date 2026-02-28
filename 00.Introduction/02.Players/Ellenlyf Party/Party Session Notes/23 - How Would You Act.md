@@ -4,82 +4,166 @@ tags:
   - SessionJournals
 title: 23 - How Would You Act ??? - Barovia Saga
 ---
-<div
-  class='ob-timelines'
-  data-date='144-43-49-00'
-  data-title='dd-mm-yyy desc'
-  data-class='orange'
-  data-img = '\z_Assets\hawaboard.jpeg'
-  data-type='range'
-  data-end="2000-10-20-00">
-  Conspiracy Board
-</div>
+# How Would You Act
 
-## Characters 
- 
-- **[[Sephire]]** — Oath of Vengeance Paladin | The Fiend Warlock  
-- **[[Minerva]]** — Circle of Stars Druid | Life Domain Cleric
-- **[[Froggo]]** — Gloom Stalker Ranger  | Rogue
-- **[[Verdian Suyanti]]** — College of Glamour Bard
-- **[[Kairos]]** — Soulknife Rogue
-- **[[Asep]]** — Battle Smith Artificer | Bladesinging Wizard
- 
-## Session Overview 
+## Characters
 
+- **Sephire** — Oath of Vengeance Paladin / The Fiend Warlock
+- **Minerva** — Circle of Stars Druid / Life Domain Cleric
+- **Froggo** — Gloom Stalker Ranger / Rogue
+- **Verdian Suyanti** — College of Glamour Bard
+- **Kairos** — Soulknife Rogue
+- **Asep** — Battle Smith Artificer / Bladesinging Wizard
+
+## Session Overview
+
+The party investigates the Deep Purple Netherese Stone in HAWA's safehouse, learning it's some kind of command or communication device. Working together, they create a **physical conspiracy board** with red string connecting all the mysteries they've uncovered—Strahd's disappearance, the vampire registration system, the Artificial Sun, the missing agent Adam, and how it all ties to the Netherese Stone.
+
+After laying out everything they know, the party splits up to explore Vallaki and make contacts—some searching for the Thieves Guild, others meeting with Mademoiselle at the cabaret. Meanwhile, Sephire travels alone to Castle Ravenloft and encounters a mysterious vampire.
 
 ## Key Learnings
 
-- Out of character philosophical questions to start the game:
-	- ***What are the right time to act ?***
-	- All get [[inspiration|Inspiration]] except [[Asep]]
+### Session Opening
 
-- There are two types of Vampire in current Barovia:
-	- ***Unregistered Vampire***, Vampire whom haven't been mark by number in their wrist. They were taken by Mysterious People who wore a black hoodies with golden embroidered, they usually moves in group.
-	- ***Registered Vampire***, vampire whom have marked by number in their wrist.
+- **Out-of-character philosophical question**: _"What is the right time to act?"_
+- All characters received **Inspiration** except Asep
 
-- Since [[HAWA]] came to this plane she gave this information:
-	- ***Security Escalation***. Since she came everyone especially in Vallaki guest need to be registered.
-	- ***Never ever met with Adam***. [[HAWA]] never met Adam like at all.
-	- ***Saw how mysterious people took care Unregistered Vampire***. She once met a person who sells vegetables, once she saw him like common human then overtime he turn pale and his eyes gone red. And then he is gone without a trace.
-	- ***Vallaki Bloodline Festival***. Festival will be held in 4 days from this day. Current monarch *Bartholomeus Vallaki XIII* will open the festival that day.
-	- ***Deep Purple Netherstone Whereabout ?***. Bureau of Time and Plane know where the artifacts whereabout 130 years ago.
-	- ***[[03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/strahd-von-zarovich-cos|Strahd von Zarovich]] Missing***. He has been missing 100 years ago.
-	- ***Artificial Sun (Current Moon Who Shine)***. Appears around 2 - 3 years after [[03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/strahd-von-zarovich-cos|Strahd von Zarovich]] gone. The legends around people they said that some heroes or adventurer came and tried to shine the plane, who is the heroes it never said.
+### The Conspiracy Board
 
-- Parties need vouch or sponsor from local peoples if they wanted a job in Vallaki. [[HAWA]] offering a way, meeting wth Alexander the Thieves Guild Leader and Mademoiselle the owner of cabaret show. They might be able to sponsor party to be able to take jobs in Vallaki.
+The party created a physical conspiracy board with red string to map out all the mysteries in Barovia. The board included:
 
-- ***Deep Purple Netherese Stones investigation***:
-	- [[Asep]] tried to understand the magic of this Deep Purple Netherese Stones. The stones had the same effects as [[commune|Commune]] spells, a spell to directly speak with a divine beings or their proxies. To whom ?
-	- [[Minerva]] tried to understand this artifact in druidic way (By licking it) she receive a shock effect in her heads for a while (Success WIS Saves). She felt like something tried to commands her.
-	- [[Kairos]] tried to check the stone, he only know that it's a commanding device. To what ?
-	- [[HAWA]] mentioned when she tried to research this artifact. This stones is like a controller but to what ?
-	- Vallaki castle had a libraries, but if parties want to access it they need to be allowed to be around the castle area.
-	- [[HAWA]] mentioning that [[03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/strahd-von-zarovich-cos|Strahd von Zarovich]]'s libraries in Castle Ravenloft had a sources of information to learn more about Deep Purple Netherese Stones that [[HAWA]] kept.
+**Key Elements Mapped:**
 
-- Thieves Guild location is currently unknown and they are vilified by the guards. [[HAWA]] mentioned when people want to meet Thieves Guild they just need to ask around and if Thieves Guild decided to wants to met with them they will came to you.
-- **Mademoiselle** Cabaret is in Upper City (Higher City). ***Mademoiselle*** sees people from their skills (Dances, Flame Eater, Sword Swallow, etc) and he heard [[Minerva]] can control the stars. He gave [[Minerva]] a form with name and where can Mademoiselle find her.
-- In middle cities in Vallaki there is an emporium who sells wondrous item. 
+- **Strahd Gone** → Connected to the Artificial Sun appearing
+- **Artificial Sun** → Connected to Moon Anchors Stability
+- **Registered Vampires** → Connected to Mysterious People (enforcers)
+- **Unregistered Vampires** → Hunted and disappeared
+- **Ravenloft Castle** → Hub of the conspiracy, where the stone was found
+- **Security Escalation** → Central mystery connecting multiple threads
+- **Deep Purple Netherese Stone** → The artifact they're investigating
+- **Observer Arrived #777** → The party's contractor number
+- **Outsider Armed HAWA** → HAWA arrived with the stone
+- **Festival Vallaki (9 Hari)** → Upcoming event in 4 days
+- **WHERE IS ADAM?** → The missing Bureau agent (highlighted as urgent)
 
-- ***Parties Split Up***:
-	- [[Asep]], [[Froggo]], [[Kairos]] tried to find out Thieves Guild. They goes to Cheese Shop, Tailor, Carpet Shop, and Pawn Shop. After they goes to the pawn shop someone sent a letter in a crossbow bolt in there it mentioned that if they wanted to meet with Thieves Guild they only need to go to *Lower City*.
-	- [[Minerva]] & [[Verdian Suyanti]] goes to ***Madamoiselle's Cabaret Shows*** in Upper City. ***Madamoiselle*** himself more interested in [[Minerva]] 
-	- [[Sephire]] goes alone to ***Castle Ravenloft*** 18 hours away from *Vallaki*. When he already saw the castle from afar with a pale and red pupils stranger. 
- 
+The board helped visualize how everything connects, with red string showing relationships between:
+
+- Strahd's disappearance and the arrival of the Artificial Sun
+- The vampire registration system and mysterious enforcers
+- Ravenloft Castle as the center of power
+- The Netherese Stone's connection to everything
+- Adam's suspicious absence since HAWA arrived
+
+### Two Types of Vampires in Barovia
+
+**Unregistered Vampires:**
+
+- Have no number marked on their wrist
+- Are hunted by mysterious people wearing black hoodies with golden embroidery
+- These enforcers usually move in groups
+- Unregistered vampires are "taken care of" (disappear without a trace)
+
+**Registered Vampires:**
+
+- Have a number marked on their wrist
+- Allowed to exist in Barovia's society
+
+### HAWA's Intelligence Report
+
+Since arriving in Barovia 6 months ago, HAWA has gathered the following information:
+
+- **Security Escalation**: Since she arrived, security has increased. All guests in Vallaki must now register with authorities.
+- **Never Met Adam**: HAWA has never encountered Adam, the other Bureau agent supposedly stationed here.
+- **Witnessed Vampire Enforcement**: She once knew a vegetable seller who appeared human at first, but over time became pale with red eyes. Then he vanished without a trace—presumably taken by the mysterious enforcers.
+- **Vallaki Bloodline Festival**: A major festival will be held in 4 days. The current monarch, **Bartholomeus Vallaki XIII**, will open the festivities.
+- **Deep Purple Netherstone Location**: The Bureau knew the artifact's location 130 years ago (in Castle Ravenloft's dungeons).
+- **Strahd von Zarovich is Missing**: He disappeared 100 years ago.
+- **The Artificial Sun**: What currently lights Barovia (appearing as a moon) appeared 2-3 years after Strahd's disappearance. Local legends say heroes or adventurers came and tried to bring light to the plane, but their identities are unknown.
+
+### Employment in Vallaki
+
+To get jobs in Vallaki, the party needs a vouch or sponsorship from local people. **HAWA** suggested two contacts:
+
+- **Alexander** — Thieves Guild Leader
+- **Mademoiselle** — Owner of a cabaret show in the Upper City
+
+### Deep Purple Netherese Stone Investigation
+
+The party examined the stone HAWA recovered:
+
+- **Asep's Analysis**: The stone has the same magical effects as a **Commune** spell—allowing direct communication with divine beings or their proxies. But to whom does it connect?
+- **Minerva's Druidic Test**: She licked the stone (naturally) and received a psychic shock. After succeeding on a Wisdom save, she felt something trying to command her mind.
+- **Kairos's Assessment**: He determined it's a commanding device, but couldn't figure out what it commands.
+- **HAWA's Research**: She believes it's a controller, but hasn't determined what it controls.
+
+**Research Resources:**
+
+- Vallaki Castle has libraries, but access requires permission to enter the castle area
+- Castle Ravenloft's libraries (Strahd's collection) likely contain more information about these stones
+
+### Thieves Guild
+
+- The Thieves Guild's location is unknown and they're vilified by the guards
+- To meet them, you simply ask around the city
+- If they want to meet you, they'll come to you
+- They don't respond to direct searches
+
+### Mademoiselle's Cabaret
+
+- Located in the Upper City (higher-class district)
+- **Mademoiselle** recruits based on skills: dancers, flame eaters, sword swallowers, etc.
+- He heard about Minerva's ability to control stars and gave her a recruitment form
+
+### Shopping District
+
+- The Central City has an emporium that sells wondrous items
+
+### The Party Splits Up
+
+**Team 1: Asep, Froggo, Kairos** (Searching for Thieves Guild)
+
+- Visited: Cheese Shop, Tailor, Carpet Shop, and Pawn Shop
+- At the Pawn Shop, someone shot a crossbow bolt with a letter attached
+- The message said if they want to meet the Thieves Guild, they should go to the **Lower City**
+
+**Team 2: Minerva & Verdian** (Investigating the Cabaret)
+
+- Went to **Mademoiselle's Cabaret Shows** in the Upper City
+- Mademoiselle showed particular interest in Minerva's abilities
+
+**Solo: Sephire** (Traveling to Castle Ravenloft)
+
+- Traveled alone to **Castle Ravenloft** (18 hours from Vallaki)
+- When he saw the castle from a distance, he encountered a stranger with pale skin and red pupils
+- **Cliffhanger ending**
+
 ## Who Did They Meet?
 
- - **Mademoiselle**. Patriach of Cabaret Shows in Upper Cities
- - **Pawnshop Owner**. The one who offer [[Froggo]]'s [[longbow|Longbow]] + 1 for 75 Gold.
- - **Longbow Expert in Vallaki**. The one who said that [[Froggo]]'s [[longbow|Longbow]] + 1 worth around 10.000 Gold
- - **[[HAWA]]**. 
- - **Cheese Seller**. Said had many cheese but none
- - **Trumpet Man**. A beggar who plays trumpet.
- - **Alexander The Tailor**. Name the same, different profession.
- - **Adrianna The Ballet**. One of Mademoiselle's ballet girl.
- - **Mysterious Vampire**. At the end of the sessions when Sephire arrive in Castle Ravenloft alone.
- 
+- **HAWA** — Bureau agent, guide and information source
+- **Mademoiselle** — Patriarch of the cabaret shows in the Upper City. Interested in recruiting talented performers.
+- **Pawn Shop Owner** — Offered to buy Froggo's Longbow +1 for 75 gold.
+- **Longbow Expert in Vallaki** — Appraised Froggo's Longbow +1 at 10,000 gold (the Pawn Shop owner was trying to scam them).
+- **Cheese Seller** — Claimed to have many cheeses but actually had none (suspicious).
+- **Trumpet Man** — A beggar who plays trumpet in the streets.
+- **Alexander the Tailor** — Same name as the Thieves Guild leader, but different profession (red herring?).
+- **Adrianna the Ballet** — One of Mademoiselle's ballet dancers.
+- **Mysterious Vampire** — Pale-skinned stranger with red pupils encountered by Sephire near Castle Ravenloft at the end of the session.
+
 ## Items Of Importance
 
-- [[HAWA]]'s board 
+- **The Conspiracy Board** — Physical investigation board created by the party with red string connecting all the mysteries: Strahd's disappearance, vampire types, the Artificial Sun, Ravenloft Castle, Security Escalation, the Netherese Stone, and the missing agent Adam. Used to visualize relationships between all known elements of the conspiracy.
+- **Deep Purple Netherese Stone** — Communication/command device similar to Commune spell. Currently held by HAWA. Connects to something or someone unknown.
+- **Froggo's Longbow +1** — Worth approximately 10,000 gold (according to expert appraisal).
+- **HAWA's Investigation Board** — Contains her research on Barovia's vampire conspiracy.
+- **Recruitment Form** — Given to Minerva by Mademoiselle for the cabaret.
+- **Crossbow Bolt Letter** — Message from the Thieves Guild directing the party to the Lower City.
 
-## What Worked 
- 
+## What Worked
+
+- **Creating the physical conspiracy board** was an excellent session highlight—using red string to connect all the mysteries made the investigation feel real and helped the party visualize the complexity of Barovia's situation
+- The philosophical opening question set a thoughtful tone for the session
+- Splitting the party created multiple storylines and kept everyone engaged
+- The Deep Purple Stone investigation gave everyone a chance to contribute
+- The cliffhanger with Sephire alone at Castle Ravenloft built tension
+- The Pawn Shop scam (75g vs 10,000g) created a memorable moment
+- Minerva licking the stone was perfectly in-character and entertaining

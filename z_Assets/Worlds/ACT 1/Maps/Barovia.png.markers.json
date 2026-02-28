@@ -1,0 +1,63 @@
+{
+  "size": {
+    "w": 1920,
+    "h": 1080
+  },
+  "layers": [
+    {
+      "id": "default",
+      "name": "Default",
+      "visible": true,
+      "locked": false
+    }
+  ],
+  "markers": [
+    {
+      "type": "pin",
+      "id": "marker_2z2da6",
+      "x": 0.4294276083669351,
+      "y": 0.38828965053763403,
+      "layer": "default",
+      "link": "",
+      "iconKey": "pinRed",
+      "tooltip": ""
+    },
+    {
+      "type": "pin",
+      "id": "marker_56ge3x",
+      "x": 0.8233351314649406,
+      "y": 0.4235444622174817,
+      "layer": "default",
+      "link": "",
+      "iconKey": "pinRed",
+      "tooltip": ""
+    },
+    {
+      "type": "pin",
+      "id": "marker_xtxhs7",
+      "x": 0.7750660586428116,
+      "y": 0.44507011726221435,
+      "layer": "default",
+      "link": "",
+      "iconKey": "pinBlue",
+      "tooltip": ""
+    }
+  ],
+  "bases": [
+    "z_Assets/Worlds/ACT 1/Maps/Barovia.png"
+  ],
+  "overlays": [],
+  "activeBase": "z_Assets/Worlds/ACT 1/Maps/Barovia.png",
+  "measurement": {
+    "scales": {},
+    "customUnitPxPerUnit": {},
+    "travelTimePresetIds": [],
+    "travelDaysEnabled": false,
+    "displayUnit": "km"
+  },
+  "pinSizeOverrides": {},
+  "panClamp": true,
+  "drawLayers": [],
+  "drawings": [],
+  "textLayers": []
+}

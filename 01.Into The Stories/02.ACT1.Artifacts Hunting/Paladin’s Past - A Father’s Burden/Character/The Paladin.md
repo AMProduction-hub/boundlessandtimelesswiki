@@ -11,8 +11,8 @@ NoteIcon: npc
 ---
 > [!infobox]
 > # `=this.file.name`
-> ![[z_Assets/Characters/SirAldric_PaladinMode.png|cover hmedium]]
-> [[z_Assets/Characters/SirAldric_BakerMode.png|Show To Players]]
+> ![[z_Assets/Characters/SirAldric.png|cover hmedium]]
+> [[z_Assets/Characters/SirAldric.png|Show To Players]]
 > ###### Basic Information
 > Type |  Stat |
 > ---|---|

@@ -32,7 +32,23 @@
             }
           },
           {
-            "id": "f196618d0f6c5675",
+            "id": "f5ee9c8d45fedfe8",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "00.DM Screen/_index.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": []
+                }
+              },
+              "icon": "lucide-trello",
+              "title": "_index"
+            }
+          },
+          {
+            "id": "6f28194ddc58cbf5",
             "type": "leaf",
             "state": {
               "type": "intiative-tracker-encounter-builder",
@@ -42,13 +58,13 @@
             }
           },
           {
-            "id": "f5ee9c8d45fedfe8",
+            "id": "3ba41bfcc4ee7395",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/23 - How Would You Act.md",
-                "mode": "source",
+                "file": "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Main NPC/ADAM.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -62,7 +78,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "23 - How Would You Act"
+              "title": "ADAM"
+            }
+          },
+          {
+            "id": "e3a79c8ebc125797",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/24 - Fracture.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "24 - Fracture"
             }
           }
         ],
@@ -98,7 +138,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "black dragon",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -132,7 +172,7 @@
       {
         "id": "db99f528ef87e573",
         "type": "tabs",
-        "dimension": 49.85133795837462,
+        "dimension": 43.812375249500995,
         "children": [
           {
             "id": "c906c79932c05f38",
@@ -243,7 +283,7 @@
       {
         "id": "24195a1954bfce1b",
         "type": "tabs",
-        "dimension": 50.14866204162538,
+        "dimension": 56.187624750499,
         "children": [
           {
             "id": "3853d535f770bb5c",
@@ -279,14 +319,33 @@
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-kanban:Create new board": false,
       "dbfolder:Create a new database table": false,
-      "obsidian42-brat:BRAT": false
+      "obsidian42-brat:BRAT": false,
+      "ttrpg-soundboard:Open soundboard": false
     }
   },
-  "active": "f5ee9c8d45fedfe8",
+  "active": "e9ad397d83e48c4e",
   "lastOpenFiles": [
-    "Untitled 1.base",
+    "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/24 - Fracture.md",
+    "00.DM Screen/_index.md",
+    "z_Assets/Worlds/ACT 1/Maps/Barovia.png.markers.json",
+    "z_Assets/Worlds/ACT 1/Maps/Barovia.png",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Main NPC/ADAM.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Maps/Untitled.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/_index.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Character/The Paladin.md",
+    "01.Into The Stories/_index.md",
+    "Readme.md",
     "Untitled.base",
+    "03.PlayerLog&Handouts/Mechanics/CLI/races/dhampir-vrgr.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/2-character-creation.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/races/_index.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/books/strixhaven-a-curriculum-of-chaos/02-life-at-strixhaven.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Character/The Don Quixote.md",
     "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/23 - How Would You Act.md",
+    "02.NPCs&Factions/Bureau of Time and Plane/_index.md",
+    "00.DM Screen/DC Check House Rules Difficulty List.md",
+    "Untitled 1.base",
     "z_Assets/hawaboard.jpeg",
     "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/23 - Board of Truths.md",
     "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/22 - Vallaki Entrance.md",
@@ -297,30 +356,14 @@
     "00.Introduction/02.Players/Ellenlyf Party/Sephire.md",
     "00.Introduction/02.Players/Ellenlyf Party/Verdian Suyanti.md",
     "00.Introduction/02.Players/Ellenlyf Party/Minerva.md",
-    "00.Introduction/02.Players/Ellenlyf Party/Kairos.md",
-    "00.Introduction/02.Players/Ellenlyf Party/Froggo.md",
-    "00.Introduction/02.Players/Ellenlyf Party/GomuGomuNo.md",
-    "00.Introduction/02.Players/Ellenlyf Party/Asep.md",
     "z_Assets/Characters/venti.webp",
     "z_Assets/Characters/minerva.jpg",
     "z_Assets/Characters/Froggo.png",
     "z_Assets/Characters/sephire.jpg",
     "z_Assets/Characters/asep.jpg",
-    "00.Introduction/02.Players/Ellenlyf Party/_index.md",
-    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/21 - Barovia's Welcoming Party.md",
     "z_Assets/Bureau of Time and Plane/Character Potrait/Pustakawan.png",
-    "03.PlayerLog&Handouts/Mechanics/CLI/spells/catnap-xge.md",
-    "00.Introduction/02.Players/Ellenlyf Party/Party Progression Notes & Faction Status.md",
-    "_index.md",
-    "00.Introduction/_index.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Character/The Daughter.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/_index.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Plane of Greed - Smaug's Challenge/_index.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/adult-black-dragon.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/bestiary/dragon/_index.md",
     "z_Assets/Characters/adam.png",
     "z_Assets/Characters/SirAldric.png",
-    "z_Assets/Characters/ChatGPT Image Apr 3, 2025, 10_21_16 AM.png",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Maps",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Plot Items",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Main NPC",
@@ -328,8 +371,6 @@
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Tech-Dominant Plane - A Fistful of Schemes/Main NPC",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Tech-Dominant Plane - A Fistful of Schemes/Main Factions",
     "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes",
-    "00.Introduction/02.Players/Cest La Vie Party/DM Sessions Notes",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/War-Torn Plane - Stalemate of the Titans/Plot Items",
     "02 - NPCs & Factions/Forgotten Realms Pantheon/Faeurinian Pantheon/Faeurinian Pantheon.canvas",
     "00 - Introduction/02 - Players/02 - Players.canvas",
     "Untitled.canvas"
