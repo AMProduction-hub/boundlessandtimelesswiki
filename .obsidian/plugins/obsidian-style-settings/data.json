@@ -23,5 +23,12 @@
   "ITS@@lp-img-float": false,
   "ITS@@file-explorer-flat": false,
   "ITS@@ITS-folder-arrows": "folder-arrow-display",
-  "ITS@@nord": false
+  "ITS@@nord": false,
+  "ITS@@ITS-Sidebar-Styling": "sidebar-tabs-tabular",
+  "ITS@@navbar-bottom": "navbar-bottom-plain",
+  "ITS@@ITS-Sidebar-Ribbon-Float": "none",
+  "ITS@@ITS-Sidebar-Ribbon-Float-Position": "sidebar-float-bottom",
+  "ITS@@tab-widths": "tab-auto",
+  "ITS@@titlebar-colors": false,
+  "ITS@@titlebar-bubbles": false
 }

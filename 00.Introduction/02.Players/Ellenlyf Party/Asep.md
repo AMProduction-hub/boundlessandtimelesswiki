@@ -8,8 +8,12 @@ hp: 41
 ac: 18
 touch ac: "14"
 modifier: 0
+aliases:
+  - Asep
 ---
-![[asep.jpg|hmedium]]
+|                       |                                                   Class                                                    |      Species      | Level | Player Name |
+| :-------------------: | :--------------------------------------------------------------------------------------------------------: | :---------------: | :---: | ----------- |
+| ![[asep.jpg\|hsmall]] | 3 [[artificer-battle-smith-tce\|Artificier - Battle Smith]]<br>5 [[wizard-bladesinging-tce\|Bladesinging]] | [[orc-mpmm\|Orc]] |   8   | Edgar       |
 # Asep
 ## Overview
 ### Basic Background
@@ -21,7 +25,6 @@ Tragedi itu datang ketika Felix, yang sudah lama kecewa pada mortal, dalam kemar
 
 What is your greatest accomplishment?
 Bertahan hidup setelah kejatuhan bangsa war-seraph adalah keajaiban tersendiri. Asep bangkit dari reruntuhan, kehilangan sayap dan tujuannya, namun memilih untuk hidup — tidak lagi sebagai malaikat perang, tetapi sebagai pengrajin dan penyembuh. Dengan tubuh yang dipenuhi bekas luka logam dan sihir, ia sekarang menggunakan ilmu artificer dan wizardry untuk memperbaiki dunia, bukan menghancurkannya.
-
 
 ---
 Character Motivation (Why You Adventure)
@@ -79,8 +82,8 @@ Dalam percakapan santai, Asep sering berkata sambil tersenyum getir:
 
 > “Rem dulu bilang, dewa nggak suka turun tangan karena takut ikut berdosa. Aku rasa mereka cuma takut kotorin tangan mereka sendiri. Tapi ya… mungkin mereka juga capek sama perang.”
 
-## Class Table
-# Artificer
+# Class Table
+## Artificer
 *Source: Tasha's Cauldron of Everything p. 9, Eberron: Rising from the Last War p. 54*  
 
 > [!tldr] Class and Feature Progression
@@ -114,7 +117,7 @@ Dalam percakapan santai, Asep sering berkata sambil tersenyum getir:
 
 ^class-progression
 
-# Bladesinging
+## Bladesinging
 *[Wizard](./wizard.md): Arcane Tradition*  
 *Source: Tasha's Cauldron of Everything p. 76, Sword Coast Adventurer's Guide p. 141*  
 
@@ -150,44 +153,44 @@ Dalam percakapan santai, Asep sering berkata sambil tersenyum getir:
 ^class-progression
 
 
-
-## Statblock
-```statblock  
-name: Froggo  
-size: Medium  
-type: Grung  
-subtype: Grung  
-alignment: Chaotic Neutral  
-ac: 16  
-hp: 34  
-hit_dice: "3d10"  
-speed: "30 ft."  
-stats: [number, number, number, number, number, number]  
-fage_stats: [number, number, number, number, number, number, number, number, number]  
-saves:  
-- <ability-score>: number  
-skillsaves:  
-- <skill-name>: number  
-damage_vulnerabilities: string  
-damage_resistances: string  
-damage_immunities: string  
-condition_immunities: string  
-senses: string  
-languages: string  
-cr: number  
-spells:  
-- <description>  
-- <spell level>: <spell-list>  
-traits:  
-- [<trait-name>, <trait-description>]  
-- ...  
-actions:  
-- [<trait-name>, <trait-description>]  
-- ...  
-legendary_actions:  
-- [<legendary_actions-name>, <legendary_actions-description>]  
-- ...  
-reactions:  
-- [<reaction-name>, <reaction-description>]  
-- ...  
+# Statblock
+```statblock
+name: Asep
+size: Medium
+type: Humanoid
+subtype: Half-Orc
+alignment: True Neutral
+ac: 19
+hp: number
+hit_dice: string
+speed: string
+stats: [number, number, number, number, number, number]
+fage_stats: [number, number, number, number, number, number, number, number, number]
+saves:
+  - <ability-score>: number
+skillsaves:
+  - <skill-name>: number
+damage_vulnerabilities: string
+damage_resistances: string
+damage_immunities: string
+condition_immunities: string
+senses: string
+languages: string
+cr: number
+spells:
+  - <description>
+  - <spell level>: <spell-list>
+traits:
+  - [<trait-name>, <trait-description>]
+  - ...
+actions:
+  - [<trait-name>, <trait-description>]
+  - ...
+legendary_actions:
+  - [<legendary_actions-name>, <legendary_actions-description>]
+  - ...
+reactions:
+  - [<reaction-name>, <reaction-description>]
+  - ...
 ```
+

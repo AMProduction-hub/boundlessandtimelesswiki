@@ -1,0 +1,54 @@
+{
+  "size": {
+    "w": 1536,
+    "h": 1024
+  },
+  "layers": [
+    {
+      "id": "default",
+      "name": "Default",
+      "visible": false,
+      "locked": false,
+      "boundBase": "z_Assets/Worlds/ACT 1/Maps/VallakiMaps.png"
+    }
+  ],
+  "markers": [
+    {
+      "type": "pin",
+      "id": "marker_lu9zuz",
+      "x": 0.31261801026870656,
+      "y": 0.2513916476876742,
+      "layer": "default",
+      "link": "Lake Zarovich",
+      "iconKey": "pinRed",
+      "tooltip": ""
+    },
+    {
+      "type": "pin",
+      "id": "marker_eq133k",
+      "x": 0.6631610817464281,
+      "y": 0.19974777463689491,
+      "layer": "default",
+      "link": "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Maps/Vallaki ###Palace",
+      "iconKey": "pinRed",
+      "tooltip": ""
+    }
+  ],
+  "bases": [
+    "z_Assets/Worlds/ACT 1/Maps/VallakiMaps.png"
+  ],
+  "overlays": [],
+  "activeBase": "z_Assets/Worlds/ACT 1/Maps/VallakiMaps.png",
+  "measurement": {
+    "scales": {},
+    "customUnitPxPerUnit": {},
+    "travelTimePresetIds": [],
+    "travelDaysEnabled": false,
+    "displayUnit": "km"
+  },
+  "pinSizeOverrides": {},
+  "panClamp": true,
+  "drawLayers": [],
+  "drawings": [],
+  "textLayers": []
+}

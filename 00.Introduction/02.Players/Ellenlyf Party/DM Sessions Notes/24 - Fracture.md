@@ -1,6 +1,10 @@
 ---
-title: "Session 24 — Fracture Lines"
-tags: [session, barovia, multiPOV]
+title: Session 24 — Fracture Lines
+tags:
+  - session
+  - barovia
+  - multiPOV
+NoteIcon: journal
 ---
 ## Session Engine
 Structure: Intercut POV Scenes  
@@ -104,6 +108,14 @@ Teach Sephire: this castle still defends secrets.
 Cut Scene When:
 Creature drops below 40% HP  
 → cut to another POV before fight ends
+
+```encounter
+name: First Wave
+creatures:
+ - 2: Ghoul
+ - 1: Ghast
+```
+
 
 ---
 

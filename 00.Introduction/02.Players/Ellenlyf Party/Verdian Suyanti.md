@@ -7,8 +7,15 @@ players: Bakator
 ac: 13
 hp: 67
 modifier: 0
+aliases:
+  - Venty
+  - Verdian Suyanti
 ---
-![[venti.webp|hmed]]
+
+|                         |                           Class                            |        Species         | Level | Player Name |
+| :---------------------: | :--------------------------------------------------------: | :--------------------: | :---: | ----------- |
+| ![[venti.webp\|hsmall]] | [[bard-college-of-glamour-xge\|Bard - College of Glamour]] | [[half-elf\|Half-Elf]] |   8   | Bakator     |
+
 # Verdian Suyanti
 ## Overview
 ### Basic Background

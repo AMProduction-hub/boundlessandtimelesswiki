@@ -7,8 +7,14 @@ players: Nanda
 hp: 85
 ac: 21
 modifier: 0
+aliases:
+  - Sephire
 ---
-![[sephire.jpg|hmedium]]
+
+|                          |                                                    Class                                                     |        Species         | Level | Player Name |
+| :----------------------: | :----------------------------------------------------------------------------------------------------------: | :--------------------: | :---: | ----------- |
+| ![[sephire.jpg\|hsmall]] | 6 [[paladin-oath-of-vengeance\|Paladin - Oath of Vengeance]]<br>2 [[warlock-the-fiend\|Warlock - The Fiend]] | [[half-orc\|Half-Orc]] |   8   | Nanda       |
+
 # Sephire
 ## Overview
 ### Basic Background

@@ -23,5 +23,6 @@
     "dnd5e-compendium",
     "Bases_DataviewStyle",
     "Bases - Hide UI"
-  ]
+  ],
+  "baseFontSize": 16
 }

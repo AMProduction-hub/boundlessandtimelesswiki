@@ -10,6 +10,15 @@
           {
             "id": "8cd73253caffaac6",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "markdown",
               "state": {
@@ -34,22 +43,48 @@
           {
             "id": "f5ee9c8d45fedfe8",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "00.DM Screen/_index.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": []
+                "file": "03.PlayerLog&Handouts/Mechanics/CLI/books/players-handbook-2014/08-using-ability-scores.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
                 }
               },
-              "icon": "lucide-trello",
-              "title": "_index"
+              "icon": "lucide-file",
+              "title": "08-using-ability-scores"
             }
           },
           {
             "id": "6f28194ddc58cbf5",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "intiative-tracker-encounter-builder",
               "state": [],
@@ -60,6 +95,15 @@
           {
             "id": "3ba41bfcc4ee7395",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "markdown",
               "state": {
@@ -84,6 +128,48 @@
           {
             "id": "e3a79c8ebc125797",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Maps/Vallaki.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Vallaki"
+            }
+          },
+          {
+            "id": "58c9c5dacd0c0d7a",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "markdown",
               "state": {
@@ -104,9 +190,195 @@
               "icon": "lucide-file",
               "title": "24 - Fracture"
             }
+          },
+          {
+            "id": "68214f11e2ae7126",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/23 - How Would You Act.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "23 - How Would You Act"
+            }
+          },
+          {
+            "id": "ea0f463aec7eb556",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00.DM Screen/DC Check House Rules Difficulty List.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "DC Check House Rules Difficulty List"
+            }
+          },
+          {
+            "id": "88ff0bd7dcc3999a",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "_index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00.Introduction/02.Players/Ellenlyf Party/_index.md\",\"mode\":\"source\",\"source\":false,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"_index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":25},\"to\":{\"line\":4,\"ch\":25}},\"scroll\":0}"
+                },
+                {
+                  "title": "Sephire",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00.Introduction/02.Players/Ellenlyf Party/Sephire.md\",\"mode\":\"source\",\"source\":false,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"Sephire\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":0},\"to\":{\"line\":12,\"ch\":0}}}"
+                },
+                {
+                  "title": "Session Notes",
+                  "icon": "database-folder-icon",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"00.Introduction/02.Players/Ellenlyf Party/Session Notes.md\"},\"icon\":\"database-folder-icon\",\"title\":\"Session Notes\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Sephire",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00.Introduction/02.Players/Ellenlyf Party/Sephire.md\",\"mode\":\"source\",\"source\":false,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"Sephire\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":0},\"to\":{\"line\":12,\"ch\":0}}}"
+                },
+                {
+                  "title": "Session Notes",
+                  "icon": "database-folder-icon",
+                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"00.Introduction/02.Players/Ellenlyf Party/Session Notes.md\"},\"icon\":\"database-folder-icon\",\"title\":\"Session Notes\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "_index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00.Introduction/02.Players/Ellenlyf Party/_index.md\",\"mode\":\"source\",\"source\":false,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"_index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":0},\"to\":{\"line\":25,\"ch\":0}},\"scroll\":19.23623815967524}"
+                },
+                {
+                  "title": "24 - The Chains",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/24 - The Chains.md\",\"mode\":\"source\",\"source\":false,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"24 - The Chains\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":0}},\"scroll\":0}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/24 - The Chains.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "24 - The Chains"
+            }
+          },
+          {
+            "id": "eae7bcb38c597a37",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "_index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00.Introduction/02.Players/Cest La Vie Party/_index.md\",\"mode\":\"source\",\"source\":false,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"_index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}}}"
+                },
+                {
+                  "title": "_index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00.Introduction/02.Players/Ellenlyf Party/_index.md\",\"mode\":\"source\",\"source\":false,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"_index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":10},\"to\":{\"line\":11,\"ch\":10}},\"scroll\":0}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00.Introduction/02.Players/Ellenlyf Party/_index.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "_index"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -122,6 +394,15 @@
           {
             "id": "9f54d66b8838b5ac",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "file-explorer",
               "state": {
@@ -135,6 +416,15 @@
           {
             "id": "c66996f9db1a4a7f",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "search",
               "state": {
@@ -152,6 +442,15 @@
           {
             "id": "6787a463d5c6e667",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "bookmarks",
               "state": {},
@@ -172,11 +471,19 @@
       {
         "id": "db99f528ef87e573",
         "type": "tabs",
-        "dimension": 43.812375249500995,
         "children": [
           {
             "id": "c906c79932c05f38",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "backlink",
               "state": {
@@ -196,6 +503,15 @@
           {
             "id": "7ab2d1b239e9be6b",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "outgoing-link",
               "state": {
@@ -210,6 +526,15 @@
           {
             "id": "de5d63b39991278f",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "tag",
               "state": {
@@ -225,6 +550,15 @@
           {
             "id": "f0616d86f7318297",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "outline",
               "state": {
@@ -240,6 +574,15 @@
           {
             "id": "e9ad397d83e48c4e",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "git-view",
               "state": {},
@@ -248,18 +591,17 @@
             }
           },
           {
-            "id": "b4a84abc819025ab",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
-            }
-          },
-          {
             "id": "b46808498e0f23b9",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "DICE_ROLLER_VIEW",
               "state": {},
@@ -270,11 +612,41 @@
           {
             "id": "c7bfcadfb16b79d9",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "initiative-tracker-view",
               "state": {},
               "icon": "initiative-tracker",
               "title": "Initiative Tracker"
+            }
+          },
+          {
+            "id": "d879b48256c92a51",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "ttrpg-soundboard-view",
+              "state": {
+                "activeSlot": "A"
+              },
+              "icon": "music",
+              "title": "Soundboard"
             }
           }
         ],
@@ -283,11 +655,19 @@
       {
         "id": "24195a1954bfce1b",
         "type": "tabs",
-        "dimension": 56.187624750499,
         "children": [
           {
             "id": "3853d535f770bb5c",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "initiative-tracker-creature-view",
               "state": {},
@@ -312,7 +692,6 @@
       "command-palette:Open command palette": false,
       "templater-obsidian:Templater": false,
       "obsidian-git:Open Git source control": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-leaflet-plugin:Open Leaflet Map": false,
       "obsidian-5e-statblocks:Open Creature pane": false,
       "initiative-tracker:Initiative Tracker Encounter Builder": false,
@@ -320,57 +699,58 @@
       "obsidian-kanban:Create new board": false,
       "dbfolder:Create a new database table": false,
       "obsidian42-brat:BRAT": false,
-      "ttrpg-soundboard:Open soundboard": false
+      "ttrpg-soundboard:Open soundboard": false,
+      "obsidian-regex-pipeline:Regex Rulesets": false
     }
   },
   "active": "e9ad397d83e48c4e",
   "lastOpenFiles": [
-    "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/24 - Fracture.md",
-    "00.DM Screen/_index.md",
-    "z_Assets/Worlds/ACT 1/Maps/Barovia.png.markers.json",
-    "z_Assets/Worlds/ACT 1/Maps/Barovia.png",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Main NPC/ADAM.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Maps/Untitled.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/_index.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Character/The Paladin.md",
-    "01.Into The Stories/_index.md",
-    "Readme.md",
-    "Untitled.base",
-    "03.PlayerLog&Handouts/Mechanics/CLI/races/dhampir-vrgr.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/spells/invisibility.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/books/van-richtens-guide-to-ravenloft/2-character-creation.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/races/_index.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/books/strixhaven-a-curriculum-of-chaos/02-life-at-strixhaven.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Paladin’s Past - A Father’s Burden/Character/The Don Quixote.md",
-    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/23 - How Would You Act.md",
-    "02.NPCs&Factions/Bureau of Time and Plane/_index.md",
-    "00.DM Screen/DC Check House Rules Difficulty List.md",
-    "Untitled 1.base",
-    "z_Assets/hawaboard.jpeg",
-    "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/23 - Board of Truths.md",
-    "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/22 - Vallaki Entrance.md",
-    "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/21 - Enter The Den of Vamp.md",
-    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/22 - Welcome to Vallaki.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Main NPC/HAWA.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/tables/ideals.md",
+    "00.Introduction/02.Players/Cest La Vie Party/_index.md",
+    "00.Introduction/02.Players/Ellenlyf Party/_index.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/24 - The Chains.md",
     "00.Introduction/02.Players/Ellenlyf Party/Sephire.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Session Notes.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Ellenlyf Party.zip",
+    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/23 - How Would You Act.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/21 - Barovia's Welcoming Party.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/22 - Welcome to Vallaki.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/20 - The Aftermath.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/19 - The Standoff of Centuries.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/18 - The Long Ride to Stormwood.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/17 - A New Land - Bureau Saga.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/16 - The Divines Will - Bureau Saga.md",
     "00.Introduction/02.Players/Ellenlyf Party/Verdian Suyanti.md",
     "00.Introduction/02.Players/Ellenlyf Party/Minerva.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Kairos.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Froggo.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Asep.md",
+    "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/24 - Fracture.md",
+    "00.DM Screen/DC Check House Rules Difficulty List.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/books/players-handbook-2014/08-using-ability-scores.md",
+    "00.DM Screen/_index.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Main NPC/ADAM.md",
+    "z_Assets/Characters/adam.png",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Maps/Vallaki.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Maps/_index.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/tables/barovia-adventures-vrgr.md",
+    "z_Assets/Worlds/ACT 1/Maps/VallakiMaps.png",
+    "z_Assets/Worlds/ACT 1/Maps/VallakiMaps.png",
+    "z_Assets/Worlds/ACT 1/Maps/VallakiMaps.png.markers.json",
+    "z_Assets/Worlds/ACT 1/Maps/Barovia.png.markers.json",
+    "z_Assets/Worlds/ACT 1/Maps/Barovia.png",
+    "Untitled.base",
+    "Untitled 1.base",
+    "z_Assets/hawaboard.jpeg",
     "z_Assets/Characters/venti.webp",
     "z_Assets/Characters/minerva.jpg",
     "z_Assets/Characters/Froggo.png",
     "z_Assets/Characters/sephire.jpg",
     "z_Assets/Characters/asep.jpg",
-    "z_Assets/Bureau of Time and Plane/Character Potrait/Pustakawan.png",
-    "z_Assets/Characters/adam.png",
-    "z_Assets/Characters/SirAldric.png",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Maps",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Plot Items",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Main NPC",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Tech-Dominant Plane - A Fistful of Schemes/Scene",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Tech-Dominant Plane - A Fistful of Schemes/Main NPC",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Tech-Dominant Plane - A Fistful of Schemes/Main Factions",
-    "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes",
     "02 - NPCs & Factions/Forgotten Realms Pantheon/Faeurinian Pantheon/Faeurinian Pantheon.canvas",
     "00 - Introduction/02 - Players/02 - Players.canvas",
     "Untitled.canvas"

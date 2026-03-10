@@ -1,0 +1,96 @@
+---
+tags:
+  - timeline
+  - SessionJournals
+title: 24 - The Chains
+type: Session Journal
+sessionDate: 2026-03-01
+players: 6
+Status: ✅
+OneLiner: The Party Splits and End With Cliffhanger
+session_number: 24
+---
+# The Chains
+## Characters
+
+- **Sephire** — Oath of Vengeance Paladin / The Fiend Warlock
+- **Minerva** — Circle of Stars Druid / Life Domain Cleric
+- **Froggo** — Gloom Stalker Ranger / Rogue
+- **Verdian Suyanti** — College of Glamour Bard
+- **Kairos** — Soulknife Rogue
+- **Asep** — Battle Smith Artificer / Bladesinging Wizard
+
+## Session Overview
+
+### Sephire's Perspective 
+> Timeline note: Sephire's scene occurs last chronologically, as it took him 18 hours on horseback from Vallaki to Castle Ravenloft.
+
+Just outside Castle Ravenloft, [[Sephire]] encountered a pale-skinned man with red pupils. The stranger mentioned he could sense something both divine and sinister about [[Sephire]] (detecting his Paladin/Warlock dual nature). Leaning closer, he asked, "You want to find out about the stones, no?"
+
+Caught off guard, [[Sephire]] demanded to know who he was. The pale man replied cryptically that [[Sephire]]'s friends in [[Vallaki]] "have not been very discreet" and that mysterious people now knew about the stones. This confirmed that his companions, despite being so far away, had been making inquiries.
+
+The pale man expressed curiosity about Castle Ravenloft—sealed for a hundred years until recently, when the kinetic field dome protecting it vanished. [[Sephire]], preferring company in unfamiliar territory, invited him along. The pale man agreed and transformed into black mist that followed behind [[Sephire]].
+
+As they approached, the castle appeared abandoned and run-down. In the courtyard, [[Sephire]] spotted scorched undead corpses. He deduced that a powerful being had been summoned here, but the question remained: by whom?
+
+Entering the keep, they found grandiose architecture left by [[03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/strahd-von-zarovich-cos|Strahd von Zarovich]]—deep purple accents dominated the design, and numerous portraits of Strahd lined the walls. As they explored, [[Sephire]] asked the pale man's name. He answered simply: "Call me ***Warga Lokal***."
+
+The entrance hallway led straight ahead, with two staircases on either side ascending to an inner balcony lined with rooms. [[Sephire]] and ***Warga Lokal*** proceeded forward down the main hall.
+
+They discovered numerous identical rooms, each containing a bed and cupboard. ***Warga Lokal*** noted these must have housed [[03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/strahd-von-zarovich-cos|Strahd von Zarovich]]'s vampire spawn—evidence that Strahd had sired many. Continuing onward, they passed a large window overlooking a small courtyard with a fountain and withered flowers.
+
+When [[Sephire]] approached a closed door and listened, he heard an animalistic growl from within. He decided to retreat—only to turn around and find *someone* had been waiting for them all along.
+
+### Minerva & Verdian Suyanti's Perspective
+
+On their way back to **The Silent Inn** in the City Market area, [[Minerva]] and [[Verdian Suyanti]] heard excited shouts: "They finally got him!" [[Gossips]] spread rapidly through the market.
+
+[[Verdian Suyanti]] asked a stall owner what happened. The vendor explained that the [[Vallaki]] Guard had located the Thieves Guild in the Lower City and were sweeping the entire district to ensure the guild's leader was in custody before the Festival of [[Vallaki]]'s Bloodline.
+
+Shortly after, a young boy called out to [[Minerva]] and delivered a letter from Mademoiselle. The letter expressed particular interest in her "talents"—specifically her Circle of Stars ability to manipulate stars. The boy rubbed his fingertips together, gesturing for a tip. [[Minerva]] gave him a pocket full of [[goodberry|goodberries]], and he went on his way.
+
+Since the letter mentioned only [[Minerva]], they split up—[[Verdian Suyanti]] returned to the inn while [[Minerva]] headed to the Cabaret Show in the Upper City.
+
+At the cabaret, performers rehearsed their acts: sword swallowers, ballet dancers, belly dancers, and fire dancers, all directed by Mademoiselle himself. When [[Minerva]] approached the Opera Theatre where rehearsals were held, Mademoiselle spotted her and asked her to demonstrate her talent.
+
+[[Minerva]] filled the ceiling with the darkest night sky, scattered with stars. She manipulated them, pulling and shaping them at will. Impressed, Mademoiselle requested she perform this for the Crown Prince attending that evening. [[Minerva]] panicked—she was a healer, not a performer.
+
+### Froggo, Kairos, & Asep's Perspective
+
+Following a lead from a letter attached to a crossbow bolt, the party headed to the Lower City to find the Thieves Guild.
+
+Upon arrival, they witnessed guards knocking on every door. At one house, a chain gang was led out. A guard shouted, "This is the cost of associating with the Thieves Guild! Now march to the cells, inmates!" The prisoners were marched toward the [[Vallaki]] Guard's prison near the Main Gate.
+
+Realizing they couldn't openly ask about the Thieves Guild, the party sought out an inn. They found "The Loudest Inn," where a dwarf stood behind the counter speaking with two guards. The guards handed him a bounty notice offering rewards for information on anyone associated with the Thieves Guild.
+
+[[Kairos]] asked if outsiders like them could claim the reward. The guard confirmed they could, but demanded proof—not just "old lady gossip." The guards then left.
+
+The party spoke with the dwarf innkeeper, mentioning they needed gold but couldn't find work without someone vouching for them (a "green card" reference). The innkeeper offered 100 gold to remove guests who'd overstayed on the second floor. He described them as "greenish." [[Asep]] (an [[orc-mpmm|Orc]]) and [[Froggo]] (a [[grung-mpmm|Grung]]) asked, "Green like us?" The innkeeper confirmed, adding, "Do whatever you need to—just get them out. When I tried, they became hostile."
+
+The party agreed and disguised themselves as [[Vallaki]] Guards. When [[Asep]] opened the room, they found three hostile-looking [[githyanki-mpmm|Githyanki]] inside.
+
+## Key Learnings
+
+- **Bartholomeus Vallaki XIII**, the Crown Prince, will attend the Cabaret Show tonight, where [[Minerva]] will demonstrate her star manipulation.
+- The **Guards of [[Vallaki]]** are sweeping the Lower City to apprehend Alexander, leader of the Thieves Guild, before the Festival of [[Vallaki]]'s Bloodline. Anyone associated with the guild is being arrested.
+- **The Loudest Inn** is located in [[Vallaki]]'s Lower City. Steven the Dwarf is the owner. Three [[githyanki-mpmm|Githyanki]] have overstayed their welcome upstairs; Steven offered the party 100 gold to remove them.
+- [[03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/strahd-von-zarovich-cos|Strahd von Zarovich]] sired many [[vampire-spawn|vampire spawn]], evidenced by the numerous living quarters in Castle Ravenloft.
+- A divine being was summoned to Castle Ravenloft. Questions remain: Who is this being? Who summoned them?
+
+## Who Did They Meet?
+
+- **Mademoiselle** — Patriarch and owner of [[Vallaki]]'s Upper District Cabaret Shows
+- **Steven** — Dwarf bartender and owner of The Loudest Inn in [[Vallaki]]'s Lower District
+- **3 [[githyanki-mpmm|Githyanki]]** — Unwanted guests overstaying at The Loudest Inn
+- **Warga Lokal** — Pale-skinned, red-eyed figure who met [[Sephire]] outside Castle Ravenloft (DM Note: This is [[ADAM]], an agent meant to work with [[HAWA]])
+
+## Items Of Importance
+
+- Mademoiselle's letter expressing interest in [[Minerva]]'s abilities
+- Letter attached to a crossbow bolt directing the party to the Thieves Guild's location
+- Bounty notice for anyone associated with the Thieves Guild
+
+## What Worked
+
+- Masquerading as [[Vallaki]] Guards using [[disguise-kit|Disguise Kit]] ([[Kairos]]) and [[disguise-self|Disguise Self]] ([[Froggo]] & [[Asep]])
+- [[Minerva]]'s ability to shape stars and fill the room with a starlit sky (Survival skill check)

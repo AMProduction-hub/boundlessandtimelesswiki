@@ -4,12 +4,18 @@ class: Life Cleric / Druid Circle of Stars
 race: Satyr
 level: 8
 players: Evan
-hp: 50
+hp: 60
 ac: 20
 touch ac: "9"
 modifier: 0
+aliases:
+  - Minerva
 ---
-![[minerva.jpg|hmed]]
+
+|                          |                                                   Class                                                    |                    Species                     | Level | Player Name |
+| :----------------------: | :--------------------------------------------------------------------------------------------------------: | :--------------------------------------------: | :---: | ----------- |
+| ![[minerva.jpg\|hsmall]] | 7 [[druid-circle-of-stars-tce\|Druid - Circle of Stars]]<br>1 [[cleric-life-domain\|Cleric - Life Domain]] | [[custom-lineage-tce\|Custom Lineage (Satyr)]] |   8   | Evan        |
+
 # Minerva
 ## Overview
 ### Basic Background

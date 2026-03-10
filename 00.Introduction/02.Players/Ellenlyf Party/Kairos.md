@@ -7,7 +7,12 @@ players: Rafi
 hp: 99
 ac: 19
 modifier: 0
+aliases:
+  - Kairos
 ---
+|                       |                  Class                   |            Species             | Level | Player Name |
+| :-------------------: | :--------------------------------------: | :----------------------------: | :---: | ----------- |
+| ![[asep.jpg\|hsmall]] | [[rogue-soulknife-tce\|Soulknife Rogue]] | [[astral-elf-aag\|Astral Elf]] |   8   | Rafi        |
 # Kairos
 ## Overview
 ### Basic Background

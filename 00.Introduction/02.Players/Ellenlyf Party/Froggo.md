@@ -8,8 +8,12 @@ hp: 57
 ac: 16
 touch ac: "14"
 modifier: 0
+aliases:
+  - Froggo
 ---
-![[Froggo.png|hmedium]]
+|                         |                                       Class                                       |                Species                 | Level | Player Name |
+| :---------------------: | :-------------------------------------------------------------------------------: | :------------------------------------: | :---: | ----------- |
+| ![[Froggo.png\|hsmall]] | 5 [[gloomstalker-egw\|Gloomstalker Ranger]]<br>3 [[rogue-scout-xge\|Rogue Scout]] | [[custom-lineage-tce\|Custom Lineage]] |   8   | Yudha       |
 # Froggo
 ## Overview
 ### Basic Background

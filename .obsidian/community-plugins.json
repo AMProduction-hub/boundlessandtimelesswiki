@@ -4,7 +4,6 @@
   "obsidian-git",
   "various-complements",
   "obsidian-icon-folder",
-  "table-editor-obsidian",
   "obsidian-admonition",
   "obsidian-text-format",
   "folder-notes",
@@ -21,5 +20,7 @@
   "obsidian42-brat",
   "zoom-map",
   "ttrpg-soundboard",
-  "dnd-ui-toolkit"
+  "dnd-ui-toolkit",
+  "pane-relief",
+  "obsidian-regex-pipeline"
 ]
