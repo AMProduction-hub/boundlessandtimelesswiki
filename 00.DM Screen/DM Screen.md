@@ -1,3 +1,7 @@
+---
+obsidianUIMode: preview
+---
+
 | Name             | Effect                              |
 | ---------------- | ----------------------------------- |
 | Resistance       | 1/2 dmg                             |

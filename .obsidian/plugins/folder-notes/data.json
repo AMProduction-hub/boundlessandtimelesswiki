@@ -80,7 +80,8 @@
   "settingsTab": "general",
   "supportedFileTypes": [
     "md",
-    "canvas"
+    "canvas",
+    "excalidraw"
   ],
   "boldName": false,
   "boldNameInPath": false,

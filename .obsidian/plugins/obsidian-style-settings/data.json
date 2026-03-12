@@ -7,14 +7,14 @@
   "ITS@@writing-document": false,
   "ITS@@slrvb-b": false,
   "ITS@@mini": false,
-  "ITS@@breadcrumbs-block": false,
+  "ITS@@breadcrumbs-block": true,
   "ITS@@notion": false,
   "ITS@@dataview-regular-table": true,
   "ITS@@slrvb-g": false,
   "ITS@@default-statblock": false,
   "ITS@@dataview-table-auto": true,
   "ITS@@kanban-minimal": false,
-  "ITS@@kanban-boxed": false,
+  "ITS@@kanban-boxed": true,
   "ITS@@ITS-Sizes": "sizing-readable",
   "ITS@@paper": true,
   "ITS@@writing": false,
@@ -33,5 +33,10 @@
   "ITS@@titlebar-bubbles": false,
   "ITS@@scrollbar-width": 12,
   "ITS@@static-status-bar": false,
-  "ITS@@file-line-width": 700
+  "ITS@@file-line-width": 700,
+  "ITS@@canvas-cards": true,
+  "ITS@@bases-non-its-styling": false,
+  "ITS@@bases-non-its-colrow-styling": false,
+  "ITS@@bases-notion-cards": false,
+  "ITS@@file-explorer-boldless-hover": false
 }

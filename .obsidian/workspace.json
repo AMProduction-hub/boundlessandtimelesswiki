@@ -8,72 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8cd73253caffaac6",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00.Introduction/02.Players/Ellenlyf Party/_index.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "_index"
-            }
-          },
-          {
-            "id": "f5ee9c8d45fedfe8",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03.PlayerLog&Handouts/Mechanics/CLI/books/players-handbook-2014/08-using-ability-scores.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "08-using-ability-scores"
-            }
-          },
-          {
             "id": "6f28194ddc58cbf5",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -101,241 +35,26 @@
                 {
                   "state": "{}",
                   "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Main NPC/ADAM.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "ADAM"
-            }
-          },
-          {
-            "id": "e3a79c8ebc125797",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
+                },
                 {
-                  "state": "{}",
+                  "title": "ADAM",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Main NPC/ADAM.md\",\"mode\":\"preview\",\"source\":false,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"ADAM\"}",
                   "eState": "{}"
                 }
               ]
             },
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Maps/Vallaki.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
+                "file": "00.DM Screen/_index.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": []
                 }
               },
-              "icon": "lucide-file",
-              "title": "Vallaki"
-            }
-          },
-          {
-            "id": "58c9c5dacd0c0d7a",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "24 - Fracture",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/24 - Fracture.md\",\"mode\":\"preview\",\"source\":false,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"24 - Fracture\"}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/25 - What is Good Really Good.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "25 - What is Good Really Good"
-            }
-          },
-          {
-            "id": "68214f11e2ae7126",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/23 - How Would You Act.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "23 - How Would You Act"
-            }
-          },
-          {
-            "id": "ea0f463aec7eb556",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00.DM Screen/DC Check House Rules Difficulty List.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "DC Check House Rules Difficulty List"
-            }
-          },
-          {
-            "id": "88ff0bd7dcc3999a",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "_index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00.Introduction/02.Players/Ellenlyf Party/_index.md\",\"mode\":\"source\",\"source\":false,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"_index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":25},\"to\":{\"line\":4,\"ch\":25}},\"scroll\":0}"
-                },
-                {
-                  "title": "Sephire",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00.Introduction/02.Players/Ellenlyf Party/Sephire.md\",\"mode\":\"source\",\"source\":false,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"Sephire\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":0},\"to\":{\"line\":12,\"ch\":0}}}"
-                },
-                {
-                  "title": "Session Notes",
-                  "icon": "database-folder-icon",
-                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"00.Introduction/02.Players/Ellenlyf Party/Session Notes.md\"},\"icon\":\"database-folder-icon\",\"title\":\"Session Notes\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Sephire",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00.Introduction/02.Players/Ellenlyf Party/Sephire.md\",\"mode\":\"source\",\"source\":false,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"Sephire\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":0},\"to\":{\"line\":12,\"ch\":0}}}"
-                },
-                {
-                  "title": "Session Notes",
-                  "icon": "database-folder-icon",
-                  "state": "{\"type\":\"database-plugin\",\"state\":{\"file\":\"00.Introduction/02.Players/Ellenlyf Party/Session Notes.md\"},\"icon\":\"database-folder-icon\",\"title\":\"Session Notes\"}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "_index",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00.Introduction/02.Players/Ellenlyf Party/_index.md\",\"mode\":\"source\",\"source\":false,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"_index\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":0},\"to\":{\"line\":25,\"ch\":0}},\"scroll\":19.23623815967524}"
-                },
-                {
-                  "title": "24 - The Chains",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/24 - The Chains.md\",\"mode\":\"source\",\"source\":false,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"24 - The Chains\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":0}},\"scroll\":0}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/24 - The Chains.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "24 - The Chains"
+              "icon": "lucide-trello",
+              "title": "_index"
             }
           },
           {
@@ -424,9 +143,42 @@
               "icon": "lucide-file",
               "title": "Vallaki"
             }
+          },
+          {
+            "id": "d5582f3746b66f18",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/25 - What is Good Really Good.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "25 - What is Good Really Good"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -455,7 +207,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -505,12 +257,45 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
+          },
+          {
+            "id": "3783ef7050f14b1c",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00.DM Screen/DM Screen.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "DM Screen"
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 275.5
+    "width": 322.5
   },
   "right": {
     "id": "cf7b2befd3e5b8fb",
@@ -535,7 +320,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00.DM Screen/DM Screen.md",
+                "file": "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/25 - What is Good Really Good.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -545,7 +330,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for DM Screen"
+              "title": "Backlinks for 25 - What is Good Really Good"
             }
           },
           {
@@ -563,12 +348,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00.DM Screen/DM Screen.md",
+                "file": "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/25 - What is Good Really Good.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from DM Screen"
+              "title": "Outgoing links from 25 - What is Good Really Good"
             }
           },
           {
@@ -610,13 +395,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03.PlayerLog&Handouts/Mechanics/CLI/classes/rogue.md",
+                "file": "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/25 - What is Good Really Good.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of rogue"
+              "title": "Outline of 25 - What is Good Really Good"
             }
           },
           {
@@ -753,20 +538,23 @@
   },
   "active": "e9ad397d83e48c4e",
   "lastOpenFiles": [
-    "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/24 - Fracture.md",
-    "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/25 - What is Good Really Good.md",
+    "00.DM Screen/_index.md",
+    "00.DM Screen/DM Screen.md",
+    "00.DM Screen/DC Check House Rules Difficulty List.md",
+    "00.Introduction/02.Players/Ellenlyf Party/_index.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Maps/Vallaki.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/23 - How Would You Act.md",
+    "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/25 - What is Good Really Good.md",
+    "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/24 - Fracture.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Main NPC/HAWA.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Main NPC/ADAM.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Maps/_index.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/_index.md",
-    "00.Introduction/02.Players/Ellenlyf Party/_index.md",
     "00.Introduction/02.Players/Cest La Vie Party/_index.md",
     "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/24 - The Chains.md",
     "00.Introduction/02.Players/Ellenlyf Party/Sephire.md",
     "00.Introduction/02.Players/Ellenlyf Party/Session Notes.md",
     "00.Introduction/02.Players/Ellenlyf Party/Ellenlyf Party.zip",
-    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/23 - How Would You Act.md",
     "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/21 - Barovia's Welcoming Party.md",
     "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/22 - Welcome to Vallaki.md",
     "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/20 - The Aftermath.md",
@@ -777,9 +565,6 @@
     "00.Introduction/02.Players/Ellenlyf Party/Verdian Suyanti.md",
     "00.Introduction/02.Players/Ellenlyf Party/Minerva.md",
     "00.Introduction/02.Players/Ellenlyf Party/Kairos.md",
-    "00.Introduction/02.Players/Ellenlyf Party/Froggo.md",
-    "00.Introduction/02.Players/Ellenlyf Party/Asep.md",
-    "00.DM Screen/DC Check House Rules Difficulty List.md",
     "z_Assets/Characters/adam.png",
     "z_Assets/Worlds/ACT 1/Maps/VallakiMaps.png",
     "z_Assets/Worlds/ACT 1/Maps/VallakiMaps.png",
