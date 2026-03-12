@@ -18,7 +18,7 @@ aliases:
 ## Overview
 **Type**: Planet
 
-The Current State of Barovia after [[03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/strahd-von-zarovich-cos|Strahd von Zarovich]] had been gone for 200 years.
+The Current State of Barovia after [[03.PlayerLog&Handouts/Mechanics/CLI/bestiary/npc/strahd-von-zarovich-cos|Strahd von Zarovich]] had been gone for 100 years.
 
 ## Description
 ### Barovia Map

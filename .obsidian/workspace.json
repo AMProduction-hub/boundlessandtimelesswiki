@@ -167,15 +167,21 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "24 - Fracture",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/24 - Fracture.md\",\"mode\":\"preview\",\"source\":false,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"24 - Fracture\"}",
+                  "eState": "{}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/24 - Fracture.md",
+                "file": "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/25 - What is Good Really Good.md",
                 "mode": "preview",
-                "source": false,
+                "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,
@@ -188,7 +194,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "24 - Fracture"
+              "title": "25 - What is Good Really Good"
             }
           },
           {
@@ -343,6 +349,48 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "HAWA",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Main NPC/HAWA.md\",\"mode\":\"source\",\"source\":false,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"HAWA\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":159,\"ch\":7},\"to\":{\"line\":159,\"ch\":7}},\"scroll\":115.45833333333333}"
+                },
+                {
+                  "title": "ADAM",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Main NPC/ADAM.md\",\"mode\":\"preview\",\"source\":false,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"ADAM\"}",
+                  "eState": "{\"scroll\":146.0328820116054}"
+                },
+                {
+                  "title": "_index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Maps/_index.md\",\"mode\":\"source\",\"source\":false,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"_index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":0},\"to\":{\"line\":19,\"ch\":0}},\"scroll\":25.65966796875}"
+                },
+                {
+                  "title": "HAWA",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Main NPC/HAWA.md\",\"mode\":\"preview\",\"source\":false,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"HAWA\"}",
+                  "eState": "{\"scroll\":55.48}"
+                },
+                {
+                  "title": "ADAM",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Main NPC/ADAM.md\",\"mode\":\"preview\",\"source\":false,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"ADAM\"}",
+                  "eState": "{\"scroll\":81.26923076923077}"
+                },
+                {
+                  "title": "_index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/_index.md\",\"mode\":\"source\",\"source\":false,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"_index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":106.95546875}"
+                },
+                {
+                  "title": "_index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00.Introduction/02.Players/Ellenlyf Party/_index.md\",\"mode\":\"source\",\"source\":false,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"_index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}}}"
+                },
+                {
                   "title": "_index",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00.Introduction/02.Players/Cest La Vie Party/_index.md\",\"mode\":\"source\",\"source\":false,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"_index\"}",
@@ -359,7 +407,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Introduction/02.Players/Ellenlyf Party/_index.md",
+                "file": "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Maps/Vallaki.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -374,11 +422,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "_index"
+              "title": "Vallaki"
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -705,8 +753,15 @@
   },
   "active": "e9ad397d83e48c4e",
   "lastOpenFiles": [
-    "00.Introduction/02.Players/Cest La Vie Party/_index.md",
+    "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/24 - Fracture.md",
+    "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/25 - What is Good Really Good.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Maps/Vallaki.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Main NPC/HAWA.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Main NPC/ADAM.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Maps/_index.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/_index.md",
     "00.Introduction/02.Players/Ellenlyf Party/_index.md",
+    "00.Introduction/02.Players/Cest La Vie Party/_index.md",
     "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/24 - The Chains.md",
     "00.Introduction/02.Players/Ellenlyf Party/Sephire.md",
     "00.Introduction/02.Players/Ellenlyf Party/Session Notes.md",
@@ -724,15 +779,8 @@
     "00.Introduction/02.Players/Ellenlyf Party/Kairos.md",
     "00.Introduction/02.Players/Ellenlyf Party/Froggo.md",
     "00.Introduction/02.Players/Ellenlyf Party/Asep.md",
-    "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/24 - Fracture.md",
     "00.DM Screen/DC Check House Rules Difficulty List.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/books/players-handbook-2014/08-using-ability-scores.md",
-    "00.DM Screen/_index.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Main NPC/ADAM.md",
     "z_Assets/Characters/adam.png",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Maps/Vallaki.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Maps/_index.md",
-    "03.PlayerLog&Handouts/Mechanics/CLI/tables/barovia-adventures-vrgr.md",
     "z_Assets/Worlds/ACT 1/Maps/VallakiMaps.png",
     "z_Assets/Worlds/ACT 1/Maps/VallakiMaps.png",
     "z_Assets/Worlds/ACT 1/Maps/VallakiMaps.png.markers.json",

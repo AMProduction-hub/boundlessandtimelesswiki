@@ -21,7 +21,7 @@ Character-Role: Quest Related
 Location: Barovia
 NoteIcon: npc
 ---
-b> [!infobox]
+> [!infobox]
 > # `=this.file.name`
 > ![[hawa.png|cover hmedium]]
 > [[hawa.png|Show To Players]]
@@ -119,3 +119,43 @@ Use these sparingly — HAWA should never monologue unless pressed.
 - If the players remove the artifact, she will not stop them by force.
 - She _will_ prepare Barovia for the consequences without their consent.
 - Her faith in Selûne is sincere, not political.
+
+```statblock
+name: HAWA
+size: medium
+type: humanoid
+subtype: Elf
+alignment: ???
+ac: 19
+hp: 130
+hit_dice: 14d8 + 30
+speed: 30
+stats: [13, 14, 16, 12, 22, 16]
+fage_stats: [number, number, number, number, number, number, number, number, number]
+saves:
+  - <ability-score>: number
+skillsaves:
+  - <skill-name>: number
+damage_vulnerabilities: string
+damage_resistances: string
+damage_immunities: string
+condition_immunities: string
+senses: string
+languages: string
+cr: number
+spells:
+  - <description>
+  - <spell level>: <spell-list>
+traits:
+  - [<trait-name>, <trait-description>]
+  - ...
+actions:
+  - [<trait-name>, <trait-description>]
+  - ...
+legendary_actions:
+  - [<legendary_actions-name>, <legendary_actions-description>]
+  - ...
+reactions:
+  - [<reaction-name>, <reaction-description>]
+  - ...
+```

@@ -30,5 +30,8 @@
   "ITS@@ITS-Sidebar-Ribbon-Float-Position": "sidebar-float-bottom",
   "ITS@@tab-widths": "tab-auto",
   "ITS@@titlebar-colors": false,
-  "ITS@@titlebar-bubbles": false
+  "ITS@@titlebar-bubbles": false,
+  "ITS@@scrollbar-width": 12,
+  "ITS@@static-status-bar": false,
+  "ITS@@file-line-width": 700
 }
