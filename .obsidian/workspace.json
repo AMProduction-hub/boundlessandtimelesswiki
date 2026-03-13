@@ -153,6 +153,96 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "To Ask To Players",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01.Into The Stories/01.Prologue/00.DM Only/To Ask To Players.md\",\"mode\":\"source\",\"source\":false,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"To Ask To Players\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":61.348538306451616}"
+                },
+                {
+                  "title": "Session 1 - Fire on the Falls",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01.Into The Stories/01.Prologue/00.DM Only/Session 1 - Fire on the Falls.md\",\"mode\":\"source\",\"source\":false,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"Session 1 - Fire on the Falls\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}},\"scroll\":95.17513020833333}"
+                },
+                {
+                  "title": "_index",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01.Into The Stories/01.Prologue/_index.md\",\"mode\":\"source\",\"source\":false,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"_index\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}},\"scroll\":2.641509433962264}"
+                },
+                {
+                  "title": "25 - What is Good Really Good",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/25 - What is Good Really Good.md\",\"mode\":\"source\",\"source\":false,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"25 - What is Good Really Good\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}}}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Main NPC/HAWA.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "HAWA"
+            }
+          },
+          {
+            "id": "1ca4a78830169710",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Main NPC/ADAM.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "ADAM"
+            }
+          },
+          {
+            "id": "1cd7806a954c207d",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
                 }
               ]
             },
@@ -178,7 +268,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -207,7 +297,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -476,6 +566,7 @@
             "state": {
               "type": "ttrpg-soundboard-view",
               "state": {
+                "folderA": "z_Assets/Soundboard/Pillars of Eternity",
                 "activeSlot": "A"
               },
               "icon": "music",
@@ -484,31 +575,6 @@
           }
         ],
         "currentTab": 4
-      },
-      {
-        "id": "24195a1954bfce1b",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "3853d535f770bb5c",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "initiative-tracker-creature-view",
-              "state": {},
-              "icon": "initiative-tracker-creature-view",
-              "title": "Combatant"
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
@@ -538,52 +604,52 @@
   },
   "active": "e9ad397d83e48c4e",
   "lastOpenFiles": [
+    "z_Assets/Soundboard/TheWitcher3/141 - The Witcher 3： Wild Hunt LIVE - Full Concert Soundtrack.mp3",
+    "z_Assets/Soundboard/TheWitcher3/140 - Thronebreaker： The Witcher Tales Soundtrack - Thronebreaker (Main Menu Theme).webp",
+    "z_Assets/Soundboard/TheWitcher3/139 - The Witcher 3： Wild Hunt - Blood and Wine Soundtrack - Main Theme (Polish).webp",
+    "z_Assets/Soundboard/TheWitcher3/138 - Witcher 3 Skellige isles combat alternate.webp",
+    "z_Assets/Soundboard/TheWitcher3/137 - Percival - Staroza.jpg",
+    "z_Assets/Soundboard/TheWitcher3/136 - Percival - Celtic Dance.jpg",
+    "z_Assets/Soundboard/TheWitcher3/135 - Percival - The Feast.jpg",
+    "z_Assets/Soundboard/TheWitcher3/134 - Percival - Dve Nevesti.jpg",
+    "z_Assets/Soundboard/TheWitcher3/133 - Percival - Lazare.jpg",
+    "z_Assets/Soundboard/TheWitcher3/132 - Celebrating the 10th anniversary of The Witcher (trailer music).webp",
+    "z_Assets/Soundboard/TheWitcher3/131 - The Witcher 3： Wild Hunt - Monster's Lair Ambience Extended - Unofficial Soundtrack.webp",
+    "z_Assets/Soundboard/TheWitcher3/124 - The Witcher 3： Wild Hunt OST (Unreleased Tracks) - Skellige Battle 1.mp3",
+    "z_Assets/Soundboard/TheWitcher3/116 - The Witcher 3： Wild Hunt OST (Unreleased Tracks) - The Fields of Ard Skellig (Midnight).mp3",
+    "z_Assets/Soundboard/TheWitcher3/098 - The Witcher 3： Hearts of Stone - Gaunter O'Dimm Theme (Polish) - Unofficial Soundtrack.mp3",
+    "z_Assets/Soundboard/TheWitcher3/092 - Searching for Cecilia Bellant.mp3",
+    "z_Assets/Soundboard/TheWitcher3/089 - Guillaume Versus the Shaelmaar.mp3",
+    "z_Assets/Soundboard/TheWitcher3/086 - The Mandragora.mp3",
+    "z_Assets/Soundboard/TheWitcher3/084 - Beyond Hill and Dale....mp3",
+    "z_Assets/Soundboard/TheWitcher3/082 - What Lies Unseen.mp3",
+    "z_Assets/Soundboard/TheWitcher3/079 - The Musty Scent of Fresh Pâté.mp3",
+    "z_Assets/Soundboard/TheWitcher3/078 - Wine Wars.mp3",
+    "Excalidraw/Drawing 2026-03-13 22.51.20.excalidraw.md",
     "00.DM Screen/_index.md",
+    "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/25 - What is Good Really Good.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Main NPC/HAWA.md",
+    "01.Into The Stories/01.Prologue/00.DM Only/To Ask To Players.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Main NPC/ADAM.md",
+    "01.Into The Stories/01.Prologue/00.DM Only/Session 1 - Fire on the Falls.md",
+    "01.Into The Stories/01.Prologue/_index.md",
     "00.DM Screen/DM Screen.md",
     "00.DM Screen/DC Check House Rules Difficulty List.md",
     "00.Introduction/02.Players/Ellenlyf Party/_index.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Maps/Vallaki.md",
     "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/23 - How Would You Act.md",
-    "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/25 - What is Good Really Good.md",
     "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/24 - Fracture.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Main NPC/HAWA.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Main NPC/ADAM.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Maps/_index.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/_index.md",
     "00.Introduction/02.Players/Cest La Vie Party/_index.md",
     "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/24 - The Chains.md",
     "00.Introduction/02.Players/Ellenlyf Party/Sephire.md",
     "00.Introduction/02.Players/Ellenlyf Party/Session Notes.md",
-    "00.Introduction/02.Players/Ellenlyf Party/Ellenlyf Party.zip",
     "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/21 - Barovia's Welcoming Party.md",
     "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/22 - Welcome to Vallaki.md",
     "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/20 - The Aftermath.md",
     "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/19 - The Standoff of Centuries.md",
     "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/18 - The Long Ride to Stormwood.md",
-    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/17 - A New Land - Bureau Saga.md",
-    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/16 - The Divines Will - Bureau Saga.md",
-    "00.Introduction/02.Players/Ellenlyf Party/Verdian Suyanti.md",
-    "00.Introduction/02.Players/Ellenlyf Party/Minerva.md",
-    "00.Introduction/02.Players/Ellenlyf Party/Kairos.md",
-    "z_Assets/Characters/adam.png",
-    "z_Assets/Worlds/ACT 1/Maps/VallakiMaps.png",
-    "z_Assets/Worlds/ACT 1/Maps/VallakiMaps.png",
-    "z_Assets/Worlds/ACT 1/Maps/VallakiMaps.png.markers.json",
-    "z_Assets/Worlds/ACT 1/Maps/Barovia.png.markers.json",
-    "z_Assets/Worlds/ACT 1/Maps/Barovia.png",
-    "Untitled.base",
-    "Untitled 1.base",
-    "z_Assets/hawaboard.jpeg",
-    "z_Assets/Characters/venti.webp",
-    "z_Assets/Characters/minerva.jpg",
-    "z_Assets/Characters/Froggo.png",
-    "z_Assets/Characters/sephire.jpg",
-    "z_Assets/Characters/asep.jpg",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Maps",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Plot Items",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Main NPC",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Tech-Dominant Plane - A Fistful of Schemes/Scene",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Tech-Dominant Plane - A Fistful of Schemes/Main NPC",
     "02 - NPCs & Factions/Forgotten Realms Pantheon/Faeurinian Pantheon/Faeurinian Pantheon.canvas",
     "00 - Introduction/02 - Players/02 - Players.canvas",
     "Untitled.canvas"

@@ -1,0 +1,34 @@
+{
+  "pluginList": [
+    "hay-kot/obsidian-dnd-ui-toolkit",
+    "Jareika/obsidian-ttrpg-soundboard",
+    "Jareika/zoom-map"
+  ],
+  "pluginSubListFrozenVersion": [
+    {
+      "repo": "hay-kot/obsidian-dnd-ui-toolkit",
+      "version": "v0.17.0"
+    },
+    {
+      "repo": "Jareika/obsidian-ttrpg-soundboard",
+      "version": "latest"
+    },
+    {
+      "repo": "Jareika/zoom-map",
+      "version": "latest"
+    }
+  ],
+  "themesList": [],
+  "updateAtStartup": true,
+  "updateThemesAtStartup": true,
+  "enableAfterInstall": true,
+  "loggingEnabled": false,
+  "loggingPath": "BRAT-log",
+  "loggingVerboseEnabled": false,
+  "debuggingMode": false,
+  "notificationsEnabled": true,
+  "globalTokenName": "",
+  "personalAccessToken": "",
+  "selectLatestPluginVersionByDefault": false,
+  "allowIncompatiblePlugins": false
+}

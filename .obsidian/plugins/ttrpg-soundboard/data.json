@@ -1,0 +1,516 @@
+{
+  "settings": {
+    "rootFolder": "z_Assets/Soundboard",
+    "includeRootFiles": false,
+    "folders": [
+      "TTRPG Sounds"
+    ],
+    "extensions": [
+      "mp3",
+      "ogg",
+      "wav",
+      "m4a",
+      "flac"
+    ],
+    "defaultFadeInMs": 3000,
+    "defaultFadeOutMs": 3000,
+    "allowOverlap": true,
+    "masterVolume": 1,
+    "mediaElementThresholdMB": 25,
+    "ambienceVolume": 1,
+    "simpleView": true,
+    "folderViewModes": {},
+    "tileHeightPx": 100,
+    "noteIconSizePx": 40,
+    "toolbarFourFolders": false,
+    "maxAudioCacheMB": 512,
+    "thumbnailFolderEnabled": true,
+    "thumbnailFolderPath": "",
+    "arrangementEnabled": false,
+    "arrangementFirst": "default",
+    "arrangementSecond": "default",
+    "arrangementThird": "default",
+    "style": {
+      "sounds": {
+        "cardBg": "",
+        "cardBorder": "",
+        "tileBorder": "",
+        "buttonBg": "",
+        "buttonBorder": "",
+        "buttonColor": ""
+      },
+      "ambience": {
+        "cardBg": "",
+        "cardBorder": "",
+        "tileBorder": "",
+        "buttonBg": "",
+        "buttonBorder": "",
+        "buttonColor": ""
+      },
+      "playlists": {
+        "cardBg": "",
+        "cardBorder": "",
+        "tileBorder": "",
+        "buttonBg": "",
+        "buttonBorder": "",
+        "buttonColor": ""
+      }
+    }
+  },
+  "soundPrefs": {
+    "z_Assets/Soundboard/BaldursGate3/01 - 01 Baldur's Gate 3 Original Soundtrack - Main Theme Part I.mp3": {},
+    "z_Assets/Soundboard/BaldursGate3/02 - 02 Baldur's Gate 3 Original Soundtrack - Main Theme Part II.mp3": {},
+    "z_Assets/Soundboard/BaldursGate3/03 - 03  Baldur's Gate 3 Original Soundtrack - Mind Flayer Theme.mp3": {},
+    "z_Assets/Soundboard/BaldursGate3/04 - Baldur's Gate 3 Original Soundtrack - Down By The River.mp3": {},
+    "z_Assets/Soundboard/BaldursGate3/05 - Baldur's Gate 3 - OST - ＂I Want To Live＂.mp3": {},
+    "z_Assets/Soundboard/BaldursGate3/06 - 04  Baldur's Gate 3 Original Soundtrack - Who Are You.mp3": {},
+    "z_Assets/Soundboard/BaldursGate3/07 - 05 Baldur's Gate 3 Original Soundtrack - Nine Blades.mp3": {},
+    "z_Assets/Soundboard/BaldursGate3/08 - 06 Baldur's Gate 3 Original Soundtrack - Quest For A Cure.mp3": {},
+    "z_Assets/Soundboard/BaldursGate3/09 - 07 Baldur's Gate 3 Original Soundtrack - Lead Your Fights.mp3": {},
+    "z_Assets/Soundboard/BaldursGate3/10 - 08  Baldur's Gate 3 Original Soundtrack - Harpy Song (Extended & Remastered).mp3": {},
+    "z_Assets/Soundboard/BaldursGate3/11 - 09 Baldur's Gate 3 Original Soundtrack - The Weeping Dawn.mp3": {},
+    "z_Assets/Soundboard/BaldursGate3/12 - 10 Baldur's Gate 3 Original Soundtrack - Cunning Cruel Crits.mp3": {},
+    "z_Assets/Soundboard/BaldursGate3/13 - 11 Baldur's Gate 3 Original Soundtrack - The Cult Of The Absolute.mp3": {},
+    "z_Assets/Soundboard/BaldursGate3/14 - 12 Baldur's Gate 3 Original Soundtrack - Sixteen Strikes.mp3": {},
+    "z_Assets/Soundboard/BaldursGate3/15 - 13 Baldur's Gate 3 Original Soundtrack - The Colors Of Underdark.mp3": {},
+    "z_Assets/Soundboard/BaldursGate3/16 - 14 Baldur's Gate 3 Original Soundtrack - Twisted Force (Battle Music 3).mp3": {},
+    "z_Assets/Soundboard/BaldursGate3/17 - 15 Baldur's Gate 3 Original Soundtrack - Shadows, Curse And Death.mp3": {},
+    "z_Assets/Soundboard/BaldursGate3/18 - 16 Baldur's Gate 3 Original Soundtrack - Last Light.mp3": {},
+    "z_Assets/Soundboard/BaldursGate3/19 - 17 Baldur's Gate 3 Original Soundtrack - Old Time Battles Part I.mp3": {},
+    "z_Assets/Soundboard/BaldursGate3/20 - 18 Baldur's Gate 3 Original Soundtrack - I Want To Live (Instrumental version).mp3": {},
+    "z_Assets/Soundboard/BaldursGate3/21 - 19 Baldur's Gate 3 Original Soundtrack - Nightsong.mp3": {},
+    "z_Assets/Soundboard/BaldursGate3/22 - 20 Baldur's Gate 3 Original Soundtrack - The Power  Choral version.mp3": {},
+    "z_Assets/Soundboard/BaldursGate3/23 - 21 Baldur's Gate 3 Original Soundtrack - Old Time Battles (Bard version).mp3": {},
+    "z_Assets/Soundboard/BaldursGate3/24 - 22 Baldur's Gate 3 Original Soundtrack - The Power (Orchestral version).mp3": {},
+    "z_Assets/Soundboard/BaldursGate3/25 - 23 Baldur's Gate 3 Original Soundtrack - A Threat From Nether Years.mp3": {},
+    "z_Assets/Soundboard/BaldursGate3/26 - 24 Baldur's Gate 3 Original Soundtrack - Surgery Of A Hope.mp3": {},
+    "z_Assets/Soundboard/BaldursGate3/28 - 26 Baldur's Gate 3 Original Soundtrack - The Odds Are Cast Anew.mp3": {},
+    "z_Assets/Soundboard/BaldursGate3/29 - 27  Baldur's Gate 3 Original Soundtrack - Gather Your Allies!.mp3": {},
+    "z_Assets/Soundboard/BaldursGate3/31 - 29 Baldur's Gate 3 Original Soundtrack - Bard Dance.mp3": {},
+    "z_Assets/Soundboard/BaldursGate3/32 - 31 Baldur's Gate 3 Original Soundtrack - Song Of Balduran.mp3": {},
+    "z_Assets/Soundboard/BaldursGate3/33 - 32 Baldur's Gate 3 Original Soundtrack - The Legacy Of Bhaal.mp3": {},
+    "z_Assets/Soundboard/BaldursGate3/34 - 33 Baldur's Gate 3 Original Soundtrack - Elder Brain.mp3": {},
+    "z_Assets/Soundboard/BaldursGate3/35 - 34  Baldur's Gate 3 Original Soundtrack - Forging The Fate.mp3": {},
+    "z_Assets/Soundboard/BaldursGate3/39 - 38 Baldur's Gate 3 Original Soundtrack - Old Time Battles   Part II.mp3": {},
+    "z_Assets/Soundboard/BaldursGate3/40 - 39  Baldur's Gate 3 Original Soundtrack - Down By The River.mp3": {},
+    "z_Assets/Soundboard/BaldursGate3/41 - 40 Baldur's Gate 3 Original Soundtrack - I Want To Live (Classical version).mp3": {},
+    "z_Assets/Soundboard/BaldursGate3/42 - 41 Baldur's Gate 3 Original Soundtrack - Main Theme Part III.mp3": {},
+    "z_Assets/Soundboard/BaldursGate3/44 - ＊Remix＊ Baldur's Gate 3 - I Want To Live (Symphonic Song Version), feat. Shelby Harvey.mp3": {},
+    "z_Assets/Soundboard/BaldursGate3/45 - 43 Baldur's Gate 3 Original Soundtrack - The Power (Song version).mp3": {},
+    "z_Assets/Soundboard/BaldursGate3/52 - Baldur's Gate 3 OST - Endless Spring (Remastered).mp3": {},
+    "z_Assets/Soundboard/BaldursGate3/53 - Baldur's Gate 3 OST - Wash My Main＊ Away.mp3": {},
+    "z_Assets/Soundboard/BaldursGate3/54 - Baldur's Gate 3 OST - Weeping Dawn (City version).mp3": {},
+    "z_Assets/Soundboard/Pillars of Eternity/01 - Eora.mp3": {},
+    "z_Assets/Soundboard/Pillars of Eternity/02 - Encampment.mp3": {},
+    "z_Assets/Soundboard/Pillars of Eternity/03 - The Harbingers Doom.mp3": {},
+    "z_Assets/Soundboard/Pillars of Eternity/04 - Dyrwood.mp3": {
+      "volume": 0.58
+    },
+    "z_Assets/Soundboard/Pillars of Eternity/05 - Gilded Vale.mp3": {
+      "volume": 0.58
+    },
+    "z_Assets/Soundboard/Pillars of Eternity/06 - The Lover Cried Out.mp3": {},
+    "z_Assets/Soundboard/Pillars of Eternity/07 - Skean.mp3": {},
+    "z_Assets/Soundboard/Pillars of Eternity/08 - Oldsong.mp3": {},
+    "z_Assets/Soundboard/Pillars of Eternity/09 - Their Hearts Grew Bold.mp3": {},
+    "z_Assets/Soundboard/Pillars of Eternity/10 - Defiance Bay.mp3": {},
+    "z_Assets/Soundboard/Pillars of Eternity/11 - The Fox and the Farmer.mp3": {},
+    "z_Assets/Soundboard/Pillars of Eternity/12 - Ondras Gift.mp3": {},
+    "z_Assets/Soundboard/Pillars of Eternity/13 - Brackenbury.mp3": {},
+    "z_Assets/Soundboard/Pillars of Eternity/14 - Crashed Upon the Shield.mp3": {},
+    "z_Assets/Soundboard/Pillars of Eternity/15 - Dyrford.mp3": {},
+    "z_Assets/Soundboard/Pillars of Eternity/16 - Woedica.mp3": {},
+    "z_Assets/Soundboard/Pillars of Eternity/17 - Twin Elms.mp3": {},
+    "z_Assets/Soundboard/Pillars of Eternity/18 - Elmshore.mp3": {},
+    "z_Assets/Soundboard/Pillars of Eternity/19 - Burial Isle.mp3": {},
+    "z_Assets/Soundboard/Pillars of Eternity/20 - The Dragon Thrashed and Wailed.mp3": {},
+    "z_Assets/Soundboard/Pillars of Eternity/21 - Shadow of the Sun.mp3": {},
+    "z_Assets/Soundboard/Pillars of Eternity/22 - Engwith.mp3": {},
+    "z_Assets/Soundboard/Pillars of Eternity/23 - The Endless Paths I.mp3": {},
+    "z_Assets/Soundboard/Pillars of Eternity/24 - The Endless Paths II.mp3": {},
+    "z_Assets/Soundboard/Pillars of Eternity/25 - Come Soft Winds of Death.mp3": {},
+    "z_Assets/Soundboard/Pillars of Eternity/26 - Road to Eternity.mp3": {},
+    "z_Assets/Soundboard/Pillars of Eternity/27 - A New Act.mp3": {},
+    "z_Assets/Soundboard/Pillars of Eternity/28 - Ambush!.mp3": {},
+    "z_Assets/Soundboard/Pillars of Eternity/29 - Caed Nua.mp3": {},
+    "z_Assets/Soundboard/Pillars of Eternity/30 - Character Creation.mp3": {},
+    "z_Assets/Soundboard/Pillars of Eternity/31 - Glanfathans.mp3": {},
+    "z_Assets/Soundboard/Pillars of Eternity/32 - Heritage Hill.mp3": {},
+    "z_Assets/Soundboard/Pillars of Eternity/33 - Leaden Key.mp3": {},
+    "z_Assets/Soundboard/Pillars of Eternity/34 - Riot at Defiance Bay.mp3": {},
+    "z_Assets/Soundboard/Pillars of Eternity/35 - Shock and Awe.mp3": {},
+    "z_Assets/Soundboard/Pillars of Eternity/36 - Thaos.mp3": {},
+    "z_Assets/Soundboard/Pillars of Eternity/37 - The Old Watcher.mp3": {},
+    "z_Assets/Soundboard/Pillars of Eternity/38 - The Soul Machine.mp3": {},
+    "z_Assets/Soundboard/Pillars of Eternity/39 - Victory.mp3": {},
+    "z_Assets/Soundboard/Pillars of Eternity/40 - Waidwen's Legacy.mp3": {},
+    "z_Assets/Soundboard/Pillars of Eternity/41 - Welcome to Eora.mp3": {},
+    "z_Assets/Soundboard/Pillars of Eternity/42 - Stalwart Village.mp3": {},
+    "z_Assets/Soundboard/Pillars of Eternity/43 - The White March.mp3": {},
+    "z_Assets/Soundboard/Pillars of Eternity/44 - The Sea and Her Love.mp3": {},
+    "z_Assets/Soundboard/Pillars of Eternity/45 - The Watcher Prevails.mp3": {},
+    "z_Assets/Soundboard/Pillars of Eternity/46 - At the Gates.mp3": {},
+    "z_Assets/Soundboard/Pillars of Eternity/47 - Durgan's Battery.mp3": {},
+    "z_Assets/Soundboard/Pillars of Eternity/48 - Mercenary Camp.mp3": {},
+    "z_Assets/Soundboard/Pillars of Eternity/49 - The Ogre Matron.mp3": {},
+    "z_Assets/Soundboard/Pillars of Eternity/50 - Eye of the Storm.mp3": {},
+    "z_Assets/Soundboard/Pillars of Eternity/51 - Abydon's Shell.mp3": {},
+    "z_Assets/Soundboard/Pillars of Eternity/52 - All Gods Lie, The Truth Only Gets in Their Way.mp3": {},
+    "z_Assets/Soundboard/Pillars of Eternity/53 - The White Forge.mp3": {},
+    "z_Assets/Soundboard/Pillars of Eternity/54 - Cayron's Scar.mp3": {},
+    "z_Assets/Soundboard/Pillars of Eternity/55 - Crashed Upon the Shield Redux.mp3": {},
+    "z_Assets/Soundboard/Pillars of Eternity/56 - Stalwart Collusion.mp3": {},
+    "z_Assets/Soundboard/Pillars of Eternity/57 - The Harbingers of Doom Redux.mp3": {},
+    "z_Assets/Soundboard/Pillars of Eternity/58 - The Torn Bannermen.mp3": {},
+    "z_Assets/Soundboard/Pillars of Eternity/59 - The White March Part II Trailer.mp3": {},
+    "z_Assets/Soundboard/Pillars of Eternity/60 - Abbey of the Fallen Moon.mp3": {},
+    "z_Assets/Soundboard/Pillars of Eternity/61 - Zahua's Vision.mp3": {},
+    "z_Assets/Soundboard/TheWitcher3/002 - Geralt Of Rivia.mp3": {},
+    "z_Assets/Soundboard/TheWitcher3/003 - Eredin, King Of The Hunt.mp3": {},
+    "z_Assets/Soundboard/TheWitcher3/004 - Wake Up, Ciri.mp3": {},
+    "z_Assets/Soundboard/TheWitcher3/005 - Aen Seidhe.mp3": {},
+    "z_Assets/Soundboard/TheWitcher3/006 - Commanding The Fury.mp3": {},
+    "z_Assets/Soundboard/TheWitcher3/007 - Emhyr Var Emreis.mp3": {},
+    "z_Assets/Soundboard/TheWitcher3/008 - Spikeroog.mp3": {},
+    "z_Assets/Soundboard/TheWitcher3/009 - King Bran's Final Voyage.mp3": {},
+    "z_Assets/Soundboard/TheWitcher3/011 - Whispers Of Oxenfurt.mp3": {},
+    "z_Assets/Soundboard/TheWitcher3/012 - The Nightingale.mp3": {},
+    "z_Assets/Soundboard/TheWitcher3/013 - City Of Intrigues.mp3": {},
+    "z_Assets/Soundboard/TheWitcher3/014 - The Hunter's Path.mp3": {},
+    "z_Assets/Soundboard/TheWitcher3/016 - Eyes Of The Wolf.mp3": {},
+    "z_Assets/Soundboard/TheWitcher3/017 - Witch Hunters.mp3": {},
+    "z_Assets/Soundboard/TheWitcher3/020 - The Vagabond.mp3": {},
+    "z_Assets/Soundboard/TheWitcher3/022 - Forged In Fire.mp3": {},
+    "z_Assets/Soundboard/TheWitcher3/023 - Yes, I Do....mp3": {},
+    "z_Assets/Soundboard/TheWitcher3/025 - Drink Up, There's More!.mp3": {},
+    "z_Assets/Soundboard/TheWitcher3/028 - Farewell, Old Friend.mp3": {},
+    "z_Assets/Soundboard/TheWitcher3/029 - The Hunt Is Coming.mp3": {},
+    "z_Assets/Soundboard/TheWitcher3/030 - Family Matters.mp3": {},
+    "z_Assets/Soundboard/TheWitcher3/032 - Child Of The Elder Blood.mp3": {},
+    "z_Assets/Soundboard/TheWitcher3/043 - Igni.mp3": {},
+    "z_Assets/Soundboard/TheWitcher3/062 - Evil's Soft First Touches.mp3": {},
+    "z_Assets/Soundboard/TheWitcher3/066 - Whatsoever a Man Soweth....mp3": {},
+    "z_Assets/Soundboard/TheWitcher3/070 - Lullaby of Woe.mp3": {},
+    "z_Assets/Soundboard/TheWitcher3/075 - Seeking Resonance.mp3": {},
+    "z_Assets/Soundboard/TheWitcher3/076 - I Cannot Let You Leave.mp3": {},
+    "z_Assets/Soundboard/TheWitcher3/078 - Wine Wars.mp3": {},
+    "z_Assets/Soundboard/TheWitcher3/079 - The Musty Scent of Fresh Pâté.mp3": {},
+    "z_Assets/Soundboard/TheWitcher3/082 - What Lies Unseen.mp3": {},
+    "z_Assets/Soundboard/TheWitcher3/084 - Beyond Hill and Dale....mp3": {},
+    "z_Assets/Soundboard/TheWitcher3/086 - The Mandragora.mp3": {},
+    "z_Assets/Soundboard/TheWitcher3/089 - Guillaume Versus the Shaelmaar.mp3": {},
+    "z_Assets/Soundboard/TheWitcher3/092 - Searching for Cecilia Bellant.mp3": {},
+    "z_Assets/Soundboard/TheWitcher3/098 - The Witcher 3： Hearts of Stone - Gaunter O'Dimm Theme (Polish) - Unofficial Soundtrack.mp3": {},
+    "z_Assets/Soundboard/TheWitcher3/116 - The Witcher 3： Wild Hunt OST (Unreleased Tracks) - The Fields of Ard Skellig (Midnight).mp3": {},
+    "z_Assets/Soundboard/TheWitcher3/124 - The Witcher 3： Wild Hunt OST (Unreleased Tracks) - Skellige Battle 1.mp3": {},
+    "z_Assets/Soundboard/TheWitcher3/141 - The Witcher 3： Wild Hunt LIVE - Full Concert Soundtrack.mp3": {}
+  },
+  "playlistPrefs": {},
+  "durations": {
+    "z_Assets/Soundboard/Pillars of Eternity/03 - The Harbingers Doom.mp3": {
+      "seconds": 64.481814,
+      "mtime": 1616698824000,
+      "size": 1731463
+    },
+    "z_Assets/Soundboard/Pillars of Eternity/02 - Encampment.mp3": {
+      "seconds": 154.807438,
+      "mtime": 1616698856000,
+      "size": 2897552
+    },
+    "z_Assets/Soundboard/Pillars of Eternity/01 - Eora.mp3": {
+      "seconds": 149.513288,
+      "mtime": 1616698865000,
+      "size": 2901143
+    },
+    "z_Assets/Soundboard/Pillars of Eternity/04 - Dyrwood.mp3": {
+      "seconds": 266.4722,
+      "mtime": 1616698774000,
+      "size": 4609330
+    },
+    "z_Assets/Soundboard/Pillars of Eternity/06 - The Lover Cried Out.mp3": {
+      "seconds": 141.409524,
+      "mtime": 1616698729000,
+      "size": 2563654
+    },
+    "z_Assets/Soundboard/Pillars of Eternity/05 - Gilded Vale.mp3": {
+      "seconds": 195.488798,
+      "mtime": 1616698742000,
+      "size": 3657751
+    },
+    "z_Assets/Soundboard/Pillars of Eternity/07 - Skean.mp3": {
+      "seconds": 248.012336,
+      "mtime": 1616698872000,
+      "size": 3942759
+    },
+    "z_Assets/Soundboard/Pillars of Eternity/08 - Oldsong.mp3": {
+      "seconds": 220.19483,
+      "mtime": 1616699942000,
+      "size": 3915269
+    },
+    "z_Assets/Soundboard/Pillars of Eternity/09 - Their Hearts Grew Bold.mp3": {
+      "seconds": 106.324172,
+      "mtime": 1616698699000,
+      "size": 2429900
+    },
+    "z_Assets/Soundboard/Pillars of Eternity/10 - Defiance Bay.mp3": {
+      "seconds": 190.241088,
+      "mtime": 1616698765000,
+      "size": 3509403
+    },
+    "z_Assets/Soundboard/Pillars of Eternity/12 - Ondras Gift.mp3": {
+      "seconds": 274.111565,
+      "mtime": 1616698977000,
+      "size": 4731501
+    },
+    "z_Assets/Soundboard/Pillars of Eternity/11 - The Fox and the Farmer.mp3": {
+      "seconds": 71.9122,
+      "mtime": 1616698703000,
+      "size": 1789963
+    },
+    "z_Assets/Soundboard/Pillars of Eternity/13 - Brackenbury.mp3": {
+      "seconds": 108.158549,
+      "mtime": 1616698848000,
+      "size": 2077018
+    },
+    "z_Assets/Soundboard/Pillars of Eternity/15 - Dyrford.mp3": {
+      "seconds": 275.597642,
+      "mtime": 1616698788000,
+      "size": 4691580
+    },
+    "z_Assets/Soundboard/Pillars of Eternity/16 - Woedica.mp3": {
+      "seconds": 119.954286,
+      "mtime": 1616698753000,
+      "size": 2525202
+    },
+    "z_Assets/Soundboard/Pillars of Eternity/14 - Crashed Upon the Shield.mp3": {
+      "seconds": 60.604082,
+      "mtime": 1616698697000,
+      "size": 1660778
+    },
+    "z_Assets/Soundboard/Pillars of Eternity/18 - Elmshore.mp3": {
+      "seconds": 152.160363,
+      "mtime": 1616698709000,
+      "size": 2913911
+    },
+    "z_Assets/Soundboard/Pillars of Eternity/17 - Twin Elms.mp3": {
+      "seconds": 280.961451,
+      "mtime": 1616698805000,
+      "size": 4832987
+    },
+    "z_Assets/Soundboard/Pillars of Eternity/19 - Burial Isle.mp3": {
+      "seconds": 110.248345,
+      "mtime": 1616698661000,
+      "size": 2228197
+    },
+    "z_Assets/Soundboard/Pillars of Eternity/21 - Shadow of the Sun.mp3": {
+      "seconds": 107.39229,
+      "mtime": 1616698740000,
+      "size": 2288720
+    },
+    "z_Assets/Soundboard/Pillars of Eternity/20 - The Dragon Thrashed and Wailed.mp3": {
+      "seconds": 110.318005,
+      "mtime": 1616698701000,
+      "size": 2496698
+    },
+    "z_Assets/Soundboard/Pillars of Eternity/22 - Engwith.mp3": {
+      "seconds": 324.289887,
+      "mtime": 1616698972000,
+      "size": 4998540
+    },
+    "z_Assets/Soundboard/Pillars of Eternity/23 - The Endless Paths I.mp3": {
+      "seconds": 152.113923,
+      "mtime": 1616698681000,
+      "size": 2380627
+    },
+    "z_Assets/Soundboard/Pillars of Eternity/25 - Come Soft Winds of Death.mp3": {
+      "seconds": 87.887528,
+      "mtime": 1616698728000,
+      "size": 2112270
+    },
+    "z_Assets/Soundboard/Pillars of Eternity/24 - The Endless Paths II.mp3": {
+      "seconds": 153.3678,
+      "mtime": 1616698708000,
+      "size": 2454944
+    },
+    "z_Assets/Soundboard/Pillars of Eternity/26 - Road to Eternity.mp3": {
+      "seconds": 329.885896,
+      "mtime": 1616699532000,
+      "size": 5600998
+    },
+    "z_Assets/Soundboard/Pillars of Eternity/27 - A New Act.mp3": {
+      "seconds": 64.714014,
+      "mtime": 1616698714000,
+      "size": 1646923
+    },
+    "z_Assets/Soundboard/Pillars of Eternity/28 - Ambush!.mp3": {
+      "seconds": 43.212336,
+      "mtime": 1616698680000,
+      "size": 1368707
+    },
+    "z_Assets/Soundboard/Pillars of Eternity/29 - Caed Nua.mp3": {
+      "seconds": 118.050249,
+      "mtime": 1616698881000,
+      "size": 2425074
+    },
+    "z_Assets/Soundboard/Pillars of Eternity/30 - Character Creation.mp3": {
+      "seconds": 590.274467,
+      "mtime": 1616699032000,
+      "size": 8378309
+    },
+    "z_Assets/Soundboard/Pillars of Eternity/31 - Glanfathans.mp3": {
+      "seconds": 19.481542,
+      "mtime": 1616698621000,
+      "size": 974110
+    },
+    "z_Assets/Soundboard/Pillars of Eternity/33 - Leaden Key.mp3": {
+      "seconds": 21.687438,
+      "mtime": 1616698688000,
+      "size": 1027323
+    },
+    "z_Assets/Soundboard/Pillars of Eternity/32 - Heritage Hill.mp3": {
+      "seconds": 184.5522,
+      "mtime": 1616698757000,
+      "size": 2925534
+    },
+    "z_Assets/Soundboard/Pillars of Eternity/34 - Riot at Defiance Bay.mp3": {
+      "seconds": 58.955465,
+      "mtime": 1616698697000,
+      "size": 1488578
+    },
+    "z_Assets/Soundboard/Pillars of Eternity/35 - Shock and Awe.mp3": {
+      "seconds": 5.990748,
+      "mtime": 1616698768000,
+      "size": 807094
+    },
+    "z_Assets/Soundboard/Pillars of Eternity/36 - Thaos.mp3": {
+      "seconds": 73.769796,
+      "mtime": 1616698717000,
+      "size": 1788140
+    },
+    "z_Assets/Soundboard/Pillars of Eternity/38 - The Soul Machine.mp3": {
+      "seconds": 29.489342,
+      "mtime": 1616698711000,
+      "size": 1231656
+    },
+    "z_Assets/Soundboard/Pillars of Eternity/37 - The Old Watcher.mp3": {
+      "seconds": 126.595193,
+      "mtime": 1616698784000,
+      "size": 2561997
+    },
+    "z_Assets/Soundboard/Pillars of Eternity/39 - Victory.mp3": {
+      "seconds": 25.077551,
+      "mtime": 1616698659000,
+      "size": 1084654
+    },
+    "z_Assets/Soundboard/Pillars of Eternity/41 - Welcome to Eora.mp3": {
+      "seconds": 25.40263,
+      "mtime": 1616698628000,
+      "size": 1075432
+    },
+    "z_Assets/Soundboard/Pillars of Eternity/40 - Waidwen's Legacy.mp3": {
+      "seconds": 63.390476,
+      "mtime": 1616698716000,
+      "size": 1622907
+    },
+    "z_Assets/Soundboard/Pillars of Eternity/42 - Stalwart Village.mp3": {
+      "seconds": 332.55619,
+      "mtime": 1616698763000,
+      "size": 5377207
+    },
+    "z_Assets/Soundboard/Pillars of Eternity/43 - The White March.mp3": {
+      "seconds": 349.437098,
+      "mtime": 1616698783000,
+      "size": 5734851
+    },
+    "z_Assets/Soundboard/Pillars of Eternity/44 - The Sea and Her Love.mp3": {
+      "seconds": 81.362721,
+      "mtime": 1616698741000,
+      "size": 1870214
+    },
+    "z_Assets/Soundboard/Pillars of Eternity/45 - The Watcher Prevails.mp3": {
+      "seconds": 245.59746,
+      "mtime": 1616698720000,
+      "size": 4574340
+    },
+    "z_Assets/Soundboard/Pillars of Eternity/46 - At the Gates.mp3": {
+      "seconds": 166.440635,
+      "mtime": 1616698730000,
+      "size": 2783452
+    },
+    "z_Assets/Soundboard/Pillars of Eternity/47 - Durgan's Battery.mp3": {
+      "seconds": 286.51102,
+      "mtime": 1616698881000,
+      "size": 4367033
+    },
+    "z_Assets/Soundboard/Pillars of Eternity/48 - Mercenary Camp.mp3": {
+      "seconds": 81.8039,
+      "mtime": 1616698724000,
+      "size": 1769184
+    },
+    "z_Assets/Soundboard/Pillars of Eternity/50 - Eye of the Storm.mp3": {
+      "seconds": 86.076372,
+      "mtime": 1616698670000,
+      "size": 1993198
+    },
+    "z_Assets/Soundboard/Pillars of Eternity/49 - The Ogre Matron.mp3": {
+      "seconds": 103.793197,
+      "mtime": 1616698691000,
+      "size": 2309072
+    },
+    "z_Assets/Soundboard/Pillars of Eternity/51 - Abydon's Shell.mp3": {
+      "seconds": 130.356825,
+      "mtime": 1616698690000,
+      "size": 2512484
+    },
+    "z_Assets/Soundboard/Pillars of Eternity/52 - All Gods Lie, The Truth Only Gets in Their Way.mp3": {
+      "seconds": 104.721995,
+      "mtime": 1616698728000,
+      "size": 2071448
+    },
+    "z_Assets/Soundboard/Pillars of Eternity/53 - The White Forge.mp3": {
+      "seconds": 34.969252,
+      "mtime": 1616698685000,
+      "size": 1165376
+    },
+    "z_Assets/Soundboard/Pillars of Eternity/54 - Cayron's Scar.mp3": {
+      "seconds": 130.356825,
+      "mtime": 1616698810000,
+      "size": 2646218
+    },
+    "z_Assets/Soundboard/Pillars of Eternity/55 - Crashed Upon the Shield Redux.mp3": {
+      "seconds": 61.37034,
+      "mtime": 1616698696000,
+      "size": 1674608
+    },
+    "z_Assets/Soundboard/Pillars of Eternity/56 - Stalwart Collusion.mp3": {
+      "seconds": 19.527982,
+      "mtime": 1616698647000,
+      "size": 920390
+    },
+    "z_Assets/Soundboard/Pillars of Eternity/59 - The White March Part II Trailer.mp3": {
+      "seconds": 93.599637,
+      "mtime": 1616698739000,
+      "size": 2014585
+    },
+    "z_Assets/Soundboard/Pillars of Eternity/58 - The Torn Bannermen.mp3": {
+      "seconds": 81.8039,
+      "mtime": 1616698750000,
+      "size": 1712739
+    },
+    "z_Assets/Soundboard/Pillars of Eternity/57 - The Harbingers of Doom Redux.mp3": {
+      "seconds": 64.481814,
+      "mtime": 1616698775000,
+      "size": 1736379
+    },
+    "z_Assets/Soundboard/Pillars of Eternity/61 - Zahua's Vision.mp3": {
+      "seconds": 218.639093,
+      "mtime": 1616698762000,
+      "size": 3555464
+    },
+    "z_Assets/Soundboard/Pillars of Eternity/60 - Abbey of the Fallen Moon.mp3": {
+      "seconds": 206.611156,
+      "mtime": 1616698776000,
+      "size": 2804327
+    }
+  }
+}
