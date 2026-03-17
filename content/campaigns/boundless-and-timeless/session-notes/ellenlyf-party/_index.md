@@ -23,7 +23,7 @@ weight: 30
 
 ## Campaign Progress
 
-**Sessions Completed**: 22  
+**Sessions Completed**: 25  
 **Current Arc**: The Ravenloft (Bureau)  
 **Campaign Status**: Active
 
@@ -33,15 +33,27 @@ weight: 30
 
 ### The Barovia Saga (Bureau)
 
+#### **[Session 24: The Chains]({{<relref "24.md">}})**
+**Saga**: The Ravenloft (Bureau)
+*Latest session* - Party splitting up some goes to Lower Cities, some goes to Upper Cities, another goes to Castle Ravenloft
+
+---
+
+#### **[Session 23: How Would You Act]({{<relref "23.md">}})**
+**Saga**: The Ravenloft (Bureau)
+*Latest session* - Party structured of conspiracy theory of what is happening
+
+---
+
 #### **[Session 22: Welcome To Vallaki]({{<relref "22.md">}})**
 **Saga**: The Ravenloft (Bureau)
-*Latest session* - Researching information about Ravenloft in Grand Library
+*Latest session* - Party entering Vallaki 
 
 ---
 
 #### **[Session 21: Barovia's Welcoming Party]({{<relref "21.md">}})**
 **Saga**: The Ravenloft (Bureau)
-*Latest session* - Researching information about Ravenloft in Grand Library
+*Latest session* - Party greet warmly by a beings that chased HAWA
 
 ---
 

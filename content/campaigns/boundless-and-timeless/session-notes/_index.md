@@ -13,8 +13,8 @@ Chronicle of adventures across the multiverse.
 ## Parties
 
 ### **Ellenlyf Party** - 🟢 Active
-**Sessions**: 21 completed  
-**Current Arc**: The Frontier (Bureau)  
+**Sessions**: 25
+**Current Arc**: Barovia (Bureau)
 **Status**: Active
 
 The Ellenlyf party continues their investigations into the multiversal crisis, currently exploring new frontiers.
