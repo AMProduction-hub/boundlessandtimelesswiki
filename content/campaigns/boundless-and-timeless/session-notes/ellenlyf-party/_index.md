@@ -33,9 +33,9 @@ weight: 30
 
 ### The Barovia Saga (Bureau)
 
-#### **[Session 25: The Chains]({{<relref "25.md">}})**
+#### **[Session 25: What Have Been Really Is]({{<relref "25.md">}})**
 **Saga**: The Ravenloft (Bureau)
-*Latest session* - Party splitting up some goes to Lower Cities, some goes to Upper Cities, another goes to Castle Ravenloft
+*Latest session* - Asep, Froggo & Kairos met with 3 Githyanki, Minerva Giving a Show in Cabaret Show, Venty met with strange man looking for HAWA and Sephire battled in Castle Ravenloft
 
 ---
 
