@@ -35,7 +35,7 @@ Here's a quick summary of the major changes:
 
 ### ⚔️ Combat Enhancements
 - **Critical hits** deal maximum damage + roll damage dice again
-- **Touch AC** and **Flat-Footed AC** for tactical depth
+- **Touch AC** for tactical depth
 - **All martial classes** get Superiority Dice and maneuvers
 - More tactical options in combat
 

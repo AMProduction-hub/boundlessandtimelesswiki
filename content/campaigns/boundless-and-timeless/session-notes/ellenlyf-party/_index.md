@@ -33,6 +33,12 @@ weight: 30
 
 ### The Barovia Saga (Bureau)
 
+#### **[Session 25: The Chains]({{<relref "25.md">}})**
+**Saga**: The Ravenloft (Bureau)
+*Latest session* - Party splitting up some goes to Lower Cities, some goes to Upper Cities, another goes to Castle Ravenloft
+
+---
+
 #### **[Session 24: The Chains]({{<relref "24.md">}})**
 **Saga**: The Ravenloft (Bureau)
 *Latest session* - Party splitting up some goes to Lower Cities, some goes to Upper Cities, another goes to Castle Ravenloft
