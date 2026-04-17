@@ -10,7 +10,7 @@ Status: ✅
 OneLiner: Resolving Past Cliffhanger
 session_number: 25
 ---
-# What Good Really Is
+# What Have Been Really Is
 
 ## Characters
 
