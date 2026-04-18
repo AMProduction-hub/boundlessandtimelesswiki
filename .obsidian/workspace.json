@@ -194,6 +194,18 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "25 - What is Good Really Good",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/25 - What is Good Really Good.md\",\"mode\":\"preview\",\"source\":false,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"25 - What is Good Really Good\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Alexander",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Main NPC/Alexander.md\",\"mode\":\"preview\",\"source\":false,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"Alexander\"}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
                   "title": "Radovan Czeslav Voss",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Main NPC/Radovan Czeslav Voss.md\",\"mode\":\"preview\",\"source\":false,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"Radovan Czeslav Voss\"}",
@@ -240,8 +252,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Main NPC/Alexander.md",
-                "mode": "preview",
+                "file": "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/26 - Path Of Righteousness Filled With Wickedness.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -255,7 +267,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Alexander"
+              "title": "26 - Path Of Righteousness Filled With Wickedness"
             }
           }
         ],
@@ -592,17 +604,18 @@
       "obsidian-regex-pipeline:Regex Rulesets": false
     }
   },
-  "active": "4374aaf2eead944a",
+  "active": "e9ad397d83e48c4e",
   "lastOpenFiles": [
+    "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/25 - What is Good Really Good.md",
+    "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/26 - Path Of Righteousness Filled With Wickedness.md",
+    "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Main NPC/Alexander.md",
     "z_Assets/Characters/alexander.png",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Main NPC/Radovan Czeslav Voss.md",
-    "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Main NPC/Alexander.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/_index.md",
     "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/25 - What Have Been Really Is.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Main NPC/HAWA.md",
     "z_Assets/Characters/radovan.png",
     "z_Assets/Characters/Damian.png",
-    "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/25 - What is Good Really Good.md",
     "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/23 - How Would You Act.md",
     "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/24 - The Chains.md",
     "z_Assets/Characters/hawa.png",
@@ -616,7 +629,6 @@
     "z_Assets/Soundboard/TheWitcher3/137 - Percival - Staroza.jpg",
     "z_Assets/Soundboard/TheWitcher3/136 - Percival - Celtic Dance.jpg",
     "z_Assets/Soundboard/TheWitcher3/135 - Percival - The Feast.jpg",
-    "z_Assets/Soundboard/TheWitcher3/134 - Percival - Dve Nevesti.jpg",
     "z_Assets/Soundboard/TheWitcher3/124 - The Witcher 3： Wild Hunt OST (Unreleased Tracks) - Skellige Battle 1.mp3",
     "z_Assets/Soundboard/TheWitcher3/116 - The Witcher 3： Wild Hunt OST (Unreleased Tracks) - The Fields of Ard Skellig (Midnight).mp3",
     "z_Assets/Soundboard/TheWitcher3/098 - The Witcher 3： Hearts of Stone - Gaunter O'Dimm Theme (Polish) - Unofficial Soundtrack.mp3",
