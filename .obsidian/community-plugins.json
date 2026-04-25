@@ -22,5 +22,6 @@
   "ttrpg-soundboard",
   "dnd-ui-toolkit",
   "pane-relief",
-  "obsidian-regex-pipeline"
+  "obsidian-regex-pipeline",
+  "obsidian-discordrpc"
 ]

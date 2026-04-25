@@ -148,24 +148,24 @@
             "id": "efdf3b66e290fbe6",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "commune",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"03.PlayerLog&Handouts/Mechanics/CLI/spells/commune.md\",\"mode\":\"source\",\"source\":false,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"commune\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":24,\"ch\":0},\"to\":{\"line\":24,\"ch\":0}},\"scroll\":0}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "25 - What Have Been Really Is",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/25 - What Have Been Really Is.md\",\"mode\":\"source\",\"source\":false,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"25 - What Have Been Really Is\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":0},\"to\":{\"line\":12,\"ch\":0}},\"scroll\":0}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/25 - What Have Been Really Is.md",
+                "file": "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/26 - Path Of Righteousness.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -180,9 +180,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "25 - What Have Been Really Is"
+              "title": "26 - Path Of Righteousness"
             }
-          },
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "223934de650b09ab",
+        "type": "tabs",
+        "children": [
           {
             "id": "4374aaf2eead944a",
             "type": "leaf",
@@ -192,6 +199,54 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "26 - Path Of Righteousness",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/26 - Path Of Righteousness.md\",\"mode\":\"source\",\"source\":false,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"26 - Path Of Righteousness\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":0},\"to\":{\"line\":12,\"ch\":0}}}"
+                },
+                {
+                  "title": "26 - Path Of Righteousness Filled With Wickedness",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/26 - Path Of Righteousness Filled With Wickedness.md\",\"mode\":\"source\",\"source\":false,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"26 - Path Of Righteousness Filled With Wickedness\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":0},\"to\":{\"line\":7,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "26 - Path Of Righteousness",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/26 - Path Of Righteousness.md\",\"mode\":\"source\",\"source\":false,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"26 - Path Of Righteousness\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":93,\"ch\":55},\"to\":{\"line\":93,\"ch\":55}},\"scroll\":49.17393092105263}"
+                },
+                {
+                  "title": "25 - What Have Been Really Is",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/25 - What Have Been Really Is.md\",\"mode\":\"source\",\"source\":true,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"25 - What Have Been Really Is\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":224,\"ch\":14}}}"
+                },
+                {
+                  "title": "26 - Path Of Righteousness",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/26 - Path Of Righteousness.md\",\"mode\":\"source\",\"source\":false,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"26 - Path Of Righteousnessess\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "26 - Path Of Righteousness Filled With Wickedness",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/26 - Path Of Righteousness Filled With Wickedness.md\",\"mode\":\"source\",\"source\":false,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"26 - Path Of Righteousness Filled With Wickedness\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Untitled",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/Untitled.md\",\"mode\":\"source\",\"source\":false,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"Untitled\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "26 - Path Of Righteousness Filled With Wickedness",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/26 - Path Of Righteousness Filled With Wickedness.md\",\"mode\":\"source\",\"source\":false,\"backlinks\":true,\"backlinkOpts\":{\"collapseAll\":false,\"extraContext\":false,\"sortOrder\":\"alphabetical\",\"showSearch\":false,\"searchQuery\":\"\",\"backlinkCollapsed\":false,\"unlinkedCollapsed\":true}},\"icon\":\"lucide-file\",\"title\":\"26 - Path Of Righteousness Filled With Wickedness\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
                   "title": "25 - What is Good Really Good",
@@ -270,8 +325,7 @@
               "title": "26 - Path Of Righteousness Filled With Wickedness"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -604,15 +658,19 @@
       "obsidian-regex-pipeline:Regex Rulesets": false
     }
   },
-  "active": "e9ad397d83e48c4e",
+  "active": "d879b48256c92a51",
   "lastOpenFiles": [
-    "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/25 - What is Good Really Good.md",
     "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/26 - Path Of Righteousness Filled With Wickedness.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/26 - Path Of Righteousness.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/25 - What Have Been Really Is.md",
+    "00.Introduction/02.Players/Ellenlyf Party/Froggo.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/rules/variant-rules/alien-technology.md",
+    "03.PlayerLog&Handouts/Mechanics/CLI/items/deck-of-many-things.md",
+    "00.Introduction/02.Players/Ellenlyf Party/DM Sessions Notes/25 - What is Good Really Good.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Main NPC/Alexander.md",
     "z_Assets/Characters/alexander.png",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Main NPC/Radovan Czeslav Voss.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/_index.md",
-    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/25 - What Have Been Really Is.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Main NPC/HAWA.md",
     "z_Assets/Characters/radovan.png",
     "z_Assets/Characters/Damian.png",
@@ -648,10 +706,6 @@
     "00.DM Screen/DC Check House Rules Difficulty List.md",
     "00.Introduction/02.Players/Ellenlyf Party/_index.md",
     "01.Into The Stories/02.ACT1.Artifacts Hunting/Sunless World - The Hidden Truth/Maps/_index.md",
-    "00.Introduction/02.Players/Cest La Vie Party/_index.md",
-    "00.Introduction/02.Players/Ellenlyf Party/Sephire.md",
-    "00.Introduction/02.Players/Ellenlyf Party/Session Notes.md",
-    "00.Introduction/02.Players/Ellenlyf Party/Party Session Notes/21 - Barovia's Welcoming Party.md",
     "02 - NPCs & Factions/Forgotten Realms Pantheon/Faeurinian Pantheon/Faeurinian Pantheon.canvas",
     "00 - Introduction/02 - Players/02 - Players.canvas",
     "Untitled.canvas"
