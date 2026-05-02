@@ -105,8 +105,20 @@ Then [[Froggo]] met with [[Asep]] who seems distraught about what he does. [[Ase
 
 Royal carriage entering the Vallaki Castle vicinity, [[Minerva]] not alone in here she is with a Sword Swallower, Fire Eater, and A young ballerina woman with dark curl long hair. 
 
-The coachman told the passenger that they all need go climb up the stairway to the main castle in there the guard will show them the way. The sword swallower confidently goes first followed by fire eater while the young ballerina woman is so afraid, the ballerina try to held [[Minerva]]'s hand
+The coachman told the passenger that they all need go climb up the stairway to the main castle in there the guard will show them the way. The sword swallower confidently goes first followed by fire eater while the young ballerina woman is so afraid, the ballerina try to held [[Minerva]]'s hand and ask [[Minerva]] to go first and she follows behind her and [[Minerva]] said that okay the ballerina can follows [[Minerva]] at behind while holding her hands.
 
+The band approaching closely while climbing the Vallaki's Castle main stairs and on top of it the guard who call them "Fresh Products" write them in the manifest and [[Minerva]] tried to look the manifest paper and saw that there is another ballerina in there and already check marked much earlier than her band. The guards direct them to a door close to the side of the castle which lay a big window next to it and inside the band can see the party. After walking towards this door the band saw that this is the entertainer changing rooms a lot of entertainer men, woman changed in the rooms without caring left or right. [[Minerva]] herself layering any dress she found the uses her [[druidcraft]] to conjure her moon druid elegant dress while followed with curly dark hair ballerina they goes to a door that guarded by a big strong man, the man said that only [[Minerva]]can because she already changed into what customer expected while the Ballerina can't since her dress isn't the 'customer' wanted hence both of them try to find any dress for the ballerina and [[Minerva]] found out that the dress is so 'open' but [[Minerva]] uses her [[druidcraft]] to try her best to cover the dress and because there isn't any room [[Minerva]] uses her robes to cover the ballerina while she changed.
+
+After both of them changed into 'appropriate' dress. The big man who guard the door told them that [[Minerva]] is the one who can go in, since there is already another ballerina in there and he doesn't want to make the guest bored with too many ballerina. [[Minerva]] goes in and she welcomed by the elegant party filled with many entertainer, foods, and of course the guest who seems to be of high places. [[Minerva]] perform in the area and her performances attracts some guest but not for long the crown prince introduce himself by making sounds using fork and wine glass all of the guest focused on the crown prince.
+
+The crown prince thanks the guest for coming, and if the guest likes the entertainer performances they can go direct to the entertainer to ask them for a 'show' and then he introduces [[HAWA]] the [[faerunian-selune-scag|Selûne]] cleric who currently in here to studies Barovia's moon and ask the guest if they would be so kind to be in any help to the crown prince's guest which is [[HAWA]]. 
+
+Not long [[HAWA]] locked her gaze towards [[Minerva]]. They both exchanges words and ask to [[Minerva]] to be with her to follows her into the Vallaki's Library which is in the castle and saying that someone from thieves guild were in here in the party and the private investigator [[Radovan Czeslav Voss]] also in here which is odd. Then [[HAWA]] mingle off.
+
+[[Minerva]] thinking what is actually going to happened in the party but not for long Adrianna came to her and they all exchanges words until [[Minerva]] ask what are Adrianna doing here and she answer with *"Everything that will happened here is for the benefits of the people of Barovia"*.
+
+
+SESSION END.
 ## Key Learnings
 
 - Thieves Guild location is marked by 4 Whale Oil Lamppost
