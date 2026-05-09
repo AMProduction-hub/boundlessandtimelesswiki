@@ -10,7 +10,8 @@
       "injectColor": false,
       "noTitle": false,
       "copy": false,
-      "color": "200, 108, 114"
+      "color": "200, 108, 114",
+      "styleWithCss": true
     },
     "flowchart": {
       "type": "flowchart",
@@ -22,7 +23,8 @@
       "injectColor": false,
       "noTitle": true,
       "copy": false,
-      "color": "27, 140, 212"
+      "color": "27, 140, 212",
+      "styleWithCss": true
     },
     "gallery": {
       "type": "gallery",
@@ -34,7 +36,8 @@
       "injectColor": false,
       "noTitle": true,
       "copy": false,
-      "color": "5, 44, 194"
+      "color": "5, 44, 194",
+      "styleWithCss": true
     },
     "readaloud": {
       "type": "readaloud",
@@ -47,12 +50,13 @@
       "injectColor": false,
       "noTitle": false,
       "copy": false,
-      "color": "58, 209, 142"
+      "color": "58, 209, 142",
+      "styleWithCss": true
     }
   },
   "syntaxHighlight": false,
   "copyButton": false,
-  "version": "10.3.2",
+  "version": "11.0.0",
   "autoCollapse": false,
   "defaultCollapseType": "open",
   "injectColor": true,

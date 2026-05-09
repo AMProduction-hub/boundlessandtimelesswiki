@@ -2,15 +2,16 @@
 tags:
   - timeline
   - SessionJournals
-title: 25 - What Good Really Is
+title: 26- Path Of Righteousness
 type: Session Journal
-sessionDate: 2026-03-15
+sessionDate: 2026-04-19
 players: 6
 Status: ✅
 OneLiner: Resolving Past Cliffhanger
-session_number: 25
+session_number: 26
 ---
-# Path Of Righteousness
+
+# Path of Righteousness
 
 ## Characters
 
@@ -19,131 +20,330 @@ session_number: 25
 - **[[Froggo]]** — Gloom Stalker Ranger / Rogue
 - **[[Asep]]** — Battle Smith Artificer / Bladesinging Wizard
 
-### Away
+### Away This Session
+
 - **[[Kairos]]** — Soulknife Rogue
 - **[[Verdian Suyanti]]** — College of Glamour Bard
 
+---
+
 ## Session Overview
 
-### Ravenloft Castle - 36 Hours To Festival
+---
 
-Awoken by cold in Strahd's chamber, Sephire tried to look outside the chamber now the hall room were filled with dense cold fog that are closing him in, the only way he sees is the chamber where he sleep and Strahd's library. Sephire tried force himself to this dense fog but he got push back away, he then stands up then tried to use his divine sense to sense creature near him he senses that a humanoid undead is very close to him but he still cannot sees it, cause the fog itself is getting closer and closer to [[Sephire]] he then entered the library, in there the cold grips [[Sephire]] quite hard on him and then not for long [[Sephire]] sense someone is crawling on the wall of books of Strahd's library, [[Sephire]] tried to open his bag and still sees the book that he took still in there but not for long someone said 
+### Sephire's Perspective — T=36.00 Hours to Festival
 
-> *You have something that are not supposed to be taken.... oh fool mortal !!!*
+[[Sephire]] did not sleep well in Strahd's castle.
 
-In an instant a mummified creatures lunges towards [[Sephire]]. The creatures proved to be a challenge to [[Sephire]] but [[Sephire]] still came on top until where the creatures seems hurting the creature said something to [[Sephire]]
+He woke to cold — not the natural cold of stone walls at night, but the deliberate cold of something that had entered the room while he slept and decided to wait. The hall outside his chamber was filled with dense fog, thick enough to push back against him when he tried to walk into it. The only paths remaining open were the chamber behind him and the library ahead.
 
-> *"My master tasked me to make sure nothing ever goes in and nothing ever goes out"* Said the mummified creatures
-> *"I know your noble task, but so am I in a task to retrieve this book. If you allow this I will return your book after I use it."* Replies [[Sephire]]
-> *"Your solution is not fitting, mortal. I already promised my master that I won't allow something goes out and something goes in."* Return the mummified creatures
-> *"Why you keep doing this anyway, isn't Strahd is gone already ? It's been like centuries"* said [[Sephire]]
-> *"He still in here. He turned into a stone!"* said the mummified creature
-> *"Which stone you mean ?"* [[Sephire]] suprised by what  *"Do you mean the stones that are deep in this Castle"* [[Sephire]] mentioning stones that [[HAWA]] found. 
-> *"..."* Silence were given by the mummified creature.
-> *"Someone who have Strahd bloodline also came here recently.... a Dhampir"* said the mummified creature
-> *"You mean the pale man that are with me ? How come ? Does Strahd transfuse some of his blood to him ?"* ask [[Sephire]]
-> *"No... my master had a lover...."*
-> *"So.... mortal let's finish this.... our ideals and our promises collided with each others.... Let us finish this"* continue the mummified creature.
+He stepped into the library.
 
-With a single blow [[Sephire]] finally fell the creature and the whole room back to normal. Not for long WARGA LOKAL came to [[Sephire]] then they struck a conversation 
+The cold followed.
 
->*"What is happening ?"* ask WARGA LOKAL
->*"Seems like a Vampire Spawn is chasing after us"* said Sephire
->*"Then we must go now, it's not safe around here"* continue WARGA LOKAL
+[[Sephire]] drew on his divine sense. A humanoid undead — close. Very close. Somewhere in the dark between the shelves. He reached into his bag and confirmed the book was still there. It was.
 
-[[Sephire]] agree with that then they goes out of this place. But before he found a deck of many things and he draw a *Ruin* card a 1 time use [[disintegrate|Disintegrate]] Spell with DC 17. Then both of them goes out together.
+Then a voice came from above him, from somewhere on the wall of books itself:
 
-### Loudest Inn - Lower Cities - 74 Hours To Festival
+> _"You have something that are not supposed to be taken.... oh fool mortal!"_
 
-Two dead [[githyanki-mpmm|Githyanki]] on the floor of 2nd floor The Loudest Inn, [[Asep]] still can't believe what he had done while [[Froggo]] himself busy try to look something of value that the Githyanki left, he found a [[heavy-crossbow|Heavy Crossbow]] with [[alien-technology|Alien Technology]] to him. Still can't believe what happened [[Asep]] goes down to the first floor when [[Froggo]] still busy looking for something of value.
+A mummified figure lunged from the shelves.
 
-When Asep passes the inn main bar table Steven the Dwarf said to [[Asep]] 
->*"You done ? Here is your gold!"* said Steven
->*"Just give it to my friend"* said [[Asep]] while he going outside to cool down
+The fight was harder than the Ghouls had been. Whatever this creature was — a Vampire Spawn preserved past the point of recognition, its flesh long since dried to parchment over old bone — it had been here for a very long time and it fought like something that had been waiting for exactly this. [[Sephire]] held his ground, and when the creature began to weaken he pushed forward until it stilled.
 
-Followed by [[Froggo]] after he stow the [[heavy-crossbow|Heavy Crossbow]] while stepping down the stairs Steven notice it then a conversation struck
->*"What is wrong with your friend"* ask Steven
->*"Something heavy maybe"* shrug [[Froggo]] *"So is it okay that there are two dead bodies in the 2nd floor?"*
->*"Two dead bodies ??? What did you do boy ?"* Steven surprised by it
->*"You winking when we go up. We thought that it is okay"* said [[Froggo]]
->*"Well... It'll cost ya... 30 gold a piece. So if taken from your payment you will be having 40 gold left."* said Steven
->*"Ummm... there is also some arrows stuck in the area also of sword marks...."* said [[Froggo]] 
->*"Sword marked huh ? How many ?"* Steven asked not quite nice
->*"Ummm.... I think... 30 marks"* [[Froggo]] tried to remember
->*"30 ? Each will cost like 3 gold so the total is 90!!! Then you OWE ME 50 GOLD!!! "* said Steven
->*"How about if a bit at night. I'll help you remove the bodies, beside the big window in the 2nd floor there is a river right ? How about at night I'll help you remove the bodies so I don't need to pay 60 gold for it to be removed."* said [[Froggo]]
->*"Like that huh ? Okay... in 8 hours I expected you came here and clean up the mess you make!!!"* said Steven.
->*"Of Course... now I need to look for someone who knew about the Thieves..."* said [[Froggo]]
->*"Thieves huh ? I know someone who know someone who know someone.... He said that find 4 Lamp with Whale Oil and then there will be a guy waiting there, then say **Dimana ada cahaya rembulan, disitu kita berada**. I think that is that... **kita** or **kami** I forgot"* said Steven
->*"Whale Oil Lamp ?"* Said [[Froggo]] disbelieved.
->*"Yes, most of the lamp is magic. And only 4 of the lamp is using Whale Oil"* said Steven.
+But not before they spoke.
 
-After that [[Froggo]] said his piece and said that he will meet Steven 8 hours from now.
-Then [[Froggo]] met with [[Asep]] who seems distraught about what he does. [[Asep]] said to [[Froggo]] that he will try to reach [[Sephire]] to Castle Ravenloft so in here [[Froggo]], [[Kairos]] and [[Asep]] split up
+> _"My master tasked me to make sure nothing ever goes in and nothing ever goes out."_
 
-### Lower Cities - 72 Hours To Festival
+> _"I know your noble task, but so am I in a task to retrieve this book. If you allow this I will return it after I use it."_
 
-[[Froggo]] with [[Kairos]] tried to find 4 Whale Oil Lamppost. [[Froggo]] initiative to climb up a 2 stories building, while he climb up Vallaki patrol guard saw him ask what he is he doing climbing up a building [[Froggo]] tried his best bluffing the guards until the guards leaving him. For awhile [[Froggo]] tried to jump building to building but alas in the end he fell down, tis but a scratch he said then he found the 4th Lamppost and dead end on it only a wall while 3 others always leads to some roads. [[Froggo]] tried to check this wall, he found some kind of button on it and he pressed and there is a stairway with someone waiting for them, this particular someone asked [[Froggo]]
-> *"Who are we?"* Said someone.
-> *"Dimana ada cahaya rembulan, disitu kita berada"* said [[Froggo]]
-> *"You were sent by Steven ? I told him that it's **Dimana ada cahaya rembulan, disitu kami berada**. Oh well, next is our security perimeter I hopes that you can handle it since you already found us, so it might be easy for you."*
+> _"Your solution is not fitting, mortal. I already promised my master that I won't allow something goes out and something goes in."_
 
-[[Froggo]] & [[Kairos]] then entered the sewage in the Lower Cities.
+[[Sephire]] looked at the creature — a century of loyalty, desiccated and alone in an abandoned castle, still keeping a promise to someone who had not returned — and asked the only question that made sense to ask.
 
-### Vallaki's Main Gate - 68 Hours To Festival
+> _"Why do you keep doing this anyway? Isn't Strahd gone already? It's been centuries."_
 
-[[Asep]] tried to go to the main gate while [[disguise-self|Disguise Self]] as Vallaki Guard, he saw that the guard close the main gate then the Guard said
->*"Where are you going soldier ? The cities is in lockdown, nobody goes in and nobody goes out! We got order to sterilize the cities until the Festival"* said the senior looking guard
->*"Lockdown ?"* Asep suprised.
->*"You haven't heard ? Also where is your standard issues guard weapons ?"* asked the senior guard 
->*"Well... I am an artificer hence this is a weapon I made"* said [[Asep]]
->*"Well it is simply not allowed! You must get into the barrack then ask then requisite a standard issues equipment. NOW GO!!!"*
+> _"He still in here. He turned into a stone."_
 
-[[Asep]] goes into the barrack and pick a bed that still empty.
+Silence.
 
-### Vallaki's Castle - 68 Hours To Festival
+[[Sephire]] thought of the Deep Purple Netherese Stone sitting in [[HAWA]]'s safehouse. He thought of what [[Asep]] had deduced on the Pequod — that the Stone functioned like a [[commune|Commune]] spell, reaching toward a divine being. He thought of the book in his bag, titled _'Guide of Selune Bodies Manipulation.'_
 
-Royal carriage entering the Vallaki Castle vicinity, [[Minerva]] not alone in here she is with a Sword Swallower, Fire Eater, and A young ballerina woman with dark curl long hair. 
+> _"Which stone do you mean? Do you mean the stone that is deep in this castle?"_
 
-The coachman told the passenger that they all need go climb up the stairway to the main castle in there the guard will show them the way. The sword swallower confidently goes first followed by fire eater while the young ballerina woman is so afraid, the ballerina try to held [[Minerva]]'s hand and ask [[Minerva]] to go first and she follows behind her and [[Minerva]] said that okay the ballerina can follows [[Minerva]] at behind while holding her hands.
+The creature said nothing.
 
-The band approaching closely while climbing the Vallaki's Castle main stairs and on top of it the guard who call them "Fresh Products" write them in the manifest and [[Minerva]] tried to look the manifest paper and saw that there is another ballerina in there and already check marked much earlier than her band. The guards direct them to a door close to the side of the castle which lay a big window next to it and inside the band can see the party. After walking towards this door the band saw that this is the entertainer changing rooms a lot of entertainer men, woman changed in the rooms without caring left or right. [[Minerva]] herself layering any dress she found the uses her [[druidcraft]] to conjure her moon druid elegant dress while followed with curly dark hair ballerina they goes to a door that guarded by a big strong man, the man said that only [[Minerva]]can because she already changed into what customer expected while the Ballerina can't since her dress isn't the 'customer' wanted hence both of them try to find any dress for the ballerina and [[Minerva]] found out that the dress is so 'open' but [[Minerva]] uses her [[druidcraft]] to try her best to cover the dress and because there isn't any room [[Minerva]] uses her robes to cover the ballerina while she changed.
+Then it offered one more thing, unprompted — something that had clearly been sitting in it for a long time, the kind of information that accumulates weight when there is nobody to tell it to:
 
-After both of them changed into 'appropriate' dress. The big man who guard the door told them that [[Minerva]] is the one who can go in, since there is already another ballerina in there and he doesn't want to make the guest bored with too many ballerina. [[Minerva]] goes in and she welcomed by the elegant party filled with many entertainer, foods, and of course the guest who seems to be of high places. [[Minerva]] perform in the area and her performances attracts some guest but not for long the crown prince introduce himself by making sounds using fork and wine glass all of the guest focused on the crown prince.
+> _"Someone who has Strahd's bloodline also came here recently. A Dhampir."_
 
-The crown prince thanks the guest for coming, and if the guest likes the entertainer performances they can go direct to the entertainer to ask them for a 'show' and then he introduces [[HAWA]] the [[faerunian-selune-scag|Selûne]] cleric who currently in here to studies Barovia's moon and ask the guest if they would be so kind to be in any help to the crown prince's guest which is [[HAWA]]. 
+[[Sephire]] thought of WARGA LOKAL. Of the way he moved through Ravenloft like someone who knew where the walls were before he touched them.
 
-Not long [[HAWA]] locked her gaze towards [[Minerva]]. They both exchanges words and ask to [[Minerva]] to be with her to follows her into the Vallaki's Library which is in the castle and saying that someone from thieves guild were in here in the party and the private investigator [[Radovan Czeslav Voss]] also in here which is odd. Then [[HAWA]] mingle off.
+> _"You mean the pale man who was with me? How can that be? Did Strahd transfuse his blood to him?"_
 
-[[Minerva]] thinking what is actually going to happened in the party but not for long Adrianna came to her and they all exchanges words until [[Minerva]] ask what are Adrianna doing here and she answer with *"Everything that will happened here is for the benefits of the people of Barovia"*.
+> _"No... my master had a lover."_
 
+The creature said nothing more after that. It set its feet. [[Sephire]] set his.
 
-SESSION END.
+> _"So — mortal. Let us finish this. Our ideals and our promises have collided with each other."_
+
+One final exchange. [[Sephire]] struck last.
+
+The fog dissipated. The library returned to normal — dusty, silent, a hundred years of undisturbed knowledge surrounding one man standing over what remained of the most loyal creature in Barovia.
+
+WARGA LOKAL appeared in the doorway shortly after.
+
+> _"What happened?"_
+
+> _"Seems like a Vampire Spawn was after us."_
+
+> _"Then we must go now. It's not safe here."_
+
+[[Sephire]] agreed. But before he left he found something that hadn't been there before — or perhaps had always been there, waiting to be earned. A locked box beneath the bed in Strahd's private chamber. Old. Ornate. The lock yielded to his touch as if it recognized something in him.
+
+Inside: a [[03.PlayerLog&Handouts/Mechanics/CLI/items/deck-of-many-things|Deck of Many Things]]. Twelve cards. Ancient illustrations. And on the inside of the lid, in handwriting that hadn't been used in a century:
+
+_"For the guest who earns the right to leave."_
+
+WARGA LOKAL watched without comment as [[Sephire]] drew a single card.
+
+**The Ruin.**
+
+A one-time use [[disintegrate|Disintegrate]] spell — DC 17, stored in the card until [[Sephire]] chooses to spend it. The card crumbled the moment it was drawn. The box closed by itself. The rest of the deck was gone.
+
+They left the castle together as the first light touched the road back to Vallaki.
+
+---
+
+### Froggo, Kairos & Asep's Perspective — T=74.00 Hours to Festival
+
+Two dead [[githyanki-mpmm|Githyanki]] on the floor of the second floor of The Loudest Inn.
+
+[[Asep]] stared at what he had done. Not at the bodies specifically — at the fact of them. The Magic Missile had been instinct. Pressure and instinct and the wrong combination of both. He had sworn something once and it had survived every test until tonight and now it hadn't and the room smelled like ozone and copper and it was very quiet.
+
+He went downstairs without speaking.
+
+[[Froggo]], still moving through the room with the practical focus of someone who processes things later, found a [[heavy-crossbow|Heavy Crossbow]] among the Githyanki's equipment — engraved with alien geometric patterns, clearly not made in this plane. He stowed it and followed.
+
+At the bar, Steven the Dwarf waited with the particular patience of a man who has seen worse.
+
+> _"You done? Here is your gold."_
+
+[[Asep]] didn't look at it.
+
+> _"Just give it to my friend."_
+
+He walked outside.
+
+[[Froggo]] descended the stairs a moment later. Steven looked at the crossbow. Then up at [[Froggo]].
+
+> _"What's wrong with your friend?"_
+
+> _"Something heavy, maybe."_ A shrug. _"So — is it okay that there are two dead bodies in the second floor?"_
+
+> _"Two dead bodies??? What did you do, boy?"_
+
+> _"You were winking when we went up. We thought that was okay."_
+
+Steven's expression shifted into something more businesslike.
+
+> _"Well. It'll cost ya. Thirty gold a piece for removal. So taking it from your payment — you'll have forty gold left."_
+
+> _"There are also some arrows stuck in the walls. And sword marks."_
+
+> _"Sword marks. How many?"_
+
+> _"Around... thirty?"_
+
+> _"Thirty. Each one costs three gold. That's ninety. You OWE ME fifty gold."_
+
+[[Froggo]] considered this with the expression of someone doing arithmetic they don't like the result of. Then:
+
+> _"What if I help you remove the bodies myself? There's a river outside the big window on the second floor. Tonight, eight hours from now, I come back and we handle it together. No removal fee."_
+
+> _"...Like that, huh. Fine. Eight hours. You come back and clean the mess you made."_
+
+> _"Of course. Now — I need to find someone who knows about the Thieves Guild."_
+
+Steven studied him for a moment.
+
+> _"Thieves, huh. I know someone who knows someone who knows someone. Find four lampposts that burn on whale oil — not magic, whale oil — and there'll be someone waiting. Then you say: **Dimana ada cahaya rembulan, disitu kami berada.** I think it's_ kami _not_ kita. _One of those."_
+
+> _"Whale oil lamps?"_
+
+> _"Most lamps in this city are magical. Only four burn whale oil. Find them."_
+
+[[Froggo]] said his piece and left to find [[Asep]].
+
+[[Asep]] was outside, not cooling down exactly — just existing somewhere that wasn't the room. [[Froggo]] gave him the short version of what Steven said. [[Asep]] listened. Then he said that he was going to try to reach [[Sephire]] at Castle Ravenloft, that someone should.
+
+They parted ways at the intersection. [[Froggo]] went to find [[Kairos]]. [[Asep]] went toward the main gate.
+
+---
+
+### Asep's Perspective — T=68.00 Hours to Festival
+
+The main gate was closed.
+
+[[Asep]], still wearing his [[disguise-self|Disguise Self]] as a Vallaki guard, approached with the particular confidence of someone who has a plan and is about to discover the plan has a hole in it.
+
+> _"Where are you going, soldier? The city is in lockdown. Nobody goes in, nobody goes out. Orders are to sterilize the city until the Festival."_
+
+> _"Lockdown?"_
+
+> _"You haven't heard?"_ The senior guard looked at him more carefully. _"Where are your standard-issue weapons?"_
+
+> _"I am an artificer. This is a weapon I constructed myself."_
+
+> _"That is simply not allowed. Get to the barracks. Requisition standard-issue equipment. NOW GO."_
+
+[[Asep]] went to the barracks.
+
+He found an empty bed and lay down on it in a guard uniform that wasn't his, in a city he couldn't leave, having killed someone an hour ago with a spell he cast without thinking.
+
+The barracks were loud with guards preparing for Festival duty. Nobody looked at him twice.
+
+He stared at the ceiling.
+
+---
+
+### Froggo & Kairos's Perspective — T=72.00 Hours to Festival
+
+Four whale oil lampposts in a city where most lamps run on magic.
+
+[[Froggo]]'s approach was direct: climb a building, get a view of the street grid, look for the four that burned differently. A patrol guard saw him partway up and challenged him. [[Froggo]] talked his way past it with the particular confidence of someone who has no good explanation and commits to it anyway. The guard left unconvinced but unable to articulate why.
+
+[[Froggo]] jumped rooftops for a while. Then he fell. _Tis but a scratch_, and he had what he needed — the fourth lamppost, and the dead end wall beside it that every other lamppost led away from.
+
+He found the button. The wall opened. A stairway descended.
+
+Someone was waiting at the bottom.
+
+> _"Who are we?"_
+
+> _"Dimana ada cahaya rembulan, disitu kita berada."_
+
+A pause.
+
+> _"You were sent by Steven. I told him it's_ **kami** _not_ **kita***.* A sigh. _"Oh well. You found us, which means you can probably handle what comes next. Welcome to our security perimeter."_
+
+[[Froggo]] and [[Kairos]] entered the sewers beneath the Lower City.
+
+---
+
+### Minerva's Perspective — T=68.00 Hours to Festival
+
+The royal carriage arrived at Vallaki Castle as the evening settled.
+
+[[Minerva]] was not alone. With her: a sword swallower, a fire eater, and a young ballerina — dark curly hair, eyes too wide, holding herself the way people hold themselves when they're trying not to show they're frightened. The coachman told them to climb the main stairs. The guard at the top would direct them.
+
+The sword swallower went first. Confident. The fire eater followed. The ballerina reached for [[Minerva]]'s hand.
+
+She asked [[Minerva]] to walk first so she could follow close behind, holding on.
+
+[[Minerva]] said yes.
+
+At the top of the stairs a guard with a manifest wrote them down. He used a word for them that [[Minerva]] heard and filed away. _Fresh products._ She looked at the manifest and saw another ballerina already checked in — earlier in the evening, before their carriage arrived.
+
+They were directed to the entertainers' changing room. Inside: performers of various kinds changing without self-consciousness, costumes everywhere, the practical noise of people preparing to be looked at. [[Minerva]] used [[druidcraft]] to conjure her moon druid dress — elegant, appropriate, her own. The ballerina had nothing suitable.
+
+[[Minerva]] found her a dress from the rack. It was too open. She used [[druidcraft]] again to adjust it, and when there wasn't enough fabric she used her own robes to cover the girl while she changed.
+
+A large man guarded the door to the main hall. He looked at the ballerina and shook his head — there was already a ballerina inside, he didn't want to bore the guests with repetition. Only [[Minerva]] could go in.
+
+The ballerina's hand let go.
+
+[[Minerva]] went through the door.
+
+---
+
+The party was elegant in the way that expensive things are elegant — everything beautiful, nothing warm. Entertainers moved through the space performing for clusters of nobles who evaluated rather than watched. The attention in the room moved in a specific pattern that [[Minerva]] couldn't read yet but could feel.
+
+She performed. Stars filled the hall. Some guests drifted toward her, appreciative.
+
+Then the Crown Prince tapped his wine glass and the room focused.
+
+He thanked his guests. He gestured toward the entertainers and said that if anyone was pleased with a performance they were welcome to approach the entertainer directly to arrange a _show_. He said the word the way people say words that mean something else.
+
+Then he introduced [[HAWA]] — a Selûnite cleric studying Barovia's lunar patterns — and asked his guests to assist her research if they could.
+
+[[HAWA]] was already looking at [[Minerva]] by the time her name was spoken.
+
+They found a moment together in the movement of the party. [[HAWA]] spoke quickly and quietly:
+
+The Thieves Guild had an operative in this room. A private investigator named [[Radovan Czeslav Voss]] was also present — unusual, worth noting. She was going to the castle library. She wanted [[Minerva]] to come.
+
+Then she moved away into the crowd.
+
+[[Minerva]] stood in the middle of the party, in the middle of the stars she had summoned, and thought about what she had just walked into.
+
+Before she could move, Adrianna appeared at her side.
+
+Not the woman she had seen in the audience with gold-lined robes. The first Adrianna — the one from the Cabaret, the one who had supposedly gone home to Barovia City.
+
+She was here. She was watching the room with the specific, calibrated attention of someone who was not simply attending a party.
+
+[[Minerva]] asked her directly what she was doing here.
+
+Adrianna looked at her. Then at the room. Then back.
+
+> _"Everything that will happen here is for the benefit of the people of Barovia."_
+
+She didn't say anything else.
+
+**SESSION END.**
+
+---
+
 ## Key Learnings
 
-- Thieves Guild location is marked by 4 Whale Oil Lamppost
-	- When meet with someone in this area you must say the password:
-		- **Dimana ada cahaya rembulan, disitu kami berada**.
-	- The next area is the security perimeters made by Thieves Guild.
+- **Strahd von Zarovich turned into a stone.** The mummified creature in Ravenloft's library confirmed it directly. The Deep Purple Netherese Stone in [[HAWA]]'s possession may be his prison — or his anchor to this plane.
+- **[[ADAM|WARGA LOKAL]] is Strahd's son.** The creature revealed that Strahd had a lover. WARGA LOKAL is a Dhampir. The implication is direct. He has been maintaining his father's domain — alone — for a century.
+- **The Thieves Guild entrance is marked by four whale oil lampposts** in the Lower City. The password to gain access is:
+    - _**Dimana ada cahaya rembulan, disitu kami berada.**_
+    - Note: _kami_ not _kita_. Steven got it wrong.
+- **[[Froggo]] and [[Kairos]] have entered the Guild's security perimeter** beneath the Lower City sewers.
+- **[[Asep]] is embedded in Vallaki's guard barracks.** He cannot leave the city. He is currently inside the Festival's security apparatus without intending to be.
+- **[[Radovan Czeslav Voss]] was identified by [[HAWA]] as a private investigator** attending the Crown Prince's party. [[HAWA]] considers his presence unusual.
+- **Adrianna is inside Vallaki Castle** — not as an absentee but as an active operative. Her words to [[Minerva]] suggest she is working toward something that will resolve at the Festival.
 
-## Who Did They Met?
-[[Froggo]], [[Kairos]], [[Asep]]:
-- Steven the Dwarf of The Loudest Inn.
-[[Froggo]] & [[Kairos]]:
-- Thieves Guild's Dungeonkeeper
-[[Minerva]]:
-- Adrianna
-- [[HAWA]]
-- Young woman with curl long haired ballerina
-[[Sephire]]:
-- Mummified Vampire Spawn in Castle Ravenloft
+---
+
+## Who Did They Meet?
+
+**[[Sephire]]:**
+
+- A mummified Vampire Spawn — Strahd's personal guardian of the library. Destroyed.
 - [[ADAM|WARGA LOKAL]]
+
+**[[Froggo]] & [[Kairos]]:**
+
+- Steven the Dwarf, The Loudest Inn
+- The Thieves Guild Dungeonkeeper — at the base of the whale oil lamppost stairway
+
+**[[Asep]]:**
+
+- The senior gate guard — Vallaki main gate
+- Vallaki guard barracks, various guards (none suspicious of him yet)
+
+**[[Minerva]]:**
+
+- Alice — a young ballerina, dark curly hair, first-time attendee at the Crown Prince's private gathering. [[Minerva]] covered her with her robes while she changed. She was turned away at the door to the main hall.
+- [[HAWA]]
+- Adrianna — present at the Castle party, confirmed active, watching the room
+
+---
 
 ## Items of Importance
 
-- Ruin card from [[03.PlayerLog&Handouts/Mechanics/CLI/items/deck-of-many-things|Deck of Many Things]]
-	- (In this special case) A [[disintegrate|Disintegrate]] spell with DC 17 to a targeted creatures.
+- **[[03.PlayerLog&Handouts/Mechanics/CLI/items/deck-of-many-things|Deck of Many Things]] — The Ruin Card**
+    - Drawn by [[Sephire]] in Castle Ravenloft.
+    - One-time use [[disintegrate|Disintegrate]] spell, DC 17.
+    - The card crumbled upon drawing. The rest of the deck is gone.
+- **Githyanki-Engraved [[heavy-crossbow|Heavy Crossbow]] +1**
+    - Found by [[Froggo]] among the dead Githyanki's equipment.
+    - Alien geometric engravings. Not made in this plane.
 
-- Githyanki Engraving [[heavy-crossbow|Heavy Crossbow]] + 1
+---
 
 ## What Worked
